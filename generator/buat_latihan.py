@@ -20,7 +20,7 @@ from pptx.enum.shapes import MSO_SHAPE
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import desain as D  # noqa: E402
-from buat_materi import AKAR, TEMPLATE, ekspor_pdf, siapkan_presentasi  # noqa: E402
+from buat_materi import AKAR, TEMPLATE, TemplateTidakAda, ekspor_pdf, siapkan_presentasi  # noqa: E402
 from desain import P  # noqa: E402
 
 NAV_LATIHAN = ["Verbal", "Numerik", "Figural", "Kunci Jawaban"]
@@ -126,8 +126,8 @@ class PembangunLatihan:
 
     # sampul, peta, kunci, penutup -----------------------------------------
     def _latar(self, s):
-        foto = os.path.join(D.ASET, "latar_cover.png")
-        if not os.path.exists(foto):  # foto stok tidak ikut di repo; sampul tetap jadi tanpa foto
+        foto = D.LATAR_COVER
+        if not foto or not os.path.exists(foto):  # foto stok tidak ikut di repo; sampul tetap jadi tanpa foto
             return
         pic = D.gambar(s, foto, -2, 0, w=20, h=11.25, nama="Latar")
         D.opasitas_gambar(pic, 31)
@@ -509,7 +509,10 @@ def main(argv=None):
     with open(a.naskah, encoding="utf-8") as f:
         naskah = json.load(f)
     os.makedirs(a.keluar, exist_ok=True)
-    prs = siapkan_presentasi(a.template)
+    try:
+        prs = siapkan_presentasi(a.template)
+    except TemplateTidakAda as e:
+        sys.exit(str(e))
     b = PembangunLatihan(prs, naskah, os.path.dirname(os.path.abspath(a.naskah)))
     b.bangun()
     nama = naskah["meta"]["nama_file"]

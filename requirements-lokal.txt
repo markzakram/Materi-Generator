@@ -1,0 +1,4 @@
+# Semua alat di Windows lokal: ekspor PDF, pemeriksaan, dan ekstraksi soal
+-r requirements.txt
+PyMuPDF>=1.26
+pywin32>=306; sys_platform == "win32"

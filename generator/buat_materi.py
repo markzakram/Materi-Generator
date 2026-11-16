@@ -38,10 +38,15 @@ TEMA_WARNA = {
 
 
 # ------------------------------------------------------ persiapan file ---
+class TemplateTidakAda(FileNotFoundError):
+    pass
+
+
 def siapkan_presentasi(path_template):
-    if not os.path.exists(path_template):
-        sys.exit(f"Template tidak ditemukan: {path_template}\n"
-                 "Salin 'Template Desain Materi.pptx' ke folder akar proyek atau pakai --template.")
+    if not path_template or not os.path.exists(path_template):
+        raise TemplateTidakAda(
+            f"Template tidak ditemukan: {path_template}\n"
+            "Salin 'Template Desain Materi.pptx' ke folder akar proyek atau pakai --template.")
     prs = Presentation(path_template)
     daftar = prs.slides._sldIdLst
     for sid in list(daftar):
@@ -146,8 +151,8 @@ class Pembangun:
                jangkar="m", nama="Judul besar")
 
     def _latar(self, s):
-        foto = os.path.join(D.ASET, "latar_cover.png")
-        if not os.path.exists(foto):  # foto stok tidak ikut di repo; sampul tetap jadi tanpa foto
+        foto = D.LATAR_COVER
+        if not foto or not os.path.exists(foto):  # foto stok tidak ikut di repo; sampul tetap jadi tanpa foto
             return
         pic = D.gambar(s, foto, -2, 0, w=20, h=11.25, nama="Latar")
         D.opasitas_gambar(pic, 31)
@@ -319,6 +324,18 @@ def ekspor_pdf(path_pptx, path_pdf):
             app.Quit()
 
 
+def nama_file(konten):
+    return konten["meta"].get("nama_file") or konten["meta"]["judul"]
+
+
+def buat_deck(konten, path_template=TEMPLATE):
+    """Bangun deck dari naskah (dict). Hasil: (Presentation, Pembangun)."""
+    prs = siapkan_presentasi(path_template)
+    b = Pembangun(prs, konten)
+    b.bangun()
+    return prs, b
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Buat materi PPTX/PDF dari naskah JSON.")
     ap.add_argument("naskah", help="Path file naskah .json")
@@ -329,12 +346,13 @@ def main(argv=None):
 
     with open(arg.naskah, encoding="utf-8") as f:
         konten = json.load(f)
-    nama = konten["meta"].get("nama_file") or konten["meta"]["judul"]
+    nama = nama_file(konten)
     os.makedirs(arg.keluar, exist_ok=True)
 
-    prs = siapkan_presentasi(arg.template)
-    b = Pembangun(prs, konten)
-    b.bangun()
+    try:
+        prs, b = buat_deck(konten, arg.template)
+    except TemplateTidakAda as e:
+        sys.exit(str(e))
     for w in b.peringatan:
         print("PERINGATAN:", w)
 

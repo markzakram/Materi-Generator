@@ -6,6 +6,9 @@ venv/
 .env
 .env.*
 
+# Vercel CLI
+.vercel/
+
 # File kunci/sementara Office dan Windows
 ~$*
 *.tmp

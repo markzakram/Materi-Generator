@@ -10,6 +10,7 @@ Markup teks kaya yang didukung di naskah:
 """
 from __future__ import annotations
 
+import json
 import os
 import re
 from functools import lru_cache
@@ -23,6 +24,9 @@ from pptx.oxml.ns import qn
 from pptx.util import Emu, Inches, Pt
 
 ASET = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
+# Foto latar sampul (tidak ikut di repo). Aplikasi web boleh menimpanya dengan
+# path hasil unduhan; jika berkasnya tidak ada, sampul dibuat tanpa foto.
+LATAR_COVER = os.path.join(ASET, "latar_cover.png")
 
 # ---------------------------------------------------------------- token ---
 LEBAR_SLIDE, TINGGI_SLIDE = 16.0, 11.25
@@ -74,18 +78,36 @@ def ikon_path(nama: str) -> str:
 
 
 # ------------------------------------------------------- pengukur teks ---
+# Layout dasar dipaksa agar hasil ukur sama di Windows dan Linux (Pillow di
+# Linux bisa memakai raqm yang menerapkan kerning GPOS).
+_LAYOUT = ImageFont.Layout.BASIC
 _FONT_FILE = {
-    (False, False): os.path.join(ASET, "fonts", "Poppins-Regular.ttf"),
-    (True, False): os.path.join(ASET, "fonts", "Poppins-Bold.ttf"),
+    False: os.path.join(ASET, "fonts", "Poppins-Regular.ttf"),
+    True: os.path.join(ASET, "fonts", "Poppins-Bold.ttf"),
 }
-_CAMBRIA = "C:/Windows/Fonts/cambria.ttc"
+# Cambria Math tidak boleh ikut di repo dan tidak ada di server Linux, jadi yang
+# dipakai tabel lebarnya (lihat buat_metrik_rumus.py).
+_METRIK_RUMUS = os.path.join(ASET, "metrik_cambria_math.json")
 
 
 @lru_cache(maxsize=None)
-def _ft(bold: bool, rumus: bool):
-    if rumus:
-        return ImageFont.truetype(_CAMBRIA, 400, index=1)
-    return ImageFont.truetype(_FONT_FILE[(bold, False)], 400)
+def _ft(bold: bool):
+    return ImageFont.truetype(_FONT_FILE[bold], 400, layout_engine=_LAYOUT)
+
+
+@lru_cache(maxsize=None)
+def _metrik_rumus():
+    with open(_METRIK_RUMUS, encoding="utf-8") as f:
+        m = json.load(f)
+    return m["lebar"], m["kern"], m["notdef"], m["ukuran"]
+
+
+def _lebar_rumus(teks: str) -> float:
+    """Lebar teks Cambria Math dalam px pada ukuran 400 (sama dengan Pillow)."""
+    lebar, kern, notdef, ukuran = _metrik_rumus()
+    w = sum(lebar.get(ch, notdef) for ch in teks)
+    w += sum(kern.get(a + b, 0.0) for a, b in zip(teks, teks[1:]))
+    return w * 400.0 / ukuran
 
 
 @lru_cache(maxsize=None)
@@ -93,7 +115,7 @@ def ada_glyph_poppins(ch: str) -> bool:
     """True jika Poppins punya glyph untuk karakter ini."""
     if ch.isspace() or ord(ch) < 0x250:
         return True
-    ft = ImageFont.truetype(_FONT_FILE[(False, False)], 40)
+    ft = ImageFont.truetype(_FONT_FILE[False], 40, layout_engine=_LAYOUT)
 
     def gambar(c):
         im = Image.new("L", (60, 60), 0)
@@ -106,7 +128,8 @@ def ada_glyph_poppins(ch: str) -> bool:
 def lebar_pt(teks: str, ukuran: float, tebal=False, rumus=False) -> float:
     if not teks:
         return 0.0
-    return _ft(bool(tebal) and not rumus, rumus).getlength(teks) * ukuran / 400.0
+    w = _lebar_rumus(teks) if rumus else _ft(bool(tebal)).getlength(teks)
+    return w * ukuran / 400.0
 
 
 def kutip_lengkung(teks: str) -> str:

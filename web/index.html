@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Materi Generator</title>
+<style>
+@font-face { font-family: "Poppins"; src: url("/font/Poppins-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("/font/Poppins-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+
+:root {
+  --cyan: #00AEEF; --deep: #004B66; --teal: #0A6486; --sage: #CFE2BE;
+  --bg: #F4F9FC; --kartu: #FFFFFF; --teks: #364D61; --redup: #5F7385;
+  --garis: #D3E0E8; --tint: #EAF6FB; --aksen: #0A6486; --aksen-teks: #FFFFFF;
+  --ok-bg: #E7F3DD; --ok: #2F6A1F; --amber-bg: #FFF4E0; --amber: #8A5A00;
+  --galat-bg: #FDECEC; --galat: #A3262A; --fokus: #00AEEF;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0B1B24; --kartu: #12293A; --teks: #E3EEF4; --redup: #9DB4C3;
+    --garis: #24445A; --tint: #173548; --aksen: #00AEEF; --aksen-teks: #03202C;
+    --ok-bg: #1C3A22; --ok: #A9D99A; --amber-bg: #3A2D12; --amber: #F7C877;
+    --galat-bg: #3D1B1D; --galat: #F3A6A8;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0B1B24; --kartu: #12293A; --teks: #E3EEF4; --redup: #9DB4C3;
+  --garis: #24445A; --tint: #173548; --aksen: #00AEEF; --aksen-teks: #03202C;
+  --ok-bg: #1C3A22; --ok: #A9D99A; --amber-bg: #3A2D12; --amber: #F7C877;
+  --galat-bg: #3D1B1D; --galat: #F3A6A8;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--teks);
+  font: 400 15px/1.6 "Poppins", system-ui, sans-serif;
+}
+.pita { height: 6px; background: linear-gradient(90deg, var(--cyan), var(--deep)); }
+main { max-width: 880px; margin: 0 auto; padding: 32px 16px 56px; }
+header h1 { margin: 0; font-size: 28px; line-height: 1.2; font-weight: 700; color: var(--teks); }
+header p { margin: 6px 0 0; color: var(--redup); }
+
+.status { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px;
+  font-size: 13px; background: var(--tint); color: var(--teks); border: 1px solid var(--garis); }
+.chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--redup); }
+.chip.ok::before { background: #3FA33A; }
+.chip.peringatan::before { background: #F7A93B; }
+.chip.galat::before { background: #D9434A; }
+
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 20px; align-items: start; }
+@media (max-width: 760px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.kartu { background: var(--kartu); border: 1px solid var(--garis); border-radius: 14px; padding: 22px; }
+.kartu h2 { margin: 0 0 12px; font-size: 16px; font-weight: 700; }
+
+.drop { display: block; border: 2px dashed var(--garis); border-radius: 12px; padding: 28px 16px;
+  text-align: center; cursor: pointer; background: var(--tint); transition: border-color .15s, background .15s; }
+.drop:hover, .drop.aktif { border-color: var(--cyan); }
+.drop:focus-within { outline: 3px solid var(--fokus); outline-offset: 2px; }
+.drop strong { display: block; font-size: 16px; }
+.drop span { color: var(--redup); font-size: 13px; }
+.drop input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+
+.ringkas { margin-top: 16px; display: none; }
+.ringkas.tampil { display: block; }
+.ringkas dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; margin: 0; font-size: 14px; }
+.ringkas dt { color: var(--redup); }
+.ringkas dd { margin: 0; overflow-wrap: anywhere; }
+
+button.utama { margin-top: 18px; width: 100%; padding: 12px 16px; border: 0; border-radius: 10px;
+  background: var(--aksen); color: var(--aksen-teks); font: 700 15px/1.2 "Poppins", system-ui, sans-serif; cursor: pointer; }
+button.utama:disabled { opacity: .45; cursor: not-allowed; }
+button.utama:focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; }
+
+.pesan { margin-top: 16px; padding: 12px 14px; border-radius: 10px; font-size: 14px; display: none; }
+.pesan.tampil { display: block; }
+.pesan.ok { background: var(--ok-bg); color: var(--ok); }
+.pesan.galat { background: var(--galat-bg); color: var(--galat); }
+.pesan.proses { background: var(--tint); color: var(--teks); }
+.pesan a { color: inherit; font-weight: 700; }
+.daftar-peringatan { margin-top: 12px; padding: 12px 14px; border-radius: 10px; background: var(--amber-bg);
+  color: var(--amber); font-size: 13px; display: none; }
+.daftar-peringatan.tampil { display: block; }
+.daftar-peringatan ul { margin: 6px 0 0; padding-left: 18px; }
+
+aside .kartu + .kartu { margin-top: 16px; }
+aside p { margin: 0 0 10px; font-size: 14px; }
+aside a { color: var(--aksen); font-weight: 700; }
+code { font-family: ui-monospace, Consolas, monospace; font-size: 12.5px; background: var(--tint);
+  padding: 2px 6px; border-radius: 6px; overflow-wrap: anywhere; }
+pre { margin: 0; padding: 10px 12px; background: var(--tint); border-radius: 8px; font-size: 12.5px;
+  white-space: pre-wrap; overflow-wrap: anywhere; }
+pre code { padding: 0; background: none; }
+</style>
+</head>
+<body>
+<div class="pita" aria-hidden="true"></div>
+<main>
+  <header>
+    <h1>Materi Generator</h1>
+    <p>Ubah naskah materi (JSON) menjadi deck PPTX sesuai template desain.</p>
+  </header>
+
+  <div class="status" id="status" aria-live="polite">
+    <span class="chip" id="chip-template">Memeriksa template…</span>
+    <span class="chip" id="chip-cover">Foto sampul…</span>
+  </div>
+
+  <div class="grid">
+    <section class="kartu">
+      <h2>Naskah</h2>
+      <label class="drop" id="drop">
+        <input type="file" id="berkas" accept=".json,application/json">
+        <strong>Pilih berkas naskah .json</strong>
+        <span>atau tarik berkasnya ke sini</span>
+      </label>
+
+      <div class="ringkas" id="ringkas">
+        <dl>
+          <dt>Berkas</dt><dd id="r-berkas"></dd>
+          <dt>Judul</dt><dd id="r-judul"></dd>
+          <dt>Subtes</dt><dd id="r-subtes"></dd>
+          <dt>Materi</dt><dd id="r-materi"></dd>
+        </dl>
+      </div>
+
+      <button class="utama" id="tombol" disabled>Buat PPTX</button>
+      <div class="pesan" id="pesan" role="status"></div>
+      <div class="daftar-peringatan" id="peringatan"></div>
+    </section>
+
+    <aside>
+      <div class="kartu">
+        <h2>Contoh naskah</h2>
+        <p>Struktur lengkap ada di naskah contoh TIU Penalaran Logis.</p>
+        <p><a href="/api/contoh">Unduh contoh naskah</a></p>
+      </div>
+      <div class="kartu">
+        <h2>Butuh PDF?</h2>
+        <p>PDF diekspor oleh PowerPoint, jadi dibuat di komputer Windows:</p>
+        <pre><code>python generator/buat_materi.py naskah.json --format pdf</code></pre>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  let berkas = null;
+
+  function chip(el, kelas, teks) {
+    el.className = "chip " + kelas;
+    el.textContent = teks;
+  }
+
+  fetch("/api/status").then((r) => r.json()).then((s) => {
+    if (s.template && s.template.siap) chip($("chip-template"), "ok", "Template siap");
+    else chip($("chip-template"), "galat", (s.template && s.template.pesan) || "Template belum siap");
+    if (s.cover) chip($("chip-cover"), "ok", "Foto sampul ada");
+    else chip($("chip-cover"), "peringatan", s.cover_pesan ? "Foto sampul gagal diunduh" : "Sampul tanpa foto");
+  }).catch(() => {
+    chip($("chip-template"), "galat", "Status server tidak terbaca");
+    $("chip-cover").remove();
+  });
+
+  function tampilPesan(kelas, isi) {
+    const el = $("pesan");
+    el.className = "pesan tampil " + kelas;
+    el.replaceChildren(...(Array.isArray(isi) ? isi : [isi]));
+  }
+
+  function tampilPeringatan(daftar) {
+    const el = $("peringatan");
+    if (!daftar.length) { el.className = "daftar-peringatan"; el.replaceChildren(); return; }
+    const ul = document.createElement("ul");
+    daftar.forEach((p) => { const li = document.createElement("li"); li.textContent = p; ul.append(li); });
+    el.replaceChildren(document.createTextNode(`${daftar.length} peringatan tata letak (cek slide ini di PowerPoint):`), ul);
+    el.className = "daftar-peringatan tampil";
+  }
+
+  async function pilih(file) {
+    berkas = null;
+    $("tombol").disabled = true;
+    $("ringkas").className = "ringkas";
+    tampilPeringatan([]);
+    if (!file) return;
+    let naskah;
+    try {
+      naskah = JSON.parse((await file.text()).replace(/^﻿/, ""));
+    } catch (e) {
+      tampilPesan("galat", `${file.name} bukan JSON yang valid: ${e.message}`);
+      return;
+    }
+    if (!naskah || typeof naskah !== "object" || typeof naskah.meta !== "object" || !naskah.meta) {
+      tampilPesan("galat", `${file.name} tidak punya bagian "meta". Bandingkan dengan contoh naskah.`);
+      return;
+    }
+    const materi = Array.isArray(naskah.materi) ? naskah.materi : [];
+    const slideMateri = materi.reduce((n, m) => n + (Array.isArray(m.slide) ? m.slide.length : 0), 0);
+    $("r-berkas").textContent = `${file.name} (${(file.size / 1024).toFixed(1)} KB)`;
+    $("r-judul").textContent = naskah.meta.judul || "—";
+    $("r-subtes").textContent = naskah.meta.subtes || "—";
+    $("r-materi").textContent = `${materi.length} subbab, ${slideMateri} slide isi`;
+    $("ringkas").className = "ringkas tampil";
+    $("pesan").className = "pesan";
+    berkas = file;
+    $("tombol").disabled = false;
+  }
+
+  function namaUnduhan(header) {
+    const m = /filename\*=UTF-8''([^;]+)/i.exec(header || "") || /filename="?([^";]+)"?/i.exec(header || "");
+    return m ? decodeURIComponent(m[1]) : "materi.pptx";
+  }
+
+  async function buat() {
+    if (!berkas) return;
+    $("tombol").disabled = true;
+    tampilPeringatan([]);
+    tampilPesan("proses", "Membuat deck…");
+    try {
+      const fd = new FormData();
+      fd.append("naskah", berkas, berkas.name);
+      const r = await fetch("/api/materi", { method: "POST", body: fd });
+      if (!r.ok) {
+        let pesan = `Gagal (${r.status}).`;
+        const teks = await r.text();
+        try { pesan = JSON.parse(teks).galat || pesan; } catch { if (teks) pesan = teks; }
+        tampilPesan("galat", pesan);
+        return;
+      }
+      const blob = await r.blob();
+      const nama = namaUnduhan(r.headers.get("Content-Disposition"));
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url; a.download = nama; a.textContent = "Unduh lagi";
+      document.body.append(a); a.click(); a.remove();
+      const ulang = a.cloneNode(true);
+      const slide = r.headers.get("X-Jumlah-Slide");
+      tampilPesan("ok", [document.createTextNode(`${nama}: ${slide} slide, ${(blob.size / 1024).toFixed(0)} KB. `), ulang]);
+      let peringatan = [];
+      try { peringatan = JSON.parse(decodeURIComponent(r.headers.get("X-Peringatan") || "%5B%5D")); } catch {}
+      tampilPeringatan(peringatan);
+    } catch (e) {
+      tampilPesan("galat", `Tidak bisa menghubungi server: ${e.message}`);
+    } finally {
+      $("tombol").disabled = !berkas;
+    }
+  }
+
+  $("berkas").addEventListener("change", (e) => pilih(e.target.files[0]));
+  $("tombol").addEventListener("click", buat);
+  const drop = $("drop");
+  ["dragenter", "dragover"].forEach((t) => drop.addEventListener(t, (e) => { e.preventDefault(); drop.classList.add("aktif"); }));
+  ["dragleave", "drop"].forEach((t) => drop.addEventListener(t, () => drop.classList.remove("aktif")));
+  drop.addEventListener("drop", (e) => { e.preventDefault(); if (e.dataTransfer.files[0]) pilih(e.dataTransfer.files[0]); });
+})();
+</script>
+</body>
+</html>

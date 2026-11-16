@@ -1,5 +1,5 @@
+# Generator PPTX + aplikasi web (dipasang juga oleh Vercel)
 python-pptx>=1.0.2
-PyMuPDF>=1.26
 Pillow>=9.4
 lxml>=4.9
-pywin32>=306; sys_platform == "win32"
+Flask>=3.0

@@ -1,0 +1,18 @@
+# Jangan unggah aset dan konten milik Cerebrum saat deploy lewat Vercel CLI.
+# Template dan foto sampul diambil dari MATERI_TEMPLATE_URL / MATERI_COVER_URL.
+/*.pptx
+/*.potx
+/*.pdf
+generator/assets/latar_cover.png
+konten/latihan_*.json
+konten/gambar/
+output/
+
+# Lingkungan lokal
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.claude/

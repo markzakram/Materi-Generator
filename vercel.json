@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{output/**,konten/gambar/**,konten/latihan_*.json,generator/ekstrak_soal.py,generator/periksa.py,generator/buat_metrik_rumus.py,generator/label_rumus.json,generator/assets/*.svg,README.md}"
+    }
+  }
+}
