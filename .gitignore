@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# File kunci/sementara Office dan Windows
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+
+# Hasil generate (deck, PDF, pratinjau)
+output/
+
+# Aset milik perusahaan: template desain dan foto stok sampul
+/*.pptx
+/*.potx
+/*.pdf
+generator/assets/latar_cover.png
+
+# Konten soal tryout (soal + pembahasan + figur) milik Cerebrum
+konten/latihan_*.json
+konten/gambar/

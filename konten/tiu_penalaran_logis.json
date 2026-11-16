@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "judul": "Penalaran Logis",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Penalaran Logis",
+    "sumber": "Pembahasan soal 1-5 TIU Paket 1 dan Paket 2 (Latihan SKD CPNS 2027)"
+  },
+
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "aktif": 0,
+    "kartu": [
+      { "judul": "Penalaran Logis", "deskripsi": "Premis, silogisme, dan penarikan kesimpulan", "ikon": "checklist" },
+      { "judul": "Verbal & Analitis", "deskripsi": "Analogi kata, kekuatan argumen, susunan posisi", "ikon": "strategi" },
+      { "judul": "Berhitung & Aljabar", "deskripsi": "Operasi hitung, bentuk setara, sifat bilangan", "ikon": "grafik" },
+      { "judul": "Soal Cerita & Tabel", "deskripsi": "Perbandingan, geometri, tabel pernyataan", "ikon": "globe" },
+      { "judul": "Deret & Pola", "deskripsi": "Deret angka, matriks deret, pola bilangan tabel", "ikon": "roket" },
+      { "judul": "Figural", "deskripsi": "Analogi, ketidaksamaan, serial, dan matriks gambar", "ikon": "strategi" }
+    ]
+  },
+
+  "pendahuluan": {
+    "paragraf": [
+      "Penalaran logis menguji kemampuan menarik kesimpulan yang **pasti benar** dari beberapa pernyataan (premis). Yang dinilai bukan pengetahuan umum, melainkan ketepatan mengikuti hubungan antarpernyataan.",
+      "Pada dua paket latihan TIU yang menjadi acuan materi ini, 5 dari 35 soal (nomor 1–5) berbentuk premis, baik berupa simbol maupun narasi panjang. Soal-soal ini berada di level menerapkan (C3) hingga menganalisis (C4), sehingga cara kerja yang runtut lebih menentukan daripada kecepatan membaca."
+    ],
+    "pemantik": "Jika berkas Dina lolos verifikasi, berkas itu diberi kode arsip. Ternyata berkas Dina tidak diberi kode arsip. Apa yang pasti benar tentang berkas Dina?",
+    "ikon": "presenter"
+  },
+
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      { "level": "C2", "kko": "Menerjemahkan", "teks": "pernyataan narasi ke dalam simbol logika $¬$, $∧$, $∨$, dan $→$." },
+      { "level": "C3", "kko": "Menerapkan", "teks": "hukum implikasi, kontraposisi, dan De Morgan untuk mengubah bentuk premis." },
+      { "level": "C3", "kko": "Menerapkan", "teks": "modus ponens, modus tollens, silogisme, dan silogisme disjungtif untuk menarik kesimpulan." },
+      { "level": "C4", "kko": "Menganalisis", "teks": "rangkaian tiga premis dan membedakan kesimpulan yang sah dari pola pengecoh pada opsi." }
+    ]
+  },
+
+  "materi": [
+    {
+      "subbab": "Simbol Logika",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "tabel",
+          "judul": "Empat Lambang yang Sering Dipakai",
+          "pengantar": "Setiap pernyataan tunggal diberi huruf p, q, atau r. Hubungan antarpernyataan ditulis dengan lambang berikut.",
+          "kolom": ["Lambang", "Dibaca", "Bernilai benar ketika"],
+          "lebar": [2.2, 3.2, 5.6],
+          "baris": [
+            ["$¬p$", "tidak p, bukan p", "p salah"],
+            ["$p ∧ q$", "p dan q", "kedua bagian benar"],
+            ["$p ∨ q$", "p atau q", "minimal satu bagian benar"],
+            ["$p → q$", "jika p, maka q", "selalu, kecuali p benar tetapi q salah"]
+          ],
+          "catatan": { "jenis": "tips", "teks": "Kata **atau** dalam soal TIU dibaca inklusif: kedua bagian boleh sama-sama benar." }
+        },
+        {
+          "tipe": "tabel",
+          "judul": "Menerjemahkan Narasi ke Simbol",
+          "pengantar": "Soal narasi jarang memakai kata \"jika … maka\". Kenali ungkapan yang maknanya sama.",
+          "kolom": ["Ungkapan dalam soal", "Bentuk simbol"],
+          "lebar": [7.4, 3.6],
+          "baris": [
+            ["X **dengan status A** memiliki B", "$A → B$"],
+            ["X yang A **tercakup dalam** kelompok B", "$A → B$"],
+            ["X yang A **berada di luar** kelompok B", "$A → ¬B$"],
+            ["Pemeriksaan memperlihatkan X **tidak tercantum** di A", "$¬A$ (fakta)"],
+            ["**Tidak benar bahwa** A dan B", "$¬(A ∧ B)$"]
+          ],
+          "catatan": { "jenis": "peringatan", "teks": "Kalimat yang melaporkan hasil pemeriksaan adalah **premis fakta**, bukan aturan. Fakta inilah titik awal penarikan kesimpulan." }
+        },
+        {
+          "tipe": "tabel_kebenaran",
+          "judul": "Kapan Implikasi Bernilai Salah",
+          "pengantar": "Implikasi $p → q$ hanya salah pada satu keadaan: p benar, tetapi q salah.",
+          "keterangan": "B = benar, S = salah",
+          "kolom": ["$p$", "$q$", "$p ∧ q$", "$p ∨ q$", "$p → q$"],
+          "baris": [
+            ["B", "B", "B", "B", "B"],
+            ["B", "S", "S", "B", "S"],
+            ["S", "B", "S", "B", "B"],
+            ["S", "S", "S", "S", "B"]
+          ],
+          "sorot": [1, 4],
+          "catatan": { "jenis": "peringatan", "teks": "Jika p salah, $p → q$ tetap benar, baik q benar maupun salah. Karena itu, fakta $¬p$ tidak dapat memastikan nilai q." }
+        }
+      ]
+    },
+    {
+      "subbab": "Hukum Ekuivalensi",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "banding",
+          "judul": "Bentuk Setara Implikasi",
+          "pengantar": "Dua pernyataan setara ($≡$) jika nilai kebenarannya selalu sama. Ubah premis ke bentuk setara agar bisa dirangkai.",
+          "kartu": [
+            {
+              "judul": "Setara dengan $p → q$",
+              "warna": "teal",
+              "baris": [
+                ["$¬q → ¬p$", "Kontraposisi"],
+                ["$¬p ∨ q$", "Hukum implikasi"]
+              ]
+            },
+            {
+              "judul": "Tidak setara dengan $p → q$",
+              "warna": "slate",
+              "baris": [
+                ["$q → p$", "Konvers: arah dibalik"],
+                ["$¬p → ¬q$", "Invers: kedua ruas disangkal"]
+              ]
+            }
+          ],
+          "catatan": { "jenis": "tips", "teks": "Bentuk \"atau\" bisa diubah menjadi implikasi dengan menyangkal ruas kiri: $q ∨ ¬r ≡ ¬q → ¬r$." }
+        },
+        {
+          "tipe": "notasi",
+          "judul": "Hukum De Morgan",
+          "pengantar": "Menyangkal gabungan: sangkal setiap bagian, lalu tukar kata hubungnya.",
+          "baris": [
+            { "rumus": "$¬(p ∧ q) ≡ ¬p ∨ ¬q$", "ket": "\"Tidak benar bahwa p dan q\" berarti \"tidak p **atau** tidak q\"." },
+            { "rumus": "$¬(p ∨ q) ≡ ¬p ∧ ¬q$", "ket": "\"Tidak benar bahwa p atau q\" berarti \"tidak p **dan** tidak q\"." }
+          ],
+          "ilustrasi": {
+            "kiri": "Tidak benar bahwa laporan disetujui dan laporan diarsipkan.",
+            "kanan": "Laporan tidak disetujui atau laporan tidak diarsipkan."
+          },
+          "catatan": { "jenis": "tips", "teks": "Hasil De Morgan pada \"dan\" berbentuk \"atau\", sehingga langsung siap dipakai untuk silogisme disjungtif." }
+        }
+      ]
+    },
+    {
+      "subbab": "Aturan Penarikan Kesimpulan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "kartu",
+          "judul": "Empat Pola Kesimpulan yang Sah",
+          "pengantar": "Setiap pola memerlukan pasangan premis tertentu. Jika pasangannya cocok, kesimpulannya pasti benar.",
+          "kolom": 2,
+          "kartu": [
+            { "judul": "Modus Ponens", "rumus": "$p → q,  p  ∴  q$", "isi": "Fakta membenarkan anteseden, maka konsekuen benar." },
+            { "judul": "Modus Tollens", "rumus": "$p → q,  ¬q  ∴  ¬p$", "isi": "Fakta menyangkal konsekuen, maka anteseden salah." },
+            { "judul": "Silogisme", "rumus": "$p → q,  q → r  ∴  p → r$", "isi": "Dua implikasi yang bersambung digabung menjadi satu." },
+            { "judul": "Silogisme Disjungtif", "rumus": "$p ∨ q,  ¬p  ∴  q$", "isi": "Satu ruas \"atau\" ditolak, ruas lainnya pasti benar." }
+          ]
+        },
+        {
+          "tipe": "tabel",
+          "judul": "Memilih Aturan dari Premis Fakta",
+          "pengantar": "Premis fakta adalah pernyataan tunggal tanpa syarat. Bandingkan fakta itu dengan premis lain untuk menentukan aturannya.",
+          "kolom": ["Premis aturan", "Premis fakta", "Aturan", "Kesimpulan"],
+          "lebar": [2.6, 2.6, 3.4, 3.4],
+          "baris": [
+            ["$p → q$", "$p$", "Modus ponens", "$q$"],
+            ["$p → q$", "$¬q$", "Modus tollens", "$¬p$"],
+            ["$p ∨ q$", "$¬p$", "Silogisme disjungtif", "$q$"],
+            ["$p → q$", "$¬p$ atau $q$", "Tidak ada", "Tidak dapat disimpulkan"]
+          ],
+          "catatan": { "jenis": "tips", "teks": "Tidak ada premis fakta? Rangkai implikasi yang bersambung dengan silogisme. Hasilnya berupa implikasi baru, bukan fakta." }
+        },
+        {
+          "tipe": "alur",
+          "judul": "Merangkai Tiga Premis",
+          "pengantar": "Gabungkan dua premis lebih dulu, lalu pakai hasilnya bersama premis ketiga.",
+          "premis": [
+            { "label": "Premis 1", "teks": "Jika berkas Dina lolos verifikasi, berkas itu diberi kode arsip.", "rumus": "$p → q$" },
+            { "label": "Premis 2", "teks": "Jika berkas Dina diberi kode arsip, berkas itu masuk lemari arsip.", "rumus": "$q → r$" },
+            { "label": "Premis 3", "teks": "Berkas Dina lolos verifikasi.", "rumus": "$p$" }
+          ],
+          "langkah": [
+            { "label": "Langkah 1", "teks": "Premis 1 + 2 dengan silogisme", "rumus": "$p → r$" },
+            { "label": "Langkah 2", "teks": "Hasil langkah 1 + premis 3 dengan modus ponens", "rumus": "$r$" },
+            { "label": "Kesimpulan", "teks": "Berkas Dina masuk lemari arsip." }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jebakan Penalaran",
+      "ikon": "peringatan",
+      "slide": [
+        {
+          "tipe": "kartu",
+          "judul": "Dua Penalaran yang Tidak Sah",
+          "pengantar": "Kedua pola ini terdengar masuk akal, tetapi kesimpulannya bisa salah walaupun semua premis benar.",
+          "kolom": 2,
+          "kartu": [
+            { "judul": "Menyangkal anteseden", "rumus": "$p → q,  ¬p  ⊬  ¬q$", "isi": "Anteseden yang salah tidak memastikan apa pun tentang konsekuen.", "contoh": "Jika hujan, jalan basah. Tidak hujan. Jalan belum tentu kering." },
+            { "judul": "Mengiyakan konsekuen", "rumus": "$p → q,  q  ⊬  p$", "isi": "Konsekuen yang benar bisa terjadi karena hal lain.", "contoh": "Jika hujan, jalan basah. Jalan basah. Belum tentu karena hujan." }
+          ],
+          "catatan": { "jenis": "peringatan", "teks": "Lambang $⊬$ berarti \"tidak dapat disimpulkan\". Jika fakta hanya menyangkal anteseden atau mengiyakan konsekuen, pilih opsi **tidak dapat disimpulkan**." }
+        },
+        {
+          "tipe": "teks_ikon",
+          "judul": "Kapan Memilih \"Tidak Dapat Disimpulkan\"",
+          "pengantar": "Pilih opsi ini hanya jika seluruh rangkaian premis tidak memastikan nilai pernyataan yang ditanyakan, misalnya:",
+          "poin": [
+            "Fakta menyangkal anteseden, seperti $¬p$ pada $p → q$.",
+            "Fakta mengiyakan konsekuen, seperti $q$ pada $p → q$.",
+            "Pernyataan yang ditanyakan tidak terhubung dengan premis mana pun."
+          ],
+          "ikon": "bingung",
+          "catatan": { "jenis": "peringatan", "teks": "**Masuk akal tidak sama dengan terbukti.** Jangan mengisi kekosongan premis dengan pengetahuan pribadi." }
+        },
+        {
+          "tipe": "tabel",
+          "judul": "Pola Pengecoh pada Opsi",
+          "pengantar": "Pada pembahasan kedua paket, opsi yang salah selalu jatuh ke salah satu pola berikut.",
+          "kolom": ["Ciri opsi", "Mengapa salah"],
+          "lebar": [5.8, 7.0],
+          "ukuran": 19,
+          "baris": [
+            ["Arah hubungan dibalik, $q → p$", "Aturan awal-ke-hasil tidak berlaku sebaliknya."],
+            ["Kedua ruas disangkal, $¬p → ¬q$", "Anteseden salah tidak memastikan konsekuen salah."],
+            ["Berlawanan dengan hasil", "Bertentangan dengan keadaan yang sudah dipastikan."],
+            ["Menggabungkan dua keadaan dengan \"dan\"", "Satu bagiannya bertentangan atau belum pasti."],
+            ["Menyebut keadaan baru", "Keadaan itu tidak ada di premis, jadi belum diketahui."],
+            ["Mengubah hak menjadi tindakan", "\"Berhak memilih\" tidak sama dengan \"telah memilih\"."]
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Mengerjakan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "langkah",
+          "judul": "Lima Langkah Menarik Kesimpulan",
+          "pengantar": "Pakai urutan yang sama di setiap soal agar keputusan berdasar bukti, bukan intuisi.",
+          "langkah": [
+            { "judul": "Beri simbol", "isi": "tandai tiap pernyataan tunggal dengan p, q, atau r secara konsisten." },
+            { "judul": "Tulis bentuk premis", "isi": "ubah setiap narasi menjadi $→$, $∨$, $∧$, atau fakta tunggal." },
+            { "judul": "Samakan bentuk", "isi": "pakai kontraposisi, hukum implikasi, atau De Morgan." },
+            { "judul": "Rangkai dari fakta", "isi": "mulai dari premis fakta, lalu terapkan modus atau silogisme." },
+            { "judul": "Cocokkan opsi", "isi": "pilih opsi yang maknanya sama dengan hasil atau bentuk setaranya." }
+          ],
+          "catatan": { "jenis": "tips", "teks": "**Cara cepat:** jika ada premis fakta, mulailah dari situ. Jika tidak ada, kesimpulannya pasti berupa implikasi hasil silogisme." }
+        }
+      ]
+    }
+  ],
+
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      { "judul": "Simbol Logika", "teks": "Narasi diubah ke $¬$, $∧$, $∨$, $→$. Kata \"atau\" bersifat inklusif." },
+      { "judul": "Hukum Ekuivalensi", "teks": "$p → q ≡ ¬q → ¬p ≡ ¬p ∨ q$. De Morgan menukar \"dan\" dengan \"atau\"." },
+      { "judul": "Aturan Sah", "teks": "Modus ponens, modus tollens, silogisme, dan silogisme disjungtif." },
+      { "judul": "Jebakan Penalaran", "teks": "Menyangkal anteseden dan mengiyakan konsekuen tidak menghasilkan kesimpulan." },
+      { "judul": "Strategi", "teks": "Beri simbol, samakan bentuk, rangkai dari fakta, lalu cocokkan opsi." }
+    ],
+    "pesan": "Penalaran logis bukan menebak yang terdengar benar, melainkan membuktikan yang pasti benar."
+  }
+}
