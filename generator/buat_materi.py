@@ -42,12 +42,21 @@ class TemplateTidakAda(FileNotFoundError):
     pass
 
 
+class TemplateTidakCocok(ValueError):
+    pass
+
+
 def siapkan_presentasi(path_template):
     if not path_template or not os.path.exists(path_template):
         raise TemplateTidakAda(
             f"Template tidak ditemukan: {path_template}\n"
             "Salin 'Template Desain Materi.pptx' ke folder akar proyek atau pakai --template.")
     prs = Presentation(path_template)
+    lebar, tinggi = prs.slide_width / 914400, prs.slide_height / 914400
+    if abs(lebar - D.LEBAR_SLIDE) > 0.01 or abs(tinggi - D.TINGGI_SLIDE) > 0.01:
+        raise TemplateTidakCocok(
+            f"Ukuran slide template {lebar:g} x {tinggi:g} inci, sedangkan generator ditata untuk "
+            f"{D.LEBAR_SLIDE:g} x {D.TINGGI_SLIDE:g} inci. Pakai 'Template Desain Materi.pptx' yang benar.")
     daftar = prs.slides._sldIdLst
     for sid in list(daftar):
         rid = sid.get(qn("r:id"))
@@ -142,7 +151,7 @@ class Pembangun:
                     shp.click_action.target_slide = tujuan
 
     # slide khusus ---------------------------------------------------------
-    def _judul_besar(self, s, isi, y, h, maks, lebar=14.0):
+    def _judul_besar(self, s, isi, y, h, maks, lebar=D.LEBAR_SLIDE - 2.5):
         ukuran = maks
         while D.lebar_segs(D.segmen(isi, True), ukuran) > lebar * 0.95 and ukuran > 36:
             ukuran -= 2
@@ -154,7 +163,7 @@ class Pembangun:
         foto = D.LATAR_COVER
         if not foto or not os.path.exists(foto):  # foto stok tidak ikut di repo; sampul tetap jadi tanpa foto
             return
-        pic = D.gambar(s, foto, -2, 0, w=20, h=11.25, nama="Latar")
+        pic = D.gambar(s, foto, 0, 0, w=D.LEBAR_SLIDE, h=D.TINGGI_SLIDE, nama="Latar")
         D.opasitas_gambar(pic, 31)
 
     def sampul(self):
@@ -164,7 +173,7 @@ class Pembangun:
         self._judul_besar(s, m["judul"].upper(), 4.15, 1.5, 80)
         ukuran = 24
         w = D.lebar_pt(m["subtes"], ukuran, True) / 72 + 1.0
-        pil = D.kotak(s, (16 - w) / 2, 5.85, w, 0.66, warna="slate", radius=0.12, nama="Nama subtes")
+        pil = D.kotak(s, (D.LEBAR_SLIDE - w) / 2, 5.85, w, 0.66, warna="slate", radius=0.12, nama="Nama subtes")
         D.isi_teks(pil.text_frame, [P(m["subtes"], ukuran, "putih", tebal=True, rata="c", spasi=1.1)], jangkar="m")
 
     def penutup_akhir(self):
@@ -176,14 +185,14 @@ class Pembangun:
         p = self.k["peta_subtes"]
         s = self.baru()
         self._judul_besar(s, p["judul"], 1.75, 1.4, 76)
-        D.teks(s, 2.0, 3.2, 12.0, 0.6,
+        D.teks(s, 2.0, 3.2, D.LEBAR_SLIDE - 4.0, 0.6,
                [P(p["subjudul"], 28, tebal=True, rata="c", spasi=1.1, gradien=D.GRADIEN_BRAND)],
                jangkar="m", nama="Subjudul")
         kartu = p["kartu"]
         n = len(kartu)
-        total_w, celah = 15.07, 0.17
+        total_w, celah = D.LEBAR_SLIDE - 1.2, 0.2
         w = (total_w - celah * (n - 1)) / n
-        x0, y, h = (16 - total_w) / 2, 4.75, 3.6
+        x0, y, h = (D.LEBAR_SLIDE - total_w) / 2, 4.75, 3.6
         sisi = (0.2, 0, 0.2, 0)
         judul_k = [[P(k["judul"], 17, "putih", tebal=True, rata="c", spasi=1.2)] for k in kartu]
         h_judul = max(D.tinggi_paragraf(j, w, sisi) for j in judul_k)
@@ -206,10 +215,12 @@ class Pembangun:
         D.chip(s, "Pendahuluan", p.get("ikon_chip", "globe"))
         y = D.Y_CHIP + D.H_CHIP + 0.5
         par = [P(t, 22, "teks", spasi=1.4, setelah=16) for t in p["paragraf"]]
-        w = 10.0
+        w_ikon = 3.6
+        x_ikon = D.KANAN - w_ikon - 0.3
+        w = x_ikon - 1.0 - D.KIRI
         h = D.tinggi_paragraf(par, w)
         D.teks(s, D.KIRI, y, w, h, par, nama="Paragraf pendahuluan")
-        ikon = D.gambar(s, D.ikon_path(p.get("ikon", "presenter")), 11.8, y + 0.2, w=3.0, nama="Ilustrasi")
+        ikon = D.gambar(s, D.ikon_path(p.get("ikon", "presenter")), x_ikon, y + 0.2, w=w_ikon, nama="Ilustrasi")
         bawah = max(y + h, (ikon.top + ikon.height) / 914400)
         y = D.catatan(s, bawah + 0.45, "pemantik", p["pemantik"], judul_catatan="Pertanyaan pemantik")
         self.cek_batas(y, "Pendahuluan")
@@ -245,7 +256,7 @@ class Pembangun:
         if tipe == "tabel":
             y = D.tabel(s, y, sl["kolom"], sl["baris"], sl.get("lebar"), sl.get("ukuran", 20))
         elif tipe == "tabel_kebenaran":
-            w = 11.0
+            w = 12.5
             x = (D.LEBAR_SLIDE - w) / 2
             y = D.tabel(s, y, sl["kolom"], sl["baris"], x=x, w=w, tengah=True,
                         sorot=sl.get("sorot"), kebenaran=True, ukuran=sl.get("ukuran", 20))
@@ -267,8 +278,11 @@ class Pembangun:
             y = D.daftar_langkah(s, y, sl["langkah"])
         elif tipe == "teks_ikon":
             y0 = y
-            y = D.poin_berbutir(s, y, sl["poin"], w=10.0)
-            ikon = D.gambar(s, D.ikon_path(sl.get("ikon", "bingung")), 12.0, y0 - 0.1, w=2.7, nama="Ilustrasi")
+            w_ikon = 3.2
+            x_ikon = D.KANAN - w_ikon - 0.3
+            y = D.poin_berbutir(s, y, sl["poin"], w=x_ikon - 1.0 - D.KIRI)
+            ikon = D.gambar(s, D.ikon_path(sl.get("ikon", "bingung")), x_ikon, y0 - 0.1, w=w_ikon,
+                            nama="Ilustrasi")
             y = max(y, (ikon.top + ikon.height) / 914400)
         else:
             raise ValueError(f"Tipe slide tidak dikenal: {tipe}")
@@ -351,7 +365,7 @@ def main(argv=None):
 
     try:
         prs, b = buat_deck(konten, arg.template)
-    except TemplateTidakAda as e:
+    except (TemplateTidakAda, TemplateTidakCocok) as e:
         sys.exit(str(e))
     for w in b.peringatan:
         print("PERINGATAN:", w)

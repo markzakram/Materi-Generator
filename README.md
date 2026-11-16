@@ -73,7 +73,7 @@ Berkas berikut milik Cerebrum dan sengaja dikecualikan lewat `.gitignore`. Salin
 
 | Berkas | Fungsi | Jika tidak ada |
 |---|---|---|
-| `Template Desain Materi.pptx` (akar proyek) | Dasar master, tema, dan font tertanam | Generator berhenti dengan pesan; wajib ada |
+| `Template Desain Materi.pptx` (akar proyek) | Dasar master, tema, dan font tertanam. Ukuran slide wajib 20 × 11,25 inci (16:9); tata letak generator mengikuti ukuran ini | Generator berhenti dengan pesan; wajib ada |
 | `generator/assets/latar_cover.png` | Foto latar sampul | Sampul dibuat tanpa foto |
 | `konten/latihan_*.json`, `konten/gambar/` | Soal dan pembahasan tryout hasil ekstraksi | Buat ulang dengan `ekstrak_soal.py` dari PDF sumber |
 | `output/` | Hasil generate | Dibuat otomatis |

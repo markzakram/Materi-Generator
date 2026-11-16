@@ -1,6 +1,7 @@
 """Sistem desain materi Cerebrum: token, pengukur teks, dan komponen slide.
 
-Semua ukuran dalam inci pada kanvas 16 x 11,25 inci (ukuran template asli).
+Semua ukuran dalam inci pada kanvas 20 x 11,25 inci (16:9, ukuran 'Template Desain
+Materi.pptx'). Margin kiri-kanan 0,79 inci mengikuti slide contoh di template.
 Teks memakai Poppins (tertanam di file), simbol logika/rumus memakai Cambria Math
 karena Poppins tidak punya glyph seperti → ∨ ∧ ≡.
 
@@ -29,7 +30,7 @@ ASET = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
 LATAR_COVER = os.path.join(ASET, "latar_cover.png")
 
 # ---------------------------------------------------------------- token ---
-LEBAR_SLIDE, TINGGI_SLIDE = 16.0, 11.25
+LEBAR_SLIDE, TINGGI_SLIDE = 20.0, 11.25
 
 WARNA = {
     "cyan": "00AEEF",
@@ -49,8 +50,10 @@ WARNA = {
 FONT = "Poppins"
 FONT_RUMUS = "Cambria Math"
 
-KIRI = 0.62
-LEBAR_ISI = LEBAR_SLIDE - 2 * KIRI  # 14.76
+KIRI = 0.79
+LEBAR_ISI = LEBAR_SLIDE - 2 * KIRI  # 18.42
+KANAN = KIRI + LEBAR_ISI  # tepi kanan area isi (19.21)
+LEBAR_PENGANTAR = 16.0  # paragraf pengantar sengaja lebih sempit agar baris tidak terlalu panjang
 BATAS_BAWAH = 9.9
 JARAK = 0.35
 
@@ -406,7 +409,8 @@ NAV = ["Pendahuluan", "Tujuan Pembelajaran", "Materi", "Penutup"]
 def navbar(slide, aktif=None, label=None):
     """Bilah navigasi bawah; label aktif diberi pil putih. Mengembalikan {label: shape}."""
     label = label or NAV
-    x0, y0, w0, h0 = 4.20, 10.26, 7.63, 0.71
+    w0, y0, h0 = 7.63, 10.26, 0.71
+    x0 = (LEBAR_SLIDE - w0) / 2
     kotak(slide, x0, y0, w0, h0, gradien=GRADIEN_LEMBUT, radius=0.06, nama="Navigasi")
     ukuran = 14
     lebar = [lebar_pt(n, ukuran, True) / 72 for n in label]
@@ -430,7 +434,7 @@ def navbar(slide, aktif=None, label=None):
 
 
 def nomor_halaman(slide, nomor, total):
-    teks(slide, 13.9, 10.33, 1.48, 0.57,
+    teks(slide, KANAN - 1.48, 10.33, 1.48, 0.57,
          [P(f"{nomor} / {total}", 13, "teal", tebal=True, rata="r", spasi=1.1)],
          jangkar="m", nama="Nomor halaman")
 
@@ -472,7 +476,7 @@ def judul(slide, isi, y=Y_JUDUL, ukuran=44):
     return y + 0.85
 
 
-def pengantar(slide, isi, y, lebar=13.6, ukuran=22):
+def pengantar(slide, isi, y, lebar=LEBAR_PENGANTAR, ukuran=22):
     p = [P(isi, ukuran, "teks", spasi=1.3)]
     h = tinggi_paragraf(p, lebar)
     teks(slide, KIRI, y, lebar, h, p, nama="Pengantar")
@@ -648,7 +652,7 @@ def grid_kartu(slide, y, kartu, kolom=2, x=KIRI, w=LEBAR_ISI, celah=0.3, pembuat
 def kartu_banding(slide, y, kartu, x=KIRI, w=LEBAR_ISI, celah=0.3):
     lw = (w - celah) / 2
     inset = (0.4, 0.32, 0.4, 0.32)
-    kol_rumus = 2.9
+    kol_rumus = 3.6
     blok = []
     for k in kartu:
         kepala = P(k["judul"], 26, "putih", tebal=True, spasi=1.15)
@@ -686,7 +690,7 @@ def _transparan(shp, persen):
     etree.SubElement(clr, qn("a:alpha"), val=str(int((100 - persen) * 1000)))
 
 
-def baris_notasi(slide, y, baris, x=KIRI, w=LEBAR_ISI, kol_rumus=5.6):
+def baris_notasi(slide, y, baris, x=KIRI, w=LEBAR_ISI, kol_rumus=6.6):
     for b in baris:
         pr = P(b["rumus"], 32, "deep", spasi=1.2)
         pk = P(b["ket"], 20, "teks", spasi=1.3)
@@ -786,7 +790,7 @@ def alur_premis(slide, y, premis, langkah, x=KIRI, w=LEBAR_ISI):
     return y + h2
 
 
-def poin_berbutir(slide, y, poin, x=KIRI, w=9.8, ukuran=22):
+def poin_berbutir(slide, y, poin, x=KIRI, w=13.0, ukuran=22):
     for isi in poin:
         p = [P(isi, ukuran, "teks", spasi=1.3)]
         h = tinggi_paragraf(p, w - 0.5)

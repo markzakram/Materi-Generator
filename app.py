@@ -228,7 +228,7 @@ def materi():
         prs, b = BM.buat_deck(konten, template)
         buf = io.BytesIO()
         prs.save(buf)
-    except BM.TemplateTidakAda as e:
+    except (BM.TemplateTidakAda, BM.TemplateTidakCocok) as e:
         return _galat(str(e), 503)
     except AsetGagal as e:
         return _galat(str(e), 502)

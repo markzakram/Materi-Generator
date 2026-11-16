@@ -20,7 +20,8 @@ from pptx.enum.shapes import MSO_SHAPE
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import desain as D  # noqa: E402
-from buat_materi import AKAR, TEMPLATE, TemplateTidakAda, ekspor_pdf, siapkan_presentasi  # noqa: E402
+from buat_materi import (AKAR, TEMPLATE, TemplateTidakAda, TemplateTidakCocok,  # noqa: E402
+                         ekspor_pdf, siapkan_presentasi)
 from desain import P  # noqa: E402
 
 NAV_LATIHAN = ["Verbal", "Numerik", "Figural", "Kunci Jawaban"]
@@ -129,10 +130,10 @@ class PembangunLatihan:
         foto = D.LATAR_COVER
         if not foto or not os.path.exists(foto):  # foto stok tidak ikut di repo; sampul tetap jadi tanpa foto
             return
-        pic = D.gambar(s, foto, -2, 0, w=20, h=11.25, nama="Latar")
+        pic = D.gambar(s, foto, 0, 0, w=D.LEBAR_SLIDE, h=D.TINGGI_SLIDE, nama="Latar")
         D.opasitas_gambar(pic, 31)
 
-    def _judul_besar(self, s, isi, y, h, maks, lebar=14.0):
+    def _judul_besar(self, s, isi, y, h, maks, lebar=D.LEBAR_SLIDE - 2.5):
         ukuran = maks
         while D.lebar_segs(D.segmen(isi, True), ukuran) > lebar * 0.95 and ukuran > 36:
             ukuran -= 2
@@ -147,7 +148,7 @@ class PembangunLatihan:
         self._judul_besar(s, m["judul"].upper(), 4.15, 1.5, 80)
         isi = " · ".join(x for x in (m.get("paket"), m.get("subtes")) if x)
         w = D.lebar_pt(isi, 24, True) / 72 + 1.0
-        pil = D.kotak(s, (16 - w) / 2, 5.85, w, 0.66, warna="slate", radius=0.12, nama="Paket")
+        pil = D.kotak(s, (D.LEBAR_SLIDE - w) / 2, 5.85, w, 0.66, warna="slate", radius=0.12, nama="Paket")
         D.isi_teks(pil.text_frame, [P(isi, 24, "putih", tebal=True, rata="c", spasi=1.1)], jangkar="m")
 
     def peta(self):
@@ -155,7 +156,8 @@ class PembangunLatihan:
         s = self.baru()
         self._judul_besar(s, m["judul"], 1.55, 1.3, 72)
         sub = f"{m.get('paket', '')} · {len(soal)} soal".strip(" ·")
-        D.teks(s, 2.0, 2.9, 12.0, 0.6, [P(sub, 28, tebal=True, rata="c", spasi=1.1, gradien=D.GRADIEN_BRAND)],
+        D.teks(s, 2.0, 2.9, D.LEBAR_SLIDE - 4.0, 0.6,
+               [P(sub, 28, tebal=True, rata="c", spasi=1.1, gradien=D.GRADIEN_BRAND)],
                jangkar="m", nama="Subjudul")
         grup = {}
         for so in soal:
@@ -163,9 +165,9 @@ class PembangunLatihan:
             grup.setdefault(nama, {"ikon": ikon, "nomor": []})["nomor"].append(so["nomor"])
         daftar = sorted(grup.items(), key=lambda kv: min(kv[1]["nomor"]))
         n = len(daftar)
-        total_w, celah = 15.07, 0.17
+        total_w, celah = D.LEBAR_SLIDE - 1.2, 0.2
         w = (total_w - celah * (n - 1)) / n
-        x0, y, h = (16 - total_w) / 2, 4.2, 3.4
+        x0, y, h = (D.LEBAR_SLIDE - total_w) / 2, 4.2, 3.4
         sisi = (0.2, 0, 0.2, 0)
         judul_k = [[P(nama, 17, "putih", tebal=True, rata="c", spasi=1.2)] for nama, _ in daftar]
         h_judul = max(D.tinggi_paragraf(j, w, sisi) for j in judul_k)
@@ -511,7 +513,7 @@ def main(argv=None):
     os.makedirs(a.keluar, exist_ok=True)
     try:
         prs = siapkan_presentasi(a.template)
-    except TemplateTidakAda as e:
+    except (TemplateTidakAda, TemplateTidakCocok) as e:
         sys.exit(str(e))
     b = PembangunLatihan(prs, naskah, os.path.dirname(os.path.abspath(a.naskah)))
     b.bangun()
