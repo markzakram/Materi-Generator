@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "judul": "Ekuivalensi Logika",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Silogisme - Ekuivalensi Logika",
+    "sumber": "https://docs.google.com/document/d/1NcmSI3eaQQqEUSEcFhh-Tq3aRPj61pVDWxAQcKrZ21Y/edit",
+    "id_katalog": "vs-03"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "“Jika berkas lengkap, maka berkas diperiksa” setara dengan “Berkas tidak lengkap atau berkas diperiksa”. Keduanya hanya salah ketika berkas lengkap tetapi tidak diperiksa.",
+      "Ekuivalensi membantu ketika premis dan pilihan jawaban memakai bentuk kalimat yang berbeda."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "makna ekuivalensi dengan membandingkan dua bentuk kalimat pada keadaan yang sama."
+      },
+      {
+        "level": "",
+        "kko": "Mengubah",
+        "teks": "kalimat “jika … maka …” menjadi bentuk “atau” atau kontraposisi dan mengubahnya kembali jika diperlukan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "kapan perlu mengubah bentuk premis atau kesimpulan pada soal dua premis."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pengertian Ekuivalensi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengertian Ekuivalensi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua pernyataan ekuivalen jika keduanya selalu memiliki nilai benar atau salah yang sama. Tanda ≡ dibaca “setara dengan”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan p berarti “berkas lengkap” dan q berarti “berkas diperiksa”. Simbol ¬ berarti “tidak”, ∨ berarti “atau”, dan → berarti “jika … maka …”."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Rumus Utama"
+              ],
+              "baris": [
+                [
+                  "p → q ≡ ¬p ∨ q ≡ ¬q → ¬p"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Hukum Implikasi",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Hukum Implikasi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hukum implikasi menyatakan bahwa bentuk p → q setara dengan ¬p ∨ q."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan p berarti “berkas lengkap” dan q berarti “berkas diperiksa”. Mulai dari “Jika berkas lengkap, maka berkas diperiksa”. Balik p menjadi “berkas tidak lengkap”, gunakan “atau”, dan biarkan q tetap. Hasilnya “Berkas tidak lengkap atau berkas diperiksa”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengubah bentuk ¬p ∨ q kembali, balik ¬p menjadi p dan pertahankan q. Hasilnya p → q."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesetaraan ini bisa diperiksa pada keadaan yang melanggar aturan. Jika berkas lengkap tetapi tidak diperiksa, kalimat jika–maka salah. Pada bentuk “atau”, bagian “berkas tidak lengkap” dan “berkas diperiksa” sama-sama salah. Pada keadaan lain, setidaknya satu bagian pada bentuk “atau” benar dan ketentuan jika–maka terpenuhi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kontraposisi",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kontraposisi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kontraposisi diperoleh dengan menukar posisi p dan q, lalu membalik keduanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh. “Jika berkas lengkap, maka berkas diperiksa” menjadi “Jika berkas tidak diperiksa, maka berkas tidak lengkap”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kontraposisi, q berpindah ke bagian “jika” dan menjadi ¬q, sedangkan p berpindah ke bagian “maka” dan menjadi ¬p. Jika salah satu bagian sudah berbentuk negatif, balik seluruh pernyataannya. Misalnya, kebalikan “berkas tidak diperiksa” adalah “berkas diperiksa”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika hanya ditukar, hasilnya “Jika berkas diperiksa, maka berkas lengkap”. Padahal, berkas yang belum lengkap juga mungkin diperiksa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penerapan pada Soal",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penerapan pada Soal",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Ubah premis jika bentuknya perlu disesuaikan agar bisa dipadukan dengan premis lain.",
+                "Jika hasil penalaran belum tampak pada opsi, tulis kesimpulan sementara, lalu cari bentuk yang setara."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulailah dari tujuan perubahan. Jika premis berbentuk “atau” dan sulit dipasangkan dengan premis kedua, ubah premis itu menjadi jika–maka. Jika kedua premis sudah bisa disambung, tarik kesimpulannya terlebih dahulu. Ubah kesimpulan sementara hanya jika opsi menyatakan hasil yang sama dalam bentuk berbeda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jarum jam tidak bergerak atau jam dinding mati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jam dinding tidak mati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang tepat adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "Jarum jam tidak bergerak atau jam dinding mati",
+            "B": "Jarum jam tidak bergerak atau harus mengganti baterai",
+            "C": "Jika harus mengganti baterai maka jarum jam tidak bergerak",
+            "D": "Jarum jam bergerak",
+            "E": "Jarum jam tidak bergerak"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jarum jam tidak bergerak atau jam dinding mati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Jam dinding tidak mati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Jarum jam bergerak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Jam dinding mati"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: ¬p ∨ q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: ¬q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum implikasi pada Premis 1 (¬p ∨ q ≡ p → q)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1 setelah diubah: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Tollens dengan Premis 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Jarum jam tidak bergerak"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Infeksi luka terjadi jika mikroorganisme masuk ke dalam luka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Infeksi pada luka menimbulkan berbagai komplikasi yang berbahaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang paling tepat berdasarkan dua pernyataan di atas adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Mikroorganisme dan infeksi menyebabkan komplikasi yang berbahaya",
+            "B": "Jika mikroorganisme tidak masuk ke dalam luka, maka tidak timbul berbagai komplikasi yang berbahaya",
+            "C": "Jika infeksi luka tidak terjadi, maka tidak timbul berbagai komplikasi yang berbahaya",
+            "D": "Jika tidak timbul berbagai komplikasi yang berbahaya, maka mikroorganisme tidak masuk ke dalam luka",
+            "E": "Mikroorganisme sangat berbahaya bagi kesehatan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Infeksi luka terjadi jika mikroorganisme masuk ke dalam luka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Infeksi pada luka menimbulkan berbagai komplikasi yang berbahaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Mikroorganisme masuk ke dalam luka"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Infeksi luka terjadi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r: Timbul berbagai komplikasi yang berbahaya"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: q → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus silogisme."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan sementara: p → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan kontraposisi (p → r ≡ ¬r → ¬p)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: ¬r → ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Jika tidak timbul berbagai komplikasi yang berbahaya, maka mikroorganisme tidak masuk ke dalam luka"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Proses penguapan terjadi apabila terdapat penyerapan energi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penguapan atau evaporasi mengubah molekul dalam keadaan cair menjadi gas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang paling tepat berdasarkan pernyataan-pernyataan di atas adalah...."
+            }
+          ],
+          "opsi": {
+            "A": "Jika tidak terdapat penyerapan energi maka molekul cair tidak berubah menjadi gas",
+            "B": "Apabila molekul cair berubah menjadi gas, terdapat penyerapan energi",
+            "C": "Tidak terdapat penyerapan energi atau molekul cair tidak berubah menjadi gas",
+            "D": "Tidak terdapat penyerapan energi atau molekul cair berubah menjadi gas",
+            "E": "Proses penguapan terjadi atau molekul cair tidak berubah menjadi gas"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Proses penguapan terjadi apabila terdapat penyerapan energi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Penguapan atau evaporasi mengubah molekul dalam keadaan cair menjadi gas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Terdapat penyerapan energi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Proses penguapan terjadi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r: Molekul cair berubah menjadi gas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: q → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus silogisme."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan sementara: p → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum implikasi (p → r ≡ ¬p ∨ r)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: ¬p ∨ r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Tidak terdapat penyerapan energi atau molekul cair berubah menjadi gas"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Saya tidak merasa lapar atau tidak memiliki mood untuk makan nasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika perlu minum obat maka saya memiliki mood untuk makan nasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "Jika minum obat maka saya merasa lapar",
+            "B": "Jika saya perlu minum obat maka saya merasa lapar",
+            "C": "Saya tidak merasa lapar atau perlu minum obat",
+            "D": "Saya merasa lapar dan tidak perlu minum obat",
+            "E": "Saya tidak merasa lapar atau tidak perlu minum obat"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Saya tidak merasa lapar atau tidak memiliki mood untuk makan nasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Jika perlu minum obat maka saya memiliki mood untuk makan nasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Saya merasa lapar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Saya memiliki mood untuk makan nasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r: Saya perlu minum obat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: ¬p ∨ ¬q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: r → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum implikasi pada Premis 1 (¬p ∨ ¬q ≡ p → ¬q)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan kontraposisi pada Premis 2 (r → q ≡ ¬q → ¬r)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus silogisme pada p → ¬q dan ¬q → ¬r."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan sementara: p → ¬r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum implikasi (p → ¬r ≡ ¬p ∨ ¬r)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: ¬p ∨ ¬r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Saya tidak merasa lapar atau tidak perlu minum obat"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 5",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Saya tidak memelihara kucing atau tidak memelihara anjing."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika saya tidak memelihara anjing, maka saya tidak memelihara kuda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Saya tidak memelihara kucing",
+            "B": "Saya tidak punya anjing",
+            "C": "Jika saya tidak memelihara kucing maka saya tidak memelihara kuda",
+            "D": "Jika saya memelihara kucing maka saya memelihara kuda",
+            "E": "Jika saya memelihara kucing maka saya tidak memelihara kuda"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Saya tidak memelihara kucing atau tidak memelihara anjing."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Jika saya tidak memelihara anjing, maka saya tidak memelihara kuda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Saya memelihara kucing"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Saya memelihara anjing"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r: Saya memelihara kuda"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: ¬p ∨ ¬q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: ¬q → ¬r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum implikasi pada Premis 1 (¬p ∨ ¬q ≡ p → ¬q)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan kontraposisi pada Premis 1 setelah diubah (p → ¬q ≡ q → ¬p)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan kontraposisi pada Premis 2 (¬q → ¬r ≡ r → q)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus silogisme pada r → q dan q → ¬p."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan sementara: r → ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan kontraposisi (r → ¬p ≡ p → ¬r)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: p → ¬r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Jika saya memelihara kucing maka saya tidak memelihara kuda"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pengertian Ekuivalensi",
+        "teks": ""
+      },
+      {
+        "judul": "Hukum Implikasi",
+        "teks": ""
+      },
+      {
+        "judul": "Kontraposisi",
+        "teks": ""
+      },
+      {
+        "judul": "Penerapan pada Soal",
+        "teks": ""
+      }
+    ],
+    "pesan": "Hukum implikasi menulis p → q sebagai ¬p ∨ q. Kontraposisi menulisnya sebagai ¬q → ¬p. Gunakan bentuk yang membantu menghubungkan premis atau mencocokkan kesimpulan dengan opsi."
+  }
+}

@@ -1,0 +1,635 @@
+{
+  "meta": {
+    "judul": "Logika Kondisional (Jika–Maka)",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Silogisme - Logika Kondisional (Jika-Maka)",
+    "sumber": "https://docs.google.com/document/d/1L6suAU2DvA1EyDrR1JpB3oXSuUpL0jlo2lIXJ_KNjx0/edit",
+    "id_katalog": "vs-02"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Aturan “Jika berkas lengkap, maka berkas diperiksa” membantu kita menarik kesimpulan dari fakta yang diberikan. Jika berkas lengkap, kita tahu berkas diperiksa. Jika hanya diketahui berkas diperiksa, kelengkapannya belum pasti.",
+      "Dalam bab ini, dua premis menjadi dasar untuk menentukan kesimpulan yang pasti."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menemukan",
+        "teks": "bagian “jika” dan “maka”, termasuk ketika bagian “jika” ditulis di akhir kalimat."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "Modus Ponens, Modus Tollens, Silogisme Kondisional, dan dua pola Tidak Dapat Disimpulkan."
+      },
+      {
+        "level": "",
+        "kko": "Menarik",
+        "teks": "kesimpulan yang pasti dari dua premis sambil mempertahankan kata “tidak” dan rincian penting dalam kalimat."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Cara membaca aturan dan fakta",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara membaca aturan dan fakta",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada “Jika berkas lengkap, maka berkas diperiksa”, p berarti “berkas lengkap” dan q berarti “berkas diperiksa”. Rumus p → q dibaca “Jika p, maka q”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis kedua dapat berupa fakta atau aturan lanjutan. Pertahankan kata seperti “boleh”, “wajib”, dan “sudah” karena mengubah makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketentuan “Jika berkas lengkap, maka pemohon boleh mengambil nomor antrean” menyatakan izin. Jika berkas lengkap, yang dapat disimpulkan adalah pemohon boleh mengambil nomor, bukan bahwa pemohon sudah mengambilnya. Pertahankan arti kata seperti “boleh” saat menerjemahkan rumus kembali ke kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda ¬ dibaca “tidak”. Jika q berarti “berkas diperiksa”, ¬q berarti “berkas tidak diperiksa”."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ringkasan rumus dua premis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf p, q, dan r mewakili pernyataan yang berbeda. Tanda ¬ dibaca “tidak”. TDS berarti informasi yang ditanyakan belum dapat dipastikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": ""
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Modus Ponens",
+                "",
+                "Modus Tollens",
+                ""
+              ],
+              "baris": [
+                [
+                  "Premis I: Premis II: Kesimpulan:",
+                  "p→q p q",
+                  "Premis I: Premis II: Kesimpulan:",
+                  "p→q ¬q ¬p"
+                ],
+                [
+                  "**Silogisme**",
+                  "",
+                  "**TDS (Tidak Dapat Disimpulkan)**",
+                  ""
+                ],
+                [
+                  "Premis I: Premis II: Kesimpulan:",
+                  "p→q q→r p→r",
+                  "Ketika premis yang tersedia tidak memenuhi syarat Modus Ponens, Tollens, Silogisme sehingga kesimpulan tidak dapat ditentukan.",
+                  ""
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": ""
+            },
+            {
+              "jenis": "subjudul",
+              "teks": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Modus Ponens",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Modus Ponens",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 1:** p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 2:** p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kesimpulan:** q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Ponens jika fakta pada premis kedua sama dengan bagian “jika”. Ambil bagian “maka” sebagai kesimpulan. Misalnya, jika aturannya “Jika berkas lengkap, maka berkas diperiksa” dan faktanya berkas lengkap, simpulkan bahwa berkas diperiksa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Modus Tollens",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Modus Tollens",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 1:** p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 2:** ¬q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kesimpulan:** ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Tollens jika fakta pada premis kedua menyangkal bagian “maka”. Balik bagian “jika” sebagai kesimpulan. Dengan aturan “Jika berkas lengkap, maka berkas diperiksa”, fakta bahwa berkas tidak diperiksa membuat kita dapat menyimpulkan bahwa berkas tidak lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika bagian “jika” sudah memuat kata “tidak”, balik seluruh bagian itu. Kebalikan “formulir tidak ditandatangani” adalah “formulir ditandatangani”."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Silogisme Kondisional",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Silogisme Kondisional",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 1:** p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 2:** q → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kesimpulan:** p → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cari pernyataan yang muncul setelah “maka” pada aturan pertama dan setelah “jika” pada aturan kedua. Jika maknanya sama, gabungkan bagian “jika” pada aturan pertama dengan bagian “maka” pada aturan kedua."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs02_logika_kondisional/gambar-01.png",
+              "lebar": 5.91,
+              "tinggi": 2.21,
+              "keterangan": "Gambar 1. “Berkas diperiksa” adalah bagian yang menyambungkan kedua aturan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulannya “Jika berkas lengkap, maka petugas mencatat hasilnya.” Kesimpulan tetap berupa aturan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu pernyataan penghubung harus sama maknanya pada kedua premis. Jika premis pertama menyebut “berkas diperiksa” dan premis kedua menyebut “berkas lolos pemeriksaan”, kedua aturan belum dapat disambung. Pemeriksaan dan kelulusan pemeriksaan adalah keadaan yang berbeda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tidak Dapat Disimpulkan (TDS)",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tidak Dapat Disimpulkan (TDS)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan TDS jika dua keadaan yang berbeda masih cocok dengan kedua premis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bagian “maka” terjadi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 1:** p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 2:** q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kesimpulan:** Tidak dapat disimpulkan apakah p benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika fakta hanya membenarkan bagian “maka”, periksa apakah bagian “jika” bisa benar atau salah. Dalam aturan “Jika berkas lengkap, maka berkas diperiksa”, berkas yang diperiksa masih bisa lengkap atau tidak lengkap."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs02_logika_kondisional/gambar-02.png",
+              "lebar": 5.9,
+              "tinggi": 1.94,
+              "keterangan": "Gambar 2. Berkas yang lengkap dan yang tidak lengkap sama-sama mungkin diperiksa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bagian “jika” tidak terjadi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 1:** p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Premis 2:** ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kesimpulan:** Tidak dapat disimpulkan apakah q benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika fakta menyangkal bagian “jika”, periksa apakah bagian “maka” bisa benar atau salah. Dalam aturan “Jika berkas lengkap, maka berkas diperiksa”, berkas yang tidak lengkap bisa diperiksa untuk mendata kekurangannya atau dikembalikan sebelum diperiksa. Kedua kemungkinan itu sesuai dengan aturan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Langkah cepat membaca soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Langkah cepat membaca soal",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Tentukan bagian “jika” dan “maka”. Catat arti p dan q jika perlu.",
+                "Cocokkan premis kedua. Jika berupa fakta, lihat bagian yang disebut. Jika berupa aturan, cari bagian yang sama.",
+                "Periksa apakah informasi yang ditanyakan pasti atau masih memiliki dua kemungkinan."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika hujan mengakibatkan banjir, maka sekolah saya diliburkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hari ini turun hujan yang mengakibatkan banjir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang tepat adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "Hujan mengakibatkan banjir jika dan hanya jika sekolah saya libur",
+            "B": "Jika sekolah saya diliburkan maka hujan mengakibatkan banjir",
+            "C": "Hujan mengakibatkan banjir tetapi sekolah saya tidak diliburkan",
+            "D": "Sekolah saya diliburkan",
+            "E": "Sekolah saya tidak diliburkan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika hujan mengakibatkan banjir, maka sekolah saya diliburkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Hari ini turun hujan yang mengakibatkan banjir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Hujan mengakibatkan banjir"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Sekolah saya diliburkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Ponens"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Sekolah saya diliburkan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika ada makanan manis, maka semut datang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semut tidak datang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang tepat adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "Tidak ada makanan manis",
+            "B": "Makanan tidak manis",
+            "C": "Makanan tidak manis melainkan gurih",
+            "D": "Jika terlihat semut datang maka ada makanan manis",
+            "E": "Ada makanan manis"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika ada makanan manis, maka semut datang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Semut tidak datang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Ada makanan manis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Semut datang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: ¬q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Tollens"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Tidak ada makanan manis."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika hujan deras maka sepatu saya berpotensi basah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika sepatu saya berpotensi basah maka saya memakai sandal musala."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat untuk pernyataan di atas adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Hujan tidak deras",
+            "B": "Hujan tidak deras dan saya memakai sandal musala",
+            "C": "Jika hujan deras maka saya memakai sandal musala",
+            "D": "Jika hujan deras atau saya memakai sandal musala maka sepatu saya basah",
+            "E": "Jika hujan tidak deras maka saya tidak memakai sandal musala"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika hujan deras maka sepatu saya berpotensi basah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Jika sepatu saya berpotensi basah maka saya memakai sandal musala."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Hujan deras"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Sepatu saya berpotensi basah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r: Saya memakai sandal musala"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: q → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Silogisme Kondisional"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: p → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Jika hujan deras maka saya memakai sandal musala."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika Faza sakit perut, maka toilet dipakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faza tidak sakit perut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Toilet dipakai",
+            "B": "Toilet tidak dipakai",
+            "C": "Faza sakit perut dan toilet dipakai",
+            "D": "Faza sakit perut atau toilet tidak dipakai",
+            "E": "Tidak dapat disimpulkan"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika Faza sakit perut, maka toilet dipakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Faza tidak sakit perut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Faza sakit perut"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Toilet dipakai"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pola Tidak Dapat Disimpulkan (TDS). Premis 2 menyatakan bahwa bagian “jika” tidak terjadi. Toilet bisa dipakai dan bisa tidak dipakai. Kedua keadaan cocok dengan kedua premis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: Tidak dapat disimpulkan apakah toilet dipakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Tidak dapat disimpulkan apakah toilet dipakai."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Cara membaca aturan dan fakta",
+        "teks": ""
+      },
+      {
+        "judul": "Modus Ponens",
+        "teks": ""
+      },
+      {
+        "judul": "Modus Tollens",
+        "teks": ""
+      },
+      {
+        "judul": "Silogisme Kondisional",
+        "teks": ""
+      },
+      {
+        "judul": "Tidak Dapat Disimpulkan (TDS)",
+        "teks": ""
+      },
+      {
+        "judul": "Langkah cepat membaca soal",
+        "teks": ""
+      }
+    ],
+    "pesan": "Modus Ponens dimulai dari bagian “jika” yang benar. Modus Tollens dimulai dari bagian “maka” yang salah. Silogisme menyambungkan dua aturan. TDS berlaku jika jawabannya belum pasti."
+  }
+}

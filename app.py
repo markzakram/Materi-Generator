@@ -1,25 +1,30 @@
 """Aplikasi web Materi Generator (Flask), siap di-deploy ke Vercel.
 
-Halaman unggah naskah materi (JSON) lalu unduh deck PPTX. Ekspor PDF tidak
-tersedia di sini karena butuh Microsoft PowerPoint; buat PDF di Windows lokal
-dengan generator/buat_materi.py.
+Halaman:
+  /               Dasbor tinjauan: daftar materi di konten/katalog.json, status, catatan, unduh PPTX.
+  /materi/<id>    Editor: pratinjau slide dan form isi per slide, simpan draf, unduh PPTX.
+  /unggah         Buat PPTX dari berkas naskah JSON sendiri.
+
+Ekspor PDF tidak tersedia di sini karena butuh Microsoft PowerPoint; buat PDF di Windows
+lokal dengan generator/buat_materi.py.
 
 Variabel lingkungan:
-  MATERI_SANDI          Sandi akses (HTTP Basic, nama pengguna bebas). Di Vercel
-                        wajib diisi, kecuali MATERI_TANPA_SANDI=1.
+  MATERI_SANDI          Sandi akses (HTTP Basic, nama pengguna bebas). Di Vercel wajib
+                        diisi, kecuali MATERI_TANPA_SANDI=1.
   MATERI_TANPA_SANDI    Isi 1 hanya jika akses sudah dilindungi Vercel Authentication.
-  MATERI_TEMPLATE_URL   URL unduhan 'Template Desain Materi.pptx'. Wajib jika berkas
-                        itu tidak ada di akar proyek (selalu begitu di Vercel).
-  MATERI_COVER_URL      URL unduhan foto latar sampul (opsional).
-  MATERI_ASET_TOKEN     Token yang dikirim sebagai 'Authorization: Bearer ...' saat
-                        mengunduh dua URL di atas (opsional, untuk penyimpanan privat).
+  MATERI_TEMPLATE_URL   URL unduhan template Opsi B (.pptx). Wajib jika berkas template
+                        tidak ada di akar proyek (selalu begitu di Vercel).
+  MATERI_ASET_TOKEN     Token 'Authorization: Bearer ...' untuk URL template (opsional).
+  KV_REST_API_URL/TOKEN Upstash Redis untuk draf dan status (diisi otomatis oleh integrasi
+                        Upstash di Vercel). Tanpa ini, Vercel berjalan dalam mode baca saja.
 
 Jalankan lokal:
-  python app.py --template "path/ke/Template Desain Materi.pptx"
+  python app.py --template "path/ke/Template Referensi Opsi B - Ceria & Membulat.pptx"
 """
 from __future__ import annotations
 
 import argparse
+import datetime
 import hashlib
 import hmac
 import io
@@ -35,26 +40,34 @@ import urllib.parse
 import urllib.request
 import zipfile
 
-from flask import Flask, Response, jsonify, request, send_file
+from flask import Flask, Response, abort, jsonify, request, send_file, send_from_directory
 
 AKAR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(AKAR, "generator"))
 import buat_materi as BM  # noqa: E402
 import desain as D  # noqa: E402
+import pratinjau as PR  # noqa: E402
+
+import penyimpanan  # noqa: E402
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 4 * 1024 * 1024  # Vercel menolak request di atas 4,5 MB
+app.json.sort_keys = False  # urutan status dan isi naskah dipertahankan
 
 BATAS_RESPONS = 4_400_000  # byte; Vercel menolak response di atas 4,5 MB
 CACHE = os.path.join(tempfile.gettempdir(), "materi-generator")
+KONTEN = os.path.join(AKAR, "konten")
+WEB = os.path.join(AKAR, "web")
 TEMPLATE_LOKAL = BM.TEMPLATE
-COVER_LOKAL = D.LATAR_COVER
-CONTOH = os.path.join(AKAR, "konten", "tiu_penalaran_logis.json")
+CONTOH = os.path.join(KONTEN, "tiu_penalaran_logis.json")
 FONT_WEB = {
     "Poppins-Regular.ttf": os.path.join(D.ASET, "fonts", "Poppins-Regular.ttf"),
     "Poppins-Bold.ttf": os.path.join(D.ASET, "fonts", "Poppins-Bold.ttf"),
 }
+STATUS = {"belum": "Belum ditinjau", "ditinjau": "Sedang ditinjau", "revisi": "Perlu revisi",
+          "disetujui": "Disetujui"}
 _kunci_unduh = threading.Lock()
+SIMPAN = penyimpanan.buka(os.path.join(AKAR, "data"))
 
 
 class AsetGagal(RuntimeError):
@@ -104,51 +117,94 @@ def _unduh(url, tujuan, periksa):
     os.replace(sementara, tujuan)
 
 
-def _aset(lokal, env, akhiran, periksa):
-    """Path aset: berkas lokal jika ada, jika tidak unduh dari URL di env (di-cache di /tmp)."""
-    if lokal and os.path.exists(lokal):
-        return lokal
-    url = os.environ.get(env, "").strip()
-    if not url:
-        return None
-    # nama cache mengikuti URL, sehingga URL baru otomatis diunduh ulang
-    tujuan = os.path.join(CACHE, hashlib.sha256(url.encode()).hexdigest()[:16] + akhiran)
-    with _kunci_unduh:
-        if not os.path.exists(tujuan):
-            _unduh(url, tujuan, periksa)
-    return tujuan
-
-
 def _cek_pptx(path):
     if not zipfile.is_zipfile(path):
         raise ValueError("berkas hasil unduhan bukan PPTX (cek URL dan token)")
 
 
-def _cek_gambar(path):
-    from PIL import Image
-
-    with Image.open(path) as im:
-        im.verify()
-
-
 def path_template():
-    try:
-        p = _aset(TEMPLATE_LOKAL, "MATERI_TEMPLATE_URL", ".pptx", _cek_pptx)
-    except AsetGagal as e:
-        raise AsetGagal(f"Template gagal diunduh dari MATERI_TEMPLATE_URL: {e}") from e
-    if not p:
+    if TEMPLATE_LOKAL and os.path.exists(TEMPLATE_LOKAL):
+        return TEMPLATE_LOKAL
+    url = os.environ.get("MATERI_TEMPLATE_URL", "").strip()
+    if not url:
         raise BM.TemplateTidakAda(
-            "Template belum diatur. Isi MATERI_TEMPLATE_URL dengan URL unduhan "
-            "'Template Desain Materi.pptx'.")
-    return p
+            f"Template belum diatur. Isi MATERI_TEMPLATE_URL dengan URL unduhan '{BM.NAMA_TEMPLATE}'.")
+    # nama cache mengikuti URL, sehingga URL baru otomatis diunduh ulang
+    tujuan = os.path.join(CACHE, hashlib.sha256(url.encode()).hexdigest()[:16] + ".pptx")
+    with _kunci_unduh:
+        if not os.path.exists(tujuan):
+            try:
+                _unduh(url, tujuan, _cek_pptx)
+            except AsetGagal as e:
+                raise AsetGagal(f"Template gagal diunduh dari MATERI_TEMPLATE_URL: {e}") from e
+    return tujuan
 
 
-def path_cover(peringatan):
+# ------------------------------------------------------ katalog & data ---
+def _baca_json(path):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def katalog():
+    return _baca_json(os.path.join(KONTEN, "katalog.json"))
+
+
+def entri(id_materi):
+    for m in katalog()["materi"]:
+        if m["id"] == id_materi:
+            return m
+    abort(404, description="Materi tidak ada di katalog.")
+
+
+def _kunci(id_materi, jenis):
+    return f"materi:{id_materi}:{jenis}"
+
+
+def _muat(nilai):
     try:
-        return _aset(COVER_LOKAL, "MATERI_COVER_URL", ".img", _cek_gambar)
-    except AsetGagal as e:
-        peringatan.append(f"Foto sampul gagal diunduh ({e}); sampul dibuat tanpa foto.")
+        return json.loads(nilai) if nilai else None
+    except ValueError:
         return None
+
+
+def ambil_data(id_materi):
+    """(draf, status) dari penyimpanan; masing-masing dict atau None."""
+    draf, status = SIMPAN.ambil_banyak([_kunci(id_materi, "naskah"), _kunci(id_materi, "status")])
+    return _muat(draf), _muat(status)
+
+
+def naskah_aktif(id_materi):
+    """(naskah, draf_atau_None): draf tersimpan bila ada, selain itu naskah di repo."""
+    m = entri(id_materi)
+    draf, _ = ambil_data(id_materi)
+    if draf and isinstance(draf.get("naskah"), dict):
+        return draf["naskah"], draf
+    return _baca_json(os.path.join(KONTEN, m["naskah"])), None
+
+
+def ringkas_naskah(n):
+    materi = n.get("materi") or []
+    isi = [s for sub in materi for s in sub.get("slide", [])]
+    perlu = []
+    if not (n.get("pendahuluan") or {}).get("pemantik"):
+        perlu.append("pertanyaan pemantik")
+    if any(not b.get("level") for b in (n.get("tujuan") or {}).get("butir", [])):
+        perlu.append("level Bloom")
+    if any(not r.get("teks") for r in (n.get("penutup") or {}).get("ringkasan", [])):
+        perlu.append("teks ringkasan penutup")
+    return {"judul": (n.get("meta") or {}).get("judul", ""),
+            "slide_isi": sum(1 for s in isi if s.get("tipe") != "contoh_soal"),
+            "contoh_soal": sum(1 for s in isi if s.get("tipe") == "contoh_soal"),
+            "perlu_dilengkapi": perlu}
+
+
+def _sekarang():
+    return datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+
+
+def _oleh():
+    return str((request.get_json(silent=True) or {}).get("oleh") or "").strip()[:60]
 
 
 # ----------------------------------------------------------- respons ---
@@ -156,7 +212,224 @@ def _galat(pesan, kode):
     return jsonify({"galat": pesan}), kode
 
 
-def _baca_naskah():
+def _nama_aman(nama):
+    nama = re.sub(r'[\\/:*?"<>|\x00-\x1f]+', "-", str(nama)).strip(" .-")
+    return nama or "materi"
+
+
+def _bangun(konten, folder=KONTEN):
+    """(prs, pembangun) atau lempar galat yang sudah berpesan."""
+    if not isinstance(konten, dict) or not isinstance(konten.get("meta"), dict):
+        raise ValueError("Naskah harus objek JSON dengan bagian 'meta' (lihat contoh naskah).")
+    return BM.buat_deck(konten, path_template(), folder)
+
+
+def _tangani(fungsi):
+    """Jalankan fungsi pembuat deck; ubah galat umum menjadi respons JSON berpesan."""
+    try:
+        return fungsi()
+    except (BM.TemplateTidakAda, BM.TemplateTidakCocok) as e:
+        return _galat(str(e), 503)
+    except (AsetGagal, penyimpanan.PenyimpananGagal) as e:
+        return _galat(str(e), 502)
+    except KeyError as e:
+        return _galat(f"Naskah tidak lengkap: kunci {e} tidak ditemukan.", 400)
+    except (IndexError, TypeError, ValueError, AttributeError) as e:
+        return _galat(f"Naskah tidak sesuai struktur ({type(e).__name__}: {e}).", 400)
+    except Exception:  # noqa: BLE001
+        app.logger.exception("Gagal membuat deck")
+        return _galat("Terjadi galat saat membuat deck. Cek log fungsi di Vercel.", 500)
+
+
+def _kirim_pptx(prs, b, konten):
+    buf = io.BytesIO()
+    prs.save(buf)
+    ukuran = buf.tell()
+    if ukuran > BATAS_RESPONS:
+        return _galat(f"Deck {ukuran / 1e6:.1f} MB melebihi batas unduhan Vercel 4,5 MB. "
+                      "Perkecil gambar atau buat deck di komputer lokal.", 413)
+    buf.seek(0)
+    resp = send_file(
+        buf, as_attachment=True, download_name=_nama_aman(BM.nama_file(konten)) + ".pptx",
+        mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation")
+    resp.headers["X-Jumlah-Slide"] = str(len(b.slides))
+    resp.headers["X-Peringatan"] = urllib.parse.quote(json.dumps(b.peringatan, ensure_ascii=False))
+    return resp
+
+
+# ------------------------------------------------------------- halaman ---
+@app.get("/")
+def dasbor():
+    return send_file(os.path.join(WEB, "dasbor.html"), mimetype="text/html")
+
+
+@app.get("/materi/<id_materi>")
+def halaman_editor(id_materi):
+    entri(id_materi)
+    return send_file(os.path.join(WEB, "editor.html"), mimetype="text/html")
+
+
+@app.get("/unggah")
+def halaman_unggah():
+    return send_file(os.path.join(WEB, "unggah.html"), mimetype="text/html")
+
+
+@app.get("/web/<nama>")
+def berkas_web(nama):
+    if nama not in ("gaya.css", "pratinjau.js"):
+        abort(404)
+    resp = send_from_directory(WEB, nama)
+    resp.headers["Cache-Control"] = "private, max-age=300"
+    return resp
+
+
+@app.get("/font/<nama>")
+def font(nama):
+    path = FONT_WEB.get(nama)
+    if not path:
+        return _galat("Font tidak ada.", 404)
+    resp = send_file(path, mimetype="font/ttf", max_age=86400)
+    resp.headers["Cache-Control"] = "private, max-age=86400"
+    return resp
+
+
+@app.get("/media/<path:berkas>")
+def media(berkas):
+    return send_from_directory(os.path.join(KONTEN, "media"), berkas)
+
+
+# ----------------------------------------------------------------- API ---
+@app.get("/api/status")
+def status():
+    hasil = {"pdf": False, "penyimpanan": SIMPAN.jenis, "bisa_simpan": SIMPAN.bisa_tulis}
+    try:
+        path_template()
+        hasil["template"] = {"siap": True}
+    except (BM.TemplateTidakAda, AsetGagal) as e:
+        hasil["template"] = {"siap": False, "pesan": str(e)}
+    return jsonify(hasil)
+
+
+@app.get("/api/katalog")
+def api_katalog():
+    kat = katalog()
+    kunci = [_kunci(m["id"], j) for m in kat["materi"] for j in ("naskah", "status")]
+    try:
+        nilai = SIMPAN.ambil_banyak(kunci)
+        galat = None
+    except penyimpanan.PenyimpananGagal as e:
+        nilai, galat = [None] * len(kunci), str(e)
+    daftar = []
+    for i, m in enumerate(kat["materi"]):
+        draf, stat = _muat(nilai[2 * i]), _muat(nilai[2 * i + 1])
+        naskah = draf["naskah"] if draf and isinstance(draf.get("naskah"), dict) else \
+            _baca_json(os.path.join(KONTEN, m["naskah"]))
+        daftar.append(dict(m, url=f"https://docs.google.com/document/d/{m['doc_id']}/edit",
+                           ringkas=ringkas_naskah(naskah),
+                           draf={"diubah": draf.get("diubah"), "oleh": draf.get("oleh")} if draf else None,
+                           status=stat or {"status": "belum"}))
+    return jsonify({"judul": kat.get("judul"), "sumber_sheet": kat.get("sumber_sheet"), "materi": daftar,
+                    "status_label": STATUS, "bisa_simpan": SIMPAN.bisa_tulis, "penyimpanan": SIMPAN.jenis,
+                    "galat_penyimpanan": galat})
+
+
+@app.get("/api/materi/<id_materi>")
+def api_materi(id_materi):
+    m = entri(id_materi)
+    try:
+        naskah, draf = naskah_aktif(id_materi)
+        _, stat = ambil_data(id_materi)
+    except penyimpanan.PenyimpananGagal as e:
+        return _galat(str(e), 502)
+    return jsonify({"katalog": dict(m, url=f"https://docs.google.com/document/d/{m['doc_id']}/edit"),
+                    "naskah": naskah, "draf": {"diubah": draf["diubah"], "oleh": draf.get("oleh")} if draf else None,
+                    "status": stat or {"status": "belum"}, "status_label": STATUS,
+                    "bisa_simpan": SIMPAN.bisa_tulis})
+
+
+@app.put("/api/materi/<id_materi>/naskah")
+def simpan_naskah(id_materi):
+    entri(id_materi)
+    data = request.get_json(silent=True) or {}
+    naskah = data.get("naskah")
+    if not isinstance(naskah, dict) or not isinstance(naskah.get("meta"), dict) \
+            or not isinstance(naskah.get("materi"), list):
+        return _galat("Naskah tidak valid: perlu bagian 'meta' dan 'materi'.", 400)
+    try:
+        lama, _ = ambil_data(id_materi)
+        dasar = data.get("versi_dasar")
+        if lama and dasar is not None and lama.get("diubah") != dasar:
+            return _galat(f"Draf sudah diubah oleh {lama.get('oleh') or 'orang lain'} pada {lama.get('diubah')}. "
+                          "Muat ulang halaman sebelum menyimpan agar suntingan mereka tidak tertimpa.", 409)
+        baru = {"naskah": naskah, "diubah": _sekarang(), "oleh": _oleh()}
+        SIMPAN.simpan(_kunci(id_materi, "naskah"), json.dumps(baru, ensure_ascii=False))
+    except penyimpanan.PenyimpananGagal as e:
+        return _galat(str(e), 503)
+    return jsonify({"diubah": baru["diubah"], "oleh": baru["oleh"]})
+
+
+@app.delete("/api/materi/<id_materi>/naskah")
+def buang_draf(id_materi):
+    entri(id_materi)
+    try:
+        SIMPAN.hapus(_kunci(id_materi, "naskah"))
+    except penyimpanan.PenyimpananGagal as e:
+        return _galat(str(e), 503)
+    return jsonify({"ok": True})
+
+
+@app.put("/api/materi/<id_materi>/status")
+def simpan_status(id_materi):
+    entri(id_materi)
+    data = request.get_json(silent=True) or {}
+    if data.get("status") not in STATUS:
+        return _galat("Status tidak dikenal.", 400)
+    nilai = {"status": data["status"], "peninjau": str(data.get("peninjau") or "").strip()[:60],
+             "catatan": str(data.get("catatan") or "").strip()[:2000], "diubah": _sekarang(), "oleh": _oleh()}
+    try:
+        SIMPAN.simpan(_kunci(id_materi, "status"), json.dumps(nilai, ensure_ascii=False))
+    except penyimpanan.PenyimpananGagal as e:
+        return _galat(str(e), 503)
+    return jsonify(nilai)
+
+
+@app.post("/api/materi/<id_materi>/pratinjau")
+def pratinjau(id_materi):
+    entri(id_materi)
+    data = request.get_json(silent=True) or {}
+
+    def kerja():
+        konten = data.get("naskah") if isinstance(data.get("naskah"), dict) else naskah_aktif(id_materi)[0]
+        prs, b = _bangun(konten)
+        hasil = PR.dump_deck(prs, b.asal)
+        punya = set(data.get("punya") or [])
+        hasil["gambar"] = {k: v for k, v in hasil["gambar"].items() if k not in punya}
+        hasil["peringatan"] = b.peringatan
+        return jsonify(hasil)
+
+    return _tangani(kerja)
+
+
+@app.route("/api/materi/<id_materi>/pptx", methods=["GET", "POST"])
+def pptx_materi(id_materi):
+    entri(id_materi)
+    data = request.get_json(silent=True) or {}
+
+    def kerja():
+        konten = data.get("naskah") if isinstance(data.get("naskah"), dict) else naskah_aktif(id_materi)[0]
+        prs, b = _bangun(konten)
+        return _kirim_pptx(prs, b, konten)
+
+    return _tangani(kerja)
+
+
+@app.get("/api/contoh")
+def contoh():
+    return send_file(CONTOH, mimetype="application/json", as_attachment=True,
+                     download_name="contoh_naskah_materi.json")
+
+
+def _baca_unggahan():
     berkas = request.files.get("naskah")
     try:
         if berkas is not None:
@@ -170,93 +443,30 @@ def _baca_naskah():
     raise ValueError("Kirim naskah sebagai berkas 'naskah' atau body application/json.")
 
 
-def _nama_aman(nama):
-    nama = re.sub(r'[\\/:*?"<>|\x00-\x1f]+', "-", str(nama)).strip(" .-")
-    return nama or "materi"
-
-
-# ------------------------------------------------------------ rute ---
-@app.get("/")
-def beranda():
-    return send_file(os.path.join(AKAR, "web", "index.html"), mimetype="text/html")
-
-
-@app.get("/font/<nama>")
-def font(nama):
-    path = FONT_WEB.get(nama)
-    if not path:
-        return _galat("Font tidak ada.", 404)
-    resp = send_file(path, mimetype="font/ttf", max_age=86400)
-    resp.headers["Cache-Control"] = "private, max-age=86400"
-    return resp
-
-
-@app.get("/api/contoh")
-def contoh():
-    return send_file(CONTOH, mimetype="application/json", as_attachment=True,
-                     download_name="contoh_naskah_materi.json")
-
-
-@app.get("/api/status")
-def status():
-    hasil = {"pdf": False}
+@app.post("/api/unggah")
+def unggah():
     try:
-        path_template()
-        hasil["template"] = {"siap": True}
-    except (BM.TemplateTidakAda, AsetGagal) as e:
-        hasil["template"] = {"siap": False, "pesan": str(e)}
-    cover = []
-    hasil["cover"] = bool(path_cover(cover))
-    if cover:
-        hasil["cover_pesan"] = cover[0]
-    return jsonify(hasil)
-
-
-@app.post("/api/materi")
-def materi():
-    try:
-        konten = _baca_naskah()
+        konten = _baca_unggahan()
     except ValueError as e:
         return _galat(str(e), 400)
-    if not isinstance(konten, dict) or not isinstance(konten.get("meta"), dict):
-        return _galat("Naskah harus objek JSON dengan bagian 'meta' (lihat contoh naskah).", 400)
 
-    peringatan = []
-    try:
-        template = path_template()
-        D.LATAR_COVER = path_cover(peringatan)
-        prs, b = BM.buat_deck(konten, template)
-        buf = io.BytesIO()
-        prs.save(buf)
-    except (BM.TemplateTidakAda, BM.TemplateTidakCocok) as e:
-        return _galat(str(e), 503)
-    except AsetGagal as e:
-        return _galat(str(e), 502)
-    except KeyError as e:
-        return _galat(f"Naskah tidak lengkap: kunci {e} tidak ditemukan.", 400)
-    except (IndexError, TypeError, ValueError, AttributeError) as e:
-        return _galat(f"Naskah tidak sesuai struktur ({type(e).__name__}: {e}).", 400)
-    except Exception:  # noqa: BLE001
-        app.logger.exception("Gagal membuat deck")
-        return _galat("Terjadi galat saat membuat deck. Cek log fungsi di Vercel.", 500)
+    def kerja():
+        prs, b = _bangun(konten)
+        return _kirim_pptx(prs, b, konten)
 
-    ukuran = buf.tell()
-    if ukuran > BATAS_RESPONS:
-        return _galat(f"Deck {ukuran / 1e6:.1f} MB melebihi batas unduhan Vercel 4,5 MB. "
-                      "Perkecil foto sampul atau buat deck di komputer lokal.", 413)
-    buf.seek(0)
-    peringatan += b.peringatan
-    resp = send_file(
-        buf, as_attachment=True, download_name=_nama_aman(BM.nama_file(konten)) + ".pptx",
-        mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation")
-    resp.headers["X-Jumlah-Slide"] = str(len(b.slides))
-    resp.headers["X-Peringatan"] = urllib.parse.quote(json.dumps(peringatan, ensure_ascii=False))
-    return resp
+    return _tangani(kerja)
+
+
+@app.errorhandler(404)
+def tidak_ada(e):
+    if request.path.startswith("/api/"):
+        return _galat(getattr(e, "description", "Tidak ditemukan."), 404)
+    return Response("Halaman tidak ditemukan.", 404, mimetype="text/plain")
 
 
 @app.errorhandler(413)
 def terlalu_besar(_e):
-    return _galat("Berkas naskah melebihi 4 MB.", 413)
+    return _galat("Berkas atau naskah melebihi 4 MB.", 413)
 
 
 if __name__ == "__main__":

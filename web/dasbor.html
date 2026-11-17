@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Dasbor Materi</title>
+<link rel="stylesheet" href="/web/gaya.css">
+<style>
+.kepala { display: flex; gap: 16px; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; }
+.nama { width: 220px; }
+.ringkasan { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 14px; }
+.ringkasan button { border: 1px solid var(--garis); background: var(--kartu); border-radius: 12px; padding: 8px 14px;
+  cursor: pointer; text-align: left; min-width: 120px; }
+.ringkasan button[aria-pressed="true"] { border-color: var(--navy); box-shadow: inset 0 0 0 1px var(--navy); }
+.ringkasan b { display: block; font-size: 22px; line-height: 1.1; }
+.ringkasan span { font-size: 12px; color: var(--redup); }
+.saring { display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 10px; margin-bottom: 14px; }
+@media (max-width: 640px) { .saring { grid-template-columns: minmax(0, 1fr); } .nama { width: 100%; } }
+
+table.daftar { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--kartu);
+  border: 1px solid var(--garis); border-radius: 16px; overflow: hidden; }
+.daftar th { text-align: left; font-size: 12px; color: var(--redup); font-weight: 700; padding: 10px 12px;
+  border-bottom: 1px solid var(--garis); background: var(--sorot); }
+.daftar td { padding: 12px; border-bottom: 1px solid var(--garis); vertical-align: top; }
+.daftar tr:last-child td { border-bottom: 0; }
+.daftar .bab { font-weight: 700; }
+.daftar .meta { font-size: 12px; color: var(--redup); margin-top: 3px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.daftar .perlu { font-size: 12px; color: var(--amber); margin-top: 4px; }
+.daftar select { min-width: 150px; }
+.daftar .aksi { display: flex; gap: 6px; flex-wrap: wrap; }
+.status-pilih.belum { background: var(--sorot); } .status-pilih.ditinjau { background: var(--info-bg); }
+.status-pilih.revisi { background: var(--amber-bg); } .status-pilih.disetujui { background: var(--ok-bg); }
+.kelompok { font-size: 12px; font-weight: 700; color: var(--redup); white-space: nowrap; }
+.kosong { padding: 28px; text-align: center; color: var(--redup); }
+@media (max-width: 900px) {
+  table.daftar, .daftar tbody, .daftar tr, .daftar td { display: block; width: 100%; }
+  .daftar thead { display: none; }
+  .daftar tr { border-bottom: 1px solid var(--garis); padding: 6px 0; }
+  .daftar td { border: 0; padding: 6px 14px; }
+  .daftar td[data-label]::before { content: attr(data-label); display: block; font-size: 11px; color: var(--samar); font-weight: 700; }
+}
+dialog { border: 0; border-radius: 16px; padding: 0; width: min(560px, calc(100% - 32px)); background: var(--kartu); color: var(--teks); }
+dialog::backdrop { background: rgba(10, 16, 40, .5); }
+dialog form { padding: 20px; display: grid; gap: 12px; }
+dialog h2 { margin: 0; font-size: 18px; }
+dialog textarea { min-height: 140px; }
+dialog .tombol-baris { display: flex; justify-content: flex-end; gap: 8px; }
+</style>
+</head>
+<body>
+<header class="atas"><div class="atas-isi">
+  <a class="merek" href="/"><i aria-hidden="true"></i>Materi Generator</a>
+  <nav><a href="/" aria-current="page">Dasbor</a><a href="/unggah">Unggah naskah</a></nav>
+</div></header>
+<main>
+  <div class="kepala">
+    <div>
+      <h1>Dasbor tinjauan materi</h1>
+      <p class="sub" id="sub">Memuat daftar materi…</p>
+    </div>
+    <label class="isian nama">Nama Anda (untuk catatan perubahan)
+      <input type="text" id="nama" placeholder="mis. Rina – Tim Akademik" maxlength="60">
+    </label>
+  </div>
+  <div id="pesan"></div>
+  <div class="ringkasan" id="ringkasan" role="group" aria-label="Saring menurut status"></div>
+  <div class="saring">
+    <input type="search" id="cari" placeholder="Cari bab atau dokumen…" aria-label="Cari materi">
+    <select id="kelompok" aria-label="Saring kelompok"><option value="">Semua kelompok</option></select>
+  </div>
+  <table class="daftar">
+    <thead><tr><th>Kelompok</th><th>Materi</th><th>Isi</th><th>Status</th><th>Peninjau</th><th>Aksi</th></tr></thead>
+    <tbody id="isi"><tr><td colspan="6" class="kosong">Memuat…</td></tr></tbody>
+  </table>
+</main>
+
+<dialog id="dlg-catatan">
+  <form method="dialog">
+    <h2 id="dlg-judul">Catatan tinjauan</h2>
+    <textarea id="dlg-teks" placeholder="Tulis temuan, bagian yang perlu diperbaiki, atau keputusan tinjauan." maxlength="2000"></textarea>
+    <div class="tombol-baris">
+      <button class="tombol" value="batal">Batal</button>
+      <button class="tombol utama" value="simpan" id="dlg-simpan">Simpan catatan</button>
+    </div>
+  </form>
+</dialog>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  let data = null, saringStatus = "";
+  const simpanLokal = (k, v) => { try { localStorage.setItem(k, v); } catch {} };
+  const bacaLokal = (k) => { try { return localStorage.getItem(k) || ""; } catch { return ""; } };
+  $("nama").value = bacaLokal("materi.nama");
+  $("nama").addEventListener("change", () => simpanLokal("materi.nama", $("nama").value.trim()));
+
+  function toast(t) { const el = $("toast"); el.textContent = t; el.classList.add("tampil"); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove("tampil"), 2600); }
+  function pesan(kelas, t) { $("pesan").innerHTML = ""; if (!t) return; const d = document.createElement("div"); d.className = "pesan " + kelas; d.textContent = t; $("pesan").append(d); }
+  function waktu(iso) { if (!iso) return ""; try { return new Date(iso).toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short" }); } catch { return iso; } }
+  async function galatDari(r) { const t = await r.text(); try { return JSON.parse(t).galat || t; } catch { return t || `Gagal (${r.status})`; } }
+
+  async function muat() {
+    const r = await fetch("/api/katalog");
+    if (!r.ok) { pesan("galat", await galatDari(r)); return; }
+    data = await r.json();
+    $("sub").innerHTML = "";
+    $("sub").append(`${data.materi.length} materi dari kolom D sheet Kerangka Course · `);
+    const a = document.createElement("a"); a.href = data.sumber_sheet; a.target = "_blank"; a.rel = "noopener"; a.textContent = "buka sheet";
+    $("sub").append(a);
+    if (data.galat_penyimpanan) pesan("galat", data.galat_penyimpanan);
+    else if (!data.bisa_simpan) pesan("amber", "Penyimpanan belum disambungkan: status, catatan, dan draf tidak bisa disimpan. Sambungkan Upstash Redis di Vercel (Storage › Upstash for Redis), lalu deploy ulang.");
+    const kel = [...new Set(data.materi.map((m) => m.kelompok))];
+    const sel = $("kelompok");
+    if (sel.options.length === 1) kel.forEach((k) => sel.append(new Option(k, k)));
+    gambar();
+  }
+
+  function ringkasan() {
+    const hitung = { "": data.materi.length };
+    for (const k of Object.keys(data.status_label)) hitung[k] = 0;
+    data.materi.forEach((m) => { hitung[m.status.status] = (hitung[m.status.status] || 0) + 1; });
+    const el = $("ringkasan"); el.replaceChildren();
+    [["", "Semua materi"], ...Object.entries(data.status_label)].forEach(([k, label]) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.setAttribute("aria-pressed", String(saringStatus === k));
+      b.innerHTML = `<b>${hitung[k] || 0}</b><span></span>`; b.querySelector("span").textContent = label;
+      b.addEventListener("click", () => { saringStatus = saringStatus === k ? "" : k; gambar(); });
+      el.append(b);
+    });
+  }
+
+  async function simpanStatus(m, ubah) {
+    const baru = Object.assign({ status: m.status.status || "belum", peninjau: m.status.peninjau || "", catatan: m.status.catatan || "" }, ubah);
+    const r = await fetch(`/api/materi/${m.id}/status`, { method: "PUT", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(Object.assign(baru, { oleh: $("nama").value.trim() })) });
+    if (!r.ok) { toast(await galatDari(r)); gambar(); return; }
+    m.status = await r.json();
+    toast("Tersimpan");
+    gambar();
+  }
+
+  async function unduh(m, tombol) {
+    const asli = tombol.textContent; tombol.disabled = true; tombol.textContent = "Membuat…";
+    try {
+      const r = await fetch(`/api/materi/${m.id}/pptx`);
+      if (!r.ok) { toast(await galatDari(r)); return; }
+      const blob = await r.blob();
+      const cd = r.headers.get("Content-Disposition") || "";
+      const nm = /filename\*=UTF-8''([^;]+)/i.exec(cd) || /filename="?([^";]+)"?/i.exec(cd);
+      const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = nm ? decodeURIComponent(nm[1]) : m.id + ".pptx";
+      document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 30000);
+    } finally { tombol.disabled = false; tombol.textContent = asli; }
+  }
+
+  function bukaCatatan(m) {
+    const dlg = $("dlg-catatan");
+    $("dlg-judul").textContent = "Catatan · " + m.bab;
+    $("dlg-teks").value = m.status.catatan || "";
+    $("dlg-simpan").disabled = !data.bisa_simpan;
+    dlg.onclose = () => { if (dlg.returnValue === "simpan") simpanStatus(m, { catatan: $("dlg-teks").value }); };
+    dlg.showModal();
+  }
+
+  function gambar() {
+    ringkasan();
+    const cari = $("cari").value.trim().toLowerCase(), kel = $("kelompok").value;
+    const daftar = data.materi.filter((m) => (!saringStatus || m.status.status === saringStatus) && (!kel || m.kelompok === kel) &&
+      (!cari || (m.bab + " " + m.dokumen + " " + m.ringkas.judul).toLowerCase().includes(cari)));
+    const isi = $("isi"); isi.replaceChildren();
+    if (!daftar.length) { isi.innerHTML = '<tr><td colspan="6" class="kosong">Tidak ada materi yang cocok.</td></tr>'; return; }
+    for (const m of daftar) {
+      const tr = document.createElement("tr");
+      const td = (label) => { const t = document.createElement("td"); if (label) t.dataset.label = label; tr.append(t); return t; };
+
+      const k = td("Kelompok"); k.innerHTML = `<span class="kelompok"></span>`; k.firstChild.textContent = m.kelompok;
+
+      const t = td("Materi");
+      const bab = document.createElement("div"); bab.className = "bab"; bab.textContent = m.ringkas.judul || m.bab; t.append(bab);
+      const meta = document.createElement("div"); meta.className = "meta";
+      const src = document.createElement("a"); src.href = m.url; src.target = "_blank"; src.rel = "noopener"; src.textContent = "Dokumen ↗";
+      meta.append(src, ` · baris ${m.baris_sheet}`);
+      if (m.draf) { const c = document.createElement("span"); c.className = "chip draf"; c.textContent = "Draf tersimpan"; c.title = `Diubah ${waktu(m.draf.diubah)}${m.draf.oleh ? " oleh " + m.draf.oleh : ""}`; meta.append(c); }
+      t.append(meta);
+      if (m.ringkas.perlu_dilengkapi.length) { const p = document.createElement("div"); p.className = "perlu"; p.textContent = "Perlu dilengkapi: " + m.ringkas.perlu_dilengkapi.join(", "); t.append(p); }
+      if (m.catatan_sumber) { const p = document.createElement("div"); p.className = "perlu"; p.textContent = m.catatan_sumber; t.append(p); }
+
+      const i = td("Isi"); i.textContent = `${m.ringkas.slide_isi} slide materi · ${m.ringkas.contoh_soal} contoh soal`;
+
+      const s = td("Status");
+      const pilih = document.createElement("select"); pilih.className = "status-pilih " + m.status.status; pilih.disabled = !data.bisa_simpan;
+      pilih.setAttribute("aria-label", "Status " + m.bab);
+      Object.entries(data.status_label).forEach(([kk, label]) => pilih.append(new Option(label, kk, false, kk === m.status.status)));
+      pilih.addEventListener("change", () => simpanStatus(m, { status: pilih.value }));
+      s.append(pilih);
+      if (m.status.diubah) { const w = document.createElement("div"); w.className = "meta"; w.textContent = `${waktu(m.status.diubah)}${m.status.oleh ? " · " + m.status.oleh : ""}`; s.append(w); }
+
+      const p = td("Peninjau");
+      const inp = document.createElement("input"); inp.type = "text"; inp.value = m.status.peninjau || ""; inp.placeholder = "Ambil tugas…";
+      inp.disabled = !data.bisa_simpan; inp.setAttribute("aria-label", "Peninjau " + m.bab);
+      inp.addEventListener("change", () => simpanStatus(m, { peninjau: inp.value }));
+      p.append(inp);
+      if (!m.status.peninjau && data.bisa_simpan) {
+        const ambil = document.createElement("button"); ambil.type = "button"; ambil.className = "tombol"; ambil.style.marginTop = "6px"; ambil.textContent = "Ambil";
+        ambil.addEventListener("click", () => { const n = $("nama").value.trim(); if (!n) { toast("Isi nama Anda dulu di atas"); $("nama").focus(); return; } simpanStatus(m, { peninjau: n, status: m.status.status === "belum" ? "ditinjau" : m.status.status }); });
+        p.append(ambil);
+      }
+
+      const a = td("Aksi"); const box = document.createElement("div"); box.className = "aksi";
+      const edit = document.createElement("a"); edit.className = "tombol utama"; edit.href = `/materi/${m.id}`; edit.textContent = "Tinjau & edit";
+      const pptx = document.createElement("button"); pptx.type = "button"; pptx.className = "tombol"; pptx.textContent = "Unduh PPTX";
+      pptx.addEventListener("click", () => unduh(m, pptx));
+      const cat = document.createElement("button"); cat.type = "button"; cat.className = "tombol"; cat.textContent = m.status.catatan ? "Catatan •" : "Catatan";
+      cat.addEventListener("click", () => bukaCatatan(m));
+      box.append(edit, pptx, cat); a.append(box);
+      isi.append(tr);
+    }
+  }
+
+  $("cari").addEventListener("input", () => data && gambar());
+  $("kelompok").addEventListener("change", () => data && gambar());
+  muat().catch((e) => pesan("galat", "Tidak bisa memuat daftar materi: " + e.message));
+})();
+</script>
+</body>
+</html>

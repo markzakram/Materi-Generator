@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Editor Materi</title>
+<link rel="stylesheet" href="/web/gaya.css">
+<style>
+body { height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+.alat { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 10px 16px; background: var(--kartu);
+  border-bottom: 1px solid var(--garis); }
+.alat .judul { font-weight: 700; font-size: 15px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 46ch; }
+.alat .kanan { margin-left: auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.alat select { width: auto; border-radius: 999px; padding: 6px 10px; font-weight: 700; font-size: 13px; }
+.kerja { flex: 1; min-height: 0; display: grid; grid-template-columns: 210px minmax(0, 1fr) 400px; }
+.daftar-slide { overflow-y: auto; padding: 12px; border-right: 1px solid var(--garis); display: grid; gap: 10px; align-content: start; }
+.mini { border: 2px solid transparent; border-radius: 8px; padding: 0; background: none; cursor: pointer; text-align: left; position: relative; }
+.mini[aria-current="true"] { border-color: var(--kuning); }
+.mini span { position: absolute; left: 4px; top: 4px; background: rgba(19,33,90,.85); color: #fff; font-size: 10px; font-weight: 700;
+  border-radius: 999px; padding: 1px 6px; z-index: 2; }
+.panggung { overflow: auto; padding: 18px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.panggung .slide-wadah { box-shadow: 0 6px 30px rgba(19,33,90,.15); width: 100%; }
+.navslide { display: flex; gap: 8px; align-items: center; justify-content: center; color: var(--redup); font-size: 13px; }
+.peringatan { font-size: 12px; }
+.form { overflow-y: auto; border-left: 1px solid var(--garis); padding: 16px; background: var(--kartu); }
+.form h2 { font-size: 15px; margin: 0 0 4px; }
+.form .asal { font-size: 12px; color: var(--samar); margin-bottom: 12px; }
+fieldset { border: 1px solid var(--garis); border-radius: 12px; padding: 10px 12px 12px; margin: 0 0 10px; min-width: 0; }
+legend { font-size: 12px; font-weight: 700; color: var(--redup); padding: 0 4px; }
+.bidang { display: grid; gap: 4px; margin-bottom: 10px; }
+.bidang > span { font-size: 12px; font-weight: 700; color: var(--redup); }
+.item { border: 1px dashed var(--garis); border-radius: 10px; padding: 8px 10px 4px; margin-bottom: 8px; }
+.item-kepala { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; font-size: 12px; font-weight: 700; color: var(--redup); }
+.item-kepala .alat-item { margin-left: auto; display: flex; gap: 4px; }
+.mikro { border: 1px solid var(--garis); background: var(--kartu); border-radius: 8px; padding: 1px 7px; font-size: 12px; cursor: pointer; }
+.tambah { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0 10px; }
+.grid-tabel { display: grid; gap: 4px; margin-bottom: 6px; }
+.grid-tabel .baris { display: grid; gap: 4px; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); align-items: start; }
+.grid-tabel textarea { min-height: 34px; font-size: 12px; padding: 5px 7px; }
+.gambar-mini { max-width: 100%; max-height: 120px; border-radius: 8px; border: 1px solid var(--garis); background: #fff; }
+.petunjuk { font-size: 12px; color: var(--samar); }
+.memuat { position: absolute; right: 12px; top: 12px; z-index: 3; }
+@media (max-width: 1100px) { .kerja { grid-template-columns: 170px minmax(0, 1fr) 340px; } }
+@media (max-width: 860px) {
+  body { height: auto; overflow: auto; }
+  .kerja { display: flex; flex-direction: column; }
+  .daftar-slide { order: 3; grid-auto-flow: column; grid-auto-columns: 150px; overflow-x: auto; border: 0; border-top: 1px solid var(--garis); }
+  .form { border: 0; border-top: 1px solid var(--garis); order: 2; }
+  .panggung { order: 1; }
+}
+</style>
+</head>
+<body>
+<div class="alat">
+  <a class="tombol" href="/">‹ Dasbor</a>
+  <span class="judul" id="judul">Memuat…</span>
+  <span class="chip tersembunyi" id="chip-draf">Draf</span>
+  <span class="chip tersembunyi" id="chip-ubah">Belum disimpan</span>
+  <div class="kanan">
+    <select id="status" aria-label="Status tinjauan"></select>
+    <a class="tombol" id="sumber" target="_blank" rel="noopener">Dokumen ↗</a>
+    <button class="tombol bahaya tersembunyi" id="buang" type="button">Buang draf</button>
+    <button class="tombol" id="unduh" type="button">Unduh PPTX</button>
+    <button class="tombol kuning" id="simpan" type="button" disabled>Simpan draf</button>
+  </div>
+</div>
+<div id="pesan-atas" style="padding: 0 16px"></div>
+<div class="kerja">
+  <nav class="daftar-slide" id="daftar" aria-label="Daftar slide"></nav>
+  <section class="panggung">
+    <div class="slide-wadah" id="besar" style="position: relative"></div>
+    <div class="navslide">
+      <button class="tombol" id="sebelum" type="button" aria-label="Slide sebelumnya">‹</button>
+      <span id="posisi">–</span>
+      <button class="tombol" id="sesudah" type="button" aria-label="Slide berikutnya">›</button>
+    </div>
+    <div id="peringatan" class="peringatan"></div>
+  </section>
+  <aside class="form" id="form" aria-label="Isi slide"></aside>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="/web/pratinjau.js"></script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const id = decodeURIComponent(location.pathname.split("/").pop());
+  let info = null, naskah = null, deck = null, gambar = {}, pilih = 0, kotor = false, versiDasar = null, nomorMinta = 0;
+
+  const LABEL = { judul: "Judul", subjudul: "Subjudul", subtes: "Subtes", nama_file: "Nama berkas PPTX", pengantar: "Pengantar",
+    paragraf: "Paragraf", pemantik: "Pertanyaan pemantik", butir: "Butir", level: "Level Bloom", kko: "Kata kerja (KKO)",
+    teks: "Teks", isi: "Isi", rumus: "Rumus", contoh: "Contoh", ket: "Keterangan", kolom: "Judul kolom", baris: "Baris",
+    kartu: "Kartu", langkah: "Langkah", premis: "Premis", label: "Label", poin: "Poin", catatan: "Catatan", jenis: "Jenis",
+    ringkasan: "Ringkasan", pesan: "Pesan penutup", soal: "Isi soal", opsi: "Pilihan jawaban", kunci: "Kunci jawaban",
+    pembahasan: "Pembahasan", blok: "Isi slide", keterangan: "Keterangan", deskripsi: "Deskripsi", aktif: "Kartu aktif (mulai 0)",
+    ilustrasi: "Contoh setara", kiri: "Kalimat", kanan: "Bentuk setara", subbab: "Subbab (label chip)", ikon: "Ikon",
+    warna: "Warna", ukuran: "Ukuran huruf", gambar: "Gambar", sorot: "Sel disorot [baris, kolom]", ikon_chip: "Ikon chip" };
+  const NAMA_BLOK = { paragraf: "Paragraf", subjudul: "Subjudul", sorot: "Sorotan", poin: "Daftar poin", gambar: "Gambar",
+    tabel: "Tabel", catatan: "Catatan", kunci: "Kunci" };
+  const PILIHAN = { ikon: ["globe", "strategi", "grafik", "checklist", "roket", "peringatan", "presenter", "bingung"],
+    level: ["", "C1", "C2", "C3", "C4", "C5", "C6"], kunci: ["", "A", "B", "C", "D", "E"], warna: ["", "navy", "putih"] };
+  const SEMBUNYI = new Set(["tipe", "id_katalog", "lebar", "tinggi", "file", "sumber"]);
+  const BLOK_BARU = { paragraf: { jenis: "paragraf", teks: "" }, subjudul: { jenis: "subjudul", teks: "" },
+    sorot: { jenis: "sorot", teks: "" }, poin: { jenis: "poin", butir: [""] }, catatan: { jenis: "catatan", catatan: "tips", judul: "", teks: "" } };
+
+  const toast = (t) => { const el = $("toast"); el.textContent = t; el.classList.add("tampil"); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove("tampil"), 2800); };
+  const galatDari = async (r) => { const t = await r.text(); try { return JSON.parse(t).galat || t; } catch { return t || `Gagal (${r.status})`; } };
+  const nama = () => { try { return localStorage.getItem("materi.nama") || ""; } catch { return ""; } };
+  function pesanAtas(kelas, t) { const el = $("pesan-atas"); el.replaceChildren(); if (t) { const d = document.createElement("div"); d.className = "pesan " + kelas; d.textContent = t; el.append(d); } }
+
+  function tandaiKotor() {
+    kotor = true; $("chip-ubah").classList.remove("tersembunyi"); $("simpan").disabled = !info.bisa_simpan;
+    clearTimeout(tandaiKotor.t); tandaiKotor.t = setTimeout(perbaruiPratinjau, 900);
+  }
+  window.addEventListener("beforeunload", (e) => { if (kotor) { e.preventDefault(); e.returnValue = ""; } });
+
+  // ------------------------------------------------------------ pratinjau
+  async function perbaruiPratinjau() {
+    const nomor = ++nomorMinta;
+    const asalLama = deck && deck.slide[pilih] ? deck.slide[pilih].asal : null;
+    $("besar").style.opacity = ".6";
+    try {
+      const r = await fetch(`/api/materi/${id}/pratinjau`, { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ naskah, punya: Object.keys(gambar) }) });
+      if (nomor !== nomorMinta) return;
+      if (!r.ok) { pesanAtas("galat", "Pratinjau gagal: " + await galatDari(r)); return; }
+      pesanAtas("", "");
+      const d = await r.json();
+      Object.assign(gambar, d.gambar);
+      deck = d;
+      if (pilih >= deck.slide.length || (asalLama && deck.slide[pilih].asal !== asalLama)) {
+        const i = deck.slide.findIndex((s) => s.asal === asalLama);
+        pilih = i >= 0 ? i : Math.min(pilih, deck.slide.length - 1);
+      }
+      gambarSemua();
+      const p = $("peringatan"); p.replaceChildren();
+      if (d.peringatan.length) { const el = document.createElement("div"); el.className = "pesan amber"; el.textContent = "Peringatan tata letak: " + d.peringatan.join(" "); p.append(el); }
+    } catch (e) { pesanAtas("galat", "Pratinjau gagal: " + e.message); }
+    finally { if (nomor === nomorMinta) $("besar").style.opacity = "1"; }
+  }
+
+  function gambarSemua() {
+    const daftar = $("daftar"); daftar.replaceChildren();
+    deck.slide.forEach((s, i) => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "mini";
+      b.setAttribute("aria-label", `Slide ${i + 1}`); b.setAttribute("aria-current", String(i === pilih));
+      const w = document.createElement("div"); w.className = "slide-wadah"; b.append(w);
+      const n = document.createElement("span"); n.textContent = i + 1; b.append(n);
+      b.addEventListener("click", () => pilihSlide(i));
+      daftar.append(b);
+      requestAnimationFrame(() => Pratinjau.gambarSlide(w, deck, i, gambar));
+    });
+    pilihSlide(pilih, false);
+  }
+
+  function pilihSlide(i, gulir = true) {
+    if (!deck) return;
+    const lamaAsal = deck.slide[pilih] && deck.slide[pilih].asal;
+    pilih = Math.max(0, Math.min(i, deck.slide.length - 1));
+    Pratinjau.gambarSlide($("besar"), deck, pilih, gambar);
+    $("posisi").textContent = `Slide ${pilih + 1} dari ${deck.slide.length}`;
+    [...$("daftar").children].forEach((b, j) => b.setAttribute("aria-current", String(j === pilih)));
+    if (gulir) $("daftar").children[pilih]?.scrollIntoView({ block: "nearest", inline: "nearest" });
+    const asal = deck.slide[pilih].asal;
+    if (asal !== lamaAsal || !$("form").dataset.asal || $("form").dataset.asal !== String(asal)) bangunForm(asal);
+  }
+  $("sebelum").addEventListener("click", () => pilihSlide(pilih - 1));
+  $("sesudah").addEventListener("click", () => pilihSlide(pilih + 1));
+  document.addEventListener("keydown", (e) => {
+    if (e.target.closest("input, textarea, select")) return;
+    if (e.key === "ArrowLeft") pilihSlide(pilih - 1); else if (e.key === "ArrowRight") pilihSlide(pilih + 1);
+  });
+  new ResizeObserver(() => deck && Pratinjau.gambarSlide($("besar"), deck, pilih, gambar)).observe($("besar"));
+
+  // ----------------------------------------------------------------- form
+  function ambilJalur(jalur) { return jalur.split(".").reduce((o, k) => (o == null ? o : o[/^\d+$/.test(k) ? Number(k) : k]), naskah); }
+
+  function bangunForm(asal) {
+    const f = $("form"); f.replaceChildren(); f.dataset.asal = String(asal);
+    const h = document.createElement("h2"); const a = document.createElement("div"); a.className = "asal";
+    if (!asal) { h.textContent = "Slide penutup"; a.textContent = "Slide “Terima kasih” dibuat otomatis dan tidak punya isi untuk diedit."; f.append(h, a); return; }
+    const m = /^materi\.(\d+)\.slide\.(\d+)$/.exec(asal);
+    if (m) {
+      const sub = naskah.materi[Number(m[1])], sl = sub.slide[Number(m[2])];
+      h.textContent = sl.judul || "Slide materi";
+      a.textContent = `Tipe ${sl.tipe} · subbab “${sub.subbab}”`;
+      f.append(h, a, bidangTeks(sub, "subbab"), bidangObjek(sl, ""));
+    } else {
+      const judul = { meta: "Sampul dan info deck", peta_subtes: "Peta materi", pendahuluan: "Pendahuluan", tujuan: "Tujuan pembelajaran", penutup: "Penutup" };
+      h.textContent = judul[asal] || asal; a.textContent = "Perubahan langsung terlihat di pratinjau.";
+      f.append(h, a, bidangObjek(ambilJalur(asal), asal));
+    }
+    if (!info.bisa_simpan) { const p = document.createElement("p"); p.className = "petunjuk"; p.textContent = "Penyimpanan belum disambungkan: suntingan hanya bisa diunduh sebagai PPTX, tidak bisa disimpan."; f.append(p); }
+  }
+
+  function autoTinggi(t) { t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight + 2, 320) + "px"; }
+
+  function bidangTeks(obj, kunci, labelKhusus) {
+    const wadah = document.createElement("label"); wadah.className = "bidang";
+    const s = document.createElement("span"); s.textContent = labelKhusus || LABEL[kunci] || kunci; wadah.append(s);
+    let el;
+    if (PILIHAN[kunci]) {
+      el = document.createElement("select");
+      PILIHAN[kunci].forEach((v) => el.append(new Option(v || "(kosong)", v, false, v === (obj[kunci] ?? ""))));
+      el.addEventListener("change", () => { obj[kunci] = el.value; tandaiKotor(); });
+    } else if (typeof obj[kunci] === "number") {
+      el = document.createElement("input"); el.type = "number"; el.value = obj[kunci];
+      el.addEventListener("input", () => { obj[kunci] = el.value === "" ? 0 : Number(el.value); tandaiKotor(); });
+    } else {
+      el = document.createElement("textarea"); el.value = obj[kunci] ?? ""; el.rows = 1;
+      el.addEventListener("input", () => { obj[kunci] = el.value; autoTinggi(el); tandaiKotor(); });
+      requestAnimationFrame(() => autoTinggi(el));
+    }
+    wadah.append(el);
+    return wadah;
+  }
+
+  function tombolMikro(teks, judul, aksi) { const b = document.createElement("button"); b.type = "button"; b.className = "mikro"; b.textContent = teks; b.title = judul; b.setAttribute("aria-label", judul); b.addEventListener("click", aksi); return b; }
+
+  function kosongkan(contoh) {
+    if (typeof contoh === "string") return "";
+    if (typeof contoh === "number") return 0;
+    if (Array.isArray(contoh)) return contoh.length && typeof contoh[0] === "string" ? contoh.map(() => "") : [];
+    if (contoh && typeof contoh === "object") { const o = {}; for (const [k, v] of Object.entries(contoh)) o[k] = (k === "jenis" || k === "catatan" || k === "tipe") ? v : kosongkan(v); return o; }
+    return "";
+  }
+
+  function bidangLarik(arr, kunci, gambarUlang) {
+    const fs = document.createElement("fieldset");
+    const lg = document.createElement("legend"); lg.textContent = LABEL[kunci] || kunci; fs.append(lg);
+    const tabelBaris = arr.length && Array.isArray(arr[0]);
+    if (tabelBaris) {
+      const g = document.createElement("div"); g.className = "grid-tabel";
+      arr.forEach((baris, i) => {
+        const r = document.createElement("div"); r.className = "baris";
+        baris.forEach((sel, j) => { const t = document.createElement("textarea"); t.value = sel; t.rows = 1; t.setAttribute("aria-label", `Baris ${i + 1} kolom ${j + 1}`);
+          t.addEventListener("input", () => { baris[j] = t.value; tandaiKotor(); }); r.append(t); });
+        r.append(tombolMikro("×", "Hapus baris", () => { arr.splice(i, 1); tandaiKotor(); gambarUlang(); }));
+        g.append(r);
+      });
+      fs.append(g, tombolMikro("+ Baris", "Tambah baris", () => { arr.push(arr[arr.length - 1].map(() => "")); tandaiKotor(); gambarUlang(); }));
+      return fs;
+    }
+    arr.forEach((it, i) => {
+      const item = document.createElement("div"); item.className = "item";
+      const kp = document.createElement("div"); kp.className = "item-kepala";
+      const nm = it && typeof it === "object" && !Array.isArray(it) ? (NAMA_BLOK[it.jenis] || (it.tipe ? `Slide ${it.tipe}` : `${LABEL[kunci] || kunci} ${i + 1}`)) : `${i + 1}`;
+      kp.append(nm);
+      const al = document.createElement("span"); al.className = "alat-item";
+      al.append(tombolMikro("↑", "Naikkan", () => { if (i) { [arr[i - 1], arr[i]] = [arr[i], arr[i - 1]]; tandaiKotor(); gambarUlang(); } }),
+        tombolMikro("↓", "Turunkan", () => { if (i < arr.length - 1) { [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]]; tandaiKotor(); gambarUlang(); } }),
+        tombolMikro("×", "Hapus", () => { arr.splice(i, 1); tandaiKotor(); gambarUlang(); }));
+      kp.append(al); item.append(kp);
+      if (typeof it === "string") {
+        const t = document.createElement("textarea"); t.value = it; t.rows = 1; t.setAttribute("aria-label", `${LABEL[kunci] || kunci} ${i + 1}`);
+        t.addEventListener("input", () => { arr[i] = t.value; autoTinggi(t); tandaiKotor(); }); requestAnimationFrame(() => autoTinggi(t));
+        item.append(t);
+      } else if (Array.isArray(it)) {
+        item.append(bidangLarik(it, "baris", gambarUlang));
+      } else {
+        item.append(bidangObjek(it, ""));
+      }
+      fs.append(item);
+    });
+    const tambah = document.createElement("div"); tambah.className = "tambah";
+    if (["blok", "soal", "pembahasan"].includes(kunci)) {
+      Object.entries(BLOK_BARU).forEach(([j, contoh]) => tambah.append(tombolMikro("+ " + NAMA_BLOK[j], "Tambah " + NAMA_BLOK[j], () => { arr.push(structuredClone(contoh)); tandaiKotor(); gambarUlang(); })));
+    } else if (arr.length) {
+      tambah.append(tombolMikro("+ Tambah", "Tambah item", () => { arr.push(kosongkan(arr[arr.length - 1])); tandaiKotor(); gambarUlang(); }));
+    }
+    fs.append(tambah);
+    return fs;
+  }
+
+  function bidangObjek(obj, jalur) {
+    const wadah = document.createElement("div");
+    const gambarUlang = () => { const baru = bidangObjek(obj, jalur); wadah.replaceWith(baru); };
+    if (obj.jenis === "gambar" && obj.file) {
+      const img = document.createElement("img"); img.className = "gambar-mini"; img.src = "/media/" + obj.file.replace(/^media\//, ""); img.alt = obj.keterangan || "Gambar materi";
+      wadah.append(img);
+    }
+    const JENIS_CATATAN = ["tips", "peringatan", "info"];
+    for (const [k, v] of Object.entries(obj)) {
+      if (SEMBUNYI.has(k)) continue;
+      // jenis catatan: 'catatan' (string) pada blok, atau 'jenis' pada catatan slide
+      if ((k === "catatan" && typeof v === "string") || (k === "jenis" && JENIS_CATATAN.includes(v))) {
+        const lab = document.createElement("label"); lab.className = "bidang";
+        const s = document.createElement("span"); s.textContent = "Jenis catatan";
+        const pil = document.createElement("select");
+        JENIS_CATATAN.forEach((o) => pil.append(new Option(o, o, false, o === v)));
+        pil.addEventListener("change", () => { obj[k] = pil.value; tandaiKotor(); });
+        lab.append(s, pil); wadah.append(lab); continue;
+      }
+      if (k === "jenis") continue;
+      if (typeof v === "string" || typeof v === "number") wadah.append(bidangTeks(obj, k));
+      else if (Array.isArray(v)) wadah.append(bidangLarik(v, k, gambarUlang));
+      else if (v && typeof v === "object") {
+        const fs = document.createElement("fieldset"); const lg = document.createElement("legend"); lg.textContent = LABEL[k] || k; fs.append(lg);
+        if (k === "opsi") Object.keys(v).forEach((h) => fs.append(bidangTeks(v, h, `Opsi ${h}`)));
+        else fs.append(bidangObjek(v, jalur ? `${jalur}.${k}` : k));
+        wadah.append(fs);
+      }
+    }
+    return wadah;
+  }
+
+  // ------------------------------------------------------------- simpan
+  async function simpan() {
+    $("simpan").disabled = true;
+    const r = await fetch(`/api/materi/${id}/naskah`, { method: "PUT", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ naskah, oleh: nama(), versi_dasar: versiDasar }) });
+    if (!r.ok) { toast(await galatDari(r)); $("simpan").disabled = false; return; }
+    const d = await r.json();
+    versiDasar = d.diubah; kotor = false;
+    $("chip-ubah").classList.add("tersembunyi"); $("chip-draf").classList.remove("tersembunyi"); $("buang").classList.remove("tersembunyi");
+    $("chip-draf").textContent = "Draf tersimpan"; toast("Draf tersimpan");
+  }
+  $("simpan").addEventListener("click", simpan);
+  document.addEventListener("keydown", (e) => { if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") { e.preventDefault(); if (!$("simpan").disabled) simpan(); } });
+
+  $("buang").addEventListener("click", async () => {
+    if (!confirm("Buang draf dan kembali ke naskah asli dari dokumen? Suntingan di draf ini akan hilang.")) return;
+    const r = await fetch(`/api/materi/${id}/naskah`, { method: "DELETE" });
+    if (!r.ok) { toast(await galatDari(r)); return; }
+    kotor = false; location.reload();
+  });
+
+  $("unduh").addEventListener("click", async () => {
+    const b = $("unduh"); b.disabled = true; b.textContent = "Membuat…";
+    try {
+      const r = await fetch(`/api/materi/${id}/pptx`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ naskah }) });
+      if (!r.ok) { toast(await galatDari(r)); return; }
+      const blob = await r.blob(); const cd = r.headers.get("Content-Disposition") || "";
+      const nm = /filename\*=UTF-8''([^;]+)/i.exec(cd) || /filename="?([^";]+)"?/i.exec(cd);
+      const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = nm ? decodeURIComponent(nm[1]) : id + ".pptx";
+      document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 30000);
+    } finally { b.disabled = false; b.textContent = "Unduh PPTX"; }
+  });
+
+  $("status").addEventListener("change", async () => {
+    const r = await fetch(`/api/materi/${id}/status`, { method: "PUT", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(Object.assign({}, info.status, { status: $("status").value, oleh: nama() })) });
+    if (!r.ok) { toast(await galatDari(r)); $("status").value = info.status.status; return; }
+    info.status = await r.json(); toast("Status disimpan");
+  });
+
+  async function mulai() {
+    const r = await fetch(`/api/materi/${id}`);
+    if (!r.ok) { pesanAtas("galat", await galatDari(r)); return; }
+    info = await r.json(); naskah = info.naskah; versiDasar = info.draf ? info.draf.diubah : null;
+    document.title = `${info.katalog.bab} · Editor`;
+    $("judul").textContent = info.katalog.bab; $("sumber").href = info.katalog.url;
+    Object.entries(info.status_label).forEach(([k, l]) => $("status").append(new Option(l, k, false, k === info.status.status)));
+    $("status").disabled = !info.bisa_simpan;
+    if (info.draf) { $("chip-draf").classList.remove("tersembunyi"); $("buang").classList.remove("tersembunyi");
+      $("chip-draf").textContent = "Draf" + (info.draf.oleh ? " · " + info.draf.oleh : ""); $("buang").disabled = !info.bisa_simpan; }
+    if (!info.bisa_simpan) pesanAtas("amber", "Penyimpanan belum disambungkan: Anda tetap bisa menyunting dan mengunduh PPTX, tetapi draf dan status tidak tersimpan.");
+    await perbaruiPratinjau();
+  }
+  mulai().catch((e) => pesanAtas("galat", "Editor gagal dimuat: " + e.message));
+})();
+</script>
+</body>
+</html>

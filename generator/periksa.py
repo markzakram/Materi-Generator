@@ -47,7 +47,7 @@ def periksa(path, folder_png=None, lebar_px=1600):
                             masalah.append(f"slide {s.SlideIndex}: '{nama}' meluap {tinggi - tersedia:.0f}pt "
                                            f"({tf.TextRange.Text[:45]!r})")
                         bawah = kotak.Top + max(kotak.Height, tinggi)
-                        if kotak.Top < BATAS_NAV < bawah and not nama.startswith(("Nav", "Nomor")):
+                        if kotak.Top < BATAS_NAV < bawah and not nama.startswith(("Nav", "Nomor", "Hak cipta")):
                             masalah.append(f"slide {s.SlideIndex}: '{nama}' menabrak navigasi")
                         if kotak.Left + kotak.Width > W + 1 and kotak.Left > 0:
                             masalah.append(f"slide {s.SlideIndex}: '{nama}' keluar tepi kanan")

@@ -99,6 +99,7 @@ class PembangunLatihan:
         s = self.prs.slides.add_slide(self.layout)
         for ph in list(s.placeholders):
             ph._element.getparent().remove(ph._element)
+        D.latar(s, "latar" if nav else "putih")
         tombol = D.navbar(s, aktif, NAV_LATIHAN) if nav else None
         self.slides.append((s, tombol))
         if kunci and kunci not in self.target:
@@ -126,62 +127,45 @@ class PembangunLatihan:
         return os.path.join(self.folder_gambar, nama)
 
     # sampul, peta, kunci, penutup -----------------------------------------
-    def _latar(self, s):
-        foto = D.LATAR_COVER
-        if not foto or not os.path.exists(foto):  # foto stok tidak ikut di repo; sampul tetap jadi tanpa foto
-            return
-        pic = D.gambar(s, foto, 0, 0, w=D.LEBAR_SLIDE, h=D.TINGGI_SLIDE, nama="Latar")
-        D.opasitas_gambar(pic, 31)
-
-    def _judul_besar(self, s, isi, y, h, maks, lebar=D.LEBAR_SLIDE - 2.5):
-        ukuran = maks
-        while D.lebar_segs(D.segmen(isi, True), ukuran) > lebar * 0.95 and ukuran > 36:
-            ukuran -= 2
-        D.teks(s, (D.LEBAR_SLIDE - lebar) / 2, y, lebar, h,
-               [P(isi, ukuran, tebal=True, rata="c", spasi=1.05, gradien=D.GRADIEN_BRAND)],
-               jangkar="m", nama="Judul besar")
-
     def sampul(self):
         m = self.n["meta"]
         s = self.baru(nav=False)
-        self._latar(s)
-        self._judul_besar(s, m["judul"].upper(), 4.15, 1.5, 80)
-        isi = " · ".join(x for x in (m.get("paket"), m.get("subtes")) if x)
-        w = D.lebar_pt(isi, 24, True) / 72 + 1.0
-        pil = D.kotak(s, (D.LEBAR_SLIDE - w) / 2, 5.85, w, 0.66, warna="slate", radius=0.12, nama="Paket")
-        D.isi_teks(pil.text_frame, [P(isi, 24, "putih", tebal=True, rata="c", spasi=1.1)], jangkar="m")
+        tag = " · ".join(x for x in (m.get("paket"), m.get("subtes")) if x)
+        D.sampul(s, m["judul"], tag.upper() or None, f"{len(self.n['soal'])} soal dengan pembahasan",
+                 ikon="checklist")
 
     def peta(self):
+        """Peta kelompok soal bergaya daftar isi Opsi B; kartu pertama navy, kartu bisa diklik."""
         m, soal = self.n["meta"], self.n["soal"]
         s = self.baru()
-        self._judul_besar(s, m["judul"], 1.55, 1.3, 72)
         sub = f"{m.get('paket', '')} · {len(soal)} soal".strip(" ·")
-        D.teks(s, 2.0, 2.9, D.LEBAR_SLIDE - 4.0, 0.6,
-               [P(sub, 28, tebal=True, rata="c", spasi=1.1, gradien=D.GRADIEN_BRAND)],
-               jangkar="m", nama="Subjudul")
+        y = D.kerangka_isi(s, "Peta Soal", "checklist", m["judul"], sub)
         grup = {}
         for so in soal:
             nama, ikon, _ = kelompok(so["subtipe"])
             grup.setdefault(nama, {"ikon": ikon, "nomor": []})["nomor"].append(so["nomor"])
         daftar = sorted(grup.items(), key=lambda kv: min(kv[1]["nomor"]))
         n = len(daftar)
-        total_w, celah = D.LEBAR_SLIDE - 1.2, 0.2
-        w = (total_w - celah * (n - 1)) / n
-        x0, y, h = (D.LEBAR_SLIDE - total_w) / 2, 4.2, 3.4
-        sisi = (0.2, 0, 0.2, 0)
-        judul_k = [[P(nama, 17, "putih", tebal=True, rata="c", spasi=1.2)] for nama, _ in daftar]
-        h_judul = max(D.tinggi_paragraf(j, w, sisi) for j in judul_k)
+        celah = 0.25
+        w = (D.LEBAR_ISI - celah * (n - 1)) / n
+        inset = (0.3, 0.3, 0.3, 0.3)
+        isi = []
         for i, (nama, g) in enumerate(daftar):
-            x = x0 + i * (w + celah)
-            kartu = D.kotak(s, x, y, w, h, gradien=D.GRADIEN_BRAND if i == 0 else None,
-                            warna=None if i == 0 else "slate", radius=0.12, nama=f"Kelompok {nama}")
-            D.teks(s, x, y + 0.35, w, h_judul, judul_k[i], inset=sisi, jangkar="m")
-            D.teks(s, x, y + 0.35 + h_judul + 0.15, w, 1.0,
-                   [P(f"Soal {rentang(g['nomor'])}", 14, "sage", tebal=True, rata="c", spasi=1.3, setelah=2),
-                    P(f"{len(g['nomor'])} soal", 13, "redup", rata="c", spasi=1.3)], inset=sisi)
-            D.ubin_ikon(s, x + (w - 0.64) / 2, y + h - 1.1, 0.64, g["ikon"])
+            gelap = i == 0
+            isi.append([P(nama, 17, "putih" if gelap else "navy", tebal=True, spasi=1.2, setelah=6),
+                        P(f"Soal {rentang(g['nomor'])}", 14, "kuning" if gelap else "navy", tebal=True, spasi=1.3,
+                          setelah=2),
+                        P(f"{len(g['nomor'])} soal", 13, "redup" if gelap else "teks", spasi=1.3)])
+        d_ikon = 0.64
+        h = max(3.0, max(D.tinggi_paragraf(p, w, inset) for p in isi) + d_ikon + 0.3)
+        for i, ((nama, g), par) in enumerate(zip(daftar, isi)):
+            x = D.KIRI + i * (w + celah)
+            kartu = D.kotak(s, x, y, w, h, warna="navy" if i == 0 else "putih", radius=D.RADIUS,
+                            nama=f"Kelompok {nama}")
+            D.teks(s, x, y, w, h - d_ikon, par, inset=inset)
+            D.ubin_ikon(s, x + inset[0], y + h - inset[3] - d_ikon, d_ikon, g["ikon"])
             self.taut(kartu, ("soal", min(g["nomor"])))
-        D.catatan(s, 8.0, "tips",
+        D.catatan(s, y + h + 0.4, "tips",
                   "Kerjakan setiap soal lebih dulu, lalu buka slide berikutnya untuk jawaban dan pembahasan. "
                   "Klik kartu atau menu bawah untuk berpindah bagian.", judul_catatan="Petunjuk", ukuran=18)
 
@@ -208,8 +192,7 @@ class PembangunLatihan:
 
     def penutup(self):
         s = self.baru(nav=False)
-        self._latar(s)
-        self._judul_besar(s, "TERIMA KASIH", 4.85, 1.5, 80)
+        D.terima_kasih(s, "Selamat berlatih dan sampai jumpa di paket berikutnya.")
 
     # slide soal -------------------------------------------------------------
     def _tag(self, s, w_chip, so):
@@ -317,8 +300,7 @@ class PembangunLatihan:
             for i, (huruf, isi) in enumerate(opsi.items()):
                 x = D.KIRI + i * (lw + 0.25)
                 D.kotak(s, x, y, lw, h_total, warna="tint", radius=0.12, nama=f"Opsi {huruf}")
-                b = D.kotak(s, x + 0.2, y + (h_total - d) / 2, d, d, warna="slate", bentuk=MSO_SHAPE.OVAL, radius=0)
-                D.isi_teks(b.text_frame, [P(huruf, 18, "putih", tebal=True, rata="c", spasi=1.0)], jangkar="m")
+                D.lingkaran(s, x + 0.2, y + (h_total - d) / 2, d, "kuning", huruf, 18, "navy", nama=f"Huruf {huruf}")
                 D.teks(s, x + 0.85, y, lw - 0.95, h_total, [P(isi, ukuran + 2, "teks", spasi=1.25)], jangkar="m")
             return
         if rapat:
@@ -327,9 +309,8 @@ class PembangunLatihan:
             p = [P(isi, ukuran, "teks", spasi=1.3)]
             h = self._h_opsi(isi, ukuran, rapat)
             D.kotak(s, D.KIRI, y, D.LEBAR_ISI, h, warna="tint", radius=0.1, nama=f"Opsi {huruf}")
-            b = D.kotak(s, D.KIRI + 0.15, y + (h - d) / 2, d, d, warna="slate", bentuk=MSO_SHAPE.OVAL, radius=0)
-            D.isi_teks(b.text_frame, [P(huruf, 16 if rapat else 18, "putih", tebal=True, rata="c", spasi=1.0)],
-                       jangkar="m")
+            D.lingkaran(s, D.KIRI + 0.15, y + (h - d) / 2, d, "kuning", huruf, 16 if rapat else 18, "navy",
+                        nama=f"Huruf {huruf}")
             D.teks(s, D.KIRI + 0.9, y, D.LEBAR_ISI - 1.2, h, p, jangkar="m")
             y += h + self._celah_opsi(rapat)
 
@@ -445,7 +426,7 @@ class PembangunLatihan:
         w_chip = D.chip(s, label, IKON_NAV[nav])
         if so["kunci"]:
             D.pil(s, D.KIRI + w_chip + 0.3, D.Y_CHIP + (D.H_CHIP - 0.56) / 2, f"Jawaban {so['kunci']}",
-                  ukuran=18, warna_teks="putih", h=0.56, gradien=D.GRADIEN_BRAND, nama="Jawaban")
+                  ukuran=18, warna="kuning", warna_teks="navy", h=0.56, nama="Jawaban")
         self.taut(D.tombol(s, D.KIRI, 10.36, "‹ Kembali ke soal"), ("soal", so["nomor"]))
         return s
 

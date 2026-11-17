@@ -1,0 +1,751 @@
+{
+  "meta": {
+    "judul": "3 Premis",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Silogisme - 3 Premis",
+    "sumber": "https://docs.google.com/document/d/1PMD2_C81anHudOTwCG6VC0leNMUBKDPdnr0iF4l-Z9M/edit",
+    "id_katalog": "vs-05"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Premis adalah pernyataan yang kita terima sebagai benar saat mengerjakan soal. Jika ada tiga premis, biasanya kita mulai dengan dua premis yang bisa dipakai bersama. Hasil dari pasangan pertama disebut Premis 4. Hasil sementara ini kemudian dipakai bersama premis yang tersisa untuk menarik kesimpulan.",
+      "Cara memilih pasangan bergantung pada bentuk kalimatnya. Pada logika kondisional, cari pernyataan yang muncul kembali dalam aturan atau sebagai fakta. Pada logika kuantor, periksa juga siapa saja yang dicakup oleh kata “semua”, “sebagian”, atau “tidak ada”."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "dua premis untuk memperoleh hasil sementara yang disebut Premis 4."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "pasangan premis yang dapat disambung, lalu menggunakan premis yang tersisa untuk menarik kesimpulan."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "arah hubungan dan cakupan kata “semua”, “sebagian”, serta “tidak ada” sebelum memastikan kesimpulan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penarikan Kesimpulan 2 Premis",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penarikan Kesimpulan 2 Premis",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Modus Ponens",
+                "",
+                "Modus Tollens",
+                ""
+              ],
+              "baris": [
+                [
+                  "Premis 1:",
+                  "$p→q$",
+                  "Premis 1:",
+                  "$p→q$"
+                ],
+                [
+                  "Premis 2:",
+                  "$p$",
+                  "Premis 2:",
+                  "$¬q$"
+                ],
+                [
+                  "Kesimpulan:",
+                  "$q$",
+                  "Kesimpulan:",
+                  "$¬p$"
+                ],
+                [
+                  "**Silogisme**",
+                  "",
+                  "**TDS (Tidak Dapat Disimpulkan)**",
+                  ""
+                ],
+                [
+                  "Premis 1:",
+                  "$p→q$",
+                  "Ketika premis yang tersedia tidak memenuhi syarat Modus Ponens, Tollens, Silogisme sehingga kesimpulan tidak dapat ditentukan.",
+                  ""
+                ],
+                [
+                  "Premis 2:",
+                  "$q→r$",
+                  "",
+                  ""
+                ],
+                [
+                  "Kesimpulan:",
+                  "$p→r$",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf p, q, dan r mewakili pernyataan. Tanda → dibaca “jika … maka …” dan tanda ¬ dibaca “tidak”. Modus Ponens berangkat dari fakta bahwa bagian setelah “jika” terjadi. Modus Tollens berangkat dari fakta bahwa bagian setelah “maka” tidak terjadi. Silogisme menyambung dua aturan saat bagian setelah “maka” pada aturan pertama sama dengan bagian setelah “jika” pada aturan berikutnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Ekuivalensi Logika",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ekuivalensi Logika",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs05_3_premis/gambar-01.png",
+              "lebar": 5.97,
+              "tinggi": 0.7
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus Utama"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$p→q≡¬p∨q≡¬q→¬p$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda ≡ berarti bentuk-bentuk di kedua sisinya setara, sedangkan ∨ dibaca “atau”. Gunakan bentuk setara jika bentuk awal sulit dipasangkan. Misalnya, “Berkas tidak lengkap atau berkas diperiksa” dapat dibaca “Jika berkas lengkap, maka berkas diperiksa”. Jika premis lain menyatakan berkas lengkap, bentuk jika–maka ini bisa langsung dipakai dengan Modus Ponens."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penarikan Kesimpulan 3 Premis — Logika Kondisional",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penarikan Kesimpulan 3 Premis — Logika Kondisional",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa ketiga pasangan yang mungkin. Urutan kalimat dalam soal tidak selalu sama dengan urutan penalaran. Pilih pasangan yang bisa menghasilkan pernyataan baru dan periksa apakah pernyataan itu dapat dipakai bersama premis yang belum digunakan. Jika sebuah pasangan berhenti di tengah, coba pasangan lain atau periksa apakah salah satu premis perlu diubah ke bentuk yang setara."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah Pengerjaan — Tiga pilihan pasangan awal"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs05_3_premis/gambar-02.png",
+              "lebar": 6.17,
+              "tinggi": 1.48
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diagram menunjukkan tiga pilihan untuk memulai. Cukup selesaikan satu jalur yang sah. Tanda tambah pada diagram berarti “gunakan bersama”. Premis 4 adalah hasil langkah pertama, sehingga isinya bergantung pada pasangan yang Anda pilih."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Contoh Pengerjaan — Logika Kondisional",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika lampu lalu lintas berwarna merah, maka kendaraan harus berhenti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Jika kendaraan harus berhenti, maka pejalan kaki boleh melintas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3: Saat ini lampu lalu lintas berwarna merah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembahasan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pemisalan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$p$ = lampu lalu lintas berwarna merah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$q$ = kendaraan harus berhenti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$r$ = pejalan kaki boleh melintas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 (Premis 1 + Premis 2)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs05_3_premis/gambar-03.png",
+              "lebar": 2.92,
+              "tinggi": 0.72
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1 $p→q$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2 $q→r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan (Premis 4) $p→r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum Silogisme. Kedua aturan bertemu pada “kendaraan harus berhenti”. Kesimpulan sementara berbunyi “Jika lampu lalu lintas berwarna merah, maka pejalan kaki boleh melintas”."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 (Premis 4 + Premis 3)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs05_3_premis/gambar-04.png",
+              "lebar": 2.92,
+              "tinggi": 0.65
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 4 $p→r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3 $p$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan $r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Ponens. Premis 3 memastikan lampu sedang merah, sehingga kita dapat mengambil hasil yang disebut pada Premis 4."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Pejalan kaki boleh melintas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jalur lain juga sah. Jika mulai dari Premis 1 dan Premis 3, Modus Ponens menghasilkan Premis 4 berupa “kendaraan harus berhenti”. Premis 4 kemudian cocok dengan bagian setelah “jika” pada Premis 2. Modus Ponens sekali lagi memberi kesimpulan yang sama. Pada jalur ini Premis 4 adalah sebuah fakta, sedangkan pada jalur sebelumnya Premis 4 berupa aturan jika–maka."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Logika Kuantor",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Logika Kuantor",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk “Semua”, “Sebagian”, dan “Tidak Ada”"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs05_3_premis/gambar-05.png",
+              "lebar": 6.17,
+              "tinggi": 2.11
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Semua” berlaku untuk setiap anggota kelompok yang disebut di awal kalimat. “Sebagian” menjamin ada anggota yang memenuhi ciri tersebut. Cabang lawannya menunjukkan kemungkinan karena kata “sebagian” sendiri belum memastikan ada anggota yang tidak memenuhi ciri itu. “Tidak ada A yang B” memisahkan dua kelompok. Setiap A berada di luar B, dan setiap B berada di luar A."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Cepat"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Semua + Semua = Semua$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Semua + Sebagian = Sebagian$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Sebagian + Sebagian = Sebagian$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus cepat dipakai setelah arah hubungan dan anggota yang dimaksud cocok. Dua aturan “semua” bisa disambung jika kelompok tujuan aturan pertama menjadi kelompok awal aturan kedua. Untuk pasangan “semua” dan “sebagian”, aturan “semua” harus berlaku bagi anggota yang dijamin ada. Misalnya, jika sebagian anggota A termasuk B dan semua B termasuk C, anggota A yang termasuk B itu juga termasuk C. Jika yang diketahui hanya semua A termasuk B dan sebagian B termasuk C, anggota B yang termasuk C bisa saja berada di luar A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk dua premis “sebagian”, nama kelompok yang sama belum memastikan orangnya sama. Jika sebagian A termasuk B dan sebagian B termasuk C, orang A yang berada di B bisa berbeda dari orang B yang berada di C. Cari informasi yang memastikan kedua ciri berlaku pada orang yang sama sebelum menarik kesimpulan “sebagian A termasuk C”."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penarikan Kesimpulan 3 Premis — Logika Kuantor",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penarikan Kesimpulan 3 Premis — Logika Kuantor",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs05_3_premis/gambar-06.png",
+              "lebar": 2.92,
+              "tinggi": 1.4
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah Pengerjaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 1 Premis 1 + Premis 2, periksa apakah ada hasil yang dapat dipakai sebagai Premis 4."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 Periksa apakah Premis 4 dapat digunakan bersama Premis 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh berikut, urutan dua langkah membantu melacak kelompok yang disebut di setiap premis. Jika langkah pertama hanya menunjukkan beberapa kemungkinan, bawa batas itu ke langkah kedua. Hasil yang mungkin tidak boleh dianggap sebagai fakta baru."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Contoh Pengerjaan — Logika Kuantor",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Semua yang buncit itu tidak sehat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Sebagian yang tidak sehat sering berpenyakit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3: Sebagian yang sering berpenyakit harus minum obat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembahasan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Logika Panah — Cabang menunjukkan kemungkinan"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs05_3_premis/gambar-07.png",
+              "lebar": 6.17,
+              "tinggi": 1.12
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 (Premis 1 + Premis 2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua orang yang buncit berada dalam kelompok orang yang tidak sehat. Premis 2 memastikan ada orang yang tidak sehat dan sering berpenyakit. Orang-orang itu bisa berada di dalam atau di luar kelompok orang yang buncit. Jadi, belum ada Premis 4 yang memastikan bahwa orang yang buncit sering berpenyakit."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 (Hasil Langkah 1 + Premis 3)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3 memastikan ada orang yang sering berpenyakit dan harus minum obat. Cabang “minum obat” pada gambar menunjukkan salah satu kemungkinan bagi orang yang buncit dan sering berpenyakit. Premis belum memastikan ada orang buncit pada cabang tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan: Tidak dapat dipastikan bahwa ada orang buncit yang harus minum obat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cek dengan dua keadaan. Jika orang yang buncit juga sering berpenyakit dan harus minum obat, ketiga premis terpenuhi. Jika orang yang buncit tidak sehat tetapi tidak sering berpenyakit, sementara orang lain yang tidak sehat sering berpenyakit dan harus minum obat, ketiga premis juga terpenuhi. Karena kedua keadaan dimungkinkan, keberadaan orang buncit yang harus minum obat belum dapat dipastikan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Danu dengan pendaftaran kelas yang disahkan memiliki akses pengarahan. Danu sebagai pemilik akses pengarahan termasuk penerima panduan praktik. Pendaftaran kelas Danu disahkan. Simpulan yang pasti benar berdasarkan ketiga premis tersebut adalah …."
+            }
+          ],
+          "opsi": {
+            "A": "Danu tidak menerima panduan praktik.",
+            "B": "Danu menerima panduan praktik.",
+            "C": "Pendaftaran kelas Danu tidak disahkan.",
+            "D": "Danu tidak memperoleh akses pengarahan.",
+            "E": "Dalam ketentuan tersebut, Danu yang memperoleh akses pengarahan tidak menerima panduan praktik."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Danu dengan pendaftaran kelas yang disahkan memiliki akses pengarahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Danu sebagai pemilik akses pengarahan termasuk penerima panduan praktik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3: Pendaftaran kelas Danu disahkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$p$: Pendaftaran kelas Danu disahkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$q$: Danu memperoleh akses pengarahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$r$: Danu menerima panduan praktik"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 (Premis 1 + 2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: $p→q$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: $q→r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum Silogisme"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan (Premis 4): $p→r$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 (Premis 4 + 3)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 4: $p→r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3: $p$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Ponens"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: $r$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Danu menerima panduan praktik"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pompa saluran barat yang aktif berada dalam sistem dengan indikator gangguan yang tidak menyala. Indikator gangguan yang tidak menyala menyertai keadaan air mencapai petak barat. Air tidak mencapai petak barat. Simpulan yang pasti benar berdasarkan ketiga premis tersebut adalah …."
+            }
+          ],
+          "opsi": {
+            "A": "Pompa saluran barat aktif.",
+            "B": "Indikator gangguan tidak menyala.",
+            "C": "Air mencapai petak barat.",
+            "D": "Pompa saluran barat aktif dan indikator gangguan menyala.",
+            "E": "Pompa saluran barat tidak aktif."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Pompa saluran barat yang aktif berada dalam sistem dengan indikator gangguan yang tidak menyala."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Indikator gangguan yang tidak menyala menyertai keadaan air mencapai petak barat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3: Air tidak mencapai petak barat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$p$: Pompa saluran barat aktif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$q$: Indikator gangguan menyala"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$r$: Air mencapai petak barat"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 (Premis 1 + 2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: $p→¬q$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: $¬q→r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum Silogisme"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan (Premis 4): $p→r$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 (Premis 4 + 3)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 4: $p→r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3: $¬r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Tollens"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: $¬p$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Pompa saluran barat tidak aktif"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dokumen R23 yang tidak ditandatangani tercantum dalam daftar pengesahan. Dokumen R23 dalam daftar pengesahan tidak memerlukan revisi. Dokumen R23 tanpa keperluan revisi memiliki kode arsip. Hubungan yang pasti mengikuti ketiga premis tersebut adalah …."
+            }
+          ],
+          "opsi": {
+            "A": "Dokumen R23 tanpa kode arsip berstatus ditandatangani.",
+            "B": "Dalam ketentuan tersebut, dokumen R23 yang memiliki kode arsip ditandatangani.",
+            "C": "Untuk dokumen R23 yang ditandatangani, keterangan bahwa dokumen R23 masuk daftar pengesahan berlaku.",
+            "D": "Dokumen R23 yang ditandatangani tidak memerlukan revisi.",
+            "E": "Dalam ketentuan tersebut, dokumen R23 yang tidak ditandatangani memerlukan revisi."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Dokumen R23 yang tidak ditandatangani tercantum dalam daftar pengesahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Dokumen R23 dalam daftar pengesahan tidak memerlukan revisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3: Dokumen R23 tanpa keperluan revisi memiliki kode arsip."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$p$: Dokumen R23 ditandatangani"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$q$: Dokumen R23 masuk daftar pengesahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$r$: Dokumen R23 memerlukan revisi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$s$: Dokumen R23 memiliki kode arsip"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 (Premis 1 + 2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: $¬p→q$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: $q→¬r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum Silogisme"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan (Premis 4): $¬p→¬r$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 (Premis 4 + 3)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 4: $¬p→¬r$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 3: $¬r→s$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum Silogisme"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan sementara: $¬p→s$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hukum kontraposisi ($¬p→s≡¬s→p$)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: $¬s→p$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Dokumen R23 tanpa kode arsip berstatus ditandatangani"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penarikan Kesimpulan 2 Premis",
+        "teks": ""
+      },
+      {
+        "judul": "Ekuivalensi Logika",
+        "teks": ""
+      },
+      {
+        "judul": "Penarikan Kesimpulan 3 Premis — Logika Kondisional",
+        "teks": ""
+      },
+      {
+        "judul": "Logika Kuantor",
+        "teks": ""
+      },
+      {
+        "judul": "Penarikan Kesimpulan 3 Premis — Logika Kuantor",
+        "teks": ""
+      }
+    ],
+    "pesan": "Gunakan dua premis untuk memperoleh Premis 4, lalu gabungkan hasil itu dengan premis yang tersisa. Setiap langkah harus menghasilkan pernyataan yang pasti mengikuti informasi yang tersedia. Pada logika kondisional, cocokkan pernyataannya dan ikuti arah jika–maka. Pada logika kuantor, telusuri kelompok serta orang yang sama agar kemungkinan tidak berubah menjadi kepastian."
+  }
+}

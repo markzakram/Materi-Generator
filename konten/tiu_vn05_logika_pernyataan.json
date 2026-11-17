@@ -1,0 +1,519 @@
+{
+  "meta": {
+    "judul": "Logika Pernyataan",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Analitis - Logika Pernyataan",
+    "sumber": "https://docs.google.com/document/d/1cf36HxMkc3pVaBX5nLhMqcrwuCGLV5qRo-NChcGFh1o/edit",
+    "id_katalog": "vn-05"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Logika Pernyataan menguji apakah suatu pilihan pasti benar, mungkin benar, atau mustahil berdasarkan petunjuk. Mulailah dengan membentuk susunan yang memenuhi seluruh aturan.",
+      "Gunakan model yang sesuai dengan situasi, misalnya deretan petak untuk etalase atau kisi untuk tempat duduk. Konfigurasi sah berarti satu susunan lengkap yang mematuhi semua petunjuk. Pada soal ini, susunan tersebut menjadi bukti untuk menilai pilihan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memasang",
+        "teks": "kondisi tambahan sebelum menilai opsi."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pernyataan yang pasti, mungkin, dan mustahil."
+      },
+      {
+        "level": "",
+        "kko": "Membuktikan",
+        "teks": "pilihan dengan susunan sah atau aturan yang dilanggar."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pasang kondisi tambahan terlebih dahulu",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pasang kondisi tambahan terlebih dahulu",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungkan semua aturan awal dengan kondisi tambahan pada pertanyaan. Isi posisi yang langsung diketahui, lalu tarik akibatnya sebelum menguji opsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kondisi setelah kata “jika” berlaku untuk semua pilihan. Jika sebuah opsi membuat susunan melanggar kondisi tersebut, susunan itu gugur meskipun memenuhi aturan lain. Saat menguji opsi berikutnya, kembali ke susunan awal beserta kondisi tambahan yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh. A, B, dan C mengisi tiga posisi. Kondisi tambahan mewajibkan A di posisi 1, sehingga susunan yang menempatkan A di posisi 2 gugur."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn05_logika_pernyataan/gambar-01.png",
+              "lebar": 6.06,
+              "tinggi": 1.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pasti benar, mungkin benar, dan mustahil",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pasti benar, mungkin benar, dan mustahil",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasti benar berlaku pada semua susunan sah. Mungkin benar dapat dibuktikan dengan satu susunan sah. Mustahil berarti tidak ada susunan sah yang memenuhi pernyataan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh. A, B, dan C mengisi tiga posisi, satu orang per posisi. A wajib berada di posisi 1. B dan C dapat bertukar pada posisi 2 dan 3."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Susunan",
+                "Posisi 1",
+                "Posisi 2",
+                "Posisi 3"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "A",
+                  "B",
+                  "C"
+                ],
+                [
+                  "2",
+                  "A",
+                  "C",
+                  "B"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A di posisi 1 pasti benar. B di posisi 2 mungkin benar karena berlaku pada susunan pertama, tetapi tidak pasti karena susunan kedua menempatkan B di posisi 3. C di posisi 1 mustahil karena posisi itu wajib diisi A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu contoh sah yang mendukung opsi membuktikan bahwa opsi itu mungkin. Untuk menggugurkan klaim “pasti benar”, cukup tunjukkan satu susunan sah yang membuatnya salah. Bukti bahwa suatu opsi mustahil bisa berupa benturan langsung dengan satu aturan, atau pemeriksaan semua cabang yang masih tersisa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca “mungkin benar, kecuali”",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca “mungkin benar, kecuali”",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal “mungkin benar, kecuali”, cari opsi yang mustahil. Buktikan opsi lainnya dengan satu susunan lengkap yang sah untuk setiap opsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa bagian yang paling membatasi, seperti posisi tetap, batas jumlah, dan larangan berdampingan. Satu susunan dapat membuktikan beberapa opsi sekaligus. Pastikan jumlah setiap unsur tetap tepat dan semua aturan terpenuhi. Untuk opsi yang gugur, sebutkan petak dan aturan yang bertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh tiga posisi tadi, gunakan satu susunan sah untuk membuktikan kemungkinan. Gunakan benturan dengan posisi tetap A untuk membuktikan kemustahilan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn05_logika_pernyataan/gambar-02.png",
+              "lebar": 6.06,
+              "tinggi": 1.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Katia menyusun 5 sepatu yang dia miliki pada sebuah rak bertingkat lima. Lima sepatu yang dia miliki adalah sepatu olahraga berwarna biru, sepatu olahraga berwarna merah, sepatu pantofel, sepatu gunung dan sepatu berhak. Terdapat beberapa informasi sebagai berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Sepatu olahraga berwarna biru tidak ditempatkan pada rak paling atas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Sepatu berhak dan sepatu pantofel diposisikan berurutan pada rak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3.Terdapat satu jenis sepatu yang memisahkan sepatu berhak dan sepatu olahraga berwarna merah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika sepatu berhak ditempatkan pada rak urutan ketiga dari atas, manakah pernyataan di bawah ini yang PASTI benar?"
+            }
+          ],
+          "opsi": {
+            "A": "Sepatu pantofel tidak ditempatkan pada rak kelima dari atas.",
+            "B": "Sepatu olahraga berwarna biru tidak ditempatkan pada rak keempat dari atas.",
+            "C": "Sepatu pantofel ditempatkan pada rak paling atas",
+            "D": "Sepatu gunung ditempatkan pada paling bawah",
+            "E": "Sepatu olahraga berwarna merah ditempatkan pada rak kedua dari atas"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan kondisi tambahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nomori rak 1–5 dari atas. Sepatu berhak berada di rak 3. Pantofel harus berurutan dengan sepatu berhak, sehingga hanya bisa berada di rak 2 atau 4. Sepatu merah harus terpisah oleh satu sepatu dari rak 3, sehingga berada di rak 1 atau 5."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menyusun semua kemungkinan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika merah di rak 1, sepatu biru dan gunung dapat bertukar pada dua rak tersisa untuk setiap posisi pantofel. Jika merah di rak 5, rak 1 harus diisi sepatu gunung karena biru dilarang di rak paling atas. Dengan demikian, ada enam susunan sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kode tabel: Bi = olahraga biru, Me = olahraga merah, Pa = pantofel, Gu = gunung, Ha = berhak."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Susunan",
+                "Rak 1",
+                "Rak 2",
+                "Rak 3",
+                "Rak 4",
+                "Rak 5"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Me",
+                  "Bi",
+                  "Ha",
+                  "Pa",
+                  "Gu"
+                ],
+                [
+                  "2",
+                  "Me",
+                  "Pa",
+                  "Ha",
+                  "Bi",
+                  "Gu"
+                ],
+                [
+                  "3",
+                  "Me",
+                  "Pa",
+                  "Ha",
+                  "Gu",
+                  "Bi"
+                ],
+                [
+                  "4",
+                  "Me",
+                  "Gu",
+                  "Ha",
+                  "Pa",
+                  "Bi"
+                ],
+                [
+                  "5",
+                  "Gu",
+                  "Bi",
+                  "Ha",
+                  "Pa",
+                  "Me"
+                ],
+                [
+                  "6",
+                  "Gu",
+                  "Pa",
+                  "Ha",
+                  "Bi",
+                  "Me"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa opsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Pasti benar. Pantofel hanya mengisi rak 2 atau 4, sehingga tidak pernah mengisi rak 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak pasti. Pada susunan 2, sepatu biru menempati rak 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Mustahil. Rak 1 tidak bersebelahan dengan rak 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak pasti. Pada susunan 5, sepatu gunung menempati rak 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Mustahil. Rak 2 bersebelahan dengan rak 3, padahal merah harus dipisahkan oleh satu sepatu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pantofel tidak ditempatkan pada rak kelima dari atas dalam semua susunan yang sah. Jawaban yang benar adalah A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pajangan produk yang tersedia dari suatu toko kue, terdapat delapan cake akan dipajang di bagian paling atas etalase yang terdiri dari delapan petak. Delapan petak tersebut berjajar lurus dan diberi nomor berurutan 1 hingga 8 dari kiri ke kanan. Terdapat tiga Sponge Cake, dua Carrot Cake, dua Butter Cake dan satu Roll Cake. Cake tersebut harus dipajang sesuai dengan ketentuan berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1.Setidaknya satu Carrot Cake harus berada di sebelah Butter Cake"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2.Roll Cake tidak boleh berada di sebelah Butter Cake"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3.Ketiga Sponge Cake tidak boleh secara sekaligus diletakkan di tiga petak yang berurutan, namun tidak ada larangan jika dua diantaranya diletakkan berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4.Petak 5 harus diisi oleh Sponge Cake"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5.Petak 1 atau petak 8 atau keduanya harus diisi oleh Butter Cake"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika petak 1 dan petak 3 diisi oleh Sponge Cake, maka pernyataan di bawah ini mungkin benar, kecuali...."
+            }
+          ],
+          "opsi": {
+            "A": "Petak 2 diisi oleh Butter Cake",
+            "B": "Petak 4 diisi oleh Roll Cake",
+            "C": "Petak 6 diisi oleh Carrot Cake",
+            "D": "Petak 7 diisi oleh Butter Cake",
+            "E": "Petak 7 diisi oleh Roll Cake"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan kondisi tambahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petak 1, 3, dan 5 diisi Sponge Cake. Ketiganya tidak berurutan. Karena petak 1 sudah terisi Sponge Cake, aturan tentang petak ujung memaksa petak 8 diisi Butter Cake. Petak 2, 4, 6, dan 7 harus diisi satu Butter Cake, dua Carrot Cake, dan satu Roll Cake."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Membuktikan opsi yang mungkin"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tabel menunjukkan satu susunan lengkap untuk tiap opsi A–D. Setiap susunan mempertahankan Sponge Cake di petak 1, 3, dan 5 serta Butter Cake di petak 8. Kolom terakhir menunjukkan pasangan Carrot Cake dan Butter Cake yang berdampingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kode tabel: S = Sponge Cake, C = Carrot Cake, B = Butter Cake, R = Roll Cake."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bukti",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "Petak C–B"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "S",
+                  "B",
+                  "S",
+                  "C",
+                  "S",
+                  "R",
+                  "C",
+                  "B",
+                  "7–8"
+                ],
+                [
+                  "B",
+                  "S",
+                  "C",
+                  "S",
+                  "R",
+                  "S",
+                  "B",
+                  "C",
+                  "B",
+                  "6–7"
+                ],
+                [
+                  "C",
+                  "S",
+                  "B",
+                  "S",
+                  "R",
+                  "S",
+                  "C",
+                  "C",
+                  "B",
+                  "7–8"
+                ],
+                [
+                  "D",
+                  "S",
+                  "C",
+                  "S",
+                  "R",
+                  "S",
+                  "C",
+                  "B",
+                  "B",
+                  "6–7"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada bukti A, Roll Cake di petak 6 bertetangga dengan Sponge Cake dan Carrot Cake. Pada bukti B, C, dan D, Roll Cake di petak 4 diapit dua Sponge Cake. Dengan demikian, keempat opsi memiliki susunan yang memenuhi larangan Roll Cake berdampingan dengan Butter Cake."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Membuktikan opsi yang mustahil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi E menempatkan Roll Cake di petak 7. Petak 7 berdampingan dengan petak 8, sedangkan petak 8 wajib diisi Butter Cake. Ini melanggar aturan 2, sehingga E mustahil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petak 8 wajib diisi Butter Cake. Menempatkan Roll Cake di petak 7 langsung melanggar larangan berdampingan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn05_logika_pernyataan/gambar-03.png",
+              "lebar": 6.06,
+              "tinggi": 1.18
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi A–D dapat terjadi. Opsi E mustahil dan menjadi jawaban untuk “mungkin benar, kecuali”. PPT Materi OLD mencantumkan A, tetapi susunan pada tabel membuktikan bahwa A bisa terjadi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pasang kondisi tambahan terlebih dahulu",
+        "teks": ""
+      },
+      {
+        "judul": "Pasti benar, mungkin benar, dan mustahil",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca “mungkin benar, kecuali”",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pasang kondisi tambahan terlebih dahulu. Gunakan susunan sah untuk membuktikan kemungkinan, contoh penyangkal untuk menguji kepastian, dan benturan aturan untuk membuktikan kemustahilan."
+  }
+}

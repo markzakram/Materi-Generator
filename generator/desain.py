@@ -1,9 +1,10 @@
-"""Sistem desain materi Cerebrum: token, pengukur teks, dan komponen slide.
+"""Sistem desain materi Cerebrum, gaya Opsi B "Ceria & Membulat": token, pengukur teks, komponen.
 
-Semua ukuran dalam inci pada kanvas 20 x 11,25 inci (16:9, ukuran 'Template Desain
-Materi.pptx'). Margin kiri-kanan 0,79 inci mengikuti slide contoh di template.
-Teks memakai Poppins (tertanam di file), simbol logika/rumus memakai Cambria Math
-karena Poppins tidak punya glyph seperti → ∨ ∧ ≡.
+Semua ukuran dalam inci pada kanvas 16 x 11,25 inci, ukuran 'Template Referensi Opsi B -
+Ceria & Membulat.pptx'. Palet: navy 13215A, kuning FBBB2B, kuning muda FFE6AE, teks sekunder
+4A5578, latar slide isi F4F6FB. Bentuk membulat, warna rata (tanpa gradien dan bayangan).
+Teks memakai Poppins (tertanam di file), simbol logika/rumus memakai Cambria Math karena
+Poppins tidak punya glyph seperti → ∨ ∧ ≡.
 
 Markup teks kaya yang didukung di naskah:
   **tebal**     -> Poppins Bold
@@ -11,6 +12,7 @@ Markup teks kaya yang didukung di naskah:
 """
 from __future__ import annotations
 
+import datetime
 import json
 import os
 import re
@@ -22,43 +24,53 @@ from pptx.dml.color import RGBColor
 from pptx.enum.shapes import MSO_SHAPE
 from pptx.enum.text import MSO_ANCHOR, MSO_AUTO_SIZE, PP_ALIGN
 from pptx.oxml.ns import qn
-from pptx.util import Emu, Inches, Pt
+from pptx.util import Inches, Pt
 
 ASET = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
-# Foto latar sampul (tidak ikut di repo). Aplikasi web boleh menimpanya dengan
-# path hasil unduhan; jika berkasnya tidak ada, sampul dibuat tanpa foto.
-LATAR_COVER = os.path.join(ASET, "latar_cover.png")
 
 # ---------------------------------------------------------------- token ---
-LEBAR_SLIDE, TINGGI_SLIDE = 20.0, 11.25
+LEBAR_SLIDE, TINGGI_SLIDE = 16.0, 11.25
 
 WARNA = {
-    "cyan": "00AEEF",
-    "deep": "004B66",
-    "teal": "0A6486",
-    "slate": "364D61",
-    "sage": "CFE2BE",
+    "navy": "13215A",
+    "navy_muda": "24336F",
+    "kuning": "FBBB2B",
+    "kuning_muda": "FFE6AE",
+    "teks": "4A5578",
+    "latar": "F4F6FB",
     "putih": "FFFFFF",
-    "teks": "364D61",
-    "tint": "EAF6FB",
-    "tint_amber": "FFF4E0",
-    "garis": "D3E0E8",
-    "sorot": "FFE3A8",
-    "redup": "DCE8EF",
+    "redup": "C8D1E8",
+    "abu": "8A93AD",
+    "baris": "F7F8FB",
+    "garis": "E3E7F0",
+    # nama dari desain lama, dipetakan ke palet Opsi B (masih dipakai buat_latihan.py)
+    "deep": "13215A",
+    "teal": "13215A",
+    "slate": "13215A",
+    "cyan": "FBBB2B",
+    "sage": "FFE6AE",
+    "tint": "FFFFFF",
+    "tint_amber": "FFE6AE",
+    "sorot": "FBBB2B",
 }
 
 FONT = "Poppins"
 FONT_RUMUS = "Cambria Math"
 
-KIRI = 0.79
-LEBAR_ISI = LEBAR_SLIDE - 2 * KIRI  # 18.42
-KANAN = KIRI + LEBAR_ISI  # tepi kanan area isi (19.21)
-LEBAR_PENGANTAR = 16.0  # paragraf pengantar sengaja lebih sempit agar baris tidak terlalu panjang
-BATAS_BAWAH = 9.9
-JARAK = 0.35
+X_CHIP = 0.60  # chip dan judul sedikit menjorok keluar dari area isi, seperti di template
+KIRI = 0.70
+LEBAR_ISI = 14.65
+KANAN = KIRI + LEBAR_ISI  # 15.35
+LEBAR_PENGANTAR = 14.0
+BATAS_BAWAH = 9.85
+JARAK = 0.3
 
-Y_CHIP, H_CHIP = 0.85, 0.86
-Y_JUDUL = 1.98
+Y_CHIP, H_CHIP = 0.55, 0.75
+Y_JUDUL, H_JUDUL = 1.45, 0.85
+Y_NAV, H_NAV = 10.30, 0.60
+RADIUS = 0.4  # sudut kartu
+
+HAK_CIPTA = f"© {datetime.date.today().year} PT Cerebrum Edukanesia Nusantara. All Rights Reserved."
 
 IKON = {
     "globe": "ikon_globe.png",
@@ -71,13 +83,20 @@ IKON = {
     "bingung": "ikon_bingung.png",
 }
 
-GRADIEN_BRAND = [(0, "00AEEF", 100), (100, "004B66", 100)]
-GRADIEN_LEMBUT = [(0, "00AEEF", 67), (100, "CFE2BE", 67)]
-GRADIEN_TEKS = [(0, "0A6486", 100), (100, "004B66", 100)]
+# Opsi B memakai warna rata; konstanta gradien dipertahankan agar kode lama tetap jalan.
+GRADIEN_BRAND = [(0, "navy", 100), (100, "navy", 100)]
+GRADIEN_LEMBUT = [(0, "kuning_muda", 100), (100, "kuning_muda", 100)]
+GRADIEN_TEKS = [(0, "navy", 100), (100, "navy", 100)]
 
 
-def ikon_path(nama: str) -> str:
-    return os.path.join(ASET, IKON.get(nama, IKON["globe"]))
+def ikon_path(nama: str, warna: str | None = None) -> str:
+    """Path ikon; warna 'navy' atau 'putih' memakai varian dari generator/buat_ikon.py."""
+    berkas = IKON.get(nama, IKON["globe"])
+    if warna:
+        varian = os.path.join(ASET, "ikon", warna, berkas)
+        if os.path.exists(varian):
+            return varian
+    return os.path.join(ASET, berkas)
 
 
 # ------------------------------------------------------- pengukur teks ---
@@ -232,6 +251,8 @@ def lebar_segs(segs, ukuran):
     return sum(lebar_pt(t, ukuran_run(ukuran, r, campur), b, r) for t, b, r, _ in segs) / 72.0
 
 
+
+
 # --------------------------------------------------------- paragraf ---
 class P:
     """Spesifikasi satu paragraf teks kaya."""
@@ -243,7 +264,7 @@ class P:
         if segs is not None:
             self.segs = segs
         elif rumus:
-            self.segs = [(teks.replace(" ", "\u00a0"), False, True, None)]
+            self.segs = [(teks.replace(" ", " "), False, True, None)]
         else:
             self.segs = segmen(teks, tebal=tebal)
 
@@ -264,6 +285,12 @@ def tinggi_paragraf(paragraf, lebar_in, inset=(0, 0, 0, 0)):
 
 def _rgb(warna):
     return RGBColor.from_string(WARNA.get(warna, warna))
+
+
+def _warna_rata(stops):
+    """Warna tunggal jika semua titik gradien sama dan tidak transparan, selain itu None."""
+    warna = {WARNA.get(c, c) for _, c, _ in stops}
+    return warna.pop() if len(warna) == 1 and all(a == 100 for _, _, a in stops) else None
 
 
 def _gradfill_xml(stops, sudut=45):
@@ -292,6 +319,7 @@ def isi_teks(tf, paragraf, inset=(0, 0, 0, 0), jangkar="t"):
         p.space_before = Pt(0)
         p.space_after = Pt(spec.setelah if i < len(paragraf) - 1 else 0)
         campur = campuran(spec.segs)
+        rata_gradien = _warna_rata(spec.gradien) if spec.gradien else None
         for teks, tebal, rumus, warna in spec.segs:
             r = p.add_run()
             r.text = teks
@@ -299,11 +327,11 @@ def isi_teks(tf, paragraf, inset=(0, 0, 0, 0), jangkar="t"):
             f.size = Pt(ukuran_run(spec.ukuran, rumus, campur))
             f.bold = bool(tebal)
             f.name = FONT_RUMUS if rumus else FONT
-            if spec.gradien:
+            if spec.gradien and not rata_gradien:
                 rpr = r._r.get_or_add_rPr()
                 rpr.insert(0, _gradfill_xml(spec.gradien))
             else:
-                f.color.rgb = _rgb(warna or spec.warna)
+                f.color.rgb = _rgb(rata_gradien or warna or spec.warna)
 
 
 def teks(slide, x, y, w, h, paragraf, inset=(0, 0, 0, 0), jangkar="t", nama=None):
@@ -336,18 +364,11 @@ def _ganti_fill(shp, el):
     geom.addnext(el)
 
 
-def bayangan(shp, alpha=22, blur=0.09, jarak=0.03):
-    sp = _spPr(shp)
-    for old in sp.findall(qn("a:effectLst")):
-        sp.remove(old)
-    eff = etree.fromstring(
-        '<a:effectLst xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">'
-        f'<a:outerShdw blurRad="{int(blur * 914400)}" dist="{int(jarak * 914400)}" dir="5400000" '
-        'algn="t" rotWithShape="0"><a:srgbClr val="004B66">'
-        f'<a:alpha val="{alpha * 1000}"/></a:srgbClr></a:outerShdw></a:effectLst>'
-    )
-    ln = sp.find(qn("a:ln"))
-    (ln if ln is not None else sp[-1]).addnext(eff)
+def latar(slide, warna="latar"):
+    """Warna latar slide (bukan bentuk), seperti template Opsi B."""
+    fill = slide.background.fill
+    fill.solid()
+    fill.fore_color.rgb = _rgb(warna)
 
 
 def kotak(slide, x, y, w, h, warna=None, gradien=None, sudut=45, radius=0.08,
@@ -359,11 +380,11 @@ def kotak(slide, x, y, w, h, warna=None, gradien=None, sudut=45, radius=0.08,
         shp.name = nama
     if jenis == MSO_SHAPE.ROUNDED_RECTANGLE:
         shp.adjustments[0] = min(0.5, radius / min(w, h))
-    if gradien:
+    if gradien and not _warna_rata(gradien):
         _ganti_fill(shp, _gradfill_xml(gradien, sudut))
-    elif warna:
+    elif gradien or warna:
         shp.fill.solid()
-        shp.fill.fore_color.rgb = _rgb(warna)
+        shp.fill.fore_color.rgb = _rgb(_warna_rata(gradien) if gradien else warna)
     else:
         shp.fill.background()
     if garis:
@@ -388,68 +409,95 @@ def gambar(slide, path, x, y, w=None, h=None, nama=None):
 
 
 def opasitas_gambar(pic, persen):
-    """Atur opasitas gambar (0-100), seperti latar sampul template (31%)."""
+    """Atur opasitas gambar (0-100)."""
     blip = pic._element.find(".//" + qn("a:blip"))
     etree.SubElement(blip, qn("a:alphaModFix"), amt=str(int(persen * 1000)))
 
 
-def ubin_ikon(slide, x, y, ukuran, ikon, besar_ikon=0.55):
-    """Ubin putih membulat berisi ikon (motif kartu & chip template)."""
-    t = kotak(slide, x, y, ukuran, ukuran * 1.08, warna="putih", radius=ukuran * 0.24)
-    bayangan(t, alpha=25)
+def lingkaran(slide, x, y, d, warna, isi=None, ukuran=None, warna_teks="navy", nama=None):
+    """Lingkaran berwarna, opsional berisi teks tebal di tengah (nomor, level, simbol)."""
+    o = kotak(slide, x, y, d, d, warna=warna, bentuk=MSO_SHAPE.OVAL, radius=0, nama=nama)
+    if isi is not None:
+        ukuran = ukuran or round(d * 72 * 0.4)
+        isi_teks(o.text_frame, [P(str(isi), ukuran, warna_teks, tebal=True, rata="c", spasi=1.0)], jangkar="m")
+    return o
+
+
+def ubin_ikon(slide, x, y, ukuran, ikon, besar_ikon=0.6, warna="kuning", warna_ikon="navy"):
+    """Lingkaran kuning berisi ikon navy (motif chip dan kartu Opsi B)."""
+    o = lingkaran(slide, x, y, ukuran, warna, nama="Ikon")
     s = ukuran * besar_ikon
-    gambar(slide, ikon_path(ikon), x + (ukuran - s) / 2, y + (ukuran * 1.08 - s) / 2, w=s, h=s)
-    return t
+    gambar(slide, ikon_path(ikon, warna_ikon), x + (ukuran - s) / 2, y + (ukuran - s) / 2, w=s, h=s)
+    return o
+
+
+def panah(slide, x, y, w=0.5, h=0.5, warna="kuning"):
+    shp = slide.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(x), Inches(y), Inches(w), Inches(h))
+    _hapus_gaya(shp)
+    shp.fill.solid()
+    shp.fill.fore_color.rgb = _rgb(warna)
+    shp.line.fill.background()
+    shp.name = "Panah"
+    return shp
+
+
+def _warna_kartu(warna, bawaan="putih"):
+    """Nama warna kartu dari naskah (termasuk nama desain lama) ke palet Opsi B."""
+    peta = {"teal": "navy", "slate": "navy", "deep": "navy", "gradien": "navy", "tint": "putih",
+            "sage": "kuning_muda", "navy": "navy", "putih": "putih", "kuning": "kuning",
+            "kuning_muda": "kuning_muda"}
+    return peta.get(warna, bawaan) if warna else bawaan
 
 
 # --------------------------------------------------------- kerangka ---
-NAV = ["Pendahuluan", "Tujuan Pembelajaran", "Materi", "Penutup"]
+NAV = ["Pendahuluan", "Tujuan Pembelajaran", "Pendalaman Materi", "Penutup"]
 
 
 def navbar(slide, aktif=None, label=None):
-    """Bilah navigasi bawah; label aktif diberi pil putih. Mengembalikan {label: shape}."""
+    """Pil navigasi navy di bawah; bagian aktif diberi pil kuning. Mengembalikan {label: shape}."""
     label = label or NAV
-    w0, y0, h0 = 7.63, 10.26, 0.71
+    w0 = 8.0
     x0 = (LEBAR_SLIDE - w0) / 2
-    kotak(slide, x0, y0, w0, h0, gradien=GRADIEN_LEMBUT, radius=0.06, nama="Navigasi")
-    ukuran = 14
-    lebar = [lebar_pt(n, ukuran, True) / 72 for n in label]
-    pad = 0.22
-    sisa = w0 - 2 * pad - sum(lebar) - 2 * 0.2 * len(label)
-    celah = sisa / (len(label) - 1)
+    kotak(slide, x0, Y_NAV, w0, H_NAV, warna="navy", radius=H_NAV / 2, nama="Navigasi")
+    huruf = [n.upper() for n in label]
+    pad, tambah = 0.12, 0.3
+    for ukuran in (11, 10, 9):
+        lebar = [lebar_pt(t, ukuran, True) / 72 + tambah for t in huruf]
+        celah = (w0 - 2 * pad - sum(lebar)) / max(1, len(label) - 1)
+        if celah >= 0.05:
+            break
     x = x0 + pad
     hasil = {}
-    for nama, lw in zip(label, lebar):
-        kw = lw + 0.4
+    for nama, t, lw in zip(label, huruf, lebar):
         if nama == aktif:
-            pil = kotak(slide, x, y0 + 0.11, kw, h0 - 0.22, warna="putih", radius=0.25,
-                        nama=f"Nav aktif {nama}")
-            bayangan(pil, alpha=18, blur=0.06, jarak=0.02)
-        tb = teks(slide, x, y0, kw, h0,
-                  [P(nama, ukuran, "deep" if nama == aktif else "teal", tebal=True, rata="c", spasi=1.1)],
-                  jangkar="m", nama=f"Nav {nama}")
-        hasil[nama] = tb
-        x += kw + celah
+            kotak(slide, x, Y_NAV + 0.09, lw, H_NAV - 0.18, warna="kuning", radius=(H_NAV - 0.18) / 2,
+                  nama=f"Nav aktif {nama}")
+        hasil[nama] = teks(slide, x, Y_NAV, lw, H_NAV,
+                           [P(t, ukuran, "navy" if nama == aktif else "putih", tebal=True, rata="c", spasi=1.0)],
+                           jangkar="m", nama=f"Nav {nama}")
+        x += lw + celah
     return hasil
 
 
 def nomor_halaman(slide, nomor, total):
-    teks(slide, KANAN - 1.48, 10.33, 1.48, 0.57,
-         [P(f"{nomor} / {total}", 13, "teal", tebal=True, rata="r", spasi=1.1)],
-         jangkar="m", nama="Nomor halaman")
+    lingkaran(slide, KANAN - 0.75, Y_NAV, 0.6, "kuning", nomor, 13 if nomor < 100 else 11, "navy",
+              nama="Nomor halaman")
 
 
 def chip(slide, label, ikon):
-    ukuran = 23
-    w = 0.95 + lebar_pt(label, ukuran, True) / 72 + 0.45
-    kotak(slide, KIRI, Y_CHIP, w, H_CHIP, gradien=GRADIEN_LEMBUT, radius=0.08, nama="Chip bagian")
-    ubin_ikon(slide, KIRI + 0.15, Y_CHIP + 0.12, 0.58, ikon)
-    teks(slide, KIRI + 0.89, Y_CHIP, w - 0.89, H_CHIP,
-         [P(label, ukuran, tebal=True, spasi=1.1, gradien=GRADIEN_TEKS)], jangkar="m", nama="Label bagian")
+    """Pil navy berisi lingkaran kuning + ikon dan label bagian. Mengembalikan lebarnya."""
+    ukuran = 18
+    tw = lebar_pt(label, ukuran, True) / 72
+    w = 0.82 + tw + 0.35
+    kotak(slide, X_CHIP, Y_CHIP, w, H_CHIP, warna="navy", radius=H_CHIP / 2, nama="Chip bagian")
+    ubin_ikon(slide, X_CHIP + 0.10, Y_CHIP + 0.08, 0.59, ikon, besar_ikon=0.66)
+    teks(slide, X_CHIP + 0.82, Y_CHIP, tw + 0.3, H_CHIP, [P(label, ukuran, "putih", tebal=True, spasi=1.1)],
+         jangkar="m", nama="Label bagian")
     return w
 
 
-def pil(slide, x, y, isi, ukuran=14, warna="tint", warna_teks="teal", h=0.46, tebal=True, gradien=None, nama=None):
+def pil(slide, x, y, isi, ukuran=14, warna="putih", warna_teks="navy", h=0.46, tebal=True, gradien=None,
+        nama=None):
     """Pil kecil (tag/label). Mengembalikan (shape, lebar)."""
     w = lebar_pt(isi, ukuran, tebal) / 72 + 0.5
     shp = kotak(slide, x, y, w, h, warna=None if gradien else warna, gradien=gradien, radius=h / 2,
@@ -463,21 +511,22 @@ def tombol(slide, x, y, isi, rata="l", w=None, h=0.5):
     w = w or lebar_pt(isi, 13, True) / 72 + 0.55
     if rata == "r":
         x = x - w
-    shp = kotak(slide, x, y, w, h, warna="tint", radius=h / 2, nama=f"Tombol {isi}")
-    isi_teks(shp.text_frame, [P(isi, 13, "teal", tebal=True, rata="c", spasi=1.0)], jangkar="m")
+    shp = kotak(slide, x, y, w, h, warna="putih", radius=h / 2, nama=f"Tombol {isi}")
+    isi_teks(shp.text_frame, [P(isi, 13, "navy", tebal=True, rata="c", spasi=1.0)], jangkar="m")
     return shp
 
 
-def judul(slide, isi, y=Y_JUDUL, ukuran=44):
+def judul(slide, isi, y=Y_JUDUL, ukuran=38):
+    w = LEBAR_SLIDE - 2 * X_CHIP
     segs = segmen(isi, tebal=True)
-    while lebar_segs(segs, ukuran) > LEBAR_ISI * 0.97 and ukuran > 30:
+    while lebar_segs(segs, ukuran) > w * 0.97 and ukuran > 28:
         ukuran -= 2
-    teks(slide, KIRI, y, LEBAR_ISI, 0.85, [P(isi, ukuran, "teal", tebal=True, spasi=1.1)], nama="Judul")
-    return y + 0.85
+    teks(slide, X_CHIP, y, w, H_JUDUL, [P(isi, ukuran, "navy", tebal=True, spasi=1.1)], nama="Judul")
+    return y + H_JUDUL
 
 
-def pengantar(slide, isi, y, lebar=LEBAR_PENGANTAR, ukuran=22):
-    p = [P(isi, ukuran, "teks", spasi=1.3)]
+def pengantar(slide, isi, y, lebar=LEBAR_PENGANTAR, ukuran=19):
+    p = [P(isi, ukuran, "teks", spasi=1.35)]
     h = tinggi_paragraf(p, lebar)
     teks(slide, KIRI, y, lebar, h, p, nama="Pengantar")
     return y + h
@@ -486,41 +535,77 @@ def pengantar(slide, isi, y, lebar=LEBAR_PENGANTAR, ukuran=22):
 def kerangka_isi(slide, label_chip, ikon, judul_slide=None, isi_pengantar=None):
     """Chip + judul + pengantar. Mengembalikan y awal area konten."""
     chip(slide, label_chip, ikon)
-    y = Y_JUDUL
-    if judul_slide:
-        y = judul(slide, judul_slide)
-    else:
-        y = Y_CHIP + H_CHIP + 0.35
+    y = judul(slide, judul_slide) if judul_slide else Y_CHIP + H_CHIP + 0.35
     if isi_pengantar:
-        y = pengantar(slide, isi_pengantar, y + 0.05)
-    return y + JARAK
+        return pengantar(slide, isi_pengantar, y) + 0.35
+    return y + 0.15
+
+
+def _hiasan_sampul(slide, ikon):
+    """Tiga bentuk membulat bertumpuk (navy, kuning, putih) dengan ikon, terpotong tepi kanan."""
+    kotak(slide, 8.2, 1.2, 10.0, 8.9, warna="navy", radius=4.45, nama="Hiasan navy")
+    kotak(slide, 9.6, 2.35, 8.6, 6.6, warna="kuning", radius=3.3, nama="Hiasan kuning")
+    kotak(slide, 11.1, 3.6, 7.0, 4.1, warna="putih", radius=2.05, nama="Hiasan putih")
+    gambar(slide, ikon_path(ikon, "navy"), 12.0, 4.25, w=2.8, h=2.8, nama="Ikon sampul")
+
+
+def _judul_sampul(slide, isi, y, lebar=7.3, maks=64):
+    segs = segmen(isi, tebal=True)
+    kata_terpanjang = max(isi.split(), key=lambda k: lebar_pt(k, 10, True))
+    ukuran = maks
+    while ukuran > 36 and (jumlah_baris(segs, ukuran, lebar) > 2 or
+                           lebar_pt(kata_terpanjang, ukuran, True) / 72 > lebar * 0.95):
+        ukuran -= 4
+    h = jumlah_baris(segs, ukuran, lebar) * ukuran * 1.05 / 72
+    teks(slide, 0.8, y, lebar + 0.2, h + 0.1, [P(isi, ukuran, "navy", tebal=True, spasi=1.05)], nama="Judul sampul")
+    return y + h
+
+
+def sampul(slide, judul_sampul, tag=None, subjudul=None, ikon="strategi"):
+    latar(slide, "putih")
+    _hiasan_sampul(slide, ikon)
+    if tag:
+        pil(slide, 0.8, 3.0, tag, ukuran=15, warna="kuning", warna_teks="navy", h=0.55, nama="Tag subtes")
+    y = _judul_sampul(slide, judul_sampul, 3.75)
+    if subjudul:
+        p = [P(subjudul, 22, "teks", spasi=1.3)]
+        teks(slide, 0.8, y + 0.3, 7.0, tinggi_paragraf(p, 7.0), p, nama="Subjudul sampul")
+    teks(slide, 0.8, 10.25, 9.0, 0.4, [P(HAK_CIPTA, 12, "abu", spasi=1.2)], nama="Hak cipta")
+
+
+def terima_kasih(slide, pesan="Sampai jumpa di materi berikutnya.", ikon="roket"):
+    latar(slide, "putih")
+    _hiasan_sampul(slide, ikon)
+    y = _judul_sampul(slide, "Terima kasih", 4.2)
+    teks(slide, 0.8, y + 0.3, 7.0, 0.6, [P(pesan, 22, "teks", spasi=1.3)], nama="Pesan akhir")
+    teks(slide, 0.8, 10.25, 9.0, 0.4, [P(HAK_CIPTA, 12, "abu", spasi=1.2)], nama="Hak cipta")
 
 
 # ----------------------------------------------------------- komponen ---
+SIMBOL_CATATAN = {"peringatan": "!", "tips": "i", "pemantik": "?", "info": "i"}
+
+
 def _par_catatan(isi, judul_catatan, ukuran):
     par = []
     if judul_catatan:
-        par.append(P(judul_catatan, 18, "teal", tebal=True, spasi=1.2, setelah=4))
-    par.append(P(isi, ukuran, "teks", spasi=1.3))
-    return par, (1.25, 0.24, 0.35, 0.24)
+        par.append(P(judul_catatan, 16, "navy", tebal=True, spasi=1.2, setelah=4))
+    par.append(P(isi, ukuran, "navy", spasi=1.3))
+    return par, (1.65, 0.28, 0.45, 0.28)
 
 
-def tinggi_catatan(isi, w=LEBAR_ISI, judul_catatan=None, ukuran=20):
+def tinggi_catatan(isi, w=LEBAR_ISI, judul_catatan=None, ukuran=19):
     par, inset = _par_catatan(isi, judul_catatan, ukuran)
-    return max(1.0, tinggi_paragraf(par, w, inset))
+    return max(1.15, tinggi_paragraf(par, w, inset))
 
 
-def catatan(slide, y, jenis, isi, x=KIRI, w=LEBAR_ISI, judul_catatan=None, ukuran=20):
-    """Kotak catatan: peringatan (amber) / tips (cyan) / pemantik."""
-    latar = "tint_amber" if jenis == "peringatan" else "tint"
-    ikon = {"peringatan": "peringatan", "tips": "strategi", "pemantik": "globe"}.get(jenis, "strategi")
+def catatan(slide, y, jenis, isi, x=KIRI, w=LEBAR_ISI, judul_catatan=None, ukuran=19):
+    """Kotak kuning muda dengan lingkaran navy bersimbol: peringatan (!), tips (i), pemantik (?)."""
     par, inset = _par_catatan(isi, judul_catatan, ukuran)
-    h = max(1.0, tinggi_paragraf(par, w, inset))
-    kotak(slide, x, y, w, h, warna=latar, radius=0.1, nama=f"Catatan {jenis}")
-    if jenis == "peringatan":
-        gambar(slide, ikon_path(ikon), x + 0.32, y + (h - 0.5) / 2, w=0.58)
-    else:
-        ubin_ikon(slide, x + 0.3, y + (h - 0.65) / 2, 0.6, ikon)
+    h = max(1.15, tinggi_paragraf(par, w, inset))
+    kotak(slide, x, y, w, h, warna="kuning_muda", radius=RADIUS, nama=f"Catatan {jenis}")
+    d = 0.85
+    lingkaran(slide, x + 0.45, y + (h - d) / 2, d, "navy", SIMBOL_CATATAN.get(jenis, "i"), 24, "putih",
+              nama="Simbol catatan")
     teks(slide, x, y, w, h, par, inset=inset, jangkar="m")
     return y + h
 
@@ -539,14 +624,14 @@ def _siapkan_tabel(kolom, baris, lebar, ukuran, w, tengah, sorot, kebenaran, tin
     def spes(isi, header=False, r=None, c=None):
         rumus_saja = bool(re.fullmatch(r"\$[^$]+\$", isi.strip()))
         if header:
-            return P(isi.replace("**", ""), ukuran, "putih", tebal=True, rata=rata, spasi=1.25)
+            return P(isi.replace("**", ""), max(14, ukuran - 2), "putih", tebal=True, rata=rata, spasi=1.25)
         if kebenaran:
             terang = sorot and [r, c] == list(sorot)
-            return P(isi, ukuran + 4, "deep" if isi == "B" else "slate", tebal=(isi == "B" or terang),
+            return P(isi, ukuran + 4, "navy" if isi == "B" else "teks", tebal=(isi == "B" or terang),
                      rata="c", spasi=1.2)
         if rumus_saja:
-            return P(isi, ukuran + 4, "deep", rata=rata, spasi=1.2)
-        return P(isi, ukuran, "teks", rata=rata, spasi=1.25)
+            return P(isi, ukuran + 4, "navy", rata=rata, spasi=1.2)
+        return P(isi, ukuran, "navy", rata=rata, spasi=1.25)
 
     sel = ([[spes(k, header=True) for k in kolom]] if kolom else []) + [
         [spes(v, r=i, c=j) for j, v in enumerate(list(b) + [""] * (n - len(b)))] for i, b in enumerate(baris)
@@ -562,7 +647,7 @@ def tinggi_tabel(kolom, baris, lebar=None, ukuran=20, w=LEBAR_ISI, tinggi_min=0.
 
 def tabel(slide, y, kolom, baris, lebar=None, ukuran=20, x=KIRI, w=LEBAR_ISI,
           tengah=False, sorot=None, kebenaran=False, tinggi_min=0.62):
-    """Tabel dengan header slate (kolom=None: tanpa header); sel berisi markup teks kaya."""
+    """Tabel dengan header navy (kolom=None: tanpa header); sel berisi markup teks kaya."""
     sel, lebar_kol, inset, tinggi = _siapkan_tabel(kolom, baris, lebar, ukuran, w, tengah, sorot,
                                                    kebenaran, tinggi_min)
     ada_header = bool(kolom)
@@ -590,13 +675,13 @@ def tabel(slide, y, kolom, baris, lebar=None, ukuran=20, x=KIRI, w=LEBAR_ISI,
             c.vertical_anchor = MSO_ANCHOR.MIDDLE
             r = i - 1 if ada_header else i  # indeks baris isi
             if ada_header and i == 0:
-                isi = "slate"
+                isi = "navy"
             elif kebenaran and sorot and [r, j] == list(sorot):
-                isi = "sorot"
+                isi = "kuning"
             elif kebenaran and sorot and r == sorot[0]:
-                isi = "tint_amber"
+                isi = "kuning_muda"
             else:
-                isi = "putih" if r % 2 == 0 else "tint"
+                isi = "putih" if r % 2 == 0 else "baris"
             _sel_gaya(c, isi)
     return y + total
 
@@ -616,143 +701,154 @@ def _sel_gaya(cell, isi, garis="garis"):
     tcPr.set("anchor", "ctr")
 
 
-def kartu_isi(item, lebar):
-    par = [P(item["judul"], 26, "putih", tebal=True, spasi=1.15, setelah=8)]
+def kartu_isi(item, lebar, gelap=False):
+    wj, wr, wi = ("putih", "kuning", "redup") if gelap else ("navy", "navy", "teks")
+    par = [P(item["judul"], 22, wj, tebal=True, spasi=1.15, setelah=8)]
     if item.get("rumus"):
-        par.append(P(item["rumus"], 28, "sage", spasi=1.2, setelah=8))
+        par.append(P(item["rumus"], 26, wr, spasi=1.2, setelah=8))
     if item.get("isi"):
-        par.append(P(item["isi"], 20, "putih", spasi=1.3, setelah=10))
+        par.append(P(item["isi"], 18, wi, spasi=1.35, setelah=10))
     if item.get("contoh"):
-        par.append(P("**Contoh:** " + item["contoh"], 18, "redup", spasi=1.3))
+        par.append(P("**Contoh:** " + item["contoh"], 16, wi, spasi=1.35))
     return par
 
 
 def grid_kartu(slide, y, kartu, kolom=2, x=KIRI, w=LEBAR_ISI, celah=0.3, pembuat=kartu_isi,
-               inset=(0.35, 0.3, 0.35, 0.3), warna_list=None):
+               inset=(0.4, 0.35, 0.4, 0.35), warna_list=None):
+    """Kartu putih membulat (atau navy jika 'warna' kartu navy) dalam grid."""
     lw = (w - celah * (kolom - 1)) / kolom
     baris = [kartu[i:i + kolom] for i in range(0, len(kartu), kolom)]
-    pola = warna_list or (["slate", "teal", "teal", "slate"] if kolom == 2 else ["slate", "teal"])
+    pola = warna_list or ["putih"]
     idx = 0
     for b in baris:
-        par = [pembuat(k, lw) for k in b]
-        h = max(tinggi_paragraf(p, lw, inset) for p in par)
-        for j, (k, p) in enumerate(zip(b, par)):
-            warna = k.get("warna") or pola[idx % len(pola)]
+        warna = []
+        for k in b:
+            warna.append(_warna_kartu(k.get("warna"), pola[idx % len(pola)]))
             idx += 1
+        par = [pembuat(k, lw, wn == "navy") for k, wn in zip(b, warna)]
+        h = max(tinggi_paragraf(p, lw, inset) for p in par)
+        for j, (p, wn) in enumerate(zip(par, warna)):
             kx = x + j * (lw + celah)
-            if warna == "gradien":
-                kotak(slide, kx, y, lw, h, gradien=GRADIEN_BRAND, radius=0.1)
-            else:
-                kotak(slide, kx, y, lw, h, warna=warna, radius=0.1)
+            kotak(slide, kx, y, lw, h, warna=wn, radius=RADIUS, nama="Kartu")
             teks(slide, kx, y, lw, h, p, inset=inset)
         y += h + celah
     return y - celah
 
 
 def kartu_banding(slide, y, kartu, x=KIRI, w=LEBAR_ISI, celah=0.3):
+    """Dua kartu berdampingan: kiri navy, kanan putih; tiap baris berisi rumus dan keterangan."""
     lw = (w - celah) / 2
-    inset = (0.4, 0.32, 0.4, 0.32)
-    kol_rumus = 3.6
+    inset = (0.45, 0.4, 0.45, 0.4)
+    kol_rumus = 3.0
     blok = []
-    for k in kartu:
-        kepala = P(k["judul"], 26, "putih", tebal=True, spasi=1.15)
+    for j, k in enumerate(kartu):
+        gelap = _warna_kartu(k.get("warna")) == "navy" if k.get("warna") in ("navy", "putih") else j == 0
+        kepala = P(k["judul"], 22, "putih" if gelap else "navy", tebal=True, spasi=1.15)
         hk = tinggi_paragraf([kepala], lw, (inset[0], 0, inset[2], 0))
         baris = []
         for rumus, ket in k["baris"]:
-            pr = P(rumus, 30, "sage", spasi=1.2)
-            pk = P(ket, 20, "putih", spasi=1.3)
+            pr = P(rumus, 26, "kuning" if gelap else "navy", spasi=1.2)
+            pk = P(ket, 18, "putih" if gelap else "teks", spasi=1.3)
             hb = max(tinggi_paragraf([pr], kol_rumus), tinggi_paragraf([pk], lw - inset[0] - inset[2] - kol_rumus))
             baris.append((pr, pk, max(hb, 0.62)))
-        blok.append((k, kepala, hk, baris))
+        blok.append((gelap, kepala, hk, baris))
     h = max(inset[1] + hk + 0.25 + sum(b[2] for b in baris) + 0.18 * (len(baris) - 1) + inset[3]
             for _, _, hk, baris in blok)
-    for j, (k, kepala, hk, baris) in enumerate(blok):
+    for j, (gelap, kepala, hk, baris) in enumerate(blok):
         kx = x + j * (lw + celah)
-        kotak(slide, kx, y, lw, h, warna=k.get("warna", "slate"), radius=0.1)
+        kotak(slide, kx, y, lw, h, warna="navy" if gelap else "putih", radius=RADIUS, nama="Kartu banding")
         teks(slide, kx + inset[0], y + inset[1], lw - inset[0] - inset[2], hk, [kepala])
         by = y + inset[1] + hk + 0.25
         for pr, pk, hb in baris:
-            latar = kotak(slide, kx + 0.22, by - 0.06, lw - 0.44, hb + 0.12, warna="putih", radius=0.08,
-                          nama="Baris banding")
-            _transparan(latar, 88)
+            kotak(slide, kx + 0.22, by - 0.06, lw - 0.44, hb + 0.12, warna="navy_muda" if gelap else "latar",
+                  radius=0.2, nama="Baris banding")
             teks(slide, kx + inset[0], by, kol_rumus, hb, [pr], jangkar="m")
             teks(slide, kx + inset[0] + kol_rumus, by, lw - inset[0] - inset[2] - kol_rumus, hb, [pk], jangkar="m")
             by += hb + 0.18
     return y + h
 
 
-def _transparan(shp, persen):
-    """Atur transparansi isian solid (0-100)."""
-    sf = _spPr(shp).find(qn("a:solidFill"))
-    clr = sf[0]
-    for a in clr.findall(qn("a:alpha")):
-        clr.remove(a)
-    etree.SubElement(clr, qn("a:alpha"), val=str(int((100 - persen) * 1000)))
-
-
-def baris_notasi(slide, y, baris, x=KIRI, w=LEBAR_ISI, kol_rumus=6.6):
+def baris_notasi(slide, y, baris, x=KIRI, w=LEBAR_ISI, kol_rumus=5.6):
+    """Baris putih membulat: rumus besar di kiri, keterangan di kanan."""
+    lebar_ket = w - 0.45 - kol_rumus - 0.25 - 0.4
     for b in baris:
-        pr = P(b["rumus"], 32, "deep", spasi=1.2)
-        pk = P(b["ket"], 20, "teks", spasi=1.3)
-        h = max(tinggi_paragraf([pr], kol_rumus), tinggi_paragraf([pk], w - kol_rumus - 0.9)) + 0.44
+        pr = P(b["rumus"], 30, "navy", spasi=1.2)
+        pk = P(b["ket"], 18, "teks", spasi=1.35)
+        h = max(tinggi_paragraf([pr], kol_rumus), tinggi_paragraf([pk], lebar_ket)) + 0.44
         h = max(h, 1.05)
-        kotak(slide, x, y, w, h, warna="tint", radius=0.1, nama="Baris notasi")
-        teks(slide, x + 0.4, y, kol_rumus, h, [pr], jangkar="m")
-        teks(slide, x + 0.4 + kol_rumus, y, w - kol_rumus - 0.8, h, [pk], jangkar="m")
+        kotak(slide, x, y, w, h, warna="putih", radius=RADIUS, nama="Baris notasi")
+        teks(slide, x + 0.45, y, kol_rumus, h, [pr], jangkar="m")
+        teks(slide, x + 0.45 + kol_rumus + 0.25, y, lebar_ket, h, [pk], jangkar="m")
         y += h + 0.2
     return y - 0.2
 
 
-def panah(slide, x, y, w=0.5, h=0.5, warna="cyan"):
-    shp = slide.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(x), Inches(y), Inches(w), Inches(h))
-    _hapus_gaya(shp)
-    shp.fill.solid()
-    shp.fill.fore_color.rgb = _rgb(warna)
-    shp.line.fill.background()
-    shp.name = "Panah"
-    return shp
-
-
 def ilustrasi_setara(slide, y, kiri, kanan, x=KIRI, w=LEBAR_ISI):
-    lebar_panah = 0.9
-    lw = (w - lebar_panah) / 2
-    inset = (0.35, 0.28, 0.35, 0.28)
-    pk = [P("Kalimat", 16, "sage", tebal=True, spasi=1.2, setelah=4), P(kiri, 20, "putih", spasi=1.3)]
-    pn = [P("Bentuk setara", 16, "sage", tebal=True, spasi=1.2, setelah=4), P(kanan, 20, "putih", spasi=1.3)]
-    h = max(tinggi_paragraf(pk, lw, inset), tinggi_paragraf(pn, lw, inset))
-    kotak(slide, x, y, lw, h, warna="slate", radius=0.1)
-    teks(slide, x, y, lw, h, pk, inset=inset, jangkar="m")
-    panah(slide, x + lw + 0.2, y + h / 2 - 0.25)
-    kotak(slide, x + lw + lebar_panah, y, lw, h, warna="teal", radius=0.1)
-    teks(slide, x + lw + lebar_panah, y, lw, h, pn, inset=inset, jangkar="m")
+    """Kotak contoh navy: kalimat dan bentuk setaranya dihubungkan lambang ≡."""
+    par = [P("Contoh", 15, "kuning", tebal=True, spasi=1.2, setelah=6),
+           P(f"“{kiri}”  $≡$  “{kanan}”", 19, "putih", spasi=1.35)]
+    inset = (0.45, 0.35, 0.45, 0.35)
+    h = tinggi_paragraf(par, w, inset)
+    kotak(slide, x, y, w, h, warna="navy", radius=RADIUS, nama="Contoh setara")
+    teks(slide, x, y, w, h, par, inset=inset, jangkar="m")
     return y + h
 
 
-def daftar_langkah(slide, y, langkah, x=KIRI, w=LEBAR_ISI, celah=0.17):
-    d = 0.66
+def _kapital(s):
+    return s[:1].upper() + s[1:]
+
+
+def daftar_langkah(slide, y, langkah, x=KIRI, w=LEBAR_ISI, celah=0.25):
+    """Alur bernomor mendatar (2-5 langkah, kartu terakhir navy); jika terlalu panjang, daftar menurun."""
+    n = len(langkah)
+    if 2 <= n <= 5:
+        d = 0.9
+        lw = (w - celah * (n - 1)) / n
+        inset = (0.3, 0.3, 0.3, 0.3)
+        pars = []
+        for i, l in enumerate(langkah):
+            gelap = i == n - 1
+            p = []
+            if l.get("judul"):
+                p.append(P(l["judul"], 20, "putih" if gelap else "navy", tebal=True, spasi=1.2, setelah=6))
+            p.append(P(_kapital(l["isi"]), 17, "redup" if gelap else "teks", spasi=1.35))
+            pars.append(p)
+        h = max(2.0, max(tinggi_paragraf(p, lw, inset) for p in pars))
+        if h <= 4.4:
+            x_awal, x_akhir = x + lw / 2, x + (n - 1) * (lw + celah) + lw / 2
+            kotak(slide, x_awal, y + d / 2 - 0.04, x_akhir - x_awal, 0.08, warna="kuning", radius=0,
+                  nama="Garis alur")
+            yk = y + d + 0.35
+            for i, p in enumerate(pars):
+                kx = x + i * (lw + celah)
+                navy = i % 2 == 0
+                lingkaran(slide, kx + (lw - d) / 2, y, d, "navy" if navy else "kuning", i + 1, 24,
+                          "putih" if navy else "navy", nama=f"Nomor {i + 1}")
+                kotak(slide, kx, yk, lw, h, warna="navy" if i == n - 1 else "putih", radius=RADIUS,
+                      nama=f"Langkah {i + 1}")
+                teks(slide, kx, yk, lw, h, p, inset=inset)
+            return yk + h
+    d = 0.7
     for i, l in enumerate(langkah, 1):
-        isi = f"**{l['judul']}:** {l['isi']}" if l.get("judul") else l["isi"]
-        p = [P(isi, 20, "putih", spasi=1.3)]
-        inset = (0.35, 0.16, 0.35, 0.16)
-        lw = w - d - 0.25
-        h = max(0.8, tinggi_paragraf(p, lw, inset))
-        lingkar = kotak(slide, x, y + (h - d) / 2, d, d, gradien=GRADIEN_BRAND, bentuk=MSO_SHAPE.OVAL,
-                        radius=0, nama=f"Nomor {i}")
-        isi_teks(lingkar.text_frame, [P(str(i), 24, "putih", tebal=True, rata="c", spasi=1.0)], jangkar="m")
-        kotak(slide, x + d + 0.25, y, lw, h, warna="teal", radius=0.08, nama=f"Langkah {i}")
-        teks(slide, x + d + 0.25, y, lw, h, p, inset=inset, jangkar="m")
-        y += h + celah
-    return y - celah
+        isi = f"**{l['judul']}:** {l['isi']}" if l.get("judul") else _kapital(l["isi"])
+        p = [P(isi, 19, "navy", spasi=1.3)]
+        inset = (1.3, 0.22, 0.4, 0.22)
+        h = max(0.95, tinggi_paragraf(p, w, inset))
+        kotak(slide, x, y, w, h, warna="putih", radius=RADIUS, nama=f"Langkah {i}")
+        lingkaran(slide, x + 0.3, y + (h - d) / 2, d, "kuning", i, 20, "navy", nama=f"Nomor {i}")
+        teks(slide, x, y, w, h, p, inset=inset, jangkar="m")
+        y += h + 0.2
+    return y - 0.2
 
 
 def alur_premis(slide, y, premis, langkah, x=KIRI, w=LEBAR_ISI):
-    """Baris kartu premis, lalu alur langkah berpanah menuju kesimpulan."""
-    inset = (0.3, 0.24, 0.3, 0.24)
+    """Baris kartu premis (putih), lalu alur langkah navy berpanah menuju kesimpulan kuning."""
+    inset = (0.3, 0.26, 0.3, 0.26)
     sisi = (inset[0], 0, inset[2], 0)
 
     def baris_kartu(y, item, lebar_kartu, celah, warna_label, warna_teks, ukuran_rumus, gaya):
-        atas = [[P(it["label"], 16, warna_label, tebal=True, spasi=1.2, setelah=4),
-                 P(it["teks"], 19, warna_teks, spasi=1.3)] for it in item]
+        atas = [[P(it["label"], 15, warna_label, tebal=True, spasi=1.2, setelah=4),
+                 P(it["teks"], 18, warna_teks, spasi=1.3)] for it in item]
         h_atas = max(tinggi_paragraf(a, lebar_kartu, sisi) for a in atas)
         ada_rumus = any(it.get("rumus") for it in item)
         h_rumus = ukuran_rumus * 1.2 / 72 if ada_rumus else 0
@@ -763,14 +859,15 @@ def alur_premis(slide, y, premis, langkah, x=KIRI, w=LEBAR_ISI):
             teks(slide, kx, y + inset[1], lebar_kartu, h_atas, a, inset=sisi)
             if it.get("rumus"):
                 teks(slide, kx, y + h - inset[3] - h_rumus, lebar_kartu, h_rumus,
-                     [P(it["rumus"], ukuran_rumus, warna_teks if warna_teks == "putih" else "deep", spasi=1.2)],
+                     [P(it["rumus"], ukuran_rumus, "putih" if warna_teks == "putih" else "navy", spasi=1.2)],
                      inset=sisi, nama="Rumus")
         return h
 
     celah = 0.3
     lw = (w - celah * (len(premis) - 1)) / len(premis)
-    h = baris_kartu(y, premis, lw, celah, "teal", "teks", 28,
-                    lambda i, kx, h: kotak(slide, kx, y, lw, h, warna="tint", radius=0.1, nama=f"Premis {i + 1}"))
+    h = baris_kartu(y, premis, lw, celah, "navy", "teks", 26,
+                    lambda i, kx, h: kotak(slide, kx, y, lw, h, warna="putih", radius=RADIUS,
+                                           nama=f"Premis {i + 1}"))
     y += h + 0.45
 
     tengah, akhir = langkah[:-1], langkah[-1]
@@ -778,24 +875,155 @@ def alur_premis(slide, y, premis, langkah, x=KIRI, w=LEBAR_ISI):
     lw2 = (w - lp * len(tengah)) / (len(tengah) + 1)
 
     def gaya_langkah(i, kx, h):
-        kotak(slide, kx, y, lw2, h, warna="teal", radius=0.1, nama=f"Langkah {i + 1}")
+        kotak(slide, kx, y, lw2, h, warna="navy", radius=RADIUS, nama=f"Langkah {i + 1}")
         panah(slide, kx + lw2 + 0.15, y + h / 2 - 0.25)
 
-    h2 = baris_kartu(y, tengah, lw2, lp, "sage", "putih", 30, gaya_langkah)
+    h2 = baris_kartu(y, tengah, lw2, lp, "kuning", "putih", 28, gaya_langkah)
     kx = x + len(tengah) * (lw2 + lp)
-    kotak(slide, kx, y, lw2, h2, gradien=GRADIEN_BRAND, radius=0.1, nama="Kesimpulan")
+    kotak(slide, kx, y, lw2, h2, warna="kuning", radius=RADIUS, nama="Kesimpulan")
     teks(slide, kx, y, lw2, h2,
-         [P(akhir["label"], 16, "sage", tebal=True, spasi=1.2, setelah=6),
-          P(akhir["teks"], 22, "putih", tebal=True, spasi=1.3)], inset=inset, jangkar="m")
+         [P(akhir["label"], 15, "navy", tebal=True, spasi=1.2, setelah=6),
+          P(akhir["teks"], 21, "navy", tebal=True, spasi=1.3)], inset=inset, jangkar="m")
     return y + h2
 
 
-def poin_berbutir(slide, y, poin, x=KIRI, w=13.0, ukuran=22):
+def poin_berbutir(slide, y, poin, x=KIRI, w=13.0, ukuran=20):
     for isi in poin:
-        p = [P(isi, ukuran, "teks", spasi=1.3)]
+        p = [P(isi, ukuran, "navy", spasi=1.3)]
         h = tinggi_paragraf(p, w - 0.5)
-        kotak(slide, x + 0.02, y + ukuran * 1.3 / 72 / 2 - 0.08, 0.16, 0.16, warna="cyan",
-              bentuk=MSO_SHAPE.OVAL, radius=0, nama="Butir")
-        teks(slide, x + 0.45, y, w - 0.45, h, p)
-        y += h + 0.18
-    return y - 0.18
+        lingkaran(slide, x + 0.04, y + ukuran * 1.3 / 72 / 2 - 0.12, 0.24, "kuning", nama="Butir")
+        teks(slide, x + 0.5, y, w - 0.5, h, p)
+        y += h + 0.22
+    return y - 0.22
+
+
+# -------------------------------------------------------------- blok ---
+# Blok adalah isi umum hasil ekstraksi dokumen (ekstrak_gdoc.py): paragraf, subjudul,
+# sorot (baris rumus/penegasan), poin, gambar, tabel, catatan, dan kunci jawaban.
+JARAK_BLOK = 0.2
+
+
+def _gaya_paragraf(gaya):
+    return (20, "navy") if gaya == "soal" else (19, "teks")
+
+
+def _par_blok(b, gaya=None):
+    j = b["jenis"]
+    if j == "paragraf":
+        ukuran, warna = _gaya_paragraf(gaya)
+        return [P(b["teks"], ukuran, warna, spasi=1.4)], (0, 0, 0, 0)
+    if j == "subjudul":
+        return [P(b["teks"], 21, "navy", tebal=True, spasi=1.2)], (0, 0.08, 0, 0)
+    if j == "sorot":
+        return [P(b["teks"], 22, "navy", spasi=1.3)], (0.45, 0.2, 0.45, 0.2)
+    if j == "kunci":
+        return [P(b["teks"], 19, "navy", spasi=1.35)], (0.4, 0.22, 0.4, 0.22)
+    return None, None
+
+
+def _ukur_gambar(b, w, h_maks, folder):
+    """(lebar, tinggi gambar, tinggi keterangan) dalam inci, dipaskan ke ruang yang ada."""
+    w_nat, h_nat = b.get("lebar", 4) * 1.5, b.get("tinggi", 3) * 1.5
+    pk = [P(b["keterangan"], 14, "teks", rata="c", spasi=1.3)] if b.get("keterangan") else None
+    h_ket = tinggi_paragraf(pk, w) + 0.12 if pk else 0
+    skala = min(1.0, (min(w, 12.5) - 0.4) / w_nat, max(0.1, (h_maks - h_ket - 0.4)) / h_nat)
+    return w_nat * skala, h_nat * skala, h_ket, skala
+
+
+def tinggi_blok(b, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0):
+    j = b["jenis"]
+    par, inset = _par_blok(b, gaya)
+    if par:
+        return tinggi_paragraf(par, w, inset)
+    if j == "poin":
+        total = 0.0
+        for isi in b["butir"]:
+            total += tinggi_paragraf([P(isi, 19, "navy", spasi=1.3)], w - 0.5) + 0.18
+        return total - 0.18
+    if j == "gambar":
+        gw, gh, h_ket, _ = _ukur_gambar(b, w, h_maks, folder)
+        return gh + 0.4 + h_ket
+    if j == "tabel":
+        return tinggi_tabel(b["kolom"], b["baris"], b.get("lebar"), b.get("ukuran", 16), w)
+    if j == "catatan":
+        return tinggi_catatan(b["teks"], w, b.get("judul"), 18)
+    return 0.0
+
+
+def skala_min_gambar(b, w=LEBAR_ISI):
+    """Tinggi terkecil yang masih layak untuk gambar (60% ukuran alaminya)."""
+    _, gh, h_ket, _ = _ukur_gambar(b, w, 99.0, ".")
+    return gh * 0.6 + 0.4 + h_ket
+
+
+def gambar_blok(slide, b, x, y, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0):
+    """Gambar satu blok pada posisi y. Mengembalikan y bawahnya."""
+    j = b["jenis"]
+    par, inset = _par_blok(b, gaya)
+    if par:
+        h = tinggi_paragraf(par, w, inset)
+        if j == "sorot":
+            kotak(slide, x, y, w, h, warna="putih", radius=RADIUS, nama="Sorotan")
+        elif j == "kunci":
+            kotak(slide, x, y, w, h, warna="kuning_muda", radius=0.3, nama="Kunci jawaban")
+        teks(slide, x, y, w, h, par, inset=inset, jangkar="m" if j in ("sorot", "kunci") else "t")
+        return y + h
+    if j == "poin":
+        return poin_berbutir(slide, y, b["butir"], x, w, ukuran=19)
+    if j == "gambar":
+        gw, gh, h_ket, _ = _ukur_gambar(b, w, h_maks, folder)
+        kw = gw + 0.4
+        kx = x + (w - kw) / 2
+        kotak(slide, kx, y, kw, gh + 0.4, warna="putih", radius=0.25, nama="Bingkai gambar")
+        path = os.path.join(folder, b["file"])
+        if os.path.exists(path):
+            gambar(slide, path, kx + 0.2, y + 0.2, w=gw, h=gh, nama="Gambar materi")
+        y += gh + 0.4
+        if b.get("keterangan"):
+            p = [P(b["keterangan"], 14, "teks", rata="c", spasi=1.3)]
+            teks(slide, x, y + 0.08, w, h_ket, p, nama="Keterangan gambar")
+            y += h_ket
+        return y
+    if j == "tabel":
+        return tabel(slide, y, b["kolom"], b["baris"], b.get("lebar"), b.get("ukuran", 16), x=x, w=w)
+    if j == "catatan":
+        return catatan(slide, y, b.get("catatan", "tips"), b["teks"], x=x, w=w, judul_catatan=b.get("judul"),
+                       ukuran=18)
+    return y
+
+
+def _opsi_mendatar(opsi):
+    return 2 <= len(opsi) <= 5 and all(len(v.replace("**", "").replace("$", "")) <= 26 for v in opsi.values())
+
+
+def _ukur_opsi(opsi, w, ukuran):
+    """(mendatar, lebar kartu, daftar tinggi baris)."""
+    if _opsi_mendatar(opsi):
+        lw = (w - 0.2 * (len(opsi) - 1)) / len(opsi)
+        h = max(0.85, max(tinggi_paragraf([P(v, ukuran, "navy", spasi=1.25)], lw - 0.95) + 0.3 for v in opsi.values()))
+        return True, lw, [h]
+    return False, w, [max(0.56, tinggi_paragraf([P(v, ukuran, "navy", spasi=1.3)], w - 1.25) + 0.2)
+                      for v in opsi.values()]
+
+
+def tinggi_opsi(opsi, w=LEBAR_ISI, ukuran=18):
+    if not opsi:
+        return 0.0
+    mendatar, _, tinggi = _ukur_opsi(opsi, w, ukuran)
+    return tinggi[0] if mendatar else sum(tinggi) + 0.12 * (len(tinggi) - 1)
+
+
+def gambar_opsi(slide, y, opsi, x=KIRI, w=LEBAR_ISI, ukuran=18):
+    """Pilihan jawaban dengan lingkaran huruf kuning: mendatar bila semua opsi pendek, selain itu menurun."""
+    d = 0.48
+    mendatar, lw, tinggi = _ukur_opsi(opsi, w, ukuran)
+    for i, (huruf, isi) in enumerate(opsi.items()):
+        h = tinggi[0] if mendatar else tinggi[i]
+        kx = x + i * (lw + 0.2) if mendatar else x
+        p = [P(isi, ukuran, "navy", spasi=1.25 if mendatar else 1.3)]
+        kotak(slide, kx, y, lw, h, warna="putih", radius=min(RADIUS, h / 2), nama=f"Opsi {huruf}")
+        lingkaran(slide, kx + 0.18, y + (h - d) / 2, d, "kuning", huruf, 17, "navy", nama=f"Huruf {huruf}")
+        teks(slide, kx + 0.82, y, lw - 0.95, h, p, jangkar="m")
+        if not mendatar:
+            y += h + 0.12
+    return y + tinggi[0] if mendatar else y - 0.12

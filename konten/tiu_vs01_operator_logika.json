@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "judul": "Pengenalan Operator Logika",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Silogisme - Pengenalan Operator Logika",
+    "sumber": "https://docs.google.com/document/d/15L2cTMfPHj88IYbSkPVlwZxSsN6HVqkKUFwS9WHlJZk/edit",
+    "id_katalog": "vs-01"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bandingkan “John stres dan John lelah” dengan “John stres atau John lelah”. Kata “dan” meminta kedua pernyataan benar. Kata “atau” cukup dengan sedikitnya satu yang benar.",
+      "Kata “dan”, “atau”, “jika … maka …”, dan “tidak” disebut operator logika. Operator menghubungkan pernyataan atau membalik nilai benar dan salahnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pernyataan yang bisa dinilai benar atau salah dari pertanyaan dan perintah."
+      },
+      {
+        "level": "",
+        "kko": "Mencocokkan",
+        "teks": "“dan”, “atau”, “jika … maka …”, dan “tidak” dengan simbolnya."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "kapan kalimat dengan masing-masing operator benar atau salah, serta menentukan bagian yang terkena kata “tidak”."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Proposisi dan Premis",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Proposisi dan Premis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Proposisi adalah pernyataan yang bisa dinilai benar atau salah. “Jakarta berada di Pulau Jawa” benar, sedangkan “Jakarta berada di Pulau Bali” salah. Pertanyaan “Di mana Jakarta berada?” meminta jawaban. Perintah “Tutup pintunya” meminta tindakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan tetap bisa dinilai meski kita belum tahu jawabannya. Misalnya, “Rina datang pada hari Senin” bisa diperiksa jika orang dan harinya jelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan dan perintah memiliki fungsi yang berbeda dari proposisi. “Apakah pintunya tertutup?” meminta informasi. “Tutup pintunya” meminta tindakan. Setelah diubah menjadi “Pintunya tertutup”, kalimat tersebut menyatakan keadaan yang bisa dinilai benar atau salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis adalah pernyataan yang digunakan untuk menarik kesimpulan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Operator Logika",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Operator Logika",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan satu huruf untuk mewakili satu pernyataan lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam bab ini, p berarti “John stres” dan q berarti “John lelah”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca simbol pada tabel dengan mengganti p dan q dengan pernyataan yang diwakilinya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Nama",
+                "Kata yang dipakai",
+                "Lambang",
+                "Kalimat dan simbol"
+              ],
+              "baris": [
+                [
+                  "**Konjungsi**",
+                  "dan",
+                  "∧",
+                  "John stres dan John lelah · p ∧ q"
+                ],
+                [
+                  "**Disjungsi**",
+                  "atau",
+                  "∨",
+                  "John stres atau John lelah · p ∨ q"
+                ],
+                [
+                  "**Implikasi**",
+                  "jika … maka …",
+                  "→",
+                  "Jika John stres, maka John lelah · p → q"
+                ],
+                [
+                  "**Negasi**",
+                  "tidak",
+                  "~ atau ¬",
+                  "John tidak stres · ¬p atau ~p"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Konjungsi (dan)",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konjungsi (dan)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “dan” (∧) menghubungkan dua pernyataan. “John stres dan John lelah” benar hanya jika John stres sekaligus lelah. Hubungan ini disebut konjungsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “tetapi” juga dapat menyatakan dua hal sekaligus. Pada “John stres, tetapi John masih bisa bekerja”, kata “tetapi” menunjukkan bahwa kedua hal itu terjadi, meskipun ada kesan bertentangan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Disjungsi (atau)",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Disjungsi (atau)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “atau” (∨) cukup dengan sedikitnya satu pernyataan benar. “John stres atau John lelah” benar jika John stres saja, lelah saja, atau mengalami keduanya. Hubungan ini disebut disjungsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kadang kita memang diminta memilih satu saja. Misalnya, “Pilih teh atau kopi. Ambil satu saja” berarti kita harus memilih satu minuman. Dalam logika, “atau” mencakup kemungkinan keduanya, kecuali kalimatnya membatasi pilihan dengan kata seperti “tepat salah satu”."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Implikasi (jika–maka)",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Implikasi (jika–maka)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Implikasi berbentuk “jika … maka …” (→). Pada “Jika John stres, maka John lelah”, p berarti “John stres” dan q berarti “John lelah”."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs01_operator_logika/gambar-01.png",
+              "lebar": 5.92,
+              "tinggi": 1.8,
+              "keterangan": "Gambar 1. Bagian “jika” tetap sama meskipun urutan kalimat berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implikasi “Jika John stres, maka John lelah” hanya salah jika John stres tetapi tidak lelah. Jika John tidak stres, aturan ini tidak menentukan apakah John lelah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan bagian yang mengikuti kata “jika”, walaupun letaknya di akhir kalimat. “John lelah jika John stres” tetap dibaca “Jika John stres, maka John lelah”. Karena itu, bentuknya tetap p → q. Jika bagian “jika” dan “maka” ditukar, artinya ikut berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian “jika” ditentukan oleh makna kalimat. “John lelah jika John stres” dan “Jika John stres, maka John lelah” sama-sama menempatkan stres sebagai syarat. Bila stres dan lelah ditukar dalam bentuk jika–maka, hubungan yang dinyatakan berubah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Negasi (tidak)",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Negasi (tidak)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Negasi membalik nilai benar dan salah suatu pernyataan. Jika p berarti “John stres”, ¬p atau ~p berarti “John tidak stres”. Ketika p benar, ¬p salah. Ketika p salah, ¬p benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada ¬p ∧ q, kata “tidak” berlaku pada p saja. Pada ¬(p ∧ q), kata “tidak” berlaku pada seluruh isi kurung."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs01_operator_logika/gambar-02.png",
+              "lebar": 5.92,
+              "tinggi": 2.09,
+              "keterangan": "Gambar 2. Tanda kurung menunjukkan bagian yang terkena kata “tidak”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan John stres, tetapi tidak lelah. Kalimat “John tidak stres dan John lelah” salah. Namun, kalimat “Tidak benar bahwa John stres dan lelah sekaligus” benar, karena ia hanya mengalami satu dari dua keadaan itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan letak tanda ¬ dan tanda kurung. Pada ¬p ∧ q, p dibalik dan q tetap. Pada ¬(p ∧ q), yang dibalik adalah nilai gabungan p dan q. Jika hanya salah satu dari p dan q yang benar, gabungan p ∧ q salah sehingga negasi seluruh gabungan itu benar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penerjemahan ke Simbol",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penerjemahan ke Simbol",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pisahkan dulu pernyataan yang ada dalam kalimat. Lalu lihat apakah ada kata yang menghubungkan keduanya atau kata “tidak” yang mengubah salah satunya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kalimat “John tidak stres, tetapi John lelah”, bagian pertama adalah kebalikan dari “John stres” (¬p). Bagian kedua menyatakan “John lelah” (q). Di sini “tetapi” berfungsi seperti “dan”, sehingga bentuk lengkapnya adalah ¬p ∧ q."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam contoh ini, kata “tidak” hanya berlaku pada “John stres”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan juga rincian yang mengubah arti. “John lelah” berbeda dari “John lelah setelah berolahraga”. Jika waktu kejadian penting, tuliskan pernyataannya secara lengkap sebelum memberi simbol."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Proposisi dan Premis",
+        "teks": ""
+      },
+      {
+        "judul": "Operator Logika",
+        "teks": ""
+      },
+      {
+        "judul": "Konjungsi (dan)",
+        "teks": ""
+      },
+      {
+        "judul": "Disjungsi (atau)",
+        "teks": ""
+      },
+      {
+        "judul": "Implikasi (jika–maka)",
+        "teks": ""
+      },
+      {
+        "judul": "Negasi (tidak)",
+        "teks": ""
+      }
+    ],
+    "pesan": "Tentukan arti tiap pernyataan, pilih simbol yang sesuai, dan periksa bagian yang terkena kata “tidak”."
+  }
+}

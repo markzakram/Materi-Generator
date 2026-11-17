@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "judul": "Urutan & Peringkat",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Analitis - Urutan & Peringkat",
+    "sumber": "https://docs.google.com/document/d/1RHogH5ZVIFfMOMCrvrM_lI-P0kCnRremL0u9Qq1x6ks/edit",
+    "id_katalog": "vn-02"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Urutan & Peringkat memakai petunjuk tentang nilai, waktu, atau ukuran untuk menentukan posisi peserta. Dasarnya dapat berupa waktu kedatangan, hasil lomba, nilai, atau tinggi badan.",
+      "Satu nomor peringkat bisa menjadi titik awal untuk menempatkan beberapa orang. Pada soal nilai, misalnya, mengetahui peringkat seseorang membantu menghitung berapa tempat yang tersedia untuk peserta dengan nilai lebih tinggi atau lebih rendah."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menetapkan",
+        "teks": "arah urutan sesuai perintah soal."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "peringkat tetap, perbandingan, dan posisi berurutan."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "urutan dan menguji pilihan jawaban."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Menentukan arah dan arti peringkat",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menentukan arah dan arti peringkat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Peringkat adalah nomor yang menunjukkan posisi dalam urutan. Tetapkan arti posisi 1 sebelum mengisi tempat. Untuk urutan nilai terbesar ke terkecil, peringkat 1 adalah nilai tertinggi. Untuk urutan finis, posisi 1 adalah pelari yang finis paling awal."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn02_urutan_peringkat/gambar-01.png",
+              "lebar": 6.08,
+              "tinggi": 1.33
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan satu arah secara konsisten. Jika diminta urutan terbalik, selesaikan model dalam satu arah terlebih dahulu, lalu baca hasilnya dari ujung yang sesuai. Ketika soal memberi waktu finis, urutkan dari waktu terkecil untuk menentukan pelari tercepat. Ketika soal hanya memberi perbandingan, tentukan posisi relatif para pelari tanpa menebak selisih waktu. Pisahkan ukuran yang diurutkan dari nomor peringkatnya. Dalam urutan nilai menurun, nilai yang lebih besar mendapat nomor peringkat lebih kecil. Dalam lomba lari, waktu finis yang lebih kecil menempati nomor peringkat lebih kecil juga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membedakan petunjuk tetap, relatif, dan berurutan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membedakan petunjuk tetap, relatif, dan berurutan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk tetap menyebut nomor posisi secara langsung. Jika Nisa berada di peringkat 3, tulis namanya di tempat ketiga. Petunjuk relatif menyebut siapa yang lebih dulu atau lebih tinggi. Jika Rani lebih dulu daripada Nisa, Rani bisa berada di posisi 1 atau 2. Pada diagram, tanda tanya menunjukkan posisi yang belum ditentukan. Kedua susunan menempatkan Rani sebelum Nisa, tetapi hanya susunan kedua yang menempatkan Rani tepat sebelum Nisa. Gunakan petunjuk tambahan sebelum menetapkan salah satunya."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn02_urutan_peringkat/gambar-02.png",
+              "lebar": 6.08,
+              "tinggi": 1.33
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Tepat sebelum” dan “tepat sesudah” menunjukkan dua posisi yang berurutan. Jika Nisa di posisi 3 dan Rani tepat sebelum Nisa, Rani berada di posisi 2. Jika disebut “ada tepat dua peserta di antara Rani dan Nisa” dan semua posisi ditempati, selisih peringkat keduanya adalah tiga."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn02_urutan_peringkat/gambar-03.png",
+              "lebar": 6.08,
+              "tinggi": 1.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menyambung rantai perbandingan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menyambung rantai perbandingan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rantai perbandingan adalah rangkaian hubungan yang dibaca dalam satu arah. Jika nilai Raka lebih besar daripada Sari dan nilai Sari lebih besar daripada Tia, urutannya dari nilai terbesar adalah Raka, Sari, lalu Tia. Nama lain masih bisa menyela jika petunjuknya hanya membandingkan nilai. Saat peringkat tertentu sudah diisi, tempatkan nama dari rantai secara berurutan pada tempat yang tersisa. Periksa apakah ada cukup tempat untuk setiap nama yang harus mendahului atau mengikuti seseorang. Jika ada petunjuk “tepat sebelum”, kedua nama harus memakai dua nomor yang berturut-turut pada urutan lengkap. Saat menyisipkan rantai ke tempat kosong, baca peringkat yang tersedia dari awal ke akhir. Jika ada posisi tetap di tengah rantai, hitung berapa nama yang wajib berada di masing-masing sisinya. Coret penempatan yang menyisakan terlalu sedikit tempat."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn02_urutan_peringkat/gambar-04.png",
+              "lebar": 6.08,
+              "tinggi": 1.33
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika dua rantai belum terhubung, uji tempat yang masih tersedia. Pada diagram, Raka mendahului Sari dan Tia mendahului Wira. Raka atau Tia dapat berada di posisi 1 karena kedua susunan memenuhi kedua petunjuk. Jika pertanyaannya apakah Raka mendahului Sari, jawabannya tetap ya. Jadi, periksa apakah hasil yang ditanya berubah di antara susunan yang sah."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn02_urutan_peringkat/gambar-05.png",
+              "lebar": 6.08,
+              "tinggi": 1.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca peringkat dari dua ujung",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca peringkat dari dua ujung",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada urutan yang sama, “ketiga dari belakang” berarti ada dua orang di belakangnya. Jika terdapat tujuh peserta, orang itu berada di posisi kelima dari depan. Tandai kedua ujung sebelum membaca atau menghitung posisi. Posisi dari depan dan belakang menghitung orang yang sama. Jika tiap peserta menempati satu posisi, jumlah peserta = posisi dari depan + posisi dari belakang − 1. Pada diagram, posisi kelima dari depan dan ketiga dari belakang memberi jumlah tujuh peserta. Gunakan rumus dua ujung jika kedua posisi merujuk pada orang yang sama dalam urutan yang sama. Jika jumlah peserta diketahui, kurangi salah satu posisi dari jumlah peserta ditambah satu untuk mendapatkan posisi dari ujung lainnya."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn02_urutan_peringkat/gambar-06.png",
+              "lebar": 6.08,
+              "tinggi": 1.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Langkah mengerjakan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Langkah mengerjakan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca apa yang diminta dan tetapkan arti posisi 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Isi peringkat tetap, termasuk posisi pertama atau terakhir jika sudah diketahui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Gabungkan perbandingan searah dan pasang pasangan yang harus berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Isi tempat yang tersisa dan uji setiap opsi terhadap seluruh petunjuk. Jika masih ada beberapa susunan, periksa apakah jawaban yang diminta tetap sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hari ini adakan ujian bahasa inggris di kelas. Murid yang mengikuti ujian Anisah, Cinta, Diah, Mita, Siti, dan Yasmin. Cinta mendapatkan nilai lebih besar daripada Siti. Nilai Siti lebih besar dari pada Mita tetapi lebih kecil dari nilai Yasmin. Nilai Cinta lebih besar dari nilai Anisah tetapi lebih kecil dari nilai Diah. Yasmin berada di urutan keempat dari semuanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan nilai dari yang terbesar ke yang terkecil?"
+            }
+          ],
+          "opsi": {
+            "A": "Diah – Anisah – Cinta – Yasmin – Siti – Mita.",
+            "B": "Diah – Anisah – Mita – Yasmin – Cinta – Siti.",
+            "C": "Diah – Cinta – Anisah – Yasmin – Mita – Siti.",
+            "D": "Diah – Cinta – Anisah – Yasmin – Siti – Mita.",
+            "E": "Diah – Cinta – Yasmin – Anisah – Siti – Mita."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan informasi awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutkan dari nilai terbesar ke terkecil. Yasmin berada pada peringkat 4, sehingga hanya ada dua tempat untuk murid yang nilainya lebih kecil, yaitu peringkat 5 dan 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda tanya menunjukkan peringkat yang belum diisi. Yasmin tetap di peringkat 4."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn02_urutan_peringkat/gambar-07.png",
+              "lebar": 6.06,
+              "tinggi": 0.93
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menggabungkan aturan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai Yasmin lebih besar daripada Siti, dan nilai Siti lebih besar daripada Mita. Karena keduanya harus berada setelah Yasmin, Siti menempati peringkat 5 dan Mita peringkat 6. Tiga tempat pertama tersisa untuk Diah, Cinta, dan Anisah. Diah memiliki nilai lebih besar daripada Cinta, sedangkan Cinta lebih besar daripada Anisah. Maka urutan ketiganya adalah Diah, Cinta, lalu Anisah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan ini memenuhi seluruh petunjuk, termasuk Cinta di atas Siti. Opsi A membalik urutan Cinta dan Anisah. Opsi B menaruh Mita di atas Siti. Opsi C juga menaruh Mita di atas Siti. Opsi E menempatkan Yasmin di peringkat 3."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Peringkat",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "baris": [
+                [
+                  "Peserta",
+                  "Diah",
+                  "Cinta",
+                  "Anisah",
+                  "Yasmin",
+                  "Siti",
+                  "Mita"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan dari nilai terbesar ke terkecil adalah Diah, Cinta, Anisah, Yasmin, Siti, dan Mita. Jawaban yang benar adalah D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah Sukamaju mengadakan lomba lari yang diikuti 6 siswa (Anisah, Bobi, Helmi, Intan, Jonathan, Yasmin) Berdasarkan hasil lomba lari Yasmin berada di posisi ketiga lomba lari. Helmi memasuki garis finish tepat sebelum Yasmin memasuki garis finish Helmi lebih lambat daripada Bobi. Anisah lebih cepat daripada Intan tetapi lebih lambat daripada Yasmin. Karena Jonathan terjatuh dia berada di urutan terakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan pelari yang benar dari yang posisi pertama hingga terakhir?"
+            }
+          ],
+          "opsi": {
+            "A": "Bobi – Helmi – Yasmin – Jonathan – Anisah -- Intan",
+            "B": "Bobi – Helmi– Yasmin – Intan – Anisah – Jonathan",
+            "C": "Bobi – Helmi – Yasmin – Anisah - Intan - Jonathan",
+            "D": "Bobi – Anisah – Yasmin – Helmi – Intan – Jonathan",
+            "E": "Bobi – Anisah – Intan – Yasmin – Helmi - Jonathan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan informasi awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yasmin finis di posisi 3 dan Jonathan finis terakhir, yaitu di posisi 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua posisi sudah tetap. Petunjuk berikutnya menentukan siapa yang mengisi tempat kosong."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn02_urutan_peringkat/gambar-08.png",
+              "lebar": 6.06,
+              "tinggi": 0.93
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menggabungkan aturan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Helmi finis tepat sebelum Yasmin, sehingga Helmi berada di posisi 2. Bobi finis lebih dahulu daripada Helmi dan satu-satunya tempat yang mendahului posisi 2 adalah posisi 1. Posisi 4 dan 5 tersisa untuk Anisah dan Intan. Karena Anisah lebih cepat daripada Intan, Anisah berada di posisi 4 dan Intan di posisi 5."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi A menempatkan Jonathan di posisi 4. Opsi B membalik urutan Anisah dan Intan. Opsi D menaruh Helmi setelah Yasmin. Opsi E menempatkan Yasmin di posisi 4. Opsi C sesuai dengan semua petunjuk."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Peringkat",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "baris": [
+                [
+                  "Pelari",
+                  "Bobi",
+                  "Helmi",
+                  "Yasmin",
+                  "Anisah",
+                  "Intan",
+                  "Jonathan"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan finis adalah Bobi, Helmi, Yasmin, Anisah, Intan, dan Jonathan. Jawaban yang benar adalah C."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Menentukan arah dan arti peringkat",
+        "teks": ""
+      },
+      {
+        "judul": "Membedakan petunjuk tetap, relatif, dan berurutan",
+        "teks": ""
+      },
+      {
+        "judul": "Menyambung rantai perbandingan",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca peringkat dari dua ujung",
+        "teks": ""
+      },
+      {
+        "judul": "Langkah mengerjakan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Tetapkan arah urutan, isi peringkat yang sudah pasti, lalu sambungkan perbandingan. Gunakan kata “tepat” untuk menentukan posisi yang langsung berurutan. Periksa kembali peringkat dan arah urutan yang diminta sebelum memilih jawaban."
+  }
+}

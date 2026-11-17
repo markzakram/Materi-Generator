@@ -18,6 +18,9 @@ desktop.ini
 # Hasil generate (deck, PDF, pratinjau)
 output/
 
+# Draf dan status dasbor saat dijalankan lokal
+data/
+
 # Aset milik perusahaan: template desain dan foto stok sampul
 /*.pptx
 /*.potx

@@ -1,5 +1,5 @@
 # Jangan unggah aset dan konten milik Cerebrum saat deploy lewat Vercel CLI.
-# Template dan foto sampul diambil dari MATERI_TEMPLATE_URL / MATERI_COVER_URL.
+# Template diambil dari MATERI_TEMPLATE_URL; draf dan status disimpan di Upstash Redis.
 /*.pptx
 /*.potx
 /*.pdf
@@ -7,6 +7,7 @@ generator/assets/latar_cover.png
 konten/latihan_*.json
 konten/gambar/
 output/
+data/
 
 # Lingkungan lokal
 .venv/

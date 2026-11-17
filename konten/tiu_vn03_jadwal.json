@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "judul": "Jadwal",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Analitis - Jadwal",
+    "sumber": "https://docs.google.com/document/d/1xIBJu-fohfbRPEuXUUowZwzSki-BlwrprCiTVKYUlqM/edit",
+    "id_katalog": "vn-03"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Soal Jadwal meminta kita menempatkan kegiatan pada sesi, hari, atau giliran dengan mengikuti aturan waktu dan prasyarat.",
+      "Kegiatan yang dijadwalkan bisa berupa mata kuliah, topik belajar, atau rangkaian acara. Jika satu kegiatan memerlukan persiapan, jadwal yang sah menempatkan persiapan sebelum kegiatan tersebut. Jika ada kegiatan yang harus langsung menyusul, keduanya perlu mendapat tempat yang berurutan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membaca",
+        "teks": "posisi tetap, prasyarat, dan aturan berurutan."
+      },
+      {
+        "level": "",
+        "kko": "Menempatkan",
+        "teks": "kegiatan pada waktu yang tersedia."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "jadwal terhadap semua petunjuk dan menentukan jadwal yang sah."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Membuat kerangka jadwal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membuat kerangka jadwal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Catat waktu yang tersedia dan kapasitas tiap waktu. Jika satu sesi memuat satu kegiatan, isi satu nama per sesi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai dari sesi, jam, atau hari paling awal. Jika soal hanya memberi urutan, gunakan nomor giliran. Masukkan kegiatan yang waktunya sudah ditentukan, lalu tandai tempat yang belum diketahui dengan tanda tanya. Tandai tempat sebagai kosong hanya jika aturan atau susunan yang sedang diuji memang menyatakan tidak ada kegiatan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn03_jadwal/gambar-01.png",
+              "lebar": 6.08,
+              "tinggi": 1.3
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika satu hari bisa memuat beberapa kegiatan, sediakan tempat sesuai kapasitasnya. Keterangan waktu dan kapasitas menentukan apakah dua kegiatan dapat berlangsung pada hari yang sama. Jika soal juga menyebut ruang atau petugas, catat keduanya di kolom tersendiri agar bentrok mudah diperiksa. Untuk memeriksa bentrok, lihat atribut yang kapasitasnya terbatas. Dua kegiatan pada waktu yang sama bisa sah jika memakai ruang dan petugas yang berbeda, selama soal memang mengizinkan lebih dari satu kegiatan pada waktu itu. Jika durasi diberikan, periksa seluruh rentang kegiatan, termasuk waktu yang dilewati di tengah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam contoh ini, A memakai Ruang 1 pukul 09.00–10.00 dan B membutuhkan ruang pukul 09.30–10.30. Dengan petugas berbeda, memindahkan B ke Ruang 2 menghilangkan bentrok ruang."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn03_jadwal/gambar-02.png",
+              "lebar": 6.06,
+              "tinggi": 1.44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membedakan “setelah” dan “tepat setelah”",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membedakan “setelah” dan “tepat setelah”",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "“B setelah A” berarti B berlangsung lebih akhir dan boleh disela kegiatan lain. “B tepat setelah A” berarti B langsung mengikuti A."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn03_jadwal/gambar-03.png",
+              "lebar": 6.08,
+              "tinggi": 1.3
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca “sebelum” dan “tepat sebelum” dengan arah kebalikan. Pada jadwal berdasarkan hari, “keesokan hari” berarti hari berikutnya dalam kalender. Jika jadwal yang diberikan hanya satu minggu, peralihan dari Minggu ke Senin perlu didukung oleh aturan bahwa jadwalnya berulang. Bedakan sesi berikutnya dari hari berikutnya. Jika yang diurutkan hanya sesi yang tersedia, satu sesi berikutnya dapat jatuh pada tanggal yang lebih jauh. Jika petunjuk menyebut hari berikutnya, gunakan kalender sesuai batas jadwal yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika Selasa tidak memiliki sesi, hari setelah Senin tetap Selasa. Sesi setelah sesi Senin jatuh pada Rabu."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn03_jadwal/gambar-04.png",
+              "lebar": 6.06,
+              "tinggi": 1.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menggabungkan prasyarat dan pasangan berurutan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menggabungkan prasyarat dan pasangan berurutan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika C hanya boleh berlangsung setelah A dan B, tempatkan A dan B sebelum C. Urutan A dan B mengikuti petunjuk lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika B tepat setelah A, tempatkan A dan B sebagai satu pasangan yang mengisi dua sesi berturut-turut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah waktu tetap terisi, cari semua tempat yang masih bisa menampung pasangan berurutan. Pada diagram, sesi 1 dan 5 sudah terisi. C harus berlangsung setelah A dan B. Jika A–B mengisi sesi 2–3, C masih dapat mengisi sesi 4. Jika A–B mengisi sesi 3–4, C terpaksa berada di sesi 2 dan jadwal itu gugur. Uji ketersediaan waktu untuk kegiatan yang bergantung pada pasangan segera setelah pasangan ditempatkan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn03_jadwal/gambar-05.png",
+              "lebar": 6.08,
+              "tinggi": 1.91
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menentukan jadwal yang sah",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menentukan jadwal yang sah",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk soal “mungkin”, satu susunan yang memenuhi semua aturan sudah cukup. Untuk soal “pasti”, hasilnya harus sama pada semua susunan yang sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji setiap opsi dengan urutan yang efisien. Periksa posisi tetap lebih dahulu, lalu pasangan yang harus berurutan, dan terakhir prasyarat atau larangan yang tersisa. Satu pelanggaran cukup untuk menggugurkan satu opsi. Jika dua opsi lolos, keduanya merupakan jawaban yang mungkin berdasarkan petunjuk yang tersedia. Untuk membuktikan posisi yang ditanya belum pasti, tampilkan dua jadwal lengkap yang sama-sama mematuhi aturan tetapi memberi hasil berbeda pada posisi itu. Daftar kemungkinan yang belum diuji belum cukup sebagai bukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika A tetap di sesi 1 dan B serta C boleh bertukar, B mungkin berada di sesi 2. Posisi B belum pasti karena jadwal kedua menempatkannya di sesi 3."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn03_jadwal/gambar-06.png",
+              "lebar": 6.06,
+              "tinggi": 1.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dewi belajar 5 bahasa pemrograman: Java (J), Python (P), Ruby (R), Kotlin (K), dan Swift (S) dengan aturan berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ruby hanya bisa dipelajari setelah Python dan Java."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Swift harus dipelajari tepat setelah Kotlin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bahasa pertama yang dipelajari adalah Java."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan yang mungkin dipelajari Dewi adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "J, P, R, K, S",
+            "B": "J, R, P, K, S",
+            "C": "J, P, K, S, R",
+            "D": "J, K, S, R, P",
+            "E": "J, P, R, S, K"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan informasi awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Java (J) menempati giliran 1. Karena Ruby (R) harus dipelajari setelah Java dan Python (P), Python harus menempati salah satu giliran sebelum Ruby."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menggabungkan aturan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kotlin (K) dan Swift (S) harus berurutan dengan Kotlin lebih dulu. Pasangan K–S dapat menempati giliran 2–3, 3–4, atau 4–5. Pada tiap penempatan, isi dua giliran tersisa dengan P lebih dulu daripada R."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Giliran",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "baris": [
+                [
+                  "Di luar opsi",
+                  "J",
+                  "K",
+                  "S",
+                  "P",
+                  "R"
+                ],
+                [
+                  "Opsi C",
+                  "J",
+                  "P",
+                  "K",
+                  "S",
+                  "R"
+                ],
+                [
+                  "Opsi A",
+                  "J",
+                  "P",
+                  "R",
+                  "K",
+                  "S"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi A sesuai dengan pasangan K–S pada giliran 4–5. Opsi C juga sah karena pasangan K–S mengisi giliran 3–4 dan Python tetap mendahului Ruby. Opsi B dan D menempatkan Ruby sebelum Python. Opsi E membalik urutan Kotlin dan Swift."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "PPT mencantumkan A. Berdasarkan semua aturan yang tertulis, opsi A dan C sama-sama mungkin."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk meningkatkan keterampilannya, Andi mempelajari 5 topik pemrograman yang saling berkaitan, yaitu P, Q, R, S, dan T, dengan ketentuan sebagai berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Ia hanya dapat mempelajari topik S jika sudah mempelajari topik R dan T."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Topik Q harus dipelajari sebelum topik R berurutan dan Topik Q tepat setelah topik P yaitu kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Topik pertama yang harus dipelajari adalah P."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan topik yang mungkin dipelajari Andi adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "P, Q, R, T, S",
+            "B": "P, R, Q, T, S",
+            "C": "P, T, Q, R, S",
+            "D": "Q, P, R, T, S",
+            "E": "P, Q, T, R, S"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan informasi awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "P menempati giliran 1. Q tepat setelah P, sehingga Q menempati giliran 2."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menggabungkan aturan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Q dan R harus berurutan dengan Q lebih dahulu. Jadi, R menempati giliran 3. T dan S mengisi dua giliran terakhir. Karena T harus dipelajari sebelum S, T menempati giliran 4 dan S giliran 5."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Giliran",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "baris": [
+                [
+                  "Topik",
+                  "P",
+                  "Q",
+                  "R",
+                  "T",
+                  "S"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi B dan C gagal karena Q tidak langsung mengikuti P. Opsi D gagal karena P tidak berada di giliran 1. Opsi E menempatkan T di antara Q dan R, padahal Q dan R harus berurutan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan yang memenuhi semua petunjuk adalah P, Q, R, T, S. Jawaban yang benar adalah A."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Membuat kerangka jadwal",
+        "teks": ""
+      },
+      {
+        "judul": "Membedakan “setelah” dan “tepat setelah”",
+        "teks": ""
+      },
+      {
+        "judul": "Menggabungkan prasyarat dan pasangan berurutan",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan jadwal yang sah",
+        "teks": ""
+      }
+    ],
+    "pesan": "Isi waktu yang sudah pasti, pasangkan kegiatan yang harus berurutan, lalu cek seluruh prasyarat. Untuk memilih jadwal yang mungkin, pastikan jadwal tersebut memenuhi setiap aturan."
+  }
+}

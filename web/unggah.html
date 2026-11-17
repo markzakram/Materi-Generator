@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Materi Generator</title>
+<title>Unggah Naskah</title>
 <style>
 @font-face { font-family: "Poppins"; src: url("/font/Poppins-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Poppins"; src: url("/font/Poppins-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
 
 :root {
-  --cyan: #00AEEF; --deep: #004B66; --teal: #0A6486; --sage: #CFE2BE;
+  --cyan: #FBBB2B; --deep: #13215A; --teal: #13215A; --sage: #FFE6AE;
   --bg: #F4F9FC; --kartu: #FFFFFF; --teks: #364D61; --redup: #5F7385;
-  --garis: #D3E0E8; --tint: #EAF6FB; --aksen: #0A6486; --aksen-teks: #FFFFFF;
+  --garis: #E3E7F0; --tint: #F4F6FB; --aksen: #13215A; --aksen-teks: #FFFFFF;
   --ok-bg: #E7F3DD; --ok: #2F6A1F; --amber-bg: #FFF4E0; --amber: #8A5A00;
   --galat-bg: #FDECEC; --galat: #A3262A; --fokus: #00AEEF;
 }
@@ -37,7 +37,9 @@ body {
   margin: 0; background: var(--bg); color: var(--teks);
   font: 400 15px/1.6 "Poppins", system-ui, sans-serif;
 }
-.pita { height: 6px; background: linear-gradient(90deg, var(--cyan), var(--deep)); }
+.pita { height: 6px; background: #FBBB2B; }
+.nav-atas { max-width: 880px; margin: 0 auto; padding: 14px 16px 0; font-weight: 700; font-size: 13px; }
+.nav-atas a { color: var(--aksen); }
 main { max-width: 880px; margin: 0 auto; padding: 32px 16px 56px; }
 header h1 { margin: 0; font-size: 28px; line-height: 1.2; font-weight: 700; color: var(--teks); }
 header p { margin: 6px 0 0; color: var(--redup); }
@@ -97,6 +99,7 @@ pre code { padding: 0; background: none; }
 </head>
 <body>
 <div class="pita" aria-hidden="true"></div>
+<nav class="nav-atas"><a href="/">‹ Dasbor materi</a></nav>
 <main>
   <header>
     <h1>Materi Generator</h1>
@@ -105,7 +108,6 @@ pre code { padding: 0; background: none; }
 
   <div class="status" id="status" aria-live="polite">
     <span class="chip" id="chip-template">Memeriksa template…</span>
-    <span class="chip" id="chip-cover">Foto sampul…</span>
   </div>
 
   <div class="grid">
@@ -159,11 +161,8 @@ pre code { padding: 0; background: none; }
   fetch("/api/status").then((r) => r.json()).then((s) => {
     if (s.template && s.template.siap) chip($("chip-template"), "ok", "Template siap");
     else chip($("chip-template"), "galat", (s.template && s.template.pesan) || "Template belum siap");
-    if (s.cover) chip($("chip-cover"), "ok", "Foto sampul ada");
-    else chip($("chip-cover"), "peringatan", s.cover_pesan ? "Foto sampul gagal diunduh" : "Sampul tanpa foto");
   }).catch(() => {
     chip($("chip-template"), "galat", "Status server tidak terbaca");
-    $("chip-cover").remove();
   });
 
   function tampilPesan(kelas, isi) {
@@ -223,7 +222,7 @@ pre code { padding: 0; background: none; }
     try {
       const fd = new FormData();
       fd.append("naskah", berkas, berkas.name);
-      const r = await fetch("/api/materi", { method: "POST", body: fd });
+      const r = await fetch("/api/unggah", { method: "POST", body: fd });
       if (!r.ok) {
         let pesan = `Gagal (${r.status}).`;
         const teks = await r.text();

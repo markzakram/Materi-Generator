@@ -1,0 +1,1130 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Verbal Analogi - 2 Kata",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Verbal Analogi - 2 Kata",
+    "sumber": "https://docs.google.com/document/d/18zwTKoBPoWDHK267Zb2mQbUkJMJFko-um8c0G06QxZk/edit",
+    "id_katalog": "va-02"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pada soal analogi dua kata, cari pasangan yang memiliki hubungan dan arah yang sama dengan pasangan acuan. Misalnya, roda : mobil menunjukkan bagian dan benda utuh, sedangkan mobil : garasi menunjukkan benda dan tempat penyimpanan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "bentuk Semua Kosong dan Sebagian Kosong serta mengisi rumpang sesuai posisinya."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "jenis dan arah hubungan pada pasangan acuan dengan kata penghubung yang spesifik."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "satu jawaban dari lima opsi dan menjelaskan mengapa pasangan lain kurang sesuai."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bentuk soal analogi dua kata",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk soal analogi dua kata",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda titik dua memisahkan dua kata dalam satu pasangan. Tanda sama dengan menunjukkan bahwa hubungan di kedua ruas harus sepadan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Semua Kosong"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "A : B = … : …"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada bentuk Semua Kosong, isi ruas kanan dengan kedua kata dari opsi. Gunakan penghubung yang sama dengan pasangan acuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan acuan menyediakan pola untuk menguji opsi. Jika penghubungnya “X merupakan bagian dari Y”, kata pertama pada opsi harus berperan sebagai bagian. Opsi yang memakai dua kata terkait tetap gugur jika menempatkan benda utuh lebih dulu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sebagian Kosong"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada bentuk Sebagian Kosong, kata pertama dari opsi mengisi rumpang di ruas kiri dan kata kedua mengisi rumpang di ruas kanan. Baca kembali kedua ruas setelah diisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada bentuk Sebagian Kosong, kata pertama dan kedua dari opsi ditempatkan menurut urutan rumpang, bukan menurut letaknya di awal atau akhir pasangan. Setelah kedua rumpang diisi, masing-masing ruas dibaca sebagai pasangan lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "… : A = B : …"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isi posisi pertama di ruas kiri dan posisi kedua di ruas kanan. Contoh pada Soal 10."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "… : A = … : B"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isi posisi pertama di kedua ruas. Contoh pada Soal 11."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "A : … = B : …"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isi posisi kedua di kedua ruas. Contoh pada Soal 12."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "A : … = … : B"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isi posisi kedua di ruas kiri dan posisi pertama di ruas kanan. Contoh pada Soal 13."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tips mengerjakan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tips mengerjakan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1. Rumuskan hubungan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ubah pasangan acuan menjadi kalimat pendek. Untuk roda : mobil, gunakan “roda merupakan bagian dari mobil”."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "roda → mobil • merupakan bagian dari"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "mobil → roda • memiliki sebagai bagian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kedua kata bertukar posisi, perannya juga bertukar. Uji opsi dengan kata penghubung yang sama, dalam urutan yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada bentuk Sebagian Kosong, isi kedua rumpang terlebih dahulu. Tandai letaknya, lalu baca hasil pengisian sesuai urutan cetak. Kata yang sudah tercetak bisa berada di posisi pertama atau kedua."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2. Kenali peran kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pisau : memotong, kata kedua menyatakan fungsi. Pada pisau : tajam, kata kedua menyatakan sifat. Pilih penghubung sesuai peran kata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3. Perjelas penghubung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk pilot : pesawat, gunakan “mengoperasikan”. Kata ini juga cocok untuk masinis : kereta dan memperjelas hubungan dibandingkan “bekerja dengan”."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 4. Periksa arah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca pasangan acuan dan opsi dari kiri ke kanan. Jika kedua kata harus ditukar agar penghubungnya cocok, arah hubungan opsi berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika dua opsi terasa sama-sama cocok, uji penghubungnya dengan kalimat yang lebih spesifik. Misalnya, “berhubungan dengan pekerjaan” cocok untuk pilot : pesawat dan dokter : pasien. “Mengoperasikan” menjelaskan hubungan pilot dengan pesawat secara lebih tepat dan bisa diuji pada pasangan pembanding."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara mengerjakan empat pola Sebagian Kosong"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nomori rumpang dari kiri ke kanan. Kata pertama dari opsi masuk ke ①. Kata kedua masuk ke ②."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Opsi ① kata pertama : ② kata kedua"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola 1 · … : A = B : …"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "① masuk sebelum A. ② masuk sesudah B."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "[① …] : Sepeda = Dahan : [② …]"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Opsi ① Pedal : ② Pohon"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "[① Pedal] : Sepeda = Dahan : [② Pohon]"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pedal merupakan bagian dari sepeda. Dahan merupakan bagian dari pohon."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola 2 · … : A = … : B"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "① dan ② masuk sebelum kata yang tercetak."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "[① …] : Mengukur = [② …] : Menyapu"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Opsi ① Penggaris : ② Sapu"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "[① Penggaris] : Mengukur = [② Sapu] : Menyapu"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penggaris digunakan untuk mengukur. Sapu digunakan untuk menyapu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola 3 · A : … = B : …"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "① dan ② masuk sesudah kata yang tercetak."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Koki : [① …] = Penjahit : [② …]"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Opsi ① Masakan : ② Pakaian"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Koki : [① Masakan] = Penjahit : [② Pakaian]"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Koki menghasilkan masakan. Penjahit menghasilkan pakaian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola 4 · A : … = … : B"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "① masuk sesudah A. ② masuk sebelum B."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Mawar : [① …] = [② …] : Buah"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Opsi ① Bunga : ② Apel"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Mawar : [① Bunga] = [② Apel] : Buah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mawar termasuk jenis bunga. Apel termasuk jenis buah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keempat pola hanya berbeda pada posisi rumpang. Langkahnya sama. Tempatkan kata pertama dari opsi pada ① dan kata kedua pada ②. Lalu cek apakah satu penghubung dapat dipakai pada kedua ruas dengan arah yang sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Cermat : Teliti = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Besar : Kecil",
+            "B": "Pena : Menulis",
+            "C": "Lekas : Segera",
+            "D": "Roda : Mobil",
+            "E": "Api : Panas"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Sinonim atau kedekatan makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** cermat, teliti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cermat dan teliti sama-sama dapat menggambarkan cara bekerja yang penuh perhatian. Lekas dan segera sama-sama dapat menyatakan bahwa tindakan dilakukan tanpa banyak menunggu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Besar dan kecil berlawanan pada skala ukuran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Pena adalah alat untuk menulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Roda adalah komponen mobil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Panas adalah sifat api."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji apakah kedua kata dalam opsi bisa saling menggantikan dalam pemakaian yang lazim."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Cepat : Lambat = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Keras : Batu",
+            "B": "Tinggi : Rendah",
+            "C": "Panjang : Jalan",
+            "D": "Tinggi : Gedung",
+            "E": "Manis : Gula"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Antonim atau pertentangan makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** cepat, lambat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cepat dan lambat berlawanan pada skala kecepatan. Tinggi dan rendah berlawanan pada skala ketinggian. Kedua pasangan bergerak dari tingkat yang lebih tinggi ke tingkat yang lebih rendah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Keras adalah sifat batu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Panjang dapat menerangkan ukuran jalan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tinggi dapat menerangkan ukuran gedung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Manis adalah sifat rasa gula."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari dua kata yang bertentangan pada satu aspek."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelalaian : Kecelakaan = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Belajar : Buku",
+            "B": "Hujan : Awan",
+            "C": "Kecerobohan : Kerugian",
+            "D": "Jalan : Kendaraan",
+            "E": "Api : Tungku"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Sebab menuju akibat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** kelalaian, kecelakaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelalaian dapat memicu kecelakaan. Kecerobohan juga dapat menimbulkan kerugian. Keduanya menunjukkan pemicu yang dapat menghasilkan dampak merugikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Buku adalah bahan yang dapat dipakai untuk belajar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Hujan berasal dari awan, sehingga hasil muncul di posisi pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Jalan merupakan tempat kendaraan melintas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tungku adalah tempat api dapat dinyalakan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Masukkan frasa “dapat menyebabkan” dan cek urutannya."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pena : Menulis = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Buku : Kertas",
+            "B": "Meja : Kayu",
+            "C": "Lampu : Terang",
+            "D": "Gergaji : Memotong",
+            "E": "Kertas : Putih"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Benda menuju fungsi utamanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** pena, menulis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pena digunakan untuk menulis. Gergaji digunakan untuk memotong. Kata kedua pada kedua pasangan menyatakan tindakan yang dilakukan dengan alat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kertas adalah bahan penyusun buku pada umumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kayu adalah bahan yang dapat digunakan untuk membuat meja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terang menyatakan kondisi cahaya yang dihasilkan lampu. Kata kerja yang menunjukkan fungsinya ialah “menerangi”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Putih menyatakan warna yang dapat dimiliki kertas."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan penghubung “alat ini dipakai untuk …”."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 5",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelopak : Bunga = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Buku : Ilmu",
+            "B": "Daun : Hijau",
+            "C": "Jendela : Rumah",
+            "D": "Mobil : Roda",
+            "E": "Batu : Keras"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Bagian menuju keseluruhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** kelopak, bunga"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelopak adalah komponen bunga. Jendela juga merupakan komponen rumah. Kata pertama pada kedua pasangan berperan sebagai bagian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Buku dapat menjadi sumber ilmu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Hijau adalah warna yang lazim pada daun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mobil merupakan keseluruhan dan roda merupakan bagiannya. Arahnya terbalik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Keras menyatakan sifat batu."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanyakan apakah benda kedua memiliki benda pertama sebagai komponen."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 6",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pilot : Pesawat = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Masinis : Kereta",
+            "B": "Sopir : Jalan",
+            "C": "Nelayan : Laut",
+            "D": "Guru : Sekolah",
+            "E": "Dokter : Pasien"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pelaku menuju kendaraan yang dioperasikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** pilot, pesawat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilot mengoperasikan pesawat dan masinis mengoperasikan kereta. Kata kedua pada kedua pasangan menunjukkan kendaraan yang dikendalikan oleh pelaku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Jalan merupakan tempat sopir mengemudikan kendaraan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Laut merupakan tempat nelayan dapat bekerja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Sekolah merupakan tempat guru mengajar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Pasien merupakan orang yang ditangani dokter."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Sebutkan tindakan spesifik pelaku terhadap kata kedua, misalnya “mengoperasikan”."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 7",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Buku : Perpustakaan = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Mobil : Jalan",
+            "B": "Ikan : Laut",
+            "C": "Sepatu : Kaki",
+            "D": "Pakaian : Lemari",
+            "E": "Mobil : Mesin"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Benda menuju tempat penyimpanan yang lazim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** buku, perpustakaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perpustakaan menyimpan koleksi buku. Lemari juga lazim digunakan untuk menyimpan pakaian. Kedua pasangan menempatkan benda sebelum tempat penyimpanannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Jalan merupakan tempat mobil melintas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Laut merupakan habitat ikan laut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Kaki merupakan bagian tubuh tempat sepatu dikenakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Mesin merupakan komponen mobil."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji apakah benda lazim disimpan di tempat tersebut."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 8",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Es : Dingin = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Air : Mengalir",
+            "B": "Api : Panas",
+            "C": "Gelas : Kaca",
+            "D": "Kayu : Pohon",
+            "E": "Pakaian : Lemari"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Objek menuju sifat yang berkaitan dengan suhu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** es, dingin"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dingin menyatakan sifat suhu es. Panas juga menyatakan sifat suhu api. Kata kedua pada kedua pasangan menjawab pertanyaan tentang suhu objek."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Mengalir menyatakan gerakan air."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Kaca merupakan bahan yang dapat digunakan untuk membuat gelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Pohon merupakan asal kayu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Lemari merupakan tempat menyimpan pakaian."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanyakan aspek yang dijelaskan oleh kata kedua. Di sini, kedua pasangan harus sama-sama menyatakan sifat suhu."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 9",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Elang : Burung = … : …"
+            }
+          ],
+          "opsi": {
+            "A": "Singa : Hutan",
+            "B": "Meja : Kayu",
+            "C": "Mobil : Mesin",
+            "D": "Padi : Sawah",
+            "E": "Hiu : Ikan"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jenis khusus menuju kategori umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** elang, burung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Elang termasuk jenis burung. Hiu juga termasuk jenis ikan. Kata kedua pada masing-masing pasangan adalah kategori bagi kata pertama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Hutan merupakan habitat yang dapat dihuni beberapa populasi singa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kayu merupakan bahan yang dapat dipakai untuk membuat meja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Mesin merupakan bagian dari mobil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Sawah merupakan tempat padi dapat ditanam."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji penghubung “X termasuk jenis Y” untuk menyingkirkan opsi yang hanya menyebut lokasi, bahan, atau bagian."
+            }
+          ],
+          "label": "Semua Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 10",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Isilah dua bagian kosong dengan pasangan kata yang membuat hubungan kedua ruas setara. Masukkan kata pertama dari opsi ke rumpang kiri dan kata kedua ke rumpang kanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "… : Mobil = Jendela : …"
+            }
+          ],
+          "opsi": {
+            "A": "Garasi : Rumah",
+            "B": "Roda : Rumah",
+            "C": "Jalan : Dinding",
+            "D": "Bensin : Kaca",
+            "E": "Roda : Kunci"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Bagian menuju keseluruhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** mobil, jendela, dan posisi rumpang kiri–kanan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan roda ke rumpang pertama dan rumah ke rumpang kedua. Hasilnya Roda : Mobil = Jendela : Rumah. Roda merupakan bagian dari mobil, sebagaimana jendela merupakan bagian dari rumah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Garasi merupakan tempat mobil disimpan. Jendela merupakan bagian dari rumah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Jalan merupakan tempat mobil melintas. Jendela : dinding dapat dibaca sebagai bagian menuju struktur tempat jendela terpasang. Kedua ruas berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Bensin adalah bahan bakar mobil. Pada jendela : kaca, kaca adalah bahan atau unsur penyusun jendela sehingga hubungan ruasnya berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Roda merupakan bagian dari mobil. Jendela tidak menyusun sebuah kunci."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tulis hubungan “bagian dari” di kedua ruas. Cari bagian dari mobil di kiri dan benda utuh yang memiliki jendela di kanan."
+            }
+          ],
+          "label": "Sebagian Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 11",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Isilah dua bagian kosong dengan pasangan kata yang membuat hubungan kedua ruas setara. Masukkan kata pertama dari opsi ke rumpang kiri dan kata kedua ke rumpang kanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "… : Menulis = … : Memotong"
+            }
+          ],
+          "opsi": {
+            "A": "Gergaji : Pena",
+            "B": "Pena : Kompas",
+            "C": "Buku : Penggaris",
+            "D": "Pena : Gergaji",
+            "E": "Gunting : Kertas"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Benda menuju fungsi yang lazim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** menulis dan memotong mengisi posisi kedua"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pena digunakan untuk menulis, sedangkan gergaji digunakan untuk memotong. Kedua rumpang berada di posisi pertama dan diisi oleh alat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Gergaji digunakan untuk memotong dan pena untuk menulis. Posisi kedua alat tertukar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Pena sesuai untuk menulis. Kompas berfungsi menunjukkan arah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Buku dapat menjadi tempat menulis. Penggaris lazim dipakai untuk mengukur atau membuat garis lurus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Gunting digunakan untuk memotong. Kertas dapat menjadi bahan yang dipotong."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan pertanyaan “Alat apa yang dipakai untuk kegiatan ini?” pada masing-masing ruas."
+            }
+          ],
+          "label": "Sebagian Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 12",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Isilah dua bagian kosong dengan pasangan kata yang membuat hubungan kedua ruas setara. Masukkan kata pertama dari opsi ke rumpang kiri dan kata kedua ke rumpang kanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilot : … = Masinis : …"
+            }
+          ],
+          "opsi": {
+            "A": "Pesawat : Kereta",
+            "B": "Bandara : Kereta",
+            "C": "Pesawat : Rel",
+            "D": "Kokpit : Penumpang",
+            "E": "Kereta : Pesawat"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pelaku menuju kendaraan yang dioperasikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** pilot dan masinis mengisi posisi pertama"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilot mengoperasikan pesawat dan masinis mengoperasikan kereta. Kedua rumpang di posisi kedua diisi oleh kendaraan yang dikendalikan pelaku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Bandara merupakan lokasi kerja. Kereta adalah kendaraan yang dioperasikan masinis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Pesawat dioperasikan pilot. Rel merupakan jalur yang dilalui kereta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Kokpit merupakan tempat pilot bekerja. Penumpang adalah orang yang diangkut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Kereta dioperasikan masinis dan pesawat dioperasikan pilot. Posisi kedua kendaraan tertukar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika kedua kata awal adalah profesi, gunakan kata kerja yang menunjukkan tugas yang sama, seperti “mengoperasikan”."
+            }
+          ],
+          "label": "Sebagian Kosong"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 13",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Isilah dua bagian kosong dengan pasangan kata yang membuat hubungan kedua ruas setara. Masukkan kata pertama dari opsi ke rumpang kiri dan kata kedua ke rumpang kanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Elang : … = … : Ikan"
+            }
+          ],
+          "opsi": {
+            "A": "Sayap : Hiu",
+            "B": "Burung : Laut",
+            "C": "Ikan : Burung",
+            "D": "Sarang : Hiu",
+            "E": "Burung : Hiu"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jenis khusus menuju kategori umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** elang di posisi pertama dan ikan di posisi kedua"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isi rumpang kiri dengan burung dan rumpang kanan dengan hiu. Hasilnya Elang : Burung = Hiu : Ikan. Elang termasuk jenis burung dan hiu termasuk jenis ikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Sayap merupakan bagian tubuh elang. Hiu termasuk jenis ikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Burung adalah kategori elang. Laut adalah habitat yang dapat dihuni ikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Elang tidak termasuk jenis ikan. Burung juga tidak termasuk jenis ikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Sarang adalah tempat elang bertelur atau merawat anak. Hiu termasuk jenis ikan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Baca “X termasuk jenis Y” di kedua ruas. Cari kategori elang di kiri dan contoh jenis ikan di kanan."
+            }
+          ],
+          "label": "Sebagian Kosong"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bentuk soal analogi dua kata",
+        "teks": ""
+      },
+      {
+        "judul": "Tips mengerjakan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Isi rumpang sesuai urutan kata pada opsi. Baca kedua pasangan dari kiri ke kanan dan pastikan satu penghubung berlaku pada keduanya."
+  }
+}

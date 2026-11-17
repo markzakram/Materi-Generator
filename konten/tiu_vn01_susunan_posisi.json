@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "judul": "Susunan & Posisi",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Analitis - Susunan & Posisi",
+    "sumber": "https://docs.google.com/document/d/19peDgMipXvf191DvHsFbZ_WAAANh-tgS-31U2VCaljc/edit",
+    "id_katalog": "vn-01"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Gunakan petunjuk posisi untuk menentukan siapa atau benda apa yang menempati setiap tempat yang ditanya. Model posisi membantu saat petunjuk tersebar, misalnya satu aturan menyebut kursi yang pasti dan aturan lain melarang dua orang duduk berdampingan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter",
+    "gambar": "media/tiu_vn01_susunan_posisi/gambar-01.png"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "model linear, melingkar, atau baris–kolom."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "petunjuk posisi, arah, dan jarak."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "apakah posisi yang ditanya sudah pasti."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Membaca Petunjuk Posisi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca Petunjuk Posisi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Catat jumlah tempat dan arah penomoran. Posisi tetap langsung mengisi satu tempat, sedangkan larangan hanya menghapus tempat dari daftar kemungkinan. Misalnya, “tepat di tengah” pada lima posisi menetapkan tempat 3. Jika A dilarang di ujung, coret posisi 1 dan 5 dari daftar pilihan A. Kedua tempat itu masih tersedia bagi peserta lain."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-02.png",
+              "lebar": 6.08,
+              "tinggi": 1.28
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Petunjuk",
+                "Cara membacanya"
+              ],
+              "baris": [
+                [
+                  "Di kiri",
+                  "Boleh berjarak lebih dari satu posisi."
+                ],
+                [
+                  "Tepat di kiri",
+                  "Satu posisi ke kiri."
+                ],
+                [
+                  "Di samping",
+                  "Satu posisi di kiri atau kanan."
+                ],
+                [
+                  "Tepat di antara",
+                  "Di tengah dua unsur dan berdampingan dengan keduanya."
+                ],
+                [
+                  "Di antara",
+                  "Dalam rentang dua unsur. Jarak ke masing-masing unsur bisa lebih dari satu posisi."
+                ],
+                [
+                  "Berhadapan",
+                  "Setengah putaran pada lingkaran berkursi genap dan berjarak seragam."
+                ],
+                [
+                  "Tepat di belakang",
+                  "Satu baris ke belakang dalam kolom yang sama."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Tepat di antara” berarti diapit langsung oleh dua unsur dan berdampingan dengan keduanya. Pada A–B–C, B tepat di antara A dan C."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Di antara” berarti berada dalam rentang dua unsur pada susunan linear. Pada A–D–B–E–C, B berada di antara A dan C walaupun ada D dan E yang memisahkan mereka. Pada susunan melingkar, perhatikan jalur yang dimaksud jika petunjuk hanya menyebut “di antara”."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-03.png",
+              "lebar": 6.08,
+              "tinggi": 1.41
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan satuan jaraknya. Jika semua tempat terisi, dua orang di antara B dan C berarti indeks posisi B dan C berselisih tiga. Jika ada tempat kosong, jumlah orang di antara B dan C belum tentu sama dengan jumlah tempat di antara mereka. Bedakan jarak posisi dari jumlah orang yang mengisi jarak itu. Pada gambar kedua, jumlah orang di antara B dan C tetap dua. Namun, tempat kosong menambah jarak antara B dan C menjadi empat posisi."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-04.png",
+              "lebar": 6.08,
+              "tinggi": 1.28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Susunan Linear (Satu Arah)",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Susunan Linear (Satu Arah)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Susunan linear menempatkan semua unsur dalam satu garis, misalnya lima orang berjejer dari kiri ke kanan atau lima barang disusun pada satu rak. Nomori tempat sesuai arah soal. Pada lima posisi, posisi 1 dan 5 adalah ujung, sedangkan posisi 3 adalah tengah."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-05.png",
+              "lebar": 6.08,
+              "tinggi": 0.69
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isi posisi tetap lebih dahulu. Jika dua orang harus berdampingan, perlakukan keduanya sebagai satu blok, yaitu dua posisi yang harus berurutan. Jika hanya disebut berdampingan, kedua urutan di dalam blok perlu diuji. Jika tertulis “A tepat di kiri B”, urutannya sudah ditentukan: A lalu B. Jika hanya “A di kiri B”, letak keduanya boleh berjauhan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-06.png",
+              "lebar": 6.08,
+              "tinggi": 1.28
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada barisan lima posisi, A tepat di kiri B dan posisi 3 sudah terisi. Blok A–B hanya dapat mengisi posisi 1–2 atau 4–5. Posisi 2–3 dan 3–4 gugur karena menggunakan tempat yang sudah terisi. Uji kedua pasangan yang tersisa dengan petunjuk lainnya. Jika keduanya memberi jawaban yang sama untuk posisi yang ditanya, posisi tersebut sudah pasti meskipun susunan lengkapnya masih dapat berubah."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-07.png",
+              "lebar": 6.08,
+              "tinggi": 1.86
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Konferensi Meja Bundar (Duduk Melingkar)",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konferensi Meja Bundar (Duduk Melingkar)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada susunan melingkar, kiri dan kanan mengikuti arah hadap orang yang dijadikan acuan. Jika semua peserta menghadap pusat dan kursi diberi nomor searah jarum jam, satu kursi ke kiri berarti maju satu nomor dan satu kursi ke kanan berarti mundur satu nomor. Kursi terakhir tetap bertetangga dengan kursi pertama."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-08.png",
+              "lebar": 6.08,
+              "tinggi": 1.76
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih satu orang sebagai acuan gambar. Seluruh susunan dapat diputar tanpa mengubah hubungan antarpeserta. Mencerminkan susunan perlu diuji ulang karena dapat membalik kiri dan kanan. Jika kursi berjarak seragam dan jumlahnya genap, dua orang berhadapan bila terpisah setengah putaran. Pada delapan kursi, pasangan yang berhadapan ialah 1 dan 5, 2 dan 6, 3 dan 7, serta 4 dan 8."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-09.png",
+              "lebar": 6.08,
+              "tinggi": 1.76
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh empat kursi ini, perhatikan posisi B terhadap A. Putaran mempertahankan hubungan kiri, sedangkan pencerminan membaliknya."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-10.png",
+              "lebar": 6.06,
+              "tinggi": 1.68
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tempatkan pasangan yang berhadapan, lalu isi tetangga dan terapkan larangan. Gunakan satu kursi acuan agar semua percobaan bisa dibandingkan. Jika dua orang masih bisa bertukar, uji ulang aturan berhadapan dan larangan bertetangga untuk keduanya. Kursi seseorang bisa sudah pasti sementara tetangganya berubah, seperti pada soal meja bundar di bagian pembahasan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Susunan Baris–Kolom",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Susunan Baris–Kolom",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Model ini menggabungkan arah depan–belakang dengan kiri–kanan. Catat nomor baris dan kolom setiap kursi. “Tepat di belakang Rina” berarti satu baris lebih belakang dalam kolom Rina. “Sebaris” berarti nomor baris sama; pada baris yang memiliki lebih dari dua kursi, dua orang yang sebaris belum tentu berdampingan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-11.png",
+              "lebar": 6.08,
+              "tinggi": 1.57
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada wahana lima baris dengan dua kursi per baris, delapan siswa menyisakan dua kursi kosong. Gunakan tanda tanya untuk kursi yang penghuninya belum diketahui dan tulis “Kosong” jika kursi memang tidak ditempati dalam susunan yang ditampilkan. Jika dua orang harus sebaris, baris yang hanya menyisakan satu tempat langsung gugur untuk pasangan tersebut."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-12.png",
+              "lebar": 6.08,
+              "tinggi": 2.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menentukan Jawaban",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menentukan Jawaban",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Baca perintah soal, gambar model sesuai bentuk susunan, isi posisi tetap, lalu gabungkan aturan yang menyangkut unsur yang sama. Catat cabang hanya jika berpengaruh pada jawaban. Untuk “pasti”, hasil harus sama pada semua susunan yang sah. Untuk “mungkin”, satu susunan sah sudah cukup. Untuk membuktikan “tidak cukup data”, tunjukkan dua susunan sah yang memberikan jawaban berbeda."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-13.png",
+              "lebar": 6.08,
+              "tinggi": 1.28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1. Susunan Linear",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat lima orang (A, B, C, D, dan E) berdiri berjejer dari kiri ke kanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A tidak berada di posisi paling kiri maupun paling kanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B berdiri di sebelah kiri C."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D berdiri tepat di tengah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E tidak berdiri di samping C dan tidak berada di antara 3 posisi pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Siapakah yang berdiri di posisi paling kanan?"
+            }
+          ],
+          "opsi": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan informasi awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D berada di posisi 3. E tidak berada di tiga posisi pertama, sehingga E hanya dapat berada di posisi 4 atau 5."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-14.png",
+              "lebar": 6.08,
+              "tinggi": 0.69
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menggabungkan aturan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika E di posisi 4, C tidak boleh di posisi 5 karena akan berdampingan dengan E. C juga tidak bisa di posisi 1 karena B harus berada di kirinya. Akibatnya C harus di posisi 2 dan B di posisi 1. Posisi yang tersisa untuk A adalah 5, padahal A tidak boleh di ujung. Jadi, E tidak bisa di posisi 4."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-15.png",
+              "lebar": 6.08,
+              "tinggi": 0.69
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika E di posisi 5, C tidak boleh di posisi 4. Karena posisi 3 sudah ditempati D dan C membutuhkan B di kirinya, C menempati posisi 2, B posisi 1, dan A posisi 4. Susunan ini memenuhi seluruh aturan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-16.png",
+              "lebar": 6.08,
+              "tinggi": 0.69
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Posisi",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "baris": [
+                [
+                  "Penghuni",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "E"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E berdiri paling kanan. Jawaban yang benar adalah E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2. Konferensi Meja Bundar",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hari ini warga RT 03 mengadakan rapat untuk menentukan jadwal siskamling yang diikuti oleh 8 kepala keluarga. Kepala keluarga yang mengikuti rapat adalah Angga, Bima, Candra, Dika, Endang, Faisal, Gilang dan Hasan. Mereka semua duduk melingkar dengan saling berhadapan. Dika duduk berhadapan dengan Angga. Gilang tidak mau duduk di samping Hasan. Hasan duduk duduk di sebelah kiri Dika dan Hasan berhadapan dengan Endang . Endang duduk di antara Angga dan Bima. Faizal duduk berhadapan Gilang. Di mana posisi Candra duduk ketika rapat?"
+            }
+          ],
+          "opsi": {
+            "A": "Duduk di antara Gilang dan Faisal.",
+            "B": "Duduk di antara Gilang dan Hasan.",
+            "C": "Duduk tepat di samping kiri Bima.",
+            "D": "Duduk tepat di samping kanan Dika.",
+            "E": "Duduk tepat di samping kiri Angga."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Memasang acuan dan petunjuk utama"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Letakkan Dika di kursi 1 sebagai acuan gambar. Nomori kursi searah jarum jam. Angga menempati kursi 5 karena duduk berhadapan dengan Dika. Tanda tanya berarti penghuni kursi belum ditetapkan pada langkah ini. Untuk membaca susunan pada PPT, gunakan “di sebelah kiri” sebagai kursi tepat di kiri dan “di antara” sebagai diapit langsung. Faisal dan Faizal merujuk pada orang yang sama."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-17.png",
+              "lebar": 5.97,
+              "tinggi": 2.46
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menempatkan hubungan berikutnya"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kiri Dika adalah kursi 2, sehingga Hasan di kursi 2. Endang berhadapan dengan Hasan di kursi 6. Karena Endang diapit Angga di kursi 5 dan Bima, Bima harus berada di kursi 7."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-18.png",
+              "lebar": 5.97,
+              "tinggi": 2.46
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Mengisi kursi tersisa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kursi yang belum terisi adalah 3, 4, dan 8. Di antara ketiganya, hanya 4 dan 8 yang berhadapan. Faisal dan Gilang mengisi kedua kursi itu, sehingga Candra berada di kursi 3. Gilang boleh di kursi 4 maupun 8 karena keduanya tidak berdampingan dengan Hasan di kursi 2."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-19.png",
+              "lebar": 5.97,
+              "tinggi": 2.46
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Mustahil: Faisal dan Gilang berhadapan, sehingga keduanya tidak bisa mengapit Candra."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Mungkin: ketika Gilang di kursi 4, Candra di kursi 3 diapit Hasan di kursi 2 dan Gilang di kursi 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Mustahil: tepat di kiri Bima adalah kursi 8, bukan kursi 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mustahil: tepat di kanan Dika adalah kursi 8, bukan kursi 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Mustahil: tepat di kiri Angga adalah kursi 6 yang ditempati Endang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "PPT memilih B, yang sesuai dengan susunan pertama. Pada susunan kedua, Candra tetap menempati kursi 3, tetapi diapit Hasan dan Faisal. Karena kedua susunan memenuhi petunjuk, pilihan B menunjukkan posisi yang mungkin dan belum dapat dipastikan dari soal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3. Susunan Baris–Kolom",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Delapan siswa duduk pada wahana 5 baris × 2 kursi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aturan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rina dan Santi duduk di Baris 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tono duduk tepat di belakang Rina."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uli duduk di samping Tono."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Vina dan Wawan duduk bersama pada satu baris (bukan Baris 1)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yudi tidak duduk di Baris 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di baris berapakah posisi Zaki?"
+            }
+          ],
+          "opsi": {
+            "A": "Baris 1",
+            "B": "Baris 2",
+            "C": "Baris 3",
+            "D": "Baris 4",
+            "E": "Tidak cukup data"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan informasi awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rina dan Santi mengisi baris 1. Tono berada di baris 2 pada kolom yang sama dengan Rina. Uli menempati kursi satunya di baris 2. Untuk menggambar contoh, letakkan Rina di kolom kiri; memilih kolom kanan hanya menukar sisi dan tidak mengubah nomor baris."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-20.png",
+              "lebar": 6.08,
+              "tinggi": 1.57
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menggabungkan aturan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Vina dan Wawan harus berbagi satu baris dari baris 3–5. Sebagai contoh, tempatkan mereka di baris 3. Zaki dan Yudi masih dapat bertukar antara baris 4 dan 5. Tabel berikut memakai pilihan tempat yang sah, bukan posisi yang diwajibkan oleh soal."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Baris",
+                "Susunan 1: kiri",
+                "Susunan 1: kanan",
+                "Susunan 2: kiri",
+                "Susunan 2: kanan"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Rina",
+                  "Santi",
+                  "Rina",
+                  "Santi"
+                ],
+                [
+                  "2",
+                  "Tono",
+                  "Uli",
+                  "Tono",
+                  "Uli"
+                ],
+                [
+                  "3",
+                  "Vina",
+                  "Wawan",
+                  "Vina",
+                  "Wawan"
+                ],
+                [
+                  "4",
+                  "Zaki",
+                  "Kosong",
+                  "Yudi",
+                  "Kosong"
+                ],
+                [
+                  "5",
+                  "Yudi",
+                  "Kosong",
+                  "Zaki",
+                  "Kosong"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baris 1 dan 2 sudah terisi penuh. Dua susunan pada tabel menempatkan Zaki di baris 4 dan 5. Zaki juga bisa menempati baris 3 jika Vina dan Wawan mengisi baris 4 dan Yudi tetap di baris 5."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-21.png",
+              "lebar": 6.08,
+              "tinggi": 1.57
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baris Zaki belum dapat ditentukan. Jawaban yang benar adalah E."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Membaca Petunjuk Posisi",
+        "teks": ""
+      },
+      {
+        "judul": "Susunan Linear (Satu Arah)",
+        "teks": ""
+      },
+      {
+        "judul": "Konferensi Meja Bundar (Duduk Melingkar)",
+        "teks": ""
+      },
+      {
+        "judul": "Susunan Baris–Kolom",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menentukan Jawaban",
+        "teks": ""
+      }
+    ],
+    "pesan": "Gunakan model yang sesuai dengan bentuk tempat: deretan slot untuk linear, lingkaran dengan arah hadap untuk meja bundar, dan kisi untuk baris–kolom. Isi yang pasti lebih dahulu, lalu uji pilihan yang tersisa. Sebelum memilih jawaban, pastikan Anda menjawab perintah soal: satu susunan sah membuktikan kemungkinan, sedangkan jawaban pasti harus bertahan pada semua susunan sah."
+  }
+}

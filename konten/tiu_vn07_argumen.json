@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "judul": "Memperkuat/Memperlemah Argumen",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Analitis - Memperkuat-Memperlemah Argumen",
+    "sumber": "https://docs.google.com/document/d/1g4RKJHOyQ2Z1qsrCFhT4lcvOrOnsekPaiTfPX-n9HG4/edit",
+    "id_katalog": "vn-07"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pada soal ini, satu informasi baru dapat mengubah seberapa meyakinkan sebuah argumen. Anda akan berlatih membaca perubahan itu sebelum memilih jawaban.",
+      "Kemampuan ini digunakan untuk menilai seberapa kuat bukti mendukung dugaan dalam bacaan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "perbedaan penguat, pelemah, dan informasi netral."
+      },
+      {
+        "level": "",
+        "kko": "Menemukan",
+        "teks": "alasan, simpulan, dan asumsi penghubung."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "opsi yang paling langsung memengaruhi simpulan dan menjelaskan alasannya."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pengertian Memperkuat dan Memperlemah Argumen",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengertian Memperkuat dan Memperlemah Argumen",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Memperkuat argumen berarti menambahkan informasi yang membuat alasan lebih mendukung simpulan. Memperlemah argumen berarti menambahkan informasi yang mengurangi dukungan itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bayangkan sebuah perpustakaan menambah satu meja peminjaman. Sesudah itu, antrean lebih pendek. Pengelola menduga meja tambahan membantu mengurangi antrean. Perhatikan bagaimana satu informasi baru dapat mengubah penilaian kita."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Informasi yang baru diketahui",
+                "Pengaruh terhadap dugaan pengelola"
+              ],
+              "baris": [
+                [
+                  "Jumlah peminjam sebanding dan antrean lebih pendek hanya saat meja tambahan dibuka.",
+                  "Memperkuat. Antrean lebih pendek berkaitan dengan penggunaan meja tambahan."
+                ],
+                [
+                  "Jumlah peminjam turun tajam, dan antrean sudah lebih pendek sebelum meja tambahan dibuka.",
+                  "Memperlemah. Penurunan jumlah peminjam dapat menjelaskan antrean yang lebih pendek."
+                ],
+                [
+                  "Rak buku diberi label baru.",
+                  "Netral. Informasi ini belum menunjukkan perubahan pada antrean peminjaman."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penguat membuat simpulan lebih masuk akal tanpa menjadikannya pasti. Pelemah membuat alasan kurang meyakinkan, tetapi simpulan masih bisa benar. Jika informasi baru tidak mengubah dukungan terhadap simpulan, pengaruhnya netral."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cara membaca informasi baru pada soal",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara membaca informasi baru pada soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bacaan memberi argumen awal. Setiap opsi menawarkan satu informasi tambahan. Saat pertanyaan mengatakan “jika benar”, perlakukan opsi yang sedang diuji sebagai benar dan baca pengaruhnya terhadap argumen awal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji opsi secara terpisah. Kembali ke argumen awal sebelum membaca opsi berikutnya. Jika yang ditanya “paling memperlemah”, cari opsi yang paling mengurangi dukungan, lalu jelaskan hubungan mana yang terganggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertahankan hal yang sedang dibandingkan. Pada contoh perpustakaan, yang diuji adalah pengaruh meja tambahan terhadap panjang antrean di perpustakaan tersebut. Informasi tentang koleksi buku dapat berkaitan dengan perpustakaan, tetapi belum menjawab pertanyaan tentang antrean."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menemukan simpulan, alasan, dan asumsi",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menemukan simpulan, alasan, dan asumsi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan adalah hal yang ingin diterima pembaca. Alasan adalah bukti yang dipakai untuk mendukungnya. Asumsi penghubung adalah hal yang perlu berlaku agar bukti tersebut memberi dukungan pada simpulan. Asumsi masih perlu diuji. Informasi baru pada opsi dapat mendukung asumsi itu atau menunjukkan bahwa asumsi tersebut tidak berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh. Waktu tunggu di sebuah kantor layanan berkurang setelah sistem janji temu diterapkan. Pengelola menduga sistem itu membantu mempercepat layanan. Tabel menunjukkan bagian yang diketahui dan hubungan yang masih perlu diuji."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bagian argumen",
+                "Isi pada contoh janji temu"
+              ],
+              "baris": [
+                [
+                  "Alasan",
+                  "Waktu tunggu berkurang setelah sistem diterapkan."
+                ],
+                [
+                  "Simpulan",
+                  "Sistem janji temu membantu mempercepat layanan."
+                ],
+                [
+                  "Asumsi yang perlu diuji",
+                  "Penurunan bukan semata akibat faktor lain, misalnya penambahan petugas."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanyakan, “Penulis ingin saya percaya apa?” lalu “Apa yang dipakai untuk mendukungnya?” Simpulan dapat muncul di awal, tengah, atau akhir. Waktu tunggu yang tercatat adalah hasil pengamatan. Pernyataan bahwa sistem janji temu menyebabkan perubahan merupakan penjelasan atas hasil itu. Untuk menilai penjelasannya, periksa apakah faktor lain, seperti penambahan petugas atau berkurangnya pengunjung, juga dapat menghasilkan penurunan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menerapkan uji penguat, pelemah, dan netral",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menerapkan uji penguat, pelemah, dan netral",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Klaim pada contoh janji temu adalah bahwa sistem membantu mempercepat layanan. Tabel menunjukkan bagaimana tiga informasi baru menguji klaim tersebut dengan cara berbeda."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Informasi baru",
+                "Pengaruh pada simpulan"
+              ],
+              "baris": [
+                [
+                  "Kantor pembanding dengan beban dan jumlah petugas serupa tidak mengalami penurunan waktu tunggu.",
+                  "Memperkuat. Penurunan lebih terkait dengan penerapan sistem."
+                ],
+                [
+                  "Jumlah petugas ditambah pada waktu yang sama dan antrean terutama berkurang di loket yang mendapat petugas tambahan.",
+                  "Memperlemah. Penambahan petugas dapat menjelaskan penurunan."
+                ],
+                [
+                  "Warna kartu antrean berubah.",
+                  "Netral. Opsi tidak menunjukkan pengaruh warna pada waktu tunggu."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan dampak tepat dari tiap informasi. Penambahan petugas memberi penjelasan lain bagi waktu tunggu yang lebih singkat. Sistem janji temu masih mungkin berperan. Untuk menilai besarnya peran sistem, perlu perbandingan yang dapat memisahkan pengaruh sistem dari pengaruh jumlah petugas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengecoh sering mengulang data awal, membahas hasil lain, atau memberi fakta tentang kelompok dan waktu berbeda. Kembali ke ukuran yang disebut dalam simpulan. Dalam contoh ini, ukuran yang perlu dijelaskan adalah waktu tunggu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memilih cara menguji sesuai jenis klaim",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memilih cara menguji sesuai jenis klaim",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jenis simpulan menentukan apa yang perlu diperiksa. Klaim sebab-akibat membutuhkan bukti yang membedakan pengaruh satu faktor dari faktor lain. Klaim tentang mayoritas membutuhkan data yang mencakup kelompok sasaran."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis klaim",
+                "Bukti yang perlu diperiksa",
+                "Contoh perubahan dukungan"
+              ],
+              "baris": [
+                [
+                  "Sebab-akibat",
+                  "Urutan waktu, pembanding, dan faktor lain.",
+                  "Penurunan hanya pada cabang yang memakai sistem memperkuat dugaan pengaruhnya."
+                ],
+                [
+                  "Generalisasi",
+                  "Keterwakilan sampel terhadap orang yang dibahas.",
+                  "Survei hanya pada pengunjung pagi melemahkan klaim tentang semua jam kunjungan jika kelompok lain berbeda."
+                ],
+                [
+                  "Perbandingan",
+                  "Ukuran, penyebut, dan kondisi awal yang sepadan.",
+                  "Lebih sedikit keluhan belum menunjukkan layanan lebih baik jika jumlah pengguna juga jauh lebih sedikit."
+                ],
+                [
+                  "Analogi dan penerapan di tempat lain",
+                  "Kesamaan kondisi yang membuat cara itu bekerja.",
+                  "Cara berbasis internet kurang layak diterapkan jika lokasi tujuan tidak memiliki jaringan yang diperlukan."
+                ],
+                [
+                  "Klaim mutlak atau keberadaan",
+                  "Definisi kasus dan batas kelompok atau waktu.",
+                  "Satu anggota yang sah dapat membantah “semua”. Satu kasus terverifikasi dapat mendukung “ada”."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada klaim sebab-akibat, periksa urutan waktu. Jika hasil sudah berubah sebelum program dimulai, program tersebut tidak menjelaskan awal perubahan. Perbandingan lebih kuat ketika kelompok sebanding, cara mengukur sama, dan perubahan terlihat terutama pada kelompok yang menerima program. Bukti mengenai cara kerja program juga membantu jika benar-benar menghubungkan tindakan dengan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada generalisasi, periksa siapa yang tercakup dan siapa yang terlewat. Banyak responden dari satu kelompok bisa tetap kurang mewakili kelompok lain. Untuk klaim “semua”, satu kasus tandingan yang termasuk cakupan klaim sudah cukup untuk menggugurkannya. Untuk klaim “mayoritas”, satu kasus tandingan belum memberi tahu apakah jumlah pendukung masih lebih dari separuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menilai prediksi, kesaksian, dan rencana, cari syarat yang menghubungkan bukti dengan hasil yang diklaim. Gunakan pertanyaan pada tabel untuk menentukan informasi yang paling berpengaruh."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis klaim",
+                "Pertanyaan yang perlu dijawab"
+              ],
+              "baris": [
+                [
+                  "Prediksi tren",
+                  "Apakah faktor pendorong masih berlaku? Periksa musim, perubahan kebijakan, dan batas kapasitas."
+                ],
+                [
+                  "Penjelasan suatu kejadian",
+                  "Bukti apa yang membedakan dugaan utama dari penjelasan pesaing?"
+                ],
+                [
+                  "Kesaksian atau laporan",
+                  "Apakah sumber punya akses dan keahlian relevan? Apakah catatan lain berasal dari sumber mandiri?"
+                ],
+                [
+                  "Kelayakan rencana",
+                  "Apakah langkah menyasar hambatan utama dan didukung petugas, ruang, waktu, atau prasyarat lain?"
+                ],
+                [
+                  "Biaya, manfaat, dan pilihan",
+                  "Apakah seluruh biaya serta dampak pada kelompok sasaran dihitung sesuai kriteria yang dinyatakan?"
+                ],
+                [
+                  "Indikator dan preferensi",
+                  "Apakah ukuran benar-benar mengukur hasil? Minat dalam survei belum tentu sama dengan pilihan ketika harus membayar."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika satu prasyarat terpenuhi, rencana menjadi lebih layak, tetapi prasyarat lain masih perlu diperiksa. Misalnya, tersedia ruang untuk menambah layanan membantu dari sisi tempat. Kelayakan keseluruhan masih bergantung pada petugas, waktu, dan biaya jika faktor tersebut menentukan pelaksanaan. Untuk kesaksian, bedakan beberapa catatan independen dari beberapa orang yang hanya mengulang laporan yang sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memeriksa angka dan indikator",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memeriksa angka dan indikator",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa apa yang diukur dan berapa banyak kesempatan terjadinya peristiwa itu. Jumlah kejadian bisa turun ketika waktu penggunaan berkurang, meskipun tingkat kejadian per jam naik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh. Insiden berkurang dari 30 menjadi 20, tetapi jam penggunaan turun dari 3.000 menjadi 1.000. Dibandingkan per 100 jam, tingkat insiden justru naik. Data itu memperlemah klaim bahwa penggunaan menjadi lebih aman."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Ukuran",
+                "Sebelum",
+                "Sesudah"
+              ],
+              "baris": [
+                [
+                  "Jumlah insiden",
+                  "30",
+                  "20"
+                ],
+                [
+                  "Jam penggunaan",
+                  "3.000",
+                  "1.000"
+                ],
+                [
+                  "Insiden per 100 jam",
+                  "1",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika dua kelompok berbeda ukuran, gunakan pembanding yang sesuai, misalnya kejadian per 100 jam atau persentase dari jumlah peserta. Periksa pula cara pencatatan. Jika laporan keluhan turun setelah formulir dipersulit, jumlah laporan yang lebih rendah belum cukup untuk menunjukkan bahwa masalah di lapangan berkurang. Indikator pengganti perlu dibuktikan berkaitan dengan hasil yang benar-benar diklaim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memilih opsi yang paling kuat pengaruhnya",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memilih opsi yang paling kuat pengaruhnya",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca perintah soal dan tentukan arah yang diminta, memperkuat atau memperlemah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tulis simpulan dan alasan dengan kata sendiri. Pertahankan batas orang, waktu, tempat, dan ukuran hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Cari hubungan yang belum dibuktikan. Tanyakan informasi apa yang dapat menguji hubungan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Uji setiap opsi dengan asumsi bahwa informasi itu benar. Pilih yang langsung mengenai hubungan utama dan bergerak ke arah yang diminta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika dua opsi terasa relevan, bandingkan apa yang dibuktikan masing-masing. Fakta bahwa jumlah petugas tetap hanya menutup satu penjelasan alternatif. Bukti dari cabang pembanding yang sebanding dan tidak mengalami penurunan waktu tunggu lebih langsung mendukung dugaan tentang sistem baru. Pilihan yang kuat punya alasan yang dapat disebutkan dari isi opsi, termasuk kondisi atau pembanding yang diperbaikinya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua cabang koperasi memiliki tingkat antrean awal yang hampir sama. Cabang pertama menerapkan sistem janji layanan dan setelah itu waktu tunggunya menurun. Pengelola menduga sistem tersebut membantu menurunkan waktu tunggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi yang jika benar paling memperkuat argumen tersebut adalah …."
+            }
+          ],
+          "opsi": {
+            "A": "Kedua cabang mengukur waktu tunggu dengan cara yang sama selama seluruh periode pengamatan.",
+            "B": "Cabang pertama menambah petugas pada jam sibuk ketika sistem janji layanan mulai diterapkan.",
+            "C": "Pada kondisi pelayanan sebanding, waktu tunggu hanya turun di cabang yang memakai sistem.",
+            "D": "Waktu tunggu cabang pertama sudah mulai turun pada pekan sebelum sistem baru diterapkan.",
+            "E": "Jumlah pelanggan yang datang ke cabang pertama berkurang cukup banyak setelah sistem janji layanan diterapkan."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan: Sistem janji layanan membantu menurunkan waktu tunggu di cabang pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan: Waktu tunggu di cabang pertama turun setelah penerapan sistem. Tingkat antrean awal kedua cabang hampir sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Celah penghubung: Perubahan sebelum dan sesudah belum menunjukkan apakah penurunan berkaitan dengan sistem atau perubahan lain selama periode itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi C menambahkan pembanding pada kondisi pelayanan yang sebanding. Penurunan hanya terjadi pada cabang yang memakai sistem, sehingga dugaan bahwa sistem membantu menurunkan waktu tunggu mendapat dukungan lebih langsung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis opsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Mendukung kualitas pengukuran. Cara ukur yang sama membuat data lebih sebanding, tetapi opsi ini tidak menunjukkan perubahan pada cabang pembanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Memperlemah. Tambahan petugas memberi penjelasan lain atas penurunan waktu tunggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Memperkuat paling langsung. Opsi ini menunjukkan perbedaan hasil antara cabang yang memakai sistem dan cabang pembanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Memperlemah. Penurunan sudah dimulai sebelum sistem diterapkan, sehingga sistem tidak menjelaskan awal perubahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Memperlemah. Jumlah pelanggan yang lebih sedikit dapat mengurangi waktu tunggu tanpa pengaruh sistem."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban yang benar adalah C. Perbandingan hasil pada kondisi pelayanan sebanding paling langsung mendukung peran sistem."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perpustakaan memperpanjang jam buka pada bulan April. Jumlah peminjaman April lebih tinggi daripada Maret. Pengelola menyimpulkan bahwa tambahan jam buka menyebabkan kenaikan peminjaman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi yang jika benar paling memperlemah argumen tersebut adalah …."
+            }
+          ],
+          "opsi": {
+            "A": "Sebagian besar tambahan peminjaman tercatat pada jam tambahan yang sebelumnya tidak tersedia bagi anggota.",
+            "B": "Kenaikan terutama terjadi pada jam lama ketika sekolah mewajibkan tugas peminjaman buku.",
+            "C": "Jumlah buku yang tersedia untuk dipinjam dan jumlah petugas loket tetap sama pada kedua bulan.",
+            "D": "Pada April, perpustakaan mencatat jumlah peminjaman dengan cara yang sama seperti pada bulan Maret.",
+            "E": "Perpanjangan jam buka diumumkan melalui saluran informasi yang biasa digunakan oleh para anggota perpustakaan."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan: Tambahan jam buka menyebabkan kenaikan peminjaman buku pada April."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan: Peminjaman pada April lebih tinggi daripada Maret setelah jam buka diperpanjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Celah penghubung: Perbandingan kedua bulan belum menyingkirkan perubahan lain yang dapat meningkatkan kebutuhan meminjam buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi B memberi penyebab alternatif, yaitu tugas sekolah, serta menunjukkan bahwa kenaikan terutama terjadi pada jam yang sudah tersedia sebelumnya. Dua informasi itu mengurangi dukungan terhadap peran jam tambahan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis opsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Memperkuat. Kenaikan terutama terjadi saat jam tambahan benar-benar digunakan untuk meminjam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Memperlemah paling langsung. Tugas sekolah menjelaskan tambahan kebutuhan dan waktu kenaikan kurang mendukung dugaan pengelola."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak memperlemah. Jumlah buku dan petugas yang tetap menyingkirkan perubahan dua faktor tersebut sebagai penjelasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak memperlemah. Cara pencatatan yang sama menjaga keterbandingan angka peminjaman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Memberi konteks pelaksanaan. Pengumuman membantu anggota mengetahui jam baru, tetapi tidak menunjukkan penyebab kenaikan peminjaman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban yang benar adalah B. Tugas sekolah dan waktu terjadinya kenaikan langsung menguji penjelasan tentang jam buka."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengelola taman kota menduga mayoritas pengguna taman mendukung penambahan penerangan. Pada survei awal terhadap 120 pengguna, 72 persen mendukung usulan itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi yang jika benar paling memperkuat argumen tersebut adalah …."
+            }
+          ],
+          "opsi": {
+            "A": "Jumlah responden ditambah dengan mewawancarai pengguna yang datang lewat pintu utama pada Minggu pagi.",
+            "B": "Persentase dukungan hampir sama pada dua kelompok responden dari kompleks perumahan yang sama.",
+            "C": "Mayoritas pengunjung malam mendukung penerangan, tetapi kelompok tersebut hanya mencakup sebagian kecil pengguna taman.",
+            "D": "Sejumlah pengguna yang jarang datang memilih tidak menjawab pertanyaan tentang penambahan penerangan dalam survei.",
+            "E": "Sampel acak lintas hari dan jam tetap menunjukkan dukungan mayoritas setelah frekuensi kunjungan diperhitungkan."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan: Mayoritas pengguna taman mendukung penambahan penerangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan: Sebanyak 72 persen dari 120 pengguna yang disurvei mendukung penambahan penerangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Celah penghubung: Persentase responden belum tentu mencerminkan pengguna taman secara keseluruhan jika hari, jam, atau pola kunjungan tidak terwakili."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi E mencakup hari dan jam yang berbeda serta memperhitungkan frekuensi kunjungan. Dukungan tetap di atas separuh setelah penyesuaian tersebut, sehingga data lebih mendukung klaim tentang mayoritas pengguna."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis opsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Belum cukup. Jumlah responden bertambah, tetapi penambahan berasal dari satu pintu dan waktu yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Dukungan terbatas. Kesamaan hasil di satu lingkungan belum menunjukkan pendapat pengguna dari lingkungan lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Memperkuat untuk kelompok kecil. Dukungan pengunjung malam saja belum menunjukkan pendapat mayoritas pengguna taman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Cenderung memperlemah. Pengguna yang jarang datang kurang tercakup dalam jawaban, sehingga hasilnya bisa kurang mewakili mereka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Memperkuat paling langsung. Cakupan waktu dan penyesuaian frekuensi kunjungan menguji keterwakilan, sementara dukungan tetap mayoritas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban yang benar adalah E. Bukti yang lebih mewakili pengguna taman mendukung generalisasi dari hasil survei."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pengertian Memperkuat dan Memperlemah Argumen",
+        "teks": ""
+      },
+      {
+        "judul": "Cara membaca informasi baru pada soal",
+        "teks": ""
+      },
+      {
+        "judul": "Menemukan simpulan, alasan, dan asumsi",
+        "teks": ""
+      },
+      {
+        "judul": "Menerapkan uji penguat, pelemah, dan netral",
+        "teks": ""
+      },
+      {
+        "judul": "Memilih cara menguji sesuai jenis klaim",
+        "teks": ""
+      },
+      {
+        "judul": "Memeriksa angka dan indikator",
+        "teks": ""
+      }
+    ],
+    "pesan": "Temukan simpulan, baca alasan, lalu periksa bagian hubungan yang belum didukung. Uji tiap opsi seolah benar dan pilih informasi yang paling langsung mengubah dukungan sesuai arah yang ditanya."
+  }
+}

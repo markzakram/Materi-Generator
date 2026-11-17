@@ -1,8 +1,14 @@
 # Materi Generator
 
-Mengubah naskah materi (JSON) menjadi deck PPTX dan/atau PDF sesuai `Template Desain Materi.pptx`.
+Mengubah naskah materi (JSON) menjadi deck PPTX dan/atau PDF bergaya **Opsi B "Ceria & Membulat"** (navy `13215A`, kuning `FBBB2B`, 16 × 11,25 inci). Dokumen materi di Google Docs bisa dikonversi otomatis menjadi naskah, lalu ditinjau dan disunting tim akademik lewat dasbor web.
 
-## Cara pakai
+## Alur kerja
+
+1. **Dokumen → naskah.** Dokumen materi (templat booklet SKD) diunduh sebagai `.docx` dan dikonversi oleh `generator/impor_katalog.py` menjadi `konten/*.json` beserta gambarnya di `konten/media/`.
+2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 15 materi TIU Verbal, mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
+3. **Ekspor.** Unduh PPTX dari dasbor atau editor. PDF dibuat di Windows lokal (butuh PowerPoint).
+
+## Cara pakai (baris perintah)
 
 ```bash
 python generator/buat_materi.py konten/tiu_penalaran_logis.json --format pptx
@@ -24,40 +30,96 @@ pip install -r requirements-lokal.txt
 
 `requirements.txt` hanya berisi paket untuk membuat PPTX dan aplikasi web (dipakai Vercel). `requirements-lokal.txt` menambahkan PyMuPDF (ekstraksi soal) dan pywin32 (ekspor PDF dan pemeriksaan lewat PowerPoint).
 
-## Aplikasi web (Vercel)
+## Impor dokumen Google Docs
 
-`app.py` adalah aplikasi Flask: unggah naskah materi JSON, lalu unduh deck PPTX. PDF dan pemeriksaan tetap dibuat di Windows lokal karena butuh PowerPoint. Deck latihan soal (`buat_latihan.py`) juga tetap lokal, karena butuh folder gambar figur.
+`konten/katalog.json` mendaftar 15 dokumen di kolom D sheet "Kerangka Course" (Mapping SKD 2027): kelompok, bab, baris sheet, dan ID dokumen. Untuk membuat ulang naskah setelah dokumen diperbarui:
 
-Jalankan di komputer sendiri:
+1. Unduh dokumen sebagai Word (File › Download › Microsoft Word) ke satu folder, beri nama `<doc_id>.docx`.
+2. Jalankan:
 
 ```bash
-python app.py --template "path/ke/Template Desain Materi.pptx"
+python generator/impor_katalog.py --docx folder_docx
+```
+
+Hanya entri dengan `"otomatis": true` yang ditimpa; `va-01` (Verbal Analogi) disusun manual. Satu dokumen bisa dikonversi langsung dengan `generator/ekstrak_gdoc.py`.
+
+Yang dikonversi apa adanya: paragraf, subjudul, daftar, tabel (termasuk sel gabungan), gambar beserta keterangannya, persamaan Word (menjadi `$…$`), serta contoh soal (soal, opsi A–E, kunci, pembahasan). Yang tidak ada di dokumen dibiarkan kosong untuk dilengkapi di editor: pertanyaan pemantik, level Bloom (lingkaran menampilkan nomor bila kosong), dan teks ringkasan penutup. Dasbor menandai materi yang masih perlu dilengkapi.
+
+Catatan: tautan "05 Logika Pernyataan" di sheet (baris 39) kurang satu huruf sehingga tidak bisa dibuka; katalog memakai ID yang benar.
+
+## Aplikasi web (Vercel)
+
+`app.py` adalah aplikasi Flask:
+
+| Halaman | Isi |
+|---|---|
+| `/` | Dasbor: daftar materi, tautan dokumen sumber, status tinjauan (Belum ditinjau / Sedang ditinjau / Perlu revisi / Disetujui), peninjau, catatan, unduh PPTX |
+| `/materi/<id>` | Editor: pratinjau slide dari deck yang sama dengan hasil unduhan, form isi per slide, simpan draf, buang draf, unduh PPTX |
+| `/unggah` | Buat PPTX dari berkas naskah JSON sendiri |
+
+Draf suntingan tidak mengubah berkas di repo. Unduhan memakai draf bila ada. Bila dua orang menyunting materi yang sama, penyimpanan kedua ditolak dengan pesan agar suntingan pertama tidak tertimpa.
+
+Jalankan di komputer sendiri (draf dan status disimpan di `data/`, diabaikan git):
+
+```bash
+python app.py --template "path/ke/Template Referensi Opsi B - Ceria & Membulat.pptx"
 ```
 
 Lalu buka http://127.0.0.1:5000. Tanpa `--template`, aplikasi memakai template di akar proyek.
 
 ### Deploy
 
-1. Simpan `Template Desain Materi.pptx` (dan bila perlu `latar_cover.png`) di penyimpanan yang bisa diunduh lewat URL, misalnya Vercel Blob. Pakai penyimpanan privat dengan token bila tersedia. Kalau tidak ada, pakai URL acak yang tidak mudah ditebak. Jangan taruh berkas ini di repo.
+1. Simpan template Opsi B di penyimpanan yang bisa diunduh lewat URL, misalnya Vercel Blob. Pakai penyimpanan privat dengan token bila tersedia; kalau tidak ada, pakai URL acak yang tidak mudah ditebak. Jangan taruh berkas ini di repo.
 2. Impor repo ini di Vercel. Flask terdeteksi otomatis dari `app.py`. Python mengikuti `.python-version` (3.12).
-3. Isi **Environment Variables** di pengaturan proyek, lalu deploy ulang:
+3. Di proyek Vercel, buka **Storage › Upstash for Redis**, buat database gratis, lalu sambungkan ke proyek. Variabel `KV_REST_API_URL` dan `KV_REST_API_TOKEN` terisi otomatis.
+4. Isi **Environment Variables**, lalu deploy ulang:
 
 | Variabel | Wajib | Isi |
 |---|---|---|
-| `MATERI_TEMPLATE_URL` | ya | URL unduhan `Template Desain Materi.pptx` |
+| `MATERI_TEMPLATE_URL` | ya | URL unduhan `Template Referensi Opsi B - Ceria & Membulat.pptx` |
 | `MATERI_SANDI` | ya* | Sandi akses. Browser meminta nama pengguna (bebas) dan sandi ini |
-| `MATERI_COVER_URL` | tidak | URL foto latar sampul; tanpa ini sampul dibuat tanpa foto |
-| `MATERI_ASET_TOKEN` | tidak | Dikirim sebagai `Authorization: Bearer <token>` saat mengunduh dua URL di atas |
-| `MATERI_TANPA_SANDI` | tidak | Isi `1` hanya jika akses sudah dilindungi **Vercel Authentication** (Settings → Deployment Protection → All Deployments) |
+| `MATERI_ASET_TOKEN` | tidak | Dikirim sebagai `Authorization: Bearer <token>` saat mengunduh template |
+| `MATERI_TANPA_SANDI` | tidak | Isi `1` hanya jika akses sudah dilindungi **Vercel Authentication** (Settings › Deployment Protection › All Deployments) |
+| `KV_REST_API_URL`, `KV_REST_API_TOKEN` | ya** | Diisi otomatis oleh integrasi Upstash (nama `UPSTASH_REDIS_REST_URL`/`_TOKEN` juga diterima) |
 
-\* Tanpa `MATERI_SANDI` dan tanpa `MATERI_TANPA_SANDI=1`, aplikasi di Vercel menolak semua akses. Ini supaya konten tidak terbuka untuk umum karena lupa disetel.
+\* Tanpa `MATERI_SANDI` dan tanpa `MATERI_TANPA_SANDI=1`, aplikasi di Vercel menolak semua akses agar konten tidak terbuka untuk umum karena lupa disetel.
+\** Tanpa Upstash, aplikasi di Vercel berjalan dalam mode baca saja: dasbor, editor, dan unduhan jalan, tetapi status, catatan, dan draf tidak bisa disimpan.
 
-4. Buka `/api/status` untuk mengecek template dan foto sampul sudah terbaca.
+5. Buka `/api/status` untuk mengecek template dan penyimpanan sudah terbaca.
 
 Catatan:
-- Vercel membatasi request dan response 4,5 MB. Naskah JSON jauh di bawah batas itu. Deck tanpa foto sampul sekitar 0,4 MB, jadi foto sampul harus cukup kecil (di bawah ±3,5 MB) agar deck tetap bisa diunduh.
-- Aset hasil unduhan disimpan sementara di `/tmp` per instance. Setelah mengganti template, pakai URL baru (Vercel Blob membuat URL baru tiap unggah) supaya instance yang sedang jalan mengunduh ulang.
-- `.vercelignore` mencegah template, PDF, dan konten soal ikut terunggah jika deploy lewat `vercel` CLI dari komputer ini.
+- Vercel membatasi request dan response 4,5 MB. Deck terbesar saat ini (Logika Kuantor, banyak gambar) sekitar 1,8 MB.
+- Template hasil unduhan disimpan sementara di `/tmp` per instance. Setelah mengganti template, pakai URL baru supaya instance yang sedang jalan mengunduh ulang.
+- `.vercelignore` mencegah template, PDF, dan konten soal tryout ikut terunggah jika deploy lewat `vercel` CLI dari komputer ini.
+
+## Struktur naskah
+
+| Bagian | Isi |
+|---|---|
+| `meta` | `judul`, `subjudul` (opsional), `subtes`, `nama_file`, `sumber` |
+| `peta_subtes` | `judul`, `subjudul`, `aktif` (indeks kartu yang disorot), `kartu[]` (`judul`, `deskripsi`, `ikon`) |
+| `pendahuluan` | `paragraf[]`, `pemantik` (opsional), `ikon` atau `gambar` (path di `konten/`) |
+| `tujuan` | `pengantar`, `butir[]` (`level` opsional, `kko`, `teks`) |
+| `materi[]` | `subbab`, `ikon`, `slide[]` |
+| `penutup` | `judul`, `ringkasan[]` (`judul`, `teks` opsional), `pesan` |
+
+Tipe slide materi (`tipe`):
+
+- Tata letak khusus: `tabel`, `tabel_kebenaran`, `banding`, `notasi`, `kartu`, `alur`, `langkah`, `teks_ikon`. Setiap slide boleh punya `catatan` dengan `jenis` `peringatan` atau `tips`. Contoh lengkap ada di `konten/tiu_penalaran_logis.json` dan `konten/tiu_verbal_analogi.json`.
+- `blok`: isi umum hasil konversi dokumen, berupa daftar `blok[]` dengan `jenis` `paragraf`, `subjudul`, `sorot`, `poin`, `gambar`, `tabel`, atau `catatan`. Bila slide penuh, generator membuat slide lanjutan; slide yang dimulai tepat di subjudul memakai subjudul itu sebagai judul.
+- `contoh_soal`: `judul`, `label` (opsional), `soal[]` (blok), `opsi` (`A`–`E`), `kunci`, `pembahasan[]` (blok). Menghasilkan slide soal dan slide pembahasan yang saling bertaut. Opsi yang semuanya pendek disusun mendatar.
+
+Markup teks: `**tebal**` dan `$p → q$` untuk simbol/rumus (ditulis dengan Cambria Math karena Poppins tidak punya glyph logika).
+
+Ikon: `globe`, `strategi`, `grafik`, `checklist`, `roket`, `peringatan`, `presenter`, `bingung`. Varian navy dan putih untuk desain Opsi B ada di `generator/assets/ikon/` (dibuat ulang dengan `python generator/buat_ikon.py`).
+
+## Desain Opsi B
+
+- Latar slide isi `F4F6FB`, kartu putih membulat, kartu sorotan navy, catatan kuning muda dengan lingkaran simbol navy (`!` peringatan, `i` tips, `?` pemantik).
+- Chip bagian berupa pil navy dengan ikon dalam lingkaran kuning; navigasi bawah pil navy dengan sorotan kuning dan bisa diklik (juga di PDF); nomor halaman dalam lingkaran kuning.
+- Sampul dan penutup memakai bentuk bulat bertumpuk navy-kuning; peta subtes bergaya daftar isi bernomor; tujuan berupa kartu dengan level Bloom.
+- Palet Opsi B dan Poppins dimasukkan ke tema PowerPoint; Poppins regular dan bold tetap tertanam.
+- Generator menolak template dengan ukuran slide selain 16 × 11,25 inci agar tata letak tidak bergeser diam-diam.
 
 ## Font rumus di server
 
@@ -73,10 +135,9 @@ Berkas berikut milik Cerebrum dan sengaja dikecualikan lewat `.gitignore`. Salin
 
 | Berkas | Fungsi | Jika tidak ada |
 |---|---|---|
-| `Template Desain Materi.pptx` (akar proyek) | Dasar master, tema, dan font tertanam. Ukuran slide wajib 20 × 11,25 inci (16:9); tata letak generator mengikuti ukuran ini | Generator berhenti dengan pesan; wajib ada |
-| `generator/assets/latar_cover.png` | Foto latar sampul | Sampul dibuat tanpa foto |
+| `Template Referensi Opsi B - Ceria & Membulat.pptx` (akar proyek) | Dasar master, tema, dan font tertanam. Ukuran slide wajib 16 × 11,25 inci | Generator berhenti dengan pesan; wajib ada |
 | `konten/latihan_*.json`, `konten/gambar/` | Soal dan pembahasan tryout hasil ekstraksi | Buat ulang dengan `ekstrak_soal.py` dari PDF sumber |
-| `output/` | Hasil generate | Dibuat otomatis |
+| `output/`, `data/` | Hasil generate; draf dan status dasbor lokal | Dibuat otomatis |
 
 Font Poppins di `generator/assets/fonts/` berlisensi SIL Open Font License 1.1 (lihat `OFL.txt` di folder yang sama).
 
@@ -92,30 +153,3 @@ python generator/buat_latihan.py konten/latihan_tiu_paket1.json --format keduany
 - Rumus di PDF sumber berupa gambar. Ekstraktor menerjemahkannya lewat `generator/label_rumus.json` (452 rumus dari Paket 1 dan 2). Jika PDF baru memuat rumus yang belum dikenal, ekstraktor memberi peringatan; jalankan `python generator/ekstrak_soal.py a.pdf --lembar folder` untuk membuat lembar gambar bernomor, lalu tambahkan labelnya.
 - Gambar figur disimpan di `konten/gambar/<nama naskah>/` pada 300 dpi.
 - Naskah JSON hasil ekstraksi boleh disunting (salah ketik, kunci, pembahasan) sebelum deck dibuat ulang.
-
-## Struktur naskah
-
-| Bagian | Isi |
-|---|---|
-| `meta` | `judul`, `subtes`, `nama_file` |
-| `peta_subtes` | `judul`, `subjudul`, `aktif` (indeks kartu yang disorot), `kartu[]` (`judul`, `deskripsi`, `ikon`) |
-| `pendahuluan` | `paragraf[]`, `pemantik`, `ikon` |
-| `tujuan` | `pengantar`, `butir[]` (`level`, `kko`, `teks`) |
-| `materi[]` | `subbab`, `ikon`, `slide[]` |
-| `penutup` | `judul`, `ringkasan[]` (`judul`, `teks`), `pesan` |
-
-Tipe slide materi (`tipe`): `tabel`, `tabel_kebenaran`, `banding`, `notasi`, `kartu`, `alur`, `langkah`, `teks_ikon`.
-Setiap slide boleh punya `catatan` dengan `jenis` `peringatan` atau `tips`. Contoh lengkap ada di `konten/tiu_penalaran_logis.json`.
-
-Markup teks: `**tebal**` dan `$p → q$` untuk simbol/rumus (ditulis dengan Cambria Math karena Poppins tidak punya glyph logika).
-
-Ikon: `globe`, `strategi`, `grafik`, `checklist`, `roket`, `peringatan`, `presenter`, `bingung`.
-
-## Perbaikan terhadap template asli
-
-- Font tebal dirujuk sebagai `Poppins` + bold, sehingga font tertanam benar-benar dipakai (sebelumnya jatuh ke Arial).
-- Satu keluarga font (Poppins); Inter dan Arial Nova dihapus dari file.
-- Palet brand dan Poppins dimasukkan ke tema PowerPoint.
-- Teks rata kiri, posisi judul dan chip seragam di semua slide, kontras label bagian dinaikkan.
-- Penomoran langkah otomatis dan benar, nomor halaman, navigasi bawah menandai bagian aktif dan bisa diklik (juga di PDF).
-- Komponen baru untuk TIU: kotak notasi, tabel kebenaran, alur premis, catatan peringatan/tips, kartu banding.

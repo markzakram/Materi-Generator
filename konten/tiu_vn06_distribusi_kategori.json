@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "judul": "Distribusi & Kategori",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Verbal Analitis - Distribusi & Kategori",
+    "sumber": "https://docs.google.com/document/d/1-ErwLanWs1_69ZqH71-b5UwPx23T7oQEmE6I1elfROw/edit",
+    "id_katalog": "vn-06"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Soal Distribusi & Kategori meminta kita memasangkan orang, benda, atau tempat dengan kegiatan atau kategori yang sesuai.",
+      "Satu orang bisa mengikuti dua kegiatan, dan satu kegiatan bisa diikuti beberapa orang. Demikian pula, satu toko bisa menjual beberapa jenis barang. Tabel membantu kita memisahkan pasangan yang pasti, pasangan yang gugur, dan pasangan yang masih harus diperiksa."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "unsur, kategori, dan kuota dari petunjuk."
+      },
+      {
+        "level": "",
+        "kko": "Mengisi",
+        "teks": "tabel pasangan dengan informasi yang sudah pasti."
+      },
+      {
+        "level": "",
+        "kko": "Menarik",
+        "teks": "kesimpulan dari kuota atau memilih tempat yang memenuhi semua kebutuhan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Mengenali unsur, kategori, dan kuota",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengenali unsur, kategori, dan kuota",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tulis unsur pada baris dan kategori pada kolom. Kuota adalah jumlah pasangan yang harus dipenuhi, misalnya tepat dua kegiatan untuk tiap orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa apakah kuota berlaku untuk tiap unsur, tiap kategori, atau keduanya. “Setiap orang mengikuti dua kegiatan” membatasi jumlah per orang. Satu kategori tetap boleh dimiliki beberapa orang jika petunjuk mengizinkannya. Jika semua kuota diketahui, total pasangan yang dihitung dari baris harus sama dengan total yang dihitung dari kolom."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menyebarkan akibat dari pasangan yang sudah pasti",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menyebarkan akibat dari pasangan yang sudah pasti",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Isi pasangan yang dinyatakan langsung. Jika kuota suatu baris atau kolom sudah penuh, gugurkan pilihan sisanya. Jika jumlah kandidat yang masih sah sama dengan kuota tersisa, tetapkan semua kandidat itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh. Rani dan Dito masing-masing mengikuti tepat dua dari tiga kegiatan. Rani mengikuti basket dan teater. Hanya satu orang mengikuti basket. Dito tidak mengikuti basket, sehingga dua kegiatannya harus teater dan fotografi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tabel, ✓ berarti pasangan pasti, × berarti pasangan gugur, dan ? berarti masih perlu diperiksa."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Peserta",
+                "Basket",
+                "Teater",
+                "Fotografi",
+                "Kuota"
+              ],
+              "baris": [
+                [
+                  "Rani",
+                  "✓",
+                  "✓",
+                  "×",
+                  "2 dari 2"
+                ],
+                [
+                  "Dito",
+                  "×",
+                  "✓",
+                  "✓",
+                  "2 dari 2"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa akibat pada dua arah. Penempatan Rani pada basket memenuhi kuota kategori basket, sehingga Dito gugur dari kategori tersebut. Karena Dito masih memerlukan dua kegiatan dan hanya dua pilihan yang tersisa, keduanya harus dipilih. Petunjuk “satu-satunya” menetapkan satu pasangan sekaligus menggugurkan orang lain dari kategori yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh Rani dan Dito, tabel menghasilkan empat pasangan. Jumlahnya sama ketika dihitung dari kuota peserta maupun dari banyaknya peserta per kegiatan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn06_distribusi_kategori/gambar-01.png",
+              "lebar": 6.06,
+              "tinggi": 0.93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memilih tempat yang memenuhi semua kategori",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memilih tempat yang memenuhi semua kategori",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika satu toko harus menyediakan seluruh barang yang diminta, periksa tiap barang sebagai syarat wajib. Satu barang yang tidak tersedia cukup untuk menggugurkan toko itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tabel toko, gunakan tanda tanya jika informasi belum menentukan ketersediaan suatu barang. Ubah tanda tanya menjadi centang atau silang setelah ada petunjuk yang membuktikannya. Jika soal memberikan daftar lengkap toko penjual sebuah barang, toko di luar daftar gugur untuk barang itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh. Pembeli membutuhkan mawar dan lili dari satu toko. Toko A gugur karena hanya menyediakan mawar. Toko B lolos karena menyediakan keduanya."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn06_distribusi_kategori/gambar-02.png",
+              "lebar": 6.06,
+              "tinggi": 1.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memeriksa kesimpulan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memeriksa kesimpulan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa ulang kuota dan pasangan yang dipakai untuk menjawab. Jika masih ada beberapa susunan sah, kesimpulan yang pasti harus berlaku pada semuanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan beda antara “tepat dua”, “setidaknya dua”, dan “paling banyak dua”. Kuota tepat dua langsung menutup pilihan lain setelah dua pasangan ditetapkan. Batas setidaknya dua masih mengizinkan tambahan, sedangkan paling banyak dua masih mengizinkan jumlah yang lebih kecil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sukma, Bayu dan Alya bersekolah di SMA yang sama. Masing-masing dari mereka mengikuti dua jenis ekstrakurikuler di sekolahnya. Terdapat beberapa informasi sebagai berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1.Hanya salah satu di antara mereka yang tidak mengikuti ekstrakurikuler basket"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2.Bayu adalah satu- satunya di antara mereka yang mengikuti ekstrakurikuler paduan suara"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3.Alya mengikuti ekstrakurikuler basket"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4.Sukma dan Bayu sama- sama mengikuti ekstrakurikuler teater"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di antara mereka bertiga, siapakah yang mengikuti ekstrakurikuler fotografi?"
+            }
+          ],
+          "opsi": {
+            "A": "Hanya Alya",
+            "B": "Hanya Bayu",
+            "C": "Hanya Sukma",
+            "D": "Sukma dan Bayu",
+            "E": "Sukma dan Alya"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Mengisi pasangan pasti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bayu mengikuti paduan suara dan teater. Kuota dua kegiatannya sudah penuh, sehingga Bayu tidak mengikuti basket maupun fotografi. Sukma mengikuti teater, dan Alya mengikuti basket."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menerapkan kuota"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hanya satu siswa yang tidak mengikuti basket. Siswa itu adalah Bayu, sehingga Sukma juga mengikuti basket. Kuota Sukma kini penuh oleh teater dan basket."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa pilihan yang tersisa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alya sudah mengikuti basket dan masih membutuhkan satu kegiatan. Sukma dan Bayu sudah memenuhi kuota, sehingga Alya satu-satunya yang bisa mengikuti fotografi. Petunjuk masih membolehkan Alya mengambil teater sebagai kegiatan kedua. Dalam susunan itu, tidak ada peserta fotografi. Tanda tanya pada tabel menunjukkan pilihan Alya yang belum dapat dipastikan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Siswa",
+                "Basket",
+                "Paduan suara",
+                "Teater",
+                "Fotografi",
+                "Kuota"
+              ],
+              "baris": [
+                [
+                  "Sukma",
+                  "✓",
+                  "×",
+                  "✓",
+                  "×",
+                  "2 dari 2"
+                ],
+                [
+                  "Bayu",
+                  "×",
+                  "✓",
+                  "✓",
+                  "×",
+                  "2 dari 2"
+                ],
+                [
+                  "Alya",
+                  "✓",
+                  "×",
+                  "?",
+                  "?",
+                  "1 dari 2 pasti"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua susunan lengkap berikut menunjukkan mengapa Alya bisa mengikuti fotografi dan mengapa keberadaan peserta fotografi belum pasti."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn06_distribusi_kategori/gambar-03.png",
+              "lebar": 6.06,
+              "tinggi": 1.69
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alya satu-satunya siswa yang masih bisa mengikuti fotografi. Kunci A berlaku jika diasumsikan ada siswa yang mengikuti fotografi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gina membutuhkan berbagai jenis bunga untuk kado pernikahan orang tuanya. Terdapat 5 toko bunga di kota terdiri dari Toko A, Toko B, Toko C, Toko D, dan Toko E."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga mawar dapat ditemukan di Toko A, B, C, dan E."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua toko menjual bunga lili. Hanya Toko B yang tidak menjual bunga anggrek."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko B dan Toko E tidak menjual bunga tulip."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga dahlia dapat ditemukan di toko B,C, dan E."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko apa yang akan dikunjungi Gina jika Gina membutuhkan bunga mawar, lili, anggrek, tulip dan dahlia?"
+            }
+          ],
+          "opsi": {
+            "A": "Toko A",
+            "B": "Toko B",
+            "C": "Toko c",
+            "D": "Toko D",
+            "E": "Toko E"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Mencatat kebutuhan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gina membutuhkan satu toko yang menjual mawar, lili, anggrek, tulip, dan dahlia. Semua toko menjual lili, sehingga kategori itu tidak menggugurkan pilihan mana pun."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menyaring toko dari petunjuk"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dahlia hanya tersedia di B, C, dan E menurut daftar soal. Toko A dan D gugur karena tidak menyediakan dahlia. Toko B dan E gugur karena tidak menjual tulip. Toko C menjadi satu-satunya kandidat yang tersisa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa kelima kategori"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko C ada dalam daftar penjual mawar dan dahlia, menjual lili seperti semua toko, serta tidak termasuk toko yang dikecualikan untuk anggrek dan tulip. Tabel berikut membaca daftar ketersediaan dan pengecualian sebagai daftar lengkap, sebagaimana dimaksud soal."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Toko",
+                "Mawar",
+                "Lili",
+                "Anggrek",
+                "Tulip",
+                "Dahlia"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "×"
+                ],
+                [
+                  "B",
+                  "✓",
+                  "✓",
+                  "×",
+                  "×",
+                  "✓"
+                ],
+                [
+                  "C",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "✓"
+                ],
+                [
+                  "D",
+                  "×",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "×"
+                ],
+                [
+                  "E",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "×",
+                  "✓"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko C menyediakan kelima bunga yang dibutuhkan. Jawaban yang benar adalah C. PPT Materi OLD mencantumkan D, tetapi Toko D tidak tercantum dalam daftar penjual mawar dan dahlia."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Mengenali unsur, kategori, dan kuota",
+        "teks": ""
+      },
+      {
+        "judul": "Menyebarkan akibat dari pasangan yang sudah pasti",
+        "teks": ""
+      },
+      {
+        "judul": "Memilih tempat yang memenuhi semua kategori",
+        "teks": ""
+      },
+      {
+        "judul": "Memeriksa kesimpulan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Isi pasangan yang pasti, periksa kuota atau syarat wajib, lalu gugurkan pasangan yang melanggar petunjuk. Periksa kembali semua kebutuhan yang disebut dalam pertanyaan sebelum memilih jawaban."
+  }
+}
