@@ -25,11 +25,18 @@ from pptx.oxml.ns import qn
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import desain as D  # noqa: E402
+import tema_general  # noqa: E402
 from desain import P  # noqa: E402
 
 AKAR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NAMA_TEMPLATE = "Template Referensi Opsi B - Ceria & Membulat.pptx"
-TEMPLATE = os.path.join(AKAR, NAMA_TEMPLATE)
+TEMA = ("opsi-b", "general")
+NAMA_TEMPLATE_TEMA = {
+    "opsi-b": "Template Referensi Opsi B - Ceria & Membulat.pptx",
+    "general": "Template Materi General.pptx",
+}
+NAMA_TEMPLATE = NAMA_TEMPLATE_TEMA["opsi-b"]
+TEMPLATE_TEMA = {t: os.path.join(AKAR, n) for t, n in NAMA_TEMPLATE_TEMA.items()}
+TEMPLATE = TEMPLATE_TEMA["opsi-b"]
 
 # Palet Opsi B untuk tema PowerPoint (template bawaannya masih memakai palet lama).
 TEMA_WARNA = {
@@ -48,17 +55,32 @@ class TemplateTidakCocok(ValueError):
     pass
 
 
-def siapkan_presentasi(path_template):
+def siapkan_presentasi(path_template, tema="opsi-b"):
+    """Buka template, aktifkan tema, lalu buang slide contohnya.
+
+    Tema "general" memakai slide contoh template sebagai sumber salinan (sampul, bingkai,
+    hiasan), jadi slide itu dikenali dulu sebelum dihapus dari deck.
+    """
+    if tema not in TEMA:
+        raise ValueError(f"Tema tidak dikenal: {tema} (pilihan: {', '.join(TEMA)})")
+    nama = NAMA_TEMPLATE_TEMA[tema]
     if not path_template or not os.path.exists(path_template):
         raise TemplateTidakAda(
             f"Template tidak ditemukan: {path_template}\n"
-            f"Salin '{NAMA_TEMPLATE}' ke folder akar proyek atau pakai --template.")
+            f"Salin '{nama}' ke folder akar proyek atau pakai --template.")
     prs = Presentation(path_template)
     lebar, tinggi = prs.slide_width / 914400, prs.slide_height / 914400
     if abs(lebar - D.LEBAR_SLIDE) > 0.01 or abs(tinggi - D.TINGGI_SLIDE) > 0.01:
         raise TemplateTidakCocok(
             f"Ukuran slide template {lebar:g} x {tinggi:g} inci, sedangkan generator ditata untuk "
-            f"{D.LEBAR_SLIDE:g} x {D.TINGGI_SLIDE:g} inci. Pakai '{NAMA_TEMPLATE}'.")
+            f"{D.LEBAR_SLIDE:g} x {D.TINGGI_SLIDE:g} inci. Pakai '{nama}'.")
+    if tema == "general":
+        try:
+            D.pakai_tema("general", tema_general.TemaGeneral(list(prs.slides)))
+        except tema_general.TemplateGeneralTidakCocok as e:
+            raise TemplateTidakCocok(str(e)) from e
+    else:
+        D.pakai_tema("opsi-b")
     daftar = prs.slides._sldIdLst
     for sid in list(daftar):
         rid = sid.get(qn("r:id"))
@@ -132,14 +154,21 @@ class Pembangun:
         self.peringatan = []
         self.asal = []  # bagian naskah asal tiap slide (mis. "materi.2.slide.0"), untuk editor
         self.sumber = None
+        self.bingkai = set()  # slide berbingkai warna (nomor halaman versi terang)
+        self.general = D.TEMA == "general"
 
     # kerangka -----------------------------------------------------------
-    def baru(self, bagian=None, nav=True):
+    def baru(self, bagian=None, nav=True, hias=True, bingkai=False):
+        """Slide kosong berlatar tema. bingkai: slide berlatar warna (navigasi versi terang)."""
         s = self.prs.slides.add_slide(self.layout)
         for ph in list(s.placeholders):
             ph._element.getparent().remove(ph._element)
         D.latar(s, "latar" if nav else "putih")
-        tombol = D.navbar(s, bagian) if nav else None
+        if nav and hias and D._kait("hias"):
+            D._KAIT.hias(s)
+        if bingkai:
+            self.bingkai.add(id(s))
+        tombol = D.navbar(s, bagian, gelap=bingkai) if nav else None
         self.slides.append((s, tombol))
         self.asal.append(self.sumber)
         if bagian and bagian not in self.awal_bagian:
@@ -155,7 +184,7 @@ class Pembangun:
         for i, (s, tombol) in enumerate(self.slides, 1):
             if tombol is None:
                 continue
-            D.nomor_halaman(s, i, total)
+            D.nomor_halaman(s, i, total, gelap=id(s) in self.bingkai)
             for label, shp in tombol.items():
                 tujuan = self.awal_bagian.get(label)
                 if tujuan is not None and tujuan is not s:
@@ -165,10 +194,16 @@ class Pembangun:
     def sampul(self):
         m = self.k["meta"]
         s = self.baru(nav=False)
+        if self.general:
+            D._KAIT.sampul(s, (m.get("materi_besar") or m["subtes"]).upper(), m["judul"], m.get("tutor"))
+            return
         D.sampul(s, m["judul"], m["subtes"].upper(), m.get("subjudul"), ikon=m.get("ikon", "strategi"))
 
     def penutup_akhir(self):
         s = self.baru(nav=False)
+        if self.general:
+            D._KAIT.terima_kasih(s)
+            return
         D.terima_kasih(s)
 
     def peta_subtes(self):
@@ -193,7 +228,7 @@ class Pembangun:
         h = max(5.6, max(D.tinggi_paragraf(par, w, inset) for par in isi) + d_ikon + 0.35)
         for i, (k, par) in enumerate(zip(kartu, isi)):
             x = D.KIRI + i * (w + celah)
-            D.kotak(s, x, y, w, h, warna="navy" if i == aktif else "putih", radius=D.RADIUS,
+            D.kotak(s, x, y, w, h, warna="kartu_gelap" if i == aktif else "kartu", radius=D.RADIUS,
                     nama=f"Kartu materi {i + 1}")
             D.teks(s, x, y, w, h - d_ikon, par, inset=inset)
             D.ubin_ikon(s, x + inset[0], y + h - inset[3] - d_ikon, d_ikon, k.get("ikon", "globe"))
@@ -201,6 +236,10 @@ class Pembangun:
 
     def pendahuluan(self):
         p, m = self.k["pendahuluan"], self.k["meta"]
+        if self.general:
+            s = self.baru("Pendahuluan", hias=False, bingkai=True)
+            self.cek_batas(D._KAIT.pendahuluan(s, p.get("paragraf", []), p.get("pemantik")), "Pendahuluan")
+            return
         s = self.baru("Pendahuluan")
         y = D.kerangka_isi(s, "Pendahuluan", p.get("ikon_chip", "globe"), p.get("judul") or f"Mengenal {m['judul']}")
         w_panel = 5.6
@@ -220,7 +259,7 @@ class Pembangun:
             pic.left = int((x_panel + (w_panel - pic.width / 914400) / 2) * 914400)
             pic.top = int((y + (h_panel - pic.height / 914400) / 2) * 914400)
         else:
-            D.kotak(s, x_panel, y, w_panel, h_panel, warna="navy", radius=D.RADIUS, nama="Panel ilustrasi")
+            D.kotak(s, x_panel, y, w_panel, h_panel, warna="kartu_gelap", radius=D.RADIUS, nama="Panel ilustrasi")
             ukuran = min(3.0, h_panel - 0.8)
             ilustrasi = D.ikon_path(p.get("ikon", "presenter"), "putih")
             pic = D.gambar(s, ilustrasi, 0, 0, h=ukuran, nama="Ilustrasi")
@@ -234,6 +273,10 @@ class Pembangun:
     def tujuan(self):
         """Kartu tujuan: lingkaran kuning berisi level Bloom, kartu pertama navy."""
         t = self.k["tujuan"]
+        if self.general:
+            s = self.baru("Tujuan Pembelajaran", hias=False)
+            self.cek_batas(D._KAIT.tujuan(s, t.get("pengantar"), t["butir"]), "Tujuan")
+            return
         s = self.baru("Tujuan Pembelajaran")
         y = D.kerangka_isi(s, "Tujuan Pembelajaran", t.get("ikon_chip", "strategi"), t.get("judul") or t["pengantar"])
         butir = t["butir"]
@@ -254,7 +297,7 @@ class Pembangun:
             h = max(2.6, max(D.tinggi_paragraf(p, lw, inset) for p in par))
             for j, (b, p) in enumerate(zip(baris, par)):
                 x = D.KIRI + j * (lw + celah)
-                D.kotak(s, x, y, lw, h, warna="navy" if awal + j == 0 else "putih", radius=D.RADIUS,
+                D.kotak(s, x, y, lw, h, warna="kartu_gelap" if awal + j == 0 else "kartu", radius=D.RADIUS,
                         nama="Butir tujuan")
                 level = b.get("level") or str(awal + j + 1)
                 D.lingkaran(s, x + inset[0], y + 0.4, d, "kuning", level, 24, "navy", nama=f"Level {level}")
@@ -403,7 +446,7 @@ class Pembangun:
             x_panel = D.KANAN - w_panel
             y = D.poin_berbutir(s, y, sl["poin"], w=x_panel - 0.5 - D.KIRI)
             h_panel = max(y - y0, 3.4)
-            D.kotak(s, x_panel, y0, w_panel, h_panel, warna="navy", radius=D.RADIUS, nama="Panel ilustrasi")
+            D.kotak(s, x_panel, y0, w_panel, h_panel, warna="kartu_gelap", radius=D.RADIUS, nama="Panel ilustrasi")
             ukuran = min(2.8, h_panel - 0.6)
             pic = D.gambar(s, D.ikon_path(sl.get("ikon", "bingung"), "putih"), 0, 0, h=ukuran, nama="Ilustrasi")
             pic.left = int((x_panel + (w_panel - pic.width / 914400) / 2) * 914400)
@@ -419,6 +462,10 @@ class Pembangun:
     def penutup(self):
         """Ringkasan bernomor di kiri, kartu pesan penutup navy di kanan."""
         p = self.k["penutup"]
+        if self.general:
+            s = self.baru("Penutup", hias=False, bingkai=True)
+            self.cek_batas(D._KAIT.penutup(s, p.get("ringkasan", []), p.get("pesan")), "Penutup")
+            return
         s = self.baru("Penutup")
         y = D.kerangka_isi(s, "Penutup", p.get("ikon_chip", "roket"), p.get("judul", "Yang Perlu Diingat"))
         ada_pesan = bool(p.get("pesan"))
@@ -432,7 +479,7 @@ class Pembangun:
             isi = f"**{r['judul']}:** {r['teks']}" if r.get("teks") else f"**{r['judul']}**"
             par = [P(isi, 18, "navy", spasi=1.3)]
             h = max(1.0, D.tinggi_paragraf(par, w_baris, inset))
-            D.kotak(s, D.KIRI, y, w_baris, h, warna="putih", radius=D.RADIUS, nama=f"Ringkasan {i}")
+            D.kotak(s, D.KIRI, y, w_baris, h, warna="kartu", radius=D.RADIUS, nama=f"Ringkasan {i}")
             D.lingkaran(s, D.KIRI + 0.3, y + (h - d) / 2, d, "kuning", i, 19, "navy", nama=f"Nomor {i}")
             D.teks(s, D.KIRI, y, w_baris, h, par, inset=inset, jangkar="m")
             y += h + 0.2
@@ -449,7 +496,7 @@ class Pembangun:
                 break
         h_pesan = max(y_akhir - y0, D.tinggi_paragraf(pp, w_pesan, sisi))
         x_pesan = D.KANAN - w_pesan
-        D.kotak(s, x_pesan, y0, w_pesan, h_pesan, warna="navy", radius=D.RADIUS, nama="Pesan penutup")
+        D.kotak(s, x_pesan, y0, w_pesan, h_pesan, warna="kartu_gelap", radius=D.RADIUS, nama="Pesan penutup")
         D.teks(s, x_pesan, y0, w_pesan, h_pesan, pp, inset=sisi, jangkar="m")
         self.cek_batas(max(y_akhir, y0 + h_pesan), "Penutup")
 
@@ -484,9 +531,13 @@ def nama_file(konten):
     return konten["meta"].get("nama_file") or konten["meta"]["judul"]
 
 
-def buat_deck(konten, path_template=TEMPLATE, folder=None):
-    """Bangun deck dari naskah (dict); folder = dasar path gambar di naskah. Hasil: (Presentation, Pembangun)."""
-    prs = siapkan_presentasi(path_template)
+def buat_deck(konten, path_template=None, folder=None, tema="opsi-b"):
+    """Bangun deck dari naskah (dict); folder = dasar path gambar di naskah. Hasil: (Presentation, Pembangun).
+
+    Tema disimpan sebagai keadaan modul desain, jadi pemanggil yang berjalan paralel (server
+    web) harus membangun deck satu per satu.
+    """
+    prs = siapkan_presentasi(path_template or TEMPLATE_TEMA.get(tema, TEMPLATE), tema)
     b = Pembangun(prs, konten, folder)
     b.bangun()
     return prs, b
@@ -497,16 +548,18 @@ def main(argv=None):
     ap.add_argument("naskah", help="Path file naskah .json")
     ap.add_argument("--format", choices=["pptx", "pdf", "keduanya"], default="pptx")
     ap.add_argument("--keluar", default=os.path.join(AKAR, "output"), help="Folder hasil")
-    ap.add_argument("--template", default=TEMPLATE)
+    ap.add_argument("--tema", choices=TEMA, default="opsi-b",
+                    help="Tampilan: opsi-b (Ceria & Membulat) atau general (Template Materi General)")
+    ap.add_argument("--template", default=None, help="Path template (bawaan: template tema di akar proyek)")
     arg = ap.parse_args(argv)
 
     with open(arg.naskah, encoding="utf-8") as f:
         konten = json.load(f)
-    nama = nama_file(konten)
+    nama = nama_file(konten) + (" (General)" if arg.tema == "general" else "")
     os.makedirs(arg.keluar, exist_ok=True)
 
     try:
-        prs, b = buat_deck(konten, arg.template, os.path.dirname(os.path.abspath(arg.naskah)))
+        prs, b = buat_deck(konten, arg.template, os.path.dirname(os.path.abspath(arg.naskah)), arg.tema)
     except (TemplateTidakAda, TemplateTidakCocok) as e:
         sys.exit(str(e))
     for w in b.peringatan:

@@ -76,6 +76,8 @@ button.utama { margin-top: 18px; width: 100%; padding: 12px 16px; border: 0; bor
 button.utama:disabled { opacity: .45; cursor: not-allowed; }
 button.utama:focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; }
 
+.pilih-tema { display: grid; gap: 4px; margin-top: 16px; font-size: 13px; font-weight: 700; color: var(--redup); }
+.pilih-tema select { padding: 8px 10px; border-radius: 10px; border: 1px solid var(--garis); background: var(--kartu); color: var(--teks); font: inherit; }
 .pesan { margin-top: 16px; padding: 12px 14px; border-radius: 10px; font-size: 14px; display: none; }
 .pesan.tampil { display: block; }
 .pesan.ok { background: var(--ok-bg); color: var(--ok); }
@@ -128,6 +130,9 @@ pre code { padding: 0; background: none; }
         </dl>
       </div>
 
+      <label class="pilih-tema">Tampilan PPT
+        <select id="tema"><option value="opsi-b">Opsi B · Ceria &amp; Membulat</option><option value="general">General</option></select>
+      </label>
       <button class="utama" id="tombol" disabled>Buat PPTX</button>
       <div class="pesan" id="pesan" role="status"></div>
       <div class="daftar-peringatan" id="peringatan"></div>
@@ -158,10 +163,15 @@ pre code { padding: 0; background: none; }
     el.textContent = teks;
   }
 
-  fetch("/api/status").then((r) => r.json()).then((s) => {
-    if (s.template && s.template.siap) chip($("chip-template"), "ok", "Template siap");
-    else chip($("chip-template"), "galat", (s.template && s.template.pesan) || "Template belum siap");
-  }).catch(() => {
+  try { $("tema").value = localStorage.getItem("materi.tema") || "opsi-b"; } catch {}
+  let status = null;
+  $("tema").addEventListener("change", () => { try { localStorage.setItem("materi.tema", $("tema").value); } catch {} if (status) tampilStatus(status); });
+  const tampilStatus = (s) => {
+    const t = (s.tema || {})[$("tema").value] || s.template;
+    if (t && t.siap) chip($("chip-template"), "ok", "Template siap");
+    else chip($("chip-template"), "galat", (t && t.pesan) || "Template belum siap");
+  };
+  fetch("/api/status").then((r) => r.json()).then((s) => { status = s; tampilStatus(s); }).catch(() => {
     chip($("chip-template"), "galat", "Status server tidak terbaca");
   });
 
@@ -222,6 +232,7 @@ pre code { padding: 0; background: none; }
     try {
       const fd = new FormData();
       fd.append("naskah", berkas, berkas.name);
+      fd.append("tema", $("tema").value);
       const r = await fetch("/api/unggah", { method: "POST", body: fd });
       if (!r.ok) {
         let pesan = `Gagal (${r.status}).`;

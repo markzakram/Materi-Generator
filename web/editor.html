@@ -58,6 +58,7 @@ legend { font-size: 12px; font-weight: 700; color: var(--redup); padding: 0 4px;
   <span class="chip tersembunyi" id="chip-draf">Draf</span>
   <span class="chip tersembunyi" id="chip-ubah">Belum disimpan</span>
   <div class="kanan">
+    <select id="tema" aria-label="Tampilan PPT"><option value="opsi-b">Opsi B</option><option value="general">General</option></select>
     <select id="status" aria-label="Status tinjauan"></select>
     <a class="tombol" id="sumber" target="_blank" rel="noopener">Dokumen ↗</a>
     <button class="tombol bahaya tersembunyi" id="buang" type="button">Buang draf</button>
@@ -122,7 +123,7 @@ legend { font-size: 12px; font-weight: 700; color: var(--redup); padding: 0 4px;
     $("besar").style.opacity = ".6";
     try {
       const r = await fetch(`/api/materi/${id}/pratinjau`, { method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ naskah, punya: Object.keys(gambar) }) });
+        body: JSON.stringify({ naskah, tema: $("tema").value, punya: Object.keys(gambar) }) });
       if (nomor !== nomorMinta) return;
       if (!r.ok) { pesanAtas("galat", "Pratinjau gagal: " + await galatDari(r)); return; }
       pesanAtas("", "");
@@ -329,7 +330,7 @@ legend { font-size: 12px; font-weight: 700; color: var(--redup); padding: 0 4px;
   $("unduh").addEventListener("click", async () => {
     const b = $("unduh"); b.disabled = true; b.textContent = "Membuat…";
     try {
-      const r = await fetch(`/api/materi/${id}/pptx`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ naskah }) });
+      const r = await fetch(`/api/materi/${id}/pptx`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ naskah, tema: $("tema").value }) });
       if (!r.ok) { toast(await galatDari(r)); return; }
       const blob = await r.blob(); const cd = r.headers.get("Content-Disposition") || "";
       const nm = /filename\*=UTF-8''([^;]+)/i.exec(cd) || /filename="?([^";]+)"?/i.exec(cd);
@@ -344,6 +345,9 @@ legend { font-size: 12px; font-weight: 700; color: var(--redup); padding: 0 4px;
     if (!r.ok) { toast(await galatDari(r)); $("status").value = info.status.status; return; }
     info.status = await r.json(); toast("Status disimpan");
   });
+
+  try { $("tema").value = localStorage.getItem("materi.tema") || "opsi-b"; } catch {}
+  $("tema").addEventListener("change", () => { try { localStorage.setItem("materi.tema", $("tema").value); } catch {} perbaruiPratinjau(); });
 
   async function mulai() {
     const r = await fetch(`/api/materi/${id}`);

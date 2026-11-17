@@ -9,6 +9,8 @@
 <style>
 .kepala { display: flex; gap: 16px; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; }
 .nama { width: 220px; }
+.pengaturan { display: flex; gap: 10px; flex-wrap: wrap; align-items: end; }
+.pengaturan select { width: 210px; }
 .ringkasan { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 14px; }
 .ringkasan button { border: 1px solid var(--garis); background: var(--kartu); border-radius: 12px; padding: 8px 14px;
   cursor: pointer; text-align: left; min-width: 120px; }
@@ -59,9 +61,14 @@ dialog .tombol-baris { display: flex; justify-content: flex-end; gap: 8px; }
       <h1>Dasbor tinjauan materi</h1>
       <p class="sub" id="sub">Memuat daftar materi…</p>
     </div>
-    <label class="isian nama">Nama Anda (untuk catatan perubahan)
-      <input type="text" id="nama" placeholder="mis. Rina – Tim Akademik" maxlength="60">
-    </label>
+    <div class="pengaturan">
+      <label class="isian nama">Nama Anda (untuk catatan perubahan)
+        <input type="text" id="nama" placeholder="mis. Rina – Tim Akademik" maxlength="60">
+      </label>
+      <label class="isian">Tampilan PPT
+        <select id="tema"><option value="opsi-b">Opsi B · Ceria &amp; Membulat</option><option value="general">General</option></select>
+      </label>
+    </div>
   </div>
   <div id="pesan"></div>
   <div class="ringkasan" id="ringkasan" role="group" aria-label="Saring menurut status"></div>
@@ -94,6 +101,8 @@ dialog .tombol-baris { display: flex; justify-content: flex-end; gap: 8px; }
   const simpanLokal = (k, v) => { try { localStorage.setItem(k, v); } catch {} };
   const bacaLokal = (k) => { try { return localStorage.getItem(k) || ""; } catch { return ""; } };
   $("nama").value = bacaLokal("materi.nama");
+  $("tema").value = bacaLokal("materi.tema") || "opsi-b";
+  $("tema").addEventListener("change", () => simpanLokal("materi.tema", $("tema").value));
   $("nama").addEventListener("change", () => simpanLokal("materi.nama", $("nama").value.trim()));
 
   function toast(t) { const el = $("toast"); el.textContent = t; el.classList.add("tampil"); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove("tampil"), 2600); }
@@ -144,7 +153,7 @@ dialog .tombol-baris { display: flex; justify-content: flex-end; gap: 8px; }
   async function unduh(m, tombol) {
     const asli = tombol.textContent; tombol.disabled = true; tombol.textContent = "Membuat…";
     try {
-      const r = await fetch(`/api/materi/${m.id}/pptx`);
+      const r = await fetch(`/api/materi/${m.id}/pptx?tema=${encodeURIComponent($("tema").value)}`);
       if (!r.ok) { toast(await galatDari(r)); return; }
       const blob = await r.blob();
       const cd = r.headers.get("Content-Disposition") || "";

@@ -14,12 +14,16 @@ Variabel lingkungan:
   MATERI_TANPA_SANDI    Isi 1 hanya jika akses sudah dilindungi Vercel Authentication.
   MATERI_TEMPLATE_URL   URL unduhan template Opsi B (.pptx). Wajib jika berkas template
                         tidak ada di akar proyek (selalu begitu di Vercel).
+  MATERI_TEMPLATE_GENERAL_URL
+                        URL unduhan 'Template Materi General.pptx' untuk tampilan General
+                        (opsional; tanpa ini pilihan General menampilkan pesan).
   MATERI_ASET_TOKEN     Token 'Authorization: Bearer ...' untuk URL template (opsional).
   KV_REST_API_URL/TOKEN Upstash Redis untuk draf dan status (diisi otomatis oleh integrasi
                         Upstash di Vercel). Tanpa ini, Vercel berjalan dalam mode baca saja.
 
 Jalankan lokal:
-  python app.py --template "path/ke/Template Referensi Opsi B - Ceria & Membulat.pptx"
+  python app.py --template "path/ke/Template Referensi Opsi B - Ceria & Membulat.pptx" \
+                --template-general "path/ke/Template Materi General.pptx"
 """
 from __future__ import annotations
 
@@ -58,7 +62,9 @@ BATAS_RESPONS = 4_400_000  # byte; Vercel menolak response di atas 4,5 MB
 CACHE = os.path.join(tempfile.gettempdir(), "materi-generator")
 KONTEN = os.path.join(AKAR, "konten")
 WEB = os.path.join(AKAR, "web")
-TEMPLATE_LOKAL = BM.TEMPLATE
+TEMPLATE_LOKAL = dict(BM.TEMPLATE_TEMA)  # tema -> path template lokal
+ENV_TEMPLATE = {"opsi-b": "MATERI_TEMPLATE_URL", "general": "MATERI_TEMPLATE_GENERAL_URL"}
+NAMA_TEMA = {"opsi-b": "Opsi B (Ceria & Membulat)", "general": "General"}
 CONTOH = os.path.join(KONTEN, "tiu_penalaran_logis.json")
 FONT_WEB = {
     "Poppins-Regular.ttf": os.path.join(D.ASET, "fonts", "Poppins-Regular.ttf"),
@@ -67,10 +73,15 @@ FONT_WEB = {
 STATUS = {"belum": "Belum ditinjau", "ditinjau": "Sedang ditinjau", "revisi": "Perlu revisi",
           "disetujui": "Disetujui"}
 _kunci_unduh = threading.Lock()
+_kunci_bangun = threading.Lock()  # tema disimpan sebagai keadaan modul desain: bangun satu per satu
 SIMPAN = penyimpanan.buka(os.path.join(AKAR, "data"))
 
 
 class AsetGagal(RuntimeError):
+    pass
+
+
+class TemaTidakDikenal(ValueError):
     pass
 
 
@@ -122,13 +133,16 @@ def _cek_pptx(path):
         raise ValueError("berkas hasil unduhan bukan PPTX (cek URL dan token)")
 
 
-def path_template():
-    if TEMPLATE_LOKAL and os.path.exists(TEMPLATE_LOKAL):
-        return TEMPLATE_LOKAL
-    url = os.environ.get("MATERI_TEMPLATE_URL", "").strip()
+def path_template(tema="opsi-b"):
+    lokal = TEMPLATE_LOKAL.get(tema)
+    if lokal and os.path.exists(lokal):
+        return lokal
+    env = ENV_TEMPLATE[tema]
+    url = os.environ.get(env, "").strip()
     if not url:
         raise BM.TemplateTidakAda(
-            f"Template belum diatur. Isi MATERI_TEMPLATE_URL dengan URL unduhan '{BM.NAMA_TEMPLATE}'.")
+            f"Template tampilan {NAMA_TEMA[tema]} belum diatur. Isi {env} dengan URL unduhan "
+            f"'{BM.NAMA_TEMPLATE_TEMA[tema]}'.")
     # nama cache mengikuti URL, sehingga URL baru otomatis diunduh ulang
     tujuan = os.path.join(CACHE, hashlib.sha256(url.encode()).hexdigest()[:16] + ".pptx")
     with _kunci_unduh:
@@ -136,7 +150,7 @@ def path_template():
             try:
                 _unduh(url, tujuan, _cek_pptx)
             except AsetGagal as e:
-                raise AsetGagal(f"Template gagal diunduh dari MATERI_TEMPLATE_URL: {e}") from e
+                raise AsetGagal(f"Template gagal diunduh dari {env}: {e}") from e
     return tujuan
 
 
@@ -217,11 +231,22 @@ def _nama_aman(nama):
     return nama or "materi"
 
 
-def _bangun(konten, folder=KONTEN):
-    """(prs, pembangun) atau lempar galat yang sudah berpesan."""
+def _tema():
+    """Tema dari ?tema= atau body JSON {"tema": ...}; bawaan opsi-b."""
+    data = request.get_json(silent=True) if request.is_json else None
+    tema = request.args.get("tema") or (data or {}).get("tema") or request.form.get("tema") or "opsi-b"
+    if tema not in BM.TEMA:
+        raise TemaTidakDikenal(f"Tema tidak dikenal: {tema} (pilihan: {', '.join(BM.TEMA)}).")
+    return tema
+
+
+def _bangun(konten, tema="opsi-b", folder=KONTEN):
+    """(prs, pembangun) atau lempar galat yang sudah berpesan. Deck dibangun satu per satu."""
     if not isinstance(konten, dict) or not isinstance(konten.get("meta"), dict):
         raise ValueError("Naskah harus objek JSON dengan bagian 'meta' (lihat contoh naskah).")
-    return BM.buat_deck(konten, path_template(), folder)
+    template = path_template(tema)
+    with _kunci_bangun:
+        return BM.buat_deck(konten, template, folder, tema)
 
 
 def _tangani(fungsi):
@@ -232,6 +257,8 @@ def _tangani(fungsi):
         return _galat(str(e), 503)
     except (AsetGagal, penyimpanan.PenyimpananGagal) as e:
         return _galat(str(e), 502)
+    except TemaTidakDikenal as e:
+        return _galat(str(e), 400)
     except KeyError as e:
         return _galat(f"Naskah tidak lengkap: kunci {e} tidak ditemukan.", 400)
     except (IndexError, TypeError, ValueError, AttributeError) as e:
@@ -241,16 +268,18 @@ def _tangani(fungsi):
         return _galat("Terjadi galat saat membuat deck. Cek log fungsi di Vercel.", 500)
 
 
-def _kirim_pptx(prs, b, konten):
+def _kirim_pptx(prs, b, konten, tema="opsi-b"):
     buf = io.BytesIO()
-    prs.save(buf)
+    with _kunci_bangun:
+        prs.save(buf)
     ukuran = buf.tell()
     if ukuran > BATAS_RESPONS:
         return _galat(f"Deck {ukuran / 1e6:.1f} MB melebihi batas unduhan Vercel 4,5 MB. "
                       "Perkecil gambar atau buat deck di komputer lokal.", 413)
     buf.seek(0)
     resp = send_file(
-        buf, as_attachment=True, download_name=_nama_aman(BM.nama_file(konten)) + ".pptx",
+        buf, as_attachment=True,
+        download_name=_nama_aman(BM.nama_file(konten)) + (" (General)" if tema == "general" else "") + ".pptx",
         mimetype="application/vnd.openxmlformats-officedocument.presentationml.presentation")
     resp.headers["X-Jumlah-Slide"] = str(len(b.slides))
     resp.headers["X-Peringatan"] = urllib.parse.quote(json.dumps(b.peringatan, ensure_ascii=False))
@@ -301,12 +330,14 @@ def media(berkas):
 # ----------------------------------------------------------------- API ---
 @app.get("/api/status")
 def status():
-    hasil = {"pdf": False, "penyimpanan": SIMPAN.jenis, "bisa_simpan": SIMPAN.bisa_tulis}
-    try:
-        path_template()
-        hasil["template"] = {"siap": True}
-    except (BM.TemplateTidakAda, AsetGagal) as e:
-        hasil["template"] = {"siap": False, "pesan": str(e)}
+    hasil = {"pdf": False, "penyimpanan": SIMPAN.jenis, "bisa_simpan": SIMPAN.bisa_tulis, "tema": {}}
+    for tema in BM.TEMA:
+        try:
+            path_template(tema)
+            hasil["tema"][tema] = {"nama": NAMA_TEMA[tema], "siap": True}
+        except (BM.TemplateTidakAda, AsetGagal) as e:
+            hasil["tema"][tema] = {"nama": NAMA_TEMA[tema], "siap": False, "pesan": str(e)}
+    hasil["template"] = hasil["tema"]["opsi-b"]
     return jsonify(hasil)
 
 
@@ -400,8 +431,9 @@ def pratinjau(id_materi):
 
     def kerja():
         konten = data.get("naskah") if isinstance(data.get("naskah"), dict) else naskah_aktif(id_materi)[0]
-        prs, b = _bangun(konten)
-        hasil = PR.dump_deck(prs, b.asal)
+        prs, b = _bangun(konten, _tema())
+        with _kunci_bangun:
+            hasil = PR.dump_deck(prs, b.asal)
         punya = set(data.get("punya") or [])
         hasil["gambar"] = {k: v for k, v in hasil["gambar"].items() if k not in punya}
         hasil["peringatan"] = b.peringatan
@@ -417,8 +449,9 @@ def pptx_materi(id_materi):
 
     def kerja():
         konten = data.get("naskah") if isinstance(data.get("naskah"), dict) else naskah_aktif(id_materi)[0]
-        prs, b = _bangun(konten)
-        return _kirim_pptx(prs, b, konten)
+        tema = _tema()
+        prs, b = _bangun(konten, tema)
+        return _kirim_pptx(prs, b, konten, tema)
 
     return _tangani(kerja)
 
@@ -451,8 +484,9 @@ def unggah():
         return _galat(str(e), 400)
 
     def kerja():
-        prs, b = _bangun(konten)
-        return _kirim_pptx(prs, b, konten)
+        tema = _tema()
+        prs, b = _bangun(konten, tema)
+        return _kirim_pptx(prs, b, konten, tema)
 
     return _tangani(kerja)
 
@@ -471,8 +505,9 @@ def terlalu_besar(_e):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Jalankan Materi Generator web secara lokal.")
-    ap.add_argument("--template", default=TEMPLATE_LOKAL)
+    ap.add_argument("--template", default=TEMPLATE_LOKAL["opsi-b"], help="Template Opsi B")
+    ap.add_argument("--template-general", default=TEMPLATE_LOKAL["general"], help="Template Materi General")
     ap.add_argument("--port", type=int, default=5000)
     a = ap.parse_args()
-    TEMPLATE_LOKAL = a.template
+    TEMPLATE_LOKAL.update({"opsi-b": a.template, "general": a.template_general})
     app.run(host="127.0.0.1", port=a.port)

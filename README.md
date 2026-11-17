@@ -1,6 +1,11 @@
 # Materi Generator
 
-Mengubah naskah materi (JSON) menjadi deck PPTX dan/atau PDF bergaya **Opsi B "Ceria & Membulat"** (navy `13215A`, kuning `FBBB2B`, 16 × 11,25 inci). Dokumen materi di Google Docs bisa dikonversi otomatis menjadi naskah, lalu ditinjau dan disunting tim akademik lewat dasbor web.
+Mengubah naskah materi (JSON) menjadi deck PPTX dan/atau PDF dengan dua pilihan tampilan (16 × 11,25 inci):
+
+- **Opsi B "Ceria & Membulat"** (bawaan): navy `13215A`, kuning `FBBB2B`, kartu putih membulat.
+- **General**: mengikuti `Template Materi General.pptx` (foto sampul, halaman berbingkai navy/kuning, gradien kuning dan navy-abu).
+
+Dokumen materi di Google Docs bisa dikonversi otomatis menjadi naskah, lalu ditinjau dan disunting tim akademik lewat dasbor web.
 
 ## Alur kerja
 
@@ -14,6 +19,12 @@ Mengubah naskah materi (JSON) menjadi deck PPTX dan/atau PDF bergaya **Opsi B "C
 python generator/buat_materi.py konten/tiu_penalaran_logis.json --format pptx
 python generator/buat_materi.py konten/tiu_penalaran_logis.json --format pdf
 python generator/buat_materi.py konten/tiu_penalaran_logis.json --format keduanya
+```
+
+Tambahkan `--tema general` untuk tampilan General (berkas hasil diberi akhiran " (General)"):
+
+```bash
+python generator/buat_materi.py konten/tiu_penalaran_logis.json --tema general
 ```
 
 Hasil masuk ke `output/`. Cek teks meluap dan render PNG per slide:
@@ -59,10 +70,12 @@ Catatan: tautan "05 Logika Pernyataan" di sheet (baris 39) kurang satu huruf seh
 
 Draf suntingan tidak mengubah berkas di repo. Unduhan memakai draf bila ada. Bila dua orang menyunting materi yang sama, penyimpanan kedua ditolak dengan pesan agar suntingan pertama tidak tertimpa.
 
+Pilihan **Tampilan PPT** (Opsi B atau General) ada di dasbor, editor, dan halaman unggah; pilihan disimpan di browser dan dipakai untuk pratinjau serta unduhan.
+
 Jalankan di komputer sendiri (draf dan status disimpan di `data/`, diabaikan git):
 
 ```bash
-python app.py --template "path/ke/Template Referensi Opsi B - Ceria & Membulat.pptx"
+python app.py --template "path/ke/Template Referensi Opsi B - Ceria & Membulat.pptx" --template-general "path/ke/Template Materi General.pptx"
 ```
 
 Lalu buka http://127.0.0.1:5000. Tanpa `--template`, aplikasi memakai template di akar proyek.
@@ -77,6 +90,7 @@ Lalu buka http://127.0.0.1:5000. Tanpa `--template`, aplikasi memakai template d
 | Variabel | Wajib | Isi |
 |---|---|---|
 | `MATERI_TEMPLATE_URL` | ya | URL unduhan `Template Referensi Opsi B - Ceria & Membulat.pptx` |
+| `MATERI_TEMPLATE_GENERAL_URL` | tidak | URL unduhan `Template Materi General.pptx`; tanpa ini pilihan General menampilkan pesan |
 | `MATERI_SANDI` | ya* | Sandi akses. Browser meminta nama pengguna (bebas) dan sandi ini |
 | `MATERI_ASET_TOKEN` | tidak | Dikirim sebagai `Authorization: Bearer <token>` saat mengunduh template |
 | `MATERI_TANPA_SANDI` | tidak | Isi `1` hanya jika akses sudah dilindungi **Vercel Authentication** (Settings › Deployment Protection › All Deployments) |
@@ -121,6 +135,17 @@ Ikon: `globe`, `strategi`, `grafik`, `checklist`, `roket`, `peringatan`, `presen
 - Palet Opsi B dan Poppins dimasukkan ke tema PowerPoint; Poppins regular dan bold tetap tertanam.
 - Generator menolak template dengan ukuran slide selain 16 × 11,25 inci agar tata letak tidak bergeser diam-diam.
 
+## Tampilan General
+
+`generator/tema_general.py` mengambil grafis langsung dari slide contoh `Template Materi General.pptx` saat deck dibuat, sehingga foto dan ilustrasi perusahaan tidak perlu disalin ke repo:
+
+- Sampul, Pendahuluan (bingkai navy), Tujuan, Penutup (bingkai kuning), dan Terima kasih disalin dari slide contohnya; teks contoh diganti isi naskah. Slide contoh dikenali dari teks besarnya (MATERI BESAR, PENDAHULUAN, TUJUAN PEMBELAJARAN, PENUTUP, TERIMA KASIH) dan slide isi bertabel, bukan dari nomor urutnya.
+- Slide isi memakai chip penanda dan hiasan samar (lingkaran kuning, gelombang garis) dari template; komponennya sama dengan Opsi B, dengan token warna General: kartu gradien kuning muda ke putih, kartu gelap gradien navy ke abu-abu, catatan kuning.
+- Navigasi digambar ulang mengikuti gaya template (pil bergaris navy, bagian aktif navy) agar bagian aktif benar dan tetap bisa diklik; di slide berbingkai warnanya putih.
+- Sampul memakai `meta.materi_besar` (bila ada) atau subtes sebagai teks besar, dan `meta.tutor` (opsional) untuk nama tutor.
+- Gambar template yang besar diperkecil saat deck dibuat (hiasan gelombang 3,3 MB menjadi ±0,2 MB) sehingga deck General sekitar 1,3–2,8 MB.
+- Deck latihan soal (`buat_latihan.py`) tetap memakai tampilan Opsi B.
+
 ## Font rumus di server
 
 Pengukur teks butuh lebar glyph Cambria Math untuk menebak pindah baris. Font ini milik Microsoft dan tidak ada di server Linux, jadi repo hanya menyimpan tabel lebarnya di `generator/assets/metrik_cambria_math.json`, bukan file fontnya. Hasil ukurnya sama dengan pengukuran langsung dari font. Tabel dibuat ulang (di Windows, butuh `fonttools`) dengan:
@@ -136,6 +161,7 @@ Berkas berikut milik Cerebrum dan sengaja dikecualikan lewat `.gitignore`. Salin
 | Berkas | Fungsi | Jika tidak ada |
 |---|---|---|
 | `Template Referensi Opsi B - Ceria & Membulat.pptx` (akar proyek) | Dasar master, tema, dan font tertanam. Ukuran slide wajib 16 × 11,25 inci | Generator berhenti dengan pesan; wajib ada |
+| `Template Materi General.pptx` (akar proyek) | Sumber grafis tampilan General | Hanya pilihan General yang tidak bisa dipakai |
 | `konten/latihan_*.json`, `konten/gambar/` | Soal dan pembahasan tryout hasil ekstraksi | Buat ulang dengan `ekstrak_soal.py` dari PDF sumber |
 | `output/`, `data/` | Hasil generate; draf dan status dasbor lokal | Dibuat otomatis |
 
