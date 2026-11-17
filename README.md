@@ -43,7 +43,7 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah halaman unduhan siap pakai: semua materi (15 materi TIU Verbal + Penalaran Logis) dalam dua tampilan, Opsi B dan General, masing-masing PPTX dan PDF, dengan gambar sampul. Pengunjung memilih tampilan lalu mengunduh; tidak ada server, sandi, atau generator yang berjalan.
+Folder `situs/` adalah halaman unduhan siap pakai: semua materi (15 materi TIU Verbal + Penalaran Logis) dalam dua tampilan, Opsi B dan General, masing-masing PPTX dan PDF, dengan gambar sampul. Pengunjung memasukkan sandi, memilih tampilan, lalu mengunduh; tidak ada server atau generator yang berjalan.
 
 Bangun ulang setelah naskah atau template berubah (Windows + PowerPoint, karena PDF dan sampul diekspor PowerPoint):
 
@@ -53,9 +53,9 @@ python generator/buat_situs.py --template-opsi-b "path/Template Referensi Opsi B
 
 Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 2 MB tanpa mengubah tampilan.
 
-Isi `situs/`: `index.html` (halaman), `data.js` (daftar materi dan ukuran berkas, dibuat skrip), `unduh/<tema>/` (PPTX dan PDF), `sampul/<tema>/` (gambar slide pertama), `font/` (Poppins).
+Isi `situs/`: `index.html` (halaman), `data.js` (daftar materi dan ukuran berkas, dibuat skrip), `unduh/<tema>/` (PPTX dan PDF), `sampul/<tema>/` (gambar slide pertama), `font/` (Poppins), `middleware.ts` (kunci sandi), `vercel.json`.
 
-Deploy di Vercel: arahkan proyek ke folder ini (Settings › Build and Deployment › Root Directory = `situs`, Framework Preset = Other, tanpa perintah build). Bisa memakai proyek yang sudah ada (aplikasi Flask tidak lagi dijalankan di proyek itu) atau proyek baru dari repo yang sama. Situs statis tidak memakai `MATERI_SANDI`: siapa pun yang tahu alamatnya bisa mengunduh, kecuali Deployment Protection (Vercel Authentication) diaktifkan.
+Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs`, Framework Preset = Other, tanpa perintah build. Isi satu env variable, `MATERI_SANDI`, dengan sandi akses. `middleware.ts` meminta sandi itu (kotak login bawaan browser, nama pengguna bebas) sebelum halaman atau berkas apa pun dibuka; tanpa `MATERI_SANDI` situs menjawab 503. Vercel Authentication di Settings › Deployment Protection boleh dimatikan karena aksesnya sudah dijaga sandi. Server lokal (`python -m http.server`) tidak memakai sandi.
 
 ## Impor dokumen Google Docs
 
