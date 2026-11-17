@@ -41,6 +41,22 @@ pip install -r requirements-lokal.txt
 
 `requirements.txt` hanya berisi paket untuk membuat PPTX dan aplikasi web (dipakai Vercel). `requirements-lokal.txt` menambahkan PyMuPDF (ekstraksi soal) dan pywin32 (ekspor PDF dan pemeriksaan lewat PowerPoint).
 
+## Situs unduhan statis (tanpa generator)
+
+Folder `situs/` adalah halaman unduhan siap pakai: semua materi (15 materi TIU Verbal + Penalaran Logis) dalam dua tampilan, Opsi B dan General, masing-masing PPTX dan PDF, dengan gambar sampul. Pengunjung memilih tampilan lalu mengunduh; tidak ada server, sandi, atau generator yang berjalan.
+
+Bangun ulang setelah naskah atau template berubah (Windows + PowerPoint, karena PDF dan sampul diekspor PowerPoint):
+
+```bash
+python generator/buat_situs.py --template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx" --template-general "path/Template Materi General.pptx"
+```
+
+Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 2 MB tanpa mengubah tampilan.
+
+Isi `situs/`: `index.html` (halaman), `data.js` (daftar materi dan ukuran berkas, dibuat skrip), `unduh/<tema>/` (PPTX dan PDF), `sampul/<tema>/` (gambar slide pertama), `font/` (Poppins).
+
+Deploy di Vercel: arahkan proyek ke folder ini (Settings › Build and Deployment › Root Directory = `situs`, Framework Preset = Other, tanpa perintah build). Bisa memakai proyek yang sudah ada (aplikasi Flask tidak lagi dijalankan di proyek itu) atau proyek baru dari repo yang sama. Situs statis tidak memakai `MATERI_SANDI`: siapa pun yang tahu alamatnya bisa mengunduh, kecuali Deployment Protection (Vercel Authentication) diaktifkan.
+
 ## Impor dokumen Google Docs
 
 `konten/katalog.json` mendaftar 15 dokumen di kolom D sheet "Kerangka Course" (Mapping SKD 2027): kelompok, bab, baris sheet, dan ID dokumen. Untuk membuat ulang naskah setelah dokumen diperbarui:
