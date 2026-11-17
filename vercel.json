@@ -3,7 +3,7 @@
   "functions": {
     "app.py": {
       "maxDuration": 60,
-      "excludeFiles": "{output/**,situs/**,data/**,konten/gambar/**,konten/latihan_*.json,generator/ekstrak_soal.py,generator/ekstrak_gdoc.py,generator/impor_katalog.py,generator/periksa.py,generator/buat_metrik_rumus.py,generator/buat_ikon.py,generator/label_rumus.json,generator/assets/*.svg,README.md}"
+      "excludeFiles": "{situs/**,output/**,data/**,konten/gambar/**,konten/latihan_*.json}"
     }
   }
 }
