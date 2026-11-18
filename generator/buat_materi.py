@@ -217,15 +217,24 @@ class Pembangun:
         w = (D.LEBAR_ISI - celah * (n - 1)) / n
         inset = (0.3, 0.35, 0.3, 0.35)
         aktif = p.get("aktif", 0)
+        # General: isi kartu sedikit lebih besar dan kartu di tengah ruang judul-navigasi,
+        # supaya bagian bawah slide tidak kosong.
+        if self.general:
+            u_nomor, u_judul, u_desk, d_ikon = (50 if n > 5 else 58), 20, 16, 0.85
+        else:
+            u_nomor, u_judul, u_desk, d_ikon = (44 if n > 5 else 54), 17, 14, 0.7
         isi = []
         for i, k in enumerate(kartu):
             gelap = i == aktif
-            isi.append([P(f"{i + 1:02d}", 44 if n > 5 else 54, "kuning" if gelap else "navy", tebal=True,
+            isi.append([P(f"{i + 1:02d}", u_nomor, "kuning" if gelap else "navy", tebal=True,
                           spasi=1.0, setelah=14),
-                        P(k["judul"], 17, "putih" if gelap else "navy", tebal=True, spasi=1.2, setelah=6),
-                        P(k["deskripsi"], 14, "redup" if gelap else "teks", spasi=1.35)])
-        d_ikon = 0.7
+                        P(k["judul"], u_judul, "putih" if gelap else "navy", tebal=True, spasi=1.2, setelah=6),
+                        P(k["deskripsi"], u_desk, "redup" if gelap else "teks", spasi=1.35)])
         h = max(5.6, max(D.tinggi_paragraf(par, w, inset) for par in isi) + d_ikon + 0.35)
+        if self.general:
+            ruang = D.BATAS_BAWAH - 0.15 - y
+            h = min(max(h, 6.0), ruang)
+            y += (ruang - h) / 2
         for i, (k, par) in enumerate(zip(kartu, isi)):
             x = D.KIRI + i * (w + celah)
             D.kotak(s, x, y, w, h, warna="kartu_gelap" if i == aktif else "kartu", radius=D.RADIUS,

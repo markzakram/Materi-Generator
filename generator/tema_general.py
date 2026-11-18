@@ -25,6 +25,9 @@ R_NS = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
 EMU = 914400
 NAVBAR = (2.22, 10.04, 11.56, 0.65)  # x, y, w, h seperti di template
 BATAS_HALAMAN = 9.3  # bawah halaman putih pada slide berbingkai
+Y_DASAR_BAB = 5.5  # garis bawah teks materi besar di sampul (template: 4,17 + 1,37)
+WARNA_BAB = "navy"
+WARNA_JUDUL = "C68700"  # kuning tua: kontras ~3:1 di latar putih (kuning FBBB2B hanya 1,7:1)
 
 
 class TemplateGeneralTidakCocok(ValueError):
@@ -297,18 +300,26 @@ class TemaGeneral:
     # ----------------------------------------------------- slide khusus
     def sampul(self, slide, besar, judul, tutor=None):
         self.salin_slide("sampul", slide, lambda el: el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
-        lebar = 7.2
-        ukuran = 70
-        while D.lebar_pt(besar, ukuran, True) / 72 > lebar and ukuran > 32:
+        # Seperti template: materi besar (bab) jauh lebih besar dari judul materi (subbab).
+        # Area putih aman selebar 7,2 in (sebelum lengkung navy); bab boleh dua baris agar tetap besar.
+        x, lebar = 2.58, 7.2
+
+        def muat(teks, ukuran, maks_baris):
+            kata = max(D.lebar_pt(k, ukuran, True) for k in teks.split()) / 72
+            return kata <= lebar * 0.95 and D.jumlah_baris(D.segmen(teks, tebal=True), ukuran, lebar) <= maks_baris
+
+        ukuran = 64
+        while not muat(besar, ukuran, 2) and ukuran > 36:
             ukuran -= 2
-        D.teks(slide, 2.58, 4.17, lebar + 0.3, 1.3, [P(besar, ukuran, "000000", tebal=True, spasi=1.0)],
-               jangkar="b", nama="Materi besar")
-        segs = D.segmen(judul, tebal=True)
-        ukuran = 46
-        while D.jumlah_baris(segs, ukuran, lebar) > 3 and ukuran > 26:
-            ukuran -= 2
-        h = D.jumlah_baris(segs, ukuran, lebar) * ukuran * 1.1 / 72 + 0.1
-        D.teks(slide, 2.58, 5.6, lebar + 0.3, h, [P(judul, ukuran, "000000", tebal=True, spasi=1.1)], nama="Judul sampul")
+        h = D.jumlah_baris(D.segmen(besar, tebal=True), ukuran, lebar) * ukuran / 72 + 0.12
+        D.teks(slide, x, Y_DASAR_BAB - h, lebar, h,
+               [P(besar, ukuran, WARNA_BAB, tebal=True, spasi=1.0)], jangkar="b", nama="Materi besar")
+        u_judul = min(40, int(ukuran * 0.68))
+        while not muat(judul, u_judul, 2) and u_judul > 24:
+            u_judul -= 2
+        h = D.jumlah_baris(D.segmen(judul, tebal=True), u_judul, lebar) * u_judul * 1.15 / 72 + 0.12
+        D.teks(slide, x, Y_DASAR_BAB + 0.12, lebar, h,
+               [P(judul, u_judul, WARNA_JUDUL, tebal=True, spasi=1.1)], nama="Judul sampul")
         if tutor:
             D.teks(slide, 6.07, 9.34, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
                    jangkar="m", nama="Nama tutor")

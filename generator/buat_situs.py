@@ -86,8 +86,11 @@ def main(argv=None):
     ap.add_argument("--template-general", default=BM.TEMPLATE_TEMA["general"])
     ap.add_argument("--keluar", default=os.path.join(AKAR, "situs"))
     ap.add_argument("--tanpa-pdf", action="store_true", help="Lewati PDF dan sampul (tanpa PowerPoint)")
+    ap.add_argument("--tema", nargs="+", choices=list(NAMA_TEMA), default=list(NAMA_TEMA),
+                    help="Tampilan yang disediakan di situs (bawaan: semua)")
     a = ap.parse_args(argv)
-    template = {"opsi-b": a.template_opsi_b, "general": a.template_general}
+    semua = {"opsi-b": a.template_opsi_b, "general": a.template_general}
+    template = {t: semua[t] for t in NAMA_TEMA if t in a.tema}
 
     with open(os.path.join(KONTEN, "katalog.json"), encoding="utf-8") as f:
         katalog = json.load(f)

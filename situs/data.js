@@ -2,7 +2,7 @@
 window.MATERI = {
  "judul": "Materi TIU Verbal",
  "sumber_sheet": "https://docs.google.com/spreadsheets/d/15jTS2ZGdtgVIIvQgOSfffBFq1G2yjZdl4iHD4B877A4/edit#gid=442022191",
- "dibuat": "2026-11-17",
+ "dibuat": "2026-11-18",
  "tema": [
   {
    "id": "opsi-b",
@@ -28,7 +28,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-verbal-analogi.pdf",
      "sampul": "sampul/opsi-b/tiu-verbal-analogi.jpg",
      "ukuran_pptx": 357582,
-     "ukuran_pdf": 512747
+     "ukuran_pdf": 512744
     },
     "general": {
      "slide": 21,
@@ -36,8 +36,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-verbal-analogi.pptx",
      "pdf": "unduh/general/tiu-verbal-analogi.pdf",
      "sampul": "sampul/general/tiu-verbal-analogi.jpg",
-     "ukuran_pptx": 1254455,
-     "ukuran_pdf": 2125753
+     "ukuran_pptx": 1254468,
+     "ukuran_pdf": 2132348
     }
    }
   },
@@ -55,7 +55,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-va02-contoh-soal-2-kata.pdf",
      "sampul": "sampul/opsi-b/tiu-va02-contoh-soal-2-kata.jpg",
      "ukuran_pptx": 388989,
-     "ukuran_pdf": 736725
+     "ukuran_pdf": 736715
     },
     "general": {
      "slide": 40,
@@ -63,8 +63,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-va02-contoh-soal-2-kata.pptx",
      "pdf": "unduh/general/tiu-va02-contoh-soal-2-kata.pdf",
      "sampul": "sampul/general/tiu-va02-contoh-soal-2-kata.jpg",
-     "ukuran_pptx": 1324542,
-     "ukuran_pdf": 2381621
+     "ukuran_pptx": 1324555,
+     "ukuran_pdf": 2388232
     }
    }
   },
@@ -82,7 +82,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vs01-operator-logika.pdf",
      "sampul": "sampul/opsi-b/tiu-vs01-operator-logika.jpg",
      "ukuran_pptx": 418565,
-     "ukuran_pdf": 485559
+     "ukuran_pdf": 491231
     },
     "general": {
      "slide": 15,
@@ -90,8 +90,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs01-operator-logika.pptx",
      "pdf": "unduh/general/tiu-vs01-operator-logika.pdf",
      "sampul": "sampul/general/tiu-vs01-operator-logika.jpg",
-     "ukuran_pptx": 1323736,
-     "ukuran_pdf": 2101842
+     "ukuran_pptx": 1323745,
+     "ukuran_pdf": 2108408
     }
    }
   },
@@ -109,7 +109,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vs02-logika-kondisional.pdf",
      "sampul": "sampul/opsi-b/tiu-vs02-logika-kondisional.jpg",
      "ukuran_pptx": 437942,
-     "ukuran_pdf": 605305
+     "ukuran_pdf": 599619
     },
     "general": {
      "slide": 23,
@@ -117,8 +117,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs02-logika-kondisional.pptx",
      "pdf": "unduh/general/tiu-vs02-logika-kondisional.pdf",
      "sampul": "sampul/general/tiu-vs02-logika-kondisional.jpg",
-     "ukuran_pptx": 1352614,
-     "ukuran_pdf": 2217283
+     "ukuran_pptx": 1352621,
+     "ukuran_pdf": 2223846
     }
    }
   },
@@ -136,7 +136,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vs03-ekuivalensi-logika.pdf",
      "sampul": "sampul/opsi-b/tiu-vs03-ekuivalensi-logika.jpg",
      "ukuran_pptx": 343159,
-     "ukuran_pdf": 514782
+     "ukuran_pdf": 517237
     },
     "general": {
      "slide": 23,
@@ -144,8 +144,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs03-ekuivalensi-logika.pptx",
      "pdf": "unduh/general/tiu-vs03-ekuivalensi-logika.pdf",
      "sampul": "sampul/general/tiu-vs03-ekuivalensi-logika.jpg",
-     "ukuran_pptx": 1258276,
-     "ukuran_pdf": 2138884
+     "ukuran_pptx": 1258286,
+     "ukuran_pdf": 2145454
     }
    }
   },
@@ -163,7 +163,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vs04-logika-kuantor.pdf",
      "sampul": "sampul/opsi-b/tiu-vs04-logika-kuantor.jpg",
      "ukuran_pptx": 1839576,
-     "ukuran_pdf": 993771
+     "ukuran_pdf": 1002790
     },
     "general": {
      "slide": 40,
@@ -171,8 +171,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs04-logika-kuantor.pptx",
      "pdf": "unduh/general/tiu-vs04-logika-kuantor.pdf",
      "sampul": "sampul/general/tiu-vs04-logika-kuantor.jpg",
-     "ukuran_pptx": 2774458,
-     "ukuran_pdf": 2633730
+     "ukuran_pptx": 2774467,
+     "ukuran_pdf": 2640322
     }
    }
   },
@@ -190,7 +190,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vs05-3-premis.pdf",
      "sampul": "sampul/opsi-b/tiu-vs05-3-premis.jpg",
      "ukuran_pptx": 526584,
-     "ukuran_pdf": 671114
+     "ukuran_pdf": 671129
     },
     "general": {
      "slide": 26,
@@ -198,8 +198,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs05-3-premis.pptx",
      "pdf": "unduh/general/tiu-vs05-3-premis.pdf",
      "sampul": "sampul/general/tiu-vs05-3-premis.jpg",
-     "ukuran_pptx": 1445069,
-     "ukuran_pdf": 2288590
+     "ukuran_pptx": 1445079,
+     "ukuran_pdf": 2295174
     }
    }
   },
@@ -217,7 +217,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vs06-bentuk-narasi.pdf",
      "sampul": "sampul/opsi-b/tiu-vs06-bentuk-narasi.jpg",
      "ukuran_pptx": 406276,
-     "ukuran_pdf": 714811
+     "ukuran_pdf": 720511
     },
     "general": {
      "slide": 39,
@@ -225,8 +225,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs06-bentuk-narasi.pptx",
      "pdf": "unduh/general/tiu-vs06-bentuk-narasi.pdf",
      "sampul": "sampul/general/tiu-vs06-bentuk-narasi.jpg",
-     "ukuran_pptx": 1336735,
-     "ukuran_pdf": 2340075
+     "ukuran_pptx": 1336742,
+     "ukuran_pdf": 2346647
     }
    }
   },
@@ -244,7 +244,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vn01-susunan-posisi.pdf",
      "sampul": "sampul/opsi-b/tiu-vn01-susunan-posisi.jpg",
      "ukuran_pptx": 650104,
-     "ukuran_pdf": 811327
+     "ukuran_pdf": 817021
     },
     "general": {
      "slide": 29,
@@ -252,8 +252,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn01-susunan-posisi.pptx",
      "pdf": "unduh/general/tiu-vn01-susunan-posisi.pdf",
      "sampul": "sampul/general/tiu-vn01-susunan-posisi.jpg",
-     "ukuran_pptx": 1568674,
-     "ukuran_pdf": 2445248
+     "ukuran_pptx": 1568685,
+     "ukuran_pdf": 2451848
     }
    }
   },
@@ -271,7 +271,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vn02-urutan-peringkat.pdf",
      "sampul": "sampul/opsi-b/tiu-vn02-urutan-peringkat.jpg",
      "ukuran_pptx": 433779,
-     "ukuran_pdf": 529492
+     "ukuran_pdf": 531838
     },
     "general": {
      "slide": 19,
@@ -279,8 +279,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn02-urutan-peringkat.pptx",
      "pdf": "unduh/general/tiu-vn02-urutan-peringkat.pdf",
      "sampul": "sampul/general/tiu-vn02-urutan-peringkat.jpg",
-     "ukuran_pptx": 1344269,
-     "ukuran_pdf": 2156665
+     "ukuran_pptx": 1344279,
+     "ukuran_pdf": 2163234
     }
    }
   },
@@ -298,7 +298,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vn03-jadwal.pdf",
      "sampul": "sampul/opsi-b/tiu-vn03-jadwal.jpg",
      "ukuran_pptx": 448148,
-     "ukuran_pdf": 538906
+     "ukuran_pdf": 544435
     },
     "general": {
      "slide": 18,
@@ -306,8 +306,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn03-jadwal.pptx",
      "pdf": "unduh/general/tiu-vn03-jadwal.pdf",
      "sampul": "sampul/general/tiu-vn03-jadwal.jpg",
-     "ukuran_pptx": 1357356,
-     "ukuran_pdf": 2157938
+     "ukuran_pptx": 1357367,
+     "ukuran_pdf": 2164533
     }
    }
   },
@@ -325,7 +325,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vn04-rute-jalur.pdf",
      "sampul": "sampul/opsi-b/tiu-vn04-rute-jalur.jpg",
      "ukuran_pptx": 586093,
-     "ukuran_pdf": 741763
+     "ukuran_pdf": 747430
     },
     "general": {
      "slide": 28,
@@ -333,8 +333,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn04-rute-jalur.pptx",
      "pdf": "unduh/general/tiu-vn04-rute-jalur.pdf",
      "sampul": "sampul/general/tiu-vn04-rute-jalur.jpg",
-     "ukuran_pptx": 1507877,
-     "ukuran_pdf": 2374502
+     "ukuran_pptx": 1507888,
+     "ukuran_pdf": 2381089
     }
    }
   },
@@ -352,7 +352,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vn05-logika-pernyataan.pdf",
      "sampul": "sampul/opsi-b/tiu-vn05-logika-pernyataan.jpg",
      "ukuran_pptx": 392714,
-     "ukuran_pdf": 513473
+     "ukuran_pdf": 507780
     },
     "general": {
      "slide": 18,
@@ -360,8 +360,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn05-logika-pernyataan.pptx",
      "pdf": "unduh/general/tiu-vn05-logika-pernyataan.pdf",
      "sampul": "sampul/general/tiu-vn05-logika-pernyataan.jpg",
-     "ukuran_pptx": 1302007,
-     "ukuran_pdf": 2131074
+     "ukuran_pptx": 1302018,
+     "ukuran_pdf": 2137678
     }
    }
   },
@@ -379,7 +379,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-vn06-distribusi-kategori.pdf",
      "sampul": "sampul/opsi-b/tiu-vn06-distribusi-kategori.jpg",
      "ukuran_pptx": 393669,
-     "ukuran_pdf": 516192
+     "ukuran_pdf": 516191
     },
     "general": {
      "slide": 18,
@@ -387,8 +387,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn06-distribusi-kategori.pptx",
      "pdf": "unduh/general/tiu-vn06-distribusi-kategori.pdf",
      "sampul": "sampul/general/tiu-vn06-distribusi-kategori.jpg",
-     "ukuran_pptx": 1302811,
-     "ukuran_pdf": 2130527
+     "ukuran_pptx": 1302821,
+     "ukuran_pdf": 2137123
     }
    }
   },
@@ -414,8 +414,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn07-argumen.pptx",
      "pdf": "unduh/general/tiu-vn07-argumen.pdf",
      "sampul": "sampul/general/tiu-vn07-argumen.jpg",
-     "ukuran_pptx": 1269623,
-     "ukuran_pdf": 2145842
+     "ukuran_pptx": 1269632,
+     "ukuran_pdf": 2152392
     }
    }
   },
@@ -433,7 +433,7 @@ window.MATERI = {
      "pdf": "unduh/opsi-b/tiu-penalaran-logis.pdf",
      "sampul": "sampul/opsi-b/tiu-penalaran-logis.jpg",
      "ukuran_pptx": 432589,
-     "ukuran_pdf": 550998
+     "ukuran_pdf": 550999
     },
     "general": {
      "slide": 18,
@@ -441,8 +441,8 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-penalaran-logis.pptx",
      "pdf": "unduh/general/tiu-penalaran-logis.pdf",
      "sampul": "sampul/general/tiu-penalaran-logis.jpg",
-     "ukuran_pptx": 1290985,
-     "ukuran_pdf": 2172127
+     "ukuran_pptx": 1290998,
+     "ukuran_pdf": 2178670
     }
    }
   }
