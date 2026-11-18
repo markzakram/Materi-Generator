@@ -25,6 +25,7 @@
   --aksen: #FBBB2B; --aksen-teks: #13215A; --pdf-bg: transparent; --pdf-teks: #FBBB2B;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--teks); font: 400 14px/1.55 "Poppins", system-ui, sans-serif; }
 a { color: inherit; }
@@ -80,7 +81,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
 <header class="atas"><div class="atas-isi">
   <div class="merek"><i aria-hidden="true"></i>Cerebrum · Materi SKD</div>
   <h1 id="judul">Materi TIU Verbal</h1>
-  <p id="ringkas">Pilih tampilan, lalu unduh materi dalam PPTX atau PDF.</p>
+  <p id="ringkas">Unduh materi dalam PPTX atau PDF.</p>
 </div></header>
 <main>
   <div class="alat">
@@ -108,7 +109,11 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
   let tema = D.tema.some((t) => t.id === baca("situs.tema")) ? baca("situs.tema") : D.tema[0].id;
   let kelompok = "";
   $("judul").textContent = D.judul;
-  $("ringkas").textContent = `${D.materi.length} materi dalam ${D.tema.length} pilihan tampilan. Pilih tampilan, lalu unduh PPTX atau PDF.`;
+  const satuTema = D.tema.length < 2;
+  $("ringkas").textContent = satuTema
+    ? `${D.materi.length} materi, siap diunduh dalam PPTX atau PDF.`
+    : `${D.materi.length} materi dalam ${D.tema.length} pilihan tampilan. Pilih tampilan, lalu unduh PPTX atau PDF.`;
+  if (satuTema) { $("label-tema").hidden = true; $("pilih-tema").hidden = true; }
   const tgl = new Date(D.dibuat + "T00:00:00").toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" });
   $("kaki").textContent = `Diperbarui ${tgl}. © PT Cerebrum Edukanesia Nusantara.`;
 
@@ -158,7 +163,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
         const t = m.tema[tema];
         const kartu = document.createElement("article"); kartu.className = "kartu";
         const img = document.createElement("img");
-        img.className = "sampul"; img.loading = "lazy"; img.alt = `Sampul ${m.judul} (${tema === "general" ? "General" : "Opsi B"})`;
+        img.className = "sampul"; img.loading = "lazy"; img.alt = `Sampul ${m.judul}`;
         img.src = t.sampul;
         img.onerror = () => { img.removeAttribute("src"); };
         const isiKartu = document.createElement("div"); isiKartu.className = "isi";

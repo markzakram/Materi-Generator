@@ -1,10 +1,12 @@
-"""Bangun situs unduhan statis: semua materi dalam dua tampilan (Opsi B dan General), PPTX + PDF.
+"""Bangun situs unduhan statis: semua materi dalam tampilan General (opsional juga Opsi B), PPTX + PDF.
 
 Situs di folder situs/ tidak butuh server atau generator: cukup index.html, data.js, dan
 berkas unduhan. Butuh Windows + Microsoft PowerPoint untuk PDF dan gambar sampul.
 
-    python generator/buat_situs.py --template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx" \
-        --template-general "path/Template Materi General.pptx"
+    python generator/buat_situs.py --template-general "path/Template Materi General.pptx"
+
+Tambahkan --tema general opsi-b --template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"
+untuk menyediakan dua tampilan sekaligus.
 """
 from __future__ import annotations
 
@@ -86,8 +88,8 @@ def main(argv=None):
     ap.add_argument("--template-general", default=BM.TEMPLATE_TEMA["general"])
     ap.add_argument("--keluar", default=os.path.join(AKAR, "situs"))
     ap.add_argument("--tanpa-pdf", action="store_true", help="Lewati PDF dan sampul (tanpa PowerPoint)")
-    ap.add_argument("--tema", nargs="+", choices=list(NAMA_TEMA), default=list(NAMA_TEMA),
-                    help="Tampilan yang disediakan di situs (bawaan: semua)")
+    ap.add_argument("--tema", nargs="+", choices=list(NAMA_TEMA), default=["general"],
+                    help="Tampilan yang disediakan di situs (bawaan: general; tambah opsi-b bila perlu)")
     a = ap.parse_args(argv)
     semua = {"opsi-b": a.template_opsi_b, "general": a.template_general}
     template = {t: semua[t] for t in NAMA_TEMA if t in a.tema}

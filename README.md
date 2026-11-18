@@ -43,13 +43,15 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah halaman unduhan siap pakai: semua materi (15 materi TIU Verbal + Penalaran Logis) dalam dua tampilan, Opsi B dan General, masing-masing PPTX dan PDF, dengan gambar sampul. Pengunjung memasukkan sandi, memilih tampilan, lalu mengunduh; tidak ada server atau generator yang berjalan.
+Folder `situs/` adalah halaman unduhan siap pakai: semua materi (15 materi TIU Verbal + Penalaran Logis) dalam tampilan General, masing-masing PPTX dan PDF, dengan gambar sampul. Pengunjung memasukkan sandi lalu mengunduh; tidak ada server atau generator yang berjalan.
 
 Bangun ulang setelah naskah atau template berubah (Windows + PowerPoint, karena PDF dan sampul diekspor PowerPoint):
 
 ```bash
-python generator/buat_situs.py --template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx" --template-general "path/Template Materi General.pptx"
+python generator/buat_situs.py --template-general "path/Template Materi General.pptx"
 ```
+
+Untuk menyediakan Opsi B juga (pengunjung lalu bisa memilih tampilan), tambahkan `--tema general opsi-b --template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`.
 
 Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 2 MB tanpa mengubah tampilan.
 
