@@ -1,0 +1,825 @@
+{
+  "meta": {
+    "judul": "Lembaga Penjaminan",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Lembaga Penjaminan",
+    "sumber": "https://docs.google.com/document/d/1vVXxQRLgSa2dgB3m3eLvqRJjpz-eTN2I/edit",
+    "id_katalog": "sjk-07"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dina mendapat pesanan rotan dan perlu membeli bahan sebelum pelanggan membayar. Ia mengajukan kredit ke bank. Jika kredit itu dijamin dan Dina kemudian gagal membayar, siapa yang meminta pembayaran kepada penjamin? Untuk menjawabnya, kenali dulu tiga pihak dan kewajiban masing-masing."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Setelah",
+        "teks": "mempelajari materi ini, peserta dapat melakukan tiga hal berikut."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "terjamin, penerima jaminan, dan penjamin dalam sebuah kasus."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "alur penjaminan dari pemberian kredit sampai pengajuan klaim."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "apa yang terjadi pada hak tagih setelah klaim dibayar."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Lembaga Penjaminan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Lembaga Penjaminan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengenal peran OJK, Bank Indonesia, dan Lembaga Penjamin Simpanan, baca Pengantar Bersama di dokumen Perbankan dan Pembiayaan – Fintech."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Istilah Dasar"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Arti dalam Materi"
+              ],
+              "baris": [
+                [
+                  "UMKM",
+                  "Usaha mikro, kecil, dan menengah."
+                ],
+                [
+                  "Debitur",
+                  "Pihak yang menerima kredit dan wajib membayar sesuai perjanjian."
+                ],
+                [
+                  "Terjamin",
+                  "Pihak yang kewajibannya dijamin."
+                ],
+                [
+                  "Penerima jaminan",
+                  "Pihak yang menerima perlindungan atas kewajiban terjamin."
+                ],
+                [
+                  "Penjamin",
+                  "Lembaga yang memberikan jaminan sesuai perjanjian."
+                ],
+                [
+                  "Hak tagih",
+                  "Hak untuk meminta pembayaran kewajiban."
+                ],
+                [
+                  "Klaim",
+                  "Permintaan pembayaran dari penerima jaminan atas kewajiban yang dijamin."
+                ],
+                [
+                  "Subrogasi",
+                  "Peralihan hak tagih kepada perusahaan penjaminan sejak klaim dibayar."
+                ],
+                [
+                  "Imbal Jasa Penjaminan (IJP)",
+                  "Imbalan atas jasa penjaminan. Pihak yang membayar mengikuti skema."
+                ],
+                [
+                  "LPS",
+                  "Lembaga Penjamin Simpanan. Salah satu fungsinya menjamin simpanan nasabah bank sesuai ketentuan."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kenali dulu siapa yang berutang, siapa yang memberi kredit, dan siapa yang memberi jaminan. Ikuti ketiga pihak itu saat klaim diajukan, dibayar, dan ditagih kembali."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengapa Penjaminan Dibutuhkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjaminan menjembatani kebutuhan pelaku usaha untuk memperoleh kredit dan kebutuhan bank untuk mengelola risiko. Untuk mengenali bentuk perlindungannya, mulai dari perjanjian kredit dan peran masing-masing pihak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank memberi kredit kepada Dina. Dina wajib membayar kembali sesuai perjanjian kredit. Penjamin memberi jaminan kepada bank atas bagian kewajiban Dina yang tercakup dalam penjaminan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tiga Pihak dalam Penjaminan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dina membutuhkan modal untuk membeli bahan baku rotan. Bank memberi kredit dan Dina wajib mengembalikannya sesuai perjanjian. Perusahaan penjaminan memberi perlindungan kepada bank atas bagian kewajiban Dina yang dijamin. Dari hubungan ini, kita bisa mengenali tiga pihak utama dalam penjaminan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pihak",
+                "Peran dalam kasus Dina"
+              ],
+              "baris": [
+                [
+                  "Terjamin",
+                  "Dina menerima kredit dan berkewajiban membayarnya. Kewajiban pembayaran inilah yang dijamin sesuai perjanjian."
+                ],
+                [
+                  "Penerima jaminan",
+                  "Bank menyalurkan kredit dan menerima perlindungan atas bagian kewajiban yang dijamin. Jika syarat klaim terpenuhi, bank dapat mengajukan klaim kepada penjamin."
+                ],
+                [
+                  "Penjamin",
+                  "Perusahaan penjaminan memberikan jaminan, memeriksa pengajuan klaim, dan membayar klaim yang disetujui sesuai cakupan penjaminan."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di belakang hubungan itu, perusahaan penjaminan dapat menggunakan penjaminan ulang. Perusahaan penjaminan ulang membantu menanggung kembali sebagian risiko yang sudah diterima penjamin, sesuai perjanjian penjaminan ulang. Dalam kasus Dina, bank tetap mengajukan klaim kepada perusahaan penjaminan. Jika ada penjaminan ulang, perusahaan penjaminan menangani hubungan tersebut dengan perusahaan penjaminan ulang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK memberikan izin usaha kepada lembaga penjamin serta mengatur dan mengawasi kegiatan usahanya. Dalam kasus Dina, keputusan atas pengajuan klaim ditangani perusahaan penjaminan sesuai ketentuan. Peran OJK berada pada perizinan, pengaturan, dan pengawasan industri."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan dengan Perjanjian Pokok"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjaminan melekat pada kewajiban dalam perjanjian pokok. Pada penjaminan kredit, perjanjian pokoknya adalah perjanjian kredit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Istilah aksesoir berarti perjanjian penjaminan mengikuti kewajiban pokok yang dijamin. Karena itu, identifikasi dulu kredit atau transaksi yang menimbulkan kewajiban. Lalu baca sertifikat dan perjanjian penjaminan untuk mengetahui nilai, cakupan, dan syarat klaim."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Dasar Hukum"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "UU Nomor 1 Tahun 2016 tentang Penjaminan telah diubah melalui UU Nomor 4 Tahun 2023. POJK 10 Tahun 2025 mengubah ketentuan perizinan dan kelembagaan. POJK 11 Tahun 2025 mengatur penyelenggaraan usaha lembaga penjamin."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis Lembaga Penjamin dan Izin Usaha"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan Penjaminan dan Perusahaan Penjaminan Syariah memberi jaminan atas kewajiban terjamin. Perusahaan Penjaminan Ulang dan Perusahaan Penjaminan Ulang Syariah menjamin kembali risiko yang telah ditanggung perusahaan penjamin. Lembaga penjamin memperoleh izin usaha dari OJK sesuai POJK 1/POJK.05/2017 sebagaimana diubah dengan POJK 10 Tahun 2025."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjaminan dan Asuransi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada penjaminan kredit, bank menerima perlindungan atas kewajiban debitur yang dijamin. Pada asuransi kendaraan, perusahaan asuransi mengganti kerugian atas risiko yang dicakup polis. Mulailah dengan mengenali kewajiban atau risiko yang dilindungi, lalu cari pihak yang berhak menerima pembayaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alur Penjaminan, Klaim, dan Hak Tagih"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menilai pengajuan kredit. Pemberian kredit dan penjaminannya mengikuti prosedur skema. Setelah penjaminan terbit, periksa kewajiban yang dijamin, masa berlaku, batas pembayaran, dan syarat klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Diagram Alur Penjaminan Kredit**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_sjk_lembaga_penjaminan/gambar-01.png",
+              "lebar": 4.9,
+              "tinggi": 3.09
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klaim adalah permintaan pembayaran yang diajukan penerima jaminan kepada penjamin. Saat terjamin gagal memenuhi kewajiban finansial, bank memeriksa dasar klaim, bukti pendukung, dan tenggat pada dokumen penjaminan sebelum mengajukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Imbal Jasa dan Sertifikat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Imbal Jasa Penjaminan (IJP) adalah imbalan yang diterima perusahaan penjaminan atas jasa penjaminan. Sertifikat penjaminan menjadi bukti pemberian penjaminan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Besaran dan pihak yang membayar imbal jasa mengikuti skema. IJP merupakan biaya jasa. Klaim merupakan permintaan pembayaran atas kewajiban yang dijamin. Dua istilah ini menjelaskan arus pembayaran yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pemeriksaan dan Pembayaran Klaim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan Pasal 33 ayat (2) POJK Nomor 11 Tahun 2025, lembaga penjamin wajib memutuskan apakah klaim disetujui atau ditolak paling lama 15 hari kerja sejak permohonan pembayaran klaim diterima secara lengkap. Jika klaim disetujui, Pasal 33 ayat (3) mewajibkan lembaga penjamin membayarnya paling lama 15 hari kerja sejak persetujuan diberikan. Pada masing-masing tahap, tenggat yang lebih singkat berlaku jika tercantum dalam sertifikat penjaminan, sertifikat kafalah, atau perjanjian kerja sama. Untuk penjaminan dalam program pemerintah pusat atau daerah, tenggat keputusan dan pembayaran mengikuti ketentuan peraturan perundang-undangan yang berlaku sesuai Pasal 33 ayat (5)."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Subrogasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Subrogasi adalah peralihan hak tagih sejak perusahaan penjaminan atau perusahaan penjaminan syariah membayar klaim. Terjamin tetap berkewajiban menyelesaikan utangnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasal 34 POJK 11 Tahun 2025 mewajibkan penjamin membuat perjanjian dengan penerima jaminan agar penerima jaminan menagih untuk dan atas nama penjamin. Karena itu, Dina masih dapat dihubungi bank meskipun hak tagih sudah beralih."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ilustrasi Pembagian Risiko"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam ilustrasi kontrak, penjamin membayar bagian yang tercakup. Bank tetap menanggung risiko atas bagian yang tidak dijamin."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kegiatan Usaha dan Istilah yang Sering Tertukar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kasus Dina, bank menyediakan kredit untuk membeli bahan baku. Jika Dina menyerahkan aset sebagai agunan, aset itu mendukung pemenuhan kewajibannya. Jika ada perusahaan penjaminan, perusahaan tersebut memberi perlindungan kepada bank atas bagian kewajiban Dina yang dijamin. Ketiganya berhubungan dengan kredit yang sama, tetapi perannya berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjaminan juga dapat digunakan di luar kredit. Misalnya, dalam pengadaan barang, pemasok memiliki kewajiban kepada pihak yang memesan barang berdasarkan kontrak pengadaan. Jika ada jaminan pelaksanaan, pihak pemesan dapat mengajukan klaim ketika syarat jaminan terpenuhi. Untuk memahami cakupannya, baca kontrak yang menimbulkan kewajiban dan dokumen penjaminannya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Cara mengenalinya dalam kasus"
+              ],
+              "baris": [
+                [
+                  "Pembiayaan langsung",
+                  "Pemberi dana menyediakan dana, dan penerima memenuhi kewajiban pembayaran sesuai perjanjian."
+                ],
+                [
+                  "Agunan",
+                  "Aset atau hak tertentu digunakan untuk mendukung pemenuhan kewajiban."
+                ],
+                [
+                  "Penjaminan kredit",
+                  "Perusahaan penjaminan memberi perlindungan kepada kreditur atas bagian kewajiban debitur yang dijamin."
+                ],
+                [
+                  "Penjaminan simpanan",
+                  "Lembaga Penjamin Simpanan (LPS) menjamin simpanan nasabah bank sesuai ketentuan."
+                ],
+                [
+                  "Penjaminan ulang",
+                  "Perusahaan penjaminan ulang memberi perlindungan kepada perusahaan penjaminan atas risiko yang sudah diterima perusahaan tersebut, sesuai perjanjian penjaminan ulang."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kafalah dan Imbal Jasa Penjaminan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam penjaminan syariah, kafalah adalah akad yang mengatur pemberian jaminan atas kewajiban pihak yang dijamin. Misalnya, jika Dina memperoleh pembiayaan dari bank syariah, perusahaan penjaminan syariah dapat memberikan jaminan kepada bank atas bagian kewajiban pembayaran Dina yang tercakup dalam akad. Dina tetap wajib memenuhi kewajibannya kepada bank. Jika syarat klaim terpenuhi, bank sebagai penerima jaminan dapat mengajukan klaim kepada perusahaan penjaminan syariah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Imbal Jasa Penjaminan (IJP) adalah imbalan atas jasa penjaminan. Dalam penjaminan syariah, imbalan atas jasa kafalah disebut Imbal Jasa Kafalah (IJK). Untuk memahami biaya tersebut, periksa siapa yang membayar, berapa besarannya, dan kapan harus dibayar sesuai dokumen penjaminan. Imbal jasa berkaitan dengan pemberian jaminan, sedangkan pembayaran klaim baru terjadi jika pengajuan memenuhi syarat dan disetujui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membaca sertifikat kafalah, cari kewajiban yang dijamin, masa berlaku, bagian risiko yang ditanggung, serta syarat pengajuan klaim. Informasi ini membantu bank menentukan apakah suatu kejadian tercakup dalam jaminan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembagian Risiko dan Penjaminan Ulang Syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembagian risiko terjadi pada dua hubungan. Pertama, penerima jaminan dan penjamin masing-masing menanggung bagian sesuai ketentuan dan dokumen penjaminan. Kedua, penjamin dan penjamin ulang dapat berbagi risiko yang sudah diterima penjamin. Bagian yang tetap ditanggung penjamin disebut retensi sendiri. Pada skema syariah, perusahaan penjaminan syariah dapat menggunakan penjaminan ulang syariah untuk mengelola bagian risiko yang sudah diterimanya. Dalam contoh Dina, bank tetap mengajukan klaim kepada perusahaan penjaminan syariah. Perusahaan tersebut kemudian dapat mengajukan klaim kepada penjamin ulang syariah setelah membayar kewajiban kepada bank, sesuai ketentuan dan perjanjian penjaminan ulang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Risiko Portofolio, Kecukupan Modal, dan Prinsip Kehati-hatian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Portofolio penjaminan adalah kumpulan penjaminan yang diterbitkan perusahaan. Risiko dapat terkonsentrasi jika banyak jaminan bergantung pada sektor, wilayah, atau kelompok usaha yang sama. Misalnya, jika sebagian besar jaminan diberikan kepada perajin rotan di satu daerah, penurunan pesanan di daerah itu dapat membuat beberapa perajin kesulitan membayar pada waktu yang berdekatan. Akibatnya, beberapa klaim bisa diajukan dalam periode yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan penjaminan perlu menerapkan prinsip kehati-hatian sejak sebelum menerbitkan jaminan. Perusahaan menilai kelayakan calon terjamin, memantau konsentrasi portofolio, dan menentukan bagian risiko yang dapat ditanggung sendiri atau dikelola melalui penjaminan ulang. Tujuannya agar perusahaan mampu memenuhi kewajiban ketika klaim muncul."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ekuitas adalah selisih antara aset dan kewajiban perusahaan. POJK 11/2025 menetapkan ketentuan ekuitas minimum dan membatasi gearing ratio, yaitu perbandingan nilai penjaminan yang masih berjalan setelah dikurangi bagian yang dijamin ulang terhadap ekuitas. Jika nilai penjaminan tumbuh lebih cepat daripada ekuitas, rasio ini dapat naik. Itu sebabnya pertumbuhan penjaminan perlu diikuti penilaian atas kemampuan perusahaan menanggung risiko. Ketentuan mengenai ekuitas minimum dan gearing ratio diatur dalam POJK Nomor 11 Tahun 2025 tentang Penyelenggaraan Usaha Lembaga Penjamin."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kasus Kredit Perajin Rotan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dina adalah perajin rotan dalam ilustrasi pembelajaran. Bank menyalurkan kredit Rp30 juta untuk membeli bahan. Dokumen penjaminan dalam ilustrasi menetapkan cakupan sebesar 70% dari dasar klaim yang disetujui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dina sempat membayar beberapa cicilan. Ketika pelanggan menunda pembayaran pesanan, Dina gagal memenuhi kewajiban sesuai perjanjian kredit. Bank kemudian memeriksa apakah kondisi klaim pada dokumen penjaminan terpenuhi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dina adalah terjamin, bank adalah penerima jaminan, dan perusahaan yang menerbitkan jaminan adalah penjamin."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Temukan perjanjian pokok"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perjanjian kredit menimbulkan kewajiban pembayaran perajin kepada bank. Bank menjadi sumber dana untuk kebutuhan usaha."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Petakan perlindungan yang diberikan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank membaca sertifikat dan ketentuan penjaminan untuk mencocokkan kewajiban yang dijamin, syarat klaim, dan tenggat pengajuan. Penjamin memeriksa kelengkapan bukti dan menentukan dasar klaim sesuai perjanjian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hitung Pembayaran Klaim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjamin menyetujui dasar klaim Rp20 juta. Pembayaran kepada bank adalah 70% × Rp20 juta = Rp14 juta. Bank menanggung risiko atas Rp6 juta yang tidak tercakup oleh pembayaran penjamin dalam ilustrasi ini. Kewajiban Dina tetap berlaku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Telusuri hak tagih setelah pembayaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah klaim dibayar, hak tagih beralih sesuai Pasal 34. Bank dapat melakukan penagihan untuk dan atas nama penjamin berdasarkan perjanjian. Dina tetap perlu menyelesaikan kewajibannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka cakupan dan nilai klaim dalam ilustrasi ini ditetapkan untuk latihan. Dalam praktik, baca persentase dan dasar klaim yang berlaku pada dokumen penjaminan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh di Luar Kredit Usaha Jaminan Pelaksanaan Pengadaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kesempatan lain, Dina mendapat kontrak untuk memasok 50 kursi rotan kepada sebuah hotel. Kontrak menetapkan jumlah kursi, standar barang, dan tenggat penyerahan. Hotel meminta jaminan pelaksanaan untuk melindungi kepentingannya jika Dina tidak memenuhi kewajiban yang tercakup dalam jaminan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kasus ini, Dina adalah terjamin karena ia berkewajiban menyerahkan kursi sesuai kontrak. Hotel adalah penerima jaminan karena berhak atas pelaksanaan kontrak. Perusahaan penjaminan adalah penjamin karena menerbitkan jaminan pelaksanaan sesuai syarat yang disepakati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, Dina hanya menyerahkan 30 dari 50 kursi hingga tenggat. Hotel memeriksa kontrak pengadaan dan dokumen jaminan untuk memastikan apakah kekurangan penyerahan itu termasuk kondisi yang dapat diklaim. Jika syaratnya terpenuhi, hotel dapat mengajukan klaim kepada penjamin. Besarnya pembayaran mengikuti cakupan dan batas yang tertulis dalam dokumen jaminan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kasus kredit, kewajiban Dina adalah membayar kembali pinjaman kepada bank. Pada kasus pengadaan, kewajibannya adalah menyerahkan barang kepada hotel sesuai kontrak. Untuk membedakan kedua kasus, lihat dulu perjanjian yang menimbulkan kewajiban dan siapa yang berhak menerima jaminan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengikuti Arus Kredit dan Jaminan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan kepada siapa uang berpindah pada tiap tahap. Saat kredit diberikan, uang berpindah dari bank kepada UMKM. Jika klaim disetujui, pembayaran bergerak dari penjamin kepada penerima jaminan. Dua transaksi itu terjadi karena dasar perjanjian yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pisahkan perjanjian kredit dari perlindungan atas kewajiban kredit. Dalam perjanjian kredit, bank menyalurkan dana dan UMKM berkewajiban membayar. Dalam penjaminan, penjamin memberi perlindungan kepada bank untuk bagian kewajiban yang dijamin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum membaca persentase jaminan, identifikasi kewajiban yang dijamin, pihak yang menerima perlindungan, dan kondisi pengajuan klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika bank memberikan kredit Rp20 juta, angka tersebut menunjukkan nilai kredit dalam ilustrasi. Besar klaim bergantung pada dasar klaim dan bagian yang dijamin sesuai kontrak."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membedakan Pembayaran Klaim dan Pelunasan Kredit"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Debitur bisa mengira bahwa pembayaran klaim membuat urusan kreditnya selesai. Untuk membaca kasus dengan benar, periksa kewajiban yang masih ada, bagian yang dibayar penjamin, dan siapa yang berhak menagihnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika debitur tidak membayar sesuai jadwal, bank dapat memeriksa syarat klaim. Jika penjamin menyetujui dan membayar klaim, pembayaran tersebut terjadi antara penjamin dan penerima jaminan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembayaran klaim dan pelunasan kewajiban debitur terjadi pada hubungan yang berbeda. Periksa apakah hak tagih beralih sesuai ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya, bank menerima pembayaran klaim atas bagian yang dijamin. Jika hak tagih beralih, penagihan atas bagian tersebut tetap dapat dilakukan sesuai perjanjian dan aturan yang berlaku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembahasan Lebih Lanjut"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membedakan Kredit, Jaminan, dan Klaim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menyalurkan kredit kepada UMKM untuk membeli bahan. Perusahaan penjaminan memberi perlindungan kepada bank atas bagian kewajiban yang tercakup. Selama UMKM membayar sesuai jadwal, hubungan yang terlihat sehari-hari adalah pembayaran dari UMKM kepada bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membaca kasus, ikuti arus kredit dan arus klaim secara terpisah. Bank memberi kredit kepada UMKM. Jika syarat klaim terpenuhi, penjamin membayar kepada penerima jaminan sesuai perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika UMKM terlambat membayar, bank perlu memeriksa kondisi dan dokumen klaim. Keterlambatan adalah kejadian dalam hubungan kredit. Klaim adalah permintaan pembayaran dalam hubungan penjaminan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menghitung Bagian yang Dijamin dan Menelusuri Hak Tagih"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kasus Dina, nilai kredit awal Rp30 juta berbeda dari dasar klaim yang disetujui sebesar Rp20 juta. Gunakan Rp20 juta saat menghitung pembayaran penjamin. Persentase 70% menghasilkan pembayaran Rp14 juta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan dasar klaim yang disetujui dan bagian yang dijamin untuk menghitung pembayaran. Setelah itu, periksa ketentuan peralihan hak tagih."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika hak tagih beralih setelah klaim dibayar, penagihan atas kewajiban tetap dapat berjalan sesuai ketentuan. Dalam skema tertentu, bank masih dapat menagih untuk dan atas nama penjamin. Pihak yang menghubungi debitur dapat berbeda dari pihak yang memegang hak tagih."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel Rangkuman"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Situasi",
+                "Tindakan yang Tepat",
+                "Kesalahan yang Dihindari"
+              ],
+              "baris": [
+                [
+                  "UMKM menerima kredit bank",
+                  "Temukan bank sebagai sumber dana dan UMKM sebagai terjamin.",
+                  "Mengira perusahaan penjaminan adalah penyalur kredit."
+                ],
+                [
+                  "Bank mengajukan klaim",
+                  "Periksa peristiwa, cakupan, dan persyaratan klaim.",
+                  "Menganggap pembayaran otomatis atau selalu penuh."
+                ],
+                [
+                  "Klaim sudah dibayar",
+                  "Periksa ketentuan peralihan hak tagih.",
+                  "Menganggap kewajiban debitur otomatis selesai."
+                ],
+                [
+                  "Soal menyebut simpanan bank",
+                  "Kenali fungsi penjaminan simpanan LPS.",
+                  "Mencampur perlindungan simpanan dengan penjaminan kredit."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Petakan tiga pihak. Siapa wajib membayar, siapa berhak menerima pembayaran, dan siapa memberi jaminan?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Cari perjanjian pokok, lalu cek bagian risiko yang dijamin dan kondisi yang memicu klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Jika klaim sudah dibayar, periksa apakah hak tagih beralih dan siapa yang menagih."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Penerima jaminan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "UMKM menerima kredit dari bank dengan penjaminan perusahaan penjaminan. Siapa penerima jaminannya?"
+            }
+          ],
+          "opsi": {
+            "A": "UMKM",
+            "B": "Pemasok",
+            "C": "Perusahaan penjaminan",
+            "D": "Bank pemberi kredit",
+            "E": "Pemilik toko tempat UMKM berjualan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank adalah pihak yang menerima perlindungan atas kewajiban debitur yang dijamin."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari pihak yang berhak menerima pembayaran atas kewajiban yang dijamin."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Hak tagih",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah klaim dibayar, hak tagih beralih dari bank kepada penjamin sesuai ketentuan. Apa nama peralihan ini?"
+            }
+          ],
+          "opsi": {
+            "A": "Divestasi",
+            "B": "Subrogasi",
+            "C": "Penyertaan modal",
+            "D": "Penerimaan simpanan",
+            "E": "Pelunasan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Subrogasi adalah peralihan hak tagih. Dalam kasus ini, penjamin memperoleh hak tersebut setelah membayar klaim."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lihat siapa yang memegang hak tagih sebelum dan sesudah klaim dibayar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Syarat sebelum Mengajukan Klaim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Terjamin gagal memenuhi kewajibannya. Sebelum mengajukan klaim, apa yang harus dicocokkan oleh bank dengan dokumen penjaminan?"
+            }
+          ],
+          "opsi": {
+            "A": "Besaran modal disetor perusahaan penjaminan",
+            "B": "Jadwal penjualan produk terjamin",
+            "C": "Nilai agunan tanpa melihat syarat klaim",
+            "D": "Kewajiban yang dijamin, syarat, bukti, dan tenggat pengajuan",
+            "E": "Persentase pembagian hasil penagihan setelah klaim"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank memeriksa apakah kejadian memenuhi syarat penjaminan dan apakah bukti serta tenggat pengajuan sesuai dokumen."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa syarat pengajuan sebelum menghitung nilai klaim."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan pemberi dana dan penjamin",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kredit UMKM, bank menyalurkan uang kepada debitur. Perusahaan penjaminan memberi perlindungan kepada bank sesuai perjanjian. Siapa yang menyalurkan kredit?"
+            }
+          ],
+          "opsi": {
+            "A": "UMKM",
+            "B": "Perusahaan penjaminan",
+            "C": "Bank",
+            "D": "Pemasok",
+            "E": "Pemilik agunan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menjadi sumber dana dalam kasus ini. Perusahaan penjaminan memberi perlindungan atas kewajiban yang dijamin."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ikuti arah penyaluran uang."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pengajuan Klaim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dina gagal memenuhi kewajiban kredit dan syarat pengajuan klaim terpenuhi. Siapa yang mengajukan klaim kepada penjamin?"
+            }
+          ],
+          "opsi": {
+            "A": "Dina",
+            "B": "Bank pemberi kredit",
+            "C": "Pelanggan Dina",
+            "D": "Pemasok rotan",
+            "E": "Penjamin ulang"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank adalah penerima jaminan. Bank mengajukan permintaan pembayaran kepada penjamin."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari pihak yang menerima perlindungan dan mengajukan klaim."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Awal Hitungan Tenggat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank baru mengirim sebagian dokumen klaim. Kapan hitungan batas keputusan menurut ketentuan umum Pasal 33 dimulai?"
+            }
+          ],
+          "opsi": {
+            "A": "Sejak kredit dicairkan",
+            "B": "Sejak cicilan pertama jatuh tempo",
+            "C": "Sejak bank pertama kali menghubungi penjamin",
+            "D": "Sejak permohonan pembayaran diterima lengkap",
+            "E": "Sejak klaim disetujui"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tenggat keputusan dihitung sejak permohonan lengkap. Tenggat pembayaran dihitung sejak persetujuan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan tanggal dokumen lengkap dari tanggal persetujuan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dasar Perhitungan Klaim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank memberikan kredit awal sebesar Rp30 juta. Setelah memeriksa pengajuan klaim, penjamin menyetujui Rp20 juta sebagai dasar perhitungan klaim. Perjanjian penjaminan dalam kasus ini menetapkan cakupan sebesar 70% dari dasar klaim yang disetujui. Berapa jumlah yang dibayarkan penjamin kepada bank?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp6 juta",
+            "B": "Rp9 juta",
+            "C": "Rp14 juta",
+            "D": "Rp20 juta",
+            "E": "Rp21 juta"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembayaran klaim dihitung dari dasar klaim yang disetujui sebesar Rp20 juta. Dengan cakupan 70% sesuai perjanjian dalam kasus ini, penjamin membayar 70% × Rp20 juta = Rp14 juta. Nilai Rp30 juta menunjukkan jumlah kredit saat pertama kali diberikan. Persentase cakupan pada kasus lain mengikuti perjanjian dan ketentuan yang berlaku."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan dasar klaim yang disetujui, lalu kalikan dengan persentase cakupan yang ditetapkan dalam perjanjian."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Penagihan Setelah Klaim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menghubungi Dina setelah penjamin membayar klaim dan hak tagih beralih. Dalam kapasitas apa bank dapat melakukan penagihan atas hak penjamin?"
+            }
+          ],
+          "opsi": {
+            "A": "Untuk dan atas nama penjamin sesuai perjanjian",
+            "B": "Sebagai terjamin pengganti",
+            "C": "Sebagai penjamin ulang",
+            "D": "Sebagai pemilik seluruh hak tagih yang telah beralih",
+            "E": "Sebagai pihak yang menerima kredit"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasal 34 mengatur perjanjian agar penerima jaminan melakukan penagihan untuk dan atas nama penjamin."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan pemegang hak tagih dari pihak yang melakukan penagihan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Lembaga Penjaminan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Untuk membaca kasus penjaminan, mulai dari perjanjian pokok yang menimbulkan kewajiban. Kenali siapa yang wajib memenuhi kewajiban, siapa yang menerima jaminan, dan siapa yang memberikannya. Ketiga peran itu bisa muncul pada kredit usaha maupun jaminan pelaksanaan pengadaan barang. Jika syarat pengajuan terpenuhi, penerima jaminan dapat mengajukan klaim. Tenggat keputusan mulai dihitung ketika permohonan diterima lengkap. Jika klaim disetujui, tenggat pembayaran mulai dihitung sejak persetujuan diberikan. Besarnya pembayaran mengikuti dasar klaim yang disetujui dan persentase cakupan dalam dokumen penjaminan. Setelah klaim dibayar, periksa kepada siapa hak tagih beralih dan siapa yang melakukan penagihan. Dalam kasus Dina, bank menerima pembayaran klaim dari penjamin, sementara Dina tetap perlu menyelesaikan kewajibannya. Bank juga dapat melakukan penagihan atas nama penjamin sesuai perjanjian."
+  }
+}

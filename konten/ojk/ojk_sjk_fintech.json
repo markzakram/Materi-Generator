@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "judul": "Fintech",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Fintech",
+    "sumber": "https://docs.google.com/document/d/1UvkibRk0sbV54m3noReJ1ISRkXIH9lkj/edit",
+    "id_katalog": "sjk-10"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pemilik toko makanan membutuhkan Rp2 juta untuk membeli stok. Sebuah aplikasi menawarkan pencairan penuh dan pembayaran Rp2,12 juta setelah 30 hari. Sebelum memilih, ia perlu mengetahui siapa yang memberi dana, apa yang dilakukan platform, dan apakah kas tokonya cukup ketika tagihan jatuh tempo.",
+      "Dalam satu aplikasi, kamu bisa membayar belanja, memakai fasilitas bayar nanti, atau membeli aset. Tiap kegiatan bisa melibatkan penyedia dan ketentuan yang berbeda. Mulailah dari layanan yang dipakai, lalu cek siapa penyedianya dan lembaga mana yang berwenang."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pembayaran digital, bayar nanti, urun dana efek, aset kripto, dan pinjaman daring."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "peran tiga pihak serta alur dana dalam pinjaman daring."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "manfaat ekonomi dan menilai kemampuan membayar dengan dasar yang tepat."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Fintech",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Fintech",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Siapa yang Mengatur Apa"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Lembaga",
+                "Peran",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Otoritas Jasa Keuangan (OJK)",
+                  "Mengatur dan mengawasi lembaga serta kegiatan jasa keuangan sesuai kewenangannya.",
+                  "Pinjaman daring, bayar nanti oleh perusahaan pembiayaan, dan perdagangan aset kripto."
+                ],
+                [
+                  "Bank Indonesia (BI)",
+                  "Mengatur dan mengawasi kegiatan sistem pembayaran.",
+                  "Layanan pembayaran digital oleh penyedia jasa pembayaran, seperti pembayaran melalui dompet elektronik."
+                ],
+                [
+                  "Lembaga Penjamin Simpanan (LPS)",
+                  "Menjamin simpanan nasabah bank sesuai syarat dan menangani resolusi bank.",
+                  "Simpanan yang memenuhi syarat pada bank peserta penjaminan."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peraturan OJK (POJK) menetapkan ketentuan sektor jasa keuangan. Surat Edaran OJK (SEOJK) dapat merinci cara pelaksanaannya. Bank Indonesia menerbitkan Peraturan Bank Indonesia (PBI) untuk bidang kewenangannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Istilah Dasar"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Arti dalam materi"
+              ],
+              "baris": [
+                [
+                  "Fintech",
+                  "Pemanfaatan teknologi untuk menyediakan atau mendukung layanan keuangan."
+                ],
+                [
+                  "LPBBTI",
+                  "Layanan Pendanaan Bersama Berbasis Teknologi Informasi, yaitu platform yang mempertemukan pemberi dan penerima dana."
+                ],
+                [
+                  "Pokok",
+                  "Nilai pendanaan yang tercantum dalam perjanjian."
+                ],
+                [
+                  "Tenor",
+                  "Jangka waktu pendanaan."
+                ],
+                [
+                  "Manfaat ekonomi",
+                  "Komponen imbal hasil dan biaya yang termasuk dalam ketentuan OJK."
+                ],
+                [
+                  "Piutang",
+                  "Hak untuk menerima pembayaran dari pihak lain."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kenali layanan dari aktivitasnya, lalu gunakan peta lembaga untuk menentukan siapa yang berwenang. Setelah itu, ikuti alur pinjaman daring dan cara menilai biayanya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peta Layanan Fintech"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fintech (financial technology) adalah istilah payung untuk pemanfaatan teknologi dalam layanan keuangan. Cakupannya antara lain pembayaran digital, pinjaman daring, urun dana efek, dan perdagangan aset keuangan digital. Satu aplikasi dapat menampilkan beberapa layanan sekaligus. Untuk mengetahui siapa yang mengatur dan ketentuan apa yang berlaku, lihat aktivitas yang digunakan dan siapa penyedianya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aktivitas atau bidang",
+                "Cara kerja dan contoh",
+                "Otoritas yang berwenang"
+              ],
+              "baris": [
+                [
+                  "Sistem pembayaran digital",
+                  "Pengguna memindahkan dana untuk membayar barang atau jasa. Contohnya, pengguna membayar belanja melalui dompet elektronik.",
+                  "Bank Indonesia (BI) untuk kegiatan sistem pembayaran."
+                ],
+                [
+                  "Bayar nanti (paylater)",
+                  "Pengguna membeli barang sekarang dan memenuhi kewajiban pembayaran kemudian sesuai perjanjian.",
+                  "OJK untuk fasilitas yang disediakan perusahaan pembiayaan, sesuai ketentuan yang berlaku."
+                ],
+                [
+                  "Pinjaman daring (pindar) atau LPBBTI",
+                  "Penyelenggara mempertemukan pemberi dana dan penerima dana melalui platform digital. Penerima dana membayar kembali sesuai perjanjian. LPBBTI adalah singkatan dari Layanan Pendanaan Bersama Berbasis Teknologi Informasi.",
+                  "OJK untuk penyelenggaraan LPBBTI."
+                ],
+                [
+                  "Urun dana efek (securities crowdfunding atau SCF)",
+                  "Penerbit menghimpun dana dengan menawarkan efek melalui platform. Jika yang ditawarkan adalah saham, pemodal memperoleh bagian kepemilikan pada penerbit.",
+                  "OJK untuk penawaran efek melalui layanan urun dana."
+                ],
+                [
+                  "Perdagangan aset keuangan digital, termasuk aset kripto",
+                  "Pengguna membeli atau menjual aset keuangan digital melalui penyelenggara perdagangan. Nilai aset yang dibeli dapat berubah.",
+                  "OJK untuk penyelenggaraan perdagangan aset keuangan digital, termasuk aset kripto."
+                ],
+                [
+                  "Inovasi Teknologi Sektor Keuangan (ITSK)",
+                  "Bidang inovasi berbasis teknologi yang dapat memengaruhi produk, layanan, aktivitas, atau model bisnis sektor keuangan. OJK menyediakan regulatory sandbox, yaitu ruang uji coba bagi inovasi yang memenuhi kriteria.",
+                  "OJK untuk ITSK dalam lingkup kewenangannya. BI memiliki ketentuan tersendiri untuk inovasi di bidang sistem pembayaran."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK 17 Tahun 2025 memberi kerangka urun dana efek. POJK 27 Tahun 2024 sebagaimana diubah dengan POJK 23 Tahun 2025 mengatur perdagangan aset keuangan digital termasuk kripto. POJK 3 Tahun 2024 memberi kerangka ITSK."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tiga Pihak dan Alur Pinjaman Daring"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "LPBBTI adalah singkatan dari Layanan Pendanaan Bersama Berbasis Teknologi Informasi. Layanan ini mempertemukan pihak yang menyediakan dana dengan pihak yang membutuhkan dana melalui platform digital. Layanan ini sering dikenal sebagai pinjaman daring atau fintech peer-to-peer lending."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam LPBBTI, pemberi dana menyediakan uang, penerima dana menggunakannya dan membayar sesuai perjanjian, sedangkan penyelenggara mengelola platform yang mempertemukan keduanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Diagram Alur LPBBTI**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_sjk_fintech/gambar-01.png",
+              "lebar": 4.9,
+              "tinggi": 2.59
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyelenggara menilai kelayakan dan memfasilitasi pendanaan. Pemberi dana tetap menghadapi risiko gagal bayar. Cek izin platform melalui Direktori LPBBTI OJK."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Batas Manfaat Ekonomi Pendanaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Manfaat ekonomi mencakup komponen yang ditetapkan dalam SEOJK, termasuk bunga, margin atau bagi hasil, biaya administrasi atau komisi platform, dan biaya lain yang termasuk cakupan aturan. Denda keterlambatan memiliki ketentuan tersendiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Batas manfaat ekonomi LPBBTI dihitung per hari kalender dari nilai pendanaan dalam perjanjian. Pilih batas berdasarkan jenis pendanaan, nilai pendanaan, dan tenor."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kelompok pendanaan",
+                "Sampai 6 bulan",
+                "Lebih dari 6 bulan"
+              ],
+              "baris": [
+                [
+                  "Produktif sampai Rp50 juta",
+                  "0,275%",
+                  "0,1%"
+                ],
+                [
+                  "Produktif di atas Rp50 juta",
+                  "0,1%",
+                  "0,1%"
+                ],
+                [
+                  "Konsumtif",
+                  "0,3%",
+                  "0,2%"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sumber tabel. SEOJK 19/SEOJK.06/2025, bagian Batas Maksimum Manfaat Ekonomi dan Denda Keterlambatan Pendanaan, angka 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian XIV angka 3 SEOJK 19/SEOJK.06/2025 membagi pendanaan produktif berdasarkan nilai pada perjanjian, yaitu sampai Rp50 juta dan di atas Rp50 juta. Pilih batas harian berdasarkan nilai pendanaan dan tenornya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kemampuan Bayar dan Perlindungan Pengguna"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menilai Kemampuan Bayar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk pendanaan konsumtif sejak 2026, salah satu ukuran yang digunakan penyelenggara adalah rasio pembayaran pokok dan manfaat ekonomi kepada seluruh kreditur terhadap penghasilan penerima dana. Batasnya 30%. Bandingkan pembayaran dan penghasilan pada periode yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, total pembayaran kepada seluruh kreditur mencapai Rp1,6 juta per bulan dan penghasilan penerima dana Rp5 juta per bulan. Rasionya adalah Rp1,6 juta ÷ Rp5 juta × 100% = 32%, sehingga melampaui batas 30%. Pada pendanaan produktif, periksa juga kapan uang hasil usaha masuk dan apakah jumlahnya cukup saat pembayaran jatuh tempo."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menangani Keterlambatan dan Gagal Bayar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Wanprestasi terjadi ketika salah satu pihak tidak memenuhi kewajiban dalam perjanjian. Dalam pendanaan, contohnya adalah penerima dana tidak membayar sesuai jumlah atau waktu yang disepakati. Ketika pembayaran terlambat, periksa tanggal jatuh tempo, jumlah yang masih terutang, dan ketentuan keterlambatan. Status pendanaan mengikuti kriteria yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika penerima dana memperkirakan akan kesulitan membayar, segera hubungi penyelenggara melalui kanal resmi. Minta rincian kewajiban dan tanyakan apakah ada opsi penanganan, seperti perubahan jadwal pembayaran. Jika ada kesepakatan baru, simpan konfirmasi tertulisnya agar jumlah dan tanggal pembayaran jelas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memahami Tanggung Jawab Penyelenggara dan Aturan Penagihan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyelenggara LPBBTI bertindak sebagai perantara. Penyelenggara wajib menilai risiko pendanaan, memverifikasi identitas pengguna dan keaslian dokumen, serta melakukan penagihan sesuai ketentuan. Jika penagihan dilakukan oleh pihak ketiga, penyelenggara tetap bertanggung jawab atas dampak penagihan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penagihan harus ditujukan kepada penerima dana dan dilakukan tanpa ancaman, tekanan, atau tindakan yang mempermalukan. Kontak darurat hanya digunakan untuk mengonfirmasi keberadaan penerima dana. Secara umum, penagihan dilakukan pada Senin sampai Sabtu, di luar hari libur nasional, pukul 08.00–20.00 waktu setempat. Penagihan di luar tempat atau waktu yang ditentukan memerlukan persetujuan atau perjanjian terlebih dahulu dengan konsumen."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Melindungi Data dan Memahami Batas Perlindungan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyelenggara wajib menjaga kerahasiaan dan keamanan data pribadi yang dikelolanya. Sebelum memberi izin akses, periksa data yang diminta dan tujuan penggunaannya. Jika informasi utang disampaikan kepada pihak yang tidak berkepentingan atau penagihan dilakukan dengan ancaman, simpan bukti komunikasi dan ajukan pengaduan melalui kanal resmi penyelenggara. Catat nomor pengaduan untuk tindak lanjut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Izin OJK menunjukkan status penyelenggara memiliki izin usaha yang relevan, tetapi tidak menjamin pendanaan bebas dari risiko gagal bayar ataupun seluruh kerugian pemberi dana akan diganti. Risiko gagal bayar tetap melekat pada pendanaan. Pemberi dana perlu membaca perjanjian untuk mengetahui apakah ada perlindungan tambahan, seperti asuransi atau penjaminan. Jika tersedia, periksa risiko yang ditanggung, pengecualian, batas pembayaran, dan prosedur klaim. Misalnya, jika perlindungan hanya mencakup sebagian pokok, pembayaran klaim mengikuti batas tersebut dan syarat yang berlaku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kasus Toko Makanan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko menerima pokok Rp2 juta tanpa potongan dan wajib membayar Rp2,12 juta pada hari ke-30. Jika seluruh selisih merupakan manfaat ekonomi, biayanya Rp120.000. Rp120.000 dibagi Rp2 juta dan 30 hari menghasilkan 0,2% per hari kalender."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena pendanaan pada ilustrasi ini produktif, nilainya sampai Rp50 juta, dan tenornya sampai enam bulan, angka pembandingnya 0,275% per hari. Hasil 0,2% berada di bawah batas rujukan pada ilustrasi ini."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kas yang tersedia saat jatuh tempo Rp1,8 juta, toko kekurangan Rp320.000. Biaya yang berada di bawah batas dan kas yang cukup untuk membayar adalah dua pemeriksaan yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menguji keputusan, tanyakan kapan penjualan dibayar. Penjualan yang belum dibayar pelanggan belum tersedia untuk melunasi tagihan. Jika kas masuk setelah jatuh tempo, pemilik perlu menyesuaikan rencana pendanaan atau mencari opsi yang lebih cocok."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel Rangkuman"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Situasi",
+                "Cara membaca kasus"
+              ],
+              "baris": [
+                [
+                  "Aplikasi menawarkan lebih dari satu layanan",
+                  "Kenali aktivitas dan perjanjian yang digunakan."
+                ],
+                [
+                  "Menilai batas manfaat ekonomi",
+                  "Cek jenis, pokok dalam perjanjian, dan tenor."
+                ],
+                [
+                  "Menilai kemampuan bayar konsumtif",
+                  "Bandingkan pembayaran kepada seluruh kreditur dengan penghasilan."
+                ],
+                [
+                  "Menilai pendanaan produktif",
+                  "Bandingkan kas yang tersedia dengan kewajiban saat jatuh tempo."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Kenali aktivitas dan ikuti arah dana untuk membedakan peran para pihak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tentukan jenis pendanaan, nilai dalam kontrak, dan tenor sebelum memilih batas biaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Bandingkan uang yang tersedia dan tagihan pada periode yang sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Mengenali platform",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Aplikasi mempertemukan pihak yang mendanai dan toko yang membutuhkan modal. Siapa pengelola aplikasinya dalam LPBBTI?"
+            }
+          ],
+          "opsi": {
+            "A": "Pemberi dana",
+            "B": "Penerima dana",
+            "C": "Penyelenggara",
+            "D": "Penerima jaminan",
+            "E": "Kreditur lama"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penyelenggara mengelola sistem yang mempertemukan kedua pihak."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ikuti siapa yang mengelola sistem."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membaca tenor",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan ketentuan SEOJK Nomor 19/SEOJK.06/2025 yang berlaku sejak 31 Juli 2025, suatu pendanaan produktif memiliki nilai Rp35 juta dengan tenor delapan bulan. Berapa batas maksimum manfaat ekonomi per hari kalender untuk pendanaan tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "0,275%",
+            "B": "0,3%",
+            "C": "0,2%",
+            "D": "0,1%",
+            "E": "0,4%"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pendanaan Rp35 juta termasuk kelompok produktif dengan nilai paling tinggi Rp50 juta. Karena tenornya delapan bulan atau lebih dari enam bulan, batas maksimum manfaat ekonomi berdasarkan ketentuan yang menjadi acuan soal adalah 0,1% per hari kalender."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa tenor sebelum memilih baris dan kolom."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Memisahkan biaya dan kas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Toko menerima Rp2 juta tanpa potongan dan harus membayar Rp2,12 juta. Kas pada saat jatuh tempo Rp1,8 juta. Berapa biaya ilustrasi dan kekurangan kasnya?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp120.000 dan Rp320.000",
+            "B": "Rp120.000 dan Rp200.000",
+            "C": "Rp320.000 dan Rp120.000",
+            "D": "Rp200.000 dan Rp320.000",
+            "E": "Rp200.000 dan Rp120.000"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Biaya adalah selisih pembayaran dan dana bersih. Kekurangan kas adalah selisih tagihan dan kas saat jatuh tempo."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung biaya dan kekurangan kas secara terpisah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Izin dan risiko",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Platform tercantum di direktori OJK. Apa arti informasi ini bagi pemberi dana?"
+            }
+          ],
+          "opsi": {
+            "A": "Platform menanggung semua gagal bayar",
+            "B": "Platform menjadi sumber dana utama",
+            "C": "Status platform dapat diperiksa dan risiko pendanaan tetap perlu dinilai",
+            "D": "Penilaian penerima dana tidak diperlukan",
+            "E": "Pembayaran pasti tepat waktu"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Izin berkaitan dengan penyelenggara. Risiko pembayaran tetap berkaitan dengan penerima dana dan perjanjian."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan status penyelenggara dari risiko pembayaran."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Mengenali layanan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Platform membantu usaha menawarkan saham kepada sejumlah pemodal. Aktivitas manakah yang paling tepat?"
+            }
+          ],
+          "opsi": {
+            "A": "Pembayaran digital",
+            "B": "Penjaminan kredit",
+            "C": "Urun dana efek",
+            "D": "Pindar untuk modal kerja",
+            "E": "Perdagangan aset kripto"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Produk yang ditawarkan adalah efek berupa saham. Pindar berkaitan dengan pendanaan yang harus dibayar sesuai perjanjian."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lihat produk yang ditawarkan melalui platform."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Batas manfaat ekonomi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada 1 Juli 2026, sebuah usaha menyepakati pendanaan produktif Rp60 juta dengan tenor empat bulan. Berdasarkan Bagian XIV angka 3 SEOJK Nomor 19/SEOJK.06/2025 yang digunakan untuk kasus ini, berapa batas maksimum manfaat ekonomi per hari kalender?"
+            }
+          ],
+          "opsi": {
+            "A": "0,1%",
+            "B": "0,2%",
+            "C": "0,275%",
+            "D": "0,3%",
+            "E": "0,4%"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nilainya lebih dari Rp50 juta, sehingga batas dalam ketentuan yang dirujuk adalah 0,1% per hari kalender."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cek nominal pendanaan dalam perjanjian."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Rasio kemampuan bayar",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penghasilan Rp5 juta per bulan. Pembayaran pokok dan manfaat ekonomi kepada semua kreditur Rp1,6 juta per bulan. Bagaimana hasil pemeriksaan rasio konsumtif sejak 2026?"
+            }
+          ],
+          "opsi": {
+            "A": "28% dan di bawah batas",
+            "B": "30% dan tepat di batas",
+            "C": "32% dan di atas batas",
+            "D": "32% dan di bawah batas",
+            "E": "40% dan di atas batas"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rp1,6 juta ÷ Rp5 juta × 100% = 32%. Hasil ini melampaui batas 30% untuk penilaian kemampuan bayar pendanaan konsumtif sejak 2026. Rasio ini digunakan untuk menilai kemampuan membayar. Untuk mengetahui apakah penerima dana sudah terlambat atau tidak memenuhi kewajiban, periksa jatuh tempo, pembayaran yang sudah dilakukan, dan ketentuan perjanjiannya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jumlahkan pembayaran kepada seluruh kreditur."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Perbandingan biaya",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penerima A dan B mendapat pokok kontrak yang sama. A dikenai potongan awal, B menerima pokok penuh. Apa yang perlu dibandingkan untuk mengetahui beban masing-masing?"
+            }
+          ],
+          "opsi": {
+            "A": "Pokok kontrak saja",
+            "B": "Angsuran pertama saja",
+            "C": "Nama produk dan penghasilan pemberi dana",
+            "D": "Dana bersih, total pembayaran, dan tenor",
+            "E": "Tanggal pembukaan akun saja"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Potongan awal mengubah kas yang diterima. Total pembayaran dan tenor menunjukkan kewajiban serta waktunya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bandingkan kas yang diterima dengan kewajiban dan jangka waktunya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan Risiko Penerima Dana dan Risiko Penyelenggara",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada platform LPBBTI berizin, penerima dana melewatkan jatuh tempo karena hasil penjualannya belum masuk. Saat menagih, petugas yang ditunjuk platform mengirim rincian utang kepada rekan kerja penerima dana. Perjanjian juga mencantumkan perlindungan tambahan atas sebagian pokok apabila syarat klaim terpenuhi. Bagaimana pemberi dana sebaiknya menilai situasi ini?"
+            }
+          ],
+          "opsi": {
+            "A": "Keterlambatan dan pengungkapan data sama-sama merupakan risiko penerima dana.",
+            "B": "Izin platform membuat seluruh sisa pokok otomatis dapat diklaim.",
+            "C": "Keterlambatan merupakan risiko pembayaran penerima dana. Pengungkapan data perlu diadukan kepada penyelenggara, dan klaim mengikuti cakupan serta syarat perlindungan.",
+            "D": "Pengungkapan data menjadi tanggung jawab petugas penagihan saja.",
+            "E": "Perlindungan sebagian pokok membuat pemberi dana dapat menagih seluruh sisa pokok melalui klaim."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembayaran yang terlewat perlu diperiksa berdasarkan perjanjian pendanaan. Pengungkapan rincian utang kepada pihak lain menyangkut cara penagihan dan pelindungan data. Simpan bukti dan ajukan pengaduan melalui kanal resmi penyelenggara, termasuk jika penagihan dilakukan pihak ketiga yang ditunjuknya. Jika ingin mengajukan klaim atas perlindungan tambahan, periksa risiko yang ditanggung, pengecualian, batas pembayaran, dan dokumen yang diperlukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa tiga hal secara terpisah: kewajiban penerima dana, tindakan penyelenggara atau petugasnya, dan cakupan perlindungan dalam perjanjian."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan LPBBTI dan BNPL Perusahaan Pembiayaan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam satu aplikasi, Rina melihat dua fitur. Pada fitur X, platform mempertemukan Rina dengan pemberi dana yang mendanai kebutuhan modal usahanya. Pada fitur Y, perusahaan pembiayaan membiayai pembelian barang Rina, lalu Rina membayar angsurannya sesuai perjanjian. Bagaimana kedua fitur tersebut diklasifikasikan?"
+            }
+          ],
+          "opsi": {
+            "A": "X adalah BNPL dan Y adalah LPBBTI.",
+            "B": "X adalah LPBBTI dan Y adalah BNPL perusahaan pembiayaan.",
+            "C": "Keduanya LPBBTI karena tersedia di aplikasi yang sama.",
+            "D": "Keduanya BNPL karena pembayaran dilakukan kemudian.",
+            "E": "X adalah urun dana efek dan Y adalah pembayaran digital dengan saldo."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada fitur X, penyelenggara mempertemukan pemberi dana dengan penerima dana. Pada fitur Y, perusahaan pembiayaan menyediakan pembiayaan untuk pembelian barang. Periksa siapa yang menyediakan dana dan apa yang diatur dalam perjanjian masing-masing fitur."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ikuti arus dana dan identifikasi peran penyedia pada setiap fitur."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Fintech",
+        "teks": ""
+      }
+    ],
+    "pesan": "Fintech mencakup berbagai layanan, mulai dari pembayaran digital hingga pinjaman daring, urun dana efek, dan perdagangan aset keuangan digital. Satu aplikasi bisa menampilkan beberapa layanan sekaligus. Untuk memahami suatu kasus, kenali aktivitas yang digunakan, siapa penyedianya, dan otoritas yang berwenang atas aktivitas tersebut. Dalam pinjaman daring, pemberi dana menyediakan dana, penerima dana memenuhi kewajiban sesuai perjanjian, dan penyelenggara mempertemukan keduanya. Saat menilai biaya, gunakan jenis pendanaan, nilai yang tercantum dalam perjanjian, dan tenor sesuai periode aturan yang dirujuk. Setelah itu, periksa apakah penghasilan atau kas yang tersedia cukup saat pembayaran jatuh tempo. Izin penyelenggara membantu kamu memeriksa status platform. Risiko gagal bayar tetap perlu dinilai dari kondisi penerima dana dan ketentuan perjanjiannya. Jika ada perlindungan tambahan, baca risiko yang dicakup, batas pembayaran, dan syarat klaim. Jika muncul masalah terkait layanan atau penagihan, simpan bukti dan gunakan kanal resmi penyelenggara."
+  }
+}

@@ -1,0 +1,307 @@
+{
+ "judul": "Materi TKU PCAM OJK",
+ "merek": "JadiOJK · Materi PCAM OJK",
+ "keterangan": "Dokumen di kolom File sheet 'Kerangka Course' (Mapping Tahap 2 PCAM OJK 2026). Naskah dibuat oleh generator/impor_katalog.py --katalog konten/ojk/katalog.json.",
+ "sumber_sheet": "https://docs.google.com/spreadsheets/d/1gbLje0bYQAQT6lN0QjSSd05OaPMGMdIRm6vRzo0zR-s/edit#gid=442022191",
+ "palet": "jadiojk",
+ "subtes": "Tes Kemampuan Umum",
+ "awalan_nama": "OJK TKU",
+ "indeks_peta": {
+  "Tes Penalaran Induktif": 0,
+  "Tes Penalaran Deduktif": 1,
+  "Tes Bahasa Inggris": 2,
+  "Tes Pengetahuan Sektor Jasa Keuangan": 3
+ },
+ "peta": {
+  "judul": "Tes Kemampuan Umum",
+  "subjudul": "Peta Materi Subtes TKU",
+  "kartu": [
+   {
+    "judul": "Penalaran Induktif",
+    "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+    "ikon": "strategi"
+   },
+   {
+    "judul": "Penalaran Deduktif",
+    "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+    "ikon": "checklist"
+   },
+   {
+    "judul": "Bahasa Inggris",
+    "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+    "ikon": "globe"
+   },
+   {
+    "judul": "Pengetahuan Sektor Jasa Keuangan",
+    "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+    "ikon": "grafik"
+   }
+  ]
+ },
+ "materi": [
+  {
+   "id": "pi-01",
+   "kelompok": "Penalaran Induktif",
+   "subtes": "Tes Penalaran Induktif",
+   "materi": "Fill Shape",
+   "bab": "Fill Shape",
+   "baris_sheet": 2,
+   "dokumen": "Fill Shape.docx",
+   "doc_id": "1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi",
+   "naskah": "ojk_pi_fill_shape.json",
+   "otomatis": true
+  },
+  {
+   "id": "pi-02",
+   "kelompok": "Penalaran Induktif",
+   "subtes": "Tes Penalaran Induktif",
+   "materi": "Drag the Line",
+   "bab": "Drag the Line",
+   "baris_sheet": 4,
+   "dokumen": "Drag the Line.docx",
+   "doc_id": "1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr",
+   "naskah": "ojk_pi_drag_the_line.json",
+   "otomatis": true
+  },
+  {
+   "id": "pd-01",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Calendar Date Selection",
+   "bab": "Calendar Date Selection",
+   "baris_sheet": 6,
+   "dokumen": "Calendar Date Selection - Penalaran Deduktif",
+   "doc_id": "1E3yPOHTghB_nkdES7JNGFQaMA0ZzCu1LkUIXFBeXDWU",
+   "naskah": "ojk_pd_calendar_date_selection.json",
+   "otomatis": true
+  },
+  {
+   "id": "pd-02",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Room Allocations",
+   "bab": "Room Allocations",
+   "baris_sheet": 8,
+   "dokumen": "Room Allocations - Penalaran Deduktif",
+   "doc_id": "1DyUreRcyTFM6TCec4Srlk_cUit5zyv2_XC1OkyArjaU",
+   "naskah": "ojk_pd_room_allocations.json",
+   "otomatis": true
+  },
+  {
+   "id": "pd-03",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Timeline Scheduling",
+   "bab": "Timeline Scheduling",
+   "baris_sheet": 10,
+   "dokumen": "Timeline Scheduling_PCAM OJK 2026.docx",
+   "doc_id": "1uywjxquMQRfUxr12ohHEeVNQnUNg3IDO",
+   "naskah": "ojk_pd_timeline_scheduling.json",
+   "otomatis": true
+  },
+  {
+   "id": "pd-04",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Badges",
+   "bab": "Badges",
+   "baris_sheet": 12,
+   "dokumen": "Badges",
+   "doc_id": "14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w",
+   "naskah": "ojk_pd_badges.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-01",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "OJK dan Dasar Keuangan",
+   "bab": "Pengenalan OJK dan Waspada Investasi",
+   "baris_sheet": 23,
+   "dokumen": "Pengenalan OJK dan Waspada Investasi",
+   "doc_id": "1QK4EVB5S5xiv59vimc2f3SVJcWAQaVd_TCDRPpblugE",
+   "naskah": "ojk_sjk_pengenalan_ojk_dan_waspada_investasi.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-02",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "OJK dan Dasar Keuangan",
+   "bab": "Perencanaan Keuangan",
+   "baris_sheet": 24,
+   "dokumen": "Perencanaan Keuangan",
+   "doc_id": "1qO5uAshmGEH2y1UcCPYhjg9Efmv5D86zEoNb_b_z_0M",
+   "naskah": "ojk_sjk_perencanaan_keuangan.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-03",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Perbankan dan Pembiayaan",
+   "bab": "Perbankan",
+   "baris_sheet": 25,
+   "dokumen": "Perbankan dan Pembiayaan - Perbankan",
+   "doc_id": "1UDHYRRG3l2UNzaappwnvJbDgHC42Dpe1fHmbO69VQyM",
+   "naskah": "ojk_sjk_perbankan.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-04",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Perbankan dan Pembiayaan",
+   "bab": "Perusahaan Pembiayaan",
+   "baris_sheet": 26,
+   "dokumen": "Perbankan dan Pembiayaan - Perusahaan Pembiayaan",
+   "doc_id": "1mWn4NBBPXGDBf4tlq6ThvfvLVglGdCpuelxyT0unylc",
+   "naskah": "ojk_sjk_perusahaan_pembiayaan.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-05",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Perbankan dan Pembiayaan",
+   "bab": "Pergadaian",
+   "baris_sheet": 27,
+   "dokumen": "Perbankan dan Pembiayaan - Pergadaian",
+   "doc_id": "1cAorp1cgMWE0hHYohVsB_HYblRc8K4SVVNN98WraHaU",
+   "naskah": "ojk_sjk_pergadaian.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-06",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Perbankan dan Pembiayaan",
+   "bab": "Lembaga Keuangan Mikro",
+   "baris_sheet": 28,
+   "dokumen": "Perbankan dan Pembiayaan - Lembaga Keuangan Mikro.docx",
+   "doc_id": "1OTtwmI2YDMk8PV3Ec6LuwN8ioVnPw_BG",
+   "naskah": "ojk_sjk_lembaga_keuangan_mikro.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-07",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Perbankan dan Pembiayaan",
+   "bab": "Lembaga Penjaminan",
+   "baris_sheet": 29,
+   "dokumen": "Perbankan dan Pembiayaan - Lembaga Penjaminan.docx",
+   "doc_id": "1vVXxQRLgSa2dgB3m3eLvqRJjpz-eTN2I",
+   "naskah": "ojk_sjk_lembaga_penjaminan.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-08",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Perbankan dan Pembiayaan",
+   "bab": "Perusahaan Modal Ventura",
+   "baris_sheet": 30,
+   "dokumen": "Perbankan dan Pembiayaan - Perusahaan Modal Ventura.docx",
+   "doc_id": "1WmmrvzKKpdYLqNRG8atOF6E29BDjCokJ",
+   "naskah": "ojk_sjk_perusahaan_modal_ventura.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-09",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Perbankan dan Pembiayaan",
+   "bab": "Digital Financial Literacy",
+   "baris_sheet": 31,
+   "dokumen": "Perbankan dan Pembiayaan - Digital Financial Literacy.docx",
+   "doc_id": "1o46asaxR23ZZ9Lc9dTE0JH3KXG1EZGb8",
+   "naskah": "ojk_sjk_digital_financial_literacy.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-10",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Perbankan dan Pembiayaan",
+   "bab": "Fintech",
+   "baris_sheet": 32,
+   "dokumen": "Perbankan dan Pembiayaan - Fintech.docx",
+   "doc_id": "1UvkibRk0sbV54m3noReJ1ISRkXIH9lkj",
+   "naskah": "ojk_sjk_fintech.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-11",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Investasi dan Proteksi",
+   "bab": "Asuransi",
+   "baris_sheet": 33,
+   "dokumen": "Investasi dan Proteksi - Asuransi.docx",
+   "doc_id": "1gpyvMRL5spfjf1L_eGoaYU10DczsnfQb",
+   "naskah": "ojk_sjk_asuransi.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-12",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Investasi dan Proteksi",
+   "bab": "Dana Pensiun",
+   "baris_sheet": 34,
+   "dokumen": "Investasi dan Proteksi_Dana Pensiun.docx",
+   "doc_id": "1rgp1sSQ3UT0prFgdJAZDetqwExzBTl1F",
+   "naskah": "ojk_sjk_dana_pensiun.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-13",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Investasi dan Proteksi",
+   "bab": "Pasar Modal",
+   "baris_sheet": 35,
+   "dokumen": "Investasi dan Proteksi_Pasar Modal.docx",
+   "doc_id": "1eVNYPRvT7ROTz5SVWX3oY80Q0bG0gu91",
+   "naskah": "ojk_sjk_pasar_modal.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-14",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Investasi dan Proteksi",
+   "bab": "Bulion",
+   "baris_sheet": 36,
+   "dokumen": "Investasi dan Proteksi_Bulion.docx",
+   "doc_id": "1zXdx7-eSNG_fRF6KVEhbmI1S8rrAnEWh",
+   "naskah": "ojk_sjk_bulion.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-15",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Investasi dan Proteksi",
+   "bab": "Aset Kripto",
+   "baris_sheet": 37,
+   "dokumen": "Investasi dan Proteksi_Aset Kripto.docx",
+   "doc_id": "1U_eiFlONn42doVtw_osfN51q7cgUBpd9",
+   "naskah": "ojk_sjk_aset_kripto.json",
+   "otomatis": true
+  },
+  {
+   "id": "sjk-16",
+   "kelompok": "Sektor Jasa Keuangan",
+   "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
+   "materi": "Investasi dan Proteksi",
+   "bab": "Keuangan Syariah",
+   "baris_sheet": 38,
+   "dokumen": "Investasi dan Proteksi_Keuangan Syariah.docx",
+   "doc_id": "11l3TdH59lj3dC0qO2EZgFvLJGpFg95Tl",
+   "naskah": "ojk_sjk_keuangan_syariah.json",
+   "otomatis": true
+  }
+ ]
+}

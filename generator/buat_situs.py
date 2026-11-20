@@ -123,21 +123,42 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--template-opsi-b", default=BM.TEMPLATE_TEMA["opsi-b"])
     ap.add_argument("--template-general", default=BM.TEMPLATE_TEMA["general"])
-    ap.add_argument("--keluar", default=os.path.join(AKAR, "situs"))
+    ap.add_argument("--katalog", default=os.path.join(KONTEN, "katalog.json"),
+                    help="Katalog materi (bawaan TIU; OJK: konten/ojk/katalog.json). Naskah dibaca dari foldernya.")
+    ap.add_argument("--keluar", default=None, help="Folder situs (bawaan: situs, atau situs-<nama folder katalog>)")
     ap.add_argument("--tanpa-pdf", action="store_true", help="Lewati PDF dan sampul (tanpa PowerPoint)")
     ap.add_argument("--tema", nargs="+", choices=list(VARIAN), default=["general", "general-foto"],
                     help="Pilihan yang disediakan di situs (bawaan: General sampul putih dan sampul foto)")
-    ap.add_argument("--palet", default="jadiasn",
-                    help="Palet platform untuk warna slide (lihat generator/palet.py); 'tanpa' = warna template")
+    ap.add_argument("--palet", default=None,
+                    help="Palet platform untuk warna slide (lihat generator/palet.py; bawaan: 'palet' di katalog, "
+                         "lalu jadiasn); 'tanpa' = warna template")
     a = ap.parse_args(argv)
-    palet = None if a.palet == "tanpa" else a.palet
     semua = {"opsi-b": a.template_opsi_b, "general": a.template_general}
     template = {v: semua[VARIAN[v][0]] for v in VARIAN if v in a.tema}
 
-    with open(os.path.join(KONTEN, "katalog.json"), encoding="utf-8") as f:
+    konten = os.path.dirname(os.path.abspath(a.katalog))
+    with open(a.katalog, encoding="utf-8") as f:
         katalog = json.load(f)
+    utama = os.path.samefile(konten, KONTEN)
+    if a.keluar is None:
+        a.keluar = os.path.join(AKAR, "situs" if utama else f"situs-{os.path.basename(konten)}")
+    palet = a.palet or katalog.get("palet", "jadiasn")
+    palet = None if palet == "tanpa" else palet
     entri = [dict(m, url=f"https://docs.google.com/document/d/{m['doc_id']}/edit") for m in katalog["materi"]]
-    entri += [dict(m, url=None) for m in TAMBAHAN]
+    entri += [dict(m, url=None) for m in (TAMBAHAN if utama else [])]
+    entri = [m for m in entri if os.path.exists(os.path.join(konten, m["naskah"]))
+             or print(f"Lewati {m['id']}: naskah {m['naskah']} belum ada")]
+
+    # Halaman situs: index.html, middleware.ts (kunci sandi), dan vercel.json disalin dari situs/;
+    # warna halaman mengikuti palet lewat tema.css.
+    os.makedirs(a.keluar, exist_ok=True)
+    sumber_halaman = os.path.join(AKAR, "situs")
+    if os.path.normcase(os.path.abspath(a.keluar)) != os.path.normcase(sumber_halaman):
+        for f in ("index.html", "middleware.ts", "vercel.json"):
+            shutil.copy(os.path.join(sumber_halaman, f), os.path.join(a.keluar, f))
+    import palet as PL
+    with open(os.path.join(a.keluar, "tema.css"), "w", encoding="utf-8") as f:
+        f.write(PL.css_situs(palet or "jadiasn"))
 
     for sub in ("unduh", "sampul"):
         shutil.rmtree(os.path.join(a.keluar, sub), ignore_errors=True)
@@ -150,14 +171,14 @@ def main(argv=None):
 
     data, ekspor = [], []
     for m in entri:
-        with open(os.path.join(KONTEN, m["naskah"]), encoding="utf-8") as f:
+        with open(os.path.join(konten, m["naskah"]), encoding="utf-8") as f:
             naskah = json.load(f)
         slug = _slug(m["naskah"])
         item = {"id": m["id"], "kelompok": m["kelompok"], "bab": m["bab"], "judul": naskah["meta"]["judul"],
                 "dokumen": m["url"], "tema": {}}
         for tema, path in template.items():
             tema_gen, sampul_gen, _, akhiran = VARIAN[tema]
-            prs, b = BM.buat_deck(naskah, path, KONTEN, tema_gen, sampul=sampul_gen, palet=palet)
+            prs, b = BM.buat_deck(naskah, path, konten, tema_gen, sampul=sampul_gen, palet=palet)
             nama = _nama_aman(BM.nama_file(naskah)) + akhiran
             pptx = os.path.join(a.keluar, "unduh", tema, slug + ".pptx")
             pdf = os.path.join(a.keluar, "unduh", tema, slug + ".pdf")
@@ -179,7 +200,8 @@ def main(argv=None):
                 path = os.path.join(a.keluar, t[jenis])
                 t[f"ukuran_{jenis}"] = os.path.getsize(path) if os.path.exists(path) else None
 
-    manifest = {"judul": katalog.get("judul", "Materi"), "sumber_sheet": katalog.get("sumber_sheet"),
+    manifest = {"judul": katalog.get("judul", "Materi"), "merek": katalog.get("merek", "Cerebrum · Materi SKD"),
+                "sumber_sheet": katalog.get("sumber_sheet"),
                 "dibuat": datetime.date.today().isoformat(), "palet": palet,
                 "tema": [{"id": t, "nama": VARIAN[t][2]} for t in template], "materi": data}
     with open(os.path.join(a.keluar, "data.js"), "w", encoding="utf-8") as f:

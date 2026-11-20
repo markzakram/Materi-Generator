@@ -1,0 +1,1412 @@
+{
+  "meta": {
+    "judul": "Keuangan Syariah",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Keuangan Syariah",
+    "sumber": "https://docs.google.com/document/d/11l3TdH59lj3dC0qO2EZgFvLJGpFg95Tl/edit",
+    "id_katalog": "sjk-16"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dua nasabah memperoleh pembiayaan kendaraan dengan cicilan bulanan yang tampak sama. Pada akad pertama, lembaga memberikan pinjaman dengan bunga; pada akad kedua, lembaga membeli barang lalu menjualnya kepada nasabah dengan harga jual dan margin yang disepakati. Walaupun arus pembayarannya dapat tampak mirip, bentuk hubungan hukum dan akadnya berbeda. Inilah alasan peserta perlu memahami struktur transaksi, bukan hanya besaran angsuran.",
+      "Keuangan syariah bukan sekadar penggantian istilah bunga menjadi margin. Setiap produk harus memiliki akad yang jelas, objek dan tujuan transaksi yang sesuai, pengelolaan risiko, serta tata kelola dan pengawasan yang berlaku. Penilaian terhadap produk juga tidak berhenti pada apakah label “syariah” tercantum di brosur."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "konsep keuangan syariah dan landasan prinsip transaksi."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "akad berdasarkan para pihak, objek, sumber keuntungan, dan alokasi risiko."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "BUS, UUS, dan BPR Syariah serta fungsi OJK dan Dewan Pengawas Syariah."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "margin jual beli dan bagian hasil usaha menggunakan angka asumsi soal."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "produk simpanan dan produk investasi menurut kerangka regulasi 2026."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "produk pasar modal dan asuransi syariah serta risiko yang relevan."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "soal konseptual dan kasus dengan kunci serta alasan yang dapat diverifikasi."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Investasi dan Proteksi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Investasi dan Proteksi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian dan Ruang Lingkup Keuangan Syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keuangan syariah adalah kegiatan keuangan yang dijalankan sesuai prinsip hukum Islam sebagaimana diatur dalam ketentuan dan fatwa yang menjadi acuan kegiatan usaha. Di Indonesia, sektor yang relevan meliputi perbankan syariah, pasar modal syariah, perasuransian syariah, lembaga pembiayaan syariah, serta layanan jasa keuangan syariah lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip syariah digunakan untuk memastikan transaksi memiliki akad yang jelas, objek yang sah, pembagian hak dan kewajiban yang transparan, serta tidak mengandung unsur yang dilarang. Lembaga jasa keuangan syariah tetap perlu menerapkan kehati-hatian, pengelolaan risiko, dan pelindungan konsumen. Jadi, syariah tidak berarti risiko usaha dan investasi menjadi nol."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal, kenali dua dimensi sekaligus: dimensi kesesuaian syariah (akad dan objek) dan dimensi pengawasan jasa keuangan (izin, kesehatan lembaga, tata kelola, hak konsumen). Keduanya saling melengkapi."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kelompok sektor",
+                "Fungsi umum",
+                "Contoh produk atau kegiatan"
+              ],
+              "baris": [
+                [
+                  "Perbankan syariah",
+                  "Menghimpun dana dan menyalurkan pembiayaan",
+                  "Tabungan wadiah, pembiayaan murabahah"
+                ],
+                [
+                  "Pasar modal syariah",
+                  "Pendanaan dan investasi lewat efek syariah",
+                  "Saham syariah, sukuk, reksa dana syariah"
+                ],
+                [
+                  "Perasuransian syariah",
+                  "Perlindungan berbasis tolong-menolong peserta",
+                  "Dana tabarru dan pengelolaan risiko"
+                ],
+                [
+                  "Pembiayaan syariah",
+                  "Pembiayaan barang, usaha, atau jasa melalui akad",
+                  "Ijarah dan akad jual beli sesuai izin"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Prinsip Utama dan Unsur yang Harus Dihindari"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip dasar meliputi keadilan, keseimbangan, kemaslahatan, kejelasan, dan kepatuhan pada akad. Dalam praktiknya, pelaku usaha perlu menghindari riba, gharar yang dilarang, maysir, praktik zalim atau manipulatif, serta objek transaksi yang tidak sesuai prinsip syariah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Riba berkaitan dengan tambahan yang dilarang menurut ketentuan syariah; gharar berkaitan dengan ketidakpastian atau ketidakjelasan yang dapat membuat transaksi tidak adil; maysir berkaitan dengan unsur perjudian atau spekulasi terlarang. Tidak semua risiko bisnis berarti gharar terlarang: risiko usaha yang diketahui dan dialokasikan jelas berbeda dari transaksi dengan objek atau kewajiban yang sengaja dibuat kabur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh sederhana: kontrak yang tidak menjelaskan jenis barang, harga, atau tanggal penyerahan dapat menimbulkan masalah kejelasan. Sebaliknya, usaha yang berpotensi untung atau rugi tetapi struktur akadnya jelas tidak otomatis menjadi maysir."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Petunjuk konsep",
+                "Contoh identifikasi dalam soal"
+              ],
+              "baris": [
+                [
+                  "Riba",
+                  "Tambahan yang dilarang dalam hubungan tertentu",
+                  "Tambahan berbasis utang yang bertentangan dengan prinsip"
+                ],
+                [
+                  "Gharar",
+                  "Ketidakjelasan atau ketidakpastian terlarang",
+                  "Objek atau syarat utama kontrak tidak jelas"
+                ],
+                [
+                  "Maysir",
+                  "Unsur perjudian atau spekulasi terlarang",
+                  "Hasil terutama ditentukan pertaruhan"
+                ],
+                [
+                  "Keadilan dan transparansi",
+                  "Hak dan kewajiban disepakati terbuka",
+                  "Harga, nisbah, manfaat, serta biaya dapat diketahui"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memahami Akad: Mengapa Nama Produk Saja Tidak Cukup"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Akad adalah kesepakatan yang menjadi dasar hak dan kewajiban pihak-pihak dalam transaksi. Akad membantu menjawab empat pertanyaan: siapa menyediakan apa, siapa mengelola atau menggunakan apa, bagaimana imbalan diperoleh, dan siapa menanggung risiko tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: transaksi murabahah berangkat dari jual beli barang dengan harga pokok serta margin yang diungkapkan; mudharabah berangkat dari kerja sama pemilik modal dan pengelola usaha; ijarah berkaitan dengan hak manfaat suatu barang/jasa. Kesamaan besaran pembayaran antarkontrak tidak membuat dasar akadnya identik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengerjakan soal, cari kata kerja utama: “menitipkan”, “membagi hasil”, “menjual barang”, “menyewakan manfaat”, “memesan barang”, atau “meminjamkan tanpa imbalan yang diperjanjikan”. Kata kerja itu biasanya mengarah pada satu akad tertentu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Akad Berdasarkan Kebutuhan Nasabah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum mempelajari masing-masing akad, perhatikan kebutuhan utama nasabah dan bentuk transaksi yang sesuai. Peta berikut adalah ilustrasi awal; penentuan akad sebenarnya tetap harus didasarkan pada objek, hak dan kewajiban, serta syarat perjanjian."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kebutuhan nasabah",
+                "Akad relevan",
+                "Contoh sederhana"
+              ],
+              "baris": [
+                [
+                  "Menitipkan dana",
+                  "Wadiah",
+                  "Nasabah menitipkan dana pada bank sesuai ketentuan akad."
+                ],
+                [
+                  "Menginvestasikan dana melalui kerja sama",
+                  "Mudharabah",
+                  "Nasabah menyediakan dana dan bank mengelolanya sesuai kesepakatan bagi hasil."
+                ],
+                [
+                  "Membeli barang dengan harga pokok dan margin terbuka",
+                  "Murabahah",
+                  "Bank membeli barang lalu menjualnya kepada nasabah dengan margin yang disepakati."
+                ],
+                [
+                  "Menggunakan manfaat barang atau jasa",
+                  "Ijarah",
+                  "Nasabah menyewa penggunaan mesin selama satu tahun tanpa otomatis menjadi pemiliknya."
+                ],
+                [
+                  "Menyewa dengan mekanisme pemindahan kepemilikan",
+                  "IMBT",
+                  "Nasabah menyewa kendaraan dengan pengaturan pemindahan kepemilikan di akhir sesuai ketentuan."
+                ],
+                [
+                  "Bekerja sama menjalankan usaha dengan modal satu pihak",
+                  "Mudharabah",
+                  "Bank menyediakan modal dan nasabah pengelola menjalankan usaha; hasil dibagi menurut nisbah."
+                ],
+                [
+                  "Bekerja sama menjalankan usaha dengan modal beberapa pihak",
+                  "Musyarakah",
+                  "Bank dan mitra usaha sama-sama menyertakan modal dalam usaha."
+                ],
+                [
+                  "Memesan barang dengan pembayaran penuh di awal",
+                  "Salam",
+                  "Pembeli membayar hasil panen sesuai spesifikasi untuk diserahkan kemudian."
+                ],
+                [
+                  "Memesan pembuatan barang",
+                  "Istisna",
+                  "Nasabah memesan mesin khusus yang dibuat sesuai spesifikasi."
+                ],
+                [
+                  "Meminjam dana dengan kewajiban mengembalikan pokok",
+                  "Qardh",
+                  "Penerima pinjaman mengembalikan pokok sesuai akad tanpa imbalan pinjaman yang diperjanjikan."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk Kelembagaan: BUS, UUS, dan BPR Syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank Umum Syariah (BUS) merupakan bank yang menjalankan kegiatan usaha berdasarkan prinsip syariah. Unit Usaha Syariah (UUS) adalah unit dari bank umum konvensional yang menjalankan kegiatan usaha berdasarkan prinsip syariah sesuai ketentuan. BPR Syariah (Bank Perekonomian Rakyat Syariah) menyediakan layanan perbankan syariah dengan ruang lingkup dan izin yang berbeda dari bank umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penting diingat: UUS bukan sinonim bank syariah yang sudah menjadi badan hukum bank terpisah. Perbedaan BUS, UUS, dan BPR Syariah berkaitan dengan bentuk kelembagaan, izin, cakupan kegiatan, serta tata kelola. OJK mengatur dan mengawasi sektor perbankan syariah dengan mempertimbangkan kekhasan operasionalnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal, jangan berasumsi setiap bank berlabel syariah boleh melaksanakan seluruh kegiatan bank umum. Periksa kata kunci unit usaha, jenis bank, dan lingkup izin."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Bentuk kelembagaan",
+                "Hal yang bukan karakteristiknya"
+              ],
+              "baris": [
+                [
+                  "BUS",
+                  "Bank umum yang berkegiatan menurut prinsip syariah",
+                  "Unit bank konvensional tanpa entitas bank tersendiri"
+                ],
+                [
+                  "UUS",
+                  "Unit usaha syariah dari bank umum konvensional",
+                  "Nama lain untuk semua bank umum syariah"
+                ],
+                [
+                  "BPR Syariah",
+                  "Bank perekonomian rakyat dengan prinsip syariah",
+                  "Bank umum dengan seluruh layanan lintas izin"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Akad Wadiah dan Mudharabah pada Penghimpunan Dana"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Wadiah adalah akad penitipan dana atau barang kepada pihak yang dipercaya untuk menjaga dan mengembalikannya sesuai ketentuan. Pada penghimpunan dana, akad ini sering dikenalkan lewat produk giro atau tabungan wadiah. Tambahan berupa bonus tidak boleh diperlakukan sebagai imbal hasil yang dijanjikan di awal akad."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mudharabah adalah kerja sama pemilik modal (shahibul mal) dan pengelola (mudharib). Keuntungan yang terealisasi dibagi menurut nisbah yang disepakati. Dalam kerangka dasar akad, kerugian usaha normal ditanggung pemilik modal, sedangkan pengelola kehilangan kontribusi usaha/tenaganya; bila terjadi kecurangan, kelalaian, atau pelanggaran akad, tanggung jawab perlu dinilai menurut ketentuan dan kontrak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam penghimpunan dana dengan akad mudharabah, nasabah berkedudukan sebagai pemilik dana (shahibul mal), sedangkan bank bertindak sebagai pengelola dana (mudharib) sesuai akad. Contohnya, nasabah menempatkan dana pada produk berbasis mudharabah; bank mengelola dana dalam kegiatan yang diperkenankan, kemudian hasil yang menjadi dasar distribusi dibagi sesuai nisbah yang disepakati. Bagi hasil bukan nominal tetap yang dijamin. Status simpanan atau investasi dan perlakuan risikonya tetap mengikuti jenis produk serta ketentuan yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada produk bank, klasifikasi simpanan dan investasi harus dibaca berdasarkan regulasi terbaru. Tidak setiap produk yang memakai istilah mudharabah otomatis diperlakukan sama dengan produk investasi perbankan syariah yang diatur khusus POJK 4/2026."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Akad Murabahah: Jual Beli dengan Margin"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Murabahah merupakan jual beli barang ketika penjual menyatakan harga perolehan dan menyepakati keuntungan atau margin dengan pembeli. Intinya, hubungan transaksi berupa jual beli dengan harga jual yang disepakati, bukan pemberian uang lalu menetapkan tambahan karena semata-mata berjalannya waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ilustrasi: suatu barang diperoleh bank dengan harga Rp24.000.000. Dalam kasus hipotetis disepakati margin jual Rp3.600.000 sehingga harga jual kepada nasabah Rp27.600.000. Jika pembayaran dicicil 12 kali tanpa biaya lain, cicilan harga jual dalam ilustrasi adalah Rp2.300.000 per bulan. Angka tersebut bukan tarif atau skema resmi semua bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan umum adalah menyebut margin murabahah sebagai nisbah bagi hasil. Margin merupakan komponen harga pada transaksi jual beli; nisbah merupakan persentase pembagian hasil usaha menurut akad kerja sama. Untuk menguji akad, lihat kepemilikan dan penyerahan barang, penetapan harga jual, serta syarat lainnya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Komponen ilustratif murabahah",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "Harga perolehan barang",
+                  "Rp24.000.000"
+                ],
+                [
+                  "Margin yang disepakati",
+                  "Rp3.600.000"
+                ],
+                [
+                  "Harga jual",
+                  "Rp27.600.000"
+                ],
+                [
+                  "Angsuran 12 bulan, tanpa biaya lain",
+                  "Rp2.300.000 per bulan"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Akad Mudharabah dan Musyarakah untuk Pembiayaan Usaha"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam mudharabah, satu pihak menyediakan modal dan pihak lain mengelola kegiatan usaha sesuai akad. Pada musyarakah, dua pihak atau lebih sama-sama menyediakan porsi modal untuk menjalankan usaha. Kedua akad dapat melibatkan pembagian keuntungan, tetapi struktur kontribusi modal dan pembagian tanggung jawabnya tidak sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pembiayaan usaha dengan akad mudharabah, posisi para pihak berbeda dari penghimpunan dana: bank bertindak sebagai penyedia modal (shahibul mal), sedangkan nasabah pelaku usaha menjadi pengelola (mudharib). Contohnya, bank menyediakan modal bagi usaha pengolahan makanan dan nasabah menjalankan usahanya; keuntungan yang terealisasi dibagi menurut nisbah akad. Kerugian usaha normal pada prinsipnya ditanggung penyedia modal, sepanjang tidak disebabkan kelalaian, kecurangan, atau pelanggaran akad oleh pengelola."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keuntungan mudharabah didistribusikan menurut nisbah yang disepakati; kerugian usaha normal pada prinsipnya menjadi risiko pemilik modal selama pengelola tidak lalai atau melanggar akad. Dalam musyarakah, keuntungan mengikuti nisbah yang disetujui, sedangkan kerugian mengikuti porsi kontribusi modal sesuai ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan peran: pada penghimpunan dana, nasabah = pemilik dana dan bank = pengelola; pada pembiayaan usaha, bank = pemilik modal dan nasabah usaha = pengelola. Kesamaan nama akad tidak berarti posisi bank dan nasabah selalu sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: mitra A dan B menempatkan modal masing-masing Rp60 juta dan Rp40 juta untuk usaha musyarakah. Jika terjadi kerugian usaha normal Rp10 juta, pembagian kerugian berdasarkan modal adalah Rp6 juta untuk A dan Rp4 juta untuk B. Sebaliknya, pembagian keuntungan menggunakan nisbah yang disepakati, yang dapat berbeda dari porsi modal sesuai batas ketentuan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Mudharabah",
+                "Musyarakah"
+              ],
+              "baris": [
+                [
+                  "Sumber modal",
+                  "Pemilik modal menyediakan modal",
+                  "Para mitra menyertakan modal"
+                ],
+                [
+                  "Pelaksana usaha",
+                  "Pengelola menjalankan usaha",
+                  "Berdasarkan kesepakatan para mitra"
+                ],
+                [
+                  "Keuntungan",
+                  "Menurut nisbah akad",
+                  "Menurut nisbah yang disepakati"
+                ],
+                [
+                  "Kerugian usaha normal",
+                  "Pada pemilik modal, kecuali pelanggaran pengelola",
+                  "Menurut porsi kontribusi modal"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Akad Ijarah dan Ijarah Muntahiyah Bittamlik"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ijarah merupakan akad pemindahan hak guna atau manfaat barang maupun jasa untuk jangka waktu tertentu dengan pembayaran sewa atau imbalan, tanpa dengan sendirinya memindahkan kepemilikan barang. Yang dipertukarkan adalah manfaat, bukan langsung hak milik atas objek."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ijarah Muntahiyah Bittamlik (IMBT) adalah pengaturan sewa yang disertai mekanisme atau opsi pemindahan kepemilikan pada akhir sesuai syarat akad. Karena itu, IMBT tidak boleh disamakan dengan ijarah biasa tanpa menelaah ketentuan pemindahan kepemilikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan istilah “hak guna”, “sewa”, “ujrah”, dan “opsi pemindahan hak milik”. Bila soal menyebut penggunaan mesin selama 24 bulan dan biaya sewa, karakter awalnya ijarah. Bila ada struktur pemindahan kepemilikan yang sah pada akhir masa sewa, analisisnya mengarah ke IMBT."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Akad Salam, Istisna, dan Qardh"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Salam adalah pemesanan barang dengan pembayaran harga lebih dahulu dan ketentuan barang serta waktu penyerahan yang disepakati. Istisna adalah akad pemesanan pembuatan atau pembangunan barang tertentu sesuai spesifikasi. Keduanya berhubungan dengan pemesanan, tetapi karakter cara pembayaran, proses produksi, serta syarat akad perlu dibedakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Qardh adalah pinjaman dana dengan kewajiban mengembalikan pokok sesuai kesepakatan dan ketentuan. Akad ini tidak identik dengan kerja sama berbagi keuntungan ataupun jual beli dengan margin. Biaya yang boleh dikenakan harus dibaca menurut ketentuan yang berlaku, bukan diasumsikan sebagai bunga atau laba tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ilustrasi: petani menjual hasil panen dengan spesifikasi dan pembayaran penuh di muka untuk penyerahan kemudian—arahnya salam. Bengkel diminta membuat peralatan khusus berdasarkan desain—arahnya istisna. Dana dipinjam lalu dikembalikan sejumlah pokok—arahnya qardh."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Akad",
+                "Kata kunci",
+                "Kekeliruan yang harus dihindari"
+              ],
+              "baris": [
+                [
+                  "Salam",
+                  "Pesan barang, bayar di muka",
+                  "Menyamakannya dengan sewa barang"
+                ],
+                [
+                  "Istisna",
+                  "Pesan barang untuk dibuat",
+                  "Menyamakannya dengan titipan uang"
+                ],
+                [
+                  "Qardh",
+                  "Pinjaman, pengembalian pokok",
+                  "Menyamakannya dengan margin jual beli"
+                ],
+                [
+                  "Ijarah",
+                  "Sewa/manfaat dengan ujrah",
+                  "Menyamakannya dengan jual barang langsung"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membaca Nisbah Bagi Hasil dengan Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nisbah adalah persentase pembagian keuntungan usaha antara para pihak dalam akad bagi hasil. Angka nisbah 60:40 tidak berarti modal akan memperoleh imbal hasil tetap 60% ataupun keuntungan pasti sebesar 60% dari modal. Besaran yang dibagikan adalah hasil usaha yang menjadi dasar distribusi menurut akad."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ilustrasi: hasil usaha yang dapat dibagi sebesar Rp5.000.000 dan nisbah pemilik modal 60% serta pengelola 40%. Bagian pemilik modal adalah Rp3.000.000 dan bagian pengelola Rp2.000.000. Jika hasil yang dapat dibagi berbeda, nominal bagi hasil juga berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal yang baik harus menyebut dasar perhitungan hasil, periode, pihak penerima, dan nisbah. Jangan memakai modal sebagai dasar pembagian jika yang dinyatakan adalah laba yang dapat dibagikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Produk Simpanan dan Produk Investasi Bank Syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan regulasi perlu dipahami secara khusus. POJK 26 Tahun 2024 mengenai perluasan kegiatan usaha perbankan memuat dasar produk simpanan dan investasi; POJK 4 Tahun 2026 secara khusus mengatur penyelenggaraan produk investasi perbankan syariah dan berlaku 29 April 2026. OJK menegaskan adanya pemisahan antara produk dana pihak ketiga berupa simpanan dan produk investasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Produk investasi perbankan syariah dalam POJK 4/2026 merupakan investasi terikat dengan pengelolaan aset yang mendasari, pelaporan pada posisi keuangan bank, pengaturan pembagian hasil dan risiko, serta pemisahan pengelolaan/pencatatan dari dana simpanan. Bank wajib menerapkan tata kelola, kesesuaian produk dengan profil investor (suitability assessment), transparansi, dan kewajiban fidusia dalam pengelolaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kuncinya adalah tujuan dan bentuk hubungan hukum. Simpanan dan investasi tidak boleh digeneralisasi sebagai produk yang identik. Produk investasi mempunyai karakter risiko investasi, sedangkan perlakuan penjaminan simpanan harus ditentukan oleh jenis produk dan ketentuan penjaminan yang berlaku; jangan mengklaim seluruh produk sama-sama dijamin."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Simpanan perbankan syariah",
+                "Produk investasi POJK 4/2026"
+              ],
+              "baris": [
+                [
+                  "Tujuan utama",
+                  "Penghimpunan dana simpanan",
+                  "Penanaman dana untuk hasil investasi"
+                ],
+                [
+                  "Dasar pengaturan",
+                  "Simpanan sesuai jenis dan akad",
+                  "Penyelenggaraan investasi khusus"
+                ],
+                [
+                  "Pencatatan/pengelolaan",
+                  "Sesuai ketentuan dana simpanan",
+                  "Terpisah dari dana simpanan"
+                ],
+                [
+                  "Pemeriksaan konsumen",
+                  "Ketentuan produk dan pelindungan nasabah",
+                  "Suitability, pengungkapan, profil investor"
+                ],
+                [
+                  "Risiko",
+                  "Sesuai akad dan jenis simpanan",
+                  "Melekat risiko hasil dan aset investasi"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengawasan dan Kepatuhan Syariah: OJK, DSN-MUI, dan DPS"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK menjalankan kewenangan pengaturan serta pengawasan lembaga jasa keuangan, termasuk bank dan pelaku industri syariah sesuai sektor dan ketentuan. Dalam kaitannya dengan prinsip syariah, peranan fatwa dan pelaksanaan pengawasan kepatuhan syariah perlu dipisahkan dari fungsi pengawasan prudensial."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dewan Syariah Nasional–Majelis Ulama Indonesia (DSN-MUI) terkait dengan penetapan fatwa kesesuaian prinsip syariah dalam ruang lingkup kewenangannya. Dewan Pengawas Syariah (DPS) pada lembaga terkait menjalankan pengawasan atas kepatuhan kegiatan dan produk terhadap prinsip syariah sesuai ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK mengatur/mengawasi lembaga jasa keuangan, sementara DPS berfokus pada kepatuhan syariah di lembaga. Fatwa DSN-MUI bukan pengganti izin usaha OJK."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pasar Modal Syariah dan Daftar Efek Syariah (DES)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasar modal syariah adalah bagian dari pasar modal dengan produk dan mekanisme transaksi yang memenuhi prinsip syariah. Efek syariah dapat berupa saham syariah, sukuk, reksa dana syariah, serta bentuk efek syariah lainnya sesuai peraturan. Tidak setiap efek konvensional otomatis termasuk efek syariah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Daftar Efek Syariah (DES) merupakan kumpulan efek yang memenuhi kriteria dan ditetapkan OJK atau pihak penerbit DES yang mendapat persetujuan. DES berfungsi sebagai rujukan bagi pengelolaan portofolio syariah dan pembentukan indeks. POJK 8 Tahun 2025 memperbarui ketentuan penerbitan DES dan DES luar negeri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "ISSI dan JII adalah indeks, bukan nama produk tabungan bank. DES adalah daftar rujukan, bukan jaminan kinerja harga. Saham yang masuk DES tetap dapat mengalami penurunan nilai pasar dan memerlukan analisis risiko."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Fungsi",
+                "Kesalahan umum"
+              ],
+              "baris": [
+                [
+                  "DES",
+                  "Kumpulan efek yang memenuhi kriteria syariah",
+                  "Dianggap jaminan keuntungan"
+                ],
+                [
+                  "ISSI / JII",
+                  "Indeks saham syariah dengan metodologi masing-masing",
+                  "Disamakan dengan badan pengawas"
+                ],
+                [
+                  "Saham syariah",
+                  "Bukti penyertaan kepemilikan saham yang sesuai kriteria",
+                  "Dianggap selalu tanpa risiko pasar"
+                ],
+                [
+                  "Sukuk",
+                  "Efek syariah dengan hak sesuai akad dan aset dasar",
+                  "Dianggap obligasi berbunga biasa"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sukuk: Efek Syariah Berbasis Aset atau Manfaat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sukuk adalah efek syariah yang merepresentasikan bagian kepemilikan atau hak yang sesuai akad atas aset, manfaat, proyek, atau kegiatan investasi sebagai dasar penerbitan (underlying). Konsep sukuk tidak tepat disederhanakan sebagai pinjaman berbunga yang hanya diganti namanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Struktur sukuk bergantung pada akad yang digunakan. Imbalan dapat terkait dengan manfaat sewa atau aktivitas lain yang memenuhi syarat, sementara hak dan risikonya ditentukan oleh dokumen serta ketentuan penerbitan. Penting membedakan hubungan ekonomi dari sukuk dengan obligasi konvensional yang lazimnya berbasis utang dan bunga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh soal sebaiknya menanyakan arti underlying asset atau akad, bukan menyimpulkan seluruh sukuk memiliki pola imbalan dan jaminan yang persis sama. Tidak semua sukuk otomatis bebas risiko gagal bayar, likuiditas, atau perubahan harga."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Reksa Dana Syariah, Screening, dan Pengelolaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reksa dana syariah mengumpulkan dana pemodal dalam portofolio efek yang dikelola menurut prinsip syariah. Manajer investasi dan pihak terkait harus mengikuti ketentuan mengenai pemilihan efek, pengelolaan, serta mekanisme syariah yang relevan. Produk ini tidak boleh disamakan dengan simpanan bank yang memiliki karakter hukum berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyaringan (screening) mempertimbangkan kesesuaian kegiatan usaha dan kriteria keuangan sesuai peraturan. Jika terdapat pendapatan atau unsur yang memerlukan perlakuan khusus, mekanisme pembersihan pendapatan nonhalal (cleansing) dilakukan menurut ketentuan yang berlaku dan dokumen produk; bukan sekadar membagikan seluruh pendapatan tanpa pemeriksaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keuntungan reksa dana syariah tidak dijamin hanya karena portofolionya disaring. Nilai investasi tetap dapat berubah, dan keputusan harus mempertimbangkan prospektus, tujuan, biaya, risiko, serta kesesuaian produk dengan kebutuhan investor."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Asuransi Syariah: Konsep Saling Menolong dan Pembagian Risiko"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Asuransi syariah dibangun atas konsep saling melindungi dan tolong-menolong di antara peserta melalui dana dan akad sesuai prinsip syariah. Dalam konsep ini, peserta berbagi risiko (risk sharing), sedangkan perusahaan mengelola kegiatan sesuai akad dan perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dana tabarru adalah kumpulan dana dari kontribusi peserta yang digunakan menurut ketentuan untuk manfaat perlindungan. Kontribusi tabarru tidak boleh disamakan seluruhnya dengan pendapatan bebas milik perusahaan. Perusahaan dapat menerima ujrah atau imbalan pengelolaan ketika menggunakan akad wakalah bil ujrah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kunci soal: “dana peserta”, “tolong-menolong”, “pengelolaan dengan ujrah”, dan “klaim menurut polis”. Adanya dana tabarru tidak berarti semua klaim pasti dibayar tanpa memeriksa peristiwa, syarat, pengecualian, dan kecukupan dana."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Makna dalam asuransi syariah",
+                "Catatan"
+              ],
+              "baris": [
+                [
+                  "Tabarru",
+                  "Dana tolong-menolong peserta",
+                  "Digunakan sesuai akad/polis"
+                ],
+                [
+                  "Wakalah bil ujrah",
+                  "Pemberian kuasa pengelolaan dengan imbal jasa",
+                  "Perusahaan mengelola dengan ujrah"
+                ],
+                [
+                  "Risk sharing",
+                  "Risiko peserta ditanggung bersama sesuai akad",
+                  "Berbeda dari konsep pengalihan risiko murni"
+                ],
+                [
+                  "Surplus underwriting",
+                  "Selisih lebih dana setelah komponen yang relevan",
+                  "Distribusi terikat syarat/peraturan"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Surplus Underwriting dan Qardh pada Asuransi Syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Surplus underwriting secara konseptual terjadi ketika terdapat selisih lebih antara kontribusi dan pemulihan klaim terhadap pembayaran manfaat, reasuransi, dan perubahan cadangan/penyisihan yang relevan pada periode tertentu. Cara penghitungan dan distribusinya mengikuti akad, polis, serta regulasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelebihan dana tabarru tidak otomatis menjadi laba perusahaan dan juga tidak otomatis seluruhnya dibagikan kepada peserta. Distribusi dapat dibatasi oleh tingkat solvabilitas, keberadaan kewajiban qardh, kecukupan investasi, dan ketentuan lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Qardh dalam konteks asuransi syariah merupakan pinjaman dari dana perusahaan untuk mendukung dana tabarru dalam kondisi yang diatur. Qardh bukan hadiah tanpa konsekuensi, tetapi mekanismenya harus memenuhi ketentuan, termasuk aturan mengenai pengembaliannya. Untuk soal, perhatikan siapa pemberi dan penerima dana."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembiayaan Syariah, Fintech, dan Fungsi Sosial"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip akad syariah juga dapat digunakan pada perusahaan pembiayaan serta layanan pendanaan berbasis teknologi yang memiliki izin dan lingkup usaha yang sesuai. Namun, label aplikasi “syariah” sendiri tidak membuktikan legalitas, kesesuaian akad, atau keamanan produk. Perlu pemeriksaan pada identitas penyelenggara, izin, biaya, kontrak, dan skema pembagian risiko."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sektor keuangan syariah juga memiliki karakter sosial, antara lain pengelolaan atau penyaluran dana sosial sesuai kewenangan dan ketentuan. Zakat, infak, sedekah, serta wakaf memiliki tujuan dan dasar hukum berbeda dari produk komersial. Tidak setiap bank otomatis bertindak sebagai pengelola wakaf tanpa mengikuti aturan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Produk seperti Cash Waqf Linked Deposit (CWLD) dan Shariah Restricted Investment Account (SRIA) telah mendapat pedoman pengembangan OJK. Untuk level dasar, peserta perlu mengenali bahwa produk tersebut memiliki tujuan serta struktur akad dan pengelolaan tersendiri, bukan sekadar nama lain tabungan biasa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pelindungan Konsumen, Risiko, dan Pemeriksaan Informasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kepatuhan prinsip syariah tidak meniadakan risiko pembiayaan, gagal bayar, likuiditas, operasional, dan pasar. Nasabah perlu menerima penjelasan jelas mengenai akad, objek, hak dan kewajiban, biaya, pembagian hasil, potensi kerugian, serta mekanisme penanganan pengaduan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa tiga aspek secara terpisah: legalitas pihak penyedia layanan, kesesuaian syariah produk atau akad, dan kelayakan ekonomi/risiko bagi konsumen. Sebuah produk dapat menggunakan istilah syariah tetapi tetap harus dipastikan izin serta dokumen perjanjiannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembaruan Regulasi dan Arah Industri 2023–2027"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "UU 21/2008 tentang Perbankan Syariah dan UU 4/2023 tentang P2SK membentuk dasar hukum sektor yang terus berkembang. Roadmap Pengembangan dan Penguatan Perbankan Syariah Indonesia 2023–2027 menjadi arah penguatan struktur, digitalisasi, karakteristik syariah, kontribusi ekonomi, dan pengawasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK 8/2025 mengatur penerbitan Daftar Efek Syariah dan DES luar negeri. POJK 4/2026 mengatur produk investasi perbankan syariah secara khusus. Di sektor asuransi, regulasi yang relevan termasuk POJK 36/2024 sebagai perubahan pengaturan usaha perasuransian serta POJK 27/2025 mengenai pengelolaan aset dan liabilitas pada perusahaan asuransi/reasuransi prinsip syariah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Buku Saku OJK Edisi 2 tahun 2015 sangat berguna untuk memahami dasar akad dan industri, tetapi status pasal, nomenklatur, kriteria rasio, serta daftar emiten atau produk harus mengikuti peraturan terbaru. Jangan menggunakan contoh sejarah dalam buku lama sebagai bukti status izin pada 2026."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Sumber hukum/pedoman",
+                "Pokok relevan",
+                "Tahun"
+              ],
+              "baris": [
+                [
+                  "UU 21/2008 jo. UU P2SK",
+                  "Kerangka perbankan syariah dan penguatan sektor",
+                  "2008; 2023"
+                ],
+                [
+                  "Roadmap RP3SI",
+                  "Arah pengembangan perbankan syariah",
+                  "2023–2027"
+                ],
+                [
+                  "POJK 8/2025",
+                  "Penerbitan DES dan DES luar negeri",
+                  "2025"
+                ],
+                [
+                  "POJK 4/2026",
+                  "Produk investasi perbankan syariah",
+                  "2026"
+                ],
+                [
+                  "POJK 36/2024 & POJK 27/2025",
+                  "Penyelenggaraan dan pengelolaan asuransi syariah",
+                  "2024–2025"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Menjawab dan Kesalahan yang Perlu Dihindari"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah pertama: identifikasi hubungan transaksi. Kata “titipan” menunjuk wadiah, “jual beli dengan harga pokok dan margin” menunjuk murabahah, “sewa manfaat” menunjuk ijarah, dan “bagi hasil usaha” menuntut analisis apakah modal satu pihak atau beberapa mitra."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah kedua: pisahkan konsep dari hasil keuangan. Nisbah adalah rasio hasil, bukan tingkat bunga tetap; margin adalah komponen harga jual, bukan porsi laba kerja sama; DES adalah penyaringan efek, bukan jaminan kinerja; dana tabarru adalah dana peserta, bukan otomatis kas perusahaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah ketiga: periksa konteks regulasi. Soal tentang produk investasi bank syariah 2026 seharusnya merujuk pada POJK 4/2026, bukan menjadikan praktik simpanan lama sebagai aturan yang seragam. Setiap angka dalam contoh kasus harus diberi asumsi eksplisit."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ringkasan Inti Keuangan Syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keuangan syariah mencakup kegiatan jasa keuangan yang memenuhi prinsip syariah sekaligus tunduk pada tata kelola dan pengawasan sesuai sektor. Riba, gharar terlarang, maysir, dan objek usaha yang tidak sesuai adalah unsur penting yang harus dikenali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Akad memiliki fungsi berbeda: wadiah untuk titipan, mudharabah untuk kerja sama pemilik modal–pengelola, musyarakah untuk kerja sama modal para mitra, murabahah untuk jual beli dengan margin, ijarah untuk sewa manfaat, salam dan istisna untuk pemesanan, serta qardh untuk pinjaman pokok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di pasar modal, saham syariah, sukuk, dan reksa dana syariah memiliki karakteristik masing-masing. Dalam asuransi syariah, dana tabarru dan wakalah bil ujrah berkaitan dengan tolong-menolong dan pengelolaan. Semua sektor tetap memerlukan transparansi, analisis risiko, serta pemahaman regulasi terkini."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Unsur yang Dihindari dalam Transaksi Syariah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perjanjian tidak menjelaskan objek dan kewajiban utama sehingga pihak yang menyetujui kontrak tidak memahami apa yang diperoleh. Unsur yang paling tepat untuk menggambarkan masalah tersebut adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Maysir karena hasil transaksi hanya bergantung pada pertaruhan",
+            "B": "Gharar karena objek dan syarat penting transaksi tidak jelas",
+            "C": "Riba karena penjual menuliskan harga barang saat kontrak",
+            "D": "Wadiah karena penerima titipan mempunyai tugas penjagaan",
+            "E": "Ijarah karena pemberi sewa memperoleh pembayaran manfaat"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Larangan gharar dalam transaksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketidakjelasan pada objek dan syarat utama menunjukkan gharar yang dilarang, karena para pihak tidak mengetahui kewajiban dan hak dasarnya. Soal tidak menyebut adanya pertaruhan, tambahan utang, penitipan, ataupun sewa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A keliru: tidak ada pertaruhan; C keliru: harga tertulis bukan otomatis riba; D dan E menunjuk jenis akad yang tidak digambarkan kasus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari apa yang bermasalah: ketidakjelasan kontrak mengarah pada gharar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Fungsi Akad Wadiah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nasabah menyerahkan dana pada bank untuk dijaga dan dapat diminta kembali berdasarkan ketentuan akad. Tidak ada nisbah hasil usaha yang diperjanjikan. Akad yang paling sesuai adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Musyarakah karena nasabah menjadi mitra penyedia modal usaha",
+            "B": "Murabahah karena terdapat penjualan barang dengan margin",
+            "C": "Mudharabah karena laba usaha dibagi mengikuti nisbah",
+            "D": "Wadiah karena inti hubungan nasabah berupa penitipan",
+            "E": "Istisna karena bank diminta membuat barang pesanan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Wadiah sebagai akad titipan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Wadiah menekankan penitipan dan penjagaan dana/barang, bukan otomatis kerja sama pembagian laba. Keterangan “tidak ada nisbah” membantu membedakannya dari mudharabah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A dan C memerlukan kerja sama usaha; B mensyaratkan jual beli; E mensyaratkan pemesanan pembuatan barang."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kata penentu: menitipkan dan mengembalikan titipan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Murabahah dan Margin",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank membeli barang seharga Rp24 juta lalu menjualnya seharga Rp27,6 juta kepada nasabah dengan margin disepakati. Hubungan akad yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Jual beli murabahah dengan harga pokok dan margin terbuka",
+            "B": "Bagi hasil mudharabah antara pemodal dan pengelola usaha",
+            "C": "Kerja sama musyarakah dengan dua pihak menyetor modal",
+            "D": "Sewa ijarah karena kepemilikan barang selalu tetap di bank",
+            "E": "Titipan wadiah karena bank berkewajiban menjaga barang"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Akad murabahah dan sumber margin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank melakukan jual beli barang dengan mengungkap harga perolehan serta margin yang disepakati. Harga jual dalam ilustrasi Rp27,6 juta, dengan margin Rp3,6 juta; ini bukan nisbah bagi hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** B dan C membahas kerja sama; D membahas hak manfaat sewa; E membahas penitipan, bukan pemindahan barang melalui jual beli."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Harga pokok + margin disepakati = ciri murabahah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kerugian pada Akad Musyarakah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mitra A menanam Rp60 juta dan mitra B Rp40 juta dalam akad musyarakah. Jika terjadi kerugian usaha normal Rp10 juta tanpa pelanggaran akad, pembagian kerugian yang tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "A Rp5 juta dan B Rp5 juta karena keduanya bekerja sama",
+            "B": "A Rp4 juta dan B Rp6 juta berdasarkan laba yang dijanjikan",
+            "C": "A Rp6 juta dan B Rp4 juta mengikuti porsi penyertaan modal",
+            "D": "A Rp10 juta dan B nol karena A memberi modal lebih besar",
+            "E": "A nol dan B Rp10 juta karena B menempatkan modal lebih kecil"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kerugian musyarakah menurut porsi modal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Porsi modal A adalah 60% dan B 40%. Kerugian usaha normal Rp10 juta dibagi menurut modal: A Rp6 juta dan B Rp4 juta. Pembagian keuntungan dapat mengikuti nisbah akad, tetapi pembagian kerugian normal berdasarkan modal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A mengabaikan porsi modal; B membalik porsi; D dan E memindahkan seluruh kerugian kepada satu mitra tanpa dasar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk kerugian musyarakah, hitung persentase kontribusi modal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Ciri Akad Ijarah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan menyediakan manfaat penggunaan mesin untuk dua tahun. Pengguna membayar sewa berkala, tetapi kepemilikan mesin tidak berpindah hanya karena pembayaran tersebut. Akad yang paling tepat ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Mudharabah karena pemodal menerima bagian laba usaha",
+            "B": "Salam karena harga dibayar di muka sebelum barang diserahkan",
+            "C": "Istisna karena benda dipesan untuk dibuat terlebih dahulu",
+            "D": "Murabahah karena harga jual terdiri dari pokok dan margin",
+            "E": "Ijarah karena yang dipertukarkan adalah manfaat atau sewa"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Ijarah sebagai pemindahan hak manfaat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ijarah adalah penyediaan manfaat barang atau jasa dengan imbalan, tanpa otomatis memindahkan kepemilikan objek. Tidak terdapat keterangan opsi pemindahan hak milik seperti pada struktur IMBT."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A adalah kerja sama usaha; B dan C adalah pemesanan barang; D adalah jual beli, bukan sewa manfaat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bila objek tetap dimiliki pihak penyedia dan hanya manfaatnya digunakan, cek ijarah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Produk Investasi Perbankan Syariah Tahun 2026",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank syariah menawarkan produk investasi terikat kepada nasabah investor dan wajib memisahkan pencatatan dana investasi dari dana simpanan. Regulasi khusus yang mendasari pengaturan tersebut adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "POJK 4/2026 tentang produk investasi perbankan syariah",
+            "B": "POJK 36/2024 mengenai usaha perasuransian syariah",
+            "C": "POJK 8/2025 tentang penerbitan Daftar Efek Syariah",
+            "D": "POJK 27/2025 mengenai aset dan liabilitas asuransi syariah",
+            "E": "Roadmap RP3SI sebagai pedoman penguatan perbankan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** POJK 4/2026 memisahkan produk investasi dan simpanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK 4 Tahun 2026 mengatur produk investasi perbankan syariah sebagai produk investasi terikat dan mengatur pemisahan pengelolaan/pencatatan, suitability, tata kelola, serta keterbukaan. Roadmap menjadi arah, bukan pengganti peraturan khusus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A membahas efek syariah; B dan D membahas asuransi; E adalah dokumen strategi, bukan regulasi produk investasi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kata kunci produk investasi terikat bank syariah mengarah ke POJK 4/2026."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Peran Daftar Efek Syariah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Manajer investasi menyusun portofolio saham syariah dan memerlukan rujukan efek yang memenuhi kriteria. Dokumen acuan yang paling relevan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Laporan transaksi antarbank untuk pengelolaan rekening giro",
+            "B": "Neraca keuangan bank sebagai penentu kuota angsuran rumah",
+            "C": "Daftar premi perusahaan asuransi untuk pembiayaan tabarru",
+            "D": "Daftar aset tetap emiten tanpa mempertimbangkan kegiatan usaha",
+            "E": "Daftar Efek Syariah yang ditetapkan sesuai kewenangan OJK"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Daftar Efek Syariah sebagai acuan kelayakan efek."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "DES menghimpun efek yang memenuhi kriteria syariah dan menjadi rujukan pengelolaan portofolio syariah. Penerbitan DES diatur antara lain dalam POJK 8/2025. DES tidak menjamin kenaikan harga efek yang masuk daftar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A–D bukan daftar acuan efek syariah; termasuk daftar aset emiten tidak otomatis memenuhi screening prinsip syariah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kata “rujukan efek memenuhi kriteria syariah” menunjuk DES."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Perbedaan Sukuk dan Obligasi Berbunga",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan menerbitkan surat berharga syariah yang mewakili hak sesuai akad atas aset atau manfaat yang mendasari penerbitan. Produk tersebut adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Saham biasa yang selalu memberikan kendali pemegang mayoritas",
+            "B": "Sukuk yang mempunyai keterkaitan dengan underlying asset",
+            "C": "Deposito bank dengan kewajiban pemberian bunga tetap",
+            "D": "Surat utang konvensional yang nilainya hanya berbasis bunga",
+            "E": "Reksa dana yang dikelola tanpa pemilihan efek sesuai akad"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Sukuk dan aset dasar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sukuk merupakan efek syariah yang memiliki struktur hak dan akad atas aset/manfaat yang mendasari. Walaupun dapat memberi imbalan, strukturnya tidak otomatis sama dengan utang berbunga. Detail hak dan risiko bergantung akad penerbitannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A adalah saham; C adalah produk simpanan; D adalah obligasi konvensional; E bukan ciri sukuk."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan aset/manfaat dasar dan akad penerbitan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dana Tabarru pada Asuransi Syariah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta asuransi syariah menyisihkan kontribusi untuk membantu peserta lain yang mengalami kejadian ditanggung dalam polis. Dana bersama itu disebut ...."
+            }
+          ],
+          "opsi": {
+            "A": "Dana margin murabahah sebagai keuntungan jual beli lembaga",
+            "B": "Dana kustodian saham sebagai biaya perdagangan bursa",
+            "C": "Dana bagi hasil mudharabah pada kegiatan pembiayaan usaha",
+            "D": "Dana tabarru yang digunakan untuk tolong-menolong peserta",
+            "E": "Dana titipan wadiah untuk pembayaran angsuran pinjaman"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Dana tabarru sebagai dana kolektif perlindungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dana tabarru berasal dari kontribusi peserta yang ditujukan bagi tolong-menolong dan pembayaran manfaat sesuai ketentuan. Dana tersebut tidak identik dengan pendapatan bebas perusahaan asuransi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A terkait jual beli, B terkait efek, C terkait kerja sama usaha, D terkait titipan; tidak menggambarkan dana perlindungan peserta."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kata penentu: kontribusi peserta untuk menolong peserta lain."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Menghitung Nisbah Bagi Hasil",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Laba usaha yang disepakati untuk dibagikan Rp5.000.000. Nisbah pemilik modal 60% dan pengelola 40%. Bagian pemilik modal adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp2.000.000 karena bagian pengelola sebesar 40% dari laba",
+            "B": "Rp2.500.000 karena laba dibagi sama antara kedua pihak",
+            "C": "Rp3.000.000 karena pemilik modal menerima 60% dari laba",
+            "D": "Rp4.000.000 karena nisbah dikenakan pada total hasil usaha",
+            "E": "Rp5.000.000 karena seluruh laba dimiliki pemberi modal"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penerapan nisbah hasil usaha."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian pemilik modal = 60% × Rp5.000.000 = Rp3.000.000, sedangkan pengelola 40% × Rp5.000.000 = Rp2.000.000. Nisbah tidak boleh diperlakukan sebagai pengembalian tetap dari modal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A menggunakan bagian pengelola; B membagi sama; D dan E tidak mengikuti nisbah yang diberikan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalikan nisbah yang ditanyakan dengan laba yang dapat dibagi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan BUS dan UUS",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah bank umum konvensional membentuk unit yang menjalankan kegiatan usaha syariah tanpa menjadikannya badan hukum bank umum syariah terpisah. Bentuk itu disebut ...."
+            }
+          ],
+          "opsi": {
+            "A": "Bank umum syariah yang berdiri sebagai bank tersendiri",
+            "B": "BPR Syariah yang berizin sebagai bank perekonomian rakyat",
+            "C": "Perusahaan pembiayaan dengan akad jual beli murabahah",
+            "D": "Unit Usaha Syariah yang menjadi bagian bank konvensional",
+            "E": "Manajer investasi yang mengelola portofolio efek syariah"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** UUS sebagai unit di dalam bank konvensional."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "UUS adalah unit usaha syariah yang berada dalam struktur bank umum konvensional sesuai ketentuan. Berbeda dari BUS sebagai bank umum syariah, serta BPR Syariah yang memiliki jenis izin dan lingkup berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A merupakan bank tersendiri; B berbeda jenis bank; C dan E bukan lembaga perbankan unit syariah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kata “unit bank konvensional” menunjuk UUS."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan Salam dan Istisna",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang pemesan meminta bengkel membuat mesin dengan spesifikasi khusus dan syarat penyerahan disepakati. Akad yang paling langsung berkaitan dengan pemesanan pembuatan barang adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Ijarah karena kontrak mengalihkan manfaat penggunaan mesin",
+            "B": "Wadiah karena pemesan menitipkan mesin untuk disimpan",
+            "C": "Istisna karena ada pemesanan barang untuk dibuat",
+            "D": "Qardh karena pemesan memberikan pinjaman dana kepada bengkel",
+            "E": "Mudharabah karena laba bengkel dibagikan menurut nisbah"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Istisna sebagai pemesanan pembuatan barang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Istisna berkaitan dengan pemesanan pembuatan barang tertentu menurut spesifikasi. Salam juga berkaitan dengan pemesanan, namun ciri dan ketentuan pembayaran serta objeknya berbeda; soal menonjolkan pembuatan barang khusus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A adalah sewa; B titipan; D pinjaman; E kerja sama usaha. Keempatnya bukan inti kasus pembuatan pesanan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kata “dibuat sesuai spesifikasi pesanan” mengarah ke istisna."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Akad Qardh",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga memberikan pinjaman sosial dengan kesepakatan penerima mengembalikan jumlah pokok, bukan membagi laba usaha. Akad yang paling sesuai adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Murabahah dengan harga perolehan dan margin keuntungan",
+            "B": "Musyarakah dengan penyertaan modal oleh dua pihak usaha",
+            "C": "Wadiah dengan kewajiban menjaga barang yang dititipkan",
+            "D": "Ijarah dengan pembayaran imbalan atas manfaat barang",
+            "E": "Qardh dengan kewajiban pengembalian pokok pinjaman"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Qardh sebagai pinjaman pokok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Qardh merupakan akad pinjaman yang mewajibkan pengembalian pokok sesuai ketentuan, berbeda dari jual beli bermargin, investasi bersama, titipan, atau transaksi sewa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A adalah jual beli; B adalah kerja sama modal; C penitipan; D sewa manfaat. Tidak ada unsur tersebut pada kasus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pinjaman pokok tanpa akad pembagian laba menunjuk qardh."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Peran Dewan Pengawas Syariah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam lembaga keuangan syariah, pihak yang berfokus mengawasi kepatuhan pelaksanaan kegiatan terhadap prinsip syariah sesuai ketentuan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Dewan Pengawas Syariah yang memeriksa kepatuhan akad",
+            "B": "OJK yang menetapkan kebijakan ekonomi fiskal pemerintah",
+            "C": "Bursa efek yang menerbitkan fatwa akad perbankan syariah",
+            "D": "LPS yang mengesahkan seluruh produk pembiayaan syariah",
+            "E": "Bank sentral yang menyetujui seluruh fatwa produk lembaga"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pembagian fungsi DPS, OJK, dan lembaga lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "DPS bertugas menjalankan pengawasan kepatuhan syariah pada lembaga sesuai ketentuan. OJK mengatur dan mengawasi lembaga jasa keuangan; fatwa berhubungan dengan pihak yang mempunyai kewenangan fatwa, sehingga fungsi regulator dan DPS tidak identik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** B salah karena fiskal bukan tugas OJK; C–E memindahkan kewenangan fatwa atau persetujuan akad ke lembaga yang bukan aktor tersebut."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pahami peran: DPS mengawasi kepatuhan syariah di lembaga."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Surplus Underwriting pada Asuransi Syariah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dana tabarru mengalami surplus underwriting. Kesimpulan yang paling tepat mengenai penggunaan surplus tersebut ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Seluruh surplus harus selalu langsung menjadi laba perusahaan",
+            "B": "Distribusinya bergantung polis, ketentuan, dan kondisi dana",
+            "C": "Seluruh surplus wajib segera dibayar sebagai dividen saham",
+            "D": "Surplus otomatis menghapus semua ketentuan cadangan teknis",
+            "E": "Surplus selalu dibagikan tanpa memperhatikan qardh tersisa"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pengaturan surplus dana tabarru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Distribusi surplus underwriting mengikuti polis, ketentuan perasuransian syariah, serta kondisi dana. Adanya kewajiban qardh, batas solvabilitas, dan kecukupan dana dapat membatasi distribusi. Tidak tepat menganggap surplus otomatis menjadi laba perusahaan atau otomatis seluruhnya dibagikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A menyamakan surplus dengan laba perusahaan; C menyamakan dana tabarru dengan saham; D dan E mengabaikan ketentuan serta kesehatan dana."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Surplus tabarru tetap tunduk pada syarat polis dan kesehatan dana."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Investasi dan Proteksi",
+        "teks": ""
+      }
+    ],
+    "pesan": "Keuangan syariah merupakan ekosistem yang memiliki prinsip, akad, produk, dan pengawasan yang khas. Pemahaman yang kuat dimulai dari kemampuan membedakan penitipan, jual beli, kerja sama usaha, sewa manfaat, pemesanan barang, dan pinjaman sesuai karakteristik akad. Penyebutan sebuah produk sebagai “syariah” harus didukung kesesuaian akad, tata kelola, serta pelindungan konsumen. Pada sektor perbankan, peserta perlu membedakan BUS, UUS, dan BPR Syariah sekaligus memahami bahwa produk investasi perbankan syariah tahun 2026 diatur lebih khusus dan dibedakan dari produk simpanan. Dalam pasar modal, Daftar Efek Syariah berfungsi sebagai acuan efek, bukan jaminan kinerja investasi. Dalam asuransi syariah, tabarru dan wakalah bil ujrah berkaitan dengan tujuan perlindungan bersama serta pengelolaan dana sesuai perjanjian. Setelah mempelajari seluruh materi, peserta diharapkan mampu membaca kasus keuangan syariah tanpa terjebak istilah yang mirip, memeriksa sumber rujukan resmi, serta memilih jawaban berdasarkan karakter transaksi dan ketentuan yang relevan"
+  }
+}

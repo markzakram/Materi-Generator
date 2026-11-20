@@ -1,0 +1,1615 @@
+{
+  "meta": {
+    "judul": "Perusahaan Pembiayaan",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Perusahaan Pembiayaan",
+    "sumber": "https://docs.google.com/document/d/1mWn4NBBPXGDBf4tlq6ThvfvLVglGdCpuelxyT0unylc/edit",
+    "id_katalog": "sjk-04"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi disusun sebagai pembelajaran mandiri untuk kandidat PCAM/MLE, dengan keterkaitan langsung terhadap Tes Pengetahuan Sektor Jasa Keuangan pada dokumen riset JadiOJK. Tidak ada klaim bahwa contoh yang disusun pernah muncul dalam seleksi resmi.",
+      "Perusahaan pembiayaan membantu konsumen dan dunia usaha memperoleh barang atau jasa melalui skema pendanaan tertentu. Peserta tidak hanya menghafal istilah multifinance tetapi juga harus dapat mengidentifikasi tujuan pembiayaan, menganalisis biaya, serta memeriksa kewajiban konsumen dalam kontrak."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "perusahaan pembiayaan dengan bank dan perusahaan pembiayaan infrastruktur."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "pembiayaan investasi, modal kerja, dan multiguna sesuai kebutuhan."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "pokok, uang muka, total angsuran, dan metode bunga berdasarkan data soal."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "perbedaan dasar kontrak konvensional dan pembiayaan syariah."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "risiko serta hak konsumen dan mengetahui arah regulasi terbaru."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pengertian dan Posisi Perusahaan Pembiayaan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengertian dan Posisi Perusahaan Pembiayaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan pembiayaan merupakan badan usaha yang melakukan kegiatan pembiayaan barang dan/atau jasa. Dalam kelompok kelembagaan OJK, perusahaan pembiayaan berbeda dari bank: fokusnya pada pembiayaan, bukan menghimpun simpanan masyarakat berupa tabungan, giro, dan deposito seperti bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan pembiayaan sering dikenal masyarakat sebagai multifinance, misalnya ketika membiayai kendaraan, peralatan usaha, atau barang dan jasa lain. Nasabah perlu memastikan izin lembaga, harga tunai, uang muka, biaya, tenor, dan ketentuan wanprestasi sebelum menyetujui kontrak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam buku OJK untuk keluarga, Bab VI mencontohkan kegunaan pembiayaan kebutuhan keluarga sekaligus risiko keterlambatan. Materi ini dikembangkan agar peserta mampu membedakan tujuan pembiayaan, bentuk usaha, dan kewajiban kontraktual."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Perbedaan",
+                "Bank",
+                "Perusahaan pembiayaan"
+              ],
+              "baris": [
+                [
+                  "**Dana masyarakat**",
+                  "Menghimpun simpanan sesuai izin",
+                  "Tidak menjalankan fungsi tabungan/giro/deposito seperti bank"
+                ],
+                [
+                  "**Aktivitas utama**",
+                  "Simpanan, kredit/pembiayaan, layanan lain",
+                  "Pembiayaan barang dan/atau jasa"
+                ],
+                [
+                  "**Contoh penggunaan**",
+                  "Tabungan, KPR, modal kerja",
+                  "Pembiayaan kendaraan/peralatan usaha"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jenis Kegiatan Usaha dan Tujuan Pembiayaan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jenis Kegiatan Usaha dan Tujuan Pembiayaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Secara umum, kegiatan yang dikenal meliputi pembiayaan investasi, pembiayaan modal kerja, pembiayaan multiguna, dan kegiatan pembiayaan lain sesuai izin dan peraturan. Pembiayaan investasi mendukung pengadaan barang modal; modal kerja membantu kebutuhan operasional usaha; multiguna mencakup pembiayaan barang/jasa untuk penggunaan atau pemanfaatan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Produk dan model pembiayaan yang dipasarkan harus dibaca sesuai perjanjian. Istilah pemasaran “cicilan ringan” tidak otomatis berarti biaya total paling rendah. Perbandingan harus memakai total pembayaran, bukan hanya cicilan bulanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan Pembiayaan Infrastruktur memiliki karakteristik dan ruang lingkup berbeda dari Perusahaan Pembiayaan; jangan menyatukannya tanpa memeriksa ketentuan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Tujuan",
+                "Contoh konteks",
+                "Indikator soal"
+              ],
+              "baris": [
+                [
+                  "**Investasi**",
+                  "Mesin, peralatan modal untuk usaha",
+                  "Mendukung aktivitas produksi/ekspansi"
+                ],
+                [
+                  "**Modal kerja**",
+                  "Bahan baku, stok, operasional usaha",
+                  "Kebutuhan operasi jangka berjalan"
+                ],
+                [
+                  "**Multiguna**",
+                  "Barang/jasa bagi konsumen",
+                  "Penggunaan dan persyaratan produk"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Skema Angsuran, Biaya, dan Beban Total",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Skema Angsuran, Biaya, dan Beban Total",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam skema pembiayaan angsuran, total kewajiban konsumen dapat memuat pokok, bunga/margin sesuai model, biaya administrasi, asuransi apabila dipersyaratkan, dan biaya lain yang sah dalam perjanjian. Periksa apakah bunga dinyatakan flat, efektif, atau metode lain; besar persentase yang sama bisa memberikan beban total berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh ilustratif flat: harga barang Rp20.000.000, uang muka Rp5.000.000 sehingga pokok yang dibiayai Rp15.000.000. Bunga flat 10% untuk satu tahun menghasilkan Rp1.500.000. Total cicilan Rp16.500.000 atau Rp1.375.000 selama 12 bulan; biaya lain diabaikan. Contoh ini tidak menggambarkan penawaran tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pembiayaan dengan bunga efektif, bunga periode dihitung berdasarkan sisa pokok sehingga rincian pembayaran berubah sesuai jadwal. Jangan menyamakan flat dengan efektif; periksa tabel angsuran dan nilai total yang benar-benar dibayar."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Besaran",
+                "Formula contoh flat"
+              ],
+              "baris": [
+                [
+                  "**Pokok pembiayaan**",
+                  "Harga − uang muka"
+                ],
+                [
+                  "**Bunga total ilustratif**",
+                  "Pokok × suku bunga flat tahunan × waktu (tahun)"
+                ],
+                [
+                  "**Cicilan bulanan**",
+                  "(Pokok + bunga total + biaya yang dibiayai)/tenor bulan"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Proses Pengajuan dan Hak Konsumen",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Proses Pengajuan dan Hak Konsumen",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rangkaian umum proses: pilih lembaga yang berizin, pahami produk dan kebutuhan, ajukan permohonan dan dokumen, jalani analisis, baca penawaran dan perjanjian, serah terima barang/jasa serta penarikan pembiayaan sesuai kontrak, kemudian bayar angsuran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hal penting untuk dikonfirmasi secara tertulis meliputi harga, uang muka, biaya administrasi, bunga/margin, total kewajiban, tanggal jatuh tempo, sanksi keterlambatan, ketentuan pelunasan dipercepat, agunan, dan mekanisme pengaduan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penagihan atas tunggakan dan penanganan jaminan wajib mengikuti prosedur hukum dan ketentuan yang berlaku. Hindari kesimpulan mutlak bahwa keterlambatan selalu mengakibatkan barang langsung ditarik tanpa prosedur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pembiayaan Syariah dan Akad yang Digunakan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pembiayaan Syariah dan Akad yang Digunakan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan syariah berjalan menurut akad yang sesuai prinsip syariah. Misalnya murabahah pada transaksi jual beli dengan margin yang disepakati, ijarah untuk pemanfaatan jasa/manfaat, serta skema lain sesuai peraturan dan persetujuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan substansi adalah struktur kontrak, risiko, hak dan kewajiban, serta prinsip penyelesaian transaksi, bukan sekadar mengganti kata bunga menjadi margin. Peserta perlu membaca akad dan kewajiban pembayaran sesuai produk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Buku Saku Cerdas Mengelola Keuangan OJK, Bab VI, memuat pengantar murabahah dan perbandingan beberapa mekanisme konvensional dan syariah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Keterangan ringkas"
+              ],
+              "baris": [
+                [
+                  "**Murabahah**",
+                  "Jual beli dengan harga perolehan dan margin yang diketahui"
+                ],
+                [
+                  "**Ijarah**",
+                  "Akad pemanfaatan atau sewa jasa/manfaat sesuai ketentuan"
+                ],
+                [
+                  "**Ujrah**",
+                  "Imbalan jasa sesuai akad terkait"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Risiko Pembiayaan, Pengawasan, dan Pembaruan Ketentuan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Risiko Pembiayaan, Pengawasan, dan Pembaruan Ketentuan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Risiko nasabah dapat muncul dari penurunan penghasilan, biaya total yang kurang dipahami, jatuh tempo yang tidak sesuai arus kas, dan kehilangan manfaat barang. Evaluasi kemampuan bayar harus dilakukan sebelum mengambil kewajiban angsuran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK mengatur dan mengawasi perusahaan pembiayaan. Kerangka regulasi yang perlu diketahui mencakup POJK 46 Tahun 2024 mengenai pengembangan/penguatan perusahaan pembiayaan dan perubahannya melalui POJK 35 Tahun 2025. Pada pembelajaran, nama dan tahun regulasi penting, tetapi rincian kewajiban harus ditinjau sesuai ketentuan terakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan legalitas dilakukan melalui kanal resmi OJK. Jangan menyamakan terdaftar, berizin, bekerja sama dengan dealer, atau memiliki logo tertentu sebagai bukti yang identik tanpa verifikasi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Studi Perbandingan Penawaran dan Arus Kas",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Studi Perbandingan Penawaran dan Arus Kas",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua penawaran dapat memiliki cicilan bulanan berbeda tetapi biaya total yang justru berlawanan. Contoh: penawaran A membebankan Rp1.500.000 per bulan selama 12 bulan (total Rp18.000.000), sedangkan penawaran B Rp1.100.000 per bulan selama 18 bulan (total Rp19.800.000). Bila barang, uang muka, dan manfaat sama, B memiliki cicilan lebih kecil tetapi total pembayaran lebih besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penilaian kewajaran cicilan mempertimbangkan dana bersih tersedia setelah pengeluaran wajib, kestabilan pendapatan, dan kapasitas membayar pada kondisi tidak ideal. Pengambilan pembiayaan harus mempertimbangkan daya tahan anggaran, bukan hanya persetujuan permohonan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjelasan dalam ujian sebaiknya membedakan faktor biaya total dan faktor arus kas. Pilihan yang biaya totalnya rendah belum tentu otomatis paling sesuai jika jatuh tempo dan kemampuan pembayaran tidak cocok."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Perbandingan",
+                "Penawaran A",
+                "Penawaran B"
+              ],
+              "baris": [
+                [
+                  "**Angsuran bulanan**",
+                  "Rp1.500.000",
+                  "Rp1.100.000"
+                ],
+                [
+                  "**Tenor**",
+                  "12 bulan",
+                  "18 bulan"
+                ],
+                [
+                  "**Total angsuran**",
+                  "Rp18.000.000",
+                  "Rp19.800.000"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tanggung Jawab Kreditur, Debitur, dan Dokumen",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tanggung Jawab Kreditur, Debitur, dan Dokumen",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan berkewajiban menjelaskan karakteristik produk dan memberi perlakuan yang sesuai peraturan. Konsumen berkewajiban memberikan informasi yang benar, membaca perjanjian, memelihara barang bila ditetapkan, dan memenuhi pembayaran sesuai jadwal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dokumen yang biasanya perlu dipelajari meliputi simulasi angsuran, perjanjian pembiayaan, rincian biaya, informasi jaminan, dan tanda terima pembayaran. Jika ada perubahan persyaratan atau penawaran baru, cek apakah dinyatakan secara sah dan disetujui sesuai aturan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk penyusunan soal, gunakan skenario realistis dengan hanya satu kunci: misalnya penilaian penggunaan dana, perhitungan bunga, atau pemilihan langkah informasi konsumen. Hindari menanyakan tarif yang berubah sewaktu-waktu tanpa menyebut sumber atau waktu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Definisi dan Batas Cakupan Lembaga Pembiayaan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Definisi dan Batas Cakupan Lembaga Pembiayaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam materi resmi OJK, lembaga pembiayaan menyediakan dana atau barang modal dan mencakup perusahaan pembiayaan serta perusahaan pembiayaan infrastruktur. Perusahaan pembiayaan menyediakan pembiayaan barang dan/atau jasa kepada debitur. Perusahaan pembiayaan syariah melaksanakan seluruh kegiatan usaha berdasarkan prinsip syariah; UUS perusahaan pembiayaan merupakan bagian dari perusahaan induk yang mengelola kegiatan syariah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembedaan utama dengan bank ialah perusahaan pembiayaan bukan penghimpun dana masyarakat berbentuk giro dan tabungan. Perusahaan pembiayaan memiliki fokus kontrak pembiayaan sesuai kategori kegiatan usaha, sedangkan bank juga menjalankan penghimpunan simpanan dan berbagai layanan pembayaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga pembiayaan ≠ bank; jenisnya meliputi perusahaan pembiayaan dan perusahaan pembiayaan infrastruktur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tiga Kegiatan Usaha Utama Perusahaan Pembiayaan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tiga Kegiatan Usaha Utama Perusahaan Pembiayaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan investasi dipergunakan bagi barang modal dan jasa pendukung usaha, misalnya pembelian mesin, modernisasi, ekspansi, rehabilitasi, atau relokasi. Pembiayaan modal kerja digunakan untuk pengeluaran yang habis dalam satu siklus usaha, seperti pengadaan bahan baku. Pembiayaan multiguna digunakan untuk barang atau jasa konsumsi yang tidak ditujukan bagi kegiatan usaha produktif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klasifikasikan berdasarkan TUJUAN penggunaan dana, bukan semata jenis barangnya. Kendaraan yang dipakai sebagai armada usaha dapat terkait investasi, sedangkan kendaraan pribadi untuk kebutuhan keluarga dapat merupakan multiguna. Peraturan juga membuka kegiatan pembiayaan lain dengan persetujuan OJK."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan: investasi berkaitan aset/modal usaha; modal kerja berkaitan pembiayaan siklus operasional; multiguna berkaitan konsumsi. Semua memerlukan kesesuaian analisis kemampuan bayar dan pemahaman biaya kontrak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perusahaan Pembiayaan Syariah dan UUS",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perusahaan Pembiayaan Syariah dan UUS",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kompilasi OJK membedakan pembiayaan jual beli (penyediaan barang melalui jual beli sesuai akad), pembiayaan investasi (modal usaha produktif dengan pembagian keuntungan sesuai akad), dan pembiayaan jasa (penyediaan manfaat barang atau jasa/pelayanan dengan atau tanpa imbal jasa sesuai akad). Bentuk kontrak nyata dan perlakuan akuntansinya mengikuti ketentuan syariah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan pembiayaan syariah menjalankan kegiatan syariah secara keseluruhan. UUS menjalankan pembiayaan syariah sebagai unit kerja di perusahaan pembiayaan. Dalam studi kasus, pastikan tidak tertukar antara sebutan produk syariah perusahaan pembiayaan dan pembiayaan multijasa perbankan syariah; keduanya memiliki bidang kelembagaan dan ketentuan masing-masing."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Syariah: pembiayaan jual beli, investasi, dan jasa; identifikasi akad, objek, kewajiban, dan ujrah/bagi hasil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perusahaan Pembiayaan Infrastruktur",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perusahaan Pembiayaan Infrastruktur",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan pembiayaan infrastruktur dibentuk khusus untuk membiayai proyek infrastruktur. Bentuk kegiatan dalam referensi mencakup pinjaman langsung (direct lending), pembiayaan kembali (refinancing), pembiayaan subordinasi, serta fasilitas lain dengan persetujuan OJK atau penugasan pemerintah sesuai ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan ini juga dapat memberi dukungan kredit, jasa konsultasi, penyertaan modal, dan upaya mencarikan pasar swap yang berkaitan dengan pembiayaan infrastruktur. Pengelompokan ini menunjukkan bahwa pembiayaan infrastruktur tidak terbatas pada transaksi angsuran kendaraan atau barang konsumsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sumber memuat 21 kelompok proyek: transportasi, jalan, sumber daya air dan irigasi, air minum, sistem limbah terpusat dan setempat, persampahan, telekomunikasi dan informatika, ketenagalistrikan, minyak/gas dan energi terbarukan, konservasi energi, fasilitas perkotaan, pendidikan, olahraga dan kesenian, kawasan, pariwisata, kesehatan, lembaga pemasyarakatan, perumahan rakyat, bangunan negara, dan kelompok lain dengan persetujuan OJK."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Larangan dan Perizinan Perusahaan Pembiayaan Infrastruktur",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Larangan dan Perizinan Perusahaan Pembiayaan Infrastruktur",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Referensi OJK menyebut larangan menghimpun dana masyarakat secara langsung dalam bentuk giro, tabungan, atau bentuk sejenis serta pembatasan penerbitan surat sanggup bayar, dengan pengecualian yang dijelaskan pada ketentuan terkait jaminan penerbitan surat utang kepada kreditur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika menilai suatu penawaran, verifikasi lebih dahulu jenis izin usaha entitas dan kegiatan yang diklaim. Suatu perusahaan yang mengaku sebagai pembiayaan infrastruktur tidak otomatis berwenang menghimpun simpanan masyarakat dengan imbal hasil tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak boleh menawarkan giro/tabungan masyarakat atas nama perusahaan pembiayaan infrastruktur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Informasi Statistik, Direktori dan Verifikasi Perizinan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Informasi Statistik, Direktori dan Verifikasi Perizinan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sumber tambahan mengacu pada publikasi Statistik Lembaga Pembiayaan, direktori lembaga pembiayaan dan modal ventura, serta Portal Data Sektor Jasa Keuangan OJK. Dokumen daftar jaringan kantor Februari 2024 adalah potret historis, bukan bukti bahwa entitas tertentu masih memiliki izin pada 2026."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kegunaan data direktori adalah verifikasi legalitas dan cakupan izin, sedangkan statistik memberi gambaran industri selama periode laporan. Untuk pertanyaan mengenai apakah sebuah perusahaan masih berizin, gunakan direktori/layanan OJK dengan tanggal pembaruan paling relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kategori perusahaan modal ventura yang juga tercantum dalam halaman OJK sengaja tidak diajarkan secara rinci di e-book ini karena sudah dipetakan sebagai submateri berbeda; cukup dikenali sebagai batas sektoral."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Direktori = status dan informasi institusi menurut periode; statistik = gambaran industri menurut periode."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pengawasan Terintegrasi dan Perlindungan Konsumen",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengawasan Terintegrasi dan Perlindungan Konsumen",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bidang pengawas lembaga pembiayaan, perusahaan modal ventura, lembaga keuangan mikro, dan jasa keuangan lainnya melaksanakan pengaturan, pengembangan sistem pengawasan, pembinaan, pemeriksaan, penegakan aturan, pengawasan khusus, serta protokol penanganan krisis sesuai wewenangnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal kasus, hubungan pengawas–perusahaan–konsumen dapat dilihat dari tiga sisi: apakah izin dan kegiatan usaha sesuai, apakah informasi harga/biaya/risiko transparan, dan apakah debitur memperoleh perlakuan serta kanal pengaduan yang patut. Identitas unit organisasi pada bagan sumber dapat berubah; pembelajaran sebaiknya mengutamakan fungsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan analisis: izin kegiatan → kecocokan produk → transparansi kontrak → risiko → hak konsumen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kedudukan Lembaga Pembiayaan dalam Sistem Keuangan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kedudukan Lembaga Pembiayaan dalam Sistem Keuangan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga Pembiayaan adalah badan usaha yang menyediakan dana atau barang modal untuk kebutuhan pembiayaan. Dalam referensi OJK, kelompok ini meliputi Perusahaan Pembiayaan dan Perusahaan Pembiayaan Infrastruktur. Perusahaan Pembiayaan berfokus pada pembiayaan barang dan/atau jasa, sedangkan Perusahaan Pembiayaan Infrastruktur dibentuk khusus untuk membiayai proyek infrastruktur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya berbeda dari bank karena model usaha serta perizinan dan jenis penghimpunan dananya tidak identik dengan bank penerima giro dan tabungan. Istilah “pembiayaan” juga muncul dalam perbankan syariah, sehingga peserta harus mengidentifikasi lembaga penyelenggara dan jenis akad, bukan hanya kata pembiayaan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membedakan Pembiayaan Investasi, Modal Kerja, dan Multiguna",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membedakan Pembiayaan Investasi, Modal Kerja, dan Multiguna",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan investasi diarahkan pada perolehan atau pengembangan barang modal yang digunakan dalam kegiatan usaha, misalnya mesin pabrik atau rehabilitasi fasilitas. Pembiayaan modal kerja menutup pengeluaran yang habis dalam satu siklus operasi, misalnya bahan baku dan kebutuhan produksi. Pembiayaan multiguna ditujukan pada barang/jasa untuk konsumsi atau penggunaan nonproduktif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kasus pembeda: pabrik membeli mesin cetak untuk memperbesar kapasitas (investasi); pabrik membeli tinta dan kertas untuk pesanan bulan ini (modal kerja); pegawai membiayai perabot rumah tangga untuk penggunaan pribadi (multiguna). Jenis barang saja tidak selalu cukup; tujuan penggunaan yang tercantum dalam akad menentukan klasifikasinya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waspadai asumsi bahwa pembiayaan investasi selalu berjangka pendek atau multiguna selalu tanpa agunan. Tenor, jaminan, biaya, dan penetapan risiko bergantung pada produk, perjanjian, dan ketentuan yang berlaku."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mekanisme Pembiayaan Syariah pada Perusahaan Pembiayaan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mekanisme Pembiayaan Syariah pada Perusahaan Pembiayaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan Pembiayaan Syariah menjalankan seluruh usahanya berdasarkan prinsip syariah, sedangkan UUS merupakan unit kerja syariah dari perusahaan pembiayaan. Pembiayaan syariah pada referensi terdiri atas pembiayaan jual beli, pembiayaan investasi dengan pembagian keuntungan, dan pembiayaan jasa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam skema jual beli, harga dan margin diperjanjikan. Dalam skema investasi berbagi hasil, mekanisme pembagian keuntungan dan risiko mengikuti akad. Dalam pembiayaan jasa, penyediaan manfaat atau layanan mengikuti imbal jasa/ujrah yang disepakati. Menilai suatu produk harus memperhatikan akad, objek transaksi, dan kewajiban kedua pihak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: pembiayaan jasa pendidikan sebesar Rp12 juta dengan biaya jasa yang disepakati harus dijelaskan secara transparan dalam kontrak. Informasi nominal pembayaran berkala saja belum cukup untuk memahami struktur biaya maupun kepatuhan akad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Proses Analisis dan Persetujuan Pembiayaan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Proses Analisis dan Persetujuan Pembiayaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tahapan yang lazim mencakup permohonan, identifikasi nasabah, pemeriksaan dokumen, analisis tujuan dan kemampuan membayar, penawaran serta pengungkapan biaya, penandatanganan kontrak, pencairan/penyerahan barang, pemantauan, dan penyelesaian kewajiban. Setiap produk memiliki variasi proses sesuai model usaha."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh kemampuan bayar: penghasilan bersih bulanan Rp8 juta dengan kewajiban cicilan berjalan Rp2 juta. Permohonan tambahan Rp4 juta per bulan menghasilkan total cicilan Rp6 juta atau 75% dari penghasilan bersih. Angka itu memberi sinyal keterbatasan ruang untuk kebutuhan pokok, walaupun penilaian akhir memerlukan informasi lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagi konsumen, keputusan pembiayaan harus didasarkan pada total pembayaran, kewajiban asuransi bila ada, biaya administrasi, denda, nilai agunan, tenor, prosedur penagihan, dan mekanisme pelunasan dipercepat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membandingkan Bunga Flat dan Efektif secara Benar",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membandingkan Bunga Flat dan Efektif secara Benar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada ilustrasi bunga flat, bunga setiap periode dihitung dari pokok awal: $bunga per bulan = pokok awal × tingkat bunga flat tahunan ÷ 12$. Pada model efektif menurun, bunga periode mengikuti saldo pokok yang belum lunas. Tingkat bunga flat dan efektif tidak boleh langsung dibandingkan hanya dari angka nominal persentasenya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh flat: pokok Rp24 juta, tenor 12 bulan, bunga flat 12% per tahun, tanpa biaya lainnya. Bunga total Rp2,88 juta; pokok per bulan Rp2 juta; bunga per bulan Rp240 ribu; cicilan Rp2,24 juta. Total pembayaran Rp26,88 juta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh pembanding: penawaran A memiliki cicilan Rp2,24 juta selama 12 bulan tanpa biaya; penawaran B Rp2,20 juta selama 12 bulan tetapi biaya awal Rp1 juta. Total A Rp26,88 juta; total B Rp27,40 juta. Cicilan lebih kecil tidak selalu menghasilkan biaya total lebih rendah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perusahaan Pembiayaan Infrastruktur: Kegiatan dan Batas",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perusahaan Pembiayaan Infrastruktur: Kegiatan dan Batas",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan Pembiayaan Infrastruktur berfokus pada penyediaan dana untuk proyek seperti transportasi, jalan, pengelolaan air, energi, telekomunikasi, pendidikan, kesehatan, pariwisata, dan perumahan rakyat. Bentuk pembiayaan mencakup pinjaman langsung, refinancing, serta subordinasi yang terkait dengan infrastruktur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan ini juga dapat menjalankan kegiatan pendukung tertentu, antara lain dukungan kredit, konsultasi, penyertaan modal, dan fasilitas terkait sesuai dasar hukum dan persetujuan yang dipersyaratkan. Tidak semua kegiatan secara otomatis bebas dilakukan tanpa izin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larangan penting dari referensi: perusahaan pembiayaan infrastruktur tidak boleh menghimpun dana masyarakat langsung dalam bentuk giro atau tabungan; penerbitan surat sanggup bayar juga dibatasi sebagaimana ketentuan. Karena itu perusahaan pembiayaan infrastruktur tidak identik dengan bank umum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Direktori, Statistik, dan Legalitas Perusahaan Pembiayaan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Direktori, Statistik, dan Legalitas Perusahaan Pembiayaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK menerbitkan direktori lembaga pembiayaan dan perusahaan modal ventura serta statistik berkala. Direktori membantu pemeriksaan entitas, sedangkan statistik menggambarkan dinamika industri secara agregat. Data Februari 2024 dan publikasi 2025 dalam referensi bukan otomatis daftar entitas berizin pada November 2026."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Praktik verifikasi: cocokkan nama badan hukum dan izin usaha dengan direktori resmi bertanggal; jangan hanya memeriksa logo OJK di materi pemasaran. Pastikan kanal resmi tidak menyalin data lama atau menyamarkan status izin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bila perusahaan sudah berizin, konsumen tetap perlu mengevaluasi produk, transparansi total biaya, keamanan data, dan mekanisme pengaduan. Legalitas perusahaan tidak sama dengan jaminan setiap penawaran cocok untuk kondisi keuangan nasabah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Risiko, Penagihan, dan Hak Nasabah",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Risiko, Penagihan, dan Hak Nasabah",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Risiko kredit/pembiayaan terjadi ketika pihak yang menerima pembiayaan gagal memenuhi kewajiban. Risiko operasional dapat berasal dari kegagalan prosedur atau sistem; risiko hukum berasal dari ketidaksesuaian kontrak dan pelaksanaan; risiko reputasi dapat muncul dari penanganan pengaduan yang buruk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanganan keterlambatan harus merujuk perjanjian dan aturan pelindungan konsumen. Konsumen berhak mengetahui biaya, risiko, hak atas jaminan, konsekuensi wanprestasi, serta proses pengaduan. Pembiayaan tidak boleh dipromosikan sebagai dana gratis atau tanpa kewajiban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh kasus: debitur kehilangan sebagian pendapatan dan tak mampu melunasi angsuran. Langkah rasional adalah menghubungi perusahaan melalui kanal resmi dan meminta penjelasan opsi sesuai kebijakan serta perjanjian; menghindari komunikasi justru menambah ketidakpastian dan potensi biaya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menganalisis Perusahaan Pembiayaan dari Perspektif OJK",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menganalisis Perusahaan Pembiayaan dari Perspektif OJK",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengawasan OJK pada sektor PVML mencakup pengembangan ketentuan, perizinan, pemeriksaan, pengawasan, penegakan hukum, pengendalian kualitas, dan koordinasi di wilayah. Fokus pengawasan bukan hanya laba perusahaan, melainkan kesehatan usaha dan perlindungan konsumen serta masyarakat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Indikator yang perlu dipahami secara konseptual meliputi kualitas piutang pembiayaan, pendanaan, kecukupan modal, tata kelola, serta konsentrasi portofolio. Angka yang tinggi atau rendah tidak boleh dinilai tanpa mengetahui definisi dan ketentuan spesifik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal berbasis riset dapat menuntut memilih otoritas yang tepat, mengidentifikasi kegiatan yang diizinkan, atau menjelaskan mengapa pendanaan infrastruktur membutuhkan struktur tenor dan risiko yang berbeda dari pembiayaan konsumsi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan Multifinance dan Bank",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan X membiayai pembelian mobil konsumen melalui cicilan tetapi tidak menawarkan simpanan giro. Kegiatan utama perusahaan X paling tepat dikategorikan sebagai ..."
+            }
+          ],
+          "opsi": {
+            "A": "Pengelolaan rekening giro",
+            "B": "Perusahaan pembiayaan",
+            "C": "Lembaga penjaminan simpanan",
+            "D": "Bank sentral",
+            "E": "Dana pensiun"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pengertian perusahaan pembiayaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan pembiayaan menyediakan pembiayaan barang atau jasa. Penawaran giro adalah kegiatan perbankan, bukan fungsi utama multifinance."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lihat barang/jasa yang dibiayai dan ada-tidaknya layanan simpanan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pembiayaan Investasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan manufaktur membiayai pembelian mesin untuk menambah kapasitas produksi. Jenis tujuan pembiayaan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Multiguna konsumtif",
+            "B": "Pembiayaan investasi",
+            "C": "Simpanan giro",
+            "D": "Pembayaran pajak",
+            "E": "Asuransi jiwa"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Klasifikasi tujuan pembiayaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mesin untuk ekspansi atau peningkatan kapasitas termasuk barang modal sehingga masuk pembiayaan investasi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Mesin produksi = investasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pembiayaan Modal Kerja",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemilik toko memerlukan dana untuk membeli persediaan dagangan yang akan dijual kembali. Tujuan pembiayaannya lebih dekat dengan ..."
+            }
+          ],
+          "opsi": {
+            "A": "Modal kerja",
+            "B": "Dana pensiun",
+            "C": "Pembelian saham",
+            "D": "Penjaminan simpanan",
+            "E": "Pengambilalihan bank"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pembiayaan operasional usaha"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persediaan usaha dipakai untuk mendanai aktivitas operasi harian sehingga sesuai pembiayaan modal kerja."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Persediaan bahan/stok dagangan = modal kerja."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Menghitung Pokok Pembiayaan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga barang Rp20.000.000 dan uang muka Rp5.000.000. Berapakah pokok pembiayaan sebelum bunga dan biaya lain?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp5.000.000",
+            "B": "Rp10.000.000",
+            "C": "Rp15.000.000",
+            "D": "Rp20.000.000",
+            "E": "Rp25.000.000"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Harga dikurangi uang muka"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pokok pembiayaan = Rp20.000.000 − Rp5.000.000 = Rp15.000.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Harga − DP."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Bunga Flat Ilustratif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pokok pembiayaan Rp15.000.000 dikenakan bunga flat 10% untuk tenor 12 bulan, tanpa biaya lain. Angsuran per bulan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp1.250.000",
+            "B": "Rp1.300.000",
+            "C": "Rp1.350.000",
+            "D": "Rp1.375.000",
+            "E": "Rp1.500.000"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perhitungan bunga flat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga = Rp1.500.000; total = Rp16.500.000; cicilan = Rp16.500.000/12 = Rp1.375.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tambahkan bunga setahun ke pokok, lalu bagi 12."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Flat dan Efektif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang tepat mengenai dasar perhitungan bunga efektif adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Selalu dihitung dari nilai awal tanpa perubahan",
+            "B": "Mengacu pada sisa pokok utang",
+            "C": "Selalu nol setelah pembayaran pertama",
+            "D": "Tidak dipengaruhi tenor",
+            "E": "Tidak dicantumkan dalam perjanjian"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbedaan metode bunga"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga efektif menggunakan sisa pokok pinjaman sebagai basis perhitungan berkala, sedangkan model flat memakai pokok awal sebagai basis bunga sesuai metode."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Efektif = sisa pokok."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Hak atas Transparansi Biaya",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang konsumen akan menandatangani perjanjian pembiayaan kendaraan. Perusahaan telah menjelaskan cicilan bulanan, tetapi belum memberikan informasi mengenai total biaya dan denda keterlambatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tindakan yang paling tepat sebelum menandatangani perjanjian adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Membandingkan tenor pembiayaan kendaraan.",
+            "B": "Meminta rincian biaya dan ketentuan denda.",
+            "C": "Memeriksa reputasi perusahaan pembiayaan.",
+            "D": "Menghitung cicilan berdasarkan penghasilan.",
+            "E": "Memastikan nilai kendaraan sesuai pasaran."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum menyetujui pembiayaan, konsumen perlu memperoleh informasi yang jelas mengenai seluruh kewajiban pembayaran, termasuk total biaya, bunga atau margin, biaya tambahan, dan denda keterlambatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Walaupun membandingkan tenor, memeriksa reputasi perusahaan, dan menilai kemampuan membayar merupakan tindakan yang bermanfaat, hal-hal tersebut tidak secara langsung mengatasi informasi biaya yang belum disampaikan perusahaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika informasi biaya belum lengkap, mintalah rincian tertulis sebelum menyetujui pembiayaan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Wanprestasi dan Penagihan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang konsumen mengalami keterlambatan pembayaran cicilan kendaraan pada perusahaan pembiayaan. Perusahaan kemudian melakukan penagihan atas tunggakan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang paling tepat mengenai penanganan tunggakan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Penagihan dilakukan berdasarkan kebijakan internal.",
+            "B": "Penagihan dilakukan sesuai prosedur hukum.",
+            "C": "Penagihan dilakukan berdasarkan nilai kendaraan.",
+            "D": "Penagihan dilakukan sesuai keputusan petugas.",
+            "E": "Penagihan dilakukan berdasarkan kondisi pasar."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penanganan tunggakan atau wanprestasi harus mengikuti ketentuan hukum dan perjanjian pembiayaan yang sah. Perusahaan pembiayaan tidak dapat melakukan penarikan barang jaminan secara sewenang-wenang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pelaksanaan penagihan dan eksekusi jaminan harus memperhatikan prosedur yang berlaku serta hak konsumen. Kebijakan internal perusahaan atau keputusan petugas tidak dapat menggantikan ketentuan hukum."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Penagihan dan penanganan jaminan harus mengikuti hukum serta perjanjian yang sah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membandingkan Total Cicilan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penawaran A: Rp1.500.000 per bulan selama 12 bulan. Penawaran B: Rp1.100.000 per bulan selama 18 bulan. Dengan barang dan uang muka yang sama, pernyataan yang benar adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Total A lebih mahal Rp1.800.000",
+            "B": "Total B lebih mahal Rp1.800.000",
+            "C": "Total keduanya sama",
+            "D": "A lebih mahal Rp3.000.000",
+            "E": "Tidak mungkin dibandingkan meski semua angka diberikan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Total pembayaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A = 18.000.000; B = 19.800.000; selisih B−A = Rp1.800.000. Cicilan kecil tidak selalu total lebih hemat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalikan cicilan × tenor."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Memastikan Legalitas Multifinance",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang konsumen menerima penawaran pembiayaan kendaraan dari perusahaan multifinance. Perusahaan tersebut mencantumkan nomor izin OJK dalam materi promosinya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah paling tepat untuk memastikan legalitas perusahaan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Memeriksa nomor izin pada brosur perusahaan.",
+            "B": "Mencocokkan nama perusahaan melalui FIND OJK.",
+            "C": "Mengonfirmasi identitas kepada petugas pemasaran.",
+            "D": "Menelusuri riwayat perusahaan melalui internet.",
+            "E": "Membandingkan reputasi dari ulasan konsumen."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Legalitas perusahaan multifinance perlu diverifikasi menggunakan sumber resmi OJK. Salah satunya melalui Financial Institutions Directory (FIND) OJK, yang menyediakan informasi mengenai pelaku sektor jasa keuangan yang berizin, terdaftar, atau diawasi OJK."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nomor izin pada brosur, informasi petugas, riwayat perusahaan, dan ulasan konsumen dapat menjadi informasi tambahan, tetapi bukan pengganti verifikasi melalui direktori resmi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk pertanyaan tentang legalitas multifinance, utamakan verifikasi pada direktori resmi OJK."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Makna Murabahah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pembiayaan syariah, akad murabahah pada intinya berkaitan dengan ..."
+            }
+          ],
+          "opsi": {
+            "A": "Jual beli dengan harga perolehan dan margin yang dijelaskan",
+            "B": "Simpanan giro tanpa akad",
+            "C": "Penjaminan simpanan oleh LPS",
+            "D": "Asuransi umum otomatis",
+            "E": "Penghapusan seluruh kewajiban"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Akad jual beli syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Murabahah merupakan akad jual beli yang menjelaskan harga perolehan dan keuntungan/margin sesuai ketentuan kesepakatan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Murabahah = jual beli dengan margin diketahui."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Ketika Arus Kas Menurun",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang debitur memiliki cicilan kendaraan sebesar Rp2.000.000 yang jatuh tempo dalam lima hari. Akibat penurunan pendapatan, dana tersedia hanya Rp1.200.000. Debitur memperkirakan pendapatannya kembali normal bulan depan, tetapi belum memperoleh kepastian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tindakan yang paling tepat untuk mengelola risiko keterlambatan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Menggunakan dana tersedia untuk membayar sebagian cicilan.",
+            "B": "Mengajukan penjadwalan ulang setelah cicilan jatuh tempo.",
+            "C": "Mengonfirmasi opsi pembayaran sebelum jatuh tempo.",
+            "D": "Menunda cicilan sambil menunggu pendapatan berikutnya.",
+            "E": "Mengalihkan dana tersedia untuk kebutuhan bulan depan."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Debitur menghadapi kekurangan dana sebesar:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp2.000.000 − Rp1.200.000 = Rp800.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena pembayaran jatuh tempo dalam lima hari, debitur perlu segera menghubungi perusahaan pembiayaan melalui kanal resmi untuk menjelaskan kondisinya dan mengonfirmasi pilihan penanganan yang tersedia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembayaran sebagian, perubahan jadwal, atau bentuk penyesuaian lain belum tentu diperbolehkan ataupun disetujui. Oleh karena itu, debitur tidak sebaiknya mengasumsikan bahwa pembayaran sebagian otomatis mencegah keterlambatan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan tiga hal: jumlah kekurangan dana, waktu jatuh tempo, dan kepastian sumber pembayaran. Jangan mengasumsikan perubahan ketentuan cicilan tanpa persetujuan perusahaan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Jenis Pembiayaan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Usaha roti membeli mesin pemanggang baru untuk memperbesar kapasitas produksi. Jenis pembiayaan yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "multiguna",
+            "B": "investasi",
+            "C": "simpan pinjam giro",
+            "D": "pembiayaan jasa pendidikan",
+            "E": "simpanan deposito"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mesin menjadi barang modal usaha untuk ekspansi produksi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Modal Kerja",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengusaha membutuhkan dana membeli bahan baku yang digunakan habis dalam satu siklus produksi. Klasifikasinya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "modal kerja",
+            "B": "investasi",
+            "C": "multiguna",
+            "D": "penyertaan saham",
+            "E": "penjaminan simpanan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bahan baku adalah kebutuhan operasional yang berputar dalam siklus usaha."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pembiayaan Multiguna",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan pembelian perabot pribadi rumah tangga yang tidak terkait kegiatan usaha paling sesuai dengan kategori ...."
+            }
+          ],
+          "opsi": {
+            "A": "investasi",
+            "B": "modal kerja",
+            "C": "multiguna",
+            "D": "refinancing proyek jalan",
+            "E": "penyertaan modal"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Konsumsi keluarga bukan pembentukan barang modal produktif."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pembiayaan Infrastruktur",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan didirikan khusus membiayai pembangunan jaringan pengolahan air minum. Kategori lembaganya paling relevan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "perusahaan pembiayaan infrastruktur",
+            "B": "bank penerima giro",
+            "C": "perusahaan modal ventura saja",
+            "D": "asuransi wajib",
+            "E": "manajer investasi"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembangunan sistem air minum termasuk objek pembiayaan infrastruktur."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Larangan Lembaga Infrastruktur",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan pembiayaan infrastruktur menawarkan fasilitas rekening giro kepada masyarakat umum. Berdasarkan ketentuan kegiatan usahanya, penawaran tersebut termasuk ...."
+            }
+          ],
+          "opsi": {
+            "A": "Kegiatan pembiayaan investasi.",
+            "B": "Kegiatan pendanaan proyek.",
+            "C": "Kegiatan penghimpunan simpanan.",
+            "D": "Kegiatan pembiayaan multiguna.",
+            "E": "Kegiatan pengelolaan piutang."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rekening giro merupakan produk simpanan yang berkaitan dengan kegiatan penghimpunan dana masyarakat. Perusahaan pembiayaan infrastruktur tidak memiliki kewenangan untuk menjalankan kegiatan penghimpunan simpanan seperti bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, penawaran rekening giro kepada masyarakat umum merupakan kegiatan penghimpunan simpanan yang tidak diperbolehkan bagi perusahaan pembiayaan infrastruktur."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kenali karakteristik giro sebagai simpanan, lalu bedakan kewenangan bank dan perusahaan pembiayaan infrastruktur."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Barang Modal",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan membiayai mesin baru bagi pabrik untuk ekspansi produksi. Kegiatan ini tergolong ..."
+            }
+          ],
+          "opsi": {
+            "A": "Pembiayaan multiguna",
+            "B": "Pembiayaan investasi",
+            "C": "Simpanan giro",
+            "D": "Dana pensiun",
+            "E": "Lelang"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Barang modal untuk ekspansi merupakan pembiayaan investasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Siklus Produksi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan pembelian bahan baku untuk satu siklus pesanan usaha termasuk ..."
+            }
+          ],
+          "opsi": {
+            "A": "Modal kerja",
+            "B": "Multiguna konsumsi",
+            "C": "Deposito",
+            "D": "Giro",
+            "E": "Dana pensiun"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bahan baku merupakan pengeluaran dalam siklus aktivitas usaha."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Konsumsi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nasabah membiayai perabot rumah tangga untuk penggunaan pribadi. Jenisnya ..."
+            }
+          ],
+          "opsi": {
+            "A": "Pembiayaan investasi",
+            "B": "Modal kerja",
+            "C": "Multiguna",
+            "D": "Infrastruktur energi",
+            "E": "Penyertaan modal"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan barang/jasa untuk konsumsi nonproduktif termasuk multiguna."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Biaya Total",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Cicilan A Rp2 juta selama 12 bulan tanpa biaya awal. Cicilan B Rp1,95 juta selama 12 bulan dengan biaya awal Rp1 juta. Lebih murah secara total adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "A selisih Rp400 ribu",
+            "B": "B selisih Rp400 ribu",
+            "C": "Sama",
+            "D": "A selisih Rp1 juta",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Total A Rp24 juta; B Rp24,4 juta. A lebih murah Rp400 ribu berdasarkan biaya yang diberikan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Perusahaan Infrastruktur",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan proyek pengolahan air berskala besar terutama termasuk lingkup ..."
+            }
+          ],
+          "opsi": {
+            "A": "Perusahaan Pembiayaan Infrastruktur",
+            "B": "Bank tabungan saja",
+            "C": "Bursa komoditas",
+            "D": "Asuransi jiwa",
+            "E": "Dana pensiun"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Proyek sistem pengelolaan air merupakan salah satu objek pembiayaan infrastruktur."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Larangan Infrastruktur",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan Pembiayaan Infrastruktur tidak boleh ..."
+            }
+          ],
+          "opsi": {
+            "A": "Memberi pinjaman proyek sesuai ketentuan",
+            "B": "Refinancing proyek",
+            "C": "Menghimpun giro/tabungan langsung dari masyarakat",
+            "D": "Memberi konsultasi yang diperbolehkan",
+            "E": "Mendukung pembiayaan jalan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kegiatan penghimpunan simpanan masyarakat seperti giro dan tabungan bukan kewenangan perusahaan pembiayaan infrastruktur."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Sumber Legalitas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sumber terbaik untuk memeriksa apakah sebuah perusahaan pembiayaan berizin adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Iklan influencer",
+            "B": "Direktori OJK bertanggal terbaru",
+            "C": "Logo di brosur",
+            "D": "Nama yang mirip bank",
+            "E": "Komentar forum saja"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Direktori dan pengumuman resmi terbaru lebih dapat diandalkan daripada materi promosi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "UUS",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Unit Usaha Syariah pada perusahaan pembiayaan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Unit kerja syariah dari perusahaan pembiayaan",
+            "B": "Bank baru otomatis",
+            "C": "Perusahaan pergadaian",
+            "D": "Nasabah penyimpan dana",
+            "E": "Dana pensiun"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "UUS menjalankan fungsi kegiatan pembiayaan syariah dari perusahaan induknya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Arus Kas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penghasilan bersih Rp10 juta, angsuran lama Rp3 juta, angsuran baru Rp5 juta. Total cicilan terhadap penghasilan bersih adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "20%",
+            "B": "30%",
+            "C": "50%",
+            "D": "80%",
+            "E": "100%"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "(3+5)/10 × 100% = 80%; ini indikator yang perlu dipertimbangkan bersama kebutuhan hidup."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pokok dan Jasa",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pinjaman Rp30 juta dengan bunga flat 10% per tahun selama 1 tahun, tanpa biaya lain. Total bunga ilustratif adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp300 ribu",
+            "B": "Rp1,5 juta",
+            "C": "Rp3 juta",
+            "D": "Rp10 juta",
+            "E": "Rp33 juta"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga flat = 30 juta × 10% × 1 = Rp3 juta."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pengertian dan Posisi Perusahaan Pembiayaan",
+        "teks": ""
+      },
+      {
+        "judul": "Jenis Kegiatan Usaha dan Tujuan Pembiayaan",
+        "teks": ""
+      },
+      {
+        "judul": "Skema Angsuran, Biaya, dan Beban Total",
+        "teks": ""
+      },
+      {
+        "judul": "Proses Pengajuan dan Hak Konsumen",
+        "teks": ""
+      },
+      {
+        "judul": "Pembiayaan Syariah dan Akad yang Digunakan",
+        "teks": ""
+      },
+      {
+        "judul": "Risiko Pembiayaan, Pengawasan, dan Pembaruan Ketentuan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pemahaman perusahaan pembiayaan menuntut kemampuan membaca tujuan pembiayaan sekaligus konsekuensi kontrak. Suku bunga, metode perhitungan, biaya tambahan, tenor, dan total angsuran harus dibaca sebagai satu paket informasi. Pada akhirnya, pembelajaran Perusahaan Pembiayaan tidak hanya bertujuan mengenalkan jenis-jenis pembiayaan, tetapi juga menumbuhkan kemampuan memahami hubungan antara kebutuhan pendanaan, mekanisme kontrak, biaya, manfaat, dan risiko yang ditanggung para pihak. Peserta diharapkan mampu membedakan pembiayaan investasi, modal kerja, dan multiguna; memahami karakteristik pembiayaan syariah serta infrastruktur; dan mengevaluasi kewajaran suatu penawaran dengan memperhatikan hak dan kewajiban konsumen. Dalam persiapan PCAM/MLE OJK, keterampilan tersebut penting untuk menafsirkan studi kasus dan memilih jawaban berdasarkan konsep yang tepat. Dengan bekal pemahaman ini, peserta diharapkan lebih kritis dan bertanggung jawab dalam menilai layanan pembiayaan, sekaligus siap melanjutkan pembelajaran ke subsektor jasa keuangan lainnya. Peraturan dan informasi industri yang dapat berubah perlu selalu diperiksa kembali melalui sumber resmi OJK."
+  }
+}

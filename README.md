@@ -78,6 +78,19 @@ Yang dikonversi apa adanya: paragraf, subjudul, daftar, tabel (termasuk sel gabu
 
 Catatan: tautan "05 Logika Pernyataan" di sheet (baris 39) kurang satu huruf sehingga tidak bisa dibuka; katalog memakai ID yang benar.
 
+### Materi PCAM OJK (JadiOJK)
+
+`konten/ojk/katalog.json` mendaftar 22 dokumen di kolom File sheet "Kerangka Course" (Mapping Tahap 2 PCAM OJK 2026): subtes TKU (Penalaran Induktif, Penalaran Deduktif, Pengetahuan Sektor Jasa Keuangan), materi, bab, dan ID dokumen. Katalog ini juga menyimpan pengaturan deck: subtes di sampul ("Tes Kemampuan Umum"), peta subtes TKU, awalan nama berkas ("OJK TKU"), merek situs, dan palet `jadiojk`. Naskah dan gambar ada di `konten/ojk/`.
+
+```bash
+python generator/impor_katalog.py --katalog konten/ojk/katalog.json --docx folder_docx_ojk
+python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-general "path/Template Materi General.pptx"
+```
+
+Perintah kedua membangun situs unduhan terpisah di `situs-ojk/` (halaman yang sama dengan `situs/`, warna JadiOJK lewat `tema.css`). Deploy sebagai proyek Vercel sendiri dengan Root Directory = `situs-ojk` dan `MATERI_SANDI`, sama seperti situs TIU.
+
+Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN", "C. Materi Pembelajaran"), catatan penulis dalam kurung siku ("[WAJIB PPT]", "[PENGAYAAN]") yang dibuang dari teks, bagian yang dilewati (Kata Pengantar, Capaian Pembelajaran, Daftar Rujukan), soal per Heading 2 ("4.1 …", "Contoh Soal 1 — …"), dan kunci "Jawaban C. …". Isi berlabel [PENGAYAAN] tetap ikut. "Pengenalan OJK dan Waspada Investasi" (13 MB) terlalu besar untuk diekspor lewat Google Drive API; unduh manual sebagai Word, simpan sebagai `<doc_id>.docx`, lalu jalankan impor dengan `--id sjk-01`.
+
 ## Aplikasi web (Vercel)
 
 `app.py` adalah aplikasi Flask:

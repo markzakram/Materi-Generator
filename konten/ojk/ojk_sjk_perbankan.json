@@ -1,0 +1,1664 @@
+{
+  "meta": {
+    "judul": "Perbankan",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Perbankan",
+    "sumber": "https://docs.google.com/document/d/1UDHYRRG3l2UNzaappwnvJbDgHC42Dpe1fHmbO69VQyM/edit",
+    "id_katalog": "sjk-03"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi disusun sebagai pembelajaran mandiri untuk kandidat PCAM/MLE, dengan keterkaitan langsung terhadap Tes Pengetahuan Sektor Jasa Keuangan pada dokumen riset JadiOJK. Tidak ada klaim bahwa contoh yang disusun pernah muncul dalam seleksi resmi.",
+      "Perbankan merupakan penghubung utama antara pemilik dana dan pihak yang membutuhkan pendanaan. Peserta tes perlu memahami perbedaan lembaga, karakteristik simpanan, kredit, kewenangan pengawas, serta risiko konsumen. Materi dari buku OJK lama diperbarui pada istilah BPR agar konsisten dengan UU P2SK."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "fungsi dan jenis bank di Indonesia termasuk nomenklatur BPR terbaru."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "tabungan, giro, deposito, serta produk investasi yang dipasarkan melalui bank."
+      },
+      {
+        "level": "",
+        "kko": "Mengklasifikasi",
+        "teks": "penggunaan kredit dan menerapkan konsep analisis kemampuan bayar."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "peran OJK, BI, dan LPS dalam sistem keuangan."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "soal kasus bank dan perhitungan ilustratif sederhana."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pengertian, Fungsi, dan Struktur Perbankan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengertian, Fungsi, dan Struktur Perbankan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank merupakan badan usaha yang menghimpun dana dari masyarakat dalam bentuk simpanan dan menyalurkannya kembali dalam bentuk kredit, pembiayaan, atau bentuk lain sesuai ketentuan. Peran intermediasi ini mempertemukan penabung dengan pihak yang membutuhkan pendanaan, sekaligus didukung jasa pembayaran dan pengelolaan transaksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbankan menghimpun dana, menyalurkan pembiayaan, serta menyediakan layanan transaksi. Operasional bank mensyaratkan kehati-hatian karena bank mengelola dana masyarakat. Pembedaan lembaga penting: tidak semua pelaku pemberi pembiayaan merupakan bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di Indonesia dikenal bank umum serta Bank Perekonomian Rakyat (BPR). Istilah “Bank Perkreditan Rakyat” dalam referensi lama telah diubah oleh UU P2SK menjadi “Bank Perekonomian Rakyat”. Bank umum menawarkan cakupan transaksi yang lebih luas; BPR mempunyai pembatasan, antara lain tidak menerima simpanan giro."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bentuk",
+                "Fungsi utama",
+                "Pembeda"
+              ],
+              "baris": [
+                [
+                  "**Bank umum**",
+                  "Simpanan, kredit/pembiayaan, sistem pembayaran",
+                  "Dapat menyediakan layanan lalu lintas pembayaran sesuai izin"
+                ],
+                [
+                  "**BPR**",
+                  "Simpanan dan kredit/pembiayaan dengan lingkup lebih terbatas",
+                  "Tidak menerima giro; dapat melakukan transfer dana sesuai ketentuan yang berlaku"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perbankan Konvensional dan Syariah",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbankan Konvensional dan Syariah",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank konvensional menerapkan perjanjian berbasis bunga dan ketentuan layanan yang berlaku. Bank syariah beroperasi berdasarkan prinsip syariah dan akad yang relevan seperti wadiah, mudharabah, murabahah, atau musyarakah. Kesamaan keduanya adalah menjalankan kegiatan keuangan yang diatur dan diawasi sesuai perizinan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan menyederhanakan bahwa seluruh simpanan syariah selalu memberi bagi hasil. Bentuk manfaat bergantung pada akad. Misalnya, titipan dapat menggunakan wadiah, sementara investasi dana nasabah dapat menggunakan mudharabah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kepastian hak, kewajiban, biaya, tingkat risiko, dan kesesuaian akad/perjanjian menjadi kriteria pemilihan layanan; bukan hanya label konvensional atau syariah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Perbandingan",
+                "Konvensional",
+                "Syariah"
+              ],
+              "baris": [
+                [
+                  "**Dasar transaksi**",
+                  "Perjanjian sesuai ketentuan konvensional",
+                  "Akad sesuai prinsip syariah"
+                ],
+                [
+                  "**Imbalan**",
+                  "Bunga atau biaya sesuai produk",
+                  "Margin, ujrah, atau bagi hasil tergantung akad"
+                ],
+                [
+                  "**Pengawasan**",
+                  "OJK dan ketentuan terkait",
+                  "OJK serta tata kelola kesesuaian prinsip syariah"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Simpanan: Tabungan, Giro, dan Deposito",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Simpanan: Tabungan, Giro, dan Deposito",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tabungan memungkinkan penarikan sesuai ketentuan dengan kanal seperti ATM dan mobile banking. Giro ditujukan untuk lalu lintas pembayaran melalui sarana yang ditentukan bank; produknya tidak tersedia pada BPR. Deposito berjangka memiliki syarat pencairan dan jatuh tempo sebagaimana perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan menganggap deposito selalu bebas risiko, selalu dapat ditarik tanpa konsekuensi, atau seluruh produk investasi yang dijual bank otomatis dijamin LPS. Perlindungan simpanan terkait lembaga, jenis simpanan, serta persyaratan penjaminan yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum membuka rekening, pelajari biaya layanan, suku bunga atau nisbah, ketentuan penalti, keamanan akses digital, serta mekanisme pengaduan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Produk",
+                "Karakteristik",
+                "Penggunaan umum"
+              ],
+              "baris": [
+                [
+                  "**Tabungan**",
+                  "Penarikan relatif fleksibel sesuai ketentuan",
+                  "Dana transaksi dan simpanan"
+                ],
+                [
+                  "**Giro**",
+                  "Mendukung transaksi pembayaran",
+                  "Arus kas usaha"
+                ],
+                [
+                  "**Deposito**",
+                  "Penempatan berjangka",
+                  "Dana yang tidak diperlukan segera"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kredit, Pembiayaan, dan Analisis Kelayakan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kredit, Pembiayaan, dan Analisis Kelayakan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kredit atau pembiayaan merupakan penyaluran dana yang harus dibayar kembali sesuai kesepakatan. Kredit konsumtif digunakan untuk kebutuhan konsumsi, sementara kredit produktif menunjang kegiatan usaha, investasi, atau modal kerja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menganalisis kemampuan pembayaran debitur, tujuan penggunaan, sumber pembayaran, riwayat pembiayaan, serta risiko. Kerangka analisis yang kerap dipakai adalah 5C: character, capacity, capital, collateral, dan condition of economy. Agunan bukan alasan untuk mengabaikan kemampuan bayar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh ilustratif: pinjaman pokok Rp12.000.000 dengan bunga flat 12% per tahun selama satu tahun menghasilkan bunga Rp1.440.000 dan total angsuran Rp13.440.000, atau Rp1.120.000 per bulan. Model flat hanyalah model soal; biaya nyata dipengaruhi metode bunga, biaya tambahan, dan syarat produk."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek 5C",
+                "Pertanyaan analisis"
+              ],
+              "baris": [
+                [
+                  "**Character**",
+                  "Bagaimana riwayat dan integritas peminjam?"
+                ],
+                [
+                  "**Capacity**",
+                  "Apakah arus kas cukup untuk membayar?"
+                ],
+                [
+                  "**Capital**",
+                  "Berapa dukungan modal sendiri?"
+                ],
+                [
+                  "**Collateral**",
+                  "Agunan apa yang relevan jika dipersyaratkan?"
+                ],
+                [
+                  "**Condition**",
+                  "Bagaimana kondisi usaha dan ekonomi?"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pengawasan Perbankan, BI, OJK, dan LPS",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengawasan Perbankan, BI, OJK, dan LPS",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK berperan dalam pengaturan serta pengawasan mikroprudensial perbankan. Bank Indonesia berwenang di bidang kebijakan moneter, sistem pembayaran, dan makroprudensial sesuai kewenangannya. LPS mempunyai fungsi penjaminan simpanan dan penanganan bank sesuai undang-undang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengawasan OJK bukan berarti semua produk yang ditawarkan di kantor bank dijamin OJK atau LPS. Simpanan bank yang memenuhi persyaratan penjaminan LPS berbeda dari instrumen investasi yang dipasarkan melalui bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsumen dapat memeriksa izin bank melalui kanal regulator, memahami kewajiban identifikasi nasabah, serta menggunakan kanal resmi pengaduan bank dan OJK bila diperlukan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Lembaga",
+                "Fokus"
+              ],
+              "baris": [
+                [
+                  "**OJK**",
+                  "Pengaturan/pengawasan sektor jasa keuangan"
+                ],
+                [
+                  "**BI**",
+                  "Moneter, makroprudensial, sistem pembayaran"
+                ],
+                [
+                  "**LPS**",
+                  "Penjaminan simpanan dan penanganan bank sesuai mandat"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Risiko, Keamanan Digital, dan Perlindungan Nasabah",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Risiko, Keamanan Digital, dan Perlindungan Nasabah",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Risiko perbankan mencakup risiko kredit, likuiditas, pasar, operasional, dan kepatuhan. Nasabah juga menghadapi penipuan berbasis rekayasa sosial, pencurian kredensial, tautan palsu, dan penyalahgunaan data pribadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah aman: gunakan aplikasi resmi, aktifkan autentikasi yang tersedia, jangan membagikan PIN/OTP, cermati notifikasi transaksi, dan segera hubungi bank melalui kanal resmi apabila ada transaksi tidak dikenal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika menghadapi sengketa, dokumentasikan kronologi dan bukti transaksi, sampaikan pengaduan kepada penyelenggara layanan, dan gunakan kanal regulator/penyelesaian sengketa sesuai prosedur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perhitungan Bunga Sederhana dan Keputusan Produk",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perhitungan Bunga Sederhana dan Keputusan Produk",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk soal literasi keuangan, pahami perbedaan nilai nominal simpanan, imbalan yang dijanjikan dalam perjanjian, dan nilai bersih setelah pajak atau biaya. Misalnya bunga sederhana bruto untuk simpanan Rp10.000.000 pada 3% per tahun selama 6 bulan adalah Rp150.000, sebelum pajak dan biaya. Ini bukan simulasi penawaran bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhitungan bunga sederhana menggunakan $Bunga = Pokok × tingkat tahunan × waktu dalam tahun.$ Persentase setahun harus dikonversi bila periode yang ditanya bulan. Di sisi lain, bagi hasil syariah tidak otomatis dapat dihitung dengan menyamakan nisbah bagi hasil dengan suku bunga flat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika memilih rekening, pertimbangkan kebutuhan likuiditas, biaya transaksi, karakter produk, dan kesesuaian tujuan. Dana yang akan digunakan pekan depan sebaiknya tidak diperlakukan sama seperti dana yang akan disimpan berjangka panjang."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Komponen",
+                "Simulasi edukasi"
+              ],
+              "baris": [
+                [
+                  "**Pokok simpanan**",
+                  "Rp10.000.000"
+                ],
+                [
+                  "**Imbalan bruto tahunan contoh**",
+                  "3%"
+                ],
+                [
+                  "**Waktu**",
+                  "6 bulan = 0,5 tahun"
+                ],
+                [
+                  "**Hasil bunga sederhana bruto**",
+                  "Rp10.000.000 × 3% × 0,5 = Rp150.000"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Latihan Pengambilan Keputusan dan Kesalahan Umum",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Latihan Pengambilan Keputusan dan Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Salah satu kekeliruan umum adalah menyamakan dana yang ditempatkan di bank dengan produk yang diterbitkan bank. Reksa dana atau surat berharga dapat dipasarkan di bank sebagai distributor tanpa menjadikannya deposito. Risiko dan penjaminan mengikuti karakter produk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kekeliruan lain adalah menganggap seluruh BPR sama sekali tidak boleh melakukan transfer dana. Setelah UU P2SK, BPR dapat melakukan kegiatan transfer dana sesuai izin dan ketentuan, walaupun tidak menerima giro dan tidak memberikan jasa lalu lintas giral secara langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal studi kasus, lakukan tiga pemeriksaan: tentukan lembaga dan izinnya, tentukan produknya, kemudian tentukan regulator atau ketentuan perlindungannya. Pemisahan ini mencegah jawaban yang terdengar masuk akal tetapi salah lembaga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Ruang Lingkup Bank Umum dan Bank Perekonomian Rakyat",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ruang Lingkup Bank Umum dan Bank Perekonomian Rakyat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan kerangka UU Perbankan sebagaimana diubah dengan UU No. 4 Tahun 2023 (UU P2SK), bank adalah badan usaha penghimpun simpanan yang menyalurkan dana melalui kredit, pembiayaan, atau bentuk lain. Kelompok utama adalah bank umum dan Bank Perekonomian Rakyat (BPR), masing-masing dapat beroperasi secara konvensional atau syariah. Nomenklatur Bank Perkreditan Rakyat dan Bank Pembiayaan Rakyat Syariah dalam dokumen lama telah berubah menjadi Bank Perekonomian Rakyat dan Bank Perekonomian Rakyat Syariah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank umum menyediakan layanan lalu lintas pembayaran dan dapat menghimpun tabungan, giro, maupun deposito; menyalurkan kredit/pembiayaan; menjalankan aktivitas sistem pembayaran dan, sesuai ketentuan, kegiatan valuta asing dan surat berharga. BPR menghimpun tabungan dan deposito, menyalurkan kredit atau pembiayaan, dapat melakukan transfer dana, penukaran valuta asing yang diperbolehkan, kerja sama antarbank, dan kegiatan lain yang diizinkan. Perbedaan penting: BPR tidak menerima simpanan giro dan tidak menjalankan jasa lalu lintas giral secara langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan menyimpulkan bahwa BPR sama sekali tidak boleh melakukan transfer dana. UU P2SK memperluas jenis kegiatan tertentu namun tetap membedakan BPR dari bank umum dalam layanan giral."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan utama: Bank umum dapat menerima giro dan memberikan layanan giral; BPR tidak menerima giro, tetapi dapat menjalankan transfer dana sesuai izin dan ketentuan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bank Konvensional, Bank Syariah, dan Unit Usaha Syariah",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bank Konvensional, Bank Syariah, dan Unit Usaha Syariah",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank Umum Konvensional (BUK) menjalankan kegiatan secara konvensional; Bank Umum Syariah (BUS) menjalankan usaha berdasarkan prinsip syariah dan menyediakan layanan lalu lintas pembayaran. Bank Perekonomian Rakyat Syariah (BPRS) menjalankan usaha berdasarkan prinsip syariah tetapi tidak menyediakan layanan giral secara langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Unit Usaha Syariah (UUS) adalah unit kerja bank umum konvensional yang berfungsi sebagai induk unit atau kantor yang melakukan usaha berdasarkan prinsip syariah. UUS berbeda dari BUS yang berstatus sebagai bank syariah tersendiri. Prinsip syariah diterapkan berdasarkan fatwa atau pernyataan kesesuaian syariah dari otoritas yang berwenang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Akad yang kerap muncul dalam produk syariah ialah murabahah (jual beli dengan margin yang disepakati), mudharabah (kerja sama pemilik dana–pengelola dengan pembagian keuntungan), musyarakah (kerja sama penyertaan modal), dan ijarah (pemanfaatan jasa/aset dengan ujrah). Detail hak serta kewajiban mengikuti akad dan regulasi produknya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pembiayaan Multijasa Perbankan Syariah 2025",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pembiayaan Multijasa Perbankan Syariah 2025",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pedoman Produk Pembiayaan Multijasa Perbankan Syariah diumumkan OJK pada 4 November 2025. Produk ini menyediakan pendanaan untuk kebutuhan jasa tertentu dengan pembayaran ujrah yang disepakati. Konteks penggunaan yang disebut OJK mencakup layanan pendidikan, kesehatan, pariwisata, dan kebutuhan dalam ekosistem industri halal seperti umrah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam analisis kasus, fokuskan pada objek jasa yang nyata, kesesuaian akad dan ujrah, transparansi biaya, kesepakatan jangka waktu, manajemen risiko, dan pelindungan konsumen. Pembiayaan multijasa bank syariah jangan disamakan dengan “pembiayaan multiguna” oleh perusahaan pembiayaan karena lembaga dan kerangka usahanya berbeda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kewenangan OJK di Sektor Perbankan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kewenangan OJK di Sektor Perbankan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengaturan dan pengawasan perbankan oleh OJK meliputi perizinan (right to license), penetapan aturan (right to regulate), pengawasan langsung maupun tidak langsung, sanksi administratif, penyidikan pada sektor jasa keuangan, serta pelindungan konsumen. Pengawasan langsung dapat berupa pemeriksaan umum atau khusus di bank, sedangkan pengawasan tidak langsung memanfaatkan laporan, data, dan informasi lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: bila suatu bank melanggar ketentuan kehati-hatian, pengawas dapat melakukan pemeriksaan dan mengambil tindak lanjut sesuai kewenangan. Akan tetapi, menetapkan suku bunga kebijakan moneter dan mengelola sistem pembayaran secara makro adalah ranah BI, sementara fungsi penjaminan simpanan dan resolusi bank sesuai mandat berada pada LPS. Ketiganya berkoordinasi sesuai hukum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Enam kelompok kewenangan OJK: perizinan, pengaturan, pengawasan, sanksi, penyidikan, serta pelindungan konsumen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Produk Informasi Pengawasan dan Publikasi Perbankan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Produk Informasi Pengawasan dan Publikasi Perbankan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Direktori Perbankan Indonesia (DPI) memuat profil bank umum seperti kelembagaan dan kepengurusan. Informasi kondisi keuangan bank juga tersedia melalui laporan publikasi keuangan. Daftar kantor pusat bank, BPR, bank syariah, dan kantor perwakilan bank asing merupakan data direktori yang dapat diperbarui, bukan daftar statis untuk dihafal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Laporan Surveillance Perbankan Indonesia (LSPI) memberikan telaah berkala terhadap kinerja, risiko, penyaluran kredit dan pembiayaan, serta kondisi ekonomi terkait sektor perbankan. Survei Orientasi Bisnis Perbankan OJK (SBPO) menjaring persepsi bank mengenai kondisi makro, risiko, dan prospek bisnis; menghasilkan Indeks Orientasi Bisnis Perbankan (IBP). Dalam uraian sumber, IBP lebih dari 50 berarti optimistis, sama dengan 50 stabil, dan di bawah 50 pesimistis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Booklet Perbankan Indonesia menghimpun gambaran kebijakan dan ketentuan utama. Manfaat memahami jenis publikasi ini adalah mengetahui sumber data yang tepat ketika diminta membaca situasi industri, bukan menghafalkan angka tahun tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "DPI = profil institusi; LSPI = kondisi dan risiko industri; SBPO/IBP = ekspektasi bisnis; Booklet = informasi kebijakan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pelaporan Akuntansi dan Informasi Keuangan Bank",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pelaporan Akuntansi dan Informasi Keuangan Bank",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Panduan Akuntansi Perbankan bagi Bank Umum Konvensional (BPAK) dikukuhkan melalui SEOJK No. 34/SEOJK.03/2021 dan membahas perlakuan pencatatan transaksi, simpanan, kredit, surat berharga, hingga pelaporan laba rugi. Buku ini memberi rujukan cara penyajian laporan agar informasi bank dapat diperbandingkan dan dipercaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk bank syariah dan UUS, referensi historis yang disediakan memuat Pedoman Akuntansi Perbankan Syariah Indonesia (PAPSI) 2013. Untuk BPR, panduan akuntansi lebih baru ialah SEOJK No. 21/SEOJK.03/2024 dengan penyesuaian Standar Akuntansi Keuangan Entitas Privat (SAK EP) sejak 2025. Materi tentang BPRS dalam kompilasi masih mencantumkan pedoman lama; status pengaturan terbaru perlu diperiksa sebelum dijadikan soal hafalan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan ketiga kelompok tersebut menunjukkan bahwa pedoman akuntansi harus mengikuti jenis institusi dan periode regulasinya. Jangan menggunakan panduan bank umum sebagai satu-satunya dasar teknis penyajian laporan semua bank."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kerangka Basel dan Pengawasan Berbasis Risiko",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kerangka Basel dan Pengawasan Berbasis Risiko",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Komite Basel (BCBS) lahir pada 1974 dan mengembangkan standar internasional untuk memperkuat kualitas pengawasan, modal, dan ketahanan industri perbankan. Perkembangannya meliputi Basel I, Basel II, Basel 2.5, dan Basel III beserta reformasinya. Standar internasional tersebut perlu diterapkan melalui ketentuan nasional, sehingga aturan teknis yang berlaku mengikuti regulasi OJK."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Basel III memberi perhatian pada kecukupan dan kualitas modal, aset tertimbang menurut risiko (ATMR), risiko kredit, risiko pasar, risiko operasional, dan ketahanan likuiditas. Dalam sumber OJK, komponen modal Common Equity Tier 1 (CET1) minimal 4,5% dan Tier 1 minimal 6% disebut sebagai bagian kerangka. Persyaratan total dan buffer dapat bergantung pada profil bank dan aturan yang berlaku; kedua angka tersebut tidak boleh dianggap satu-satunya kewajiban permodalan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seperangkat aturan Indonesia mengatur implementasi risiko kredit, operasional, pasar, dan CVA secara bertahap. Untuk pembelajaran dasar, peserta cukup memahami tujuan Basel serta perbedaan antara rasio modal, risiko, dan kualitas aset; rincian pasal teknis lebih tepat menjadi pengayaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Basel III = kualitas dan kecukupan modal serta ketahanan bank; ATMR menghubungkan eksposur dengan bobot risiko."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Informasi Historis, Direktori, dan Ketelitian Sumber",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Informasi Historis, Direktori, dan Ketelitian Sumber",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dokumen kompilasi mencantumkan PBI No. 14/22/PBI/2012 tentang pemberian kredit/pembiayaan UMKM serta daftar kantor perwakilan dan statistik periode tertentu. Ini relevan sebagai sejarah regulasi dan contoh perkembangan kebijakan, tetapi tidak boleh otomatis dinyatakan sebagai persyaratan terkini tanpa pemeriksaan status perubahan atau pencabutannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian struktur organisasi pengawas perbankan pada gambar sumber merupakan representasi organisasi ketika gambar diterbitkan. Susunan departemen dan nomenklatur pejabat dapat berubah. Materi menampilkan ruang lingkup fungsi sebagai materi inti dan mengarahkan pembaca ke laman organisasi resmi untuk struktur jabatan mutakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam menjawab soal berbasis regulasi, bedakan fakta historis, ketentuan terbaru, dan data direktori periodik."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rantai Intermediasi dan Model Bisnis Bank",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rantai Intermediasi dan Model Bisnis Bank",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menjalankan intermediasi dengan menerima dana pihak ketiga (DPK) dan menyalurkan dana tersebut melalui kredit atau pembiayaan. DPK terutama mencakup giro, tabungan, dan deposito. Proses intermediasi tidak berarti seluruh simpanan langsung disalurkan, karena bank perlu mempertahankan likuiditas, modal, dan cadangan sesuai ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari sisi pendapatan, bank konvensional memperoleh antara lain pendapatan bunga bersih dan pendapatan berbasis biaya (fee-based income). Bank syariah menggunakan mekanisme sesuai akad, seperti jual beli, sewa, atau bagi hasil. Bank menanggung risiko apabila peminjam gagal membayar; karena itu analisis kredit dan pengawasan aset produktif merupakan bagian penting dari bisnis bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ilustrasi: bank menghimpun simpanan Rp100 miliar, tetapi tidak berarti boleh menyalurkan kredit Rp100 miliar tanpa mempertimbangkan kewajiban penarikan simpanan, ketentuan likuiditas dan kecukupan modal. Perbedaan waktu jatuh tempo simpanan dan kredit juga dapat menimbulkan risiko likuiditas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3.1.18 Perbandingan Kewenangan Bank Umum, BPR, dan BPRS"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank umum memberi jasa lalu lintas pembayaran dan memiliki cakupan usaha lebih luas. Bank Perekonomian Rakyat (BPR) dan Bank Perekonomian Rakyat Syariah (BPRS) tidak menerima simpanan giro dan tidak memberikan jasa lalu lintas giral secara langsung. Akan tetapi, pembaruan UU P2SK memungkinkan kegiatan transfer dana dan kegiatan lain sesuai ketentuan serta persetujuan yang diperlukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan yang sering muncul dalam soal adalah menyimpulkan bahwa BPR sama sekali tidak boleh melakukan transfer dana. Pernyataan itu terlalu luas. Yang harus dibedakan adalah larangan menerima giro atau menyelenggarakan jasa giral secara langsung dengan kemungkinan transfer dana yang memang diatur oleh ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengidentifikasi jenis bank, baca karakteristik kelembagaan dan kegiatan usaha, bukan hanya nama perusahaan. Bank syariah bisa berbentuk BUS atau BPRS; UUS adalah unit usaha bank konvensional, bukan otomatis badan hukum bank yang terpisah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bank Syariah: Akad dan Contoh Penggunaannya",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bank Syariah: Akad dan Contoh Penggunaannya",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Wadiah digunakan pada skema titipan sesuai ketentuan, mudharabah pada kerja sama pemilik dana dan pengelola dengan pembagian keuntungan, murabahah pada jual beli dengan harga perolehan dan margin yang diketahui, ijarah pada pemanfaatan jasa atau aset dengan imbalan sewa/ujrah, serta musyarakah pada kerja sama penyertaan modal. Masing-masing akad memiliki hak, kewajiban, dan risiko yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh murabahah: bank membeli barang yang memenuhi syarat seharga Rp80 juta dan menjual kepada nasabah dengan margin disepakati Rp12 juta. Harga jual akad Rp92 juta, yang kemudian dibayar dengan jadwal sesuai kesepakatan. Tidak tepat menyebut setiap selisih pembayaran sebagai bunga; karakter kontrak harus dinilai dari akadnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pedoman OJK mengenai pembiayaan multijasa perbankan syariah (publikasi 4 November 2025) menjelaskan kebutuhan layanan berjangka dengan ujrah yang disepakati. Penerapannya perlu menjaga kepatuhan syariah, transparansi, manajemen risiko, dan pelindungan konsumen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kredit UMKM dan Prinsip Kehati-hatian",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kredit UMKM dan Prinsip Kehati-hatian",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kredit atau pembiayaan UMKM bertujuan mendukung kegiatan produktif, tetapi tetap membutuhkan analisis kapasitas pembayaran. Kerangka 5C mencakup character, capacity, capital, collateral, dan condition. Lima unsur merupakan kerangka analisis, bukan persamaan yang secara otomatis menjamin persetujuan kredit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: pelaku usaha memiliki penjualan Rp50 juta per bulan, biaya operasional Rp35 juta, serta kebutuhan rumah tangga Rp8 juta. Sisa arus kas kasarnya Rp7 juta sebelum kewajiban lain. Angsuran Rp9 juta akan memberi tekanan likuiditas walaupun usaha memiliki omzet tinggi. Analisis capacity harus berangkat dari arus kas tersedia, bukan omzet bruto."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "PBI 14/22/PBI/2012 mengenai kredit/pembiayaan UMKM dicantumkan dalam referensi sebagai ketentuan historis. Angka target lama tidak sebaiknya dihafalkan sebagai kewajiban terkini tanpa memeriksa peraturan pengganti dan ketentuan pelaksana terbaru."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pengawasan Berbasis Risiko dan Tindakan OJK",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengawasan Berbasis Risiko dan Tindakan OJK",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK melakukan pengaturan, perizinan, pengawasan, pemeriksaan, penegakan ketentuan, dan pelindungan konsumen sesuai mandat perundang-undangan. Pengawasan langsung berupa pemeriksaan di lokasi dapat menilai catatan dan praktik operasional; pengawasan tidak langsung menganalisis laporan berkala, profil risiko, serta indikator kesehatan bank."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh kasus: rasio kredit bermasalah meningkat selama beberapa triwulan, sementara likuiditas menurun. Pengawas tidak langsung dapat mengidentifikasi gejala dari laporan, lalu pemeriksaan langsung memvalidasi kualitas kredit, praktik pencadangan, dan proses pengendalian internal. Tindakan pengawasan yang dipilih bergantung pada temuan dan ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemisahan peran: OJK berfokus pada pengaturan dan pengawasan mikroprudensial; BI menjalankan fungsi bank sentral termasuk moneter dan sistem pembayaran; LPS menjalankan mandat penjaminan simpanan dan resolusi bank sesuai ketentuan. Ketiganya berkoordinasi tetapi tidak memiliki fungsi yang sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca Kesehatan Bank: Risiko dan Rasio",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca Kesehatan Bank: Risiko dan Rasio",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rasio kecukupan modal (CAR/KPMM), kredit bermasalah (NPL), pembiayaan bermasalah (NPF), biaya operasional terhadap pendapatan operasional (BOPO), dan likuiditas membantu menilai bank dari sudut yang berbeda. Suatu rasio tidak boleh ditafsirkan terpisah dari definisi, konteks industri, periode, dan ketentuan terkait."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh sederhana NPL bruto: jika kredit bermasalah Rp9 miliar dari total kredit Rp300 miliar, maka NPL = 9/300 × 100% = 3%. Nilai ini bukan otomatis bukti bahwa bank aman atau tidak aman; kualitas pencadangan, modal, konsentrasi kredit, dan tren tetap harus dinilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengungkapan laporan bank melalui pedoman akuntansi membantu pembaca menilai aset, liabilitas, laba rugi, penyisihan kerugian, dan eksposur risiko. BPAK untuk bank umum konvensional, PAPSI untuk syariah, serta PA-BPR memiliki fungsi sebagai panduan penyajian laporan sesuai kelompok bank."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Basel III dan Peran Standar Internasional",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Basel III dan Peran Standar Internasional",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Basel Committee on Banking Supervision (BCBS) mengembangkan standar pengawasan perbankan internasional. Basel I menekankan kecukupan modal, Basel II mengembangkan pendekatan risiko dan tiga pilar, sedangkan Basel III memperkuat kualitas modal, likuiditas, leverage, dan ketahanan setelah krisis keuangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga pilar Basel II/III secara konseptual meliputi persyaratan modal minimum, proses penilaian pengawas, dan disiplin pasar melalui pengungkapan. Dalam implementasi Indonesia, aturan rinci dituangkan ke POJK dan SEOJK yang berlaku; tidak semua angka pada infografik internasional boleh langsung digunakan tanpa membaca penerapannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh analitis: dua bank memiliki modal nominal sama, tetapi bank A menempatkan aset lebih berisiko daripada bank B. Ukuran modal relatif terhadap aset tertimbang menurut risiko dapat berbeda. Karena itu besar modal rupiah saja tidak cukup untuk membandingkan kemampuan menyerap kerugian."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca Publikasi OJK dan Memilah Data",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca Publikasi OJK dan Memilah Data",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Direktori Perbankan Indonesia, laporan publikasi keuangan, Laporan Surveillance Perbankan Indonesia (LSPI), Survei Orientasi Bisnis Perbankan OJK (SBPO), dan Booklet Perbankan Indonesia memiliki tujuan berbeda. Direktori terutama mengidentifikasi kelembagaan; LSPI memberi analisis industri; SBPO merekam persepsi atau ekspektasi responden."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Indeks Orientasi Bisnis Perbankan (IBP) pada SBPO berkisar 1–100: lebih dari 50 merepresentasikan persepsi optimistis, sama dengan 50 stabil, dan di bawah 50 pesimistis. Nilai tersebut merupakan ukuran persepsi, bukan jaminan pertumbuhan realisasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sumber yang bertahun lama dalam dokumen referensi perlu diberi label historis. Alamat kantor, nama pejabat, jumlah bank, rasio industri, dan susunan organisasi dapat berubah. Untuk soal faktual yang meminta status terkini, gunakan publikasi bertanggal dan sumber resmi paling baru."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "BPR dan Layanan Giro",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah UMKM membutuhkan rekening giro untuk melakukan pembayaran menggunakan sarana giral. Lembaga yang paling sesuai menurut perbedaan fungsi bank adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "BPR karena seluruh BPR menerima giro",
+            "B": "Bank umum karena dapat menyediakan giro sesuai ketentuan",
+            "C": "Perusahaan pembiayaan karena menghimpun giro",
+            "D": "Perusahaan pergadaian karena melayani giro",
+            "E": "Semua lembaga keuangan wajib melayani giro"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbedaan fungsi bank umum dan BPR"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank umum dapat menyediakan rekening giro; BPR tidak menerima simpanan dalam bentuk giro. Pilihan bank umum didasarkan pada jenis layanan yang dibutuhkan, bukan besarnya usaha."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari kata kunci “giro” lalu cocokkan izin dan jenis bank."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Mengidentifikasi Deposito",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang nasabah menempatkan dana dengan pencairan pada akhir jangka waktu sesuai perjanjian. Produk yang paling sesuai adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Giro",
+            "B": "Tabungan transaksi harian",
+            "C": "Deposito berjangka",
+            "D": "Saham",
+            "E": "Gadai"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Karakteristik produk simpanan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ciri pokok deposito adalah penempatan simpanan berjangka dengan ketentuan pencairan yang disepakati. Saham bukan produk simpanan bank."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Fokus pada frasa “jangka waktu/jatuh tempo”."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Fungsi OJK, BI, dan LPS",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Institusi yang menjalankan fungsi penjaminan simpanan nasabah bank sesuai syarat undang-undang adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "OJK",
+            "B": "BI",
+            "C": "LPS",
+            "D": "Perusahaan sekuritas",
+            "E": "Perusahaan pembiayaan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pembagian kewenangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "LPS bertanggung jawab menjalankan penjaminan simpanan yang memenuhi persyaratan. OJK mengatur/mengawasi bank; BI memiliki kewenangan di bidang moneter dan pembayaran."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan pengawasan, pembayaran, dan penjaminan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kredit Produktif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemilik usaha mengajukan fasilitas dana untuk membeli mesin produksi agar kapasitas usahanya meningkat. Tujuan pembiayaannya adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Konsumtif",
+            "B": "Produktif investasi",
+            "C": "Rekening giro",
+            "D": "Dana titipan",
+            "E": "Dana pensiun"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Klasifikasi tujuan kredit"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembelian mesin yang digunakan dalam proses produksi merupakan investasi produktif. Pembiayaan konsumtif melayani pembelian untuk pemakaian pribadi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lihat tujuan penggunaan dana, bukan nama peminjam."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Perhitungan Angsuran Bunga Flat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pinjaman Rp12.000.000 berbunga flat 12% per tahun, tenor 12 bulan, tanpa biaya lain. Besar cicilan bulanan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp1.000.000",
+            "B": "Rp1.080.000",
+            "C": "Rp1.120.000",
+            "D": "Rp1.200.000",
+            "E": "Rp1.440.000"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Aritmatika kredit ilustratif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga total = 12.000.000×12% = 1.440.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total kewajiban = 13.440.000;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "dibagi 12 = Rp1.120.000 per bulan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pokok/12 + (pokok×12%)/12."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Analisis 5C — Capacity",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Analis menilai apakah arus kas usaha peminjam mencukupi untuk membayar cicilan setiap bulan. Aspek 5C yang dinilai adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Character",
+            "B": "Capital",
+            "C": "Capacity",
+            "D": "Collateral",
+            "E": "Condition"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penilaian kapasitas bayar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Capacity menilai kemampuan pembayaran dari penghasilan dan arus kas. Collateral merujuk pada agunan; capital pada modal sendiri."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Arus kas bayar = capacity."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kesalahan Menyamakan Produk",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang nasabah membeli reksa dana melalui bank dan menganggap produk tersebut memperoleh jaminan LPS sebagaimana deposito."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang paling tepat mengenai produk tersebut adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Reksa dana dijamin berdasarkan bank penjualnya.",
+            "B": "Reksa dana dijamin berdasarkan mata uangnya.",
+            "C": "Reksa dana tidak termasuk simpanan dijamin LPS.",
+            "D": "Reksa dana dijamin berdasarkan pengelola investasinya.",
+            "E": "Reksa dana dijamin berdasarkan saluran transaksinya."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga Penjamin Simpanan (LPS) menjamin simpanan nasabah pada bank sesuai ketentuan yang berlaku, seperti giro, tabungan, dan deposito yang memenuhi persyaratan penjaminan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sementara itu, reksa dana merupakan produk investasi pasar modal, bukan simpanan bank. Meskipun dibeli melalui bank, reksa dana tidak otomatis memperoleh jaminan LPS."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tentukan jenis produknya terlebih dahulu, bukan tempat pembeliannya. Deposito merupakan simpanan bank, sedangkan reksa dana merupakan produk investasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Keamanan Akses",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seseorang mengaku petugas bank meminta kode OTP lewat telepon untuk memperbarui data nasabah. Langkah paling tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Memberikan OTP setelah bertanya namanya",
+            "B": "Mengirimkan OTP jika nomor penelepon terlihat resmi",
+            "C": "Menolak membagikan OTP dan menghubungi kanal resmi bank",
+            "D": "Membagikan OTP hanya sekali",
+            "E": "Membuka tautan yang dikirim penelepon"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Keamanan transaksi digital"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OTP merupakan informasi rahasia untuk otorisasi dan tidak boleh diserahkan kepada orang lain. Verifikasi melalui kanal resmi yang dicari secara mandiri."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "OTP/PIN tidak dibagikan kepada siapa pun."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Bunga Sederhana Simpanan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tabungan ilustratif Rp10.000.000 mendapat bunga sederhana bruto 3% per tahun selama 6 bulan, tanpa perubahan saldo dan sebelum pajak/biaya. Bunganya adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp50.000",
+            "B": "Rp100.000",
+            "C": "Rp150.000",
+            "D": "Rp300.000",
+            "E": "Rp600.000"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Bunga sederhana"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga = 10.000.000 × 0,03 × 6/12 = Rp150.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Setengah tahun berarti separuh bunga tahunan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kerja Sama Layanan BPR",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah Bank Perekonomian Rakyat (BPR) berencana bekerja sama dengan lembaga jasa keuangan lain untuk memperluas layanan kepada nasabah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan UU P2SK, kegiatan tersebut termasuk ...."
+            }
+          ],
+          "opsi": {
+            "A": "Penghimpunan dana masyarakat.",
+            "B": "Penyaluran kredit konsumtif.",
+            "C": "Penempatan dana antarbank.",
+            "D": "Kerja sama layanan keuangan.",
+            "E": "Penyertaan modal perusahaan."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan Pasal 13 ayat (1) huruf g UU Perbankan sebagaimana diubah melalui UU Nomor 4 Tahun 2023 (UU P2SK), BPR dapat bekerja sama dengan lembaga jasa keuangan lain maupun pihak selain lembaga jasa keuangan dalam memberikan layanan kepada nasabah. Pelaksanaannya tetap mengikuti ketentuan yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kasus tersebut, BPR memperluas layanan melalui kerja sama antarlembaga. Kegiatan ini berbeda dari penghimpunan simpanan, penyaluran kredit, penempatan dana, maupun penyertaan modal."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan bentuk kegiatannya. Jika BPR memperluas layanan melalui kemitraan dengan lembaga lain, kegiatan tersebut termasuk kerja sama layanan keuangan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Memilih Tabungan atau Deposito",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seseorang memerlukan akses dana untuk pengeluaran tidak terduga dalam beberapa hari. Berdasarkan karakteristik produk, pilihan yang relatif paling fleksibel adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Deposito dengan tenor panjang tanpa memeriksa penalti",
+            "B": "Tabungan yang memungkinkan penarikan sesuai ketentuan",
+            "C": "Saham karena dijamin seperti simpanan",
+            "D": "Reksa dana yang selalu tanpa fluktuasi",
+            "E": "Pinjaman gadai"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Likuiditas simpanan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tabungan umumnya dirancang untuk akses dana lebih fleksibel daripada deposito berjangka. Tetap perlu melihat syarat bank tertentu."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kebutuhan cepat = produk likuid."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Menganalisis Keamanan Rekening",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang nasabah menerima notifikasi transaksi keluar yang tidak dikenalnya. Setelah memeriksa riwayat transaksi, nasabah memastikan bahwa transaksi tersebut bukan dilakukan olehnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tindakan pertama yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Mengganti kata sandi aplikasi perbankan.",
+            "B": "Meminta bank memblokir akses rekening.",
+            "C": "Memeriksa perangkat yang terhubung ke akun.",
+            "D": "Mengaktifkan notifikasi seluruh transaksi.",
+            "E": "Mengajukan penggantian kartu debit baru."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika nasabah menemukan transaksi tidak dikenal yang telah terkonfirmasi, langkah prioritas adalah segera menghubungi bank melalui kanal resmi untuk meminta pengamanan atau pemblokiran akses yang berisiko disalahgunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah tersebut bertujuan mencegah transaksi tidak sah berikutnya. Bank kemudian dapat membantu pemeriksaan transaksi dan menentukan tindak lanjut sesuai prosedur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mengganti kata sandi, memeriksa perangkat, dan mengganti kartu debit juga dapat diperlukan. Namun, langkah-langkah tersebut bergantung pada sumber masalah dan tidak selalu cukup untuk menghentikan transaksi lanjutan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Transaksi tidak dikenal yang sudah terkonfirmasi → segera hubungi bank melalui kanal resmi untuk pengamanan dan pelaporan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Perbedaan BPR dan Bank Umum",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah Bank Perekonomian Rakyat (BPR) berencana menyediakan layanan rekening giro dan transfer dana kepada nasabah. Berdasarkan ketentuan kegiatan usaha BPR, pernyataan yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Giro dan transfer dana diperbolehkan.",
+            "B": "Giro diperbolehkan, transfer dibatasi.",
+            "C": "Giro dilarang, transfer diperbolehkan.",
+            "D": "Giro dibatasi, transfer dilarang.",
+            "E": "Giro dan transfer dana dilarang."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan UU Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan (UU P2SK), Bank Perekonomian Rakyat (BPR):"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Dilarang menerima simpanan berupa giro.",
+                "Diperbolehkan melakukan kegiatan transfer dana, baik untuk kepentingan sendiri maupun nasabah, sesuai ketentuan yang berlaku."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, BPR dapat menyediakan layanan transfer dana tanpa harus memiliki kewenangan menghimpun simpanan giro seperti bank umum."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "BPR = tidak boleh menghimpun giro, tetapi boleh melakukan transfer dana sesuai ketentuan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan BUS dan UUS",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Unit kerja bank umum konvensional yang melaksanakan usaha syariah dan menjadi induk unit syariah disebut ...."
+            }
+          ],
+          "opsi": {
+            "A": "Bank Perekonomian Rakyat",
+            "B": "Bank Umum Syariah tersendiri",
+            "C": "Unit Usaha Syariah",
+            "D": "Lembaga Pembiayaan Infrastruktur",
+            "E": "Lembaga Penjamin Simpanan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "UUS merupakan unit organisasi dari bank konvensional, bukan bank terpisah sebagaimana BUS."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membaca Indeks Orientasi Bisnis Perbankan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sumber OJK menjelaskan IBP lebih dari 50 menunjukkan kondisi ...."
+            }
+          ],
+          "opsi": {
+            "A": "pesimistis",
+            "B": "stabil",
+            "C": "optimistis",
+            "D": "tidak valid",
+            "E": "selalu deflasi"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ambang indeks 50 digunakan dalam interpretasi SBPO:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                ">50 optimistis,",
+                "=50 stabil,",
+                "<50 pesimistis."
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pengawasan Langsung",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tim pemeriksa datang ke kantor bank untuk memeriksa kecukupan bukti dan kepatuhan transaksi. Bentuk pengawasan ini adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "pengawasan on-site",
+            "B": "pengawasan off-site saja",
+            "C": "kebijakan moneter",
+            "D": "penjaminan simpanan",
+            "E": "transaksi pasar modal"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan pada lokasi bank merupakan pengawasan langsung. Pemantauan laporan dari kantor pengawas termasuk off-site."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kebutuhan Jasa Syariah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan bank syariah untuk layanan pendidikan dengan ujrah yang disepakati termasuk konteks ...."
+            }
+          ],
+          "opsi": {
+            "A": "simpanan giro",
+            "B": "pembiayaan multijasa",
+            "C": "kredit tanpa akad",
+            "D": "modal ventura",
+            "E": "gadai"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pedoman OJK November 2025 mengatur pembiayaan kebutuhan jasa tertentu dengan ujrah; bukan tabungan atau giro."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membaca NPL",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Total kredit sebuah bank Rp500 miliar dan kredit bermasalah Rp15 miliar. NPL bruto ilustratif adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "0,3%",
+            "B": "1%",
+            "C": "3%",
+            "D": "15%",
+            "E": "30%"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "15/500 × 100% = 3%. Rasio ini perlu ditafsirkan bersama tren, pencadangan, dan ketentuan lain."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Bank BPR dan Transfer",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah berlakunya UU P2SK, Bank Perekonomian Rakyat (BPR) memiliki ketentuan khusus mengenai layanan transfer dana dan simpanan giro."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang paling tepat mengenai kegiatan usaha BPR adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Transfer diperbolehkan, giro juga diperbolehkan.",
+            "B": "Transfer dibatasi, giro tetap diperbolehkan.",
+            "C": "Transfer dilarang, giro tetap diperbolehkan.",
+            "D": "Transfer diperbolehkan, giro tetap dilarang.",
+            "E": "Transfer dilarang, giro juga dilarang."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan UU Nomor 4 Tahun 2023 (UU P2SK), BPR diperbolehkan melakukan kegiatan transfer dana untuk kepentingan sendiri maupun nasabah sesuai ketentuan yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, BPR tetap dilarang menerima simpanan berupa giro dan tidak memberikan jasa dalam lalu lintas giral secara langsung. Kedua kegiatan ini perlu dibedakan karena transfer dana tidak selalu berarti penyediaan rekening giro."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan transfer dana dengan layanan giro. BPR dapat melakukan transfer dana sesuai ketentuan, tetapi tidak boleh menerima giro."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Prinsip Pengawasan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengawas menelaah laporan berkala bank tanpa datang ke lokasi. Metode pengawasan tersebut adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "On-site",
+            "B": "Off-site",
+            "C": "Lelang",
+            "D": "Underwriting asuransi",
+            "E": "Prospektus"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengawasan off-site menggunakan laporan dan data untuk memantau kondisi bank."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "DPK dan Intermediasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Yang termasuk dana pihak ketiga bank adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Tabungan, giro, dan deposito",
+            "B": "Gedung, mesin, dan kendaraan",
+            "C": "Saham bank saja",
+            "D": "Kredit macet saja",
+            "E": "Cadangan modal inti saja"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "DPK dihimpun dari simpanan masyarakat, sementara modal dan aset bank merupakan kelompok berbeda."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Indeks Survei",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai IBP dalam SBPO sebesar 47 lebih tepat ditafsirkan sebagai ..."
+            }
+          ],
+          "opsi": {
+            "A": "Realisasi laba turun 47%",
+            "B": "Persepsi pesimistis",
+            "C": "Kredit naik 47%",
+            "D": "Perbankan bangkrut",
+            "E": "Tidak ada risiko"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Indeks di bawah 50 mengindikasikan persepsi pesimistis, bukan angka realisasi bisnis."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Murabahah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank syariah membeli aset seharga Rp60 juta lalu menjual kepada nasabah dengan margin disepakati Rp8 juta. Harga jual akad adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp52 juta",
+            "B": "Rp60 juta",
+            "C": "Rp68 juta",
+            "D": "Rp80 juta",
+            "E": "Tidak dapat dihitung"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga jual = harga perolehan + margin = Rp68 juta."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Analisis Capacity",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Usaha memiliki omzet Rp40 juta, biaya usaha Rp28 juta, kebutuhan hidup Rp7 juta. Sisa arus kas kasar untuk kewajiban tambahan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp5 juta",
+            "B": "Rp7 juta",
+            "C": "Rp12 juta",
+            "D": "Rp28 juta",
+            "E": "Rp40 juta"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "40 − 28 − 7 = Rp5 juta sebelum memperhitungkan kewajiban dan risiko lain."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Basel dan Modal",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mengapa nominal modal yang sama belum tentu berarti risiko dua bank sama?"
+            }
+          ],
+          "opsi": {
+            "A": "Seluruh kredit tanpa risiko",
+            "B": "ATMR dapat berbeda",
+            "C": "Simpanan selalu sama",
+            "D": "Bank tidak punya aset",
+            "E": "Basel hanya berlaku pada pergadaian"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Modal perlu dinilai relatif terhadap besaran serta risiko aset, termasuk ATMR."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Peran Regulator",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pihak yang berwenang mengawasi perilaku dan kesehatan usaha bank dari perspektif mikroprudensial adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "OJK",
+            "B": "Bursa Efek saja",
+            "C": "Kantor pajak saja",
+            "D": "Nasabah",
+            "E": "Perusahaan asuransi"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK mengatur dan mengawasi bank sesuai mandat sektor jasa keuangan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Analisis Historis",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dokumen OJK tahun 2012 mencantumkan target kredit UMKM. Untuk menentukan target yang berlaku pada 2026, tindakan paling tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Menghafal angka tanpa pengecekan",
+            "B": "Memakai situs tidak resmi",
+            "C": "Memeriksa ketentuan terbaru dan status aturan lama",
+            "D": "Menganggap seluruh aturan 2012 abadi",
+            "E": "Mengabaikan regulasi"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Status keberlakuan dan perubahan peraturan harus diperiksa melalui sumber resmi terkini."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pengertian, Fungsi, dan Struktur Perbankan",
+        "teks": ""
+      },
+      {
+        "judul": "Perbankan Konvensional dan Syariah",
+        "teks": ""
+      },
+      {
+        "judul": "Simpanan: Tabungan, Giro, dan Deposito",
+        "teks": ""
+      },
+      {
+        "judul": "Kredit, Pembiayaan, dan Analisis Kelayakan",
+        "teks": ""
+      },
+      {
+        "judul": "Pengawasan Perbankan, BI, OJK, dan LPS",
+        "teks": ""
+      },
+      {
+        "judul": "Risiko, Keamanan Digital, dan Perlindungan Nasabah",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pembelajaran perbankan perlu menekankan hubungan antara fungsi intermediasi, perlindungan dana masyarakat, pengelolaan risiko, dan hak nasabah. Hal krusial untuk ujian adalah mampu membedakan jenis bank, fungsi lembaga pengawas, produk simpanan, dan klasifikasi tujuan kredit. Pada akhirnya, pemahaman perbankan tidak berhenti pada penguasaan istilah, jenis bank, atau rumus keuangan. Peserta diharapkan mampu menghubungkan fungsi intermediasi, prinsip kehati-hatian, pengawasan, dan pelindungan nasabah ketika menghadapi situasi nyata di sektor jasa keuangan. Melalui pembelajaran ini, peserta diharapkan dapat menilai informasi perbankan secara cermat, membedakan peran lembaga terkait, dan mempertimbangkan risiko serta tanggung jawab dalam penggunaan produk bank. Kemampuan tersebut juga menjadi bekal untuk menjawab soal pengetahuan sektor jasa keuangan pada persiapan PCAM/MLE OJK secara beralasan, bukan sekadar mengandalkan hafalan. Dengan demikian, materi Perbankan ini diharapkan menjadi landasan untuk mempelajari submateri sektor jasa keuangan berikutnya. Teruslah mengaitkan konsep yang dipelajari dengan praktik, ketentuan resmi, dan perkembangan industri agar pemahaman tetap relevan dan dapat diterapkan secara bertanggung jawab. • Halaman 7–11 kompilasi: definisi bank, BPR, BPRS, UUS dan kewenangan; halaman 19–21: izin, pengawasan on-site/off-site, sanksi dan penyidikan. • Halaman 23–29: jenis publikasi perbankan, lembaga pemeringkat, LSPI dan SBPO; tabel pemeringkatan merupakan dokumentasi periode sumber dan tidak diadopsi sebagai aturan mutakhir tanpa cek. • Halaman 30–42: BPAK, PAPSI, panduan BPR 2024 dan Basel. Bagan struktur organisasi serta keanggotaan BCBS diperlakukan sebagai ilustrasi bersumber, bukan susunan jabatan permanen. • PBI 14/22/PBI/2012 pada halaman 5–6 tidak diklaim sebagai aturan UMKM paling baru karena materi ini tidak melakukan audit riwayat perubahan regulasinya. Rujukan utama tambahan: OJK, Lembaga Pembiayaan (https://ojk.go.id/id/kanal/iknb/Pages/Lembaga-Pembiayaan.aspx); OJK, Lembaga Perbankan dan Bank Perekonomian Rakyat (https://ojk.go.id/id/kanal/perbankan/Pages/Bank-Perkreditan-Rakyat.aspx); OJK, Pedoman Produk Pembiayaan Multijasa Perbankan Syariah, 4 November 2025. Sumber kompilasi: “perbankan dan pembiayaan ojk.docx” (44 halaman)."
+  }
+}

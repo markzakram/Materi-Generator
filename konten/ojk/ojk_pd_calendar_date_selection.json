@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "judul": "Calendar Date Selection",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Calendar Date Selection",
+    "sumber": "https://docs.google.com/document/d/1E3yPOHTghB_nkdES7JNGFQaMA0ZzCu1LkUIXFBeXDWU/edit",
+    "id_katalog": "pd-01"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Calendar Date Selection adalah bentuk tes penalaran deduktif interaktif yang meminta peserta memilih tanggal atau rentang tanggal pada kalender berdasarkan sejumlah aturan. Informasi dapat berupa hari seseorang tersedia atau tidak tersedia, periode cuti, urutan kegiatan, tanggal larangan, durasi pekerjaan, atau batas waktu. Peserta tidak cukup mengingat nama hari: semua syarat harus digabungkan untuk memperoleh pilihan yang tepat.",
+      "Pada riset PCAM/MLE OJK 2026, Calendar Date Selection ditempatkan di Tes Penalaran Deduktif pada Tes Kemampuan Umum (TKU). Tampilan contoh menggabungkan panel aturan, pertanyaan, dan kalender yang dapat dipilih. Bentuk pertanyaan dapat meminta satu tanggal paling awal, beberapa tanggal, tanggal mulai, tanggal akhir, atau rentang kegiatan. Tidak ada jaminan semua contoh dari bahan latihan lain mempunyai kunci yang valid; karena itu pemeriksaan hari–tanggal menjadi bagian dari pembelajaran."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "ketentuan ketersediaan, ketidakhadiran, dan rentang larangan."
+      },
+      {
+        "level": "",
+        "kko": "Membaca",
+        "teks": "hubungan hari dan tanggal secara tepat pada bulan yang ditampilkan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "hari kalender, hari kerja, batas tanggal inklusif, dan durasi berurutan."
+      },
+      {
+        "level": "",
+        "kko": "Menggabungkan",
+        "teks": "seluruh batasan dengan irisan dan eliminasi untuk menentukan tanggal yang sah."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "urutan atau blok kegiatan jika terdapat ketentuan sebelum, sesudah, bersebelahan, jeda, serta tenggat."
+      },
+      {
+        "level": "",
+        "kko": "Memverifikasi",
+        "teks": "jawaban dengan menguji setiap aturan dan menghindari asumsi tambahan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep dasar dan tampilan soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dasar dan tampilan soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Soal umumnya mempunyai tiga komponen: (1) panel aturan, (2) instruksi memilih tanggal, dan (3) kalender. Hasil akhir harus memenuhi seluruh aturan sekaligus. “Tanggal paling awal” berarti pilihan pertama dalam urutan kronologis yang sah, bukan tanggal terkecil yang muncul di panel informasi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca kalender dan cakupan hari",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca kalender dan cakupan hari",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Makna operasional"
+              ],
+              "baris": [
+                [
+                  "**Hari kalender**",
+                  "Semua hari, termasuk Sabtu dan Minggu."
+                ],
+                [
+                  "**Hari kerja / weekday**",
+                  "Umumnya Senin–Jumat, kecuali soal mendefinisikan lain."
+                ],
+                [
+                  "**Rentang tanggal 2–13**",
+                  "Biasanya mencakup tanggal 2 dan 13; lihat redaksi instruksi."
+                ],
+                [
+                  "**Tersedia pada Selasa**",
+                  "Kandidat tanggal harus jatuh pada kolom Selasa."
+                ],
+                [
+                  "**Tidak tersedia pada Senin dan Jumat**",
+                  "Kedua hari itu dieliminasi."
+                ],
+                [
+                  "**Hari kerja pertama**",
+                  "Tanggal paling awal yang memenuhi syarat dan jatuh pada hari Senin–Jumat."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penting: nama hari yang tercantum di kalender harus konsisten dengan bulannya. Jangan menyalin kunci pembahasan apabila hari dan tanggalnya bertentangan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menerjemahkan aturan menjadi kandidat tanggal",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menerjemahkan aturan menjadi kandidat tanggal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan dari kalimat ke logika: “A hanya tersedia Selasa” → pilihan harus Selasa; “B cuti tanggal 2–13” → coret semua tanggal 2 s.d. 13; “C tidak tersedia Jumat” → coret setiap Jumat. Batasan bersifat gabungan: tanggal akhir harus ada dalam himpunan ketersediaan semua pihak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Notasi sederhana untuk penalaran: Tanggal sah = tanggal pada kalender ∩ tanggal kerja (jika diminta) ∩ tersedia A ∩ tersedia B ∩ ...; setiap tanggal yang melanggar satu syarat dikeluarkan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Irisan ketersediaan dan pemilihan tanggal",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Irisan ketersediaan dan pemilihan tanggal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Cara efisien: mulai dari pihak dengan hari paling sedikit (misalnya hanya Selasa), lalu saring menggunakan aturan orang lain. Setelah tersisa beberapa kandidat, pilih yang memenuhi bentuk pertanyaan, misalnya tanggal pertama, semua tanggal, atau tanggal terakhir. Jangan memperlakukan “tersedia Selasa dan Kamis” sebagai kewajiban hadir pada kedua hari sekaligus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Durasi, urutan kegiatan, dan jeda",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Durasi, urutan kegiatan, dan jeda",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk kegiatan selama n hari kalender berturut-turut, tanggal mulai dihitung sebagai hari pertama. Untuk n hari kerja, Sabtu–Minggu dilewati kecuali didefinisikan lain. “A sebelum B” menunjukkan A harus lebih awal, tetapi tidak berarti tepat sehari sebelumnya. “Tepat sebelum” atau “langsung setelah” menunjukkan hubungan bersebelahan sesuai satuan hari dalam instruksi. Jeda satu hari kerja berarti ada satu hari kerja kosong di antara dua kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika jadwal mempunyai batas akhir, uji dari tenggat mundur (backward scheduling) bila lebih singkat. Bila mempunyai tanggal mulai tetap, bentuk blok-blok durasi dari awal (forward scheduling). Pembatasan yang spesifik harus diletakkan terlebih dahulu sebelum kegiatan yang fleksibel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kasus satu jawaban, banyak jawaban, dan informasi tidak cukup",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kasus satu jawaban, banyak jawaban, dan informasi tidak cukup",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan “pilih hari pertama” memerlukan satu tanggal paling awal; “pilih semua hari” dapat mempunyai lebih dari satu jawaban. Jika dua susunan sama-sama memenuhi seluruh syarat tetapi menghasilkan jawaban berbeda, data belum menentukan satu jawaban unik. Jangan memaksakan satu tanggal tanpa dasar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab dan Cara Cepat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab dan Cara Cepat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan metode B–S–I–P–C: Baca pertanyaan, Saring kalender berdasarkan jenis hari, Iris seluruh aturan, Pilih tanggal sesuai instruksi, Cek setiap batasan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Prioritas",
+                "Cara menerapkan"
+              ],
+              "baris": [
+                [
+                  "**1. Baca target**",
+                  "Tentukan apakah diminta satu tanggal, semua tanggal, atau rentang."
+                ],
+                [
+                  "**2. Mulai dari aturan terketat**",
+                  "Misalnya hanya tersedia pada satu hari setiap minggu."
+                ],
+                [
+                  "**3. Tandai larangan**",
+                  "Coret tanggal cuti, tanggal terlarang, dan hari di luar cakupan."
+                ],
+                [
+                  "**4. Perhatikan durasi**",
+                  "Hitung hari kalender vs hari kerja; tanggal mulai ikut dihitung."
+                ],
+                [
+                  "**5. Uji kandidat**",
+                  "Cek setiap syarat untuk jawaban yang dipilih."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Jadwal Tim — Tanggal Rapat Paling Awal",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_calendar_date_selection/gambar-01.jpg",
+              "lebar": 6.27,
+              "tinggi": 2.89
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Selasa, tanggal 17."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fei hanya tersedia pada Selasa, sehingga tanggal kandidat pada kalender adalah 3, 10, 17, dan 24. George juga tersedia Selasa sehingga tidak menghilangkan kandidat. Edward cuti tanggal 2–13, jadi tanggal 3 dan 10 gugur. Diana cuti tanggal 24–26 dan tidak tersedia Senin/Jumat, sehingga tanggal 24 gugur, sedangkan tanggal 17 (Selasa) memenuhi ketentuannya. Maka tanggal paling awal yang memenuhi seluruh aturan adalah Selasa tanggal 17."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Conference Room Session — Irisan Ketersediaan",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_calendar_date_selection/gambar-02.jpg",
+              "lebar": 6.27,
+              "tinggi": 3.53
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Selasa, 19 Februari 2019"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Winter hanya tersedia pada hari Selasa, sehingga kandidat Februari 2019 adalah 5, 12, 19, dan 26. Ningning tersedia Selasa dan Kamis sehingga semua kandidat Selasa tetap memungkinkan. Giselle cuti tanggal 2–13 sehingga tanggal 5 dan 12 dieliminasi. Karina cuti tanggal 24–26 sehingga 26 dieliminasi, tetapi tersedia pada Selasa tanggal 19. Jadi tanggal pertama yang sah ialah 19 Februari 2019. Catatan QC: dokumen sumber menuliskan Selasa tanggal 16; tanggal 16 Februari 2019 adalah Sabtu, sehingga kunci itu tidak konsisten dengan kalender."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pertemuan Minggu Kedua — Hari Bersama",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_calendar_date_selection/gambar-03.jpg",
+              "lebar": 6.27,
+              "tinggi": 3.53
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Rabu, tanggal 13 Februari 2019."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Irisan hari tersedia Andi, Budi, dan Cici adalah Rabu. Pada kalender minggu kedua 10–16 Februari 2019, Rabu jatuh pada tanggal 13. Ketiganya memenuhi kondisi tersedia pada hari tersebut; hari lain tidak menjadi irisan ketiga jadwal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Sidang Skripsi — Hubungan Tanggal Berantai",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_calendar_date_selection/gambar-04.jpg",
+              "lebar": 6.27,
+              "tinggi": 3.53
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 25 Februari 2023."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Minggu pertama pada kalender terdiri dari tanggal 1–4; tanggal yang habis dibagi 3 ialah tanggal 3, jadi Melly pada 3 Februari. Anita seminggu kemudian pada 10 Februari. Edwardo 15 hari setelah 10 Februari, yaitu 25 Februari. Alexandro 26 Februari. Keempat tanggal berbeda, sehingga jawaban yang diminta adalah tanggal 25."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kesalahan Umum",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Perbaikan"
+              ],
+              "baris": [
+                [
+                  "**Mengira tanggal 16 adalah Selasa**",
+                  "Baca posisi tanggal pada kolom kalender; 16 Februari 2019 adalah Sabtu."
+                ],
+                [
+                  "**Mengabaikan cuti yang melintasi kandidat**",
+                  "Hilangkan seluruh tanggal termasuk ujung rentang jika tidak ada aturan lain."
+                ],
+                [
+                  "**Mencari gabungan, bukan irisan**",
+                  "Semua peserta harus tersedia pada tanggal yang sama."
+                ],
+                [
+                  "**Menghitung Sabtu–Minggu sebagai hari kerja**",
+                  "Gunakan definisi hari kerja yang diberikan."
+                ],
+                [
+                  "**Menganggap “sebelum” berarti langsung sebelum**",
+                  "Bedakan urutan relatif dengan ketetanggaan waktu."
+                ],
+                [
+                  "**Menyalin jawaban tanpa memeriksa kalender**",
+                  "Periksa hari-tanggal dan semua batasan secara mandiri."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dasar dan tampilan soal",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca kalender dan cakupan hari",
+        "teks": ""
+      },
+      {
+        "judul": "Menerjemahkan aturan menjadi kandidat tanggal",
+        "teks": ""
+      },
+      {
+        "judul": "Irisan ketersediaan dan pemilihan tanggal",
+        "teks": ""
+      },
+      {
+        "judul": "Durasi, urutan kegiatan, dan jeda",
+        "teks": ""
+      },
+      {
+        "judul": "Kasus satu jawaban, banyak jawaban, dan informasi tidak cukup",
+        "teks": ""
+      }
+    ],
+    "pesan": "Calendar Date Selection menguji ketepatan menerjemahkan aturan menjadi tanggal yang sah, bukan sekadar kemampuan membaca kalender. Penyelesaian yang konsisten dimulai dari pembatasan paling kuat, lalu menyaring seluruh kandidat dengan aturan lain. Untuk urutan kegiatan, perhatikan durasi, hari kerja, jeda, dan tenggat. Sebelum memilih tanggal di layar, pastikan hasil sesuai seluruh informasi pada soal. Ingat: Baca → Saring → Iris → Pilih → Cek. Dalam materi PPT, contoh gambar sumber dipertahankan; untuk pembahasan, gunakan hasil QC yang sesuai kalender apabila kunci pada referensi tidak konsisten."
+  }
+}

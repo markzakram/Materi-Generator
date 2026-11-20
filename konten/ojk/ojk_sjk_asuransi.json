@@ -1,0 +1,995 @@
+{
+  "meta": {
+    "judul": "Asuransi",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Asuransi",
+    "sumber": "https://docs.google.com/document/d/1gpyvMRL5spfjf1L_eGoaYU10DczsnfQb/edit",
+    "id_katalog": "sjk-11"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Ayu memakai mobil untuk bekerja dan ingin memahami perlindungan yang ia bayar. Kita akan mengikuti Ayu saat membaca polis, melaporkan kerusakan mobil, dan menghitung bagian biaya yang ia tanggung sendiri."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "usaha asuransi jiwa, asuransi umum, dan reasuransi, serta mengenali asuransi kesehatan sebagai lini produk."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "perbedaan cara kerja asuransi konvensional dan syariah, termasuk peran perusahaan dan dana peserta."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "peran OJK dalam pengawasan produk, pemasaran, dan kesehatan keuangan perusahaan asuransi."
+      },
+      {
+        "level": "",
+        "kko": "Membandingkan",
+        "teks": "produk dengan membaca manfaat, biaya, pengecualian, masa tunggu, batas manfaat, dan risiko investasi."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "apakah suatu kejadian termasuk risiko yang dijamin serta menentukan langkah pengajuan klaim atau pengaduan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Asuransi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Asuransi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengenal peran OJK, Bank Indonesia, dan Lembaga Penjamin Simpanan, baca Pengantar Bersama di dokumen Perbankan dan Pembiayaan – Fintech."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Istilah Dasar"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Arti dalam Materi"
+              ],
+              "baris": [
+                [
+                  "Penanggung",
+                  "Perusahaan asuransi yang memberikan perlindungan sesuai polis."
+                ],
+                [
+                  "Polis",
+                  "Dokumen perjanjian yang menjelaskan manfaat, syarat, dan batas perlindungan."
+                ],
+                [
+                  "Premi",
+                  "Pembayaran untuk pertanggungan sesuai polis."
+                ],
+                [
+                  "Klaim",
+                  "Permintaan manfaat atau ganti rugi kepada perusahaan asuransi."
+                ],
+                [
+                  "Komprehensif",
+                  "Jenis perlindungan kendaraan yang dapat mencakup kerusakan sebagian dan kerugian total sesuai polis."
+                ],
+                [
+                  "Perluasan jaminan",
+                  "Tambahan cakupan untuk risiko tertentu, misalnya banjir jika dicantumkan."
+                ],
+                [
+                  "Indemnitas",
+                  "Prinsip penggantian kerugian yang memenuhi syarat, sesuai nilai kerugian dan batas polis."
+                ],
+                [
+                  "Tertanggung",
+                  "Orang atau pihak yang risikonya ditanggung sesuai polis."
+                ],
+                [
+                  "Pemegang polis",
+                  "Pihak yang mengadakan perjanjian asuransi dan memegang hak serta kewajiban dalam polis."
+                ],
+                [
+                  "Risiko sendiri",
+                  "Bagian kerugian yang ditanggung sendiri sesuai polis."
+                ],
+                [
+                  "Masa tunggu",
+                  "Periode sebelum manfaat tertentu dapat digunakan sesuai polis."
+                ],
+                [
+                  "PAYDI",
+                  "Produk Asuransi yang Dikaitkan dengan Investasi. Produk ini memberi perlindungan asuransi dan manfaat yang dikaitkan dengan hasil investasi."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai dari polis untuk mengetahui kapan perlindungan berlaku. Setelah itu, ikuti alur klaim untuk melihat bagaimana perusahaan memeriksa kejadian dan menghitung manfaat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Fungsi Asuransi dan Para Pihak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Asuransi membantu menghadapi dampak keuangan dari kejadian yang belum pasti. Dalam asuransi konvensional, pemegang polis membayar premi dan perusahaan asuransi memberikan manfaat atau ganti rugi ketika kejadian memenuhi ketentuan polis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemegang polis membuat perjanjian dengan perusahaan asuransi. Tertanggung adalah pihak yang risikonya dilindungi. Penerima manfaat adalah pihak yang berhak menerima manfaat sesuai polis."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pihak",
+                "Peran dalam Asuransi"
+              ],
+              "baris": [
+                [
+                  "Perusahaan asuransi",
+                  "Memberikan perlindungan dan membayar manfaat sesuai polis."
+                ],
+                [
+                  "Pemegang polis",
+                  "Mengadakan perjanjian dan memegang hak serta kewajiban dalam polis."
+                ],
+                [
+                  "Tertanggung atau peserta",
+                  "Orang atau pihak yang risikonya dilindungi sesuai skema."
+                ],
+                [
+                  "Penerima manfaat",
+                  "Pihak yang berhak menerima manfaat sesuai ketentuan polis."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam asuransi jiwa, seorang ibu dapat menjadi pemegang polis sekaligus tertanggung dan menunjuk anaknya sebagai penerima manfaat. Pada polis lain, peran tersebut dapat dipegang oleh orang yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Dasar Hukum"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "UU Nomor 40 Tahun 2014 tentang Perasuransian sebagaimana diubah melalui UU Nomor 4 Tahun 2023 menjadi landasan. POJK 8 Tahun 2024 mengatur produk dan saluran pemasaran, termasuk klausul polis, premi atau kontribusi, dan produk digital."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Struktur Industri Perasuransian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengenal industri perasuransian, lihat dulu siapa yang dilindungi dan risiko apa yang ditanggung. Perusahaan asuransi memberikan perlindungan kepada nasabah sesuai polis. Perusahaan reasuransi membantu perusahaan asuransi menanggung kembali sebagian risiko yang sudah diterimanya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis usaha",
+                "Cara kerja"
+              ],
+              "baris": [
+                [
+                  "Asuransi jiwa",
+                  "Memberikan manfaat yang berkaitan dengan meninggal dunia atau tetap hidupnya tertanggung, sesuai polis."
+                ],
+                [
+                  "Asuransi umum",
+                  "Memberikan ganti rugi atas kerugian, kerusakan, biaya, atau tanggung jawab hukum yang dijamin dalam polis."
+                ],
+                [
+                  "Reasuransi",
+                  "Menanggung kembali sebagian risiko yang sudah diterima perusahaan asuransi."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kegiatan tersebut juga dapat dijalankan berdasarkan prinsip syariah melalui asuransi jiwa syariah, asuransi umum syariah, dan reasuransi syariah. Dalam asuransi syariah, peserta saling membantu melalui dana bersama yang dikelola perusahaan sesuai akad."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Asuransi kesehatan adalah lini produk yang memberikan manfaat terkait layanan atau biaya kesehatan sesuai polis. Jenis usaha menjelaskan kegiatan perusahaan, sedangkan lini produk menjelaskan perlindungan yang ditawarkan. Misalnya, sebuah produk dapat sekaligus memberikan manfaat kesehatan dan diselenggarakan berdasarkan prinsip syariah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis Produk dan Cara Membandingkannya"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Dasar Pengelompokan",
+                "Kategori",
+                "Arti dan Contoh"
+              ],
+              "baris": [
+                [
+                  "Jenis usaha",
+                  "Asuransi jiwa",
+                  "Manfaat terkait meninggal dunia atau tetap hidup sesuai polis."
+                ],
+                [
+                  "Jenis usaha",
+                  "Asuransi umum",
+                  "Perlindungan atas kerugian, kerusakan, atau tanggung jawab hukum yang dijamin."
+                ],
+                [
+                  "Lini produk",
+                  "Asuransi kesehatan",
+                  "Manfaat terkait layanan atau biaya kesehatan sesuai polis."
+                ],
+                [
+                  "Prinsip penyelenggaraan",
+                  "Syariah",
+                  "Produk dijalankan berdasarkan prinsip syariah. Produk kesehatan juga dapat diselenggarakan dengan prinsip ini."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membandingkan polis, mulai dari kebutuhanmu. Jika kamu ingin melindungi keuangan keluarga ketika pencari nafkah meninggal, periksa manfaat meninggal dunia dan lama perlindungannya. Jika kamu ingin mengurangi beban biaya rawat inap, periksa layanan yang ditanggung dan batas pembayarannya. Setelah manfaatnya sesuai, bandingkan premi atau kontribusi, pengecualian, dan biaya yang mungkin tetap kamu bayar sendiri."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Produk Proteksi dan PAYDI"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Produk Asuransi yang Dikaitkan dengan Investasi (PAYDI) memberikan manfaat proteksi sekaligus manfaat yang dikaitkan dengan hasil investasi. Untuk memahami produknya, periksa empat hal berikut."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Proteksi.** Cari risiko yang dijamin, besarnya manfaat, dan syarat pembayarannya. Misalnya, polis dapat menjanjikan manfaat meninggal dunia selama pertanggungan berlaku dan syaratnya terpenuhi.",
+                "**Biaya.** Periksa biaya asuransi, administrasi, pengelolaan investasi, serta biaya penarikan atau penghentian polis jika ada. Baca kapan masing-masing biaya dikenakan dan bagaimana biaya tersebut memengaruhi nilai tunai.",
+                "**Risiko investasi.** Nilai bagian investasi dapat naik atau turun mengikuti kinerja aset yang mendasarinya. Jika ilustrasi memperlihatkan beberapa skenario hasil, gunakan skenario itu untuk memahami bagaimana produk bekerja. Periksa pada polis apakah ada manfaat yang dijamin dan apa syaratnya.",
+                "**Nilai tunai.** Ini adalah nilai yang terbentuk dalam polis dan dapat dibayarkan sesuai ketentuan, misalnya ketika pemegang polis melakukan penarikan atau mengakhiri polis. Nilainya dapat dipengaruhi kinerja investasi, biaya, dan penarikan sebelumnya."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, Ayu melihat ilustrasi yang menunjukkan nilai tunai Rp12 juta pada akhir tahun ketiga. Sebelum memakai angka itu untuk merencanakan pengeluaran, Ayu perlu memeriksa asumsi hasil investasi, biaya, dan ketentuan penarikan. Ia juga perlu memeriksa apakah penarikan dapat memengaruhi manfaat atau kelangsungan perlindungannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Membaca Polis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Polis adalah dokumen perjanjian yang memuat masa perlindungan, risiko yang dijamin, pengecualian, batas manfaat, aturan pembayaran premi, serta syarat dan proses klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulailah dari halaman yang mencantumkan nama tertanggung atau identitas kendaraan. Lanjutkan ke bagian manfaat dan pengecualian. Bila ada perubahan atau perluasan jaminan, baca dokumen tambahan itu bersama polis. POJK 8 Tahun 2024 Pasal 12 mengatur isi minimum polis, termasuk cara pembayaran premi, tenggang waktu, dan prosedur klaim."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Premi dan Status Perlindungan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premi adalah biaya pertanggungan. Polis menetapkan nominal, jadwal pembayaran, tenggang waktu jika berlaku, dan akibat jika pembayaran lewat tenggang waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum membayar premi, Ayu mencatat tanggal jatuh tempo dan memeriksa akibat keterlambatan. Jika kejadian terjadi saat premi belum dibayar, tanggal kejadian perlu dicocokkan dengan ketentuan tenggang waktu dan status perlindungan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengecualian, Masa Tunggu, dan Batas Manfaat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengecualian menyebut risiko atau keadaan yang tidak dijamin. Masa tunggu menunda berlakunya manfaat tertentu sesuai polis. Batas manfaat menetapkan jumlah maksimum yang dapat dibayar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk manfaat kesehatan, Ayu memeriksa kapan masa tunggu berakhir dan manfaat mana yang tunduk pada syarat tersebut. Tanggal mulai polis dapat berbeda dari tanggal mulai berlakunya manfaat tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membaca polis kesehatan, cek layanan yang ditanggung, misalnya rawat jalan atau rawat inap. Lalu periksa batas manfaatnya. Polis dapat menetapkan batas per layanan, per hari, atau per tahun. Periksa juga fasilitas rekanan dan cara pembayaran. Pada pembayaran langsung, perusahaan membayar fasilitas kesehatan sesuai prosedur dan cakupan polis. Pada skema penggantian biaya, nasabah membayar terlebih dahulu lalu mengajukan penggantian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK Nomor 36 Tahun 2025 mewajibkan perusahaan yang menyelenggarakan lini usaha asuransi kesehatan menyediakan pilihan produk tanpa fitur pembagian risiko. Perusahaan dapat menyediakan pilihan tambahan dengan fitur tersebut. Jika produk menggunakan skema co-payment, bagian biaya yang menjadi tanggungan pemegang polis, tertanggung, atau peserta adalah 5% dari total pengajuan klaim, dengan batas Rp300.000 untuk rawat jalan dan Rp3.000.000 untuk rawat inap per pengajuan klaim. Produk dengan fitur pembagian risiko juga dapat menggunakan deductible tahunan, yaitu jumlah tertentu yang ditanggung sendiri sesuai kesepakatan dan dicantumkan dalam polis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, Ayu menggunakan polis dengan fitur co-payment dan mengajukan klaim rawat jalan Rp8 juta. Lima persen dari Rp8 juta adalah Rp400.000. Karena batas co-payment rawat jalan Rp300.000 per pengajuan klaim, bagian Ayu dari fitur tersebut adalah Rp300.000. Jika ada biaya di luar cakupan atau di atas batas manfaat, biaya itu diperiksa tersendiri sesuai polis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Reasuransi, Program Wajib, dan Asuransi Komersial"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reasuransi adalah perlindungan yang diperoleh perusahaan asuransi atas sebagian risiko yang sudah ditanggungnya. Ada dua hubungan yang perlu dibaca. Pertama, nasabah dan perusahaan asuransi terikat oleh polis. Kedua, perusahaan asuransi dan perusahaan reasuransi terikat oleh kontrak reasuransi. Saat nasabah mengajukan klaim, perusahaan asuransi menanganinya sesuai polis. Perusahaan asuransi kemudian dapat meminta penggantian bagian kerugian yang tercakup dalam kontrak reasuransi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, banjir besar memicu banyak klaim kendaraan. Total klaim yang disetujui perusahaan asuransi mencapai Rp10 miliar. Dalam ilustrasi ini, kontrak reasuransi menanggung 40% dari kerugian yang tercakup dan seluruh Rp10 miliar memenuhi syarat kontrak. Perusahaan reasuransi mengganti Rp4 miliar kepada perusahaan asuransi. Perusahaan asuransi menanggung Rp6 miliar sisanya. Besar manfaat yang diterima setiap nasabah tetap mengikuti polis masing-masing."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reasuransi membantu perusahaan mengelola dampak kerugian besar atau banyak klaim yang muncul bersamaan. Bagian risiko yang tetap ditanggung perusahaan asuransi disebut retensi sendiri. Besar bagian yang dialihkan dan jenis kerugian yang dapat dimintakan penggantian mengikuti kontrak reasuransi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Program wajib memiliki dasar hukum yang mewajibkan kepesertaan atau pertanggungan bagi kelompok tertentu. Program jaminan sosial bertujuan memberi perlindungan sosial sesuai peraturan. Asuransi komersial memberikan manfaat sesuai produk dan polis. Untuk memahami sebuah program, periksa siapa yang wajib ikut dan bagaimana manfaatnya ditetapkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pemasaran, Peran Agen dan Pialang, serta Pengawasan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Agen asuransi memasarkan produk atas nama perusahaan asuransi. Pialang asuransi memberi jasa perantara untuk kepentingan calon pemegang polis, pemegang polis, atau tertanggung, termasuk membantu penempatan asuransi dan penanganan klaim sesuai ruang lingkup jasanya. Saat menerima penawaran, cek identitas pihak yang menawarkan, siapa yang diwakilinya, dan saluran resmi untuk meminta penjelasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK mengatur ketentuan produk dan saluran pemasaran, termasuk isi polis serta mekanisme persetujuan dan pelaporan produk. Produk baru dan produk dengan kriteria tertentu memerlukan persetujuan terlebih dahulu. Produk yang memenuhi ketentuan pelaporan mengikuti mekanisme pelaporan kepada OJK. Saat memilih produk, cocokkan penjelasan pemasaran dengan ringkasan informasi produk dan polis, terutama pada manfaat, premi atau kontribusi, biaya, serta pengecualian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Kerja Asuransi Syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam asuransi konvensional, perusahaan menerima premi dan menanggung risiko sesuai polis. Dalam asuransi syariah, peserta saling membantu melalui Dana Tabarru’. Melalui akad tabarru’, bagian kontribusi yang dialokasikan ke dana bersama itu diberikan sebagai hibah untuk membantu peserta lain. Jika klaim memenuhi ketentuan dan menjadi tanggungan Dana Tabarru’, manfaatnya dibayarkan dari dana tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika produk memakai akad wakalah bil ujrah, peserta memberi kuasa kepada perusahaan untuk mengelola dana sesuai akad. Perusahaan menerima ujrah, yaitu imbalan atas jasa pengelolaan. Jika produk memiliki Dana Investasi Peserta, dana itu dikelola sesuai peruntukannya dan dipisahkan dari Dana Tabarru’. Saat membaca polis syariah, cek bagaimana kontribusi dialokasikan, dana mana yang digunakan untuk membayar manfaat, dan berapa ujrah yang dikenakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dewan Pengawas Syariah (DPS) memberi nasihat kepada pengurus dan mengawasi kesesuaian kegiatan perusahaan dengan prinsip syariah, termasuk penerapan akad. Perusahaan menjalankan pengelolaan dana dan proses klaim sesuai akad dan polis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Solvabilitas dan Kesehatan Keuangan Perusahaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan asuransi perlu memiliki kemampuan keuangan untuk memenuhi kewajibannya, termasuk ketika nilai klaim meningkat. Rasio solvabilitas, yang sering disebut RBC (risk-based capital), membandingkan tingkat solvabilitas perusahaan dengan Modal Minimum Berbasis Risiko (MMBR). MMBR mencerminkan kebutuhan modal untuk menghadapi risiko yang diperhitungkan dalam ketentuan OJK."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, jika tingkat solvabilitas perusahaan Rp150 miliar dan MMBR Rp100 miliar, rasionya 150%. Pada perusahaan asuransi dan reasuransi konvensional, ketentuan OJK membedakan kewajiban memenuhi tingkat solvabilitas paling rendah 100% dari MMBR setiap saat dan target solvabilitas internal paling rendah 120% dari MMBR. Pada asuransi syariah, penilaian juga memperhatikan dana peserta dan dana perusahaan sesuai ketentuan masing-masing."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membandingkan produk, gunakan rasio solvabilitas untuk memahami kondisi keuangan perusahaan. Untuk menilai apakah kejadian tertentu dijamin dan berapa manfaat yang dapat dibayar, gunakan ketentuan polis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Prinsip Dasar dan Alur Klaim"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Prinsip",
+                "Makna dalam Kasus"
+              ],
+              "baris": [
+                [
+                  "Kepentingan yang dapat diasuransikan",
+                  "Ada kepentingan yang sah atas orang atau objek yang dilindungi."
+                ],
+                [
+                  "Itikad baik",
+                  "Para pihak menyampaikan fakta material yang relevan bagi pertanggungan."
+                ],
+                [
+                  "Indemnitas",
+                  "Pada produk ganti rugi, pembayaran mengikuti kerugian yang dijamin dan batas polis."
+                ],
+                [
+                  "Subrogasi",
+                  "Setelah membayar ganti rugi, penanggung dapat menggunakan hak terhadap pihak ketiga sesuai ketentuan."
+                ],
+                [
+                  "Kontribusi",
+                  "Penanggung dapat berbagi tanggungan atas risiko yang sama sesuai ketentuan."
+                ],
+                [
+                  "Penyebab terdekat",
+                  "Telusuri penyebab dominan yang relevan untuk menilai apakah risiko dijamin."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah tahu siapa yang dilindungi dan apa risikonya, langkah berikutnya adalah menilai sebuah kejadian. Prinsip asuransi membantu kita menjawab pertanyaan seperti apakah ada kepentingan yang dilindungi, penyebab kerugiannya apa, dan bagaimana besarnya ganti rugi ditentukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penerapan prinsip mengikuti jenis produk. Misalnya, manfaat jiwa yang besarnya telah diperjanjikan berbeda dari ganti rugi biaya perbaikan kendaraan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengajukan Klaim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Diagram Alur Klaim Asuransi**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_sjk_asuransi/gambar-01.png",
+              "lebar": 4.9,
+              "tinggi": 2.59
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat melapor, catat nomor klaim dan tanyakan dokumen yang diperlukan. Bukti bisa berupa foto dan kronologi untuk kendaraan atau tagihan serta ringkasan medis untuk kesehatan. Jenis bukti dan tenggat mengikuti polis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada layanan kesehatan, pembayaran langsung melalui fasilitas rekanan mengikuti prosedur dan ketentuan penjaminan. Pada penggantian biaya, tertanggung membayar lebih dulu dan mengajukan bukti pembayaran. Kedua cara tetap mengikuti manfaat, batas, dan pengecualian polis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Minta alasan tertulis dan ajukan pengaduan ke perusahaan asuransi. Simpan bukti serta nomor pengaduan. Kontak OJK 157 menyediakan informasi dan kanal pengaduan. Jika sengketa belum selesai setelah penanganan di perusahaan, Lembaga Alternatif Penyelesaian Sengketa Sektor Jasa Keuangan (LAPS SJK) dapat digunakan sesuai syarat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Kasus Kendaraan Terkena Banjir"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mobil Ayu terendam banjir saat polis masih berlaku. Bengkel memperkirakan biaya perbaikan Rp8 juta. Polis Ayu mencantumkan perluasan banjir dan risiko sendiri Rp500.000 per kejadian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan kasus mobil terendam untuk membaca polis secara berurutan. Mulai dari kejadian dan cakupan, lalu masuk ke dokumen, penilaian kerugian, dan perhitungan pembayaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Periksa objek dan masa berlaku"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cocokkan kendaraan dengan identitas objek dalam polis. Pastikan tanggal kejadian berada dalam masa pertanggungan dan periksa status polis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Periksa apakah banjir dijamin"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cek apakah banjir tercantum dalam cakupan atau perluasan jaminan. Baca pengecualian dan batas manfaat sebelum menyimpulkan klaim dapat dibayar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Laporkan dan siapkan bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungi perusahaan asuransi melalui kanal resmi sesuai tenggat polis. Siapkan kronologi, foto kerusakan jika aman, serta dokumen yang diminta. Ikuti arahan pemeriksaan dan perbaikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Periksa dasar pembayaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Risiko sendiri adalah bagian kerugian yang harus dibayar sendiri oleh tertanggung sesuai polis. Untuk mengetahui besar klaim, periksa nilai kerugian yang disetujui, batas polis, dan risiko sendiri jika berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan menyetujui biaya perbaikan Rp8 juta. Jika batas manfaat mencukupi dan pengurang hanya risiko sendiri Rp500.000, pembayaran klaim menjadi Rp7,5 juta."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memilih Perlindungan Sebelum Membeli"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perlindungan yang cocok berangkat dari risiko yang sulit ditanggung sendiri. Setelah mengetahui risikonya, bandingkan manfaat dan biaya tiap polis. Selisih harga baru bermakna jika kamu tahu apa yang didapat dari tiap produk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulailah dari biaya yang sulit ditanggung sendiri. Orang yang bergantung pada kendaraan untuk bekerja mungkin perlu melindungi biaya perbaikan kendaraan. Keluarga yang bergantung pada penghasilan satu orang perlu mempertimbangkan dampak keuangan jika orang tersebut meninggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan produk dari risiko yang dijamin, batas manfaat, pengecualian, dan biaya. Dua polis dengan premi yang sama bisa menanggung risiko yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membaca Klaim yang Belum Dapat Dibayar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika klaim belum dibayar, cari alasan yang diberikan perusahaan. Permintaan dokumen tambahan bisa ditindaklanjuti dengan melengkapi bukti. Jika perusahaan menyatakan risikonya di luar cakupan, periksa klausul yang dijadikan dasar keputusan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengajuan klaim dan persetujuan klaim adalah dua tahap. Dokumen yang lengkap membantu perusahaan memeriksa kejadian. Perusahaan tetap perlu mencocokkannya dengan ketentuan polis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika klaim belum disetujui, periksa apakah perusahaan meminta bukti tambahan atau menyatakan bahwa kejadian berada di luar cakupan. Tindak lanjutnya mengikuti alasan yang disampaikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembahasan Lebih Lanjut"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kasus Rawat Inap dan Batas Manfaat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa waktu kemudian, Ayu menggunakan polis kesehatan untuk rawat inap setelah masa tunggu lewat. Ia dirawat dua malam dengan tarif kamar Rp900.000 per malam. Polis mengganti biaya kamar hingga Rp700.000 per malam, tanpa pengurangan lain dalam ilustrasi ini."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Biaya kamar Rp1.800.000. Manfaat kamar Rp700.000 × 2 = Rp1.400.000. Ayu membayar selisih Rp400.000. Komponen tagihan lain diperiksa berdasarkan ketentuan manfaatnya masing-masing."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memisahkan Proteksi, Biaya, dan Nilai Investasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membaca Produk Asuransi yang Dikaitkan dengan Investasi (PAYDI), mulai dari kebutuhan perlindungan. Cari tahu risiko apa yang ditanggung dan berapa manfaatnya. Setelah itu, baca biaya produk dan cara kerja bagian investasi. Pemegang polis perlu memahami bahwa nilai investasi dapat berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membandingkan PAYDI, baca manfaat proteksi, biaya, risiko investasi, dan ketentuan polis secara terpisah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, dua produk memberi manfaat meninggal dunia yang sama. Jika biaya atau pilihan investasinya berbeda, nilai investasi yang terbentuk bisa berbeda. Gunakan ilustrasi untuk memahami cara produk bekerja, lalu baca ketentuan dan asumsi sebelum mengambil keputusan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel Rangkuman"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Situasi",
+                "Tindakan yang Tepat",
+                "Kesalahan yang Dihindari"
+              ],
+              "baris": [
+                [
+                  "Memilih proteksi",
+                  "Cocokkan risiko, manfaat, pengecualian, dan biaya.",
+                  "Memilih hanya dari premi terendah."
+                ],
+                [
+                  "Polis memuat PAYDI",
+                  "Baca komponen proteksi, biaya, dan risiko investasi.",
+                  "Menganggap nilai investasi selalu tetap."
+                ],
+                [
+                  "Kendaraan terkena banjir",
+                  "Cek cakupan atau perluasan banjir, lalu ikuti prosedur klaim.",
+                  "Menyimpulkan klaim otomatis dibayar."
+                ],
+                [
+                  "Klaim diperselisihkan",
+                  "Minta penjelasan dan ajukan pengaduan resmi dengan bukti.",
+                  "Mengabaikan dokumen dan tenggat pengaduan."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Petakan pihaknya. Siapa yang memegang polis, siapa yang risikonya dilindungi, dan siapa yang menerima manfaat?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Cocokkan peristiwa dengan cakupan, pengecualian, dan masa berlaku polis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Saat menghitung klaim, gunakan kerugian yang disetujui, batas manfaat, dan risiko sendiri sesuai polis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Cakupan banjir",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mobil Ayu rusak akibat banjir. Apa langkah pertama untuk menentukan apakah kejadian termasuk risiko yang dijamin?"
+            }
+          ],
+          "opsi": {
+            "A": "Batas biaya perbaikan per kejadian",
+            "B": "Cocokkan penyebab kerusakan dengan cakupan banjir dan pengecualian pada polis",
+            "C": "Besaran risiko sendiri untuk kerusakan kendaraan",
+            "D": "Daftar bengkel rekanan untuk perbaikan",
+            "E": "Cara menyerahkan dokumen klaim"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Cakupan dan pengecualian menentukan apakah kejadian termasuk risiko yang dijamin. Batas manfaat dan risiko sendiri diperiksa setelah cakupan dipastikan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cocokkan penyebab kerusakan dengan risiko yang tercantum di polis."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Risiko sendiri",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan menyetujui kerugian Rp8 juta. Risiko sendiri Rp500.000 dan tidak ada pengurangan lain. Berapa pembayaran klaim?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp500.000",
+            "B": "Rp7 juta",
+            "C": "Rp7,5 juta",
+            "D": "Rp8 juta",
+            "E": "Rp8,5 juta"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangi kerugian yang disetujui dengan bagian yang ditanggung sendiri, yaitu Rp8 juta dikurangi Rp500.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan nilai kerugian yang disetujui."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membandingkan polis",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua polis kendaraan memiliki premi sama. Hanya polis B mencantumkan perluasan banjir. Dokumen apa yang menunjukkan perbedaan perlindungannya?"
+            }
+          ],
+          "opsi": {
+            "A": "Ringkasan pemasaran kedua produk",
+            "B": "Bukti pembayaran premi kedua produk",
+            "C": "Polis dan dokumen perluasan jaminan",
+            "D": "Formulir pengajuan klaim kendaraan",
+            "E": "Daftar bengkel rekanan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Polis dan dokumen perluasan menjelaskan risiko yang ditanggung."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari ketentuan tertulis yang menyebut risikonya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Mengenali pihak",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ibu membeli asuransi jiwa atas dirinya dan menunjuk anaknya untuk menerima manfaat. Apa peran anaknya?"
+            }
+          ],
+          "opsi": {
+            "A": "Penanggung",
+            "B": "Tertanggung",
+            "C": "Pemegang polis",
+            "D": "Penerima manfaat",
+            "E": "Agen"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Anak ditunjuk untuk menerima manfaat sesuai polis. Ibu memegang polis dan menjadi tertanggung."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari siapa yang menerima manfaat saat syarat pembayaran terpenuhi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Premi Terlambat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premi jatuh tempo tanggal 5 dan kejadian terjadi tanggal 8. Pembayaran belum dilakukan. Informasi apa yang paling membantu menilai status perlindungan pada tanggal 8?"
+            }
+          ],
+          "opsi": {
+            "A": "Besaran premi pada periode berjalan",
+            "B": "Jadwal penerbitan polis",
+            "C": "Ketentuan tenggang waktu dan akibat keterlambatan",
+            "D": "Batas manfaat per kejadian",
+            "E": "Tenggat pelaporan klaim"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Cocokkan tanggal kejadian dengan ketentuan tenggang waktu dan status pertanggungan menurut polis."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cocokkan tanggal kejadian dengan tenggang waktu dan status polis."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Masa Tunggu",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Polis kesehatan Rina aktif sejak 1 Mei. Manfaat rawat inap karena sakit memiliki masa tunggu 30 hari. Rina dirawat karena sakit pada 10 Mei. Apa yang perlu diperhatikan?"
+            }
+          ],
+          "opsi": {
+            "A": "Manfaat tersebut masih dalam masa tunggu",
+            "B": "Batas manfaat otomatis bertambah",
+            "C": "Perusahaan langsung membayar karena polis aktif",
+            "D": "Rina pasti hanya membayar risiko sendiri",
+            "E": "Tanggal rawat inap dapat diganti dengan tanggal pengajuan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tanggal rawat inap jatuh dalam masa tunggu untuk manfaat yang dimaksud."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung masa tunggu untuk manfaat yang diminta."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Batas Manfaat Kamar",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bima dirawat tiga malam setelah masa tunggu lewat. Tarif kamar Rp950.000 per malam dan batas manfaat kamar Rp750.000 per malam. Jika klaim memenuhi syarat tanpa pengurang lain, berapa biaya kamar yang dibayar sendiri?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp200.000",
+            "B": "Rp600.000",
+            "C": "Rp700.000",
+            "D": "Rp1.400.000",
+            "E": "Rp1.800.000"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih tarif dan batas manfaat adalah Rp200.000 per malam. Untuk tiga malam, selisihnya Rp600.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalikan selisih tarif per malam dengan jumlah malam."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dokumen Klaim Belum Lengkap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan meminta ringkasan medis yang belum dilampirkan. Langkah apa yang sebaiknya diambil?"
+            }
+          ],
+          "opsi": {
+            "A": "Mengajukan klaim kedua untuk kejadian yang sama",
+            "B": "Menunggu pembayaran tanpa merespons",
+            "C": "Mengubah tanggal rawat inap",
+            "D": "Mengirim ringkasan medis melalui kanal resmi dan menyimpan bukti pengiriman",
+            "E": "Menganggap semua manfaat polis telah berakhir"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Permintaan dokumen berarti pemeriksaan masih membutuhkan bukti. Lengkapi melalui kanal resmi dan simpan nomor klaim."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa bukti yang diminta dan simpan nomor klaim."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Menganalisis Dua Kejadian pada Polis Kendaraan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Polis kendaraan Dita menjamin kerusakan akibat benturan dan mencantumkan perluasan banjir. Perluasan tersebut mengecualikan kerusakan mesin akibat kendaraan sengaja dikendarai menerobos genangan. Saat polis aktif, bodi mobil Dita rusak karena terserempet. Pada kejadian terpisah, mesinnya rusak karena Dita sengaja menerobos genangan. Berdasarkan cakupan dan pengecualian tersebut, bagaimana kedua kejadian dinilai?"
+            }
+          ],
+          "opsi": {
+            "A": "Keduanya termasuk risiko yang dijamin karena polis masih aktif.",
+            "B": "Kerusakan bodi termasuk risiko yang dijamin. Kerusakan mesin masuk pengecualian.",
+            "C": "Kerusakan mesin termasuk risiko yang dijamin. Kerusakan bodi masuk pengecualian.",
+            "D": "Keduanya masuk pengecualian karena terjadi pada kendaraan yang sama.",
+            "E": "Keduanya baru dapat dinilai setelah besaran risiko sendiri diketahui."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kerusakan bodi terjadi karena benturan yang tercakup dalam polis. Kerusakan mesin terjadi dalam kondisi yang secara khusus dikecualikan pada perluasan banjir. Penyebab dan klausul yang berlaku perlu diperiksa untuk tiap kejadian."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan kedua kejadian. Cocokkan penyebab masing-masing dengan cakupan dan pengecualian polis."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Mengevaluasi Pilihan Polis Kesehatan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rina mencari polis rawat inap dengan anggaran premi maksimal Rp450.000 per bulan. Ia ingin biaya kamar Rp900.000 per malam di rumah sakit pilihannya tercakup. Ketiga polis menerima rumah sakit tersebut sebagai rekanan, masa tunggunya sama, dan manfaat lain dianggap setara."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Polis",
+                "Premi per bulan",
+                "Batas manfaat kamar",
+                "Pembagian risiko"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "Rp400.000",
+                  "Rp750.000 per malam",
+                  "Tanpa fitur pembagian risiko"
+                ],
+                [
+                  "B",
+                  "Rp450.000",
+                  "Rp900.000 per malam",
+                  "Tanpa fitur pembagian risiko"
+                ],
+                [
+                  "C",
+                  "Rp425.000",
+                  "Rp900.000 per malam",
+                  "Co-payment 5% sesuai polis"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika Rina juga ingin menghindari co-payment, pilihan mana yang paling sesuai dengan seluruh kriterianya?"
+            }
+          ],
+          "opsi": {
+            "A": "Polis A, karena preminya paling rendah dan tidak memiliki fitur pembagian risiko.",
+            "B": "Polis B, karena preminya masih dalam anggaran, batas kamarnya mencukupi, dan tidak memiliki fitur pembagian risiko.",
+            "C": "Polis C, karena preminya lebih rendah dari B dan batas kamarnya sama.",
+            "D": "Polis A dan B sama sesuai karena keduanya tidak memiliki fitur pembagian risiko.",
+            "E": "Polis B dan C sama sesuai karena keduanya memiliki batas kamar Rp900.000."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premi Polis B tepat di batas anggaran dan manfaat kamarnya sesuai tarif rumah sakit dalam soal. Polis A menyisakan selisih biaya kamar Rp150.000 per malam. Polis C memenuhi anggaran dan batas kamar, tetapi memiliki fitur co-payment."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji setiap pilihan terhadap semua kriteria. Premi dan batas manfaat saja belum cukup jika soal juga menetapkan preferensi pembagian risiko."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Asuransi",
+        "teks": ""
+      }
+    ],
+    "pesan": "Saat memilih asuransi, mulai dari risiko yang paling sulit kamu tanggung sendiri. Bandingkan manfaat dan premi sesuai kebutuhan serta anggaran. Jika produknya adalah Produk Asuransi yang Dikaitkan dengan Investasi (PAYDI), periksa manfaat proteksi, biaya, dan bagaimana perubahan nilai investasi dapat memengaruhi nilai tunai. Saat terjadi kerugian, cocokkan penyebabnya dengan cakupan dan pengecualian dalam polis. Setelah memastikan kejadiannya termasuk risiko yang dijamin, periksa dokumen klaim, batas manfaat, dan bagian biaya yang harus ditanggung sendiri. Pada kasus Ayu, perluasan banjir menentukan apakah kerusakan mobilnya tercakup, sedangkan risiko sendiri memengaruhi jumlah yang dibayarkan. Jika perusahaan meminta dokumen tambahan, lengkapi melalui kanal resmi dan simpan bukti pengirimannya. Jika keputusan klaim belum jelas, minta alasan tertulis dan periksa klausul polis yang menjadi dasarnya. Gunakan jalur pengaduan yang sesuai jika masalah masih belum selesai."
+  }
+}

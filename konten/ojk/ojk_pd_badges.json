@@ -1,0 +1,985 @@
+{
+  "meta": {
+    "judul": "Badges",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Badges",
+    "sumber": "https://docs.google.com/document/d/14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w/edit",
+    "id_katalog": "pd-04"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Badges adalah tipe soal penalaran numerik yang meminta peserta memasangkan nomor lencana (badge) pada beberapa objek sesuai urutan nilai atau peringkat berdasarkan kriteria tertentu. Objek dapat berupa produk, pekerja, tim, proyek, cabang, atau kelompok lainnya. Data yang diberikan dapat berupa nilai langsung maupun informasi yang harus diolah terlebih dahulu.",
+      "Hal terpenting pada soal Badges bukan sekadar menghitung, melainkan menentukan indikator yang benar, arah urutan, dan hubungan satu-ke-satu antara objek dengan lencana. Lencana 1 tidak otomatis berarti nilai terbesar; maknanya selalu mengikuti instruksi soal.",
+      "Karakteristik utama soal Badges adalah: peserta membandingkan beberapa objek, setiap objek biasanya memperoleh satu lencana, setiap lencana digunakan satu kali ketika seluruh peringkat berbeda, dan urutan baru dapat ditetapkan setelah semua nilai dibandingkan pada dasar yang sama."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian dan karakteristik soal Badges."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "indikator yang dibandingkan dan arah peringkat."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "data mentah, nilai langsung, dan hasil olahan."
+      },
+      {
+        "level": "",
+        "kko": "Mengolah",
+        "teks": "data menggunakan perkalian, rasio, persentase, dan hubungan antarobjek."
+      },
+      {
+        "level": "",
+        "kko": "Menormalisasi",
+        "teks": "satuan atau dasar pembanding sebelum mengurutkan."
+      },
+      {
+        "level": "",
+        "kko": "Menangani",
+        "teks": "nilai seri dengan aturan pemecah seri jika diberikan."
+      },
+      {
+        "level": "",
+        "kko": "Memasangkan",
+        "teks": "setiap lencana secara tepat dan melakukan verifikasi akhir."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "strategi cepat tanpa mengorbankan ketelitian."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Mekanisme Dasar Badges",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mekanisme Dasar Badges",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Soal Badges bekerja seperti sistem peringkat. Misalnya terdapat enam objek dan lencana 1-6. Setelah nilai pembanding setiap objek diperoleh, keenam objek diurutkan sesuai instruksi. Peringkat tersebut kemudian diterjemahkan menjadi nomor lencana."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Satu objek $→$ satu lencana.",
+                "Satu lencana $→$ satu objek, selama tidak ada peringkat yang sama.",
+                "Nomor lencana adalah label peringkat, bukan angka yang dihitung dari data.",
+                "Makna lencana 1 harus dibaca dari instruksi: dapat berarti tertinggi, terendah, tercepat, paling sedikit, dan sebagainya."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menemukan Kriteria dan Arah Peringkat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menemukan Kriteria dan Arah Peringkat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum menghitung, cari frasa yang menunjukkan dua hal: apa yang dibandingkan dan ke arah mana urutannya. Kata kunci yang umum antara lain “tertinggi”, “terendah”, “paling sedikit”, “paling banyak”, “persentase pencapaian”, “laba bulanan”, “rata-rata”, atau “rasio”."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Instruksi",
+                "Makna urutan"
+              ],
+              "baris": [
+                [
+                  "Lencana 1 = laba tertinggi",
+                  "Urutkan dari laba terbesar ke terkecil"
+                ],
+                [
+                  "Lencana 1 = biaya terendah",
+                  "Urutkan dari biaya terkecil ke terbesar"
+                ],
+                [
+                  "Lencana 1 = persentase pencapaian tertinggi",
+                  "Hitung persentase dahulu, lalu urutkan menurun"
+                ],
+                [
+                  "Lencana 1 = waktu tercepat",
+                  "Waktu terkecil mendapat lencana 1"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan yang sering terjadi adalah mengurutkan berdasarkan angka pertama yang terlihat. Padahal angka tersebut belum tentu indikator yang diminta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lencana angka dipasang sesuai urutan, bukan otomatis berdasarkan besarnya angka yang pertama terlihat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A = 900,$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$B = 700$, dan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$C = 500$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika diminta laba tertinggi ke terendah, urutannya $A–B–C$. Jika diminta biaya terendah ke tertinggi, urutannya $C–B–A$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kunci konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selalu garis bawahi frasa “paling sedikit”, “tertinggi”, “terendah”, “persentase”, atau “laba bulanan”. Nomor 1 mengikuti definisi yang diberikan dalam pertanyaan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menentukan Nilai Pembanding",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menentukan Nilai Pembanding",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua objek harus dibandingkan menggunakan indikator yang sama. Nilai pembanding dapat diberikan langsung atau harus dihitung dari dua atau lebih data. Beberapa bentuk yang umum adalah sebagai berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Konteks",
+                "Nilai pembanding"
+              ],
+              "baris": [
+                [
+                  "Penjualan",
+                  "$Laba bulanan = unit terjual per bulan× laba per unit$"
+                ],
+                [
+                  "Target kerja",
+                  "$Persentase pencapaian = realisasi/target × 100%$"
+                ],
+                [
+                  "Produktivitas",
+                  "Output/waktu atau output/jumlah pekerja, sesuai instruksi"
+                ],
+                [
+                  "Biaya",
+                  "$Biaya total = jumlah unit × biaya per unit$"
+                ],
+                [
+                  "Perubahan nilai",
+                  "$Nilai baru = nilai awal × faktor perubahan$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan indikator yang sama untuk semua objek. Dua bentuk yang sering digunakan adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Laba bulanan = jumlah unit terjual per bulan × laba per unit.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persentase pencapaian target = (realisasi ÷ target) × 100%.$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh laba"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$100 unit × Rp2.000 = Rp200.000.$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh persentase"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$90 dari target 100 = 90%$;"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$110 dari target 200 = 55%.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Realisasi 110 lebih besar daripada 90, tetapi persentase pencapaiannya lebih rendah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menyamakan Dasar Pembanding dan Satuan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menyamakan Dasar Pembanding dan Satuan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum mengurutkan, pastikan semua angka berada pada satuan dan basis yang sama. Membandingkan 2 jam dengan 90 menit secara langsung dapat menyesatkan. Ubah terlebih dahulu ke satuan yang sama: 2 jam = 120 menit, sehingga 90 menit lebih cepat."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Samakan satuan waktu, panjang, berat, mata uang, atau skala jika berbeda.",
+                "Samakan periode, misalnya per hari, per minggu, atau per bulan.",
+                "Samakan basis rasio, misalnya output per pekerja atau pencapaian per target.",
+                "Jangan membandingkan nilai absolut dengan persentase tanpa mengubahnya ke indikator yang sama."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Data mentah dan hasil olahan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Data mentah dan hasil olahan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Data mentah adalah angka yang diberikan dalam stimulus, misalnya volume penjualan dan laba per unit. Hasil olahan adalah besaran yang sesungguhnya diminta, misalnya laba bulanan. Produk dengan laba per unit lebih tinggi belum tentu memiliki laba bulanan lebih tinggi."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Produk",
+                "Unit/bulan",
+                "Laba per unit",
+                "Laba bulanan"
+              ],
+              "baris": [
+                [
+                  "**A**",
+                  "100",
+                  "Rp2.000",
+                  "Rp200.000"
+                ],
+                [
+                  "**B**",
+                  "60",
+                  "Rp3.000",
+                  "Rp180.000"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Walaupun laba per unit B lebih tinggi, laba bulanan A lebih tinggi. Jadi, jika kriteria soal adalah laba bulanan, A harus ditempatkan di atas B."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Hubungan Antarobjek dan Perhitungan Berantai",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Hubungan Antarobjek dan Perhitungan Berantai",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian soal tidak memberikan semua nilai secara langsung. Nilai suatu objek dapat bergantung pada objek lain. Pada kondisi ini, mulai dari nilai yang diketahui pasti lalu bangun rantai hubungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika $A > B$ dan $B > C$, maka $A > B > C$. Namun, jika hanya diketahui $A>B$dan $A>C$, hubungan antara $B$ dan $C$ belum dapat dipastikan. Terdapat tiga kemungkinan, yaitu $B>C$, $B<C$, atau $B=C$. Tetapi jika hanya diketahui $A > B$ serta $A > C$, belum dapat dipastikan apakah $B > C$ atau $C > B$."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bentuk informasi",
+                "Operasi cepat"
+              ],
+              "baris": [
+                [
+                  "60% lebih banyak",
+                  "$×1,60$"
+                ],
+                [
+                  "75% lebih sedikit",
+                  "$×0,25$"
+                ],
+                [
+                  "25% lebih sedikit",
+                  "$×0,75$"
+                ],
+                [
+                  "Dua kali nilai",
+                  "$×2$"
+                ],
+                [
+                  "Setengah nilai",
+                  "$×0,50$"
+                ],
+                [
+                  "Seperempat nilai lalu ditambah 70",
+                  "Bagi 4, kemudian $+ 70$"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$60%$ lebih banyak dari $175 = 175 × 1,60 = 280$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$75%$lebih sedikit dari $140 = 140 × 0,25 = 35$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika dua nilai sama, cek aturan tambahan di soal. Tanpa aturan pemecah seri, urutan dua objek tersebut belum tentu unik."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Persentase, Rasio, dan Perubahan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Persentase, Rasio, dan Perubahan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus yang paling sering digunakan pada soal Badges adalah persentase pencapaian serta kenaikan atau penurunan nilai."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Konsep",
+                "Rumus"
+              ],
+              "baris": [
+                [
+                  "Persentase pencapaian",
+                  "$realisasitarget× 100%$"
+                ],
+                [
+                  "Kenaikan$p%$",
+                  "$nilai baru = nilai awal × (1 + p100 )$"
+                ],
+                [
+                  "Penurunan $p%$",
+                  "$nilai baru = nilai awal × (1 − p100)$"
+                ],
+                [
+                  "Perbandingan rasio",
+                  "Bandingkan $ab$ dan $cd$ dengan perkalian silang jika penyebut positif"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk ranking, nilai desimal tidak selalu perlu diubah ke persen jika semua pembanding menggunakan bentuk yang sama. Misalnya $0,95 > 0,90 > 0,85$ sudah cukup untuk mengurutkan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Nilai Seri dan Aturan Pemecahan Seri (Tie-breaker)",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Nilai Seri dan Aturan Pemecahan Seri (Tie-breaker)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua objek dapat memiliki nilai pembanding yang sama. Jika soal memberikan aturan pemecah seri, gunakan aturan tersebut setelah indikator utama dibandingkan. Jika tidak ada aturan pemecah seri dan dua nilai benar-benar sama, urutan keduanya tidak dapat ditentukan secara unik."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A dan B sama-sama mencapai 90%. Jika instruksi menyatakan bahwa realisasi yang lebih besar ditempatkan lebih tinggi, A dengan realisasi 180 berada di atas B dengan realisasi 135."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Jangan membuat aturan pemecah seri sendiri.",
+                "Gunakan indikator kedua hanya jika disebutkan atau logis diwajibkan oleh soal."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menyusun Urutan dan Memasangkan Lencana",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menyusun Urutan dan Memasangkan Lencana",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah semua nilai pembanding diperoleh, urutkan sesuai arah yang diminta, kemudian ubah posisi tersebut menjadi lencana. Untuk nilai yang berdekatan, gunakan nilai asli dan hindari pembulatan terlalu awal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutkan hasil olahan mengikuti arah lencana. Bandingkan angka yang berdekatan secara teliti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$16.625 > 16.500 > 16.250$. Jika dibulatkan terlalu kasar menjadi $16,6; 16,5; 16,3,$urutan masih terlihat, tetapi pada selisih yang lebih kecil pembulatan dapat mengubah peringkat."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pastikan jumlah objek sama dengan jumlah lencana yang harus dipasang.",
+                "Pastikan setiap objek memperoleh satu lencana dan tidak ada lencana yang digunakan lebih dari satu kali apabila seluruh peringkat berbeda.",
+                "Jika terdapat nilai yang sama, periksa aturan penentuan peringkat (tie-breaker) pada soal sebelum memasangkan lencana.",
+                "Cek kembali arah ranking setelah selesai menghitung untuk memastikan urutan sesuai instruksi, baik dari tertinggi ke terendah maupun sebaliknya."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab dan Cara Cepat",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab dan Cara Cepat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan metode K–H–U–P–C sebagai alur tetap penyelesaian soal Badges:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Pertanyaan kontrol"
+              ],
+              "baris": [
+                [
+                  "K - Kriteria",
+                  "Tentukan apa yang dibandingkan dan makna lencana 1."
+                ],
+                [
+                  "H - Hitung",
+                  "Ubah seluruh data menjadi nilai pembanding yang setara."
+                ],
+                [
+                  "U - Urutkan",
+                  "Susun nilai dari besar-ke-kecil atau kecil-ke-besar sesuai instruksi."
+                ],
+                [
+                  "P - Pasangkan",
+                  "Konversikan posisi ke nomor lencana."
+                ],
+                [
+                  "C - Cek",
+                  "Periksa hitungan, arah ranking, duplikasi lencana, satuan, dan aturan seri."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara cepat yang aman"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) mulailah dari besaran yang diketahui pasti;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) lakukan perhitungan berantai agar tidak mengulang;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) identifikasi nilai terbesar dan terkecil lalu sisipkan nilai lainnya;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) bandingkan rasio memakai perkalian silang jika penyebutnya positif;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(5) gunakan total yang diberikan sebagai pemeriksaan;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(6) jangan membulatkan dini."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pola Soal Badges yang Perlu Dikenali",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pola Soal Badges yang Perlu Dikenali",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola",
+                "Ciri",
+                "Fokus penyelesaian"
+              ],
+              "baris": [
+                [
+                  "Ranking langsung",
+                  "Semua nilai tersedia",
+                  "Baca arah ranking dan urutkan"
+                ],
+                [
+                  "Nilai turunan",
+                  "Perlu perkalian/pembagian",
+                  "Hitung indikator yang benar"
+                ],
+                [
+                  "Hubungan berantai",
+                  "Nilai satu objek bergantung pada yang lain",
+                  "Mulai dari nilai pasti"
+                ],
+                [
+                  "Persentase/rasio",
+                  "Target dan realisasi berbeda basis",
+                  "Samakan rasio/persentase"
+                ],
+                [
+                  "Satuan berbeda",
+                  "Waktu/ukuran/periode tidak seragam",
+                  "Normalisasi satuan"
+                ],
+                [
+                  "Nilai seri",
+                  "Dua hasil sama",
+                  "Gunakan tie-breaker"
+                ],
+                [
+                  "Informasi parsial",
+                  "Tidak semua relasi diketahui",
+                  "Pisahkan relasi pasti/tidak pasti"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Laba Produk",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gambar berikut diambil dari halaman contoh soal pada referensi. Gambar mempertahankan bentuk tampilan objek dan lencana sesuai bahan sumber."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_badges/gambar-01.png",
+              "lebar": 6.27,
+              "tinggi": 3.03
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Produk",
+                "Unit/bulan",
+                "Laba/unit (USD)",
+                "Perhitungan",
+                "Laba bulanan"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "10.500",
+                  "1,60",
+                  "10.500 x 1,60",
+                  "16.800"
+                ],
+                [
+                  "B",
+                  "5.000",
+                  "3,00",
+                  "5.000 x 3,00",
+                  "15.000"
+                ],
+                [
+                  "C",
+                  "6.500",
+                  "2,50",
+                  "6.500 x 2,50",
+                  "16.250"
+                ],
+                [
+                  "D",
+                  "9.500",
+                  "1,75",
+                  "9.500 x 1,75",
+                  "16.625"
+                ],
+                [
+                  "E",
+                  "8.500",
+                  "2,50",
+                  "8.500 x 2,50",
+                  "21.250"
+                ],
+                [
+                  "F",
+                  "11.000",
+                  "1,50",
+                  "11.000 x 1,50",
+                  "16.500"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Laba bulanan diperoleh dengan mengalikan unit terjual dan laba per unit untuk masing-masing produk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai terbesar adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "E (21.250), berikutnya",
+                "A (16.800),",
+                "D (16.625),",
+                "F (16.500),",
+                "C (16.250), dan",
+                "B (15.000)."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Produk D, F dan C harus dibandingkan tanpa pembulatan karena selisihnya relatif kecil."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Urutan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$E > A > D > F > C > B$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban lencana"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$A = 2, B = 6, C = 5, D = 3, E = 1, F = 4$."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "hitung langsung hasil kali tiap produk; tandai hasil tertinggi dan terendah, kemudian urutkan nilai tengah. Jangan menilai hanya berdasarkan unit terjual atau laba per unit."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pemasangan Batu Bata",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gambar berikut menggunakan halaman contoh soal asli referensi, termasuk panel objek dan lencana."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_badges/gambar-02.jpg",
+              "lebar": 6.09,
+              "tinggi": 2.68
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pekerja",
+                "Perhitungan",
+                "Jumlah"
+              ],
+              "baris": [
+                [
+                  "Naomi",
+                  "Diketahui langsung",
+                  "175"
+                ],
+                [
+                  "Quentin",
+                  "$175 × 1,60$",
+                  "280"
+                ],
+                [
+                  "Patsy",
+                  "$2 × 280$",
+                  "560"
+                ],
+                [
+                  "Oscar",
+                  "$2802$",
+                  "140"
+                ],
+                [
+                  "Mike",
+                  "$5604+ 70$",
+                  "210"
+                ],
+                [
+                  "Rachel",
+                  "$140 × 0,25$",
+                  "35"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai dari:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$Naomi = 175$.",
+                "Quentin memasang $60%$ lebih banyak, yaitu 280.",
+                "Patsy memasang dua kali Quentin, yaitu 560.",
+                "Oscar memasang setengah Quentin, yaitu 140.",
+                "Mike memasang seperempat Patsy ditambah 70, yaitu 210.",
+                "Rachel memasang 75% lebih sedikit daripada Oscar, berarti hanya $25% × 140 = 35$."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cek total"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$175 + 280 + 560 + 140 + 210 + 35 = 1.400$ batu bata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total cocok dengan stimulus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Urutan terkecil ke terbesar"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Rachel (35) < Oscar (140) < Naomi (175)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$< Mike (210) < Quentin (280) < Patsy (560).$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban lencana"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Mike = 4, Naomi = 3, Oscar = 2, Patsy = 6, Quentin = 5, Rachel = 1.$"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Susun rantai $Naomi → Quentin → Patsy$, kemudian hitung $Oscar, Mike dan Rachel$. Ingat bahwa “75% lebih sedikit” berarti tersisa 25%, bukan menjadi 75%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kesalahan Umum",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Dampak",
+                "Perbaikan"
+              ],
+              "baris": [
+                [
+                  "Menganggap lencana 1 selalu tertinggi",
+                  "Arah ranking terbalik",
+                  "Baca definisi lencana pada soal"
+                ],
+                [
+                  "Mengurutkan data mentah",
+                  "Indikator salah",
+                  "Hitung besaran yang benar-benar diminta"
+                ],
+                [
+                  "Membandingkan satuan berbeda",
+                  "Urutan keliru",
+                  "Samakan satuan/periode terlebih dahulu"
+                ],
+                [
+                  "Salah menafsirkan penurunan persen",
+                  "Nilai hasil salah",
+                  "Gunakan 100% - persen penurunan"
+                ],
+                [
+                  "Membulatkan terlalu awal",
+                  "Urutan nilai dekat dapat berubah",
+                  "Gunakan nilai asli sampai ranking selesai"
+                ],
+                [
+                  "Mengabaikan tie-breaker",
+                  "Peringkat seri salah",
+                  "Gunakan aturan kedua setelah indikator utama"
+                ],
+                [
+                  "Membuat tie-breaker sendiri",
+                  "Kesimpulan tidak didukung data",
+                  "Jika tidak ada aturan, nyatakan urutan belum unik"
+                ],
+                [
+                  "Tidak melakukan cek akhir",
+                  "Lencana dapat duplikat/terlewat",
+                  "Periksa jumlah objek, lencana, arah, dan total"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Mekanisme Dasar Badges",
+        "teks": ""
+      },
+      {
+        "judul": "Menemukan Kriteria dan Arah Peringkat",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan Nilai Pembanding",
+        "teks": ""
+      },
+      {
+        "judul": "Menyamakan Dasar Pembanding dan Satuan",
+        "teks": ""
+      },
+      {
+        "judul": "Data mentah dan hasil olahan",
+        "teks": ""
+      },
+      {
+        "judul": "Hubungan Antarobjek dan Perhitungan Berantai",
+        "teks": ""
+      }
+    ],
+    "pesan": "Inti penyelesaian Badges adalah mengenali kriteria yang tepat, mengolah angka dengan dasar pembanding yang setara, menyusun urutan sesuai instruksi, lalu memasangkan lencana secara konsisten. Ketepatan interpretasi lebih penting daripada sekadar berhitung cepat. Ingat alue K–H–U–P–C: Kriteria → Hitung → Urutkan → Pasangkan → Cek. Pada soal berantai, mulai dari nilai pasti. Pada soal target atau rasio, bandingkan proporsi, bukan hanya nilai absolut. Pada nilai berdekatan, jangan membulatkan terlalu awal. Pada nilai seri, gunakan aturan pemecah seri hanya jika diberikan."
+  }
+}

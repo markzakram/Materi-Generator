@@ -58,6 +58,10 @@ WARNA = {
     "baris_terang": "F4F6FB",
     "baris_gelap": "24336F",
     "isi_catatan": "FFE6AE",
+    # pasangan kontras: teks/ikon di atas kuning, dan aksen kuning di atas latar gelap. Palet platform
+    # yang aksennya gelap (mis. JadiOJK, merah) menimpanya agar tetap terbaca (lihat palet.py).
+    "di_kuning": "13215A",
+    "kuning_di_gelap": "FBBB2B",
 }
 
 # Tema: "opsi-b" (bawaan) dan "general" (hiasan dari 'Template Materi General.pptx', lihat
@@ -478,8 +482,15 @@ def lingkaran(slide, x, y, d, warna, isi=None, ukuran=None, warna_teks="navy", n
     return o
 
 
+def ikon_di_kuning():
+    """Varian ikon untuk di atas lingkaran kuning: putih bila palet memakai teks terang di atas aksen."""
+    return "putih" if _hex(WARNA["di_kuning"]).upper() in ("FFFFFF", "FFF") else "navy"
+
+
 def ubin_ikon(slide, x, y, ukuran, ikon, besar_ikon=0.6, warna="kuning", warna_ikon="navy"):
     """Lingkaran kuning berisi ikon navy (motif chip dan kartu Opsi B)."""
+    if warna == "kuning" and warna_ikon == "navy":
+        warna_ikon = ikon_di_kuning()
     o = lingkaran(slide, x, y, ukuran, warna, nama="Ikon")
     s = ukuran * besar_ikon
     gambar(slide, ikon_path(ikon, warna_ikon), x + (ukuran - s) / 2, y + (ukuran - s) / 2, w=s, h=s)
@@ -774,7 +785,7 @@ def _sel_gaya(cell, isi, garis="garis"):
 
 
 def kartu_isi(item, lebar, gelap=False):
-    wj, wr, wi = ("putih", "kuning", "redup") if gelap else ("navy", "navy", "teks")
+    wj, wr, wi = ("putih", "kuning_di_gelap", "redup") if gelap else ("navy", "navy", "teks")
     par = [P(item["judul"], 22, wj, tebal=True, spasi=1.15, setelah=8)]
     if item.get("rumus"):
         par.append(P(item["rumus"], 26, wr, spasi=1.2, setelah=8))
@@ -819,7 +830,7 @@ def kartu_banding(slide, y, kartu, x=KIRI, w=LEBAR_ISI, celah=0.3):
         hk = tinggi_paragraf([kepala], lw, (inset[0], 0, inset[2], 0))
         baris = []
         for rumus, ket in k["baris"]:
-            pr = P(rumus, 26, "kuning" if gelap else "navy", spasi=1.2)
+            pr = P(rumus, 26, "kuning_di_gelap" if gelap else "navy", spasi=1.2)
             pk = P(ket, 18, "putih" if gelap else "teks", spasi=1.3)
             hb = max(tinggi_paragraf([pr], kol_rumus), tinggi_paragraf([pk], lw - inset[0] - inset[2] - kol_rumus))
             baris.append((pr, pk, max(hb, 0.62)))
@@ -857,7 +868,7 @@ def baris_notasi(slide, y, baris, x=KIRI, w=LEBAR_ISI, kol_rumus=5.6):
 
 def ilustrasi_setara(slide, y, kiri, kanan, x=KIRI, w=LEBAR_ISI):
     """Kotak contoh navy: kalimat dan bentuk setaranya dihubungkan lambang ≡."""
-    par = [P("Contoh", 15, "kuning", tebal=True, spasi=1.2, setelah=6),
+    par = [P("Contoh", 15, "kuning_di_gelap", tebal=True, spasi=1.2, setelah=6),
            P(f"“{kiri}”  $≡$  “{kanan}”", 19, "putih", spasi=1.35)]
     inset = (0.45, 0.35, 0.45, 0.35)
     h = tinggi_paragraf(par, w, inset)
@@ -895,7 +906,7 @@ def daftar_langkah(slide, y, langkah, x=KIRI, w=LEBAR_ISI, celah=0.25):
                 kx = x + i * (lw + celah)
                 navy = i % 2 == 0
                 lingkaran(slide, kx + (lw - d) / 2, y, d, "navy" if navy else "kuning", i + 1, 24,
-                          "putih" if navy else "navy", nama=f"Nomor {i + 1}")
+                          "putih" if navy else "di_kuning", nama=f"Nomor {i + 1}")
                 kotak(slide, kx, yk, lw, h, warna="kartu_gelap" if i == n - 1 else "kartu", radius=RADIUS,
                       nama=f"Langkah {i + 1}")
                 teks(slide, kx, yk, lw, h, p, inset=inset)
@@ -907,7 +918,7 @@ def daftar_langkah(slide, y, langkah, x=KIRI, w=LEBAR_ISI, celah=0.25):
         inset = (1.3, 0.22, 0.4, 0.22)
         h = max(0.95, tinggi_paragraf(p, w, inset))
         kotak(slide, x, y, w, h, warna="kartu", radius=RADIUS, nama=f"Langkah {i}")
-        lingkaran(slide, x + 0.3, y + (h - d) / 2, d, "kuning", i, 20, "navy", nama=f"Nomor {i}")
+        lingkaran(slide, x + 0.3, y + (h - d) / 2, d, "kuning", i, 20, "di_kuning", nama=f"Nomor {i}")
         teks(slide, x, y, w, h, p, inset=inset, jangkar="m")
         y += h + 0.2
     return y - 0.2
@@ -1094,7 +1105,7 @@ def gambar_opsi(slide, y, opsi, x=KIRI, w=LEBAR_ISI, ukuran=18):
         kx = x + i * (lw + 0.2) if mendatar else x
         p = [P(isi, ukuran, "navy", spasi=1.25 if mendatar else 1.3)]
         kotak(slide, kx, y, lw, h, warna="kartu", radius=min(RADIUS, h / 2), nama=f"Opsi {huruf}")
-        lingkaran(slide, kx + 0.18, y + (h - d) / 2, d, "kuning", huruf, 17, "navy", nama=f"Huruf {huruf}")
+        lingkaran(slide, kx + 0.18, y + (h - d) / 2, d, "kuning", huruf, 17, "di_kuning", nama=f"Huruf {huruf}")
         teks(slide, kx + 0.82, y, lw - 0.95, h, p, jangkar="m")
         if not mendatar:
             y += h + 0.12

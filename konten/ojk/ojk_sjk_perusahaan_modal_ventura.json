@@ -1,0 +1,830 @@
+{
+  "meta": {
+    "judul": "Perusahaan Modal Ventura",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Perusahaan Modal Ventura",
+    "sumber": "https://docs.google.com/document/d/1WmmrvzKKpdYLqNRG8atOF6E29BDjCokJ/edit",
+    "id_katalog": "sjk-08"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Nisa ingin membeli mesin untuk usaha pangan miliknya. Perusahaan Modal Ventura (PMV) bersedia menanamkan Rp200 juta dengan mengambil saham baru. Apa yang berubah bagi Nisa setelah dana masuk? Apa yang terjadi ketika PMV menjual sahamnya beberapa tahun kemudian?"
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Setelah",
+        "teks": "mempelajari materi ini, peserta dapat melakukan tiga hal berikut."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "penyertaan saham, instrumen konversi, dan pembiayaan."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "fokus dua kategori perusahaan modal ventura menurut OJK."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pelepasan saham dari pelunasan pembiayaan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Perusahaan Modal Ventura",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perusahaan Modal Ventura",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengenal peran OJK, Bank Indonesia, dan Lembaga Penjamin Simpanan, baca Pengantar Bersama di dokumen Perbankan dan Pembiayaan – Fintech."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Istilah Dasar"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Arti dalam Materi"
+              ],
+              "baris": [
+                [
+                  "PMV",
+                  "Perusahaan Modal Ventura."
+                ],
+                [
+                  "Pasangan usaha",
+                  "Perusahaan tempat PMV menanamkan modal atau menyediakan pendanaan sesuai bentuk transaksi."
+                ],
+                [
+                  "Saham",
+                  "Bagian kepemilikan dalam perusahaan."
+                ],
+                [
+                  "Obligasi",
+                  "Surat utang yang memuat kewajiban pembayaran penerbit kepada pemegangnya."
+                ],
+                [
+                  "Sukuk",
+                  "Efek syariah yang mewakili bagian kepemilikan atas aset atau kegiatan yang mendasarinya."
+                ],
+                [
+                  "Konversi",
+                  "Perubahan instrumen menjadi saham sesuai syarat."
+                ],
+                [
+                  "Divestasi",
+                  "Pelepasan penyertaan, misalnya melalui penjualan saham."
+                ],
+                [
+                  "Dana Ventura",
+                  "Dana yang dihimpun dari investor untuk dikelola dan ditempatkan sesuai perjanjian."
+                ],
+                [
+                  "Unit penyertaan",
+                  "Bukti bagian investor dalam Dana Ventura."
+                ],
+                [
+                  "Bank kustodian",
+                  "Bank yang memberikan jasa penyimpanan dan administrasi aset Dana Ventura sesuai tugasnya."
+                ],
+                [
+                  "Pelunasan",
+                  "Penyelesaian kewajiban pembayaran pembiayaan sesuai perjanjian."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ikuti uang dan saham pada dua tahap. Saat saham baru diterbitkan, perusahaan menerima modal. Saat PMV menjual saham yang sudah dimilikinya, uang diterima PMV sebagai penjual."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peran Modal Ventura dalam Pengembangan Usaha"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan modal ventura mendukung usaha yang membutuhkan dana untuk tumbuh. Bentuk pendanaannya penting karena menentukan hak yang diperoleh pemberi dana dan kewajiban yang harus dipenuhi oleh usaha."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saham menunjukkan bagian kepemilikan dalam perusahaan. Saat PMV membeli saham baru, dana masuk ke pasangan usaha dan PMV menjadi salah satu pemilik. Hak suara, informasi, dan pembagian dividen mengikuti jenis saham dan dokumen yang berlaku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Siapa yang Menerima Dana"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam penyertaan, perusahaan yang menerima modal disebut pasangan usaha. Dalam contoh pembiayaan konvensional, penerimanya dapat berperan sebagai debitur. POJK juga menggunakan istilah nasabah pada pembiayaan bagi hasil oleh PMV syariah atau unit usaha syariah. Peran ditentukan oleh transaksi yang dilakukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bagaimana PMV Menilai Usaha"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tahap uji tuntas, PMV memeriksa laporan keuangan, pelanggan, legalitas, dan rencana penggunaan dana. Misalnya, PMV dapat memeriksa apakah pesanan yang ada cukup untuk mendukung pembelian mesin baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah pemeriksaan, para pihak menyepakati nilai investasi, jumlah saham, hak pemegang saham, dan rencana pelepasan saham. Ketika saham baru diterbitkan dan dibayar, perusahaan menerima modal dan mencatat perubahan susunan pemegang saham."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kerangka OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK 25 Tahun 2023 mengatur penyelenggaraan usaha Perusahaan Modal Ventura (PMV) dan Perusahaan Modal Ventura Syariah. Misalnya, jika sebuah soal menanyakan perbedaan fokus usaha Venture Capital Corporation (VCC) dan Venture Debt Corporation (VDC), atau cara PMV melepas penyertaannya melalui divestasi, periksa ketentuan yang mengatur kegiatan tersebut dalam POJK 25/2023."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK Nomor 46 Tahun 2024 mengatur pengembangan dan penguatan perusahaan pembiayaan, perusahaan pembiayaan infrastruktur, dan perusahaan modal ventura. POJK Nomor 35 Tahun 2025 merupakan perubahan atas POJK Nomor 46 Tahun 2024. Perubahan ini berlaku pada ketentuan yang secara khusus diubah dalam POJK 46/2024. Untuk menentukan aturan yang berlaku pada sebuah kasus, periksa pasal yang mengatur topik tersebut serta peraturan yang mengubahnya. Dengan demikian, terbitnya POJK 35/2025 tidak otomatis mengubah seluruh ketentuan POJK 25/2023."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Dua Fokus Usaha menurut OJK"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kategori",
+                "Fokus kegiatan"
+              ],
+              "baris": [
+                [
+                  "Venture Capital Corporation (VCC)",
+                  "Penyertaan modal, pembelian obligasi atau sukuk konversi, dan/atau pengelolaan Dana Ventura."
+                ],
+                [
+                  "Venture Debt Corporation (VDC)",
+                  "Konvensional: pembelian surat utang pasangan usaha tahap rintisan atau pengembangan dan/atau pembiayaan. Syariah: pembelian sukuk pasangan usaha pada tahap tersebut dan/atau pembiayaan bagi hasil."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK membedakan dua kategori berdasarkan fokus kegiatan. Kategori perusahaan membantu menjelaskan arah usahanya. Untuk mengetahui dampak sebuah transaksi, periksa juga instrumen yang digunakan dan hak yang tertulis pada perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasal 9 ayat (2) POJK 25 Tahun 2023 juga memperbolehkan VCC konvensional membeli surat utang pasangan usaha pada tahap rintisan awal atau pengembangan dan/atau memberikan pembiayaan. Untuk PMV syariah atau unit usaha syariah dalam kategori VCC, kegiatannya dapat berupa pembelian sukuk pasangan usaha pada tahap tersebut dan/atau pembiayaan bagi hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan Modal Ventura Syariah (PMVS) dan Unit Usaha Syariah (UUS) menjalankan kegiatan berdasarkan prinsip syariah, menggunakan akad yang sesuai, serta memperhatikan kesesuaian kegiatan pasangan usaha dengan prinsip syariah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kategori Venture Capital Corporation (VCC), salah satu instrumen yang dapat digunakan adalah sukuk konversi. Instrumen ini memungkinkan penyertaan melalui sukuk yang dapat dikonversi menjadi saham pasangan usaha sesuai ketentuan dan perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sementara itu, pada kategori Venture Debt Corporation (VDC), kegiatan syariah dapat dilakukan melalui pembelian sukuk pasangan usaha pada tahap rintisan atau pengembangan dan/atau pembiayaan berdasarkan prinsip bagi hasil. Dalam pembiayaan bagi hasil, pembagian keuntungan mengikuti nisbah dan ketentuan akad yang disepakati para pihak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemilihan instrumen, mekanisme pembagian hasil, dan pengelolaan risiko harus mengikuti prinsip syariah serta ketentuan POJK Nomor 25 Tahun 2023."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penyertaan Saham dan Instrumen Konversi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat penyertaan saham berlaku, PMV ikut memiliki perusahaan. Jika PMV membeli instrumen konversi, instrumen itu baru berubah menjadi saham setelah syarat yang disepakati terpenuhi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, PMV membeli obligasi konversi. Untuk mengetahui kapan PMV menjadi pemegang saham, baca kejadian pemicu dan syarat konversi dalam dokumen penerbitan. Sebelum konversi terjadi, hak PMV mengikuti ketentuan instrumen tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Dana Ventura"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bayangkan beberapa investor ingin mendanai usaha yang sedang berkembang. Mereka menempatkan dana bersama melalui Dana Ventura. Setiap investor memperoleh unit penyertaan sebagai bukti kepemilikannya dalam Dana Ventura. Perusahaan pengelola kemudian memilih pasangan usaha tempat dana akan ditempatkan sesuai kebijakan investasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dana Ventura dibentuk oleh perusahaan dalam kategori Venture Capital Corporation (VCC) bersama Bank Kustodian melalui Kontrak Investasi Bersama. Kontrak ini mengikat para pemegang unit penyertaan dan mengatur hak, kewajiban, serta pembagian tugas para pihak. Perusahaan yang mengelola Dana Ventura wajib memperoleh izin pengelolaan Dana Ventura dari OJK."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pihak",
+                "Peran dalam Dana Ventura"
+              ],
+              "baris": [
+                [
+                  "Investor atau pemegang unit penyertaan",
+                  "Menempatkan dana dan memperoleh unit penyertaan. Haknya atas Dana Ventura mengikuti Kontrak Investasi Bersama."
+                ],
+                [
+                  "Perusahaan pengelola",
+                  "Menilai calon pasangan usaha, memilih penempatan dana sesuai kebijakan investasi, dan memantau perkembangan investasi."
+                ],
+                [
+                  "Bank Kustodian",
+                  "Menjalankan penitipan kolektif atas aset Dana Ventura, memelihara catatan pemegang unit penyertaan, dan menghitung nilai aset bersih Dana Ventura."
+                ],
+                [
+                  "Pasangan usaha",
+                  "Menerima penempatan dana sesuai transaksi. Jika Dana Ventura mengambil saham baru yang diterbitkan pasangan usaha, perusahaan tersebut menerima tambahan modal untuk mengembangkan usahanya."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya Dana Ventura mengambil saham baru PT Pangan Nisa untuk mendukung pembelian mesin. Investor memiliki unit penyertaan dalam Dana Ventura, sedangkan penyertaan pada PT Pangan Nisa merupakan bagian dari aset Dana Ventura. Pengelola memutuskan penempatan dan memantau usaha. Bank Kustodian menjalankan fungsi penitipan dan administrasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai investasi dapat turun jika kinerja pasangan usaha memburuk. Dana juga bisa sulit dicairkan jika saham yang dimiliki sulit dijual atau waktu pelepasannya mundur. Sebelum menempatkan dana, investor perlu membaca tujuan investasi, biaya, jangka waktu, risiko, dan ketentuan pencairan dalam dokumen Dana Ventura."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hak, Risiko, dan Cara Mengakhiri Transaksi"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bentuk transaksi",
+                "Hak atau risiko utama"
+              ],
+              "baris": [
+                [
+                  "Penyertaan saham",
+                  "PMV memperoleh saham. Nilainya dapat naik atau turun sesuai perkembangan usaha."
+                ],
+                [
+                  "Obligasi atau sukuk konversi",
+                  "Hak mengikuti instrumen sampai konversi. Syarat konversi menentukan kapan saham diperoleh."
+                ],
+                [
+                  "Pembiayaan ventura",
+                  "Hak pembayaran mengikuti perjanjian. Keterlambatan atau gagal bayar menimbulkan risiko."
+                ],
+                [
+                  "Pembiayaan bagi hasil",
+                  "Pembagian hasil mengikuti akad dan dasar perhitungan yang disepakati."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah dana masuk, lihat apa yang dimiliki atau dapat ditagih oleh pemberi dana. Perbedaan hak inilah yang menjelaskan mengapa hasil penyertaan bergantung pada nilai saham, sedangkan pembiayaan bergantung pada pemenuhan kewajiban bayar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Divestasi dan Pelunasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Divestasi adalah pelepasan penyertaan modal. Misalnya, PMV menjual saham PT Pangan Nisa yang dimilikinya kepada investor lain. Investor tersebut membayar PMV dan menjadi pemegang saham yang baru. Harga jual dapat lebih tinggi atau lebih rendah daripada harga yang dibayar PMV saat memperoleh saham. Pada pelunasan pembiayaan, penerima pembiayaan menyelesaikan kewajiban pembayarannya sesuai perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "PMV perlu merencanakan divestasi sejak awal karena saham pasangan usaha bisa sulit dijual. Misalnya, PT Pangan Nisa masih beroperasi dengan baik, tetapi PMV belum menemukan pembeli yang bersedia membayar harga yang disepakati. Jika PMV mengandalkan hasil penjualan itu untuk memenuhi kewajiban yang segera jatuh tempo, tertundanya penjualan dapat menimbulkan risiko likuiditas. Nilai saham mungkin masih tercatat sebagai aset, tetapi uang dari penjualannya belum tersedia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kegagalan pasangan usaha dapat menimbulkan dampak lain. Jika penjualan PT Pangan Nisa terus turun hingga usahanya berhenti, nilai saham PMV dapat turun dan hasil divestasi mungkin hanya menutup sebagian modal yang ditanamkan. Jika hubungan PMV dengan usaha tersebut berbentuk pembiayaan, kesulitan usaha dapat menyebabkan pembayaran terlambat atau gagal. Karena itu, saat menilai dampaknya, periksa dulu apakah PMV memegang saham atau memiliki hak tagih berdasarkan perjanjian pembiayaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menurut Pasal 17 POJK Nomor 25 Tahun 2023, jangka waktu penyertaan langsung oleh Venture Capital Corporation (VCC) disepakati dengan pasangan usaha dan paling lama 10 tahun. VCC wajib melakukan divestasi paling lambat saat batas maksimum penyertaan langsung jatuh tempo sehingga perusahaan tidak menjadi pengendali pasangan usaha. Pasal 18 mengatur beberapa jalur divestasi, antara lain penawaran umum, pengambilalihan oleh investor lain, dan pembelian kembali saham oleh pasangan usaha sesuai ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengelola risiko, PMV dapat menilai kelayakan usaha sebelum menanamkan modal, memantau kinerjanya, dan menyiapkan beberapa jalur divestasi. PMV juga perlu memperhatikan konsentrasi investasi. Jika banyak penyertaan berada di sektor yang sama, pelemahan sektor tersebut dapat menurunkan nilai beberapa investasi sekaligus. Permodalan membantu PMV menyerap kerugian, sedangkan pengelolaan likuiditas membantu memastikan kas tersedia saat kewajiban jatuh tempo. Keduanya penting ketika divestasi tertunda atau nilai penyertaan turun."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Modal Ventura Syariah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam modal ventura syariah, kegiatan mengikuti prinsip syariah dan akad yang digunakan. OJK mencakup penyertaan saham, sukuk konversi, pembelian sukuk, dan pembiayaan bagi hasil sesuai kategori serta ketentuan usaha."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membaca kasus syariah, identifikasi bentuk akad, hak atas pembayaran, dan ketentuan pembagian hasil. Istilah sukuk konversi menunjukkan kemungkinan perubahan menjadi saham sesuai persyaratan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kasus Penyertaan Saham Usaha Pangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nisa ingin menambah kapasitas produksi dan membutuhkan dana untuk membeli mesin serta menambah persediaan. Perusahaan Modal Ventura (PMV) adalah perusahaan yang mendukung pengembangan usaha, antara lain dengan menanamkan modal melalui penyertaan saham. Dalam ilustrasi ini, PMV menyetor Rp200 juta kepada PT Pangan Nisa untuk membeli 20 saham baru. Sebelum investasi, seluruh 80 saham lama dimiliki Nisa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Diagram Alur Penyertaan dan Divestasi**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_sjk_perusahaan_modal_ventura/gambar-01.png",
+              "lebar": 4.9,
+              "tinggi": 2.59
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Telusuri Dana yang Masuk ke Perusahaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "PT Pangan Nisa menerima Rp200 juta dari PMV. Perusahaan memakai dana tersebut untuk membeli mesin dan menambah persediaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hitung Kepemilikan Setelah Investasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah penerbitan, jumlah saham menjadi 80 + 20 = 100. PMV memegang 20 dari 100 saham atau 20%. Nisa tetap memegang 80 saham, dengan porsi kepemilikan menjadi 80%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Porsi Nisa turun karena jumlah seluruh saham bertambah. Keadaan ini disebut dilusi. Jumlah saham yang dipegang Nisa tetap 80."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah saham baru diterbitkan, PMV memiliki 20 dari 100 saham, atau 20%. Dari harga yang dibayar PMV untuk porsi tersebut, kita dapat menghitung valuasi yang tercermin dalam transaksi. Dalam ilustrasi ini, semua saham diasumsikan memiliki hak ekonomi yang sama, Rp200 juta seluruhnya masuk ke perusahaan, dan tidak ada biaya transaksi atau perubahan modal lain pada saat penerbitan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Arti",
+                "Perhitungan pada kasus Nisa"
+              ],
+              "baris": [
+                [
+                  "Valuasi setelah investasi (post-money valuation)",
+                  "Nilai perusahaan yang tercermin dari transaksi setelah dana baru masuk.",
+                  "Rp200 juta ÷ 20% = Rp1 miliar"
+                ],
+                [
+                  "Valuasi sebelum investasi (pre-money valuation)",
+                  "Nilai perusahaan yang tercermin dari transaksi sebelum dana baru masuk.",
+                  "Rp1 miliar − Rp200 juta = Rp800 juta"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Rp800 juta adalah valuasi sebelum investasi, Rp200 juta adalah dana baru yang diterima perusahaan, dan Rp1 miliar adalah valuasi setelah investasi. Tiga tahun kemudian, ketika investor baru membeli 20 saham yang sudah dimiliki PMV, pembayaran Rp300 juta masuk ke PMV sebagai penjual saham. Perusahaan menerima tambahan modal pada tahap penerbitan saham baru yang dibahas di awal kasus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pantau Perkembangan Usaha"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah mesin beroperasi, PMV dapat memantau penjualan dan penggunaan dana sesuai hak yang disepakati. Nilai saham dapat berubah seiring perkembangan usaha. Hak atas dividen mengikuti keputusan dan ketentuan perusahaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ikuti Penjualan Saham Saat Divestasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga tahun kemudian, investor baru membeli 20 saham PMV seharga Rp300 juta. Investor baru membayar PMV dan mengambil porsi 20%. Nisa tetap memegang 80%. Jumlah saham tetap 100 karena transaksi ini mengalihkan saham yang sudah ada."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih kotor penjualan adalah Rp300 juta − Rp200 juta = Rp100 juta sebelum biaya dan pajak. Jika saham dijual hanya Rp150 juta, PMV menanggung selisih rugi Rp50 juta sebelum biaya dan pajak."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Melihat Dampak Pendanaan pada Kepemilikan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalau usaha baru akan menerima uang beberapa bulan lagi, jadwal pembayaran perlu dibandingkan dengan waktu masuknya kas. Jika pendanaan memberi saham kepada pemodal, pemilik juga perlu menilai bagaimana perubahan porsi saham memengaruhi keputusan usaha."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemilik usaha perlu mengetahui hak yang diterima perusahaan modal ventura setelah dana masuk. Pada penyertaan saham, pemberi dana ikut memiliki perusahaan. Pada pembiayaan tanpa saham atau hak konversi, haknya mengikuti kewajiban pembayaran yang disepakati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menghitung porsi kepemilikan setelah penerbitan saham, bagi jumlah saham yang diterima pemodal dengan jumlah seluruh saham setelah penerbitan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, perusahaan memiliki 80 saham lama dan menerbitkan 20 saham baru untuk PMV. Setelah penerbitan, totalnya 100 saham. PMV memiliki 20% dan pemegang saham lama secara bersama memiliki 80%."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membedakan Hak Sebelum dan Sesudah Konversi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Instrumen konversi perlu dibaca dalam urutan waktu. Hak ketika instrumen dibeli bisa berbeda dari hak setelah konversi. Setelah saham diperoleh, periksa juga ketentuan jika pemodal ingin melepasnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika PMV membeli instrumen konversi, baca dulu hak yang melekat ketika instrumen dibeli. Setelah syarat konversi terpenuhi dan konversi dilaksanakan, PMV memperoleh saham sesuai dokumen transaksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Instrumen yang dapat dikonversi perlu dibaca dalam dua tahap. Periksa hak sebelum konversi, lalu periksa hak setelah saham diterbitkan atau dialihkan sesuai perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya, pembelian instrumen memberi hak sesuai perjanjian penerbitan. Jika konversi terjadi kemudian, baru pada tahap itu porsi saham dapat dihitung berdasarkan ketentuan konversi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembahasan Lebih Lanjut"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menilai Pilihan dari Sudut Pemilik Usaha"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Usaha membutuhkan mesin yang baru mulai menghasilkan penjualan beberapa bulan lagi. Pembiayaan dengan pembayaran terjadwal menuntut kas yang tersedia pada tanggal tertentu. Penyertaan saham mengubah susunan pemilik dan dapat membawa hak pemegang saham sesuai perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pembiayaan, uji kemampuan membayar sesuai jadwal. Pada penyertaan saham, baca porsi kepemilikan dan hak yang diperoleh pemodal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kasus PT Pangan Nisa, dana Rp200 juta saat penerbitan masuk ke perusahaan. Dana Rp300 juta saat saham lama dijual masuk ke PMV sebagai penjual. Ikuti arus uang untuk membedakan kedua transaksi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menelusuri Instrumen Konversi hingga Penyelesaian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Instrumen konversi perlu dibaca menurut tahapnya. Saat dibeli, hak PMV mengikuti dokumen instrumen. Jika syarat terpenuhi dan konversi benar-benar dilakukan, PMV memperoleh saham sesuai ketentuan. Setelah memperoleh saham, PMV dapat mempertimbangkan cara melepas kepemilikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pisahkan tiga tahap. Baca hak saat instrumen dibeli, syarat ketika konversi dilakukan, lalu cara melepas saham setelah konversi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika konversi belum terjadi, gunakan hak dan kewajiban dalam instrumen untuk membaca kasus. Jika saham telah diterbitkan dan kemudian dijual, penjualannya disebut divestasi. Pelunasan pembiayaan berkaitan dengan penyelesaian kewajiban pembayaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel Rangkuman"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Situasi",
+                "Tindakan yang Tepat",
+                "Kesalahan yang Dihindari"
+              ],
+              "baris": [
+                [
+                  "PMV memperoleh saham",
+                  "Identifikasi penyertaan dan perubahan porsi kepemilikan.",
+                  "Menganggap penyertaan sebagai cicilan utang."
+                ],
+                [
+                  "Instrumen dapat dikonversi",
+                  "Periksa pemicu dan syarat konversi.",
+                  "Menganggap saham sudah dimiliki saat instrumen dibeli."
+                ],
+                [
+                  "Usaha menerima pembiayaan",
+                  "Periksa perjanjian, pembayaran, dan kemampuan membayar.",
+                  "Menyimpulkan pembiayaan selalu memberi saham."
+                ],
+                [
+                  "PMV menjual saham pasangan usaha",
+                  "Identifikasi divestasi dan bandingkan harga jual dengan harga perolehan.",
+                  "Menyamakan divestasi dengan pelunasan pembiayaan."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Lihat hak yang diterima PMV. Saham menunjukkan penyertaan. Hak pembayaran menunjukkan pembiayaan sesuai perjanjian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Jika ada kata konversi, pisahkan hak sebelum dan sesudah konversi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Bedakan fokus VCC dan VDC dari instrumen dalam kasus. Cek kegiatan utama dan kontrak yang digunakan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Penyertaan saham",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan modal ventura menyuntikkan dana dan memperoleh 20 dari 100 saham setelah penerbitan. Bentuk transaksi dan porsi kepemilikannya adalah apa?"
+            }
+          ],
+          "opsi": {
+            "A": "Pembiayaan dengan porsi 20%",
+            "B": "Penjaminan dengan porsi 80%",
+            "C": "Penyertaan saham dengan porsi 20%",
+            "D": "Penyertaan saham dengan porsi 80%",
+            "E": "Divestasi dengan porsi 20%"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan modal ventura memperoleh saham. Porsinya adalah 20 saham dibagi 100 saham, yaitu 20%."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari hak yang diperoleh dan gunakan jumlah saham setelah penerbitan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pelepasan saham",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan modal ventura (PMV) menjual saham pasangan usaha yang dimilikinya kepada investor lain. Apa istilah untuk tindakan tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "Konversi",
+            "B": "Kafalah",
+            "C": "Penjaminan ulang",
+            "D": "Pelunasan pembiayaan",
+            "E": "Divestasi"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penjualan tersebut merupakan divestasi karena PMV melepas kepemilikannya di perusahaan pasangan usaha dengan menjual sahamnya kepada investor lain."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa apa yang dilepas. Jika yang dijual adalah saham, istilahnya divestasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Sebelum konversi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "PMV membeli obligasi konversi. Syarat konversi belum terpenuhi. Apa yang menentukan hak PMV saat ini?"
+            }
+          ],
+          "opsi": {
+            "A": "Sertifikat polis",
+            "B": "Ketentuan obligasi konversi",
+            "C": "Persentase saham yang diasumsikan",
+            "D": "Jaminan simpanan",
+            "E": "Jadwal klaim asuransi"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hak saat ini mengikuti ketentuan instrumen. Hak sebagai pemegang saham timbul setelah konversi dilaksanakan sesuai syarat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tentukan tahap transaksi sebelum menilai haknya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dua cara memperoleh dana",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah usaha menerima dana tanpa memberikan saham atau hak konversi. Perjanjian mengatur jadwal pembayaran. Apa yang perlu diperiksa pemilik usaha?"
+            }
+          ],
+          "opsi": {
+            "A": "Nilai klaim polis",
+            "B": "Jadwal pembayaran dan kemampuan kas usaha",
+            "C": "Jumlah saham yang pasti diambil PMV",
+            "D": "Nomor penerima jaminan",
+            "E": "Jadwal divestasi saham yang belum diterbitkan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam skenario ini, fokusnya adalah kewajiban pembayaran dan kemampuan usaha untuk memenuhinya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Baca kewajiban yang tertulis pada perjanjian."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dana Saat Penerbitan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "PMV membayar Rp200 juta untuk memperoleh saham baru PT Pangan Nisa. Siapa yang menerima dana?"
+            }
+          ],
+          "opsi": {
+            "A": "Pendiri secara pribadi",
+            "B": "Investor yang membeli saham saat divestasi",
+            "C": "PT Pangan Nisa",
+            "D": "Bank kustodian sebagai pemilik usaha",
+            "E": "Pembeli produk pangan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan menerbitkan saham baru dan menerima pembayaran sebagai tambahan modal."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari siapa yang menerbitkan saham baru."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dilusi Kepemilikan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nisa memegang 80 saham. Perusahaan menerbitkan 20 saham baru kepada PMV. Bagaimana kepemilikan Nisa setelah penerbitan?"
+            }
+          ],
+          "opsi": {
+            "A": "20 saham dan 20%",
+            "B": "80 saham dan 100%",
+            "C": "100 saham dan 80%",
+            "D": "80 saham dan 80%",
+            "E": "60 saham dan 60%"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nisa tetap memegang 80 saham dari total baru 100 saham. Porsinya menjadi 80%."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bagi saham milik pendiri dengan seluruh saham setelah penerbitan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Arus Uang Saat Divestasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Investor baru membeli 20 saham yang sudah dimiliki PMV seharga Rp300 juta. Apa yang terjadi?"
+            }
+          ],
+          "opsi": {
+            "A": "PMV menerima pembayaran dan investor baru memiliki saham tersebut",
+            "B": "Perusahaan menerbitkan 20 saham tambahan",
+            "C": "Nisa menerima pembayaran sebagai pendiri",
+            "D": "Perusahaan melunasi pinjaman Rp300 juta",
+            "E": "Jumlah saham naik menjadi 120"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembayaran diterima PMV sebagai penjual. Saham berpindah kepada investor baru dan jumlah total saham tetap."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pada penjualan saham lama, ikuti arus uang ke pemegang saham yang menjual."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Risiko Hasil Divestasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "PMV membeli saham seharga Rp200 juta dan kemudian menjualnya seharga Rp150 juta. Berapa hasil sebelum biaya dan pajak?"
+            }
+          ],
+          "opsi": {
+            "A": "Untung Rp50 juta",
+            "B": "Rugi Rp50 juta",
+            "C": "Rugi Rp150 juta",
+            "D": "Untung Rp150 juta",
+            "E": "Impas"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga jual Rp150 juta dikurangi biaya perolehan Rp200 juta menghasilkan selisih negatif Rp50 juta."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kurangi harga jual dengan biaya perolehan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Perusahaan Modal Ventura",
+        "teks": ""
+      }
+    ],
+    "pesan": "Untuk memahami transaksi modal ventura, lihat hak yang diperoleh pemberi dana dan kapan hak itu berlaku. Penyertaan saham memberi Perusahaan Modal Ventura (PMV) bagian kepemilikan. Pada pembiayaan, hak pembayaran mengikuti perjanjian. Jika PMV membeli instrumen yang dapat dikonversi menjadi saham, periksa syarat dan waktu pelaksanaan konversinya. Dalam kasus PT Pangan Nisa, penerbitan saham baru menambah modal perusahaan sekaligus mengubah persentase kepemilikan. Investasi Rp200 juta untuk porsi 20% mencerminkan valuasi Rp800 juta sebelum investasi dan Rp1 miliar setelah investasi, sesuai asumsi kasus. Ketika PMV kemudian menjual saham yang sudah dimilikinya, pembayaran diterima oleh PMV sebagai penjual. Rencana divestasi perlu dipertimbangkan sejak awal. Jika usaha melemah, harga saham bisa turun. Jika pembeli sulit ditemukan, PMV mungkin perlu menunggu lebih lama untuk memperoleh dana dari penjualan. Karena itu, PMV perlu memantau kinerja pasangan usaha, menyiapkan jalur divestasi, serta menjaga modal dan kas sesuai risiko yang dihadapi."
+  }
+}

@@ -8,13 +8,14 @@
 <style>
 @font-face { font-family: "Poppins"; src: url("font/Poppins-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Poppins"; src: url("font/Poppins-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
-/* Palet JadiASN (ICON Aplikasi generator, catalog/brands.json):
-   navy #052C5F, biru #3D6E99, biru muda #4C8FC1, kuning #E8B41E, emas tua #876000, terang #F9F3F1 */
+/* Warna bawaan: palet JadiASN (ICON Aplikasi generator, catalog/brands.json). tema.css (dibuat
+   generator/buat_situs.py dari generator/palet.py) menimpanya sesuai platform situs ini. */
 :root {
-  --navy: #052C5F; --biru: #3D6E99; --kuning: #E8B41E; --kuning-muda: #F8E8BB;
+  --header: #052C5F; --header-aksen: #E8B41E; --header-redup: #C9D6E6;
+  --kuning: #E8B41E; --kuning-teks: #052C5F;
   --bg: #F3F6FA; --kartu: #FFFFFF; --teks: #0E2440; --redup: #46597A; --samar: #7D8CA3; --garis: #DDE4EE;
   --sorot: #E8EFF7; --aksen: #052C5F; --aksen-teks: #FFFFFF; --fokus: #3D6E99; --pilih: #3D6E99;
-  --pdf-bg: #E8B41E; --pdf-teks: #052C5F;
+  --pdf-bg: #E8B41E; --pdf-teks: #052C5F; --pdf-garis: #E8B41E;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -35,14 +36,14 @@ body { margin: 0; background: var(--bg); color: var(--teks); font: 400 14px/1.55
 a { color: inherit; }
 :focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; }
 
-.atas { background: #052C5F; color: #fff; }
+.atas { background: var(--header); color: #fff; }
 .atas-isi { max-width: 1240px; margin: 0 auto; padding: 22px 16px 26px; }
 .merek { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 13px; letter-spacing: .04em;
-  text-transform: uppercase; color: #E8B41E; }
-.merek i { width: 22px; height: 22px; border-radius: 50%; background: #E8B41E; position: relative; display: inline-block; }
-.merek i::after { content: ""; position: absolute; inset: 6px; border-radius: 50%; background: #052C5F; }
+  text-transform: uppercase; color: var(--header-aksen); }
+.merek i { width: 22px; height: 22px; border-radius: 50%; background: var(--header-aksen); position: relative; display: inline-block; }
+.merek i::after { content: ""; position: absolute; inset: 6px; border-radius: 50%; background: var(--header); }
 h1 { margin: 10px 0 4px; font-size: 30px; line-height: 1.2; }
-.atas p { margin: 0; color: #C9D6E6; max-width: 70ch; }
+.atas p { margin: 0; color: var(--header-redup); max-width: 70ch; }
 
 main { max-width: 1240px; margin: 0 auto; padding: 0 16px 56px; }
 .alat { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 16px 0 12px; display: grid; gap: 12px; }
@@ -62,7 +63,7 @@ input[type=search] { flex: 1 1 260px; min-width: 0; border: 1px solid var(--gari
 .kelompok-saring { display: flex; gap: 6px; flex-wrap: wrap; }
 .kelompok-saring button { border: 1px solid var(--garis); background: var(--kartu); color: var(--redup); border-radius: 999px;
   padding: 5px 12px; font: 700 12px/1.4 "Poppins", sans-serif; cursor: pointer; }
-.kelompok-saring button[aria-pressed="true"] { background: var(--kuning); border-color: var(--kuning); color: #052C5F; }
+.kelompok-saring button[aria-pressed="true"] { background: var(--kuning); border-color: var(--kuning); color: var(--kuning-teks); }
 
 h2 { font-size: 18px; margin: 26px 0 12px; display: flex; align-items: center; gap: 10px; }
 h2 span { font-size: 12px; font-weight: 700; color: var(--redup); background: var(--sorot); border-radius: 999px; padding: 2px 10px; }
@@ -78,15 +79,16 @@ h2 span { font-size: 12px; font-weight: 700; color: var(--redup); background: va
   padding: 8px 6px; font-weight: 700; font-size: 13px; line-height: 1.25; border: 1px solid transparent; }
 .tombol small { font-weight: 400; font-size: 11px; opacity: .8; }
 .tombol.pptx { background: var(--aksen); color: var(--aksen-teks); }
-.tombol.pdf { background: var(--pdf-bg); color: var(--pdf-teks); border-color: #E8B41E; }
+.tombol.pdf { background: var(--pdf-bg); color: var(--pdf-teks); border-color: var(--pdf-garis); }
 .tombol[aria-disabled="true"] { opacity: .45; pointer-events: none; }
 .kosong { padding: 40px 0; text-align: center; color: var(--redup); }
 footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12px; color: var(--samar); }
 </style>
+<link rel="stylesheet" href="tema.css">
 </head>
 <body>
 <header class="atas"><div class="atas-isi">
-  <div class="merek"><i aria-hidden="true"></i>Cerebrum · Materi SKD</div>
+  <div class="merek"><i aria-hidden="true"></i><span id="merek">Cerebrum · Materi SKD</span></div>
   <h1 id="judul">Materi TIU Verbal</h1>
   <p id="ringkas">Unduh materi dalam PPTX atau PDF.</p>
 </div></header>
@@ -115,7 +117,8 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
 
   let tema = D.tema.some((t) => t.id === baca("situs.tema")) ? baca("situs.tema") : D.tema[0].id;
   let kelompok = "";
-  $("judul").textContent = D.judul;
+  $("judul").textContent = D.judul; document.title = D.judul;
+  if (D.merek) $("merek").textContent = D.merek;
   const satuTema = D.tema.length < 2;
   $("ringkas").textContent = satuTema
     ? `${D.materi.length} materi, siap diunduh dalam PPTX atau PDF.`

@@ -172,9 +172,57 @@ def baca_docx(path):
 
 
 # ------------------------------------------------------------- susun ---
+CATATAN_PENULIS = re.compile(r"\s*\[\s*(?:WAJIB|PENGAYAAN|SEMUA|Sertakan)[^\]]*\]", re.I)  # mis. [WAJIB PPT]
+_KATA_KECIL = {"dan", "atau", "di", "ke", "dari", "yang", "untuk", "pada", "dengan", "dalam", "vs"}
+
+
+def _rapikan_kapital(t):
+    """Judul huruf besar semua ('3.1 PERUSAHAAN MODAL VENTURA') -> huruf judul; singkatan pendek tetap."""
+    huruf = re.sub(r"[^A-Za-z]", "", t)
+    if len(huruf) < 6 or not huruf.isupper():
+        return t
+    return " ".join(w.lower() if w.lower() in _KATA_KECIL else
+                    (w.capitalize() if len(re.sub(r"[^A-Za-z]", "", w)) > 3 else w) for w in t.split())
+
+
 def _bersih(judul):
-    t = judul.replace("**", "").strip()
-    return re.sub(r"^\d+[.)]?\s+", "", t).strip()
+    """Judul tanpa markup, catatan penulis, dan nomor ('3.1', '2.', 'B.')."""
+    t = CATATAN_PENULIS.sub("", judul.replace("**", "")).strip()
+    t = re.sub(r"^(?:\d+(?:\.\d+)+\.?|\d+[.)]?|[A-H][.)])\s+", "", t).strip()
+    return _rapikan_kapital(t)
+
+
+def _kunci_bagian(nama):
+    """Nama bagian Heading 1 untuk dicocokkan: '1. PENDAHULUAN', 'A. Pendahuluan [WAJIB PPT]' -> 'pendahuluan'."""
+    return _bersih(nama).lower().strip(" :")
+
+
+POLA_BAGIAN = re.compile(r"^[A-H]\.\s+(pendahuluan|tujuan pembelajaran|materi pembelajaran|strategi|contoh soal|"
+                         r"pola soal|kesalahan umum|penutup)\b", re.I)
+
+
+def _rapikan_elemen(elemen):
+    """Perbaiki gaya yang keliru di dokumen sebelum disusun.
+
+    - judul bagian yang ditulis sebagai paragraf biasa ('E. Contoh Soal [...]') -> Heading 1
+    - Heading 2/3 yang sebenarnya kalimat panjang -> paragraf
+    - catatan penulis ([WAJIB PPT], [PENGAYAAN], [Sertakan gambar pada slide]) dibuang
+    """
+    hasil = []
+    for el in elemen:
+        if "polos" not in el:
+            hasil.append(el)
+            continue
+        el = dict(el, teks=CATATAN_PENULIS.sub("", el["teks"]).strip(), polos=CATATAN_PENULIS.sub("", el["polos"]).strip())
+        j, polos = el["jenis"], el["polos"]
+        if j == "paragraf" and not polos:
+            continue
+        if j == "paragraf" and len(polos) <= 70 and POLA_BAGIAN.match(polos):
+            el["jenis"] = "h1"
+        elif j in ("h2", "h3") and (len(polos) > 100 or (polos.endswith(".") and len(polos.split()) > 12)):
+            el["jenis"] = "paragraf"
+        hasil.append(el)
+    return hasil
 
 
 def _kalimat_pertama(teks):
@@ -228,10 +276,13 @@ class Penyusun:
                 blok.append({"jenis": "subjudul", "teks": _bersih(el["teks"])})
             else:
                 t, polos = el["teks"], el["polos"]
+                m_cepat = re.match(r"^cara cepat\s*[:.]\s*(.+)$", polos, re.I)
                 if re.fullmatch(r"cara cepat:?", polos.lower()) and i + 1 < len(elemen) and elemen[i + 1]["jenis"] == "paragraf":
                     blok.append({"jenis": "catatan", "catatan": "tips", "judul": "Cara cepat",
                                  "teks": elemen[i + 1]["teks"]})
                     i += 1
+                elif m_cepat:  # 'Cara cepat. Ikuti siapa ...' dalam satu paragraf
+                    blok.append({"jenis": "catatan", "catatan": "tips", "judul": "Cara cepat", "teks": m_cepat.group(1)})
                 elif el["daftar"] or re.match(r"^[•▪●◦\-–]\s+", polos):
                     butir = re.sub(r"^(\*\*)?[•▪●◦\-–]\s+", r"\1", t)
                     if blok and blok[-1]["jenis"] == "poin":
@@ -271,12 +322,23 @@ def _bagi_bagian(elemen):
     return judul, subjudul, bagian
 
 
+POLA_JUDUL_SOAL = re.compile(r"^(contoh\s+)?soal\s*\d+", re.I)
+# 'Jawaban: B', 'Jawaban C. Penyelenggara', 'Jawaban pada PPT: B'; bukan 'Jawaban: E5.' atau 'Jawaban: Selasa'
+POLA_KUNCI = re.compile(r"^(?i:jawaban)\b(?:[^:]{0,20}:)?\s*\(?([A-E])\)?(?=$|[.),;\s])")
+
+
 def _soal(penyusun, elemen):
-    """Bagian 'Contoh Soal dan Pembahasan' -> daftar slide contoh_soal."""
+    """Bagian 'Contoh Soal dan Pembahasan' -> daftar slide contoh_soal.
+
+    Soal dimulai di heading 'Soal 1'/'Contoh Soal 1'. Bila tidak ada heading seperti itu, setiap
+    Heading 2 memulai soal baru ('4.1 Mengenali platform', 'Contoh 2 ...').
+    """
     hasil, label, kini, mode = [], None, None, None
+    per_judul = any(e["jenis"] in ("h2", "h3") and POLA_JUDUL_SOAL.match(_bersih(e.get("polos", ""))) for e in elemen)
     for el in elemen:
         j, polos = el["jenis"], el.get("polos", "")
-        if j in ("h2", "h3") and re.match(r"^soal\s*\d+", polos, re.I):
+        mulai = (POLA_JUDUL_SOAL.match(_bersih(polos)) if per_judul else j == "h2") and j in ("h2", "h3")
+        if mulai and polos:
             kini = {"tipe": "contoh_soal", "judul": _bersih(el["teks"]), "soal": [], "opsi": {}, "kunci": "",
                     "pembahasan": []}
             if label:
@@ -284,18 +346,28 @@ def _soal(penyusun, elemen):
             hasil.append(kini)
             mode = "soal"
             continue
-        if j in ("h2", "h3"):
+        if j in ("h2", "h3") and not polos:
+            continue
+        if j in ("h2", "h3") and kini is not None and re.fullmatch(r"pembahasan\s*:?", polos, re.I):
+            mode = "bahas"
+            continue
+        if j in ("h2", "h3") and (kini is None or per_judul and j == "h2"):
             label = _bersih(el["teks"])
             continue
         if kini is None:
             continue
-        m_jawab = re.match(r"^jawaban\b[^:]{0,20}:?\s*\(?([A-E])\)?\.?$", polos, re.I)
-        if mode in ("soal", "opsi") and m_jawab:
+        m_jawab = POLA_KUNCI.match(polos)
+        if m_jawab and (mode in ("soal", "opsi") or not kini["kunci"]):
             kini["kunci"] = m_jawab.group(1).upper()
             mode = "kunci"
             continue
-        if re.fullmatch(r"pembahasan\s*:?", polos, re.I):
+        if mode in ("soal", "opsi") and re.match(r"^jawaban\b", polos, re.I):
+            mode = "bahas"  # jawaban berupa uraian (bukan huruf opsi): bagian dari pembahasan
+        m_bahas = re.match(r"^pembahasan\s*[:.]?\s*(.*)$", polos, re.I)
+        if m_bahas and j == "paragraf":
             mode = "bahas"
+            if m_bahas.group(1):  # 'Pembahasan: Penyelenggara mengelola ...'
+                kini["pembahasan"].append(dict(el, teks=m_bahas.group(1), polos=m_bahas.group(1), tebal=False))
             continue
         m_opsi = re.match(r"^\(?([A-E])[.)]\s+(.*)$", polos) if j == "paragraf" else None
         if mode in ("soal", "opsi") and m_opsi and (m_opsi.group(1) == "A" or mode == "opsi"):
@@ -310,14 +382,20 @@ def _soal(penyusun, elemen):
     return hasil
 
 
-def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, subtes=SUBTES_TIU):
+LEWATI_BAGIAN = ("sumber", "referensi", "daftar pustaka", "daftar rujukan", "kata pengantar", "capaian pembelajaran",
+                 "pemetaan referensi")
+
+
+def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, subtes=SUBTES_TIU, peta=None,
+          judul=None):
+    """peta: peta subtes (bawaan PETA_TIU); judul: judul materi bila dokumen tidak memakai gaya Title."""
     penyusun = Penyusun(folder_naskah, slug)
-    judul, subjudul, bagian = _bagi_bagian(elemen)
-    judul_bersih = re.sub(r"^\d{2}\s+", "", judul).strip() or slug  # buang nomor urut "01 "
+    judul_dok, subjudul, bagian = _bagi_bagian(_rapikan_elemen(elemen))
+    judul_bersih = judul or re.sub(r"^\d{2}\s+", "", judul_dok).strip() or slug  # buang nomor urut "01 "
     naskah = {
         "meta": {"judul": judul_bersih, "subtes": subtes,
                  "nama_file": nama_file or f"TIU - {judul_bersih}", "sumber": sumber},
-        "peta_subtes": dict(PETA_TIU, aktif=kelompok),
+        "peta_subtes": dict(peta or PETA_TIU, aktif=kelompok),
         "pendahuluan": {"paragraf": [], "pemantik": "", "ikon": "presenter"},
         "tujuan": {"pengantar": "Setelah mempelajari materi ini, peserta mampu:", "butir": []},
         "materi": [],
@@ -353,7 +431,15 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
             naskah["materi"].append({"subbab": nama, "ikon": ikon, "slide": slides})
 
     for nama, isi in bagian:
-        kunci = nama.lower().strip(" :")
+        kunci = _kunci_bagian(nama)
+        if kunci in ("tujuan", "tujuan pembelajaran"):
+            kunci = "tujuan pembelajaran"
+        elif kunci == "materi pembelajaran":
+            kunci = "materi"
+        elif kunci.startswith("penutup"):
+            kunci = "penutup"
+        if kunci.startswith(LEWATI_BAGIAN):
+            continue
         if kunci == "pendahuluan":
             blok = penyusun.blok_dari(isi)
             naskah["pendahuluan"]["paragraf"] = [b["teks"] for b in blok if b["jenis"] == "paragraf"]
@@ -362,9 +448,10 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
                 naskah["pendahuluan"]["gambar"] = gambar[0]["file"]
         elif kunci == "tujuan pembelajaran":
             for el in isi:
-                if el["jenis"] != "paragraf" or not el["polos"]:
-                    continue
+                if el["jenis"] != "paragraf" or not el["polos"] or el["polos"].endswith(":"):
+                    continue  # kalimat pengantar 'Setelah mempelajari materi ini, peserta mampu:'
                 t = re.sub(r"^(\*\*)?[•▪●◦\-–]\s+", r"\1", el["teks"]).replace("**", "")
+                t = re.sub(r"^\d+[.)]\s+", "", t)
                 kko, _, sisa = t.partition(" ")
                 naskah["tujuan"]["butir"].append({"level": "", "kko": kko, "teks": sisa})
         elif kunci == "materi":

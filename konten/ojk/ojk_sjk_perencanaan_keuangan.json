@@ -1,0 +1,754 @@
+{
+  "meta": {
+    "judul": "Perencanaan Keuangan",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Perencanaan Keuangan",
+    "sumber": "https://docs.google.com/document/d/1qO5uAshmGEH2y1UcCPYhjg9Efmv5D86zEoNb_b_z_0M/edit",
+    "id_katalog": "sjk-02"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Perencanaan keuangan membantu individu mengarahkan pemasukan dan aset untuk memenuhi kebutuhan saat ini sekaligus tujuan masa depan. Keputusan yang sehat tidak cukup dinilai dari besarnya pendapatan, tetapi perlu mempertimbangkan arus kas, kewajiban, risiko, dan waktu kebutuhan.",
+      "Pembelajaran dimulai dari membedakan kebutuhan dan keinginan, menentukan tujuan, lalu menyusun anggaran. Selanjutnya peserta mempelajari dana darurat, pengelolaan utang, proteksi, serta pemilihan instrumen yang sesuai dengan kebutuhan dan profil risiko.",
+      "Pada soal seleksi, konsep ini dapat diterapkan dalam perhitungan surplus-defisit, kekayaan bersih, dana darurat, dan proyeksi sederhana, serta penilaian keputusan keuangan berbasis kasus."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "tujuan dan manfaat perencanaan keuangan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "kebutuhan, keinginan, dan skala prioritas."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "tahapan penyusunan serta evaluasi rencana keuangan."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "pemasukan, pengeluaran, surplus, dan defisit."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "aset, kewajiban, dan kekayaan bersih."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "target dana darurat berdasarkan asumsi kebutuhan."
+      },
+      {
+        "level": "",
+        "kko": "Menilai",
+        "teks": "utang, cicilan, dan kemampuan membayar secara proporsional."
+      },
+      {
+        "level": "",
+        "kko": "Menyesuaikan",
+        "teks": "perlindungan dan investasi dengan tujuan dan profil risiko."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "studi kasus dan soal perencanaan keuangan dengan alasan terukur."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Perencanaan Keuangan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perencanaan Keuangan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian dan Pentingnya Perencanaan Keuangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perencanaan keuangan adalah proses merumuskan tujuan hidup dan kebutuhan dana, memeriksa kondisi keuangan saat ini, memilih langkah yang layak, melaksanakan, serta mengevaluasi kemajuannya. Buku Seri Literasi Keuangan OJK menempatkan perencanaan sebagai proses yang lebih luas daripada sekadar mencatat uang masuk dan keluar setiap bulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tujuan keuangan berbeda antara individu dan berubah menurut tahap kehidupan. Contoh tujuan jangka dekat adalah membayar biaya kursus atau perbaikan alat kerja; jangka menengah dapat berupa pendidikan lanjutan; jangka panjang dapat berupa rumah atau masa pensiun. Setiap tujuan harus dikaitkan dengan nominal, tenggat, prioritas, dan kemampuan menyisihkan dana."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perencanaan yang baik bukan berarti setiap pengeluaran harus dihemat tanpa pengecualian. Keputusan dibuat dengan mempertimbangkan kebutuhan penting, risiko, keamanan finansial, dan pilihan hidup. Disiplin keuangan membantu menghadapi perubahan kondisi seperti hilangnya pendapatan atau kebutuhan kesehatan yang tak terduga."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kebutuhan, Keinginan, dan Skala Prioritas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kebutuhan adalah sesuatu yang penting untuk keberlangsungan fungsi hidup, keselamatan, kesehatan, dan kewajiban dasar. Keinginan merupakan pilihan tambahan yang dapat meningkatkan kenyamanan atau kepuasan. Kategori keduanya tidak selalu permanen: akses internet dapat menjadi kebutuhan untuk pekerjaan atau pembelajaran, tetapi paket yang jauh lebih mahal dari kebutuhan dasar belum tentu prioritas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi yang praktis adalah menilai urgensi, konsekuensi penundaan, keterjangkauan, dan kemungkinan alternatif. Setelah memenuhi kebutuhan esensial serta kewajiban kontraktual, alokasikan dana untuk cadangan dan tujuan yang ditetapkan; pengeluaran diskresioner menyesuaikan sisa kemampuan. Keputusan ini dapat ditulis dalam tabel kebutuhan wajib, prioritas penting, dan pengeluaran pilihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya seseorang memiliki uang Rp1.500.000 untuk satu bulan, dengan kebutuhan transportasi Rp300.000, makan Rp700.000, alat studi Rp200.000, dan hiburan Rp450.000. Total seluruhnya Rp1.650.000. Kesenjangan Rp150.000 tidak dapat diselesaikan hanya dengan menyebut semua pos sebagai ‘penting’; diperlukan perubahan nilai atau prioritas salah satu pos."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tahapan Penyusunan Rencana Keuangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rujukan OJK merinci proses: menentukan tujuan keuangan, memeriksa keadaan keuangan, mengumpulkan informasi yang relevan, menyusun rencana serta melaksanakan dan meninjaunya kembali. Urutan ini berguna karena keputusan produk tidak boleh diambil sebelum kebutuhan dan kapasitas diketahui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tahap pertama, tuliskan sasaran spesifik. Tahap kedua, hitung pemasukan yang cukup pasti, pengeluaran rutin, aset yang bisa digunakan, kewajiban, serta cadangan. Tahap ketiga, pahami biaya, pajak, risiko, jangka waktu, likuiditas, dan karakteristik produk yang mungkin dipilih. Tahap keempat, tentukan jumlah tabungan, jadwal pelaksanaan, indikator keberhasilan, dan waktu evaluasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rencana harus diperbarui bila pendapatan turun, muncul kewajiban baru, atau horizon tujuan berubah. Sebaliknya, terlalu sering mengganti instrumen hanya karena informasi tren harian dapat mengganggu disiplin tujuan jangka panjang. Prinsipnya adalah menyesuaikan strategi terhadap perubahan kebutuhan yang nyata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Arus Kas, Pendapatan, dan Pengeluaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Arus kas pribadi dalam periode tertentu dapat dihitung sebagai total pemasukan dikurangi total pengeluaran. Jika hasil positif, terdapat surplus yang berpotensi dialokasikan untuk cadangan dan tujuan; jika negatif, pengeluaran melebihi pemasukan dan perlu dianalisis. Namun surplus arus kas satu bulan belum tentu menandakan posisi keuangan aman jika kewajiban atau dana darurat diabaikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pisahkan pemasukan tetap, tidak tetap, dan pemasukan insidental; jangan menganggap bonus yang belum pasti sebagai uang yang sudah tersedia. Kelompokkan pengeluaran menurut biaya pokok, kewajiban pinjaman, dan diskresioner. Pada pencatatan, jangan menghitung pemindahan uang antarrekening sendiri sebagai pendapatan baru karena hal itu akan membuat kondisi tampak lebih baik daripada kenyataan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: pendapatan Rp6.000.000, biaya hidup Rp3.100.000, cicilan Rp1.200.000, dan biaya lain Rp900.000. Surplus = Rp6.000.000 − Rp5.200.000 = Rp800.000. Jika seseorang menargetkan menabung Rp1.500.000 tanpa menyesuaikan pos lain, rencana tersebut tidak feasible pada data saat ini."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menyusun Anggaran yang Realistis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Anggaran mengalokasikan perkiraan pemasukan ke berbagai kebutuhan dan tujuan sebelum pengeluaran terjadi. Tidak ada satu persentase universal yang wajib digunakan semua orang. Aturan populer seperti 50/30/20 dapat menjadi alat diskusi, tetapi harus menyesuaikan penghasilan, biaya hidup, tanggungan, prioritas, dan kewajiban nyata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Metode sederhana: catat pendapatan konservatif; identifikasi kebutuhan dan kewajiban paling mendesak; tentukan setoran tabungan atau dana darurat yang realistis; baru sisakan anggaran pilihan. Sisihkan margin untuk pengeluaran tidak rutin seperti biaya sekolah semesteran atau pemeliharaan alat. Anggaran yang terlihat seimbang tetapi melupakan biaya tahunan dapat menghasilkan defisit saat tagihan jatuh tempo."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai contoh, jika pendapatan Rp5.000.000, kebutuhan pokok Rp2.700.000, cicilan Rp800.000, dana cadangan Rp500.000, dan pilihan Rp700.000, masih ada Rp300.000 sebagai buffer. Pencatatan aktual kemudian menentukan apakah proyeksi itu realistis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Neraca Keuangan: Aset, Kewajiban, dan Kekayaan Bersih"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Neraca keuangan pribadi adalah potret pada tanggal tertentu, berbeda dengan arus kas yang meliputi suatu periode. Aset mencakup kas, tabungan, investasi, dan barang bernilai ekonomis yang relevan. Kewajiban adalah utang atau beban yang harus dibayar. Kekayaan bersih (net worth) dihitung sebagai aset dikurangi kewajiban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: tabungan Rp15.000.000, investasi Rp10.000.000, kendaraan bernilai wajar Rp25.000.000, dan sisa utang Rp18.000.000. Total aset Rp50.000.000, kewajiban Rp18.000.000, sehingga kekayaan bersih Rp32.000.000. Kendaraan tetap merupakan aset, namun tidak selikuid kas. Karena itu, nilai kekayaan bersih tinggi tidak selalu berarti tersedia uang tunai untuk kebutuhan mendadak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cek pula apakah angka aset memakai nilai realistis saat ini atau hanya harga beli awal. Beberapa aset dapat turun nilainya. Keputusan belanja dan investasi sebaiknya mempertimbangkan baik arus kas maupun likuiditas neraca."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Dana Darurat dan Likuiditas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dana darurat menyediakan cadangan yang dapat diakses saat terjadi kejadian tidak terduga, seperti kebutuhan mendesak atau gangguan pendapatan. Besar target berbeda menurut stabilitas pekerjaan, jumlah tanggungan, pengeluaran esensial, dan perlindungan lain yang dimiliki. Contoh edukatif sering memakai kelipatan pengeluaran pokok bulanan; besaran tersebut sebaiknya dipahami sebagai ilustrasi perencanaan, bukan angka wajib untuk semua situasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya kebutuhan esensial Rp3.000.000 per bulan dan sasaran cadangan enam bulan, maka target = 6 × Rp3.000.000 = Rp18.000.000. Jika dana sudah tersedia Rp7.000.000, masih diperlukan Rp11.000.000. Bila menabung Rp1.000.000 per bulan tanpa mempertimbangkan hasil bunga atau perubahan biaya, target tercapai dalam sebelas bulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Instrumen dana darurat dipilih atas dasar akses cepat, keamanan yang relevan, dan risiko rendah, bukan mengejar imbal hasil maksimum. Memasukkan seluruhnya ke instrumen yang sulit dijual atau harganya sangat berfluktuasi justru bertentangan dengan fungsi cadangan darurat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Utang, Cicilan, dan Kapasitas Membayar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Utang dapat mendukung tujuan produktif, tetapi menimbulkan kewajiban arus kas. Sebelum meminjam, pahami pokok, bunga atau imbalan, biaya administrasi, total pembayaran, waktu jatuh tempo, penalti, agunan, serta konsekuensi gagal bayar. Kemampuan membayar harus dihitung dari pendapatan yang dapat diandalkan setelah kebutuhan esensial dipenuhi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rasio cicilan terhadap pendapatan dapat digunakan sebagai indikator sederhana: total cicilan per bulan dibagi pendapatan bulanan, lalu dikalikan 100%. Contoh cicilan Rp1.500.000 dari pendapatan Rp6.000.000 menghasilkan 25%. Angka ini bukan bukti tunggal utang aman karena seseorang masih dapat kesulitan jika pengeluaran pokoknya sangat tinggi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lakukan skenario apabila pendapatan turun atau pengeluaran naik. Jika anggaran hanya tersisa Rp100.000 setelah semua kewajiban, risiko likuiditas tetap tinggi meskipun rasio cicilan terlihat moderat. Hindari menambah utang untuk membayar utang lain tanpa rencana yang jelas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengelola Risiko dan Proteksi Keuangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Risiko finansial dapat muncul dari kecelakaan, sakit, kerusakan aset, kehilangan pendapatan, dan kewajiban tak terduga. Langkah pengelolaan risiko mencakup menghindari risiko yang tak perlu, mengurangi peluang dan dampaknya, mempertahankan cadangan untuk risiko tertentu, serta mengalihkan sebagian risiko yang memenuhi ketentuan melalui produk asuransi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Asuransi adalah pengaturan perlindungan terhadap risiko tertentu berdasarkan polis dan ketentuan, bukan tabungan yang pasti menghasilkan keuntungan. Perhatikan risiko yang ditanggung, pengecualian, masa tunggu bila ada, batas manfaat, premi, dan prosedur klaim. Polis yang tidak mencakup risiko spesifik tidak dapat diasumsikan akan memberi pembayaran untuk kejadian tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh pilihan: seseorang memiliki kendaraan untuk bekerja tetapi tidak mempunyai dana cadangan jika kendaraan rusak. Mengelola risiko dapat dilakukan dengan perawatan berkala, menyusun cadangan perbaikan, dan mengevaluasi perlindungan yang sesuai. Fokus bukan membeli seluruh produk, melainkan mengidentifikasi kebutuhan dan keterjangkauan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Investasi, Horizon Waktu, dan Profil Risiko"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Investasi menempatkan dana pada instrumen yang memiliki potensi hasil dan risiko. Tingkat risiko berbeda antarinstrumen dan tidak dapat disederhanakan menjadi pasti untung atau pasti rugi. Tujuan investasi, horizon waktu, kebutuhan likuiditas, toleransi kerugian, dan kemampuan keuangan menjadi variabel utama sebelum memilih produk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tujuan jangka dekat yang nominalnya harus tersedia pada tanggal pasti biasanya membutuhkan perhatian tinggi pada likuiditas dan risiko penurunan nilai. Tujuan jangka panjang bisa mempertimbangkan instrumen dengan potensi pertumbuhan lebih besar, namun tetap disertai risiko dan diversifikasi yang rasional. Dana darurat sebaiknya dipisahkan dari dana investasi berisiko tinggi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal, jika seseorang harus membayar biaya pendidikan tiga bulan lagi, instrumen yang mengalami fluktuasi harga besar dapat tidak sesuai sekalipun riwayat keuntungannya tinggi. ‘Legal’ adalah syarat penting, tetapi bukan cukup; produk juga harus ‘sesuai’ kebutuhan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Nilai Waktu Uang, Inflasi, dan Target Menabung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai uang pada waktu berbeda tidak selalu setara karena perubahan harga dan peluang hasil. Inflasi berarti kenaikan tingkat harga secara umum sehingga kebutuhan dana masa depan mungkin lebih besar daripada sekarang. Untuk proyeksi sederhana, kebutuhan masa depan dapat ditulis $FV = PV × (1+i)n$, dengan $i$ sebagai tingkat kenaikan asumsi per periode dan $n$ banyaknya periode."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh biaya tujuan sekarang Rp10.000.000 dan asumsi kenaikan 5% setahun. Setelah dua tahun, proyeksi = Rp10.000.000 × 1,05² = Rp11.025.000. Ini ilustrasi dengan tingkat tetap, bukan ramalan pasti inflasi. Perencanaan perlu memasukkan margin jika biaya sebenarnya dapat berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika target Rp12.000.000 harus tercapai dalam 12 bulan dari saldo nol dan tidak memasukkan bunga, setoran sederhana adalah Rp1.000.000 per bulan. Apabila tersedia saldo awal Rp3.000.000, kebutuhan tambahan Rp9.000.000 sehingga setoran rata-ratanya Rp750.000 per bulan. Angka target mesti dievaluasi terhadap surplus arus kas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Evaluasi Rencana dan Perubahan Kondisi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rencana keuangan bukan dokumen sekali pakai. Evaluasi berkala membandingkan anggaran dengan realisasi, meninjau perkembangan nilai aset serta utang, menilai kecukupan cadangan, dan memperbarui tujuan ketika keadaan berubah. Perbedaan anggaran tidak selalu berarti perilaku buruk; bisa jadi asumsi awal tidak realistis atau kebutuhan esensial meningkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ukuran yang dapat digunakan adalah besar surplus bulanan, jumlah tabungan dibanding target, perkembangan dana darurat, total kewajiban, dan apakah jadwal pembayaran terpenuhi. Hindari menilai kinerja hanya dari satu indikator. Misalnya kenaikan saldo investasi belum tentu sehat bila dicapai melalui penambahan utang yang berlebihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: seseorang menargetkan menabung Rp800.000, tetapi selama tiga bulan hanya mampu Rp500.000 karena biaya transportasi naik. Solusi yang tepat adalah mengkaji pos pengeluaran dan tenggat tujuan, bukan mencatat setoran fiktif. Target mungkin diperpanjang atau disesuaikan secara transparan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rangkuman Model Hitung dan Penerapannya"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Model",
+                "Rumus atau cara",
+                "Kegunaan"
+              ],
+              "baris": [
+                [
+                  "**Arus kas bersih**",
+                  "$Pendapatan − pengeluaran$",
+                  "Menilai surplus/defisit periode"
+                ],
+                [
+                  "**Kekayaan bersih**",
+                  "$Total aset − total kewajiban$",
+                  "Mengukur posisi pada suatu tanggal"
+                ],
+                [
+                  "**Rasio cicilan**",
+                  "$Cicilan ÷ pendapatan × 100%$",
+                  "Indikator beban utang"
+                ],
+                [
+                  "**Target cadangan**",
+                  "$Biaya esensial bulanan$ $×$ $jumlah bulan target$",
+                  "Merencanakan dana darurat"
+                ],
+                [
+                  "**Kekurangan target**",
+                  "$Target − saldo terkumpul$",
+                  "Menentukan sisa dana"
+                ],
+                [
+                  "**Setoran periodik sederhana**",
+                  "$Kekurangan target$ $÷$ $jumlah periode$",
+                  "Asumsi tanpa hasil investasi dan tanpa perubahan target"
+                ],
+                [
+                  "**Proyeksi biaya masa depan**",
+                  "$FV = PV × (1+i)n$",
+                  "Asumsi inflasi tetap, bukan prediksi pasti"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kebutuhan dan Keinginan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seseorang memiliki dana terbatas, harus membayar transportasi kerja, dan ingin membeli aksesori mahal yang tidak mendesak. Prioritas paling rasional adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Membeli aksesori sesuai keinginan.",
+            "B": "Menunda pembayaran transportasi kerja.",
+            "C": "Mendahulukan biaya transportasi kerja.",
+            "D": "Menggunakan pinjaman untuk membeli aksesori.",
+            "E": "Membagi dana secara merata untuk keduanya."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Transportasi kerja termasuk kebutuhan yang perlu diprioritaskan karena menunjang aktivitas pekerjaan dan penghasilan. Sementara itu, aksesori mahal merupakan keinginan yang dapat ditunda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika dana terbatas, keputusan keuangan yang rasional adalah mendahulukan pengeluaran penting sebelum mempertimbangkan pengeluaran yang tidak mendesak."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Dahulukan kebutuhan yang menunjang aktivitas dan penghasilan, kemudian pertimbangkan keinginan berdasarkan sisa dana."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Tahap Perencanaan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah pertama sebelum memilih instrumen untuk biaya pendidikan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Mengikuti produk viral",
+            "B": "Menentukan tujuan, nominal, dan tenggat",
+            "C": "Memilih return tertinggi",
+            "D": "Meminjam dahulu",
+            "E": "Menunda semua pencatatan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Instrumen harus dipilih berdasarkan kebutuhan dan kondisi; tujuan dan horizon ditetapkan lebih dahulu."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tujuan mendahului produk."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Arus Kas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pendapatan bulanan Rp6.500.000, pengeluaran pokok Rp3.200.000, cicilan Rp1.100.000, dan pengeluaran lain Rp1.300.000. Arus kas bersih sebesar ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp700.000",
+            "B": "Rp800.000",
+            "C": "Rp900.000",
+            "D": "Rp1.000.000",
+            "E": "Rp1.100.000"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Total pengeluaran = Rp3.200.000 + Rp1.100.000 + Rp1.300.000 = Rp5.600.000. Surplus = Rp6.500.000 − Rp5.600.000 = Rp900.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jumlahkan semua pengeluaran dahulu."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Neraca Pribadi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Aset berupa kas Rp8 juta, investasi Rp12 juta, dan kendaraan Rp20 juta; total kewajiban Rp15 juta. Kekayaan bersih adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp15 juta",
+            "B": "Rp20 juta",
+            "C": "Rp25 juta",
+            "D": "Rp35 juta",
+            "E": "Rp55 juta"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Total aset Rp40 juta. Kekayaan bersih = Rp40 juta − Rp15 juta = Rp25 juta. Kendaraan tidak sama likuidnya dengan kas."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Net worth = aset − utang."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dana Darurat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kebutuhan esensial Rp2.500.000 per bulan. Jika target cadangan enam bulan, besarnya target adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp7,5 juta",
+            "B": "Rp10 juta",
+            "C": "Rp12,5 juta",
+            "D": "Rp15 juta",
+            "E": "Rp20 juta"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Target ilustratif = 6 × Rp2.500.000 = Rp15.000.000. Enam bulan adalah asumsi soal, bukan angka wajib untuk semua individu."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan biaya esensial, bukan seluruh belanja pilihan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Sisa Dana Darurat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Target dana darurat Rp18 juta; saldo terkumpul Rp7 juta. Jika menabung Rp1 juta per bulan tanpa bunga, waktu yang dibutuhkan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "7 bulan",
+            "B": "9 bulan",
+            "C": "10 bulan",
+            "D": "11 bulan",
+            "E": "18 bulan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kekurangan = Rp18 juta − Rp7 juta = Rp11 juta. Dibagi setoran Rp1 juta per bulan = 11 bulan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung kekurangan, bukan target total."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Rasio Cicilan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Total cicilan Rp1.350.000 dengan pendapatan bulanan Rp5.400.000. Rasio cicilan terhadap pendapatan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "15%",
+            "B": "20%",
+            "C": "25%",
+            "D": "30%",
+            "E": "35%"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rasio = 1.350.000 / 5.400.000 × 100% = 25%. Penilaian aman atau tidak masih memerlukan data kebutuhan dan arus kas."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jangan samakan satu rasio dengan keputusan akhir."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Anggaran Realistis",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seseorang memiliki pendapatan Rp5 juta per bulan dengan pengeluaran kebutuhan pokok Rp2,8 juta, cicilan Rp1 juta, dan pengeluaran lain Rp900 ribu. Jika target tabungannya Rp700 ribu, evaluasi yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Anggaran memiliki surplus Rp700 ribu.",
+            "B": "Target tabungan perlu disesuaikan.",
+            "C": "Anggaran mengalami defisit Rp300 ribu.",
+            "D": "Target tabungan sudah dapat dipenuhi.",
+            "E": "Pengeluaran masih dapat ditambah."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Total pengeluaran:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp2.800.000 + Rp1.000.000 + Rp900.000 = Rp4.700.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sisa pendapatan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp5.000.000 − Rp4.700.000 = Rp300.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Target tabungan sebesar Rp700.000 melebihi sisa pendapatan sebesar Rp400.000. Oleh karena itu, target tabungan perlu disesuaikan atau pengeluaran dikurangi agar target dapat tercapai."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pendapatan − pengeluaran = surplus. Bandingkan surplus dengan target tabungan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Proteksi Risiko",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam memilih produk asuransi, calon pemegang polis perlu membandingkan beberapa informasi sebelum mengambil keputusan. Aspek yang paling penting diperiksa adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Reputasi dan popularitas perusahaan.",
+            "B": "Besaran premi dan promosi produk.",
+            "C": "Cakupan perlindungan dan pengecualian.",
+            "D": "Pengalaman agen dan jumlah nasabah.",
+            "E": "Kemudahan layanan dan lokasi kantor."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Cakupan perlindungan menunjukkan risiko yang dijamin oleh perusahaan asuransi, sedangkan pengecualian menjelaskan risiko atau kondisi yang tidak ditanggung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya menjadi dasar untuk menilai kesesuaian produk dengan kebutuhan calon pemegang polis. Selain itu, premi, batas manfaat, serta syarat klaim tetap perlu diperiksa sebelum membeli produk."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Saat memilih asuransi, periksa terlebih dahulu risiko yang dijamin dan dikecualikan dalam polis."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Profil Risiko dan Horizon",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dana untuk membayar biaya kuliah tiga bulan lagi sebaiknya dipertimbangkan dengan prioritas ..."
+            }
+          ],
+          "opsi": {
+            "A": "Spekulasi berfluktuasi tinggi",
+            "B": "Likuiditas serta risiko penurunan nilai rendah",
+            "C": "Keuntungan maksimum tanpa memikirkan tanggal",
+            "D": "Instrumen yang sedang viral",
+            "E": "Skema tanpa dokumen"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tujuan dekat dengan tenggat pasti memerlukan ketersediaan dana serta pengelolaan risiko harga."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Horizon dekat = perhatikan stabilitas dan akses."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Inflasi dan Target",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Biaya saat ini Rp10 juta diperkirakan naik 5% per tahun selama dua tahun. Nilai proyeksi menjadi ..."
+            }
+          ],
+          "opsi": {
+            "A": "Rp10.500.000",
+            "B": "Rp10.750.000",
+            "C": "Rp11.000.000",
+            "D": "Rp11.025.000",
+            "E": "Rp12.000.000"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Proyeksi FV = 10.000.000 × 1,05² = 11.025.000. Perhitungan menggunakan asumsi pertumbuhan biaya tetap 5% per tahun."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pangkat dua, bukan sekadar 10% bila memakai pertumbuhan majemuk."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Evaluasi Berbasis Data",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seseorang mengalami peningkatan nilai investasi, tetapi jumlah cicilannya bertambah dan dana daruratnya menurun. Kesimpulan yang paling tepat mengenai kondisi keuangannya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Keuangan membaik karena investasi meningkat.",
+            "B": "Keuangan stabil selama cicilan dibayar.",
+            "C": "Kesehatan keuangan perlu dinilai menyeluruh.",
+            "D": "Keuangan aman jika aset terus bertambah.",
+            "E": "Keuangan memburuk karena utang meningkat."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan nilai investasi tidak selalu menunjukkan kondisi keuangan yang sehat. Bertambahnya cicilan dapat meningkatkan beban keuangan, sedangkan menurunnya dana darurat dapat mengurangi kemampuan menghadapi kebutuhan mendadak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, kondisi keuangan harus dievaluasi secara menyeluruh dengan mempertimbangkan arus kas, kewajiban, likuiditas, dan risiko."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jangan menilai kesehatan keuangan hanya dari investasi atau utang. Perhatikan seluruh indikator keuangan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Perencanaan Keuangan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Perencanaan keuangan merupakan proses berkelanjutan yang diawali dengan tujuan yang jelas dan dilaksanakan melalui pencatatan kondisi keuangan, penyusunan prioritas, perencanaan anggaran, serta evaluasi berkala. Arus kas, kekayaan bersih, dana darurat, rasio cicilan, dan ketepatan memilih instrumen merupakan beberapa alat bantu untuk menilai kondisi finansial, bukan rumus tunggal yang berlaku untuk semua orang. Sebagai refleksi, peserta perlu memastikan bahwa setiap keputusan keuangan memiliki tujuan, jangka waktu, besaran dana, risiko, dan asumsi perhitungan yang dapat dijelaskan."
+  }
+}

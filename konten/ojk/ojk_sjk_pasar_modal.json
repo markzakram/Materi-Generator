@@ -1,0 +1,1403 @@
+{
+  "meta": {
+    "judul": "Pasar Modal",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Pasar Modal",
+    "sumber": "https://docs.google.com/document/d/1eVNYPRvT7ROTz5SVWX3oY80Q0bG0gu91/edit",
+    "id_katalog": "sjk-13"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bayangkan dua perusahaan ingin membangun pabrik baru. Perusahaan pertama menerbitkan saham sehingga pihak yang membeli memperoleh porsi kepemilikan. Perusahaan kedua menerbitkan obligasi sehingga investor menyediakan dana berdasarkan hubungan utang sesuai syarat surat utang. Meskipun keduanya dapat memperoleh pendanaan dari pasar modal, hak investor, kewajiban penerbit, dan sumber risiko keduanya tidak sama.",
+      "Konsep pasar modal menjadi penting dalam materi OJK karena pasar modal tidak hanya berhubungan dengan harga saham. Pasar modal juga melibatkan penerbitan efek, pengelolaan investasi, lembaga infrastruktur, profesi penunjang, keterbukaan informasi, serta pengawasan perilaku pelaku usaha. Pemahaman yang benar membantu peserta menilai kasus secara logis, bukan sekadar menghafal singkatan.",
+      "Pasar modal mempertemukan kebutuhan pendanaan dengan investasi, tetapi setiap instrumen memiliki struktur hak, sumber imbal hasil, dan risiko yang berbeda."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menyebutkan",
+        "teks": "unsur kegiatan pasar modal menurut kerangka UU Pasar Modal yang telah diperbarui melalui UU P2SK."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pembeda pasar perdana, pasar sekunder, dan fungsi masing-masing institusi pasar modal."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "karakteristik serta hubungan risiko–imbal hasil dari saham, obligasi, sukuk, dan reksa dana."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "istilah IPO, e-IPO, dividen, capital gain, kupon, NAB per unit, dan T+2 dengan tepat."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "kasus informasi menyesatkan, penggunaan dana investasi, dan perlindungan konsumen."
+      },
+      {
+        "level": "",
+        "kko": "Menjawab",
+        "teks": "latihan pilihan ganda A–E dengan menimbang seluruh opsi, bukan menebak dari panjang kalimat."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pengertian Pasar Modal dan Efek",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengertian Pasar Modal dan Efek",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Menurut pengertian dalam UU Nomor 8 Tahun 1995 tentang Pasar Modal sebagaimana diubah melalui UU Nomor 4 Tahun 2023 (UU P2SK), kegiatan pasar modal mencakup penawaran umum dan transaksi efek, pengelolaan investasi, emiten dan perusahaan publik terkait efek yang diterbitkan, serta lembaga dan profesi yang berkaitan dengan efek. Dengan kata lain, pasar modal adalah ekosistem, bukan hanya ruang jual beli saham."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Efek meliputi surat berharga atau kontrak investasi yang memberikan hak untuk memperoleh manfaat ekonomis, baik dalam bentuk konvensional maupun bentuk lain sesuai peraturan. Contoh efek yang umum dibahas adalah saham, obligasi, sukuk, unit penyertaan reksa dana, dan instrumen turunan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasar modal mencakup penerbitan dan transaksi efek, pengelolaan investasi, emiten/perusahaan publik, serta lembaga dan profesi penunjang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Fungsi Pasar Modal dan Perbedaannya dengan Pasar Uang",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Fungsi Pasar Modal dan Perbedaannya dengan Pasar Uang",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasar modal memiliki dua fungsi dasar. Bagi penerbit, pasar modal menjadi alternatif untuk memperoleh pendanaan. Bagi investor, pasar modal memberi pilihan penempatan dana pada efek sesuai tujuan, horizon waktu, dan kemampuan menerima risiko. Keuntungan tidak otomatis dijamin; keputusan investasi tetap perlu mempertimbangkan karakteristik instrumen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasar uang lazim digunakan untuk memenuhi kebutuhan pendanaan atau penempatan dana jangka pendek, sedangkan pasar modal banyak berkaitan dengan instrumen pendanaan dan investasi jangka lebih panjang. Pembedaan ini menjelaskan fungsi umum, bukan berarti semua efek mempunyai tenor yang sama."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Sudut pandang",
+                "Pasar uang",
+                "Pasar modal"
+              ],
+              "baris": [
+                [
+                  "Fokus umum",
+                  "Likuiditas dan pendanaan jangka pendek",
+                  "Pendanaan dan investasi lewat efek"
+                ],
+                [
+                  "Contoh instrumen",
+                  "Instrumen pasar uang sesuai ketentuan",
+                  "Saham, obligasi, sukuk, reksa dana"
+                ],
+                [
+                  "Contoh keputusan",
+                  "Menjaga dana tersedia dalam waktu dekat",
+                  "Membiayai ekspansi atau berinvestasi"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua fungsi utama pasar modal adalah sarana pendanaan dan sarana investasi; bukan mekanisme yang menjamin keuntungan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pasar Perdana dan Pasar Sekunder",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pasar Perdana dan Pasar Sekunder",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasar perdana merupakan tahap ketika efek ditawarkan kepada investor dalam proses penerbitan atau penawaran umum. Dalam penawaran saham baru, dana hasil penerbitan pada prinsipnya dihimpun oleh perusahaan penerbit setelah memperhitungkan biaya dan struktur transaksi. Pasar sekunder adalah tempat efek yang telah diterbitkan kemudian diperdagangkan antarinvestor; transaksi jual-beli biasa di pasar sekunder tidak identik dengan penerbit memperoleh pendanaan baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, PT Rona menawarkan saham baru pada penawaran umum perdana (IPO). Jika Mira memperoleh saham pada tahap penawaran perdana, ia membeli saham dari penawaran penerbitan. Sebulan kemudian Mira menjual saham itu kepada Seno di pasar sekunder; penerimaan dari penjualan tersebut merupakan hasil transaksi Mira sebagai pemegang saham, bukan otomatis tambahan modal baru untuk PT Rona."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh alur dua transaksi pada saham yang sama: PT Rona menerbitkan 1.000 saham baru seharga Rp2.000 per lembar. Investor A membeli seluruh saham tersebut dalam penawaran perdana dan membayar Rp2.000.000; dana hasil penerbitan ini diterima PT Rona, sebelum memperhitungkan biaya yang relevan. Setelah saham beredar, Investor A menjual 1.000 saham yang sama kepada Investor B di pasar sekunder seharga Rp2.200 per lembar. Investor B membayar Rp2.200.000 kepada Investor A melalui mekanisme perdagangan dan penyelesaian yang berlaku. Pada transaksi kedua, PT Rona tidak menerima lagi dana hasil jual beli tersebut karena kepemilikan saham hanya berpindah dari Investor A kepada Investor B."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Pasar perdana",
+                "Pasar sekunder"
+              ],
+              "baris": [
+                [
+                  "Objek utama",
+                  "Efek dalam tahap penawaran/penerbitan",
+                  "Efek yang telah beredar"
+                ],
+                [
+                  "Hubungan dana",
+                  "Terkait penghimpunan dana penerbit",
+                  "Berpindah antar pihak transaksi"
+                ],
+                [
+                  "Tujuan investor",
+                  "Memperoleh efek pada penawaran",
+                  "Membeli atau menjual efek beredar"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasar perdana berkaitan dengan penerbitan efek; pasar sekunder berkaitan dengan transaksi efek yang telah beredar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Lembaga Pengawas dan Infrastruktur Pasar Modal",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Lembaga Pengawas dan Infrastruktur Pasar Modal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK menjalankan fungsi pengaturan, pengawasan, dan penegakan ketentuan di sektor jasa keuangan termasuk pasar modal. Di sisi infrastruktur, terdapat organisasi yang memiliki kewenangan mengatur kegiatan tertentu dalam lingkup kegiatannya (Self-Regulatory Organization/SRO), di antaranya Bursa Efek Indonesia (BEI), Kliring Penjaminan Efek Indonesia (KPEI), dan Kustodian Sentral Efek Indonesia (KSEI)."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Institusi",
+                "Peran utama dalam ekosistem"
+              ],
+              "baris": [
+                [
+                  "OJK",
+                  "Regulator dan pengawas kegiatan pasar modal sesuai kewenangan hukum"
+                ],
+                [
+                  "BEI",
+                  "Menyediakan dan menyelenggarakan sistem/sarana perdagangan efek"
+                ],
+                [
+                  "KPEI",
+                  "Menjalankan fungsi kliring dan penjaminan penyelesaian transaksi bursa yang relevan"
+                ],
+                [
+                  "KSEI",
+                  "Menyediakan layanan penyimpanan dan penyelesaian efek secara terpusat"
+                ],
+                [
+                  "Emiten",
+                  "Pihak yang melakukan penawaran umum efek menurut ketentuan"
+                ],
+                [
+                  "Perusahaan efek",
+                  "Dapat menjalankan kegiatan penjamin emisi atau perantara pedagang efek sesuai izin"
+                ],
+                [
+                  "Manajer investasi",
+                  "Mengelola portofolio efek untuk kepentingan nasabah atau investasi kolektif sesuai izin"
+                ],
+                [
+                  "Bank kustodian",
+                  "Melaksanakan fungsi kustodian, termasuk penyimpanan administrasi aset investasi yang dititipkan"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh alur satu transaksi saham: Investor B memasukkan pesanan beli saham PT Rona melalui perusahaan sekuritas, sedangkan Investor A memasukkan pesanan jual. Pesanan yang sesuai dipertemukan melalui sistem perdagangan Bursa Efek Indonesia (BEI), sehingga transaksi terjadi. Berikutnya, Kliring Penjaminan Efek Indonesia (KPEI) menjalankan proses kliring untuk menentukan hak dan kewajiban penyerahan saham serta pembayaran dana sesuai mekanisme yang berlaku, sekaligus melaksanakan fungsi penjaminan sesuai cakupannya. Pada tahap penyelesaian, Kustodian Sentral Efek Indonesia (KSEI) memfasilitasi pemindahbukuan saham dan dana melalui sistem penyelesaian dan peserta terkait, sehingga saham tercatat pada rekening efek pihak pembeli dan kewajiban dana diselesaikan kepada pihak penjual. OJK berada di luar urutan operasional transaksi tersebut: OJK mengatur dan mengawasi kegiatan pasar modal, bukan mempertemukan pesanan, melakukan kliring, atau memindahbukukan efek dalam transaksi harian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "KPEI dan KSEI memiliki fungsi berbeda: kliring/penjaminan tidak sama dengan penyimpanan/penyelesaian. BEI mengelola sarana perdagangan, bukan memberikan jaminan bahwa harga saham akan naik. Sementara itu, OJK tidak menetapkan harga saham setiap hari karena harga di pasar mencerminkan proses transaksi dan pembentukan harga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK = pengawas; BEI = bursa; KPEI = kliring/penjaminan; KSEI = penyimpanan/penyelesaian."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pihak Penunjang, Emiten, dan Pengelolaan Investasi",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pihak Penunjang, Emiten, dan Pengelolaan Investasi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Emiten menerbitkan efek sebagai bagian dari kegiatan penawaran umum. Perusahaan publik memiliki ketentuan tersendiri yang terkait penyebaran kepemilikan dan keterbukaan. Penjamin emisi efek membantu proses penawaran berdasarkan perjanjian dan ketentuan, sedangkan perantara pedagang efek menjalankan aktivitas perdagangan untuk kepentingan sendiri atau nasabah sesuai izin. Kedua fungsi ini tidak boleh dicampuradukkan hanya karena dapat berada pada perusahaan efek yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pengelolaan investasi kolektif, manajer investasi menentukan kebijakan dan mengelola portofolio sesuai kontrak dan ketentuan, sedangkan bank kustodian menjalankan fungsi penyimpanan aset serta administrasi terkait. Agen Penjual Efek Reksa Dana (APERD) berperan dalam distribusi produk reksa dana sesuai izin; peran penjualan bukan sama dengan peran pengelolaan portofolio."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Manajer investasi mengelola portofolio; bank kustodian menjalankan penyimpanan/administrasi aset; APERD menyalurkan penjualan efek reksa dana."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Saham: Hak, Imbal Hasil, dan Risiko",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Saham: Hak, Imbal Hasil, dan Risiko",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Saham merupakan bukti penyertaan modal atau kepemilikan pada perusahaan. Investor saham berpeluang memperoleh dividen jika perusahaan membagikannya berdasarkan keputusan yang sah dan ketentuan yang berlaku. Investor juga dapat memperoleh capital gain apabila menjual saham pada harga lebih tinggi daripada harga belinya, atau mengalami capital loss bila harga jual lebih rendah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hak pemegang saham dapat berkaitan dengan kehadiran atau suara dalam Rapat Umum Pemegang Saham (RUPS), penerimaan dividen ketika diputuskan, serta hak lain berdasarkan kelas saham dan ketentuan. Kepemilikan saham bukan janji pembayaran kupon tetap seperti instrumen utang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ilustrasi: saham dibeli Rp2.000 dan dijual Rp2.250 per lembar. Selisih harga Rp250 per lembar adalah capital gain sebelum biaya transaksi dan pajak yang relevan. Jika sebaliknya dijual Rp1.850, selisih Rp150 per lembar merupakan capital loss. Dividen terpisah dari keuntungan atau kerugian karena perubahan harga."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Makna ringkas",
+                "Contoh ilustratif"
+              ],
+              "baris": [
+                [
+                  "Dividen",
+                  "Bagian laba yang dibagikan sesuai keputusan",
+                  "Perusahaan membagikan Rp50/lembar"
+                ],
+                [
+                  "Capital gain",
+                  "Selisih positif harga jual dan beli",
+                  "Jual 2.250; beli 2.000 => +250"
+                ],
+                [
+                  "Capital loss",
+                  "Selisih negatif harga jual dan beli",
+                  "Jual 1.850; beli 2.000 => -150"
+                ],
+                [
+                  "Risiko pasar",
+                  "Perubahan harga karena kondisi pasar",
+                  "Harga dapat turun setelah dibeli"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saham = kepemilikan; imbal hasil berpotensi berasal dari dividen dan capital gain, dengan risiko capital loss."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Obligasi: Hubungan Utang, Kupon, dan Risiko",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Obligasi: Hubungan Utang, Kupon, dan Risiko",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Obligasi adalah efek bersifat utang yang diterbitkan pihak tertentu. Investor obligasi pada prinsipnya menjadi kreditur berdasarkan syarat efek, bukan pemilik perusahaan karena obligasi tersebut. Dokumen penerbitan mengatur nilai pokok, bunga atau kupon apabila ada, tenor, serta pelunasan sesuai karakteristik produk. Risiko dapat muncul apabila penerbit gagal membayar, harga obligasi berubah, atau investor perlu menjual sebelum jatuh tempo."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ilustrasi kupon: obligasi bernilai nominal Rp5.000.000 dengan kupon tetap 6% per tahun menghasilkan kupon bruto tahunan sebesar Rp300.000, jika perhitungannya memang berdasarkan nilai nominal setahun penuh. Angka tersebut belum memperhitungkan pajak, frekuensi pembayaran kupon, dan kemungkinan perubahan harga pasar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saham menunjukkan kepemilikan; obligasi menunjukkan hubungan utang dengan penerbit dan memiliki risiko gagal bayar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Sukuk dan Prinsip Dasarnya",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Sukuk dan Prinsip Dasarnya",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sukuk merupakan efek syariah yang merepresentasikan bukti kepemilikan atau bagian kepentingan atas aset, proyek, atau kegiatan usaha yang mendasari sesuai akad dan ketentuan. Oleh karena itu, sukuk tidak boleh sekadar disebut obligasi konvensional yang diganti istilah bunganya. Struktur hak, akad, dan sumber imbalan bergantung pada dokumen penerbitan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh yang lazim dikenali adalah sukuk dengan akad ijarah dan sukuk berbasis skema akad lain yang sesuai. Investor harus memahami objek atau kegiatan yang mendasari, skema pembagian imbalan, serta risiko penerbit dan aset terkait. Penjelasan mendalam aspek akad menjadi bagian dari materi Keuangan Syariah tersendiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sukuk memiliki dasar akad syariah dan keterkaitan dengan aset/kegiatan usaha; struktur haknya tidak identik dengan obligasi konvensional."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Reksa Dana: Peran Pihak, Jenis, dan NAB per Unit",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Reksa Dana: Peran Pihak, Jenis, dan NAB per Unit",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Reksa dana merupakan wadah penghimpunan dana masyarakat pemodal untuk selanjutnya diinvestasikan dalam portofolio efek oleh manajer investasi menurut ketentuan. Investor memperoleh unit penyertaan, bukan memilih sendiri setiap efek dalam portofolio harian reksa dana. Bank kustodian menjalankan tugas penyimpanan dan administrasi aset sesuai ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kategori reksa dana yang sering dikenalkan meliputi pasar uang, pendapatan tetap, campuran, dan saham. Reksa dana pasar uang berfokus pada instrumen sesuai ketentuan jenisnya; reksa dana pendapatan tetap memiliki porsi besar pada instrumen utang; reksa dana campuran dapat memadukan kelas aset; dan reksa dana saham memiliki porsi besar pada saham. Setiap kategori punya risiko berbeda dan nilainya dapat berfluktuasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai Aktiva Bersih (NAB) merupakan nilai bersih aset setelah dikurangi kewajiban. NAB per Unit Penyertaan (NAB/UP) adalah NAB dibagi jumlah unit beredar. Ilustrasi: NAB reksa dana Rp150 miliar dan unit beredar 100 juta unit, sehingga NAB/UP = Rp1.500. Angka ini adalah contoh pembelajaran, bukan nilai produk aktual."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis reksa dana",
+                "Fokus umum",
+                "Risiko yang perlu diperhatikan"
+              ],
+              "baris": [
+                [
+                  "Pasar uang",
+                  "Instrumen pasar uang sesuai peraturan",
+                  "Perubahan tingkat imbal hasil, risiko kredit"
+                ],
+                [
+                  "Pendapatan tetap",
+                  "Portofolio dominan efek bersifat utang",
+                  "Perubahan harga obligasi, risiko kredit"
+                ],
+                [
+                  "Campuran",
+                  "Kombinasi aset sesuai kebijakan investasi",
+                  "Fluktuasi gabungan beberapa jenis aset"
+                ],
+                [
+                  "Saham",
+                  "Portofolio dominan saham",
+                  "Fluktuasi harga saham lebih besar"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "NAB/UP = (nilai seluruh aset − kewajiban) ÷ jumlah unit penyertaan beredar; nilai unit dapat naik atau turun."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "ETF dan Produk Investasi Lain",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "ETF dan Produk Investasi Lain",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Exchange Traded Fund (ETF) merupakan produk investasi kolektif yang unitnya dapat diperdagangkan melalui bursa sesuai ketentuan. ETF menggabungkan karakter pengelolaan portofolio dengan mekanisme perdagangan di bursa. ETF tetap memiliki risiko perubahan harga dan perbedaan harga transaksi terhadap nilai portofolio acuannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Produk lain mencakup efek beragun aset (EBA), Dana Investasi Real Estat (DIRE), Dana Investasi Infrastruktur (DINFRA), dan instrumen derivatif. Untuk tingkat dasar, yang perlu diingat adalah sumber hak dan aset acuannya dapat berbeda; jangan memperlakukan semua produk sebagai saham."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Produk",
+                "Pembeda mendasar"
+              ],
+              "baris": [
+                [
+                  "ETF",
+                  "Produk investasi kolektif dengan mekanisme perdagangan unit di bursa"
+                ],
+                [
+                  "EBA",
+                  "Produk berbasis kumpulan aset keuangan yang mendasari sesuai struktur"
+                ],
+                [
+                  "DIRE",
+                  "Wadah investasi kolektif yang terkait aset real estat sesuai aturan"
+                ],
+                [
+                  "Derivatif",
+                  "Nilainya berkaitan dengan aset atau indikator dasar tertentu"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penawaran Umum, IPO, dan e-IPO",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penawaran Umum, IPO, dan e-IPO",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penawaran umum merupakan kegiatan penawaran efek kepada masyarakat menurut tata cara yang ditentukan peraturan. Penawaran umum perdana saham atau IPO adalah salah satu bentuknya. Prosesnya dapat melibatkan penyiapan informasi, dokumen, peran penjamin emisi, tahapan penawaran, penjatahan, dan pencatatan efek apabila memenuhi persyaratan. e-IPO adalah sistem elektronik yang mendukung pelaksanaan penawaran umum tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prospektus memuat informasi material yang perlu dipahami sebelum menilai suatu penawaran, termasuk karakteristik efek, risiko usaha, informasi keuangan, penggunaan dana, dan pihak terkait. Keberadaan prospektus bukan jaminan bahwa harga efek tidak akan turun setelah tercatat di bursa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "IPO = penawaran perdana saham kepada publik; prospektus adalah sumber informasi penting, bukan jaminan keuntungan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mekanisme Transaksi, Kliring, dan Penyelesaian",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mekanisme Transaksi, Kliring, dan Penyelesaian",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada perdagangan efek di bursa, perantara pedagang efek atau anggota bursa menjalankan transaksi melalui sarana perdagangan. Sesudah transaksi terjadi, kewajiban efek dan dana diproses melalui mekanisme kliring serta penyelesaian. Dalam perdagangan saham pasar reguler BEI, penyelesaian berlaku T+2, yakni dua hari bursa setelah hari transaksi. Untuk pasar tunai berlaku T+0; pasar negosiasi mengikuti mekanisme kesepakatan dan ketentuan terkait."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika transaksi dilakukan pada hari Senin yang bukan hari libur bursa, T+2 normalnya adalah Rabu. Namun jika ada hari libur bursa di antaranya, tanggal penyelesaian bergeser. T+2 tidak identik dengan dua hari kalender dalam semua situasi."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis pasar",
+                "Penyelesaian menurut informasi BEI"
+              ],
+              "baris": [
+                [
+                  "Reguler",
+                  "T+2 (dua hari bursa setelah transaksi)"
+                ],
+                [
+                  "Tunai",
+                  "T+0 (hari bursa transaksi)"
+                ],
+                [
+                  "Negosiasi",
+                  "Menurut kesepakatan/ketentuan segmen pasar"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perdagangan pasar reguler saham BEI umumnya diselesaikan pada T+2 hari bursa, bukan otomatis dua hari kalender."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "IHSG, Indikator Pasar, dan Aksi Korporasi",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "IHSG, Indikator Pasar, dan Aksi Korporasi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Indeks Harga Saham Gabungan (IHSG) digunakan untuk menggambarkan pergerakan kelompok saham dalam cakupan indeks. Kenaikan IHSG tidak berarti seluruh saham mengalami kenaikan yang sama. Selain indeks, informasi lain yang sering dibaca adalah volume perdagangan, nilai transaksi, kapitalisasi pasar, keterbukaan informasi emiten, serta aksi korporasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aksi korporasi antara lain dapat berupa pembagian dividen, pemecahan nilai nominal saham (stock split), atau penambahan modal dengan hak memesan efek terlebih dahulu. Perubahan jumlah saham atau harga teoretis akibat aksi korporasi tidak otomatis menambah kekayaan investor secara proporsional tanpa memperhatikan mekanisme dan nilai ekonominya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kenaikan IHSG bukan berarti semua saham naik; aksi korporasi harus dianalisis menurut substansi ekonominya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Risiko Pasar Modal dan Prinsip Diversifikasi",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Risiko Pasar Modal dan Prinsip Diversifikasi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Investor menghadapi risiko pasar (harga berubah), risiko kredit atau gagal bayar penerbit, risiko likuiditas (sulit melakukan transaksi pada harga wajar), risiko operasional, risiko hukum, dan risiko perubahan kondisi ekonomi. Karakter setiap produk berbeda; efek utang juga dapat mengalami penurunan harga sebelum jatuh tempo, sementara saham tidak memiliki jaminan pemulihan harga beli."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diversifikasi berarti menyebarkan investasi ke beberapa instrumen atau sumber risiko agar tidak seluruh portofolio bergantung pada satu penerbit. Diversifikasi dapat mengurangi risiko konsentrasi, tetapi tidak menghilangkan risiko pasar secara keseluruhan. Dalam soal, frasa “pasti untung”, “tanpa risiko”, atau “dijamin regulator” patut diuji secara kritis."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Risiko",
+                "Contoh situasi",
+                "Kesimpulan"
+              ],
+              "baris": [
+                [
+                  "Pasar",
+                  "Harga saham turun setelah pembelian",
+                  "Nilai investasi dapat berubah"
+                ],
+                [
+                  "Kredit",
+                  "Penerbit obligasi gagal memenuhi kewajiban",
+                  "Ada risiko gagal bayar"
+                ],
+                [
+                  "Likuiditas",
+                  "Efek sulit dijual saat dibutuhkan",
+                  "Harga jual dapat tertekan"
+                ],
+                [
+                  "Konsentrasi",
+                  "Seluruh dana pada satu saham",
+                  "Kerugian sangat bergantung satu penerbit"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diversifikasi mengurangi risiko konsentrasi, tetapi tidak menjamin bebas rugi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Saham Syariah, SCF, dan Batas Cakupan Materi",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Saham Syariah, SCF, dan Batas Cakupan Materi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasar modal juga mempunyai efek dan kegiatan investasi yang mengikuti prinsip syariah, termasuk saham syariah dan sukuk. Penilaian kepatuhan tidak cukup ditentukan oleh nama produk; instrumen perlu memenuhi kriteria serta ketentuan yang relevan. Bab tersendiri mengenai Keuangan Syariah membahas akad dan proses penyaringan secara lebih mendalam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Securities Crowdfunding (SCF) adalah skema urun dana berbasis penawaran efek melalui penyelenggara sesuai peraturan. SCF tidak sama dengan sekadar pengumpulan donasi dan tidak dapat disamakan langsung dengan pembelian saham bursa. Risiko dan hak investor bergantung pada jenis efek yang ditawarkan serta dokumen penawaran."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Keterbukaan Informasi dan Pelindungan Investor",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Keterbukaan Informasi dan Pelindungan Investor",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasar modal mengandalkan informasi yang akurat dan tersedia secara adil. Emiten dan pelaku usaha berkewajiban menyampaikan informasi tertentu sesuai peraturan. Investor perlu membaca dokumen penawaran, laporan keuangan, pengumuman material, dan informasi resmi, serta memahami risiko transaksi yang dilakukan. Informasi dari promosi atau media sosial tidak otomatis setara dengan informasi resmi yang telah diverifikasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Instrumen pelindungan dan disiplin pasar mencakup keterbukaan informasi, notasi khusus, sanksi terhadap pelanggaran, mekanisme disgorgement dalam konteks tertentu, serta skema Dana Perlindungan Pemodal/Securities Investor Protection Fund (SIPF) sesuai cakupan ketentuannya. Pelindungan pemodal tidak sama dengan jaminan terhadap rugi karena fluktuasi harga pasar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: jika harga saham turun karena perubahan kondisi bisnis yang telah diungkap secara benar, kerugian harga pasar tersebut tidak otomatis dibayar oleh regulator atau dana perlindungan pemodal. Bila ada dugaan penipuan atau penyalahgunaan, penanganannya harus dinilai berdasarkan jenis pelanggaran, fakta, serta prosedur yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pelindungan investor tidak berarti harga investasi atau imbal hasil dijamin; investor harus membedakan risiko pasar dan pelanggaran hukum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kerangka Regulasi dan Pembaruan 2025–2026",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kerangka Regulasi dan Pembaruan 2025–2026",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Landasan umum pasar modal tetap merujuk UU Nomor 8 Tahun 1995 sebagaimana telah diubah melalui UU Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan. Pelaksanaan lebih lanjut diatur dalam POJK dan peraturan terkait. POJK 32 Tahun 2024 mengatur pengembangan dan penguatan transaksi serta lembaga efek, sedangkan POJK 33 Tahun 2024 menyangkut pengembangan dan penguatan pengelolaan investasi di pasar modal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam siaran pers penutupan pasar modal 2025, OJK juga mencatat pembaruan pada 2025, antara lain terkait derivatif berbasis efek, dematerialisasi efek ekuitas, serta pemeringkatan reksa dana dan manajer investasi. Karena peraturan dapat terus berubah, pembelajaran menitikberatkan prinsip dasar, fungsi lembaga, hak investor, dan mekanisme umum; detail angka tarif atau waktu yang sensitif harus dibaca pada sumber resmi yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan UU Pasar Modal yang telah diubah UU P2SK dan fungsi OJK sebagai pengatur/pengawas, bukan penjamin keuntungan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Pasar Modal",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Pasar Modal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk soal konsep, identifikasi dahulu kata penentu seperti “kepemilikan”, “utang”, “unit penyertaan”, “penawaran perdana”, “perdagangan antarinvestor”, “kliring”, “kustodian”, atau “hari bursa”. Kata penentu tersebut membantu mengeliminasi opsi yang menukar fungsi institusi atau mencampurkan karakter instrumen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk soal hitungan, tulis komponen yang benar sebelum menghitung. Capital gain/loss pada contoh sederhana adalah selisih harga jual dan beli per lembar; kupon tahunan sederhana dihitung dari nilai nominal dikalikan tingkat kupon; NAB/UP adalah NAB dibagi unit beredar. Jangan mencampurkan dividen dengan selisih harga atau memaknai T+2 sebagai selalu dua hari kalender."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk kasus analitis, cek tiga hal: (1) instrumen atau lembaga apa yang dibahas, (2) hak dan risiko apa yang benar-benar berlaku, dan (3) apakah informasi pada opsi terlalu mutlak dibanding fakta atau ketentuan. Hindari menebak berdasarkan panjang jawaban: pilihan yang benar tidak selalu paling panjang atau paling formal."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Petunjuk kasus",
+                "Konsep pertama yang diuji",
+                "Kesalahan umum"
+              ],
+              "baris": [
+                [
+                  "Investor memperoleh hak suara",
+                  "Saham/kepemilikan",
+                  "Disamakan dengan obligasi"
+                ],
+                [
+                  "Penerbit menjanjikan kupon",
+                  "Efek utang",
+                  "Disamakan dengan dividen"
+                ],
+                [
+                  "Unit dikelola manajer investasi",
+                  "Reksa dana",
+                  "Disamakan dengan saham individual"
+                ],
+                [
+                  "Perdagangan saham setelah IPO",
+                  "Pasar sekunder",
+                  "Selalu dianggap menghimpun modal baru"
+                ],
+                [
+                  "Penyelesaian T+2",
+                  "Dua hari bursa",
+                  "Diartikan dua hari kalender"
+                ],
+                [
+                  "Nilai investasi turun",
+                  "Risiko pasar",
+                  "Dianggap otomatis dijamin SIPF"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan jenis efek → tentukan hak/risiko → pilih opsi yang benar tanpa mengandalkan panjang kalimat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Ruang Lingkup Pasar Modal",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengelola investasi menerbitkan laporan portofolio, sementara perusahaan lain melakukan penawaran saham baru. Kedua kegiatan ini termasuk pasar modal karena pasar modal mencakup ...."
+            }
+          ],
+          "opsi": {
+            "A": "kegiatan simpanan harian dan pelaporan kewajiban pajak perusahaan",
+            "B": "pengelolaan uang tunai dan penerbitan seluruh jenis mata uang",
+            "C": "penawaran dan transaksi efek serta pengelolaan investasi",
+            "D": "penjaminan setiap laba dan pengawasan semua harga barang dagang",
+            "E": "pembiayaan jangka pendek bank dan pengendalian peredaran uang"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Cakupan kegiatan pasar modal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menurut UU Pasar Modal sebagaimana diperbarui UU P2SK, pasar modal mencakup penawaran dan transaksi efek serta pengelolaan investasi. Pasar modal bukan pengatur uang beredar atau pemberi jaminan laba."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A tidak memuat aktivitas pasar modal; B mencampur fungsi moneter; D salah karena laba tidak dijamin; E menjelaskan fungsi lain di sektor keuangan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kenali istilah penawaran efek + pengelolaan investasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pasar Perdana dan Pasar Sekunder",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "PT Nusantara Baru menghimpun dana dari penawaran perdana saham. Beberapa bulan kemudian para investor saling memperjualbelikan saham tersebut. Pernyataan yang tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Penawaran awal mendanai emiten; transaksi selanjutnya antarinvestor.",
+            "B": "Penawaran perdana hanya memindahkan saham lama tanpa penerbitan efek baru.",
+            "C": "Transaksi antarinvestor selalu menambah modal disetor perusahaan penerbit.",
+            "D": "Penawaran saham pertama dilakukan setelah seluruh transaksi sekunder selesai.",
+            "E": "Perdagangan sekunder hanya dapat terjadi sebelum penawaran umum selesai."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pasar perdana vs pasar sekunder"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dana penawaran perdana saham baru berkaitan dengan penghimpunan dana oleh penerbit. Perdagangan berikutnya melibatkan investor sebagai pihak penjual dan pembeli."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** B tidak tepat untuk penawaran saham baru; C keliru untuk transaksi sekunder biasa; D dan E membalik urutan proses."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanya: uang dari siapa ke siapa?"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Peran BEI, KPEI, dan KSEI",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada suatu transaksi saham, seorang peserta diminta mengidentifikasi pihak yang memfasilitasi perdagangan, kliring/penjaminan, dan penyimpanan/penyelesaian. Urutan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "KPEI, OJK, lalu BEI sebagai penyimpan aset dan penyelesai transaksi",
+            "B": "KSEI, BEI, lalu manajer investasi sebagai pihak penyelesai utama",
+            "C": "OJK, KSEI, lalu perusahaan publik sebagai penyelenggara kliring",
+            "D": "BEI, KPEI, lalu KSEI sesuai pembagian tugas infrastruktur pasar",
+            "E": "Bank kustodian, emiten, lalu KPEI sebagai pengawas semua aktivitas"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Fungsi infrastruktur pasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "BEI adalah penyelenggara bursa; KPEI melakukan kliring dan penjaminan sesuai cakupan; KSEI menjalankan penyimpanan serta penyelesaian. OJK berperan sebagai regulator."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A, B, C, dan E menukar lembaga atau memasukkan pihak yang tidak menjalankan urutan fungsi tersebut."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bursa – Kliring – Penyimpanan = BEI – KPEI – KSEI."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Saham dan Obligasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seseorang mempertimbangkan membeli saham perusahaan atau obligasi yang diterbitkan perusahaan yang sama. Perbandingan hak investor yang tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Pemegang saham menjadi kreditur, sedangkan pemegang obligasi menjadi pemilik.",
+            "B": "Pemegang saham memiliki hak kepemilikan; pemegang obligasi memiliki hak tagih.",
+            "C": "Pemegang saham dijamin mendapat kupon, sedangkan obligasi bergantung pada dividen.",
+            "D": "Saham dan obligasi sama-sama memberikan suara dalam seluruh keputusan perusahaan.",
+            "E": "Hak obligasi hanya bersumber dari keuntungan penjualan saham di pasar sekunder."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Karakter saham dan efek utang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saham merepresentasikan penyertaan modal atau kepemilikan. Obligasi adalah efek bersifat utang, sehingga dasar hak investor mengikuti ketentuan utang dalam dokumen penerbitan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A membalik konsep; C menukar istilah kupon/dividen; D menyamakan hak suara; E menyempitkan sumber hak obligasi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kepemilikan = saham; tagihan sesuai utang = obligasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dividen dan Capital Gain",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Investor membeli saham seharga Rp2.000 per lembar lalu menjualnya Rp2.300, dan sebelumnya menerima dividen Rp100 per lembar. Pernyataan tepat sebelum biaya dan pajak adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Dividen Rp300 per lembar dan capital gain Rp100 per lembar.",
+            "B": "Capital gain Rp200 per lembar dan dividen Rp300 per lembar.",
+            "C": "Capital loss Rp300 per lembar dan dividen Rp100 per lembar.",
+            "D": "Capital gain Rp400 per lembar tanpa pendapatan dari dividen.",
+            "E": "Capital gain Rp300 per lembar dan dividen Rp100 per lembar."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Memisahkan dividen dari selisih harga saham"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Capital gain = Rp2.300 − Rp2.000 = Rp300 per lembar. Dividen telah diterima sebesar Rp100 per lembar. Keduanya merupakan komponen berbeda; total penerimaan ekonomi kotor dari kedua sumber pada contoh adalah Rp400 per lembar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A dan B salah menukar nominal; C salah mengidentifikasi gain/loss; D salah karena dividen tetap ada dan bukan komponen kenaikan harga."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Selisih harga dan dividen dihitung terpisah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kupon Obligasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Obligasi dengan nominal Rp5.000.000 memiliki kupon tetap 6% per tahun. Jika satu tahun penuh dihitung tanpa biaya, pajak, atau perubahan pokok, berapa kupon bruto tahunan?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp300.000, berdasarkan kupon atas nilai nominal tahunan.",
+            "B": "Rp250.000, berdasarkan kupon atas nilai nominal tahunan.",
+            "C": "Rp350.000, berdasarkan kupon atas nilai nominal tahunan.",
+            "D": "Rp400.000, berdasarkan kupon atas nilai nominal tahunan.",
+            "E": "Rp450.000, berdasarkan kupon atas nilai nominal tahunan."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menghitung kupon obligasi sederhana"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kupon bruto = 6% × Rp5.000.000 = Rp300.000. Ini contoh perhitungan nominal, bukan hasil bersih atau imbal hasil efektif pembelian obligasi di harga selain pari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** Pilihan B–E tidak sesuai perkalian 0,06 × 5.000.000. Basis perhitungan telah ditentukan secara eksplisit."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ubah persen menjadi desimal lalu kalikan nominal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Karakter Sukuk",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah produk diterbitkan dengan akad syariah dan menggambarkan porsi kepentingan pada aset atau kegiatan usaha yang mendasarinya. Klasifikasi yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Saham biasa yang selalu memberikan kupon tetap kepada pemegangnya.",
+            "B": "Obligasi konvensional yang otomatis bebas dari semua risiko kredit.",
+            "C": "Sukuk yang struktur hak dan imbalannya mengikuti akad.",
+            "D": "Deposito perbankan yang dapat dijual sebagai saham setiap saat.",
+            "E": "Kontrak tabungan yang tidak memiliki aset atau kegiatan dasar."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Sukuk dan struktur akad"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sukuk berhubungan dengan bukti kepemilikan atau kepentingan atas aset/kegiatan tertentu sesuai akad syariah. Penyebutan “akad” dan aset dasar merupakan penentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A menukar karakter saham; B keliru soal jaminan risiko; D tidak sesuai produk; E bertentangan dengan gambaran aset/kegiatan dasar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cermati dasar akad dan underlying yang digambarkan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Manajer Investasi dan Bank Kustodian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam suatu reksa dana, investor ingin mengetahui pihak yang menetapkan kebijakan portofolio dan pihak yang menyimpan aset kolektif. Pasangan yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Bank kustodian mengelola portofolio; manajer investasi menjamin tingkat imbal hasil.",
+            "B": "Manajer investasi mengelola portofolio; bank kustodian melakukan fungsi kustodian.",
+            "C": "Emiten mengelola portofolio; bursa efek menerbitkan unit penyertaan reksa dana.",
+            "D": "APERD menguasai seluruh aset; perusahaan efek mengaudit semua transaksi unit.",
+            "E": "Bank sentral menentukan portofolio; KPEI menyediakan seluruh laporan pajak."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Peran MI dan bank kustodian dalam reksa dana"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam reksa dana, manajer investasi mengelola portofolio sesuai ketentuan dan kontrak. Bank kustodian menyimpan serta mengadministrasikan aset reksa dana."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A membalik peran dan menjanjikan hasil; C menukar fungsi; D terlalu jauh dari kewenangan APERD; E keliru karena bukan mandat BI/KPEI."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kelola = MI; simpan/administrasi = bank kustodian."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "NAB per Unit Reksa Dana",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Reksa dana memiliki nilai aktiva bersih Rp150 miliar dan jumlah unit penyertaan beredar 100 juta unit. Dengan data tersebut, NAB per unit penyertaan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp1.200, diperoleh dari pembagian nilai bersih dengan unit.",
+            "B": "Rp1.350, diperoleh dari pembagian nilai bersih dengan unit.",
+            "C": "Rp1.400, diperoleh dari pembagian nilai bersih dengan unit.",
+            "D": "Rp1.500, diperoleh dari pembagian nilai bersih dengan unit.",
+            "E": "Rp1.600, diperoleh dari pembagian nilai bersih dengan unit."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perhitungan NAB per unit"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "NAB/UP = Rp150.000.000.000 ÷ 100.000.000 = Rp1.500. Perhitungan menggunakan NAB bersih, bukan aset kotor; asumsi jumlah unit sudah disediakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A, B, C, dan E tidak sesuai hasil pembagian. Nominal merupakan angka ilustratif dan bukan NAB reksa dana tertentu."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Nilai bersih ÷ jumlah unit beredar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "ETF dan Reksa Dana Konvensional",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang peserta melihat produk investasi kolektif yang unitnya diperdagangkan melalui bursa sepanjang sesi sesuai ketentuan. Pembeda umum terhadap reksa dana non-ETF adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "ETF merupakan rekening giro yang diperdagangkan oleh bank sentral.",
+            "B": "ETF adalah obligasi korporasi dengan jadwal kupon tetap mingguan.",
+            "C": "ETF wajib memberi hak suara langsung pada setiap perusahaan portofolio.",
+            "D": "ETF dijamin lembaga kustodian agar harga unit tidak dapat berfluktuasi.",
+            "E": "ETF memiliki mekanisme jual beli unit melalui perdagangan di bursa."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Karakter ETF"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "ETF tetap merupakan produk investasi kolektif, tetapi unitnya diperdagangkan melalui mekanisme bursa. Nilainya tetap dapat berubah dan tidak otomatis menjamin hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A dan B mengganti kategori instrumen; C tidak dapat digeneralisasi; D keliru karena kustodian tidak menjamin harga."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "ETF = produk kolektif dengan perdagangan unit di bursa."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Fungsi Prospektus dalam IPO",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam proses IPO, seorang calon investor menemukan informasi penggunaan dana, risiko, kondisi keuangan, dan struktur penawaran dalam satu dokumen. Dokumen tersebut terutama berfungsi sebagai ...."
+            }
+          ],
+          "opsi": {
+            "A": "jaminan penerbit bahwa harga saham akan stabil setelah tercatat",
+            "B": "prospektus yang menyajikan informasi material terkait penawaran umum",
+            "C": "surat persetujuan bahwa investor akan memperoleh dividen setiap bulan",
+            "D": "konfirmasi bursa bahwa laba perusahaan tidak mungkin mengalami penurunan",
+            "E": "laporan penjatahan yang menetapkan keuntungan semua investor secara sama"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Prospektus dan keterbukaan penawaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prospektus adalah dokumen informasi utama dalam penawaran umum untuk membantu calon investor menilai penerbit dan risikonya. Prospektus bukan perjanjian jaminan keuntungan atau dividen berkala."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A, C, D, dan E menambahkan kepastian yang tidak dapat dijanjikan melalui prospektus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "IPO + informasi risiko dan penerbit = prospektus."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Menghitung T+2 Hari Bursa",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Transaksi saham di pasar reguler terjadi pada Senin, sedangkan Selasa dan Rabu merupakan hari bursa normal. Kapan penyelesaian T+2 seharusnya berlangsung?"
+            }
+          ],
+          "opsi": {
+            "A": "Senin, karena penyelesaian terjadi tepat pada hari transaksi.",
+            "B": "Selasa, karena satu hari bursa dianggap sudah dua hari.",
+            "C": "Rabu, karena dihitung dua hari bursa setelah transaksi.",
+            "D": "Kamis, karena hari transaksi juga dihitung satu hari penuh.",
+            "E": "Jumat, karena waktu penyelesaian minimal satu minggu kerja."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penyelesaian perdagangan reguler T+2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "T adalah Senin. T+1 jatuh pada Selasa dan T+2 pada Rabu jika tidak ada hari libur bursa. Mekanisme BEI menyatakan penyelesaian pasar reguler T+2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A adalah T+0; B adalah T+1; D adalah T+3; E tidak didukung aturan penyelesaian pasar reguler."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung hari bursa setelah T, bukan termasuk hari T."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Diversifikasi Risiko Investasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Investor menempatkan seluruh dananya pada satu saham. Ia kemudian mempertimbangkan beberapa efek dari sektor berbeda untuk mengurangi dampak masalah satu penerbit. Kesimpulan yang tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Diversifikasi mengurangi konsentrasi risiko, bukan menghapus risiko pasar.",
+            "B": "Diversifikasi selalu menghapus seluruh risiko harga, termasuk saat pasar melemah.",
+            "C": "Diversifikasi otomatis menjamin nilai investasi kembali ke harga pembelian awal.",
+            "D": "Diversifikasi hanya berfungsi jika seluruh efek dipilih dari satu penerbit yang sama.",
+            "E": "Diversifikasi tidak memengaruhi risiko apa pun selama ada perdagangan di bursa."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Diversifikasi dan risiko residual"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyebaran aset ke beberapa penerbit membantu mengurangi risiko konsentrasi, tetapi tidak menghilangkan risiko pasar dan risiko lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** B–E memberi klaim absolut yang keliru tentang hasil atau mekanisme diversifikasi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Diversifikasi mengurangi konsentrasi, bukan menjamin bebas rugi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pelindungan Pemodal dan Kerugian Harga",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Investor mengalami penurunan nilai saham karena harga pasar bergerak turun tanpa ada bukti pelanggaran oleh perantara. Ia menganggap dana perlindungan pemodal wajib mengganti kerugiannya. Penilaian tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Seluruh capital loss otomatis diganti oleh bursa pada hari perdagangan berikutnya.",
+            "B": "Seluruh kerugian selalu dialihkan kepada manajer investasi tanpa pemeriksaan.",
+            "C": "Harga pembelian awal otomatis dikembalikan oleh OJK lewat mekanisme penyelesaian.",
+            "D": "Setiap investor otomatis menerima kupon kompensasi dari emiten saat harga turun.",
+            "E": "Penurunan harga pasar tidak otomatis masuk cakupan ganti rugi skema perlindungan."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Batas pelindungan pemodal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dana Perlindungan Pemodal/SIPF mempunyai cakupan perlindungan tertentu sesuai ketentuan, bukan jaminan seluruh fluktuasi harga efek. Kerugian harga biasa harus dibedakan dari kehilangan aset atau pelanggaran yang mungkin ditangani melalui mekanisme lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A–D keliru karena menciptakan jaminan ganti rugi yang tidak berlaku umum."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Rugi karena harga turun tidak sama dengan hak klaim otomatis."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Memeriksa Klaim Legalitas dan Informasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah akun media sosial menyebarkan rekomendasi “saham pasti untung”, mengaku diawasi OJK, tetapi tidak menunjukkan dokumen perusahaan dan informasi risiko. Evaluasi paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Mempercayainya karena pemantauan OJK berarti harga tidak mungkin turun.",
+            "B": "Menganggap klaim tersebut sah karena telah disukai banyak pengguna.",
+            "C": "Memilihnya karena tidak menyebutkan risiko sehingga dianggap lebih aman.",
+            "D": "Memeriksa dokumen resmi dan menguji klaim keuntungan pasti.",
+            "E": "Membeli segera agar tidak kehilangan keuntungan yang sudah dijanjikan."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Literasi informasi dan kewaspadaan penawaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Status pengawasan atau izin tidak pernah menjadi jaminan keuntungan suatu saham. Informasi harus diverifikasi dari dokumen resmi, status pelaku, risiko produk, dan ketentuan yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A–C dan E mengandalkan popularitas, janji mutlak, atau tekanan keputusan tanpa bukti yang memadai."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Klaim pasti untung = verifikasi, bukan langsung percaya."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pengertian Pasar Modal dan Efek",
+        "teks": ""
+      },
+      {
+        "judul": "Fungsi Pasar Modal dan Perbedaannya dengan Pasar Uang",
+        "teks": ""
+      },
+      {
+        "judul": "Pasar Perdana dan Pasar Sekunder",
+        "teks": ""
+      },
+      {
+        "judul": "Lembaga Pengawas dan Infrastruktur Pasar Modal",
+        "teks": ""
+      },
+      {
+        "judul": "Pihak Penunjang, Emiten, dan Pengelolaan Investasi",
+        "teks": ""
+      },
+      {
+        "judul": "Saham: Hak, Imbal Hasil, dan Risiko",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pasar modal adalah sistem kegiatan pembiayaan dan investasi yang mencakup penerbit, instrumen, perdagangan, pengelolaan investasi, infrastruktur, pengawasan, serta pelindungan pemodal. Perbedaan hak antara saham, obligasi, sukuk, dan reksa dana menjadi dasar untuk memahami sumber imbal hasil dan risiko masing-masing. Pemahaman pasar perdana dan sekunder membantu peserta menilai aliran dana yang sesungguhnya, sementara pengenalan fungsi BEI, KPEI, KSEI, OJK, manajer investasi, dan bank kustodian mencegah kekeliruan ketika membaca skenario kasus. Dalam perhitungan sederhana, komponen capital gain, dividen, kupon, NAB per unit, dan hitungan hari bursa harus digunakan secara konsisten dan sesuai asumsi soal."
+  }
+}

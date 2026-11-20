@@ -333,7 +333,7 @@ class TemaGeneral:
                 (el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
                 or (not tutor and el.tag == qn("p:grpSp") and _posisi(el)[0] > 10 and _posisi(el)[1] > 8.5)))
             # teks di dalam panel navy (x 0,36-10,19): bab putih, judul kuning
-            self._judul_sampul(slide, 1.0, 8.2, 5.7, besar, judul, "putih", "kuning")
+            self._judul_sampul(slide, 1.0, 8.2, 5.7, besar, judul, "putih", "kuning_di_gelap")
             if tutor:
                 D.teks(slide, 11.36, 10.05, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
                        jangkar="m", nama="Nama tutor")
@@ -375,7 +375,8 @@ class TemaGeneral:
         """Paragraf di halaman berbingkai; ukuran diperkecil sampai muat h_maks."""
         for ukuran in (24, 22, 20, 19, 18, 17, 16, 15, 14):
             p = [P(t, ukuran, "000000", rata="j", spasi=1.4, setelah=ukuran * 0.6) for t in par]
-            h = D.tinggi_paragraf(p, w)
+            # cadangan 4% + 0,05 in: rata kanan-kiri di PowerPoint sedikit lebih tinggi dari perkiraan
+            h = D.tinggi_paragraf(p, w) * 1.04 + 0.05
             if h <= h_maks:
                 break
         D.teks(slide, x, y, w, h, p, nama="Isi halaman")
@@ -400,20 +401,22 @@ class TemaGeneral:
             D.teks(slide, 0.78, y, 14.43, 0.4, [P(pengantar, 18, "navy", spasi=1.2)], nama="Pengantar tujuan")
             y += 0.55
         n = max(1, len(butir))
-        celah = 0.15
-        h_maks = min(1.12, (9.75 - y - celah * (n - 1)) / n)
-        d = 0.66
+        celah = 0.15 if n <= 5 else 0.1
+        h_maks = min(1.12, (9.75 - y - celah * (n - 1)) / n)  # jatah per butir agar semua muat
+        d = min(0.66, h_maks - 0.14)
         for i, b in enumerate(butir):
             segs = [(b["kko"], True, False, "putih")] + D.segmen(" " + b["teks"])
-            for ukuran in (20, 19, 18, 17, 16, 15):
+            for ukuran in (20, 19, 18, 17, 16, 15, 14, 13):
                 p = [P(None, ukuran, "putih", spasi=1.3, segs=segs)]
-                inset = (0.35 + d + 0.3, 0.12, 0.4, 0.12)
-                h = max(h_maks, D.tinggi_paragraf(p, 14.43, inset))
-                if h <= max(h_maks, 1.12):
+                inset = (0.35 + d + 0.3, 0.1, 0.4, 0.1)
+                h_teks = D.tinggi_paragraf(p, 14.43, inset)
+                if h_teks <= h_maks:
                     break
+            h = max(h_maks, h_teks)
             D.kotak(slide, 0.78, y, 14.43, h, warna="kartu_gelap", radius=0, nama="Butir tujuan")
             level = b.get("level") or str(i + 1)
-            D.lingkaran(slide, 0.78 + 0.35, y + (h - d) / 2, d, "kuning", level, 17, "navy", nama=f"Level {level}")
+            D.lingkaran(slide, 0.78 + 0.35, y + (h - d) / 2, d, "kuning", level, min(17, round(d * 26)), "di_kuning",
+                        nama=f"Level {level}")
             D.teks(slide, 0.78, y, 14.43, h, p, inset=inset, jangkar="m")
             y += h + celah
         return y - celah
@@ -423,23 +426,36 @@ class TemaGeneral:
         x, w = 1.12, 12.6
         y = 2.0
         d = 0.6
-        for i, r in enumerate(ringkasan, 1):
+        inset = (0.25 + d + 0.25, 0.14, 0.3, 0.14)
+        butir = []
+        for r in ringkasan:
             isi = f"**{r['judul']}:** {r['teks']}" if r.get("teks") else f"**{r['judul']}**"
             p = [P(isi, 18, "navy", spasi=1.3)]
-            inset = (0.25 + d + 0.25, 0.14, 0.3, 0.14)
-            h = max(0.8, D.tinggi_paragraf(p, w, inset))
+            butir.append((p, max(0.8, D.tinggi_paragraf(p, w, inset))))
+        # Pesan dikecilkan bertahap (sampai 12 pt); bila masih penuh, butir ringkasan dikurangi (min. 3,
+        # lalu boleh habis bila pesannya sangat panjang).
+        sisi = (0.4, 0.3, 0.4, 0.3)
+        pp, hp, n = None, 0, len(butir)
+        for minimal in (min(len(butir), 3), 0):
+            for ukuran in ((22, 20, 19, 18, 17, 16, 15, 14, 13, 12) if pesan else (0,)):
+                if pesan:
+                    pp = [P("Pesan penutup", 14, "kuning_di_gelap", tebal=True, spasi=1.2, setelah=6),
+                          P(pesan, ukuran, "putih", tebal=ukuran >= 19, spasi=1.3)]
+                    hp = D.tinggi_paragraf(pp, w, sisi) + 0.15
+                n = next((k for k in range(len(butir), minimal - 1, -1)
+                          if y + sum(h + 0.15 for _, h in butir[:k]) + hp <= BATAS_HALAMAN), None)
+                if n is not None:
+                    break
+            if n is not None:
+                break
+        n = 0 if n is None else n
+        for i, (p, h) in enumerate(butir[:n], 1):
             D.kotak(slide, x, y, w, h, warna="kartu", radius=D.RADIUS, nama=f"Ringkasan {i}")
             D.lingkaran(slide, x + 0.25, y + (h - d) / 2, d, "navy", i, 16, "putih", nama=f"Nomor {i}")
             D.teks(slide, x, y, w, h, p, inset=inset, jangkar="m")
             y += h + 0.15
         if pesan:
-            sisi = (0.4, 0.3, 0.4, 0.3)
-            for ukuran in (22, 20, 19, 18, 17, 16):
-                pp = [P("Pesan penutup", 14, "kuning", tebal=True, spasi=1.2, setelah=6),
-                      P(pesan, ukuran, "putih", tebal=ukuran >= 19, spasi=1.3)]
-                h = D.tinggi_paragraf(pp, w, sisi)
-                if y + 0.15 + h <= BATAS_HALAMAN:
-                    break
+            h = hp - 0.15
             D.kotak(slide, x, y + 0.15, w, h, warna="kartu_gelap", radius=D.RADIUS, nama="Pesan penutup")
             D.teks(slide, x, y + 0.15, w, h, pp, inset=sisi, jangkar="m")
             y += 0.15 + h

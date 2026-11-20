@@ -229,7 +229,7 @@ class Pembangun:
         isi = []
         for i, k in enumerate(kartu):
             gelap = i == aktif
-            isi.append([P(f"{i + 1:02d}", u_nomor, "kuning" if gelap else "navy", tebal=True,
+            isi.append([P(f"{i + 1:02d}", u_nomor, "kuning_di_gelap" if gelap else "navy", tebal=True,
                           spasi=1.0, setelah=14),
                         P(k["judul"], u_judul, "putih" if gelap else "navy", tebal=True, spasi=1.2, setelah=6),
                         P(k["deskripsi"], u_desk, "redup" if gelap else "teks", spasi=1.35)])
@@ -312,7 +312,7 @@ class Pembangun:
                 D.kotak(s, x, y, lw, h, warna="kartu_gelap" if awal + j == 0 else "kartu", radius=D.RADIUS,
                         nama="Butir tujuan")
                 level = b.get("level") or str(awal + j + 1)
-                D.lingkaran(s, x + inset[0], y + 0.4, d, "kuning", level, 24, "navy", nama=f"Level {level}")
+                D.lingkaran(s, x + inset[0], y + 0.4, d, "kuning", level, 24, "di_kuning", nama=f"Level {level}")
                 D.teks(s, x, y, lw, h, p, inset=inset)
             y += h + celah
         self.cek_batas(y - celah, "Tujuan")
@@ -339,13 +339,26 @@ class Pembangun:
         w = D.LEBAR_ISI
         jarak = 0.1 if gaya == "soal" else D.JARAK_BLOK
         subjudul_akhir = None
-        for i, b in enumerate(blok):
+        blok = list(blok)
+        i = 0
+        while i < len(blok):
+            b = blok[i]
             sisa = D.BATAS_BAWAH - y
             h = D.tinggi_blok(b, w, self.folder, gaya, sisa)
+            pindah_dulu = False
+            if b["jenis"] == "tabel" and h > sisa and len(b["baris"]) > 1:
+                # Tabel lebih tinggi dari sisa halaman: pecah per baris, header diulang di halaman berikut.
+                k = self._baris_muat(b, w, sisa)
+                if k >= 2 or (kosong and k >= 1):
+                    blok[i:i + 1] = [dict(b, baris=b["baris"][:k]), dict(b, baris=b["baris"][k:])]
+                    b = blok[i]
+                    h = D.tinggi_blok(b, w, self.folder, gaya, sisa)
+                elif not kosong:
+                    pindah_dulu = True  # pecah lagi di halaman baru yang lebih lapang
             if b["jenis"] == "gambar":
                 muat = D.skala_min_gambar(b, w) <= sisa or kosong
             else:
-                muat = h <= sisa or kosong
+                muat = (h <= sisa or kosong) and not pindah_dulu
                 if muat and b["jenis"] == "subjudul" and i + 1 < len(blok) and not kosong:
                     berikut = blok[i + 1]
                     h2 = D.skala_min_gambar(berikut, w) if berikut["jenis"] == "gambar" else                         D.tinggi_blok(berikut, w, self.folder, gaya)
@@ -356,8 +369,12 @@ class Pembangun:
                     s, y = buat_slide(True, b["teks"])
                     subjudul_akhir = b["teks"]
                     kosong = True
+                    i += 1
                     continue
                 s, y = buat_slide(True, f"{subjudul_akhir} (lanjutan)" if subjudul_akhir else None)
+                kosong = True
+                if pindah_dulu:
+                    continue  # ukur ulang blok ini di halaman baru
                 sisa = D.BATAS_BAWAH - y
             if b["jenis"] == "subjudul":
                 subjudul_akhir = b["teks"]
@@ -365,9 +382,17 @@ class Pembangun:
                     y += 0.1
             y = D.gambar_blok(s, b, D.KIRI, y, w, self.folder, gaya, sisa) + jarak
             kosong = False
+            i += 1
         y -= jarak
         self.cek_batas(y, nama)
         return s, y
+
+    def _baris_muat(self, b, w, sisa):
+        """Jumlah baris tabel terbanyak (beserta header) yang muat dalam tinggi sisa."""
+        for k in range(len(b["baris"]) - 1, 0, -1):
+            if D.tinggi_blok(dict(b, baris=b["baris"][:k]), w, self.folder) <= sisa:
+                return k
+        return 0
 
     def _slide_blok(self, sub, sl):
         def buat(lanjutan, judul=None):
@@ -415,7 +440,7 @@ class Pembangun:
             w_chip = D.chip(s, f"Pembahasan {judul}" + (" (lanjutan)" if lanjutan else ""), "strategi")
             if kunci:
                 D.pil(s, D.X_CHIP + w_chip + 0.25, D.Y_CHIP + (D.H_CHIP - 0.56) / 2, f"Jawaban {kunci}",
-                      ukuran=18, warna="kuning", warna_teks="navy", h=0.56, nama="Jawaban")
+                      ukuran=18, warna="kuning", warna_teks="di_kuning", h=0.56, nama="Jawaban")
             kembali = D.tombol(s, D.KIRI, 10.36, "‹ Kembali ke soal")
             kembali.click_action.target_slide = soal_slide[0]
             bahas_slide.append(s)
@@ -492,7 +517,7 @@ class Pembangun:
             par = [P(isi, 18, "navy", spasi=1.3)]
             h = max(1.0, D.tinggi_paragraf(par, w_baris, inset))
             D.kotak(s, D.KIRI, y, w_baris, h, warna="kartu", radius=D.RADIUS, nama=f"Ringkasan {i}")
-            D.lingkaran(s, D.KIRI + 0.3, y + (h - d) / 2, d, "kuning", i, 19, "navy", nama=f"Nomor {i}")
+            D.lingkaran(s, D.KIRI + 0.3, y + (h - d) / 2, d, "kuning", i, 19, "di_kuning", nama=f"Nomor {i}")
             D.teks(s, D.KIRI, y, w_baris, h, par, inset=inset, jangkar="m")
             y += h + 0.2
         y_akhir = y - 0.2 if ada_ringkasan else y0
@@ -502,7 +527,7 @@ class Pembangun:
         sisi = (0.45, 0.45, 0.45, 0.45)
         tinggi_maks = max(y_akhir, D.BATAS_BAWAH) - y0
         for ukuran in (24, 22, 20, 18, 17, 16):  # pesan panjang dari dokumen dikecilkan agar muat
-            pp = [P("Pesan penutup", 16, "kuning", tebal=True, spasi=1.2, setelah=10),
+            pp = [P("Pesan penutup", 16, "kuning_di_gelap", tebal=True, spasi=1.2, setelah=10),
                   P(p["pesan"], ukuran, "putih", tebal=ukuran >= 20, spasi=1.3)]
             if D.tinggi_paragraf(pp, w_pesan, sisi) <= tinggi_maks:
                 break
@@ -553,11 +578,13 @@ def buat_deck(konten, path_template=None, folder=None, tema="opsi-b", sampul="pu
     web) harus membangun deck satu per satu.
     """
     prs = siapkan_presentasi(path_template or TEMPLATE_TEMA.get(tema, TEMPLATE), tema)
+    if palet:
+        import palet as PL
+        PL.pakai_token(palet)  # token kontras palet berlaku selama deck dibangun
     b = Pembangun(prs, konten, folder)
     b.varian_sampul = sampul
     b.bangun()
     if palet:
-        import palet as PL
         PL.terapkan(prs, palet)
     return prs, b
 

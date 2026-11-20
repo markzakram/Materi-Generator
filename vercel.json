@@ -3,7 +3,7 @@
   "functions": {
     "app.py": {
       "maxDuration": 60,
-      "excludeFiles": "{situs/**,output/**,data/**,konten/gambar/**,konten/latihan_*.json}"
+      "excludeFiles": "{situs*/**,konten/ojk/**,output/**,data/**,konten/gambar/**,konten/latihan_*.json}"
     }
   }
 }

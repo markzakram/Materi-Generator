@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "judul": "Room Allocations",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Room Allocations",
+    "sumber": "https://docs.google.com/document/d/1DyUreRcyTFM6TCec4Srlk_cUit5zyv2_XC1OkyArjaU/edit",
+    "id_katalog": "pd-02"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Room Allocations adalah tipe soal penalaran deduktif interaktif yang meminta peserta menempatkan orang, rapat, atau kegiatan ke ruang yang tersedia dengan mematuhi seluruh aturan. Jawaban biasanya dibuat melalui drag-and-drop pada denah, bukan dengan memilih satu opsi A–E. Kondisi dapat berupa kebutuhan ruang khusus, larangan berdekatan, pemisahan departemen, atau keterbatasan waktu dan kapasitas.",
+      "Keberhasilan tidak hanya ditentukan oleh satu aturan, melainkan kecocokan semua batasan sekaligus. Ruangan yang tampak memungkinkan bagi satu orang bisa menjadi tidak layak setelah mempertimbangkan kebutuhan orang lain. Karena itu, penempatan perlu dilakukan dari aturan paling mengikat, dilanjutkan dengan eliminasi dan verifikasi keseluruhan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "objek yang dialokasikan, daftar lokasi, dan makna simbol pada denah."
+      },
+      {
+        "level": "",
+        "kko": "Menerjemahkan",
+        "teks": "kalimat aturan menjadi syarat wajib, larangan, pilihan lokasi, dan aturan relasi."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "kapasitas ruangan dan kapasitas waktu ketika soal menggunakan durasi."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "kemungkinan penempatan tanpa menambahkan aturan yang tidak tertulis."
+      },
+      {
+        "level": "",
+        "kko": "Menemukan",
+        "teks": "setidaknya satu susunan valid dan memeriksa apakah jawaban bersifat unik."
+      },
+      {
+        "level": "",
+        "kko": "Memverifikasi",
+        "teks": "seluruh batasan sebelum memilih atau menyeret objek pada antarmuka."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Struktur dasar soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Struktur dasar soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap soal terdiri atas (a) unit yang ditempatkan, misalnya pegawai atau rapat; (b) lokasi yang tersedia dan denah; (c) informasi tiap unit; (d) aturan global yang berlaku untuk semua; serta (e) target tugas, misalnya “tempatkan setiap orang ke ruangan yang sesuai”."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur",
+                "Pertanyaan yang harus dijawab"
+              ],
+              "baris": [
+                [
+                  "Unit",
+                  "Siapa/apa yang dipindahkan?"
+                ],
+                [
+                  "Ruang",
+                  "Berapa ruang yang tersedia dan mana yang dapat digunakan?"
+                ],
+                [
+                  "Kapasitas",
+                  "Apakah satu ruangan boleh diisi lebih dari satu orang/kegiatan?"
+                ],
+                [
+                  "Batasan khusus",
+                  "Siapa wajib sendiri, harus di ruang tertentu, atau tidak boleh dekat sesuatu?"
+                ],
+                [
+                  "Batasan global",
+                  "Apakah departemen berbeda boleh berbagi? Apakah ada batas total jam?"
+                ],
+                [
+                  "Output",
+                  "Apakah cukup satu solusi valid atau diminta susunan yang pasti?"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jenis aturan dan cara menafsirkannya",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jenis aturan dan cara menafsirkannya",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis aturan",
+                "Contoh",
+                "Implikasi"
+              ],
+              "baris": [
+                [
+                  "Penempatan wajib",
+                  "“Harus menggunakan Ruang 2”",
+                  "Lokasi unit langsung ditetapkan."
+                ],
+                [
+                  "Larangan",
+                  "“Tidak boleh di sebelah mesin fotokopi”",
+                  "Coret lokasi yang terbukti bersebelahan dengan mesin."
+                ],
+                [
+                  "Kapasitas",
+                  "“Harus bekerja sendiri”",
+                  "Tidak boleh berbagi ruang yang sama."
+                ],
+                [
+                  "Departemen",
+                  "“Departemen berbeda tidak boleh berbagi ruangan”",
+                  "Satu ruang yang dipakai bersama hanya dapat berisi satu departemen."
+                ],
+                [
+                  "Pilihan kondisional",
+                  "“Ruang Rapat hanya jika ruang lain tidak tersedia”",
+                  "Gunakan ruang prioritas lain lebih dahulu jika memungkinkan."
+                ],
+                [
+                  "Durasi",
+                  "“Rapat 6 jam, tersedia pukul 08.00–16.00”",
+                  "Akumulasi pemakaian per ruang tidak boleh melebihi 8 jam jika rapat berlangsung berurutan."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan menafsirkan “tidak boleh berbeda departemen” sebagai “setiap orang harus sendiri”. Orang dari departemen yang sama dapat berbagi ruang jika tidak ada larangan dan kapasitas memadai. Sebaliknya, lokasi seperti koridor tidak otomatis dihitung sebagai ruang kerja yang boleh ditempati; perlu aturan eksplisit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca denah: bersebelahan vs satu ruangan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca denah: bersebelahan vs satu ruangan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “di sebelah” mengacu pada kedekatan spasial yang harus didukung denah. Ruang yang berada dekat dalam tampilan belum tentu bersisian langsung; perhatikan garis batas dan letak pintu jika tersedia. “Satu ruangan” berarti berbagi zona ruang yang sama, sedangkan “dekat” atau “bersebelahan” membutuhkan definisi posisi pada gambar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Durasi dan kapasitas ruang",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Durasi dan kapasitas ruang",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika dua ruang sama-sama tersedia pukul 08.00–16.00, setiap ruang menyediakan 8 jam penggunaan pada hari tersebut. Untuk rapat yang dilakukan satu demi satu dalam satu ruang: jumlah durasi setiap ruang ≤ 8 jam. Ketentuan ini berbeda dari kapasitas jumlah orang. Gunakan penjumlahan durasi hanya jika soal memang menyatakan ruang tidak boleh dipakai oleh dua rapat pada waktu bersamaan dan semua rapat harus selesai hari itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: rapat 2 jam dan rapat 6 jam dapat ditempatkan pada satu ruangan karena totalnya 8 jam; rapat 4 jam dan 3 jam dapat ditempatkan bersama karena total 7 jam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi eliminasi dan backtracking",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi eliminasi dan backtracking",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Metode P–B–E–V: Pahami objek/ruang, Batasi kemungkinan untuk setiap orang, Eliminasi kombinasi yang melanggar, Verifikasi solusi. Awali dari pernyataan paling spesifik seperti “harus di Ruang 2”, “harus sendiri”, atau lokasi yang terlarang. Tempatkan objek fleksibel terakhir. Bila buntu, batalkan asumsi penempatan yang belum pasti lalu uji alternatif berikutnya (backtracking)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menjaga ketelitian, gunakan tabel kandidat berisi tanda ✓ (boleh), × (tidak boleh), dan ? (belum dapat dipastikan). Mengisi sel ? dengan keputusan pasti tanpa bukti merupakan sumber kesalahan yang sering terjadi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Solusi valid dan solusi unik",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Solusi valid dan solusi unik",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Solusi valid adalah satu penempatan yang memenuhi seluruh aturan. Solusi unik berarti tidak ada penempatan lain yang juga memenuhi seluruh aturan. Jika soal hanya meminta satu susunan yang sesuai, satu solusi valid sudah cukup. Namun, apabila materi menyebut “pasti” atau kunci tunggal, perlu pembuktian bahwa alternatif lain mustahil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kebutuhan Ruang Rapat",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_room_allocations/gambar-01.png",
+              "lebar": 5.94,
+              "tinggi": 4.4
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban:** Ruang Timur = George dan Helen; Ruang Barat = Fei dan Ian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap ruang memiliki 8 jam pemakaian. Karena George harus di Ruang Timur selama 2 jam, sisa waktu Ruang Timur adalah 6 jam. Helen membutuhkan 6 jam sehingga keduanya tepat mengisi Timur (2 + 6 = 8). Fei memerlukan 4 jam dan Ian 3 jam, sehingga dapat ditempatkan berurutan di Barat dengan total 7 jam. Kapasitas jam kedua ruang tidak dilanggar, semua rapat selesai dalam satu hari, dan pembatasan khusus George terpenuhi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan: Timur 8/8 jam, Barat 7/8 jam, total 15 jam dari kapasitas gabungan 16 jam. Dengan anggapan setiap rapat menggunakan satu ruang penuh dan tidak dipecah, penempatan tersebut merupakan kombinasi yang dipaksakan oleh aturan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pembatasan Departemen dan Lokasi",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_room_allocations/gambar-02.png",
+              "lebar": 5.88,
+              "tinggi": 5.0
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Andrew → Ruang 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beatrice → Ruang Rapat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Charlie dan Diana → Ruang 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Edward → Ruang 1"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Charlie harus ditempatkan di Ruang 2** karena pada soal disebutkan bahwa Charlie wajib menggunakan ruangan tersebut. Oleh karena itu, Ruang 2 menjadi lokasi tetap Charlie.",
+                "**Diana dapat ditempatkan bersama Charlie di Ruang 2** karena keduanya berasal dari departemen Penjualan. Aturan soal hanya melarang pegawai dari departemen berbeda berbagi ruangan. Dengan demikian, Charlie dan Diana boleh menggunakan ruangan yang sama.",
+                "**Edward ditempatkan di Ruang 1** karena terdapat aturan bahwa Edward tidak boleh berada di sebelah mesin fotokopi. Berdasarkan denah, Ruang 3 berbatasan langsung dengan mesin fotokopi sehingga tidak dapat digunakan Edward. Ruang 1 memenuhi aturan tersebut karena tidak bersebelahan langsung dengan mesin fotokopi.",
+                "**Andrew ditempatkan di Ruang 3** karena Andrew harus bekerja sendiri dan tidak boleh berbagi ruangan dengan pegawai lain. Ruang 3 masih tersedia dan tidak memiliki batasan khusus yang melarang Andrew menggunakannya. Dengan demikian, Andrew dapat menempati Ruang 3 seorang diri.",
+                "**Beatrice ditempatkan di Ruang Rapat** karena seluruh ruang kerja lainnya sudah digunakan. Ruang 1 ditempati Edward, Ruang 2 ditempati Charlie dan Diana, sedangkan Ruang 3 ditempati Andrew. Sesuai aturan soal, pegawai dari departemen SDM diperbolehkan menggunakan Ruang Rapat apabila tidak ada ruangan lain yang tersedia."
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Denah Kompleks SHL",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_room_allocations/gambar-03.png",
+              "lebar": 6.27,
+              "tinggi": 3.35
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Control Room: Dimas dan Raka"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Room A: Arman"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Room B: Sinta"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Briefing Room: Bella"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Corridor: tidak digunakan sebagai ruang penempatan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dimas harus ditempatkan di Control Room karena membutuhkan akses sistem yang tersedia di ruangan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Raka berasal dari departemen yang sama dengan Dimas, yaitu Operations, dan tidak memiliki batasan khusus. Karena peserta dari departemen yang sama diperbolehkan berbagi ruangan, Raka dapat ditempatkan bersama Dimas di Control Room."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sinta tidak dapat ditempatkan di Room A karena ruangan tersebut berbatasan langsung dengan Control Room. Sinta juga tidak dapat berbagi ruangan dengan peserta dari departemen lain. Oleh karena itu, Sinta ditempatkan di Room B."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Arman harus bekerja sendiri di Room A untuk menangani dokumen rahasia. Dengan demikian, Room A hanya ditempati oleh Arman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bella berasal dari departemen Legal dan tidak memiliki batasan khusus. Setelah Control Room digunakan oleh Operations, Room A digunakan Arman, dan Room B digunakan Sinta, tidak ada ruang lain yang tersedia bagi Bella. Sesuai ketentuan, Briefing Room dapat digunakan oleh Legal apabila ruang lainnya tidak tersedia. Oleh karena itu, Bella ditempatkan di Briefing Room."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, susunan akhirnya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dimas dan Raka → Control Room Arman → Room A Sinta → Room B Bella → Briefing Room"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kesalahan Umum",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Perbaikan"
+              ],
+              "baris": [
+                [
+                  "Menempatkan orang fleksibel lebih dulu",
+                  "Mulai dari yang memiliki ruang wajib atau larangan paling banyak."
+                ],
+                [
+                  "Menganggap satu departemen wajib satu ruangan",
+                  "Baca aturan kapasitas orang secara eksplisit."
+                ],
+                [
+                  "Menyamakan durasi jam dengan jumlah kursi",
+                  "Pisahkan kapasitas waktu dan kapasitas orang."
+                ],
+                [
+                  "Menganggap koridor otomatis lokasi sah",
+                  "Pastikan area itu termasuk tujuan penempatan."
+                ],
+                [
+                  "Menganggap solusi yang ditemukan pasti unik",
+                  "Uji setidaknya satu alternatif yang relevan."
+                ],
+                [
+                  "Mengabaikan batasan global",
+                  "Periksa ulang seluruh aturan untuk setiap unit."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Struktur dasar soal",
+        "teks": ""
+      },
+      {
+        "judul": "Jenis aturan dan cara menafsirkannya",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca denah: bersebelahan vs satu ruangan",
+        "teks": ""
+      },
+      {
+        "judul": "Durasi dan kapasitas ruang",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi eliminasi dan backtracking",
+        "teks": ""
+      },
+      {
+        "judul": "Solusi valid dan solusi unik",
+        "teks": ""
+      }
+    ],
+    "pesan": "Room Allocations mengukur kemampuan menggabungkan sejumlah aturan, membaca denah, dan membuat penempatan yang konsisten. Cara yang paling efisien adalah memahami unsur soal, mendahulukan unit berkendala ketat, mengeliminasi kandidat yang mustahil, lalu memeriksa seluruh batasan. Untuk tugas interaktif, ketelitian membaca lokasi sama pentingnya dengan logika penempatan. Ringkasan metode P–B–E–V: Pahami → Batasi → Eliminasi → Verifikasi. Jangan menambahkan kapasitas, aturan kedekatan, atau larangan baru yang tidak dinyatakan dalam stimulus."
+  }
+}

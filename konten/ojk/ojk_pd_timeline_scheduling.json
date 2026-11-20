@@ -1,0 +1,1354 @@
+{
+  "meta": {
+    "judul": "Timeline Scheduling",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Timeline Scheduling",
+    "sumber": "https://docs.google.com/document/d/1uywjxquMQRfUxr12ohHEeVNQnUNg3IDO/edit",
+    "id_katalog": "pd-03"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Timeline Scheduling adalah bentuk penalaran deduktif interaktif yang menggunakan kalender atau garis waktu untuk menempatkan suatu kegiatan sesuai batasan yang diberikan. Peserta tidak sekadar mencari kotak putih, tetapi harus memeriksa siapa yang tersedia, kegiatan mana yang dapat dipindahkan, apakah ruang lain diperlukan, atau berapa petugas yang sedang bertugas pada setiap interval.",
+      "Bayangkan suatu rapat perlu dimajukan. Walaupun Kalender Anda kosong pada pukul tertentu, rapat belum tentu dapat dilaksanakan karena rekan lain mungkin memiliki agenda. Pada situasi berbeda, jadwal pelatihan harus mempertimbangkan persiapan, pemakaian ruang pendukung, dan pembongkaran peralatan. Dalam penugasan petugas, kotak yang terisi justru menunjukkan bahwa tim sedang bekerja. Arti tiap kotak bergantung pada konteks pertanyaan.",
+      "Bentuk latihan dalam materi ini mengikuti tiga pola utama yang tercantum pada blueprint Timeline Scheduling: penjadwalan ulang rapat tim, reservasi ruang pelatihan, dan pemenuhan jumlah petugas. Ketiga pola memakai satu tampilan bersama, yakni tiga baris informasi yang diketahui dan satu baris jawaban. Perbedaannya terletak pada aturan penalaran yang harus diperiksa.",
+      "Dalam latihan, kita membaca seluruh syarat terlebih dahulu, memecah jadwal menjadi interval yang mudah diperiksa, lalu menguji apakah pilihan memenuhi semua syarat sekaligus. Materi ini berfokus pada mekanisme tersebut, bukan pada hafalan susunan kotak atau perkiraan berdasarkan warna semata."
+    ],
+    "pemantik": "",
+    "ikon": "presenter",
+    "gambar": "media/ojk_pd_timeline_scheduling/gambar-01.png"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membaca",
+        "teks": "empat baris jadwal dengan 18 kotak per baris dan menentukan waktu setiap kotak secara akurat."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "kegiatan yang terisi, waktu kosong, blok jawaban, serta arti warna pada konteks yang berbeda."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "tabrakan waktu dan memindahkan satu kegiatan secara utuh dengan batas perpindahan yang diizinkan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "satu rentang reservasi yang memenuhi urutan kegiatan dan ketergantungan antarruangan."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "kebutuhan tambahan petugas pada setiap interval aktif, termasuk waktu istirahat."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "seluruh batasan, memilih jawaban yang sah, dan menjelaskan alasan kandidat lain ditolak."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Mengenali tampilan dan empat baris jadwal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengenali tampilan dan empat baris jadwal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu soal terdiri atas empat baris. Tiga baris pertama berisi informasi yang diketahui; baris keempat digunakan untuk menempatkan jawaban. Pada soal rapat, barisnya berupa tiga kalender rekan dan Kalender Anda. Pada soal ruang, tiga jadwal ruang menjadi acuan untuk mengatur Ruang 4. Pada soal petugas, jadwal Tim A, B, dan C dipakai untuk menentukan kapan Tim D harus bertugas."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis soal",
+                "Baris informasi",
+                "Baris jawaban",
+                "Pertanyaan utama"
+              ],
+              "baris": [
+                [
+                  "Rapat tim",
+                  "Tiga orang yang perlu hadir",
+                  "Kalender Anda",
+                  "Kapan rapat dapat dipindah ke waktu yang sah?"
+                ],
+                [
+                  "Reservasi ruangan",
+                  "Ruang 1, Ruang 2, Ruang 3",
+                  "Ruang 4",
+                  "Kapan satu rangkaian pelatihan dapat berlangsung?"
+                ],
+                [
+                  "Kebutuhan petugas",
+                  "Tim A, Tim B, Tim C",
+                  "Tim D",
+                  "Pada interval mana tambahan petugas dibutuhkan?"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nama pada jadwal adalah label untuk membantu membaca informasi, bukan aturan tambahan. Satu soal rapat tidak boleh diperlakukan seperti soal ruangan, dan kotak abu-abu pada jadwal petugas tidak boleh ditafsirkan menggunakan arti yang sama seperti pada kalender rapat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca waktu dan jumlah kotak",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca waktu dan jumlah kotak",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seluruh baris menggunakan hari yang sama, yaitu pukul 09.00–18.00. Setiap baris mempunyai tepat 18 kotak; satu kotak selalu setara dengan 30 menit. Angka 18.00 merupakan batas akhir jadwal, bukan kotak ke-19. Posisi kotak menentukan waktu, sedangkan lebar blok menunjukkan durasinya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jumlah kotak",
+                "Durasi",
+                "Contoh interval"
+              ],
+              "baris": [
+                [
+                  "1 kotak",
+                  "30 menit",
+                  "09.00–09.30"
+                ],
+                [
+                  "2 kotak",
+                  "60 menit",
+                  "10.00–11.00"
+                ],
+                [
+                  "3 kotak",
+                  "90 menit",
+                  "13.30–15.00"
+                ],
+                [
+                  "7 kotak",
+                  "210 menit",
+                  "10.00–13.30 (gabungan beberapa fase)"
+                ],
+                [
+                  "8 kotak",
+                  "240 menit",
+                  "10.00–14.00 (gabungan beberapa fase)"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan batas waktu: kegiatan pukul 10.00–11.00 dan 11.00–11.30 boleh berdampingan karena tidak berbagi waktu. Sebaliknya, kegiatan 10.00–11.00 dan 10.30–11.30 bertabrakan karena sama-sama memakai interval 10.30–11.00. Ini menjadi dasar pemeriksaan semua jenis soal."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-02.png",
+              "lebar": 6.22,
+              "tinggi": 1.33
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ilustrasi konsep. B boleh dimulai tepat ketika A selesai; C tidak boleh ditempatkan pada orang atau ruangan yang sama dengan A karena berbagi 30 menit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca warna berdasarkan konteks",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca warna berdasarkan konteks",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal rapat dan ruangan, abu-abu berarti waktu sudah terisi sehingga tidak bebas dipakai begitu saja. Kotak putih menunjukkan waktu yang belum terisi. Pilihan peserta dapat ditandai dengan warna berbeda, misalnya hijau; warna pilihan bukan bukti bahwa jawaban benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Khusus pada soal kebutuhan petugas, kotak abu-abu Tim A, B, atau C berarti anggota tim sedang menjalankan tugas dan ikut dihitung sebagai petugas aktif. Jadi, abu-abu tidak berarti tim sedang tidak tersedia. Pada Tim D, kotak pilihan menunjukkan waktu penugasan tambahan yang harus dipilih. Jam acara ditutup, seperti istirahat makan siang, tidak perlu diisi."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Konteks",
+                "Kotak abu-abu",
+                "Kotak putih",
+                "Makna jawaban"
+              ],
+              "baris": [
+                [
+                  "Rapat",
+                  "Ada janji/kegiatan",
+                  "Tidak ada kegiatan terjadwal",
+                  "Satu blok rapat bersama"
+                ],
+                [
+                  "Ruangan",
+                  "Ruangan telah dipakai",
+                  "Ruangan belum dipakai",
+                  "Satu blok reservasi utuh"
+                ],
+                [
+                  "Petugas",
+                  "Tim sedang bertugas",
+                  "Tim tidak ditugaskan",
+                  "Semua interval kekurangan petugas"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menentukan batas satu kegiatan dan tabrakan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menentukan batas satu kegiatan dan tabrakan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu kegiatan memiliki waktu mulai, waktu selesai, nama, dan durasi. Dalam latihan ini, kegiatan awal berlangsung selama satu sampai tiga kotak berurutan. Dua kegiatan yang menempel tanpa sela tetap harus dibedakan berdasarkan nama dan batas bloknya. Misalnya, Rapat Proyek 10.00–11.00 yang langsung disusul Tinjauan Dokumen 11.00–11.30 merupakan dua kegiatan, bukan satu rapat 90 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika suatu rapat berdurasi satu jam, kedua kotaknya merupakan satu blok utuh. Ketika rapat tersebut dipindahkan, kedua kotak bergerak bersama; kita tidak boleh hanya memindahkan bagian 10.00–10.30 dan membiarkan bagian lain di tempat semula. Kegiatan 10.00–11.00 yang dimundurkan 30 menit menjadi 10.30–11.30, bukan 11.00–12.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk memastikan tidak terjadi tabrakan, gunakan langkah berikut: tentukan batas awal dan akhir setiap kegiatan; cek apakah dua kegiatan berada pada orang atau ruangan yang sama; lalu lihat apakah ada interval 30 menit yang dipakai bersama. Jika sebuah kegiatan digeser, hilangkan dahulu posisinya yang lama sebelum menguji posisi baru. Satu kegiatan tidak boleh muncul dua kali."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-03.png",
+              "lebar": 6.22,
+              "tinggi": 1.97
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ilustrasi konsep. Perhatikan ketiga contoh durasi: kegiatan 30, 60, dan 90 menit sama-sama dapat digeser 30 menit tanpa dipotong."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menjadwalkan ulang rapat tim",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menjadwalkan ulang rapat tim",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola rapat, tiga rekan mempunyai jadwal masing-masing dan Kalender Anda memuat janji yang harus dihormati. Tugas peserta adalah mencari satu waktu yang lebih awal daripada rapat semula, dengan semua peserta dapat hadir. Apabila petunjuk mengizinkan, setiap rekan boleh menggeser paling banyak satu kegiatan awal, sejauh 30 menit ke depan atau ke belakang. Ini merupakan batas untuk masing-masing rekan, bukan jatah satu perpindahan bagi seluruh tim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Janji pribadi pada Kalender Anda tidak boleh digeser. Kegiatan demo kepada klien juga tetap. Jika Rapat Tim Proyek semula dipindahkan, ruang waktunya yang lama tidak lagi menjadi penghalang bagi rapat itu sendiri. Perubahan waktu rapat target tidak otomatis dibatasi 30 menit; batas tersebut digunakan untuk kegiatan lain yang memang diizinkan bergeser."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Ketentuan",
+                "Cara memeriksa"
+              ],
+              "baris": [
+                [
+                  "Lebih awal dari rapat semula",
+                  "Waktu mulai baru harus lebih awal daripada waktu mulai semula."
+                ],
+                [
+                  "Semua peserta hadir",
+                  "Satu rentang harus layak untuk Kalender Anda dan ketiga rekan."
+                ],
+                [
+                  "Maksimal satu kegiatan per rekan",
+                  "Jika perlu, hanya satu agenda dari tiap rekan yang digeser."
+                ],
+                [
+                  "Pergeseran ±30 menit",
+                  "Seluruh blok bergerak satu kotak, tanpa memotong durasi."
+                ],
+                [
+                  "Demo dan janji pribadi tetap",
+                  "Tidak boleh dipindah sekalipun hasilnya tampak memudahkan."
+                ],
+                [
+                  "Jawaban satu rapat utuh",
+                  "Pilih kotak berurutan sebanyak durasi rapat."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penting: bila perintah hanya berbunyi “ke waktu yang lebih awal”, jawabannya harus memang tunggal. Jika beberapa waktu lebih awal sama-sama mungkin, soal perlu menyatakan kriteria lain seperti “waktu paling awal”. Jangan menambahkan kriteria semacam itu atas inisiatif sendiri."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Reservasi pelatihan yang bergantung pada ruangan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Reservasi pelatihan yang bergantung pada ruangan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola ruangan, jadwal Ruang 1–3 sudah ditetapkan. Ruang 4 akan digunakan untuk dua sesi pelatihan TI. Setiap sesi berlangsung 60 menit dan memerlukan persiapan 30 menit. Sesudah sesi kedua terdapat pembongkaran peralatan. Seluruh fase harus berurutan tanpa jeda sehingga jawaban berbentuk satu reservasi lengkap, bukan beberapa pilihan yang terpisah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan fase",
+                "Durasi",
+                "Jumlah kotak"
+              ],
+              "baris": [
+                [
+                  "Persiapan pelatihan pertama",
+                  "30 menit",
+                  "1"
+                ],
+                [
+                  "Pelatihan TI pertama",
+                  "60 menit",
+                  "2"
+                ],
+                [
+                  "Persiapan pelatihan kedua",
+                  "30 menit",
+                  "1"
+                ],
+                [
+                  "Pelatihan TI kedua",
+                  "60 menit",
+                  "2"
+                ],
+                [
+                  "Pembongkaran peralatan",
+                  "30 atau 60 menit",
+                  "1 atau 2"
+                ],
+                [
+                  "TOTAL RESERVASI",
+                  "210 atau 240 menit",
+                  "7 atau 8"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selama seluruh reservasi, Ruang 4 dan ruang pendukung yang disebut pada soal (dalam contoh: Ruang 3) harus kosong. Pelatihan pertama dan kedua tidak boleh berlangsung bersamaan dengan Rapat Penjualan di ruangan lain. Namun, larangan Rapat Penjualan tersebut tidak otomatis berlaku pada fase persiapan atau pembongkaran jika soal hanya melarangnya saat pelatihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Catatan ketelitian durasi: sumber rujukan menampilkan pembongkaran 45 menit. Durasi ini tidak sama dengan kelipatan penuh dari kotak 30 menit. Karena itu, versi latihan berbasis grid tetap menggunakan pembongkaran 30 atau 60 menit, dan durasinya selalu dinyatakan pada soal. Ini penyesuaian produksi yang disebutkan dalam blueprint, bukan salinan identik dari contoh sumber."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menjadwalkan tim untuk memenuhi kebutuhan petugas",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menjadwalkan tim untuk memenuhi kebutuhan petugas",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola penugasan, ketiga tim yang telah memiliki jadwal menyumbang jumlah petugas sesuai anggotanya. Contoh dasarnya menggunakan Tim A berisi empat orang, Tim B enam orang, Tim C delapan orang, dan Tim D empat orang. Acara membutuhkan sedikitnya enam petugas setiap interval aktif pukul 10.00–17.00, tetapi tutup untuk makan siang pada 12.00–13.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung jumlah petugas dari semua tim yang memiliki blok abu-abu pada kotak yang sama. Bila jumlah awal sudah enam atau lebih, Tim D tidak diperlukan. Bila hanya empat orang yang aktif, Tim D dapat ditambahkan sehingga jumlahnya delapan. Bila belum ada petugas sama sekali, tambahan empat orang dari Tim D tetap tidak mencapai enam; kondisi seperti itu membuat contoh tidak dapat diselesaikan dan perlu diperbaiki."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menghasilkan jawaban yang tunggal, perintah menyatakan bahwa Tim D hanya dijadwalkan pada waktu yang benar-benar membutuhkan tambahan, dengan total waktu bertugas minimum. Karena kekurangan dapat muncul pada beberapa waktu terpisah, jawaban Tim D boleh terdiri atas dua atau lebih blok yang tidak berdekatan. Ini berbeda dari reservasi ruangan dan satu rapat, yang harus berupa blok berurutan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jumlah awal pada 1 kotak aktif",
+                "Tambahan Tim D (4)",
+                "Keputusan"
+              ],
+              "baris": [
+                [
+                  "4 orang",
+                  "4 + 4 = 8 orang",
+                  "Pilih kotak tersebut: semula kurang dari 6."
+                ],
+                [
+                  "6 orang",
+                  "Tidak diperlukan",
+                  "Jangan pilih: kebutuhan sudah terpenuhi."
+                ],
+                [
+                  "8 orang",
+                  "Tidak diperlukan",
+                  "Jangan pilih: penugasan berlebih."
+                ],
+                [
+                  "0 orang",
+                  "0 + 4 = 4 orang",
+                  "Tidak ada solusi untuk kotak itu; soal harus direvisi."
+                ],
+                [
+                  "Jam makan siang (12.00–13.00)",
+                  "Tidak dihitung",
+                  "Jangan pilih: acara sedang ditutup."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menggunakan informasi kegiatan yang muncul saat hover",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menggunakan informasi kegiatan yang muncul saat hover",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tampilan interaktif, informasi tentang kegiatan dapat muncul saat penunjuk diarahkan ke kotak: nama kegiatan, rentang waktu, durasi, dan status apakah kegiatan tetap atau boleh digeser. Beberapa kotak abu-abu yang saling menempel mungkin ternyata mewakili dua kegiatan berlainan. Karena itu, warna saja tidak selalu memberi cukup informasi untuk memutuskan apakah suatu perpindahan sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam dokumen Word ini, informasi yang biasanya tampil melalui hover dituliskan kembali dalam tabel keterangan kegiatan pada setiap contoh. Kode singkat, seperti A1 atau R3b, dipakai di diagram agar 18 kotak tetap terbaca. Kode tersebut harus dicocokkan dengan nama dan durasi pada tabel; kode bukan petunjuk tambahan untuk jawaban."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menguji semua syarat sebelum menetapkan jawaban",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menguji semua syarat sebelum menetapkan jawaban",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban yang tampak kosong belum tentu sah. Pada rapat, periksa kembali agenda setiap orang sebelum dan sesudah perpindahan. Pada ruangan, periksa setiap fase termasuk persiapan dan pembongkaran; jangan hanya memeriksa jam dua pelatihannya. Pada petugas, periksa setiap kotak aktif dan abaikan jam istirahat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keunikan jawaban juga wajib diuji. Beberapa cara menggeser janji dapat diterima jika semuanya menghasilkan satu jam rapat yang sama dan soal hanya meminta jam rapat. Sebaliknya, jika ada dua jam rapat yang sama-sama sah tetapi soal tidak menyebut prioritas, jawaban tidak tunggal. Untuk latihan yang dapat digunakan, semua kandidat diperiksa dan hanya satu jawaban akhir yang dipertahankan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perbedaan inti ketiga pola",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbedaan inti ketiga pola",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Rapat tim",
+                "Ruangan",
+                "Petugas"
+              ],
+              "baris": [
+                [
+                  "Yang dicari",
+                  "Jam rapat bersama",
+                  "Rentang reservasi",
+                  "Waktu bantuan Tim D"
+                ],
+                [
+                  "Perubahan agenda awal",
+                  "Boleh, sangat terbatas",
+                  "Tidak boleh",
+                  "Tidak boleh"
+                ],
+                [
+                  "Pola pilihan",
+                  "Berurutan",
+                  "Berurutan",
+                  "Boleh terpisah"
+                ],
+                [
+                  "Hal yang paling mudah terlewat",
+                  "Blok rapat bergerak utuh",
+                  "Ruang pendukung dan fase penunjang",
+                  "Kotak abu-abu berarti petugas aktif"
+                ],
+                [
+                  "Kriteria hasil",
+                  "Satu waktu rapat yang sah",
+                  "Satu rentang lengkap yang sah",
+                  "Semua kekurangan tertutup secara minimum"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab dan Cara Cepat",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab dan Cara Cepat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan urutan yang sama pada setiap soal. Penalaran yang terstruktur lebih andal daripada menebak dari kotak yang tampak kosong."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Tahap",
+                "Tindakan praktis"
+              ],
+              "baris": [
+                [
+                  "1. Tentukan profil",
+                  "Rapat, ruangan, atau kebutuhan petugas?"
+                ],
+                [
+                  "2. Baca batas waktu",
+                  "Pastikan awal/akhir hari, durasi, jam istirahat, dan waktu target."
+                ],
+                [
+                  "3. Pahami arti warna",
+                  "Periksa apakah abu-abu menandai agenda terisi atau tim bertugas."
+                ],
+                [
+                  "4. Pecah menjadi interval",
+                  "Tandai seluruh slot 30 menit yang relevan."
+                ],
+                [
+                  "5. Uji kendala",
+                  "Periksa perpindahan yang diizinkan, ketergantungan ruang, atau kebutuhan minimum."
+                ],
+                [
+                  "6. Verifikasi jawaban",
+                  "Pilih satu blok atau seluruh kotak minimum sesuai profil; cek seluruh syarat."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Cara cepat khusus tiap pola",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rapat: mulai dari slot kosong pada Kalender Anda, lalu silang dengan tiga kalender rekan. Jika ada konflik, uji hanya satu kegiatan yang dapat digeser ±30 menit bagi rekan yang bersangkutan. Jangan memindahkan agenda pribadi atau demo klien."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ruangan: jumlahkan dulu durasi lima fase. Buat daftar kandidat yang cukup panjang pada Ruang 4 dan Ruang 3. Uji jam dua sesi pelatihan terhadap Rapat Penjualan setelah kandidat lolos uji ruangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petugas: bagi waktu acara menjadi kotak-kotak 30 menit. Jumlahkan anggota tim yang aktif pada tiap kotak, tandai yang masih di bawah enam, dan cek apakah Tim D cukup untuk menutupnya. Jangan memilih waktu ketika jumlah awal sudah memenuhi kebutuhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengelolaan waktu: pemetaan internal menempatkan 12 soal Tes Penalaran Deduktif dalam 18 menit, sehingga rata-ratanya 90 detik per soal jika pembagian waktu sama rata. Angka tersebut merupakan patokan latihan, bukan batas waktu tersendiri untuk tiap butir Timeline Scheduling. Utamakan pembacaan ketentuan yang menentukan kunci."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1. Memajukan rapat tim proyek",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Anda, Alya, Bayu, dan Citra merupakan anggota proyek implementasi aplikasi. Rapat Tim Proyek semula berlangsung pukul 15.30–16.30, dan Anda perlu memindahkannya ke waktu yang lebih awal. Setiap rekan boleh memindahkan paling banyak satu kegiatan awal selama 30 menit lebih cepat atau lebih lambat, dengan durasi kegiatan tetap. Janji pribadi pada Kalender Anda dan demo kepada klien tidak boleh dipindahkan. Tentukan satu rentang waktu rapat yang dapat dihadiri semua peserta."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-04.png",
+              "lebar": 6.22,
+              "tinggi": 1.42,
+              "keterangan": "Gambar 2. Kondisi awal, sebelum ada kegiatan yang digeser. Ungu menunjukkan rapat semula. Kode blok dijabarkan pada tabel berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Baris",
+                "Keterangan blok pada gambar (pengganti informasi hover)"
+              ],
+              "baris": [
+                [
+                  "Alya",
+                  "A1 Rapat Harian Proyek (09.00–10.00); A2 Tinjauan Data Proyek (10.00–10.30); A3 Rapat Proyek (11.00–12.00); A4 Demo Aplikasi Klien (13.30–15.00); A5 Tinjauan Spesifikasi (16.00–17.00); A6 Koordinasi Tim Pengembang (17.00–17.30)"
+                ],
+                [
+                  "Bayu",
+                  "B1 Pembahasan Anggaran Proyek (09.30–11.00); B2 Koordinasi Implementasi (12.00–12.30); B3 Analisis Hasil Uji (13.00–14.30); B4 Rapat Kebutuhan Klien (15.00–16.00); B5 Peninjauan Rencana Rilis (17.00–18.00)"
+                ],
+                [
+                  "Citra",
+                  "C1 Rapat Harian Proyek (09.00–10.30); C2 Tinjauan Spesifikasi (10.30–11.30); C3 Analisis Hasil Uji (13.00–14.30); C4 Demo Aplikasi Klien (15.30–17.00); C5 Koordinasi Tim Pengembang (17.00–17.30)"
+                ],
+                [
+                  "Kalender Anda",
+                  "D1 Agenda pribadi tetap 1 (09.00–10.00); D2 Agenda pribadi tetap 2 (10.30–11.30); D3 Agenda pribadi tetap 3 (12.30–13.30); D4 Agenda pribadi tetap 4 (14.00–15.30); RT Rapat Tim Proyek (semula) (15.30–16.30); D5 Agenda pribadi tetap 5 (17.00–18.00)"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Irisan ketersediaan empat orang, pemindahan paling banyak satu kegiatan per rekan sejauh satu kotak, dan durasi rapat dua kotak yang tetap utuh."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Periksa Kalender Anda terlebih dahulu. Sebelum rapat semula dimulai pukul 15.30, terdapat tiga celah kosong: 10.00–10.30 (30 menit), 11.30–12.30 (60 menit), dan 13.30–14.00 (30 menit). Karena Rapat Tim Proyek membutuhkan dua kotak berurutan atau 60 menit, hanya celah 11.30–12.30 yang cukup panjang pada Kalender Anda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Alya semula mempunyai Rapat Proyek 11.00–12.00 (A3). Rapat itu dapat dimajukan utuh ke 10.30–11.30. Agenda A2 selesai tepat pukul 10.30, sehingga A3 yang dipindahkan tidak bertabrakan. Alya menjadi tersedia pukul 11.30–12.30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Bayu memiliki Koordinasi Implementasi 12.00–12.30 (B2). Pindahkan kegiatan itu utuh ke 12.30–13.00. Kegiatan B3 baru dimulai pukul 13.00 sehingga Bayu juga tersedia pada 11.30–12.30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Citra tidak memiliki agenda pada 11.30–12.30 sehingga tidak perlu menggeser kegiatan. Demo klien Alya dan Citra tetap pada jam semula; seluruh janji pribadi Anda juga tidak diubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Setelah A3 Alya dimajukan utuh ke 10.30–11.30 dan B2 Bayu dimundurkan utuh ke 12.30–13.00, Alya, Bayu, dan Citra sama-sama tersedia pada 11.30–12.30, begitu pula Kalender Anda. Karena sebelum pukul 15.30 hanya rentang tersebut yang menyediakan 60 menit kosong pada Kalender Anda, tidak ada kandidat waktu lain yang dapat memenuhi durasi rapat. Dengan demikian, 11.30–12.30 adalah satu-satunya jadwal yang sah bagi keempat peserta."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-05.png",
+              "lebar": 6.22,
+              "tinggi": 1.42,
+              "keterangan": "Gambar 3. Kondisi akhir: A3 Alya digeser menjadi 10.30–11.30, B2 Bayu menjadi 12.30–13.00, dan rapat baru berada pada 11.30–12.30. Biru menandai kegiatan yang dipindah; hijau menandai pilihan rapat."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Agenda yang berubah",
+                "Waktu semula",
+                "Waktu setelah pergeseran"
+              ],
+              "baris": [
+                [
+                  "A3 — Rapat Proyek Alya",
+                  "11.00–12.00",
+                  "10.30–11.30 (maju 30 menit, durasi tetap 60 menit)"
+                ],
+                [
+                  "B2 — Koordinasi Implementasi Bayu",
+                  "12.00–12.30",
+                  "12.30–13.00 (mundur 30 menit, durasi tetap 30 menit)"
+                ],
+                [
+                  "RT — Rapat Tim Proyek",
+                  "15.30–16.30",
+                  "11.30–12.30 (penjadwalan ulang rapat target)"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Rapat Tim Proyek dijadwalkan pukul 11.30–12.30 (2 kotak berurutan)."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "cari dua kotak kosong di Kalender Anda dahulu, kemudian uji apakah konflik rekan dapat diselesaikan dengan satu perpindahan penuh sepanjang satu kotak. Jangan memindahkan hanya setengah Rapat Proyek Alya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: 11.00–12.00 melanggar agenda pribadi Anda yang berlangsung hingga 11.30. Rentang 12.00–13.00 berbenturan dengan agenda pribadi 12.30–13.30. Memilih 11.30–12.30 tanpa memindahkan A3 dan B2 juga tidak sah karena jadwal awal mereka masih menempati rentang tersebut."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2. Menentukan jadwal pelatihan pada empat ruang",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat ruang kantor dipakai bersama oleh unit TI dan penjualan. Unit TI ingin memakai Ruang 4 untuk dua pelatihan, masing-masing 60 menit. Setiap pelatihan memerlukan persiapan 30 menit, dan setelah pelatihan kedua dilakukan pembongkaran selama 60 menit. Ruang 3 wajib kosong selama seluruh rangkaian, sedangkan sesi pelatihan tidak boleh bersamaan dengan Rapat Penjualan di Ruang 1 atau 2. Jadwal awal pada semua ruangan tetap dan tidak boleh dipindahkan. Pilih satu blok waktu untuk seluruh reservasi Ruang 4."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-06.png",
+              "lebar": 6.22,
+              "tinggi": 1.42,
+              "keterangan": "Gambar 4. Jadwal empat ruang; hijau pada Ruang 4 menunjukkan rentang reservasi yang dipilih."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Baris",
+                "Keterangan blok pada gambar (pengganti informasi hover)"
+              ],
+              "baris": [
+                [
+                  "Ruang 1",
+                  "R1a Orientasi Sistem Baru (09.00–10.00); RP1 Rapat Penjualan (10.00–10.30); R1b Koordinasi Divisi TI (11.00–12.00); R1c Peninjauan Keamanan Aplikasi (12.30–13.30); R1d Uji Koneksi Peralatan (14.00–15.30); R1e Sesi Tanya Jawab Pelatihan (16.00–17.00); R1f Rapat Implementasi Sistem (17.00–18.00)"
+                ],
+                [
+                  "Ruang 2",
+                  "R2a Koordinasi Fasilitas Ruang (09.00–10.30); R2b Demo Internal Produk (11.00–12.00); R2c Orientasi Sistem Baru (12.30–13.30); R2d Uji Koneksi Peralatan (14.00–15.00); RP2 Rapat Penjualan (15.00–16.00); R2e Koordinasi Divisi TI (16.30–17.30)"
+                ],
+                [
+                  "Ruang 3",
+                  "R3a Peninjauan Keamanan Aplikasi (09.00–09.30); R3b Koordinasi Divisi TI (14.00–15.00); R3c Orientasi Sistem Baru (15.00–16.00); R3d Rapat Implementasi Sistem (16.00–17.00); R3e Koordinasi Fasilitas Ruang (17.00–18.00)"
+                ],
+                [
+                  "Ruang 4",
+                  "R4a Uji Koneksi Peralatan (09.00–09.30); R4b Koordinasi Divisi TI (14.30–15.30); R4c Demo Internal Produk (15.30–16.30); R4d Sesi Tanya Jawab Pelatihan (16.30–17.00); R4e Rapat Implementasi Sistem (17.00–18.00)"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan lima fase berkesinambungan (1 + 2 + 1 + 2 + 2 = 8 kotak), dua ruang harus kosong sepanjang reservasi, dan larangan Rapat Penjualan hanya pada fase pelatihan."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Hitung durasi total: 30 + 60 + 30 + 60 + 60 = 240 menit, yaitu delapan kotak berurutan. Reservasi tidak boleh dipecah menjadi beberapa blok terpisah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Ruang 4 kosong 09.30–14.30, sedangkan Ruang 3 kosong 09.30–14.00. Karena keduanya dibutuhkan sepanjang delapan kotak, hanya kandidat 09.30–13.30 atau 10.00–14.00 yang lolos pemeriksaan ketersediaan ruangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Untuk kandidat 09.30–13.30, pelatihan pertama berlangsung 10.00–11.00. Waktu ini bertabrakan dengan Rapat Penjualan Ruang 1 pukul 10.00–10.30. Kandidat tersebut tidak sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Untuk kandidat 10.00–14.00, tahapannya adalah persiapan I 10.00–10.30; pelatihan I 10.30–11.30; persiapan II 11.30–12.00; pelatihan II 12.00–13.00; pembongkaran 13.00–14.00. Seluruh fase berada pada slot kosong Ruang 3 dan Ruang 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Rapat Penjualan Ruang 1 pukul 10.00–10.30 hanya bertepatan dengan persiapan, bukan pelatihan. Rapat Penjualan Ruang 2 baru dimulai pukul 15.00. Maka, seluruh ketentuan terpenuhi. Kandidat yang dimulai lebih lambat memasuki jadwal terisi Ruang 3 pukul 14.00."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Reservasi Ruang 4 pukul 10.00–14.00 (8 kotak berurutan)."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "uji syarat panjang reservasi dan ketersediaan dua ruangan terlebih dahulu. Setelah kandidat mengerucut, baru periksa apakah dua fase pelatihan menabrak Rapat Penjualan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: reservasi 09.30–13.30 gagal karena fase pelatihan pertama bertabrakan dengan Rapat Penjualan pukul 10.00–10.30. Reservasi 10.30–14.30 gagal sebab Ruang 3 sudah terisi mulai 14.00. Memilih dua jam pelatihan tanpa fase persiapan dan pembongkaran juga tidak memenuhi instruksi reservasi lengkap."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 3. Menutup kekurangan petugas pada acara bakti sosial",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu acara bakti sosial membutuhkan minimal enam petugas pada setiap interval aktif pukul 10.00–17.00. Acara ditutup sementara untuk makan siang pukul 12.00–13.00. Tim A beranggotakan empat orang, Tim B enam orang, Tim C delapan orang, dan Tim D empat orang. Jadwal Tim A–C tidak dapat dipindahkan. Jadwalkan Tim D hanya ketika tambahan petugas benar-benar diperlukan, dengan total waktu kerja minimum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-07.png",
+              "lebar": 6.22,
+              "tinggi": 1.42,
+              "keterangan": "Gambar 5. Abu-abu pada Tim A–C berarti petugas sedang aktif. Dua blok hijau pada Tim D menunjukkan tambahan petugas yang dibutuhkan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Baris",
+                "Keterangan blok pada gambar (pengganti informasi hover)"
+              ],
+              "baris": [
+                [
+                  "Tim A (4)",
+                  "A1 Pemeriksaan Data Penerima (11.00–12.00); A2 Distribusi Paket Bantuan (14.00–15.00)"
+                ],
+                [
+                  "Tim B (6)",
+                  "B1 Registrasi Penerima Bantuan (10.00–11.00); B2 Pengaturan Antrean (15.00–16.00)"
+                ],
+                [
+                  "Tim C (8)",
+                  "C1 Penyiapan Paket Bantuan (13.00–14.00); C2 Pencatatan Penyaluran Bantuan (16.00–17.00)"
+                ],
+                [
+                  "Tim D (4)",
+                  "— (baris jawaban awal kosong)"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menjumlahkan personel aktif per kotak 30 menit dan memilih seluruh kotak yang kekurangan petugas; jawaban dapat berupa dua rentang terpisah."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Pukul 10.00–11.00, Tim B bekerja dengan enam orang, sehingga kebutuhan minimum sudah terpenuhi dan Tim D tidak perlu bertugas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Pukul 11.00–12.00, hanya Tim A yang aktif (empat orang). Kekurangannya dua orang. Ketika Tim D yang berisi empat orang ditambahkan, total menjadi delapan orang, sehingga kedua kotak pada interval ini harus dipilih."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Pukul 12.00–13.00 merupakan jam penutupan makan siang. Tidak ada kebutuhan penugasan Tim D meskipun jadwal Tim A–C tidak menampilkan kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Pukul 13.00–14.00, Tim C aktif dengan delapan orang. Pada 14.00–15.00, hanya Tim A yang aktif dengan empat orang sehingga Tim D kembali diperlukan selama dua kotak. Pukul 15.00–16.00 Tim B menyediakan enam orang dan 16.00–17.00 Tim C menyediakan delapan orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Setiap interval aktif kini mempunyai sedikitnya enam petugas. Menjadwalkan Tim D pada waktu lain hanya menambah waktu kerja tanpa kebutuhan, sedangkan menghilangkan salah satu dari empat kotak yang dipilih akan membuat kekurangan petugas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Tim D bertugas pukul 11.00–12.00 dan 14.00–15.00 (4 kotak dalam dua blok terpisah).**"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "cari interval ketika hanya Tim A (4 orang) yang bertugas; kotak lain sudah dicukupi Tim B (6 orang) atau Tim C (8 orang). Jangan memasukkan jam makan siang ke dalam jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: 10.00–11.00 tidak memerlukan Tim D karena Tim B telah menyediakan enam orang. Memilih 12.00–13.00 salah karena acara tutup. Memilih hanya satu dari dua blok hijau akan menyisakan kekurangan pada blok lainnya, sedangkan memilih seluruh kotak kosong menambah waktu kerja yang tidak perlu."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 4. Variasi reservasi dengan pembongkaran 30 menit",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat ruang kantor dipakai bersama. Dua pelatihan TI masing-masing berlangsung 60 menit; setiap sesi memerlukan persiapan 30 menit, diikuti pembongkaran peralatan selama 30 menit setelah sesi kedua. Ruang 3 harus kosong sepanjang rangkaian. Kedua sesi pelatihan dilarang berbarengan dengan Rapat Penjualan di Ruang 1 dan 2. Tidak ada kegiatan yang dapat dipindahkan. Tentukan reservasi lengkap pada Ruang 4."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-08.png",
+              "lebar": 6.22,
+              "tinggi": 1.42,
+              "keterangan": "Gambar 6. Variasi latihan internal dengan pembongkaran 30 menit, sehingga reservasi memerlukan tujuh kotak."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Baris",
+                "Keterangan blok pada gambar (pengganti informasi hover)"
+              ],
+              "baris": [
+                [
+                  "Ruang 1",
+                  "V1a Orientasi Sistem Baru (09.00–10.00); RP Rapat Penjualan (11.00–11.30); V1b Rapat Implementasi Sistem (12.00–13.30); V1c Uji Koneksi Peralatan (14.00–15.00); V1d Koordinasi Divisi TI (16.00–17.00)"
+                ],
+                [
+                  "Ruang 2",
+                  "V2a Koordinasi Fasilitas Ruang (09.00–10.30); V2b Demo Internal Produk (11.30–12.30); V2c Peninjauan Keamanan Aplikasi (13.00–14.00); V2d Sesi Tanya Jawab Pelatihan (15.30–16.30); V2e Rapat Implementasi Sistem (16.30–18.00)"
+                ],
+                [
+                  "Ruang 3",
+                  "V3a Uji Koneksi Peralatan (09.00–10.00); V3b Koordinasi Divisi TI (10.00–10.30); V3c Orientasi Sistem Baru (14.30–15.30); V3d Rapat Implementasi Sistem (15.30–16.30); V3e Koordinasi Fasilitas Ruang (16.30–18.00)"
+                ],
+                [
+                  "Ruang 4",
+                  "V4a Rapat Implementasi Sistem (09.00–10.00); V4b Uji Koneksi Peralatan (10.00–10.30); V4c Koordinasi Divisi TI (15.00–16.00); V4d Peninjauan Keamanan Aplikasi (16.00–17.00); V4e Orientasi Sistem Baru (17.00–18.00)"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketergantungan ruang dan urutan fase tetap sama; yang berbeda ialah panjang pembongkaran sehingga total reservasi menjadi tujuh kotak."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Jumlahkan durasi: 30 + 60 + 30 + 60 + 30 = 210 menit, tepat tujuh kotak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Ruang 3 kosong dari 10.30 sampai 14.30, dan Ruang 4 kosong dari 10.30 sampai 15.00. Dengan demikian, kandidat awal yang layak bagi kedua ruang hanyalah 10.30 atau 11.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Kandidat 10.30–14.00 gagal karena pelatihan pertama akan berlangsung 11.00–12.00, sedangkan Rapat Penjualan di Ruang 1 berlangsung 11.00–11.30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Kandidat 11.00–14.30 menghasilkan persiapan I 11.00–11.30; pelatihan I 11.30–12.30; persiapan II 12.30–13.00; pelatihan II 13.00–14.00; pembongkaran 14.00–14.30. Seluruh fase muat dalam kedua ruangan dan tidak beririsan dengan Rapat Penjualan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Waktu mulai yang lebih lambat membuat reservasi melewati pukul 14.30 ketika Ruang 3 mulai terisi. Maka, hanya 11.00–14.30 yang sah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Reservasi Ruang 4 pukul 11.00–14.30 (7 kotak berurutan)."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "ubah pembongkaran dari 60 menjadi 30 menit berarti total berkurang satu kotak, tetapi syarat ruangan dan larangan tabrakan tetap harus diuji seluruhnya. Contoh ini merupakan variasi latihan produksi internal, bukan penyalinan soal resmi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: 10.30–14.00 gagal karena pelatihan pertama menabrak Rapat Penjualan 11.00–11.30. Reservasi 11.30–15.00 melewati batas ketersediaan Ruang 3 yang berakhir 14.30. Jawaban 11.00–14.00 hanya mencakup enam kotak, belum memuat pembongkaran 30 menit."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 5. Memajukan rapat tim penjualan dengan pergeseran dua rekan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Anda bekerja bersama Eko, Fitri, dan Gani dalam tim penjualan. Rapat Tim Penjualan semula dilaksanakan pukul 15.30–16.00, tetapi perlu dimajukan ke waktu paling awal yang memungkinkan. Setiap rekan boleh menggeser paling banyak satu kegiatan secara utuh, dengan perpindahan maksimal 30 menit maju atau mundur. Demo kepada klien dan janji pribadi Anda tidak dapat dipindahkan. Tentukan waktu rapat 30 menit yang paling awal dan tetap dapat dihadiri semua orang."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-09.png",
+              "lebar": 6.22,
+              "tinggi": 1.42,
+              "keterangan": "Gambar 7. Jadwal awal tiga rekan dan Kalender Anda; rapat semula berwarna ungu. Ini variasi dekat sumber menggunakan kriteria “paling awal” yang tertulis pada soal."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Baris",
+                "Keterangan blok pada gambar (pengganti informasi hover)"
+              ],
+              "baris": [
+                [
+                  "Eko",
+                  "E1 Rapat Target Penjualan (09.00–10.00); E2 Tinjauan Prospek Klien (10.00–11.00); E3 Diskusi Kebutuhan Pelanggan (11.00–11.30); E4 Presentasi Proposal Klien (11.30–12.00); E5 Demo Produk Klien (12.30–13.30); E6 Pembahasan Kontrak Penjualan (14.30–15.30); E7 Koordinasi Akun Pelanggan (16.00–17.00)"
+                ],
+                [
+                  "Fitri",
+                  "F1 Rapat Strategi Pemasaran (09.00–10.30); F2 Tinjauan Prospek Klien (10.30–11.30); F3 Demo Produk Klien (12.00–13.30); F4 Tinjauan Kinerja Penjualan (14.00–15.00); F5 Rapat Target Penjualan (16.00–17.00)"
+                ],
+                [
+                  "Gani",
+                  "G1 Pembahasan Kontrak Penjualan (09.00–10.00); G2 Tindak Lanjut Penawaran (10.30–11.30); G3 Tinjauan Kinerja Penjualan (11.30–12.30); G4 Demo Produk Klien (13.30–14.30); G5 Presentasi Proposal Klien (15.00–16.30); G6 Koordinasi Akun Pelanggan (17.00–17.30)"
+                ],
+                [
+                  "Kalender Anda",
+                  "P1 Agenda pribadi tetap 1 (09.00–10.30); P2 Agenda pribadi tetap 2 (10.30–11.30); P3 Agenda pribadi tetap 3 (12.00–13.00); P4 Agenda pribadi tetap 4 (13.00–14.30); RT Rapat Tim Penjualan (semula) (15.30–16.00); P5 Agenda pribadi tetap 5 (17.00–18.00)"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Irisan jadwal empat orang, kegiatan rekan yang digeser satu kotak secara utuh, serta pemilihan waktu paling awal berdasarkan kandidat sah yang dapat diverifikasi."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Kalender Anda terisi dari 09.00 hingga 11.30 oleh dua agenda pribadi tetap. Karena itu, tidak ada waktu mulai rapat yang sah sebelum 11.30. Kandidat pertama yang dapat diuji adalah 11.30–12.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Eko memiliki Presentasi Proposal Klien (E4) pukul 11.30–12.00. Pindahkan seluruh kegiatan 30 menit lebih lambat, menjadi 12.00–12.30. Kegiatan berikutnya, Demo Produk Klien, mulai 12.30; jadi pergeseran tidak menabrak agenda lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Gani memiliki Tinjauan Kinerja Penjualan (G3) pukul 11.30–12.30. Geser seluruh blok 60 menit itu sebanyak satu kotak, menjadi 12.00–13.00. Kegiatan G2 selesai 11.30, dan demo tetap Gani baru dimulai 13.30. Durasi G3 tetap utuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Fitri tidak memiliki kegiatan pada 11.30–12.00. Janji pribadi Anda dan kedua Demo Produk Klien tetap pada waktu aslinya. Setelah pergeseran Eko dan Gani, keempat peserta tersedia pada 11.30–12.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Karena Kalender Anda tidak bebas sebelum 11.30, tidak mungkin ada waktu sah yang lebih awal. Pemeriksaan itu sudah cukup membuktikan bahwa 11.30–12.00 adalah waktu rapat paling awal yang diminta."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-10.png",
+              "lebar": 6.22,
+              "tinggi": 1.42,
+              "keterangan": "Gambar 8. Kondisi akhir: E4 Eko dipindah ke 12.00–12.30 dan G3 Gani dipindah ke 12.00–13.00. Rapat baru ditandai hijau pada 11.30–12.00; dua kegiatan biru menunjukkan pergeseran utuh."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kegiatan",
+                "Semula",
+                "Sesudah"
+              ],
+              "baris": [
+                [
+                  "E4 Eko (30 menit)",
+                  "11.30–12.00",
+                  "12.00–12.30"
+                ],
+                [
+                  "G3 Gani (60 menit)",
+                  "11.30–12.30",
+                  "12.00–13.00"
+                ],
+                [
+                  "Rapat Tim Penjualan",
+                  "15.30–16.00",
+                  "11.30–12.00"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Rapat Tim Penjualan dimulai pukul 11.30 dan berakhir 12.00 (1 kotak)."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "mulailah dari jadwal Anda untuk mengetahui waktu paling awal yang mungkin, lalu periksa apakah agenda Eko dan Gani dapat digeser masing-masing satu kotak tanpa mengubah durasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: 11.00–11.30 beririsan dengan agenda pribadi Anda; 11.30–12.00 tanpa pergeseran gagal karena Eko dan Gani sedang bertugas; 12.00–12.30 bukan jawaban “paling awal” karena 11.30–12.00 sudah terbukti sah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 6. Menjadwalkan tim cadangan pada lokakarya literasi keuangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lokakarya literasi keuangan berlangsung pukul 10.00–17.00 dan membutuhkan sekurang-kurangnya enam petugas selama jam aktif. Kegiatan ditutup sementara pukul 12.00–13.00 untuk makan siang. Tim Registrasi terdiri dari empat orang, Tim Logistik enam orang, Tim Layanan delapan orang, dan Tim Cadangan empat orang. Jadwal tiga tim yang diketahui tidak boleh dipindahkan. Pilih seluruh waktu Tim Cadangan yang diperlukan saja sehingga kekurangan petugas tertutup dengan total waktu kerja minimum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeline_scheduling/gambar-11.png",
+              "lebar": 6.22,
+              "tinggi": 1.42,
+              "keterangan": "Gambar 9. Ilustrasi lokakarya literasi keuangan. Tiga blok hijau pada Tim Cadangan menutupi interval yang kekurangan personel awal."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Baris",
+                "Keterangan blok pada gambar (pengganti informasi hover)"
+              ],
+              "baris": [
+                [
+                  "Tim Registrasi (4)",
+                  "A1 Registrasi Peserta Lokakarya (10.00–10.30); A2 Verifikasi Kehadiran Peserta (11.30–12.00); A3 Distribusi Bahan Edukasi (14.00–15.00)"
+                ],
+                [
+                  "Tim Logistik (6)",
+                  "B1 Pengelolaan Perangkat Presentasi (10.30–11.30); B2 Pengaturan Ruang Kelas (15.00–16.00)"
+                ],
+                [
+                  "Tim Layanan (8)",
+                  "C1 Pelayanan Informasi Lokakarya (13.00–14.00); C2 Distribusi Sertifikat (16.00–17.00)"
+                ],
+                [
+                  "Tim Cadangan (4)",
+                  "— (baris jawaban awal kosong)"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan jumlah petugas per 30 menit; tim cadangan dipilih hanya pada kotak aktif ketika jumlah petugas awal kurang dari enam. Jawaban dapat terdiri dari tiga blok yang tidak berdampingan."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Pada 10.00–10.30, hanya Tim Registrasi yang bekerja (4 orang), sehingga Tim Cadangan perlu mengisi satu kotak. Pukul 10.30–11.30, Tim Logistik menyediakan enam orang dan kebutuhan terpenuhi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Pada 11.30–12.00, hanya Tim Registrasi yang aktif (4 orang), sehingga Tim Cadangan perlu bekerja satu kotak lagi. Pukul 12.00–13.00 tidak diperiksa karena kegiatan tutup untuk makan siang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Pada 13.00–14.00, Tim Layanan menyediakan delapan orang dan tidak memerlukan bantuan. Pukul 14.00–15.00 hanya Tim Registrasi yang aktif, sehingga Tim Cadangan harus bekerja dua kotak berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Pukul 15.00–16.00 Tim Logistik menyediakan enam orang. Pukul 16.00–17.00 Tim Layanan menyediakan delapan orang. Kedua rentang tersebut tidak memerlukan Tim Cadangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Keempat kotak terpilih membentuk tiga blok: 10.00–10.30, 11.30–12.00, dan 14.00–15.00. Pada ketiganya, penambahan empat petugas membuat jumlah total menjadi delapan. Semua interval aktif lainnya sudah memenuhi minimum enam orang, sehingga jawabannya tunggal dan minimum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Tim Cadangan bertugas 10.00–10.30, 11.30–12.00, dan 14.00–15.00 (4 kotak, 3 blok terpisah).**"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "temukan kotak ketika Tim Registrasi yang beranggotakan empat orang bekerja sendirian. Pastikan setiap kotak yang dipilih masih berada pada jam aktif lokakarya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: menugaskan Tim Cadangan sepanjang 10.00–12.00 tidak minimum karena 10.30–11.30 sudah ada enam orang dari Tim Logistik. Memilih 12.00–13.00 salah karena istirahat. Memilih hanya 14.00–15.00 meninggalkan kekurangan pada 10.00–10.30 dan 11.30–12.00."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kesalahan Umum",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian besar kesalahan terjadi karena hanya satu syarat yang diperiksa. Gunakan tabel berikut untuk membedakan kesalahan pembacaan tampilan dan kesalahan penalaran."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Mengapa keliru",
+                "Perbaikan"
+              ],
+              "baris": [
+                [
+                  "Menganggap abu-abu selalu berarti tidak tersedia",
+                  "Pada jadwal petugas, abu-abu justru menandai tim bekerja.",
+                  "Baca konteks dan legenda terlebih dahulu."
+                ],
+                [
+                  "Menghitung 18.00 sebagai kotak tambahan",
+                  "Hari hanya mempunyai 18 kotak, bukan 19.",
+                  "Gunakan 18.00 sebagai batas akhir."
+                ],
+                [
+                  "Memindahkan setengah kegiatan",
+                  "Durasi dan identitas satu rapat harus utuh.",
+                  "Geser semua kotak kegiatan bersama-sama."
+                ],
+                [
+                  "Menggeser dua agenda orang yang sama",
+                  "Profil rapat hanya mengizinkan satu kegiatan per rekan.",
+                  "Cek jumlah kegiatan yang berpindah."
+                ],
+                [
+                  "Memindahkan demo klien atau janji pribadi",
+                  "Kedua jenis agenda dinyatakan tetap.",
+                  "Tandai sejak awal sebagai tidak dapat diubah."
+                ],
+                [
+                  "Mengabaikan ruang pendukung",
+                  "Ruang tujuan kosong belum cukup.",
+                  "Periksa seluruh durasi pada Ruang 3 dan Ruang 4."
+                ],
+                [
+                  "Hanya memilih sesi pelatihan",
+                  "Persiapan dan pembongkaran ikut mengisi reservasi.",
+                  "Jumlahkan lima fase sebelum memilih."
+                ],
+                [
+                  "Melarang semua kegiatan saat Rapat Penjualan",
+                  "Pada contoh sumber, larangan berlaku pada fase pelatihan.",
+                  "Periksa ketentuan yang secara eksplisit dibatasi."
+                ],
+                [
+                  "Memilih petugas saat makan siang",
+                  "Acara ditutup, tidak memerlukan kecukupan petugas.",
+                  "Keluarkan kotak 12.00–13.00 dari uji kebutuhan."
+                ],
+                [
+                  "Menambah Tim D pada semua kotak putih",
+                  "Itu bukan solusi dengan waktu kerja minimum.",
+                  "Isi hanya kotak yang benar-benar kekurangan petugas."
+                ],
+                [
+                  "Memaksa satu blok untuk jawaban petugas",
+                  "Kekurangan personel dapat terjadi pada waktu terpisah.",
+                  "Pilih seluruh interval kekurangan meski terpisah."
+                ],
+                [
+                  "Menebak dari satu kandidat",
+                  "Kandidat lain mungkin sama-sama sah.",
+                  "Uji seluruh kandidat sebelum menetapkan jawaban."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Pemeriksaan sebelum mengirim jawaban",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Apakah jumlah kotak, durasi, dan jam yang dipilih sudah tepat?",
+                "Apakah ada tabrakan atau pelanggaran larangan pemindahan?",
+                "Apakah seluruh fase kegiatan atau seluruh interval kebutuhan sudah terwakili?",
+                "Apakah pilihan merupakan satu jawaban yang benar sesuai perintah, bukan hanya salah satu kemungkinan?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Mengenali tampilan dan empat baris jadwal",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca waktu dan jumlah kotak",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca warna berdasarkan konteks",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan batas satu kegiatan dan tabrakan",
+        "teks": ""
+      },
+      {
+        "judul": "Menjadwalkan ulang rapat tim",
+        "teks": ""
+      },
+      {
+        "judul": "Reservasi pelatihan yang bergantung pada ruangan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Timeline Scheduling menguji kemampuan membaca informasi waktu, menerapkan batasan, dan memilih jadwal yang memenuhi seluruh syarat. Kita memulai dari grid 18 kotak yang masing-masing mewakili 30 menit, lalu menyesuaikan cara menalar dengan konteks soal. Urutan kerja: kenali profil → baca waktu → tentukan arti kotak → uji seluruh batasan → pilih jawaban → verifikasi ulang. Dengan cara ini, setiap keputusan dapat ditelusuri berdasarkan aturan yang terlihat, bukan berdasarkan tebakan susunan warna. • Tampilan empat baris dan ilustrasi 18 kotak (09.00–18.00; satu kotak = 30 menit). • Perbedaan arti abu-abu pada rapat/ruangan dan penugasan petugas. • Ilustrasi pergeseran blok durasi 30, 60, dan 90 menit serta diagram sebelum–sesudah Contoh 1. • Alur persiapan I → pelatihan I → persiapan II → pelatihan II → pembongkaran. • Diagram dan pembahasan Contoh 1 (rapat), Contoh 2 (ruangan), Contoh 3 (petugas), serta ringkasan variasi dari Contoh 5 dan 6. • Ringkasan cara cepat serta kesalahan umum yang mengubah kunci jawaban. Contoh 4–6 dapat dipakai sebagai latihan pengayaan atau materi pendalaman. Pada PPT, tampilkan tabel keterangan kode seperlunya serta urutan visual sebelum–sesudah agar peserta tidak menebak isi hover dari gambar statis."
+  }
+}

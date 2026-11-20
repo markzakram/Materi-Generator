@@ -32,7 +32,68 @@ PALET = {
         # pasangan rona untuk gambar PNG
         "rona": [("13215A", "052C5F"), ("FBBB2B", "E8B41E")],
     },
+    "jadiojk": {
+        "nama": "JadiOJK",
+        # merah sebagai warna utama, merah tua sebagai pengganti navy; tanpa kuning
+        "peran": {"primer": "ED2224", "merah_tua": "821517", "primer_alt": "B01818",
+                  "aksen": "821517", "aksen_tua": "5E0B0D", "terang": "FFFFFF"},
+        "ganti": {
+            "13215A": "821517",  # navy -> merah tua
+            "24336F": "B01818",
+            "FBBB2B": "ED2224",  # kuning -> merah
+            "FFE6AE": "FCE3E3",  # kuning muda -> merah muda (primer 13% di atas putih)
+            "595858": "B01818",  # ujung gradien kartu aktif
+            "C68700": "ED2224",  # judul materi di sampul putih
+        },
+        "rona": [("13215A", "821517"), ("FBBB2B", "ED2224")],
+        # Aksen merah sama gelapnya dengan merah tua, jadi pasangan 'navy di atas kuning' dan 'kuning di
+        # atas navy' tidak terbaca. Teks/ikon di atas merah dibuat putih, aksen di atas merah tua dibuat
+        # merah muda, dan kotak catatan memakai merah muda (teks merah tua).
+        "token": {"di_kuning": "FFFFFF", "kuning_di_gelap": "FCE3E3", "isi_catatan": "FCE3E3"},
+    },
 }
+
+
+PALET["jadiasn"]["situs"] = {
+    "terang": {"header": "#052C5F", "header-aksen": "#E8B41E", "header-redup": "#C9D6E6",
+               "aksen": "#052C5F", "aksen-teks": "#FFFFFF", "kuning": "#E8B41E", "kuning-teks": "#052C5F",
+               "pdf-bg": "#E8B41E", "pdf-teks": "#052C5F", "pdf-garis": "#E8B41E",
+               "pilih": "#3D6E99", "fokus": "#3D6E99", "bg": "#F3F6FA", "teks": "#0E2440", "redup": "#46597A",
+               "samar": "#7D8CA3", "garis": "#DDE4EE", "sorot": "#E8EFF7"},
+    "gelap": {"aksen": "#E8B41E", "aksen-teks": "#052C5F", "pdf-bg": "transparent", "pdf-teks": "#E8B41E",
+              "pilih": "#E8B41E", "fokus": "#E8B41E", "bg": "#031C3D", "kartu": "#0A2A52", "teks": "#E9EFF7",
+              "redup": "#B5C3D6", "garis": "#1C3F6B", "sorot": "#0F335F"},
+}
+PALET["jadiojk"]["situs"] = {
+    "terang": {"header": "#821517", "header-aksen": "#FFFFFF", "header-redup": "#F6D4D4",
+               "aksen": "#821517", "aksen-teks": "#FFFFFF", "kuning": "#ED2224", "kuning-teks": "#FFFFFF",
+               "pdf-bg": "#ED2224", "pdf-teks": "#FFFFFF", "pdf-garis": "#ED2224",
+               "pilih": "#ED2224", "fokus": "#B01818", "bg": "#FAF6F6", "teks": "#2A1213", "redup": "#6B4A4B",
+               "samar": "#9B8384", "garis": "#EDDDDD", "sorot": "#FBECEC"},
+    "gelap": {"aksen": "#ED2224", "aksen-teks": "#FFFFFF", "pdf-bg": "transparent", "pdf-teks": "#F58A8B",
+              "pdf-garis": "#ED2224", "pilih": "#F58A8B", "fokus": "#F58A8B", "bg": "#1C0708", "kartu": "#2C0E10",
+              "teks": "#F7ECEC", "redup": "#D8BDBE", "garis": "#4A1B1D", "sorot": "#3A1315"},
+}
+
+
+def css_situs(nama):
+    """Isi tema.css untuk situs unduhan: variabel warna halaman sesuai palet (terang dan gelap)."""
+    s = PALET[nama]["situs"]
+    baris = lambda d: " ".join(f"--{k}: {v};" for k, v in d.items())  # noqa: E731
+    return (f"/* Dibuat oleh generator/buat_situs.py dari palet '{nama}' (generator/palet.py). */\n"
+            f":root {{ {baris(s['terang'])} }}\n"
+            f"@media (prefers-color-scheme: dark) {{ :root:not([data-theme=\"light\"]) {{ {baris(s['gelap'])} }} }}\n"
+            f":root[data-theme=\"dark\"] {{ {baris(s['gelap'])} }}\n")
+
+
+def pakai_token(nama):
+    """Timpa token warna generator sebelum deck dibangun (dipanggil buat_deck setelah tema dipasang)."""
+    if not nama:
+        return
+    if nama not in PALET:
+        raise ValueError(f"Palet tidak dikenal: {nama} (pilihan: {', '.join(PALET)})")
+    import desain as D
+    D.WARNA.update(PALET[nama].get("token", {}))
 
 TOLERANSI_RONA = 8  # dari 256 (sekitar 11 derajat)
 SATURASI_MIN = 90  # dari 255; abu-abu, putih, dan kulit tidak ikut berubah
