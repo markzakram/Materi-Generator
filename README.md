@@ -92,7 +92,9 @@ python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-gene
 
 Perintah kedua membangun materi OJK ke `situs/ojk/` dan menambahkan tab "JadiOJK · PCAM OJK" di situs unduhan yang sama dengan TIU (warna halaman JadiOJK).
 
-Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN", "C. Materi Pembelajaran"), catatan penulis dalam kurung siku ("[WAJIB PPT]", "[PENGAYAAN]") yang dibuang dari teks, bagian yang dilewati (Kata Pengantar, Capaian Pembelajaran, Daftar Rujukan), soal per Heading 2 ("4.1 …", "Contoh Soal 1 — …"), dan kunci "Jawaban C. …". Isi berlabel [PENGAYAAN] tetap ikut. "Pengenalan OJK dan Waspada Investasi" (13 MB) terlalu besar untuk diekspor lewat Google Drive API; unduh manual sebagai Word, simpan sebagai `<doc_id>.docx`, lalu jalankan impor dengan `--id sjk-01`.
+Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN", "C. Materi Pembelajaran"), catatan penulis dalam kurung siku ("[WAJIB PPT]", "[PENGAYAAN]") yang dibuang dari teks, bagian yang dilewati (Kata Pengantar, Capaian Pembelajaran, Daftar Rujukan), soal per Heading 2 ("4.1 …", "Contoh Soal 1 — …"), dan kunci "Jawaban C. …". Isi berlabel [PENGAYAAN] tetap ikut. Tabel yang punya kolom foto (mis. Profil Anggota Dewan Komisioner OJK) menjadi kartu profil berisi foto, nama, dan jabatan, sesuai catatan "[yang harus ada di PPT hanya foto dan profil]"; kolom uraian panjang tidak ikut. Tabel, daftar butir, dan kartu profil yang lebih tinggi dari satu halaman dipecah ke halaman berikutnya.
+
+"Pengenalan OJK dan Waspada Investasi" (13 MB) terlalu besar untuk diekspor lewat Google Drive API; unduh manual sebagai Word, simpan sebagai `<doc_id>.docx`, lalu jalankan impor dengan `--id sjk-01`. Untuk membangun ulang satu materi saja di situs (tanpa membangun ulang yang lain), tambahkan `--id sjk-01` ke perintah `buat_situs.py`.
 
 ## Aplikasi web (Vercel)
 

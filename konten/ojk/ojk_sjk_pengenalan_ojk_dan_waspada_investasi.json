@@ -1,0 +1,1606 @@
+{
+  "meta": {
+    "judul": "Pengenalan OJK dan Waspada Investasi",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Pengenalan OJK dan Waspada Investasi",
+    "sumber": "https://docs.google.com/document/d/1QK4EVB5S5xiv59vimc2f3SVJcWAQaVd_TCDRPpblugE/edit",
+    "id_katalog": "sjk-01"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Lembaga dan layanan jasa keuangan hadir dalam berbagai kegiatan ekonomi, mulai dari menabung dan meminjam hingga berinvestasi dan memperoleh perlindungan risiko. Karena itu, pembelajar perlu mengenali lembaga yang berwenang, batas pengawasan, serta hak sebagai konsumen.",
+      "OJK dibentuk untuk mewujudkan pengaturan dan pengawasan sektor jasa keuangan yang terintegrasi. Selain mengenali fungsi OJK, peserta perlu memahami perubahan regulasi, pembagian tugas OJK dengan BI dan LPS, serta ciri-ciri aktivitas keuangan ilegal.",
+      "Dalam soal seleksi, peserta dapat diminta membedakan definisi, memilih otoritas yang tepat, atau mengevaluasi indikasi penipuan berdasarkan informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "dasar hukum pembentukan OJK dan perubahan kewenangannya."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "tujuan, fungsi, tugas, dan wewenang OJK."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "kegiatan dan produk sektor jasa keuangan yang diawasi."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "peran OJK, Bank Indonesia, dan LPS."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "prinsip pelindungan konsumen dan hak-kewajiban pengguna jasa."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "penipuan dan indikasi aktivitas keuangan ilegal melalui prinsip 2L."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "Satgas PASTI, pengecekan legalitas, dan proses pengaduan."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "kasus sederhana sesuai ketentuan yang relevan."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "jawaban soal dengan alasan yang didukung fakta dan aturan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pengenalan OJK dan Waspada Investasi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengenalan OJK dan Waspada Investasi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Latar Belakang Pembentukan, Dasar Hukum OJK, Pengenalan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum pengawasan terintegrasi, Bank Indonesia menjalankan pengawasan perbankan, sedangkan Bapepam-LK berperan pada pasar modal dan industri keuangan non-bank. Pertumbuhan produk lintas-sektor memperlihatkan kebutuhan atas koordinasi dan kerangka pengawasan yang menyeluruh. UU Nomor 21 Tahun 2011 kemudian membentuk Otoritas Jasa Keuangan sebagai lembaga independen dengan fungsi pengaturan dan pengawasan yang terintegrasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan (UU P2SK) mengubah sejumlah ketentuan serta memperkuat tata kelola, pengawasan sektor jasa keuangan, dan pelindungan konsumen. Selanjutnya, UU P2SK mengalami perubahan melalui **Undang-Undang Nomor 4 Tahun 2026 tentang Perubahan atas Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan**, yang berlaku sejak 17 Juni 2026."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan tersebut mencakup penguatan kelembagaan sektor keuangan, penyempurnaan ketentuan pengawasan dan penegakan hukum, serta penambahan tugas dan kewenangan OJK dalam pengaturan dan pengawasan bursa mineral dan komoditas strategis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, perlu dibedakan bahwa **UU Nomor 21 Tahun 2011 merupakan dasar pembentukan OJK**, sedangkan **UU Nomor 4 Tahun 2023 beserta perubahannya melalui UU Nomor 4 Tahun 2026** menjadi bagian dari perkembangan kerangka hukum dan kewenangan OJK."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK bukan bank, bukan lembaga penghimpun dana publik, dan bukan penjamin semua investasi. Kekeliruan umum adalah menganggap suatu lembaga pengawas bertanggung jawab mengganti seluruh kerugian investasi. Peran utama pengawasan dan penegakan ketentuan harus dibedakan dari sifat risiko investasi yang dapat ditanggung investor sendiri."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Visi dan Misi, Ruang Lingkup, Tujuan, Fungsi, Tugas, dan Wewenang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Visi Otoritas Jasa Keuangan (OJK)** adalah menjadi lembaga pengawas industri jasa keuangan yang terpercaya, melindungi kepentingan konsumen dan masyarakat, dan mampu mewujudkan industri jasa keuangan menjadi pilar perekonomian nasional yang berdaya saing global serta dapat memajukan kesejahteraan umum."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Misi Otoritas Jasa Keuangan (OJK) adalah"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Mewujudkan terselenggaranya seluruh kegiatan di dalam sektor jasa keuangan secara teratur, adil, transparan, dan akuntabel;",
+                "Mewujudkan sistem keuangan yang tumbuh secara berkelanjutan dan stabil;",
+                "Melindungi kepentingan konsumen dan masyarakat.​​"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ruang Lingkup"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Otoritas Jasa Keuangan (OJK) memiliki ruang lingkup kewenangan sebagai berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Mengatur;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Mengawasi;​ dan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Melindungi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk Industri Keuangan yang sehat.​"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tujuan pembentukan OJK antara lain agar seluruh kegiatan sektor jasa keuangan terselenggara secara teratur, adil, transparan, akuntabel, serta mampu mewujudkan sistem keuangan yang tumbuh secara berkelanjutan dan stabil dan melindungi kepentingan konsumen serta masyarakat. Tujuan menjelaskan hasil yang ingin dicapai; fungsi menunjukkan sistem yang diselenggarakan; tugas menunjukkan bidang kegiatan; kewenangan menjelaskan tindakan hukum atau administratif yang dapat dilakukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Singkatnya, Otoritas Jasa Keuangan (OJK) dibentuk dengan tujuan agar keseluruhan kegiatan di dalam sektor jasa keuangan:**"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Terselenggara secara teratur, adil, transparan, dan akuntabel;",
+                "Mampu mewujudkan sistem keuangan yang tumbuh secara berkelanjutan dan stabil; dan",
+                "Mampu melindungi kepentingan konsumen dan masyarakat."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi intinya ialah menyelenggarakan sistem pengaturan dan pengawasan terintegrasi di sektor jasa keuangan. Bentuk kewenangan antara lain menetapkan regulasi sesuai mandat, melakukan pemeriksaan, memberikan atau mencabut izin dalam ruang kewenangan, menetapkan sanksi administratif, memberikan perintah tertulis, dan melaksanakan kewenangan penyidikan sesuai peraturan. Penyidikan tidak boleh disalahartikan sebagai bahwa OJK sendirian melakukan setiap proses penegakan hukum tanpa lembaga lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Otoritas Jasa Keuangan (OJK) berfungsi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "menyelenggarakan sistem p​engaturan dan pengawasan yang terintegrasi terhadap keseluruhan kegiatan di sektor jasa keuangan​;",
+                "memelihara Stabilitas Sistem Keuangan secara aktif sesuai dengan kewenangannya; dan",
+                "memberikan pelindungan terhadap Konsumen dan masyarakat."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tugas dari OJK adalah sebagai berikut"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Otoritas Jasa Keuangan melaksanakan tugas pengaturan dan pengawasan terhadap:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "kegiatan jasa keuangan di sektor Perbankan;",
+                "kegiatan jasa keuangan di sektor Pasar Modal, Keuangan Derivatif, dan Bursa Karbon;",
+                "kegiatan jasa keuangan di sektor Perasuransian, Penjaminan, dan Dana Pensiun;",
+                "kegiatan jasa keuangan di sektor Lembaga Pembiayaan, perusahaan Modal Ventura, Lembaga Keuangan Mikro, dan IJK Lainnya;",
+                "kegiatan di sektor ITSK serta Aset Keuangan Digital dan Aset Kripto;",
+                "perilaku pelaku usaha jasa keuangan serta pelaksanaan Edukasi dan Pelindungan Konsumen; dan",
+                "sektor keuangan secara terintegrasi serta melakukan asesmen dampak sistemik Konglomerasi Keuangan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Selain tugas sebagaimana dimaksud pada ayat (1),"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Otoritas Jasa Keuangan bertugas melaksanakan pengembangan sektor keuangan, berkoordinasi dengan kementerian/lembaga dan otoritas terkait."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh penerapan: jika ditemukan perusahaan pembiayaan melanggar ketentuan keterbukaan biaya, pertanyaan tentang ‘kewenangan’ dapat merujuk pada tindakan pengawasan dan penegakan sanksi. Jika pertanyaannya mengenai alasan ada pengawasan terpadu, jawabannya menyangkut tujuan/fungsi, bukan langsung prosedur pemberian sanksi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Independensi, Akuntabilitas, dan Tata Kelola"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK disebut independen menurut kerangka hukumnya, tetapi independensi tidak berarti tanpa aturan, tanpa pertanggungjawaban, atau bekerja tanpa koordinasi. Keputusan pengawasan tetap terikat ketentuan peraturan, pengendalian internal, mekanisme tata kelola, dan pertanggungjawaban kelembagaan. Independensi penting untuk menjaga penilaian profesional terhadap pihak yang diawasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tata kelola yang baik mensyaratkan integritas, objektivitas, akuntabilitas, transparansi sesuai ruang keterbukaan yang diizinkan, serta pengelolaan benturan kepentingan. Dalam ujian, perlu diwaspadai pernyataan ekstrem seperti ‘OJK tidak dapat dimintai pertanggungjawaban karena independen’. Pernyataan tersebut keliru. Independensi justru harus dipasangkan dengan akuntabilitas agar kepercayaan publik terjaga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh kasus: ketika petugas memiliki hubungan pribadi dengan pihak yang diperiksa, solusi prinsipil bukan mengabaikan informasi tersebut. Potensi benturan kepentingan perlu dikelola menurut prosedur agar hasil pengawasan tetap kredibel."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Struktur Organisasi OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sesuai dengan Peraturan Dewan Komisioner Otoritas Jasa Keuangan Nomor 4 Tahun 2026 tentang​ Perubahan​ Atas Peraturan Dewan Komisioner Otoritas Jasa Keuangan Nomor 1 Tahun 2026 tentang Organisasi Otoritas Jasa Keuangan, struktur organisasi adalah sebagai berikut:​"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Struktur Organisasi OJK terdiri atas"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Dewan Komisioner OJK;",
+                "Pelaksana Kegiatan Operasional."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Struktur Dewan Komisioner terdiri atas"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Ketua Dewan Komisioner sebagai Ketua Dewan Audit merangkap anggota;​",
+                "Wakil Ketua Dewan Komisioner sebagai Ketua Komite Etik merangkap anggota;",
+                "Kepala Eksekutif Pengawas Perbank​an merangkap anggota;",
+                "Kepala Eksekutif Pengawas Pasar Modal, Keuangan Derivatif, dan Bursa Karbon merangkap anggota;",
+                "Kepala Eksekutif Pengawas Perasuransian, Penjaminan, dan Dana Pensiun merangkap anggota;",
+                "Kepala Eksekutif Pengawas Lembaga Pembiayaan, Perusahaan Modal Ventura, Lembaga Keuangan Mikro, dan Lembaga Jasa Keuangan Lainnya merangkap anggota;",
+                "Kepala Eksekutif Pengawas Inovasi Teknologi Sektor Keuangan, Aset Keuangan Digital, dan Aset Kripto merangkap anggota;",
+                "Kepala Eksekutif Pengawas Perilaku Pelaku Usaha Jasa Keuangan, Edukasi dan Pelindungan Konsumen merangkap anggota;",
+                "Kepala Eksekutif Pengawas Bursa Mineral dan Komoditas Strategis merangkap anggota;",
+                "Anggota Ex-officio dari Bank Indonesia yang merupakan anggota Dewan Gubernur Bank Indonesia; dan",
+                "Anggota Ex-officio dari Kementerian Keuangan yang merupakan pejabat setingkat Eselon I Kementerian Keuangan."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pelaksana Kegiatan Operasional terdiri atas"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Ketua Dewan Komisioner memimpin bidang Kebijakan Strategis;",
+                "Wakil Ketua Dewan Komisioner memimpin bidang Manajemen Strategis;",
+                "Kepala Eksekutif Pengawas Perbankan memimpin bidang Pengawasan Sektor Perbankan;",
+                "Kepala Eksekutif Pengawas Pasar Modal, Keuangan Derivatif, dan Bursa Karbon memimpin bidang Pengawasan Sektor Pasar Modal, Keuangan Derivatif, dan Bursa Karbon;",
+                "Kepala Eksekutif Pengawas Perasuransian, Penjaminan, dan Dana Pensiun memimpin bidang Pengawasan Sektor Perasuransian, Penjaminan, dan Dana Pensiun;",
+                "Kepala Eksekutif Pengawas Lembaga Pembiayaan, Perusahaan Modal Ventura, Lembaga Keuangan Mikro, dan Lembaga jasa Keuangan Lainnya memimpin bidang Pengawasan Sektor Lembaga Pembiayaan, Perusahaan Modal Ventura, Lembaga Keuangan Mikro, dan Lembaga Jasa Keuangan Lainnya;",
+                "Kepala Eksekutif Pengawas Inovasi Teknolo​gi Sektor Keuangan, Aset Keuangan Digital dan Aset Kripto memimpin bidang Pengawasan Sektor Inovasi Teknologi Sektor Keuangan, Aset Keuangan Di​gital dan Aset Kripto;",
+                "Kepala Eksekutif Pengawas Perilaku Pelaku Usaha Jasa Keuangan, Edukasi dan Pelindungan Konsumen memimpin bidang Pengawasan Perilaku Pelaku Usaha Jasa Keuangan, Edukasi dan Pelindungan Konsumen; dan",
+                "Kepala Eksekutif Pengawas Bursa Mineral dan Komoditas Strategis memimpin bidang Pengawasan Bursa Mineral dan Komoditas Strategis.​"
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-01.png",
+              "lebar": 6.27,
+              "tinggi": 1.93
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-02.png",
+              "lebar": 6.27,
+              "tinggi": 1.86
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "​​Keterangan:​"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "ADK (Anggota Dewan Komisioner)",
+                "DKSK (Deputi Komisioner Stabilitas Sistem Keuangan dan Internasional)",
+                "DSKT (Departemen Surveillance dan Kebijakan Sektor Jasa Keuangan Terintegrasi)",
+                "DPZT (Departemen Koordinasi Pengawasan dan Perizinan Terintegrasi)​",
+                "DPDS (Departemen Pengelolaan Data dan Statistik)",
+                "DKHD (Deputi Komisioner Hubungan Internasional, APU-PPT, dan Daerah)",
+                "DINP (Departemen Internasional dan APU-PPT)",
+                "DKSM (Deputi Komisioner Sumber Daya Manusia)",
+                "DOSB (Departemen Organisasi, SDM, dan Budaya)",
+                "OJKI (OJK Institute)​",
+                "DKTF (Departemen Khusus Transformasi)",
+                "DKSH (Deputi Komisioner Sistem Informasi dan Daerah)​",
+                "DPSI (Departemen Pengelolaan Sistem Informasi)",
+                "DPEA​ (Departemen Pengembangan Aplikasi)​",
+                "DMND (Departemen Manajemen dan Pengembangan OJK Daerah)",
+                "9 Kantor OJK Koordinator",
+                "30 Kantor OJK Non-Koordinator",
+                "DKKL (Deputi Komisioner Perencanaan Strategis, Keuangan, Sekretariat Dewan Komisioner dan Logistik)",
+                "DPSU (Departemen Perencanaan Strategis dan Keuangan)​",
+                "DSHK (Departemen Sekretariat Dewan Komisioner dan Hubungan Kelembagaan)",
+                "DLOG (Departemen Logistik)",
+                "DKHP (Deputi Komisioner Hukum dan Penyidikan)",
+                "DHUK (Departemen Hukum)",
+                "DPJK (Departemen Penyidikan Sektor Jasa Keuangan)​",
+                "DKAI (Deputi Komisioner Audit Internal, Manajemen Risiko, dan Pengendalian Kualitas)",
+                "DPAI (Departemen Audit Internal)",
+                "DRPK (Departemen Manajemen Risiko dan Pengendalian Kualitas)",
+                "DPIK (Departemen Penegakan Integritas dan Audit Khusus)​",
+                "DKPS (Deputi Komisioner Pengaturan, Perizinan dan Pengendalian Kualitas)",
+                "DPNP (Departemen Pengaturan dan Pengembangan Perbankan)",
+                "DPKP (Departemen Pengendalian Kualitas dan Pengembangan Pengawasan Perbankan",
+                "DIMB (Departemen Perizinan dan Manajemen Krisis Perbankan)",
+                "DPMS (Departemen Pengaturan dan Pengembangan UMKM dan Keuangan Syariah)",
+                "DKSD (Deputi Komisioner Pengawas Bank Pemerintah, Syariah dan Perbankan Daerah)",
+                "DPBP (Departemen Pengawasan Bank Pemerintah)",
+                "DPBS (Departemen Perbankan Syariah)",
+                "DRPD (Departemen Pemeriksaan Khusus dan Pengawasan Perbankan Daerah)​",
+                "DKKB (Deputi Komisioner Pengawas Konglomerasi Keuangan dan Bank Swasta)",
+                "DPKO (Departemen Pengawasan Konglomerasi Keuangan)",
+                "DPW1 (Departemen Pengawasan Bank Swasta 1)",
+                "DPW2 (Departemen Pengawasan Bank Swasta 2)",
+                "DPPM (Departemen Pengaturan dan Pengembangan Pasar Modal)",
+                "​DKPE (Deputi Komisioner Perizinan dan Pengawas Pengelolaan Investasi Pasar Modal dan Lembaga Efek)",
+                "DPZP (Departemen Perizinan Kelembagaan dan Profesi Pelaku)",
+                "DPVR (Departemen Pengawasan Pengelolaan Investasi dan Pasar Modal Regional)",
+                "DPLE (Departemen Pengawasan Lembaga Efek)",
+                "DKTK (Deputi Komisioner Pengawas Emiten, Transaksi Efek, Pemeriksaan Khusus, Keuangan Derivatif dan Bursa Karbon)",
+                "DNEK (Departemen Penilaian Emiten, Perusahaan Publik dan Perizinan Keuangan Derivatif dan Bursa Karbon)",
+                "DPEP (Departemen Pengawasan Emiten dan Perusahaan Publik)",
+                "DPTP (Departemen Pengawasan Keuangan Derivatif, Bursa Karbon, Transaksi Efek dan Pemeriksaan Khusus)",
+                "DPPP (Departemen Pengaturan dan Pengembangan Perasuransian, Penjaminan dan Dana Pensiun)",
+                "DIPD (Departemen Perizinan, Pemeriksaan Khusus, dan Pengendalian Kualitas PPDP)",
+                "DKPD (Deputi Komisioner Pengawas PPDP)",
+                "DAKR (Departemen Aktuaria​)",
+                "DAJP (Departemen Pengawasan Asuransi dan Jasa Penunjang)",
+                "DPDK (Departemen Pengawasan Penjaminan, Dana Pensiun dan Pengawasan Khusus)",
+                "DPPL (Departemen Pengaturan dan Pengembangan PVML)",
+                "DZPL (Departemen Perizinan, Pemeriksaan Khusus, dan Pengendalian Kualitas PVML)",
+                "DKPL (Deputi Komisioner Pengawas PVML)",
+                "DPVL (Departemen Pengawasan Lembaga Pembiayaan, PMV, dan LKK)",
+                "DPLI (Departemen Pengawasan LKM dan Lembaga Jasa Keuangan Lainnya)",
+                "DPIA (Departemen Pengaturan dan Perizinan IAKD)",
+                "DKID (Deputi Komisioner Pengawas IAKD)",
+                "DPIR (Departemen Pengawasan IAKD)​",
+                "DLIK (Departemen Literasi, Inklusi Keuangan​)​",
+                "DKPP (Deputi Komisioner Pengawasan Perilaku Pelaku Usaha Jasa Keuangan dan Pelindungan Konsumen)",
+                "DPUK​ (Departemen Pengawasan Perilaku Pelaku Usaha Jasa Keuangan)",
+                "DPLK (Departemen Pelindungan Konsumen)"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Profil Anggota Dewan Komisioner OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Anggota Dewan Komisioner di antaranya yaitu:"
+            },
+            {
+              "jenis": "profil",
+              "item": [
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-03.jpg",
+                  "nama": "Friderica Widyasari Dewi",
+                  "peran": "Ketua Dewan Komisioner sebagai Ketua Dewan Audit Merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2026-2032"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-04.jpg",
+                  "nama": "Hernawan Bekti Sasongko",
+                  "peran": "Wakil Ketua Dewan Komisioner Otoritas Jasa Keuangan sebagai Ketua Komite Etik Merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2026-2031"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-05.jpg",
+                  "nama": "Dian Ediana Rae",
+                  "peran": "Kepala Eksekutif Pengawas Perbankan Merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2022-2027"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-06.jpg",
+                  "nama": "Hasan Fawzi",
+                  "peran": "Kepala Eksekutif Pengawas Pasar Modal, Keuangan Derivatif, dan Bursa Karbon Merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2026-2031"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-07.jpg",
+                  "nama": "Ogi Prastomiyono",
+                  "peran": "Kepala Eksekutif Pengawas Perasuransian, Penjaminan, dan dana Pensiun Merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2022-2027"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-08.jpg",
+                  "nama": "Agusman",
+                  "peran": "Kepala Eksekutif Pengawas Lembaga Pembiayaan, Perusahaan Modal Ventura, Lembaga Keuangan Mikro, dan Lembaga Jasa Keuangan Lainnya Merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2023-2028"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-09.jpg",
+                  "nama": "Adi Budiarso",
+                  "peran": "Kepala Eksekutif Pengawas Inovasi Teknologi Sektor Keuangan, Aset Keuangan Digital, dan Aset Kripto Merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2026-2031"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-10.jpg",
+                  "nama": "Dicky Kartikoyono",
+                  "peran": "Kepala Eksekutif Pengawas Perilaku Pelaku Usaha Jasa Keuangan, Edukasi, dan Pelindungan Konsumen merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2026-2032"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-11.jpg",
+                  "nama": "Sarjito",
+                  "peran": "Kepala Eksekutif Pengawas Bursa Mineral dan Komoditas Strategis merangkap Anggota Dewan Komisioner Otoritas Jasa Keuangan | Periode 2026-2031"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-12.jpg",
+                  "nama": "Thomas A. M. Djiwandono",
+                  "peran": "Anggota Dewan Komisioner Otoritas Jasa Keuangan Ex-officio Bank Indonesia"
+                },
+                {
+                  "file": "media/ojk_sjk_pengenalan_ojk_dan_waspada_investasi/gambar-13.jpg",
+                  "nama": "Juda Agung",
+                  "peran": "Anggota Dewan Komisioner Otoritas Jasa Keuangan Ex-officio Kementerian Keuangan"
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Nilai-Nilai OJK dan Kode Etik"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Nilai-nilai OJK**"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai strategis Otoritas Jasa Keuangan (OJK) adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Integritas** Integritas adalah bertindak objektif, adil, dan konsisten sesuai dengan kode etik dan kebijakan organisasi dengan menjunjung tinggi kejujuran dan komitmen. **Profesionalisme** Profesionalisme adalah Bekerja dengan penuh tanggung jawab berdasarkan kompetensi yang tinggi untuk mencapai kinerja terbaik. **Sinergi** Sinergi adalah berkolaborasi dengan seluruh pemangku kepentingan baik internal maupun eksternal secara produktif dan berkualitas. **Inklusif** Inklusif adalah terbuka dan menerima keberagaman pemangku kepentingan serta memperluas kesempatan dan akses masyarakat terhadap industri keuangan. **Visioner** Visioner adalah memiliki wawasan yang luas dan mampu melihat ke depan (Forward Looking) serta dapat berpikir di luar kebiasaan (Out of The Box Thinking).​​"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kode Etik**"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kode Etik OJK adalah norma dan azas mengenai kepatutan dan kepantasan yang wajib dipatuhi dan dilaksanakan oleh seluruh Anggota Dewan Komisioner, Pejabat, dan Pegawai OJK dalam pelaksanaan tugas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Komite Etik adalah organ pendukung Dewan Komisioner yang bertugas mengawasi kepatuhan Dewan Komisioner, Pejabat, dan Pegawai OJK terhadap Kode Etik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai Dasar Kode Etik OJK ini dicerminkan dalam perilaku yang sesuai dengan Nilai Strategis Organisasi OJK yakni Integritas, Profesionalisme, Transparansi, Akuntabilitas, Sinergi, dan Kesetaraan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peraturan Dewan Komisioner mengenai Kode Etik OJK telah dilakukan beberapa kali perubahan, yaitu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Peraturan Dewan Komisioner Otoritas Jasa Keuangan No 01/17/PDK/XII/2012 tentang Kode Etik OJK",
+                "Peraturan Dewan Komisioner Otoritas Jasa Keuangan No 10/PDK.02/2013 tentang Perubahan atas PDK OJK No 01/17/PDK/XII/2012 tentang Kode Etik OJK",
+                "Peraturan Dewan Komisioner Otoritas Jasa Keuangan No 43/PDK.02/2013 tentang Perubahan Kedua atas PDK OJK No 01/17/PDK/XII/2012 tentang Kode Etik OJK",
+                "Peraturan Dewan Komisioner Otoritas Jasa Keuangan No 2/PDK.01/2017 tentang Perubahan Ketiga atas PDK OJK No 01/17/PDK/XII/2012 tentang Kode Etik OJK"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Daftar Kontak dan Kantor OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK memiliki kontak resmi yang bisa dihubungi oleh siapapun, di antaranya sebagai berikut:"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Jabodebek"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gedung Soemitro Djojohadikusumo"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jalan Lapangan Banteng Timur No. 2-4"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jakarta Pusat 10710"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(021) 296 00000"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Nusa Tenggara Barat**",
+                "Jl. Yos Sudarso No. 4, Ampenan",
+                "Mataram",
+                "(0370) 6000 800",
+                "(0370) 6000 809",
+                "**Kantor OJK Provinsi Bali**",
+                "Jl. W. R. Supratman No. 1, Desa Dangin Puri Kangin, Denpasar Utara",
+                "Denpasar 80237",
+                "(0361) 209 4070",
+                "**Kantor OJK Provinsi Nusa Tenggara Timur**",
+                "Jl. Tom Pello No. 2, Fontein, Kota Raja",
+                "Kupang 85112",
+                "(0380) 855 4555",
+                "**Kantor OJK Provinsi Banten**",
+                "Jalan Letnan Djidun No. 35 Kelurahan Lontar Baru, Kecamatan Serang",
+                "Serang",
+                "**Kantor OJK Provinsi Jawa Barat**",
+                "Jl. Ir. H. Djuanda No. 152",
+                "Bandung 40132",
+                "(022) 8603 9990",
+                "**Kantor OJK Cirebon**",
+                "Jl. Dr. Cipto Mangunkusumo No. 133, Kesambi",
+                "Cirebon 45111",
+                "(0231) 830 0595",
+                "**Kantor OJK Tasikmalaya**",
+                "Jl. K. H.Z. Mustofa No. 339A",
+                "Tasikmalaya 46112",
+                "(0265) 729 6009",
+                "(0265) 321 181"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Jawa Tengah"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Jawa Tengah**",
+                "Jl. Kyai Saleh No. 12-14, Mugassari, Semarang Selatan",
+                "Semarang",
+                "(024) 8600 3000",
+                "**Kantor OJK Solo**",
+                "Jl. Slamet Riyadi No. 328, Sriwedari, Laweyan",
+                "Solo 57141",
+                "(0271) 677 8800",
+                "(0271) 746 868",
+                "**Kantor OJK Purwokerto**",
+                "Jl. Jend. Gatot Subroto No. 46",
+                "Purwokerto 53115",
+                "(0281) 6578 041",
+                "**Kantor OJK Provinsi Daerah Istimewa Yogyakarta**",
+                "Jl. Jend. Sudirman No. 22",
+                "Yogyakarta 55232",
+                "(0274) 460 5790",
+                "**Kantor OJK Tegal**",
+                "Jl. Jend. Sudirman No. 2",
+                "Tegal",
+                "(0283) 322 014",
+                "(0283) 322 025 (Fax)"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Jawa Timur"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Malang**",
+                "Jl. Letjen Sutoyo No. 109-111",
+                "Malang 65141",
+                "(0341) 4381100",
+                "**Kantor OJK Kediri**",
+                "Jl. Brawijaya No. 3, Pakelan, Kota",
+                "Kediri 64123",
+                "(0354) 741 8058",
+                "(0354) 684 448",
+                "**Kantor OJK Jember**",
+                "Jl. Hayam Wuruk No. 41, Kaliwates",
+                "Jember 68135",
+                "(0331) 483 859, (0331) 484 444",
+                "(0331) 413 200, (0331) 413 400",
+                "(0331) 486 800 (Fax)",
+                "**Kantor OJK Provinsi Jawa Timur**",
+                "Jl. Gubernur Suryo No. 28-30",
+                "Surabaya",
+                "(031) 992 10100"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Kalimantan Selatan"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Kalimantan Timur dan Kalimantan Utara**",
+                "Jl. H.A.M. Rifaddin, Harapan Baru, Loa Janan Ilir",
+                "Samarinda 75131",
+                "(0541) 727 2705",
+                "(0541) 727 2706",
+                "**Kantor OJK Provinsi Kalimantan Barat**",
+                "Jl. Ahmad Yani No. 62",
+                "Pontianak 78124",
+                "(0561) 570 243",
+                "(0561) 570 222",
+                "**Kantor OJK Provinsi Kalimantan Tengah**",
+                "Jl. RTA Milono No. 7",
+                "Palangkaraya",
+                "(0536) 324 2478",
+                "**Kantor OJK Provinsi Kalimantan Selatan**",
+                "Jl. Ahmad Yani Km. 8,9, Kertak Hanyar",
+                "Banjar",
+                "(0511) 790 3990"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Kepulauan Bangka Belitung"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Kepulauan Bangka Belitung**",
+                "The City Hall, Blok A1, A2, dan A3, Jl. Pulau Bangka Kel. Ait Itam, Kec. Bukit Intan Pangkal Pinang"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Maluku Utara"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Maluku Utara**",
+                "Jalan Jati Besar, Kelurahan Jati, Kecamatan Ternate Selatan",
+                "Kota Ternate"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Papua"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Papua**",
+                "Jl. Prof. M. Yamin SH, III No. 1A, Angkasapura, Jayapura Utara",
+                "Jayapura 99116",
+                "(0967) 536 491",
+                "(0967) 536 547",
+                "(0967) 522 466",
+                "**Kantor OJK Provinsi Papua Barat dan Papua Barat Daya**",
+                "Jl. Trikora Sowi 2, Kel/Desa Sowi, Kec. Manokwari Selatan",
+                "Manokwari"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Sulawesi Selatan dan Sulawesi Barat"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Sulawesi Selatan dan Sulawesi Barat**",
+                "Jl. Sultan Hasanuddin No. 3-5",
+                "Makassar 90113",
+                "(0411) 360 4840",
+                "(0411) 360 4849",
+                "**Kantor OJK Provinsi Sulawesi Utara dan Gorontalo**",
+                "Jl. Diponegoro No. 51, Mahakeret Timur, Wenang",
+                "Manado",
+                "(0431) 848 121",
+                "(0431) 848 123",
+                "(0431) 848 124, (0431) 848 122 (Fax)",
+                "**Kantor OJK Provinsi Sulawesi Tengah**",
+                "Jl. Kartini No. 19, Lolu Utara, Palu Selatan",
+                "Palu",
+                "(0451) 482 787",
+                "(0451) 482 788",
+                "**Kantor OJK Provinsi Sulawesi Tenggara**",
+                "Jl. Abdullah Silondae No. 95A",
+                "Kendari 93122",
+                "(0401) 3131 169",
+                "(0401) 3121 285 (Fax)",
+                "**Kantor OJK Provinsi Maluku**",
+                "Jl. R. A. Kartini No. 17, Amantelu, Sirimau",
+                "Ambon 97124",
+                "(0911) 315 700"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Sumatera Selatan"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Lampung**",
+                "Jl. Way Sekampung No. 9",
+                "Bandar Lampung 35214",
+                "(0721) 560 1471",
+                "**Kantor OJK Provinsi Jambi**",
+                "Jl. Prof. Dr. Soemantri Brojonegoro No. 12A, Selamat, Danau Sipin",
+                "Jambi 36129",
+                "(0741) 591 2995",
+                "(0741) 591 2994",
+                "(0741) 591 2800 (Fax)",
+                "**Kantor OJK Provinsi Bengkulu**",
+                "Jl. Pembangunan No. 4 Jembatan Kecil, Singaran Pati",
+                "Bengkulu 38225",
+                "(0736) 285 60, (0736) 347 094",
+                "(0736) 5512 144, (0736) 5512 145",
+                "(0736) 5512 146 (Fax)",
+                "**Kantor OJK Provinsi Sumatera Selatan**",
+                "Jl. Jend. Sudirman No. 1025, Sei Pangeran, Ilir Timur I",
+                "Palembang 30114",
+                "(0711) 3035 700",
+                "(0711) 714 446 (Fax)"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kantor OJK Provinsi Sumatera Utara"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kantor OJK Provinsi Sumatera Utara**",
+                "Jl. Jend. Gatot Subroto No. 180, Sei Sikambing C.II, Medan Helvetia",
+                "Medan 20123",
+                "(061) 41061100",
+                "(061) 41061109",
+                "**Kantor OJK Provinsi Aceh**",
+                "Jl. Tgk. Moh. Daud Beureueh, Kampung Laksana, Kec. Kuta Alam",
+                "Kota Banda Aceh, Aceh 23122",
+                "(0651) 34 209",
+                "(0651) 34 211",
+                "(0651) 28 100 (Fax)",
+                "**Kantor OJK Provinsi Sumatera Barat**",
+                "Jl. Khatib Sulaiman No. 68, Ulak Karang Selatan, Padang Utara",
+                "Padang 25137",
+                "(0751) 890 033",
+                "(0751) 890 089",
+                "**Kantor OJK Provinsi Riau**",
+                "Jl. Jend. Ahmad Yani No. 83, Tanah Datar, Pekanbaru Kota",
+                "Pekanbaru 28251",
+                "(0761) 787 4564",
+                "(0761) 787 4565",
+                "**Kantor OJK Provinsi Kepulauan Riau**",
+                "Komplek Kara Junction Blok C No. 1-2",
+                "Jl. Ahmad Yani Batam Center, Batam",
+                "Kepulauan Riau 29463",
+                "(0778) 468 996",
+                "(0778) 468 997"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cakupan Pengawasan dan Produk Sektor Jasa Keuangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kegiatan sektor jasa keuangan mencakup perbankan, pasar modal, perasuransian, penjaminan, dana pensiun, pembiayaan, modal ventura, lembaga keuangan mikro, pergadaian, serta kegiatan inovasi teknologi sektor keuangan dan aset keuangan digital sesuai pengaturan yang berlaku. Pengelompokan klasik menjadi perbankan, pasar modal, dan IKNB masih berguna untuk pengantar, namun tidak cukup untuk menjelaskan seluruh cakupan mutakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menghimpun dana dan menyalurkan kredit/pembiayaan sesuai jenis dan izin. Pasar modal mempertemukan penerbit efek dan investor melalui instrumen seperti saham, obligasi, sukuk, dan reksa dana. Asuransi terkait pengalihan atau pembagian risiko sesuai polis; perusahaan pembiayaan menyediakan pembiayaan atas kebutuhan tertentu; dana pensiun menyelenggarakan program manfaat pensiun. Kesamaan mereka adalah produk keuangan, tetapi karakter hak, kewajiban, risiko, dan regulasinya berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan menyamakan ‘tercatat dalam daftar OJK’ dengan izin untuk semua jenis kegiatan. Legalitas harus sesuai nama badan hukum, produk, kegiatan, dan status terbaru. Ini amat penting untuk entitas yang memakai nama mirip perusahaan terdaftar atau mengaku sebagai afiliasi tanpa bukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": ""
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan OJK, Bank Indonesia, dan LPS"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK berfokus pada pengaturan dan pengawasan sektor jasa keuangan sesuai kewenangannya, termasuk aspek kesehatan dan perilaku pelaku usaha. Bank Indonesia memiliki mandat moneter, stabilitas nilai rupiah, sistem pembayaran, dan makroprudensial dalam kerangka peraturan. Lembaga Penjamin Simpanan menjalankan fungsi penjaminan simpanan yang memenuhi syarat serta fungsi penanganan/resolusi bank sesuai mandatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat koordinasi antarlembaga terutama ketika masalah suatu bank dapat berpengaruh pada stabilitas sistem keuangan. Karena mandat berbeda, pertanyaan ujian biasanya meminta peserta memilih institusi berdasarkan objek tindakan, bukan hanya karena semuanya bekerja pada sistem keuangan. Misalnya, perlakuan lembaga jasa keuangan kepada nasabah berhubungan dengan ketentuan pelindungan konsumen OJK; sedangkan aspek kebijakan moneter berada pada BI."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjaminan simpanan tidak sama dengan perlindungan dari penurunan harga saham atau reksa dana. Produk pasar modal bukan otomatis ‘dijamin LPS’ hanya karena dibeli melalui lembaga jasa keuangan berizin. Pada soal yang menyebut bank, pastikan apakah aspek yang dipersoalkan pengawasan bank, penjaminan simpanan, atau sistem pembayaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pelindungan Konsumen: Tujuh Prinsip Terbaru"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK Nomor 22 Tahun 2023 mengatur tujuh prinsip pelindungan konsumen: (1) edukasi yang memadai;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) keterbukaan dan transparansi informasi produk/layanan;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) perlakuan yang adil dan perilaku bisnis yang bertanggung jawab;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) pelindungan aset, privasi, dan data konsumen;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(5) penanganan pengaduan dan penyelesaian sengketa yang efektif dan efisien;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(6) penegakan kepatuhan; serta"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(7) persaingan yang sehat. Tujuh prinsip ini perlu diutamakan dibanding daftar lima prinsip dari materi historis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip tersebut bekerja sepanjang daur hubungan konsumen: sebelum membeli produk, informasi harus mudah dipahami dan tidak menyesatkan; saat menggunakan produk, perlakuan harus adil, dana dan data dilindungi; setelah terjadi masalah, kanal pengaduan dan penyelesaian sengketa harus tersedia. Persaingan sehat dan penegakan kepatuhan mendukung agar pelindungan tidak berhenti pada imbauan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: brosur produk menonjolkan keuntungan tetapi menyembunyikan biaya administrasi dan risiko. Persoalan utamanya adalah transparansi, meskipun pada kasus tertentu juga dapat berkaitan dengan perilaku bisnis yang bertanggung jawab. Dalam soal pilihan ganda, cari prinsip yang paling langsung menjawab kejadian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hak dan Kewajiban Konsumen serta Perilaku PUJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsumen berhak memperoleh informasi yang benar, jelas, dan tidak menyesatkan tentang produk dan layanan; memahami syarat, manfaat, biaya, serta risiko; dan menggunakan saluran pengaduan sesuai ketentuan. Di sisi lain, konsumen juga perlu memberi informasi yang benar, membaca perjanjian, memahami kewajiban pembayaran, serta menjaga kredensial dan data keamanan akun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pelaku Usaha Jasa Keuangan (PUJK) harus mematuhi standar perilaku sesuai kewenangan dan ketentuan sektoral. Kontrak standar tidak boleh dipakai sebagai pembenaran mutlak untuk menghilangkan hak konsumen yang dilindungi peraturan. Konsumen tidak harus menerima setiap biaya hanya karena muncul belakangan dalam pesan promosi tanpa penjelasan sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan penting: transparansi tidak berarti produk bebas risiko. Produk berisiko dapat dipasarkan secara sah apabila memenuhi ketentuan dan informasi yang disampaikan benar, sedangkan jaminan imbal hasil yang menyesatkan justru patut dicurigai. Tujuan pelindungan adalah meningkatkan informasi dan perilaku yang adil, bukan menjamin semua keputusan konsumen menghasilkan keuntungan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Waspada Investasi: Prinsip Legal dan Logis (2L)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip 2L mengajak masyarakat menilai dua pertanyaan terpisah: Legal—apakah pelaku usaha, produk, dan kegiatan berizin atau memiliki status yang memang diwajibkan oleh otoritas berwenang? Logis—apakah janji hasil, risiko, skema usaha, sumber keuntungan, dan model bisnis masuk akal? Keduanya harus dinilai; legalitas tidak menyulap instrumen berisiko menjadi bebas kerugian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda bahaya yang sering muncul meliputi jaminan imbal hasil tinggi dan pasti dalam waktu singkat, tekanan merekrut anggota baru demi komisi, permintaan transfer ke rekening pribadi, identitas pengelola tidak jelas, dan penolakan memberikan dokumen resmi. Istilah teknologi, token, robot trading, AI, atau aset digital tidak menggantikan bukti legalitas dan transparansi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penilaian logis dapat diuji secara sederhana: dari mana uang pembayaran ‘imbal hasil’ berasal, adakah kegiatan ekonomi yang terbukti, dan bagaimana perusahaan menanggung klaim untung pasti? Jika jawabannya selalu hanya ‘dari anggota baru’, skema menjadi sangat berisiko dan perlu ditelusuri. Hindari menyebut sesuatu otomatis ilegal hanya berdasarkan tingkat keuntungan tinggi; status hukum memerlukan verifikasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Modus Penipuan, Pinjaman Ilegal, dan Penyalahgunaan Data"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penipuan keuangan dapat memakai penyamaran identitas pejabat, pemalsuan logo, tautan tiruan, penawaran investasi dengan akun media sosial palsu, dan promosi melalui grup percakapan. Pelaku dapat menciptakan rasa mendesak, menggunakan tangkapan layar keuntungan yang tidak terverifikasi, atau meminta korban mengunduh aplikasi tidak resmi. Karena itu, pemeriksaan harus menggunakan kanal resmi yang diakses secara mandiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada penawaran pinjaman, konsumen perlu memperhatikan penyelenggara, transparansi biaya dan bunga/manfaat ekonomi, perjanjian, cara penagihan, dan permintaan akses data. Permintaan izin aplikasi yang tidak relevan dengan layanan merupakan indikator untuk berhati-hati, tetapi penilaian legalitas tetap perlu mengikuti aturan dan daftar resmi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah perlindungan dasar meliputi tidak membagikan OTP/PIN/password, tidak memberi akses perangkat jarak jauh kepada pihak tidak tepercaya, menghindari pengiriman data sensitif via tautan mencurigakan, serta menyimpan bukti percakapan dan transaksi bila terdapat masalah. Jika data telanjur disalahgunakan, hubungi penyedia layanan terkait melalui kanal resminya dan gunakan mekanisme pengaduan serta pelaporan yang berlaku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Satgas PASTI dan Penanganan Aktivitas Ilegal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satgas Waspada Investasi (SWI) merupakan sebutan yang dikenal dalam buku OJK lebih lama. Sejak perubahan nomenklatur berdasarkan kebijakan tahun 2023, digunakan nama Satuan Tugas Pemberantasan Aktivitas Keuangan Ilegal (Satgas PASTI). Perubahan istilah ini penting karena soal kontemporer tidak semestinya menjadikan SWI sebagai satu-satunya nama yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satgas PASTI merupakan koordinasi lintas instansi untuk pencegahan dan penanganan aktivitas keuangan ilegal sesuai kewenangan masing-masing. Perannya mencakup koordinasi informasi, identifikasi modus, langkah penanganan, dan edukasi. Namun, masyarakat tidak boleh menyimpulkan bahwa pelaporan otomatis menjamin pengembalian dana; pengembalian bergantung pada fakta, proses, dan mekanisme hukum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kasus simulasi: sebuah grup menawarkan hasil 15% setiap minggu dan meminta anggota mentransfer ke nomor rekening pribadi untuk mengaktifkan paket. Respons tepat adalah menghentikan transfer, memverifikasi legalitas melalui kanal resmi, mengamankan bukti, dan menggunakan jalur pelaporan. Mengajak orang lain ‘coba dulu’ justru memperbesar risiko."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pemeriksaan Legalitas dan Pengaduan Konsumen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan dimulai dari nama legal entitas, kesesuaian kegiatan, status izin/pendaftaran yang berlaku, serta nama aplikasi atau platform yang resmi. Kanal OJK dapat diakses melalui situs www.ojk.go.id, Kontak OJK 157, serta layanan konsumen dan APPK pada https://kontak157.ojk.go.id. Dalam praktik, kanal, nomor, dan tata cara dapat berubah; gunakan situs resmi sebagai rujukan mutakhir, bukan nomor dari iklan atau pesan pribadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika masalah berkaitan dengan produk atau layanan dari PUJK, jalur umum ialah menyampaikan pengaduan kepada PUJK dengan data dan bukti yang jelas terlebih dahulu; bila tidak terselesaikan, gunakan mekanisme eskalasi sesuai ketentuan, termasuk layanan OJK atau lembaga penyelesaian sengketa yang berwenang. Laporan dugaan aktivitas ilegal mempunyai konteks berbeda dengan sengketa kontraktual antara konsumen dan PUJK yang legal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dokumentasi yang baik mencakup kronologi, identitas produk atau entitas, bukti pembayaran, kontrak, komunikasi dan nomor tiket. Jangan menyebarkan identitas korban secara terbuka. Dalam ujian, kata kunci seperti ‘memeriksa status’ berbeda dari ‘mengajukan keluhan’ atau ‘melaporkan kejahatan’, sehingga jawaban prosesnya bisa berlainan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perkembangan Pengawasan Aset Keuangan Digital"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "UU P2SK dan aturan pelaksananya mengatur peralihan kewenangan pengaturan serta pengawasan aset keuangan digital termasuk aset kripto dari Bappebti ke OJK, dengan pelaksanaan peralihan pada Januari 2025. OJK kemudian mengatur perdagangan aset keuangan digital melalui POJK 27/2024, yang mengalami perubahan melalui POJK 23/2025. Oleh karena itu, buku lawas yang menyatakan pengawasan aset kripto masih berada pada Bappebti harus dibaca dalam konteks tahun penerbitannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peralihan kewenangan tidak berarti setiap aset digital resmi diterbitkan OJK, semua bursa/platform legal, atau nilainya stabil. Risiko harga, keamanan siber, operasional, dan penyalahgunaan informasi tetap relevan. Pengecekan penyelenggara perlu mengacu pada daftar resmi status perizinan/pendaftaran yang diterbitkan OJK."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal yang baik akan membedakan: lembaga yang berwenang mengawasi, status berizin/terdaftar suatu penyelenggara, dan kemungkinan keuntungan/kerugian investasi. Ketiganya adalah hal berbeda dan tidak dapat disimpulkan satu sama lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel Perbandingan dan Kesalahan Konseptual"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pernyataan",
+                "Penilaian",
+                "Alasan"
+              ],
+              "baris": [
+                [
+                  "OJK dibentuk berdasarkan UU 21/2011",
+                  "Benar",
+                  "UU pembentukan; telah mengalami perubahan melalui UU P2SK"
+                ],
+                [
+                  "Setiap investasi melalui entitas berizin pasti untung",
+                  "Salah",
+                  "Status kegiatan tidak menghapus risiko pasar"
+                ],
+                [
+                  "Semua layanan keuangan hanya diawasi OJK",
+                  "Terlalu luas",
+                  "Terdapat kewenangan BI dan otoritas lain"
+                ],
+                [
+                  "Seluruh simpanan dan investasi dijamin LPS",
+                  "Salah",
+                  "Jaminan simpanan mempunyai syarat dan lingkup khusus"
+                ],
+                [
+                  "Prinsip pelindungan konsumen masih hanya lima",
+                  "Tidak mutakhir",
+                  "POJK 22/2023 memuat tujuh prinsip"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dasar Pembentukan dan Pembaruan Hukum",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dasar pembentukan OJK yang tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "UU No. 4 Tahun 2023",
+            "B": "UU No. 21 Tahun 2011",
+            "C": "POJK No. 22 Tahun 2023",
+            "D": "PP No. 49 Tahun 2024",
+            "E": "UU No. 7 Tahun 1992"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK dibentuk melalui UU Nomor 21 Tahun 2011. UU 4/2023 memperbarui kerangka sektor keuangan dan sejumlah kewenangan, bukan menggantikan identitas UU pembentukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Identifikasi kata “dibentuk”, bukan “diubah”."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan Visi, Misi, dan Tujuan",
+          "soal": [
+            {
+              "jenis": "subjudul",
+              "teks": "Soal 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK memerintahkan lembaga keuangan memperbaiki praktik penyampaian informasi biaya. Contoh tersebut paling langsung menunjukkan ..."
+            }
+          ],
+          "opsi": {
+            "A": "tujuan umum negara",
+            "B": "kewenangan pengawasan",
+            "C": "fungsi pencetakan uang",
+            "D": "penjaminan simpanan",
+            "E": "kebijakan fiskal"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Memberikan tindakan pengawasan dan perintah kepada pelaku usaha merupakan contoh penggunaan kewenangan OJK, bukan fungsi moneter, fiskal, atau penjaminan simpanan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari kata tindakan konkret pengawas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Soal 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Salah satu ketentuan mengenai OJK menyebutkan bahwa kegiatan sektor jasa keuangan harus mampu melindungi kepentingan konsumen dan masyarakat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketentuan tersebut merupakan bagian dari ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tujuan pembentukan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Struktur kelembagaan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Mekanisme pengawasan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Kewenangan administratif OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tata kelola organisasi OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban:** A. Tujuan pembentukan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan UU Nomor 21 Tahun 2011 tentang OJK sebagaimana telah diubah, salah satu tujuan pembentukan OJK adalah agar keseluruhan kegiatan di sektor jasa keuangan mampu melindungi kepentingan konsumen dan masyarakat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan pada soal menunjukkan hasil yang ingin dicapai melalui pembentukan OJK, bukan struktur organisasi, mekanisme pengawasan, kewenangan administratif, atau tata kelola kelembagaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah A. Tujuan pembentukan OJK."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Fungsi dan Kewenangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK menginstruksikan perusahaan pembiayaan memperbaiki penyajian biaya produk. Ini terutama merupakan pelaksanaan ..."
+            }
+          ],
+          "opsi": {
+            "A": "kebijakan moneter",
+            "B": "kewenangan pengawasan",
+            "C": "penjaminan simpanan",
+            "D": "penetapan pajak",
+            "E": "penerbitan mata uang"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perintah dalam rangka kepatuhan pelaku usaha merupakan tindakan pengawasan OJK, bukan fungsi BI atau LPS."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** B sesuai konsep; opsi lainnya mencampur mandat, mengabaikan syarat, atau menyimpulkan hal yang tidak didukung stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Independensi dan Akuntabilitas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang paling tepat mengenai independensi OJK adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Bebas dari seluruh bentuk pengawasan.",
+            "B": "Berwenang tanpa batasan peraturan.",
+            "C": "Mandiri dengan tetap bertanggung jawab.",
+            "D": "Bertanggung jawab kepada pelaku usaha.",
+            "E": "Mengutamakan kepentingan lembaga tertentu."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Independensi OJK berarti OJK menjalankan tugas dan kewenangannya secara mandiri sesuai ketentuan peraturan perundang-undangan, tanpa campur tangan pihak lain yang bertentangan dengan hukum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, independensi tidak menghilangkan kewajiban OJK untuk mempertanggungjawabkan pelaksanaan tugas dan kewenangannya. OJK tetap harus menerapkan prinsip akuntabilitas dan tata kelola yang baik."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Independen tidak sama dengan tanpa pengawasan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Struktur Organisasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam struktur OJK, pengawasan atas bank umum secara sektoral berada pada bidang yang dipimpin oleh ..."
+            }
+          ],
+          "opsi": {
+            "A": "Kepala Eksekutif Pengawas Perbankan",
+            "B": "Kepala Eksekutif Pengawas Pasar Modal",
+            "C": "Deputi Gubernur BI",
+            "D": "Kepala LPS",
+            "E": "Menteri Perdagangan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Struktur pengawasan OJK mengelompokkan pekerjaan sesuai sektor. Kepala Eksekutif Pengawas Perbankan memimpin bidang pengawasan sektor perbankan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** A sesuai konsep; opsi lainnya mencampur mandat, mengabaikan syarat, atau menyimpulkan hal yang tidak didukung stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dewan Komisioner dan Profil",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menjawab soal tentang nama pejabat dan masa jabatan OJK, sumber yang paling tepat untuk diprioritaskan adalah…"
+            }
+          ],
+          "opsi": {
+            "A": "Akun media sosial tidak resmi",
+            "B": "Daftar pejabat dari buku lama tanpa tanggal",
+            "C": "Profil resmi OJK yang bertanggal mutakhir",
+            "D": "Pesan berantai",
+            "E": "Iklan lowongan anonim"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Keanggotaan Dewan Komisioner dapat berubah; profil yang tersedia harus dibandingkan dengan kanal resmi terbaru. Jangan menghafal profil sebagai informasi tetap sepanjang waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** C sesuai konsep; opsi lainnya mencampur mandat, mengabaikan syarat, atau menyimpulkan hal yang tidak didukung stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Nilai-Nilai dan Etika",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang pemeriksa menemukan hubungan pribadi dengan pihak yang diawasinya. Tindakan yang paling selaras dengan integritas adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Membatasi komunikasi dengan pihak terkait.",
+            "B": "Melaporkan potensi benturan kepentingan.",
+            "C": "Melanjutkan pemeriksaan secara mandiri.",
+            "D": "Meminta pihak terkait menjaga kerahasiaan.",
+            "E": "Menyerahkan keputusan kepada pihak terkait."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "ntegritas mengharuskan pemeriksa menjaga objektivitas, transparansi, dan profesionalisme. Ketika terdapat hubungan pribadi dengan pihak yang diawasi, pemeriksa perlu melaporkan potensi benturan kepentingan melalui mekanisme yang berlaku agar dapat ditangani secara tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** B sesuai konsep; opsi lainnya mencampur mandat, mengabaikan syarat, atau menyimpulkan hal yang tidak didukung stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Peta Produk Jasa Keuangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Produk yang pada umumnya terkait pasar modal adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Reksa dana",
+            "B": "Rekening giro",
+            "C": "Polis asuransi kesehatan",
+            "D": "Kredit kendaraan",
+            "E": "Program manfaat pensiun"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Reksa dana adalah instrumen investasi pasar modal, sedangkan opsi lain mencerminkan perbankan, asuransi, pembiayaan, atau pensiun."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kenali instrumen, bukan hanya nama perusahaan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "OJK, BI, LPS",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga yang menjalankan penjaminan simpanan bank sesuai persyaratan yang berlaku adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "OJK",
+            "B": "Bappebti",
+            "C": "Kementerian Perdagangan",
+            "D": "LPS",
+            "E": "Bursa Efek"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "LPS memiliki mandat penjaminan simpanan yang memenuhi persyaratan. OJK berfokus pada pengaturan/pengawasan, BI pada moneter dan sistem pembayaran dalam ruang mandatnya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Frasa “penjaminan simpanan” mengarah ke LPS."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Prinsip Pelindungan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "PUJK tidak menjelaskan biaya administrasi material hingga konsumen menandatangani perjanjian. Prinsip yang paling langsung dilanggar ialah ..."
+            }
+          ],
+          "opsi": {
+            "A": "persaingan sehat",
+            "B": "keterbukaan dan transparansi",
+            "C": "inflasi terkendali",
+            "D": "stabilitas moneter",
+            "E": "perluasan kredit"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kegagalan menyampaikan informasi biaya sejak awal berkaitan langsung dengan keterbukaan dan transparansi dalam POJK 22/2023."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ambil kata kunci “informasi biaya”."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Keamanan Data",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Petugas meminta nasabah mengirimkan OTP lewat pesan pribadi. Sikap yang benar adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Memberikan agar proses cepat",
+            "B": "Mengirim kepada teman petugas",
+            "C": "Menolak dan memverifikasi melalui kanal resmi",
+            "D": "Mengunggah OTP ke grup",
+            "E": "Memberi OTP bila pelaku memakai logo bank"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "OTP adalah kredensial sensitif. Logo atau identitas yang diklaim tidak cukup sebagai verifikasi; gunakan kanal resmi dan jangan membagikan OTP."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kredensial tidak dibagikan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Prinsip 2L",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah platform investasi mengaku telah memiliki izin resmi dan menawarkan keuntungan tetap sebesar 20% setiap minggu tanpa risiko kerugian. Berdasarkan prinsip Legal dan Logis (2L), tindakan yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Memastikan izin usaha dan riwayat keuntungan.",
+            "B": "Memeriksa izin resmi dan kewajaran imbal hasil.",
+            "C": "Membandingkan keuntungan dengan produk sejenis.",
+            "D": "Memastikan izin usaha dan testimoni investor.",
+            "E": "Memeriksa laporan keuangan dan reputasi usaha."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip 2L terdiri atas Legal dan Logis. Legal berarti memeriksa legalitas penyelenggara dan kesesuaian izin dengan kegiatan usaha yang ditawarkan. Logis berarti menilai kewajaran keuntungan, risiko, dan mekanisme investasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penawaran keuntungan tetap 20% setiap minggu tanpa risiko merupakan tanda bahaya yang perlu diwaspadai. Meskipun penyelenggara mengaku memiliki izin, klaim tersebut tetap harus diperiksa secara kritis."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Legal = izin sesuai kegiatan usaha. Logis = keuntungan dan risiko masuk akal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Skema Berbasis Rekrutmen",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Program memberi keuntungan utama dari biaya peserta baru dan tidak menjelaskan kegiatan ekonomi nyata. Kesimpulan paling tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Pasti aman",
+            "B": "Bebas risiko",
+            "C": "Patut diduga berisiko tinggi dan harus diverifikasi",
+            "D": "Otomatis dijamin LPS",
+            "E": "Selalu lebih baik daripada tabungan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ketergantungan pada anggota baru dan ketiadaan sumber hasil jelas adalah tanda bahaya. Penetapan status ilegal tetap memerlukan verifikasi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari sumber hasil ekonominya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Satgas PASTI",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nomenklatur terkini dari Satgas Waspada Investasi adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Satgas Penjaminan",
+            "B": "Satgas PASTI",
+            "C": "Komite Pasar Modal",
+            "D": "Dewan Moneter",
+            "E": "LAPS"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "SWI merupakan sebutan historis; Satgas PASTI digunakan untuk koordinasi penanganan aktivitas keuangan ilegal."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan buku historis dan istilah terkini."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pengaduan Layanan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang konsumen menemukan biaya tambahan pada layanan perusahaan jasa keuangan berizin yang tidak tercantum dalam kontrak. Konsumen tersebut ingin mengajukan pengaduan agar permasalahannya dapat ditindaklanjuti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah awal yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Melaporkan biaya tersebut kepada OJK.",
+            "B": "Mengajukan sengketa melalui LAPS SJK.",
+            "C": "Mengadukan masalah kepada PUJK terkait.",
+            "D": "Meminta mediasi dari lembaga konsumen.",
+            "E": "Melaporkan dugaan pelanggaran ke polisi."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Konsumen yang menemukan biaya tambahan tidak sesuai kontrak perlu terlebih dahulu menyampaikan pengaduan kepada Pelaku Usaha Jasa Keuangan (PUJK) terkait melalui kanal resmi, disertai bukti pendukung seperti kontrak dan rincian biaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apabila pengaduan tidak terselesaikan, konsumen dapat menggunakan mekanisme eskalasi atau penyelesaian sengketa sesuai ketentuan yang berlaku."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pengaduan awal → PUJK. Jika belum terselesaikan → eskalasi sesuai ketentuan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Aset Kripto",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sejak peralihan kewenangan pada Januari 2025, pengaturan dan pengawasan perdagangan aset keuangan digital termasuk aset kripto beralih dari Bappebti kepada ..."
+            }
+          ],
+          "opsi": {
+            "A": "LPS",
+            "B": "Kementerian Pariwisata",
+            "C": "OJK",
+            "D": "BPS",
+            "E": "DJP"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Peralihan pengawasan ke OJK dilaksanakan sejalan dengan UU P2SK dan aturan pelaksananya. Peralihan tersebut tidak menjamin nilai aset."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan konteks tanggal soal."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pengenalan OJK dan Waspada Investasi",
+        "teks": ""
+      }
+    ],
+    "pesan": "OJK merupakan lembaga pengatur dan pengawas sektor jasa keuangan dengan dasar hukum yang berkembang. Pemahaman fungsi, kewenangan, dan koordinasinya dengan BI serta LPS membantu membedakan regulator, penyelenggara layanan, dan penjamin simpanan. Pelindungan konsumen, verifikasi legalitas, prinsip 2L, dan pengenalan aktivitas keuangan ilegal perlu dipelajari sebagai satu rangkaian pengambilan keputusan yang hati-hati."
+  }
+}

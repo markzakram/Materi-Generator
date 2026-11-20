@@ -27,6 +27,8 @@ def periksa(path, folder_png=None, lebar_px=1600):
     try:
         W, H = pres.PageSetup.SlideWidth, pres.PageSetup.SlideHeight
         for s in pres.Slides:
+            # batas atas navigasi: bentuk 'Navigasi' (pil General, mulai 10,04 in) atau bawaan Opsi B
+            batas_nav = min([BATAS_NAV] + [sh.Top for sh in s.Shapes if sh.Name == "Navigasi"])
             for sh in _bentuk(s.Shapes):
                 frames = []
                 if sh.HasTable:
@@ -48,7 +50,7 @@ def periksa(path, folder_png=None, lebar_px=1600):
                                            f"({tf.TextRange.Text[:45]!r})")
                         bawah = kotak.Top + max(kotak.Height, tinggi)
                         # tombol tautan sengaja berada sejajar navigasi (di sebelahnya) pada tema General
-                        if kotak.Top < BATAS_NAV < bawah and not nama.startswith(("Nav", "Nomor", "Hak cipta", "Tombol")):
+                        if kotak.Top < batas_nav < bawah and not nama.startswith(("Nav", "Nomor", "Hak cipta", "Tombol")):
                             masalah.append(f"slide {s.SlideIndex}: '{nama}' menabrak navigasi")
                         if kotak.Left + kotak.Width > W + 1 and kotak.Left > 0:
                             masalah.append(f"slide {s.SlideIndex}: '{nama}' keluar tepi kanan")

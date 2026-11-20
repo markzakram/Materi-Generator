@@ -14,6 +14,7 @@ agar diisi tim akademik lewat editor.
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import os
 import re
@@ -152,27 +153,39 @@ def baca_docx(path):
                 elemen.append({"jenis": jenis, "teks": teks, "polos": polos, "tebal": tebal,
                                "miring": miring, "daftar": daftar})
         elif el.tag == f"{W}tbl":
-            baris = []
+            baris, par_baris, gambar_baris = [], [], []
             for tr in el.findall(f"{W}tr"):
-                sel = []
+                sel, par_sel, gambar_sel = [], [], []
                 for tc in tr.findall(f"{W}tc"):
                     tcPr = tc.find(f"{W}tcPr")
                     rentang = tcPr.find(f"{W}gridSpan") if tcPr is not None else None
                     lanjut = tcPr.find(f"{W}vMerge") if tcPr is not None else None
-                    isi = [_teks_paragraf(p)[0] for p in tc.findall(f".//{W}p")]
-                    teks = "" if lanjut is not None and lanjut.get(f"{W}val") != "restart" else \
-                        " ".join(x for x in isi if x)
+                    hasil = [_teks_paragraf(p) for p in tc.findall(f".//{W}p")]
+                    isi = [h[0] for h in hasil]
+                    sambungan = lanjut is not None and lanjut.get(f"{W}val") != "restart"
+                    teks = "" if sambungan else " ".join(x for x in isi if x)
                     sel.append(teks)
+                    par_sel.append([] if sambungan else [x for x in isi if x])
+                    # gambar di dalam sel (mis. foto di tabel profil)
+                    gambar_sel.append([] if sambungan else [
+                        {"jenis": "gambar", "data": z.read("word/" + target[rid]), "ext": os.path.splitext(target[rid])[1].lower(),
+                         "w": w, "h": h} for x in hasil for rid, w, h in x[1] if target.get(rid)])
                     # sel gabungan mendatar diperluas agar kolom tetap sejajar
-                    sel.extend([""] * (int(rentang.get(f"{W}val")) - 1 if rentang is not None else 0))
+                    tambah = int(rentang.get(f"{W}val")) - 1 if rentang is not None else 0
+                    sel.extend([""] * tambah)
+                    par_sel.extend([[]] * tambah)
+                    gambar_sel.extend([[]] * tambah)
                 baris.append(sel)
+                par_baris.append(par_sel)
+                gambar_baris.append(gambar_sel)
             if baris:
-                elemen.append({"jenis": "tabel", "baris": baris})
+                elemen.append({"jenis": "tabel", "baris": baris, "par": par_baris, "gambar": gambar_baris})
     return elemen
 
 
 # ------------------------------------------------------------- susun ---
-CATATAN_PENULIS = re.compile(r"\s*\[\s*(?:WAJIB|PENGAYAAN|SEMUA|Sertakan)[^\]]*\]", re.I)  # mis. [WAJIB PPT]
+# catatan penulis untuk pembuat PPT, mis. [WAJIB PPT], [PENGAYAAN], [YANG HARUS ADA DI PPT HANYA FOTO ...]
+CATATAN_PENULIS = re.compile(r"\s*\[[^\]]*\b(?:WAJIB|PENGAYAAN|PPT|SEMUA|Sertakan|slide)\b[^\]]*\]", re.I)
 _KATA_KECIL = {"dan", "atau", "di", "ke", "dari", "yang", "untuk", "pada", "dengan", "dalam", "vs"}
 
 
@@ -236,16 +249,78 @@ class Penyusun:
         self.folder_naskah, self.slug = folder_naskah, slug
         self.n_gambar = 0
 
-    def simpan_gambar(self, el):
+    def simpan_gambar(self, el, foto_persegi=False):
+        """Simpan gambar ke media/<slug>/. Gambar lebih lebar dari 1600 px diperkecil; foto profil
+        dipotong persegi (bagian atas, tempat wajah) dan disimpan sebagai JPEG 480 px."""
         if el["ext"] not in (".png", ".jpg", ".jpeg", ".gif", ".bmp"):
             return None
+        data, ext = el["data"], el["ext"]
+        try:
+            from PIL import Image
+            with Image.open(io.BytesIO(data)) as im:
+                im.load()
+                if foto_persegi:
+                    s = min(im.size)
+                    im = im.crop(((im.width - s) // 2, 0, (im.width - s) // 2 + s, s)).resize((480, 480), Image.LANCZOS)
+                    latar = Image.new("RGB", im.size, "white")
+                    latar.paste(im.convert("RGBA"), mask=im.convert("RGBA").getchannel("A"))
+                    keluar = io.BytesIO()
+                    latar.save(keluar, "JPEG", quality=85, optimize=True)
+                    data, ext = keluar.getvalue(), ".jpg"
+                elif im.width > 1600:
+                    im = im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS)
+                    keluar = io.BytesIO()
+                    im.save(keluar, "PNG" if ext == ".png" else "JPEG", optimize=True, **({} if ext == ".png" else {"quality": 88}))
+                    if len(keluar.getvalue()) < len(data):  # pakai yang lebih kecil
+                        data = keluar.getvalue()
+        except Exception:  # gambar yang tidak terbaca Pillow disimpan apa adanya
+            pass
         self.n_gambar += 1
-        rel = f"media/{self.slug}/gambar-{self.n_gambar:02d}{el['ext']}"
+        rel = f"media/{self.slug}/gambar-{self.n_gambar:02d}{ext}"
         path = os.path.join(self.folder_naskah, rel)
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "wb") as f:
-            f.write(el["data"])
+            f.write(data)
         return rel
+
+    def blok_profil(self, el):
+        """Tabel dengan kolom foto -> blok 'profil' (foto, nama, jabatan), atau None.
+
+        Seperti instruksi di dokumen OJK ('yang harus ada di PPT hanya foto dan profil'), kartu memuat
+        foto dan kolom teks terpendek (nama + jabatan); kolom uraian panjang tidak ikut.
+        """
+        gambar = el.get("gambar") or []
+        baris = el["baris"]
+        if len(baris) < 3 or not any(g for r in gambar for g in r):
+            return None
+        data = list(range(1, len(baris)))  # baris 0 = header
+        n_kol = max(len(r) for r in baris)
+        kol_foto = next((c for c in range(n_kol)
+                         if sum(1 for r in data if c < len(gambar[r]) and gambar[r][c]) >= max(2, 0.6 * len(data))), None)
+        if kol_foto is None:
+            return None
+        nomor = re.compile(r"^\s*\d+[.)]?\s*$")
+        kandidat = [c for c in range(n_kol) if c != kol_foto and any(
+            c < len(baris[r]) and baris[r][c].strip() and not nomor.match(baris[r][c]) for r in data)]
+        if not kandidat:
+            return None
+        rata = lambda c: sum(len(baris[r][c]) for r in data if c < len(baris[r])) / len(data)  # noqa: E731
+        kol_teks = min(kandidat, key=rata)
+        item = []
+        for r in data:
+            foto = gambar[r][kol_foto][0] if gambar[r][kol_foto] else None
+            par = el["par"][r][kol_teks] if kol_teks < len(el["par"][r]) else []
+            if not par and not foto:
+                continue
+            nama = (par[0] if par else "").replace("**", "")
+            peran = " ".join(par[1:]).replace("**", "")
+            if not peran or len(nama) > 40:  # nama dan jabatan dalam satu paragraf: pisah di awal jabatan
+                m = re.search(r"\s(?=(?:Ketua|Wakil|Kepala|Anggota|Deputi|Direktur|Komisaris|Sekretaris)\b)", nama)
+                if m and m.start() >= 4:
+                    nama, peran = nama[:m.start()].strip(), (nama[m.end():].strip() + " " + peran).strip()
+            item.append({"file": self.simpan_gambar(foto, foto_persegi=True) if foto else None,
+                         "nama": nama, "peran": peran})
+        return {"jenis": "profil", "item": item} if item else None
 
     def blok_dari(self, elemen):
         """Elemen isi -> blok naskah (paragraf, subjudul, sorot, poin, gambar, tabel, catatan)."""
@@ -263,8 +338,11 @@ class Penyusun:
                         i += 1
                     blok.append(b)
             elif j == "tabel":
+                profil = self.blok_profil(el)
                 baris = [r for r in el["baris"] if any(c.strip() for c in r)]
-                if len(baris) >= 2 and len(baris[0]) >= 1:
+                if profil:
+                    blok.append(profil)
+                elif len(baris) >= 2 and len(baris[0]) >= 1:
                     n = max(len(r) for r in baris)
                     baris = [r + [""] * (n - len(r)) for r in baris]
                     blok.append({"jenis": "tabel", "kolom": [c.replace("**", "") for c in baris[0]],

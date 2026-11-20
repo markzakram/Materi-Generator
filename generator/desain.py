@@ -1021,8 +1021,8 @@ def tinggi_blok(b, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0):
     if j == "poin":
         total = 0.0
         for isi in b["butir"]:
-            total += tinggi_paragraf([P(isi, 19, "navy", spasi=1.3)], w - 0.5) + 0.18
-        return total - 0.18
+            total += tinggi_paragraf([P(isi, 19, "navy", spasi=1.3)], w - 0.5) + 0.22  # = jarak di poin_berbutir
+        return total - 0.22
     if j == "gambar":
         gw, gh, h_ket, _ = _ukur_gambar(b, w, h_maks, folder)
         return gh + 0.4 + h_ket
@@ -1030,7 +1030,51 @@ def tinggi_blok(b, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0):
         return tinggi_tabel(b["kolom"], b["baris"], b.get("lebar"), b.get("ukuran", 16), w)
     if j == "catatan":
         return tinggi_catatan(b["teks"], w, b.get("judul"), 18)
+    if j == "profil":
+        _, _, tinggi = _ukur_profil(b, w)
+        return sum(tinggi) + (len(tinggi) - 1) * CELAH_PROFIL
     return 0.0
+
+
+# Kartu profil (foto, nama, jabatan) dalam grid; dipakai untuk tabel profil di dokumen sumber.
+KOLOM_PROFIL, CELAH_PROFIL = 4, 0.25
+INSET_PROFIL = (0.2, 0.1, 0.2, 0.18)
+
+
+def _par_profil(it):
+    par = [P(it.get("nama") or "", 15, "navy", tebal=True, rata="c", spasi=1.15, setelah=4)]
+    if it.get("peran"):
+        par.append(P(it["peran"], 11, "teks", rata="c", spasi=1.25))
+    return par
+
+
+def _ukur_profil(b, w):
+    """(lebar kartu, sisi foto, [tinggi kartu per baris grid])."""
+    lw = (w - CELAH_PROFIL * (KOLOM_PROFIL - 1)) / KOLOM_PROFIL
+    foto = min(1.15, lw * 0.4)
+    item = b["item"]
+    tinggi = []
+    for i in range(0, max(1, len(item)), KOLOM_PROFIL):
+        h_teks = max((tinggi_paragraf(_par_profil(it), lw, INSET_PROFIL) for it in item[i:i + KOLOM_PROFIL]),
+                     default=0.5)
+        tinggi.append(0.25 + foto + 0.1 + h_teks)
+    return lw, foto, tinggi
+
+
+def kartu_profil(slide, y, b, x=KIRI, w=LEBAR_ISI, folder="."):
+    lw, foto, tinggi = _ukur_profil(b, w)
+    for i, it in enumerate(b["item"]):
+        baris = i // KOLOM_PROFIL
+        h_kartu = tinggi[baris]
+        kx = x + (i % KOLOM_PROFIL) * (lw + CELAH_PROFIL)
+        ky = y + sum(tinggi[:baris]) + baris * CELAH_PROFIL
+        kotak(slide, kx, ky, lw, h_kartu, warna="kartu", radius=RADIUS, nama=f"Profil {i + 1}")
+        path = os.path.join(folder, it["file"]) if it.get("file") else None
+        if path and os.path.exists(path):
+            gambar(slide, path, kx + (lw - foto) / 2, ky + 0.25, w=foto, h=foto, nama=f"Foto {i + 1}")
+        teks(slide, kx, ky + 0.25 + foto + 0.1, lw, h_kartu - foto - 0.35, _par_profil(it), inset=INSET_PROFIL,
+             nama=f"Nama {i + 1}")
+    return y + sum(tinggi) + (len(tinggi) - 1) * CELAH_PROFIL
 
 
 def skala_min_gambar(b, w=LEBAR_ISI):
@@ -1072,6 +1116,8 @@ def gambar_blok(slide, b, x, y, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0)
     if j == "catatan":
         return catatan(slide, y, b.get("catatan", "tips"), b["teks"], x=x, w=w, judul_catatan=b.get("judul"),
                        ukuran=18)
+    if j == "profil":
+        return kartu_profil(slide, y, b, x, w, folder)
     return y
 
 

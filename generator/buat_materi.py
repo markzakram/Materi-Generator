@@ -144,6 +144,10 @@ def _rapikan_tema(prs):
 
 
 # ------------------------------------------------------------ pembangun ---
+# Blok yang boleh dipecah ke halaman berikut: jenis -> (kunci daftar isi, langkah, minimal di halaman berisi)
+BISA_DIPECAH = {"tabel": ("baris", 1, 2), "poin": ("butir", 1, 2), "profil": ("item", D.KOLOM_PROFIL, D.KOLOM_PROFIL)}
+
+
 class Pembangun:
     varian_sampul = "putih"  # sampul General: 'putih' atau 'foto' (diatur buat_deck)
 
@@ -346,11 +350,14 @@ class Pembangun:
             sisa = D.BATAS_BAWAH - y
             h = D.tinggi_blok(b, w, self.folder, gaya, sisa)
             pindah_dulu = False
-            if b["jenis"] == "tabel" and h > sisa and len(b["baris"]) > 1:
-                # Tabel lebih tinggi dari sisa halaman: pecah per baris, header diulang di halaman berikut.
-                k = self._baris_muat(b, w, sisa)
-                if k >= 2 or (kosong and k >= 1):
-                    blok[i:i + 1] = [dict(b, baris=b["baris"][:k]), dict(b, baris=b["baris"][k:])]
+            pecah = BISA_DIPECAH.get(b["jenis"])
+            if pecah and h > sisa and len(b[pecah[0]]) > pecah[1]:
+                # Blok lebih tinggi dari sisa halaman: pecah (tabel per baris dengan header diulang,
+                # daftar per butir, kartu profil per baris kartu); sisanya ke halaman berikut.
+                kunci, langkah, minimal = pecah
+                k = self._bagian_muat(b, kunci, langkah, w, sisa)
+                if k >= (langkah if kosong else minimal):
+                    blok[i:i + 1] = [dict(b, **{kunci: b[kunci][:k]}), dict(b, **{kunci: b[kunci][k:]})]
                     b = blok[i]
                     h = D.tinggi_blok(b, w, self.folder, gaya, sisa)
                 elif not kosong:
@@ -387,10 +394,11 @@ class Pembangun:
         self.cek_batas(y, nama)
         return s, y
 
-    def _baris_muat(self, b, w, sisa):
-        """Jumlah baris tabel terbanyak (beserta header) yang muat dalam tinggi sisa."""
-        for k in range(len(b["baris"]) - 1, 0, -1):
-            if D.tinggi_blok(dict(b, baris=b["baris"][:k]), w, self.folder) <= sisa:
+    def _bagian_muat(self, b, kunci, langkah, w, sisa):
+        """Jumlah isi terbanyak (kelipatan langkah) dari b[kunci] yang muat dalam tinggi sisa."""
+        n = len(b[kunci])
+        for k in range((n - 1) // langkah * langkah, 0, -langkah):
+            if D.tinggi_blok(dict(b, **{kunci: b[kunci][:k]}), w, self.folder) <= sisa:
                 return k
         return 0
 

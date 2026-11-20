@@ -134,6 +134,8 @@ def main(argv=None):
     ap.add_argument("--palet", default=None,
                     help="Palet platform untuk warna slide (lihat generator/palet.py; bawaan: 'palet' di katalog, "
                          "lalu jadiasn); 'tanpa' = warna template")
+    ap.add_argument("--id", nargs="+", default=None,
+                    help="Hanya bangun ulang materi ini (mis. sjk-01); materi lain di data.json tetap dipakai")
     a = ap.parse_args(argv)
     semua = {"opsi-b": a.template_opsi_b, "general": a.template_general}
     template = {v: semua[VARIAN[v][0]] for v in VARIAN if v in a.tema}
@@ -154,8 +156,19 @@ def main(argv=None):
     # Satu situs untuk semua aplikasi: index.html memuat aplikasi.json (daftar tab) dan
     # <aplikasi>/data.json; berkas unduhan di <keluar>/<aplikasi>/unduh dan /sampul.
     folder_app = os.path.join(a.keluar, app["id"])
-    for sub in ("unduh", "sampul"):
-        shutil.rmtree(os.path.join(folder_app, sub), ignore_errors=True)
+    lama = {}
+    if a.id:  # bangun sebagian: materi lain diambil dari data.json yang ada
+        path_data = os.path.join(folder_app, "data.json")
+        if not os.path.exists(path_data):
+            sys.exit(f"--id butuh {path_data} dari build sebelumnya; jalankan dulu tanpa --id.")
+        with open(path_data, encoding="utf-8") as f:
+            lama = {x["id"]: x for x in json.load(f)["materi"]}
+        tidak_ada = set(a.id) - {m["id"] for m in entri}
+        if tidak_ada:
+            sys.exit(f"Tidak ada di katalog (atau naskahnya belum ada): {', '.join(sorted(tidak_ada))}")
+    else:
+        for sub in ("unduh", "sampul"):
+            shutil.rmtree(os.path.join(folder_app, sub), ignore_errors=True)
     for tema in template:
         os.makedirs(os.path.join(folder_app, "unduh", tema), exist_ok=True)
         os.makedirs(os.path.join(folder_app, "sampul", tema), exist_ok=True)
@@ -165,6 +178,12 @@ def main(argv=None):
 
     data, ekspor = [], []
     for m in entri:
+        if a.id and m["id"] not in a.id:
+            if m["id"] in lama:
+                data.append(lama[m["id"]])
+            else:
+                print(f"Lewati {m['id']}: belum pernah dibangun (jalankan tanpa --id)")
+            continue
         with open(os.path.join(konten, m["naskah"]), encoding="utf-8") as f:
             naskah = json.load(f)
         slug = _slug(m["naskah"])
@@ -200,7 +219,8 @@ def main(argv=None):
                 "tema": [{"id": t, "nama": VARIAN[t][2]} for t in template], "materi": data}
     simpan_aplikasi(a.keluar, app, manifest)
     ukuran = lambda d: sum(os.path.getsize(os.path.join(r, n)) for r, _, fs in os.walk(d) for n in fs)  # noqa: E731
-    print(f"{len(data)} materi x {len(template)} tampilan -> {folder_app} ({ukuran(folder_app) / 1e6:.1f} MB; "
+    dibangun = f"{len(a.id)} dibangun ulang, " if a.id else ""
+    print(f"{len(data)} materi ({dibangun}{len(template)} tampilan) -> {folder_app} ({ukuran(folder_app) / 1e6:.1f} MB; "
           f"seluruh situs {ukuran(a.keluar) / 1e6:.1f} MB)")
 
 
