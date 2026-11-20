@@ -43,7 +43,7 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah halaman unduhan siap pakai: semua materi (15 materi TIU Verbal + Penalaran Logis) dalam tampilan General berwarna palet JadiASN, dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih sampul, lalu mengunduh; tidak ada server atau generator yang berjalan.
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU Verbal** (15 materi TIU Verbal + Penalaran Logis) dan **JadiOJK · PCAM OJK** (materi TKU PCAM OJK). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi dan sampul, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`).
 
 Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn --sampul foto`.
 
@@ -51,13 +51,16 @@ Bangun ulang setelah naskah atau template berubah (Windows + PowerPoint, karena 
 
 ```bash
 python generator/buat_situs.py --template-general "path/Template Materi General.pptx"
+python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-general "path/Template Materi General.pptx"
 ```
 
-Bawaannya `--tema general general-foto --palet jadiasn`. Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga. Setiap pilihan menambah sekitar 40 MB; Vercel Hobby membatasi unggahan file statis 100 MB.
+Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general general-foto`. Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
+
+Ukuran: TIU sekitar 86 MB dan OJK sekitar 126 MB, jadi seluruh situs sekitar 210 MB. Dokumentasi Vercel menyebut batas 100 MB untuk unggahan file statis di paket Hobby lewat CLI; untuk deploy dari GitHub batas itu tidak disebutkan. Bila deploy ditolak karena ukuran, kurangi menjadi satu sampul (`--tema general`) atau pindah ke paket Pro (1 GB).
 
 Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint dan menyimpan hiasan abu-abu sebagai gambar satu kanal, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 1,5–2 MB tanpa mengubah tampilan.
 
-Isi `situs/`: `index.html` (halaman), `data.js` (daftar materi dan ukuran berkas, dibuat skrip), `unduh/<pilihan>/` (PPTX dan PDF; `general` = sampul putih, `general-foto` = sampul foto), `sampul/<pilihan>/` (gambar slide pertama), `font/` (Poppins), `middleware.ts` (kunci sandi), `vercel.json`.
+Isi `situs/`: `index.html` (halaman), `aplikasi.json` (daftar tab), `<id>/data.json` (daftar materi, ukuran berkas, dan warna halaman aplikasi itu; dibuat skrip), `<id>/unduh/<pilihan>/` (PPTX dan PDF; `general` = sampul putih, `general-foto` = sampul foto), `<id>/sampul/<pilihan>/` (gambar slide pertama), `font/` (Poppins), `middleware.ts` (kunci sandi), `vercel.json`.
 
 Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs`, Framework Preset = Other, tanpa perintah build. Isi satu env variable, `MATERI_SANDI`, dengan sandi akses. `middleware.ts` meminta sandi itu (kotak login bawaan browser, nama pengguna bebas) sebelum halaman atau berkas apa pun dibuka; tanpa `MATERI_SANDI` situs menjawab 503. Vercel Authentication di Settings › Deployment Protection boleh dimatikan karena aksesnya sudah dijaga sandi. Server lokal (`python -m http.server`) tidak memakai sandi.
 
@@ -87,7 +90,7 @@ python generator/impor_katalog.py --katalog konten/ojk/katalog.json --docx folde
 python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-general "path/Template Materi General.pptx"
 ```
 
-Perintah kedua membangun situs unduhan terpisah di `situs-ojk/` (halaman yang sama dengan `situs/`, warna JadiOJK lewat `tema.css`). Deploy sebagai proyek Vercel sendiri dengan Root Directory = `situs-ojk` dan `MATERI_SANDI`, sama seperti situs TIU.
+Perintah kedua membangun materi OJK ke `situs/ojk/` dan menambahkan tab "JadiOJK · PCAM OJK" di situs unduhan yang sama dengan TIU (warna halaman JadiOJK).
 
 Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN", "C. Materi Pembelajaran"), catatan penulis dalam kurung siku ("[WAJIB PPT]", "[PENGAYAAN]") yang dibuang dari teks, bagian yang dilewati (Kata Pengantar, Capaian Pembelajaran, Daftar Rujukan), soal per Heading 2 ("4.1 …", "Contoh Soal 1 — …"), dan kunci "Jawaban C. …". Isi berlabel [PENGAYAAN] tetap ikut. "Pengenalan OJK dan Waspada Investasi" (13 MB) terlalu besar untuk diekspor lewat Google Drive API; unduh manual sebagai Word, simpan sebagai `<doc_id>.docx`, lalu jalankan impor dengan `--id sjk-01`.
 

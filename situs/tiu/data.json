@@ -1,5 +1,4 @@
-// Dibuat oleh generator/buat_situs.py; jangan disunting manual.
-window.MATERI = {
+{
  "judul": "Materi TIU Verbal",
  "sumber_sheet": "https://docs.google.com/spreadsheets/d/15jTS2ZGdtgVIIvQgOSfffBFq1G2yjZdl4iHD4B877A4/edit#gid=442022191",
  "dibuat": "2026-11-20",
@@ -447,5 +446,7 @@ window.MATERI = {
     }
    }
   }
- ]
-};
+ ],
+ "merek": "JadiASN · Materi SKD",
+ "css": "/* Dibuat oleh generator/buat_situs.py dari palet 'jadiasn' (generator/palet.py). */\n:root { --header: #052C5F; --header-aksen: #E8B41E; --header-redup: #C9D6E6; --aksen: #052C5F; --aksen-teks: #FFFFFF; --kuning: #E8B41E; --kuning-teks: #052C5F; --pdf-bg: #E8B41E; --pdf-teks: #052C5F; --pdf-garis: #E8B41E; --pilih: #3D6E99; --fokus: #3D6E99; --bg: #F3F6FA; --teks: #0E2440; --redup: #46597A; --samar: #7D8CA3; --garis: #DDE4EE; --sorot: #E8EFF7; }\n@media (prefers-color-scheme: dark) { :root:not([data-theme=\"light\"]) { --aksen: #E8B41E; --aksen-teks: #052C5F; --pdf-bg: transparent; --pdf-teks: #E8B41E; --pilih: #E8B41E; --fokus: #E8B41E; --bg: #031C3D; --kartu: #0A2A52; --teks: #E9EFF7; --redup: #B5C3D6; --garis: #1C3F6B; --sorot: #0F335F; } }\n:root[data-theme=\"dark\"] { --aksen: #E8B41E; --aksen-teks: #052C5F; --pdf-bg: transparent; --pdf-teks: #E8B41E; --pilih: #E8B41E; --fokus: #E8B41E; --bg: #031C3D; --kartu: #0A2A52; --teks: #E9EFF7; --redup: #B5C3D6; --garis: #1C3F6B; --sorot: #0F335F; }\n"
+}

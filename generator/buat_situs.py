@@ -1,10 +1,11 @@
 """Bangun situs unduhan statis: semua materi General dengan pilihan sampul putih atau foto, PPTX + PDF.
 
-Situs di folder situs/ tidak butuh server atau generator: cukup index.html, data.js, dan
-berkas unduhan. Butuh Windows + Microsoft PowerPoint untuk PDF dan gambar sampul. Slide diwarnai
-dengan palet platform JadiASN (--palet tanpa untuk warna template).
+Satu situs (folder situs/) untuk semua aplikasi: setiap katalog menjadi satu tab (aplikasi.json) dengan
+data dan berkasnya di situs/<aplikasi>/. Tidak butuh server atau generator. Butuh Windows + Microsoft
+PowerPoint untuk PDF dan gambar sampul. Slide dan halaman diwarnai dengan palet di katalog.
 
     python generator/buat_situs.py --template-general "path/Template Materi General.pptx"
+    python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-general "path/..."
 
 Tambahkan --tema general general-foto opsi-b --template-opsi-b "path/Template Referensi Opsi B -
 Ceria & Membulat.pptx" untuk menyediakan Opsi B juga.
@@ -125,7 +126,8 @@ def main(argv=None):
     ap.add_argument("--template-general", default=BM.TEMPLATE_TEMA["general"])
     ap.add_argument("--katalog", default=os.path.join(KONTEN, "katalog.json"),
                     help="Katalog materi (bawaan TIU; OJK: konten/ojk/katalog.json). Naskah dibaca dari foldernya.")
-    ap.add_argument("--keluar", default=None, help="Folder situs (bawaan: situs, atau situs-<nama folder katalog>)")
+    ap.add_argument("--keluar", default=os.path.join(AKAR, "situs"),
+                    help="Folder situs; materi aplikasi ditulis ke <keluar>/<aplikasi.id katalog>/")
     ap.add_argument("--tanpa-pdf", action="store_true", help="Lewati PDF dan sampul (tanpa PowerPoint)")
     ap.add_argument("--tema", nargs="+", choices=list(VARIAN), default=["general", "general-foto"],
                     help="Pilihan yang disediakan di situs (bawaan: General sampul putih dan sampul foto)")
@@ -140,31 +142,23 @@ def main(argv=None):
     with open(a.katalog, encoding="utf-8") as f:
         katalog = json.load(f)
     utama = os.path.samefile(konten, KONTEN)
-    if a.keluar is None:
-        a.keluar = os.path.join(AKAR, "situs" if utama else f"situs-{os.path.basename(konten)}")
     palet = a.palet or katalog.get("palet", "jadiasn")
     palet = None if palet == "tanpa" else palet
+    app = katalog.get("aplikasi") or {"id": "tiu" if utama else os.path.basename(konten),
+                                      "nama": katalog.get("judul", "Materi"), "urutan": 99}
     entri = [dict(m, url=f"https://docs.google.com/document/d/{m['doc_id']}/edit") for m in katalog["materi"]]
     entri += [dict(m, url=None) for m in (TAMBAHAN if utama else [])]
     entri = [m for m in entri if os.path.exists(os.path.join(konten, m["naskah"]))
              or print(f"Lewati {m['id']}: naskah {m['naskah']} belum ada")]
 
-    # Halaman situs: index.html, middleware.ts (kunci sandi), dan vercel.json disalin dari situs/;
-    # warna halaman mengikuti palet lewat tema.css.
-    os.makedirs(a.keluar, exist_ok=True)
-    sumber_halaman = os.path.join(AKAR, "situs")
-    if os.path.normcase(os.path.abspath(a.keluar)) != os.path.normcase(sumber_halaman):
-        for f in ("index.html", "middleware.ts", "vercel.json"):
-            shutil.copy(os.path.join(sumber_halaman, f), os.path.join(a.keluar, f))
-    import palet as PL
-    with open(os.path.join(a.keluar, "tema.css"), "w", encoding="utf-8") as f:
-        f.write(PL.css_situs(palet or "jadiasn"))
-
+    # Satu situs untuk semua aplikasi: index.html memuat aplikasi.json (daftar tab) dan
+    # <aplikasi>/data.json; berkas unduhan di <keluar>/<aplikasi>/unduh dan /sampul.
+    folder_app = os.path.join(a.keluar, app["id"])
     for sub in ("unduh", "sampul"):
-        shutil.rmtree(os.path.join(a.keluar, sub), ignore_errors=True)
+        shutil.rmtree(os.path.join(folder_app, sub), ignore_errors=True)
     for tema in template:
-        os.makedirs(os.path.join(a.keluar, "unduh", tema), exist_ok=True)
-        os.makedirs(os.path.join(a.keluar, "sampul", tema), exist_ok=True)
+        os.makedirs(os.path.join(folder_app, "unduh", tema), exist_ok=True)
+        os.makedirs(os.path.join(folder_app, "sampul", tema), exist_ok=True)
     os.makedirs(os.path.join(a.keluar, "font"), exist_ok=True)
     for f in ("Poppins-Regular.ttf", "Poppins-Bold.ttf"):
         shutil.copy(os.path.join(D.ASET, "fonts", f), os.path.join(a.keluar, "font", f))
@@ -180,9 +174,9 @@ def main(argv=None):
             tema_gen, sampul_gen, _, akhiran = VARIAN[tema]
             prs, b = BM.buat_deck(naskah, path, konten, tema_gen, sampul=sampul_gen, palet=palet)
             nama = _nama_aman(BM.nama_file(naskah)) + akhiran
-            pptx = os.path.join(a.keluar, "unduh", tema, slug + ".pptx")
-            pdf = os.path.join(a.keluar, "unduh", tema, slug + ".pdf")
-            sampul = os.path.join(a.keluar, "sampul", tema, slug + ".jpg")
+            pptx = os.path.join(folder_app, "unduh", tema, slug + ".pptx")
+            pdf = os.path.join(folder_app, "unduh", tema, slug + ".pdf")
+            sampul = os.path.join(folder_app, "sampul", tema, slug + ".jpg")
             prs.save(pptx)
             ekspor.append((pptx, pdf, sampul))
             item["tema"][tema] = {"slide": len(b.slides), "nama": nama,
@@ -197,18 +191,40 @@ def main(argv=None):
     for item in data:  # ukuran berkas untuk ditampilkan di halaman
         for t in item["tema"].values():
             for jenis in ("pptx", "pdf"):
-                path = os.path.join(a.keluar, t[jenis])
+                path = os.path.join(folder_app, t[jenis])
                 t[f"ukuran_{jenis}"] = os.path.getsize(path) if os.path.exists(path) else None
 
-    manifest = {"judul": katalog.get("judul", "Materi"), "merek": katalog.get("merek", "Cerebrum · Materi SKD"),
+    manifest = {"judul": katalog.get("judul", "Materi"), "merek": katalog.get("merek", "Cerebrum · Materi"),
                 "sumber_sheet": katalog.get("sumber_sheet"),
                 "dibuat": datetime.date.today().isoformat(), "palet": palet,
                 "tema": [{"id": t, "nama": VARIAN[t][2]} for t in template], "materi": data}
-    with open(os.path.join(a.keluar, "data.js"), "w", encoding="utf-8") as f:
-        f.write("// Dibuat oleh generator/buat_situs.py; jangan disunting manual.\n")
-        f.write("window.MATERI = " + json.dumps(manifest, ensure_ascii=False, indent=1) + ";\n")
-    total = sum(os.path.getsize(os.path.join(r, n)) for r, _, fs in os.walk(a.keluar) for n in fs)
-    print(f"{len(data)} materi x {len(template)} tampilan -> {a.keluar} ({total / 1e6:.1f} MB)")
+    simpan_aplikasi(a.keluar, app, manifest)
+    ukuran = lambda d: sum(os.path.getsize(os.path.join(r, n)) for r, _, fs in os.walk(d) for n in fs)  # noqa: E731
+    print(f"{len(data)} materi x {len(template)} tampilan -> {folder_app} ({ukuran(folder_app) / 1e6:.1f} MB; "
+          f"seluruh situs {ukuran(a.keluar) / 1e6:.1f} MB)")
+
+
+def simpan_aplikasi(situs, app, manifest):
+    """Tulis <situs>/<id>/data.json (dengan warna halaman dari palet) dan perbarui daftar tab aplikasi.json."""
+    import palet as PL
+
+    manifest = dict(manifest, css=PL.css_situs(manifest.get("palet") or "jadiasn"))
+    folder = os.path.join(situs, app["id"])
+    os.makedirs(folder, exist_ok=True)
+    with open(os.path.join(folder, "data.json"), "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    path = os.path.join(situs, "aplikasi.json")
+    daftar = []
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            daftar = json.load(f)
+    daftar = [x for x in daftar if x["id"] != app["id"]]
+    daftar.append({"id": app["id"], "nama": app["nama"], "urutan": app.get("urutan", 99)})
+    daftar.sort(key=lambda x: (x["urutan"], x["id"]))
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(daftar, f, ensure_ascii=False, indent=1)
+        f.write("\n")
 
 
 if __name__ == "__main__":

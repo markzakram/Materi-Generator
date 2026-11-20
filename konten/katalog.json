@@ -2,6 +2,9 @@
   "judul": "Materi TIU Verbal",
   "keterangan": "Dokumen di kolom D sheet 'Kerangka Course' (Mapping SKD 2027). 'otomatis' = naskah dibuat ulang oleh generator/impor_katalog.py dari dokumen; false = naskah disusun manual dan tidak ditimpa.",
   "sumber_sheet": "https://docs.google.com/spreadsheets/d/15jTS2ZGdtgVIIvQgOSfffBFq1G2yjZdl4iHD4B877A4/edit#gid=442022191",
+  "aplikasi": {"id": "tiu", "nama": "JadiASN · TIU Verbal", "urutan": 1},
+  "merek": "JadiASN · Materi SKD",
+  "palet": "jadiasn",
   "materi": [
     {"id": "va-01", "kelompok": "Verbal Analogi", "bab": "Verbal Analogi - Jenis-Jenis Hubungan Antarkata", "baris_sheet": 18,
      "dokumen": "01 Verbal Analogi - Jenis-Jenis Hubungan Antarkata", "doc_id": "1FnlVBRwQNnUwz0ZwerTvw4tKubyAXaJ_GHFohdLPwyI",

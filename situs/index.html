@@ -8,8 +8,8 @@
 <style>
 @font-face { font-family: "Poppins"; src: url("font/Poppins-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Poppins"; src: url("font/Poppins-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
-/* Warna bawaan: palet JadiASN (ICON Aplikasi generator, catalog/brands.json). tema.css (dibuat
-   generator/buat_situs.py dari generator/palet.py) menimpanya sesuai platform situs ini. */
+/* Warna bawaan: palet JadiASN (ICON Aplikasi generator, catalog/brands.json). Warna tiap aplikasi (css di
+   <aplikasi>/data.json, dari generator/palet.py) dipasang ke #tema-app saat tabnya dibuka. */
 :root {
   --header: #052C5F; --header-aksen: #E8B41E; --header-redup: #C9D6E6;
   --kuning: #E8B41E; --kuning-teks: #052C5F;
@@ -82,15 +82,21 @@ h2 span { font-size: 12px; font-weight: 700; color: var(--redup); background: va
 .tombol.pdf { background: var(--pdf-bg); color: var(--pdf-teks); border-color: var(--pdf-garis); }
 .tombol[aria-disabled="true"] { opacity: .45; pointer-events: none; }
 .kosong { padding: 40px 0; text-align: center; color: var(--redup); }
+.aplikasi { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 16px; }
+.aplikasi button { border: 1px solid rgba(255,255,255,.4); background: transparent; color: #fff; border-radius: 999px;
+  padding: 7px 16px; font: 700 13px/1.3 "Poppins", sans-serif; cursor: pointer; }
+.aplikasi button:hover { background: rgba(255,255,255,.12); }
+.aplikasi button[aria-selected="true"] { background: #fff; color: var(--header); border-color: #fff; }
 footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12px; color: var(--samar); }
 </style>
-<link rel="stylesheet" href="tema.css">
+<style id="tema-app"></style>
 </head>
 <body>
 <header class="atas"><div class="atas-isi">
-  <div class="merek"><i aria-hidden="true"></i><span id="merek">Cerebrum · Materi SKD</span></div>
-  <h1 id="judul">Materi TIU Verbal</h1>
-  <p id="ringkas">Unduh materi dalam PPTX atau PDF.</p>
+  <div class="aplikasi" role="tablist" aria-label="Pilih aplikasi" id="aplikasi"></div>
+  <div class="merek"><i aria-hidden="true"></i><span id="merek">Cerebrum · Materi</span></div>
+  <h1 id="judul">Materi</h1>
+  <p id="ringkas">Memuat daftar materi…</p>
 </div></header>
 <main>
   <div class="alat">
@@ -105,53 +111,97 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
 </main>
 <footer id="kaki"></footer>
 
-<script src="data.js"></script>
 <script>
 (() => {
-  const D = window.MATERI;
+  // Satu situs untuk semua aplikasi: aplikasi.json = daftar tab; <id>/data.json = materi, sampul,
+  // ukuran berkas, dan warna halaman (css) aplikasi itu. Dibuat oleh generator/buat_situs.py.
   const $ = (id) => document.getElementById(id);
   const baca = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
   const tulis = (k, v) => { try { localStorage.setItem(k, v); } catch {} };
   const mb = (b) => b == null ? "" : (b >= 1e6 ? (b / 1e6).toFixed(1).replace(".", ",") + " MB" : Math.max(1, Math.round(b / 1e3)) + " KB");
-  if (!D) { $("daftar").innerHTML = '<p class="kosong">data.js tidak ditemukan. Jalankan generator/buat_situs.py.</p>'; return; }
+  const ambil = (url) => fetch(url, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  const pesan = (teks) => { const p = document.createElement("p"); p.className = "kosong"; p.textContent = teks; $("daftar").replaceChildren(p); };
 
-  let tema = D.tema.some((t) => t.id === baca("situs.tema")) ? baca("situs.tema") : D.tema[0].id;
-  let kelompok = "";
-  $("judul").textContent = D.judul; document.title = D.judul;
-  if (D.merek) $("merek").textContent = D.merek;
-  const satuTema = D.tema.length < 2;
-  $("ringkas").textContent = satuTema
-    ? `${D.materi.length} materi, siap diunduh dalam PPTX atau PDF.`
-    : `${D.materi.length} materi dengan ${D.tema.length} pilihan sampul. Pilih sampul, lalu unduh PPTX atau PDF.`;
-  if (satuTema) { $("label-tema").hidden = true; $("pilih-tema").hidden = true; }
-  const tgl = new Date(D.dibuat + "T00:00:00").toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" });
-  $("kaki").textContent = `Diperbarui ${tgl}. © PT Cerebrum Edukanesia Nusantara.`;
+  const cache = {};
+  let daftarApp = [], app = null, D = null, tema = null, kelompok = "", daftarKelompok = [];
 
-  D.tema.forEach((t) => {
-    const lab = document.createElement("label");
-    const inp = document.createElement("input");
-    inp.type = "radio"; inp.name = "tema"; inp.value = t.id; inp.checked = t.id === tema;
-    inp.addEventListener("change", () => { tema = t.id; tulis("situs.tema", tema); gambar(); });
-    const contoh = D.materi[0] && D.materi[0].tema[t.id];  // sampul materi pertama sebagai pratinjau
-    const img = document.createElement("img");
-    img.alt = ""; img.src = contoh ? contoh.sampul : "";
-    img.onerror = () => { img.removeAttribute("src"); };
-    const s = document.createElement("span"); s.textContent = t.nama;
-    lab.append(inp, img, s); $("pilih-tema").append(lab);
-  });
-  const daftarKelompok = [...new Set(D.materi.map((m) => m.kelompok))];
-  ["", ...daftarKelompok].forEach((k) => {
-    const b = document.createElement("button");
-    b.type = "button"; b.textContent = k || "Semua";
-    b.addEventListener("click", () => { kelompok = k; gambar(); });
-    $("kelompok").append(b);
-  });
-  $("cari").addEventListener("input", () => gambar());
+  function tab() {
+    const wadah = $("aplikasi");
+    wadah.hidden = daftarApp.length < 2;
+    daftarApp.forEach((a, i) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.setAttribute("role", "tab"); b.id = "tab-" + a.id; b.textContent = a.nama;
+      b.addEventListener("click", () => buka(a.id));
+      b.addEventListener("keydown", (e) => {
+        const arah = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+        if (!arah) return;
+        const lain = daftarApp[(i + arah + daftarApp.length) % daftarApp.length];
+        buka(lain.id); $("tab-" + lain.id).focus();
+      });
+      wadah.append(b);
+    });
+  }
+
+  async function buka(id) {
+    if (!daftarApp.some((a) => a.id === id)) id = daftarApp[0].id;
+    app = id;
+    tulis("situs.aplikasi", id);
+    if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+    daftarApp.forEach((a) => {
+      const b = $("tab-" + a.id);
+      b.setAttribute("aria-selected", String(a.id === id)); b.tabIndex = a.id === id ? 0 : -1;
+    });
+    let data;
+    try {
+      data = cache[id] || (cache[id] = await ambil(`${id}/data.json`));
+    } catch {
+      if (app === id) pesan("Daftar materi aplikasi ini belum tersedia.");
+      return;
+    }
+    if (app !== id) return;  // tab lain sudah dipilih selama memuat
+    D = data;
+    $("tema-app").textContent = D.css || "";
+    $("judul").textContent = D.judul; document.title = D.judul;
+    $("merek").textContent = D.merek || "Cerebrum · Materi";
+    const kunciTema = "situs.tema." + id;
+    tema = D.tema.some((t) => t.id === baca(kunciTema)) ? baca(kunciTema) : D.tema[0].id;
+    kelompok = "";
+    const satuTema = D.tema.length < 2;
+    $("ringkas").textContent = satuTema
+      ? `${D.materi.length} materi, siap diunduh dalam PPTX atau PDF.`
+      : `${D.materi.length} materi dengan ${D.tema.length} pilihan sampul. Pilih sampul, lalu unduh PPTX atau PDF.`;
+    $("label-tema").hidden = satuTema; $("pilih-tema").hidden = satuTema;
+    const tgl = new Date(D.dibuat + "T00:00:00").toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" });
+    $("kaki").textContent = `Diperbarui ${tgl}. © PT Cerebrum Edukanesia Nusantara.`;
+
+    const pilih = $("pilih-tema"); pilih.replaceChildren();
+    D.tema.forEach((t) => {
+      const lab = document.createElement("label");
+      const inp = document.createElement("input");
+      inp.type = "radio"; inp.name = "tema"; inp.value = t.id; inp.checked = t.id === tema;
+      inp.addEventListener("change", () => { tema = t.id; tulis(kunciTema, tema); gambar(); });
+      const contoh = D.materi[0] && D.materi[0].tema[t.id];  // sampul materi pertama sebagai pratinjau
+      const img = document.createElement("img");
+      img.alt = ""; if (contoh) img.src = `${id}/${contoh.sampul}`;
+      img.onerror = () => { img.removeAttribute("src"); };
+      const s = document.createElement("span"); s.textContent = t.nama;
+      lab.append(inp, img, s); pilih.append(lab);
+    });
+    daftarKelompok = [...new Set(D.materi.map((m) => m.kelompok))];
+    const kel = $("kelompok"); kel.replaceChildren();
+    ["", ...daftarKelompok].forEach((k) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = k || "Semua";
+      b.addEventListener("click", () => { kelompok = k; gambar(); });
+      kel.append(b);
+    });
+    gambar();
+  }
 
   function tombol(jenis, t) {
     const a = document.createElement("a");
     a.className = "tombol " + jenis;
-    a.href = t[jenis];
+    a.href = `${app}/${t[jenis]}`;
     a.download = t.nama + "." + jenis;
     const ukuran = t["ukuran_" + jenis];
     if (ukuran == null) a.setAttribute("aria-disabled", "true");
@@ -166,7 +216,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
     const cocok = D.materi.filter((m) => (!kelompok || m.kelompok === kelompok) &&
       (!cari || (m.judul + " " + m.bab + " " + m.kelompok).toLowerCase().includes(cari)));
     const wadah = $("daftar"); wadah.replaceChildren();
-    if (!cocok.length) { wadah.innerHTML = '<p class="kosong">Tidak ada materi yang cocok.</p>'; return; }
+    if (!cocok.length) { pesan("Tidak ada materi yang cocok."); return; }
     for (const k of daftarKelompok) {
       const isi = cocok.filter((m) => m.kelompok === k);
       if (!isi.length) continue;
@@ -178,7 +228,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
         const kartu = document.createElement("article"); kartu.className = "kartu";
         const img = document.createElement("img");
         img.className = "sampul"; img.loading = "lazy"; img.alt = `Sampul ${m.judul}`;
-        img.src = t.sampul;
+        img.src = `${app}/${t.sampul}`;
         img.onerror = () => { img.removeAttribute("src"); };
         const isiKartu = document.createElement("div"); isiKartu.className = "isi";
         const h3 = document.createElement("h3"); h3.textContent = m.judul;
@@ -194,7 +244,16 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
       wadah.append(h, grid);
     }
   }
-  gambar();
+
+  $("cari").addEventListener("input", () => { if (D) gambar(); });
+  window.addEventListener("hashchange", () => { const id = location.hash.slice(1); if (id && id !== app) buka(id); });
+
+  ambil("aplikasi.json").then((daftar) => {
+    daftarApp = daftar;
+    if (!daftarApp.length) { pesan("Belum ada materi. Jalankan generator/buat_situs.py."); return; }
+    tab();
+    buka(location.hash.slice(1) || baca("situs.aplikasi") || daftarApp[0].id);
+  }).catch(() => pesan("aplikasi.json tidak ditemukan. Jalankan generator/buat_situs.py."));
 })();
 </script>
 </body>
