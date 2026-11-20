@@ -14,7 +14,7 @@ from __future__ import annotations
 import copy
 import io
 
-from PIL import Image
+from PIL import Image, ImageChops
 from pptx.opc.packuri import PackURI
 from pptx.oxml.ns import qn
 
@@ -87,12 +87,34 @@ def _posisi(el):
     return (int(off.get("x")) / EMU, int(off.get("y")) / EMU, int(ext.get("cx")) / EMU, int(ext.get("cy")) / EMU)
 
 
+def _abu_abu(im):
+    """True bila piksel yang terlihat praktis tanpa warna (R, G, B hampir sama).
+
+    Piksel hampir transparan (alfa < 24) diabaikan, dan sisa berwarna maks 0,05% piksel ditoleransi:
+    garis gelombang template punya sedikit tepi berwarna yang tidak tampak.
+    """
+    r, g, b = im.convert("RGB").split()
+    beda = ImageChops.lighter(ImageChops.difference(r, g), ImageChops.difference(g, b))
+    if "A" in im.getbands():
+        beda = ImageChops.multiply(beda, im.getchannel("A").point(lambda a: 255 if a >= 24 else 0))
+    return sum(beda.histogram()[11:]) <= im.width * im.height * 0.0005
+
+
+LEBAR_MAKS, LEBAR_MAKS_ABU = 1600, 1200
+
+
 def _perkecil(blob, jenis):
-    """Gambar besar -> lebar maks 1600 px (PNG dikuantisasi 96 warna, JPEG kualitas 82)."""
+    """Gambar besar -> lebar maks 1600 px (PNG dikuantisasi 96 warna, JPEG kualitas 82).
+
+    Hiasan abu-abu (garis gelombang, titik raster) cukup selebar 1200 px: hiasan samar ini tidak butuh
+    resolusi tinggi. Di PDF, buat_situs menyimpannya sebagai gambar satu kanal.
+    """
     with Image.open(io.BytesIO(blob)) as im:
         im.load()
-        if im.width > 1600:
-            im = im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS)
+        abu = jenis == "image/png" and _abu_abu(im)
+        maks = LEBAR_MAKS_ABU if abu else LEBAR_MAKS
+        if im.width > maks:
+            im = im.resize((maks, round(im.height * maks / im.width)), Image.LANCZOS)
         hasil = io.BytesIO()
         if jenis == "image/png":
             if im.mode not in ("RGBA", "RGB"):
@@ -129,7 +151,7 @@ class TemaGeneral:
                     continue
                 terlihat.add(id(part))
                 part.partname = PackURI(f"/ppt/media/general{len(terlihat):02d}.{part.partname.ext}")
-                if len(part.blob) > 300_000 and part.content_type in ("image/png", "image/jpeg"):
+                if len(part.blob) > 150_000 and part.content_type in ("image/png", "image/jpeg"):
                     part._blob = _perkecil(part.blob, part.content_type)
 
     # ------------------------------------------------------- slide contoh
@@ -139,9 +161,10 @@ class TemaGeneral:
         for s in slides:
             besar = _teks_besar(s)
             gabung = " ".join(besar)
-            if "MATERI BESAR" in gabung and "BOLEH PANJANG" not in " ".join(
-                    _teks_besar(s, 0)).upper().replace("(", " ").replace(")", " "):
-                hasil.setdefault("sampul", s)
+            if "MATERI BESAR" in gabung:
+                # dua varian sampul: putih (lengkung navy) dan foto (panel navy, 'boleh panjang')
+                foto = "BOLEH PANJANG" in " ".join(_teks_besar(s, 0)).upper().replace("(", " ").replace(")", " ")
+                hasil.setdefault("sampul_foto" if foto else "sampul", s)
             elif "TERIMA KASIH" in gabung:
                 hasil["terima_kasih"] = s  # varian terakhir (lingkaran navy-kuning)
             elif "PENDAHULUAN" in besar:
@@ -298,12 +321,39 @@ class TemaGeneral:
                     12 if nomor < 100 else 10, "navy" if gelap else "putih", nama="Nomor halaman")
 
     # ----------------------------------------------------- slide khusus
-    def sampul(self, slide, besar, judul, tutor=None):
-        self.salin_slide("sampul", slide, lambda el: el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
-        # Seperti template: materi besar (bab) jauh lebih besar dari judul materi (subbab).
-        # Area putih aman selebar 7,2 in (sebelum lengkung navy); bab boleh dua baris agar tetap besar.
-        x, lebar = 2.58, 7.2
+    VARIAN_SAMPUL = ("putih", "foto")
 
+    def sampul(self, slide, besar, judul, tutor=None, varian="putih"):
+        """Sampul varian 'putih' (lengkung navy di kanan) atau 'foto' (panel navy di atas foto)."""
+        if varian == "foto":
+            if "sampul_foto" not in self.sumber:
+                raise TemplateGeneralTidakCocok("Template General tidak memuat sampul foto ('Judul Materi (boleh panjang)').")
+            # kotak abu 'Nama Tutor' di kanan bawah hanya dipakai bila ada nama tutor
+            self.salin_slide("sampul_foto", slide, lambda el: (
+                (el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
+                or (not tutor and el.tag == qn("p:grpSp") and _posisi(el)[0] > 10 and _posisi(el)[1] > 8.5)))
+            # teks di dalam panel navy (x 0,36-10,19): bab putih, judul kuning
+            self._judul_sampul(slide, 1.0, 8.2, 5.7, besar, judul, "putih", "kuning")
+            if tutor:
+                D.teks(slide, 11.36, 10.05, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
+                       jangkar="m", nama="Nama tutor")
+            D.teks(slide, 0.36, 9.18, 8.92, 0.4, [P(D.HAK_CIPTA, 16, "000000", rata="r", spasi=1.1)],
+                   nama="Hak cipta")
+            return
+        self.salin_slide("sampul", slide, lambda el: el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
+        # Area putih aman selebar 7,2 in (sebelum lengkung navy).
+        self._judul_sampul(slide, 2.58, 7.2, Y_DASAR_BAB, besar, judul, WARNA_BAB, WARNA_JUDUL)
+        if tutor:
+            D.teks(slide, 6.07, 9.34, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
+                   jangkar="m", nama="Nama tutor")
+        D.teks(slide, 5.96, 10.05, 8.92, 0.4, [P(D.HAK_CIPTA, 16, "000000", rata="r", spasi=1.1)], nama="Hak cipta")
+
+    @staticmethod
+    def _judul_sampul(slide, x, lebar, y_dasar, besar, judul, warna_bab, warna_judul):
+        """Seperti template: materi besar (bab) jauh lebih besar dari judul materi (subbab).
+
+        Bab boleh dua baris agar tetap besar; garis bawahnya di y_dasar, judul tepat di bawahnya.
+        """
         def muat(teks, ukuran, maks_baris):
             kata = max(D.lebar_pt(k, ukuran, True) for k in teks.split()) / 72
             return kata <= lebar * 0.95 and D.jumlah_baris(D.segmen(teks, tebal=True), ukuran, lebar) <= maks_baris
@@ -312,18 +362,14 @@ class TemaGeneral:
         while not muat(besar, ukuran, 2) and ukuran > 36:
             ukuran -= 2
         h = D.jumlah_baris(D.segmen(besar, tebal=True), ukuran, lebar) * ukuran / 72 + 0.12
-        D.teks(slide, x, Y_DASAR_BAB - h, lebar, h,
-               [P(besar, ukuran, WARNA_BAB, tebal=True, spasi=1.0)], jangkar="b", nama="Materi besar")
+        D.teks(slide, x, y_dasar - h, lebar, h,
+               [P(besar, ukuran, warna_bab, tebal=True, spasi=1.0)], jangkar="b", nama="Materi besar")
         u_judul = min(40, int(ukuran * 0.68))
         while not muat(judul, u_judul, 2) and u_judul > 24:
             u_judul -= 2
         h = D.jumlah_baris(D.segmen(judul, tebal=True), u_judul, lebar) * u_judul * 1.15 / 72 + 0.12
-        D.teks(slide, x, Y_DASAR_BAB + 0.12, lebar, h,
-               [P(judul, u_judul, WARNA_JUDUL, tebal=True, spasi=1.1)], nama="Judul sampul")
-        if tutor:
-            D.teks(slide, 6.07, 9.34, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
-                   jangkar="m", nama="Nama tutor")
-        D.teks(slide, 5.96, 10.05, 8.92, 0.4, [P(D.HAK_CIPTA, 16, "000000", rata="r", spasi=1.1)], nama="Hak cipta")
+        D.teks(slide, x, y_dasar + 0.12, lebar, h,
+               [P(judul, u_judul, warna_judul, tebal=True, spasi=1.1)], nama="Judul sampul")
 
     def _isi_halaman(self, slide, par, y, w, h_maks, x=1.12):
         """Paragraf di halaman berbingkai; ukuran diperkecil sampai muat h_maks."""

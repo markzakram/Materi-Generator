@@ -43,7 +43,9 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah halaman unduhan siap pakai: semua materi (15 materi TIU Verbal + Penalaran Logis) dalam tampilan General, masing-masing PPTX dan PDF, dengan gambar sampul. Pengunjung memasukkan sandi lalu mengunduh; tidak ada server atau generator yang berjalan.
+Folder `situs/` adalah halaman unduhan siap pakai: semua materi (15 materi TIU Verbal + Penalaran Logis) dalam tampilan General berwarna palet JadiASN, dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih sampul, lalu mengunduh; tidak ada server atau generator yang berjalan.
+
+Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn --sampul foto`.
 
 Bangun ulang setelah naskah atau template berubah (Windows + PowerPoint, karena PDF dan sampul diekspor PowerPoint):
 
@@ -51,11 +53,11 @@ Bangun ulang setelah naskah atau template berubah (Windows + PowerPoint, karena 
 python generator/buat_situs.py --template-general "path/Template Materi General.pptx"
 ```
 
-Untuk menyediakan Opsi B juga (pengunjung lalu bisa memilih tampilan), tambahkan `--tema general opsi-b --template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`.
+Bawaannya `--tema general general-foto --palet jadiasn`. Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga. Setiap pilihan menambah sekitar 40 MB; Vercel Hobby membatasi unggahan file statis 100 MB.
 
-Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 2 MB tanpa mengubah tampilan.
+Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint dan menyimpan hiasan abu-abu sebagai gambar satu kanal, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 1,5–2 MB tanpa mengubah tampilan.
 
-Isi `situs/`: `index.html` (halaman), `data.js` (daftar materi dan ukuran berkas, dibuat skrip), `unduh/<tema>/` (PPTX dan PDF), `sampul/<tema>/` (gambar slide pertama), `font/` (Poppins), `middleware.ts` (kunci sandi), `vercel.json`.
+Isi `situs/`: `index.html` (halaman), `data.js` (daftar materi dan ukuran berkas, dibuat skrip), `unduh/<pilihan>/` (PPTX dan PDF; `general` = sampul putih, `general-foto` = sampul foto), `sampul/<pilihan>/` (gambar slide pertama), `font/` (Poppins), `middleware.ts` (kunci sandi), `vercel.json`.
 
 Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs`, Framework Preset = Other, tanpa perintah build. Isi satu env variable, `MATERI_SANDI`, dengan sandi akses. `middleware.ts` meminta sandi itu (kotak login bawaan browser, nama pengguna bebas) sebelum halaman atau berkas apa pun dibuka; tanpa `MATERI_SANDI` situs menjawab 503. Vercel Authentication di Settings › Deployment Protection boleh dimatikan karena aksesnya sudah dijaga sandi. Server lokal (`python -m http.server`) tidak memakai sandi.
 

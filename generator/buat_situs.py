@@ -1,17 +1,19 @@
-"""Bangun situs unduhan statis: semua materi dalam tampilan General (opsional juga Opsi B), PPTX + PDF.
+"""Bangun situs unduhan statis: semua materi General dengan pilihan sampul putih atau foto, PPTX + PDF.
 
 Situs di folder situs/ tidak butuh server atau generator: cukup index.html, data.js, dan
-berkas unduhan. Butuh Windows + Microsoft PowerPoint untuk PDF dan gambar sampul.
+berkas unduhan. Butuh Windows + Microsoft PowerPoint untuk PDF dan gambar sampul. Slide diwarnai
+dengan palet platform JadiASN (--palet tanpa untuk warna template).
 
     python generator/buat_situs.py --template-general "path/Template Materi General.pptx"
 
-Tambahkan --tema general opsi-b --template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"
-untuk menyediakan dua tampilan sekaligus.
+Tambahkan --tema general general-foto opsi-b --template-opsi-b "path/Template Referensi Opsi B -
+Ceria & Membulat.pptx" untuk menyediakan Opsi B juga.
 """
 from __future__ import annotations
 
 import argparse
 import datetime
+import io
 import json
 import os
 import re
@@ -24,7 +26,12 @@ import desain as D  # noqa: E402
 
 AKAR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KONTEN = os.path.join(AKAR, "konten")
-NAMA_TEMA = {"opsi-b": "Opsi B · Ceria & Membulat", "general": "General"}
+# Pilihan di situs: id -> (tema generator, varian sampul, nama di halaman, akhiran nama berkas unduhan)
+VARIAN = {
+    "general": ("general", "putih", "Sampul putih", " (General)"),
+    "general-foto": ("general", "foto", "Sampul foto", " (General, sampul foto)"),
+    "opsi-b": ("opsi-b", "putih", "Opsi B · Ceria & Membulat", ""),
+}
 TAMBAHAN = [  # naskah di luar katalog sheet yang ikut ditampilkan
     {"id": "penalaran-logis", "kelompok": "Lainnya", "bab": "Penalaran Logis", "naskah": "tiu_penalaran_logis.json"},
 ]
@@ -49,8 +56,38 @@ def _rampingkan_pdf(path):
     except ImportError:
         print("   (PyMuPDF tidak terpasang; PDF tidak dirampingkan)")
         return
+    from PIL import Image, ImageChops
+
     sementara = path + ".tmp"
     with pymupdf.open(path) as doc:
+        # PowerPoint menyimpan semua gambar sebagai RGB; hiasan abu-abu (garis gelombang, sekitar
+        # 0,7 MB per PDF) cukup satu kanal. Alfa ada di SMask terpisah dan tidak berubah.
+        for xref in range(1, doc.xref_length()):
+            if (doc.xref_get_key(xref, "Subtype")[1] != "/Image"
+                    or doc.xref_get_key(xref, "ColorSpace")[1] != "/DeviceRGB"
+                    or doc.xref_get_key(xref, "Filter")[1] != "/FlateDecode"
+                    or doc.xref_get_key(xref, "DecodeParms")[1] != "null"
+                    or len(doc.xref_stream_raw(xref) or b"") < 100_000):
+                continue
+            w, h = int(doc.xref_get_key(xref, "Width")[1]), int(doc.xref_get_key(xref, "Height")[1])
+            mentah = doc.xref_stream(xref)  # piksel RGB gambar dasar, tanpa SMask
+            if len(mentah) != w * h * 3:
+                continue
+            im = Image.frombytes("RGB", (w, h), mentah)
+            r, g, b = im.split()
+            beda = ImageChops.lighter(ImageChops.difference(r, g), ImageChops.difference(g, b))
+            smask = doc.xref_get_key(xref, "SMask")
+            if smask[0] == "xref":  # piksel yang tak terlihat (alfa 0) boleh berwarna apa saja
+                alfa = doc.xref_stream(int(smask[1].split()[0]))
+                if len(alfa) == w * h:
+                    terlihat = Image.frombytes("L", (w, h), alfa).point(lambda a: 255 if a else 0)
+                    beda = ImageChops.multiply(beda, terlihat)
+            if beda.getextrema()[1] > 8:
+                continue
+            doc.update_stream(xref, im.convert("L").tobytes())
+            doc.xref_set_key(xref, "ColorSpace", "/DeviceGray")
+            doc.xref_set_key(xref, "BitsPerComponent", "8")
+            doc.xref_set_key(xref, "DecodeParms", "null")
         doc.save(sementara, garbage=4, deflate=True, clean=True)
     os.replace(sementara, path)
 
@@ -88,11 +125,14 @@ def main(argv=None):
     ap.add_argument("--template-general", default=BM.TEMPLATE_TEMA["general"])
     ap.add_argument("--keluar", default=os.path.join(AKAR, "situs"))
     ap.add_argument("--tanpa-pdf", action="store_true", help="Lewati PDF dan sampul (tanpa PowerPoint)")
-    ap.add_argument("--tema", nargs="+", choices=list(NAMA_TEMA), default=["general"],
-                    help="Tampilan yang disediakan di situs (bawaan: general; tambah opsi-b bila perlu)")
+    ap.add_argument("--tema", nargs="+", choices=list(VARIAN), default=["general", "general-foto"],
+                    help="Pilihan yang disediakan di situs (bawaan: General sampul putih dan sampul foto)")
+    ap.add_argument("--palet", default="jadiasn",
+                    help="Palet platform untuk warna slide (lihat generator/palet.py); 'tanpa' = warna template")
     a = ap.parse_args(argv)
+    palet = None if a.palet == "tanpa" else a.palet
     semua = {"opsi-b": a.template_opsi_b, "general": a.template_general}
-    template = {t: semua[t] for t in NAMA_TEMA if t in a.tema}
+    template = {v: semua[VARIAN[v][0]] for v in VARIAN if v in a.tema}
 
     with open(os.path.join(KONTEN, "katalog.json"), encoding="utf-8") as f:
         katalog = json.load(f)
@@ -116,8 +156,9 @@ def main(argv=None):
         item = {"id": m["id"], "kelompok": m["kelompok"], "bab": m["bab"], "judul": naskah["meta"]["judul"],
                 "dokumen": m["url"], "tema": {}}
         for tema, path in template.items():
-            prs, b = BM.buat_deck(naskah, path, KONTEN, tema)
-            nama = _nama_aman(BM.nama_file(naskah)) + (" (General)" if tema == "general" else "")
+            tema_gen, sampul_gen, _, akhiran = VARIAN[tema]
+            prs, b = BM.buat_deck(naskah, path, KONTEN, tema_gen, sampul=sampul_gen, palet=palet)
+            nama = _nama_aman(BM.nama_file(naskah)) + akhiran
             pptx = os.path.join(a.keluar, "unduh", tema, slug + ".pptx")
             pdf = os.path.join(a.keluar, "unduh", tema, slug + ".pdf")
             sampul = os.path.join(a.keluar, "sampul", tema, slug + ".jpg")
@@ -126,7 +167,7 @@ def main(argv=None):
             item["tema"][tema] = {"slide": len(b.slides), "nama": nama,
                                   "pptx": f"unduh/{tema}/{slug}.pptx", "pdf": f"unduh/{tema}/{slug}.pdf",
                                   "sampul": f"sampul/{tema}/{slug}.jpg"}
-            print(f"{m['id']:16s} {tema:8s} {len(b.slides):3d} slide" +
+            print(f"{m['id']:16s} {tema:12s} {len(b.slides):3d} slide" +
                   (f"  PERINGATAN: {b.peringatan}" if b.peringatan else ""))
         data.append(item)
 
@@ -139,8 +180,8 @@ def main(argv=None):
                 t[f"ukuran_{jenis}"] = os.path.getsize(path) if os.path.exists(path) else None
 
     manifest = {"judul": katalog.get("judul", "Materi"), "sumber_sheet": katalog.get("sumber_sheet"),
-                "dibuat": datetime.date.today().isoformat(),
-                "tema": [{"id": t, "nama": NAMA_TEMA[t]} for t in template], "materi": data}
+                "dibuat": datetime.date.today().isoformat(), "palet": palet,
+                "tema": [{"id": t, "nama": VARIAN[t][2]} for t in template], "materi": data}
     with open(os.path.join(a.keluar, "data.js"), "w", encoding="utf-8") as f:
         f.write("// Dibuat oleh generator/buat_situs.py; jangan disunting manual.\n")
         f.write("window.MATERI = " + json.dumps(manifest, ensure_ascii=False, indent=1) + ";\n")

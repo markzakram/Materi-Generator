@@ -8,21 +8,25 @@
 <style>
 @font-face { font-family: "Poppins"; src: url("font/Poppins-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Poppins"; src: url("font/Poppins-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+/* Palet JadiASN (ICON Aplikasi generator, catalog/brands.json):
+   navy #052C5F, biru #3D6E99, biru muda #4C8FC1, kuning #E8B41E, emas tua #876000, terang #F9F3F1 */
 :root {
-  --navy: #13215A; --kuning: #FBBB2B; --kuning-muda: #FFE6AE;
-  --bg: #F4F6FB; --kartu: #FFFFFF; --teks: #1E2A4F; --redup: #4A5578; --samar: #8A93AD; --garis: #E3E7F0;
-  --sorot: #EEF1F8; --aksen: #13215A; --aksen-teks: #FFFFFF; --fokus: #FBBB2B;
-  --pdf-bg: #FBBB2B; --pdf-teks: #13215A;
+  --navy: #052C5F; --biru: #3D6E99; --kuning: #E8B41E; --kuning-muda: #F8E8BB;
+  --bg: #F3F6FA; --kartu: #FFFFFF; --teks: #0E2440; --redup: #46597A; --samar: #7D8CA3; --garis: #DDE4EE;
+  --sorot: #E8EFF7; --aksen: #052C5F; --aksen-teks: #FFFFFF; --fokus: #3D6E99; --pilih: #3D6E99;
+  --pdf-bg: #E8B41E; --pdf-teks: #052C5F;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0C1330; --kartu: #152150; --teks: #E8ECF8; --redup: #B8C1DD; --garis: #26346E; --sorot: #1B2A5F;
-    --aksen: #FBBB2B; --aksen-teks: #13215A; --pdf-bg: transparent; --pdf-teks: #FBBB2B;
+    --bg: #031C3D; --kartu: #0A2A52; --teks: #E9EFF7; --redup: #B5C3D6; --garis: #1C3F6B; --sorot: #0F335F;
+    --aksen: #E8B41E; --aksen-teks: #052C5F; --fokus: #E8B41E; --pilih: #E8B41E;
+    --pdf-bg: transparent; --pdf-teks: #E8B41E;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0C1330; --kartu: #152150; --teks: #E8ECF8; --redup: #B8C1DD; --garis: #26346E; --sorot: #1B2A5F;
-  --aksen: #FBBB2B; --aksen-teks: #13215A; --pdf-bg: transparent; --pdf-teks: #FBBB2B;
+  --bg: #031C3D; --kartu: #0A2A52; --teks: #E9EFF7; --redup: #B5C3D6; --garis: #1C3F6B; --sorot: #0F335F;
+  --aksen: #E8B41E; --aksen-teks: #052C5F; --fokus: #E8B41E; --pilih: #E8B41E;
+  --pdf-bg: transparent; --pdf-teks: #E8B41E;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -31,31 +35,34 @@ body { margin: 0; background: var(--bg); color: var(--teks); font: 400 14px/1.55
 a { color: inherit; }
 :focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; }
 
-.atas { background: #13215A; color: #fff; }
+.atas { background: #052C5F; color: #fff; }
 .atas-isi { max-width: 1240px; margin: 0 auto; padding: 22px 16px 26px; }
 .merek { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 13px; letter-spacing: .04em;
-  text-transform: uppercase; color: #FBBB2B; }
-.merek i { width: 22px; height: 22px; border-radius: 50%; background: #FBBB2B; position: relative; display: inline-block; }
-.merek i::after { content: ""; position: absolute; inset: 6px; border-radius: 50%; background: #13215A; }
+  text-transform: uppercase; color: #E8B41E; }
+.merek i { width: 22px; height: 22px; border-radius: 50%; background: #E8B41E; position: relative; display: inline-block; }
+.merek i::after { content: ""; position: absolute; inset: 6px; border-radius: 50%; background: #052C5F; }
 h1 { margin: 10px 0 4px; font-size: 30px; line-height: 1.2; }
-.atas p { margin: 0; color: #C8D1E8; max-width: 70ch; }
+.atas p { margin: 0; color: #C9D6E6; max-width: 70ch; }
 
 main { max-width: 1240px; margin: 0 auto; padding: 0 16px 56px; }
 .alat { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 16px 0 12px; display: grid; gap: 12px; }
 .baris-alat { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
 .label { font-size: 12px; font-weight: 700; color: var(--redup); }
-.tema { display: inline-flex; background: var(--kartu); border: 1px solid var(--garis); border-radius: 999px; padding: 4px; gap: 4px; }
-.tema label { position: relative; cursor: pointer; }
-.tema input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
-.tema span { display: block; padding: 7px 16px; border-radius: 999px; font-weight: 700; font-size: 13px; color: var(--redup); }
-.tema input:checked + span { background: var(--navy); color: #fff; }
-.tema input:focus-visible + span { outline: 3px solid var(--fokus); outline-offset: 2px; }
+.tema { display: flex; gap: 8px; flex-wrap: wrap; }
+.tema label { position: relative; cursor: pointer; display: flex; align-items: center; gap: 10px; padding: 5px 14px 5px 5px;
+  background: var(--kartu); border: 1px solid var(--garis); border-radius: 12px; }
+.tema input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.tema img { width: 64px; aspect-ratio: 16 / 11.25; object-fit: cover; border-radius: 7px; display: block; background: var(--sorot); }
+.tema span { font-weight: 700; font-size: 13px; color: var(--redup); }
+.tema label:has(input:checked) { border-color: var(--pilih); box-shadow: inset 0 0 0 1px var(--pilih); }
+.tema label:has(input:checked) span { color: var(--teks); }
+.tema label:has(input:focus-visible) { outline: 3px solid var(--fokus); outline-offset: 2px; }
 input[type=search] { flex: 1 1 260px; min-width: 0; border: 1px solid var(--garis); background: var(--kartu); color: var(--teks);
   border-radius: 999px; padding: 9px 16px; font: inherit; }
 .kelompok-saring { display: flex; gap: 6px; flex-wrap: wrap; }
 .kelompok-saring button { border: 1px solid var(--garis); background: var(--kartu); color: var(--redup); border-radius: 999px;
   padding: 5px 12px; font: 700 12px/1.4 "Poppins", sans-serif; cursor: pointer; }
-.kelompok-saring button[aria-pressed="true"] { background: var(--kuning); border-color: var(--kuning); color: #13215A; }
+.kelompok-saring button[aria-pressed="true"] { background: var(--kuning); border-color: var(--kuning); color: #052C5F; }
 
 h2 { font-size: 18px; margin: 26px 0 12px; display: flex; align-items: center; gap: 10px; }
 h2 span { font-size: 12px; font-weight: 700; color: var(--redup); background: var(--sorot); border-radius: 999px; padding: 2px 10px; }
@@ -71,7 +78,7 @@ h2 span { font-size: 12px; font-weight: 700; color: var(--redup); background: va
   padding: 8px 6px; font-weight: 700; font-size: 13px; line-height: 1.25; border: 1px solid transparent; }
 .tombol small { font-weight: 400; font-size: 11px; opacity: .8; }
 .tombol.pptx { background: var(--aksen); color: var(--aksen-teks); }
-.tombol.pdf { background: var(--pdf-bg); color: var(--pdf-teks); border-color: #FBBB2B; }
+.tombol.pdf { background: var(--pdf-bg); color: var(--pdf-teks); border-color: #E8B41E; }
 .tombol[aria-disabled="true"] { opacity: .45; pointer-events: none; }
 .kosong { padding: 40px 0; text-align: center; color: var(--redup); }
 footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12px; color: var(--samar); }
@@ -86,7 +93,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
 <main>
   <div class="alat">
     <div class="baris-alat">
-      <span class="label" id="label-tema">Tampilan</span>
+      <span class="label" id="label-tema">Sampul</span>
       <div class="tema" role="radiogroup" aria-labelledby="label-tema" id="pilih-tema"></div>
       <input type="search" id="cari" placeholder="Cari materi…" aria-label="Cari materi">
     </div>
@@ -112,7 +119,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
   const satuTema = D.tema.length < 2;
   $("ringkas").textContent = satuTema
     ? `${D.materi.length} materi, siap diunduh dalam PPTX atau PDF.`
-    : `${D.materi.length} materi dalam ${D.tema.length} pilihan tampilan. Pilih tampilan, lalu unduh PPTX atau PDF.`;
+    : `${D.materi.length} materi dengan ${D.tema.length} pilihan sampul. Pilih sampul, lalu unduh PPTX atau PDF.`;
   if (satuTema) { $("label-tema").hidden = true; $("pilih-tema").hidden = true; }
   const tgl = new Date(D.dibuat + "T00:00:00").toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" });
   $("kaki").textContent = `Diperbarui ${tgl}. © PT Cerebrum Edukanesia Nusantara.`;
@@ -122,8 +129,12 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
     const inp = document.createElement("input");
     inp.type = "radio"; inp.name = "tema"; inp.value = t.id; inp.checked = t.id === tema;
     inp.addEventListener("change", () => { tema = t.id; tulis("situs.tema", tema); gambar(); });
+    const contoh = D.materi[0] && D.materi[0].tema[t.id];  // sampul materi pertama sebagai pratinjau
+    const img = document.createElement("img");
+    img.alt = ""; img.src = contoh ? contoh.sampul : "";
+    img.onerror = () => { img.removeAttribute("src"); };
     const s = document.createElement("span"); s.textContent = t.nama;
-    lab.append(inp, s); $("pilih-tema").append(lab);
+    lab.append(inp, img, s); $("pilih-tema").append(lab);
   });
   const daftarKelompok = [...new Set(D.materi.map((m) => m.kelompok))];
   ["", ...daftarKelompok].forEach((k) => {

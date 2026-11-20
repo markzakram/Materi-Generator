@@ -2,11 +2,16 @@
 window.MATERI = {
  "judul": "Materi TIU Verbal",
  "sumber_sheet": "https://docs.google.com/spreadsheets/d/15jTS2ZGdtgVIIvQgOSfffBFq1G2yjZdl4iHD4B877A4/edit#gid=442022191",
- "dibuat": "2026-11-18",
+ "dibuat": "2026-11-20",
+ "palet": "jadiasn",
  "tema": [
   {
    "id": "general",
-   "nama": "General"
+   "nama": "Sampul putih"
+  },
+  {
+   "id": "general-foto",
+   "nama": "Sampul foto"
   }
  ],
  "materi": [
@@ -23,8 +28,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-verbal-analogi.pptx",
      "pdf": "unduh/general/tiu-verbal-analogi.pdf",
      "sampul": "sampul/general/tiu-verbal-analogi.jpg",
-     "ukuran_pptx": 1254468,
-     "ukuran_pdf": 2132379
+     "ukuran_pptx": 913469,
+     "ukuran_pdf": 1246060
+    },
+    "general-foto": {
+     "slide": 21,
+     "nama": "TIU - Verbal Analogi - Jenis-Jenis Hubungan Antarkata (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-verbal-analogi.pptx",
+     "pdf": "unduh/general-foto/tiu-verbal-analogi.pdf",
+     "sampul": "sampul/general-foto/tiu-verbal-analogi.jpg",
+     "ukuran_pptx": 913706,
+     "ukuran_pdf": 1526143
     }
    }
   },
@@ -41,8 +55,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-va02-contoh-soal-2-kata.pptx",
      "pdf": "unduh/general/tiu-va02-contoh-soal-2-kata.pdf",
      "sampul": "sampul/general/tiu-va02-contoh-soal-2-kata.jpg",
-     "ukuran_pptx": 1324555,
-     "ukuran_pdf": 2388220
+     "ukuran_pptx": 983542,
+     "ukuran_pdf": 1501697
+    },
+    "general-foto": {
+     "slide": 40,
+     "nama": "TIU - Contoh Soal Verbal Analogi - 2 Kata (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-va02-contoh-soal-2-kata.pptx",
+     "pdf": "unduh/general-foto/tiu-va02-contoh-soal-2-kata.pdf",
+     "sampul": "sampul/general-foto/tiu-va02-contoh-soal-2-kata.jpg",
+     "ukuran_pptx": 983778,
+     "ukuran_pdf": 1781792
     }
    }
   },
@@ -59,8 +82,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs01-operator-logika.pptx",
      "pdf": "unduh/general/tiu-vs01-operator-logika.pdf",
      "sampul": "sampul/general/tiu-vs01-operator-logika.jpg",
-     "ukuran_pptx": 1323745,
-     "ukuran_pdf": 2108438
+     "ukuran_pptx": 987562,
+     "ukuran_pdf": 1221970
+    },
+    "general-foto": {
+     "slide": 15,
+     "nama": "TIU - Verbal Silogisme - Pengenalan Operator Logika (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vs01-operator-logika.pptx",
+     "pdf": "unduh/general-foto/tiu-vs01-operator-logika.pdf",
+     "sampul": "sampul/general-foto/tiu-vs01-operator-logika.jpg",
+     "ukuran_pptx": 987803,
+     "ukuran_pdf": 1502067
     }
    }
   },
@@ -77,8 +109,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs02-logika-kondisional.pptx",
      "pdf": "unduh/general/tiu-vs02-logika-kondisional.pdf",
      "sampul": "sampul/general/tiu-vs02-logika-kondisional.jpg",
-     "ukuran_pptx": 1352621,
-     "ukuran_pdf": 2223863
+     "ukuran_pptx": 1011616,
+     "ukuran_pdf": 1337452
+    },
+    "general-foto": {
+     "slide": 23,
+     "nama": "TIU - Verbal Silogisme - Logika Kondisional (Jika-Maka) (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vs02-logika-kondisional.pptx",
+     "pdf": "unduh/general-foto/tiu-vs02-logika-kondisional.pdf",
+     "sampul": "sampul/general-foto/tiu-vs02-logika-kondisional.jpg",
+     "ukuran_pptx": 1011856,
+     "ukuran_pdf": 1617559
     }
    }
   },
@@ -95,8 +136,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs03-ekuivalensi-logika.pptx",
      "pdf": "unduh/general/tiu-vs03-ekuivalensi-logika.pdf",
      "sampul": "sampul/general/tiu-vs03-ekuivalensi-logika.jpg",
-     "ukuran_pptx": 1258286,
-     "ukuran_pdf": 2145471
+     "ukuran_pptx": 917277,
+     "ukuran_pdf": 1259016
+    },
+    "general-foto": {
+     "slide": 23,
+     "nama": "TIU - Verbal Silogisme - Ekuivalensi Logika (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vs03-ekuivalensi-logika.pptx",
+     "pdf": "unduh/general-foto/tiu-vs03-ekuivalensi-logika.pdf",
+     "sampul": "sampul/general-foto/tiu-vs03-ekuivalensi-logika.jpg",
+     "ukuran_pptx": 917515,
+     "ukuran_pdf": 1539122
     }
    }
   },
@@ -113,8 +163,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs04-logika-kuantor.pptx",
      "pdf": "unduh/general/tiu-vs04-logika-kuantor.pdf",
      "sampul": "sampul/general/tiu-vs04-logika-kuantor.jpg",
-     "ukuran_pptx": 2774467,
-     "ukuran_pdf": 2640326
+     "ukuran_pptx": 2224848,
+     "ukuran_pdf": 1753701
+    },
+    "general-foto": {
+     "slide": 40,
+     "nama": "TIU - Verbal Silogisme - Logika Kuantor (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vs04-logika-kuantor.pptx",
+     "pdf": "unduh/general-foto/tiu-vs04-logika-kuantor.pdf",
+     "sampul": "sampul/general-foto/tiu-vs04-logika-kuantor.jpg",
+     "ukuran_pptx": 2225085,
+     "ukuran_pdf": 2033824
     }
    }
   },
@@ -131,8 +190,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs05-3-premis.pptx",
      "pdf": "unduh/general/tiu-vs05-3-premis.pdf",
      "sampul": "sampul/general/tiu-vs05-3-premis.jpg",
-     "ukuran_pptx": 1445079,
-     "ukuran_pdf": 2295164
+     "ukuran_pptx": 1106482,
+     "ukuran_pdf": 1408721
+    },
+    "general-foto": {
+     "slide": 26,
+     "nama": "TIU - Verbal Silogisme - 3 Premis (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vs05-3-premis.pptx",
+     "pdf": "unduh/general-foto/tiu-vs05-3-premis.pdf",
+     "sampul": "sampul/general-foto/tiu-vs05-3-premis.jpg",
+     "ukuran_pptx": 1106719,
+     "ukuran_pdf": 1688842
     }
    }
   },
@@ -149,8 +217,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vs06-bentuk-narasi.pptx",
      "pdf": "unduh/general/tiu-vs06-bentuk-narasi.pdf",
      "sampul": "sampul/general/tiu-vs06-bentuk-narasi.jpg",
-     "ukuran_pptx": 1336742,
-     "ukuran_pdf": 2346650
+     "ukuran_pptx": 995734,
+     "ukuran_pdf": 1460155
+    },
+    "general-foto": {
+     "slide": 39,
+     "nama": "TIU - Verbal Silogisme - Bentuk Narasi (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vs06-bentuk-narasi.pptx",
+     "pdf": "unduh/general-foto/tiu-vs06-bentuk-narasi.pdf",
+     "sampul": "sampul/general-foto/tiu-vs06-bentuk-narasi.jpg",
+     "ukuran_pptx": 995973,
+     "ukuran_pdf": 1740330
     }
    }
   },
@@ -167,8 +244,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn01-susunan-posisi.pptx",
      "pdf": "unduh/general/tiu-vn01-susunan-posisi.pdf",
      "sampul": "sampul/general/tiu-vn01-susunan-posisi.jpg",
-     "ukuran_pptx": 1568685,
-     "ukuran_pdf": 2451832
+     "ukuran_pptx": 1227658,
+     "ukuran_pdf": 1565311
+    },
+    "general-foto": {
+     "slide": 29,
+     "nama": "TIU - Verbal Analitis - Susunan & Posisi (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vn01-susunan-posisi.pptx",
+     "pdf": "unduh/general-foto/tiu-vn01-susunan-posisi.pdf",
+     "sampul": "sampul/general-foto/tiu-vn01-susunan-posisi.jpg",
+     "ukuran_pptx": 1227894,
+     "ukuran_pdf": 1845419
     }
    }
   },
@@ -185,8 +271,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn02-urutan-peringkat.pptx",
      "pdf": "unduh/general/tiu-vn02-urutan-peringkat.pdf",
      "sampul": "sampul/general/tiu-vn02-urutan-peringkat.jpg",
-     "ukuran_pptx": 1344279,
-     "ukuran_pdf": 2163227
+     "ukuran_pptx": 1003283,
+     "ukuran_pdf": 1276680
+    },
+    "general-foto": {
+     "slide": 19,
+     "nama": "TIU - Verbal Analitis - Urutan & Peringkat (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vn02-urutan-peringkat.pptx",
+     "pdf": "unduh/general-foto/tiu-vn02-urutan-peringkat.pdf",
+     "sampul": "sampul/general-foto/tiu-vn02-urutan-peringkat.jpg",
+     "ukuran_pptx": 1003523,
+     "ukuran_pdf": 1556778
     }
    }
   },
@@ -203,8 +298,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn03-jadwal.pptx",
      "pdf": "unduh/general/tiu-vn03-jadwal.pdf",
      "sampul": "sampul/general/tiu-vn03-jadwal.jpg",
-     "ukuran_pptx": 1357367,
-     "ukuran_pdf": 2164532
+     "ukuran_pptx": 1016374,
+     "ukuran_pdf": 1278028
+    },
+    "general-foto": {
+     "slide": 18,
+     "nama": "TIU - Verbal Analitis - Jadwal (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vn03-jadwal.pptx",
+     "pdf": "unduh/general-foto/tiu-vn03-jadwal.pdf",
+     "sampul": "sampul/general-foto/tiu-vn03-jadwal.jpg",
+     "ukuran_pptx": 1016613,
+     "ukuran_pdf": 1558110
     }
    }
   },
@@ -221,8 +325,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn04-rute-jalur.pptx",
      "pdf": "unduh/general/tiu-vn04-rute-jalur.pdf",
      "sampul": "sampul/general/tiu-vn04-rute-jalur.jpg",
-     "ukuran_pptx": 1507888,
-     "ukuran_pdf": 2381078
+     "ukuran_pptx": 1166878,
+     "ukuran_pdf": 1494534
+    },
+    "general-foto": {
+     "slide": 28,
+     "nama": "TIU - Verbal Analitis - Rute & Jalur (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vn04-rute-jalur.pptx",
+     "pdf": "unduh/general-foto/tiu-vn04-rute-jalur.pdf",
+     "sampul": "sampul/general-foto/tiu-vn04-rute-jalur.jpg",
+     "ukuran_pptx": 1167116,
+     "ukuran_pdf": 1774631
     }
    }
   },
@@ -239,8 +352,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn05-logika-pernyataan.pptx",
      "pdf": "unduh/general/tiu-vn05-logika-pernyataan.pdf",
      "sampul": "sampul/general/tiu-vn05-logika-pernyataan.jpg",
-     "ukuran_pptx": 1302018,
-     "ukuran_pdf": 2137664
+     "ukuran_pptx": 961015,
+     "ukuran_pdf": 1251139
+    },
+    "general-foto": {
+     "slide": 18,
+     "nama": "TIU - Verbal Analitis - Logika Pernyataan (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vn05-logika-pernyataan.pptx",
+     "pdf": "unduh/general-foto/tiu-vn05-logika-pernyataan.pdf",
+     "sampul": "sampul/general-foto/tiu-vn05-logika-pernyataan.jpg",
+     "ukuran_pptx": 961254,
+     "ukuran_pdf": 1531251
     }
    }
   },
@@ -257,8 +379,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn06-distribusi-kategori.pptx",
      "pdf": "unduh/general/tiu-vn06-distribusi-kategori.pdf",
      "sampul": "sampul/general/tiu-vn06-distribusi-kategori.jpg",
-     "ukuran_pptx": 1302821,
-     "ukuran_pdf": 2137109
+     "ukuran_pptx": 961828,
+     "ukuran_pdf": 1250609
+    },
+    "general-foto": {
+     "slide": 18,
+     "nama": "TIU - Verbal Analitis - Distribusi & Kategori (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vn06-distribusi-kategori.pptx",
+     "pdf": "unduh/general-foto/tiu-vn06-distribusi-kategori.pdf",
+     "sampul": "sampul/general-foto/tiu-vn06-distribusi-kategori.jpg",
+     "ukuran_pptx": 962067,
+     "ukuran_pdf": 1530696
     }
    }
   },
@@ -275,8 +406,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-vn07-argumen.pptx",
      "pdf": "unduh/general/tiu-vn07-argumen.pdf",
      "sampul": "sampul/general/tiu-vn07-argumen.jpg",
-     "ukuran_pptx": 1269632,
-     "ukuran_pdf": 2152392
+     "ukuran_pptx": 928621,
+     "ukuran_pdf": 1265820
+    },
+    "general-foto": {
+     "slide": 25,
+     "nama": "TIU - Verbal Analitis - Memperkuat-Memperlemah Argumen (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-vn07-argumen.pptx",
+     "pdf": "unduh/general-foto/tiu-vn07-argumen.pdf",
+     "sampul": "sampul/general-foto/tiu-vn07-argumen.jpg",
+     "ukuran_pptx": 928861,
+     "ukuran_pdf": 1545903
     }
    }
   },
@@ -293,8 +433,17 @@ window.MATERI = {
      "pptx": "unduh/general/tiu-penalaran-logis.pptx",
      "pdf": "unduh/general/tiu-penalaran-logis.pdf",
      "sampul": "sampul/general/tiu-penalaran-logis.jpg",
-     "ukuran_pptx": 1290998,
-     "ukuran_pdf": 2178664
+     "ukuran_pptx": 949999,
+     "ukuran_pdf": 1292491
+    },
+    "general-foto": {
+     "slide": 18,
+     "nama": "TIU - Penalaran Logis (General, sampul foto)",
+     "pptx": "unduh/general-foto/tiu-penalaran-logis.pptx",
+     "pdf": "unduh/general-foto/tiu-penalaran-logis.pdf",
+     "sampul": "sampul/general-foto/tiu-penalaran-logis.jpg",
+     "ukuran_pptx": 950238,
+     "ukuran_pdf": 1572604
     }
    }
   }
