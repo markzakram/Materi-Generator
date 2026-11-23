@@ -136,7 +136,12 @@ def main(argv=None):
                          "lalu jadiasn); 'tanpa' = warna template")
     ap.add_argument("--id", nargs="+", default=None,
                     help="Hanya bangun ulang materi ini (mis. sjk-01); materi lain di data.json tetap dipakai")
+    ap.add_argument("--hanya-data", action="store_true",
+                    help="Perbarui data.json saja (kelompok, tautan dokumen, jenis) tanpa membangun deck")
     a = ap.parse_args(argv)
+    if a.hanya_data:
+        a.id = []
+    sebagian = a.id is not None
     semua = {"opsi-b": a.template_opsi_b, "general": a.template_general}
     template = {v: semua[VARIAN[v][0]] for v in VARIAN if v in a.tema}
 
@@ -157,7 +162,7 @@ def main(argv=None):
     # <aplikasi>/data.json; berkas unduhan di <keluar>/<aplikasi>/unduh dan /sampul.
     folder_app = os.path.join(a.keluar, app["id"])
     lama = {}
-    if a.id:  # bangun sebagian: materi lain diambil dari data.json yang ada
+    if sebagian:  # bangun sebagian: materi lain diambil dari data.json yang ada
         path_data = os.path.join(folder_app, "data.json")
         if not os.path.exists(path_data):
             sys.exit(f"--id butuh {path_data} dari build sebelumnya; jalankan dulu tanpa --id.")
@@ -178,17 +183,18 @@ def main(argv=None):
 
     data, ekspor = [], []
     for m in entri:
-        if a.id and m["id"] not in a.id:
+        with open(os.path.join(konten, m["naskah"]), encoding="utf-8") as f:
+            naskah = json.load(f)
+        if sebagian and m["id"] not in a.id:
             if m["id"] in lama:
-                data.append(lama[m["id"]])
+                data.append(dict(lama[m["id"]], kelompok=m["kelompok"], bab=m["bab"], dokumen=m["url"],
+                                 jenis=BM.jenis_deck(naskah)))
             else:
                 print(f"Lewati {m['id']}: belum pernah dibangun (jalankan tanpa --id)")
             continue
-        with open(os.path.join(konten, m["naskah"]), encoding="utf-8") as f:
-            naskah = json.load(f)
         slug = _slug(m["naskah"])
         item = {"id": m["id"], "kelompok": m["kelompok"], "bab": m["bab"], "judul": naskah["meta"]["judul"],
-                "dokumen": m["url"], "tema": {}}
+                "dokumen": m["url"], "jenis": BM.jenis_deck(naskah), "tema": {}}
         for tema, path in template.items():
             tema_gen, sampul_gen, _, akhiran = VARIAN[tema]
             prs, b = BM.buat_deck(naskah, path, konten, tema_gen, sampul=sampul_gen, palet=palet)
@@ -205,7 +211,7 @@ def main(argv=None):
                   (f"  PERINGATAN: {b.peringatan}" if b.peringatan else ""))
         data.append(item)
 
-    if not a.tanpa_pdf:
+    if ekspor and not a.tanpa_pdf:
         _pdf_dan_sampul(ekspor)
     for item in data:  # ukuran berkas untuk ditampilkan di halaman
         for t in item["tema"].values():

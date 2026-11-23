@@ -605,6 +605,13 @@ def nama_file(konten):
     return konten["meta"].get("nama_file") or konten["meta"]["judul"]
 
 
+def jenis_deck(naskah):
+    """'soal' untuk deck contoh soal, selain itu 'materi' (dipakai saringan di situs dan dasbor)."""
+    meta, slide = naskah.get("meta") or {}, [s for sub in naskah.get("materi") or [] for s in sub.get("slide", [])]
+    semua_soal = bool(slide) and all(s.get("tipe") == "contoh_soal" for s in slide)
+    return "soal" if meta.get("bagian") == "soal" or meta.get("judul", "").startswith("Contoh Soal") or semua_soal else "materi"
+
+
 def buat_deck(konten, path_template=None, folder=None, tema="opsi-b", sampul="putih", palet=None):
     """Bangun deck dari naskah (dict); folder = dasar path gambar di naskah. Hasil: (Presentation, Pembangun).
 

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Materi TIU Verbal</title>
+<title>Materi Cerebrum</title>
 <style>
 @font-face { font-family: "Poppins"; src: url("font/Poppins-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Poppins"; src: url("font/Poppins-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
@@ -60,6 +60,13 @@ main { max-width: 1240px; margin: 0 auto; padding: 0 16px 56px; }
 .tema label:has(input:focus-visible) { outline: 3px solid var(--fokus); outline-offset: 2px; }
 input[type=search] { flex: 1 1 260px; min-width: 0; border: 1px solid var(--garis); background: var(--kartu); color: var(--teks);
   border-radius: 999px; padding: 9px 16px; font: inherit; }
+.jenis { display: inline-flex; background: var(--kartu); border: 1px solid var(--garis); border-radius: 999px; padding: 3px; }
+.jenis label { position: relative; cursor: pointer; border-radius: 999px; padding: 6px 14px; display: flex; align-items: center; gap: 7px;
+  font-weight: 700; font-size: 13px; line-height: 1.4; color: var(--redup); white-space: nowrap; }
+.jenis input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.jenis b { font-weight: 400; font-size: 12px; font-variant-numeric: tabular-nums; }
+.jenis label:has(input:checked) { background: var(--aksen); color: var(--aksen-teks); }
+.jenis label:has(input:focus-visible) { outline: 3px solid var(--fokus); outline-offset: 2px; }
 .kelompok-saring { display: flex; gap: 6px; flex-wrap: wrap; }
 .kelompok-saring button { border: 1px solid var(--garis); background: var(--kartu); color: var(--redup); border-radius: 999px;
   padding: 5px 12px; font: 700 12px/1.4 "Poppins", sans-serif; cursor: pointer; }
@@ -87,6 +94,24 @@ h2 span { font-size: 12px; font-weight: 700; color: var(--redup); background: va
   padding: 7px 16px; font: 700 13px/1.3 "Poppins", sans-serif; cursor: pointer; }
 .aplikasi button:hover { background: rgba(255,255,255,.12); }
 .aplikasi button[aria-selected="true"] { background: #fff; color: var(--header); border-color: #fff; }
+/* HP: pilihan sampul dan pencarian ikut tergulir; hanya slicer dan kelompok (satu baris) yang menempel di atas. */
+@media (max-width: 640px) {
+  .alat { display: contents; }
+  .alat > .baris-alat:first-child { padding-top: 16px; }
+  #label-tema, #label-jenis { display: none; }
+  .tema { width: 100%; display: grid; grid-template-columns: 1fr 1fr; }
+  .tema label { padding-right: 8px; gap: 8px; }
+  .tema img { width: 48px; }
+  .tema span { font-size: 12px; line-height: 1.3; }
+  input[type=search] { flex-basis: 100%; }
+  .saringan { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 12px 0 10px; gap: 10px; }
+  .jenis { display: grid; grid-template-columns: 1fr 1fr 1.35fr; width: 100%; }
+  .jenis label { justify-content: center; padding: 8px 6px; }
+  .kelompok-saring { flex-wrap: nowrap; overflow-x: auto; width: calc(100% + 32px); margin: 0 -16px; padding: 3px 16px; scrollbar-width: none; }
+  .kelompok-saring::-webkit-scrollbar { display: none; }
+  .kelompok-saring button { flex: none; padding: 7px 13px; }
+  h2 { margin-top: 16px; scroll-margin-top: 120px; }
+}
 footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12px; color: var(--samar); }
 </style>
 <style id="tema-app"></style>
@@ -103,9 +128,13 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
     <div class="baris-alat">
       <span class="label" id="label-tema">Sampul</span>
       <div class="tema" role="radiogroup" aria-labelledby="label-tema" id="pilih-tema"></div>
-      <input type="search" id="cari" placeholder="Cari materi…" aria-label="Cari materi">
+      <input type="search" id="cari" placeholder="Cari judul…" aria-label="Cari judul materi atau contoh soal">
     </div>
-    <div class="kelompok-saring" id="kelompok" role="group" aria-label="Saring kelompok"></div>
+    <div class="baris-alat saringan">
+      <span class="label" id="label-jenis">Tampilkan</span>
+      <div class="jenis" role="radiogroup" aria-labelledby="label-jenis" id="pilih-jenis"></div>
+      <div class="kelompok-saring" id="kelompok" role="group" aria-label="Saring kelompok"></div>
+    </div>
   </div>
   <div id="daftar"></div>
 </main>
@@ -124,6 +153,33 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
 
   const cache = {};
   let daftarApp = [], app = null, D = null, tema = null, kelompok = "", daftarKelompok = [];
+  // Slicer jenis deck: "" (semua), "materi", atau "soal". Ikut di alamat (#tiu/soal) supaya bisa dibagikan.
+  const JENIS = [["", "Semua"], ["materi", "Materi"], ["soal", "Contoh soal"]];
+  let jenis = "";
+  const jenisDeck = (m) => m.jenis || (/^Contoh Soal/.test(m.judul) ? "soal" : "materi");
+  const sebut = (daftar) => {  // "17 materi · 11 contoh soal"
+    const soal = daftar.filter((m) => jenisDeck(m) === "soal").length, materi = daftar.length - soal;
+    return [materi && `${materi} materi`, soal && `${soal} contoh soal`].filter(Boolean).join(" · ");
+  };
+  const bacaAlamat = () => { const [id, j] = location.hash.slice(1).split("/"); return { id, jenis: JENIS.some(([k]) => k && k === j) ? j : "" }; };
+  const tulisAlamat = () => { const h = "#" + app + (jenis ? "/" + jenis : ""); if (location.hash !== h) history.replaceState(null, "", h); };
+
+  function slicer() {
+    JENIS.forEach(([k, label]) => {
+      const lab = document.createElement("label");
+      const inp = document.createElement("input");
+      inp.type = "radio"; inp.name = "jenis"; inp.value = k;
+      inp.addEventListener("change", () => { jenis = k; tulisAlamat(); if (D) { gambar(); keAwal(); } });
+      lab.append(inp, label, document.createElement("b"));
+      $("pilih-jenis").append(lab);
+    });
+  }
+
+  function keAwal() {  // setelah menyaring, mulai lagi dari awal daftar (di bawah bilah yang menempel)
+    const bilah = document.querySelector(matchMedia("(max-width: 640px)").matches ? ".saringan" : ".alat");
+    const y = $("daftar").getBoundingClientRect().top + scrollY - bilah.offsetHeight;
+    if (scrollY > y) scrollTo({ top: y });
+  }
 
   function tab() {
     const wadah = $("aplikasi");
@@ -146,7 +202,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
     if (!daftarApp.some((a) => a.id === id)) id = daftarApp[0].id;
     app = id;
     tulis("situs.aplikasi", id);
-    if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+    tulisAlamat();
     daftarApp.forEach((a) => {
       const b = $("tab-" + a.id);
       b.setAttribute("aria-selected", String(a.id === id)); b.tabIndex = a.id === id ? 0 : -1;
@@ -167,9 +223,10 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
     tema = D.tema.some((t) => t.id === baca(kunciTema)) ? baca(kunciTema) : D.tema[0].id;
     kelompok = "";
     const satuTema = D.tema.length < 2;
+    const jumlah = sebut(D.materi).replace(" · ", " dan ");
     $("ringkas").textContent = satuTema
-      ? `${D.materi.length} materi, siap diunduh dalam PPTX atau PDF.`
-      : `${D.materi.length} materi dengan ${D.tema.length} pilihan sampul. Pilih sampul, lalu unduh PPTX atau PDF.`;
+      ? `${jumlah}, siap diunduh dalam PPTX atau PDF.`
+      : `${jumlah} dengan ${D.tema.length} pilihan sampul. Pilih sampul, lalu unduh PPTX atau PDF.`;
     $("label-tema").hidden = satuTema; $("pilih-tema").hidden = satuTema;
     const tgl = new Date(D.dibuat + "T00:00:00").toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" });
     $("kaki").textContent = `Diperbarui ${tgl}. © PT Cerebrum Edukanesia Nusantara.`;
@@ -191,8 +248,8 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
     const kel = $("kelompok"); kel.replaceChildren();
     ["", ...daftarKelompok].forEach((k) => {
       const b = document.createElement("button");
-      b.type = "button"; b.textContent = k || "Semua";
-      b.addEventListener("click", () => { kelompok = k; gambar(); });
+      b.type = "button"; b.textContent = k || "Semua kelompok";
+      b.addEventListener("click", () => { kelompok = k; gambar(); keAwal(); });
       kel.append(b);
     });
     gambar();
@@ -211,17 +268,33 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
   }
 
   function gambar() {
-    [...$("kelompok").children].forEach((b, i) => b.setAttribute("aria-pressed", String((i === 0 ? "" : daftarKelompok[i - 1]) === kelompok)));
     const cari = $("cari").value.trim().toLowerCase();
-    const cocok = D.materi.filter((m) => (!kelompok || m.kelompok === kelompok) &&
+    const sejenis = (m) => !jenis || jenisDeck(m) === jenis;
+    // kelompok yang tidak punya deck jenis ini disembunyikan
+    if (kelompok && !D.materi.some((m) => m.kelompok === kelompok && sejenis(m))) kelompok = "";
+    [...$("kelompok").children].forEach((b, i) => {
+      const k = i === 0 ? "" : daftarKelompok[i - 1];
+      b.setAttribute("aria-pressed", String(k === kelompok));
+      b.hidden = k !== "" && !D.materi.some((m) => m.kelompok === k && sejenis(m));
+    });
+    const tersaring = D.materi.filter((m) => (!kelompok || m.kelompok === kelompok) &&
       (!cari || (m.judul + " " + m.bab + " " + m.kelompok).toLowerCase().includes(cari)));
+    [...$("pilih-jenis").children].forEach((lab, i) => {  // angka di slicer mengikuti kelompok dan pencarian
+      const k = JENIS[i][0];
+      lab.querySelector("input").checked = k === jenis;
+      lab.querySelector("b").textContent = tersaring.filter((m) => !k || jenisDeck(m) === k).length;
+    });
+    const cocok = tersaring.filter(sejenis);
     const wadah = $("daftar"); wadah.replaceChildren();
-    if (!cocok.length) { pesan("Tidak ada materi yang cocok."); return; }
+    if (!cocok.length) {
+      const apa = jenis === "soal" ? "contoh soal" : jenis === "materi" ? "materi" : "materi atau contoh soal";
+      pesan(`Tidak ada ${apa} yang cocok.` + (jenis && tersaring.length ? " Coba pilih Semua." : "")); return;
+    }
     for (const k of daftarKelompok) {
       const isi = cocok.filter((m) => m.kelompok === k);
       if (!isi.length) continue;
       const h = document.createElement("h2"); h.textContent = k;
-      const n = document.createElement("span"); n.textContent = `${isi.length} materi`; h.append(n);
+      const n = document.createElement("span"); n.textContent = sebut(isi); h.append(n);
       const grid = document.createElement("div"); grid.className = "grid";
       for (const m of isi) {
         const t = m.tema[tema];
@@ -246,13 +319,20 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
   }
 
   $("cari").addEventListener("input", () => { if (D) gambar(); });
-  window.addEventListener("hashchange", () => { const id = location.hash.slice(1); if (id && id !== app) buka(id); });
+  window.addEventListener("hashchange", () => {
+    const tuju = bacaAlamat();
+    if (!tuju.id || (tuju.id === app && tuju.jenis === jenis)) return;
+    jenis = tuju.jenis;
+    if (tuju.id !== app) buka(tuju.id); else if (D) gambar();
+  });
 
   ambil("aplikasi.json").then((daftar) => {
     daftarApp = daftar;
     if (!daftarApp.length) { pesan("Belum ada materi. Jalankan generator/buat_situs.py."); return; }
-    tab();
-    buka(location.hash.slice(1) || baca("situs.aplikasi") || daftarApp[0].id);
+    tab(); slicer();
+    const tuju = bacaAlamat();
+    jenis = tuju.jenis;
+    buka(tuju.id || baca("situs.aplikasi") || daftarApp[0].id);
   }).catch(() => pesan("aplikasi.json tidak ditemukan. Jalankan generator/buat_situs.py."));
 })();
 </script>

@@ -209,7 +209,7 @@ def ringkas_naskah(n):
         perlu.append("level Bloom")
     if any(not r.get("teks") for r in (n.get("penutup") or {}).get("ringkasan", [])):
         perlu.append("teks ringkasan penutup")
-    return {"judul": (n.get("meta") or {}).get("judul", ""),
+    return {"judul": (n.get("meta") or {}).get("judul", ""), "jenis": BM.jenis_deck(n),
             "slide_isi": sum(1 for s in isi if s.get("tipe") != "contoh_soal"),
             "contoh_soal": sum(1 for s in isi if s.get("tipe") == "contoh_soal"),
             "perlu_dilengkapi": perlu}
