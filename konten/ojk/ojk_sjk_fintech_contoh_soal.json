@@ -69,12 +69,6 @@
             {
               "jenis": "paragraf",
               "teks": "Penyelenggara mengelola sistem yang mempertemukan kedua pihak."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Ikuti siapa yang mengelola sistem."
             }
           ]
         },
@@ -99,12 +93,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pendanaan Rp35 juta termasuk kelompok produktif dengan nilai paling tinggi Rp50 juta. Karena tenornya delapan bulan atau lebih dari enam bulan, batas maksimum manfaat ekonomi berdasarkan ketentuan yang menjadi acuan soal adalah 0,1% per hari kalender."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Periksa tenor sebelum memilih baris dan kolom."
             }
           ]
         },
@@ -129,102 +117,6 @@
             {
               "jenis": "paragraf",
               "teks": "Biaya adalah selisih pembayaran dan dana bersih. Kekurangan kas adalah selisih tagihan dan kas saat jatuh tempo."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Hitung biaya dan kekurangan kas secara terpisah."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Izin dan risiko",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Platform tercantum di direktori OJK. Apa arti informasi ini bagi pemberi dana?"
-            }
-          ],
-          "opsi": {
-            "A": "Platform menanggung semua gagal bayar",
-            "B": "Platform menjadi sumber dana utama",
-            "C": "Status platform dapat diperiksa dan risiko pendanaan tetap perlu dinilai",
-            "D": "Penilaian penerima dana tidak diperlukan",
-            "E": "Pembayaran pasti tepat waktu"
-          },
-          "kunci": "C",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "Izin berkaitan dengan penyelenggara. Risiko pembayaran tetap berkaitan dengan penerima dana dan perjanjian."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Pisahkan status penyelenggara dari risiko pembayaran."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Mengenali layanan",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Platform membantu usaha menawarkan saham kepada sejumlah pemodal. Aktivitas manakah yang paling tepat?"
-            }
-          ],
-          "opsi": {
-            "A": "Pembayaran digital",
-            "B": "Penjaminan kredit",
-            "C": "Urun dana efek",
-            "D": "Pindar untuk modal kerja",
-            "E": "Perdagangan aset kripto"
-          },
-          "kunci": "C",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "Produk yang ditawarkan adalah efek berupa saham. Pindar berkaitan dengan pendanaan yang harus dibayar sesuai perjanjian."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Lihat produk yang ditawarkan melalui platform."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Batas manfaat ekonomi",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pada 1 Juli 2026, sebuah usaha menyepakati pendanaan produktif Rp60 juta dengan tenor empat bulan. Berdasarkan Bagian XIV angka 3 SEOJK Nomor 19/SEOJK.06/2025 yang digunakan untuk kasus ini, berapa batas maksimum manfaat ekonomi per hari kalender?"
-            }
-          ],
-          "opsi": {
-            "A": "0,1%",
-            "B": "0,2%",
-            "C": "0,275%",
-            "D": "0,3%",
-            "E": "0,4%"
-          },
-          "kunci": "A",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "Nilainya lebih dari Rp50 juta, sehingga batas dalam ketentuan yang dirujuk adalah 0,1% per hari kalender."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Cek nominal pendanaan dalam perjanjian."
             }
           ]
         },
@@ -249,102 +141,6 @@
             {
               "jenis": "paragraf",
               "teks": "Rp1,6 juta ÷ Rp5 juta × 100% = 32%. Hasil ini melampaui batas 30% untuk penilaian kemampuan bayar pendanaan konsumtif sejak 2026. Rasio ini digunakan untuk menilai kemampuan membayar. Untuk mengetahui apakah penerima dana sudah terlambat atau tidak memenuhi kewajiban, periksa jatuh tempo, pembayaran yang sudah dilakukan, dan ketentuan perjanjiannya."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Jumlahkan pembayaran kepada seluruh kreditur."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Perbandingan biaya",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Penerima A dan B mendapat pokok kontrak yang sama. A dikenai potongan awal, B menerima pokok penuh. Apa yang perlu dibandingkan untuk mengetahui beban masing-masing?"
-            }
-          ],
-          "opsi": {
-            "A": "Pokok kontrak saja",
-            "B": "Angsuran pertama saja",
-            "C": "Nama produk dan penghasilan pemberi dana",
-            "D": "Dana bersih, total pembayaran, dan tenor",
-            "E": "Tanggal pembukaan akun saja"
-          },
-          "kunci": "D",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "Potongan awal mengubah kas yang diterima. Total pembayaran dan tenor menunjukkan kewajiban serta waktunya."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Bandingkan kas yang diterima dengan kewajiban dan jangka waktunya."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Membedakan Risiko Penerima Dana dan Risiko Penyelenggara",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pada platform LPBBTI berizin, penerima dana melewatkan jatuh tempo karena hasil penjualannya belum masuk. Saat menagih, petugas yang ditunjuk platform mengirim rincian utang kepada rekan kerja penerima dana. Perjanjian juga mencantumkan perlindungan tambahan atas sebagian pokok apabila syarat klaim terpenuhi. Bagaimana pemberi dana sebaiknya menilai situasi ini?"
-            }
-          ],
-          "opsi": {
-            "A": "Keterlambatan dan pengungkapan data sama-sama merupakan risiko penerima dana.",
-            "B": "Izin platform membuat seluruh sisa pokok otomatis dapat diklaim.",
-            "C": "Keterlambatan merupakan risiko pembayaran penerima dana. Pengungkapan data perlu diadukan kepada penyelenggara, dan klaim mengikuti cakupan serta syarat perlindungan.",
-            "D": "Pengungkapan data menjadi tanggung jawab petugas penagihan saja.",
-            "E": "Perlindungan sebagian pokok membuat pemberi dana dapat menagih seluruh sisa pokok melalui klaim."
-          },
-          "kunci": "C",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pembayaran yang terlewat perlu diperiksa berdasarkan perjanjian pendanaan. Pengungkapan rincian utang kepada pihak lain menyangkut cara penagihan dan pelindungan data. Simpan bukti dan ajukan pengaduan melalui kanal resmi penyelenggara, termasuk jika penagihan dilakukan pihak ketiga yang ditunjuknya. Jika ingin mengajukan klaim atas perlindungan tambahan, periksa risiko yang ditanggung, pengecualian, batas pembayaran, dan dokumen yang diperlukan."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Periksa tiga hal secara terpisah: kewajiban penerima dana, tindakan penyelenggara atau petugasnya, dan cakupan perlindungan dalam perjanjian."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Membedakan LPBBTI dan BNPL Perusahaan Pembiayaan",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Dalam satu aplikasi, Rina melihat dua fitur. Pada fitur X, platform mempertemukan Rina dengan pemberi dana yang mendanai kebutuhan modal usahanya. Pada fitur Y, perusahaan pembiayaan membiayai pembelian barang Rina, lalu Rina membayar angsurannya sesuai perjanjian. Bagaimana kedua fitur tersebut diklasifikasikan?"
-            }
-          ],
-          "opsi": {
-            "A": "X adalah BNPL dan Y adalah LPBBTI.",
-            "B": "X adalah LPBBTI dan Y adalah BNPL perusahaan pembiayaan.",
-            "C": "Keduanya LPBBTI karena tersedia di aplikasi yang sama.",
-            "D": "Keduanya BNPL karena pembayaran dilakukan kemudian.",
-            "E": "X adalah urun dana efek dan Y adalah pembayaran digital dengan saldo."
-          },
-          "kunci": "B",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pada fitur X, penyelenggara mempertemukan pemberi dana dengan penerima dana. Pada fitur Y, perusahaan pembiayaan menyediakan pembiayaan untuk pembelian barang. Periksa siapa yang menyediakan dana dan apa yang diatur dalam perjanjian masing-masing fitur."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Ikuti arus dana dan identifikasi peran penyedia pada setiap fitur."
             }
           ]
         }

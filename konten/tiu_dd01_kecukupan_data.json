@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Kecukupan Data meminta kita menilai apakah informasi yang diberikan sudah memastikan jawaban suatu pertanyaan. Jawabannya bukan langsung berupa hasil hitungan, melainkan pilihan yang menunjukkan pernyataan mana yang cukup. Kuncinya adalah menguji setiap pernyataan secara terpisah sebelum menggabungkannya bila diperlukan.",
-      "Pengetahuan Bilangan, Aljabar, dan Soal Cerita digunakan sebagai alat bantu. Namun, perhitungan hanya perlu diteruskan sampai kita mengetahui apakah jawabannya pasti. Kebiasaan membaca syarat, menjaga pemisahan informasi, dan memeriksa kemungkinan lain lebih menentukan daripada menghitung panjang."
+      "Kecukupan Data meminta kita menilai apakah informasi yang diberikan sudah memastikan jawaban suatu pertanyaan. Jawabannya bukan langsung berupa hasil hitungan, melainkan pilihan yang menunjukkan pernyataan mana yang cukup. Kuncinya adalah menguji setiap pernyataan secara terpisah sebelum menggabungkannya bila diperlukan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -103,10 +102,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jawaban pasti “tidak” tetap berarti cukup. Sebaliknya, satu contoh yang menjawab “ya” belum membuktikan cukup jika masih ada contoh lain yang menjawab “tidak”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Nilai variabel boleh berbeda selama jawaban yang ditanyakan tetap sama. Misalnya, ketika yang ditanyakan perbandingan dua besaran, kita tidak selalu perlu mengetahui nilai masing-masing. Karena itu, selalu tentukan terlebih dahulu apa yang harus dijawab."
             }
           ]
         }
@@ -123,10 +118,6 @@
             {
               "jenis": "paragraf",
               "teks": "Satu soal memuat informasi awal, satu pertanyaan utama, pernyataan (1), pernyataan (2), dan pilihan A–E. Informasi awal berlaku pada semua pengujian. Fakta yang hanya diberikan dalam pernyataan (1) tidak boleh dipakai saat menguji pernyataan (2), dan sebaliknya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bentuknya dapat berupa pertanyaan nilai, perbandingan, atau ya/tidak. Pada soal cerita, data awal dapat disajikan sebagai narasi atau tabel. Tabel bukan informasi tambahan: seluruh data di dalamnya tetap dipakai ketika menguji masing-masing pernyataan."
             },
             {
               "jenis": "tabel",
@@ -176,10 +167,6 @@
             {
               "jenis": "paragraf",
               "teks": "D berarti masing-masing pernyataan dapat menjawab secara mandiri. C berarti kedua pernyataan baru cukup setelah digabungkan. E berarti gabungannya pun belum memastikan jawaban."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan berhenti ketika pernyataan (1) sudah cukup. Pernyataan (2) tetap perlu diuji untuk membedakan A dari D. Jika pernyataan (1) tidak cukup tetapi pernyataan (2) cukup, pilih B."
             }
           ]
         }
@@ -221,14 +208,6 @@
             {
               "jenis": "paragraf",
               "teks": "Bilangan prima adalah bilangan yang memiliki 2 faktor positif. Bilangan 1 bukan bilangan prima. Syarat bilangan bulat, positif, atau tidak negatif harus dibaca apa adanya karena dapat mengubah kemungkinan jawaban."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dalam aljabar, pertidaksamaan sebaiknya dibaca langsung melalui simbolnya. Tanda kurang dari atau sama dengan mencakup nilai batas; tanda kurang dari tidak. Jangan mengubah batas menjadi kalimat yang justru membuat artinya kabur."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada cerita, periksa dasar persentase, kesamaan jarak, kesamaan pekerjaan, dan satuan. Misalnya, jumlah mesin dikali waktu hanya dapat dibandingkan untuk pekerjaan yang sama jika produktivitas tiap mesin sama dan tetap. Jika kesamaan pekerjaan belum disebutkan, jangan menganggapnya sudah ada."
             }
           ]
         }
@@ -290,30 +269,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Hitung variabel bebas, lalu hitung persamaan linear independen dari informasi awal dan pernyataan yang diuji. Dua variabel dengan dua persamaan independen yang konsisten dapat ditentukan tunggal. Persamaan berulang tidak menambah informasi. Jika hubungan belum lengkap, tetap periksa yang ditanyakan dan batas bilangannya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika ada dua variabel dan dua persamaan linear independen yang konsisten, nilai keduanya pasti sehingga data cukup. Jika baru ada satu hubungan, periksa apakah masih ada dua jawaban yang mungkin. Untuk pertanyaan nilai satu variabel, cara ini dapat mempercepat penentuan status tanpa menyelesaikan seluruh hitungan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tetap periksa yang ditanyakan dan batas bilangannya. Satu persamaan dapat cukup untuk menentukan jumlah atau perbandingan tertentu, dan syarat bilangan bulat dapat mempersempit kemungkinan. Hubungan berupa hasil kali dua variabel yang belum diketahui bukan persamaan linear, sehingga tidak dinilai hanya dengan menghitung banyak persamaan."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika hanya diketahui jumlah dua bilangan adalah 10, nilai setiap bilangan belum tentu pasti. Namun, jika yang ditanyakan jumlah keduanya, jawabannya sudah diketahui."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$x+y=10$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dua persamaan yang saling bertentangan juga tidak dapat disebut cukup. Tidak adanya keadaan yang memenuhi data berbeda dengan adanya satu jawaban pasti."
             }
           ]
         }
@@ -347,10 +302,6 @@
             {
               "jenis": "paragraf",
               "teks": "Untuk membuktikan tidak cukup, cari dua keadaan yang sama-sama memenuhi data tetapi menghasilkan jawaban berbeda. Pada pertanyaan ya/tidak, kedua keadaan itu harus menghasilkan satu “ya” dan satu “tidak”. Dua nilai variabel yang berbeda belum tentu berarti dua jawaban yang berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk membuktikan cukup, jelaskan hubungan yang memastikan jawaban pada semua kemungkinan yang diperbolehkan. Menguji satu angka yang kebetulan berhasil tidak cukup sebagai bukti."
             }
           ]
         }
@@ -374,10 +325,6 @@
                 "Pada cerita, jangan menyisipkan kesamaan pekerjaan, jarak, atau jumlah barang yang belum diberikan.",
                 "Hentikan hitungan setelah kecukupan terbukti, tetapi tetap uji pernyataan lain untuk memilih opsi yang tepat."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kesalahan yang paling sering terjadi adalah membawa hasil (1) ke uji (2), menyamakan “belum tahu semua variabel” dengan “tidak cukup”, atau menganggap jawaban “tidak” berarti data kurang. Ketiganya dapat dihindari dengan menuliskan status setiap uji secara jelas."
             }
           ]
         }
@@ -412,6 +359,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Kecukupan Data berfokus pada kepastian jawaban. Uji (1) dan (2) secara terpisah bersama informasi awal, lalu gabungkan jika keduanya sendiri belum cukup. Satu nilai pasti atau satu keputusan ya/tidak yang tetap berarti cukup; dua jawaban berbeda yang sama-sama memenuhi data berarti belum cukup. Gunakan konsep Bilangan, Aljabar, dan Soal Cerita secukupnya untuk membuktikan status tersebut. Perhatikan domain, informasi yang berulang, serta kesamaan kondisi dalam cerita. Jumlah persamaan membantu membaca hubungan, tetapi keputusan akhir tetap harus menjawab pertanyaan yang benar-benar diajukan."
+    "pesan": "Kecukupan Data berfokus pada kepastian jawaban. Uji (1) dan (2) secara terpisah bersama informasi awal, lalu gabungkan jika keduanya sendiri belum cukup. Satu nilai pasti atau satu keputusan ya/tidak yang tetap berarti cukup; dua jawaban berbeda yang sama-sama memenuhi data berarti belum cukup."
   }
 }

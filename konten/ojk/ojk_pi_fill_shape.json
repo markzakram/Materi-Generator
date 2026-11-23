@@ -4,6 +4,7 @@
     "subtes": "Tes Kemampuan Umum",
     "nama_file": "OJK TKU - Fill Shape",
     "sumber": "https://docs.google.com/document/d/1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi/edit",
+    "lewati_kosong": true,
     "id_katalog": "pi-01"
   },
   "peta_subtes": {
@@ -36,38 +37,14 @@
   "pendahuluan": {
     "paragraf": [
       "Pada soal Fill Shape, kita melihat beberapa gambar yang tersusun berurutan. Bentuknya biasanya sama, tetapi warna pada bagian-bagiannya berubah. Di akhir urutan terdapat satu gambar kosong. Tugas kita adalah melengkapi gambar kosong itu berdasarkan perubahan yang terlihat pada gambar sebelumnya.",
-      "Perhatikan bagian hijau pada contoh di atas. Mula-mula hijau berada di kiri atas, lalu di kanan atas, kemudian di kanan bawah. Jika perubahan itu dilanjutkan dengan cara yang sama, hijau akan berada di kiri bawah. Kita dapat memperkirakannya karena menemukan keteraturan dalam perpindahan warna.",
-      "Fill Shape menguji kemampuan menemukan aturan dari urutan gambar, kemudian menggunakan aturan tersebut untuk membentuk gambar berikutnya.",
-      "Kita akan memulai dari cara membaca satu gambar. Setelah itu, kita belajar membandingkan gambar, mengenali beberapa jenis perubahan, dan menyelesaikan pola yang memuat lebih dari satu aturan. Pada setiap tahap, perhatikan gambar sambil mengikuti penjelasannya."
+      "Fill Shape menguji kemampuan menemukan aturan dari urutan gambar, kemudian menggunakan aturan tersebut untuk membentuk gambar berikutnya."
     ],
     "pemantik": "",
-    "ikon": "presenter",
-    "gambar": "media/ojk_pi_fill_shape/gambar-01.png"
+    "ikon": "presenter"
   },
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
-    "butir": [
-      {
-        "level": "",
-        "kko": "Mengenali",
-        "teks": "bagian gambar serta membedakan hijau, ungu bertitik, dan putih."
-      },
-      {
-        "level": "",
-        "kko": "Menjelaskan",
-        "teks": "perubahan posisi, warna, dan jumlah bagian yang diisi."
-      },
-      {
-        "level": "",
-        "kko": "Menentukan",
-        "teks": "aturan perpindahan, pencerminan, penambahan, dan pengulangan."
-      },
-      {
-        "level": "",
-        "kko": "Menyelesaikan",
-        "teks": "gabungan aturan secara bertahap serta memeriksa semua bagian jawaban."
-      }
-    ]
+    "butir": []
   },
   "materi": [
     {
@@ -81,29 +58,6 @@
             {
               "jenis": "paragraf",
               "teks": "Sebelum mencari pola, kenali dahulu informasi yang ada di layar. Sekumpulan gambar kecil merupakan urutan yang harus dipelajari. Gambar kosong menjadi tempat menyusun jawaban. Ukuran gambar kosong dapat lebih besar, tetapi pembagian bentuknya tetap mengikuti gambar contoh."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-02.png",
-              "lebar": 5.65,
-              "tinggi": 2.83,
-              "keterangan": "Gambar 1. Ilustrasi Fill Shape dari riset internal JadiOJK. Amati empat gambar di atas, lalu tentukan warna tiap bagian pada segitiga kosong di bawah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh tersebut, segitiga dibagi menjadi empat bagian: satu di atas, satu di kiri bawah, satu di kanan bawah, dan satu segitiga terbalik di tengah. Warna hijau dan ungu bertitik dapat muncul pada bagian yang berbeda. Bagian putih juga perlu diperhatikan karena dapat berubah warna pada gambar selanjutnya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jawaban dibuat dengan menentukan keadaan setiap bagian pada bentuk kosong. Jika sebuah bagian seharusnya hijau, pilih hijau. Jika bagian itu seharusnya tetap putih, biarkan atau kembalikan ke putih sesuai cara kerja antarmuka. Tidak semua bagian harus diberi hijau atau ungu."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gambar kosong adalah tempat menerapkan hasil penalaran. Tentukan dahulu susunan jawabannya, kemudian lakukan pengisian."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Ikuti petunjuk interaksi pada tes yang dikerjakan. Ketukan dapat digunakan untuk mengganti warna, tetapi urutan pergantian warna tidak perlu diasumsikan sama pada semua penyajian. Periksa hasil yang terlihat setelah memilih suatu bagian."
             }
           ]
         }
@@ -119,21 +73,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Untuk latihan awal, gunakan persegi yang dibagi menjadi empat bagian. Garis vertikal membagi kiri dan kanan, sedangkan garis horizontal membagi atas dan bawah. Setiap bidang tertutup yang terbentuk disebut bagian. Garis batasnya membantu kita menentukan tempat suatu warna berada."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-03.png",
-              "lebar": 5.5,
-              "tinggi": 2.73
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Nomor 1 terletak di kiri atas, nomor 2 di kanan atas, nomor 3 di kanan bawah, dan nomor 4 di kiri bawah. Nomor ini hanya alat bantu dalam materi. Pada tampilan tes, kita tetap dapat mengenali posisi yang sama meskipun tidak ada nomor."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gambar kanan dapat dibaca sebagai berikut: bagian 1 hijau, bagian 3 ungu bertitik, sedangkan bagian 2 dan 4 putih. Dengan membaca satu per satu, kita mengetahui seluruh keadaan gambar. Menyebut “ada hijau dan ungu” saja belum cukup karena belum menunjukkan letaknya."
             },
             {
               "jenis": "subjudul",
@@ -142,14 +82,6 @@
             {
               "jenis": "paragraf",
               "teks": "Putih bukan berarti bagian tersebut boleh diabaikan. Jika bagian 2 putih pada gambar pertama lalu hijau pada gambar kedua, perubahan itu merupakan informasi. Pada jawaban akhir, putih juga dapat menjadi keadaan yang benar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan posisi yang tetap: kiri dan kanan dilihat dari sudut pandang pembaca. Jangan mengubah acuan nomor ketika warna berpindah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Setelah dapat menyebut posisi dan warna pada satu gambar, kita siap membandingkan dua gambar. Cara membacanya tetap sama: periksa bagian yang sama pada kedua gambar, lalu catat perbedaannya."
             }
           ]
         }
@@ -165,21 +97,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Membandingkan gambar berarti mencari apa yang berubah dan apa yang tetap. Mulailah dari satu warna yang mudah dilihat. Pada contoh berikut, kita mengikuti bagian hijau. Ungu belum digunakan agar perubahannya mudah dibaca."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-04.png",
-              "lebar": 5.5,
-              "tinggi": 2.73
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pada gambar pertama, bagian 1 hijau dan bagian 2 putih. Pada gambar kedua, bagian 1 kembali putih, sedangkan bagian 2 menjadi hijau. Jadi, warna hijau berpindah dari kiri atas ke kanan atas. Jumlah bagian hijau tetap satu."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dari dua gambar ini, kita baru mengetahui satu perpindahan. Kita belum dapat memastikan apakah hijau akan terus bergerak ke kanan bawah, kembali ke kiri atas, atau mengikuti aturan lain. Untuk memilih aturan yang tepat, kita perlu melihat gambar-gambar berikutnya."
             },
             {
               "jenis": "tabel",
@@ -209,10 +127,6 @@
             {
               "jenis": "paragraf",
               "teks": "Bedakan pengamatan dan dugaan. “Hijau berpindah dari 1 ke 2” adalah pengamatan; “hijau selalu berputar” masih harus diuji pada gambar lain."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kebiasaan ini mencegah kita menebak terlalu cepat. Setelah menemukan dugaan, cocokkan dengan seluruh perpindahan yang tersedia. Dugaan yang gagal menjelaskan salah satu perpindahan perlu diperbaiki."
             }
           ]
         }
@@ -228,39 +142,11 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Sekarang tambahkan dua gambar lagi. Bacalah urutannya dari kiri ke kanan, kemudian ikuti letak hijau tanpa mengubah acuan nomor bagian."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-05.png",
-              "lebar": 6.05,
-              "tinggi": 1.5
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Hijau menempati bagian 1, kemudian 2, kemudian 3, dan terakhir 4. Perpindahan pertama dari kiri atas ke kanan atas. Perpindahan kedua dari kanan atas ke kanan bawah. Perpindahan ketiga dari kanan bawah ke kiri bawah. Semuanya mengikuti arah yang sama mengelilingi titik tengah persegi."
             },
             {
               "jenis": "paragraf",
-              "teks": "Arah itu disebut searah jarum jam, yaitu arah putaran jarum jam ketika kita melihat jam dari depan. Setelah kiri bawah, posisi berikutnya adalah kiri atas. Dalam penomoran kita, urutannya menjadi 1 → 2 → 3 → 4 → 1."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-06.png",
-              "lebar": 6.05,
-              "tinggi": 1.98
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Jawabannya adalah bagian 1 hijau, sedangkan bagian 2, 3, dan 4 putih. Kita tidak mempertahankan bagian 4 hijau karena pada rangkaian sebelumnya bagian yang ditinggalkan selalu kembali putih."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Mulai dari gambar terakhir dan terapkan satu perubahan berikutnya. Pada contoh ini, hijau berpindah satu bagian searah jarum jam."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika memilih bagian 2, kita melangkah dua kali dari bagian 4. Jika mengisi semua bagian hijau, kita menambahkan aturan yang tidak muncul pada rangkaian. Jawaban harus mengikuti jenis perubahan dan banyak langkah yang sudah terbukti."
             }
           ]
         }
@@ -285,28 +171,6 @@
             {
               "jenis": "paragraf",
               "teks": "Perputaran susunan mengelilingi titik pusat ini disebut rotasi. Pada persegi empat bagian ini, satu langkah menempuh seperempat putaran, yaitu 90°. Saat mengerjakan Fill Shape, gunakan garis pembatas sebagai patokan, lalu ikuti posisi warna dari satu gambar ke gambar berikutnya untuk mengetahui arah dan jumlah langkahnya."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-07.png",
-              "lebar": 5.7,
-              "tinggi": 3.53
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada persegi empat bagian, satu langkah berarti pindah ke bagian tetangga pada lintasan yang sedang diikuti. Searah jarum jam dari 1 menuju 2, sedangkan berlawanan arah jarum jam dari 1 menuju 4. Jika bergerak dua langkah searah jarum jam dari 1, kita melewati 2 lalu sampai di 3."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Satu langkah pada persegi ini setara dengan seperempat putaran atau 90°. Dua langkah setara dengan setengah putaran atau 180°. Istilah sudut membantu ketika bagian gambar tersusun teratur, tetapi menghitung bagian yang dilalui sering sudah cukup untuk menentukan jawaban."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Catat arah dan jumlah langkah. Pada persegi empat bagian, dua langkah dari bagian 1 berakhir di bagian 3 dari kedua arah. Periksa perpindahan lain jika perlu membedakan arah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan menyamakan satu langkah pada semua bentuk. Persegi empat bagian mempunyai empat posisi pada lintasannya. Bintang enam ujung mempunyai enam posisi ujung. Ketika bentuk berubah, kenali dahulu lintasan yang sedang diikuti."
             }
           ]
         }
@@ -322,37 +186,11 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Pada pembahasan sebelumnya, kita mengikuti warna yang berpindah. Sekarang perhatikan satu bagian yang tempatnya tetap, tetapi warnanya berganti. Untuk memudahkan, pada contoh ini hanya bagian 1 yang berubah. Bagian lain tetap putih."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-08.png",
-              "lebar": 6.05,
-              "tinggi": 1.5
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Bagian 1 mula-mula putih, kemudian hijau, lalu ungu bertitik, dan kembali putih. Jika aturan yang sama diteruskan, keadaan berikutnya adalah hijau. Pengulangan urutan keadaan seperti ini disebut siklus. Satu siklus selesai ketika kembali ke keadaan awal."
             },
             {
               "jenis": "paragraf",
               "teks": "Untuk mengerjakannya, letakkan perhatian pada posisi yang sama dari awal sampai akhir. Jangan mengikuti warna ungu ke bagian lain, sebab pada contoh ini yang berubah adalah warna bagian 1, bukan lokasinya. Urutan yang ditemukan adalah putih → hijau → ungu bertitik → putih."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Menerapkan aturan pada beberapa bagian"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada soal yang lebih lengkap, beberapa bagian dapat mengikuti urutan warna yang sama dari keadaan awal berbeda. Bagian 1 mungkin mulai dari hijau, sementara bagian 2 mulai dari putih. Keduanya tetap dapat mengikuti siklus putih → hijau → ungu → putih. Keadaan awal yang berbeda membuat warna pada satu gambar tidak selalu sama."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Uji urutan warna pada tiap bagian. Jika aturan siklusnya sama, ubah setiap bagian satu tahap dari keadaan pada gambar terakhir."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan menganggap urutan warna pada contoh berlaku untuk semua soal. Ada soal yang hanya bertukar hijau dan putih, ada yang melibatkan ungu, dan ada yang mengubah warna pusat saja. Urutannya harus dibaca dari rangkaian yang tersedia."
             }
           ]
         }
@@ -368,29 +206,11 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Ada dua pola yang sekilas mirip: warna masuk ke bagian baru karena berpindah, atau bagian baru ikut diwarnai sementara bagian lama dipertahankan. Perbedaannya terlihat dari keadaan bagian yang sudah berwarna."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-09.png",
-              "lebar": 5.7,
-              "tinggi": 3.53
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pada baris pertama, hijau pindah dari bagian 1 ke 2. Jumlah hijau tetap satu. Pada baris kedua, bagian 1 masih hijau dan bagian 2 ikut menjadi hijau. Jumlah hijau bertambah menjadi dua. Pola kedua sering disebut penumpukan atau penambahan isian."
             },
             {
               "jenis": "paragraf",
               "teks": "Jika penambahan berlanjut searah jarum jam, susunannya menjadi bagian 1; lalu 1 dan 2; lalu 1, 2, dan 3; lalu semua bagian. Kita perlu memeriksa jumlah dan urutannya. Bertambah satu belum memberi tahu bagian mana yang harus ditambahkan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada perpindahan, periksa bagian yang ditinggalkan. Pada penambahan, periksa apakah warna lama dipertahankan dan bagian baru mana yang muncul."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jumlah berwarna juga dapat berkurang. Misalnya, empat bagian hijau menjadi tiga, lalu dua. Prinsip membacanya sama: cari bagian yang berubah menjadi putih dan uji urutan pengurangannya. Jangan hanya memperkirakan jumlah akhir tanpa menentukan letaknya."
             }
           ]
         }
@@ -418,7 +238,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-10.png",
+              "file": "media/ojk_pi_fill_shape/gambar-01.png",
               "lebar": 5.7,
               "tinggi": 3.53
             },
@@ -429,60 +249,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pencerminan memindahkan posisi, tetapi tidak otomatis menukar warna. Jika warna juga berganti, kita memerlukan bukti aturan tambahan. Jangan mengubah hijau menjadi ungu hanya karena posisinya berpindah ke seberang."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Periksa sekurang-kurangnya dua bagian yang berbeda untuk membedakan cermin dan rotasi."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh baris atas, hijau dari kiri atas menuju kanan atas. Perpindahan hijau saja cocok dengan rotasi 90° maupun cermin vertikal. Sekarang periksa ungu yang semula di kanan atas: pada rotasi 90° searah jarum jam, ungu akan menuju kanan bawah; pada cermin vertikal, ungu menuju kiri atas seperti gambar. Letak ungu itulah yang membedakan kedua aturan."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subbab": "Mengenali pengulangan seluruh gambar",
-      "ikon": "grafik",
-      "slide": [
-        {
-          "tipe": "blok",
-          "judul": "Mengenali pengulangan seluruh gambar",
-          "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Siklus warna pada satu bagian sudah dipelajari. Sekarang kita membandingkan pengulangan seluruh gambar. Sebuah gambar baru dianggap sama jika posisi dan warna semua bagiannya sama, termasuk bagian putih."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-11.png",
-              "lebar": 6.05,
-              "tinggi": 1.5
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Susunan A mempunyai bagian 1 hijau dan bagian 3 ungu. Susunan B mempunyai bagian 2 hijau dan bagian 4 ungu. Karena urutannya A, B, A, B, gambar berikutnya kembali ke A. Kita dapat menyatakannya sebagai pengulangan dua susunan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pemeriksaannya dilakukan pada semua bagian. Pada A, bagian 2 dan 4 putih; pada B, bagian 1 dan 3 putih. Jika ada satu bagian pusat yang warnanya berbeda, dua gambar yang tampak mirip itu belum merupakan susunan yang sama."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Menggunakan pengulangan secara tepat"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Urutan tiga susunan juga dapat terjadi, misalnya A, B, C, A. Kelanjutan yang paling sederhana adalah B jika aturan perubahan seluruh bagian mendukungnya. Namun, melihat satu warna kembali ke awal saja belum cukup untuk menetapkan pengulangan seluruh gambar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bandingkan gambar secara lengkap sebelum menggunakan jalan pintas “gambar ini mengulang gambar sebelumnya”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Rangkaian yang pendek dapat cocok dengan lebih dari satu penjelasan. Gunakan aturan yang sederhana dan konsisten dengan seluruh gambar. Jika dua penjelasan memberi jawaban berikutnya sama, jawaban dapat tetap ditentukan. Jika jawabannya berbeda, cari ciri lain yang dapat menguji kedua dugaan."
             }
           ]
         }
@@ -490,22 +256,12 @@
     },
     {
       "subbab": "Mengenali pembagian pada segitiga dan bintang",
-      "ikon": "roket",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Mengenali pembagian pada segitiga dan bintang",
           "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Setelah memahami persegi, kita dapat memakai cara yang sama pada bentuk lain. Perbedaannya terletak pada banyak bagian dan hubungan letaknya. Kenali dahulu garis pembatas sebelum mengikuti warna. Nomor pada setiap bentuk tidak perlu disamakan dengan nomor pada bentuk lain."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-12.png",
-              "lebar": 6.05,
-              "tinggi": 1.98
-            },
             {
               "jenis": "subjudul",
               "teks": "Segitiga"
@@ -529,54 +285,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pada ilustrasi ini, enam ujung luar bernomor 1–6. Enam segitiga dalam bernomor 7–12. Ujung 1 berada di atas; bagian dalam 7 berada tepat di bawahnya. Nomor luar dan dalam membentuk dua lintasan yang berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Hitung bagian berdasarkan garis yang terlihat pada soal. Bentuk luar yang sama belum tentu mempunyai pembagian bagian yang sama."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subbab": "Mengikuti dua warna yang bergerak sendiri",
-      "ikon": "checklist",
-      "slide": [
-        {
-          "tipe": "blok",
-          "judul": "Mengikuti dua warna yang bergerak sendiri",
-          "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Kita sudah mengenal perpindahan posisi dan arah geraknya. Sekarang kita mengikuti hijau dan ungu secara terpisah pada enam ujung luar bintang. Keduanya tetap berjumlah satu, tetapi arah geraknya dapat berbeda. Bagian dalam tetap putih."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-13.png",
-              "lebar": 6.05,
-              "tinggi": 1.5
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Agar tidak tertukar, selesaikan hijau dahulu. Letaknya berturut-turut 1, 2, 3, dan 4. Jadi, hijau maju satu ujung searah jarum jam. Posisi berikutnya adalah ujung 5."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kemudian baca ungu tanpa mengikuti hijau. Letaknya 6, 5, 4, dan 3. Jadi, ungu bergerak satu ujung berlawanan arah jarum jam. Posisi berikutnya adalah ujung 2. Setelah kedua aturan ditemukan, satukan hasilnya pada satu gambar."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-14.png",
-              "lebar": 5.5,
-              "tinggi": 1.8
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Selesaikan satu warna, lalu warna berikutnya. Jangan menganggap keduanya pasti bergerak searah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jawaban lengkapnya: ujung 5 hijau, ujung 2 ungu, dan semua bagian lain putih. Pada contoh ini kedua warna tidak menempati satu bidang. Jika dugaan gerak pada soal lain membuat dua warna bertemu, cari bukti tentang aturan pertemuannya; jangan membuat warna campuran sendiri."
             }
           ]
         }
@@ -584,7 +292,7 @@
     },
     {
       "subbab": "Memisahkan perubahan ujung dan pusat",
-      "ikon": "globe",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",
@@ -593,34 +301,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pada bintang lima ujung, bagian tengah tidak harus mengikuti perpindahan di ujung. Kita dapat memeriksa ujung dan pusat secara terpisah. Cara ini tetap menggunakan pengetahuan sebelumnya: perpindahan posisi pada ujung dan siklus warna pada tempat yang tetap."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-15.png",
-              "lebar": 6.05,
-              "tinggi": 1.5
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Mulai dari ujung luar. Hijau bergerak 1 → 2 → 3 → 4, sehingga berikutnya 5. Ungu bergerak 3 → 4 → 5 → 1, sehingga berikutnya 2. Keduanya maju satu ujung searah jarum jam pada lintasan lima posisi."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sekarang abaikan ujung untuk sementara dan lihat pusat 6. Warnanya hijau, ungu, putih, lalu hijau. Pusat mengikuti siklus tiga keadaan yang sudah kita pelajari. Setelah hijau, warna berikutnya adalah ungu."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-16.png",
-              "lebar": 5.5,
-              "tinggi": 1.8
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Hasil akhirnya adalah ujung 5 hijau, ujung 2 ungu, dan pusat 6 ungu. Ujung lain putih. Jumlah bagian ungu pada jawaban menjadi dua karena pusat sedang berwarna ungu. Ini tidak bertentangan dengan aturan ujung yang selalu mempunyai satu ungu."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perubahan jumlah warna pada seluruh gambar dapat berasal dari pusat yang mengikuti aturan sendiri. Periksa kelompok bagiannya sebelum menyimpulkan ada kesalahan."
             }
           ]
         }
@@ -628,7 +308,7 @@
     },
     {
       "subbab": "Membaca lapisan dalam dan lapisan luar",
-      "ikon": "strategi",
+      "ikon": "checklist",
       "slide": [
         {
           "tipe": "blok",
@@ -637,118 +317,6 @@
             {
               "jenis": "paragraf",
               "teks": "Gambar berlapis mempunyai kelompok bagian di dekat pusat dan kelompok bagian di tepinya. Kedua kelompok itu dapat membentuk lintasan sendiri. Pada contoh persegi di bawah, bagian 1–4 berada di dalam, sedangkan bagian 5–8 berada di luar."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-17.png",
-              "lebar": 6.05,
-              "tinggi": 1.5
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Lapisan luar hijau mengikuti 5 → 6 → 7 → 8. Lintasan berikutnya kembali ke 5. Lapisan dalam ungu mengikuti 1 → 4 → 3 → 2. Lintasan berikutnya kembali ke 1. Kedua warna berputar dalam arah yang berbeda, tetapi tidak berpindah lapisan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan tertukar antara bagian dalam 1 dan bagian luar 5. Keduanya sama-sama berada di sisi kiri atas, tetapi dibatasi garis dan menempati bidang yang berbeda. Isi satu bidang yang diminta, bukan seluruh sudut gambar sekaligus."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-18.png",
-              "lebar": 5.5,
-              "tinggi": 1.8
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Buat dua catatan posisi: luar dan dalam. Teruskan masing-masing catatan, lalu gabungkan hasilnya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh ini, kedua lapisan kembali bersamaan setelah empat perpindahan. Hal tersebut terjadi karena masing-masing lintasan terdiri dari empat posisi dan bergerak satu posisi setiap kali. Pada bagian berikutnya, kita akan melihat bahwa kecepatan perpindahan tidak selalu sama."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subbab": "Membaca langkah yang lebih dari satu",
-      "ikon": "grafik",
-      "slide": [
-        {
-          "tipe": "blok",
-          "judul": "Membaca langkah yang lebih dari satu",
-          "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pada bintang enam ujung, satu warna dapat maju satu posisi, sedangkan warna lain maju dua posisi. Dua langkah berarti melewati satu bagian dan berhenti pada bagian sesudahnya. Bagian yang dilewati tidak otomatis ikut diwarnai."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-19.png",
-              "lebar": 6.05,
-              "tinggi": 1.5
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada lintasan dalam 7 → 8 → 9 → 10 → 11 → 12 → 7, ungu bergerak 7 → 9 → 11 → 7. Dari 7, langkah pertama melewati 8 dan langkah kedua tiba di 9. Dari 11, lewat 12 lalu kembali ke 7. Karena itu, urutan berikutnya kembali ke 9."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Ungu sudah kembali ke posisi awal setelah tiga perpindahan. Jika ada hijau luar yang bergerak satu posisi, hijau memerlukan enam perpindahan untuk kembali ke awal. Pengulangan ungu tidak berarti seluruh gambar sudah kembali ke susunan awal."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Langkah yang berganti secara teratur"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Panjang langkah juga dapat bergantian, misalnya satu, dua, satu, dua. Pada enam ujung luar, hijau dapat menempati 1 → 2 → 4 → 5. Perpindahannya satu dari 1 ke 2, dua dari 2 ke 4, lalu satu dari 4 ke 5. Langkah berikutnya dua, sehingga dari 5 melewati 6 lalu sampai di 1."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika posisi tampak tidak berurutan, hitung banyak bagian yang dilalui. Uji apakah panjang langkahnya tetap atau membentuk pengulangan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan otomatis mengisi posisi 6 hanya karena gambar terakhir berada di 5. Jawaban tersebut benar untuk langkah satu, tetapi tidak cocok jika rangkaian menunjukkan pola langkah satu–dua yang bergantian."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subbab": "Membaca dua deret yang diselingkan",
-      "ikon": "roket",
-      "slide": [
-        {
-          "tipe": "blok",
-          "judul": "Membaca dua deret yang diselingkan",
-          "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Jenis pola berikutnya berbeda dari pergantian panjang langkah. Kadang urutan gambar merupakan gabungan dua deret: gambar bernomor ganjil dan gambar bernomor genap. Nomor yang dimaksud adalah urutan gambar, bukan nomor bagian di dalam bentuk."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-20.png",
-              "lebar": 5.6,
-              "tinggi": 3.51
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Baca baris atas: gambar 1, 3, dan 5 memuat hijau pada bagian 1, 2, dan 3. Baca baris bawah: gambar 2, 4, dan 6 memuat ungu pada bagian 1, 2, dan 3. Kedua deret bergerak sama, tetapi warnanya berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gambar berikutnya bernomor 7, sehingga termasuk deret ganjil. Teruskan dari gambar 5: hijau di bagian 3 maju ke bagian 4. Jawabannya bagian 4 hijau dan bagian lain putih. Ungu tidak digunakan karena gambar 7 bukan bagian dari deret genap."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Saat memisahkan ganjil dan genap, pertahankan urutan asli gambar. Kelompokkan 1–3–5 dan 2–4–6, lalu tentukan kelompok gambar yang ditanyakan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pola ganjil–genap dibandingkan tiap dua gambar. Sebaliknya, langkah satu–dua pada bagian sebelumnya dibaca dari gambar yang langsung berdekatan. Bedakan keduanya dengan memeriksa aturan mana yang sesuai dengan seluruh rangkaian."
             }
           ]
         }
@@ -756,16 +324,12 @@
     },
     {
       "subbab": "Strategi Menjawab dan Cara Cepat",
-      "ikon": "checklist",
+      "ikon": "globe",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Strategi Menjawab dan Cara Cepat",
           "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Setelah mengenal jenis perubahannya, kita dapat memakai langkah kerja yang sama pada setiap soal. Mulailah dari pengamatan yang paling jelas, lalu perluas pemeriksaan jika ada bagian yang belum terjelaskan. Tidak perlu mencoba semua jenis pola sekaligus."
-            },
             {
               "jenis": "tabel",
               "kolom": [
@@ -802,26 +366,6 @@
                   "Cocokkan hijau, ungu bertitik, putih, dan bagian pusat."
                 ]
               ]
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Cara menentukan pemeriksaan berikutnya"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika jumlah hijau tetap, ikuti posisinya. Jika tempatnya tetap tetapi warnanya berganti, baca urutan warna pada bagian itu. Jika jumlah bertambah, periksa apakah bagian lama masih berwarna. Jika perubahan berdekatan tidak teratur, periksa panjang langkah atau pisahkan gambar ganjil dan genap."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan ciri gambar untuk memilih langkah pemeriksaan. Sebuah ciri adalah petunjuk awal, bukan kepastian tentang jenis polanya."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Mengelola waktu"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Menurut lembar spesifikasi SHL Verify Interactive – Inductive Reasoning, waktu tes adalah 18 menit untuk maksimal 15 soal. Jika latihan berisi 15 soal, rata-ratanya 72 detik per soal. Gunakan angka itu sebagai acuan simulasi dan ikuti petunjuk pada tes Anda."
             }
           ]
         }
@@ -829,22 +373,12 @@
     },
     {
       "subbab": "Kesalahan Umum",
-      "ikon": "strategi",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Kesalahan Umum",
           "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Kesalahan pada Fill Shape sering muncul ketika suatu aturan baru diperiksa sebagian. Misalnya, arah hijau sudah benar tetapi pusat terlupakan, atau jumlah isian benar tetapi posisinya tertukar. Perbaiki dengan kembali ke bagian yang belum sesuai, bukan mengulang semua pengamatan tanpa arah."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-33.png",
-              "lebar": 5.5,
-              "tinggi": 1.8
-            },
             {
               "jenis": "tabel",
               "kolom": [
@@ -889,10 +423,6 @@
             {
               "jenis": "paragraf",
               "teks": "Sebelum mengirim jawaban, periksa hijau, lalu ungu, lalu putih. Pastikan bagian pusat dan lapisan yang berbeda sudah tercakup."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada tampilan interaktif, periksa kembali hasil pilihan. Pemahaman pola yang benar masih dapat menghasilkan isian salah jika bagian yang dipilih keliru atau warna berganti satu kali terlalu banyak."
             }
           ]
         }
@@ -927,6 +457,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Mengerjakan Fill Shape dimulai dari kemampuan menjelaskan satu gambar: berapa bagiannya, di mana letaknya, dan apa warnanya. Sesudah itu, bandingkan bagian yang sama pada gambar berikutnya. Dari perbandingan tersebut, kita mengetahui perubahan yang perlu diteruskan. Urutan pengerjaan: baca gambar → ikuti perubahan → uji aturan → lengkapi seluruh bagian → periksa jawaban. Tidak semua soal memerlukan aturan yang rumit. Jika satu aturan sederhana menjelaskan seluruh rangkaian, gunakan aturan tersebut. Jika masih ada bagian yang tidak terjelaskan, periksa kelompok bagian itu secara khusus. Cara ini membantu menjaga penalaran tetap runtut sekaligus menghindari tebakan yang tidak didukung gambar."
+    "pesan": "Urutan pengerjaan: baca gambar → ikuti perubahan → uji aturan → lengkapi seluruh bagian → periksa jawaban."
   }
 }

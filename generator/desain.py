@@ -1141,13 +1141,18 @@ def gambar_blok(slide, b, x, y, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0)
     return y
 
 
-def _opsi_mendatar(opsi):
-    return 2 <= len(opsi) <= 5 and all(len(v.replace("**", "").replace("$", "")) <= 26 for v in opsi.values())
+def _opsi_mendatar(opsi, w, ukuran):
+    """Semua opsi pendek, dan kata terpanjangnya muat di kartu (kalau tidak, kata terpotong di tengah)."""
+    isi = [v.replace("**", "").replace("$", "") for v in opsi.values()]
+    if not 2 <= len(isi) <= 5 or any(len(v) > 26 for v in isi):
+        return False
+    muat = ((w - 0.2 * (len(isi) - 1)) / len(isi) - 0.95) * 72
+    return all(lebar_pt(k, ukuran) <= muat * 0.98 for v in isi for k in v.split())
 
 
 def _ukur_opsi(opsi, w, ukuran):
     """(mendatar, lebar kartu, daftar tinggi baris)."""
-    if _opsi_mendatar(opsi):
+    if _opsi_mendatar(opsi, w, ukuran):
         lw = (w - 0.2 * (len(opsi) - 1)) / len(opsi)
         h = max(0.85, max(tinggi_paragraf([P(v, ukuran, "navy", spasi=1.25)], lw - 0.95) + 0.3 for v in opsi.values()))
         return True, lw, [h]

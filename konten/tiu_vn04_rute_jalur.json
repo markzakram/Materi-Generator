@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Soal Rute & Jalur meminta kita menghitung cara yang sah untuk pergi dari titik awal ke tujuan.",
-      "Rute bisa melewati gerai, kota, atau titik lain. Daftar hubungan antartitik menentukan belokan yang tersedia. Cara yang teratur untuk menghitung rute adalah menggambar hubungan tersebut, menelusuri satu cabang awal sampai selesai, lalu memeriksa cabang berikutnya."
+      "Soal Rute & Jalur meminta kita menghitung cara yang sah untuk pergi dari titik awal ke tujuan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -96,7 +95,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Kalimat “dari A dapat menuju B” memberi arah A ke B. Tambahkan arah sebaliknya jika soal menyatakan bahwa keduanya saling terhubung atau perjalanan boleh berlangsung dua arah. Jika dua garis bersilangan, perpindahan hanya boleh dilakukan pada titik yang ditunjukkan sebagai simpul. Catat tujuan yang dapat dicapai dari setiap simpul sebelum mulai menghitung. Jika ada ruas dua arah, masukkan masing-masing arah ke daftar simpul asalnya. Langkah ini mencegah satu arah terlewat saat menelusuri cabang."
+              "teks": "Kalimat “dari A dapat menuju B” memberi arah A ke B. Tambahkan arah sebaliknya jika soal menyatakan bahwa keduanya saling terhubung atau perjalanan boleh berlangsung dua arah. Jika dua garis bersilangan, perpindahan hanya boleh dilakukan pada titik yang ditunjukkan sebagai simpul."
             }
           ]
         }
@@ -126,7 +125,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Catat tempat yang sudah dikunjungi untuk masing-masing rute. Ketika kembali ke cabang awal untuk menguji jalur lain, mulai lagi dengan riwayat jalur baru. Jika ada ruas ditutup, terapkan penutupan sesuai arah yang disebut. Hentikan pencatatan ketika tujuan tercapai. Jalur yang buntu sebelum sampai ke tujuan tidak masuk hitungan. Ketika dua rute sampai pada simpul yang sama, pilihan berikutnya bisa berbeda. Periksa daftar tempat yang sudah dikunjungi pada masing-masing rute. Ruas yang sah pada satu rute dapat gugur pada rute lain jika tujuannya sudah pernah dilalui."
+              "teks": "Catat tempat yang sudah dikunjungi untuk masing-masing rute. Ketika kembali ke cabang awal untuk menguji jalur lain, mulai lagi dengan riwayat jalur baru. Jika ada ruas ditutup, terapkan penutupan sesuai arah yang disebut. Hentikan pencatatan ketika tujuan tercapai. Jalur yang buntu sebelum sampai ke tujuan tidak masuk hitungan."
             }
           ]
         }
@@ -146,7 +145,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Pada peta A ke D, cabang A–B memberi A–B–D dan A–B–C–D. Cabang A–C memberi A–C–D dan A–C–B–D. Tiap cabang menghasilkan dua rute, sehingga totalnya empat. Dua gambar memperlihatkan rute langsung dari masing-masing cabang menuju D. Jika dua rute memakai ruas akhir yang sama, bandingkan urutannya sejak awal. Satu rute lengkap dihitung hanya pada cabang pertama yang dilaluinya."
+              "teks": "Pada peta A ke D, cabang A–B memberi A–B–D dan A–B–C–D. Cabang A–C memberi A–C–D dan A–C–B–D. Tiap cabang menghasilkan dua rute, sehingga totalnya empat. Dua gambar memperlihatkan rute langsung dari masing-masing cabang menuju D."
             },
             {
               "jenis": "gambar",
@@ -159,10 +158,6 @@
               "file": "media/tiu_vn04_rute_jalur/gambar-04.png",
               "lebar": 5.97,
               "tinggi": 2.08
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kedua cabang dari A sama-sama mencapai D. Hitung urutan lengkap di tiap cabang, lalu jumlahkan subtotalnya."
             },
             {
               "jenis": "gambar",

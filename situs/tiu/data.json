@@ -7,11 +7,7 @@
  "tema": [
   {
    "id": "general",
-   "nama": "Sampul putih"
-  },
-  {
-   "id": "general-foto",
-   "nama": "Sampul foto"
+   "nama": "General"
   }
  ],
  "materi": [
@@ -21,27 +17,18 @@
    "bab": "Verbal Analogi - Jenis-Jenis Hubungan Antarkata",
    "judul": "Verbal Analogi",
    "dokumen": "https://docs.google.com/document/d/1FnlVBRwQNnUwz0ZwerTvw4tKubyAXaJ_GHFohdLPwyI/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 21,
-     "nama": "TIU - Verbal Analogi - Jenis-Jenis Hubungan Antarkata (General)",
+     "slide": 12,
+     "nama": "TIU - Verbal Analogi - Jenis-Jenis Hubungan Antarkata",
      "pptx": "unduh/general/tiu-verbal-analogi.pptx",
      "pdf": "unduh/general/tiu-verbal-analogi.pdf",
      "sampul": "sampul/general/tiu-verbal-analogi.jpg",
-     "ukuran_pptx": 913469,
-     "ukuran_pdf": 1246060
-    },
-    "general-foto": {
-     "slide": 21,
-     "nama": "TIU - Verbal Analogi - Jenis-Jenis Hubungan Antarkata (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-verbal-analogi.pptx",
-     "pdf": "unduh/general-foto/tiu-verbal-analogi.pdf",
-     "sampul": "sampul/general-foto/tiu-verbal-analogi.jpg",
-     "ukuran_pptx": 913706,
-     "ukuran_pdf": 1526143
+     "ukuran_pptx": 876441,
+     "ukuran_pdf": 1361779
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "va-02",
@@ -49,27 +36,18 @@
    "bab": "Contoh Soal Verbal Analogi - 2 Kata",
    "judul": "Contoh Soal Verbal Analogi - 2 Kata",
    "dokumen": "https://docs.google.com/document/d/18zwTKoBPoWDHK267Zb2mQbUkJMJFko-um8c0G06QxZk/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 40,
-     "nama": "TIU - Contoh Soal Verbal Analogi - 2 Kata (General)",
+     "slide": 39,
+     "nama": "TIU - Contoh Soal Verbal Analogi - 2 Kata",
      "pptx": "unduh/general/tiu-va02-contoh-soal-2-kata.pptx",
      "pdf": "unduh/general/tiu-va02-contoh-soal-2-kata.pdf",
      "sampul": "sampul/general/tiu-va02-contoh-soal-2-kata.jpg",
-     "ukuran_pptx": 983503,
-     "ukuran_pdf": 1501457
-    },
-    "general-foto": {
-     "slide": 40,
-     "nama": "TIU - Contoh Soal Verbal Analogi - 2 Kata (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-va02-contoh-soal-2-kata.pptx",
-     "pdf": "unduh/general-foto/tiu-va02-contoh-soal-2-kata.pdf",
-     "sampul": "sampul/general-foto/tiu-va02-contoh-soal-2-kata.jpg",
-     "ukuran_pptx": 983733,
-     "ukuran_pdf": 1781506
+     "ukuran_pptx": 978553,
+     "ukuran_pdf": 1762802
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vs-01",
@@ -77,27 +55,18 @@
    "bab": "Verbal Silogisme - Pengenalan Operator Logika",
    "judul": "Pengenalan Operator Logika",
    "dokumen": "https://docs.google.com/document/d/15L2cTMfPHj88IYbSkPVlwZxSsN6HVqkKUFwS9WHlJZk/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 15,
-     "nama": "TIU - Verbal Silogisme - Pengenalan Operator Logika (General)",
+     "slide": 12,
+     "nama": "TIU - Verbal Silogisme - Pengenalan Operator Logika",
      "pptx": "unduh/general/tiu-vs01-operator-logika.pptx",
      "pdf": "unduh/general/tiu-vs01-operator-logika.pdf",
      "sampul": "sampul/general/tiu-vs01-operator-logika.jpg",
-     "ukuran_pptx": 987562,
-     "ukuran_pdf": 1221970
-    },
-    "general-foto": {
-     "slide": 15,
-     "nama": "TIU - Verbal Silogisme - Pengenalan Operator Logika (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs01-operator-logika.pptx",
-     "pdf": "unduh/general-foto/tiu-vs01-operator-logika.pdf",
-     "sampul": "sampul/general-foto/tiu-vs01-operator-logika.jpg",
-     "ukuran_pptx": 987803,
-     "ukuran_pdf": 1502067
+     "ukuran_pptx": 976806,
+     "ukuran_pdf": 1471527
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vs-02",
@@ -105,27 +74,18 @@
    "bab": "Verbal Silogisme - Logika Kondisional (Jika-Maka)",
    "judul": "Logika Kondisional (Jika–Maka)",
    "dokumen": "https://docs.google.com/document/d/1L6suAU2DvA1EyDrR1JpB3oXSuUpL0jlo2lIXJ_KNjx0/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 15,
-     "nama": "TIU - Verbal Silogisme - Logika Kondisional (Jika-Maka) (General)",
+     "slide": 12,
+     "nama": "TIU - Verbal Silogisme - Logika Kondisional (Jika-Maka)",
      "pptx": "unduh/general/tiu-vs02-logika-kondisional.pptx",
      "pdf": "unduh/general/tiu-vs02-logika-kondisional.pdf",
      "sampul": "sampul/general/tiu-vs02-logika-kondisional.jpg",
-     "ukuran_pptx": 982574,
-     "ukuran_pdf": 1222621
-    },
-    "general-foto": {
-     "slide": 15,
-     "nama": "TIU - Verbal Silogisme - Logika Kondisional (Jika-Maka) (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs02-logika-kondisional.pptx",
-     "pdf": "unduh/general-foto/tiu-vs02-logika-kondisional.pdf",
-     "sampul": "sampul/general-foto/tiu-vs02-logika-kondisional.jpg",
-     "ukuran_pptx": 982809,
-     "ukuran_pdf": 1502710
+     "ukuran_pptx": 930029,
+     "ukuran_pdf": 1433849
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vs-02-soal",
@@ -133,27 +93,18 @@
    "bab": "Contoh Soal Verbal Silogisme - Logika Kondisional (Jika-Maka)",
    "judul": "Contoh Soal Logika Kondisional (Jika–Maka)",
    "dokumen": "https://docs.google.com/document/d/1L6suAU2DvA1EyDrR1JpB3oXSuUpL0jlo2lIXJ_KNjx0/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 11,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - Logika Kondisional (Jika-Maka) (General)",
+     "nama": "TIU - Contoh Soal Verbal Silogisme - Logika Kondisional (Jika-Maka)",
      "pptx": "unduh/general/tiu-vs02-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vs02-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vs02-contoh-soal.jpg",
-     "ukuran_pptx": 808607,
-     "ukuran_pdf": 1079190
-    },
-    "general-foto": {
-     "slide": 11,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - Logika Kondisional (Jika-Maka) (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs02-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vs02-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vs02-contoh-soal.jpg",
      "ukuran_pptx": 808847,
-     "ukuran_pdf": 1359288
+     "ukuran_pdf": 1359287
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vs-03",
@@ -161,27 +112,18 @@
    "bab": "Verbal Silogisme - Ekuivalensi Logika",
    "judul": "Ekuivalensi Logika",
    "dokumen": "https://docs.google.com/document/d/1NcmSI3eaQQqEUSEcFhh-Tq3aRPj61pVDWxAQcKrZ21Y/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 10,
-     "nama": "TIU - Verbal Silogisme - Ekuivalensi Logika (General)",
+     "nama": "TIU - Verbal Silogisme - Ekuivalensi Logika",
      "pptx": "unduh/general/tiu-vs03-ekuivalensi-logika.pptx",
      "pdf": "unduh/general/tiu-vs03-ekuivalensi-logika.pdf",
      "sampul": "sampul/general/tiu-vs03-ekuivalensi-logika.jpg",
-     "ukuran_pptx": 870297,
-     "ukuran_pdf": 1081874
-    },
-    "general-foto": {
-     "slide": 10,
-     "nama": "TIU - Verbal Silogisme - Ekuivalensi Logika (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs03-ekuivalensi-logika.pptx",
-     "pdf": "unduh/general-foto/tiu-vs03-ekuivalensi-logika.pdf",
-     "sampul": "sampul/general-foto/tiu-vs03-ekuivalensi-logika.jpg",
-     "ukuran_pptx": 870536,
-     "ukuran_pdf": 1361966
+     "ukuran_pptx": 869484,
+     "ukuran_pdf": 1357364
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vs-03-soal",
@@ -189,27 +131,18 @@
    "bab": "Contoh Soal Verbal Silogisme - Ekuivalensi Logika",
    "judul": "Contoh Soal Ekuivalensi Logika",
    "dokumen": "https://docs.google.com/document/d/1NcmSI3eaQQqEUSEcFhh-Tq3aRPj61pVDWxAQcKrZ21Y/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 16,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - Ekuivalensi Logika (General)",
+     "nama": "TIU - Contoh Soal Verbal Silogisme - Ekuivalensi Logika",
      "pptx": "unduh/general/tiu-vs03-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vs03-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vs03-contoh-soal.jpg",
-     "ukuran_pptx": 826369,
-     "ukuran_pdf": 1129352
-    },
-    "general-foto": {
-     "slide": 16,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - Ekuivalensi Logika (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs03-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vs03-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vs03-contoh-soal.jpg",
      "ukuran_pptx": 826607,
-     "ukuran_pdf": 1409463
+     "ukuran_pdf": 1409474
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vs-04",
@@ -217,27 +150,18 @@
    "bab": "Verbal Silogisme - Logika Kuantor",
    "judul": "Logika Kuantor",
    "dokumen": "https://docs.google.com/document/d/1bWg3axv0l1F8EHyv2Z0XEOuM2KBo2iBjs6a-eTqq4IA/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 22,
-     "nama": "TIU - Verbal Silogisme - Logika Kuantor (General)",
+     "slide": 14,
+     "nama": "TIU - Verbal Silogisme - Logika Kuantor",
      "pptx": "unduh/general/tiu-vs04-logika-kuantor.pptx",
      "pdf": "unduh/general/tiu-vs04-logika-kuantor.pdf",
      "sampul": "sampul/general/tiu-vs04-logika-kuantor.jpg",
-     "ukuran_pptx": 2058247,
-     "ukuran_pdf": 1419401
-    },
-    "general-foto": {
-     "slide": 22,
-     "nama": "TIU - Verbal Silogisme - Logika Kuantor (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs04-logika-kuantor.pptx",
-     "pdf": "unduh/general-foto/tiu-vs04-logika-kuantor.pdf",
-     "sampul": "sampul/general-foto/tiu-vs04-logika-kuantor.jpg",
-     "ukuran_pptx": 2058484,
-     "ukuran_pdf": 1699512
+     "ukuran_pptx": 931902,
+     "ukuran_pdf": 1466937
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vs-04-soal",
@@ -245,27 +169,18 @@
    "bab": "Contoh Soal Verbal Silogisme - Logika Kuantor",
    "judul": "Contoh Soal Logika Kuantor",
    "dokumen": "https://docs.google.com/document/d/1bWg3axv0l1F8EHyv2Z0XEOuM2KBo2iBjs6a-eTqq4IA/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 21,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - Logika Kuantor (General)",
+     "nama": "TIU - Contoh Soal Verbal Silogisme - Logika Kuantor",
      "pptx": "unduh/general/tiu-vs04-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vs04-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vs04-contoh-soal.jpg",
-     "ukuran_pptx": 945999,
-     "ukuran_pdf": 1250619
-    },
-    "general-foto": {
-     "slide": 21,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - Logika Kuantor (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs04-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vs04-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vs04-contoh-soal.jpg",
      "ukuran_pptx": 946236,
-     "ukuran_pdf": 1530754
+     "ukuran_pdf": 1530770
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vs-05",
@@ -273,27 +188,18 @@
    "bab": "Verbal Silogisme - 3 Premis",
    "judul": "3 Premis",
    "dokumen": "https://docs.google.com/document/d/1PMD2_C81anHudOTwCG6VC0leNMUBKDPdnr0iF4l-Z9M/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 17,
-     "nama": "TIU - Verbal Silogisme - 3 Premis (General)",
+     "slide": 16,
+     "nama": "TIU - Verbal Silogisme - 3 Premis",
      "pptx": "unduh/general/tiu-vs05-3-premis.pptx",
      "pdf": "unduh/general/tiu-vs05-3-premis.pdf",
      "sampul": "sampul/general/tiu-vs05-3-premis.jpg",
-     "ukuran_pptx": 1073790,
-     "ukuran_pdf": 1281905
-    },
-    "general-foto": {
-     "slide": 17,
-     "nama": "TIU - Verbal Silogisme - 3 Premis (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs05-3-premis.pptx",
-     "pdf": "unduh/general-foto/tiu-vs05-3-premis.pdf",
-     "sampul": "sampul/general-foto/tiu-vs05-3-premis.jpg",
-     "ukuran_pptx": 1074023,
-     "ukuran_pdf": 1561997
+     "ukuran_pptx": 1031757,
+     "ukuran_pdf": 1513088
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vs-05-soal",
@@ -301,27 +207,18 @@
    "bab": "Contoh Soal Verbal Silogisme - 3 Premis",
    "judul": "Contoh Soal 3 Premis",
    "dokumen": "https://docs.google.com/document/d/1PMD2_C81anHudOTwCG6VC0leNMUBKDPdnr0iF4l-Z9M/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 12,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - 3 Premis (General)",
+     "nama": "TIU - Contoh Soal Verbal Silogisme - 3 Premis",
      "pptx": "unduh/general/tiu-vs05-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vs05-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vs05-contoh-soal.jpg",
-     "ukuran_pptx": 812151,
-     "ukuran_pdf": 1092316
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - 3 Premis (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs05-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vs05-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vs05-contoh-soal.jpg",
      "ukuran_pptx": 812390,
-     "ukuran_pdf": 1372412
+     "ukuran_pdf": 1372415
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vs-06",
@@ -329,27 +226,18 @@
    "bab": "Verbal Silogisme - Bentuk Narasi",
    "judul": "Bentuk Narasi",
    "dokumen": "https://docs.google.com/document/d/1vXNIMj35wxJ2uHemIxE4E9Hak4WRn81CTquNbfEokFg/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 25,
-     "nama": "TIU - Verbal Silogisme - Bentuk Narasi (General)",
+     "slide": 22,
+     "nama": "TIU - Verbal Silogisme - Bentuk Narasi",
      "pptx": "unduh/general/tiu-vs06-bentuk-narasi.pptx",
      "pdf": "unduh/general/tiu-vs06-bentuk-narasi.pdf",
      "sampul": "sampul/general/tiu-vs06-bentuk-narasi.jpg",
-     "ukuran_pptx": 943050,
-     "ukuran_pdf": 1264073
-    },
-    "general-foto": {
-     "slide": 25,
-     "nama": "TIU - Verbal Silogisme - Bentuk Narasi (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs06-bentuk-narasi.pptx",
-     "pdf": "unduh/general-foto/tiu-vs06-bentuk-narasi.pdf",
-     "sampul": "sampul/general-foto/tiu-vs06-bentuk-narasi.jpg",
-     "ukuran_pptx": 943283,
-     "ukuran_pdf": 1544200
+     "ukuran_pptx": 928603,
+     "ukuran_pdf": 1501653
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vs-06-soal",
@@ -357,27 +245,18 @@
    "bab": "Contoh Soal Verbal Silogisme - Bentuk Narasi",
    "judul": "Contoh Soal Bentuk Narasi",
    "dokumen": "https://docs.google.com/document/d/1vXNIMj35wxJ2uHemIxE4E9Hak4WRn81CTquNbfEokFg/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 18,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - Bentuk Narasi (General)",
+     "nama": "TIU - Contoh Soal Verbal Silogisme - Bentuk Narasi",
      "pptx": "unduh/general/tiu-vs06-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vs06-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vs06-contoh-soal.jpg",
-     "ukuran_pptx": 835173,
-     "ukuran_pdf": 1157296
-    },
-    "general-foto": {
-     "slide": 18,
-     "nama": "TIU - Contoh Soal Verbal Silogisme - Bentuk Narasi (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vs06-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vs06-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vs06-contoh-soal.jpg",
      "ukuran_pptx": 835405,
-     "ukuran_pdf": 1437412
+     "ukuran_pdf": 1437414
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vn-01",
@@ -385,27 +264,18 @@
    "bab": "Verbal Analitis - Susunan & Posisi",
    "judul": "Susunan & Posisi",
    "dokumen": "https://docs.google.com/document/d/19peDgMipXvf191DvHsFbZ_WAAANh-tgS-31U2VCaljc/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 17,
-     "nama": "TIU - Verbal Analitis - Susunan & Posisi (General)",
+     "slide": 15,
+     "nama": "TIU - Verbal Analitis - Susunan & Posisi",
      "pptx": "unduh/general/tiu-vn01-susunan-posisi.pptx",
      "pdf": "unduh/general/tiu-vn01-susunan-posisi.pdf",
      "sampul": "sampul/general/tiu-vn01-susunan-posisi.jpg",
-     "ukuran_pptx": 1065870,
-     "ukuran_pdf": 1287198
-    },
-    "general-foto": {
-     "slide": 17,
-     "nama": "TIU - Verbal Analitis - Susunan & Posisi (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn01-susunan-posisi.pptx",
-     "pdf": "unduh/general-foto/tiu-vn01-susunan-posisi.pdf",
-     "sampul": "sampul/general-foto/tiu-vn01-susunan-posisi.jpg",
-     "ukuran_pptx": 1066103,
-     "ukuran_pdf": 1567290
+     "ukuran_pptx": 1039511,
+     "ukuran_pdf": 1525882
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vn-01-soal",
@@ -413,27 +283,18 @@
    "bab": "Contoh Soal Verbal Analitis - Susunan & Posisi",
    "judul": "Contoh Soal Susunan & Posisi",
    "dokumen": "https://docs.google.com/document/d/19peDgMipXvf191DvHsFbZ_WAAANh-tgS-31U2VCaljc/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 15,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Susunan & Posisi (General)",
+     "nama": "TIU - Contoh Soal Verbal Analitis - Susunan & Posisi",
      "pptx": "unduh/general/tiu-vn01-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vn01-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vn01-contoh-soal.jpg",
-     "ukuran_pptx": 941737,
-     "ukuran_pdf": 1210573
-    },
-    "general-foto": {
-     "slide": 15,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Susunan & Posisi (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn01-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vn01-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vn01-contoh-soal.jpg",
-     "ukuran_pptx": 941975,
-     "ukuran_pdf": 1490689
+     "ukuran_pptx": 941973,
+     "ukuran_pdf": 1490695
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vn-02",
@@ -441,27 +302,18 @@
    "bab": "Verbal Analitis - Urutan & Peringkat",
    "judul": "Urutan & Peringkat",
    "dokumen": "https://docs.google.com/document/d/1RHogH5ZVIFfMOMCrvrM_lI-P0kCnRremL0u9Qq1x6ks/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 13,
-     "nama": "TIU - Verbal Analitis - Urutan & Peringkat (General)",
+     "slide": 11,
+     "nama": "TIU - Verbal Analitis - Urutan & Peringkat",
      "pptx": "unduh/general/tiu-vn02-urutan-peringkat.pptx",
      "pdf": "unduh/general/tiu-vn02-urutan-peringkat.pdf",
      "sampul": "sampul/general/tiu-vn02-urutan-peringkat.jpg",
-     "ukuran_pptx": 955934,
-     "ukuran_pdf": 1156734
-    },
-    "general-foto": {
-     "slide": 13,
-     "nama": "TIU - Verbal Analitis - Urutan & Peringkat (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn02-urutan-peringkat.pptx",
-     "pdf": "unduh/general-foto/tiu-vn02-urutan-peringkat.pdf",
-     "sampul": "sampul/general-foto/tiu-vn02-urutan-peringkat.jpg",
-     "ukuran_pptx": 956168,
-     "ukuran_pdf": 1436816
+     "ukuran_pptx": 948980,
+     "ukuran_pdf": 1418583
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vn-02-soal",
@@ -469,27 +321,18 @@
    "bab": "Contoh Soal Verbal Analitis - Urutan & Peringkat",
    "judul": "Contoh Soal Urutan & Peringkat",
    "dokumen": "https://docs.google.com/document/d/1RHogH5ZVIFfMOMCrvrM_lI-P0kCnRremL0u9Qq1x6ks/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 9,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Urutan & Peringkat (General)",
+     "nama": "TIU - Contoh Soal Verbal Analitis - Urutan & Peringkat",
      "pptx": "unduh/general/tiu-vn02-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vn02-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vn02-contoh-soal.jpg",
-     "ukuran_pptx": 826974,
-     "ukuran_pdf": 1064471
-    },
-    "general-foto": {
-     "slide": 9,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Urutan & Peringkat (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn02-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vn02-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vn02-contoh-soal.jpg",
-     "ukuran_pptx": 827211,
-     "ukuran_pdf": 1344569
+     "ukuran_pptx": 827046,
+     "ukuran_pdf": 1343916
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vn-03",
@@ -497,27 +340,18 @@
    "bab": "Verbal Analitis - Jadwal",
    "judul": "Jadwal",
    "dokumen": "https://docs.google.com/document/d/1xIBJu-fohfbRPEuXUUowZwzSki-BlwrprCiTVKYUlqM/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 12,
-     "nama": "TIU - Verbal Analitis - Jadwal (General)",
+     "slide": 10,
+     "nama": "TIU - Verbal Analitis - Jadwal",
      "pptx": "unduh/general/tiu-vn03-jadwal.pptx",
      "pdf": "unduh/general/tiu-vn03-jadwal.pdf",
      "sampul": "sampul/general/tiu-vn03-jadwal.jpg",
-     "ukuran_pptx": 993481,
-     "ukuran_pdf": 1181932
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Verbal Analitis - Jadwal (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn03-jadwal.pptx",
-     "pdf": "unduh/general-foto/tiu-vn03-jadwal.pdf",
-     "sampul": "sampul/general-foto/tiu-vn03-jadwal.jpg",
-     "ukuran_pptx": 993719,
-     "ukuran_pdf": 1462027
+     "ukuran_pptx": 963998,
+     "ukuran_pdf": 1422028
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vn-03-soal",
@@ -525,27 +359,18 @@
    "bab": "Contoh Soal Verbal Analitis - Jadwal",
    "judul": "Contoh Soal Jadwal",
    "dokumen": "https://docs.google.com/document/d/1xIBJu-fohfbRPEuXUUowZwzSki-BlwrprCiTVKYUlqM/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 9,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Jadwal (General)",
+     "nama": "TIU - Contoh Soal Verbal Analitis - Jadwal",
      "pptx": "unduh/general/tiu-vn03-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vn03-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vn03-contoh-soal.jpg",
-     "ukuran_pptx": 802531,
-     "ukuran_pdf": 1040380
-    },
-    "general-foto": {
-     "slide": 9,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Jadwal (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn03-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vn03-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vn03-contoh-soal.jpg",
      "ukuran_pptx": 802763,
-     "ukuran_pdf": 1320499
+     "ukuran_pdf": 1320506
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vn-04",
@@ -553,27 +378,18 @@
    "bab": "Verbal Analitis - Rute & Jalur",
    "judul": "Rute & Jalur",
    "dokumen": "https://docs.google.com/document/d/1r0eUXv6BpdhwaUu4pAvTUlwVVK8q98ysJTMyr38pw9w/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 12,
-     "nama": "TIU - Verbal Analitis - Rute & Jalur (General)",
+     "slide": 10,
+     "nama": "TIU - Verbal Analitis - Rute & Jalur",
      "pptx": "unduh/general/tiu-vn04-rute-jalur.pptx",
      "pdf": "unduh/general/tiu-vn04-rute-jalur.pdf",
      "sampul": "sampul/general/tiu-vn04-rute-jalur.jpg",
-     "ukuran_pptx": 924206,
-     "ukuran_pdf": 1113298
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Verbal Analitis - Rute & Jalur (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn04-rute-jalur.pptx",
-     "pdf": "unduh/general-foto/tiu-vn04-rute-jalur.pdf",
-     "sampul": "sampul/general-foto/tiu-vn04-rute-jalur.jpg",
-     "ukuran_pptx": 924444,
-     "ukuran_pdf": 1393391
+     "ukuran_pptx": 917869,
+     "ukuran_pdf": 1376352
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vn-04-soal",
@@ -581,27 +397,18 @@
    "bab": "Contoh Soal Verbal Analitis - Rute & Jalur",
    "judul": "Contoh Soal Rute & Jalur",
    "dokumen": "https://docs.google.com/document/d/1r0eUXv6BpdhwaUu4pAvTUlwVVK8q98ysJTMyr38pw9w/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 19,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Rute & Jalur (General)",
+     "nama": "TIU - Contoh Soal Verbal Analitis - Rute & Jalur",
      "pptx": "unduh/general/tiu-vn04-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vn04-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vn04-contoh-soal.jpg",
-     "ukuran_pptx": 1021850,
-     "ukuran_pdf": 1301889
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Rute & Jalur (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn04-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vn04-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vn04-contoh-soal.jpg",
      "ukuran_pptx": 1022087,
-     "ukuran_pdf": 1582043
+     "ukuran_pdf": 1582045
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vn-05",
@@ -609,27 +416,18 @@
    "bab": "Verbal Analitis - Logika Pernyataan",
    "judul": "Logika Pernyataan",
    "dokumen": "https://docs.google.com/document/d/1cf36HxMkc3pVaBX5nLhMqcrwuCGLV5qRo-NChcGFh1o/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 9,
-     "nama": "TIU - Verbal Analitis - Logika Pernyataan (General)",
+     "nama": "TIU - Verbal Analitis - Logika Pernyataan",
      "pptx": "unduh/general/tiu-vn05-logika-pernyataan.pptx",
      "pdf": "unduh/general/tiu-vn05-logika-pernyataan.pdf",
      "sampul": "sampul/general/tiu-vn05-logika-pernyataan.jpg",
-     "ukuran_pptx": 907882,
-     "ukuran_pdf": 1087616
-    },
-    "general-foto": {
-     "slide": 9,
-     "nama": "TIU - Verbal Analitis - Logika Pernyataan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn05-logika-pernyataan.pptx",
-     "pdf": "unduh/general-foto/tiu-vn05-logika-pernyataan.pdf",
-     "sampul": "sampul/general-foto/tiu-vn05-logika-pernyataan.jpg",
-     "ukuran_pptx": 908120,
-     "ukuran_pdf": 1367724
+     "ukuran_pptx": 907252,
+     "ukuran_pdf": 1364582
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vn-05-soal",
@@ -637,27 +435,18 @@
    "bab": "Contoh Soal Verbal Analitis - Logika Pernyataan",
    "judul": "Contoh Soal Logika Pernyataan",
    "dokumen": "https://docs.google.com/document/d/1cf36HxMkc3pVaBX5nLhMqcrwuCGLV5qRo-NChcGFh1o/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 12,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Logika Pernyataan (General)",
+     "nama": "TIU - Contoh Soal Verbal Analitis - Logika Pernyataan",
      "pptx": "unduh/general/tiu-vn05-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vn05-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vn05-contoh-soal.jpg",
-     "ukuran_pptx": 833738,
-     "ukuran_pdf": 1107775
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Logika Pernyataan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn05-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vn05-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vn05-contoh-soal.jpg",
-     "ukuran_pptx": 833975,
-     "ukuran_pdf": 1387905
+     "ukuran_pptx": 833936,
+     "ukuran_pdf": 1387647
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vn-06",
@@ -665,27 +454,18 @@
    "bab": "Verbal Analitis - Distribusi & Kategori",
    "judul": "Distribusi & Kategori",
    "dokumen": "https://docs.google.com/document/d/1-ErwLanWs1_69ZqH71-b5UwPx23T7oQEmE6I1elfROw/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 11,
-     "nama": "TIU - Verbal Analitis - Distribusi & Kategori (General)",
+     "slide": 10,
+     "nama": "TIU - Verbal Analitis - Distribusi & Kategori",
      "pptx": "unduh/general/tiu-vn06-distribusi-kategori.pptx",
      "pdf": "unduh/general/tiu-vn06-distribusi-kategori.pdf",
      "sampul": "sampul/general/tiu-vn06-distribusi-kategori.jpg",
-     "ukuran_pptx": 907168,
-     "ukuran_pdf": 1107053
-    },
-    "general-foto": {
-     "slide": 11,
-     "nama": "TIU - Verbal Analitis - Distribusi & Kategori (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn06-distribusi-kategori.pptx",
-     "pdf": "unduh/general-foto/tiu-vn06-distribusi-kategori.pdf",
-     "sampul": "sampul/general-foto/tiu-vn06-distribusi-kategori.jpg",
-     "ukuran_pptx": 907406,
-     "ukuran_pdf": 1387145
+     "ukuran_pptx": 889361,
+     "ukuran_pdf": 1361463
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vn-06-soal",
@@ -693,27 +473,18 @@
    "bab": "Contoh Soal Verbal Analitis - Distribusi & Kategori",
    "judul": "Contoh Soal Distribusi & Kategori",
    "dokumen": "https://docs.google.com/document/d/1-ErwLanWs1_69ZqH71-b5UwPx23T7oQEmE6I1elfROw/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 10,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Distribusi & Kategori (General)",
+     "slide": 9,
+     "nama": "TIU - Contoh Soal Verbal Analitis - Distribusi & Kategori",
      "pptx": "unduh/general/tiu-vn06-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vn06-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vn06-contoh-soal.jpg",
-     "ukuran_pptx": 834242,
-     "ukuran_pdf": 1090911
-    },
-    "general-foto": {
-     "slide": 10,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Distribusi & Kategori (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn06-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vn06-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vn06-contoh-soal.jpg",
-     "ukuran_pptx": 834479,
-     "ukuran_pdf": 1371019
+     "ukuran_pptx": 831299,
+     "ukuran_pdf": 1363682
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "vn-07",
@@ -721,27 +492,18 @@
    "bab": "Verbal Analitis - Memperkuat/Memperlemah Argumen",
    "judul": "Memperkuat/Memperlemah Argumen",
    "dokumen": "https://docs.google.com/document/d/1g4RKJHOyQ2Z1qsrCFhT4lcvOrOnsekPaiTfPX-n9HG4/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 16,
-     "nama": "TIU - Verbal Analitis - Memperkuat-Memperlemah Argumen (General)",
+     "slide": 14,
+     "nama": "TIU - Verbal Analitis - Memperkuat-Memperlemah Argumen",
      "pptx": "unduh/general/tiu-vn07-argumen.pptx",
      "pdf": "unduh/general/tiu-vn07-argumen.pdf",
      "sampul": "sampul/general/tiu-vn07-argumen.jpg",
-     "ukuran_pptx": 895042,
-     "ukuran_pdf": 1141224
-    },
-    "general-foto": {
-     "slide": 16,
-     "nama": "TIU - Verbal Analitis - Memperkuat-Memperlemah Argumen (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn07-argumen.pptx",
-     "pdf": "unduh/general-foto/tiu-vn07-argumen.pdf",
-     "sampul": "sampul/general-foto/tiu-vn07-argumen.jpg",
-     "ukuran_pptx": 895278,
-     "ukuran_pdf": 1421314
+     "ukuran_pptx": 887038,
+     "ukuran_pdf": 1399234
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "vn-07-soal",
@@ -749,27 +511,18 @@
    "bab": "Contoh Soal Verbal Analitis - Memperkuat/Memperlemah Argumen",
    "judul": "Contoh Soal Memperkuat/Memperlemah Argumen",
    "dokumen": "https://docs.google.com/document/d/1g4RKJHOyQ2Z1qsrCFhT4lcvOrOnsekPaiTfPX-n9HG4/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 12,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Memperkuat-Memperlemah Argumen (General)",
+     "nama": "TIU - Contoh Soal Verbal Analitis - Memperkuat-Memperlemah Argumen",
      "pptx": "unduh/general/tiu-vn07-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-vn07-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-vn07-contoh-soal.jpg",
-     "ukuran_pptx": 813474,
-     "ukuran_pdf": 1061806
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Contoh Soal Verbal Analitis - Memperkuat-Memperlemah Argumen (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-vn07-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-vn07-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-vn07-contoh-soal.jpg",
      "ukuran_pptx": 813710,
-     "ukuran_pdf": 1341911
+     "ukuran_pdf": 1341909
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-01",
@@ -777,27 +530,18 @@
    "bab": "Numerik - Operasi Hitung",
    "judul": "Operasi Hitung",
    "dokumen": "https://docs.google.com/document/d/1NH35Z_A7LnD7DBVh_ThQb1ixtHBzOGsAgSk3nP-AcuY/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 23,
-     "nama": "TIU - Numerik - Operasi Hitung (General)",
+     "slide": 19,
+     "nama": "TIU - Numerik - Operasi Hitung",
      "pptx": "unduh/general/tiu-nu01-operasi-hitung.pptx",
      "pdf": "unduh/general/tiu-nu01-operasi-hitung.pdf",
      "sampul": "sampul/general/tiu-nu01-operasi-hitung.jpg",
-     "ukuran_pptx": 1010613,
-     "ukuran_pdf": 1340764
-    },
-    "general-foto": {
-     "slide": 23,
-     "nama": "TIU - Numerik - Operasi Hitung (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu01-operasi-hitung.pptx",
-     "pdf": "unduh/general-foto/tiu-nu01-operasi-hitung.pdf",
-     "sampul": "sampul/general-foto/tiu-nu01-operasi-hitung.jpg",
-     "ukuran_pptx": 1010845,
-     "ukuran_pdf": 1620879
+     "ukuran_pptx": 993887,
+     "ukuran_pdf": 1567453
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-01-soal",
@@ -805,27 +549,18 @@
    "bab": "Contoh Soal Numerik - Operasi Hitung",
    "judul": "Contoh Soal Operasi Hitung",
    "dokumen": "https://docs.google.com/document/d/1NH35Z_A7LnD7DBVh_ThQb1ixtHBzOGsAgSk3nP-AcuY/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 19,
-     "nama": "TIU - Contoh Soal Numerik - Operasi Hitung (General)",
+     "nama": "TIU - Contoh Soal Numerik - Operasi Hitung",
      "pptx": "unduh/general/tiu-nu01-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu01-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu01-contoh-soal.jpg",
-     "ukuran_pptx": 838281,
-     "ukuran_pdf": 1195910
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "TIU - Contoh Soal Numerik - Operasi Hitung (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu01-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu01-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu01-contoh-soal.jpg",
      "ukuran_pptx": 838518,
-     "ukuran_pdf": 1476067
+     "ukuran_pdf": 1476094
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-02",
@@ -833,27 +568,18 @@
    "bab": "Numerik - Perkalian dan Pembagian Setara",
    "judul": "Perkalian dan Pembagian Setara",
    "dokumen": "https://docs.google.com/document/d/1OT4wdL_rWHEX8oJ8eLZ1My7AhloJOeAYNV7xae0a9uc/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 10,
-     "nama": "TIU - Numerik - Perkalian dan Pembagian Setara (General)",
+     "nama": "TIU - Numerik - Perkalian dan Pembagian Setara",
      "pptx": "unduh/general/tiu-nu02-perkalian-dan-pembagian-setara.pptx",
      "pdf": "unduh/general/tiu-nu02-perkalian-dan-pembagian-setara.pdf",
      "sampul": "sampul/general/tiu-nu02-perkalian-dan-pembagian-setara.jpg",
-     "ukuran_pptx": 871664,
-     "ukuran_pdf": 1093791
-    },
-    "general-foto": {
-     "slide": 10,
-     "nama": "TIU - Numerik - Perkalian dan Pembagian Setara (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu02-perkalian-dan-pembagian-setara.pptx",
-     "pdf": "unduh/general-foto/tiu-nu02-perkalian-dan-pembagian-setara.pdf",
-     "sampul": "sampul/general-foto/tiu-nu02-perkalian-dan-pembagian-setara.jpg",
-     "ukuran_pptx": 871897,
-     "ukuran_pdf": 1373894
+     "ukuran_pptx": 871157,
+     "ukuran_pdf": 1371673
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-02-soal",
@@ -861,27 +587,18 @@
    "bab": "Contoh Soal Numerik - Perkalian dan Pembagian Setara",
    "judul": "Contoh Soal Perkalian dan Pembagian Setara",
    "dokumen": "https://docs.google.com/document/d/1OT4wdL_rWHEX8oJ8eLZ1My7AhloJOeAYNV7xae0a9uc/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 17,
-     "nama": "TIU - Contoh Soal Numerik - Perkalian dan Pembagian Setara (General)",
+     "nama": "TIU - Contoh Soal Numerik - Perkalian dan Pembagian Setara",
      "pptx": "unduh/general/tiu-nu02-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu02-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu02-contoh-soal.jpg",
-     "ukuran_pptx": 830824,
-     "ukuran_pdf": 1143321
-    },
-    "general-foto": {
-     "slide": 17,
-     "nama": "TIU - Contoh Soal Numerik - Perkalian dan Pembagian Setara (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu02-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu02-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu02-contoh-soal.jpg",
      "ukuran_pptx": 831057,
-     "ukuran_pdf": 1423443
+     "ukuran_pdf": 1423425
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-03",
@@ -889,27 +606,18 @@
    "bab": "Numerik - Jenis dan Sifat Bilangan",
    "judul": "Jenis dan Sifat Bilangan",
    "dokumen": "https://docs.google.com/document/d/1a2RaHHY-Z6HAKMg9uR7uyQsZItCg11mplwWrlPR01D4/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 18,
-     "nama": "TIU - Numerik - Jenis dan Sifat Bilangan (General)",
+     "slide": 14,
+     "nama": "TIU - Numerik - Jenis dan Sifat Bilangan",
      "pptx": "unduh/general/tiu-nu03-jenis-dan-sifat-bilangan.pptx",
      "pdf": "unduh/general/tiu-nu03-jenis-dan-sifat-bilangan.pdf",
      "sampul": "sampul/general/tiu-nu03-jenis-dan-sifat-bilangan.jpg",
-     "ukuran_pptx": 934137,
-     "ukuran_pdf": 1221311
-    },
-    "general-foto": {
-     "slide": 18,
-     "nama": "TIU - Numerik - Jenis dan Sifat Bilangan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu03-jenis-dan-sifat-bilangan.pptx",
-     "pdf": "unduh/general-foto/tiu-nu03-jenis-dan-sifat-bilangan.pdf",
-     "sampul": "sampul/general-foto/tiu-nu03-jenis-dan-sifat-bilangan.jpg",
-     "ukuran_pptx": 934371,
-     "ukuran_pdf": 1501405
+     "ukuran_pptx": 918485,
+     "ukuran_pdf": 1449936
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-04",
@@ -917,27 +625,18 @@
    "bab": "Numerik - Keterbagian Bilangan",
    "judul": "Keterbagian Bilangan",
    "dokumen": "https://docs.google.com/document/d/1McGESPfif1OlVUV7NaIOr4fHc4Cn7CRmSfpULfD6htA/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 12,
-     "nama": "TIU - Numerik - Keterbagian Bilangan (General)",
+     "slide": 11,
+     "nama": "TIU - Numerik - Keterbagian Bilangan",
      "pptx": "unduh/general/tiu-nu04-keterbagian-bilangan.pptx",
      "pdf": "unduh/general/tiu-nu04-keterbagian-bilangan.pdf",
      "sampul": "sampul/general/tiu-nu04-keterbagian-bilangan.jpg",
-     "ukuran_pptx": 889189,
-     "ukuran_pdf": 1097445
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Numerik - Keterbagian Bilangan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu04-keterbagian-bilangan.pptx",
-     "pdf": "unduh/general-foto/tiu-nu04-keterbagian-bilangan.pdf",
-     "sampul": "sampul/general-foto/tiu-nu04-keterbagian-bilangan.jpg",
-     "ukuran_pptx": 889429,
-     "ukuran_pdf": 1377545
+     "ukuran_pptx": 885327,
+     "ukuran_pdf": 1364939
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-05",
@@ -945,27 +644,18 @@
    "bab": "Numerik - Faktor dan Kelipatan",
    "judul": "Faktor dan Kelipatan",
    "dokumen": "https://docs.google.com/document/d/1BzmMe8Q04cFOkyQmYP4bShZ6yufKpmSaEO5znDjiUWU/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 13,
-     "nama": "TIU - Numerik - Faktor dan Kelipatan (General)",
+     "slide": 12,
+     "nama": "TIU - Numerik - Faktor dan Kelipatan",
      "pptx": "unduh/general/tiu-nu05-faktor-dan-kelipatan.pptx",
      "pdf": "unduh/general/tiu-nu05-faktor-dan-kelipatan.pdf",
      "sampul": "sampul/general/tiu-nu05-faktor-dan-kelipatan.jpg",
-     "ukuran_pptx": 894706,
-     "ukuran_pdf": 1143748
-    },
-    "general-foto": {
-     "slide": 13,
-     "nama": "TIU - Numerik - Faktor dan Kelipatan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu05-faktor-dan-kelipatan.pptx",
-     "pdf": "unduh/general-foto/tiu-nu05-faktor-dan-kelipatan.pdf",
-     "sampul": "sampul/general-foto/tiu-nu05-faktor-dan-kelipatan.jpg",
-     "ukuran_pptx": 894940,
-     "ukuran_pdf": 1423832
+     "ukuran_pptx": 890543,
+     "ukuran_pdf": 1411051
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-06",
@@ -973,27 +663,18 @@
    "bab": "Numerik - Konsep Dasar Aljabar",
    "judul": "Konsep Dasar Aljabar",
    "dokumen": "https://docs.google.com/document/d/1L9Ww_cxIevwqV4qQAfT0sBPj4nirkayTiWEbIO2BNpA/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 16,
-     "nama": "TIU - Numerik - Konsep Dasar Aljabar (General)",
+     "slide": 14,
+     "nama": "TIU - Numerik - Konsep Dasar Aljabar",
      "pptx": "unduh/general/tiu-nu06-konsep-dasar-aljabar.pptx",
      "pdf": "unduh/general/tiu-nu06-konsep-dasar-aljabar.pdf",
      "sampul": "sampul/general/tiu-nu06-konsep-dasar-aljabar.jpg",
-     "ukuran_pptx": 966686,
-     "ukuran_pdf": 1226916
-    },
-    "general-foto": {
-     "slide": 16,
-     "nama": "TIU - Numerik - Konsep Dasar Aljabar (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu06-konsep-dasar-aljabar.pptx",
-     "pdf": "unduh/general-foto/tiu-nu06-konsep-dasar-aljabar.pdf",
-     "sampul": "sampul/general-foto/tiu-nu06-konsep-dasar-aljabar.jpg",
-     "ukuran_pptx": 966918,
-     "ukuran_pdf": 1507013
+     "ukuran_pptx": 958105,
+     "ukuran_pdf": 1475813
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-07",
@@ -1001,27 +682,18 @@
    "bab": "Numerik - Persamaan Linear",
    "judul": "Persamaan Linear",
    "dokumen": "https://docs.google.com/document/d/1F_of9XIMKx74wIN3UqLYoJqf7oNMIjnPR0omnQsD9eA/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 16,
-     "nama": "TIU - Numerik - Persamaan Linear (General)",
+     "slide": 13,
+     "nama": "TIU - Numerik - Persamaan Linear",
      "pptx": "unduh/general/tiu-nu07-persamaan-linear.pptx",
      "pdf": "unduh/general/tiu-nu07-persamaan-linear.pdf",
      "sampul": "sampul/general/tiu-nu07-persamaan-linear.jpg",
-     "ukuran_pptx": 906447,
-     "ukuran_pdf": 1160907
-    },
-    "general-foto": {
-     "slide": 16,
-     "nama": "TIU - Numerik - Persamaan Linear (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu07-persamaan-linear.pptx",
-     "pdf": "unduh/general-foto/tiu-nu07-persamaan-linear.pdf",
-     "sampul": "sampul/general-foto/tiu-nu07-persamaan-linear.jpg",
-     "ukuran_pptx": 906685,
-     "ukuran_pdf": 1441008
+     "ukuran_pptx": 890601,
+     "ukuran_pdf": 1405619
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-08",
@@ -1029,27 +701,18 @@
    "bab": "Numerik - Soal Cerita Aljabar",
    "judul": "Soal Cerita Aljabar",
    "dokumen": "https://docs.google.com/document/d/1unAWBnj5W84Vp1-WqTAckeXehyUAauCuD6vW3PUthF8/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 12,
-     "nama": "TIU - Numerik - Soal Cerita Aljabar (General)",
+     "slide": 10,
+     "nama": "TIU - Numerik - Soal Cerita Aljabar",
      "pptx": "unduh/general/tiu-nu08-soal-cerita-aljabar.pptx",
      "pdf": "unduh/general/tiu-nu08-soal-cerita-aljabar.pdf",
      "sampul": "sampul/general/tiu-nu08-soal-cerita-aljabar.jpg",
-     "ukuran_pptx": 907691,
-     "ukuran_pdf": 1130069
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Numerik - Soal Cerita Aljabar (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu08-soal-cerita-aljabar.pptx",
-     "pdf": "unduh/general-foto/tiu-nu08-soal-cerita-aljabar.pdf",
-     "sampul": "sampul/general-foto/tiu-nu08-soal-cerita-aljabar.jpg",
-     "ukuran_pptx": 907923,
-     "ukuran_pdf": 1410165
+     "ukuran_pptx": 900375,
+     "ukuran_pdf": 1356127
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-08-soal",
@@ -1057,27 +720,18 @@
    "bab": "Contoh Soal Numerik - Soal Cerita Aljabar",
    "judul": "Contoh Soal Cerita Aljabar",
    "dokumen": "https://docs.google.com/document/d/1unAWBnj5W84Vp1-WqTAckeXehyUAauCuD6vW3PUthF8/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 8,
-     "nama": "TIU - Contoh Soal Numerik - Soal Cerita Aljabar (General)",
+     "nama": "TIU - Contoh Soal Numerik - Soal Cerita Aljabar",
      "pptx": "unduh/general/tiu-nu08-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu08-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu08-contoh-soal.jpg",
-     "ukuran_pptx": 798084,
-     "ukuran_pdf": 1062590
-    },
-    "general-foto": {
-     "slide": 8,
-     "nama": "TIU - Contoh Soal Numerik - Soal Cerita Aljabar (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu08-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu08-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu08-contoh-soal.jpg",
      "ukuran_pptx": 798315,
-     "ukuran_pdf": 1342680
+     "ukuran_pdf": 1342671
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-09",
@@ -1085,27 +739,18 @@
    "bab": "Numerik - Pertidaksamaan Linear",
    "judul": "Pertidaksamaan Linear",
    "dokumen": "https://docs.google.com/document/d/1VKNdPKAuSZKNT7Tl99XdVS_V29YR_K6_A2K5ZOf_a9k/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 13,
-     "nama": "TIU - Numerik - Pertidaksamaan Linear (General)",
+     "slide": 11,
+     "nama": "TIU - Numerik - Pertidaksamaan Linear",
      "pptx": "unduh/general/tiu-nu09-pertidaksamaan-linear.pptx",
      "pdf": "unduh/general/tiu-nu09-pertidaksamaan-linear.pdf",
      "sampul": "sampul/general/tiu-nu09-pertidaksamaan-linear.jpg",
-     "ukuran_pptx": 928330,
-     "ukuran_pdf": 1164206
-    },
-    "general-foto": {
-     "slide": 13,
-     "nama": "TIU - Numerik - Pertidaksamaan Linear (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu09-pertidaksamaan-linear.pptx",
-     "pdf": "unduh/general-foto/tiu-nu09-pertidaksamaan-linear.pdf",
-     "sampul": "sampul/general-foto/tiu-nu09-pertidaksamaan-linear.jpg",
-     "ukuran_pptx": 928563,
-     "ukuran_pdf": 1444302
+     "ukuran_pptx": 921349,
+     "ukuran_pdf": 1424764
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-09-soal",
@@ -1113,27 +758,18 @@
    "bab": "Contoh Soal Numerik - Pertidaksamaan Linear",
    "judul": "Contoh Soal Pertidaksamaan Linear",
    "dokumen": "https://docs.google.com/document/d/1VKNdPKAuSZKNT7Tl99XdVS_V29YR_K6_A2K5ZOf_a9k/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 9,
-     "nama": "TIU - Contoh Soal Numerik - Pertidaksamaan Linear (General)",
+     "nama": "TIU - Contoh Soal Numerik - Pertidaksamaan Linear",
      "pptx": "unduh/general/tiu-nu09-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu09-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu09-contoh-soal.jpg",
-     "ukuran_pptx": 800037,
-     "ukuran_pdf": 1059727
-    },
-    "general-foto": {
-     "slide": 9,
-     "nama": "TIU - Contoh Soal Numerik - Pertidaksamaan Linear (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu09-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu09-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu09-contoh-soal.jpg",
      "ukuran_pptx": 800275,
-     "ukuran_pdf": 1339838
+     "ukuran_pdf": 1339835
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-10",
@@ -1141,27 +777,18 @@
    "bab": "Numerik - Konsep Dasar Geometri",
    "judul": "Konsep Dasar Geometri",
    "dokumen": "https://docs.google.com/document/d/1vF6xumsnWBwu6-8UhthriRt_CSkeJGO41DkXcX48vwc/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 17,
-     "nama": "TIU - Numerik - Konsep Dasar Geometri (General)",
+     "slide": 15,
+     "nama": "TIU - Numerik - Konsep Dasar Geometri",
      "pptx": "unduh/general/tiu-nu10-konsep-dasar-geometri.pptx",
      "pdf": "unduh/general/tiu-nu10-konsep-dasar-geometri.pdf",
      "sampul": "sampul/general/tiu-nu10-konsep-dasar-geometri.jpg",
-     "ukuran_pptx": 1315172,
-     "ukuran_pdf": 1472682
-    },
-    "general-foto": {
-     "slide": 17,
-     "nama": "TIU - Numerik - Konsep Dasar Geometri (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu10-konsep-dasar-geometri.pptx",
-     "pdf": "unduh/general-foto/tiu-nu10-konsep-dasar-geometri.pdf",
-     "sampul": "sampul/general-foto/tiu-nu10-konsep-dasar-geometri.jpg",
-     "ukuran_pptx": 1315407,
-     "ukuran_pdf": 1752791
+     "ukuran_pptx": 1307390,
+     "ukuran_pdf": 1730865
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-11",
@@ -1169,27 +796,18 @@
    "bab": "Numerik - Bangun Datar",
    "judul": "Bangun Datar",
    "dokumen": "https://docs.google.com/document/d/1ma4KhW33VPbAuGNwFaeLZk1h8QUA0o3xmxu0Yjv6KBs/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 19,
-     "nama": "TIU - Numerik - Bangun Datar (General)",
+     "slide": 17,
+     "nama": "TIU - Numerik - Bangun Datar",
      "pptx": "unduh/general/tiu-nu11-bangun-datar.pptx",
      "pdf": "unduh/general/tiu-nu11-bangun-datar.pdf",
      "sampul": "sampul/general/tiu-nu11-bangun-datar.jpg",
-     "ukuran_pptx": 1121687,
-     "ukuran_pdf": 1381661
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "TIU - Numerik - Bangun Datar (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu11-bangun-datar.pptx",
-     "pdf": "unduh/general-foto/tiu-nu11-bangun-datar.pdf",
-     "sampul": "sampul/general-foto/tiu-nu11-bangun-datar.jpg",
-     "ukuran_pptx": 1121921,
-     "ukuran_pdf": 1661755
+     "ukuran_pptx": 1113733,
+     "ukuran_pdf": 1638640
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-11-soal",
@@ -1197,27 +815,18 @@
    "bab": "Contoh Soal Numerik - Bangun Datar",
    "judul": "Contoh Soal Bangun Datar",
    "dokumen": "https://docs.google.com/document/d/1ma4KhW33VPbAuGNwFaeLZk1h8QUA0o3xmxu0Yjv6KBs/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 10,
-     "nama": "TIU - Contoh Soal Numerik - Bangun Datar (General)",
+     "nama": "TIU - Contoh Soal Numerik - Bangun Datar",
      "pptx": "unduh/general/tiu-nu11-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu11-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu11-contoh-soal.jpg",
-     "ukuran_pptx": 803757,
-     "ukuran_pdf": 1087603
-    },
-    "general-foto": {
-     "slide": 10,
-     "nama": "TIU - Contoh Soal Numerik - Bangun Datar (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu11-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu11-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu11-contoh-soal.jpg",
      "ukuran_pptx": 803989,
-     "ukuran_pdf": 1367691
+     "ukuran_pdf": 1367697
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-12",
@@ -1225,27 +834,18 @@
    "bab": "Numerik - Teorema Pythagoras",
    "judul": "Teorema Pythagoras",
    "dokumen": "https://docs.google.com/document/d/1Ooi1WVnNqVYwBsmqSps-YUwQoKI6et6W1YrzbCGQWgQ/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 13,
-     "nama": "TIU - Numerik - Teorema Pythagoras (General)",
+     "slide": 12,
+     "nama": "TIU - Numerik - Teorema Pythagoras",
      "pptx": "unduh/general/tiu-nu12-teorema-pythagoras.pptx",
      "pdf": "unduh/general/tiu-nu12-teorema-pythagoras.pdf",
      "sampul": "sampul/general/tiu-nu12-teorema-pythagoras.jpg",
-     "ukuran_pptx": 939748,
-     "ukuran_pdf": 1171561
-    },
-    "general-foto": {
-     "slide": 13,
-     "nama": "TIU - Numerik - Teorema Pythagoras (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu12-teorema-pythagoras.pptx",
-     "pdf": "unduh/general-foto/tiu-nu12-teorema-pythagoras.pdf",
-     "sampul": "sampul/general-foto/tiu-nu12-teorema-pythagoras.jpg",
-     "ukuran_pptx": 939988,
-     "ukuran_pdf": 1451648
+     "ukuran_pptx": 935872,
+     "ukuran_pdf": 1440035
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-12-soal",
@@ -1253,27 +853,18 @@
    "bab": "Contoh Soal Numerik - Teorema Pythagoras",
    "judul": "Contoh Soal Teorema Pythagoras",
    "dokumen": "https://docs.google.com/document/d/1Ooi1WVnNqVYwBsmqSps-YUwQoKI6et6W1YrzbCGQWgQ/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 9,
-     "nama": "TIU - Contoh Soal Numerik - Teorema Pythagoras (General)",
+     "nama": "TIU - Contoh Soal Numerik - Teorema Pythagoras",
      "pptx": "unduh/general/tiu-nu12-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu12-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu12-contoh-soal.jpg",
-     "ukuran_pptx": 799844,
-     "ukuran_pdf": 1057109
-    },
-    "general-foto": {
-     "slide": 9,
-     "nama": "TIU - Contoh Soal Numerik - Teorema Pythagoras (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu12-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu12-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu12-contoh-soal.jpg",
      "ukuran_pptx": 800082,
-     "ukuran_pdf": 1337205
+     "ukuran_pdf": 1337218
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-13",
@@ -1281,27 +872,18 @@
    "bab": "Numerik - Rasio",
    "judul": "Rasio",
    "dokumen": "https://docs.google.com/document/d/1k2xIPnhoeYRBj-tgO8haxOOlpH3K2TFdQ9sEBM_dZuI/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 19,
-     "nama": "TIU - Numerik - Rasio (General)",
+     "slide": 17,
+     "nama": "TIU - Numerik - Rasio",
      "pptx": "unduh/general/tiu-nu13-rasio.pptx",
      "pdf": "unduh/general/tiu-nu13-rasio.pdf",
      "sampul": "sampul/general/tiu-nu13-rasio.jpg",
-     "ukuran_pptx": 903413,
-     "ukuran_pdf": 1206135
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "TIU - Numerik - Rasio (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu13-rasio.pptx",
-     "pdf": "unduh/general-foto/tiu-nu13-rasio.pdf",
-     "sampul": "sampul/general-foto/tiu-nu13-rasio.jpg",
-     "ukuran_pptx": 903647,
-     "ukuran_pdf": 1486251
+     "ukuran_pptx": 895880,
+     "ukuran_pdf": 1465295
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-13-soal",
@@ -1309,27 +891,18 @@
    "bab": "Contoh Soal Numerik - Rasio",
    "judul": "Contoh Soal Rasio",
    "dokumen": "https://docs.google.com/document/d/1k2xIPnhoeYRBj-tgO8haxOOlpH3K2TFdQ9sEBM_dZuI/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 15,
-     "nama": "TIU - Contoh Soal Numerik - Rasio (General)",
+     "nama": "TIU - Contoh Soal Numerik - Rasio",
      "pptx": "unduh/general/tiu-nu13-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu13-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu13-contoh-soal.jpg",
-     "ukuran_pptx": 823018,
-     "ukuran_pdf": 1139958
-    },
-    "general-foto": {
-     "slide": 15,
-     "nama": "TIU - Contoh Soal Numerik - Rasio (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu13-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu13-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu13-contoh-soal.jpg",
      "ukuran_pptx": 823257,
      "ukuran_pdf": 1420075
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-14",
@@ -1337,27 +910,18 @@
    "bab": "Numerik - Perbandingan Senilai dan Berbalik",
    "judul": "Perbandingan Senilai dan Berbalik",
    "dokumen": "https://docs.google.com/document/d/1qNrxIuWwYbY6CPXLj6c4f_OFsHv8F39GGDqFtJAcpHk/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 14,
-     "nama": "TIU - Numerik - Perbandingan Senilai dan Berbalik (General)",
+     "slide": 10,
+     "nama": "TIU - Numerik - Perbandingan Senilai dan Berbalik",
      "pptx": "unduh/general/tiu-nu14-perbandingan-senilai-dan-berbalik.pptx",
      "pdf": "unduh/general/tiu-nu14-perbandingan-senilai-dan-berbalik.pdf",
      "sampul": "sampul/general/tiu-nu14-perbandingan-senilai-dan-berbalik.jpg",
-     "ukuran_pptx": 885757,
-     "ukuran_pdf": 1149318
-    },
-    "general-foto": {
-     "slide": 14,
-     "nama": "TIU - Numerik - Perbandingan Senilai dan Berbalik (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu14-perbandingan-senilai-dan-berbalik.pptx",
-     "pdf": "unduh/general-foto/tiu-nu14-perbandingan-senilai-dan-berbalik.pdf",
-     "sampul": "sampul/general-foto/tiu-nu14-perbandingan-senilai-dan-berbalik.jpg",
-     "ukuran_pptx": 885996,
-     "ukuran_pdf": 1429423
+     "ukuran_pptx": 870650,
+     "ukuran_pdf": 1367791
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-14-soal",
@@ -1365,27 +929,18 @@
    "bab": "Contoh Soal Numerik - Perbandingan Senilai dan Berbalik",
    "judul": "Contoh Soal Perbandingan Senilai dan Berbalik",
    "dokumen": "https://docs.google.com/document/d/1qNrxIuWwYbY6CPXLj6c4f_OFsHv8F39GGDqFtJAcpHk/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 10,
-     "nama": "TIU - Contoh Soal Numerik - Perbandingan Senilai dan Berbalik (General)",
+     "nama": "TIU - Contoh Soal Numerik - Perbandingan Senilai dan Berbalik",
      "pptx": "unduh/general/tiu-nu14-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu14-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu14-contoh-soal.jpg",
-     "ukuran_pptx": 805291,
-     "ukuran_pdf": 1095743
-    },
-    "general-foto": {
-     "slide": 10,
-     "nama": "TIU - Contoh Soal Numerik - Perbandingan Senilai dan Berbalik (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu14-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu14-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu14-contoh-soal.jpg",
      "ukuran_pptx": 805524,
-     "ukuran_pdf": 1375844
+     "ukuran_pdf": 1375852
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-15",
@@ -1393,27 +948,18 @@
    "bab": "Numerik - Aritmatika Sosial",
    "judul": "Aritmatika Sosial",
    "dokumen": "https://docs.google.com/document/d/1xagYL61PDi7wwALr_a9d1YHUi4RB8amQtpLSjExe6dY/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 22,
-     "nama": "TIU - Numerik - Aritmatika Sosial (General)",
+     "slide": 15,
+     "nama": "TIU - Numerik - Aritmatika Sosial",
      "pptx": "unduh/general/tiu-nu15-aritmatika-sosial.pptx",
      "pdf": "unduh/general/tiu-nu15-aritmatika-sosial.pdf",
      "sampul": "sampul/general/tiu-nu15-aritmatika-sosial.jpg",
-     "ukuran_pptx": 912767,
-     "ukuran_pdf": 1237578
-    },
-    "general-foto": {
-     "slide": 22,
-     "nama": "TIU - Numerik - Aritmatika Sosial (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu15-aritmatika-sosial.pptx",
-     "pdf": "unduh/general-foto/tiu-nu15-aritmatika-sosial.pdf",
-     "sampul": "sampul/general-foto/tiu-nu15-aritmatika-sosial.jpg",
-     "ukuran_pptx": 912998,
-     "ukuran_pdf": 1517685
+     "ukuran_pptx": 886958,
+     "ukuran_pdf": 1423811
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-15-soal",
@@ -1421,27 +967,18 @@
    "bab": "Contoh Soal Numerik - Aritmatika Sosial",
    "judul": "Contoh Soal Aritmatika Sosial",
    "dokumen": "https://docs.google.com/document/d/1xagYL61PDi7wwALr_a9d1YHUi4RB8amQtpLSjExe6dY/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 39,
-     "nama": "TIU - Contoh Soal Numerik - Aritmatika Sosial (General)",
+     "nama": "TIU - Contoh Soal Numerik - Aritmatika Sosial",
      "pptx": "unduh/general/tiu-nu15-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu15-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu15-contoh-soal.jpg",
-     "ukuran_pptx": 908765,
-     "ukuran_pdf": 1392936
-    },
-    "general-foto": {
-     "slide": 39,
-     "nama": "TIU - Contoh Soal Numerik - Aritmatika Sosial (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu15-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu15-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu15-contoh-soal.jpg",
      "ukuran_pptx": 909002,
-     "ukuran_pdf": 1673083
+     "ukuran_pdf": 1673093
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-16",
@@ -1449,27 +986,18 @@
    "bab": "Numerik - JKW (Jarak, Kecepatan, dan Waktu)",
    "judul": "JKW (Jarak, Kecepatan, Waktu)",
    "dokumen": "https://docs.google.com/document/d/11yM9UV66x2JQMRjBGpoNzu6GAodjwEDz0n3QndRW3Bo/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 21,
-     "nama": "TIU - Numerik - JKW (Jarak, Kecepatan, dan Waktu) (General)",
+     "slide": 16,
+     "nama": "TIU - Numerik - JKW (Jarak, Kecepatan, dan Waktu)",
      "pptx": "unduh/general/tiu-nu16-jkw-jarak-kecepatan-dan-waktu.pptx",
      "pdf": "unduh/general/tiu-nu16-jkw-jarak-kecepatan-dan-waktu.pdf",
      "sampul": "sampul/general/tiu-nu16-jkw-jarak-kecepatan-dan-waktu.jpg",
-     "ukuran_pptx": 1097177,
-     "ukuran_pdf": 1402445
-    },
-    "general-foto": {
-     "slide": 21,
-     "nama": "TIU - Numerik - JKW (Jarak, Kecepatan, dan Waktu) (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu16-jkw-jarak-kecepatan-dan-waktu.pptx",
-     "pdf": "unduh/general-foto/tiu-nu16-jkw-jarak-kecepatan-dan-waktu.pdf",
-     "sampul": "sampul/general-foto/tiu-nu16-jkw-jarak-kecepatan-dan-waktu.jpg",
-     "ukuran_pptx": 1097411,
-     "ukuran_pdf": 1682560
+     "ukuran_pptx": 1065633,
+     "ukuran_pdf": 1607663
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-16-soal",
@@ -1477,27 +1005,18 @@
    "bab": "Contoh Soal Numerik - JKW (Jarak, Kecepatan, dan Waktu)",
    "judul": "Contoh Soal JKW (Jarak, Kecepatan, Waktu)",
    "dokumen": "https://docs.google.com/document/d/11yM9UV66x2JQMRjBGpoNzu6GAodjwEDz0n3QndRW3Bo/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 21,
-     "nama": "TIU - Contoh Soal Numerik - JKW (Jarak, Kecepatan, dan Waktu) (General)",
+     "nama": "TIU - Contoh Soal Numerik - JKW (Jarak, Kecepatan, dan Waktu)",
      "pptx": "unduh/general/tiu-nu16-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu16-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu16-contoh-soal.jpg",
-     "ukuran_pptx": 857855,
-     "ukuran_pdf": 1242152
-    },
-    "general-foto": {
-     "slide": 21,
-     "nama": "TIU - Contoh Soal Numerik - JKW (Jarak, Kecepatan, dan Waktu) (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu16-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu16-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu16-contoh-soal.jpg",
      "ukuran_pptx": 858090,
-     "ukuran_pdf": 1522275
+     "ukuran_pdf": 1522290
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "nu-17",
@@ -1505,27 +1024,18 @@
    "bab": "Numerik - VDW (Volume, Debit, Waktu)",
    "judul": "VDW (Volume, Debit, Waktu)",
    "dokumen": "https://docs.google.com/document/d/1D_IrlmVH7f4bCVN5BikuDDZ2E3-ambgtz8Uf0X_lrn4/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 22,
-     "nama": "TIU - Numerik - VDW (Volume, Debit, Waktu) (General)",
+     "slide": 16,
+     "nama": "TIU - Numerik - VDW (Volume, Debit, Waktu)",
      "pptx": "unduh/general/tiu-nu17-vdw-volume-debit-waktu.pptx",
      "pdf": "unduh/general/tiu-nu17-vdw-volume-debit-waktu.pdf",
      "sampul": "sampul/general/tiu-nu17-vdw-volume-debit-waktu.jpg",
-     "ukuran_pptx": 1018665,
-     "ukuran_pdf": 1353567
-    },
-    "general-foto": {
-     "slide": 22,
-     "nama": "TIU - Numerik - VDW (Volume, Debit, Waktu) (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu17-vdw-volume-debit-waktu.pptx",
-     "pdf": "unduh/general-foto/tiu-nu17-vdw-volume-debit-waktu.pdf",
-     "sampul": "sampul/general-foto/tiu-nu17-vdw-volume-debit-waktu.jpg",
-     "ukuran_pptx": 1018899,
-     "ukuran_pdf": 1633679
+     "ukuran_pptx": 997123,
+     "ukuran_pdf": 1556854
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "nu-17-soal",
@@ -1533,27 +1043,18 @@
    "bab": "Contoh Soal Numerik - VDW (Volume, Debit, Waktu)",
    "judul": "Contoh Soal VDW (Volume, Debit, Waktu)",
    "dokumen": "https://docs.google.com/document/d/1D_IrlmVH7f4bCVN5BikuDDZ2E3-ambgtz8Uf0X_lrn4/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 15,
-     "nama": "TIU - Contoh Soal Numerik - VDW (Volume, Debit, Waktu) (General)",
+     "nama": "TIU - Contoh Soal Numerik - VDW (Volume, Debit, Waktu)",
      "pptx": "unduh/general/tiu-nu17-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-nu17-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-nu17-contoh-soal.jpg",
-     "ukuran_pptx": 847922,
-     "ukuran_pdf": 1183051
-    },
-    "general-foto": {
-     "slide": 15,
-     "nama": "TIU - Contoh Soal Numerik - VDW (Volume, Debit, Waktu) (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-nu17-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-nu17-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-nu17-contoh-soal.jpg",
      "ukuran_pptx": 848163,
-     "ukuran_pdf": 1463182
+     "ukuran_pdf": 1463160
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "dd-01",
@@ -1561,27 +1062,18 @@
    "bab": "Data & Deret - Kecukupan Data",
    "judul": "Kecukupan Data",
    "dokumen": "https://docs.google.com/document/d/1YJ6m212FZiG_LKUSITFjXTsIa-gvq_43uHGDUNy1MFs/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 16,
-     "nama": "TIU - Data & Deret - Kecukupan Data (General)",
+     "slide": 14,
+     "nama": "TIU - Data & Deret - Kecukupan Data",
      "pptx": "unduh/general/tiu-dd01-kecukupan-data.pptx",
      "pdf": "unduh/general/tiu-dd01-kecukupan-data.pdf",
      "sampul": "sampul/general/tiu-dd01-kecukupan-data.jpg",
-     "ukuran_pptx": 993970,
-     "ukuran_pdf": 1269414
-    },
-    "general-foto": {
-     "slide": 16,
-     "nama": "TIU - Data & Deret - Kecukupan Data (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd01-kecukupan-data.pptx",
-     "pdf": "unduh/general-foto/tiu-dd01-kecukupan-data.pdf",
-     "sampul": "sampul/general-foto/tiu-dd01-kecukupan-data.jpg",
-     "ukuran_pptx": 994202,
-     "ukuran_pdf": 1549539
+     "ukuran_pptx": 986073,
+     "ukuran_pdf": 1526205
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "dd-01-soal",
@@ -1589,27 +1081,18 @@
    "bab": "Contoh Soal Data & Deret - Kecukupan Data",
    "judul": "Contoh Soal Kecukupan Data",
    "dokumen": "https://docs.google.com/document/d/1YJ6m212FZiG_LKUSITFjXTsIa-gvq_43uHGDUNy1MFs/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 29,
-     "nama": "TIU - Contoh Soal Data & Deret - Kecukupan Data (General)",
+     "nama": "TIU - Contoh Soal Data & Deret - Kecukupan Data",
      "pptx": "unduh/general/tiu-dd01-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-dd01-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-dd01-contoh-soal.jpg",
-     "ukuran_pptx": 876970,
-     "ukuran_pdf": 1312457
-    },
-    "general-foto": {
-     "slide": 29,
-     "nama": "TIU - Contoh Soal Data & Deret - Kecukupan Data (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd01-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-dd01-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-dd01-contoh-soal.jpg",
      "ukuran_pptx": 877208,
-     "ukuran_pdf": 1592586
+     "ukuran_pdf": 1592577
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "dd-02",
@@ -1617,27 +1100,18 @@
    "bab": "Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan",
    "judul": "Tabel Pernyataan – Kombinasi Pernyataan",
    "dokumen": "https://docs.google.com/document/d/1HUhZxLVGXEWNXVBLXgRZ8YDZxV9Rb47eO4A3aZbRhcE/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 18,
-     "nama": "TIU - Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan (General)",
+     "slide": 15,
+     "nama": "TIU - Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan",
      "pptx": "unduh/general/tiu-dd02-tabel-pernyataan-kombinasi-pernyataan.pptx",
      "pdf": "unduh/general/tiu-dd02-tabel-pernyataan-kombinasi-pernyataan.pdf",
      "sampul": "sampul/general/tiu-dd02-tabel-pernyataan-kombinasi-pernyataan.jpg",
-     "ukuran_pptx": 900149,
-     "ukuran_pdf": 1214514
-    },
-    "general-foto": {
-     "slide": 18,
-     "nama": "TIU - Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd02-tabel-pernyataan-kombinasi-pernyataan.pptx",
-     "pdf": "unduh/general-foto/tiu-dd02-tabel-pernyataan-kombinasi-pernyataan.pdf",
-     "sampul": "sampul/general-foto/tiu-dd02-tabel-pernyataan-kombinasi-pernyataan.jpg",
-     "ukuran_pptx": 900382,
-     "ukuran_pdf": 1494612
+     "ukuran_pptx": 888136,
+     "ukuran_pdf": 1445069
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "dd-02-soal",
@@ -1645,27 +1119,18 @@
    "bab": "Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan",
    "judul": "Contoh Soal Tabel Pernyataan – Kombinasi Pernyataan",
    "dokumen": "https://docs.google.com/document/d/1HUhZxLVGXEWNXVBLXgRZ8YDZxV9Rb47eO4A3aZbRhcE/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 12,
-     "nama": "TIU - Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan (General)",
+     "nama": "TIU - Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan",
      "pptx": "unduh/general/tiu-dd02-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-dd02-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-dd02-contoh-soal.jpg",
-     "ukuran_pptx": 814998,
-     "ukuran_pdf": 1143232
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd02-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-dd02-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-dd02-contoh-soal.jpg",
      "ukuran_pptx": 815237,
-     "ukuran_pdf": 1423317
+     "ukuran_pdf": 1423319
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "dd-03",
@@ -1673,27 +1138,18 @@
    "bab": "Data & Deret - Tabel Pernyataan - Kombinasi Optimal",
    "judul": "Tabel Pernyataan – Kombinasi Optimal",
    "dokumen": "https://docs.google.com/document/d/1sI8IiSUjPMx2lqAO3KHtoy7Oim6Q-fPkzoFbnHkV_cM/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 17,
-     "nama": "TIU - Data & Deret - Tabel Pernyataan - Kombinasi Optimal (General)",
+     "slide": 13,
+     "nama": "TIU - Data & Deret - Tabel Pernyataan - Kombinasi Optimal",
      "pptx": "unduh/general/tiu-dd03-tabel-pernyataan-kombinasi-optimal.pptx",
      "pdf": "unduh/general/tiu-dd03-tabel-pernyataan-kombinasi-optimal.pdf",
      "sampul": "sampul/general/tiu-dd03-tabel-pernyataan-kombinasi-optimal.jpg",
-     "ukuran_pptx": 897138,
-     "ukuran_pdf": 1204114
-    },
-    "general-foto": {
-     "slide": 17,
-     "nama": "TIU - Data & Deret - Tabel Pernyataan - Kombinasi Optimal (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd03-tabel-pernyataan-kombinasi-optimal.pptx",
-     "pdf": "unduh/general-foto/tiu-dd03-tabel-pernyataan-kombinasi-optimal.pdf",
-     "sampul": "sampul/general-foto/tiu-dd03-tabel-pernyataan-kombinasi-optimal.jpg",
-     "ukuran_pptx": 897372,
-     "ukuran_pdf": 1484182
+     "ukuran_pptx": 881800,
+     "ukuran_pdf": 1425412
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "dd-03-soal",
@@ -1701,27 +1157,18 @@
    "bab": "Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Optimal",
    "judul": "Contoh Soal Tabel Pernyataan – Kombinasi Optimal",
    "dokumen": "https://docs.google.com/document/d/1sI8IiSUjPMx2lqAO3KHtoy7Oim6Q-fPkzoFbnHkV_cM/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 21,
-     "nama": "TIU - Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Optimal (General)",
+     "nama": "TIU - Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Optimal",
      "pptx": "unduh/general/tiu-dd03-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-dd03-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-dd03-contoh-soal.jpg",
-     "ukuran_pptx": 847654,
-     "ukuran_pdf": 1245411
-    },
-    "general-foto": {
-     "slide": 21,
-     "nama": "TIU - Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Optimal (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd03-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-dd03-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-dd03-contoh-soal.jpg",
      "ukuran_pptx": 847894,
-     "ukuran_pdf": 1525547
+     "ukuran_pdf": 1525552
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "dd-04",
@@ -1729,27 +1176,18 @@
    "bab": "Data & Deret - Konsep Towew",
    "judul": "Konsep Towew",
    "dokumen": "https://docs.google.com/document/d/1faa8KU5YduZo72u3uBQhOH65uF7LkWzGk4E2u-ue8f0/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 20,
-     "nama": "TIU - Data & Deret - Konsep Towew (General)",
+     "slide": 16,
+     "nama": "TIU - Data & Deret - Konsep Towew",
      "pptx": "unduh/general/tiu-dd04-konsep-towew.pptx",
      "pdf": "unduh/general/tiu-dd04-konsep-towew.pdf",
      "sampul": "sampul/general/tiu-dd04-konsep-towew.jpg",
-     "ukuran_pptx": 1091873,
-     "ukuran_pdf": 1354571
-    },
-    "general-foto": {
-     "slide": 20,
-     "nama": "TIU - Data & Deret - Konsep Towew (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd04-konsep-towew.pptx",
-     "pdf": "unduh/general-foto/tiu-dd04-konsep-towew.pdf",
-     "sampul": "sampul/general-foto/tiu-dd04-konsep-towew.jpg",
-     "ukuran_pptx": 1092105,
-     "ukuran_pdf": 1634685
+     "ukuran_pptx": 1075638,
+     "ukuran_pdf": 1581960
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "dd-05",
@@ -1757,27 +1195,18 @@
    "bab": "Data & Deret - Jenis Deret Angka",
    "judul": "Jenis Deret Angka",
    "dokumen": "https://docs.google.com/document/d/13lb87So5Tn9w_nO_VxcZQZhYU9mCReB452KFhB8sDEs/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 28,
-     "nama": "TIU - Data & Deret - Jenis Deret Angka (General)",
+     "slide": 17,
+     "nama": "TIU - Data & Deret - Jenis Deret Angka",
      "pptx": "unduh/general/tiu-dd05-jenis-deret-angka.pptx",
      "pdf": "unduh/general/tiu-dd05-jenis-deret-angka.pdf",
      "sampul": "sampul/general/tiu-dd05-jenis-deret-angka.jpg",
-     "ukuran_pptx": 1178441,
-     "ukuran_pdf": 1499735
-    },
-    "general-foto": {
-     "slide": 28,
-     "nama": "TIU - Data & Deret - Jenis Deret Angka (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd05-jenis-deret-angka.pptx",
-     "pdf": "unduh/general-foto/tiu-dd05-jenis-deret-angka.pdf",
-     "sampul": "sampul/general-foto/tiu-dd05-jenis-deret-angka.jpg",
-     "ukuran_pptx": 1178673,
-     "ukuran_pdf": 1779858
+     "ukuran_pptx": 1139053,
+     "ukuran_pdf": 1671930
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "dd-05-soal",
@@ -1785,27 +1214,18 @@
    "bab": "Contoh Soal Data & Deret - Jenis Deret Angka",
    "judul": "Contoh Soal Jenis Deret Angka",
    "dokumen": "https://docs.google.com/document/d/13lb87So5Tn9w_nO_VxcZQZhYU9mCReB452KFhB8sDEs/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 31,
-     "nama": "TIU - Contoh Soal Data & Deret - Jenis Deret Angka (General)",
+     "nama": "TIU - Contoh Soal Data & Deret - Jenis Deret Angka",
      "pptx": "unduh/general/tiu-dd05-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-dd05-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-dd05-contoh-soal.jpg",
-     "ukuran_pptx": 1102203,
-     "ukuran_pdf": 1533169
-    },
-    "general-foto": {
-     "slide": 31,
-     "nama": "TIU - Contoh Soal Data & Deret - Jenis Deret Angka (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd05-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-dd05-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-dd05-contoh-soal.jpg",
      "ukuran_pptx": 1102440,
-     "ukuran_pdf": 1813298
+     "ukuran_pdf": 1813288
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "dd-06",
@@ -1813,27 +1233,18 @@
    "bab": "Data & Deret - Matriks Deret",
    "judul": "Matriks Deret",
    "dokumen": "https://docs.google.com/document/d/1BnJBTAl-1u_4jPvHpGxGM4pXHgyJqg9ordXCPLpPmK0/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 54,
-     "nama": "TIU - Data & Deret - Matriks Deret (General)",
+     "slide": 41,
+     "nama": "TIU - Data & Deret - Matriks Deret",
      "pptx": "unduh/general/tiu-dd06-matriks-deret.pptx",
      "pdf": "unduh/general/tiu-dd06-matriks-deret.pdf",
      "sampul": "sampul/general/tiu-dd06-matriks-deret.jpg",
-     "ukuran_pptx": 1952421,
-     "ukuran_pdf": 2519203
-    },
-    "general-foto": {
-     "slide": 54,
-     "nama": "TIU - Data & Deret - Matriks Deret (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd06-matriks-deret.pptx",
-     "pdf": "unduh/general-foto/tiu-dd06-matriks-deret.pdf",
-     "sampul": "sampul/general-foto/tiu-dd06-matriks-deret.jpg",
-     "ukuran_pptx": 1952655,
-     "ukuran_pdf": 2799333
+     "ukuran_pptx": 1901230,
+     "ukuran_pdf": 2652198
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "dd-06-soal",
@@ -1841,27 +1252,18 @@
    "bab": "Contoh Soal Data & Deret - Matriks Deret",
    "judul": "Contoh Soal Matriks Deret",
    "dokumen": "https://docs.google.com/document/d/1BnJBTAl-1u_4jPvHpGxGM4pXHgyJqg9ordXCPLpPmK0/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 32,
-     "nama": "TIU - Contoh Soal Data & Deret - Matriks Deret (General)",
+     "nama": "TIU - Contoh Soal Data & Deret - Matriks Deret",
      "pptx": "unduh/general/tiu-dd06-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-dd06-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-dd06-contoh-soal.jpg",
-     "ukuran_pptx": 1228281,
-     "ukuran_pdf": 1724155
-    },
-    "general-foto": {
-     "slide": 32,
-     "nama": "TIU - Contoh Soal Data & Deret - Matriks Deret (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd06-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-dd06-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-dd06-contoh-soal.jpg",
      "ukuran_pptx": 1228518,
-     "ukuran_pdf": 2004285
+     "ukuran_pdf": 2004289
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "dd-07",
@@ -1869,27 +1271,18 @@
    "bab": "Data & Deret - Pola Bilangan Tabel",
    "judul": "Pola Bilangan Tabel",
    "dokumen": "https://docs.google.com/document/d/1NUn4ywHjZklJ6L9ykcUP8KbTS4VtGJ6XXaMGj8Y73S8/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 34,
-     "nama": "TIU - Data & Deret - Pola Bilangan Tabel (General)",
+     "slide": 23,
+     "nama": "TIU - Data & Deret - Pola Bilangan Tabel",
      "pptx": "unduh/general/tiu-dd07-pola-bilangan-tabel.pptx",
      "pdf": "unduh/general/tiu-dd07-pola-bilangan-tabel.pdf",
      "sampul": "sampul/general/tiu-dd07-pola-bilangan-tabel.jpg",
-     "ukuran_pptx": 1244101,
-     "ukuran_pdf": 1691918
-    },
-    "general-foto": {
-     "slide": 34,
-     "nama": "TIU - Data & Deret - Pola Bilangan Tabel (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd07-pola-bilangan-tabel.pptx",
-     "pdf": "unduh/general-foto/tiu-dd07-pola-bilangan-tabel.pdf",
-     "sampul": "sampul/general-foto/tiu-dd07-pola-bilangan-tabel.jpg",
-     "ukuran_pptx": 1244334,
-     "ukuran_pdf": 1972023
+     "ukuran_pptx": 1206026,
+     "ukuran_pdf": 1854243
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "dd-07-soal",
@@ -1897,27 +1290,18 @@
    "bab": "Contoh Soal Data & Deret - Pola Bilangan Tabel",
    "judul": "Contoh Soal Pola Bilangan Tabel",
    "dokumen": "https://docs.google.com/document/d/1NUn4ywHjZklJ6L9ykcUP8KbTS4VtGJ6XXaMGj8Y73S8/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 36,
-     "nama": "TIU - Contoh Soal Data & Deret - Pola Bilangan Tabel (General)",
+     "nama": "TIU - Contoh Soal Data & Deret - Pola Bilangan Tabel",
      "pptx": "unduh/general/tiu-dd07-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-dd07-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-dd07-contoh-soal.jpg",
-     "ukuran_pptx": 1146674,
-     "ukuran_pdf": 1688935
-    },
-    "general-foto": {
-     "slide": 36,
-     "nama": "TIU - Contoh Soal Data & Deret - Pola Bilangan Tabel (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-dd07-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-dd07-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-dd07-contoh-soal.jpg",
      "ukuran_pptx": 1146907,
-     "ukuran_pdf": 1969085
+     "ukuran_pdf": 1969081
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "fi-01",
@@ -1925,27 +1309,18 @@
    "bab": "Figural - Macam-Macam Transformasi Figural",
    "judul": "Macam-Macam Transformasi Figural",
    "dokumen": "https://drive.google.com/file/d/1J5NiNaYYj2Df2klVZIHtnkLNCU9wTphE/view",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 22,
-     "nama": "TIU - Figural - Macam-Macam Transformasi Figural (General)",
+     "nama": "TIU - Figural - Macam-Macam Transformasi Figural",
      "pptx": "unduh/general/tiu-fi01-transformasi-figural.pptx",
      "pdf": "unduh/general/tiu-fi01-transformasi-figural.pdf",
      "sampul": "sampul/general/tiu-fi01-transformasi-figural.jpg",
-     "ukuran_pptx": 1418152,
-     "ukuran_pdf": 1746937
-    },
-    "general-foto": {
-     "slide": 22,
-     "nama": "TIU - Figural - Macam-Macam Transformasi Figural (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-fi01-transformasi-figural.pptx",
-     "pdf": "unduh/general-foto/tiu-fi01-transformasi-figural.pdf",
-     "sampul": "sampul/general-foto/tiu-fi01-transformasi-figural.jpg",
      "ukuran_pptx": 1418388,
-     "ukuran_pdf": 2027048
+     "ukuran_pdf": 2027057
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "fi-02",
@@ -1953,27 +1328,18 @@
    "bab": "Figural - Figural Analogi",
    "judul": "Figural Analogi",
    "dokumen": "https://drive.google.com/file/d/1NyP1vDYTRt78YbB404ImBCzYRg9A3Sl5/view",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 4,
-     "nama": "TIU - Figural - Figural Analogi (General)",
+     "nama": "TIU - Figural - Figural Analogi",
      "pptx": "unduh/general/tiu-fi02-figural-analogi.pptx",
      "pdf": "unduh/general/tiu-fi02-figural-analogi.pdf",
      "sampul": "sampul/general/tiu-fi02-figural-analogi.jpg",
-     "ukuran_pptx": 789678,
-     "ukuran_pdf": 975441
-    },
-    "general-foto": {
-     "slide": 4,
-     "nama": "TIU - Figural - Figural Analogi (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-fi02-figural-analogi.pptx",
-     "pdf": "unduh/general-foto/tiu-fi02-figural-analogi.pdf",
-     "sampul": "sampul/general-foto/tiu-fi02-figural-analogi.jpg",
      "ukuran_pptx": 789915,
-     "ukuran_pdf": 1255531
+     "ukuran_pdf": 1255527
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "fi-02-soal",
@@ -1981,27 +1347,18 @@
    "bab": "Contoh Soal Figural - Figural Analogi",
    "judul": "Contoh Soal Figural Analogi",
    "dokumen": "https://drive.google.com/file/d/1o_eLDIo1BLnkVewN2ir19ynwMwADATrJ/view",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 12,
-     "nama": "TIU - Contoh Soal Figural - Figural Analogi (General)",
+     "nama": "TIU - Contoh Soal Figural - Figural Analogi",
      "pptx": "unduh/general/tiu-fi02-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-fi02-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-fi02-contoh-soal.jpg",
-     "ukuran_pptx": 1069430,
-     "ukuran_pdf": 1482644
-    },
-    "general-foto": {
-     "slide": 12,
-     "nama": "TIU - Contoh Soal Figural - Figural Analogi (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-fi02-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-fi02-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-fi02-contoh-soal.jpg",
      "ukuran_pptx": 1069667,
-     "ukuran_pdf": 1762755
+     "ukuran_pdf": 1762744
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "fi-03",
@@ -2009,27 +1366,18 @@
    "bab": "Figural - Figural Ketidaksamaan",
    "judul": "Figural Ketidaksamaan",
    "dokumen": "https://drive.google.com/file/d/156SLESHfpER_XCRumNcXm_ZCEZqZAlO4/view",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 4,
-     "nama": "TIU - Figural - Figural Ketidaksamaan (General)",
+     "nama": "TIU - Figural - Figural Ketidaksamaan",
      "pptx": "unduh/general/tiu-fi03-figural-ketidaksamaan.pptx",
      "pdf": "unduh/general/tiu-fi03-figural-ketidaksamaan.pdf",
      "sampul": "sampul/general/tiu-fi03-figural-ketidaksamaan.jpg",
-     "ukuran_pptx": 843673,
-     "ukuran_pdf": 1039598
-    },
-    "general-foto": {
-     "slide": 4,
-     "nama": "TIU - Figural - Figural Ketidaksamaan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-fi03-figural-ketidaksamaan.pptx",
-     "pdf": "unduh/general-foto/tiu-fi03-figural-ketidaksamaan.pdf",
-     "sampul": "sampul/general-foto/tiu-fi03-figural-ketidaksamaan.jpg",
      "ukuran_pptx": 843910,
-     "ukuran_pdf": 1319690
+     "ukuran_pdf": 1319693
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "fi-03-soal",
@@ -2037,27 +1385,18 @@
    "bab": "Contoh Soal Figural - Figural Ketidaksamaan",
    "judul": "Contoh Soal Figural Ketidaksamaan",
    "dokumen": "https://drive.google.com/file/d/12IqYdT9UfrE5iCz4x__pumrKRIr21S-F/view",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 13,
-     "nama": "TIU - Contoh Soal Figural - Figural Ketidaksamaan (General)",
+     "nama": "TIU - Contoh Soal Figural - Figural Ketidaksamaan",
      "pptx": "unduh/general/tiu-fi03-contoh-soal.pptx",
      "pdf": "unduh/general/tiu-fi03-contoh-soal.pdf",
      "sampul": "sampul/general/tiu-fi03-contoh-soal.jpg",
-     "ukuran_pptx": 1019889,
-     "ukuran_pdf": 1348155
-    },
-    "general-foto": {
-     "slide": 13,
-     "nama": "TIU - Contoh Soal Figural - Figural Ketidaksamaan (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-fi03-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/tiu-fi03-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/tiu-fi03-contoh-soal.jpg",
      "ukuran_pptx": 1020126,
-     "ukuran_pdf": 1628264
+     "ukuran_pdf": 1628274
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "fi-04",
@@ -2065,27 +1404,18 @@
    "bab": "Figural - Figural Serial",
    "judul": "Figural Serial",
    "dokumen": "https://drive.google.com/file/d/1VtHImmtU8JJ2ajCPKAF0c9dSboR0fDP-/view",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 15,
-     "nama": "TIU - Figural - Figural Serial (General)",
+     "nama": "TIU - Figural - Figural Serial",
      "pptx": "unduh/general/tiu-fi04-figural-serial.pptx",
      "pdf": "unduh/general/tiu-fi04-figural-serial.pdf",
      "sampul": "sampul/general/tiu-fi04-figural-serial.jpg",
-     "ukuran_pptx": 1295355,
-     "ukuran_pdf": 1651586
-    },
-    "general-foto": {
-     "slide": 15,
-     "nama": "TIU - Figural - Figural Serial (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-fi04-figural-serial.pptx",
-     "pdf": "unduh/general-foto/tiu-fi04-figural-serial.pdf",
-     "sampul": "sampul/general-foto/tiu-fi04-figural-serial.jpg",
      "ukuran_pptx": 1295594,
-     "ukuran_pdf": 1931691
+     "ukuran_pdf": 1931685
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "fi-05",
@@ -2093,27 +1423,18 @@
    "bab": "Figural - Figural Matriks",
    "judul": "Figural Matriks",
    "dokumen": "https://drive.google.com/file/d/1dYGzHv3qvcWk-QBvZrF53txr5YvTJZiA/view",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 11,
-     "nama": "TIU - Figural - Figural Matriks (General)",
+     "nama": "TIU - Figural - Figural Matriks",
      "pptx": "unduh/general/tiu-fi05-figural-matriks.pptx",
      "pdf": "unduh/general/tiu-fi05-figural-matriks.pdf",
      "sampul": "sampul/general/tiu-fi05-figural-matriks.jpg",
-     "ukuran_pptx": 1220487,
-     "ukuran_pdf": 1513854
-    },
-    "general-foto": {
-     "slide": 11,
-     "nama": "TIU - Figural - Figural Matriks (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-fi05-figural-matriks.pptx",
-     "pdf": "unduh/general-foto/tiu-fi05-figural-matriks.pdf",
-     "sampul": "sampul/general-foto/tiu-fi05-figural-matriks.jpg",
      "ukuran_pptx": 1220725,
-     "ukuran_pdf": 1793964
+     "ukuran_pdf": 1793960
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "penalaran-logis",
@@ -2121,27 +1442,18 @@
    "bab": "Penalaran Logis",
    "judul": "Penalaran Logis",
    "dokumen": null,
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 18,
-     "nama": "TIU - Penalaran Logis (General)",
+     "nama": "TIU - Penalaran Logis",
      "pptx": "unduh/general/tiu-penalaran-logis.pptx",
      "pdf": "unduh/general/tiu-penalaran-logis.pdf",
      "sampul": "sampul/general/tiu-penalaran-logis.jpg",
-     "ukuran_pptx": 949999,
-     "ukuran_pdf": 1292491
-    },
-    "general-foto": {
-     "slide": 18,
-     "nama": "TIU - Penalaran Logis (General, sampul foto)",
-     "pptx": "unduh/general-foto/tiu-penalaran-logis.pptx",
-     "pdf": "unduh/general-foto/tiu-penalaran-logis.pdf",
-     "sampul": "sampul/general-foto/tiu-penalaran-logis.jpg",
-     "ukuran_pptx": 950238,
-     "ukuran_pdf": 1572604
+     "ukuran_pptx": 950235,
+     "ukuran_pdf": 1572599
     }
-   },
-   "jenis": "materi"
+   }
   }
  ],
  "css": "/* Dibuat oleh generator/buat_situs.py dari palet 'jadiasn' (generator/palet.py). */\n:root { --header: #052C5F; --header-aksen: #E8B41E; --header-redup: #C9D6E6; --aksen: #052C5F; --aksen-teks: #FFFFFF; --kuning: #E8B41E; --kuning-teks: #052C5F; --pdf-bg: #E8B41E; --pdf-teks: #052C5F; --pdf-garis: #E8B41E; --pilih: #3D6E99; --fokus: #3D6E99; --bg: #F3F6FA; --teks: #0E2440; --redup: #46597A; --samar: #7D8CA3; --garis: #DDE4EE; --sorot: #E8EFF7; }\n@media (prefers-color-scheme: dark) { :root:not([data-theme=\"light\"]) { --aksen: #E8B41E; --aksen-teks: #052C5F; --pdf-bg: transparent; --pdf-teks: #E8B41E; --pilih: #E8B41E; --fokus: #E8B41E; --bg: #031C3D; --kartu: #0A2A52; --teks: #E9EFF7; --redup: #B5C3D6; --garis: #1C3F6B; --sorot: #0F335F; } }\n:root[data-theme=\"dark\"] { --aksen: #E8B41E; --aksen-teks: #052C5F; --pdf-bg: transparent; --pdf-teks: #E8B41E; --pilih: #E8B41E; --fokus: #E8B41E; --bg: #031C3D; --kartu: #0A2A52; --teks: #E9EFF7; --redup: #B5C3D6; --garis: #1C3F6B; --sorot: #0F335F; }\n"

@@ -46,8 +46,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Saat membagi benda menjadi kelompok yang sama besar, mungkin semua benda masuk ke kelompok, atau ada yang tersisa. Keterbagian membantu kita mengenali dua keadaan itu. Misalnya, 12 benda dapat dikelompokkan berempat tanpa sisa, sedangkan 14 benda menyisakan 2.",
-      "Kita akan mulai dari arti sisa pembagian. Setelah itu, kita akan melihat cara memeriksa keterbagian dari angka penyusun suatu bilangan. Cara ini berguna untuk memilih ukuran kelompok, memeriksa pembagian, dan menyederhanakan pecahan."
+      "Saat membagi benda menjadi kelompok yang sama besar, mungkin semua benda masuk ke kelompok, atau ada yang tersisa. Keterbagian membantu kita mengenali dua keadaan itu. Misalnya, 12 benda dapat dikelompokkan berempat tanpa sisa, sedangkan 14 benda menyisakan 2."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -99,10 +98,6 @@
             {
               "jenis": "paragraf",
               "teks": "Dengan ukuran kelompok 4, sebanyak 12 benda membentuk 3 kelompok dan tidak bersisa. Sebanyak 14 benda juga membentuk 3 kelompok lengkap, tetapi tersisa 2 benda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bilangan yang dibagi dapat disusun kembali dari pembagi dikali hasil bagi, lalu ditambah sisa. Pada pembagian 14 oleh 4, empat benda dalam masing-masing dari tiga kelompok menghasilkan 12 benda. Tambahkan dua benda yang tersisa untuk mendapatkan 14. Sisa selalu lebih kecil daripada pembagi positif. Jika masih ada 4 benda tersisa, kita dapat membuat satu kelompok lengkap lagi."
             },
             {
               "jenis": "paragraf",
@@ -185,10 +180,6 @@
               ]
             },
             {
-              "jenis": "paragraf",
-              "teks": "Untuk bilangan yang lebih pendek daripada jumlah angka yang diminta, periksa bilangan itu seluruhnya. Misalnya, untuk memeriksa apakah 24 habis dibagi 8, cukup bagi 24 dengan 8. Untuk pembagi yang belum dikenal aturannya, gunakan pembagian langsung atau periksa kelipatan terdekat. Misalnya, 49 habis dibagi 7 karena 7 kali 7 menghasilkan 49."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Mengapa aturan angka terakhir bekerja?"
             },
@@ -197,20 +188,12 @@
               "teks": "Contohnya 516. Bilangan ini terdiri dari 500 dan 16. Bagian 500 pasti habis dibagi 4 karena 100 habis dibagi 4. Kita tinggal memeriksa 16. Karena 16 juga habis dibagi 4, maka 516 habis dibagi 4."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Untuk pembagi 2, 5, dan 10, semua puluhan utuh pasti habis dibagi. Itulah sebabnya cukup melihat satuan. Untuk pembagi 8, setiap ribuan utuh habis dibagi 8, sehingga tiga angka terakhir cukup. Misalnya, pada 3.216, bagian 3.000 sudah habis dibagi 8 dan bagian 216 juga habis dibagi 8."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Mengapa jumlah angka bisa dipakai?"
             },
             {
               "jenis": "paragraf",
               "teks": "Ambil 372. Bilangan itu terdiri dari 300, 70, dan 2. Dari 300 kita dapat menyisihkan 297, dan dari 70 kita dapat menyisihkan 63. Kedua bagian yang disisihkan habis dibagi 9. Bagian yang tinggal adalah 3, 7, dan 2. Jumlahnya 12, sehingga 372 tidak habis dibagi 9. Karena 12 habis dibagi 3, maka 372 habis dibagi 3."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Polanya berlaku karena 9 lebih kecil satu dari 10 dan 99 lebih kecil satu dari 100. Puluhan dan ratusan dapat dipisah menjadi kelipatan 9 serta angka yang menempati posisi itu. Karena setiap kelipatan 9 juga habis dibagi 3, cara menjumlahkan angka dapat digunakan untuk kedua pembagi."
             },
             {
               "jenis": "subjudul",
@@ -223,10 +206,6 @@
             {
               "jenis": "paragraf",
               "teks": "Untuk 12, periksa keterbagian oleh 3 dan 4. Contohnya 132. Jumlah angkanya 6 dan dua angka terakhirnya membentuk 32. Keduanya memenuhi aturan masing-masing, sehingga 132 habis dibagi 12."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pasangan pemeriksaan tidak bisa dipilih sembarang. Misalnya, 18 habis dibagi 2 dan 6, tetapi tidak habis dibagi 12. Pemeriksaan kelipatan 2 sudah tercakup dalam kelipatan 6. Untuk memastikan kelipatan 12, gunakan pasangan 3 dan 4."
             }
           ]
         }
@@ -243,10 +222,6 @@
             {
               "jenis": "paragraf",
               "teks": "Nol habis dibagi oleh setiap bilangan bulat selain nol. Misalnya, membagi nol benda ke kelompok berisi tujuh menghasilkan nol kelompok tanpa sisa. Pembagian dengan pembagi nol tidak terdefinisi, termasuk ketika bilangan yang dibagi juga nol."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tanda negatif tidak mengubah keterbagian. Misalnya, 24 habis dibagi 6 dan −24 juga habis dibagi 6, dengan hasil bagi −4. Aturan berdasarkan angka dapat diterapkan pada nilai tanpa tandanya."
             },
             {
               "jenis": "paragraf",
@@ -273,6 +248,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Habis dibagi berarti tidak ada sisa. Pilih aturan sesuai pembagi, lalu periksa bagian bilangan yang tepat. Jika pembagi memerlukan dua syarat, pastikan keduanya terpenuhi. Jika bilangan tidak habis dibagi, kita masih bisa mencari hasil bagi dan sisanya dari kelipatan terdekat. Pemahaman ini menjadi dasar untuk membahas faktor, kelipatan, dan hubungan keduanya pada bab berikutnya."
+    "pesan": "Habis dibagi berarti tidak ada sisa. Pilih aturan sesuai pembagi, lalu periksa bagian bilangan yang tepat. Jika pembagi memerlukan dua syarat, pastikan keduanya terpenuhi."
   }
 }

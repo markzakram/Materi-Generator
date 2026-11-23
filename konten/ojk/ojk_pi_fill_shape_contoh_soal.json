@@ -4,6 +4,7 @@
     "subtes": "Tes Kemampuan Umum",
     "nama_file": "OJK TKU - Contoh Soal Fill Shape",
     "sumber": "https://docs.google.com/document/d/1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi/edit",
+    "lewati_kosong": true,
     "bagian": "soal",
     "id_katalog": "pi-01-soal"
   },
@@ -58,7 +59,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-21.png",
+              "file": "media/ojk_pi_fill_shape/gambar-02.png",
               "lebar": 6.05,
               "tinggi": 1.5
             },
@@ -95,10 +96,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Gambar 4 sama dengan gambar 1 secara lengkap. Setelah siklus tiap bagian teruji, gambar 5 sama dengan gambar 2."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isian yang perlu dihindari: Memutar gambar saja mempertahankan jumlah bagian tiap warna. Pada gambar 4 hanya ada satu bagian hijau, sedangkan gambar 5 memiliki dua. Bagian tengah (4) berubah dari putih menjadi hijau."
             }
           ]
         },
@@ -112,7 +109,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-22.png",
+              "file": "media/ojk_pi_fill_shape/gambar-03.png",
               "lebar": 6.05,
               "tinggi": 1.5
             },
@@ -146,7 +143,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-23.png",
+              "file": "media/ojk_pi_fill_shape/gambar-04.png",
               "lebar": 1.6,
               "tinggi": 1.18
             },
@@ -172,7 +169,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-24.png",
+              "file": "media/ojk_pi_fill_shape/gambar-05.png",
               "lebar": 6.05,
               "tinggi": 1.5
             },
@@ -206,7 +203,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-25.png",
+              "file": "media/ojk_pi_fill_shape/gambar-06.png",
               "lebar": 1.6,
               "tinggi": 1.18
             },
@@ -232,7 +229,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-26.png",
+              "file": "media/ojk_pi_fill_shape/gambar-07.png",
               "lebar": 6.05,
               "tinggi": 1.5
             },
@@ -266,7 +263,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-27.png",
+              "file": "media/ojk_pi_fill_shape/gambar-08.png",
               "lebar": 1.6,
               "tinggi": 1.18
             },
@@ -275,10 +272,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Tulis panjang langkahnya: satu, dua, satu, lalu dua. Jangan otomatis mengulang langkah terakhir."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isian yang perlu dihindari: Hijau di 6 dan ungu di 3 mempertahankan pasangan berseberangan, tetapi salah panjang langkah. Karena itu, hubungan antardua warna saja belum cukup menentukan jawaban."
             }
           ]
         },
@@ -292,7 +285,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-28.png",
+              "file": "media/ojk_pi_fill_shape/gambar-09.png",
               "lebar": 5.75,
               "tinggi": 3.6
             },
@@ -310,14 +303,6 @@
           "pembahasan": [
             {
               "jenis": "paragraf",
-              "teks": "1. Pisahkan gambar 1, 3, dan 5. Ketiganya memuat hijau pada bagian 1, 2, dan 3. Deret ganjil bergerak satu bagian searah jarum jam."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "2. Pisahkan gambar 2, 4, dan 6. Ketiganya memuat ungu pada bagian 1, 2, dan 3. Deret genap memiliki perpindahan serupa, tetapi warna yang dipakai ungu."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "3. Nomor 7 termasuk ganjil. Jadi, teruskan hijau dari gambar 5, yaitu bagian 3, menuju bagian 4. Bagian 1, 2, dan 3 putih. Jangan memakai ungu dari gambar 6 hanya karena gambar itu paling dekat."
             },
             {
@@ -329,10 +314,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Untuk gambar 7, baca 1 → 3 → 5 → 7. Nomor gambar dan nomor bagian mempunyai fungsi yang berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isian yang perlu dihindari: Bagian 3 ungu mengulang gambar 6. Bagian 4 ungu memakai posisi yang tepat tetapi warna deret genap. Bagian 1 hijau mengembalikan siklus sebelum lintasan empat bagian selesai dilalui."
             }
           ]
         },
@@ -346,7 +327,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-29.png",
+              "file": "media/ojk_pi_fill_shape/gambar-10.png",
               "lebar": 6.05,
               "tinggi": 1.5
             },
@@ -368,19 +349,11 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "2. Uji dari gambar 2 ke 3. Hijau 4 dicerminkan ke 3 lalu menjadi ungu; ungu 2 dicerminkan ke 1 lalu menjadi hijau. Hasilnya tepat sama dengan gambar 3. Perubahan berikutnya juga sesuai."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "3. Terapkan aturan pada gambar 4. Hasilnya bagian 1 hijau dan bagian 3 ungu, sedangkan 2 dan 4 putih. Susunan ini sama dengan gambar 1 dan 3."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Jawaban: Bagian 1 hijau; bagian 3 ungu bertitik; bagian 2 dan 4 putih."
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-30.png",
+              "file": "media/ojk_pi_fill_shape/gambar-11.png",
               "lebar": 1.6,
               "tinggi": 1.18
             },
@@ -389,10 +362,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Setelah aturan teruji, kenali susunan A–B–A–B. Gambar berikutnya kembali ke A."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isian yang perlu dihindari: Cermin saja menghasilkan hijau 3 dan ungu 1, sehingga warnanya tertukar dari jawaban. Pola ini juga dapat dinyatakan sebagai pertukaran dua susunan; pada deret terbatas, uraian aturan tidak selalu tunggal."
             }
           ]
         },
@@ -406,7 +375,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-31.png",
+              "file": "media/ojk_pi_fill_shape/gambar-12.png",
               "lebar": 6.05,
               "tinggi": 1.5
             },
@@ -440,7 +409,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_fill_shape/gambar-32.png",
+              "file": "media/ojk_pi_fill_shape/gambar-13.png",
               "lebar": 1.6,
               "tinggi": 1.18
             },
@@ -449,10 +418,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Lanjutkan luar dan dalam secara terpisah. Jangan menyalin seluruh gambar 2 hanya karena ungu sedang kembali ke posisi awal."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isian yang perlu dihindari: Ungu di 8 maju satu langkah. Ungu di 11 maju empat langkah. Hijau di ujung 2 menyalin gambar 2. Dari gambar 4, hijau harus maju dari ujung 4 ke ujung 5."
             }
           ]
         }

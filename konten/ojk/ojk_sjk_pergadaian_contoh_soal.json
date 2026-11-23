@@ -186,40 +186,6 @@
         },
         {
           "tipe": "contoh_soal",
-          "judul": "Menghitung Kewajiban",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pinjaman gadai Rp4.000.000 dikenai biaya penggunaan dana Rp80.000 dan administrasi Rp20.000 dalam satu periode; abaikan biaya lain. Total pelunasan adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "Rp3.900.000",
-            "B": "Rp4.000.000",
-            "C": "Rp4.020.000",
-            "D": "Rp4.080.000",
-            "E": "Rp4.100.000"
-          },
-          "kunci": "E",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "**Konsep:** Perhitungan biaya ilustratif"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Total = Rp4.000.000 + Rp80.000 + Rp20.000 = Rp4.100.000."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Pokok + seluruh biaya yang dinyatakan."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
           "judul": "Jaminan Gadai vs Fidusia",
           "soal": [
             {
@@ -321,40 +287,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Pasangkan 39/2024 dan perubahan 29/2025."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Menghitung Kelebihan Penjualan",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Barang jaminan terjual Rp5.000.000. Total kewajiban dan biaya penanganan sah Rp4.200.000. Selisih ilustratifnya adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "Rp200.000",
-            "B": "Rp400.000",
-            "C": "Rp600.000",
-            "D": "Rp800.000",
-            "E": "Rp1.200.000"
-          },
-          "kunci": "D",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "**Konsep:** Selisih hasil penjualan"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Selisih = Rp5.000.000 − Rp4.200.000 = Rp800.000. Perlakuan dan penyaluran selisih mengikuti peraturan dan perjanjian."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Hasil jual kurang kewajiban sah."
             }
           ]
         },
@@ -534,54 +466,6 @@
         },
         {
           "tipe": "contoh_soal",
-          "judul": "Nilai Pinjaman",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Nilai taksir barang Rp8 juta dan maksimum pinjaman 80%. Pinjaman maksimum ilustratif adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "Rp800 ribu",
-            "B": "Rp1,6 juta",
-            "C": "Rp6,4 juta",
-            "D": "Rp8,8 juta",
-            "E": "Rp10 juta"
-          },
-          "kunci": "C",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "0,8 × Rp8 juta = Rp6,4 juta. Persentase pada soal bersifat ilustratif."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Biaya Pelunasan",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pokok gadai Rp3 juta, biaya layanan Rp120 ribu dan administrasi Rp30 ribu yang belum dibayar. Total pelunasan adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "Rp3 juta",
-            "B": "Rp3,12 juta",
-            "C": "Rp3,15 juta",
-            "D": "Rp3,3 juta",
-            "E": "Rp3,5 juta"
-          },
-          "kunci": "C",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "3.000.000 + 120.000 + 30.000 = Rp3.150.000."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
           "judul": "Gadai dan Fidusia",
           "soal": [
             {
@@ -615,30 +499,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Gadai = penguasaan barang beralih. Fidusia = barang umumnya tetap dikuasai pemberi fidusia."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Selisih Lelang",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Hasil penjualan Rp9 juta; kewajiban dan biaya sah Rp8,2 juta. Selisih lebih ilustratif adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "Rp200 ribu",
-            "B": "Rp800 ribu",
-            "C": "Rp1,2 juta",
-            "D": "Rp8,2 juta",
-            "E": "Rp9 juta"
-          },
-          "kunci": "B",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "9 − 8,2 = Rp0,8 juta, dengan asumsi seluruh biaya sudah diperhitungkan."
             }
           ]
         },

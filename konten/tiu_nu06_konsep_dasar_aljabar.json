@@ -46,8 +46,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Aljabar memakai huruf untuk mewakili bilangan. Jika satu kotak berisi sejumlah pensil yang belum diketahui, huruf x bisa mewakili isi kotak itu. Tiga kotak dengan isi yang sama dapat ditulis sebagai tiga kali x. Dengan cara ini, suatu hubungan bisa ditulis sebelum angkanya diketahui.",
-      "Bab ini membahas cara membaca bagian-bagian bentuk aljabar, mengerjakan operasi sederhana, dan menghitung nilainya ketika nilai huruf sudah diberikan. Di akhir bab, kita juga akan mengenali tanda sama dengan dan dua ruas pada persamaan."
+      "Aljabar memakai huruf untuk mewakili bilangan. Jika satu kotak berisi sejumlah pensil yang belum diketahui, huruf x bisa mewakili isi kotak itu. Tiga kotak dengan isi yang sama dapat ditulis sebagai tiga kali x. Dengan cara ini, suatu hubungan bisa ditulis sebelum angkanya diketahui."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -108,43 +107,6 @@
               "teks": "Variabel adalah huruf atau simbol yang mewakili suatu bilangan, seperti x dan y. Koefisien adalah bilangan pengali suatu suku yang memuat variabel. Konstanta adalah suku yang tidak memuat variabel, sehingga nilainya tetap."
             },
             {
-              "jenis": "tabel",
-              "kolom": [
-                "Suku",
-                "Bagian variabel",
-                "Koefisien",
-                "Keterangan"
-              ],
-              "baris": [
-                [
-                  "3x",
-                  "x",
-                  "3",
-                  "Nilai x dikali 3."
-                ],
-                [
-                  "−2y",
-                  "y",
-                  "−2",
-                  "Tanda negatif ikut pada koefisien."
-                ],
-                [
-                  "5",
-                  "—",
-                  "—",
-                  "Konstanta. Nilainya tetap."
-                ]
-              ]
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$x = 1x; −y = −1y$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika angka pengali tidak ditulis, perhatikan tandanya. Koefisien x adalah 1, sedangkan koefisien −y adalah −1. Penulisan 3x berarti 3 dikali x."
-            },
-            {
               "jenis": "gambar",
               "file": "media/tiu_nu06_konsep_dasar_aljabar/gambar-01.png",
               "lebar": 6.11,
@@ -153,18 +115,6 @@
             {
               "jenis": "paragraf",
               "teks": "Dari kiri ke kanan, lingkaran menandai variabel, koefisien, dan konstanta."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "**Variabel.** Pada gambar pertama, lingkaran menandai huruf x, a, dan y. Huruf-huruf itu mewakili bilangan. Pada contoh terakhir, y muncul di kedua ruas dan mewakili nilai yang sama dalam satu persamaan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "**Koefisien.** Pada gambar kedua, lingkaran menandai angka pengali variabel. Huruf x yang berdiri sendiri mempunyai pengali 1. Angka 2 mengalikan a, sedangkan angka 3 dan 2 masing-masing mengalikan y di ruas kiri dan ruas kanan pada contoh ketiga."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "**Konstanta.** Pada gambar ketiga, lingkaran menandai angka yang berdiri tanpa variabel. Pasangannya adalah 3 dan 8, −5 dan 11, serta 4 dan 9. Angka 5 terlihat di dalam lingkaran, tetapi tanda kurang di depannya tetap dibaca, sehingga suku konstantanya −5."
             }
           ]
         }
@@ -180,7 +130,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Suku sejenis mempunyai bagian variabel yang sama, termasuk pangkatnya. Koefisien boleh berbeda. Pada pangkat bulat positif, pangkat menyatakan banyaknya faktor yang sama. Misalnya, x kuadrat berarti dua faktor x dikalikan."
+              "teks": "Suku sejenis mempunyai bagian variabel yang sama, termasuk pangkatnya. Koefisien boleh berbeda."
             },
             {
               "jenis": "sorot",
@@ -188,11 +138,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Semua suku di atas memuat x berpangkat satu. Karena itu, kita cukup menjumlahkan atau mengurangkan koefisiennya. Suku yang memuat x dan suku yang memuat y tidak sejenis. Begitu pula suku yang memuat x dan suku yang memuat x kuadrat. Konstanta dapat digabung dengan konstanta lain."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Selain pangkat satu, kita juga bisa menggabungkan suku yang memuat pangkat lebih tinggi. Perhatikan pangkat x pada setiap suku berikut."
+              "teks": "Semua suku di atas memuat x berpangkat satu. Karena itu, kita cukup menjumlahkan atau mengurangkan koefisiennya."
             },
             {
               "jenis": "sorot",
@@ -201,18 +147,6 @@
             {
               "jenis": "paragraf",
               "teks": "Suku berpangkat tiga dapat digabung karena bagian variabelnya sama. Suku berpangkat dua tetap berdiri sendiri. Pangkat pada hasil penjumlahan tidak ikut dijumlahkan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bentuk akar juga bisa muncul bersama suku lain. Jika bagian akarnya sudah dalam bentuk sederhana dan sama, gabungkan pengalinya seperti pada contoh berikut."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$3√2 + √2 − √3 = 4√2 − √3$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Akar dari 2 dan akar dari 3 adalah bilangan tetap. Bentuk akar dari 2 muncul dua kali dengan pengali 3 dan 1, sehingga pengalinya menjadi 4. Bagian akar dari 3 tetap terpisah karena bentuk akarnya berbeda."
             }
           ]
         }
@@ -254,7 +188,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Pengurangan di depan kurung berlaku untuk semua suku di dalamnya. Saat kurung kedua dihilangkan, x dan 2 sama-sama dikurangkan. Jika di dalam kurung ada suku negatif, mengurangkan suku tersebut akan mengubahnya menjadi positif."
+              "teks": "Pengurangan di depan kurung berlaku untuk semua suku di dalamnya. Saat kurung kedua dihilangkan, x dan 2 sama-sama dikurangkan."
             },
             {
               "jenis": "subjudul",
@@ -277,14 +211,6 @@
             {
               "jenis": "paragraf",
               "teks": "Tiga kelompok memuat dua jenis bagian. Gabungkan tiga bagian 2x dan tiga bagian 4 secara terpisah."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$(2x)(3x) = (2 · 3)(x · x) = 6x²$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Saat dua suku dikalikan, kalikan bagian angkanya dan bagian variabelnya. Hasil kali dua x adalah x kuadrat. Aturan ini berbeda dari penjumlahan: dua x yang dijumlahkan menjadi 2x."
             },
             {
               "jenis": "subjudul",
@@ -347,14 +273,6 @@
               "teks": "Persamaan adalah kalimat matematika yang menyatakan bahwa nilai dua bentuk sama. Tanda sama dengan memisahkan ruas kiri dari ruas kanan."
             },
             {
-              "jenis": "sorot",
-              "teks": "$2x + 1 = 9$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bentuk 2x + 1 berada di ruas kiri, sedangkan 9 berada di ruas kanan. Jika berdiri sendiri, 2x + 1 disebut bentuk aljabar. Setelah dihubungkan dengan 9 melalui tanda sama dengan, keduanya membentuk persamaan."
-            },
-            {
               "jenis": "gambar",
               "file": "media/tiu_nu06_konsep_dasar_aljabar/gambar-04.png",
               "lebar": 3.11,
@@ -393,6 +311,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Saat membaca bentuk aljabar, kenali suku dan tandanya terlebih dahulu. Gabungkan hanya suku sejenis saat menjumlahkan atau mengurangkan. Jika ada pengali di luar kurung, kalikan dengan setiap suku di dalamnya. Jika nilai variabel sudah diketahui, gantikan variabel itu sebelum menghitung. Satu cara memeriksa penyederhanaan adalah mengganti variabel dengan bilangan yang sama pada bentuk awal dan bentuk hasil. Jika nilainya berbeda, periksa kembali tanda dan langkah operasinya. Kebiasaan membaca suku dan ruas akan membantu saat mempelajari persamaan."
+    "pesan": "Saat membaca bentuk aljabar, kenali suku dan tandanya terlebih dahulu. Gabungkan hanya suku sejenis saat menjumlahkan atau mengurangkan. Jika ada pengali di luar kurung, kalikan dengan setiap suku di dalamnya. Jika nilai variabel sudah diketahui, gantikan variabel itu sebelum menghitung."
   }
 }

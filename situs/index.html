@@ -239,7 +239,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
       inp.addEventListener("change", () => { tema = t.id; tulis(kunciTema, tema); gambar(); });
       const contoh = D.materi[0] && D.materi[0].tema[t.id];  // sampul materi pertama sebagai pratinjau
       const img = document.createElement("img");
-      img.alt = ""; if (contoh) img.src = `${id}/${contoh.sampul}`;
+      img.alt = ""; if (contoh) img.src = `${id}/${contoh.sampul}${versi(contoh)}`;
       img.onerror = () => { img.removeAttribute("src"); };
       const s = document.createElement("span"); s.textContent = t.nama;
       lab.append(inp, img, s); pilih.append(lab);
@@ -255,10 +255,13 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
     gambar();
   }
 
+  // Penanda versi di alamat berkas: browser tidak memakai simpanan lama setelah deck dibangun ulang.
+  const versi = (t) => `?v=${D.dibuat}-${t.ukuran_pptx || 0}`;
+
   function tombol(jenis, t) {
     const a = document.createElement("a");
     a.className = "tombol " + jenis;
-    a.href = `${app}/${t[jenis]}`;
+    a.href = `${app}/${t[jenis]}${versi(t)}`;
     a.download = t.nama + "." + jenis;
     const ukuran = t["ukuran_" + jenis];
     if (ukuran == null) a.setAttribute("aria-disabled", "true");
@@ -301,7 +304,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 16px 32px; font-size: 12p
         const kartu = document.createElement("article"); kartu.className = "kartu";
         const img = document.createElement("img");
         img.className = "sampul"; img.loading = "lazy"; img.alt = `Sampul ${m.judul}`;
-        img.src = `${app}/${t.sampul}`;
+        img.src = `${app}/${t.sampul}${versi(t)}`;
         img.onerror = () => { img.removeAttribute("src"); };
         const isiKartu = document.createElement("div"); isiKartu.className = "isi";
         const h3 = document.createElement("h3"); h3.textContent = m.judul;

@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Aturan “Jika berkas lengkap, maka berkas diperiksa” membantu kita menarik kesimpulan dari fakta yang diberikan. Jika berkas lengkap, kita tahu berkas diperiksa. Jika hanya diketahui berkas diperiksa, kelengkapannya belum pasti.",
-      "Dalam bab ini, dua premis menjadi dasar untuk menentukan kesimpulan yang pasti."
+      "Aturan “Jika berkas lengkap, maka berkas diperiksa” membantu kita menarik kesimpulan dari fakta yang diberikan. Jika berkas lengkap, kita tahu berkas diperiksa. Jika hanya diketahui berkas diperiksa, kelengkapannya belum pasti."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -63,11 +62,6 @@
         "level": "",
         "kko": "Membedakan",
         "teks": "Modus Ponens, Modus Tollens, Silogisme Kondisional, dan dua pola Tidak Dapat Disimpulkan."
-      },
-      {
-        "level": "",
-        "kko": "Menarik",
-        "teks": "kesimpulan yang pasti dari dua premis sambil mempertahankan kata “tidak” dan rincian penting dalam kalimat."
       }
     ]
   },
@@ -83,18 +77,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pada “Jika berkas lengkap, maka berkas diperiksa”, p berarti “berkas lengkap” dan q berarti “berkas diperiksa”. Rumus p → q dibaca “Jika p, maka q”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Premis kedua dapat berupa fakta atau aturan lanjutan. Pertahankan kata seperti “boleh”, “wajib”, dan “sudah” karena mengubah makna."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Ketentuan “Jika berkas lengkap, maka pemohon boleh mengambil nomor antrean” menyatakan izin. Jika berkas lengkap, yang dapat disimpulkan adalah pemohon boleh mengambil nomor, bukan bahwa pemohon sudah mengambilnya. Pertahankan arti kata seperti “boleh” saat menerjemahkan rumus kembali ke kalimat."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tanda ¬ dibaca “tidak”. Jika q berarti “berkas diperiksa”, ¬q berarti “berkas tidak diperiksa”."
             },
             {
               "jenis": "subjudul",
@@ -136,14 +118,6 @@
                   ""
                 ]
               ]
-            },
-            {
-              "jenis": "subjudul",
-              "teks": ""
-            },
-            {
-              "jenis": "subjudul",
-              "teks": ""
             }
           ]
         }
@@ -168,10 +142,6 @@
             {
               "jenis": "paragraf",
               "teks": "**Kesimpulan:** q"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan Modus Ponens jika fakta pada premis kedua sama dengan bagian “jika”. Ambil bagian “maka” sebagai kesimpulan. Misalnya, jika aturannya “Jika berkas lengkap, maka berkas diperiksa” dan faktanya berkas lengkap, simpulkan bahwa berkas diperiksa."
             }
           ]
         }
@@ -196,14 +166,6 @@
             {
               "jenis": "paragraf",
               "teks": "**Kesimpulan:** ¬p"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan Modus Tollens jika fakta pada premis kedua menyangkal bagian “maka”. Balik bagian “jika” sebagai kesimpulan. Dengan aturan “Jika berkas lengkap, maka berkas diperiksa”, fakta bahwa berkas tidak diperiksa membuat kita dapat menyimpulkan bahwa berkas tidak lengkap."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika bagian “jika” sudah memuat kata “tidak”, balik seluruh bagian itu. Kebalikan “formulir tidak ditandatangani” adalah “formulir ditandatangani”."
             }
           ]
         }
@@ -230,23 +192,11 @@
               "teks": "**Kesimpulan:** p → r"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Cari pernyataan yang muncul setelah “maka” pada aturan pertama dan setelah “jika” pada aturan kedua. Jika maknanya sama, gabungkan bagian “jika” pada aturan pertama dengan bagian “maka” pada aturan kedua."
-            },
-            {
               "jenis": "gambar",
               "file": "media/tiu_vs02_logika_kondisional/gambar-01.png",
               "lebar": 5.91,
               "tinggi": 2.21,
               "keterangan": "Gambar 1. “Berkas diperiksa” adalah bagian yang menyambungkan kedua aturan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kesimpulannya “Jika berkas lengkap, maka petugas mencatat hasilnya.” Kesimpulan tetap berupa aturan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Satu pernyataan penghubung harus sama maknanya pada kedua premis. Jika premis pertama menyebut “berkas diperiksa” dan premis kedua menyebut “berkas lolos pemeriksaan”, kedua aturan belum dapat disambung. Pemeriksaan dan kelulusan pemeriksaan adalah keadaan yang berbeda."
             }
           ]
         }
@@ -281,17 +231,6 @@
               "teks": "**Kesimpulan:** Tidak dapat disimpulkan apakah p benar."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Jika fakta hanya membenarkan bagian “maka”, periksa apakah bagian “jika” bisa benar atau salah. Dalam aturan “Jika berkas lengkap, maka berkas diperiksa”, berkas yang diperiksa masih bisa lengkap atau tidak lengkap."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vs02_logika_kondisional/gambar-02.png",
-              "lebar": 5.9,
-              "tinggi": 1.94,
-              "keterangan": "Gambar 2. Berkas yang lengkap dan yang tidak lengkap sama-sama mungkin diperiksa."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Bagian “jika” tidak terjadi"
             },
@@ -306,10 +245,6 @@
             {
               "jenis": "paragraf",
               "teks": "**Kesimpulan:** Tidak dapat disimpulkan apakah q benar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika fakta menyangkal bagian “jika”, periksa apakah bagian “maka” bisa benar atau salah. Dalam aturan “Jika berkas lengkap, maka berkas diperiksa”, berkas yang tidak lengkap bisa diperiksa untuk mendata kekurangannya atau dikembalikan sebelum diperiksa. Kedua kemungkinan itu sesuai dengan aturan."
             }
           ]
         }

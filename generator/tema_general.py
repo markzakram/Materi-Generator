@@ -25,9 +25,6 @@ R_NS = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
 EMU = 914400
 NAVBAR = (2.22, 10.04, 11.56, 0.65)  # x, y, w, h seperti di template
 BATAS_HALAMAN = 9.3  # bawah halaman putih pada slide berbingkai
-Y_DASAR_BAB = 5.5  # garis bawah teks materi besar di sampul (template: 4,17 + 1,37)
-WARNA_BAB = "navy"
-WARNA_JUDUL = "C68700"  # kuning tua: kontras ~3:1 di latar putih (kuning FBBB2B hanya 1,7:1)
 
 
 class TemplateGeneralTidakCocok(ValueError):
@@ -162,9 +159,9 @@ class TemaGeneral:
             besar = _teks_besar(s)
             gabung = " ".join(besar)
             if "MATERI BESAR" in gabung:
-                # dua varian sampul: putih (lengkung navy) dan foto (panel navy, 'boleh panjang')
-                foto = "BOLEH PANJANG" in " ".join(_teks_besar(s, 0)).upper().replace("(", " ").replace(")", " ")
-                hasil.setdefault("sampul_foto" if foto else "sampul", s)
+                # template punya dua sampul; yang dipakai sampul foto (panel navy, 'Judul Materi (boleh panjang)')
+                if "BOLEH PANJANG" in " ".join(_teks_besar(s, 0)).upper().replace("(", " ").replace(")", " "):
+                    hasil.setdefault("sampul", s)
             elif "TERIMA KASIH" in gabung:
                 hasil["terima_kasih"] = s  # varian terakhir (lingkaran navy-kuning)
             elif "PENDAHULUAN" in besar:
@@ -323,39 +320,25 @@ class TemaGeneral:
     # ----------------------------------------------------- slide khusus
     VARIAN_SAMPUL = ("putih", "foto")
 
-    def sampul(self, slide, besar, judul, tutor=None, varian="putih"):
-        """Sampul varian 'putih' (lengkung navy di kanan) atau 'foto' (panel navy di atas foto)."""
-        if varian == "foto":
-            if "sampul_foto" not in self.sumber:
-                raise TemplateGeneralTidakCocok("Template General tidak memuat sampul foto ('Judul Materi (boleh panjang)').")
-            # kotak abu 'Nama Tutor' di kanan bawah hanya dipakai bila ada nama tutor
-            self.salin_slide("sampul_foto", slide, lambda el: (
-                (el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
-                or (not tutor and el.tag == qn("p:grpSp") and _posisi(el)[0] > 10 and _posisi(el)[1] > 8.5)))
-            # teks di dalam panel navy (x 0,36-10,19): bab putih, judul kuning
-            self._judul_sampul(slide, 1.0, 8.2, 5.7, besar, judul, "putih", "kuning_di_gelap")
-            if tutor:
-                D.teks(slide, 11.36, 10.05, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
-                       jangkar="m", nama="Nama tutor")
-            D.teks(slide, 0.36, 9.18, 8.92, 0.4, [P(D.HAK_CIPTA, 16, "000000", rata="r", spasi=1.1)],
-                   nama="Hak cipta")
-            return
-        self.salin_slide("sampul", slide, lambda el: el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
-        # Area putih aman selebar 7,2 in (sebelum lengkung navy); judul berada tepat di bagian lengkung yang
-        # paling menjorok, jadi barisnya dibuat lebih pendek supaya tidak menyentuhnya.
-        self._judul_sampul(slide, 2.58, 7.2, Y_DASAR_BAB, besar, judul, WARNA_BAB, WARNA_JUDUL, lebar_judul=7.0)
+    def sampul(self, slide, besar, judul, tutor=None):
+        """Sampul foto: panel navy di atas foto, bab putih dan judul kuning di dalam panel (x 0,36-10,19)."""
+        # kotak abu 'Nama Tutor' di kanan bawah hanya dipakai bila ada nama tutor
+        self.salin_slide("sampul", slide, lambda el: (
+            (el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
+            or (not tutor and el.tag == qn("p:grpSp") and _posisi(el)[0] > 10 and _posisi(el)[1] > 8.5)))
+        self._judul_sampul(slide, 1.0, 8.2, 5.7, besar, judul, "putih", "kuning_di_gelap")
         if tutor:
-            D.teks(slide, 6.07, 9.34, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
+            D.teks(slide, 11.36, 10.05, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
                    jangkar="m", nama="Nama tutor")
-        D.teks(slide, 5.96, 10.05, 8.92, 0.4, [P(D.HAK_CIPTA, 16, "000000", rata="r", spasi=1.1)], nama="Hak cipta")
+        D.teks(slide, 0.36, 9.18, 8.92, 0.4, [P(D.HAK_CIPTA, 16, "000000", rata="r", spasi=1.1)], nama="Hak cipta")
 
     @staticmethod
-    def _judul_sampul(slide, x, lebar, y_dasar, besar, judul, warna_bab, warna_judul, lebar_judul=None):
+    def _judul_sampul(slide, x, lebar, y_dasar, besar, judul, warna_bab, warna_judul):
         """Seperti template: materi besar (bab) jauh lebih besar dari judul materi (subbab).
 
         Bab boleh dua baris agar tetap besar; garis bawahnya di y_dasar, judul tepat di bawahnya.
         """
-        def muat(teks, ukuran, maks_baris, lebar=lebar):
+        def muat(teks, ukuran, maks_baris):
             kata = max(D.lebar_pt(k, ukuran, True) for k in teks.split()) / 72
             return kata <= lebar * 0.95 and D.jumlah_baris(D.segmen(teks, tebal=True), ukuran, lebar) <= maks_baris
 
@@ -366,11 +349,10 @@ class TemaGeneral:
         D.teks(slide, x, y_dasar - h, lebar, h,
                [P(besar, ukuran, warna_bab, tebal=True, spasi=1.0)], jangkar="b", nama="Materi besar")
         u_judul = min(40, int(ukuran * 0.68))
-        lebar_judul = lebar_judul or lebar
-        while not muat(judul, u_judul, 2, lebar_judul) and u_judul > 24:
+        while not muat(judul, u_judul, 2) and u_judul > 24:
             u_judul -= 2
-        h = D.jumlah_baris(D.segmen(judul, tebal=True), u_judul, lebar_judul) * u_judul * 1.15 / 72 + 0.12
-        D.teks(slide, x, y_dasar + 0.12, lebar_judul, h,
+        h = D.jumlah_baris(D.segmen(judul, tebal=True), u_judul, lebar) * u_judul * 1.15 / 72 + 0.12
+        D.teks(slide, x, y_dasar + 0.12, lebar, h,
                [P(judul, u_judul, warna_judul, tebal=True, spasi=1.1)], nama="Judul sampul")
 
     def _isi_halaman(self, slide, par, y, w, h_maks, x=1.12):

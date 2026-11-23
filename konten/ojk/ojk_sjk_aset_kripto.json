@@ -107,10 +107,6 @@
               "teks": "Pembeda regulasi: Pasal 4 POJK 23/2025 mensyaratkan antara lain bahwa AKD yang diperdagangkan menggunakan teknologi buku besar terdistribusi atau teknologi lainnya, atau mengacu pada AKD dasar dalam Daftar Aset Keuangan Digital (DAKD). Kriteria ini juga mengecualikan aset keuangan yang hanya dicatat secara elektronik oleh lembaga jasa keuangan. Oleh sebab itu, saldo aplikasi pembayaran, file digital biasa, atau catatan rekening elektronik tidak otomatis menjadi AKD yang diperdagangkan menurut POJK ini."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pembedaan penting untuk soal: AKD merupakan kategori aset keuangan yang diatur; aset kripto merupakan salah satu jenisnya; derivatif AKD adalah kontrak yang mengacu pada aset digital dasar. Status perdagangan juga bergantung pada kriteria POJK dan keberadaan dalam DAKD, bukan popularitas atau penyimpanan digital semata."
-            },
-            {
               "jenis": "tabel",
               "kolom": [
                 "Istilah",
@@ -148,10 +144,6 @@
               "teks": "Kriptografi membantu memastikan integritas data dan proses autentikasi. Akan tetapi, keamanan desain jaringan tidak menghapus risiko pada aplikasi, penyelenggara, perangkat pengguna, kesalahan operasional, maupun rekayasa sosial. Istilah yang sering muncul ialah blok, hash, verifikasi, jaringan, dan buku besar terdistribusi (distributed ledger)."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Blockchain bukan sinonim aset kripto. Teknologi blockchain dapat mempunyai penggunaan lain; sebaliknya, karakteristik produk aset keuangan digital ditentukan oleh ketentuan yang berlaku, bukan hanya oleh klaim teknologinya."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Jenis dan Karakteristik Produk Digital"
             },
@@ -174,14 +166,6 @@
             {
               "jenis": "paragraf",
               "teks": "UU Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan (UU P2SK) menjadi dasar peralihan pengaturan dan pengawasan AKD termasuk aset kripto dari Bappebti ke OJK. Serah terima dan dimulainya pelaksanaan kewenangan OJK berlangsung pada 10 Januari 2025, sedangkan masa transisi kerja sama secara resmi diakhiri pada 20 Januari 2026."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "POJK Nomor 27 Tahun 2024 berlaku mulai 10 Januari 2025 dan menjadi kerangka penyelenggaraan perdagangan AKD termasuk kripto. POJK Nomor 23 Tahun 2025 yang berlaku mulai 10 November 2025 mengubah sejumlah ketentuan, termasuk cakupan AKD dan pengaturan derivatif."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "UU Nomor 4 Tahun 2026, berlaku 17 Juni 2026, mengubah UU P2SK dan menambahkan pengaturan khusus LJK Aset Kripto melalui Pasal 221A–221F. Ketentuan yang relevan mencakup pengelompokan pedagang, bursa, lembaga kliring, dan pengelola tempat penyimpanan sebagai LJK Aset Kripto; perizinan dan kewenangan pengawasan OJK; tanggung jawab pelaku atas kerugian konsumen akibat pelanggaran; serta kerahasiaan informasi konsumen. Pasal 221F memperluas penerapan ketentuan tersebut, dengan penyesuaian yang sesuai, kepada LJK AKD selain aset kripto. Pembaruan undang-undang ini tidak mengubah fakta bahwa peralihan kewenangan pengawasan telah dimulai 10 Januari 2025."
             },
             {
               "jenis": "paragraf",
@@ -286,10 +270,6 @@
               "teks": "Perdagangan AKD diselenggarakan melalui ekosistem yang memisahkan fungsi transaksi, kliring, dan penyimpanan. Secara konseptual, terdapat pencatatan permintaan dan penawaran, pertemuan transaksi sesuai ketentuan, proses penyelesaian hak dan kewajiban, serta penyimpanan aset yang menjadi objek perdagangan."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pemisahan fungsi bertujuan mendukung keteraturan, pengendalian risiko, serta pengawasan. Pelaksanaan nyata mengikuti izin, perjanjian, dan aturan bursa serta lembaga terkait. Uraian ini menjelaskan alur kelembagaan; bukan petunjuk untuk melakukan transaksi."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Daftar Aset Keuangan Digital (DAKD)"
             },
@@ -298,24 +278,12 @@
               "teks": "Daftar Aset Keuangan Digital (DAKD) yang ditetapkan bursa merupakan rujukan untuk mengetahui aset yang diperkenankan diperdagangkan dalam ruang lingkup penyelenggaraan yang diatur OJK. Berdasarkan POJK 23/2025, penyelenggara dilarang memperdagangkan AKD di luar daftar yang ditetapkan bursa."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Aset yang tercantum dalam daftar bukan berarti harganya dijamin aman atau bebas turun. Demikian pula, suatu perusahaan berizin bukan berarti setiap tawarannya benar atau setiap hasil investasi dipastikan positif. Peserta perlu membedakan kelayakan diperdagangkan, izin lembaga, dan risiko pasar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika terdapat contoh soal yang menyebut “aset populer tetapi belum ada di DAKD”, penentu jawabannya adalah ketentuan daftar aset, bukan jumlah pengikut atau promosi media sosial."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Aset Kripto Bukan Alat Pembayaran yang Sah"
             },
             {
               "jenis": "paragraf",
               "teks": "Bank Indonesia menegaskan virtual currency termasuk bitcoin tidak diakui sebagai alat pembayaran yang sah di Indonesia. Rupiah tetap menjadi mata uang yang sah dalam transaksi pembayaran sesuai hukum mata uang. Karena itu, dua kalimat berikut tidak boleh disamakan: “aset kripto dapat menjadi objek perdagangan sesuai regulasi” dan “aset kripto sah digunakan membayar kewajiban dalam rupiah”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Peran OJK adalah mengatur dan mengawasi perdagangan AKD dalam ruang lingkup kewenangannya, bukan mengubah kedudukan rupiah sebagai mata uang nasional. Pembedaan ini kerap menjadi sumber soal yang menuntut penalaran, bukan hafalan merek aset."
             },
             {
               "jenis": "subjudul",
@@ -328,10 +296,6 @@
             {
               "jenis": "paragraf",
               "teks": "Prinsip pelindungan konsumen mencakup informasi yang jelas dan tidak menyesatkan, tata kelola, pengelolaan risiko, penanganan pengaduan, pelindungan data pribadi, serta pengendalian dan pemisahan atas dana/aset konsumen sesuai peraturan. Kewajiban perusahaan tidak menghapus risiko perubahan harga."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pernyataan yang keliru misalnya “karena diawasi OJK, risiko pasar otomatis ditanggung negara”. Yang benar, pengawasan diarahkan pada penyelenggaraan pasar yang tertib dan pelindungan konsumen menurut kewenangan, bukan jaminan terhadap nilai suatu aset."
             },
             {
               "jenis": "subjudul",
@@ -356,10 +320,6 @@
             {
               "jenis": "paragraf",
               "teks": "Risiko hukum dan kepatuhan terkait perubahan ketentuan, izin, dan batas kegiatan. Risiko konsentrasi muncul jika kepemilikan sangat terpusat sehingga tindakan pihak tertentu dapat menggerakkan pasar. Risiko nilai acuan dapat terjadi pada token yang didesain stabil ketika mekanisme dukungan atau kepercayaan pasar melemah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kunci soal risiko adalah mengenali sumber masalah. Harga turun karena tekanan penawaran bukan otomatis gangguan keamanan siber; platform terkena serangan bukan otomatis akibat nilai tukar; token stabil yang menjauh dari nilai acuannya menunjukkan risiko penopang/pegging."
             },
             {
               "jenis": "tabel",
@@ -405,28 +365,12 @@
               "teks": "Penawaran yang menjanjikan keuntungan tetap dan pasti, mengaburkan identitas penyelenggara, mengatasnamakan pejabat atau regulator tanpa bukti, maupun meminta transfer ke pihak tak jelas merupakan tanda yang perlu dianalisis secara kritis. Skema bergantung pada perekrutan peserta baru dapat mengandung ciri penipuan berantai."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Satgas PASTI menekankan pentingnya memeriksa legalitas pihak yang menawarkan, memeriksa daftar aset, menghindari janji tidak logis, dan memahami risiko. Untuk materi ujian, jawaban terbaik biasanya mendahulukan verifikasi fakta dan prosedur pengaduan, bukan menerima klaim keuntungan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dokumen bukti komunikasi dan transaksi penting dalam proses pengaduan. Namun, tindak lanjut atas dugaan pelanggaran tetap mengikuti saluran resmi pihak penyelenggara dan otoritas yang berwenang."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Perbedaan Perdagangan Spot dan Derivatif AKD"
             },
             {
               "jenis": "paragraf",
               "teks": "Perdagangan spot pada tingkat konsep melibatkan pertukaran aset menurut transaksi yang terjadi saat itu. Derivatif AKD adalah kontrak yang nilainya mengacu pada pergerakan AKD tertentu. Karena sifat kontraktualnya, derivatif memiliki unsur tambahan seperti jaminan (margin), persyaratan penyelesaian, dan paparan risiko yang berbeda dari kepemilikan aset langsung."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "POJK 23/2025 memperluas kerangka pengaturan derivatif AKD. OJK mensyaratkan persetujuan tertentu bagi bursa untuk kegiatan derivatif, serta mengatur kewajiban pemberitahuan dan pengendalian oleh pedagang sesuai lingkup kegiatan. Konsumen yang akan melakukan perdagangan derivatif diwajibkan mengikuti knowledge test yang diselenggarakan pedagang."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dalam pembelajaran, jangan menyimpulkan semua produk kripto identik dengan derivatif. Jenis instrumen ditentukan oleh struktur hak dan kewajiban. Derivatif dapat membawa risiko tinggi sehingga lebih tepat dipahami sebagai topik regulasi dan manajemen risiko."
             },
             {
               "jenis": "subjudul",
@@ -437,24 +381,12 @@
               "teks": "Pengaturan penyelenggara AKD meliputi pengendalian penempatan dana konsumen dan pelindungan aset serta kepentingan konsumen menurut POJK yang berlaku. Dalam kegiatan derivatif, POJK 23/2025 mengatur mekanisme penempatan margin pada rekening khusus. Hal ini merupakan kontrol tata kelola, bukan mekanisme penghilangan risiko pasar."
             },
             {
-              "jenis": "paragraf",
-              "teks": "PADK 3/2026 memperbarui detail pelaporan antara lain evaluasi DAKD, laporan bulanan, triwulanan, tahunan, laporan insidental, dan pemberitahuan aktivitas tertentu terkait kliring derivatif. Beberapa bagian SEOJK 20/2024 dicabut secara bertahap, sehingga penyebutan satu SEOJK saja sebagai aturan pelaporan terkini tidak cukup akurat."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh penalaran: jika sebuah perusahaan ingin mengabaikan kewajiban pelaporan karena harga aset sedang turun, alasan tersebut tidak relevan. Pelaporan adalah bagian dari fungsi akuntabilitas dan pengawasan, bukan bergantung pada keadaan untung atau rugi."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Pengawasan Berbasis Risiko dan Pencegahan Kejahatan Keuangan"
             },
             {
               "jenis": "paragraf",
               "teks": "Ekosistem AKD memiliki risiko transaksi lintas batas, penyamaran identitas, transaksi yang tidak wajar, dan penyalahgunaan teknologi. Karena itu, regulasi menekankan tata kelola, penilaian risiko, pelindungan data pribadi, serta langkah pencegahan tindak pidana pencucian uang (TPPU), pendanaan terorisme (TPPT), dan pendanaan proliferasi senjata pemusnah massal (PPSPM)."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Penerapan pengawasan bukan semata-mata memeriksa harga koin. Otoritas dan lembaga terkait memperhatikan identitas entitas, kecukupan sistem, ketertiban transaksi, kualitas pengendalian internal, dan tanggung jawab terhadap konsumen. Peserta perlu mampu menghubungkan risiko dengan pengendalian yang relevan."
             },
             {
               "jenis": "subjudul",
@@ -471,10 +403,6 @@
             {
               "jenis": "paragraf",
               "teks": "Perubahan persentase harga dapat dihitung dengan rumus: (harga akhir − harga awal) ÷ harga awal × 100%. Jika sebuah aset dalam kasus hipotetis berubah dari Rp200.000 menjadi Rp170.000, perubahannya adalah −15%. Hasil negatif berarti penurunan sebesar 15%, tanpa mempertimbangkan biaya transaksi."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perhitungan yang benar tidak memberi jaminan tentang arah harga berikutnya. Soal numerik sederhana dapat menguji kemampuan membaca perubahan nilai; tidak perlu meminta peserta memprediksi pergerakan pasar."
             },
             {
               "jenis": "tabel",
@@ -508,10 +436,6 @@
             {
               "jenis": "paragraf",
               "teks": "Kripto bukan saham karena pemilik token tidak otomatis memperoleh hak kepemilikan atas suatu perusahaan seperti pemegang saham. Kripto tidak sama dengan dana pensiun, karena program pensiun dirancang menurut skema iuran dan manfaat yang diatur khusus. Kripto juga tidak sama dengan bulion emas fisik ataupun simpanan bank."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perbedaannya dapat dijelaskan dengan menanyakan: objek apa yang dimiliki, hak hukum apa yang melekat, siapa penyelenggara atau pengawasnya, serta apa sumber risiko utamanya. Dalam pilihan ganda, opsi yang sekilas mirip sering keliru karena mencampur karakteristik dua produk keuangan."
             },
             {
               "jenis": "tabel",
@@ -555,14 +479,6 @@
             {
               "jenis": "paragraf",
               "teks": "Langkah pertama adalah mengenali kata penentu: “otoritas pengawas”, “bursa”, “kliring”, “penyimpanan”, “pedagang”, “DAKD”, “alat pembayaran”, “derivatif”, dan “pelindungan konsumen”. Setiap istilah mengarah pada fungsi atau ketentuan yang berlainan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Langkah kedua ialah menguji apakah pilihan jawaban menggunakan klaim absolut seperti “pasti untung”, “semua aset digital sama”, atau “izin berarti harga dijamin”. Klaim demikian biasanya bermasalah apabila tidak didukung syarat yang jelas. Namun, jangan menolak semua pernyataan tegas secara otomatis; tetap periksa sumber dan bunyi soal."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Langkah ketiga adalah memisahkan fakta regulasi dari ilustrasi. Tahun atau jumlah izin harus memiliki tanggal rujukan. Angka keuntungan pada contoh soal bukan fakta pasar dan bukan saran investasi. Kesimpulan yang dipilih harus tepat terhadap situasi yang ditanyakan."
             }
           ]
         }
@@ -577,6 +493,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Aset kripto berada di dalam cakupan AKD yang diawasi OJK untuk kegiatan perdagangan sesuai kewenangannya. Infrastruktur utamanya melibatkan bursa, lembaga kliring, pengelola tempat penyimpanan, dan pedagang. Daftar aset dan izin lembaga merupakan syarat pengaturan, bukan jaminan nilai. Indonesia menetapkan rupiah sebagai alat pembayaran yang sah. Perkembangan regulasi perlu dibaca dengan POJK 27/2024 jo. POJK 23/2025 dan PADK 3/2026, serta UU P2SK yang telah diubah dengan UU 4/2026. Risiko pasar dan operasional tetap harus dibahas bersama pelindungan konsumen. Pembelajaran aset kripto perlu dipahami sebagai bagian dari ekosistem jasa keuangan digital, bukan sebagai aktivitas menebak pergerakan harga. Inti materi terletak pada definisi aset, fungsi para pihak, status peraturan, pengawasan OJK, dan kesadaran atas risiko yang melekat pada teknologi serta penyelenggaraan perdagangan."
+    "pesan": "Aset kripto berada di dalam cakupan AKD yang diawasi OJK untuk kegiatan perdagangan sesuai kewenangannya. Infrastruktur utamanya melibatkan bursa, lembaga kliring, pengelola tempat penyimpanan, dan pedagang. Daftar aset dan izin lembaga merupakan syarat pengaturan, bukan jaminan nilai."
   }
 }

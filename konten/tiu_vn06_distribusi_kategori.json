@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Soal Distribusi & Kategori meminta kita memasangkan orang, benda, atau tempat dengan kegiatan atau kategori yang sesuai.",
-      "Satu orang bisa mengikuti dua kegiatan, dan satu kegiatan bisa diikuti beberapa orang. Demikian pula, satu toko bisa menjual beberapa jenis barang. Tabel membantu kita memisahkan pasangan yang pasti, pasangan yang gugur, dan pasangan yang masih harus diperiksa."
+      "Soal Distribusi & Kategori meminta kita memasangkan orang, benda, atau tempat dengan kegiatan atau kategori yang sesuai."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -83,10 +82,6 @@
             {
               "jenis": "paragraf",
               "teks": "Tulis unsur pada baris dan kategori pada kolom. Kuota adalah jumlah pasangan yang harus dipenuhi, misalnya tepat dua kegiatan untuk tiap orang."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Periksa apakah kuota berlaku untuk tiap unsur, tiap kategori, atau keduanya. “Setiap orang mengikuti dua kegiatan” membatasi jumlah per orang. Satu kategori tetap boleh dimiliki beberapa orang jika petunjuk mengizinkannya. Jika semua kuota diketahui, total pasangan yang dihitung dari baris harus sama dengan total yang dihitung dari kolom."
             }
           ]
         }
@@ -137,20 +132,6 @@
                   "2 dari 2"
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Periksa akibat pada dua arah. Penempatan Rani pada basket memenuhi kuota kategori basket, sehingga Dito gugur dari kategori tersebut. Karena Dito masih memerlukan dua kegiatan dan hanya dua pilihan yang tersisa, keduanya harus dipilih. Petunjuk “satu-satunya” menetapkan satu pasangan sekaligus menggugurkan orang lain dari kategori yang sama."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh Rani dan Dito, tabel menghasilkan empat pasangan. Jumlahnya sama ketika dihitung dari kuota peserta maupun dari banyaknya peserta per kegiatan."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vn06_distribusi_kategori/gambar-01.png",
-              "lebar": 6.06,
-              "tinggi": 0.93
             }
           ]
         }
@@ -169,16 +150,8 @@
               "teks": "Jika satu toko harus menyediakan seluruh barang yang diminta, periksa tiap barang sebagai syarat wajib. Satu barang yang tidak tersedia cukup untuk menggugurkan toko itu."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pada tabel toko, gunakan tanda tanya jika informasi belum menentukan ketersediaan suatu barang. Ubah tanda tanya menjadi centang atau silang setelah ada petunjuk yang membuktikannya. Jika soal memberikan daftar lengkap toko penjual sebuah barang, toko di luar daftar gugur untuk barang itu."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh. Pembeli membutuhkan mawar dan lili dari satu toko. Toko A gugur karena hanya menyediakan mawar. Toko B lolos karena menyediakan keduanya."
-            },
-            {
               "jenis": "gambar",
-              "file": "media/tiu_vn06_distribusi_kategori/gambar-02.png",
+              "file": "media/tiu_vn06_distribusi_kategori/gambar-01.png",
               "lebar": 6.06,
               "tinggi": 1.18
             }
@@ -197,10 +170,6 @@
             {
               "jenis": "paragraf",
               "teks": "Periksa ulang kuota dan pasangan yang dipakai untuk menjawab. Jika masih ada beberapa susunan sah, kesimpulan yang pasti harus berlaku pada semuanya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perhatikan beda antara “tepat dua”, “setidaknya dua”, dan “paling banyak dua”. Kuota tepat dua langsung menutup pilihan lain setelah dua pasangan ditetapkan. Batas setidaknya dua masih mengizinkan tambahan, sedangkan paling banyak dua masih mengizinkan jumlah yang lebih kecil."
             }
           ]
         }

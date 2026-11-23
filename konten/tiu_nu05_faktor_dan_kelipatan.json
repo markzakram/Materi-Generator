@@ -46,8 +46,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Dua belas benda dapat dikelompokkan berisi 3 atau 4 tanpa sisa. Karena itu, 3 dan 4 adalah faktor dari 12, sedangkan 12 adalah kelipatan dari 3 dan 4. Faktor dan kelipatan menceritakan hubungan yang sama dari dua arah.",
-      "Hubungan ini membantu kita membagi benda secara merata, mengatur kegiatan yang berulang, dan memahami penyederhanaan pecahan. Bab ini dimulai dari satu bilangan, lalu membahas faktor dan kelipatan yang dimiliki bersama oleh dua bilangan atau lebih."
+      "Dua belas benda dapat dikelompokkan berisi 3 atau 4 tanpa sisa. Karena itu, 3 dan 4 adalah faktor dari 12, sedangkan 12 adalah kelipatan dari 3 dan 4. Faktor dan kelipatan menceritakan hubungan yang sama dari dua arah."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -110,14 +109,6 @@
             {
               "jenis": "paragraf",
               "teks": "Setiap pasangan menghasilkan 12. Kumpulkan semua bilangan yang muncul, lalu urutkan. Faktor positif 12 adalah 1, 2, 3, 4, 6, dan 12."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Periksa calon faktor dari yang paling kecil. Berhenti ketika anggota pertama pasangan mulai lebih besar dari anggota kedua, karena pasangan setelahnya hanya mengulang urutan terbalik. Pada bilangan kuadrat seperti 36, pasangan terakhir dapat berisi bilangan yang sama. Pasangan 6 dan 6 membuat 6 dicatat sekali dalam daftar faktor."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Setiap bilangan bulat positif mempunyai faktor 1 dan dirinya sendiri. Untuk bilangan 1, keduanya menunjuk angka yang sama, sehingga faktor positifnya hanya satu."
             }
           ]
         }
@@ -142,14 +133,6 @@
             {
               "jenis": "paragraf",
               "teks": "Ketiga hasil di atas adalah kelipatan positif awal dari 4. Lanjutkan dengan pengali 4, 5, dan seterusnya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bilangan 6 adalah faktor dari 24 karena 24 dapat dibagi 6 tanpa sisa. Dibaca dari arah yang lain, 24 adalah kelipatan dari 6 karena diperoleh dengan mengalikan 6 dengan 4. Pada bilangan bulat positif, daftar faktor berhenti, sedangkan daftar kelipatan positif terus berlanjut."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Nol juga merupakan kelipatan dari setiap bilangan bulat positif karena perkalian bilangan tersebut dengan nol menghasilkan nol. Saat mencari KPK, kita membandingkan kelipatan positif sehingga pencarian dimulai dari kelipatan pertama di atas nol."
             }
           ]
         }
@@ -184,10 +167,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pohon faktor 12. Lingkaran hijau menandai faktor prima di ujung cabang."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kita juga bisa mulai dari pasangan 3 dan 4. Setelah 4 diuraikan menjadi dua faktor 2, hasil akhirnya tetap sama. Urutan cabang dapat berbeda, tetapi faktor prima dan jumlah kemunculannya tetap sama."
             }
           ]
         }
@@ -204,10 +183,6 @@
             {
               "jenis": "paragraf",
               "teks": "Faktor persekutuan adalah faktor yang terdapat pada semua bilangan yang dibandingkan. Faktor Persekutuan Terbesar (FPB) adalah faktor persekutuan dengan nilai terbesar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dengan daftar, faktor 12 adalah 1, 2, 3, 4, 6, dan 12. Faktor 18 adalah 1, 2, 3, 6, 9, dan 18. Faktor yang sama adalah 1, 2, 3, dan 6, sehingga FPB dari 12 dan 18 adalah 6."
             },
             {
               "jenis": "sorot",
@@ -244,10 +219,6 @@
             {
               "jenis": "paragraf",
               "teks": "Kelipatan persekutuan adalah kelipatan yang sama dari semua bilangan yang dibandingkan. Kelipatan Persekutuan Terkecil (KPK) adalah kelipatan persekutuan positif dengan nilai terkecil."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dengan daftar, kelipatan positif 12 dimulai dari 12, 24, dan 36. Kelipatan positif 18 dimulai dari 18 dan 36. Kelipatan positif pertama yang muncul pada kedua daftar adalah 36, sehingga KPK dari 12 dan 18 adalah 36."
             },
             {
               "jenis": "sorot",
@@ -302,14 +273,6 @@
                   "Mencari kapan dua kegiatan berulang terjadi bersama lagi."
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tentukan dulu apa yang dicari. Jika yang dicari adalah jumlah paket sama terbanyak, hasilnya harus dapat membagi semua jumlah barang. Jika yang dicari adalah waktu bersama paling awal setelah titik awal yang sama, hasilnya harus merupakan kelipatan dari semua jeda waktu."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk tiga bilangan atau lebih, prinsipnya sama. FPB mengambil faktor yang dimiliki semua bilangan dengan jumlah kemunculan paling sedikit. KPK mengambil setiap faktor prima yang muncul di salah satu bilangan dengan jumlah kemunculan paling banyak. Jika sebuah faktor prima tidak muncul pada salah satu bilangan, faktor itu tidak masuk dalam FPB."
             }
           ]
         }
@@ -344,6 +307,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Faktor membagi suatu bilangan tanpa sisa, sedangkan kelipatan terbentuk dari perkalian. FPB mencari faktor terbesar yang dimiliki bersama. KPK mencari kelipatan positif terkecil yang dimiliki bersama. Gunakan daftar jika bilangannya kecil. Jika daftarnya panjang, uraikan bilangan menjadi faktor prima. Periksa kembali hasilnya: FPB harus membagi semua bilangan, sedangkan KPK harus habis dibagi oleh semua bilangan."
+    "pesan": "Faktor membagi suatu bilangan tanpa sisa, sedangkan kelipatan terbentuk dari perkalian. FPB mencari faktor terbesar yang dimiliki bersama. KPK mencari kelipatan positif terkecil yang dimiliki bersama."
   }
 }

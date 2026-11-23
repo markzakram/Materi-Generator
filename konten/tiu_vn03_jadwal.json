@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Soal Jadwal meminta kita menempatkan kegiatan pada sesi, hari, atau giliran dengan mengikuti aturan waktu dan prasyarat.",
-      "Kegiatan yang dijadwalkan bisa berupa mata kuliah, topik belajar, atau rangkaian acara. Jika satu kegiatan memerlukan persiapan, jadwal yang sah menempatkan persiapan sebelum kegiatan tersebut. Jika ada kegiatan yang harus langsung menyusul, keduanya perlu mendapat tempat yang berurutan."
+      "Soal Jadwal meminta kita menempatkan kegiatan pada sesi, hari, atau giliran dengan mengikuti aturan waktu dan prasyarat."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -86,27 +85,13 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Mulai dari sesi, jam, atau hari paling awal. Jika soal hanya memberi urutan, gunakan nomor giliran. Masukkan kegiatan yang waktunya sudah ditentukan, lalu tandai tempat yang belum diketahui dengan tanda tanya. Tandai tempat sebagai kosong hanya jika aturan atau susunan yang sedang diuji memang menyatakan tidak ada kegiatan."
+              "teks": "Masukkan kegiatan yang waktunya sudah ditentukan, lalu tandai tempat yang belum diketahui dengan tanda tanya. Tandai tempat sebagai kosong hanya jika aturan atau susunan yang sedang diuji memang menyatakan tidak ada kegiatan."
             },
             {
               "jenis": "gambar",
               "file": "media/tiu_vn03_jadwal/gambar-01.png",
               "lebar": 6.08,
               "tinggi": 1.3
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika satu hari bisa memuat beberapa kegiatan, sediakan tempat sesuai kapasitasnya. Keterangan waktu dan kapasitas menentukan apakah dua kegiatan dapat berlangsung pada hari yang sama. Jika soal juga menyebut ruang atau petugas, catat keduanya di kolom tersendiri agar bentrok mudah diperiksa. Untuk memeriksa bentrok, lihat atribut yang kapasitasnya terbatas. Dua kegiatan pada waktu yang sama bisa sah jika memakai ruang dan petugas yang berbeda, selama soal memang mengizinkan lebih dari satu kegiatan pada waktu itu. Jika durasi diberikan, periksa seluruh rentang kegiatan, termasuk waktu yang dilewati di tengah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dalam contoh ini, A memakai Ruang 1 pukul 09.00–10.00 dan B membutuhkan ruang pukul 09.30–10.30. Dengan petugas berbeda, memindahkan B ke Ruang 2 menghilangkan bentrok ruang."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-02.png",
-              "lebar": 6.06,
-              "tinggi": 1.44
             }
           ]
         }
@@ -126,21 +111,17 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-03.png",
+              "file": "media/tiu_vn03_jadwal/gambar-02.png",
               "lebar": 6.08,
               "tinggi": 1.3
             },
             {
               "jenis": "paragraf",
-              "teks": "Baca “sebelum” dan “tepat sebelum” dengan arah kebalikan. Pada jadwal berdasarkan hari, “keesokan hari” berarti hari berikutnya dalam kalender. Jika jadwal yang diberikan hanya satu minggu, peralihan dari Minggu ke Senin perlu didukung oleh aturan bahwa jadwalnya berulang. Bedakan sesi berikutnya dari hari berikutnya. Jika yang diurutkan hanya sesi yang tersedia, satu sesi berikutnya dapat jatuh pada tanggal yang lebih jauh. Jika petunjuk menyebut hari berikutnya, gunakan kalender sesuai batas jadwal yang diberikan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika Selasa tidak memiliki sesi, hari setelah Senin tetap Selasa. Sesi setelah sesi Senin jatuh pada Rabu."
+              "teks": "Pada jadwal berdasarkan hari, “keesokan hari” berarti hari berikutnya dalam kalender. Jika jadwal yang diberikan hanya satu minggu, peralihan dari Minggu ke Senin perlu didukung oleh aturan bahwa jadwalnya berulang."
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-04.png",
+              "file": "media/tiu_vn03_jadwal/gambar-03.png",
               "lebar": 6.06,
               "tinggi": 1.18
             }
@@ -166,11 +147,11 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Setelah waktu tetap terisi, cari semua tempat yang masih bisa menampung pasangan berurutan. Pada diagram, sesi 1 dan 5 sudah terisi. C harus berlangsung setelah A dan B. Jika A–B mengisi sesi 2–3, C masih dapat mengisi sesi 4. Jika A–B mengisi sesi 3–4, C terpaksa berada di sesi 2 dan jadwal itu gugur. Uji ketersediaan waktu untuk kegiatan yang bergantung pada pasangan segera setelah pasangan ditempatkan."
+              "teks": "Pada diagram, sesi 1 dan 5 sudah terisi. C harus berlangsung setelah A dan B. Jika A–B mengisi sesi 2–3, C masih dapat mengisi sesi 4. Jika A–B mengisi sesi 3–4, C terpaksa berada di sesi 2 dan jadwal itu gugur."
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-05.png",
+              "file": "media/tiu_vn03_jadwal/gambar-04.png",
               "lebar": 6.08,
               "tinggi": 1.91
             }
@@ -192,15 +173,11 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Uji setiap opsi dengan urutan yang efisien. Periksa posisi tetap lebih dahulu, lalu pasangan yang harus berurutan, dan terakhir prasyarat atau larangan yang tersisa. Satu pelanggaran cukup untuk menggugurkan satu opsi. Jika dua opsi lolos, keduanya merupakan jawaban yang mungkin berdasarkan petunjuk yang tersedia. Untuk membuktikan posisi yang ditanya belum pasti, tampilkan dua jadwal lengkap yang sama-sama mematuhi aturan tetapi memberi hasil berbeda pada posisi itu. Daftar kemungkinan yang belum diuji belum cukup sebagai bukti."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika A tetap di sesi 1 dan B serta C boleh bertukar, B mungkin berada di sesi 2. Posisi B belum pasti karena jadwal kedua menempatkannya di sesi 3."
+              "teks": "Periksa posisi tetap lebih dahulu, lalu pasangan yang harus berurutan, dan terakhir prasyarat atau larangan yang tersisa. Satu pelanggaran cukup untuk menggugurkan satu opsi. Untuk membuktikan posisi yang ditanya belum pasti, tampilkan dua jadwal lengkap yang sama-sama mematuhi aturan tetapi memberi hasil berbeda pada posisi itu."
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-06.png",
+              "file": "media/tiu_vn03_jadwal/gambar-05.png",
               "lebar": 6.06,
               "tinggi": 1.18
             }

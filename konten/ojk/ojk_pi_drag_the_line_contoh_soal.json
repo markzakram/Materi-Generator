@@ -4,6 +4,7 @@
     "subtes": "Tes Kemampuan Umum",
     "nama_file": "OJK TKU - Contoh Soal Drag the Line",
     "sumber": "https://docs.google.com/document/d/1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr/edit",
+    "lewati_kosong": true,
     "bagian": "soal",
     "id_katalog": "pi-02-soal"
   },
@@ -58,7 +59,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-20.png",
+              "file": "media/ojk_pi_drag_the_line/gambar-01.png",
               "lebar": 6.0,
               "tinggi": 2.12
             },
@@ -95,10 +96,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Pisahkan huruf dan angka; prediksi keduanya sebelum melihat pilihan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilihan yang perlu dihindari: J5 tidak menaikkan angka. H6 tidak memajukan huruf. 6J membalik format label."
             }
           ]
         },
@@ -112,7 +109,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-21.png",
+              "file": "media/ojk_pi_drag_the_line/gambar-02.png",
               "lebar": 6.0,
               "tinggi": 2.12
             },
@@ -149,10 +146,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Periksa tiga unsur: huruf, angka, lalu format."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilihan yang perlu dihindari: 5E mempunyai nilai benar tetapi format salah. D5 menahan huruf. E4 menahan angka."
             }
           ]
         },
@@ -166,7 +159,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-22.png",
+              "file": "media/ojk_pi_drag_the_line/gambar-03.png",
               "lebar": 6.0,
               "tinggi": 2.12
             },
@@ -203,10 +196,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Catat unsur yang berubah: huruf, angka, huruf, angka, lalu huruf."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilihan yang perlu dihindari: D4 menjalankan dua perubahan. C4 mengulangi giliran angka. B3 memundurkan huruf."
             }
           ]
         },
@@ -220,7 +209,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-23.png",
+              "file": "media/ojk_pi_drag_the_line/gambar-04.png",
               "lebar": 6.0,
               "tinggi": 2.12
             },
@@ -257,10 +246,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Tandai karakter terakhir, letakkan di depan, lalu salin dua karakter sebelumnya sesuai urutan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilihan yang perlu dihindari: OOX dan XOO mengubah jumlah X menjadi satu. XXX menghilangkan O. Jumlah dan posisi harus sama-sama benar."
             }
           ]
         },
@@ -274,7 +259,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-24.png",
+              "file": "media/ojk_pi_drag_the_line/gambar-05.png",
               "lebar": 6.0,
               "tinggi": 2.12
             },
@@ -311,10 +296,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Buat empat catatan pendek, lalu gabungkan dari posisi pertama sampai keempat."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilihan yang perlu dihindari: 5EF6 salah kapital pada huruf ketiga. Pada 5Fe6, posisi kedua seharusnya E kapital dan posisi ketiga f kecil. 6Ef5 menukar angka ujung."
             }
           ]
         },
@@ -328,7 +309,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-25.png",
+              "file": "media/ojk_pi_drag_the_line/gambar-06.png",
               "lebar": 6.0,
               "tinggi": 2.12
             },
@@ -365,10 +346,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Tentukan nama huruf dahulu, kemudian bentuknya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilihan yang perlu dihindari: 5eE6 salah tahap bentuk. 5Ef6 memakai dua nama huruf berbeda. 6Ee5 membalik angka."
             }
           ]
         },
@@ -382,7 +359,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-26.png",
+              "file": "media/ojk_pi_drag_the_line/gambar-07.png",
               "lebar": 6.0,
               "tinggi": 2.12
             },
@@ -419,10 +396,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Baca simbol pada simpul asal, hitung angka tujuan, lalu cocokkan kandidat lengkap."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilihan yang perlu dihindari: 4> memakai kenaikan satu. 6>> memakai kenaikan tiga. 2< justru mengurangi satu. Jawaban ditentukan oleh perubahan dari 3>>."
             }
           ]
         }

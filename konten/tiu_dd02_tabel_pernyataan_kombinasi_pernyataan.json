@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Tabel menyajikan informasi secara ringkas, tetapi kesimpulan dari tabel tetap perlu diperiksa. Dalam soal kombinasi pernyataan, tersedia beberapa pernyataan tentang data yang sama. Tugas kita adalah memeriksa setiap pernyataan, lalu memilih opsi yang memuat seluruh nomor pernyataan yang benar.",
-      "Kesalahan sering terjadi bukan karena hitungannya rumit, melainkan karena salah membaca baris, melewatkan satuan, atau memilih opsi sebelum seluruh pernyataan diperiksa. Dengan membaca data secara teratur dan mencatat hasil pemeriksaan, pernyataan yang benar dan yang salah dapat dibedakan dengan jelas."
+      "Tabel menyajikan informasi secara ringkas, tetapi kesimpulan dari tabel tetap perlu diperiksa. Dalam soal kombinasi pernyataan, tersedia beberapa pernyataan tentang data yang sama. Tugas kita adalah memeriksa setiap pernyataan, lalu memilih opsi yang memuat seluruh nomor pernyataan yang benar."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -117,10 +116,6 @@
                   "Tetap gugur meskipun memuat 1 dan 3; nomor 2 salah."
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kombinasi Pernyataan berbeda dari Kombinasi Optimal. Pada Kombinasi Pernyataan, yang dipilih adalah nomor pernyataan yang benar. Pada Kombinasi Optimal, yang dipilih adalah susunan benda atau unit yang memenuhi ketentuan atau memberikan hasil terbaik. Karena itu, daftar ketentuan pada Kombinasi Optimal tidak dinilai benar atau salah seperti pada soal ini."
             }
           ]
         }
@@ -159,10 +154,6 @@
               ]
             },
             {
-              "jenis": "paragraf",
-              "teks": "Angka 24 pada tabel berarti 24 buku cerita dipinjam pada Selasa. Angka tersebut bukan jumlah seluruh buku pada Selasa dan bukan total buku cerita selama dua hari."
-            },
-            {
               "jenis": "tabel",
               "kolom": [
                 "Yang ditanyakan",
@@ -186,10 +177,6 @@
             {
               "jenis": "paragraf",
               "teks": "Kata “terbanyak” harus dibaca bersama objek yang dibandingkan. “Buku cerita paling banyak dipinjam pada Selasa” membandingkan hari pada baris Cerita. Sebaliknya, “Jenis buku terbanyak pada Selasa” membandingkan jenis buku pada kolom Selasa. Keduanya menggunakan arah pembacaan yang berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika judul kolom menyebut “ribu rupiah”, nilai 25 berarti dua puluh lima ribu rupiah. Jangan membandingkannya langsung dengan nilai rupiah penuh sebelum satuannya disamakan. Jika keterangan menyebut jumlah per unit, kalikan dengan banyak unit untuk memperoleh total."
             }
           ]
         }
@@ -206,14 +193,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pernyataan tentang satu nilai cukup dicocokkan dengan sel yang tepat. Untuk pernyataan “terbanyak”, “paling sedikit”, atau “sama banyak”, bandingkan seluruh nilai dalam kelompok yang disebutkan. Jangan mengambil nilai terbesar dari kelompok lain."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh pernyataan: “Buku cerita lebih banyak dipinjam pada Selasa daripada Senin.”"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pernyataan tersebut benar: pada baris Cerita tercatat 24 buku untuk Selasa dan 18 buku untuk Senin. Perbandingan hanya berlaku untuk dua hari yang tersedia. Tabel tidak memberi informasi tentang Rabu, sehingga kita tidak dapat menyimpulkan hari terbanyak selama satu minggu."
             }
           ]
         },
@@ -224,54 +203,6 @@
             {
               "jenis": "paragraf",
               "teks": "Total diperoleh dengan menjumlahkan semua bagian yang termasuk dalam cakupan pernyataan. Selisih menunjukkan perbedaan dua nilai; untuk kenaikan, kurangi nilai akhir dengan nilai awal."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Total=bagian pertama+bagian kedua$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh pernyataan: “Total peminjaman buku cerita selama dua hari adalah 42 buku.”"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk memeriksanya, jumlahkan dua nilai pada baris Cerita:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Total=18+24$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=42$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Totalnya 42 buku, sehingga pernyataan tersebut benar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh pernyataan lain: “Peminjaman buku cerita naik 6 buku dari Senin ke Selasa.”"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Periksa kenaikannya dengan mengurangkan nilai Selasa dengan nilai Senin:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Kenaikan=24−18$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=6$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kenaikannya 6 buku, sehingga pernyataan kedua juga benar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jumlahkan hanya nilai yang diperlukan. Total seluruh jenis buku pada satu hari berbeda dari total satu jenis buku selama beberapa hari. Jika diminta selisih tanpa arah kenaikan atau penurunan, kurangi nilai yang lebih besar dengan yang lebih kecil."
             }
           ]
         },
@@ -290,26 +221,6 @@
             {
               "jenis": "sorot",
               "teks": "$Total biaya=jumlah biaya semua jenis$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh pernyataan: “Membeli empat pensil dengan harga Rp3.000 per buah memerlukan biaya Rp12.000.”"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Periksa biaya pembeliannya:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Biaya=4×3.000$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=12.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pernyataan tersebut benar karena biaya empat pensil adalah Rp12.000. Jika ada barang lain yang dibeli, hitung biayanya sendiri terlebih dahulu, kemudian tambahkan. Diskon atau biaya tambahan hanya digunakan jika disebutkan dalam soal."
             }
           ]
         },
@@ -324,30 +235,6 @@
             {
               "jenis": "sorot",
               "teks": "$Persentase kenaikan=(nilai akhir−nilai awal)/(nilai awal)×100%$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh pernyataan: “Jumlah barang yang bertambah dari 50 menjadi 60 meningkat sebesar 25%.”"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Nilai awalnya 50. Untuk memeriksa pernyataan tersebut:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Persentase kenaikan=(60−50)/50×100%$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=20%$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pernyataan tersebut salah. Kenaikannya 20%, bukan 25%, karena kenaikan 10 barang dibandingkan dengan jumlah awal 50 barang."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk persentase penurunan, gunakan besar penurunan dibandingkan nilai awal. Jika yang ditanyakan persentase bagian dari keseluruhan, pembaginya adalah total keseluruhan, bukan nilai awal. Tentukan dulu apa yang dibandingkan sebelum memilih pembagi."
             }
           ]
         }
@@ -372,10 +259,6 @@
               ]
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pernyataan yang paling mudah boleh diperiksa terlebih dahulu. Pernyataan yang hanya membaca satu nilai biasanya lebih cepat daripada pernyataan persentase. Urutan pemeriksaan tidak mengubah jawaban, asalkan seluruh nomor yang diperlukan tetap dipastikan."
-            },
-            {
               "jenis": "tabel",
               "kolom": [
                 "Temuan",
@@ -395,10 +278,6 @@
                   "Pilih opsi yang sama persis dengan daftar nomor benar."
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika satu opsi terlihat cocok setelah dua pemeriksaan, tetap pastikan pernyataan yang belum diuji ketika menyusun jawaban akhir. Ini membantu menemukan salah baca dan memastikan tidak ada nomor benar yang tertinggal."
             }
           ]
         }
@@ -421,10 +300,6 @@
                 "Gunakan data tabel, bukan angka dalam pernyataan lain yang belum terbukti benar.",
                 "Jangan memilih opsi hanya karena semua nomor di dalamnya benar; pastikan tidak ada nomor benar yang tertinggal."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada pembelian beberapa jenis barang, tulis biaya tiap jenis sebelum menjumlahkan. Pada tabel beberapa periode, tandai kolom awal dan akhir agar tidak tertukar. Langkah singkat ini lebih membantu daripada menebak kunci dari pola nomor opsi."
             }
           ]
         }
@@ -455,6 +330,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Untuk menyelesaikan kombinasi pernyataan, baca tabel sesuai baris, kolom, dan satuannya; periksa setiap pernyataan; lalu pilih opsi yang memuat seluruh nomor benar tanpa nomor salah. Ketelitian menentukan cakupan data sama pentingnya dengan ketepatan menghitung. Biasakan menuliskan hasil pemeriksaan secara singkat. Bedakan total dengan selisih, serta kenaikan jumlah dengan persentase kenaikan. Jika langkah tersebut dilakukan dengan teratur, pilihan jawaban menjadi hasil pemeriksaan data, bukan tebakan dari susunan nomor."
+    "pesan": "Untuk menyelesaikan kombinasi pernyataan, baca tabel sesuai baris, kolom, dan satuannya; periksa setiap pernyataan; lalu pilih opsi yang memuat seluruh nomor benar tanpa nomor salah. Ketelitian menentukan cakupan data sama pentingnya dengan ketepatan menghitung."
   }
 }

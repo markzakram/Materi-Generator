@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Aritmatika sosial membahas hubungan harga awal, harga akhir, serta perubahan nilainya. Untung, rugi, diskon, dan bunga dapat dipahami melalui satu hubungan dasar, yaitu nilai awal yang dikalikan dengan faktor perubahan. Rumus HaJi Miu membantu menata informasi itu sehingga nilai yang belum diketahui dapat dicari secara terarah.",
-      "Ketelitian menentukan harga yang menjadi dasar persentase sangat diperlukan. Harga per kilogram, harga seluruh barang, modal, dan uang yang tersisa dapat memiliki peran berbeda dalam suatu persoalan. Setelah nilai awal dan perubahan dikenali, angka dimasukkan ke rumus dan hasilnya diperiksa kembali."
+      "Aritmatika sosial membahas hubungan harga awal, harga akhir, serta perubahan nilainya. Untung, rugi, diskon, dan bunga dapat dipahami melalui satu hubungan dasar, yaitu nilai awal yang dikalikan dengan faktor perubahan. Rumus HaJi Miu membantu menata informasi itu sehingga nilai yang belum diketahui dapat dicari secara terarah."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -100,19 +99,11 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Dalam pembelian dan penjualan, M menyatakan modal dan HJ menyatakan harga jual. Ketika membahas diskon, keduanya dibaca sebagai harga sebelum dan sesudah diskon. Untuk persoalan perubahan nilai lain, gunakan kedudukan nilai awal dan nilai akhir yang sama."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Angka 1 mewakili seluruh nilai awal. Nilai u menyatakan bagian perubahan terhadap nilai awal tersebut. Karena itu, faktor dalam kurung memuat nilai awal beserta penambahan atau pengurangannya."
             },
             {
               "jenis": "sorot",
               "teks": "$HJ=M+M·u$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bentuk ini menunjukkan bahwa harga akhir terdiri atas modal dan perubahan sebesar modal dikalikan u. Untuk untung, bagian perubahan ditambahkan. Untuk rugi atau diskon, u yang negatif membuat bagian perubahan menjadi pengurangan."
             }
           ]
         }
@@ -137,34 +128,6 @@
             {
               "jenis": "paragraf",
               "teks": "Ubah angka persen menjadi desimal dengan membaginya oleh 100 sebelum dimasukkan ke rumus. Setelah memperoleh hasil u, ubah ke persen dengan mengalikannya oleh 100. Persentase untung atau rugi dihitung terhadap modal."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penulisan u"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$20%=20/100$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$20%=0,20$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$−15%=−15/100$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$−15%=−0,15$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untung 20% berarti u bernilai 0,20. Diskon 15% berarti u bernilai negatif 0,15. Tanda negatif menyatakan arah penurunan, sedangkan besar diskonnya tetap disebut 15%."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika informasi perubahan berbentuk pecahan, pecahan dapat dipertahankan selama perhitungan agar hasilnya tepat. Pecahan dan desimal merupakan dua cara menuliskan bagian perubahan yang sama."
             }
           ]
         }
@@ -185,54 +148,6 @@
             {
               "jenis": "paragraf",
               "teks": "Masukkan harga awal sebagai M dan perubahan sebagai u. Hitung terlebih dahulu nilai dalam kurung, kemudian kalikan dengan M. Untuk nilai u negatif, penjumlahan di dalam kurung menjadi pengurangan."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sebuah barang bermodal Rp100.000 dijual dengan untung 20%. Nilai modal dimasukkan sebagai M dan untung 20% ditulis sebagai 0,20."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=100.000(1+0,20)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=100.000·1,20$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=120.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jadi, harga jualnya Rp120.000. Nilai itu memuat pengembalian modal Rp100.000 dan keuntungan Rp20.000."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan saat rugi"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Barang dengan modal yang sama dijual dengan rugi 20%. Masukkan u bernilai negatif 0,20."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=100.000(1−0,20)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=100.000·0,80$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=80.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Harga jualnya Rp80.000. Bagian yang tersisa adalah 80% dari modal karena terjadi penurunan 20%."
             }
           ]
         }
@@ -253,34 +168,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jika harga akhir dan perubahan diketahui, bagi harga akhir dengan faktor perubahan. Faktor tersebut tetap memuat tanda u yang sesuai. Untung menghasilkan faktor lebih dari 1, sedangkan diskon atau rugi menghasilkan faktor kurang dari 1."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Rumus diperoleh dengan membagi kedua ruas rumus HaJi Miu oleh faktor dalam kurung. Nilai awal dicari berdasarkan faktor yang sebelumnya mengubahnya menjadi nilai akhir."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Harga jual sebuah barang Rp120.000 setelah memperoleh untung 20%. Modalnya dihitung dengan membagi harga jual oleh 1,20."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$M=120.000/(1+0,20)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$M=120.000/1,20$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$M=100.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jadi, modalnya Rp100.000. Memasukkan modal ini kembali ke rumus harga jual menghasilkan Rp120.000."
             }
           ]
         }
@@ -301,34 +188,6 @@
             {
               "jenis": "paragraf",
               "teks": "Bagi harga jual dengan modal, kemudian kurangi hasilnya dengan 1. Hasil positif menunjukkan untung dan hasil negatif menunjukkan rugi. Ubah hasil desimal menjadi persen untuk menyatakan besar untung atau rugi."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Barang bermodal Rp100.000 dijual Rp120.000. Perubahan relatif terhadap modal dihitung sebagai berikut."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$u=120.000/100.000−1$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$u=1,20−1$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$u=0,20$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$u=20%$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jadi, penjual memperoleh untung 20%. Selisih harga jual dan modal adalah Rp20.000, yaitu seperlima dari modal."
             }
           ]
         }
@@ -345,42 +204,6 @@
             {
               "jenis": "paragraf",
               "teks": "Ketiganya dapat memakai hubungan nilai awal dan nilai akhir dengan u negatif. Untuk diskon, HJ adalah harga yang dibayar. Untuk sisa uang, HJ adalah uang yang masih tersisa. Untuk penyusutan, nilai akhir adalah jumlah atau berat setelah berkurang."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tentukan terlebih dahulu nilai yang menjadi dasar pengurangan. Jika dua pengeluaran sama-sama dinyatakan sebagai bagian uang semula, kedua bagian dapat dijumlahkan. Jika perubahan terjadi bertahap dari sisa sebelumnya, terapkan rumus secara berurutan pada nilai yang sudah berubah."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan diskon"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Harga awal sebuah barang Rp200.000 dan diskonnya 15%. Gunakan u bernilai negatif 0,15."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=200.000(1−0,15)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=200.000·0,85$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=170.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jadi, harga yang dibayar Rp170.000. Jika harga awal justru yang dicari, bagi harga sesudah diskon dengan 0,85."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$M=170.000/(1−0,15)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$M=200.000$"
             }
           ]
         }
@@ -405,38 +228,6 @@
             {
               "jenis": "paragraf",
               "teks": "r adalah suku bunga dalam desimal untuk satu periode dan t adalah lama menabung dalam periode yang sama. Jika suku bunga dinyatakan per tahun, waktu menabung juga dinyatakan dalam tahun sebelum keduanya dikalikan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Setelah total u diperoleh, gunakan rumus HaJi Miu untuk menghitung tabungan awal atau tabungan akhir. Untuk waktu dalam bulan dan suku bunga tahunan, ubah bulan menjadi bagian dari 12 bulan."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tabungan awal Rp100.000 mendapat bunga tunggal 12% per tahun selama 6 bulan. Enam bulan setara dengan setengah tahun."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$u=0,12·6/12$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$u=0,06$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=100.000(1+0,06)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$HJ=106.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jadi, tabungan akhirnya Rp106.000. Total bunga selama enam bulan adalah 6% dari tabungan awal."
             }
           ]
         }
@@ -457,30 +248,6 @@
             {
               "jenis": "sorot",
               "teks": "$Harga per satuan=(Harga seluruh barang)/(Jumlah barang)$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada persoalan bonus yang diberikan per paket pembelian, hitung isi satu paket dan banyak paketnya terlebih dahulu. Cara ini langsung mengikuti jumlah barang serta harga paket yang diketahui."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan harga per satuan"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Enam buku dibeli seharga Rp24.000. Harga satu buku diperoleh dengan membagi total harga oleh banyak buku."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Harga satu buku=24.000/6$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Harga satu buku=4.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Harga per buku Rp4.000. Setelah dasar harga seragam, perhitungan untung, rugi, atau diskon dapat dilakukan."
             }
           ]
         }
@@ -503,10 +270,6 @@
                 "Tulis rumus HaJi Miu, masukkan angka, lalu cari nilai yang ditanyakan.",
                 "Periksa satuan, arah perubahan, dan kecocokan hasil dengan informasi awal."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada pembulatan persentase, pertahankan pecahan atau desimal lengkap sampai langkah akhir. Dengan demikian, pembulatan tidak mengubah hasil perhitungan di tengah jalan."
             }
           ]
         }
@@ -541,6 +304,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Rumus HaJi Miu menghubungkan harga awal, perubahan, dan harga akhir dalam satu bentuk. Gunakan u positif untuk kenaikan dan u negatif untuk penurunan. Sesuaikan arti nilai awal serta nilai akhir dengan persoalannya, lalu samakan dasar harga, jumlah barang, atau periode waktu. Perhitungan akan lebih mudah diikuti ketika rumus ditulis sebelum angka dimasukkan. Periksa hasil dengan mengembalikannya ke informasi awal. Harga setelah diskon semestinya lebih rendah, sedangkan harga dengan keuntungan lebih tinggi daripada modal. Pada persoalan jumlah barang atau bonus, hitung lebih dahulu paket dan satuannya agar nilai yang digunakan benar-benar mewakili hal yang ditanyakan."
+    "pesan": "Rumus HaJi Miu menghubungkan harga awal, perubahan, dan harga akhir dalam satu bentuk. Gunakan u positif untuk kenaikan dan u negatif untuk penurunan. Sesuaikan arti nilai awal serta nilai akhir dengan persoalannya, lalu samakan dasar harga, jumlah barang, atau periode waktu. Perhitungan akan lebih mudah diikuti ketika rumus ditulis sebelum angka dimasukkan."
   }
 }

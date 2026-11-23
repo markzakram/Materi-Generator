@@ -43,9 +43,9 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (76 deck: 28 Verbal, 41 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (44 deck TKU PCAM OJK: 22 materi dan 22 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi dan sampul, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (76 deck: 28 Verbal, 41 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (44 deck TKU PCAM OJK: 22 materi dan 22 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
 
-Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn --sampul foto`.
+Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn`.
 
 Bangun ulang setelah naskah atau template berubah (Windows + PowerPoint, karena PDF dan sampul diekspor PowerPoint):
 
@@ -54,15 +54,15 @@ python generator/buat_situs.py --template-general "path/Template Materi General.
 python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-general "path/Template Materi General.pptx"
 ```
 
-Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general general-foto`. Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
+Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general` (satu tampilan, jadi halaman tidak menampilkan pilihan). Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
 
-Ukuran: TIU sekitar 373 MB dan OJK sekitar 216 MB, jadi seluruh situs sekitar 590 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus. Bila deploy ditolak karena ukuran, kurangi menjadi satu sampul (`--tema general`) atau pindah ke paket Pro.
+Ukuran: TIU sekitar 193 MB dan OJK sekitar 108 MB, jadi seluruh situs sekitar 302 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
 
 Untuk memperbarui daftar saja (kelompok, tautan dokumen, jenis deck) tanpa membangun deck, jalankan perintah yang sama dengan `--hanya-data`; PowerPoint dan template tidak dibutuhkan.
 
 Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint dan menyimpan hiasan abu-abu sebagai gambar satu kanal, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 1,5–2 MB tanpa mengubah tampilan.
 
-Isi `situs/`: `index.html` (halaman), `aplikasi.json` (daftar tab), `<id>/data.json` (daftar materi, ukuran berkas, dan warna halaman aplikasi itu; dibuat skrip), `<id>/unduh/<pilihan>/` (PPTX dan PDF; `general` = sampul putih, `general-foto` = sampul foto), `<id>/sampul/<pilihan>/` (gambar slide pertama), `font/` (Poppins), `middleware.ts` (kunci sandi), `vercel.json`.
+Isi `situs/`: `index.html` (halaman), `aplikasi.json` (daftar tab), `<id>/data.json` (daftar materi, ukuran berkas, dan warna halaman aplikasi itu; dibuat skrip), `<id>/unduh/general/` (PPTX dan PDF), `<id>/sampul/general/` (gambar slide pertama), `font/` (Poppins), `middleware.ts` (kunci sandi), `vercel.json`.
 
 Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs`, Framework Preset = Other, tanpa perintah build. Isi satu env variable, `MATERI_SANDI`, dengan sandi akses. `middleware.ts` meminta sandi itu (kotak login bawaan browser, nama pengguna bebas) sebelum halaman atau berkas apa pun dibuka; tanpa `MATERI_SANDI` situs menjawab 503. Vercel Authentication di Settings › Deployment Protection boleh dimatikan karena aksesnya sudah dijaga sandi. Server lokal (`python -m http.server`) tidak memakai sandi.
 
@@ -79,9 +79,20 @@ python generator/impor_katalog.py --docx folder_docx
 
 Soal yang ditulis di dokumen materi selalu dipisah menjadi deck sendiri, baik yang punya baris "Contoh Soal" di sheet (mis. Silogisme 02–06) maupun yang tidak (mis. Rasio; `baris_sheet`-nya memakai baris materi). Entri `"bagian": "soal"` (mis. `vs-02-soal`) memakai `doc_id` yang sama, dan importer memisahkan satu dokumen menjadi dua naskah: materi (`tiu_vs02_logika_kondisional.json`) dan contoh soal (`tiu_vs02_contoh_soal.json`). Deck contoh soal hanya memuat sampul, peta materi, soal, dan pembahasan; importer menandai soal yang tidak punya kunci ("TANPA KUNCI").
 
-Hanya entri dengan `"otomatis": true` yang ditimpa; `va-01` (Verbal Analogi) disusun manual. Satu dokumen bisa dikonversi langsung dengan `generator/ekstrak_gdoc.py`.
+Hanya entri dengan `"otomatis": true` yang ditimpa. Satu dokumen bisa dikonversi langsung dengan `generator/ekstrak_gdoc.py`.
 
-Yang dikonversi apa adanya: paragraf, subjudul, daftar, tabel (termasuk sel gabungan), gambar beserta keterangannya, persamaan Word (menjadi `$…$`, lewat `generator/omml.py`: pecahan `a/b`, pangkat `x^{2}`, indeks `U_{n}`, akar `√x`), serta contoh soal (soal, opsi A–E, kunci, pembahasan). Yang tidak ada di dokumen dibiarkan kosong untuk dilengkapi di editor: pertanyaan pemantik, level Bloom (lingkaran menampilkan nomor bila kosong), dan teks ringkasan penutup. Dasbor menandai materi yang masih perlu dilengkapi.
+### Yang masuk PPT: hanya bagian yang ditandai penulis
+
+Aturan tim akademik: yang masuk PPT hanya bagian yang diberi **sorotan (highlight) kuning** di dokumen sumber. Konverter membacanya dari berkas Word (teks, gambar, rumus, dan sel tabel punya tanda sorotan sendiri); lihat `tandai()` dan `saring()` di `generator/ekstrak_gdoc.py`.
+
+- **Paragraf** yang disorot sebagian: dipakai kalimat yang minimal separuh hurufnya disorot. **Tabel**: header dan baris yang disorot.
+- **Label** di judul: `[WAJIB PPT]` atau `[semua contoh soal wajib ada di PPT]` berarti seluruh isi bagian itu masuk; `[... yang dihighlight wajib ...]` dan `[PENGAYAAN]` berarti sorotan saja; `[Sertakan gambar pada slide]` memasukkan gambarnya; `[... hanya foto dan profil ...]` memasukkan tabel foto sebagai kartu profil.
+- **Judul** subbab dan subjudul tetap ada bila isinya masuk. Gambar yang diapit dua paragraf yang masuk, atau yang keterangannya disorot, ikut.
+- **Soal** masuk bila minimal separuh pertanyaan dan opsinya disorot. Pertanyaan, opsi, dan kuncinya utuh; pembahasannya hanya bagian yang disorot (jawaban uraian tetap ikut).
+- **Pendahuluan, tujuan, dan pesan penutup** yang tidak ditandai dilewati (`meta.lewati_kosong`); ringkasan penutup tetap berisi judul subbab.
+- Dokumen yang tidak punya tanda sama sekali (saat ini hanya **Badges**) dikonversi utuh. Figural (PDF) dan Penalaran Logis tidak memakai aturan ini.
+
+Yang ditandai dikonversi apa adanya: paragraf, subjudul, daftar, tabel (termasuk sel gabungan), gambar beserta keterangannya, persamaan Word (menjadi `$…$`, lewat `generator/omml.py`: pecahan `a/b`, pangkat `x^{2}`, indeks `U_{n}`, akar `√x`), serta contoh soal (soal, opsi A–E, kunci, pembahasan). Yang tidak ada di dokumen dibiarkan kosong untuk dilengkapi di editor: pertanyaan pemantik, level Bloom (lingkaran menampilkan nomor bila kosong), dan teks ringkasan penutup. Dasbor menandai materi yang masih perlu dilengkapi.
 
 Catatan: tautan "05 Logika Pernyataan" di sheet (baris 39) kurang satu huruf sehingga tidak bisa dibuka; katalog memakai ID yang benar.
 
@@ -106,7 +117,7 @@ python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-gene
 
 Perintah kedua membangun materi OJK ke `situs/ojk/` dan menambahkan tab "JadiOJK · PCAM OJK" di situs unduhan yang sama dengan TIU (warna halaman JadiOJK).
 
-Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN", "C. Materi Pembelajaran"), catatan penulis dalam kurung siku ("[WAJIB PPT]", "[PENGAYAAN]") yang dibuang dari teks, bagian yang dilewati (Kata Pengantar, Capaian Pembelajaran, Daftar Rujukan), soal per Heading 2 ("4.1 …", "Contoh Soal 1 — …"), dan kunci "Jawaban C. …". Isi berlabel [PENGAYAAN] tetap ikut. Tabel yang punya kolom foto (mis. Profil Anggota Dewan Komisioner OJK) menjadi kartu profil berisi foto, nama, dan jabatan, sesuai catatan "[yang harus ada di PPT hanya foto dan profil]"; kolom uraian panjang tidak ikut. Tabel, daftar butir, dan kartu profil yang lebih tinggi dari satu halaman dipecah ke halaman berikutnya.
+Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN", "C. Materi Pembelajaran"), catatan penulis dalam kurung siku ("[WAJIB PPT]", "[PENGAYAAN]") yang dibuang dari teks (dan menentukan isi yang masuk, lihat di atas), bagian yang dilewati (Kata Pengantar, Capaian Pembelajaran, Daftar Rujukan), soal per Heading 2 ("4.1 …", "Contoh Soal 1 — …"), dan kunci "Jawaban C. …". Tabel yang punya kolom foto (mis. Profil Anggota Dewan Komisioner OJK) menjadi kartu profil berisi foto, nama, dan jabatan, sesuai catatan "[yang harus ada di PPT hanya foto dan profil]"; kolom uraian panjang tidak ikut. Tabel, daftar butir, dan kartu profil yang lebih tinggi dari satu halaman dipecah ke halaman berikutnya.
 
 "Pengenalan OJK dan Waspada Investasi" (13 MB) terlalu besar untuk diekspor lewat Google Drive API; unduh manual sebagai Word, simpan sebagai `<doc_id>.docx`, lalu jalankan impor dengan `--id sjk-01`. Untuk membangun ulang satu materi saja di situs (tanpa membangun ulang yang lain), tambahkan `--id sjk-01` ke perintah `buat_situs.py`.
 
@@ -194,7 +205,7 @@ Ikon: `globe`, `strategi`, `grafik`, `checklist`, `roket`, `peringatan`, `presen
 - Sampul, Pendahuluan (bingkai navy), Tujuan, Penutup (bingkai kuning), dan Terima kasih disalin dari slide contohnya; teks contoh diganti isi naskah. Slide contoh dikenali dari teks besarnya (MATERI BESAR, PENDAHULUAN, TUJUAN PEMBELAJARAN, PENUTUP, TERIMA KASIH) dan slide isi bertabel, bukan dari nomor urutnya. Di Penutup, butir ringkasan disusun dua kolom bila perlu, dan pesan yang terlalu panjang dipindah ke slide penutup kedua.
 - Slide isi memakai chip penanda dan hiasan samar (lingkaran kuning, gelombang garis) dari template; komponennya sama dengan Opsi B, dengan token warna General: kartu gradien kuning muda ke putih, kartu gelap gradien navy ke abu-abu, catatan kuning.
 - Navigasi digambar ulang mengikuti gaya template (pil bergaris navy, bagian aktif navy) agar bagian aktif benar dan tetap bisa diklik; di slide berbingkai warnanya putih.
-- Sampul memakai `meta.materi_besar` (bila ada) atau subtes sebagai teks besar, dan `meta.tutor` (opsional) untuk nama tutor.
+- Sampul memakai slide contoh berfoto ("Judul Materi (boleh panjang)"), dengan `meta.materi_besar` (bila ada) atau subtes sebagai teks besar, dan `meta.tutor` (opsional) untuk nama tutor.
 - Gambar template yang besar diperkecil saat deck dibuat (hiasan gelombang 3,3 MB menjadi ±0,2 MB) sehingga deck General sekitar 1,3–2,8 MB.
 - Deck latihan soal (`buat_latihan.py`) tetap memakai tampilan Opsi B.
 

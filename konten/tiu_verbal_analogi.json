@@ -1,293 +1,248 @@
 {
   "meta": {
     "judul": "Verbal Analogi",
-    "subjudul": "Jenis-Jenis Hubungan Antarkata",
     "subtes": "Tes Intelegensia Umum",
     "nama_file": "TIU - Verbal Analogi - Jenis-Jenis Hubungan Antarkata",
-    "sumber": "Google Docs '01 Verbal Analogi - Jenis-Jenis Hubungan Antarkata' (Mapping SKD 2027, sheet Kerangka Course, baris 18)"
+    "sumber": "https://docs.google.com/document/d/1FnlVBRwQNnUwz0ZwerTvw4tKubyAXaJ_GHFohdLPwyI/edit",
+    "id_katalog": "va-01"
   },
-
   "peta_subtes": {
     "judul": "Tes Intelegensia Umum",
     "subjudul": "Peta Materi Subtes TIU",
-    "aktif": 0,
     "kartu": [
-      { "judul": "Verbal Analogi", "deskripsi": "Jenis hubungan antarkata dan analogi dua kata", "ikon": "checklist" },
-      { "judul": "Verbal Silogisme", "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor", "ikon": "strategi" },
-      { "judul": "Verbal Analitis", "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen", "ikon": "globe" },
-      { "judul": "Numerik", "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan", "ikon": "grafik" },
-      { "judul": "Data & Deret", "deskripsi": "Kecukupan data, tabel pernyataan, deret angka", "ikon": "roket" },
-      { "judul": "Figural", "deskripsi": "Transformasi, analogi, serial, dan matriks gambar", "ikon": "strategi" }
-    ]
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 0
   },
-
   "pendahuluan": {
     "paragraf": [
-      "Analogi verbal membandingkan hubungan antara dua pasang kata. Misalnya, **dahan : pohon** dan **roda : mobil** sama-sama menyatakan hubungan bagian dengan benda utuh.",
-      "Perhatikan peran tiap kata. Pada **roda : mobil**, roda adalah bagian dari mobil. Pada **mobil : garasi**, garasi adalah tempat penyimpanan mobil."
+      "Analogi verbal membandingkan hubungan antara dua pasang kata. Misalnya, dahan : pohon dan roda : mobil sama-sama menyatakan hubungan bagian dengan benda utuh."
     ],
-    "pemantik": "Roda : mobil dan mobil : garasi sama-sama memuat kata mobil. Mengapa hubungan kedua pasangan itu berbeda?",
+    "pemantik": "",
     "ikon": "presenter"
   },
-
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
     "butir": [
-      { "level": "C3", "kko": "Merumuskan", "teks": "hubungan pada pasangan kata dengan kata penghubung yang tepat." },
-      { "level": "C4", "kko": "Membedakan", "teks": "sinonim, antonim, sebab–akibat, benda–fungsi, bagian–keseluruhan, pelaku–objek, benda–tempat, objek–sifat, dan jenis–kategori." },
-      { "level": "C2", "kko": "Menjelaskan", "teks": "persamaan dan perbedaan hubungan pada dua pasangan kata berdasarkan jenis, arah, dan peran masing-masing kata." }
+      {
+        "level": "",
+        "kko": "Merumuskan",
+        "teks": "hubungan pada pasangan kata dengan kata penghubung yang tepat."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "persamaan dan perbedaan hubungan pada dua pasangan kata berdasarkan jenis, arah, dan peran masing-masing kata."
+      }
     ]
   },
-
   "materi": [
     {
-      "subbab": "Membaca Analogi",
+      "subbab": "Cara membaca analogi dua kata",
       "ikon": "checklist",
       "slide": [
         {
-          "tipe": "notasi",
-          "judul": "Cara Membaca Analogi Dua Kata",
-          "pengantar": "Gunakan satu kalimat penghubung yang berlaku untuk kedua pasangan.",
-          "baris": [
-            { "rumus": "$A : B = C : D$", "ket": "Titik dua memisahkan kata dalam satu pasangan. Tanda sama dengan berarti hubungan A dengan B sepadan dengan hubungan C dengan D." },
-            { "rumus": "dahan : pohon", "ket": "Dahan **merupakan bagian dari** pohon." },
-            { "rumus": "roda : mobil", "ket": "Roda **merupakan bagian dari** mobil. Penghubungnya sama, jadi kedua pasangan sepadan." }
-          ],
-          "catatan": { "jenis": "tips", "teks": "Jika urutan dibalik, gunakan penghubung “X **memiliki** Y sebagai bagian”." }
-        },
-        {
-          "tipe": "banding",
-          "judul": "Penghubung Harus Menyebut Peran Kata",
-          "pengantar": "Kalimat penghubung harus sesuai dengan kedua pasangan tanpa mengubah peran kata. “X berkaitan dengan Y” terlalu umum.",
-          "kartu": [
+          "tipe": "blok",
+          "judul": "Cara membaca analogi dua kata",
+          "blok": [
             {
-              "judul": "pena : menulis",
-              "warna": "teal",
-              "baris": [
-                ["pena", "alat"],
-                ["menulis", "kegiatan yang dibantu alat itu"],
-                ["X → Y", "X dipakai untuk Y"]
-              ]
+              "jenis": "sorot",
+              "teks": "A : B = C : D"
             },
             {
-              "judul": "penulis : pena",
-              "warna": "slate",
-              "baris": [
-                ["penulis", "orang"],
-                ["pena", "alat yang dipakai"],
-                ["X → Y", "X memakai Y"]
-              ]
+              "jenis": "paragraf",
+              "teks": "Tanda titik dua memisahkan kata dalam satu pasangan. Tanda sama dengan menunjukkan bahwa hubungan A dengan B sepadan dengan hubungan C dengan D."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan satu kalimat penghubung untuk kedua pasangan. Pada dahan : pohon dan roda : mobil, penghubungnya sama, yaitu “X merupakan bagian dari Y”. Jika urutan dibalik, gunakan “X memiliki Y sebagai bagian”."
             }
-          ],
-          "catatan": { "jenis": "peringatan", "teks": "Topiknya serupa, tetapi **penghubungnya berbeda**. Pena : menulis sepadan dengan gergaji : memotong, bukan dengan penulis : pena." }
+          ]
         }
       ]
     },
     {
-      "subbab": "Sinonim dan Antonim",
+      "subbab": "Benda–fungsi",
       "ikon": "globe",
       "slide": [
         {
-          "tipe": "kartu",
-          "judul": "Padanan dan Lawan Makna",
-          "pengantar": "Kedua hubungan ini membandingkan makna kata dalam konteks tertentu.",
-          "kolom": 2,
-          "kartu": [
-            { "judul": "Sinonim", "rumus": "cermat ↔ teliti", "isi": "Kata yang bermakna sama atau mirip. Uji dengan mengganti satu kata dengan kata lain dalam pemakaian yang sama." },
-            { "judul": "Antonim", "rumus": "lambat ⟷ cepat", "isi": "Kata yang maknanya berlawanan pada aspek yang sama, misalnya kecepatan atau posisi pada suatu urutan." }
-          ],
-          "catatan": { "jenis": "tips", "teks": "Padanan bergantung pada arti yang dipakai. **Ringan** dekat dengan “enteng” untuk bobot, dan dekat dengan “mudah” untuk tingkat kesulitan tugas." }
-        },
-        {
-          "tipe": "notasi",
-          "judul": "Antonim Bertingkat dan Dua Posisi",
-          "pengantar": "Kenali apakah pertentangannya berupa skala atau dua posisi.",
-          "baris": [
-            { "rumus": "lambat ⟷ cepat", "ket": "Skala kecepatan. Kecepatan **sedang** dapat berada di antara keduanya." },
-            { "rumus": "rendah : tinggi", "ket": "Antonim **bertingkat**: ada tingkatan di antara kedua kata." },
-            { "rumus": "awal : akhir", "ket": "Pertentangan **dua posisi** pada suatu urutan." }
-          ],
-          "catatan": { "jenis": "peringatan", "teks": "Saat membandingkan pasangan yang menunjukkan skala, periksa apakah urutannya sama-sama dari rendah ke tinggi atau sebaliknya." }
-        }
-      ]
-    },
-    {
-      "subbab": "Sebab–Akibat",
-      "ikon": "grafik",
-      "slide": [
-        {
-          "tipe": "notasi",
-          "judul": "Pemicu dan Dampak",
-          "pengantar": "Hubungan sebab–akibat mengaitkan pemicu dengan dampaknya.",
-          "baris": [
-            { "rumus": "benturan → penyok", "ket": "Baca panah sebagai “**dapat menyebabkan**”. Benturan di sisi pemicu, penyok di sisi dampak." },
-            { "rumus": "penyok : benturan", "ket": "Jika dibalik, penghubungnya menjadi “**dapat disebabkan oleh**”." }
-          ],
-          "catatan": { "jenis": "tips", "teks": "Gunakan kata **dapat** jika dampak bergantung pada kondisi. Benturan ringan mungkin tidak membuat permukaan penyok." }
-        },
-        {
-          "tipe": "banding",
-          "judul": "Penyebab atau Petunjuk?",
-          "pengantar": "Arah hubungan menentukan cara membacanya. Cocokkan peran pemicu dan dampak pada posisi yang sama.",
-          "kartu": [
+          "tipe": "blok",
+          "judul": "Benda–fungsi",
+          "blok": [
             {
-              "judul": "kebakaran : asap",
-              "warna": "teal",
-              "baris": [
-                ["kebakaran", "peristiwa pemicu"],
-                ["asap", "dampak yang dihasilkan"]
-              ]
-            },
-            {
-              "judul": "asap : kebakaran",
-              "warna": "slate",
-              "baris": [
-                ["asap", "petunjuk"],
-                ["kebakaran", "peristiwa yang ditunjukkan"]
-              ]
+              "jenis": "paragraf",
+              "teks": "Pisau : memotong menyatakan kegunaan pisau. Pisau : tajam menyatakan cirinya."
             }
-          ],
-          "catatan": { "jenis": "peringatan", "teks": "Urutan waktu saja belum cukup untuk menyatakan bahwa peristiwa pertama menyebabkan peristiwa kedua." }
+          ]
         }
       ]
     },
     {
-      "subbab": "Fungsi dan Bagian",
+      "subbab": "Bagian–keseluruhan",
       "ikon": "strategi",
       "slide": [
         {
-          "tipe": "notasi",
-          "judul": "Benda–Fungsi",
-          "pengantar": "Hubungan benda–fungsi mengaitkan benda dengan kegunaannya.",
-          "baris": [
-            { "rumus": "pena → menulis", "ket": "Baca panah sebagai “**digunakan untuk**”. Gergaji : memotong mengikuti penghubung yang sama." },
-            { "rumus": "pisau : memotong", "ket": "Menyatakan **kegunaan** pisau." },
-            { "rumus": "pisau : tajam", "ket": "Menyatakan **ciri** pisau, bukan kegunaannya." }
+          "tipe": "blok",
+          "judul": "Bagian–keseluruhan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan mesin : mobil dengan mobil : garasi. Mesin merupakan bagian dari mobil. Garasi adalah tempat mobil disimpan."
+            }
           ]
-        },
-        {
-          "tipe": "notasi",
-          "judul": "Bagian–Keseluruhan",
-          "pengantar": "Hubungan ini mengaitkan komponen dengan benda yang disusunnya, seperti kelopak dengan bunga.",
-          "baris": [
-            { "rumus": "roda → mobil", "ket": "Baca panah sebagai “**merupakan bagian dari**”." },
-            { "rumus": "mobil : roda", "ket": "Jika dibalik, bacanya “**memiliki sebagai bagian**”." }
-          ],
-          "catatan": { "jenis": "peringatan", "teks": "Bandingkan **mesin : mobil** dengan **mobil : garasi**. Mesin merupakan bagian dari mobil, sedangkan garasi adalah tempat mobil disimpan." }
         }
       ]
     },
     {
-      "subbab": "Pelaku dan Tempat",
-      "ikon": "presenter",
+      "subbab": "Jenis–kategori",
+      "ikon": "grafik",
       "slide": [
         {
-          "tipe": "tabel",
-          "judul": "Pelaku–Objek",
-          "pengantar": "Hubungan ini mengaitkan orang dengan sesuatu yang terlibat dalam pekerjaannya. Peran kata kedua bisa berbeda.",
-          "kolom": ["Pasangan", "Penghubung", "Peran kata kedua"],
-          "lebar": [3.6, 4.2, 5.0],
-          "baris": [
-            ["pilot : pesawat", "X mengoperasikan Y", "kendaraan yang dioperasikan"],
-            ["petani : cangkul", "X menggunakan Y", "alat yang dipakai"],
-            ["dokter : pasien", "X menangani Y", "orang yang ditangani"],
-            ["wartawan : berita", "X menghasilkan Y", "karya yang dihasilkan"]
-          ],
-          "catatan": { "jenis": "tips", "teks": "Pilot : pesawat searah dengan **masinis : kereta** karena kata kedua pada keduanya adalah kendaraan yang dioperasikan." }
-        },
-        {
-          "tipe": "kartu",
-          "judul": "Alat, Hasil, atau Lokasi?",
-          "pengantar": "Satu pelaku bisa dipasangkan dengan kata yang perannya berbeda.",
-          "kolom": 3,
-          "kartu": [
-            { "judul": "penulis : pena", "isi": "Pena **digunakan** untuk bekerja. Kata kedua berperan sebagai alat." },
-            { "judul": "penulis : novel", "isi": "Novel **dihasilkan** dari pekerjaan. Kata kedua berperan sebagai karya." },
-            { "judul": "guru : sekolah", "isi": "Kata kedua menjawab “Di mana orang itu bekerja?”, jadi fokusnya **lokasi**." }
+          "tipe": "blok",
+          "judul": "Jenis–kategori",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Elang termasuk jenis burung. Roda merupakan bagian dari mobil. Gunakan “termasuk jenis” untuk kategori dan “merupakan bagian dari” untuk komponen."
+            }
           ]
-        },
-        {
-          "tipe": "notasi",
-          "judul": "Benda–Tempat",
-          "pengantar": "Hubungan ini mengaitkan benda dengan lokasi penyimpanan atau penggunaannya, seperti pesawat di hanggar.",
-          "baris": [
-            { "rumus": "mobil → garasi", "ket": "Baca panah sebagai “**lazim disimpan di**”." },
-            { "rumus": "mobil : jalan", "ket": "Penghubungnya berubah menjadi “**lazim melintas di**”." },
-            { "rumus": "garasi : mobil", "ket": "Jika dibalik, berarti tempat menuju benda yang ditampung." }
-          ],
-          "catatan": { "jenis": "tips", "teks": "Kenali peran lokasinya. Pada **ikan : laut**, laut berperan sebagai habitat. Pada **pakaian : lemari**, lemari berperan sebagai tempat penyimpanan." }
         }
       ]
     },
     {
-      "subbab": "Sifat dan Kategori",
-      "ikon": "checklist",
-      "slide": [
-        {
-          "tipe": "notasi",
-          "judul": "Objek–Sifat",
-          "pengantar": "Hubungan objek–sifat mengaitkan benda dengan cirinya. Pilih ciri yang lazim dikenali pada objek.",
-          "baris": [
-            { "rumus": "es → dingin", "ket": "Baca panah sebagai “**lazimnya bersifat**”. Es : dingin dan api : panas sama-sama memakai suhu sebagai aspek pembanding." },
-            { "rumus": "amplas : kasar", "ket": "Kata kedua menunjukkan **tekstur**." },
-            { "rumus": "amplas : menghaluskan", "ket": "Kata kedua menunjukkan **kegunaan**, bukan sifat." }
-          ]
-        },
-        {
-          "tipe": "notasi",
-          "judul": "Jenis–Kategori",
-          "pengantar": "Uji apakah kata pertama bisa disebut sebagai salah satu jenis kata kedua.",
-          "baris": [
-            { "rumus": "elang → burung", "ket": "Baca panah sebagai “**termasuk jenis**”. Jika urutannya burung : elang, bacanya “mencakup jenis”." },
-            { "rumus": "sepeda → kendaraan", "ket": "Sepeda termasuk jenis kendaraan. Kata kedua menyatakan **kelompok**." },
-            { "rumus": "sepeda → pedal", "ket": "Sepeda memiliki pedal sebagai bagian. Kata kedua menyatakan **komponen**." }
-          ],
-          "catatan": { "jenis": "peringatan", "teks": "Gunakan “termasuk jenis” untuk kategori dan “merupakan bagian dari” untuk komponen." }
-        }
-      ]
-    },
-    {
-      "subbab": "Strategi Mengerjakan",
+      "subbab": "Ringkasan pembeda",
       "ikon": "roket",
       "slide": [
         {
-          "tipe": "tabel",
-          "judul": "Ringkasan Pembeda",
-          "kolom": ["Hubungan", "Penghubung dari X ke Y", "Pembeda"],
-          "lebar": [3.3, 4.9, 5.6],
-          "ukuran": 18,
-          "baris": [
-            ["Sinonim / antonim", "X sepadan dengan Y / X berlawanan dengan Y.", "Padanan makna atau pertentangan pada aspek yang sama."],
-            ["Sebab–akibat", "X dapat menyebabkan Y.", "Pemicu menghasilkan dampak. Tanda hanya memberi petunjuk."],
-            ["Benda–fungsi", "X digunakan untuk Y.", "Kata kedua menyatakan kegunaan, seperti memotong."],
-            ["Bagian–keseluruhan", "X merupakan bagian dari Y.", "Komponen ikut menyusun benda utuh."],
-            ["Pelaku–objek", "X mengoperasikan, memakai, menangani, atau menghasilkan Y.", "Pilih satu tindakan yang cocok untuk kedua pasangan."],
-            ["Benda–tempat", "X lazim disimpan atau ditempatkan di Y.", "Kenali peran lokasinya: penyimpanan atau tempat penggunaan."],
-            ["Objek–sifat / jenis–kategori", "X bersifat Y / X termasuk jenis Y.", "Sifat menjelaskan ciri. Kategori mengelompokkan jenis."]
+          "tipe": "blok",
+          "judul": "Ringkasan pembeda",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Hubungan",
+                "Penghubung dari X ke Y",
+                "Pembeda"
+              ],
+              "baris": [
+                [
+                  "Sinonim / antonim",
+                  "X sepadan dengan Y / X berlawanan dengan Y.",
+                  "Padanan makna atau pertentangan pada aspek yang sama."
+                ],
+                [
+                  "Sebab–akibat",
+                  "X dapat menyebabkan Y.",
+                  "Pemicu menghasilkan dampak. Tanda hanya memberi petunjuk."
+                ],
+                [
+                  "Benda–fungsi",
+                  "X digunakan untuk Y.",
+                  "Kata kedua menyatakan kegunaan, seperti memotong."
+                ],
+                [
+                  "Bagian–keseluruhan",
+                  "X merupakan bagian dari Y.",
+                  "Komponen ikut menyusun benda utuh."
+                ],
+                [
+                  "Pelaku–objek",
+                  "X mengoperasikan, memakai, menangani, atau menghasilkan Y.",
+                  "Pilih satu tindakan yang cocok untuk kedua pasangan."
+                ],
+                [
+                  "Benda–tempat",
+                  "X lazim disimpan atau ditempatkan di Y.",
+                  "Kenali peran lokasinya, misalnya penyimpanan atau tempat penggunaan."
+                ],
+                [
+                  "Objek–sifat / jenis–kategori",
+                  "X bersifat Y / X termasuk jenis Y.",
+                  "Sifat menjelaskan ciri. Kategori mengelompokkan jenis."
+                ]
+              ]
+            }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "subbab": "Langkah mengenali hubungan antarkata",
+      "ikon": "checklist",
+      "slide": [
         {
-          "tipe": "langkah",
-          "judul": "Langkah Mengenali Hubungan Antarkata",
-          "langkah": [
-            { "judul": "Rumuskan penghubung", "isi": "baca dari kiri ke kanan, lalu lengkapi “X … Y” dengan kata kerja atau penghubung yang menjelaskan pasangan acuan secara langsung." },
-            { "judul": "Terapkan pada pembanding", "isi": "pakai penghubung yang sama dari kiri ke kanan, lalu periksa apakah kedua pasangan sejenis dan searah." },
-            { "judul": "Periksa peran spesifik", "isi": "jika jenisnya sama, bedakan kendaraan yang dioperasikan dari alat yang dipakai, atau tempat penyimpanan dari lokasi aktivitas." }
+          "tipe": "blok",
+          "judul": "Langkah mengenali hubungan antarkata",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Baca dari kiri ke kanan. Lengkapi “X … Y” dengan kata kerja atau penghubung yang menjelaskan pasangan acuan secara langsung.",
+                "Saat membandingkan dua pasangan, terapkan penghubung yang sama dari kiri ke kanan. Periksa apakah kedua pasangan memiliki hubungan yang sejenis dan searah."
+              ]
+            }
           ]
         }
       ]
     }
   ],
-
   "penutup": {
     "judul": "Yang Perlu Diingat",
     "ringkasan": [
-      { "judul": "Cara Membaca", "teks": "Satu penghubung harus cocok untuk kedua pasangan tanpa mengubah peran kata." },
-      { "judul": "Makna", "teks": "Sinonim sepadan maknanya. Antonim berlawanan pada aspek yang sama." },
-      { "judul": "Sebab dan Fungsi", "teks": "Pemicu dapat menyebabkan dampak. Benda digunakan untuk kegunaannya." },
-      { "judul": "Bagian, Pelaku, Tempat", "teks": "Bedakan komponen, peran kata kedua, dan peran lokasi." },
-      { "judul": "Sifat dan Kategori", "teks": "Sifat menjelaskan ciri. Kategori mengelompokkan jenis." }
+      {
+        "judul": "Cara membaca analogi dua kata",
+        "teks": ""
+      },
+      {
+        "judul": "Benda–fungsi",
+        "teks": ""
+      },
+      {
+        "judul": "Bagian–keseluruhan",
+        "teks": ""
+      },
+      {
+        "judul": "Jenis–kategori",
+        "teks": ""
+      },
+      {
+        "judul": "Ringkasan pembeda",
+        "teks": ""
+      },
+      {
+        "judul": "Langkah mengenali hubungan antarkata",
+        "teks": ""
+      }
     ],
-    "pesan": "Rumuskan satu penghubung, terapkan dari kiri ke kanan, lalu periksa jenis dan arahnya."
+    "pesan": "Rumuskan satu kalimat penghubung untuk pasangan acuan. Terapkan pada pasangan pembanding dari kiri ke kanan. Periksa apakah jenis dan arah hubungannya sama."
   }
 }

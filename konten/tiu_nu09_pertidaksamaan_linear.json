@@ -46,8 +46,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Pertidaksamaan menyatakan hubungan lebih kecil atau lebih besar antara dua ruas. Dalam pertidaksamaan linear, nilai variabel yang memenuhi bisa lebih dari satu. Kita akan belajar menemukan himpunan solusi dan menampilkannya dengan notasi interval serta garis bilangan.",
-      "Cara menyelesaikannya mirip dengan persamaan. Kita melakukan operasi pada kedua ruas hingga variabel berdiri sendiri. Perbedaan yang perlu diperhatikan adalah arah tanda saat kedua ruas dikali atau dibagi bilangan negatif."
+      "Pertidaksamaan menyatakan hubungan lebih kecil atau lebih besar antara dua ruas. Dalam pertidaksamaan linear, nilai variabel yang memenuhi bisa lebih dari satu. Kita akan belajar menemukan himpunan solusi dan menampilkannya dengan notasi interval serta garis bilangan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -96,10 +95,6 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Nilai x yang membuat kalimat matematika itu benar disebut penyelesaian. Nilai 2 memenuhi karena ruas kiri bernilai 5. Nilai 3 tidak memenuhi karena ruas kiri bernilai 7, sedangkan syaratnya kurang dari 7."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Bentuk umum pertidaksamaan linear"
             },
             {
@@ -121,10 +116,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pada dua bentuk umum di atas, kotak □ diganti dengan salah satu dari <, >, ≤, atau ≥."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Penyelesaian pertidaksamaan dua variabel berupa pasangan nilai. Misalnya, pada batas dua kali x ditambah y paling banyak 6, pasangan x bernilai 1 dan y bernilai 4 memenuhi karena hasilnya tepat 6. Pasangan x bernilai 2 dan y bernilai 4 tidak memenuhi karena hasilnya 8."
             }
           ]
         }
@@ -151,10 +142,6 @@
             {
               "jenis": "paragraf",
               "teks": "Titik kosong berarti batas tidak termasuk. Titik penuh berarti batas termasuk. Garis berwarna ke kiri menunjukkan nilai yang lebih kecil, dan garis ke kanan menunjukkan nilai yang lebih besar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Angka bulat pada garis bilangan adalah penanda jarak. Jika variabel bernilai real, pecahan dan desimal yang berada pada bagian berwarna juga menjadi solusi."
             }
           ]
         }
@@ -189,14 +176,6 @@
             {
               "jenis": "sorot",
               "teks": "$2 < 4; −2 > −4$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan membalik tanda hanya karena ada bilangan negatif di soal. Pada pertidaksamaan dengan x ditambah sebuah bilangan negatif, kita dapat menambah bilangan yang sama pada kedua ruas dan arah tanda tetap. Jika variabel ada di kedua ruas, kumpulkan suku berhuruf pada satu ruas dan konstanta pada ruas lain. Baru periksa tanda pengali atau pembagi yang digunakan untuk membuat variabel berdiri sendiri."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika variabel habis saat disederhanakan, baca kalimat yang tersisa. Pernyataan yang selalu benar berarti seluruh nilai yang diperbolehkan memenuhi pertidaksamaan. Pernyataan yang salah berarti tidak ada nilai yang memenuhi."
             }
           ]
         }
@@ -223,10 +202,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jika solusi berada di antara dua batas, lihat kedua ujungnya secara terpisah. Batas kiri dan kanan dapat sama-sama termasuk, sama-sama tidak termasuk, atau hanya salah satunya termasuk."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Baca interval dari nilai kecil ke nilai besar. Untuk nilai yang kurang dari 3, tuliskan dari negatif tak hingga sampai 3 dengan kurung biasa di kedua ujung. Jika nilai 3 ikut menjadi solusi, ganti kurung di sisi 3 dengan kurung siku."
             }
           ]
         }
@@ -253,6 +228,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Baca dulu arti tandanya. Lakukan operasi yang sama pada kedua ruas, dan balik tanda hanya saat keduanya dikali atau dibagi bilangan negatif. Saat menggambar solusi, periksa apakah angka batas termasuk dan ke arah mana solusi berlanjut. Untuk memeriksa hasil, uji angka batas serta satu nilai di kiri dan kanannya pada pertidaksamaan awal. Cek apakah tanda dan notasi interval menggambarkan himpunan yang sama."
+    "pesan": "Baca dulu arti tandanya. Lakukan operasi yang sama pada kedua ruas, dan balik tanda hanya saat keduanya dikali atau dibagi bilangan negatif. Saat menggambar solusi, periksa apakah angka batas termasuk dan ke arah mana solusi berlanjut."
   }
 }

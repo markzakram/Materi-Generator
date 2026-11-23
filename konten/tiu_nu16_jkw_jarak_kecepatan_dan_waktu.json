@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Jarak, kecepatan, dan waktu saling berkaitan dalam perjalanan. Jika dua di antaranya diketahui, nilai yang lain dapat dihitung. Segitiga JKW membantu memilih rumus dasar, sedangkan arah gerak dan waktu keberangkatan membantu menentukan cara menghitung waktu menyusul atau berpapasan.",
-      "Perhitungan dimulai dengan memahami perjalanan yang dibicarakan: siapa yang bergerak, dari mana ia berangkat, dan sejak kapan waktunya dihitung. Setelah itu, samakan satuan dan gunakan rumus yang sesuai. Dengan urutan ini, angka dalam soal memiliki arti yang jelas dan tidak sekadar dimasukkan ke rumus."
+      "Jarak, kecepatan, dan waktu saling berkaitan dalam perjalanan. Jika dua di antaranya diketahui, nilai yang lain dapat dihitung. Segitiga JKW membantu memilih rumus dasar, sedangkan arah gerak dan waktu keberangkatan membantu menentukan cara menghitung waktu menyusul atau berpapasan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -95,10 +94,6 @@
               "teks": "Jarak (J) adalah panjang lintasan yang ditempuh. Kecepatan (K) menyatakan jarak yang ditempuh setiap satuan waktu. Waktu (W) adalah lamanya perjalanan berlangsung."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Kecepatan 60 km/jam berarti kendaraan menempuh 60 km dalam satu jam jika kecepatannya tetap. Dalam dua jam, jaraknya menjadi dua kali lipat. Jika kecepatannya berubah selama perjalanan, kecepatan rata-rata diperoleh dari seluruh jarak dibagi seluruh waktu yang diperhitungkan."
-            },
-            {
               "jenis": "gambar",
               "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-01.png",
               "lebar": 1.75,
@@ -133,36 +128,6 @@
             {
               "jenis": "sorot",
               "teks": "$W=J/K$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Segitiga adalah alat bantu mengingat hubungan ketiganya. Huruf yang ditutup bukan angka nol dan bukan bagian yang ikut dihitung. Tentukan terlebih dahulu apa yang ditanyakan, baru pilih salah satu rumus."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Rina menempuh 18 km dalam 1,5 jam. Untuk mencari kecepatannya, tutup K sehingga tersisa J dibagi W."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-03.png",
-              "lebar": 6.24,
-              "tinggi": 1.69
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$K=18/1,5$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$K=12 km/jam$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Artinya, jarak rata-rata yang ditempuh Rina setiap jam adalah 12 km. Dari data yang sama, jarak dapat diperiksa dengan mengalikan 12 km/jam dengan 1,5 jam."
             }
           ]
         }
@@ -197,24 +162,8 @@
               "teks": "Contoh perubahan satuan"
             },
             {
-              "jenis": "sorot",
-              "teks": "$36 menit=36/60 jam$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$36 menit=0,6 jam$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$0,6 jam=36 menit$"
-            },
-            {
               "jenis": "paragraf",
               "teks": "Pukul menunjukkan saat tertentu, sedangkan jam sebagai durasi menunjukkan lamanya kegiatan. Pukul 07.00 ditambah perjalanan 3,6 jam menghasilkan pukul 10.36 karena 0,6 jam adalah 36 menit. Jangan membaca 3,6 jam sebagai 3 jam 6 menit."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada tabel rumus perjalanan, W dihitung sejak kendaraan pertama berangkat. Untuk mencari pukul bertemu, tambahkan W ke pukul keberangkatan pertama. Jika yang ditanyakan adalah lama perjalanan kendaraan kedua, kurangi W dengan selisih waktu keberangkatan."
             }
           ]
         }
@@ -270,7 +219,7 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-04.png",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-03.png",
               "lebar": 6.24,
               "tinggi": 1.69
             },
@@ -281,46 +230,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pada saat tersusul, jarak yang ditempuh kedua kendaraan sama. Waktu bergeraknya berbeda: kendaraan pertama bergerak selama W, sedangkan kendaraan kedua bergerak selama W dikurangi ΔT. Inilah alasan selisih keberangkatan perlu diperhatikan."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kendaraan pertama melaju 40 km/jam dan berangkat 30 menit lebih awal. Kendaraan kedua melaju 60 km/jam. Ubah 30 menit menjadi 0,5 jam, lalu gunakan rumus searah untuk keberangkatan tidak bersamaan."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$W=K₂ΔT/(K₂−K₁)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=(60×0,5)/(60−40)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=30/20$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=1,5 jam$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Lama perjalanan kendaraan pertama adalah 1,5 jam. Untuk mengetahui lama perjalanan kendaraan kedua, kurangi hasil tersebut dengan selisih keberangkatan."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$W kedua=W−ΔT$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=1,5−0,5$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=1 jam$"
             }
           ]
         }
@@ -336,7 +245,7 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-05.png",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-04.png",
               "lebar": 6.24,
               "tinggi": 1.69
             },
@@ -345,22 +254,14 @@
               "teks": "Ketika dua kendaraan bergerak saling mendekat, gunakan jumlah kecepatan. Jika berangkat bersamaan, jarak awal J dibagi jumlah kecepatan. Hasilnya adalah lama perjalanan hingga berpapasan."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Kata “berlawanan arah” perlu dibaca bersama konteksnya. Rumus berpapasan berlaku ketika keduanya bergerak saling mendekat pada lintasan yang sama, bukan ketika bergerak menjauhi satu sama lain."
-            },
-            {
               "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-06.png",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-05.png",
               "lebar": 6.24,
               "tinggi": 1.69
             },
             {
               "jenis": "paragraf",
               "teks": "Jika kendaraan pertama berangkat lebih awal, gunakan rumus berlawanan arah pada baris “Berangkat Tidak Bareng”. Masukkan jarak awal J, kedua kecepatan, dan selisih waktu ΔT. Hasil W tetap dihitung sejak kendaraan pertama berangkat."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika kendaraan pertama sudah mencapai titik keberangkatan kendaraan kedua sebelum kendaraan kedua mulai bergerak, rumus dua kendaraan yang sama-sama bergerak belum dapat langsung digunakan. Periksa dahulu urutan waktu dalam cerita."
             }
           ]
         }
@@ -376,7 +277,7 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-07.png",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-06.png",
               "lebar": 6.24,
               "tinggi": 1.69
             },
@@ -416,10 +317,6 @@
             {
               "jenis": "paragraf",
               "teks": "W terpakai adalah waktu bergerak sebelum berhenti. W berhenti adalah lama pemberhentian. K baru menunjukkan kecepatan untuk sisa perjalanan; tambahan kecepatan menunjukkan kenaikannya dibandingkan kecepatan awal. Keduanya merupakan jawaban yang berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pastikan sisa waktu bergerak masih positif. Untuk menentukan kecepatan baru, perlu diketahui posisi atau jarak yang sudah ditempuh saat berhenti, kecuali pemberhentian dinyatakan terjadi sebelum perjalanan dimulai."
             }
           ]
         }
@@ -476,6 +373,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Gunakan segitiga JKW untuk satu perjalanan dan pilih rumus pada tabel berdasarkan arah serta waktu keberangkatan. Pada tabel, W dihitung sejak kendaraan pertama berangkat. Samakan satuan sebelum substitusi dan bedakan lama perjalanan kendaraan pertama dengan lama perjalanan kendaraan kedua. Biasakan menuliskan satuan dan menentukan sejak kapan waktu dihitung. Setelah memperoleh hasil, cocokkan kembali dengan arah gerak, urutan keberangkatan, dan hal yang ditanyakan. Pemeriksaan ini membantu membedakan lama perjalanan, pukul bertemu, kecepatan baru, serta tambahan kecepatan."
+    "pesan": "Gunakan segitiga JKW untuk satu perjalanan dan pilih rumus pada tabel berdasarkan arah serta waktu keberangkatan. Pada tabel, W dihitung sejak kendaraan pertama berangkat. Samakan satuan sebelum substitusi dan bedakan lama perjalanan kendaraan pertama dengan lama perjalanan kendaraan kedua."
   }
 }

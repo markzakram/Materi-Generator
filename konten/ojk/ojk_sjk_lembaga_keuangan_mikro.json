@@ -45,11 +45,6 @@
     "butir": [
       {
         "level": "",
-        "kko": "Setelah",
-        "teks": "mempelajari materi ini, peserta dapat melakukan tiga hal berikut."
-      },
-      {
-        "level": "",
         "kko": "Membedakan",
         "teks": "pembiayaan, simpanan, dan pendampingan usaha."
       },
@@ -74,10 +69,6 @@
           "tipe": "blok",
           "judul": "Lembaga Keuangan Mikro",
           "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk mengenal peran OJK, Bank Indonesia, dan Lembaga Penjamin Simpanan, baca Pengantar Bersama di dokumen Perbankan dan Pembiayaan – Fintech."
-            },
             {
               "jenis": "tabel",
               "kolom": [
@@ -128,20 +119,12 @@
               "teks": "Lembaga Keuangan Mikro (LKM) adalah lembaga berizin yang membantu usaha skala mikro dan pemberdayaan masyarakat. LKM dapat menyalurkan pinjaman atau pembiayaan, mengelola simpanan, dan memberi konsultasi pengembangan usaha."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Tiga kegiatan utama LKM adalah penyaluran pinjaman atau pembiayaan skala mikro, pengelolaan simpanan, dan konsultasi pengembangan usaha."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Pinjaman atau Pembiayaan Mikro"
             },
             {
               "jenis": "paragraf",
               "teks": "Dalam pinjaman konvensional, pokok adalah dana yang dipinjam. Bunga adalah biaya pinjaman. Dalam pembiayaan syariah, baca akad untuk memahami cara pembiayaan, kewajiban pembayaran, dan imbalan jika ada."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sebelum menyetujui produk, tanyakan berapa uang yang diterima, berapa total yang harus dibayar, kapan jatuh temponya, dan apa yang terjadi jika pembayaran terlambat. Suku bunga atau imbal hasil maksimum mengikuti ketentuan penetapan dan pelaporan dalam POJK 41 Tahun 2024."
             },
             {
               "jenis": "subjudul",
@@ -202,19 +185,7 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Dasar Hukum"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "UU Nomor 1 Tahun 2013 tentang LKM sebagaimana diubah dengan UU Nomor 4 Tahun 2023 menjadi landasan. POJK 41 Tahun 2024 merinci kelembagaan dan kegiatan usaha LKM."
-            },
-            {
-              "jenis": "subjudul",
               "teks": "Kelembagaan, Wilayah, dan Pengawasan"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Setelah memahami layanan LKM, lihat bagaimana lembaganya dibentuk dan di mana ia boleh beroperasi. Badan hukum menunjukkan bentuk lembaganya. Izin usaha menunjukkan bahwa lembaga boleh menjalankan usaha LKM. Cakupan wilayah usaha menunjukkan area yang boleh dilayani, sedangkan skala usaha menentukan ketentuan pelaporan dan pengawasan yang berlaku."
             },
             {
               "jenis": "paragraf",
@@ -256,14 +227,6 @@
                   "Setiap bulan kepada OJK"
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contohnya saat didirikan, sebuah LKM dengan cakupan satu desa memenuhi syarat modal pendirian minimum Rp300 juta. Setelah beroperasi, laporan keuangannya menunjukkan total aset Rp800 juta. Cakupan desa dan aset di bawah Rp1 miliar sesuai dengan kriteria skala kecil pada tabel. Untuk mengetahui skala yang berlaku bagi lembaga tersebut, cek penetapan resmi OJK."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pelaporan pada periode 2026. LKM skala menengah yang sudah berizin sebelum POJK 41 Tahun 2024 ditetapkan tetap melapor kepada OJK setiap tiga bulan hingga periode Desember 2027. Pelaporan bulanan untuk kelompok ini dimulai pada periode Januari 2028. Untuk LKM skala besar yang sudah berizin sebelum POJK tersebut ditetapkan, pelaporan bulanan dimulai pada periode Januari 2026."
             },
             {
               "jenis": "subjudul",
@@ -328,10 +291,6 @@
             },
             {
               "jenis": "subjudul",
-              "teks": ""
-            },
-            {
-              "jenis": "subjudul",
               "teks": "Mengenali Batas Kegiatan LKM"
             },
             {
@@ -377,47 +336,6 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Membaca Kesehatan LKM dan Kualitas Pinjamannya"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kualitas pinjaman menilai pembayaran pada satu pinjaman atau pembiayaan. Kesehatan LKM melihat kondisi lembaga secara keseluruhan. Misalnya, jika cicilan Rani terlambat, LKM menilai kualitas pembiayaan Rani berdasarkan ketentuan yang berlaku. Untuk menilai kesehatan lembaga, pengawas melihat kondisi yang lebih luas, termasuk kualitas aset dan kemampuan LKM memenuhi kewajibannya."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Aspek kesehatan LKM",
-                "Pertanyaan sederhana"
-              ],
-              "baris": [
-                [
-                  "Permodalan dan solvabilitas",
-                  "Apakah modal LKM cukup untuk menghadapi risiko dan mendukung pemenuhan kewajiban jangka panjang?"
-                ],
-                [
-                  "Kualitas aset",
-                  "Seberapa baik kualitas aset LKM, termasuk pinjaman atau pembiayaan yang disalurkan?"
-                ],
-                [
-                  "Rentabilitas",
-                  "Apakah kegiatan LKM mampu menghasilkan laba atau hasil usaha yang memadai?"
-                ],
-                [
-                  "Likuiditas",
-                  "Apakah LKM memiliki dana yang cukup untuk memenuhi kewajiban yang segera jatuh tempo?"
-                ],
-                [
-                  "Manajemen",
-                  "Apakah pengurus mengelola kegiatan, risiko, dan kepatuhan dengan baik?"
-                ]
-              ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Klasifikasi kualitas pinjaman atau pembiayaan dalam Pasal 106 POJK 41 Tahun 2024 terdiri atas lima kelompok, yaitu lancar, dalam perhatian khusus, kurang lancar, diragukan, dan macet. Penilaiannya memperhatikan ketepatan pembayaran pokok dan/atau bunga atau imbal hasil sesuai jenis transaksi."
-            },
-            {
-              "jenis": "subjudul",
               "teks": "Kasus Pinjaman Usaha Kue"
             },
             {
@@ -427,10 +345,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pembiayaan menjawab kebutuhan modal. Pendampingan membantu pelaku usaha memakai modal dan memahami hasil usahanya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada ilustrasi berikut, Rani mengajukan pinjaman untuk membeli oven. Angka dan tahapan digunakan untuk latihan memahami cara kerja layanan. Rincian pengajuan, penilaian, dan pembayaran mengikuti produk dan prosedur masing-masing LKM."
             },
             {
               "jenis": "subjudul",
@@ -477,10 +391,6 @@
               "teks": "Jika uang yang tersedia turun menjadi Rp350.000, cicilan Rp440.000 masih harus dibayar. Kekurangannya Rp90.000. Rani dapat memakai hitungan ini untuk menilai kembali jumlah pinjaman dan jadwal pembayaran sebelum menyetujui perjanjian."
             },
             {
-              "jenis": "paragraf",
-              "teks": "**Diagram Alur Pinjaman LKM**"
-            },
-            {
               "jenis": "gambar",
               "file": "media/ojk_sjk_lembaga_keuangan_mikro/gambar-01.png",
               "lebar": 4.9,
@@ -508,19 +418,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Rani membayar cicilan sesuai jadwal dan menyimpan bukti pembayaran. Jika pendapatan menurun dan pembayaran terancam terlambat, ia dapat menghubungi LKM melalui kanal resmi untuk menanyakan langkah yang tersedia."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Tanyakan dulu siapa yang menyerahkan uang kepada siapa. Pada pembiayaan, LKM menyalurkan dana kepada pelaku usaha. Pada simpanan, nasabah menempatkan dana pada LKM yang menerima simpanan. Pada konsultasi, pelaku usaha menerima bantuan untuk mengelola usahanya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pembiayaan, simpanan, dan konsultasi dapat muncul dalam satu kasus. Kenali tujuan tiap kegiatan sebelum menentukan jawabannya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Misalnya, pedagang menerima dana untuk membeli oven, lalu belajar mencatat biaya produksi. Dana untuk oven adalah pembiayaan. Bantuan pencatatan adalah pendampingan."
             },
             {
               "jenis": "subjudul",
@@ -528,15 +426,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Wilayah izin menunjukkan tempat LKM boleh beroperasi. Aset membantu menentukan skala, sedangkan modal pendirian diperiksa saat lembaga dibentuk. Dengan membedakan ketiganya, kamu bisa memilih aturan yang relevan ketika soal menanyakan pelaporan atau cakupan usaha."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Nama lembaga, bentuk badan hukum, wilayah izin, dan skala menjawab pertanyaan berbeda. Wilayah izin menunjukkan area usaha. Skala digunakan untuk menentukan kewajiban tertentu seperti pelaporan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk membaca kewajiban laporan, temukan skala usaha terlebih dahulu. Kemudian periksa siapa penerima laporan dan seberapa sering laporan disampaikan."
             },
             {
               "jenis": "paragraf",
@@ -559,24 +449,12 @@
               "teks": "Saat pinjaman dicairkan, dana mengalir dari LKM ke Rani dan harus dibayar kembali sesuai perjanjian. Saat menabung, Rani menempatkan uang pada LKM dan menariknya sesuai ketentuan simpanan. Saat berkonsultasi, Rani mendapat bantuan mengelola usaha."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Cara memeriksanya adalah melihat arah uang dan tujuan setiap kegiatan. Pembiayaan perlu dibaca bersama perjanjian atau akad. Simpanan mengikuti ketentuan penarikan. Pendampingan membantu pedagang memahami apakah penjualannya menutup biaya."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Menentukan Aturan dari Wilayah, Aset, dan Status Izin"
             },
             {
               "jenis": "paragraf",
-              "teks": "Sebuah LKM beroperasi di satu desa dan memiliki aset Rp800 juta. Informasi wilayah dan aset digunakan untuk membaca kriteria umum skala kecil. Modal minimum pendirian untuk wilayah desa atau kelurahan adalah ukuran lain yang digunakan saat lembaga dibentuk."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pisahkan wilayah izin, modal pendirian, dan aset. Skala yang ditetapkan menentukan kewajiban tertentu, termasuk jadwal dan tujuan pelaporan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika LKM ditetapkan sebagai skala kecil, laporan berkala disampaikan setiap tiga bulan kepada pemerintah daerah kabupaten atau kota dengan tembusan OJK. Jika pelaku usaha dari luar wilayah meminta pembiayaan, periksa dulu cakupan izin sebelum menyalurkan dana."
             },
             {
               "jenis": "subjudul",
@@ -641,6 +519,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Untuk memahami peran Lembaga Keuangan Mikro (LKM), lihat kebutuhan nasabahnya. Pinjaman atau pembiayaan membantu menyediakan modal, simpanan membantu nasabah menyisihkan dana sesuai ketentuan produk, dan konsultasi membantu pelaku usaha mengelola usahanya. Pada LKM Syariah, akad menjelaskan cara transaksi berjalan serta kewajiban masing-masing pihak. Pada kasus usaha kue Rani, tambahan pesanan membantu membayar cicilan jika pelanggan membayar sebelum cicilan jatuh tempo. Jika pesanan turun atau pelanggan terlambat membayar, Rani perlu menghitung kembali kas yang tersedia. Dari sisi LKM, beberapa keterlambatan yang muncul bersamaan perlu ditelusuri untuk mengetahui apakah ada masalah yang sama pada sekelompok nasabah. Saat membaca kasus kelembagaan, gunakan cakupan izin untuk mengetahui wilayah yang boleh dilayani. Lalu lihat skala usaha yang ditetapkan OJK untuk menentukan ketentuan pelaporan dan pihak yang membina serta mengawasi LKM tersebut."
+    "pesan": "Untuk memahami peran Lembaga Keuangan Mikro (LKM), lihat kebutuhan nasabahnya. Pinjaman atau pembiayaan membantu menyediakan modal, simpanan membantu nasabah menyisihkan dana sesuai ketentuan produk, dan konsultasi membantu pelaku usaha mengelola usahanya. Pada LKM Syariah, akad menjelaskan cara transaksi berjalan serta kewajiban masing-masing pihak."
   }
 }

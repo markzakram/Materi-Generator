@@ -48,8 +48,7 @@
       "Gunakan petunjuk posisi untuk menentukan siapa atau benda apa yang menempati setiap tempat yang ditanya. Model posisi membantu saat petunjuk tersebar, misalnya satu aturan menyebut kursi yang pasti dan aturan lain melarang dua orang duduk berdampingan."
     ],
     "pemantik": "",
-    "ikon": "presenter",
-    "gambar": "media/tiu_vn01_susunan_posisi/gambar-01.png"
+    "ikon": "presenter"
   },
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
@@ -82,50 +81,13 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Catat jumlah tempat dan arah penomoran. Posisi tetap langsung mengisi satu tempat, sedangkan larangan hanya menghapus tempat dari daftar kemungkinan. Misalnya, “tepat di tengah” pada lima posisi menetapkan tempat 3. Jika A dilarang di ujung, coret posisi 1 dan 5 dari daftar pilihan A. Kedua tempat itu masih tersedia bagi peserta lain."
+              "teks": "Catat jumlah tempat dan arah penomoran. Posisi tetap langsung mengisi satu tempat, sedangkan larangan hanya menghapus tempat dari daftar kemungkinan. Misalnya, “tepat di tengah” pada lima posisi menetapkan tempat 3. Jika A dilarang di ujung, coret posisi 1 dan 5 dari daftar pilihan A."
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-02.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-01.png",
               "lebar": 6.08,
               "tinggi": 1.28
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Petunjuk",
-                "Cara membacanya"
-              ],
-              "baris": [
-                [
-                  "Di kiri",
-                  "Boleh berjarak lebih dari satu posisi."
-                ],
-                [
-                  "Tepat di kiri",
-                  "Satu posisi ke kiri."
-                ],
-                [
-                  "Di samping",
-                  "Satu posisi di kiri atau kanan."
-                ],
-                [
-                  "Tepat di antara",
-                  "Di tengah dua unsur dan berdampingan dengan keduanya."
-                ],
-                [
-                  "Di antara",
-                  "Dalam rentang dua unsur. Jarak ke masing-masing unsur bisa lebih dari satu posisi."
-                ],
-                [
-                  "Berhadapan",
-                  "Setengah putaran pada lingkaran berkursi genap dan berjarak seragam."
-                ],
-                [
-                  "Tepat di belakang",
-                  "Satu baris ke belakang dalam kolom yang sama."
-                ]
-              ]
             },
             {
               "jenis": "paragraf",
@@ -137,17 +99,17 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-03.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-02.png",
               "lebar": 6.08,
               "tinggi": 1.41
             },
             {
               "jenis": "paragraf",
-              "teks": "Perhatikan satuan jaraknya. Jika semua tempat terisi, dua orang di antara B dan C berarti indeks posisi B dan C berselisih tiga. Jika ada tempat kosong, jumlah orang di antara B dan C belum tentu sama dengan jumlah tempat di antara mereka. Bedakan jarak posisi dari jumlah orang yang mengisi jarak itu. Pada gambar kedua, jumlah orang di antara B dan C tetap dua. Namun, tempat kosong menambah jarak antara B dan C menjadi empat posisi."
+              "teks": "Jika semua tempat terisi, dua orang di antara B dan C berarti indeks posisi B dan C berselisih tiga. Jika ada tempat kosong, jumlah orang di antara B dan C belum tentu sama dengan jumlah tempat di antara mereka. Bedakan jarak posisi dari jumlah orang yang mengisi jarak itu. Pada gambar kedua, jumlah orang di antara B dan C tetap dua. Namun, tempat kosong menambah jarak antara B dan C menjadi empat posisi."
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-04.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-03.png",
               "lebar": 6.08,
               "tinggi": 1.28
             }
@@ -169,7 +131,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-05.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-04.png",
               "lebar": 6.08,
               "tinggi": 0.69
             },
@@ -179,17 +141,17 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-06.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-05.png",
               "lebar": 6.08,
               "tinggi": 1.28
             },
             {
               "jenis": "paragraf",
-              "teks": "Pada barisan lima posisi, A tepat di kiri B dan posisi 3 sudah terisi. Blok A–B hanya dapat mengisi posisi 1–2 atau 4–5. Posisi 2–3 dan 3–4 gugur karena menggunakan tempat yang sudah terisi. Uji kedua pasangan yang tersisa dengan petunjuk lainnya. Jika keduanya memberi jawaban yang sama untuk posisi yang ditanya, posisi tersebut sudah pasti meskipun susunan lengkapnya masih dapat berubah."
+              "teks": "Pada barisan lima posisi, A tepat di kiri B dan posisi 3 sudah terisi. Blok A–B hanya dapat mengisi posisi 1–2 atau 4–5. Posisi 2–3 dan 3–4 gugur karena menggunakan tempat yang sudah terisi."
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-07.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-06.png",
               "lebar": 6.08,
               "tinggi": 1.86
             }
@@ -211,7 +173,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-08.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-07.png",
               "lebar": 6.08,
               "tinggi": 1.76
             },
@@ -221,23 +183,13 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-09.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-08.png",
               "lebar": 6.08,
               "tinggi": 1.76
             },
             {
               "jenis": "paragraf",
-              "teks": "Pada contoh empat kursi ini, perhatikan posisi B terhadap A. Putaran mempertahankan hubungan kiri, sedangkan pencerminan membaliknya."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-10.png",
-              "lebar": 6.06,
-              "tinggi": 1.68
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tempatkan pasangan yang berhadapan, lalu isi tetangga dan terapkan larangan. Gunakan satu kursi acuan agar semua percobaan bisa dibandingkan. Jika dua orang masih bisa bertukar, uji ulang aturan berhadapan dan larangan bertetangga untuk keduanya. Kursi seseorang bisa sudah pasti sementara tetangganya berubah, seperti pada soal meja bundar di bagian pembahasan."
+              "teks": "Tempatkan pasangan yang berhadapan, lalu isi tetangga dan terapkan larangan."
             }
           ]
         }
@@ -257,7 +209,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-11.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-09.png",
               "lebar": 6.08,
               "tinggi": 1.57
             },
@@ -267,7 +219,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-12.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-10.png",
               "lebar": 6.08,
               "tinggi": 2.15
             }
@@ -289,7 +241,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-13.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-11.png",
               "lebar": 6.08,
               "tinggi": 1.28
             }

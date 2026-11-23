@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Bangun datar membantu kita menggambarkan bentuk pada permukaan, seperti ubin, halaman, atau lingkaran pada gambar. Saat menghitung keliling, kita mengukur panjang di sekeliling bangun. Saat menghitung luas, kita mengukur besar daerah di dalam batas itu.",
-      "Sebelum memilih rumus, kenali bentuknya dan baca ukuran pada gambar. Panjang sisi, tinggi, diagonal, jari-jari, dan diameter mempunyai peran berbeda. Memilih ukuran yang tepat sama pentingnya dengan melakukan perhitungannya."
+      "Bangun datar membantu kita menggambarkan bentuk pada permukaan, seperti ubin, halaman, atau lingkaran pada gambar. Saat menghitung keliling, kita mengukur panjang di sekeliling bangun. Saat menghitung luas, kita mengukur besar daerah di dalam batas itu."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -94,14 +93,6 @@
               "file": "media/tiu_nu11_bangun_datar/gambar-01.png",
               "lebar": 6.17,
               "tinggi": 2.03
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada gambar, garis merah yang mengelilingi bangun menunjukkan keliling. Warna merah yang memenuhi bagian dalam menunjukkan luas. Jika panjang diukur dalam sentimeter, keliling juga bersatuan sentimeter, sedangkan luas dinyatakan dalam sentimeter persegi."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Diagonal menghubungkan dua titik sudut yang tidak bertetangga. Garis diagonal melintas di dalam persegi panjang pada gambar, sehingga tidak ikut dijumlahkan saat mencari panjang batas luarnya. Tidak semua bangun datar memiliki diagonal. Segitiga tidak memilikinya karena semua pasangan titik sudut pada segitiga bersebelahan."
             }
           ]
         }
@@ -120,10 +111,6 @@
               "file": "media/tiu_nu11_bangun_datar/gambar-02.png",
               "lebar": 6.18,
               "tinggi": 2.34
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kenali bangun dari sifatnya, bukan dari arah gambar. Persegi yang diputar tetap mempunyai empat sisi sama panjang dan empat sudut siku-siku. Lingkaran berbeda dari bangun bersisi lurus karena batas luarnya melengkung dan tidak mempunyai titik sudut."
             }
           ]
         }
@@ -156,10 +143,6 @@
               "teks": "$L=s², K=4s, d=s√2$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Keempat sisi persegi sama panjang dan keempat sudutnya siku-siku. Luas diperoleh dari satu sisi dikali sisi yang lain, sementara keliling menjumlahkan empat sisi yang sama panjang. Diagonal menghubungkan dua pojok yang berhadapan."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Persegi Panjang"
             },
@@ -176,10 +159,6 @@
             {
               "jenis": "sorot",
               "teks": "$L=p×l, K=2(p+l), d=√(p²+l²)$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Persegi panjang mempunyai dua pasang sisi berhadapan yang sama panjang dan empat sudut siku-siku. Karena panjang dan lebar masing-masing muncul dua kali, kelilingnya dua kali jumlah panjang dan lebar. Huruf l pada rumus adalah huruf kecil untuk lebar."
             }
           ]
         }
@@ -206,14 +185,6 @@
             {
               "jenis": "sorot",
               "teks": "$L=1/2×a×t, K=a+b+c$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Alas dapat dipilih dari salah satu sisi. Tinggi yang digunakan harus tegak lurus pada garis alas itu dan diukur dari titik sudut di seberangnya. Pada segitiga siku-siku, salah satu sisi yang saling tegak lurus dapat menjadi alas dan sisi satunya menjadi tinggi. Pada bentuk lain, tinggi bisa berupa garis bantu dan dapat jatuh di luar bangun."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tanda garis pendek pada gambar menandai sisi yang sama panjang. Segitiga sama sisi memiliki tiga sisi sama panjang, segitiga sama kaki memiliki dua sisi sama panjang, dan segitiga sembarang memiliki tiga panjang sisi berbeda. Segitiga siku-siku dikenali dari sudut 90°, sehingga dapat sekaligus termasuk segitiga sama kaki atau sembarang."
             }
           ]
         }
@@ -246,10 +217,6 @@
               "teks": "$L=a×t, K=2(a+b)$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Dua pasang sisi yang berhadapan sejajar dan sama panjang. Saat mencari luas, gunakan jarak tegak lurus antara sisi sejajar sebagai tinggi. Sisi miring dipakai pada keliling, sedangkan tinggi dipakai pada luas."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Trapesium"
             },
@@ -266,10 +233,6 @@
             {
               "jenis": "sorot",
               "teks": "$L=1/2×(a+b)×t, K=a+b+c+d$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jumlahkan dua sisi sejajar sebelum mengalikan dengan tinggi dan membaginya dengan dua. Tingginya adalah jarak tegak lurus antara dua sisi sejajar. Untuk menghitung keliling, jumlahkan keempat sisi luar."
             }
           ]
         }
@@ -302,10 +265,6 @@
               "teks": "$L=1/2×d₁×d₂, K=4s$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Keempat sisi belah ketupat sama panjang. Pada gambar, kedua diagonal digambar putus-putus untuk membedakannya dari sisi luar. Untuk luas, gunakan panjang penuh kedua diagonal."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Layang-Layang"
             },
@@ -322,10 +281,6 @@
             {
               "jenis": "sorot",
               "teks": "$L=1/2×d₁×d₂, K=2(a+b)$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Layang-layang memiliki dua pasang sisi berdekatan yang sama panjang. Tanda yang berbeda pada gambar menunjukkan dua pasangan itu. Rumus luasnya sama dengan belah ketupat karena keduanya memakai dua diagonal. Cara menghitung keliling mengikuti panjang sisi luarnya."
             }
           ]
         }
@@ -368,10 +323,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pilih nilai π yang memudahkan perhitungan jika soal tidak menetapkan nilainya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jari-jari menghubungkan pusat dengan satu titik pada batas lingkaran. Diameter menghubungkan dua titik pada batas itu dan melewati pusat. Jika menggunakan rumus yang memuat jari-jari, bagi diameter dengan dua terlebih dahulu. Nilai 22 per 7 dan 3,14 adalah pendekatan untuk π."
             }
           ]
         }
@@ -406,6 +357,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Kenali dulu bentuk dan ukuran yang ditunjukkan. Gunakan keliling untuk panjang batas luar, luas untuk besar daerah di dalamnya, dan diagonal untuk jarak antartitik sudut yang tidak bersebelahan. Periksa satuan sejak awal agar ukuran yang berbeda tidak tercampur. Sebelum menyimpulkan, cek apakah angka sesuai dengan ciri bangunnya. Pada perhitungan biaya, cocokkan pula ukuran yang dihitung dengan tarifnya. Tarif per meter dikalikan panjang, sedangkan tarif per meter persegi dikalikan luas."
+    "pesan": "Kenali dulu bentuk dan ukuran yang ditunjukkan. Gunakan keliling untuk panjang batas luar, luas untuk besar daerah di dalamnya, dan diagonal untuk jarak antartitik sudut yang tidak bersebelahan. Periksa satuan sejak awal agar ukuran yang berbeda tidak tercampur."
   }
 }

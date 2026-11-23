@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Premis adalah pernyataan yang kita terima sebagai benar saat mengerjakan soal. Jika ada tiga premis, biasanya kita mulai dengan dua premis yang bisa dipakai bersama. Hasil dari pasangan pertama disebut Premis 4. Hasil sementara ini kemudian dipakai bersama premis yang tersisa untuk menarik kesimpulan.",
-      "Cara memilih pasangan bergantung pada bentuk kalimatnya. Pada logika kondisional, cari pernyataan yang muncul kembali dalam aturan atau sebagai fakta. Pada logika kuantor, periksa juga siapa saja yang dicakup oleh kata “semua”, “sebagian”, atau “tidak ada”."
+      "Premis adalah pernyataan yang kita terima sebagai benar saat mengerjakan soal. Jika ada tiga premis, biasanya kita mulai dengan dua premis yang bisa dipakai bersama. Hasil dari pasangan pertama disebut Premis 4. Hasil sementara ini kemudian dipakai bersama premis yang tersisa untuk menarik kesimpulan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -132,10 +131,6 @@
                   ""
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Huruf p, q, dan r mewakili pernyataan. Tanda → dibaca “jika … maka …” dan tanda ¬ dibaca “tidak”. Modus Ponens berangkat dari fakta bahwa bagian setelah “jika” terjadi. Modus Tollens berangkat dari fakta bahwa bagian setelah “maka” tidak terjadi. Silogisme menyambung dua aturan saat bagian setelah “maka” pada aturan pertama sama dengan bagian setelah “jika” pada aturan berikutnya."
             }
           ]
         }
@@ -162,10 +157,6 @@
             {
               "jenis": "sorot",
               "teks": "$p→q≡¬p∨q≡¬q→¬p$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tanda ≡ berarti bentuk-bentuk di kedua sisinya setara, sedangkan ∨ dibaca “atau”. Gunakan bentuk setara jika bentuk awal sulit dipasangkan. Misalnya, “Berkas tidak lengkap atau berkas diperiksa” dapat dibaca “Jika berkas lengkap, maka berkas diperiksa”. Jika premis lain menyatakan berkas lengkap, bentuk jika–maka ini bisa langsung dipakai dengan Modus Ponens."
             }
           ]
         }
@@ -180,10 +171,6 @@
           "judul": "Penarikan Kesimpulan 3 Premis — Logika Kondisional",
           "blok": [
             {
-              "jenis": "paragraf",
-              "teks": "Periksa ketiga pasangan yang mungkin. Urutan kalimat dalam soal tidak selalu sama dengan urutan penalaran. Pilih pasangan yang bisa menghasilkan pernyataan baru dan periksa apakah pernyataan itu dapat dipakai bersama premis yang belum digunakan. Jika sebuah pasangan berhenti di tengah, coba pasangan lain atau periksa apakah salah satu premis perlu diubah ke bentuk yang setara."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Langkah Pengerjaan — Tiga pilihan pasangan awal"
             },
@@ -192,10 +179,6 @@
               "file": "media/tiu_vs05_3_premis/gambar-02.png",
               "lebar": 6.17,
               "tinggi": 1.48
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Diagram menunjukkan tiga pilihan untuk memulai. Cukup selesaikan satu jalur yang sah. Tanda tambah pada diagram berarti “gunakan bersama”. Premis 4 adalah hasil langkah pertama, sehingga isinya bergantung pada pasangan yang Anda pilih."
             }
           ]
         },
@@ -290,10 +273,6 @@
             {
               "jenis": "subjudul",
               "teks": "Jawaban: Pejalan kaki boleh melintas."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jalur lain juga sah. Jika mulai dari Premis 1 dan Premis 3, Modus Ponens menghasilkan Premis 4 berupa “kendaraan harus berhenti”. Premis 4 kemudian cocok dengan bagian setelah “jika” pada Premis 2. Modus Ponens sekali lagi memberi kesimpulan yang sama. Pada jalur ini Premis 4 adalah sebuah fakta, sedangkan pada jalur sebelumnya Premis 4 berupa aturan jika–maka."
             }
           ]
         }
@@ -312,16 +291,6 @@
               "teks": "Bentuk “Semua”, “Sebagian”, dan “Tidak Ada”"
             },
             {
-              "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-05.png",
-              "lebar": 6.17,
-              "tinggi": 2.11
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "“Semua” berlaku untuk setiap anggota kelompok yang disebut di awal kalimat. “Sebagian” menjamin ada anggota yang memenuhi ciri tersebut. Cabang lawannya menunjukkan kemungkinan karena kata “sebagian” sendiri belum memastikan ada anggota yang tidak memenuhi ciri itu. “Tidak ada A yang B” memisahkan dua kelompok. Setiap A berada di luar B, dan setiap B berada di luar A."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Rumus Cepat"
             },
@@ -336,14 +305,6 @@
             {
               "jenis": "sorot",
               "teks": "$Sebagian + Sebagian = Sebagian$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Rumus cepat dipakai setelah arah hubungan dan anggota yang dimaksud cocok. Dua aturan “semua” bisa disambung jika kelompok tujuan aturan pertama menjadi kelompok awal aturan kedua. Untuk pasangan “semua” dan “sebagian”, aturan “semua” harus berlaku bagi anggota yang dijamin ada. Misalnya, jika sebagian anggota A termasuk B dan semua B termasuk C, anggota A yang termasuk B itu juga termasuk C. Jika yang diketahui hanya semua A termasuk B dan sebagian B termasuk C, anggota B yang termasuk C bisa saja berada di luar A."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk dua premis “sebagian”, nama kelompok yang sama belum memastikan orangnya sama. Jika sebagian A termasuk B dan sebagian B termasuk C, orang A yang berada di B bisa berbeda dari orang B yang berada di C. Cari informasi yang memastikan kedua ciri berlaku pada orang yang sama sebelum menarik kesimpulan “sebagian A termasuk C”."
             }
           ]
         }
@@ -359,7 +320,7 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-06.png",
+              "file": "media/tiu_vs05_3_premis/gambar-05.png",
               "lebar": 2.92,
               "tinggi": 1.4
             },
@@ -374,10 +335,6 @@
             {
               "jenis": "subjudul",
               "teks": "Langkah 2 Periksa apakah Premis 4 dapat digunakan bersama Premis 3."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh berikut, urutan dua langkah membantu melacak kelompok yang disebut di setiap premis. Jika langkah pertama hanya menunjukkan beberapa kemungkinan, bawa batas itu ke langkah kedua. Hasil yang mungkin tidak boleh dianggap sebagai fakta baru."
             }
           ]
         },
@@ -407,7 +364,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-07.png",
+              "file": "media/tiu_vs05_3_premis/gambar-06.png",
               "lebar": 6.17,
               "tinggi": 1.12
             },
@@ -464,6 +421,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Gunakan dua premis untuk memperoleh Premis 4, lalu gabungkan hasil itu dengan premis yang tersisa. Setiap langkah harus menghasilkan pernyataan yang pasti mengikuti informasi yang tersedia. Pada logika kondisional, cocokkan pernyataannya dan ikuti arah jika–maka. Pada logika kuantor, telusuri kelompok serta orang yang sama agar kemungkinan tidak berubah menjadi kepastian."
+    "pesan": "Gunakan dua premis untuk memperoleh Premis 4, lalu gabungkan hasil itu dengan premis yang tersisa. Setiap langkah harus menghasilkan pernyataan yang pasti mengikuti informasi yang tersedia."
   }
 }

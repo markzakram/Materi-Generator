@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Logika Pernyataan menguji apakah suatu pilihan pasti benar, mungkin benar, atau mustahil berdasarkan petunjuk. Mulailah dengan membentuk susunan yang memenuhi seluruh aturan.",
-      "Gunakan model yang sesuai dengan situasi, misalnya deretan petak untuk etalase atau kisi untuk tempat duduk. Konfigurasi sah berarti satu susunan lengkap yang mematuhi semua petunjuk. Pada soal ini, susunan tersebut menjadi bukti untuk menilai pilihan."
+      "Logika Pernyataan menguji apakah suatu pilihan pasti benar, mungkin benar, atau mustahil berdasarkan petunjuk. Mulailah dengan membentuk susunan yang memenuhi seluruh aturan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -83,14 +82,6 @@
             {
               "jenis": "paragraf",
               "teks": "Gabungkan semua aturan awal dengan kondisi tambahan pada pertanyaan. Isi posisi yang langsung diketahui, lalu tarik akibatnya sebelum menguji opsi."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kondisi setelah kata “jika” berlaku untuk semua pilihan. Jika sebuah opsi membuat susunan melanggar kondisi tersebut, susunan itu gugur meskipun memenuhi aturan lain. Saat menguji opsi berikutnya, kembali ke susunan awal beserta kondisi tambahan yang sama."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh. A, B, dan C mengisi tiga posisi. Kondisi tambahan mewajibkan A di posisi 1, sehingga susunan yang menempatkan A di posisi 2 gugur."
             },
             {
               "jenis": "gambar",
@@ -144,10 +135,6 @@
             {
               "jenis": "paragraf",
               "teks": "A di posisi 1 pasti benar. B di posisi 2 mungkin benar karena berlaku pada susunan pertama, tetapi tidak pasti karena susunan kedua menempatkan B di posisi 3. C di posisi 1 mustahil karena posisi itu wajib diisi A."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Satu contoh sah yang mendukung opsi membuktikan bahwa opsi itu mungkin. Untuk menggugurkan klaim “pasti benar”, cukup tunjukkan satu susunan sah yang membuatnya salah. Bukti bahwa suatu opsi mustahil bisa berupa benturan langsung dengan satu aturan, atau pemeriksaan semua cabang yang masih tersisa."
             }
           ]
         }
@@ -164,14 +151,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pada soal “mungkin benar, kecuali”, cari opsi yang mustahil. Buktikan opsi lainnya dengan satu susunan lengkap yang sah untuk setiap opsi."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Periksa bagian yang paling membatasi, seperti posisi tetap, batas jumlah, dan larangan berdampingan. Satu susunan dapat membuktikan beberapa opsi sekaligus. Pastikan jumlah setiap unsur tetap tepat dan semua aturan terpenuhi. Untuk opsi yang gugur, sebutkan petak dan aturan yang bertentangan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh tiga posisi tadi, gunakan satu susunan sah untuk membuktikan kemungkinan. Gunakan benturan dengan posisi tetap A untuk membuktikan kemustahilan."
             },
             {
               "jenis": "gambar",

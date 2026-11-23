@@ -1,4 +1,4 @@
-"""Bangun situs unduhan statis: semua materi General dengan pilihan sampul putih atau foto, PPTX + PDF.
+"""Bangun situs unduhan statis: semua materi General (sampul foto), PPTX + PDF.
 
 Satu situs (folder situs/) untuk semua aplikasi: setiap katalog menjadi satu tab (aplikasi.json) dengan
 data dan berkasnya di situs/<aplikasi>/. Tidak butuh server atau generator. Butuh Windows + Microsoft
@@ -7,7 +7,7 @@ PowerPoint untuk PDF dan gambar sampul. Slide dan halaman diwarnai dengan palet 
     python generator/buat_situs.py --template-general "path/Template Materi General.pptx"
     python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-general "path/..."
 
-Tambahkan --tema general general-foto opsi-b --template-opsi-b "path/Template Referensi Opsi B -
+Tambahkan --tema general opsi-b --template-opsi-b "path/Template Referensi Opsi B -
 Ceria & Membulat.pptx" untuk menyediakan Opsi B juga.
 """
 from __future__ import annotations
@@ -27,11 +27,10 @@ import desain as D  # noqa: E402
 
 AKAR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KONTEN = os.path.join(AKAR, "konten")
-# Pilihan di situs: id -> (tema generator, varian sampul, nama di halaman, akhiran nama berkas unduhan)
+# Pilihan tampilan di situs: id (= tema generator) -> (nama di halaman, akhiran nama berkas unduhan)
 VARIAN = {
-    "general": ("general", "putih", "Sampul putih", " (General)"),
-    "general-foto": ("general", "foto", "Sampul foto", " (General, sampul foto)"),
-    "opsi-b": ("opsi-b", "putih", "Opsi B · Ceria & Membulat", ""),
+    "general": ("General", ""),
+    "opsi-b": ("Opsi B · Ceria & Membulat", " (Opsi B)"),
 }
 TAMBAHAN = [  # naskah di luar katalog sheet yang ikut ditampilkan
     {"id": "penalaran-logis", "kelompok": "Lainnya", "bab": "Penalaran Logis", "naskah": "tiu_penalaran_logis.json"},
@@ -129,8 +128,8 @@ def main(argv=None):
     ap.add_argument("--keluar", default=os.path.join(AKAR, "situs"),
                     help="Folder situs; materi aplikasi ditulis ke <keluar>/<aplikasi.id katalog>/")
     ap.add_argument("--tanpa-pdf", action="store_true", help="Lewati PDF dan sampul (tanpa PowerPoint)")
-    ap.add_argument("--tema", nargs="+", choices=list(VARIAN), default=["general", "general-foto"],
-                    help="Pilihan yang disediakan di situs (bawaan: General sampul putih dan sampul foto)")
+    ap.add_argument("--tema", nargs="+", choices=list(VARIAN), default=["general"],
+                    help="Pilihan tampilan di situs (bawaan: General saja, jadi tidak ada pilihan di halaman)")
     ap.add_argument("--palet", default=None,
                     help="Palet platform untuk warna slide (lihat generator/palet.py; bawaan: 'palet' di katalog, "
                          "lalu jadiasn); 'tanpa' = warna template")
@@ -143,7 +142,7 @@ def main(argv=None):
         a.id = []
     sebagian = a.id is not None
     semua = {"opsi-b": a.template_opsi_b, "general": a.template_general}
-    template = {v: semua[VARIAN[v][0]] for v in VARIAN if v in a.tema}
+    template = {v: semua[v] for v in VARIAN if v in a.tema}
 
     konten = os.path.dirname(os.path.abspath(a.katalog))
     with open(a.katalog, encoding="utf-8") as f:
@@ -186,7 +185,8 @@ def main(argv=None):
         with open(os.path.join(konten, m["naskah"]), encoding="utf-8") as f:
             naskah = json.load(f)
         if sebagian and m["id"] not in a.id:
-            if m["id"] in lama:
+            if m["id"] in lama and set(template) <= set(lama[m["id"]]["tema"]):
+                lama[m["id"]]["tema"] = {t: lama[m["id"]]["tema"][t] for t in template}
                 data.append(dict(lama[m["id"]], kelompok=m["kelompok"], bab=m["bab"], dokumen=m["url"],
                                  jenis=BM.jenis_deck(naskah)))
             else:
@@ -196,9 +196,8 @@ def main(argv=None):
         item = {"id": m["id"], "kelompok": m["kelompok"], "bab": m["bab"], "judul": naskah["meta"]["judul"],
                 "dokumen": m["url"], "jenis": BM.jenis_deck(naskah), "tema": {}}
         for tema, path in template.items():
-            tema_gen, sampul_gen, _, akhiran = VARIAN[tema]
-            prs, b = BM.buat_deck(naskah, path, konten, tema_gen, sampul=sampul_gen, palet=palet)
-            nama = _nama_aman(BM.nama_file(naskah)) + akhiran
+            prs, b = BM.buat_deck(naskah, path, konten, tema, palet=palet)
+            nama = _nama_aman(BM.nama_file(naskah)) + VARIAN[tema][1]
             pptx = os.path.join(folder_app, "unduh", tema, slug + ".pptx")
             pdf = os.path.join(folder_app, "unduh", tema, slug + ".pdf")
             sampul = os.path.join(folder_app, "sampul", tema, slug + ".jpg")
@@ -222,7 +221,7 @@ def main(argv=None):
     manifest = {"judul": katalog.get("judul", "Materi"), "merek": katalog.get("merek", "Cerebrum · Materi"),
                 "sumber_sheet": katalog.get("sumber_sheet"),
                 "dibuat": datetime.date.today().isoformat(), "palet": palet,
-                "tema": [{"id": t, "nama": VARIAN[t][2]} for t in template], "materi": data}
+                "tema": [{"id": t, "nama": VARIAN[t][0]} for t in template], "materi": data}
     simpan_aplikasi(a.keluar, app, manifest)
     ukuran = lambda d: sum(os.path.getsize(os.path.join(r, n)) for r, _, fs in os.walk(d) for n in fs)  # noqa: E731
     dibangun = f"{len(a.id)} dibangun ulang, " if a.id else ""

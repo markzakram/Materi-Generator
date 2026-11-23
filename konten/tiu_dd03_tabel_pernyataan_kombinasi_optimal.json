@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Kombinasi optimal adalah susunan beberapa jenis benda atau unit yang paling sesuai dengan ketentuan dan tujuan yang diberikan. Kita dapat diminta memilih kendaraan yang cukup untuk seluruh penumpang, mencari biaya paling rendah, atau memperoleh kapasitas terbesar dengan anggaran tertentu. Pilihan yang terlihat besar atau murah belum tentu menjadi jawaban; seluruh ketentuannya harus diperiksa.",
-      "Tabel membantu kita melihat kapasitas, harga, atau jumlah unit yang tersedia. Dari data tersebut, setiap kombinasi dapat dihitung dan dibandingkan secara teratur. Cara ini menghindarkan kita dari memilih berdasarkan kesan, misalnya menganggap benda berkapasitas terbesar pasti paling menguntungkan."
+      "Kombinasi optimal adalah susunan beberapa jenis benda atau unit yang paling sesuai dengan ketentuan dan tujuan yang diberikan. Kita dapat diminta memilih kendaraan yang cukup untuk seluruh penumpang, mencari biaya paling rendah, atau memperoleh kapasitas terbesar dengan anggaran tertentu. Pilihan yang terlihat besar atau murah belum tentu menjadi jawaban; seluruh ketentuannya harus diperiksa."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -117,10 +116,6 @@
                   "Syarat terpenuhi, lalu kapasitas total paling besar."
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sebuah kombinasi dapat memenuhi seluruh ketentuan, tetapi kalah murah dari kombinasi lain. Karena itu, pemeriksaan dilakukan dalam dua tahap: tentukan dahulu pilihan yang boleh digunakan, kemudian bandingkan hasilnya sesuai tujuan. Jangan membandingkan biaya pilihan yang sebenarnya tidak cukup kapasitasnya."
             }
           ]
         }
@@ -137,14 +132,6 @@
             {
               "jenis": "paragraf",
               "teks": "Kapasitas menunjukkan banyaknya kebutuhan yang dapat dipenuhi oleh satu unit, misalnya kursi per bus atau kilogram per wadah. Biaya per unit adalah harga untuk satu unit. Jumlah unit tersedia membatasi berapa banyak unit dari jenis itu yang boleh dipilih."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bedakan kapasitas satu unit dengan kapasitas seluruh kombinasi. Dua bus yang masing-masing memuat dua puluh orang dapat menyediakan empat puluh kursi jika keduanya digunakan untuk satu perjalanan. Periksa keterangan perjalanan dan satuannya sebelum menjumlahkan kapasitas."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tidak semua soal memakai batas yang sama. Ada yang membatasi anggaran, jumlah unit, sisa kapasitas, atau persediaan. Gunakan hanya batas yang disebutkan; jangan menambahkan anggapan bahwa semua jenis wajib dipilih atau kursi harus terisi tepat jika tidak dinyatakan."
             }
           ]
         },
@@ -184,10 +171,6 @@
             {
               "jenis": "paragraf",
               "teks": "Kata “minimal” atau “sedikitnya” menyatakan batas bawah. Kata “maksimal” atau “paling banyak” menyatakan batas atas. “Tepat” berarti nilainya harus sama dengan yang disebutkan. Batas tersebut tetap berlaku meskipun selisih pelanggarannya hanya sedikit."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kursi kosong dihitung setelah semua peserta memperoleh tempat duduk. Jika kapasitas kurang dari jumlah peserta, pilihan itu langsung ditolak. Hasil pengurangan yang negatif tidak dianggap sebagai kursi kosong yang memenuhi batas."
             }
           ]
         }
@@ -216,50 +199,6 @@
             {
               "jenis": "sorot",
               "teks": "$Sisa kapasitas=kapasitas total−kebutuhan$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sebagai contoh penggunaan, bus A memiliki 10 kursi dan bus B memiliki 18 kursi. Jika digunakan satu bus A dan dua bus B:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Kapasitas total=1×10+2×18$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=46$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kombinasi itu menyediakan 46 kursi. Jika pesertanya 40 orang, seluruh peserta dapat duduk dan masih ada enam kursi kosong:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Kursi kosong=46−40$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=6$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika batas kursi kosong paling banyak empat, kombinasi tersebut ditolak. Kapasitasnya memang cukup, tetapi sisanya terlalu banyak. Ini menunjukkan bahwa memenuhi satu ketentuan saja belum cukup."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika biaya satu bus A adalah Rp80.000 dan satu bus B adalah Rp126.000, biaya kombinasinya:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Biaya total=1×80.000+2×126.000$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=332.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan satuan yang sama pada seluruh perhitungan. Jika tabel memakai ribu rupiah, hasil penjumlahannya juga dalam ribu rupiah. Ubah ke rupiah penuh ketika menuliskan jawaban, atau jelaskan satuannya agar tidak tertukar."
             }
           ]
         }
@@ -282,14 +221,6 @@
                 "Hitung biaya atau ukuran yang menjadi tujuan untuk pilihan yang masih memenuhi ketentuan.",
                 "Bandingkan hasilnya, lalu pastikan pilihan terpilih memenuhi semua ketentuan."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Mulailah dari pemeriksaan yang paling cepat menolak opsi. Jika semua peserta harus mendapat kursi, hitung kapasitas terlebih dahulu. Jika anggarannya ketat, biaya dapat diperiksa lebih dulu. Urutan boleh disesuaikan, tetapi jangan meninggalkan satu ketentuan tanpa diperiksa."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk mencari yang terbaik, pemeriksaan juga perlu mencakup kombinasi yang mungkin dibentuk dari data. Menemukan pilihan termurah pada daftar belum menjelaskan mengapa tidak ada susunan lain yang lebih murah. Kelompokkan kemungkinan berdasarkan satu jenis unit agar pencarian tetap singkat."
             }
           ]
         },
@@ -325,10 +256,6 @@
                   "Tolak."
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kolom pada tabel bantu dipilih sesuai soal. Jika biaya tidak ditanyakan dan tidak dibatasi, kolom biaya tidak diperlukan. Untuk batas kursi kosong, ganti dengan kolom sisa. Tabel membantu membandingkan hasil, bukan menggantikan pemeriksaan ketentuan."
             }
           ]
         }
@@ -351,39 +278,6 @@
                 "Jangan menambah tujuan yang tidak diminta, misalnya memilih jumlah kendaraan paling sedikit ketika pertanyaannya hanya tentang biaya.",
                 "Jika dua pilihan memenuhi ketentuan, gunakan tujuan pertanyaan untuk membandingkan keduanya; jangan langsung memilih yang diperiksa lebih dahulu."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh: bus A berkapasitas 10 kursi dengan biaya Rp80.000, sedangkan bus B berkapasitas 18 kursi dengan biaya Rp126.000. Untuk 20 peserta, perbandingannya sebagai berikut."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Kombinasi",
-                "Kursi",
-                "Biaya total"
-              ],
-              "baris": [
-                [
-                  "2 bus A",
-                  "20",
-                  "Rp160.000"
-                ],
-                [
-                  "1 bus A dan 1 bus B",
-                  "28",
-                  "Rp206.000"
-                ],
-                [
-                  "2 bus B",
-                  "36",
-                  "Rp252.000"
-                ]
-              ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bus B lebih murah jika dihitung per kursi, tetapi dua bus A memberi biaya total lebih rendah untuk kebutuhan 20 peserta. Satu bus B belum cukup, sehingga harus ada unit tambahan. Selisih kapasitas dan jumlah unit inilah yang membuat hitungan total tetap diperlukan."
             }
           ]
         }
@@ -414,6 +308,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Kombinasi optimal ditentukan oleh ketentuan dan tujuan pertanyaan. Hitung kapasitas, biaya, dan sisa yang diperlukan; singkirkan pilihan yang melanggar batas; lalu bandingkan pilihan yang masih memenuhi ketentuan. Jawaban terbaik harus sesuai tujuan, bukan sekadar paling besar, paling murah per unit, atau paling sedikit jumlah bendanya. Pembacaan satuan dan batas yang tepat membuat perhitungan lebih terarah. Gunakan tabel bantu ketika ada beberapa pilihan yang perlu dibandingkan. Jelaskan pula alasan pilihan lain ditolak agar kesimpulan akhir dapat diperiksa dari data yang sama."
+    "pesan": "Kombinasi optimal ditentukan oleh ketentuan dan tujuan pertanyaan. Hitung kapasitas, biaya, dan sisa yang diperlukan; singkirkan pilihan yang melanggar batas; lalu bandingkan pilihan yang masih memenuhi ketentuan. Jawaban terbaik harus sesuai tujuan, bukan sekadar paling besar, paling murah per unit, atau paling sedikit jumlah bendanya."
   }
 }

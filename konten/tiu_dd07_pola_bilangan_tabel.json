@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Pola bilangan tabel menghubungkan angka pada kolom Urutan dengan angka pada kolom Nilai. Setiap baris merupakan satu pasangan. Untuk menentukan angka yang belum diketahui, temukan aturan yang mengubah Urutan menjadi Nilai, buktikan aturan tersebut pada pasangan yang lengkap, lalu gunakan pada baris yang memuat x.",
-      "Hubungan dapat berupa penambahan, pengalian, kuadrat, kubik, atau gabungan operasi yang tetap. Urutan yang ditampilkan tidak selalu berdekatan. Karena itu, pemeriksaan berfokus pada hubungan kedua kolom, bukan sekadar selisih dua nilai yang kebetulan berada di baris bersebelahan."
+      "Pola bilangan tabel menghubungkan angka pada kolom Urutan dengan angka pada kolom Nilai. Setiap baris merupakan satu pasangan. Untuk menentukan angka yang belum diketahui, temukan aturan yang mengubah Urutan menjadi Nilai, buktikan aturan tersebut pada pasangan yang lengkap, lalu gunakan pada baris yang memuat x."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -102,10 +101,6 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Urutan merupakan bilangan bulat positif. Baris-baris disajikan menurut urutan yang meningkat, tetapi dapat melompati beberapa posisi. Nilai pada satu baris dihitung langsung dari urutannya; untuk mendapatkan nilai itu, tidak harus menghitung semua posisi yang dilewati."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Dalam rumus, u menyatakan Urutan dan y menyatakan Nilai. Pengali adalah bilangan yang digunakan untuk mengalikan. Konstanta adalah bilangan tetap yang ditambahkan atau dikurangkan. Keduanya harus sama pada seluruh baris yang mengikuti satu pola."
             }
           ]
@@ -127,10 +122,6 @@
                 "Pola berbasis pangkat urutan: menggunakan kuadrat atau kubik urutan sebelum operasi lainnya.",
                 "Pengali dan konstanta berpangkat: bentuk penulisan yang perlu disederhanakan terlebih dahulu; hubungan dasarnya tetap termasuk pola sebelumnya."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perbedaan yang perlu dicari adalah apa yang dikenai pangkat. Pangkat dapat melekat pada urutan atau hanya pada suatu bilangan pengali dan konstanta. Menuliskan pengali sebagai suatu pangkat tidak otomatis membuat hubungan tabel menjadi kuadrat atau kubik."
             }
           ]
         }
@@ -165,24 +156,8 @@
               "tinggi": 2.95
             },
             {
-              "jenis": "paragraf",
-              "teks": "Untuk memeriksa pola tambah delapan, kurangkan urutan dari nilai pada beberapa baris. Jika hasilnya selalu delapan, aturan itu didukung oleh semua pasangan yang diperiksa. Pada pola kurang tetap, hasil pengurangan ini bernilai negatif."
-            },
-            {
               "jenis": "sorot",
               "teks": "$y=u+8$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$10−2=8$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$14−6=8$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$19−11=8$"
             }
           ]
         },
@@ -201,24 +176,8 @@
               "tinggi": 2.95
             },
             {
-              "jenis": "paragraf",
-              "teks": "Periksa hasil bagi pada beberapa pasangan. Jangan membandingkan Nilai saja tanpa memperhatikan urutannya. Dua baris yang mempunyai selisih nilai berbeda masih dapat mengikuti pengali yang sama karena jarak urutannya berbeda."
-            },
-            {
               "jenis": "sorot",
               "teks": "$y=3u$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$6÷2=3$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$15÷5=3$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$30÷10=3$"
             }
           ]
         },
@@ -237,40 +196,12 @@
               "tinggi": 2.95
             },
             {
-              "jenis": "paragraf",
-              "teks": "Dari dua baris pertama, Urutan bertambah empat dan Nilai bertambah delapan. Perubahan Nilai dibagi perubahan Urutan menghasilkan pengali dua. Sesudah itu, bandingkan Nilai dengan dua kali Urutan untuk mendapatkan konstanta."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$13−5=8$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$6−2=4$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$8÷4=2$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$5−2×2=1$"
-            },
-            {
               "jenis": "sorot",
               "teks": "$y=2u+1$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Hubungan ini disebut linear. Bentuk umumnya memakai pengali tetap A dan konstanta C. A menunjukkan perubahan Nilai untuk setiap kenaikan satu Urutan, sedangkan C merupakan penyesuaian tetap setelah pengalian. Jika C bernilai negatif, penyesuaian itu berupa pengurangan."
-            },
-            {
               "jenis": "sorot",
               "teks": "$y=Au+C$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan perbandingan perubahan untuk memeriksa linearitas. Hasil bagi Nilai terhadap Urutan tidak harus tetap jika ada konstanta. Pada contoh, yang tetap adalah pengali dua setelah perubahan kedua kolom dibandingkan, bukan hasil membagi setiap Nilai dengan Urutannya."
             }
           ]
         }
@@ -305,24 +236,8 @@
               "tinggi": 2.95
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pada gambar, setiap Nilai lebih kecil empat daripada kuadrat Urutannya. Konstanta ini tetap meskipun perubahan antar-Nilai makin besar. Karena urutan yang ditampilkan dapat berjarak tidak sama, selisih antar-Nilai tidak cukup untuk menetapkan atau menolak pola kuadrat."
-            },
-            {
               "jenis": "sorot",
               "teks": "$y=u²−4$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$2²−4=0$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$5²−4=21$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$10²−4=96$"
             }
           ]
         },
@@ -341,40 +256,8 @@
               "tinggi": 2.95
             },
             {
-              "jenis": "paragraf",
-              "teks": "Dari Urutan dua ke enam, kuadrat Urutan berubah dari empat menjadi tiga puluh enam. Nilai berubah dari sebelas menjadi tujuh puluh lima. Perbandingan kedua perubahan menghasilkan pengali dua, lalu konstanta diperoleh dengan mengurangkan dua kali kuadrat Urutan dari Nilai."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$36−4=32$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$75−11=64$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$64÷32=2$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$11−2×2²=3$"
-            },
-            {
               "jenis": "sorot",
               "teks": "$y=2u²+3$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Urutan pengerjaannya adalah pangkat, kali, lalu tambah. Pada bentuk dua kali kuadrat urutan, pengali dua berada di luar pangkat. Jika seluruh dua kali urutan dikuadratkan, hasilnya berbeda. Tanda kurung membantu menentukan bagian yang dikenai pangkat."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$2×3²=18$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$(2×3)²=36$"
             }
           ]
         },
@@ -393,28 +276,8 @@
               "tinggi": 2.95
             },
             {
-              "jenis": "paragraf",
-              "teks": "Untuk contoh sederhana di atas, setiap Nilai dikurangi satu menghasilkan kubik dari Urutannya. Periksa beberapa baris agar kenaikan yang besar tidak langsung dianggap sebagai bukti pola kubik. Pangkat tiga harus memberi kecocokan yang tepat, bukan hanya nilai yang mendekati."
-            },
-            {
               "jenis": "sorot",
               "teks": "$y=u³+1$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$1³+1=2$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$2³+1=9$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$3³+1=28$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika terdapat pembagi tetap, periksa perubahan Nilai terhadap perubahan kubik Urutan. Urutan operasi tetap penting. Jangan memindahkan pembagian ke dalam pangkat tanpa menyesuaikan pembaginya. Gunakan rumus yang benar-benar cocok dengan seluruh pasangan."
             }
           ]
         }
@@ -444,23 +307,7 @@
             },
             {
               "jenis": "sorot",
-              "teks": "$2²=4$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$3²=9$"
-            },
-            {
-              "jenis": "sorot",
               "teks": "$y=4u−9$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh, Urutan tidak dipangkatkan. Hubungannya tetap linear: empat kali Urutan lalu kurang sembilan. Bentuk berpangkat dan bentuk yang sudah disederhanakan menghasilkan pasangan angka yang sama. Data tabel menentukan nilai pengali dan konstanta, tetapi tidak menuntut satu penulisan pangkat tertentu."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Penyederhanaan juga berguna ketika Urutan memang mempunyai pangkat. Hitung bilangan pengali dan konstanta dahulu, lalu pertahankan pangkat Urutan sesuai rumus. Cara ini mengurangi risiko menukar bagian yang dipangkatkan atau mengubah urutan operasi."
             }
           ]
         }
@@ -483,14 +330,6 @@
                 "Tentukan pengali dan konstanta, lalu tulis satu rumus yang berlaku pada seluruh tabel.",
                 "Uji setiap pasangan lengkap. Rumus yang hanya cocok pada satu atau dua baris belum cukup."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Mulailah dari baris dengan angka yang mudah dihitung, lalu gunakan baris lain untuk menguji dugaan. Angka nol pada kolom Nilai tetap merupakan data yang sah. Nilai nol dapat muncul karena hasil pengalian atau perpangkatan habis dikurangi konstanta, sehingga tidak boleh langsung diabaikan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bila perlu, sederhanakan rumus sebelum memasukkan angka. Jangan menambah aturan khusus pada satu baris hanya agar rumus tetap terlihat cocok. Aturan yang dipakai harus menjelaskan seluruh pasangan dengan cara yang sama."
             }
           ]
         }
@@ -513,22 +352,6 @@
               "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-09.png",
               "lebar": 2.87,
               "tinggi": 3.37
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$x=2×5+1$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$x=10+1$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$x=11$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada gambar, angka sebelas mengisi sel Nilai yang semula memuat x. Sesudah dihitung, cocokkan kembali dengan urutan lima. Tidak perlu mencari berapa baris yang dilewati dari pasangan sebelumnya karena rumus menghubungkan kedua kolom secara langsung."
             }
           ]
         },
@@ -545,38 +368,6 @@
               "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-10.png",
               "lebar": 2.87,
               "tinggi": 3.78
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$3x+4=46$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$3x=46−4$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$3x=42$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$x=42÷3$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$x=14$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$3×14+4=46$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Letak baris membantu memeriksa urutan, tetapi tidak menggantikan perhitungan. Di antara urutan sepuluh dan tujuh belas masih ada beberapa bilangan yang mungkin. Pasangan Nilai empat puluh enam yang menentukan bahwa Urutannya adalah empat belas."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada rumus kuadrat, persamaan dapat mempunyai akar positif dan negatif. Keduanya perlu diperhatikan saat menghitung, tetapi Urutan hanya menerima bilangan bulat positif karena menunjukkan posisi. Pembatasan ini berasal dari arti kolom Urutan, bukan dari kebetulan bahwa angka lain pada tabel bernilai positif."
             }
           ]
         }
@@ -599,10 +390,6 @@
                 "Untuk operasi balik, mulai dari persamaan awal. Jangan langsung menebak angka yang membuat hasilnya mendekati target.",
                 "Periksa seluruh pasangan dan masukkan kembali hasil x ke rumus. Cocokkan dengan opsi setelah perhitungan selesai."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilihan jawaban berfungsi untuk mencocokkan hasil, bukan untuk membatasi pola agar tampak benar. Jika hasil tidak cocok pada baris lain, tinjau kembali dugaan pengali, konstanta, atau bagian yang dikenai pangkat. Pemeriksaan singkat ini lebih berguna daripada meneruskan hitungan dengan aturan yang belum terbukti."
             }
           ]
         }
@@ -637,6 +424,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Pola bilangan tabel ditentukan dari hubungan Urutan dan Nilai pada baris yang sama. Periksa pengali, konstanta, dan bagian yang dikenai pangkat. Setelah rumus sesuai dengan seluruh pasangan lengkap, gunakan substitusi untuk mencari Nilai atau operasi balik untuk mencari Urutan, lalu periksa kembali hasilnya. Jarak urutan yang tidak sama tidak mengubah aturan dasar tabel. Perbandingan perubahan membantu mengenali hubungan tanpa harus menghitung semua posisi yang dilewati. Dengan menjaga urutan operasi dan memeriksa kembali setiap pasangan, perhitungan menjadi lebih terarah dan alasan jawaban dapat diikuti dari awal sampai akhir."
+    "pesan": "Pola bilangan tabel ditentukan dari hubungan Urutan dan Nilai pada baris yang sama. Periksa pengali, konstanta, dan bagian yang dikenai pangkat. Setelah rumus sesuai dengan seluruh pasangan lengkap, gunakan substitusi untuk mencari Nilai atau operasi balik untuk mencari Urutan, lalu periksa kembali hasilnya."
   }
 }

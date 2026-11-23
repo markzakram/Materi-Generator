@@ -46,8 +46,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Bilangan kita pakai untuk menyatakan banyaknya barang, posisi, suhu, hingga bagian dari satu benda. Jenis bilangan yang sesuai bergantung pada apa yang sedang dinyatakan. Jumlah barang bisa nol, suhu bisa negatif, dan panjang bisa berupa pecahan.",
-      "Saat membaca bilangan, perhatikan nilai yang dinyatakan dan sifatnya. Bab ini mengajak kita melihat bagaimana bilangan disusun, mengapa satu bilangan bisa masuk ke beberapa kelompok, dan bagaimana mengenali ganjil, genap, prima, serta komposit."
+      "Bilangan kita pakai untuk menyatakan banyaknya barang, posisi, suhu, hingga bagian dari satu benda. Jenis bilangan yang sesuai bergantung pada apa yang sedang dinyatakan. Jumlah barang bisa nol, suhu bisa negatif, dan panjang bisa berupa pecahan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -98,7 +97,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Bilangan menyatakan suatu nilai. Angka adalah lambang yang dipakai untuk menuliskan nilai itu. Dalam sistem yang biasa kita gunakan, ada sepuluh angka, yaitu 0 sampai 9. Bilangan 215, misalnya, ditulis dengan tiga angka: 2, 1, dan 5."
+              "teks": "Bilangan menyatakan suatu nilai. Angka adalah lambang yang dipakai untuk menuliskan nilai itu."
             },
             {
               "jenis": "paragraf",
@@ -150,15 +149,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Pada potongan garis bilangan ini, jarak antara dua angka yang berdampingan adalah satu satuan. Karena −3 berada di kiri −1, maka $−3 < −1$. Simbol < berarti «lebih kecil dari», sedangkan > berarti «lebih besar dari». Letak pada garis lebih membantu daripada membandingkan angka 3 dan 1 tanpa memperhatikan tanda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Posisi pecahan juga bisa ditunjukkan pada garis. Bilangan $1/2$ berada tepat di tengah antara 0 dan 1. Lawan bilangannya berada tepat di tengah antara −1 dan 0."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Nilai mutlak adalah jarak suatu bilangan dari nol. Tanda | | menunjukkan bahwa yang dilihat adalah jaraknya. Bilangan −3 dan 3 berada di sisi yang berbeda, tetapi masing-masing berjarak tiga satuan dari nol. Karena itu, $|−3| = |3| = 3$. Nilai mutlak nol adalah 0."
+              "teks": "Nilai mutlak adalah jarak suatu bilangan dari nol. Tanda | | menunjukkan bahwa yang dilihat adalah jaraknya. Bilangan −3 dan 3 berada di sisi yang berbeda, tetapi masing-masing berjarak tiga satuan dari nol. Karena itu, $|−3| = |3| = 3$."
             },
             {
               "jenis": "paragraf",
@@ -177,10 +168,6 @@
           "judul": "Kelompok bilangan",
           "blok": [
             {
-              "jenis": "paragraf",
-              "teks": "Himpunan adalah kumpulan anggota. Kurung kurawal { } memuat anggota atau syarat keanggotaannya. Tiga titik (…) menunjukkan bahwa daftar berlanjut. Huruf W adalah lambang bilangan cacah."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Bilangan Asli (ℕ)"
             },
@@ -190,7 +177,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Bilangan asli digunakan untuk menghitung benda mulai dari satu. Urutannya 1, 2, 3, dan seterusnya. Misalnya, 3 buku berarti ada tiga benda yang dihitung. Nol termasuk bilangan cacah."
+              "teks": "Bilangan asli digunakan untuk menghitung benda mulai dari satu. Urutannya 1, 2, 3, dan seterusnya."
             },
             {
               "jenis": "subjudul",
@@ -202,7 +189,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Bilangan cacah mencakup nol dan semua bilangan asli. Nol berguna ketika jumlah yang dicatat tidak ada. Rak kosong berisi 0 buku, sedangkan rak yang terisi bisa berisi 1, 2, atau lebih. Semua jumlah itu termasuk bilangan cacah."
+              "teks": "Bilangan cacah mencakup nol dan semua bilangan asli."
             },
             {
               "jenis": "subjudul",
@@ -214,7 +201,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Bilangan bulat mencakup bilangan negatif tanpa bagian pecahan, nol, dan bilangan positif tanpa bagian pecahan. Misalnya, perubahan stok −2 berarti dua benda keluar, 0 berarti stok tetap, dan 2 berarti dua benda masuk. Setengah bukan bilangan bulat karena nilainya berada di antara 0 dan 1."
+              "teks": "Bilangan bulat mencakup bilangan negatif tanpa bagian pecahan, nol, dan bilangan positif tanpa bagian pecahan."
             },
             {
               "jenis": "subjudul",
@@ -226,11 +213,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Bilangan rasional dapat ditulis dalam bentuk pecahan $a/b$ dengan pembilang dan penyebut berupa bilangan bulat serta penyebut bukan nol. Pembilang, yaitu a, ditulis di atas garis pecahan. Penyebut, yaitu b, ditulis di bawah garis. Bilangan bulat juga rasional. Misalnya, 5 dapat ditulis sebagai $5/1$ dan 0 sebagai $0/1$."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Desimal yang berhenti juga rasional. Contohnya 0,25 sama dengan seperempat. Desimal yang berulang dengan pola tetap juga rasional. Contohnya 0,333… sama dengan sepertiga. Tiga titik menunjukkan bahwa angka 3 terus berulang. Pada notasi ℚ, garis tegak dibaca «dengan syarat»."
+              "teks": "Bilangan rasional dapat ditulis dalam bentuk pecahan $a/b$ dengan pembilang dan penyebut berupa bilangan bulat serta penyebut bukan nol."
             },
             {
               "jenis": "subjudul",
@@ -238,7 +221,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Bilangan irasional adalah bilangan yang tidak dapat dinyatakan dalam bentuk pecahan $a/b$, dengan a dan b bilangan bulat dan b bukan nol. Bentuk desimalnya tidak berhenti dan tidak memiliki pola pengulangan tetap. Contohnya akar kuadrat dari 2 dan π. Tanda akar saja belum cukup untuk mengenali bilangan irasional. Akar kuadrat dari 9 adalah 3, sehingga termasuk bilangan rasional."
+              "teks": "Bilangan irasional adalah bilangan yang tidak dapat dinyatakan dalam bentuk pecahan $a/b$, dengan a dan b bilangan bulat dan b bukan nol. Bentuk desimalnya tidak berhenti dan tidak memiliki pola pengulangan tetap."
             },
             {
               "jenis": "subjudul",
@@ -254,7 +237,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Bilangan real merupakan gabungan dari bilangan asli, cacah, bulat, rasional, dan irasional. Pada diagram, bilangan asli, cacah, dan bulat sudah tercakup dalam bilangan rasional. Karena itu, semua bilangan real dapat dikelompokkan menjadi bilangan rasional atau irasional. Setiap bilangan real memiliki tempat pada garis bilangan."
+              "teks": "Bilangan real merupakan gabungan dari bilangan asli, cacah, bulat, rasional, dan irasional. Pada diagram, bilangan asli, cacah, dan bulat sudah tercakup dalam bilangan rasional."
             },
             {
               "jenis": "gambar",
@@ -265,50 +248,6 @@
             {
               "jenis": "paragraf",
               "teks": "Hubungan kelompok bilangan. Kotak di dalam kotak berarti semua anggotanya juga termasuk kelompok yang mengelilinginya."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Ringkasan kelompok bilangan"
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Kelompok",
-                "Cara mengenali",
-                "Contoh"
-              ],
-              "baris": [
-                [
-                  "Asli",
-                  "Bilangan bulat mulai dari 1",
-                  "1, 2, 3, …"
-                ],
-                [
-                  "Cacah",
-                  "Bilangan asli dan nol",
-                  "0, 1, 2, 3, …"
-                ],
-                [
-                  "Bulat",
-                  "Bilangan tanpa bagian pecahan, termasuk negatif dan nol",
-                  "…, −2, −1, 0, 1, 2, …"
-                ],
-                [
-                  "Rasional",
-                  "Dapat ditulis sebagai pecahan dua bilangan bulat dengan penyebut bukan nol",
-                  "−0,75, 0,25, 5"
-                ],
-                [
-                  "Irasional",
-                  "Tidak dapat ditulis sebagai pecahan dua bilangan bulat",
-                  "√2, π"
-                ],
-                [
-                  "Real",
-                  "Mencakup bilangan rasional dan irasional",
-                  "−3, 0,5, √2"
-                ]
-              ]
             }
           ]
         }
@@ -324,7 +263,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Ganjil dan genap adalah sifat bilangan bulat. Bilangan genap dapat dibagi 2 tanpa sisa. Bilangan ganjil berada di sela dua bilangan genap dan memiliki sisa 1 bila dibagi 2 dengan sisa tak negatif. Nol genap karena $0 = 2 × 0$. Bilangan −8 juga genap karena $−8 = 2 × (−4)$."
+              "teks": "Ganjil dan genap adalah sifat bilangan bulat. Bilangan genap dapat dibagi 2 tanpa sisa. Bilangan ganjil berada di sela dua bilangan genap dan memiliki sisa 1 bila dibagi 2 dengan sisa tak negatif."
             },
             {
               "jenis": "gambar",
@@ -338,11 +277,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Untuk bilangan bulat, periksa angka terakhirnya dengan mengabaikan tanda. Akhiran 0, 2, 4, 6, atau 8 menunjukkan bilangan genap. Akhiran 1, 3, 5, 7, atau 9 menunjukkan bilangan ganjil. Cara ini bekerja karena semua puluhan, ratusan, dan nilai tempat yang lebih besar merupakan kelipatan 2. Karena itu, pada 215 hanya angka 5 yang menentukan sifat ganjilnya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk penjumlahan, dua bilangan dengan sifat yang sama menghasilkan bilangan genap. Misalnya $3 + 5 = 8$ karena dua sisa 1 bisa dipasangkan. Jika satu ganjil dan satu genap, hasilnya ganjil, seperti $3 + 4 = 7$. Untuk perkalian, satu faktor genap sudah membuat hasilnya genap karena hasil kali tersebut masih mengandung faktor 2. Jika semua faktornya ganjil, hasilnya ganjil."
+              "teks": "Untuk bilangan bulat, periksa angka terakhirnya dengan mengabaikan tanda. Akhiran 0, 2, 4, 6, atau 8 menunjukkan bilangan genap. Akhiran 1, 3, 5, 7, atau 9 menunjukkan bilangan ganjil."
             }
           ]
         }
@@ -358,11 +293,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Bilangan prima adalah bilangan yang memiliki 2 faktor positif. Kedua faktor itu adalah 1 dan bilangan itu sendiri. Bilangan komposit memiliki lebih dari 2 faktor positif. Faktor positif adalah bilangan bulat positif yang membagi suatu bilangan tanpa sisa. Misalnya, 3 adalah faktor positif dari 12 karena 12 dibagi 3 menghasilkan 4 tanpa sisa."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bilangan 7 adalah prima karena faktor positifnya hanya 1 dan 7. Bilangan 9 adalah komposit karena mempunyai faktor 1, 3, dan 9. Jadi, bilangan ganjil tidak otomatis prima. Bilangan 2 adalah satu-satunya bilangan prima yang genap. Semua bilangan genap yang lebih besar dari 2 mempunyai 2 sebagai faktor tambahan."
+              "teks": "Bilangan prima adalah bilangan yang memiliki 2 faktor positif. Kedua faktor itu adalah 1 dan bilangan itu sendiri. Bilangan komposit memiliki lebih dari 2 faktor positif."
             },
             {
               "jenis": "paragraf",
@@ -382,15 +313,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Mulailah dari jenis bilangan yang disebutkan. Keterangan «bilangan bulat positif» memuat dua batas sekaligus: nilainya tidak mengandung bagian pecahan dan harus lebih besar dari nol. Jika sebuah bilangan bulat positif kurang dari 4, kemungkinannya hanya 1, 2, dan 3. Jika ditambah informasi bahwa bilangan itu genap, hanya 2 yang memenuhi."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Bedakan «positif» dengan «tidak negatif». Positif berarti lebih besar dari nol. Tidak negatif berarti nol atau lebih besar. Bedakan juga «kurang dari 4» dengan «paling banyak 4». Pada batas kedua, 4 ikut dihitung."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Saat memeriksa suatu sifat, lihat apakah sifat itu berlaku untuk semua nilai yang diizinkan. Misalnya, bilangan bulat positif ganjil bisa 3 atau 9. Karena 3 prima sedangkan 9 komposit, sifat ganjil saja belum cukup untuk memastikan bahwa bilangan tersebut prima."
             }
           ]
         }
@@ -425,6 +348,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Ingat tiga kebiasaan utama. Gunakan garis bilangan untuk membandingkan nilai, baca jenis bilangan untuk menentukan nilai yang diperbolehkan, lalu periksa sifatnya. Untuk ganjil dan genap, periksa angka satuan. Untuk prima dan komposit, perhatikan banyaknya faktor positif. Cara berpikir ini akan dipakai kembali pada bab Keterbagian Bilangan saat memeriksa apakah suatu pembagian bersisa. Pada bab Faktor dan Kelipatan, hubungan antara pembagi dan hasil kali akan dibahas lebih lengkap."
+    "pesan": "Ingat tiga kebiasaan utama. Gunakan garis bilangan untuk membandingkan nilai, baca jenis bilangan untuk menentukan nilai yang diperbolehkan, lalu periksa sifatnya. Untuk ganjil dan genap, periksa angka satuan. Untuk prima dan komposit, perhatikan banyaknya faktor positif."
   }
 }

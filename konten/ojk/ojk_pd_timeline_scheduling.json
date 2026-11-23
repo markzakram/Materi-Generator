@@ -37,8 +37,8 @@
     "paragraf": [
       "Timeline Scheduling adalah bentuk penalaran deduktif interaktif yang menggunakan kalender atau garis waktu untuk menempatkan suatu kegiatan sesuai batasan yang diberikan. Peserta tidak sekadar mencari kotak putih, tetapi harus memeriksa siapa yang tersedia, kegiatan mana yang dapat dipindahkan, apakah ruang lain diperlukan, atau berapa petugas yang sedang bertugas pada setiap interval.",
       "Bayangkan suatu rapat perlu dimajukan. Walaupun Kalender Anda kosong pada pukul tertentu, rapat belum tentu dapat dilaksanakan karena rekan lain mungkin memiliki agenda. Pada situasi berbeda, jadwal pelatihan harus mempertimbangkan persiapan, pemakaian ruang pendukung, dan pembongkaran peralatan. Dalam penugasan petugas, kotak yang terisi justru menunjukkan bahwa tim sedang bekerja. Arti tiap kotak bergantung pada konteks pertanyaan.",
-      "Bentuk latihan dalam materi ini mengikuti tiga pola utama yang tercantum pada blueprint Timeline Scheduling: penjadwalan ulang rapat tim, reservasi ruang pelatihan, dan pemenuhan jumlah petugas. Ketiga pola memakai satu tampilan bersama, yakni tiga baris informasi yang diketahui dan satu baris jawaban. Perbedaannya terletak pada aturan penalaran yang harus diperiksa.",
-      "Dalam latihan, kita membaca seluruh syarat terlebih dahulu, memecah jadwal menjadi interval yang mudah diperiksa, lalu menguji apakah pilihan memenuhi semua syarat sekaligus. Materi ini berfokus pada mekanisme tersebut, bukan pada hafalan susunan kotak atau perkiraan berdasarkan warna semata."
+      "Dalam latihan, kita membaca seluruh syarat terlebih dahulu, memecah jadwal menjadi interval yang mudah diperiksa, lalu menguji apakah pilihan memenuhi semua syarat sekaligus. Materi ini berfokus pada mekanisme tersebut, bukan pada hafalan susunan kotak atau perkiraan berdasarkan warna semata.",
+      "Gambar 1. Contoh tampilan kalender tim, bagian “Timeline Scheduling”, Soal 1. Tampilan dokumen dapat tidak memuat informasi hover yang tersedia pada aplikasi."
     ],
     "pemantik": "",
     "ikon": "presenter",
@@ -721,6 +721,39 @@
           ]
         }
       ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola",
+                "Pegangan utama"
+              ],
+              "baris": [
+                [
+                  "Rapat tim",
+                  "Cari ketersediaan bersama; perhatikan maksimal satu kegiatan yang dapat digeser 30 menit per rekan. Rapat dan kegiatan yang dipindahkan harus tetap utuh."
+                ],
+                [
+                  "Reservasi ruang",
+                  "Jumlahkan seluruh fase, periksa ruang tujuan serta pendukung, lalu uji larangan berbarengan hanya pada fase yang disebut."
+                ],
+                [
+                  "Kecukupan petugas",
+                  "Hitung petugas aktif per kotak; isi Tim D hanya saat diperlukan dan jangan memasukkan jam acara ditutup."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "penutup": {
@@ -751,6 +784,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Timeline Scheduling menguji kemampuan membaca informasi waktu, menerapkan batasan, dan memilih jadwal yang memenuhi seluruh syarat. Kita memulai dari grid 18 kotak yang masing-masing mewakili 30 menit, lalu menyesuaikan cara menalar dengan konteks soal. Urutan kerja: kenali profil → baca waktu → tentukan arti kotak → uji seluruh batasan → pilih jawaban → verifikasi ulang. Dengan cara ini, setiap keputusan dapat ditelusuri berdasarkan aturan yang terlihat, bukan berdasarkan tebakan susunan warna. • Tampilan empat baris dan ilustrasi 18 kotak (09.00–18.00; satu kotak = 30 menit). • Perbedaan arti abu-abu pada rapat/ruangan dan penugasan petugas. • Ilustrasi pergeseran blok durasi 30, 60, dan 90 menit serta diagram sebelum–sesudah Contoh 1. • Alur persiapan I → pelatihan I → persiapan II → pelatihan II → pembongkaran. • Diagram dan pembahasan Contoh 1 (rapat), Contoh 2 (ruangan), Contoh 3 (petugas), serta ringkasan variasi dari Contoh 5 dan 6. • Ringkasan cara cepat serta kesalahan umum yang mengubah kunci jawaban. Contoh 4–6 dapat dipakai sebagai latihan pengayaan atau materi pendalaman. Pada PPT, tampilkan tabel keterangan kode seperlunya serta urutan visual sebelum–sesudah agar peserta tidak menebak isi hover dari gambar statis."
+    "pesan": "Timeline Scheduling menguji kemampuan membaca informasi waktu, menerapkan batasan, dan memilih jadwal yang memenuhi seluruh syarat. Kita memulai dari grid 18 kotak yang masing-masing mewakili 30 menit, lalu menyesuaikan cara menalar dengan konteks soal. Urutan kerja: kenali profil → baca waktu → tentukan arti kotak → uji seluruh batasan → pilih jawaban → verifikasi ulang. Dengan cara ini, setiap keputusan dapat ditelusuri berdasarkan aturan yang terlihat, bukan berdasarkan tebakan susunan warna."
   }
 }

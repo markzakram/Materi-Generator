@@ -36,8 +36,7 @@
   "pendahuluan": {
     "paragraf": [
       "Bayangkan seseorang bekerja selama puluhan tahun dan setiap bulan menerima gaji. Ketika ia berhenti bekerja karena memasuki usia pensiun, penghasilan rutin dari pekerjaannya dapat berkurang atau berhenti, sementara kebutuhan hidup—makan, tempat tinggal, layanan kesehatan, transportasi, dan kebutuhan keluarga—masih ada. Karena itu, persiapan masa pensiun sebaiknya dilakukan sebelum seseorang benar-benar berhenti bekerja.",
-      "Dana pensiun hadir sebagai salah satu sarana untuk menyiapkan penghasilan pada masa tidak lagi aktif bekerja. Dana yang dikumpulkan secara bertahap dikelola untuk memenuhi manfaat pensiun sesuai aturan program. Dalam sistem keuangan Indonesia, dana pensiun termasuk industri yang diatur dan diawasi oleh Otoritas Jasa Keuangan (OJK).",
-      "Pemahaman dana pensiun penting bukan hanya bagi peserta program, tetapi juga bagi calon profesional di sektor jasa keuangan. Istilah yang sering muncul dalam pengujian antara lain Dana Pensiun Pemberi Kerja (DPPK), Dana Pensiun Lembaga Keuangan (DPLK), Program Pensiun Manfaat Pasti (PPMP), Program Pensiun Iuran Pasti (PPIP), iuran, manfaat pensiun, serta risiko investasi. Istilah-istilah tersebut harus dipahami berdasarkan fungsi dan karakteristiknya, bukan dihafalkan secara terpisah."
+      "Dana pensiun hadir sebagai salah satu sarana untuk menyiapkan penghasilan pada masa tidak lagi aktif bekerja. Dana yang dikumpulkan secara bertahap dikelola untuk memenuhi manfaat pensiun sesuai aturan program. Dalam sistem keuangan Indonesia, dana pensiun termasuk industri yang diatur dan diawasi oleh Otoritas Jasa Keuangan (OJK)."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -137,10 +136,6 @@
               "teks": "Iuran pensiun adalah setoran yang dibayarkan kepada program sesuai ketentuan, dapat berasal dari pemberi kerja, peserta, atau keduanya tergantung jenis program. Manfaat pensiun adalah hak atau pembayaran yang diterima peserta atau pihak yang berhak ketika syarat dalam peraturan dana pensiun terpenuhi."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Peraturan Dana Pensiun (PDP) merupakan aturan penyelenggaraan program pada dana pensiun tertentu, antara lain terkait kepesertaan, iuran, usia pensiun, manfaat, dan tata cara pembayaran. Jangan menganggap seluruh program memiliki rumus manfaat atau kondisi pencairan yang sama. Ketentuan umum berasal dari hukum dan peraturan OJK; rincian pelaksanaan dibaca bersama PDP yang berlaku."
-            },
-            {
               "jenis": "tabel",
               "kolom": [
                 "Istilah",
@@ -185,14 +180,6 @@
             {
               "jenis": "paragraf",
               "teks": "Fungsi utama program pensiun adalah membantu menjaga kesinambungan penghasilan ketika seseorang tidak lagi menerima penghasilan kerja secara rutin. Perencanaan tersebut juga memberi waktu lebih panjang bagi dana untuk terakumulasi dan dikembangkan. Program pensiun tidak otomatis menjamin bahwa seluruh kebutuhan hidup akan terpenuhi; kecukupannya dipengaruhi jumlah iuran, lamanya kepesertaan, hasil pengelolaan investasi, besaran manfaat yang dijanjikan, inflasi, dan situasi peserta."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bagi pekerja/karyawan, keberadaan program pensiun dapat menambah rasa aman dan menjadi komponen penghargaan atau kompensasi jangka panjang. Bagi pemberi kerja, program pensiun dapat menjadi bagian dari kebijakan kesejahteraan karyawan dan mendukung retensi tenaga kerja. Bagi pekerja mandiri, program yang menerima peserta perorangan memberikan pilihan membangun dana pensiun secara lebih terencana."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh sederhana: Dina berusia 30 tahun dan ingin menyiapkan penghasilan pada usia pensiun. Ia rutin menyisihkan sejumlah uang melalui program pensiun. Kebiasaan ini membantu membentuk dana secara disiplin. Akan tetapi, Dina tetap harus meninjau kecukupan dananya secara berkala karena kebutuhan dan kondisi pasar dapat berubah."
             }
           ]
         }
@@ -258,35 +245,11 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Catatan penting: nama bank atau perusahaan asuransi pada suatu produk tidak otomatis menjadikan semua produk tersebut sebagai DPLK. Penentuan dilakukan berdasarkan status lembaga penyelenggara dan izin yang berlaku."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Peta dua tingkat: lembaga penyelenggara dan jenis program"
             },
             {
               "jenis": "paragraf",
               "teks": "Tingkat 1 – Jenis lembaga menjawab siapa yang membentuk dana pensiun: DPPK dibentuk pemberi kerja, sedangkan DPLK dibentuk lembaga jasa keuangan yang memenuhi persyaratan. Tingkat 2 – Jenis program menjawab apa yang ditetapkan: PPMP menetapkan rumus manfaat, sedangkan PPIP menetapkan iuran. Dengan demikian, DPPK/DPLK dan PPMP/PPIP bukan empat kategori yang sejajar."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Tingkat 1: lembaga",
-                "Tingkat 2: program yang dapat diselenggarakan",
-                "Contoh pemahaman"
-              ],
-              "baris": [
-                [
-                  "DPPK — dibentuk pemberi kerja",
-                  "PPMP dan/atau PPIP sesuai ketentuan, dengan pengelolaan setiap program secara terpisah.",
-                  "Dana pensiun perusahaan dapat mengelola program manfaat pasti dan/atau iuran pasti bagi karyawannya."
-                ],
-                [
-                  "DPLK — dibentuk lembaga jasa keuangan yang diizinkan",
-                  "PPIP sesuai ketentuan.",
-                  "Pekerja mandiri mengikuti program iuran pasti yang ditawarkan DPLK."
-                ]
-              ]
             },
             {
               "jenis": "paragraf",
@@ -313,10 +276,6 @@
               "teks": "Pada PPMP, manfaat pensiun ditetapkan berdasarkan rumus atau ketentuan dalam PDP. Perhitungan dapat mempertimbangkan faktor seperti masa kerja dan penghasilan dasar pensiun sesuai rumus program. Karena manfaat dirumuskan lebih dahulu, pendanaan dan pengelolaan aset harus ditata agar janji manfaat dapat dipenuhi. Risiko pendanaan secara umum menjadi tanggung jawab pemberi kerja/penyelenggara menurut ketentuan program, tetapi rincian kewajiban tetap mengikuti hukum dan PDP."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Ilustrasi konseptual: suatu DPPK menjanjikan manfaat sebesar persentase tertentu dari dasar penghasilan pensiun untuk peserta dengan masa kerja yang memenuhi syarat. Rumus manfaat diketahui sejak awal, sementara kebutuhan iuran harus dipantau melalui evaluasi pendanaan. Angka manfaat pada ilustrasi tidak berlaku untuk semua DPPK."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Program Pensiun Iuran Pasti (PPIP)"
             },
@@ -326,46 +285,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Ilustrasi: seorang peserta menyetor Rp500.000 per bulan selama 12 bulan. Jumlah iuran pokok setahun adalah Rp6.000.000. Pada akhir periode, nilai hak peserta bukan selalu tepat Rp6.000.000 karena hasil investasi dan biaya dapat membuat hasilnya lebih tinggi atau lebih rendah. Contoh ini bukan janji tingkat pengembalian."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Pembeda",
-                "PPMP",
-                "PPIP"
-              ],
-              "baris": [
-                [
-                  "Yang ditetapkan lebih dahulu",
-                  "Rumus/besaran manfaat sesuai PDP",
-                  "Besaran atau rumus iuran sesuai PDP"
-                ],
-                [
-                  "Cara melihat hasil akhir",
-                  "Mengacu pada rumus manfaat dan syarat pensiun",
-                  "Akumulasi iuran dan hasil pengembangan sesuai ketentuan"
-                ],
-                [
-                  "Faktor penting",
-                  "Masa kerja, dasar penghasilan pensiun, asumsi aktuaria, dan kondisi pendanaan",
-                  "Jumlah iuran, masa akumulasi, hasil investasi, dan biaya"
-                ],
-                [
-                  "Risiko utama",
-                  "Kewajiban memenuhi janji manfaat dan kecukupan pendanaan",
-                  "Perubahan nilai akumulasi dan kecukupan dana peserta"
-                ],
-                [
-                  "Kata kunci soal",
-                  "\"manfaat ditentukan\"",
-                  "\"iuran ditentukan\""
-                ]
-              ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Cara cepat membedakan: jangan terkecoh oleh kata “pensiun” pada keduanya. Temukan variabel yang dijanjikan atau ditetapkan: manfaat pada PPMP, iuran pada PPIP. Kemudian cek apakah soal membahas badan hukum (DPPK/DPLK) atau skema manfaat (PPMP/PPIP)."
+              "teks": "**Pembeda** · **PPMP** · **PPIP**"
             }
           ]
         }
@@ -483,10 +403,6 @@
             {
               "jenis": "paragraf",
               "teks": "Instrumen investasi dana pensiun dapat mencakup penempatan pada deposito, surat berharga negara, obligasi, saham, dan instrumen lain yang diizinkan dalam batasan regulasi. Penempatan tersebut mempunyai karakter risiko berbeda. Investasi tidak berarti dana pensiun bebas menggunakan aset untuk kepentingan pendiri atau menjanjikan hasil tanpa risiko."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh perhitungan dasar PPIP: iuran peserta Rp350.000 per bulan dan iuran pemberi kerja Rp450.000 per bulan. Total setoran Rp800.000 per bulan atau Rp9.600.000 selama 12 bulan. Angka tersebut baru merupakan akumulasi iuran; manfaat yang akhirnya dibayar tetap dipengaruhi hasil pengembangan, biaya, dan ketentuan program. Jangan menafsirkan angka simulasi sebagai nilai pensiun yang dijamin."
             }
           ]
         }
@@ -545,39 +461,8 @@
               "teks": "Manfaat pensiun adalah hak atau pembayaran berdasarkan kondisi yang diatur. Tiga kategori dasar yang perlu dipahami ialah manfaat pensiun normal, dipercepat, dan disabilitas (buku referensi 2015 memakai istilah “cacat”). Hak bagi janda/duda, anak, atau pihak lain yang berhak juga dapat diatur menurut ketentuan program. Dalam ketentuan dana pensiun saat ini, istilah dan jenis manfaat harus selalu dicocokkan dengan regulasi terbaru serta PDP."
             },
             {
-              "jenis": "tabel",
-              "kolom": [
-                "Jenis/istilah",
-                "Pengertian ringkas",
-                "Kata kunci kasus"
-              ],
-              "baris": [
-                [
-                  "Pensiun normal",
-                  "Hak muncul ketika peserta mencapai usia pensiun normal sesuai ketentuan.",
-                  "Mencapai usia pensiun normal"
-                ],
-                [
-                  "Pensiun dipercepat",
-                  "Manfaat dapat mulai dibayarkan ketika memenuhi syarat pensiun sebelum usia normal.",
-                  "Pensiun lebih awal, tetapi memenuhi ketentuan"
-                ],
-                [
-                  "Pensiun disabilitas",
-                  "Terkait kondisi disabilitas peserta yang memenuhi persyaratan program.",
-                  "Disabilitas yang memenuhi kriteria program"
-                ],
-                [
-                  "Pensiun ditunda",
-                  "Hak manfaat yang pelaksanaan pembayarannya mengikuti mekanisme penundaan sesuai aturan.",
-                  "Berhenti kerja tetapi belum memenuhi syarat pembayaran segera"
-                ],
-                [
-                  "Hak pihak yang berhak",
-                  "Pembayaran dapat berkaitan dengan meninggalnya peserta berdasarkan PDP dan hukum yang berlaku.",
-                  "Janda/duda, anak, atau pihak yang berhak"
-                ]
-              ]
+              "jenis": "paragraf",
+              "teks": "**Jenis/istilah** · **Pengertian ringkas** · **Kata kunci kasus**"
             },
             {
               "jenis": "paragraf",
@@ -631,10 +516,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pada 13 Juli 2026, OJK mengumumkan kebijakan melalui Keputusan Anggota Dewan Komisioner OJK Nomor KEP-54/D.05/2026 sebagai tindak lanjut dua putusan Mahkamah Konstitusi. Untuk manfaat pensiun yang berasal dari uang pesangon, uang penghargaan masa kerja, dan/atau uang penggantian hak, peserta atau pihak yang berhak dapat memilih pembayaran sekaligus atau berkala. Pembayaran sekaligus pada kategori tersebut dapat dilakukan tanpa mengikuti batas nominal sebelumnya; namun dana pensiun terlebih dahulu wajib memperoleh pengesahan perubahan PDP dari OJK. Kebijakan khusus ini tidak boleh digeneralisasi menjadi kebebasan mencairkan setiap jenis saldo pensiun di semua program."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dalam menjawab kasus, gunakan urutan analisis: (1) tentukan asal dana atau manfaat, (2) identifikasi jenis program dan ketentuan PDP, (3) periksa apakah kondisi peserta memenuhi syarat, dan (4) terapkan peraturan OJK yang berlaku pada keadaan tersebut. Jawaban yang melewatkan asal dana dan berasumsi seluruh kasus sama berpotensi keliru."
             }
           ]
         }
@@ -751,6 +632,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Dana pensiun merupakan bagian penting dari sistem jasa keuangan karena membantu menyiapkan kesinambungan penghasilan ketika seseorang tidak lagi aktif bekerja. Peserta perlu memahami bahwa dana pensiun adalah lembaga pengelola, sedangkan program pensiun menjelaskan mekanisme iuran dan manfaat. DPPK dan DPLK dibedakan berdasarkan kelembagaannya; PPMP dan PPIP dibedakan berdasarkan variabel yang lebih dulu ditentukan, yaitu manfaat atau iuran. Pengelolaan dana pensiun menuntut keseimbangan antara pengumpulan iuran, investasi, pengawasan, dan kemampuan membayar manfaat sesuai hak peserta. Tidak seluruh program memiliki syarat, rumus, maupun waktu pembayaran yang sama. Oleh karena itu, pemahaman konsep harus selalu disertai ketelitian membaca PDP dan regulasi OJK yang berlaku. Dengan dasar tersebut, peserta dapat menilai suatu kasus secara logis tanpa terjebak pernyataan yang terlalu mutlak. Pesan utama: identifikasi dulu siapa penyelenggara programnya, jenis programnya, sumber iurannya, kapan syarat manfaat terpenuhi, lalu periksa aturan pembayaran. Urutan berpikir ini lebih kuat dibanding hanya menghafal definisi. Catatan validitas sumber: Buku Saku OJK 2015 digunakan sebagai bahan konseptual dan historis. Dasar hukum terkini mengacu pada UU P2SK serta POJK yang relevan. Bentuk soal, opsi A–E, dan pembahasannya merupakan adaptasi pendidikan yang ditulis untuk materi ini, bukan kutipan soal OJK maupun klaim prediksi soal seleksi."
+    "pesan": ""
   }
 }

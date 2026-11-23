@@ -35,8 +35,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Calendar Date Selection adalah bentuk tes penalaran deduktif interaktif yang meminta peserta memilih tanggal atau rentang tanggal pada kalender berdasarkan sejumlah aturan. Informasi dapat berupa hari seseorang tersedia atau tidak tersedia, periode cuti, urutan kegiatan, tanggal larangan, durasi pekerjaan, atau batas waktu. Peserta tidak cukup mengingat nama hari: semua syarat harus digabungkan untuk memperoleh pilihan yang tepat.",
-      "Pada riset PCAM/MLE OJK 2026, Calendar Date Selection ditempatkan di Tes Penalaran Deduktif pada Tes Kemampuan Umum (TKU). Tampilan contoh menggabungkan panel aturan, pertanyaan, dan kalender yang dapat dipilih. Bentuk pertanyaan dapat meminta satu tanggal paling awal, beberapa tanggal, tanggal mulai, tanggal akhir, atau rentang kegiatan. Tidak ada jaminan semua contoh dari bahan latihan lain mempunyai kunci yang valid; karena itu pemeriksaan hari–tanggal menjadi bagian dari pembelajaran."
+      "Calendar Date Selection adalah bentuk tes penalaran deduktif interaktif yang meminta peserta memilih tanggal atau rentang tanggal pada kalender berdasarkan sejumlah aturan. Informasi dapat berupa hari seseorang tersedia atau tidak tersedia, periode cuti, urutan kegiatan, tanggal larangan, durasi pekerjaan, atau batas waktu. Peserta tidak cukup mengingat nama hari: semua syarat harus digabungkan untuk memperoleh pilihan yang tepat."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -199,24 +198,8 @@
       ]
     },
     {
-      "subbab": "Kasus satu jawaban, banyak jawaban, dan informasi tidak cukup",
-      "ikon": "checklist",
-      "slide": [
-        {
-          "tipe": "blok",
-          "judul": "Kasus satu jawaban, banyak jawaban, dan informasi tidak cukup",
-          "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pertanyaan “pilih hari pertama” memerlukan satu tanggal paling awal; “pilih semua hari” dapat mempunyai lebih dari satu jawaban. Jika dua susunan sama-sama memenuhi seluruh syarat tetapi menghasilkan jawaban berbeda, data belum menentukan satu jawaban unik. Jangan memaksakan satu tanggal tanpa dasar."
-            }
-          ]
-        }
-      ]
-    },
-    {
       "subbab": "Strategi Menjawab dan Cara Cepat",
-      "ikon": "globe",
+      "ikon": "checklist",
       "slide": [
         {
           "tipe": "blok",
@@ -261,7 +244,7 @@
     },
     {
       "subbab": "Kesalahan Umum",
-      "ikon": "grafik",
+      "ikon": "strategi",
       "slide": [
         {
           "tipe": "blok",
@@ -329,7 +312,7 @@
         "teks": ""
       },
       {
-        "judul": "Kasus satu jawaban, banyak jawaban, dan informasi tidak cukup",
+        "judul": "Strategi Menjawab dan Cara Cepat",
         "teks": ""
       }
     ],

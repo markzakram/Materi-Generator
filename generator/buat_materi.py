@@ -149,7 +149,6 @@ BISA_DIPECAH = {"tabel": ("baris", 1, 2), "poin": ("butir", 1, 2), "profil": ("i
 
 
 class Pembangun:
-    varian_sampul = "putih"  # sampul General: 'putih' atau 'foto' (diatur buat_deck)
 
     def __init__(self, prs, konten, folder=None):
         self.prs, self.k = prs, konten
@@ -201,8 +200,7 @@ class Pembangun:
         m = self.k["meta"]
         s = self.baru(nav=False)
         if self.general:
-            D._KAIT.sampul(s, (m.get("materi_besar") or m["subtes"]).upper(), m["judul"], m.get("tutor"),
-                           varian=self.varian_sampul)
+            D._KAIT.sampul(s, (m.get("materi_besar") or m["subtes"]).upper(), m["judul"], m.get("tutor"))
             return
         D.sampul(s, m["judul"], m["subtes"].upper(), m.get("subjudul"), ikon=m.get("ikon", "strategi"))
 
@@ -612,10 +610,10 @@ def jenis_deck(naskah):
     return "soal" if meta.get("bagian") == "soal" or meta.get("judul", "").startswith("Contoh Soal") or semua_soal else "materi"
 
 
-def buat_deck(konten, path_template=None, folder=None, tema="opsi-b", sampul="putih", palet=None):
+def buat_deck(konten, path_template=None, folder=None, tema="opsi-b", palet=None):
     """Bangun deck dari naskah (dict); folder = dasar path gambar di naskah. Hasil: (Presentation, Pembangun).
 
-    sampul: varian sampul General, 'putih' atau 'foto'. palet: nama palet platform (mis. 'jadiasn',
+    palet: nama palet platform (mis. 'jadiasn',
     lihat palet.py) untuk mewarnai ulang navy/kuning template; None = warna template.
 
     Tema disimpan sebagai keadaan modul desain, jadi pemanggil yang berjalan paralel (server
@@ -626,7 +624,6 @@ def buat_deck(konten, path_template=None, folder=None, tema="opsi-b", sampul="pu
         import palet as PL
         PL.pakai_token(palet)  # token kontras palet berlaku selama deck dibangun
     b = Pembangun(prs, konten, folder)
-    b.varian_sampul = sampul
     b.bangun()
     if palet:
         PL.terapkan(prs, palet)
@@ -641,8 +638,6 @@ def main(argv=None):
     ap.add_argument("--tema", choices=TEMA, default="opsi-b",
                     help="Tampilan: opsi-b (Ceria & Membulat) atau general (Template Materi General)")
     ap.add_argument("--template", default=None, help="Path template (bawaan: template tema di akar proyek)")
-    ap.add_argument("--sampul", choices=["putih", "foto"], default="putih",
-                    help="Varian sampul General: putih (lengkung navy) atau foto (panel navy di atas foto)")
     ap.add_argument("--palet", default=None, help="Palet platform untuk warna slide, mis. jadiasn")
     arg = ap.parse_args(argv)
 
@@ -653,7 +648,7 @@ def main(argv=None):
 
     try:
         prs, b = buat_deck(konten, arg.template, os.path.dirname(os.path.abspath(arg.naskah)), arg.tema,
-                           sampul=arg.sampul, palet=arg.palet)
+                           palet=arg.palet)
     except (TemplateTidakAda, TemplateTidakCocok, ValueError) as e:
         sys.exit(str(e))
     for w in b.peringatan:

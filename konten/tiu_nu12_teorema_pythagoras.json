@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Pada segitiga siku-siku, panjang dua sisi cukup untuk menemukan panjang sisi yang ketiga. Langkah pertamanya adalah menemukan sudut siku-siku dan mengenali sisi di depannya. Setelah itu, Teorema Pythagoras menghubungkan ketiga panjang sisi melalui kuadratnya.",
-      "Hubungan ini bisa dipakai untuk menemukan panjang garis miring, misalnya diagonal persegi panjang. Agar perhitungannya tepat, kenali dulu segitiga yang terbentuk dan samakan satuan ketiga panjang."
+      "Pada segitiga siku-siku, panjang dua sisi cukup untuk menemukan panjang sisi yang ketiga. Langkah pertamanya adalah menemukan sudut siku-siku dan mengenali sisi di depannya. Setelah itu, Teorema Pythagoras menghubungkan ketiga panjang sisi melalui kuadratnya."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -98,10 +97,6 @@
                 "Sisi di depan sudut siku-siku disebut sisi miring atau hipotenusa.",
                 "Sisi miring selalu menjadi sisi terpanjang."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kotak kecil pada gambar menandai sudut 90°. Mulailah dari kotak itu. Kedua sisi yang bertemu di sana adalah sisi siku-siku. Satu sisi yang tidak menyentuh titik sudut itu adalah hipotenusa. Cara ini tetap berlaku jika gambar diputar, meskipun hipotenusanya tampak mendatar."
             }
           ]
         }
@@ -130,10 +125,6 @@
               "teks": "$a²+b²=c²$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Kuadrat suatu panjang berarti panjang itu dikalikan dengan dirinya sendiri. Karena yang dicari adalah panjang sisi, ambil akar kuadrat positif setelah mendapatkan kuadratnya. Gunakan satuan yang sama untuk semua panjang sebelum menghitung."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Menentukan Sisi yang Belum Diketahui"
             },
@@ -148,18 +139,6 @@
             {
               "jenis": "sorot",
               "teks": "$a=√(c²−b²)$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Huruf a dan b dapat bertukar karena keduanya sama-sama sisi siku-siku. Posisi c tetap untuk hipotenusa. Jika panjang yang dianggap hipotenusa lebih pendek daripada sisi lain, periksa lagi label pada gambar."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Memeriksa Sudut Siku-Siku dari Tiga Panjang Sisi"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika tiga panjang sisi segitiga diketahui, anggap sisi terpanjang sebagai c, lalu bandingkan kuadratnya dengan jumlah kuadrat dua sisi lainnya. Jika kedua hasil sama, sudut di depan sisi terpanjang adalah sudut siku-siku. Jika berbeda, segitiga tersebut bukan segitiga siku-siku."
             }
           ]
         }
@@ -198,10 +177,6 @@
                 "Jika diketahui sisi 6 cm, 8 cm, dan 10 cm, itu juga tripel karena kelipatan 3–4–5.",
                 "Tripel membantu menghitung lebih cepat tanpa akar panjang."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Supaya tripel tetap berlaku, kalikan ketiga panjang dengan pengali yang sama. Pada tripel 3–4–5, semua panjang dikali 2 untuk memperoleh 6–8–10. Jika hanya satu sisi yang berubah, periksa kembali hubungan kuadratnya."
             }
           ]
         }
@@ -224,6 +199,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Temukan dulu sudut siku-siku dan sisi di depannya. Jumlahkan kuadrat kedua sisi siku-siku untuk mencari hipotenusa, atau kurangi kuadrat hipotenusa untuk mencari sisi siku-siku. Akhiri dengan mengambil akar kuadrat positif dan menuliskan satuannya. Periksa apakah hasilnya masuk akal. Hipotenusa harus lebih panjang daripada masing-masing sisi siku-siku. Jika menemukan tiga bilangan bulat yang tampak seperti tripel, hubungan kuadratnya dapat diperiksa langsung."
+    "pesan": "Temukan dulu sudut siku-siku dan sisi di depannya. Jumlahkan kuadrat kedua sisi siku-siku untuk mencari hipotenusa, atau kurangi kuadrat hipotenusa untuk mencari sisi siku-siku. Akhiri dengan mengambil akar kuadrat positif dan menuliskan satuannya."
   }
 }

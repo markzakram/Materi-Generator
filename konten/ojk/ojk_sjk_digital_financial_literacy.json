@@ -45,11 +45,6 @@
     "butir": [
       {
         "level": "",
-        "kko": "Setelah",
-        "teks": "mempelajari materi ini, peserta dapat melakukan tiga hal berikut."
-      },
-      {
-        "level": "",
         "kko": "Membandingkan",
         "teks": "layanan berdasarkan kebutuhan, biaya, dan syarat."
       },
@@ -74,14 +69,6 @@
           "tipe": "blok",
           "judul": "Digital Financial Literacy",
           "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Materi ini membahas cara menilai produk digital, melindungi akses akun, dan memilih kanal bantuan. Untuk mengenal peran OJK, Bank Indonesia, dan LPS, baca Pengantar Bersama di dokumen Perbankan dan Pembiayaan – Fintech."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Peraturan Otoritas Jasa Keuangan (POJK) memuat ketentuan yang mengikat dalam ruang lingkupnya. Surat Edaran Otoritas Jasa Keuangan (SEOJK) sering merinci cara pelaksanaan ketentuan tersebut. Untuk topik ini, POJK 22 Tahun 2023 menjadi rujukan pelindungan konsumen, termasuk informasi produk dan penanganan pengaduan."
-            },
             {
               "jenis": "subjudul",
               "teks": "Istilah Dasar"
@@ -124,56 +111,8 @@
               "teks": "Sebelum memakai layanan digital, periksa penyedia dan total biayanya. Setelah itu, amankan akses akun dan pilih kanal bantuan sesuai kejadian."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Sebagai contoh, Rina ingin membeli perlengkapan kerja lewat aplikasi. Dari memilih cara bayar sampai memeriksa riwayat transaksi, ia menghadapi empat situasi. Pada setiap situasi, pilihan tindakannya bergantung pada informasi yang sudah ia miliki dan risiko yang sedang dihadapi."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "1. Membaca biaya sebelum menyetujui cicilan"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Rina membandingkan dua penawaran untuk barang yang sama. Keduanya memiliki tenor empat bulan. Penawaran A menampilkan cicilan Rp100.000 per bulan dan biaya administrasi wajib Rp25.000 yang dibayar di awal. Penawaran B menampilkan cicilan Rp105.000 per bulan tanpa biaya tambahan. Total penawaran A adalah Rp425.000, sedangkan total penawaran B adalah Rp420.000."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika hanya melihat nominal cicilan, Rina mungkin memilih A. Setelah semua biaya wajib dihitung, B ternyata lebih murah Rp5.000. Jika biaya administrasi belum dijelaskan sebelum persetujuan, Rina sebaiknya menunda keputusan dan meminta rincian tertulis melalui kanal resmi."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "2. Menilai permintaan akses data"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Saat membuka fitur pemindai QR, aplikasi meminta akses kamera dan daftar kontak. Akses kamera berkaitan dengan fungsi pemindaian. Untuk akses kontak, Rina perlu membaca tujuan permintaannya, data yang akan digunakan, dan apakah fitur tetap bisa dipakai jika izin tersebut ditolak. Jika penjelasannya belum jelas, Rina dapat menolak izin kontak sementara atau memilih cara bayar lain."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "3. Memeriksa tujuan pembayaran QR"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Di kasir, Rina memindai kode QR. Sebelum menekan tombol bayar, ia melihat nama penerima di layar berbeda dari nama yang dikonfirmasi kasir. Rina menunda pembayaran dan meminta kasir memastikan kode yang benar. Setelah memindai ulang, ia memeriksa kembali nama penerima dan nominal. Jika tujuan pembayaran masih belum dapat dipastikan, ia memilih metode pembayaran lain."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "4. Menanggapi dugaan penipuan rekening"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Di transaksi lain, Rina sudah mentransfer uang setelah menerima pesan yang mengaku berasal dari penjual dan meminta pembayaran ke rekening baru. Ia kemudian menghubungi penjual lewat kanal yang biasa digunakan dan mengetahui bahwa penjual tidak pernah meminta perubahan rekening. Karena dana sudah berpindah, Rina segera menghubungi bank atau penyedia jasa pembayaran. Ia menyimpan bukti transfer, nomor rekening tujuan, waktu transaksi, dan percakapan untuk pelaporan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "**Cara menilai pilihan tindakan.** Jika biaya atau tujuan penggunaan data belum jelas, menunda persetujuan memberi Rina waktu untuk meminta penjelasan sebelum terikat kewajiban atau memberikan akses. Jika nama penerima pembayaran QR berbeda, Rina bisa meminta kode yang benar atau memilih metode pembayaran lain. Kedua pilihan menghindari risiko dana terkirim ke penerima yang belum terverifikasi. Jika dana sudah berpindah dan ada dugaan penipuan, Rina perlu segera menghubungi bank atau penyedia jasa pembayaran dan menyimpan bukti agar transaksi dapat ditangani dan dilaporkan."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Mengenali Produk, Skema, dan Biaya"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sebelum membaca angka yang ditampilkan aplikasi, tentukan dulu kebutuhanmu. Membayar tagihan, menyimpan uang, dan mengajukan pinjaman punya tujuan berbeda. Setelah menemukan layanan yang sesuai, periksa siapa penyedianya, berapa biayanya, dan kewajiban apa yang timbul jika kamu menyetujui tawaran itu."
             },
             {
               "jenis": "paragraf",
@@ -206,22 +145,6 @@
             {
               "jenis": "paragraf",
               "teks": "Bandingkan jumlah yang diterima atau harga tunai dengan total yang harus dibayar. Periksa tenor, biaya administrasi, biaya layanan, serta ketentuan keterlambatan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Misalnya, penyedia A menagih Rp110.000 dan biaya Rp5.000, sedangkan penyedia B menagih Rp112.000 tanpa biaya tambahan. Jika periode dan manfaatnya sama, total A Rp115.000 dan total B Rp112.000. Periksa juga biaya yang hanya muncul pada kondisi tertentu, seperti keterlambatan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk membandingkan biaya pinjaman secara lebih tepat, perhatikan dana bersih yang benar-benar diterima, seluruh biaya wajib, jadwal cicilan, dan jangka waktu pembayaran. Biaya yang dipotong saat pencairan mengurangi dana yang bisa digunakan, sedangkan biaya yang dibayar terpisah tetap perlu diperhitungkan. Dua pinjaman dengan total pembayaran yang sama bisa memiliki tingkat biaya efektif yang berbeda jika dana bersih yang diterima atau waktu pembayarannya berbeda."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Menerapkan pada Pinjaman Digital"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk pendanaan bersama berbasis teknologi, bedakan pihak yang menyediakan dana, pihak yang menerima dana, dan platform yang mempertemukan keduanya. Sebelum menyetujui pembiayaan, cocokkan kewajiban pembayaran dengan pendapatan dan pengeluaran rutin."
             },
             {
               "jenis": "subjudul",
@@ -293,28 +216,12 @@
               "teks": "Rekayasa sosial terjadi ketika seseorang membujuk atau menekan kita untuk memberikan data atau melakukan sesuatu. Contohnya, orang yang mengaku petugas bank mendesak kita mengirim OTP. Hentikan percakapan dan hubungi bank melalui kanal resmi."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pelaku dapat menyamar sebagai kurir atau petugas bank, lalu menciptakan rasa mendesak. Phishing menggunakan pesan atau halaman tiruan untuk memancing informasi. Pesan berisi berkas APK dari sumber yang tidak dikenal juga perlu dihindari."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Periksa Sebelum Konfirmasi"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Baca nama penerima, nominal, dan tujuan transaksi pada layar konfirmasi. Jika ada ketidaksesuaian, tunda transaksi dan hubungi penyedia lewat kanal resmi yang ditemukan secara mandiri."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Hak Konsumen dan Kanal Bantuan"
             },
             {
               "jenis": "paragraf",
               "teks": "Kenali jenis masalah sebelum memilih tempat mencari bantuan. Biaya yang berbeda dari perjanjian bisa diajukan sebagai pengaduan ke penyedia. Tawaran yang diduga ilegal dan transfer yang terjadi karena penipuan membutuhkan kanal pelaporan yang sesuai dengan jenis kejadiannya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "POJK 22 Tahun 2023 mengatur pelindungan konsumen sektor jasa keuangan, termasuk transparansi informasi, pelindungan data, keamanan, dan penanganan pengaduan. Sebelum menyetujui produk, baca ringkasan informasi dan simpan bukti persetujuan serta transaksi."
             },
             {
               "jenis": "tabel",
@@ -340,10 +247,6 @@
             {
               "jenis": "paragraf",
               "teks": "Indonesia Anti-Scam Centre (IASC) mengoordinasikan respons terhadap penipuan transaksi keuangan. Pelaporan cepat membantu upaya penelusuran dan pemblokiran. Pengembalian dana bergantung pada penanganan kasus."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Siapkan waktu dan nominal transaksi, identitas rekening atau akun terkait, bukti transfer, dan tangkapan layar komunikasi. Gunakan portal resmi iasc.ojk.go.id. Catat nomor laporan dan ikuti petunjuk resmi untuk memantau tindak lanjut."
             },
             {
               "jenis": "subjudul",
@@ -395,10 +298,6 @@
               "teks": "Ilustrasi. Rina menerima pesan dari orang yang mengaku kurir. Ia diminta membuka berkas APK, yaitu berkas pemasang aplikasi Android, untuk melihat foto paket. Modus ini dibahas dalam Majalah Edukasi Konsumen OJK, September 2023."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Kasus pesan kurir berikut menunjukkan bagaimana langkah yang tepat berubah seiring kejadian. Periksa apa yang sudah terjadi sebelum memutuskan apakah perlu memverifikasi pesan, mengamankan akun, atau melaporkan transaksi."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Kenali tanda risiko"
             },
@@ -437,10 +336,6 @@
             {
               "jenis": "paragraf",
               "teks": "Ketiga jalur tersebut saling melengkapi. Hubungi bank atau penyedia jasa pembayaran agar transaksi segera ditangani, laporkan ke IASC untuk membantu koordinasi antarpenyedia, dan buat laporan kepolisian untuk proses hukum. Pelaporan tidak otomatis menjamin dana kembali. Hasilnya bergantung pada kondisi transaksi, apakah dana masih dapat ditelusuri dan diamankan, serta tindak lanjut pihak terkait."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Urutan respons mengikuti keadaan. Pesan yang belum direspons perlu diverifikasi. Akses akun yang diduga bocor perlu diamankan. Transaksi penipuan perlu segera ditangani dan dilaporkan."
             },
             {
               "jenis": "subjudul",
@@ -512,6 +407,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Literasi keuangan digital dimulai sebelum kamu menyetujui layanan. Kenali cara kerja produk dan siapa penyedianya, lalu hitung total biaya yang akan dibayar. Periksa juga data yang diminta dan tujuan penggunaannya. Jika biaya atau penggunaan data belum jelas, tunda persetujuan sampai kamu mendapat penjelasan. Sebelum mengirim uang, cocokkan nama penerima dan nominal pada layar dengan kesepakatan. Simpan bukti persetujuan dan pembayaran agar kamu bisa memeriksa kembali transaksi jika ada perbedaan tagihan. Saat menerima pesan yang meminta akses akun atau kode rahasia, buka sendiri aplikasi atau situs resmi untuk memeriksanya. Jika muncul masalah, sesuaikan tindakan dengan kejadiannya. Amankan akun jika aksesnya diduga bocor. Jika dana sudah berpindah karena dugaan penipuan, segera hubungi bank atau penyedia jasa pembayaran, simpan bukti, dan laporkan ke IASC. Untuk keluhan mengenai tagihan atau layanan, mulai dari pengaduan kepada penyedia."
+    "pesan": "Literasi keuangan digital dimulai sebelum kamu menyetujui layanan. Kenali cara kerja produk dan siapa penyedianya, lalu hitung total biaya yang akan dibayar. Periksa juga data yang diminta dan tujuan penggunaannya. Jika biaya atau penggunaan data belum jelas, tunda persetujuan sampai kamu mendapat penjelasan."
   }
 }

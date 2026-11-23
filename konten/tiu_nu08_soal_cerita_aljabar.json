@@ -46,8 +46,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Dalam soal cerita aljabar, informasi diberikan lewat kalimat sehari-hari. Kita bisa memecah cerita menjadi tiga bagian: apa yang diketahui, apa yang ditanyakan, dan bagaimana keduanya berhubungan. Hubungan itulah yang ditulis sebagai persamaan.",
-      "Cara ini membantu saat membandingkan usia atau mencari harga barang dari beberapa pembelian. Setelah mendapatkan nilai variabel, kita kembali ke cerita untuk memastikan besaran dan satuannya sesuai dengan yang ditanyakan."
+      "Dalam soal cerita aljabar, informasi diberikan lewat kalimat sehari-hari. Kita bisa memecah cerita menjadi tiga bagian: apa yang diketahui, apa yang ditanyakan, dan bagaimana keduanya berhubungan. Hubungan itulah yang ditulis sebagai persamaan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -101,10 +100,6 @@
             {
               "jenis": "paragraf",
               "teks": "4. Selesaikan dengan metode yang tepat. Setelah menghitung, periksa kembali angka terhadap informasi awal dan tuliskan jawaban sesuai pertanyaan, lengkap dengan satuannya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tanda sama dengan menghubungkan dua cara menyatakan besaran yang sama. Misalnya, jumlah harga barang satu per satu berada di satu ruas, dan jumlah yang dibayar berada di ruas lainnya. Saat membuat persamaan harga, kedua ruas harus sama-sama menyatakan uang."
             }
           ]
         }
@@ -135,18 +130,6 @@
             {
               "jenis": "paragraf",
               "teks": "Mulai dari orang yang dijadikan pembanding. Arah penjumlahan atau pengurangan berubah ketika pembandingnya ditukar."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$m = d − 2$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Huruf m menyatakan usia Mira dan d menyatakan usia Dani, keduanya dalam tahun. Jika usia Dani sudah diketahui, masukkan angka itu. Jika hanya usia Mira yang belum diketahui, cukup gunakan satu variabel untuk usia Mira."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pastikan waktu yang dibandingkan sama. Jika cerita menyebut «tiga tahun lagi», tambahkan tiga tahun pada setiap usia yang memang diminta pada waktu itu. Jika usia dua orang dibandingkan pada waktu yang sama, selisih usia mereka tetap."
             }
           ]
         }
@@ -173,18 +156,6 @@
             {
               "jenis": "paragraf",
               "teks": "Harga setiap jenis barang dihitung dari jumlah barang dikali harga satuannya. Jumlahkan kedua harga tersebut untuk memperoleh total tagihan."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$2b + 3p = 21.000$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Huruf b menyatakan harga satu buku dan p harga satu pensil, keduanya dalam rupiah. Satu transaksi menunjukkan jumlah tagihan, sehingga masih mungkin ada beberapa pasangan harga satuan. Transaksi kedua dengan komposisi yang berbeda membantu menentukan pasangan harganya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pilih penyelesaian dari bentuk persamaan dan yang ditanyakan. Substitusi mudah jika satu variabel bisa dibuat berdiri sendiri. Eliminasi cocok jika ada koefisien yang sama atau mudah disamakan. Jika yang ditanya harga gabungan, perhatikan apakah penjumlahan atau pengurangan persamaan langsung memberi harga gabungan itu."
             }
           ]
         }
@@ -201,10 +172,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pastikan hasil menjawab besaran yang ditanyakan. Jika yang ditanya total belanja, gunakan harga satuan untuk menghitung total belanja. Samakan satuan terlebih dahulu, misalnya satu lusin berarti 12 buah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Masukkan hasil pada hubungan awal. Pada soal usia, cek siapa yang lebih tua dan berapa selisihnya. Pada soal belanja, cek apakah harga satuan menghasilkan total yang sesuai. Pemeriksaan ini membantu menemukan tanda yang terbalik, satuan yang belum diubah, atau angka yang keliru."
             }
           ]
         }
@@ -231,6 +198,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Mulailah dari pertanyaan, lalu tentukan variabel dan satuannya. Tulis persamaan dari hubungan yang benar-benar diberikan dalam cerita. Setelah menghitung, periksa kembali apakah hasilnya memenuhi informasi awal dan menjawab yang diminta. Jika hubungan antardata terasa sulit dibaca, gambarkan selisihnya atau susun data berdasarkan kelompok. Setelah model terbentuk, pilih langkah hitung yang langsung menuju besaran yang ditanyakan."
+    "pesan": "Mulailah dari pertanyaan, lalu tentukan variabel dan satuannya. Tulis persamaan dari hubungan yang benar-benar diberikan dalam cerita. Setelah menghitung, periksa kembali apakah hasilnya memenuhi informasi awal dan menjawab yang diminta."
   }
 }

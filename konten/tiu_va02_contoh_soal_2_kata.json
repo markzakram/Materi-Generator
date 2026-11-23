@@ -96,52 +96,12 @@
               "teks": "Pada bentuk Semua Kosong, isi ruas kanan dengan kedua kata dari opsi. Gunakan penghubung yang sama dengan pasangan acuan."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pasangan acuan menyediakan pola untuk menguji opsi. Jika penghubungnya “X merupakan bagian dari Y”, kata pertama pada opsi harus berperan sebagai bagian. Opsi yang memakai dua kata terkait tetap gugur jika menempatkan benda utuh lebih dulu."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Sebagian Kosong"
             },
             {
               "jenis": "paragraf",
               "teks": "Pada bentuk Sebagian Kosong, kata pertama dari opsi mengisi rumpang di ruas kiri dan kata kedua mengisi rumpang di ruas kanan. Baca kembali kedua ruas setelah diisi."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada bentuk Sebagian Kosong, kata pertama dan kedua dari opsi ditempatkan menurut urutan rumpang, bukan menurut letaknya di awal atau akhir pasangan. Setelah kedua rumpang diisi, masing-masing ruas dibaca sebagai pasangan lengkap."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "… : A = B : …"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isi posisi pertama di ruas kiri dan posisi kedua di ruas kanan. Contoh pada Soal 10."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "… : A = … : B"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isi posisi pertama di kedua ruas. Contoh pada Soal 11."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "A : … = B : …"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isi posisi kedua di kedua ruas. Contoh pada Soal 12."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "A : … = … : B"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Isi posisi kedua di ruas kiri dan posisi pertama di ruas kanan. Contoh pada Soal 13."
             }
           ]
         }
@@ -162,22 +122,6 @@
             {
               "jenis": "paragraf",
               "teks": "Ubah pasangan acuan menjadi kalimat pendek. Untuk roda : mobil, gunakan “roda merupakan bagian dari mobil”."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "roda → mobil • merupakan bagian dari"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "mobil → roda • memiliki sebagai bagian"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika kedua kata bertukar posisi, perannya juga bertukar. Uji opsi dengan kata penghubung yang sama, dalam urutan yang sama."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada bentuk Sebagian Kosong, isi kedua rumpang terlebih dahulu. Tandai letaknya, lalu baca hasil pengisian sesuai urutan cetak. Kata yang sudah tercetak bisa berada di posisi pertama atau kedua."
             },
             {
               "jenis": "subjudul",
@@ -204,10 +148,6 @@
               "teks": "Baca pasangan acuan dan opsi dari kiri ke kanan. Jika kedua kata harus ditukar agar penghubungnya cocok, arah hubungan opsi berbeda."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Jika dua opsi terasa sama-sama cocok, uji penghubungnya dengan kalimat yang lebih spesifik. Misalnya, “berhubungan dengan pekerjaan” cocok untuk pilot : pesawat dan dokter : pasien. “Mengoperasikan” menjelaskan hubungan pilot dengan pesawat secara lebih tepat dan bisa diuji pada pasangan pembanding."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Cara mengerjakan empat pola Sebagian Kosong"
             },
@@ -216,16 +156,8 @@
               "teks": "Nomori rumpang dari kiri ke kanan. Kata pertama dari opsi masuk ke ①. Kata kedua masuk ke ②."
             },
             {
-              "jenis": "sorot",
-              "teks": "Opsi ① kata pertama : ② kata kedua"
-            },
-            {
               "jenis": "subjudul",
               "teks": "Pola 1 · … : A = B : …"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "① masuk sebelum A. ② masuk sesudah B."
             },
             {
               "jenis": "sorot",
@@ -240,16 +172,8 @@
               "teks": "[① Pedal] : Sepeda = Dahan : [② Pohon]"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pedal merupakan bagian dari sepeda. Dahan merupakan bagian dari pohon."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Pola 2 · … : A = … : B"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "① dan ② masuk sebelum kata yang tercetak."
             },
             {
               "jenis": "sorot",
@@ -264,16 +188,8 @@
               "teks": "[① Penggaris] : Mengukur = [② Sapu] : Menyapu"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Penggaris digunakan untuk mengukur. Sapu digunakan untuk menyapu."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Pola 3 · A : … = B : …"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "① dan ② masuk sesudah kata yang tercetak."
             },
             {
               "jenis": "sorot",
@@ -288,16 +204,8 @@
               "teks": "Koki : [① Masakan] = Penjahit : [② Pakaian]"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Koki menghasilkan masakan. Penjahit menghasilkan pakaian."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Pola 4 · A : … = … : B"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "① masuk sesudah A. ② masuk sebelum B."
             },
             {
               "jenis": "sorot",
@@ -310,14 +218,6 @@
             {
               "jenis": "sorot",
               "teks": "Mawar : [① Bunga] = [② Apel] : Buah"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Mawar termasuk jenis bunga. Apel termasuk jenis buah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Keempat pola hanya berbeda pada posisi rumpang. Langkahnya sama. Tempatkan kata pertama dari opsi pada ① dan kata kedua pada ②. Lalu cek apakah satu penghubung dapat dipakai pada kedua ruas dengan arah yang sama."
             }
           ]
         }
@@ -327,6 +227,16 @@
       "subbab": "Contoh Soal",
       "ikon": "checklist",
       "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Contoh Soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan jawaban sebelum membaca pembahasan. Setelah itu, bandingkan kalimat penghubung yang Anda gunakan dengan penghubung pada pembahasan."
+            }
+          ]
+        },
         {
           "tipe": "contoh_soal",
           "judul": "Soal 1",

@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Operasi hitung mencakup penjumlahan, pengurangan, perkalian, dan pembagian. Saat beberapa operasi muncul dalam satu soal, tentukan urutan pengerjaannya, lalu pilih bentuk bilangan yang memudahkan hitungan. Pecahan, desimal, dan persen dapat menyatakan nilai yang sama.",
-      "Biasakan membaca soal sampai selesai sebelum mulai menghitung. Tanda kurung mengelompokkan bagian yang harus diselesaikan lebih dahulu. Garis pecahan juga mengelompokkan hitungan di atas dan di bawahnya. Setelah mengenali kelompok tersebut, periksa apakah bentuk bilangannya bisa disederhanakan. Misalnya, bentuk persen memudahkan perbandingan per seratus, sedangkan bentuk pecahan membantu mempertahankan nilai yang tepat saat hitungan masih berlanjut."
+      "Operasi hitung mencakup penjumlahan, pengurangan, perkalian, dan pembagian. Saat beberapa operasi muncul dalam satu soal, tentukan urutan pengerjaannya, lalu pilih bentuk bilangan yang memudahkan hitungan. Pecahan, desimal, dan persen dapat menyatakan nilai yang sama."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -134,14 +133,6 @@
             {
               "jenis": "paragraf",
               "teks": "Urutan pengerjaan dari tingkatan tertinggi (yaitu 1). Jika setara, maka kerjakan dari kiri ke kanan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kerjakan operasi di dalam kurung terlebih dahulu, mulai dari kurung yang paling dalam. Di luar kurung, kerjakan akar dan pangkat, lalu perkalian atau pembagian, kemudian penjumlahan atau pengurangan. Operasi yang setingkat dikerjakan dari kiri ke kanan. Garis pecahan juga mengelompokkan seluruh pembilang dan seluruh penyebut."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh. Pada $24 ÷ 6 × 2$, pembagian dan perkalian setingkat. Hitung $24 ÷ 6$ terlebih dahulu, lalu kalikan hasil 4 dengan 2. Hasilnya 8. Pada $24 ÷ (6 × 2)$, kurung membuat perkalian dikerjakan lebih dahulu. Hasilnya 2."
             }
           ]
         }
@@ -188,10 +179,6 @@
               "teks": "$2 4/7 = ((2 × 7) + 4)/7 = (14 + 4)/7 = 18/7$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pembilang menunjukkan jumlah bagian yang diambil, sedangkan penyebut menunjukkan banyak bagian sama besar dalam satu utuh. Penyebut tidak boleh nol. Pecahan campuran terdiri dari bilangan bulat dan bagian pecahan. Pada $2 4/7$, dua bilangan utuh sama dengan 14 bagian berukuran sepertujuh. Tambahkan 4 bagian untuk mendapat $18/7$."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Mengubah pecahan biasa menjadi pecahan campuran"
             },
@@ -218,46 +205,12 @@
               "teks": "Langkah pembagian 18 oleh 7"
             },
             {
-              "jenis": "tabel",
-              "kolom": [
-                "Langkah",
-                "Yang dikerjakan",
-                "Yang ditulis"
-              ],
-              "baris": [
-                [
-                  "1",
-                  "Cari kelipatan 7 terbesar yang tidak melebihi 18.",
-                  "Tulis 2 di atas garis."
-                ],
-                [
-                  "2",
-                  "Kalikan hasil bagi dengan pembagi.",
-                  "$2 × 7 = 14$"
-                ],
-                [
-                  "3",
-                  "Kurangkan 14 dari 18.",
-                  "$18 - 14 = 4$"
-                ],
-                [
-                  "4",
-                  "Susun hasil sebagai pecahan campuran.",
-                  "2 di depan, 4 di atas garis, dan 7 di bawah garis."
-                ]
-              ]
-            },
-            {
               "jenis": "paragraf",
               "teks": "Maka"
             },
             {
               "jenis": "sorot",
               "teks": "$18/7 = 2 4/7$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk mengubah pecahan biasa menjadi pecahan campuran, bagi pembilang dengan penyebut. Pada 18 dibagi 7, hasil bagi 2 menjadi bagian bulat, sisa 4 menjadi pembilang baru, dan penyebut tetap 7. Cek dengan mengalikan hasil bagi dengan penyebut lalu menambahkan sisa."
             },
             {
               "jenis": "subjudul",
@@ -286,36 +239,6 @@
               "teks": "Langkah pembagian 23 oleh 4"
             },
             {
-              "jenis": "tabel",
-              "kolom": [
-                "Langkah",
-                "Yang dikerjakan",
-                "Yang ditulis"
-              ],
-              "baris": [
-                [
-                  "1",
-                  "Bagi 23 dengan 4. Kurangkan 20 dari 23.",
-                  "Tulis 5. Sisanya 3."
-                ],
-                [
-                  "2",
-                  "Tulis koma, lalu turunkan 0 agar sisa 3 menjadi 30.",
-                  "Tulis 7. Sisanya 2."
-                ],
-                [
-                  "3",
-                  "Turunkan 0 lagi agar sisa 2 menjadi 20.",
-                  "Tulis 5. Sisanya 0."
-                ],
-                [
-                  "4",
-                  "Berhenti saat sisanya 0.",
-                  "$23/4 = 5,75$"
-                ]
-              ]
-            },
-            {
               "jenis": "paragraf",
               "teks": "Maka"
             },
@@ -340,20 +263,12 @@
               "teks": "$0,17=17/100$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Untuk mengubah pecahan ke desimal, bagi pembilang dengan penyebut. Untuk mengubah desimal berhingga ke pecahan, gunakan nilai tempat angka terakhir. Pada 0,17, angka terakhir ada di tempat perseratus, sehingga nilainya $17/100$. Pada 0,375, angka terakhir ada di tempat perseribu, sehingga nilainya $375/1.000$ atau $3/8$."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Pembagian pecahan"
             },
             {
               "jenis": "sorot",
               "teks": "$a/b ÷ c/d = a/b × d/c$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk tambah atau kurang, samakan penyebut agar bagian yang dihitung seukuran. Untuk kali, kalikan pembilang dengan pembilang dan penyebut dengan penyebut. Untuk bagi, kalikan pecahan pertama dengan kebalikan pecahan kedua. Pecahan yang menjadi pembagi harus bernilai selain nol. Sederhanakan faktor bersama sebelum mengalikan jika memungkinkan."
             },
             {
               "jenis": "subjudul",
@@ -370,10 +285,6 @@
             {
               "jenis": "sorot",
               "teks": "$x/100 = x%$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Persen berarti per seratus. Untuk mencari persentase, tentukan dulu nilai yang dibandingkan dan nilai acuannya. Pada Soal 6, nilai yang dibandingkan adalah 32 dan acuannya 80. Rasio $32/80$ menyederhana menjadi $2/5$, yang sama dengan $40/100$ atau 40%. Jika kedua bilangan sudah berbentuk persen, faktor per seratus pada pembilang dan penyebut dapat dicoret. Pada Soal 7, rasio $80/50$ bernilai 1,6 atau 160%."
             }
           ]
         }
@@ -427,14 +338,6 @@
                   "$7/8=0,875=87,5%$"
                 ]
               ]
-            },
-            {
-              "jenis": "subjudul",
-              "teks": ""
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pecahan istimewa mempercepat konversi. Gunakan nilai eksak seperti $3/8 = 0,375$ dan $7/8 = 0,875$ saat hitungan masih berlanjut. Nilai 0,3333 untuk $1/3$ dn 0,1667 untuk $1/6$ sudah dibulatkan. Pertahankan pecahan aslinya sampai langkah akhir agar kesalahan pembulatan tidak terakumulasi."
             }
           ]
         }
@@ -479,14 +382,6 @@
             {
               "jenis": "paragraf",
               "teks": "$a × (b + c) = a × b + a × c$ atau $(b + c) × a = b × a + c × a$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Komutatif berarti urutan dua bilangan dapat ditukar pada penjumlahan dan perkalian. Asosiatif berarti cara mengelompokkan tiga bilangan dapat diubah pada kedua operasi tersebut. Pada pengurangan dan pembagian, pertukaran atau perubahan pengelompokan dapat mengubah hasil. Contohnya, $12 ÷ 3$ bernilai 4, sedangkan $3 ÷ 12$ bernilai seperempat."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sifat distributif bisa dipakai dari dua arah. Kalikan faktor dengan tiap suku dalam kurung, atau tarik faktor yang sama ke luar kurung agar tidak mengulang perhitungan."
             }
           ]
         }
@@ -565,14 +460,6 @@
               "teks": "$a^{-n} = 1/a^{n}$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Pangkat bulat positif menyatakan perkalian berulang. Untuk perkalian dengan bilangan pokok sama, jumlahkan pangkatnya. Pada pembagian dengan bilangan pokok sama yang bukan nol, kurangkan pangkatnya. Pangkat nol bernilai 1 jika bilangan pokoknya bukan nol. Pangkat negatif menyatakan kebalikan. Misalnya, $3^{-2}$ sama dengan $1/9$."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kurung menentukan apakah tanda negatif ikut dipangkatkan. Pada $(-3)^{2}$, bilangan yang dikuadratkan adalah −3 sehingga hasilnya 9. Pada $-3^{2}$, pangkat dikerjakan sebelum tanda negatif sehingga hasilnya −9. Akar kuadrat utama selalu tidak negatif. Misalnya, $√25$ bernilai 5. Akar dengan indeks ganjil dapat menerima bilangan negatif dalam bilangan real."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Akar sebagai kebalikan pangkat"
             },
@@ -629,20 +516,12 @@
               "teks": "$m√a - n√a = (m - n)√a$"
             },
             {
-              "jenis": "paragraf",
-              "teks": "Untuk menjumlahkan atau mengurangkan bentuk akar, samakan bentuk akar terlebih dahulu. Jika bagian di dalam akar sudah sama, gabungkan koefisiennya. Dalam perkalian akar kuadrat real, gunakan aturan penggabungan ketika kedua bilangan di bawah akar tidak negatif. Pada pembagian, akar di penyebut juga harus selain nol."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Rumus Aljabar yang Wajib dihafalkan"
             },
             {
               "jenis": "sorot",
               "teks": "$a^{2} - b^{2} = (a - b)(a + b)$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan selisih kuadrat ketika dua bilangan berada pada jarak yang sama dari titik tengah. Misalnya, 255 dan 245 masing-masing berjarak 5 dari 250. Hasil kalinya adalah $250^{2} - 5^{2}$."
             }
           ]
         }
@@ -677,6 +556,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Kerjakan bagian dalam kurung terlebih dahulu dan selesaikan hitungan di atas serta di bawah garis pecahan sebelum membaginya. Untuk operasi yang setingkat, kerjakan dari kiri ke kanan. Pilih bentuk bilangan yang memudahkan dan gunakan taksiran untuk memeriksa apakah hasilnya masuk akal. Sebelum menyamakan penyebut, periksa dulu operasi yang diminta. Penyebut perlu disamakan untuk menjumlahkan atau mengurangkan pecahan. Untuk membagi pecahan, balik pecahan pembaginya, lalu kalikan. Pertahankan nilai yang tepat sampai langkah terakhir, terutama jika pilihan jawaban berdekatan. Jika hasilnya terasa terlalu besar atau terlalu kecil, telusuri kembali urutan hitung atau cek dengan operasi balik. Misalnya, hasil pembagian dapat diperiksa dengan mengalikannya kembali dengan pembagi."
+    "pesan": "Kerjakan bagian dalam kurung terlebih dahulu dan selesaikan hitungan di atas serta di bawah garis pecahan sebelum membaginya. Untuk operasi yang setingkat, kerjakan dari kiri ke kanan. Pilih bentuk bilangan yang memudahkan dan gunakan taksiran untuk memeriksa apakah hasilnya masuk akal."
   }
 }

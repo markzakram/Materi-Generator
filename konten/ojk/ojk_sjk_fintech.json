@@ -36,6 +36,7 @@
   "pendahuluan": {
     "paragraf": [
       "Pemilik toko makanan membutuhkan Rp2 juta untuk membeli stok. Sebuah aplikasi menawarkan pencairan penuh dan pembayaran Rp2,12 juta setelah 30 hari. Sebelum memilih, ia perlu mengetahui siapa yang memberi dana, apa yang dilakukan platform, dan apakah kas tokonya cukup ketika tagihan jatuh tempo.",
+      "**Pengantar Bersama Sektor Jasa Keuangan**",
       "Dalam satu aplikasi, kamu bisa membayar belanja, memakai fasilitas bayar nanti, atau membeli aset. Tiap kegiatan bisa melibatkan penyedia dan ketentuan yang berbeda. Mulailah dari layanan yang dipakai, lalu cek siapa penyedianya dan lembaga mana yang berwenang."
     ],
     "pemantik": "",
@@ -150,7 +151,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Fintech (financial technology) adalah istilah payung untuk pemanfaatan teknologi dalam layanan keuangan. Cakupannya antara lain pembayaran digital, pinjaman daring, urun dana efek, dan perdagangan aset keuangan digital. Satu aplikasi dapat menampilkan beberapa layanan sekaligus. Untuk mengetahui siapa yang mengatur dan ketentuan apa yang berlaku, lihat aktivitas yang digunakan dan siapa penyedianya."
+              "teks": "Fintech (financial technology) adalah istilah payung untuk pemanfaatan teknologi dalam layanan keuangan. Cakupannya antara lain pembayaran digital, pinjaman daring, urun dana efek, dan perdagangan aset keuangan digital."
             },
             {
               "jenis": "tabel",
@@ -193,10 +194,6 @@
               ]
             },
             {
-              "jenis": "paragraf",
-              "teks": "POJK 17 Tahun 2025 memberi kerangka urun dana efek. POJK 27 Tahun 2024 sebagaimana diubah dengan POJK 23 Tahun 2025 mengatur perdagangan aset keuangan digital termasuk kripto. POJK 3 Tahun 2024 memberi kerangka ITSK."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Tiga Pihak dan Alur Pinjaman Daring"
             },
@@ -207,10 +204,6 @@
             {
               "jenis": "paragraf",
               "teks": "Dalam LPBBTI, pemberi dana menyediakan uang, penerima dana menggunakannya dan membayar sesuai perjanjian, sedangkan penyelenggara mengelola platform yang mempertemukan keduanya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "**Diagram Alur LPBBTI**"
             },
             {
               "jenis": "gambar",
@@ -225,10 +218,6 @@
             {
               "jenis": "subjudul",
               "teks": "Batas Manfaat Ekonomi Pendanaan"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Manfaat ekonomi mencakup komponen yang ditetapkan dalam SEOJK, termasuk bunga, margin atau bagi hasil, biaya administrasi atau komisi platform, dan biaya lain yang termasuk cakupan aturan. Denda keterlambatan memiliki ketentuan tersendiri."
             },
             {
               "jenis": "paragraf",
@@ -280,20 +269,12 @@
               "teks": "Untuk pendanaan konsumtif sejak 2026, salah satu ukuran yang digunakan penyelenggara adalah rasio pembayaran pokok dan manfaat ekonomi kepada seluruh kreditur terhadap penghasilan penerima dana. Batasnya 30%. Bandingkan pembayaran dan penghasilan pada periode yang sama."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Misalnya, total pembayaran kepada seluruh kreditur mencapai Rp1,6 juta per bulan dan penghasilan penerima dana Rp5 juta per bulan. Rasionya adalah Rp1,6 juta ÷ Rp5 juta × 100% = 32%, sehingga melampaui batas 30%. Pada pendanaan produktif, periksa juga kapan uang hasil usaha masuk dan apakah jumlahnya cukup saat pembayaran jatuh tempo."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Menangani Keterlambatan dan Gagal Bayar"
             },
             {
               "jenis": "paragraf",
               "teks": "Wanprestasi terjadi ketika salah satu pihak tidak memenuhi kewajiban dalam perjanjian. Dalam pendanaan, contohnya adalah penerima dana tidak membayar sesuai jumlah atau waktu yang disepakati. Ketika pembayaran terlambat, periksa tanggal jatuh tempo, jumlah yang masih terutang, dan ketentuan keterlambatan. Status pendanaan mengikuti kriteria yang berlaku."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika penerima dana memperkirakan akan kesulitan membayar, segera hubungi penyelenggara melalui kanal resmi. Minta rincian kewajiban dan tanyakan apakah ada opsi penanganan, seperti perubahan jadwal pembayaran. Jika ada kesepakatan baru, simpan konfirmasi tertulisnya agar jumlah dan tanggal pembayaran jelas."
             },
             {
               "jenis": "subjudul",
@@ -304,20 +285,12 @@
               "teks": "Penyelenggara LPBBTI bertindak sebagai perantara. Penyelenggara wajib menilai risiko pendanaan, memverifikasi identitas pengguna dan keaslian dokumen, serta melakukan penagihan sesuai ketentuan. Jika penagihan dilakukan oleh pihak ketiga, penyelenggara tetap bertanggung jawab atas dampak penagihan tersebut."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Penagihan harus ditujukan kepada penerima dana dan dilakukan tanpa ancaman, tekanan, atau tindakan yang mempermalukan. Kontak darurat hanya digunakan untuk mengonfirmasi keberadaan penerima dana. Secara umum, penagihan dilakukan pada Senin sampai Sabtu, di luar hari libur nasional, pukul 08.00–20.00 waktu setempat. Penagihan di luar tempat atau waktu yang ditentukan memerlukan persetujuan atau perjanjian terlebih dahulu dengan konsumen."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Melindungi Data dan Memahami Batas Perlindungan"
             },
             {
               "jenis": "paragraf",
               "teks": "Penyelenggara wajib menjaga kerahasiaan dan keamanan data pribadi yang dikelolanya. Sebelum memberi izin akses, periksa data yang diminta dan tujuan penggunaannya. Jika informasi utang disampaikan kepada pihak yang tidak berkepentingan atau penagihan dilakukan dengan ancaman, simpan bukti komunikasi dan ajukan pengaduan melalui kanal resmi penyelenggara. Catat nomor pengaduan untuk tindak lanjut."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Izin OJK menunjukkan status penyelenggara memiliki izin usaha yang relevan, tetapi tidak menjamin pendanaan bebas dari risiko gagal bayar ataupun seluruh kerugian pemberi dana akan diganti. Risiko gagal bayar tetap melekat pada pendanaan. Pemberi dana perlu membaca perjanjian untuk mengetahui apakah ada perlindungan tambahan, seperti asuransi atau penjaminan. Jika tersedia, periksa risiko yang ditanggung, pengecualian, batas pembayaran, dan prosedur klaim. Misalnya, jika perlindungan hanya mencakup sebagian pokok, pembayaran klaim mengikuti batas tersebut dan syarat yang berlaku."
             },
             {
               "jenis": "subjudul",
@@ -334,10 +307,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jika kas yang tersedia saat jatuh tempo Rp1,8 juta, toko kekurangan Rp320.000. Biaya yang berada di bawah batas dan kas yang cukup untuk membayar adalah dua pemeriksaan yang berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk menguji keputusan, tanyakan kapan penjualan dibayar. Penjualan yang belum dibayar pelanggan belum tersedia untuk melunasi tagihan. Jika kas masuk setelah jatuh tempo, pemilik perlu menyesuaikan rencana pendanaan atau mencari opsi yang lebih cocok."
             },
             {
               "jenis": "subjudul",
@@ -397,6 +366,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Fintech mencakup berbagai layanan, mulai dari pembayaran digital hingga pinjaman daring, urun dana efek, dan perdagangan aset keuangan digital. Satu aplikasi bisa menampilkan beberapa layanan sekaligus. Untuk memahami suatu kasus, kenali aktivitas yang digunakan, siapa penyedianya, dan otoritas yang berwenang atas aktivitas tersebut. Dalam pinjaman daring, pemberi dana menyediakan dana, penerima dana memenuhi kewajiban sesuai perjanjian, dan penyelenggara mempertemukan keduanya. Saat menilai biaya, gunakan jenis pendanaan, nilai yang tercantum dalam perjanjian, dan tenor sesuai periode aturan yang dirujuk. Setelah itu, periksa apakah penghasilan atau kas yang tersedia cukup saat pembayaran jatuh tempo. Izin penyelenggara membantu kamu memeriksa status platform. Risiko gagal bayar tetap perlu dinilai dari kondisi penerima dana dan ketentuan perjanjiannya. Jika ada perlindungan tambahan, baca risiko yang dicakup, batas pembayaran, dan syarat klaim. Jika muncul masalah terkait layanan atau penagihan, simpan bukti dan gunakan kanal resmi penyelenggara."
+    "pesan": "Fintech mencakup berbagai layanan, mulai dari pembayaran digital hingga pinjaman daring, urun dana efek, dan perdagangan aset keuangan digital. Satu aplikasi bisa menampilkan beberapa layanan sekaligus. Untuk memahami suatu kasus, kenali aktivitas yang digunakan, siapa penyedianya, dan otoritas yang berwenang atas aktivitas tersebut."
   }
 }

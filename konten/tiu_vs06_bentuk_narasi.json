@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Silogisme bentuk narasi menyajikan premis dalam bacaan. Cara menarik kesimpulannya tetap menggunakan materi dua premis dan tiga premis. Tantangannya adalah menemukan inti pernyataan dan hubungan di balik kalimat yang panjang.",
-      "Karena itu, jangan langsung mencari rumus dari kata yang muncul paling awal. Pahami dahulu apa yang dinyatakan, apa yang dihubungkan, dan informasi apa yang sudah pasti. Setelah narasi disederhanakan, pola penalarannya biasanya lebih mudah dikenali."
+      "Silogisme bentuk narasi menyajikan premis dalam bacaan. Cara menarik kesimpulannya tetap menggunakan materi dua premis dan tiga premis. Tantangannya adalah menemukan inti pernyataan dan hubungan di balik kalimat yang panjang."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -58,11 +57,6 @@
         "level": "",
         "kko": "Setelah",
         "teks": "mempelajari bab ini, Anda dapat mengenali premis narasi, mengubahnya menjadi premis sederhana tanpa mengubah makna, serta menarik kesimpulan dengan pola dua atau tiga premis."
-      },
-      {
-        "level": "",
-        "kko": "Anda",
-        "teks": "juga dapat membedakan aturan jika–maka dari fakta yang hanya memuat satu pernyataan, mengenali bentuk kalimat yang setara, dan memeriksa apakah pilihan jawaban benar-benar didukung oleh bacaan."
       }
     ]
   },
@@ -110,10 +104,6 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Cocokkan fakta dengan bagian aturan yang tepat. Pada Modus Ponens, fakta memastikan bagian “jika”. Pada Modus Tollens, fakta menyangkal bagian “maka”. Pada Silogisme, dua aturan disambungkan melalui pernyataan yang sama. Pada Silogisme Disjungtif, satu pilihan yang gugur membuat pilihan lainnya harus berlaku."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Tidak dapat disimpulkan (TDS) digunakan ketika pernyataan yang ditanyakan belum bisa dipastikan benar atau salah. Mengetahui bagian “maka” terjadi tidak otomatis membuktikan bagian “jika”; mengetahui bagian “jika” tidak terjadi juga tidak otomatis menyangkal bagian “maka”."
             }
           ]
@@ -136,14 +126,6 @@
                   "$p→q≡¬p∨q≡¬q→¬p$"
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Misalnya, “Jika berkas lengkap, maka berkas diperiksa” dapat ditulis sebagai “Berkas tidak lengkap atau berkas diperiksa”. Bentuk kontraposisinya adalah “Jika berkas tidak diperiksa, maka berkas tidak lengkap”. Bentuk-bentuk ini menyatakan aturan yang sama; tidak ada fakta baru yang ditambahkan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan review ini untuk mengenali kesetaraan makna. Saat menyederhanakan narasi, pertahankan dahulu hubungan aslinya: aturan tetap ditulis sebagai jika–maka, sedangkan pilihan tetap sebagai “atau”. Jika pola langsung sudah dapat digunakan, penarikan kesimpulan tidak perlu dipanjangkan dengan pengubahan bentuk."
             }
           ]
         },
@@ -160,14 +142,6 @@
               "file": "media/tiu_vs06_bentuk_narasi/gambar-01.png",
               "lebar": 6.25,
               "tinggi": 1.5
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada gambar, Premis I, II, III, dan IV berarti Premis 1, 2, 3, dan 4. Tanda tambah berarti kedua premis digunakan bersama, bukan dijumlahkan. Pilih satu jalur yang cocok; ketiganya bukan tiga langkah yang harus dikerjakan berurutan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pasangan awal tidak selalu Premis 1 dan Premis 2. Jika Premis 3 berisi fakta yang cocok dengan aturan pada Premis 1, gunakan pasangan itu lebih dahulu. Premis 4 harus benar-benar mengikuti dua premis yang dipakai, bukan hasil dugaan. Jika belum ada pasangan yang menghasilkan kesimpulan, periksa kembali makna dan arah hubungan sebelum menyatakan TDS."
             }
           ]
         }
@@ -187,15 +161,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Satu paragraf dapat memuat dua atau tiga premis. Panjang kalimat tidak menentukan banyaknya variabel. Kalimat yang panjang bisa saja hanya menyampaikan satu fakta, sedangkan kalimat lain menghubungkan dua keadaan. Nomori premis mengikuti urutan informasi dalam bacaan agar pembahasannya mudah dilacak."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Ada tiga bentuk informasi yang perlu dikenali: aturan yang menghubungkan dua keadaan, fakta yang menyatakan satu keadaan, dan pilihan “atau” yang menyatakan setidaknya satu dari dua keadaan berlaku."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Misalnya, “Berkas Dina yang lengkap masuk daftar pemeriksaan” menyampaikan aturan. “Hasil pemeriksaan petugas menunjukkan bahwa berkas Dina lengkap” menyampaikan satu fakta. “Dina menyerahkan berkas langsung atau mengirimkannya melalui layanan daring” menyampaikan pilihan “atau”. Ketiganya tidak boleh diperlakukan sebagai bentuk premis yang sama."
             }
           ]
         }
@@ -212,10 +178,6 @@
             {
               "jenis": "paragraf",
               "teks": "Untuk membaca aturan dalam narasi, tanyakan: keadaan apa yang membuat ketentuan lain berlaku? Tulis keadaan itu pada bagian “jika”, lalu tulis ketentuan yang mengikutinya pada bagian “maka”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Istilah sebab–akibat membantu menemukan arah hubungan. Dalam soal, hubungan ini tidak selalu berupa penyebab fisik seperti hujan membuat jalan basah. Hubungannya bisa berupa aturan, hak, status, atau kewajiban. Yang diikuti adalah hubungan yang dinyatakan bacaan, bukan dugaan berdasarkan pengalaman sehari-hari."
             }
           ]
         },
@@ -233,19 +195,11 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Keadaan awalnya adalah kartu aktif. Ketentuan yang berlaku setelah keadaan itu terpenuhi adalah hak memesan ruang. Kata “berhak” harus dipertahankan: memiliki hak belum berarti sudah melakukan pemesanan. Begitu pula, “wajib membawa” berbeda dari “sudah membawa”, dan “diajukan” berbeda dari “disetujui”."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Narasi: “Hak memesan ruang melekat pada pemegang kartu yang sudah aktif.”"
             },
             {
               "jenis": "paragraf",
               "teks": "Premis sederhana: “Jika kartu pemegang sudah aktif, maka pemegang kartu berhak memesan ruang.”"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada narasi kedua, hak disebut lebih dahulu. Namun, arah jika–makanya tetap sama. Jadi, letak suatu frasa di awal kalimat tidak otomatis menjadikannya bagian “jika”. Cari terlebih dahulu keadaan yang menjadi dasar berlakunya ketentuan."
             }
           ]
         },
@@ -256,10 +210,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jangan membalik arah aturan. Dari “Jika kartu aktif, maka pemegang berhak memesan ruang”, fakta bahwa pemegang berhak memesan ruang belum memastikan kartunya aktif. Narasi mungkin tidak menjelaskan semua cara memperoleh hak tersebut."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Frasa “dengan persetujuan”, “yang dinyatakan lengkap”, dan “tercakup dalam daftar” perlu dibaca sebagai satu hubungan utuh. Pastikan pula kata “tersebut”, “miliknya”, atau “kegiatan yang sama” merujuk pada orang, benda, dan konteks yang sama. Kesamaan satu kata belum cukup untuk menyambungkan premis."
             }
           ]
         }
@@ -276,10 +226,6 @@
             {
               "jenis": "paragraf",
               "teks": "Menyederhanakan premis berarti menuliskan kembali inti informasi dengan kalimat yang lebih singkat, tetapi maknanya tetap sama. Pertahankan siapa atau apa yang dibahas, hubungan antarkeadaan, serta kata seperti “tidak”, “berhak”, dan “memerlukan”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kedua cara berikut berbeda pada titik awal membacanya. Cara pertama dimulai dari aturan yang menghubungkan dua keadaan. Cara kedua dimulai dari fakta yang hanya menyatakan satu keadaan. Setelah titik awal ditemukan, semua premis tetap harus dibaca."
             }
           ]
         },
@@ -300,16 +246,8 @@
               "teks": "Dimas dengan kartu keanggotaan peminjaman alat yang **tidak memerlukan pembaruan data** tercakup dalam pemilik **hak mengajukan peminjaman melalui layanan daring**. Kartu keanggotaan peminjaman alat milik Dimas pada pengajuan yang sedang ditinjau **tidak memerlukan pembaruan data** dalam layanan tersebut."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Bagian yang dicetak tebal menunjukkan informasi yang harus dibawa ke premis sederhana. Kalimat pertama memberi aturan tentang hak Dimas. Kalimat kedua memberitahukan keadaan kartu Dimas pada pengajuan yang sedang dibahas."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Langkah 1. Temukan keadaan dan ketentuan yang mengikutinya"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tanyakan: “Dimas memiliki hak itu ketika keadaan kartunya bagaimana?” Jawabannya: kartu tidak memerlukan pembaruan data. Inilah bagian “jika”. Lalu tanyakan: “Dalam keadaan itu, hak apa yang dimiliki Dimas?” Jawabannya: hak mengajukan peminjaman melalui layanan daring. Inilah bagian “maka”."
             },
             {
               "jenis": "tabel",
@@ -332,16 +270,8 @@
               ]
             },
             {
-              "jenis": "paragraf",
-              "teks": "Kata “dengan” membatasi keadaan kartu yang dibahas. Frasa “tercakup dalam pemilik hak” menyatakan bahwa Dimas termasuk orang yang mempunyai hak tersebut. Karena itu, hubungan ini dapat ditulis sebagai jika–maka, meskipun narasinya tidak memakai kedua kata itu."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Langkah 2. Pisahkan aturan dari fakta"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kalimat pertama belum menyatakan bahwa kartu Dimas pada pengajuan ini memenuhi keadaan tersebut; kalimat itu menjelaskan ketentuannya. Kalimat kedua memastikan bahwa kartu Dimas memang tidak memerlukan pembaruan data. Jadi, kalimat kedua cukup ditulis sebagai fakta, tanpa menambahkan jika–maka."
             },
             {
               "jenis": "subjudul",
@@ -358,10 +288,6 @@
             {
               "jenis": "subjudul",
               "teks": "Langkah 3. Periksa kembali maknanya"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Frasa “pada pengajuan yang sedang ditinjau” dan “dalam layanan tersebut” menjelaskan konteks yang sama. Pengulangannya dapat diringkas setelah rujukannya dipastikan. Namun, kata “tidak” dan “berhak” wajib dipertahankan. Mengganti “berhak mengajukan” menjadi “sudah mengajukan” akan menambahkan informasi yang tidak diberikan."
             },
             {
               "jenis": "paragraf",
@@ -402,10 +328,6 @@
               "teks": "Gunakan cara ini ketika salah satu kalimat memberi fakta yang jelas, sedangkan aturan lainnya panjang. Mulailah dari fakta tersebut, lalu cari hubungan yang memuat fakta yang sama atau kebalikannya."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Satu variabel berarti satu huruf yang mewakili satu pernyataan lengkap. Contohnya, “rekaman Manda memerlukan penyuntingan ulang” dapat diwakili oleh satu huruf. Yang dihitung adalah banyaknya pernyataan inti, bukan banyaknya kata. Kalimat panjang tentang hasil pemeriksaan dapat saja hanya memberi satu fakta."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Narasi asli"
             },
@@ -419,27 +341,11 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Mulailah dari kalimat ketiga: “Hasil pemeriksaan … menyatakan rekaman tersebut memerlukan penyuntingan ulang ….” Kalimat ini hanya memberitahukan keadaan rekaman Manda. Tidak ada dua keadaan yang sedang dihubungkan sebagai aturan jika–maka."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Fakta yang ditemukan: rekaman Manda **memerlukan penyuntingan ulang**."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kata “hasil pemeriksaan” menjelaskan dari mana informasi diperoleh. Untuk penalaran ini, yang dipakai adalah isi hasil pemeriksaannya. Sementara itu, “untuk publikasi yang sama” memastikan bahwa fakta tersebut membahas rekaman dan publikasi yang sama dengan dua kalimat sebelumnya."
             },
             {
               "jenis": "subjudul",
               "teks": "Langkah 2. Cari fakta itu atau kebalikannya pada aturan lain"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada kalimat pertama, terdapat frasa “berada di luar kelompok rekaman yang memerlukan penyuntingan ulang”. Artinya, rekaman tidak memerlukan penyuntingan ulang. Frasa tersebut berkaitan langsung dengan fakta pada kalimat ketiga, tetapi menyatakan keadaan yang berlawanan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kalimat pertama menghubungkan persetujuan publikasi dengan tidak perlunya penyuntingan ulang. Kalimat kedua menghubungkan tidak adanya persetujuan publikasi dengan masuknya rekaman ke daftar peninjauan lanjutan. Jangan menghilangkan arti “di luar” dan “tanpa”: keduanya membawa makna negatif."
             },
             {
               "jenis": "tabel",
@@ -540,15 +446,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Premis 3 menyatakan bahwa penyuntingan ulang diperlukan. Fakta ini menyangkal bagian “maka” pada Premis 1, yaitu penyuntingan ulang tidak diperlukan. Dengan Modus Tollens, diperoleh Premis 4: rekaman Manda tidak memperoleh persetujuan publikasi."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Premis 4 lalu memenuhi bagian “jika” pada Premis 2. Dengan Modus Ponens, kesimpulannya: rekaman Manda masuk daftar peninjauan lanjutan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Meskipun kita mulai membaca dari kalimat ketiga, nomor premis tetap mengikuti urutan narasi. Titik awal membaca boleh berbeda dari urutan penulisan premis. Jika narasi tidak memiliki fakta satu variabel, jangan mengada-adakannya; gunakan cara pertama untuk mencari aturan yang dapat dihubungkan."
             },
             {
               "jenis": "subjudul",
@@ -567,10 +465,6 @@
             {
               "jenis": "paragraf",
               "teks": "Kalimat “Lala mengikuti kelas fotografi atau tidak menggunakan tripod” harus tetap menyatakan dua pilihan tersebut. Jika fakta menyatakan Lala tidak mengikuti kelas fotografi, pilihan yang tersisa adalah Lala tidak menggunakan tripod."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kata “atau” berarti setidaknya satu pilihan berlaku, kecuali soal secara tegas membatasinya menjadi tepat satu. Karena itu, satu pilihan yang benar tidak otomatis membuat pilihan lain salah. Sebaliknya, satu pilihan yang salah membuat pilihan lainnya harus benar. Pertahankan pula lingkup negasi: “tidak wajib membawa tripod” tidak sama dengan “tidak membawa tripod”."
             }
           ]
         }
@@ -590,15 +484,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Gunakan kata kunci yang cukup lengkap. “Kartu aktif” lebih membantu daripada “kartu” saja. Saat memberi huruf, tulis arti lengkapnya terlebih dahulu. Dua kalimat dapat menggunakan kata berbeda tetapi menyatakan status yang sama; dua kalimat dengan kata yang mirip juga dapat membahas status yang berbeda."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pertahankan arah jika–maka, kata “tidak”, dan perbedaan antara hak, kewajiban, status, serta tindakan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Coret hanya pengulangan yang benar-benar tidak mengubah makna. Nama kegiatan, waktu, atau dokumen dapat diringkas setelah dipastikan sama. Jangan mencampurkan persetujuan untuk satu kegiatan dengan persetujuan untuk kegiatan lain."
             },
             {
               "jenis": "paragraf",
@@ -606,19 +492,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Memulai dari Premis 1 dan Premis 3 diperbolehkan. Yang penting adalah kesesuaian pernyataannya, bukan urutan nomor. Tuliskan hasil setiap tahap agar jelas premis mana yang mendukung kesimpulan berikutnya."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Periksa kelima opsi terhadap hasil penalaran. Bedakan opsi yang pasti benar, bertentangan, dan belum dapat dipastikan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Opsi dengan kata “dan” harus benar pada kedua bagiannya. Opsi yang menambah tindakan baru belum tentu benar walaupun terdengar wajar. Jika yang diketahui hanya hak mengajukan peminjaman, jangan memilih opsi bahwa pengajuan sudah dikirim. Untuk TDS, periksa apakah pernyataan yang ditanyakan masih dapat benar atau salah ketika semua premis dipenuhi."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Tulis jawaban dengan bahasa pada soal. Simpulan harus mempertahankan siapa atau apa yang dibahas serta statusnya. Pada pembahasan berikut, urutan penalarannya adalah premis kalimat, pemisalan variabel, premis simbolik, hukum yang digunakan, kesimpulan, jawaban kalimat, dan analisis setiap opsi."
             }
           ]
         }
@@ -649,6 +523,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Temukan pernyataan utuh di balik narasi, pilih pola yang sesuai, lalu uji setiap opsi. Kesimpulan yang pasti harus berlaku setiap kali seluruh premis benar. Jika dua opsi terlihat mirip, baca kembali kata yang menentukan arah dan maknanya. Satu kata seperti “berhak”, “telah”, atau “tidak” dapat membuat dua pernyataan membutuhkan bukti yang berbeda."
+    "pesan": "Temukan pernyataan utuh di balik narasi, pilih pola yang sesuai, lalu uji setiap opsi. Kesimpulan yang pasti harus berlaku setiap kali seluruh premis benar."
   }
 }

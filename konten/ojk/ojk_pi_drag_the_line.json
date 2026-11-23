@@ -4,6 +4,7 @@
     "subtes": "Tes Kemampuan Umum",
     "nama_file": "OJK TKU - Drag the Line",
     "sumber": "https://docs.google.com/document/d/1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr/edit",
+    "lewati_kosong": true,
     "id_katalog": "pi-02"
   },
   "peta_subtes": {
@@ -35,39 +36,14 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Pada soal Drag the Line, kita melihat sejumlah lingkaran yang berisi karakter. Beberapa lingkaran sudah dihubungkan oleh garis. Tugas kita adalah menemukan aturan urutannya, lalu menyambungkan ujung garis ke lingkaran yang seharusnya menjadi kelanjutan.",
-      "Bacalah contoh di atas dari A1 menuju B2, lalu C3. Hurufnya maju A, B, C. Angkanya naik 1, 2, 3. Jika kedua perubahan diteruskan satu tahap, simpul berikutnya adalah D4. Jawaban diperoleh dari isi lingkaran, bukan dari letaknya di atas atau di bawah layar.",
-      "Drag the Line menguji kemampuan menyimpulkan aturan dari hubungan antarsimpul. Kita perlu membaca urutan yang sudah terbentuk, memisahkan unsur karakter, menguji perubahan, dan memilih simpul berikutnya secara lengkap.",
-      "Kita mulai dari cara membaca simpul dan garis, lalu berlatih dengan huruf–angka, X dan O, empat karakter, serta angka dan simbol. Contoh disusun dari satu aturan sederhana hingga beberapa perubahan yang bekerja bersama. Kedua unsur utama latihan ini adalah menemukan pola dan menerapkannya pada ujung garis."
+      "Pada soal Drag the Line, kita melihat sejumlah lingkaran yang berisi karakter. Beberapa lingkaran sudah dihubungkan oleh garis. Tugas kita adalah menemukan aturan urutannya, lalu menyambungkan ujung garis ke lingkaran yang seharusnya menjadi kelanjutan."
     ],
     "pemantik": "",
-    "ikon": "presenter",
-    "gambar": "media/ojk_pi_drag_the_line/gambar-01.png"
+    "ikon": "presenter"
   },
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
-    "butir": [
-      {
-        "level": "",
-        "kko": "Membaca",
-        "teks": "simpul, hubungan garis, dan ujung urutan dengan benar."
-      },
-      {
-        "level": "",
-        "kko": "Mengenali",
-        "teks": "perubahan nilai, posisi, jenis, dan bentuk karakter."
-      },
-      {
-        "level": "",
-        "kko": "Menguji",
-        "teks": "aturan pada semua hubungan yang tersedia."
-      },
-      {
-        "level": "",
-        "kko": "Menentukan",
-        "teks": "simpul berikutnya dan memeriksa kembali hasil sambungan."
-      }
-    ]
+    "butir": []
   },
   "materi": [
     {
@@ -79,31 +55,8 @@
           "judul": "Mengenali tampilan soal",
           "blok": [
             {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-02.png",
-              "lebar": 5.6,
-              "tinggi": 3.46,
-              "keterangan": "Gambar 1. Ilustrasi dua karakter dari riset internal JadiOJK. Lingkaran disebut simpul. Garis menunjukkan urutan simpul."
-            },
-            {
               "jenis": "paragraf",
               "teks": "Simpul adalah lingkaran yang memuat suatu label, misalnya L8 atau J7. Karakter adalah unsur pembentuk label. L8 terdiri atas dua karakter: huruf L dan angka 8. Satu simpul harus dibaca utuh; kecocokan huruf saja belum cukup jika angkanya berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Garis yang sudah terpasang menunjukkan hubungan yang perlu dipelajari. Pada gambar sumber, beberapa simpul berwarna hijau dan beberapa masih putih. Garis putus-putus menunjukkan arah seretan yang ditampilkan. Untuk mengerjakan tes, ikuti petunjuk antarmuka dan perhatikan ujung garis yang sedang aktif."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Letak simpul dapat tersebar. Simpul di sebelah kiri belum tentu lebih awal, dan simpul terdekat belum tentu jawaban. Urutan penalaran ditentukan oleh hubungan yang sudah terbentuk. Jangan menyusun semua label berdasarkan posisi di layar."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Empat bentuk yang akan dipelajari"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Empat bentuk latihan di sini berasal dari pemetaan internal JadiOJK. Bentuknya mencakup huruf–angka, susunan X dan O, empat karakter, serta angka dan simbol. Keempatnya memakai cara kerja yang sama: baca urutan, uji perubahan, lalu sambungkan simpul berikutnya."
             }
           ]
         }
@@ -119,50 +72,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Sebelum menghitung pola, ubah jalur garis menjadi urutan label. Jika arah atau titik awal ditandai, gunakan penanda itu. Jika jalurnya belum jelas, telusuri garis dari ujung yang sesuai petunjuk. Garis yang bersilangan tidak otomatis membuat simpul baru pada titik perpotongannya."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-03.png",
-              "lebar": 6.0,
-              "tinggi": 1.04
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pada contoh pembelajaran ini, urutan dinyatakan mulai dari A2 menuju B3 lalu C4. C4 adalah simpul terakhir yang sudah terhubung. Maka, perubahan berikutnya diterapkan dari C4. Kita tidak kembali memulai dari A2 setiap kali membuat sambungan baru."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Cara mencatatnya cukup sederhana: A2 → B3 → C4. Tanda panah dalam materi menunjukkan urutan baca. Pada tampilan tes, garis penghubung dapat terlihat tanpa kepala panah; gunakan titik awal, ujung aktif, dan petunjuk interaksi yang tersedia untuk memastikan arahnya."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Yang dilihat",
-                "Yang perlu dipastikan"
-              ],
-              "baris": [
-                [
-                  "Label simpul",
-                  "Baca semua karakter sesuai urutannya."
-                ],
-                [
-                  "Garis yang sudah terhubung",
-                  "Telusuri hubungan, bukan posisi layar."
-                ],
-                [
-                  "Penanda awal atau ujung aktif",
-                  "Pastikan arah urutan sebelum mencari pola."
-                ],
-                [
-                  "Simpul yang belum dipakai",
-                  "Cocokkan label lengkap dengan prediksi."
-                ]
-              ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Latihan awal: tutup pilihan jawaban dan tuliskan dahulu urutan yang sudah pasti. Kebiasaan ini mengurangi kemungkinan kita tertarik pada sebuah pilihan, lalu memaksakan aturan agar cocok dengan pilihan tersebut."
             }
           ]
         }
@@ -178,33 +88,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Angka memberi informasi nilai yang dapat dibandingkan. Mulailah dari perubahan paling sederhana: bertambah atau berkurang dengan selisih yang sama. Selisih diperoleh dengan mengurangkan nilai sebelumnya dari nilai sesudahnya."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-04.png",
-              "lebar": 6.0,
-              "tinggi": 1.04
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pada urutan A2 → A4 → A6 → A8, huruf A tidak berubah. Angkanya 2, 4, 6, 8, sehingga setiap tahap bertambah dua. Sesudah A8, simpul yang diprediksi adalah A10 jika label semacam itu tersedia. Jangan memecah 10 menjadi dua nilai terpisah bila petunjuk soal memperlakukannya sebagai satu bilangan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk penurunan, gunakan cara yang sama. B9 → B7 → B5 menunjukkan pengurangan dua, sehingga berikutnya B3. Tanda minus hanya alat mencatat arah perubahan; kita tetap memilih label yang benar-benar tersedia pada soal."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Membedakan nilai dan jumlah digit"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Angka 8 dan angka 10 memiliki jumlah digit berbeda, tetapi keduanya tetap dapat menyatakan nilai bilangan. Sebaliknya, pada pola susunan karakter, setiap tempat bisa diperlakukan sebagai posisi tersendiri. Tentukan cara membacanya dari bentuk label dan hubungan yang diberikan; jangan mengubah cara baca di tengah urutan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Hitung sekurang-kurangnya dua selisih jika datanya memungkinkan. Dari 2 ke 4 saja, kita baru melihat kenaikan dua. Kehadiran 6 dan 8 memperkuat dugaan bahwa kenaikan itu tetap. Aturan harus menjelaskan seluruh hubungan, bukan hanya pasangan terakhir."
             }
           ]
         }
@@ -220,50 +104,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Huruf dapat diperlakukan sebagai urutan alfabet. Untuk pola maju satu, A diikuti B, B diikuti C, dan seterusnya. Untuk pola mundur satu, D diikuti C. Sebelum mencari langkah yang lebih besar, pastikan urutan alfabet yang digunakan sudah terbaca benar."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-05.png",
-              "lebar": 6.0,
-              "tinggi": 1.04
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pada B1 → D1 → F1 → H1, angka 1 tetap. Huruf maju dua posisi setiap tahap: B ke C lalu D; D ke E lalu F; F ke G lalu H. Jadi, setelah H1 kita memprediksi J1. Maju dua berarti melakukan dua perpindahan alfabet, bukan melewati dua huruf di antaranya."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Pola huruf",
-                "Cara membacanya"
-              ],
-              "baris": [
-                [
-                  "A → B → C → D",
-                  "Maju satu posisi setiap tahap."
-                ],
-                [
-                  "B → D → F → H",
-                  "Maju dua posisi setiap tahap."
-                ],
-                [
-                  "H → F → D → B",
-                  "Mundur dua posisi setiap tahap."
-                ],
-                [
-                  "A → A → A → A",
-                  "Huruf tetap; periksa unsur lain."
-                ]
-              ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika perlu, tulis bagian alfabet yang relevan: A B C D E F G H I J. Catatan singkat lebih aman daripada menghitung sambil menebak. Untuk latihan yang memakai urutan panjang, posisi A = 1, B = 2, dan seterusnya dapat membantu menghitung selisih."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan otomatis menganggap setelah Z selalu kembali ke A. Pengulangan alfabet hanya dipakai jika ditentukan oleh petunjuk atau didukung rangkaian. Materi ini menggunakan contoh yang tidak membutuhkan asumsi melewati batas alfabet."
             }
           ]
         }
@@ -279,46 +120,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Setelah dapat membaca angka dan huruf secara terpisah, kita menggabungkannya pada satu simpul. Buat dua catatan sejajar: satu untuk huruf dan satu untuk angka. Keduanya boleh mengikuti aturan berbeda."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-06.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Huruf B, D, F, H maju dua posisi. Angka 2, 3, 4, 5 naik satu. Dari H5, huruf berikutnya J dan angka berikutnya 6. Gabungannya J6. Pilihan J5 salah karena angka tidak diteruskan; H6 salah karena huruf tidak diteruskan."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Unsur",
-                "Catatan perubahan"
-              ],
-              "baris": [
-                [
-                  "Huruf",
-                  "B → D → F → H → J; maju dua."
-                ],
-                [
-                  "Angka",
-                  "2 → 3 → 4 → 5 → 6; naik satu."
-                ],
-                [
-                  "Label lengkap",
-                  "B2 → D3 → F4 → H5 → J6."
-                ]
-              ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Urutan pemeriksaan membantu kita menahan dugaan yang belum lengkap. Temukan huruf yang dibutuhkan terlebih dahulu, lalu angka. Setelah keduanya pasti, cari label yang cocok. Jangan memilih simpul hanya karena salah satu unsurnya terlihat benar."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Ada pula gabungan arah yang berlawanan. Misalnya, H2 → G3 → F4 menghasilkan E5. Huruf mundur satu sementara angka naik satu. Kita tidak perlu memaksa semua karakter bergerak dengan arah atau kecepatan yang sama."
             }
           ]
         }
@@ -334,75 +136,11 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Sejauh ini, huruf selalu berada di depan angka. Pada sebagian pola latihan, susunan itu dapat berganti. Karena itu, ada dua hal yang berbeda untuk diperiksa: karakter apa yang digunakan dan di tempat mana karakter tersebut ditulis."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-07.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pisahkan isi label: hurufnya A, B, C, D; angkanya 1, 2, 3, 4. Keduanya maju satu. Sekarang baca formatnya: huruf–angka, angka–huruf, huruf–angka, angka–huruf. Posisi kedua jenis karakter bergantian."
             },
             {
               "jenis": "paragraf",
               "teks": "Simpul berikutnya memakai huruf E dan angka 5. Karena langkah kelima kembali memakai format huruf–angka, hasilnya E5. Label 5E memuat nilai yang benar, tetapi formatnya salah. Label E4 memakai format benar, tetapi angkanya tertinggal satu tahap."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Cara membuat catatan yang tidak tertukar"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Catat dalam tiga baris: huruf A, B, C, D; angka 1, 2, 3, 4; format huruf–angka, angka–huruf, huruf–angka, angka–huruf."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perubahan posisi tidak selalu disertai perubahan nilai. A1 → 1A → A1 → 1A hanya menukar susunan dua karakter yang sama. Pada pola A1 → 2B → C3 → 4D, nilai dan posisi sama-sama berubah. Uji kedua aspek agar tidak menyamakan dua pola yang berbeda."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subbab": "Membaca pola yang bergantian",
-      "ikon": "globe",
-      "slide": [
-        {
-          "tipe": "blok",
-          "judul": "Membaca pola yang bergantian",
-          "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Ada urutan yang tidak mengubah semua unsur pada setiap tahap. Misalnya, pada tahap pertama huruf berubah, lalu pada tahap kedua angka berubah. Perubahan ini bergantian secara teratur."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-08.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dari A1 ke B1, hanya huruf maju satu. Dari B1 ke B2, hanya angka naik satu. Berikutnya B2 ke C2 mengubah huruf, lalu C2 ke C3 mengubah angka. Jadi, perpindahan berikutnya mengubah huruf C menjadi D, sementara angka 3 tetap. Hasilnya D3."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perhatikan perbedaannya dengan A1 → B2 → C3. Pada pola itu huruf dan angka berubah bersama setiap tahap. Pada pola bergantian, urutan tindakanlah yang berulang: huruf, angka, huruf, angka. Memilih D4 dari C3 akan menjalankan dua tindakan sekaligus dan melewati satu simpul."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Memisahkan langkah ganjil dan genap"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika urutan panjang terasa membingungkan, nomorilah simpul sesuai jalur. Kemudian periksa simpul ke-1, ke-3, ke-5 dan simpul ke-2, ke-4, ke-6 secara terpisah. Cara ini berguna bila ada dua deret yang diselingkan, tetapi tidak harus diterapkan pada semua soal."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh tadi, simpul ganjil A1, B2, C3 membentuk deret sendiri. Simpul genap B1, C2, D3 juga membentuk deret. Kedua cara membaca menghasilkan kelanjutan sama. Gunakan cara yang paling mudah diuji, lalu pastikan sambungan berikutnya tetap dimulai dari ujung aktif."
             }
           ]
         }
@@ -410,40 +148,15 @@
     },
     {
       "subbab": "Membaca susunan X dan O",
-      "ikon": "strategi",
+      "ikon": "globe",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Membaca susunan X dan O",
           "blok": [
             {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-09.png",
-              "lebar": 5.5,
-              "tinggi": 3.39,
-              "keterangan": "Gambar 2. Ilustrasi tiga karakter dari riset internal JadiOJK. Salin label dengan teliti sebelum menilai perubahan susunannya."
-            },
-            {
               "jenis": "paragraf",
               "teks": "Pada label tiga karakter, posisi pertama, kedua, dan ketiga dibaca dari kiri ke kanan. XOO berarti X di posisi pertama, O di posisi kedua, dan O di posisi ketiga. OXO memakai karakter dengan jumlah sama, tetapi posisi X berbeda."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-10.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh pembelajaran di atas, satu X berpindah dari posisi 1 ke 2 lalu ke 3. Dua tempat lain tetap berisi O. Dengan membaca berdasarkan posisi, kita mengetahui bahwa yang berubah adalah susunan, bukan jumlah X."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bedakan O dengan angka 0 bila keduanya muncul, dan bedakan huruf besar dengan huruf kecil bila bentuk itu ditampilkan sebagai karakter berbeda. Jangan menormalkan semua karakter bulat menjadi O tanpa memeriksa label aslinya. Bila ukuran tulisan kecil, perhatikan bentuk yang sama pada simpul lain sebagai pembanding."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk latihan selanjutnya, materi ini memakai X dan O kapital. Dengan acuan ini, kita dapat mempelajari perubahan posisi, perubahan jumlah, dan perubahan isi tanpa mencampurkan masalah keterbacaan huruf."
             }
           ]
         }
@@ -451,7 +164,7 @@
     },
     {
       "subbab": "Membedakan perpindahan dan pergantian karakter",
-      "ikon": "grafik",
+      "ikon": "strategi",
       "slide": [
         {
           "tipe": "blok",
@@ -459,35 +172,7 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Dua label dapat berbeda karena karakter berpindah tempat atau karena sebuah tempat berganti isi. Mulailah dengan menghitung X dan O, lalu bandingkan posisi. Jumlah yang tetap merupakan petunjuk perpindahan, tetapi tetap perlu diuji pada seluruh urutan."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-11.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pada urutan ini, jumlah X selalu satu. Posisi X bergerak 1 → 2 → 3 → 1. Artinya, setelah posisi terakhir, lintasan kembali ke posisi pertama. Kelanjutan sesudah XOO yang terakhir adalah OXO."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Jika jumlah X bertambah"
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-12.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada baris kedua, jumlah X adalah 0, 1, 2, 3. O di posisi 1 berubah menjadi X, lalu posisi 2, lalu posisi 3. Ini bukan perpindahan satu X karena X yang sudah ada tetap dipertahankan. Ketika semua tempat sudah X, kelanjutan tidak boleh ditebak tanpa informasi aturan tambahan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jumlah saja juga belum menentukan label. XOO, OXO, dan OOX sama-sama mempunyai satu X. Jika soal meminta OXO, memilih OOX tetap salah walaupun jumlahnya cocok. Gunakan hitungan sebagai pemeriksaan, lalu tentukan posisi setiap karakter."
             }
           ]
         }
@@ -495,7 +180,7 @@
     },
     {
       "subbab": "Mengikuti siklus susunan",
-      "ikon": "roket",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
@@ -503,33 +188,11 @@
           "blok": [
             {
               "jenis": "paragraf",
-              "teks": "Siklus adalah urutan keadaan yang kembali ke awal setelah beberapa langkah. Pada tiga tempat, pemindahan karakter paling kanan ke paling kiri menghasilkan siklus yang dapat dilacak tanpa mengubah karakter yang digunakan."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-13.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Dari XXO, ambil O yang berada paling kanan lalu letakkan di depan; dua X bergeser ke kanan. Hasilnya OXX. Dari OXX, X paling kanan pindah ke depan sehingga menjadi XOX. Langkah berikutnya mengembalikan susunan XXO."
             },
             {
               "jenis": "paragraf",
               "teks": "Setiap tahap masih mempunyai dua X dan satu O. Sesudah XXO yang terakhir, hasilnya OXX. Kita dapat memeriksanya melalui dua cara: menjalankan satu perpindahan dari simpul terakhir, atau mengenali bahwa urutan tiga susunan telah kembali ke awal."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Mengapa satu pasangan belum cukup"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "XXO menjadi OXX dapat diperoleh dengan beberapa tindakan, misalnya menggeser karakter atau menukar posisi tertentu. Uji tindakan yang sama dari OXX ke XOX. Jika dugaan tidak menghasilkan simpul berikutnya yang sudah diketahui, dugaan itu belum cocok."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada label yang memuat karakter berulang, tidak semua perpindahan terlihat jelas. Dua X yang bertukar tempat tetap tampak sama. Karena itu, bandingkan seluruh rangkaian dan pilih aturan sederhana yang konsisten. Jangan memberi identitas baru pada dua X yang memang tidak dibedakan oleh soal."
             }
           ]
         }
@@ -537,95 +200,15 @@
     },
     {
       "subbab": "Membaca empat karakter secara terpisah",
-      "ikon": "checklist",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Membaca empat karakter secara terpisah",
           "blok": [
             {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-14.png",
-              "lebar": 5.2,
-              "tinggi": 3.21,
-              "keterangan": "Gambar 3. Ilustrasi empat karakter dari riset internal JadiOJK. Periksa angka, huruf, dan bentuk hurufnya."
-            },
-            {
               "jenis": "paragraf",
               "teks": "Empat karakter terasa lebih rumit jika dibaca sekaligus. Pecahlah berdasarkan tempat: posisi 1, 2, 3, dan 4. Setelah itu, catat nilai atau bentuk pada tempat yang sama dari satu simpul ke simpul berikutnya."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-15.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada contoh latihan ini, posisi pertama berisi 1, 2, 3, 4. Posisi kedua memuat A, B, C, D. Posisi ketiga memuat b, c, d, e. Posisi keempat memuat 2, 3, 4, 5. Semua maju satu, dengan bentuk huruf di posisi kedua tetap kapital dan posisi ketiga tetap kecil."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kelanjutannya adalah 5Ef6. Huruf ketiga harus f kecil. Pada 5EF6, huruf ketiga ditulis sebagai F kapital."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subbab": "Mengamati huruf besar dan huruf kecil",
-      "ikon": "globe",
-      "slide": [
-        {
-          "tipe": "blok",
-          "judul": "Mengamati huruf besar dan huruf kecil",
-          "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Huruf kapital dan huruf kecil dapat menjalankan peran yang berbeda. A dan a mempunyai nama huruf sama, tetapi bentuknya berbeda. Jika perbedaan bentuk muncul secara teratur dalam urutan, masukkan ke dalam aturan."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-16.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Nilai huruf maju A, B, C, D. Pada simpul pertama pasangan hurufnya Aa: kapital lalu kecil. Pada simpul kedua bB: kecil lalu kapital. Susunan bentuk ini bergantian. Kedua angka di ujung juga naik satu setiap tahap."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Simpul berikutnya memakai angka 5 dan 6 serta pasangan huruf E dan e. Karena tahap kelima kembali memakai kapital–kecil, jawabannya 5Ee6. Jawaban 5eE6 keliru pada bentuk; 5Ef6 keliru karena kedua huruf seharusnya mempunyai nama yang sama."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Aspek",
-                "Pemeriksaan pada contoh"
-              ],
-              "baris": [
-                [
-                  "Nilai huruf",
-                  "A, B, C, D, lalu E."
-                ],
-                [
-                  "Bentuk pasangan",
-                  "Aa, bB, Cc, dD, lalu Ee."
-                ],
-                [
-                  "Angka di kiri",
-                  "1, 2, 3, 4, lalu 5."
-                ],
-                [
-                  "Angka di kanan",
-                  "2, 3, 4, 5, lalu 6."
-                ]
-              ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan menerapkan pergantian kapital–kecil pada semua soal empat karakter. Pada contoh bagian sebelumnya, bentuk setiap posisi tetap. Kedua kemungkinan dipelajari agar kita membedakan aturan yang benar-benar terlihat dari kebiasaan yang terbawa dari soal lain."
             }
           ]
         }
@@ -633,86 +216,15 @@
     },
     {
       "subbab": "Membaca angka dan simbol",
-      "ikon": "strategi",
+      "ikon": "checklist",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Membaca angka dan simbol",
           "blok": [
             {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-17.png",
-              "lebar": 5.5,
-              "tinggi": 3.39,
-              "keterangan": "Gambar 4. Ilustrasi angka dan simbol dari riset internal JadiOJK. Simbol >, >>, dan < merupakan bagian label."
-            },
-            {
               "jenis": "paragraf",
               "teks": "Setiap simpul pada gambar memiliki dua unsur, yaitu angka dan simbol. Misalnya, label 1> terdiri dari angka 1 dan simbol >. Untuk mengetahui arti simbolnya, ikuti jalur 1> → 2>> → 4< → 3>>. Pada setiap perpindahan, lihat simbol di simpul asal, lalu bandingkan angkanya dengan angka di simpul tujuan."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-18.png",
-              "lebar": 6.0,
-              "tinggi": 0.84
-            },
-            {
-              "jenis": "poin",
-              "butir": [
-                "Dari 1> ke 2>>, angkanya naik dari 1 ke 2. Pada contoh ini, > berarti tambah 1.",
-                "Dari 2>> ke 4<, angkanya naik dari 2 ke 4. Pada contoh ini, >> berarti tambah 2.",
-                "Dari 4< ke 3>>, angkanya turun dari 4 ke 3. Pada contoh ini, < berarti kurangi 1."
-              ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sekarang lanjutkan dari 3>>. Simbol >> meminta kita menambahkan 2 pada angka 3. Hasilnya 5, jadi simpul berikutnya harus memuat angka 5. Perhitungan ini baru menentukan angkanya. Untuk mengetahui label lengkapnya, periksa pilihan pada Gambar 4. Satu-satunya simpul yang memuat angka 5 adalah 5>>, sehingga jalurnya dilanjutkan dari 3>> ke 5>>. Simbol pada 5>> baru digunakan jika kita diminta melanjutkan jalur dari simpul itu."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika ada dua pilihan yang sama-sama memuat angka 5, periksa apakah rangkaian memberi petunjuk tambahan untuk membedakan simbolnya. Pada soal lain, simbol yang sama bisa memiliki arti berbeda. Selalu uji maknanya dari perpindahan yang ditunjukkan pada soal."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subbab": "Menguji kandidat tanpa memaksakan aturan",
-      "ikon": "grafik",
-      "slide": [
-        {
-          "tipe": "blok",
-          "judul": "Menguji kandidat tanpa memaksakan aturan",
-          "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Setelah memperoleh prediksi, cocokkan dengan semua simpul yang belum terhubung. Lakukan pemeriksaan dari unsur paling tegas. Jika angka sudah pasti 6, singkirkan simpul yang angkanya berbeda. Lalu periksa huruf, posisi karakter, dan bentuk huruf pada pilihan yang tersisa."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/ojk_pi_drag_the_line/gambar-19.png",
-              "lebar": 6.0,
-              "tinggi": 2.12
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dari H5, huruf maju dua menjadi J dan angka naik satu menjadi 6. Formatnya tetap huruf–angka. Maka, J6 memenuhi tiga syarat sekaligus. J5 hanya memenuhi huruf; H6 hanya memenuhi angka; 6J mempunyai isi tepat tetapi urutan tempatnya salah."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Jika dua kandidat masih cocok"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jangan mengganti aturan hanya agar satu pilihan cepat terpilih. Periksa kembali simpul sebelumnya: apakah ada pergantian format, perubahan kapital, atau aturan simbol yang belum terbaca? Gunakan hubungan yang tersedia sebagai penguji. Jika informasi memang belum membedakan dua jawaban, catatan “belum cukup bukti” lebih tepat daripada membuat pengecualian baru."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk soal yang meminta beberapa sambungan, kelanjutan dari suatu kandidat dapat membantu menguji pilihan. Sebuah kandidat yang tampak cocok satu tahap bisa menyebabkan tahap berikutnya gagal mengikuti aturan yang sama. Tetap gunakan satu penjelasan yang konsisten untuk seluruh jalur."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Posisi geometris lingkaran tidak perlu dijadikan aturan tambahan bila isi label dan garis sudah cukup menjelaskan urutan. Pilih simpul berdasarkan kecocokan karakter; sesudah itu baru arahkan seretan ke letak simpul tersebut di layar."
             }
           ]
         }
@@ -720,16 +232,12 @@
     },
     {
       "subbab": "Strategi Menjawab dan Cara Cepat",
-      "ikon": "roket",
+      "ikon": "globe",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Strategi Menjawab dan Cara Cepat",
           "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan langkah kerja yang sama walaupun jenis label berubah. Cara ini membantu kita mengetahui apa yang sudah pasti dan apa yang masih perlu diuji."
-            },
             {
               "jenis": "tabel",
               "kolom": [
@@ -762,26 +270,6 @@
                   "Pilih label lengkap; lihat garis hasil seretan."
                 ]
               ]
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Memilih cara membaca berikutnya"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika dua karakter berubah bersama, buat catatan terpisah untuk masing-masing. Jika nilai tampak tepat tetapi jawaban tidak tersedia, periksa format atau besar-kecil huruf. Jika jumlah X tetap, periksa posisinya. Jika label berisi simbol, uji apakah simbol berhubungan dengan perubahan angka ke simpul sesudahnya."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Mengelola waktu"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Lembar spesifikasi SHL Verify Interactive – Inductive Reasoning mencantumkan maksimal 15 soal dalam 18 menit. Jika latihan berisi 15 soal, rata-ratanya 72 detik per soal. Gunakan angka itu untuk simulasi dan ikuti waktu serta petunjuk yang tercantum pada tes Anda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Saat buntu, ubah fokus pengamatan: dari label utuh ke satu karakter, dari nilai ke posisi, atau dari nama huruf ke bentuknya. Setelah aturan cocok dengan semua sambungan yang diketahui, periksa hasil seretan. Sumber acuan waktu: SHL Verify Interactive – Inductive Reasoning, Assessment Fact Sheet, hlm. 1."
             }
           ]
         }
@@ -789,57 +277,12 @@
     },
     {
       "subbab": "Kesalahan Umum",
-      "ikon": "globe",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Kesalahan Umum",
           "blok": [
-            {
-              "jenis": "paragraf",
-              "teks": "Sebagian kesalahan muncul setelah pola utama sudah ditemukan. Penyebabnya sering berupa satu karakter yang tidak ikut diperiksa atau satu tahap yang terlewati. Gunakan tabel berikut untuk mengenali bagian pemeriksaan yang perlu diperbaiki."
-            },
-            {
-              "jenis": "tabel",
-              "kolom": [
-                "Kesalahan",
-                "Cara memperbaiki"
-              ],
-              "baris": [
-                [
-                  "Mengikuti posisi lingkaran",
-                  "Telusuri jalur garis yang sudah terhubung."
-                ],
-                [
-                  "Memeriksa satu karakter saja",
-                  "Cocokkan seluruh label dengan prediksi."
-                ],
-                [
-                  "Mengabaikan urutan karakter",
-                  "Bedakan A1 dengan 1A."
-                ],
-                [
-                  "Menyamakan kapital dan kecil",
-                  "Periksa A dan a sebagai bentuk berbeda."
-                ],
-                [
-                  "Melompat dua perubahan",
-                  "Terapkan satu tahap dari ujung aktif."
-                ],
-                [
-                  "Memberi arti baku pada simbol",
-                  "Uji arti simbol pada hubungan yang tersedia."
-                ],
-                [
-                  "Menetapkan pola dari satu pasangan",
-                  "Uji semua hubungan yang relevan."
-                ],
-                [
-                  "Tidak melihat hasil seretan",
-                  "Pastikan garis berakhir pada simpul tujuan."
-                ]
-              ]
-            },
             {
               "jenis": "subjudul",
               "teks": "Pemeriksaan sebelum mengirim jawaban"
@@ -847,10 +290,6 @@
             {
               "jenis": "paragraf",
               "teks": "Baca kembali label tujuan dari karakter pertama sampai terakhir. Cocokkan nilai, urutan, kapital–kecil, dan simbolnya. Pastikan sambungan dibuat dari ujung aktif dan garis benar-benar berakhir pada simpul yang dimaksud."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika tampilan memperbolehkan perubahan jawaban, gunakan mekanisme yang disediakan untuk memperbaiki sambungan yang keliru. Jangan menganggap garis otomatis tersimpan hanya karena kursor sudah melewati lingkaran; lihat hasil akhirnya pada layar."
             }
           ]
         }
@@ -885,6 +324,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Drag the Line dapat dipelajari dengan memecah label menjadi unsur kecil. Kita mulai dari urutan angka dan huruf, kemudian memeriksa posisi, bentuk karakter, serta simbol. Banyaknya karakter menambah pekerjaan pemeriksaan, tetapi tidak mengubah dasar penalarannya. Urutan kerja: baca jalur → pisahkan unsur → uji perubahan → prediksi label → sambung → periksa hasil. Kecepatan tumbuh ketika catatan kita makin terarah. Tidak perlu menuliskan semua kemungkinan. Mulailah dari perubahan yang terlihat jelas, uji dengan hubungan lain, kemudian periksa unsur yang belum dijelaskan. Jawaban yang baik memenuhi seluruh karakter sekaligus."
+    "pesan": "Urutan kerja: baca jalur → pisahkan unsur → uji perubahan → prediksi label → sambung → periksa hasil."
   }
 }

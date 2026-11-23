@@ -4,6 +4,7 @@
     "subtes": "Tes Kemampuan Umum",
     "nama_file": "OJK TKU - Bulion",
     "sumber": "https://docs.google.com/document/d/1zXdx7-eSNG_fRF6KVEhbmI1S8rrAnEWh/edit",
+    "lewati_kosong": true,
     "id_katalog": "sjk-14"
   },
   "peta_subtes": {
@@ -35,57 +36,14 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Bayangkan terdapat dua pihak yang sama-sama memiliki emas. Pihak pertama menyerahkan sejumlah emas terstandardisasi kepada lembaga jasa keuangan berdasarkan skema simpanan yang memungkinkan pengelolaan emas sesuai kesepakatan. Pihak kedua hanya ingin menyimpan emas miliknya agar aman, tanpa memberi kewenangan kepada lembaga untuk memakainya dalam pembiayaan. Walaupun sama-sama berkaitan dengan “menaruh emas”, kedua hubungan tersebut berbeda secara hukum dan operasional.",
-      "Perbedaan itu penting karena emas dapat menjadi objek berbagai kegiatan: disimpan, diperdagangkan, dititipkan, atau disalurkan sebagai pembiayaan. Tiap kegiatan menimbulkan hak, kewajiban, risiko, serta aturan yang berbeda. Apabila istilahnya tertukar, peserta dapat salah menentukan jenis produk atau salah menilai kewajiban lembaga kepada nasabah.",
-      "Dalam konteks Indonesia, Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan (UU P2SK) memberi landasan kegiatan usaha bulion, yang kemudian diatur lebih terperinci dalam POJK Nomor 17 Tahun 2024. OJK juga menerbitkan roadmap 2026–2031 untuk mendorong terbentuknya ekosistem bulion yang sehat. Materi berikut menekankan konsep dan ketentuan yang dapat ditelusuri ke sumber resmi tersebut."
+      "Bayangkan terdapat dua pihak yang sama-sama memiliki emas. Pihak pertama menyerahkan sejumlah emas terstandardisasi kepada lembaga jasa keuangan berdasarkan skema simpanan yang memungkinkan pengelolaan emas sesuai kesepakatan. Pihak kedua hanya ingin menyimpan emas miliknya agar aman, tanpa memberi kewenangan kepada lembaga untuk memakainya dalam pembiayaan. Walaupun sama-sama berkaitan dengan “menaruh emas”, kedua hubungan tersebut berbeda secara hukum dan operasional."
     ],
     "pemantik": "",
     "ikon": "presenter"
   },
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
-    "butir": [
-      {
-        "level": "",
-        "kko": "Mendefinisikan",
-        "teks": "bulion dan menyebutkan empat kegiatan usaha utamanya."
-      },
-      {
-        "level": "",
-        "kko": "Menerangkan",
-        "teks": "alasan emas untuk kegiatan usaha bulion harus memenuhi syarat bentuk, kadar, dan standar tertentu."
-      },
-      {
-        "level": "",
-        "kko": "Membedakan",
-        "teks": "hak penggunaan emas pada Simpanan Emas dan Penitipan Emas."
-      },
-      {
-        "level": "",
-        "kko": "Mengidentifikasi",
-        "teks": "pembiayaan emas dengan kewajiban pengembalian dalam bentuk emas (gold-to-gold)."
-      },
-      {
-        "level": "",
-        "kko": "Menjelaskan",
-        "teks": "batas minimum transaksi perdagangan bulion dan hubungan antara pemasaran daring dengan penyerahan fisik."
-      },
-      {
-        "level": "",
-        "kko": "Mengenali",
-        "teks": "kewajiban perizinan, tata kelola, pengawasan, dan transparansi informasi kepada nasabah."
-      },
-      {
-        "level": "",
-        "kko": "Membandingkan",
-        "teks": "bulion dengan gadai emas, investasi emas ritel, dan ETF emas."
-      },
-      {
-        "level": "",
-        "kko": "Menjawab",
-        "teks": "soal berdasarkan kata kunci, bukti regulasi, dan kondisi spesifik dalam kasus."
-      }
-    ]
+    "butir": []
   },
   "materi": [
     {
@@ -105,14 +63,6 @@
               "teks": "Kegiatan Usaha Bulion adalah kegiatan usaha yang berkaitan dengan emas yang dilakukan oleh lembaga jasa keuangan (LJK). Menurut POJK Nomor 17 Tahun 2024, bentuk kegiatan yang diatur mencakup Simpanan Emas, Pembiayaan Emas, Perdagangan Emas, Penitipan Emas, dan/atau kegiatan lainnya yang dilakukan oleh LJK sesuai ketentuan. Istilah “bank emas” sering digunakan dalam komunikasi publik untuk menjelaskan ekosistem layanan ini, tetapi bukan berarti setiap toko emas otomatis memiliki izin menyelenggarakan kegiatan usaha bulion."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Perhatikan perbedaan fokusnya: investasi emas biasa berangkat dari keputusan seseorang membeli atau menjual emas untuk tujuan keuangan; sedangkan kegiatan usaha bulion berangkat dari aktivitas lembaga jasa keuangan yang memfasilitasi simpanan, pembiayaan, perdagangan, atau penitipan emas dalam kerangka yang diatur. Dengan kata lain, istilah bulion dalam POJK menunjukkan jenis usaha dan pengaturan, bukan sekadar nama lain untuk emas batangan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Landasan hukum pokok yang perlu diingat adalah Pasal 132 UU Nomor 4 Tahun 2023 (UU P2SK) serta POJK Nomor 17 Tahun 2024. Dalam analisis soal, kedua dasar ini sering muncul sebagai petunjuk bahwa yang dibahas adalah usaha bulion yang diselenggarakan oleh LJK, bukan transaksi emas di toko perhiasan."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Mengapa Ekosistem Bulion Dikembangkan?"
             },
@@ -121,20 +71,12 @@
               "teks": "Pengembangan kegiatan usaha bulion ditujukan untuk membantu menghubungkan pasokan dan permintaan emas, meningkatkan pemanfaatan emas yang belum produktif, dan memperluas pilihan kegiatan usaha di sektor jasa keuangan. Dalam perspektif ekonomi, emas yang disimpan oleh masyarakat dapat menjadi bagian dari aktivitas pembiayaan atau perdagangan yang terkelola apabila hubungan hukumnya memungkinkan dan semua persyaratan dipenuhi."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Sasaran tersebut tidak berarti bahwa seluruh emas nasabah otomatis boleh dipakai lembaga. Kewenangan menggunakan emas berbeda antara Simpanan Emas dan Penitipan Emas. Di samping itu, bertambahnya kegiatan ekonomi harus disertai kualitas penyimpanan, ketersediaan emas, keamanan transaksi, manajemen risiko, serta pelindungan konsumen."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Emas yang Memenuhi Ketentuan Bulion"
             },
             {
               "jenis": "paragraf",
               "teks": "Tidak semua benda yang mengandung emas memenuhi definisi “Emas” untuk kegiatan usaha bulion. Dalam POJK 17/2024, emas yang dimaksud berupa logam mulia berbentuk batangan atau lempengan, bukan mata uang, dengan kandungan Aurum (Au) paling rendah 99,9%. Emas tersebut juga harus memenuhi standar SNI dan/atau standar yang berlaku sesuai praktik internasional."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh: cincin emas 22 karat mungkin bernilai ekonomi dan dapat menjadi objek transaksi lain, tetapi tidak memenuhi definisi emas bulion dalam aturan tersebut hanya karena sama-sama mengandung emas. Begitu pula koin emas sebagai mata uang, karena definisi POJK secara tegas mengecualikan bentuk mata uang. Sebaliknya, emas batangan berkadar 99,95% yang memenuhi standar relevan dapat memenuhi unsur kadar, walaupun legalitas transaksi tetap harus dilihat dari izin dan bentuk kegiatan usahanya."
             },
             {
               "jenis": "tabel",
@@ -217,20 +159,12 @@
               "teks": "Alur ilustratif: nasabah menyerahkan emas yang memenuhi standar; LJK melakukan verifikasi dan mencatat jumlah serta hak nasabah; para pihak menyepakati jangka waktu dan syarat lain; LJK mengelola kewajiban atas simpanan emas sesuai kontrak; pada saat jatuh tempo atau saat kondisi penarikan terpenuhi, hak nasabah dilaksanakan sesuai perjanjian. Rincian prosedur serta imbalan tidak boleh dianggap identik di semua penyelenggara."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Batas pemahaman yang perlu diingat: Simpanan Emas bukan sekadar meletakkan kotak emas di ruang penyimpanan. Hubungan hukumnya memungkinkan aktivitas pengelolaan tertentu. Karena itu, peserta harus membaca hak atas emas, ketentuan penarikan, biaya/imbalan, dan risiko yang disampaikan dalam dokumen produk."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Penitipan Emas: Pengertian dan Larangan Penggunaan"
             },
             {
               "jenis": "paragraf",
               "teks": "Penitipan Emas adalah layanan menerima emas milik nasabah untuk disimpan dengan imbal jasa berdasarkan kesepakatan. Dalam skema penitipan emas, LJK wajib menyimpan emas yang dititipkan dan mengembalikannya sesuai kondisi ketika dititipkan. FAQ POJK 17/2024 secara tegas menjelaskan bahwa emas titipan tidak boleh digunakan untuk pembiayaan emas atau perdagangan emas."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh kasus: Rani memiliki empat batang emas yang memenuhi persyaratan bulion. Ia sedang membandingkan Simpanan Emas dengan Penitipan Emas pada LJK berizin. Kedua layanan dapat diawali dengan penyerahan emas dan pencatatan hak nasabah, tetapi tujuan penyerahan, izin penggunaan, serta kewajiban pengembaliannya berbeda. Perbandingan berikut menggunakan Rani dan empat batang emas yang sama sebagai dua alternatif akad, bukan dua transaksi yang dilakukan sekaligus."
             },
             {
               "jenis": "subjudul",
@@ -279,28 +213,12 @@
               "teks": "Pembiayaan Emas adalah penyediaan sejumlah emas terstandardisasi oleh LJK kepada pihak lain berdasarkan kesepakatan, yang mewajibkan penerima pembiayaan mengembalikan sejumlah emas setelah jangka waktu tertentu dengan imbalan atau bagi hasil. FAQ OJK menegaskan bahwa pembiayaan emas dalam kegiatan bulion bukan semata-mata skema pembelian emas secara mencicil; dalam pembiayaan bulion, pengembalian kepada penyelenggara harus berupa emas."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Ilustrasi: sebuah perusahaan menerima pembiayaan 2 kilogram emas terstandardisasi untuk kebutuhan operasional. Pada saat jatuh tempo, kewajiban pokoknya dinyatakan dalam emas sesuai perjanjian, bukan otomatis diganti pembayaran rupiah berdasarkan harga emas saat akad. Imbalan atau bagi hasil serta persyaratan lain bergantung pada kontrak dan ketentuan. Peserta tidak boleh menarik kesimpulan mengenai jumlah akhir kewajiban jika data imbalan dan periode tidak disebutkan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perbandingan: cicilan untuk membeli emas oleh konsumen berfokus pada akuisisi aset oleh pembeli; pembiayaan emas dalam POJK 17/2024 menekankan penyediaan emas kepada pihak yang dibiayai dan pengembalian emas. Pembeda ini membantu menghindari jawaban yang salah ketika soal menggunakan frasa “pembiayaan emas”."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Perdagangan Emas: Gramasi dan Penyerahan Fisik"
             },
             {
               "jenis": "paragraf",
               "teks": "Dalam kegiatan Perdagangan Emas oleh LJK penyelenggara bulion, batas minimum transaksi sebesar 500 gram per transaksi. Perdagangan emas wajib dilaksanakan secara fisik. Pemasaran melalui kanal daring tidak otomatis dilarang, tetapi emas harus diserahkan secara fisik. Ketentuan khusus ini tidak boleh digeneralisasi sebagai batas minimum semua pembelian emas ritel di Indonesia."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh: sebuah LJK menawarkan perdagangan emas bulion melalui halaman pemesanan daring dan kemudian menyerahkan emas terstandardisasi secara fisik sesuai kesepakatan. Kegiatan pemasaran daring itu tidak dengan sendirinya bertentangan dengan prinsip penyerahan fisik. Namun, apabila transaksi diselesaikan hanya dengan janji tanpa mekanisme penyerahan emas fisik, harus dianalisis lebih lanjut apakah telah memenuhi ketentuan kegiatan perdagangan bulion."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Hal yang sering menjebak peserta adalah perbedaan “promosi atau pemesanan daring” dengan “penyelesaian transaksi secara fisik”. Keduanya bukan hal yang sama. Jangan pula menyamakan pembelian emas batangan kecil oleh individu di toko dengan transaksi Perdagangan Emas oleh LJK berizin."
             },
             {
               "jenis": "subjudul",
@@ -354,24 +272,12 @@
               "teks": "Penyelenggaraan kegiatan usaha bulion tidak terbuka secara otomatis bagi setiap lembaga atau toko emas. Jenis LJK yang dapat menyelenggarakannya dibatasi pada lembaga dengan kegiatan usaha utama berupa penyaluran kredit atau pembiayaan, dengan pengecualian bank perekonomian rakyat, bank perekonomian rakyat syariah, dan lembaga keuangan mikro. Selain memenuhi kriteria, penyelenggara tetap harus mengikuti persyaratan dan mekanisme perizinan kegiatan usaha bulion oleh OJK."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Artinya, menyebut sebuah perusahaan sebagai “bank emas” dalam iklan tidak membuktikan bahwa seluruh jenis kegiatan usaha bulion boleh dijalankan oleh perusahaan tersebut. Kegiatan yang dapat dijalankan mengikuti izin, kesiapan bisnis, persyaratan modal, tata kelola, dan pengawasan yang relevan. Contoh pelaku yang tercantum dalam publikasi resmi OJK antara lain PT Pegadaian dan PT Bank Syariah Indonesia Tbk, tetapi status dan cakupan izin setiap entitas tetap harus diverifikasi pada sumber resmi terbaru."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Tata Kelola, Manajemen Risiko, dan Pelindungan Konsumen"
             },
             {
               "jenis": "paragraf",
               "teks": "POJK 17/2024 tidak hanya mengatur jenis layanan. Regulasi juga mengatur prinsip kehati-hatian, tata kelola, manajemen risiko, strategi antifraud, program pencegahan pencucian uang dan pendanaan terorisme, pelindungan konsumen, serta pelaporan. Ketentuan tersebut penting karena emas memiliki nilai ekonomi tinggi, membutuhkan fasilitas penyimpanan dan pengamanan, serta memiliki risiko perubahan harga dan kekeliruan pencatatan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Risiko harga: nilai rupiah dari emas dapat berubah ketika harga pasar naik atau turun. Risiko operasional: salah timbang, kesalahan data kadar, pencatatan yang tidak sesuai, atau kendala sistem dapat merugikan pihak terkait. Risiko penyimpanan: kehilangan, kerusakan, atau ketidaksesuaian inventaris. Risiko likuiditas: keterbatasan pemenuhan kewajiban dalam emas saat dibutuhkan. Risiko hukum/kepatuhan: izin, kontrak, atau praktik usaha tidak sesuai ketentuan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dari sisi nasabah, periksa identitas dan legalitas penyelenggara, syarat produk, hak atas emas, dasar penarikan, biaya dan potensi imbalan, serta mekanisme pengaduan. Pernyataan promosi seperti “pasti untung” atau “tanpa risiko” tidak dapat dijadikan dasar menilai keamanan produk. Tidak tepat pula menganggap semua simpanan emas otomatis memiliki perlakuan penjaminan yang sama dengan simpanan uang pada bank."
             },
             {
               "jenis": "subjudul",
@@ -419,18 +325,6 @@
               "teks": "Perhitungan emas perlu memisahkan besaran fisik (gram atau kilogram) dari nilai uang (rupiah). Satu kilogram sama dengan 1.000 gram. Jika soal memberikan kuantitas emas, jumlah rupiah dapat dihitung dengan mengalikan gram dengan harga per gram yang dinyatakan dalam soal. Angka yang dipakai berikut bersifat ilustratif dan bukan harga pasar atau tarif resmi."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Contoh 1: jika ada 2,4 kilogram emas, maka beratnya adalah 2.400 gram. Jika asumsi harga emas adalah Rp1.500.000 per gram, nilai ilustratifnya 2.400 × Rp1.500.000 = Rp3.600.000.000. Hasil ini hanya nilai perkalian dengan harga asumsi; bukan laba bersih, nilai jaminan pasti, ataupun hak penarikan nasabah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh 2: suatu kegiatan perdagangan bulion direncanakan memakai emas 250 gram per batang. Dengan syarat minimum 500 gram per transaksi, diperlukan paling sedikit dua batang agar mencapai 500 gram. Perhatikan bahwa minimum tersebut terkait kegiatan Perdagangan Emas dalam POJK, bukan aturan mengenai jumlah minimum menabung emas ritel."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Contoh 3: harga ilustratif turun dari Rp1.500.000 menjadi Rp1.350.000 per gram, sehingga nilai rupiah 10 gram turun dari Rp15.000.000 menjadi Rp13.500.000. Selisih Rp1.500.000 adalah perubahan nilai ilustratif, belum memperhitungkan selisih jual-beli dan biaya. Fakta bahwa nilai rupiah turun tidak berarti berat emas otomatis berkurang."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Kegiatan Usaha Bulion Berdasarkan Prinsip Syariah"
             },
@@ -449,10 +343,6 @@
             {
               "jenis": "paragraf",
               "teks": "Pada 2026 OJK menerbitkan Roadmap Pengembangan dan Penguatan Kegiatan Usaha dan Ekosistem Bulion 2026–2031. Roadmap ini memiliki dua jalur: penguatan ekosistem bulion dari hulu sampai hilir, serta penguatan kegiatan usaha bulion dalam industri jasa keuangan. Pada jalur industri jasa keuangan, strategi yang ditekankan adalah manajemen risiko dan tata kelola, pengembangan produk, pengaturan/pengawasan/perizinan, pelindungan konsumen, dan pengembangan elemen ekosistem."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Roadmap tersebut merupakan arah kebijakan, bukan bukti bahwa seluruh target sudah dicapai atau seluruh produk telah tersedia merata. Penerapannya berlangsung bertahap melalui fase penyiapan fondasi, akselerasi pengembangan dan penguatan, lalu pendalaman dan pertumbuhan berkelanjutan. Soal analitis dapat meminta peserta membedakan pernyataan sasaran roadmap dengan kondisi yang telah terealisasi."
             },
             {
               "jenis": "subjudul",
@@ -524,6 +414,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Kegiatan usaha bulion merupakan pengelolaan dan pelayanan keuangan terkait emas yang berada di dalam kerangka pengaturan OJK. Empat kegiatan pokoknya adalah Simpanan Emas, Pembiayaan Emas, Perdagangan Emas, dan Penitipan Emas. Meskipun semuanya melibatkan emas, masing-masing memiliki tujuan, hak penggunaan emas, risiko, dan kewajiban yang tidak sama. Pemahaman tentang bulion perlu dimulai dari dasar regulasi, bukan dari nama produk dalam iklan. POJK 17/2024 menjelaskan jenis usaha, standar emas, dan kewajiban penyelenggara. FAQ resminya memperjelas pembedaan Simpanan dan Penitipan Emas, sifat pengembalian emas dalam pembiayaan, serta ketentuan minimum dan penyerahan fisik dalam perdagangan bulion. Pembedaan ini penting agar peserta dapat memilih jawaban berdasarkan alasan yang benar, bukan sekadar kata yang terlihat familiar. Melalui perkembangan roadmap 2026–2031, ekosistem bulion diarahkan agar lebih kuat dari sisi tata kelola, produk, pengawasan, dan pelindungan konsumen. Peserta diharapkan dapat menghubungkan prinsip tersebut dengan kasus nyata, memeriksa asumsi dalam soal hitungan, dan menggunakan sumber resmi ketika ada perubahan regulasi. Dengan demikian, penguasaan materi bulion menjadi dasar literasi yang relevan untuk memahami industri jasa keuangan Indonesia."
+    "pesan": ""
   }
 }

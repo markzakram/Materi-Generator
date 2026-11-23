@@ -27,7 +27,6 @@ PALET = {
             "FBBB2B": "E8B41E",  # kuning
             "FFE6AE": "F8E8BB",  # kuning muda: aksen 30% di atas putih
             "595858": "3D6E99",  # ujung gradien kartu aktif: abu -> biru primer
-            "C68700": "3D6E99",  # judul materi di sampul putih (lihat tema_general.WARNA_JUDUL)
         },
         # pasangan rona untuk gambar PNG
         "rona": [("13215A", "052C5F"), ("FBBB2B", "E8B41E")],
@@ -43,7 +42,6 @@ PALET = {
             "FBBB2B": "ED2224",  # kuning -> merah
             "FFE6AE": "FCE3E3",  # kuning muda -> merah muda (primer 13% di atas putih)
             "595858": "B01818",  # ujung gradien kartu aktif
-            "C68700": "ED2224",  # judul materi di sampul putih
         },
         "rona": [("13215A", "821517"), ("FBBB2B", "ED2224")],
         # Aksen merah sama gelapnya dengan merah tua, jadi pasangan 'navy di atas kuning' dan 'kuning di

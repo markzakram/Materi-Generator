@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Volume, debit, dan waktu membantu menjelaskan proses mengisi atau mengosongkan wadah. Volume menyatakan banyaknya air, debit menunjukkan banyaknya air yang mengalir setiap satuan waktu, dan waktu menunjukkan lamanya aliran berlangsung. Ketiganya dihubungkan oleh segitiga VDW.",
-      "Perhitungan menjadi lebih mudah jika aliran dibaca dengan jelas: air masuk atau keluar, berapa aliran yang bekerja, dan apakah semuanya bekerja bersamaan. Setelah satuan disamakan, pilih rumus yang sesuai dan hitung bertahap. Dengan cara ini, hasil perhitungan dapat dikaitkan kembali dengan keadaan wadah."
+      "Volume, debit, dan waktu membantu menjelaskan proses mengisi atau mengosongkan wadah. Volume menyatakan banyaknya air, debit menunjukkan banyaknya air yang mengalir setiap satuan waktu, dan waktu menunjukkan lamanya aliran berlangsung. Ketiganya dihubungkan oleh segitiga VDW."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -95,10 +94,6 @@
               "teks": "Volume (V) adalah banyaknya air yang diukur, misalnya dalam liter atau meter kubik. Debit (D) adalah volume air yang mengalir setiap satuan waktu, misalnya liter/menit. Waktu (W) adalah lamanya air mengalir."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Debit 5 liter/menit berarti setiap satu menit mengalir 5 liter air. Jika debit tetap, dua menit menghasilkan 10 liter dan tiga menit menghasilkan 15 liter. Debit bukan jumlah air di dalam bak, melainkan laju alirannya."
-            },
-            {
               "jenis": "gambar",
               "file": "media/tiu_nu17_vdw_volume_debit_waktu/gambar-01.png",
               "lebar": 6.25,
@@ -111,10 +106,6 @@
             {
               "jenis": "paragraf",
               "teks": "Kapasitas adalah volume maksimum yang dapat ditampung wadah. Volume air yang sudah ada dapat lebih kecil daripada kapasitasnya. Jika bak belum kosong, yang dihitung untuk pengisian sampai penuh adalah volume yang masih diperlukan, bukan seluruh kapasitas."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Rumus VDW digunakan dengan debit tetap selama waktu yang dihitung. Jika keran dibuka atau ditutup di tengah proses, pisahkan perhitungan sesuai tahap alirannya."
             }
           ]
         }
@@ -161,58 +152,6 @@
             {
               "jenis": "paragraf",
               "teks": "Mencari debit: bagi volume dengan waktu. Mencari volume: kalikan debit dengan waktu. Mencari waktu: bagi volume dengan debit."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Air mengalir dengan debit 5 liter/menit selama 3 menit. Untuk mencari volumenya, tutup V sehingga tersisa D dikali W."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$V=D×W$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=5×3$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=15 liter$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika yang diketahui volume 15 liter dan waktu 3 menit, debit diperoleh dengan pembagian berikut."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$D=V/W$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=15/3$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=5 liter/menit$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika volume dan debitnya diketahui, waktu aliran dapat dicari."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$W=V/D$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=15/5$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=3 menit$"
             }
           ]
         }
@@ -262,30 +201,6 @@
             {
               "jenis": "paragraf",
               "teks": "Saat mengubah satuan debit, perhatikan satuan volume dan satuan waktunya sekaligus. Dari liter/detik menjadi liter/menit, kalikan dengan 60 karena satu menit memuat 60 detik. Arah sebaliknya dibagi 60."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh perubahan satuan"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$2 liter/detik=2×60 liter/menit$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=120 liter/menit$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika volume yang akan diisi adalah 1,2 meter kubik sedangkan debit memakai liter/menit, ubah volumenya menjadi liter terlebih dahulu."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$1,2 m³=1,2×1.000 liter$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=1.200 liter$"
             }
           ]
         }
@@ -342,42 +257,6 @@
             {
               "jenis": "paragraf",
               "teks": "D₁ dan D₂ adalah debit aliran pertama dan kedua. D total adalah gabungan debit yang bekerja searah. D bersih adalah selisih debit masuk dan debit keluar, yaitu perubahan isi wadah setiap satuan waktu."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Istilah searah merujuk pada pengaruhnya terhadap isi wadah. Dua lubang di sisi bak yang berbeda tetap dijumlahkan debitnya jika keduanya sama-sama mengeluarkan air. Jangan mengurangkan debit hanya karena posisi lubangnya berbeda."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Dua keran mengisi bak bersama-sama. Debitnya 4 liter/menit dan 6 liter/menit. Volume yang masih diperlukan 100 liter."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$D total=D₁+D₂$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=4+6$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=10 liter/menit$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$W=V/(D total)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=100/10$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=10 menit$"
             }
           ]
         }
@@ -394,14 +273,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jika debit belum diberikan langsung, hitung debit setiap pompa dari volume dibagi waktu kerjanya. Setelah satuannya sama, gabungkan debit sesuai arah aliran. Waktu kerja tiap pompa tidak dijumlahkan untuk memperoleh waktu pengisian bersama."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pompa yang mengisi 100 liter dalam 15 menit dan pompa yang mengisi 200 liter dalam 24 menit tidak bisa dibandingkan hanya dari lamanya bekerja. Volume acuannya berbeda. Debit membuat keduanya dapat dibandingkan dalam satuan yang sama, yaitu liter setiap menit."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pertahankan bentuk pecahan jika pembagian tidak menghasilkan desimal sederhana. Membulatkan terlalu awal dapat membuat hasil waktu meleset. Penjumlahan debit dilakukan setelah setiap debit diperoleh."
             }
           ]
         }
@@ -424,42 +295,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jika air masuk dan keluar bersamaan, isi wadah berubah sebesar debit masuk dikurangi debit keluar. Untuk pengisian sampai penuh, debit masuk harus lebih besar. Jika kedua debit sama, isi wadah tetap; jika debit keluar lebih besar, isi wadah berkurang."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Air masuk 8 liter/menit dan keluar 3 liter/menit. Volume yang masih perlu ditambahkan 100 liter."
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$D bersih=D masuk−D keluar$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=8−3$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=5 liter/menit$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$W=V/(D bersih)$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=100/5$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$=20 menit$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk mengosongkan wadah ketika debit keluar lebih besar, gunakan debit keluar dikurangi debit masuk sebagai besar pengurangan volume per satuan waktu. Debit yang dipakai untuk membagi volume pengosongan dinyatakan positif."
             }
           ]
         }
@@ -490,10 +325,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jika aliran yang bekerja berubah, hitung setiap tahap secara terpisah. Tentukan volume pada tahap pertama, hitung sisa volume, lalu gunakan debit pada tahap berikutnya. Waktu total adalah jumlah waktu seluruh tahap."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perhatikan pula kapan aliran mulai dan berhenti. Dua keran yang dinyalakan pada waktu berbeda tidak dapat dianggap bekerja bersama sejak awal. Selama hanya satu keran bekerja, gunakan debit keran tersebut."
             }
           ]
         }
@@ -550,6 +381,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Ingat segitiga VDW: volume adalah debit dikali waktu, debit adalah volume dibagi waktu, dan waktu adalah volume dibagi debit. Samakan satuan dan tentukan arah aliran sebelum menghitung. Debit dijumlahkan untuk aliran yang sama-sama mengisi atau mengosongkan, sedangkan aliran masuk dan keluar dihitung dari selisihnya. Ketelitian memilih volume sama pentingnya dengan memilih rumus. Gunakan volume yang masih diperlukan atau yang benar-benar dikeluarkan, pisahkan tahap jika aliran berubah, dan periksa satuan hasil. Langkah ini membuat perhitungan pengisian maupun pengosongan mudah diikuti dan sesuai dengan keadaan wadah."
+    "pesan": "Ingat segitiga VDW: volume adalah debit dikali waktu, debit adalah volume dibagi waktu, dan waktu adalah volume dibagi debit. Samakan satuan dan tentukan arah aliran sebelum menghitung. Debit dijumlahkan untuk aliran yang sama-sama mengisi atau mengosongkan, sedangkan aliran masuk dan keluar dihitung dari selisihnya."
   }
 }

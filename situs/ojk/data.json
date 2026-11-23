@@ -7,11 +7,7 @@
  "tema": [
   {
    "id": "general",
-   "nama": "Sampul putih"
-  },
-  {
-   "id": "general-foto",
-   "nama": "Sampul foto"
+   "nama": "General"
   }
  ],
  "materi": [
@@ -21,27 +17,18 @@
    "bab": "Fill Shape",
    "judul": "Fill Shape",
    "dokumen": "https://docs.google.com/document/d/1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 42,
-     "nama": "OJK TKU - Fill Shape (General)",
+     "slide": 20,
+     "nama": "OJK TKU - Fill Shape",
      "pptx": "unduh/general/ojk-pi-fill-shape.pptx",
      "pdf": "unduh/general/ojk-pi-fill-shape.pdf",
      "sampul": "sampul/general/ojk-pi-fill-shape.jpg",
-     "ukuran_pptx": 1461180,
-     "ukuran_pdf": 1967874
-    },
-    "general-foto": {
-     "slide": 42,
-     "nama": "OJK TKU - Fill Shape (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pi-fill-shape.pptx",
-     "pdf": "unduh/general-foto/ojk-pi-fill-shape.pdf",
-     "sampul": "sampul/general-foto/ojk-pi-fill-shape.jpg",
-     "ukuran_pptx": 1461412,
-     "ukuran_pdf": 2241548
+     "ukuran_pptx": 908458,
+     "ukuran_pdf": 1467741
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "pi-01-soal",
@@ -49,27 +36,18 @@
    "bab": "Contoh Soal Fill Shape",
    "judul": "Contoh Soal Fill Shape",
    "dokumen": "https://docs.google.com/document/d/1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 22,
-     "nama": "OJK TKU - Contoh Soal Fill Shape (General)",
+     "slide": 19,
+     "nama": "OJK TKU - Contoh Soal Fill Shape",
      "pptx": "unduh/general/ojk-pi-fill-shape-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pi-fill-shape-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pi-fill-shape-contoh-soal.jpg",
-     "ukuran_pptx": 1176701,
-     "ukuran_pdf": 1503380
-    },
-    "general-foto": {
-     "slide": 22,
-     "nama": "OJK TKU - Contoh Soal Fill Shape (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pi-fill-shape-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-pi-fill-shape-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-pi-fill-shape-contoh-soal.jpg",
-     "ukuran_pptx": 1176937,
-     "ukuran_pdf": 1777154
+     "ukuran_pptx": 1182342,
+     "ukuran_pdf": 1678977
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "pi-02",
@@ -77,27 +55,18 @@
    "bab": "Drag the Line",
    "judul": "Drag the Line",
    "dokumen": "https://docs.google.com/document/d/1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 38,
-     "nama": "OJK TKU - Drag the Line (General)",
+     "slide": 18,
+     "nama": "OJK TKU - Drag the Line",
      "pptx": "unduh/general/ojk-pi-drag-the-line.pptx",
      "pdf": "unduh/general/ojk-pi-drag-the-line.pdf",
      "sampul": "sampul/general/ojk-pi-drag-the-line.jpg",
-     "ukuran_pptx": 1177394,
-     "ukuran_pdf": 1579373
-    },
-    "general-foto": {
-     "slide": 38,
-     "nama": "OJK TKU - Drag the Line (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pi-drag-the-line.pptx",
-     "pdf": "unduh/general-foto/ojk-pi-drag-the-line.pdf",
-     "sampul": "sampul/general-foto/ojk-pi-drag-the-line.jpg",
-     "ukuran_pptx": 1177626,
-     "ukuran_pdf": 1853089
+     "ukuran_pptx": 868262,
+     "ukuran_pdf": 1390796
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "pi-02-soal",
@@ -105,27 +74,18 @@
    "bab": "Contoh Soal Drag the Line",
    "judul": "Contoh Soal Drag the Line",
    "dokumen": "https://docs.google.com/document/d/1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 17,
-     "nama": "OJK TKU - Contoh Soal Drag the Line (General)",
+     "nama": "OJK TKU - Contoh Soal Drag the Line",
      "pptx": "unduh/general/ojk-pi-drag-the-line-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pi-drag-the-line-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pi-drag-the-line-contoh-soal.jpg",
-     "ukuran_pptx": 1026744,
-     "ukuran_pdf": 1297740
-    },
-    "general-foto": {
-     "slide": 17,
-     "nama": "OJK TKU - Contoh Soal Drag the Line (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pi-drag-the-line-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-pi-drag-the-line-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-pi-drag-the-line-contoh-soal.jpg",
-     "ukuran_pptx": 1026981,
-     "ukuran_pdf": 1571447
+     "ukuran_pptx": 1026315,
+     "ukuran_pdf": 1569037
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "pd-01",
@@ -133,27 +93,18 @@
    "bab": "Calendar Date Selection",
    "judul": "Calendar Date Selection",
    "dokumen": "https://docs.google.com/document/d/1E3yPOHTghB_nkdES7JNGFQaMA0ZzCu1LkUIXFBeXDWU/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 14,
-     "nama": "OJK TKU - Calendar Date Selection (General)",
+     "slide": 13,
+     "nama": "OJK TKU - Calendar Date Selection",
      "pptx": "unduh/general/ojk-pd-calendar-date-selection.pptx",
      "pdf": "unduh/general/ojk-pd-calendar-date-selection.pdf",
      "sampul": "sampul/general/ojk-pd-calendar-date-selection.jpg",
-     "ukuran_pptx": 858201,
-     "ukuran_pdf": 1120141
-    },
-    "general-foto": {
-     "slide": 14,
-     "nama": "OJK TKU - Calendar Date Selection (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pd-calendar-date-selection.pptx",
-     "pdf": "unduh/general-foto/ojk-pd-calendar-date-selection.pdf",
-     "sampul": "sampul/general-foto/ojk-pd-calendar-date-selection.jpg",
-     "ukuran_pptx": 858433,
-     "ukuran_pdf": 1393838
+     "ukuran_pptx": 854987,
+     "ukuran_pdf": 1384097
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "pd-01-soal",
@@ -161,27 +112,18 @@
    "bab": "Contoh Soal Calendar Date Selection",
    "judul": "Contoh Soal Calendar Date Selection",
    "dokumen": "https://docs.google.com/document/d/1E3yPOHTghB_nkdES7JNGFQaMA0ZzCu1LkUIXFBeXDWU/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 11,
-     "nama": "OJK TKU - Contoh Soal Calendar Date Selection (General)",
+     "nama": "OJK TKU - Contoh Soal Calendar Date Selection",
      "pptx": "unduh/general/ojk-pd-calendar-date-selection-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pd-calendar-date-selection-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pd-calendar-date-selection-contoh-soal.jpg",
-     "ukuran_pptx": 829280,
-     "ukuran_pdf": 1088366
-    },
-    "general-foto": {
-     "slide": 11,
-     "nama": "OJK TKU - Contoh Soal Calendar Date Selection (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pd-calendar-date-selection-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-pd-calendar-date-selection-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-pd-calendar-date-selection-contoh-soal.jpg",
      "ukuran_pptx": 829516,
-     "ukuran_pdf": 1362074
+     "ukuran_pdf": 1362077
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "pd-02",
@@ -189,27 +131,18 @@
    "bab": "Room Allocations",
    "judul": "Room Allocations",
    "dokumen": "https://docs.google.com/document/d/1DyUreRcyTFM6TCec4Srlk_cUit5zyv2_XC1OkyArjaU/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 13,
-     "nama": "OJK TKU - Room Allocations (General)",
+     "nama": "OJK TKU - Room Allocations",
      "pptx": "unduh/general/ojk-pd-room-allocations.pptx",
      "pdf": "unduh/general/ojk-pd-room-allocations.pdf",
      "sampul": "sampul/general/ojk-pd-room-allocations.jpg",
-     "ukuran_pptx": 855139,
-     "ukuran_pdf": 1122029
-    },
-    "general-foto": {
-     "slide": 13,
-     "nama": "OJK TKU - Room Allocations (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pd-room-allocations.pptx",
-     "pdf": "unduh/general-foto/ojk-pd-room-allocations.pdf",
-     "sampul": "sampul/general-foto/ojk-pd-room-allocations.jpg",
      "ukuran_pptx": 855370,
-     "ukuran_pdf": 1395734
+     "ukuran_pdf": 1395725
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "pd-02-soal",
@@ -217,27 +150,18 @@
    "bab": "Contoh Soal Room Allocations",
    "judul": "Contoh Soal Room Allocations",
    "dokumen": "https://docs.google.com/document/d/1DyUreRcyTFM6TCec4Srlk_cUit5zyv2_XC1OkyArjaU/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 11,
-     "nama": "OJK TKU - Contoh Soal Room Allocations (General)",
+     "slide": 8,
+     "nama": "OJK TKU - Contoh Soal Room Allocations",
      "pptx": "unduh/general/ojk-pd-room-allocations-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pd-room-allocations-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pd-room-allocations-contoh-soal.jpg",
-     "ukuran_pptx": 1446240,
-     "ukuran_pdf": 1314211
-    },
-    "general-foto": {
-     "slide": 11,
-     "nama": "OJK TKU - Contoh Soal Room Allocations (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pd-room-allocations-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-pd-room-allocations-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-pd-room-allocations-contoh-soal.jpg",
-     "ukuran_pptx": 1446476,
-     "ukuran_pdf": 1587930
+     "ukuran_pptx": 967301,
+     "ukuran_pdf": 1485791
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "pd-03",
@@ -245,27 +169,18 @@
    "bab": "Timeline Scheduling",
    "judul": "Timeline Scheduling",
    "dokumen": "https://docs.google.com/document/d/1uywjxquMQRfUxr12ohHEeVNQnUNg3IDO/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 27,
-     "nama": "OJK TKU - Timeline Scheduling (General)",
+     "nama": "OJK TKU - Timeline Scheduling",
      "pptx": "unduh/general/ojk-pd-timeline-scheduling.pptx",
      "pdf": "unduh/general/ojk-pd-timeline-scheduling.pdf",
      "sampul": "sampul/general/ojk-pd-timeline-scheduling.jpg",
-     "ukuran_pptx": 963349,
-     "ukuran_pdf": 1369270
-    },
-    "general-foto": {
-     "slide": 27,
-     "nama": "OJK TKU - Timeline Scheduling (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pd-timeline-scheduling.pptx",
-     "pdf": "unduh/general-foto/ojk-pd-timeline-scheduling.pdf",
-     "sampul": "sampul/general-foto/ojk-pd-timeline-scheduling.jpg",
-     "ukuran_pptx": 963582,
-     "ukuran_pdf": 1642973
+     "ukuran_pptx": 963874,
+     "ukuran_pdf": 1643896
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "pd-03-soal",
@@ -273,27 +188,18 @@
    "bab": "Contoh Soal Timeline Scheduling",
    "judul": "Contoh Soal Timeline Scheduling",
    "dokumen": "https://docs.google.com/document/d/1uywjxquMQRfUxr12ohHEeVNQnUNg3IDO/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 29,
-     "nama": "OJK TKU - Contoh Soal Timeline Scheduling (General)",
+     "slide": 30,
+     "nama": "OJK TKU - Contoh Soal Timeline Scheduling",
      "pptx": "unduh/general/ojk-pd-timeline-scheduling-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pd-timeline-scheduling-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pd-timeline-scheduling-contoh-soal.jpg",
-     "ukuran_pptx": 1179418,
-     "ukuran_pdf": 1595931
-    },
-    "general-foto": {
-     "slide": 29,
-     "nama": "OJK TKU - Contoh Soal Timeline Scheduling (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pd-timeline-scheduling-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-pd-timeline-scheduling-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-pd-timeline-scheduling-contoh-soal.jpg",
-     "ukuran_pptx": 1179649,
-     "ukuran_pdf": 1869663
+     "ukuran_pptx": 1182790,
+     "ukuran_pdf": 1875658
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "pd-04",
@@ -301,27 +207,18 @@
    "bab": "Badges",
    "judul": "Badges",
    "dokumen": "https://docs.google.com/document/d/14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 22,
-     "nama": "OJK TKU - Badges (General)",
+     "nama": "OJK TKU - Badges",
      "pptx": "unduh/general/ojk-pd-badges.pptx",
      "pdf": "unduh/general/ojk-pd-badges.pdf",
      "sampul": "sampul/general/ojk-pd-badges.jpg",
-     "ukuran_pptx": 889845,
-     "ukuran_pdf": 1277870
-    },
-    "general-foto": {
-     "slide": 22,
-     "nama": "OJK TKU - Badges (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pd-badges.pptx",
-     "pdf": "unduh/general-foto/ojk-pd-badges.pdf",
-     "sampul": "sampul/general-foto/ojk-pd-badges.jpg",
      "ukuran_pptx": 890078,
-     "ukuran_pdf": 1551584
+     "ukuran_pdf": 1551578
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "pd-04-soal",
@@ -329,27 +226,18 @@
    "bab": "Contoh Soal Badges",
    "judul": "Contoh Soal Badges",
    "dokumen": "https://docs.google.com/document/d/14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 11,
-     "nama": "OJK TKU - Contoh Soal Badges (General)",
+     "nama": "OJK TKU - Contoh Soal Badges",
      "pptx": "unduh/general/ojk-pd-badges-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pd-badges-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pd-badges-contoh-soal.jpg",
-     "ukuran_pptx": 922007,
-     "ukuran_pdf": 1152732
-    },
-    "general-foto": {
-     "slide": 11,
-     "nama": "OJK TKU - Contoh Soal Badges (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-pd-badges-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-pd-badges-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-pd-badges-contoh-soal.jpg",
      "ukuran_pptx": 922246,
-     "ukuran_pdf": 1426440
+     "ukuran_pdf": 1426439
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-01",
@@ -357,27 +245,18 @@
    "bab": "Pengenalan OJK dan Waspada Investasi",
    "judul": "Pengenalan OJK dan Waspada Investasi",
    "dokumen": "https://docs.google.com/document/d/1QK4EVB5S5xiv59vimc2f3SVJcWAQaVd_TCDRPpblugE/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 49,
-     "nama": "OJK TKU - Pengenalan OJK dan Waspada Investasi (General)",
+     "slide": 23,
+     "nama": "OJK TKU - Pengenalan OJK dan Waspada Investasi",
      "pptx": "unduh/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.pptx",
      "pdf": "unduh/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.pdf",
      "sampul": "sampul/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.jpg",
-     "ukuran_pptx": 1622823,
-     "ukuran_pdf": 1812819
-    },
-    "general-foto": {
-     "slide": 49,
-     "nama": "OJK TKU - Pengenalan OJK dan Waspada Investasi (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.jpg",
-     "ukuran_pptx": 1623053,
-     "ukuran_pdf": 2086565
+     "ukuran_pptx": 1144407,
+     "ukuran_pdf": 1544548
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-01-soal",
@@ -385,27 +264,18 @@
    "bab": "Contoh Soal Pengenalan OJK dan Waspada Investasi",
    "judul": "Contoh Soal Pengenalan OJK dan Waspada Investasi",
    "dokumen": "https://docs.google.com/document/d/1QK4EVB5S5xiv59vimc2f3SVJcWAQaVd_TCDRPpblugE/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 36,
-     "nama": "OJK TKU - Contoh Soal Pengenalan OJK dan Waspada Investasi (General)",
+     "nama": "OJK TKU - Contoh Soal Pengenalan OJK dan Waspada Investasi",
      "pptx": "unduh/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi-contoh-soal.jpg",
-     "ukuran_pptx": 872468,
-     "ukuran_pdf": 1329940
-    },
-    "general-foto": {
-     "slide": 36,
-     "nama": "OJK TKU - Contoh Soal Pengenalan OJK dan Waspada Investasi (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-pengenalan-ojk-dan-waspada-investasi-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-pengenalan-ojk-dan-waspada-investasi-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-pengenalan-ojk-dan-waspada-investasi-contoh-soal.jpg",
      "ukuran_pptx": 872704,
-     "ukuran_pdf": 1603705
+     "ukuran_pdf": 1603709
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-02",
@@ -413,27 +283,18 @@
    "bab": "Perencanaan Keuangan",
    "judul": "Perencanaan Keuangan",
    "dokumen": "https://docs.google.com/document/d/1qO5uAshmGEH2y1UcCPYhjg9Efmv5D86zEoNb_b_z_0M/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 17,
-     "nama": "OJK TKU - Perencanaan Keuangan (General)",
+     "slide": 14,
+     "nama": "OJK TKU - Perencanaan Keuangan",
      "pptx": "unduh/general/ojk-sjk-perencanaan-keuangan.pptx",
      "pdf": "unduh/general/ojk-sjk-perencanaan-keuangan.pdf",
      "sampul": "sampul/general/ojk-sjk-perencanaan-keuangan.jpg",
-     "ukuran_pptx": 871730,
-     "ukuran_pdf": 1174661
-    },
-    "general-foto": {
-     "slide": 17,
-     "nama": "OJK TKU - Perencanaan Keuangan (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-perencanaan-keuangan.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-perencanaan-keuangan.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-perencanaan-keuangan.jpg",
-     "ukuran_pptx": 871962,
-     "ukuran_pdf": 1448365
+     "ukuran_pptx": 860055,
+     "ukuran_pdf": 1414345
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-02-soal",
@@ -441,27 +302,18 @@
    "bab": "Contoh Soal Perencanaan Keuangan",
    "judul": "Contoh Soal Perencanaan Keuangan",
    "dokumen": "https://docs.google.com/document/d/1qO5uAshmGEH2y1UcCPYhjg9Efmv5D86zEoNb_b_z_0M/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 27,
-     "nama": "OJK TKU - Contoh Soal Perencanaan Keuangan (General)",
+     "nama": "OJK TKU - Contoh Soal Perencanaan Keuangan",
      "pptx": "unduh/general/ojk-sjk-perencanaan-keuangan-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-perencanaan-keuangan-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-perencanaan-keuangan-contoh-soal.jpg",
-     "ukuran_pptx": 838626,
-     "ukuran_pdf": 1204552
-    },
-    "general-foto": {
-     "slide": 27,
-     "nama": "OJK TKU - Contoh Soal Perencanaan Keuangan (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-perencanaan-keuangan-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-perencanaan-keuangan-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-perencanaan-keuangan-contoh-soal.jpg",
      "ukuran_pptx": 838857,
-     "ukuran_pdf": 1478313
+     "ukuran_pdf": 1478285
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-03",
@@ -469,27 +321,18 @@
    "bab": "Perbankan",
    "judul": "Perbankan",
    "dokumen": "https://docs.google.com/document/d/1UDHYRRG3l2UNzaappwnvJbDgHC42Dpe1fHmbO69VQyM/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 32,
-     "nama": "OJK TKU - Perbankan (General)",
+     "slide": 27,
+     "nama": "OJK TKU - Perbankan",
      "pptx": "unduh/general/ojk-sjk-perbankan.pptx",
      "pdf": "unduh/general/ojk-sjk-perbankan.pdf",
      "sampul": "sampul/general/ojk-sjk-perbankan.jpg",
-     "ukuran_pptx": 924880,
-     "ukuran_pdf": 1313116
-    },
-    "general-foto": {
-     "slide": 32,
-     "nama": "OJK TKU - Perbankan (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-perbankan.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-perbankan.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-perbankan.jpg",
-     "ukuran_pptx": 925112,
-     "ukuran_pdf": 1586828
+     "ukuran_pptx": 902765,
+     "ukuran_pdf": 1521174
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-03-soal",
@@ -497,27 +340,18 @@
    "bab": "Contoh Soal Perbankan",
    "judul": "Contoh Soal Perbankan",
    "dokumen": "https://docs.google.com/document/d/1UDHYRRG3l2UNzaappwnvJbDgHC42Dpe1fHmbO69VQyM/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 57,
-     "nama": "OJK TKU - Contoh Soal Perbankan (General)",
+     "nama": "OJK TKU - Contoh Soal Perbankan",
      "pptx": "unduh/general/ojk-sjk-perbankan-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-perbankan-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-perbankan-contoh-soal.jpg",
-     "ukuran_pptx": 944502,
-     "ukuran_pdf": 1535106
-    },
-    "general-foto": {
-     "slide": 57,
-     "nama": "OJK TKU - Contoh Soal Perbankan (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-perbankan-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-perbankan-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-perbankan-contoh-soal.jpg",
      "ukuran_pptx": 944740,
-     "ukuran_pdf": 1808906
+     "ukuran_pdf": 1808876
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-04",
@@ -525,27 +359,18 @@
    "bab": "Perusahaan Pembiayaan",
    "judul": "Perusahaan Pembiayaan",
    "dokumen": "https://docs.google.com/document/d/1mWn4NBBPXGDBf4tlq6ThvfvLVglGdCpuelxyT0unylc/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 31,
-     "nama": "OJK TKU - Perusahaan Pembiayaan (General)",
+     "slide": 30,
+     "nama": "OJK TKU - Perusahaan Pembiayaan",
      "pptx": "unduh/general/ojk-sjk-perusahaan-pembiayaan.pptx",
      "pdf": "unduh/general/ojk-sjk-perusahaan-pembiayaan.pdf",
      "sampul": "sampul/general/ojk-sjk-perusahaan-pembiayaan.jpg",
-     "ukuran_pptx": 919404,
-     "ukuran_pdf": 1300618
-    },
-    "general-foto": {
-     "slide": 31,
-     "nama": "OJK TKU - Perusahaan Pembiayaan (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-perusahaan-pembiayaan.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-perusahaan-pembiayaan.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-perusahaan-pembiayaan.jpg",
-     "ukuran_pptx": 919635,
-     "ukuran_pdf": 1574340
+     "ukuran_pptx": 910025,
+     "ukuran_pdf": 1539532
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-04-soal",
@@ -553,27 +378,18 @@
    "bab": "Contoh Soal Perusahaan Pembiayaan",
    "judul": "Contoh Soal Perusahaan Pembiayaan",
    "dokumen": "https://docs.google.com/document/d/1mWn4NBBPXGDBf4tlq6ThvfvLVglGdCpuelxyT0unylc/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 57,
-     "nama": "OJK TKU - Contoh Soal Perusahaan Pembiayaan (General)",
+     "slide": 45,
+     "nama": "OJK TKU - Contoh Soal Perusahaan Pembiayaan",
      "pptx": "unduh/general/ojk-sjk-perusahaan-pembiayaan-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-perusahaan-pembiayaan-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-perusahaan-pembiayaan-contoh-soal.jpg",
-     "ukuran_pptx": 943168,
-     "ukuran_pdf": 1502897
-    },
-    "general-foto": {
-     "slide": 57,
-     "nama": "OJK TKU - Contoh Soal Perusahaan Pembiayaan (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-perusahaan-pembiayaan-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-perusahaan-pembiayaan-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-perusahaan-pembiayaan-contoh-soal.jpg",
-     "ukuran_pptx": 943405,
-     "ukuran_pdf": 1776707
+     "ukuran_pptx": 901539,
+     "ukuran_pdf": 1655135
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-05",
@@ -581,27 +397,18 @@
    "bab": "Pergadaian",
    "judul": "Pergadaian",
    "dokumen": "https://docs.google.com/document/d/1cAorp1cgMWE0hHYohVsB_HYblRc8K4SVVNN98WraHaU/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 28,
-     "nama": "OJK TKU - Pergadaian (General)",
+     "slide": 25,
+     "nama": "OJK TKU - Pergadaian",
      "pptx": "unduh/general/ojk-sjk-pergadaian.pptx",
      "pdf": "unduh/general/ojk-sjk-pergadaian.pdf",
      "sampul": "sampul/general/ojk-sjk-pergadaian.jpg",
-     "ukuran_pptx": 907919,
-     "ukuran_pdf": 1227268
-    },
-    "general-foto": {
-     "slide": 28,
-     "nama": "OJK TKU - Pergadaian (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-pergadaian.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-pergadaian.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-pergadaian.jpg",
-     "ukuran_pptx": 908151,
-     "ukuran_pdf": 1500994
+     "ukuran_pptx": 893428,
+     "ukuran_pdf": 1455293
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-05-soal",
@@ -609,27 +416,18 @@
    "bab": "Contoh Soal Pergadaian",
    "judul": "Contoh Soal Pergadaian",
    "dokumen": "https://docs.google.com/document/d/1cAorp1cgMWE0hHYohVsB_HYblRc8K4SVVNN98WraHaU/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 53,
-     "nama": "OJK TKU - Contoh Soal Pergadaian (General)",
+     "slide": 43,
+     "nama": "OJK TKU - Contoh Soal Pergadaian",
      "pptx": "unduh/general/ojk-sjk-pergadaian-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-pergadaian-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-pergadaian-contoh-soal.jpg",
-     "ukuran_pptx": 930757,
-     "ukuran_pdf": 1472045
-    },
-    "general-foto": {
-     "slide": 53,
-     "nama": "OJK TKU - Contoh Soal Pergadaian (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-pergadaian-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-pergadaian-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-pergadaian-contoh-soal.jpg",
-     "ukuran_pptx": 930995,
-     "ukuran_pdf": 1745830
+     "ukuran_pptx": 896293,
+     "ukuran_pdf": 1645491
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-06",
@@ -637,27 +435,18 @@
    "bab": "Lembaga Keuangan Mikro",
    "judul": "Lembaga Keuangan Mikro",
    "dokumen": "https://docs.google.com/document/d/1OTtwmI2YDMk8PV3Ec6LuwN8ioVnPw_BG/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 26,
-     "nama": "OJK TKU - Lembaga Keuangan Mikro (General)",
+     "slide": 21,
+     "nama": "OJK TKU - Lembaga Keuangan Mikro",
      "pptx": "unduh/general/ojk-sjk-lembaga-keuangan-mikro.pptx",
      "pdf": "unduh/general/ojk-sjk-lembaga-keuangan-mikro.pdf",
      "sampul": "sampul/general/ojk-sjk-lembaga-keuangan-mikro.jpg",
-     "ukuran_pptx": 941281,
-     "ukuran_pdf": 1268522
-    },
-    "general-foto": {
-     "slide": 26,
-     "nama": "OJK TKU - Lembaga Keuangan Mikro (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-lembaga-keuangan-mikro.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-lembaga-keuangan-mikro.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-lembaga-keuangan-mikro.jpg",
-     "ukuran_pptx": 941512,
-     "ukuran_pdf": 1542228
+     "ukuran_pptx": 922629,
+     "ukuran_pdf": 1486732
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-06-soal",
@@ -665,27 +454,18 @@
    "bab": "Contoh Soal Lembaga Keuangan Mikro",
    "judul": "Contoh Soal Lembaga Keuangan Mikro",
    "dokumen": "https://docs.google.com/document/d/1OTtwmI2YDMk8PV3Ec6LuwN8ioVnPw_BG/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Lembaga Keuangan Mikro (General)",
+     "nama": "OJK TKU - Contoh Soal Lembaga Keuangan Mikro",
      "pptx": "unduh/general/ojk-sjk-lembaga-keuangan-mikro-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-lembaga-keuangan-mikro-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-lembaga-keuangan-mikro-contoh-soal.jpg",
-     "ukuran_pptx": 809499,
-     "ukuran_pdf": 1113388
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Lembaga Keuangan Mikro (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-lembaga-keuangan-mikro-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-lembaga-keuangan-mikro-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-lembaga-keuangan-mikro-contoh-soal.jpg",
-     "ukuran_pptx": 809736,
-     "ukuran_pdf": 1387115
+     "ukuran_pptx": 808226,
+     "ukuran_pdf": 1378211
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-07",
@@ -693,27 +473,18 @@
    "bab": "Lembaga Penjaminan",
    "judul": "Lembaga Penjaminan",
    "dokumen": "https://docs.google.com/document/d/1vVXxQRLgSa2dgB3m3eLvqRJjpz-eTN2I/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 24,
-     "nama": "OJK TKU - Lembaga Penjaminan (General)",
+     "slide": 20,
+     "nama": "OJK TKU - Lembaga Penjaminan",
      "pptx": "unduh/general/ojk-sjk-lembaga-penjaminan.pptx",
      "pdf": "unduh/general/ojk-sjk-lembaga-penjaminan.pdf",
      "sampul": "sampul/general/ojk-sjk-lembaga-penjaminan.jpg",
-     "ukuran_pptx": 946395,
-     "ukuran_pdf": 1250369
-    },
-    "general-foto": {
-     "slide": 24,
-     "nama": "OJK TKU - Lembaga Penjaminan (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-lembaga-penjaminan.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-lembaga-penjaminan.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-lembaga-penjaminan.jpg",
-     "ukuran_pptx": 946625,
-     "ukuran_pdf": 1524057
+     "ukuran_pptx": 931660,
+     "ukuran_pdf": 1479830
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-07-soal",
@@ -721,27 +492,18 @@
    "bab": "Contoh Soal Lembaga Penjaminan",
    "judul": "Contoh Soal Lembaga Penjaminan",
    "dokumen": "https://docs.google.com/document/d/1vVXxQRLgSa2dgB3m3eLvqRJjpz-eTN2I/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Lembaga Penjaminan (General)",
+     "nama": "OJK TKU - Contoh Soal Lembaga Penjaminan",
      "pptx": "unduh/general/ojk-sjk-lembaga-penjaminan-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-lembaga-penjaminan-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-lembaga-penjaminan-contoh-soal.jpg",
-     "ukuran_pptx": 809619,
-     "ukuran_pdf": 1115277
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Lembaga Penjaminan (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-lembaga-penjaminan-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-lembaga-penjaminan-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-lembaga-penjaminan-contoh-soal.jpg",
-     "ukuran_pptx": 809855,
-     "ukuran_pdf": 1389010
+     "ukuran_pptx": 808298,
+     "ukuran_pdf": 1380044
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-08",
@@ -749,27 +511,18 @@
    "bab": "Perusahaan Modal Ventura",
    "judul": "Perusahaan Modal Ventura",
    "dokumen": "https://docs.google.com/document/d/1WmmrvzKKpdYLqNRG8atOF6E29BDjCokJ/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 24,
-     "nama": "OJK TKU - Perusahaan Modal Ventura (General)",
+     "slide": 21,
+     "nama": "OJK TKU - Perusahaan Modal Ventura",
      "pptx": "unduh/general/ojk-sjk-perusahaan-modal-ventura.pptx",
      "pdf": "unduh/general/ojk-sjk-perusahaan-modal-ventura.pdf",
      "sampul": "sampul/general/ojk-sjk-perusahaan-modal-ventura.jpg",
-     "ukuran_pptx": 933488,
-     "ukuran_pdf": 1243772
-    },
-    "general-foto": {
-     "slide": 24,
-     "nama": "OJK TKU - Perusahaan Modal Ventura (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-perusahaan-modal-ventura.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-perusahaan-modal-ventura.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-perusahaan-modal-ventura.jpg",
-     "ukuran_pptx": 933719,
-     "ukuran_pdf": 1517450
+     "ukuran_pptx": 921043,
+     "ukuran_pdf": 1482582
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-08-soal",
@@ -777,27 +530,18 @@
    "bab": "Contoh Soal Perusahaan Modal Ventura",
    "judul": "Contoh Soal Perusahaan Modal Ventura",
    "dokumen": "https://docs.google.com/document/d/1WmmrvzKKpdYLqNRG8atOF6E29BDjCokJ/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Perusahaan Modal Ventura (General)",
+     "nama": "OJK TKU - Contoh Soal Perusahaan Modal Ventura",
      "pptx": "unduh/general/ojk-sjk-perusahaan-modal-ventura-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-perusahaan-modal-ventura-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-perusahaan-modal-ventura-contoh-soal.jpg",
-     "ukuran_pptx": 809435,
-     "ukuran_pdf": 1114745
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Perusahaan Modal Ventura (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-perusahaan-modal-ventura-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-perusahaan-modal-ventura-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-perusahaan-modal-ventura-contoh-soal.jpg",
-     "ukuran_pptx": 809672,
-     "ukuran_pdf": 1388470
+     "ukuran_pptx": 808090,
+     "ukuran_pdf": 1379713
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-09",
@@ -805,27 +549,18 @@
    "bab": "Digital Financial Literacy",
    "judul": "Digital Financial Literacy",
    "dokumen": "https://docs.google.com/document/d/1o46asaxR23ZZ9Lc9dTE0JH3KXG1EZGb8/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 22,
-     "nama": "OJK TKU - Digital Financial Literacy (General)",
+     "slide": 17,
+     "nama": "OJK TKU - Digital Financial Literacy",
      "pptx": "unduh/general/ojk-sjk-digital-financial-literacy.pptx",
      "pdf": "unduh/general/ojk-sjk-digital-financial-literacy.pdf",
      "sampul": "sampul/general/ojk-sjk-digital-financial-literacy.jpg",
-     "ukuran_pptx": 891764,
-     "ukuran_pdf": 1184006
-    },
-    "general-foto": {
-     "slide": 22,
-     "nama": "OJK TKU - Digital Financial Literacy (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-digital-financial-literacy.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-digital-financial-literacy.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-digital-financial-literacy.jpg",
-     "ukuran_pptx": 891995,
-     "ukuran_pdf": 1457720
+     "ukuran_pptx": 872389,
+     "ukuran_pdf": 1403373
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-09-soal",
@@ -833,27 +568,18 @@
    "bab": "Contoh Soal Digital Financial Literacy",
    "judul": "Contoh Soal Digital Financial Literacy",
    "dokumen": "https://docs.google.com/document/d/1o46asaxR23ZZ9Lc9dTE0JH3KXG1EZGb8/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Digital Financial Literacy (General)",
+     "nama": "OJK TKU - Contoh Soal Digital Financial Literacy",
      "pptx": "unduh/general/ojk-sjk-digital-financial-literacy-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-digital-financial-literacy-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-digital-financial-literacy-contoh-soal.jpg",
-     "ukuran_pptx": 809500,
-     "ukuran_pdf": 1116308
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Digital Financial Literacy (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-digital-financial-literacy-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-digital-financial-literacy-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-digital-financial-literacy-contoh-soal.jpg",
-     "ukuran_pptx": 809737,
-     "ukuran_pdf": 1390031
+     "ukuran_pptx": 808172,
+     "ukuran_pdf": 1381196
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-10",
@@ -861,27 +587,18 @@
    "bab": "Fintech",
    "judul": "Fintech",
    "dokumen": "https://docs.google.com/document/d/1UvkibRk0sbV54m3noReJ1ISRkXIH9lkj/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 17,
-     "nama": "OJK TKU - Fintech (General)",
+     "slide": 15,
+     "nama": "OJK TKU - Fintech",
      "pptx": "unduh/general/ojk-sjk-fintech.pptx",
      "pdf": "unduh/general/ojk-sjk-fintech.pdf",
      "sampul": "sampul/general/ojk-sjk-fintech.jpg",
-     "ukuran_pptx": 908641,
-     "ukuran_pdf": 1171689
-    },
-    "general-foto": {
-     "slide": 17,
-     "nama": "OJK TKU - Fintech (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-fintech.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-fintech.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-fintech.jpg",
-     "ukuran_pptx": 908874,
-     "ukuran_pdf": 1445393
+     "ukuran_pptx": 900656,
+     "ukuran_pdf": 1422290
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-10-soal",
@@ -889,27 +606,18 @@
    "bab": "Contoh Soal Fintech",
    "judul": "Contoh Soal Fintech",
    "dokumen": "https://docs.google.com/document/d/1UvkibRk0sbV54m3noReJ1ISRkXIH9lkj/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 23,
-     "nama": "OJK TKU - Contoh Soal Fintech (General)",
+     "slide": 11,
+     "nama": "OJK TKU - Contoh Soal Fintech",
      "pptx": "unduh/general/ojk-sjk-fintech-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-fintech-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-fintech-contoh-soal.jpg",
-     "ukuran_pptx": 824874,
-     "ukuran_pdf": 1165606
-    },
-    "general-foto": {
-     "slide": 23,
-     "nama": "OJK TKU - Contoh Soal Fintech (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-fintech-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-fintech-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-fintech-contoh-soal.jpg",
-     "ukuran_pptx": 825111,
-     "ukuran_pdf": 1439390
+     "ukuran_pptx": 780637,
+     "ukuran_pdf": 1304810
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-11",
@@ -917,27 +625,18 @@
    "bab": "Asuransi",
    "judul": "Asuransi",
    "dokumen": "https://docs.google.com/document/d/1gpyvMRL5spfjf1L_eGoaYU10DczsnfQb/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 25,
-     "nama": "OJK TKU - Asuransi (General)",
+     "slide": 20,
+     "nama": "OJK TKU - Asuransi",
      "pptx": "unduh/general/ojk-sjk-asuransi.pptx",
      "pdf": "unduh/general/ojk-sjk-asuransi.pdf",
      "sampul": "sampul/general/ojk-sjk-asuransi.jpg",
-     "ukuran_pptx": 932568,
-     "ukuran_pdf": 1256642
-    },
-    "general-foto": {
-     "slide": 25,
-     "nama": "OJK TKU - Asuransi (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-asuransi.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-asuransi.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-asuransi.jpg",
-     "ukuran_pptx": 932799,
-     "ukuran_pdf": 1530332
+     "ukuran_pptx": 913051,
+     "ukuran_pdf": 1478208
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-11-soal",
@@ -945,27 +644,18 @@
    "bab": "Contoh Soal Asuransi",
    "judul": "Contoh Soal Asuransi",
    "dokumen": "https://docs.google.com/document/d/1gpyvMRL5spfjf1L_eGoaYU10DczsnfQb/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 24,
-     "nama": "OJK TKU - Contoh Soal Asuransi (General)",
+     "slide": 14,
+     "nama": "OJK TKU - Contoh Soal Asuransi",
      "pptx": "unduh/general/ojk-sjk-asuransi-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-asuransi-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-asuransi-contoh-soal.jpg",
-     "ukuran_pptx": 828045,
-     "ukuran_pdf": 1175096
-    },
-    "general-foto": {
-     "slide": 24,
-     "nama": "OJK TKU - Contoh Soal Asuransi (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-asuransi-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-asuransi-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-asuransi-contoh-soal.jpg",
-     "ukuran_pptx": 828281,
-     "ukuran_pdf": 1448832
+     "ukuran_pptx": 791754,
+     "ukuran_pdf": 1338082
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-12",
@@ -973,27 +663,18 @@
    "bab": "Dana Pensiun",
    "judul": "Dana Pensiun",
    "dokumen": "https://docs.google.com/document/d/1rgp1sSQ3UT0prFgdJAZDetqwExzBTl1F/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 29,
-     "nama": "OJK TKU - Dana Pensiun (General)",
+     "slide": 26,
+     "nama": "OJK TKU - Dana Pensiun",
      "pptx": "unduh/general/ojk-sjk-dana-pensiun.pptx",
      "pdf": "unduh/general/ojk-sjk-dana-pensiun.pdf",
      "sampul": "sampul/general/ojk-sjk-dana-pensiun.jpg",
-     "ukuran_pptx": 917051,
-     "ukuran_pdf": 1276833
-    },
-    "general-foto": {
-     "slide": 29,
-     "nama": "OJK TKU - Dana Pensiun (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-dana-pensiun.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-dana-pensiun.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-dana-pensiun.jpg",
-     "ukuran_pptx": 917281,
-     "ukuran_pdf": 1550551
+     "ukuran_pptx": 903973,
+     "ukuran_pdf": 1503101
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-12-soal",
@@ -1001,27 +682,18 @@
    "bab": "Contoh Soal Dana Pensiun",
    "judul": "Contoh Soal Dana Pensiun",
    "dokumen": "https://docs.google.com/document/d/1rgp1sSQ3UT0prFgdJAZDetqwExzBTl1F/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
      "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Dana Pensiun (General)",
+     "nama": "OJK TKU - Contoh Soal Dana Pensiun",
      "pptx": "unduh/general/ojk-sjk-dana-pensiun-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-dana-pensiun-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-dana-pensiun-contoh-soal.jpg",
-     "ukuran_pptx": 813816,
-     "ukuran_pdf": 1126944
-    },
-    "general-foto": {
-     "slide": 19,
-     "nama": "OJK TKU - Contoh Soal Dana Pensiun (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-dana-pensiun-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-dana-pensiun-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-dana-pensiun-contoh-soal.jpg",
-     "ukuran_pptx": 814047,
-     "ukuran_pdf": 1400665
+     "ukuran_pptx": 812815,
+     "ukuran_pdf": 1395693
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-13",
@@ -1029,27 +701,18 @@
    "bab": "Pasar Modal",
    "judul": "Pasar Modal",
    "dokumen": "https://docs.google.com/document/d/1eVNYPRvT7ROTz5SVWX3oY80Q0bG0gu91/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 30,
-     "nama": "OJK TKU - Pasar Modal (General)",
+     "slide": 24,
+     "nama": "OJK TKU - Pasar Modal",
      "pptx": "unduh/general/ojk-sjk-pasar-modal.pptx",
      "pdf": "unduh/general/ojk-sjk-pasar-modal.pdf",
      "sampul": "sampul/general/ojk-sjk-pasar-modal.jpg",
-     "ukuran_pptx": 920310,
-     "ukuran_pdf": 1310169
-    },
-    "general-foto": {
-     "slide": 30,
-     "nama": "OJK TKU - Pasar Modal (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-pasar-modal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-pasar-modal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-pasar-modal.jpg",
-     "ukuran_pptx": 920543,
-     "ukuran_pdf": 1583884
+     "ukuran_pptx": 895067,
+     "ukuran_pdf": 1511724
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-13-soal",
@@ -1057,27 +720,18 @@
    "bab": "Contoh Soal Pasar Modal",
    "judul": "Contoh Soal Pasar Modal",
    "dokumen": "https://docs.google.com/document/d/1eVNYPRvT7ROTz5SVWX3oY80Q0bG0gu91/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 33,
-     "nama": "OJK TKU - Contoh Soal Pasar Modal (General)",
+     "slide": 23,
+     "nama": "OJK TKU - Contoh Soal Pasar Modal",
      "pptx": "unduh/general/ojk-sjk-pasar-modal-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-pasar-modal-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-pasar-modal-contoh-soal.jpg",
-     "ukuran_pptx": 864572,
-     "ukuran_pdf": 1273791
-    },
-    "general-foto": {
-     "slide": 33,
-     "nama": "OJK TKU - Contoh Soal Pasar Modal (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-pasar-modal-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-pasar-modal-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-pasar-modal-contoh-soal.jpg",
-     "ukuran_pptx": 864809,
-     "ukuran_pdf": 1547601
+     "ukuran_pptx": 827301,
+     "ukuran_pdf": 1440366
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-14",
@@ -1085,27 +739,18 @@
    "bab": "Bulion",
    "judul": "Bulion",
    "dokumen": "https://docs.google.com/document/d/1zXdx7-eSNG_fRF6KVEhbmI1S8rrAnEWh/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 23,
-     "nama": "OJK TKU - Bulion (General)",
+     "slide": 18,
+     "nama": "OJK TKU - Bulion",
      "pptx": "unduh/general/ojk-sjk-bulion.pptx",
      "pdf": "unduh/general/ojk-sjk-bulion.pdf",
      "sampul": "sampul/general/ojk-sjk-bulion.jpg",
-     "ukuran_pptx": 896823,
-     "ukuran_pdf": 1208266
-    },
-    "general-foto": {
-     "slide": 23,
-     "nama": "OJK TKU - Bulion (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-bulion.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-bulion.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-bulion.jpg",
-     "ukuran_pptx": 897056,
-     "ukuran_pdf": 1481961
+     "ukuran_pptx": 876233,
+     "ukuran_pdf": 1406224
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-14-soal",
@@ -1113,27 +758,18 @@
    "bab": "Contoh Soal Bulion",
    "judul": "Contoh Soal Bulion",
    "dokumen": "https://docs.google.com/document/d/1zXdx7-eSNG_fRF6KVEhbmI1S8rrAnEWh/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 27,
-     "nama": "OJK TKU - Contoh Soal Bulion (General)",
+     "slide": 17,
+     "nama": "OJK TKU - Contoh Soal Bulion",
      "pptx": "unduh/general/ojk-sjk-bulion-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-bulion-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-bulion-contoh-soal.jpg",
-     "ukuran_pptx": 842125,
-     "ukuran_pdf": 1210376
-    },
-    "general-foto": {
-     "slide": 27,
-     "nama": "OJK TKU - Contoh Soal Bulion (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-bulion-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-bulion-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-bulion-contoh-soal.jpg",
-     "ukuran_pptx": 842363,
-     "ukuran_pdf": 1484175
+     "ukuran_pptx": 802906,
+     "ukuran_pdf": 1363652
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-15",
@@ -1141,27 +777,18 @@
    "bab": "Aset Kripto",
    "judul": "Aset Kripto",
    "dokumen": "https://docs.google.com/document/d/1U_eiFlONn42doVtw_osfN51q7cgUBpd9/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 24,
-     "nama": "OJK TKU - Aset Kripto (General)",
+     "slide": 19,
+     "nama": "OJK TKU - Aset Kripto",
      "pptx": "unduh/general/ojk-sjk-aset-kripto.pptx",
      "pdf": "unduh/general/ojk-sjk-aset-kripto.pdf",
      "sampul": "sampul/general/ojk-sjk-aset-kripto.jpg",
-     "ukuran_pptx": 900498,
-     "ukuran_pdf": 1219709
-    },
-    "general-foto": {
-     "slide": 24,
-     "nama": "OJK TKU - Aset Kripto (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-aset-kripto.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-aset-kripto.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-aset-kripto.jpg",
-     "ukuran_pptx": 900732,
-     "ukuran_pdf": 1493432
+     "ukuran_pptx": 881113,
+     "ukuran_pdf": 1440811
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-15-soal",
@@ -1169,27 +796,18 @@
    "bab": "Contoh Soal Aset Kripto",
    "judul": "Contoh Soal Aset Kripto",
    "dokumen": "https://docs.google.com/document/d/1U_eiFlONn42doVtw_osfN51q7cgUBpd9/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 33,
-     "nama": "OJK TKU - Contoh Soal Aset Kripto (General)",
+     "slide": 21,
+     "nama": "OJK TKU - Contoh Soal Aset Kripto",
      "pptx": "unduh/general/ojk-sjk-aset-kripto-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-aset-kripto-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-aset-kripto-contoh-soal.jpg",
-     "ukuran_pptx": 862356,
-     "ukuran_pdf": 1266336
-    },
-    "general-foto": {
-     "slide": 33,
-     "nama": "OJK TKU - Contoh Soal Aset Kripto (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-aset-kripto-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-aset-kripto-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-aset-kripto-contoh-soal.jpg",
-     "ukuran_pptx": 862591,
-     "ukuran_pdf": 1540137
+     "ukuran_pptx": 818678,
+     "ukuran_pdf": 1413987
     }
-   },
-   "jenis": "soal"
+   }
   },
   {
    "id": "sjk-16",
@@ -1197,27 +815,18 @@
    "bab": "Keuangan Syariah",
    "judul": "Keuangan Syariah",
    "dokumen": "https://docs.google.com/document/d/11l3TdH59lj3dC0qO2EZgFvLJGpFg95Tl/edit",
+   "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 31,
-     "nama": "OJK TKU - Keuangan Syariah (General)",
+     "slide": 24,
+     "nama": "OJK TKU - Keuangan Syariah",
      "pptx": "unduh/general/ojk-sjk-keuangan-syariah.pptx",
      "pdf": "unduh/general/ojk-sjk-keuangan-syariah.pdf",
      "sampul": "sampul/general/ojk-sjk-keuangan-syariah.jpg",
-     "ukuran_pptx": 927834,
-     "ukuran_pdf": 1317978
-    },
-    "general-foto": {
-     "slide": 31,
-     "nama": "OJK TKU - Keuangan Syariah (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-keuangan-syariah.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-keuangan-syariah.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-keuangan-syariah.jpg",
-     "ukuran_pptx": 928071,
-     "ukuran_pdf": 1591689
+     "ukuran_pptx": 900479,
+     "ukuran_pdf": 1513812
     }
-   },
-   "jenis": "materi"
+   }
   },
   {
    "id": "sjk-16-soal",
@@ -1225,27 +834,18 @@
    "bab": "Contoh Soal Keuangan Syariah",
    "judul": "Contoh Soal Keuangan Syariah",
    "dokumen": "https://docs.google.com/document/d/11l3TdH59lj3dC0qO2EZgFvLJGpFg95Tl/edit",
+   "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 33,
-     "nama": "OJK TKU - Contoh Soal Keuangan Syariah (General)",
+     "slide": 23,
+     "nama": "OJK TKU - Contoh Soal Keuangan Syariah",
      "pptx": "unduh/general/ojk-sjk-keuangan-syariah-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-sjk-keuangan-syariah-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-sjk-keuangan-syariah-contoh-soal.jpg",
-     "ukuran_pptx": 864659,
-     "ukuran_pdf": 1273631
-    },
-    "general-foto": {
-     "slide": 33,
-     "nama": "OJK TKU - Contoh Soal Keuangan Syariah (General, sampul foto)",
-     "pptx": "unduh/general-foto/ojk-sjk-keuangan-syariah-contoh-soal.pptx",
-     "pdf": "unduh/general-foto/ojk-sjk-keuangan-syariah-contoh-soal.pdf",
-     "sampul": "sampul/general-foto/ojk-sjk-keuangan-syariah-contoh-soal.jpg",
-     "ukuran_pptx": 864894,
-     "ukuran_pdf": 1547461
+     "ukuran_pptx": 827657,
+     "ukuran_pdf": 1440485
     }
-   },
-   "jenis": "soal"
+   }
   }
  ],
  "css": "/* Dibuat oleh generator/buat_situs.py dari palet 'jadiojk' (generator/palet.py). */\n:root { --header: #821517; --header-aksen: #FFFFFF; --header-redup: #F6D4D4; --aksen: #821517; --aksen-teks: #FFFFFF; --kuning: #ED2224; --kuning-teks: #FFFFFF; --pdf-bg: #ED2224; --pdf-teks: #FFFFFF; --pdf-garis: #ED2224; --pilih: #ED2224; --fokus: #B01818; --bg: #FAF6F6; --teks: #2A1213; --redup: #6B4A4B; --samar: #9B8384; --garis: #EDDDDD; --sorot: #FBECEC; }\n@media (prefers-color-scheme: dark) { :root:not([data-theme=\"light\"]) { --aksen: #ED2224; --aksen-teks: #FFFFFF; --pdf-bg: transparent; --pdf-teks: #F58A8B; --pdf-garis: #ED2224; --pilih: #F58A8B; --fokus: #F58A8B; --bg: #1C0708; --kartu: #2C0E10; --teks: #F7ECEC; --redup: #D8BDBE; --garis: #4A1B1D; --sorot: #3A1315; } }\n:root[data-theme=\"dark\"] { --aksen: #ED2224; --aksen-teks: #FFFFFF; --pdf-bg: transparent; --pdf-teks: #F58A8B; --pdf-garis: #ED2224; --pilih: #F58A8B; --fokus: #F58A8B; --bg: #1C0708; --kartu: #2C0E10; --teks: #F7ECEC; --redup: #D8BDBE; --garis: #4A1B1D; --sorot: #3A1315; }\n"

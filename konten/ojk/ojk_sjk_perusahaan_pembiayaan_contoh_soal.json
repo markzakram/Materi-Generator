@@ -152,74 +152,6 @@
         },
         {
           "tipe": "contoh_soal",
-          "judul": "Menghitung Pokok Pembiayaan",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Harga barang Rp20.000.000 dan uang muka Rp5.000.000. Berapakah pokok pembiayaan sebelum bunga dan biaya lain?"
-            }
-          ],
-          "opsi": {
-            "A": "Rp5.000.000",
-            "B": "Rp10.000.000",
-            "C": "Rp15.000.000",
-            "D": "Rp20.000.000",
-            "E": "Rp25.000.000"
-          },
-          "kunci": "C",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "**Konsep:** Harga dikurangi uang muka"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pokok pembiayaan = Rp20.000.000 − Rp5.000.000 = Rp15.000.000."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Harga − DP."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Bunga Flat Ilustratif",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pokok pembiayaan Rp15.000.000 dikenakan bunga flat 10% untuk tenor 12 bulan, tanpa biaya lain. Angsuran per bulan adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "Rp1.250.000",
-            "B": "Rp1.300.000",
-            "C": "Rp1.350.000",
-            "D": "Rp1.375.000",
-            "E": "Rp1.500.000"
-          },
-          "kunci": "D",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "**Konsep:** Perhitungan bunga flat"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Bunga = Rp1.500.000; total = Rp16.500.000; cicilan = Rp16.500.000/12 = Rp1.375.000."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Tambahkan bunga setahun ke pokok, lalu bagi 12."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
           "judul": "Flat dan Efektif",
           "soal": [
             {
@@ -325,40 +257,6 @@
               "catatan": "tips",
               "judul": "Cara cepat",
               "teks": "Penagihan dan penanganan jaminan harus mengikuti hukum serta perjanjian yang sah."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Membandingkan Total Cicilan",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Penawaran A: Rp1.500.000 per bulan selama 12 bulan. Penawaran B: Rp1.100.000 per bulan selama 18 bulan. Dengan barang dan uang muka yang sama, pernyataan yang benar adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "Total A lebih mahal Rp1.800.000",
-            "B": "Total B lebih mahal Rp1.800.000",
-            "C": "Total keduanya sama",
-            "D": "A lebih mahal Rp3.000.000",
-            "E": "Tidak mungkin dibandingkan meski semua angka diberikan"
-          },
-          "kunci": "B",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "**Konsep:** Total pembayaran"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "A = 18.000.000; B = 19.800.000; selisih B−A = Rp1.800.000. Cicilan kecil tidak selalu total lebih hemat."
-            },
-            {
-              "jenis": "catatan",
-              "catatan": "tips",
-              "judul": "Cara cepat",
-              "teks": "Kalikan cicilan × tenor."
             }
           ]
         },
@@ -684,30 +582,6 @@
         },
         {
           "tipe": "contoh_soal",
-          "judul": "Biaya Total",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Cicilan A Rp2 juta selama 12 bulan tanpa biaya awal. Cicilan B Rp1,95 juta selama 12 bulan dengan biaya awal Rp1 juta. Lebih murah secara total adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "A selisih Rp400 ribu",
-            "B": "B selisih Rp400 ribu",
-            "C": "Sama",
-            "D": "A selisih Rp1 juta",
-            "E": "Tidak dapat ditentukan"
-          },
-          "kunci": "A",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "Total A Rp24 juta; B Rp24,4 juta. A lebih murah Rp400 ribu berdasarkan biaya yang diberikan."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
           "judul": "Perusahaan Infrastruktur",
           "soal": [
             {
@@ -799,54 +673,6 @@
             {
               "jenis": "paragraf",
               "teks": "UUS menjalankan fungsi kegiatan pembiayaan syariah dari perusahaan induknya."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Arus Kas",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Penghasilan bersih Rp10 juta, angsuran lama Rp3 juta, angsuran baru Rp5 juta. Total cicilan terhadap penghasilan bersih adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "20%",
-            "B": "30%",
-            "C": "50%",
-            "D": "80%",
-            "E": "100%"
-          },
-          "kunci": "D",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "(3+5)/10 × 100% = 80%; ini indikator yang perlu dipertimbangkan bersama kebutuhan hidup."
-            }
-          ]
-        },
-        {
-          "tipe": "contoh_soal",
-          "judul": "Pokok dan Jasa",
-          "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Pinjaman Rp30 juta dengan bunga flat 10% per tahun selama 1 tahun, tanpa biaya lain. Total bunga ilustratif adalah ..."
-            }
-          ],
-          "opsi": {
-            "A": "Rp300 ribu",
-            "B": "Rp1,5 juta",
-            "C": "Rp3 juta",
-            "D": "Rp10 juta",
-            "E": "Rp33 juta"
-          },
-          "kunci": "C",
-          "pembahasan": [
-            {
-              "jenis": "paragraf",
-              "teks": "Bunga flat = 30 juta × 10% × 1 = Rp3 juta."
             }
           ]
         }

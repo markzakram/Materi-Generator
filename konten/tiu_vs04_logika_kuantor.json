@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "“Semua peserta membawa kartu” berbeda dengan “Sebagian peserta membawa kartu”. Kalimat pertama berlaku untuk seluruh peserta. Kalimat kedua hanya memberi kepastian bahwa ada peserta yang membawa kartu. Perbedaan cakupan itu menentukan kesimpulan yang bisa diambil.",
-      "Kuantor adalah kata yang menunjukkan cakupan suatu pernyataan. Bab ini membahas cara membaca “semua”, “sebagian”, dan “tidak ada”, lalu menghubungkan dua pernyataan tentang kelompok."
+      "“Semua peserta membawa kartu” berbeda dengan “Sebagian peserta membawa kartu”. Kalimat pertama berlaku untuk seluruh peserta. Kalimat kedua hanya memberi kepastian bahwa ada peserta yang membawa kartu. Perbedaan cakupan itu menentukan kesimpulan yang bisa diambil."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -85,10 +84,6 @@
               "teks": "Semua A adalah B berarti setiap anggota A termasuk B. Sebagian A adalah B berarti ada setidaknya satu anggota A yang juga termasuk B. Tidak ada A yang B berarti kedua kelompok tidak memiliki anggota yang sama."
             },
             {
-              "jenis": "paragraf",
-              "teks": "“Setiap”, “seluruh”, dan “semua” menyatakan cakupan yang sama. Dalam soal logika, “ada”, “beberapa”, dan “sebagian” menyatakan bahwa setidaknya satu anggota memenuhi pernyataan. Dari “sebagian” saja, kita belum tahu apakah ada anggota lain yang tidak memenuhi pernyataan tersebut."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Bentuk Operator Kuantor"
             },
@@ -114,14 +109,6 @@
                   "Sebagian karyawan Cerebrum sehat."
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "“Tidak ada peserta yang terlambat” dapat dibaca “Semua peserta tidak terlambat”. Kata “tidak” berlaku pada “terlambat”. Sementara itu, “Tidak semua peserta terlambat” berarti ada setidaknya satu peserta yang tidak terlambat. Kedua kalimat tersebut mempunyai cakupan berbeda."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kalimat tanpa kata kuantor perlu dibaca menurut konteks. Pernyataan definisi seperti “Persegi adalah bangun bersisi empat” berlaku untuk setiap persegi. Kalimat “Rina membawa kartu” hanya memberi informasi tentang Rina. Kalimat umum tentang kebiasaan juga belum tentu menetapkan aturan bagi semua anggota kelompok."
             }
           ]
         }
@@ -171,19 +158,11 @@
               "keterangan": "Gambar 1. Panah “semua” berlaku untuk setiap anggota kelompok awal."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Untuk premis “sebagian”, catat anggota yang berada di kedua kelompok. “Sebagian teknisi adalah relawan” berarti ada teknisi yang juga relawan. Pernyataan itu dapat dibaca “Sebagian relawan adalah teknisi” karena membicarakan anggota yang sama. Pada “semua”, arah panah menentukan arti. Semua teknisi boleh termasuk pegawai lapangan meskipun ada pegawai lapangan yang bukan teknisi."
-            },
-            {
               "jenis": "gambar",
               "file": "media/tiu_vs04_logika_kuantor/gambar-02.png",
               "lebar": 4.97,
               "tinggi": 2.09,
               "keterangan": "Gambar 2. Cabang “sebagian” memetakan kemungkinan. Premis hanya menjamin cabang yang disebutkan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada pola “tidak ada”, pisahkan dua kelompok. Jika tidak ada pegawai kantor yang menanam durian, setiap pegawai kantor berada di luar kelompok penanam durian. Kita juga bisa mengatakan bahwa tidak ada penanam durian yang merupakan pegawai kantor tersebut."
             },
             {
               "jenis": "gambar",
@@ -267,22 +246,11 @@
               "teks": "Jika semua A termasuk B dan semua B termasuk C, semua A termasuk C. Jalurnya A → B → C."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Misalnya, semua teknisi adalah pegawai lapangan dan semua pegawai lapangan mengikuti pengarahan keselamatan. Setiap teknisi berada di kelompok tengah, sehingga ketentuan pada kelompok itu berlaku juga untuk teknisi."
-            },
-            {
               "jenis": "gambar",
               "file": "media/tiu_vs04_logika_kuantor/gambar-04.png",
               "lebar": 4.97,
               "tinggi": 2.09,
               "keterangan": "Gambar 4. Dua panah “semua” dapat disambung dari P melalui Q ke R."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-05.png",
-              "lebar": 5.89,
-              "tinggi": 3.5,
-              "keterangan": "Gambar 5. Aturan bagi seluruh pegawai lapangan berlaku juga untuk teknisi."
             },
             {
               "jenis": "subjudul",
@@ -293,22 +261,11 @@
               "teks": "Jika semua A termasuk B dan sebagian B termasuk C, belum tentu ada anggota A yang termasuk C."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Bayangkan semua anggota klub baca adalah siswa kelas VIII. Sebagian siswa kelas VIII ikut lomba. Peserta lomba bisa berasal dari klub baca, tetapi bisa juga semuanya berasal dari luar klub baca. Premis kedua belum menunjukkan anggota mana yang ikut lomba."
-            },
-            {
               "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-06.png",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-05.png",
               "lebar": 4.97,
               "tinggi": 2.09,
               "keterangan": "Gambar 6. Cabang pada Q membantu menguji kemungkinan. Sebagian Q yang termasuk R belum tentu berasal dari P."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-07.png",
-              "lebar": 5.89,
-              "tinggi": 3.31,
-              "keterangan": "Gambar 7. Orang yang sering berpenyakit bisa berada di luar kelompok orang buncit. Gambar menunjukkan kemungkinan, sementara simpulan pasti memerlukan premis tambahan."
             },
             {
               "jenis": "subjudul",
@@ -319,28 +276,6 @@
               "teks": "Jika semua A termasuk B dan sebagian A termasuk C, sebagian B termasuk C."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Misalnya, semua peserta klub bahasa adalah siswa aktif dan sebagian peserta klub bahasa mengikuti lomba pidato. Ambil satu peserta klub yang mengikuti lomba. Orang yang sama juga siswa aktif, sehingga ada siswa aktif yang mengikuti lomba."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-08.png",
-              "lebar": 4.97,
-              "tinggi": 2.09,
-              "keterangan": "Gambar 8. Pada pola kelompok awal, premis “sebagian” memilih anggota P. Diagram cabang saja belum menunjukkan anggota yang sama."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-09.png",
-              "lebar": 5.89,
-              "tinggi": 3.31,
-              "keterangan": "Gambar 9. Ikuti peserta klub bahasa yang ikut lomba. Orang tersebut juga siswa aktif. Cabang yang tidak ikut lomba menunjukkan kemungkinan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pola yang sama berlaku jika “sebagian” muncul lebih dahulu. Jika sebagian A termasuk B dan semua B termasuk C, sebagian A termasuk C. Anggota A yang diketahui termasuk B ikut memenuhi ketentuan yang berlaku bagi seluruh B."
-            },
-            {
               "jenis": "subjudul",
               "teks": "Sebagian dan Sebagian"
             },
@@ -349,22 +284,11 @@
               "teks": "Jika sebagian A termasuk B dan sebagian B termasuk C, anggota B pada kedua premis bisa berbeda. Hubungan A dan C belum pasti."
             },
             {
-              "jenis": "paragraf",
-              "teks": "Sebagian pegawai adalah relawan dan sebagian relawan mengikuti pelatihan. Relawan yang menjadi pegawai bisa berbeda dari relawan yang mengikuti pelatihan. Simpulan tentang pegawai yang ikut pelatihan baru pasti jika kedua premis menjamin bahwa orangnya sama."
-            },
-            {
               "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-10.png",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-06.png",
               "lebar": 4.97,
               "tinggi": 2.09,
               "keterangan": "Gambar 10. Cabang pada P dan Q membantu menguji apakah kedua premis membicarakan anggota yang sama."
-            },
-            {
-              "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-11.png",
-              "lebar": 5.89,
-              "tinggi": 3.31,
-              "keterangan": "Gambar 11. Relawan yang bekerja sebagai pegawai bisa berbeda dari relawan yang ikut pelatihan. Diagram ini memetakan kemungkinan."
             }
           ]
         }
@@ -381,10 +305,6 @@
             {
               "jenis": "paragraf",
               "teks": "Tentukan kelompok yang dibicarakan. Gambar panah untuk “semua”, tandai anggota yang sama untuk “sebagian”, dan pisahkan kelompok untuk “tidak ada”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Periksa apa yang ditanyakan. Untuk simpulan pasti, coba cari satu keadaan yang memenuhi kedua premis tetapi membuat opsi salah. Jika keadaan itu bisa dibuat, opsi tersebut tidak pasti benar. Untuk pertanyaan yang meminta simpulan yang mungkin, cukup cari satu keadaan yang memenuhi premis dan opsi sekaligus."
             },
             {
               "jenis": "paragraf",

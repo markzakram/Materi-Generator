@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Rasio membantu kita memahami perbandingan dua atau lebih jumlah. Dengan mengetahui rasionya, kita dapat menentukan pembagian suatu total, mencari nilai yang belum diketahui, atau menghitung jumlah keseluruhan dari selisih dua bagian. Langkah dasarnya adalah mencocokkan jumlah yang diketahui dengan banyak bagian yang diwakilinya.",
-      "Angka pada rasio menunjukkan banyak bagian yang sebanding. Besar setiap bagian baru dapat ditentukan setelah ada informasi jumlah sebenarnya. Karena itu, membaca urutan nama, satuan, serta keterangan jumlah atau selisih sama pentingnya dengan melakukan perhitungan."
+      "Rasio membantu kita memahami perbandingan dua atau lebih jumlah. Dengan mengetahui rasionya, kita dapat menentukan pembagian suatu total, mencari nilai yang belum diketahui, atau menghitung jumlah keseluruhan dari selisih dua bagian. Langkah dasarnya adalah mencocokkan jumlah yang diketahui dengan banyak bagian yang diwakilinya."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -107,15 +106,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Rasio membandingkan dua jumlah. Huruf kecil a dan b menyatakan angka perbandingannya, sedangkan huruf besar A dan B menyatakan nilai sebenarnya. Urutannya saling berpasangan, yaitu a untuk A dan b untuk B. Angka perbandingan menunjukkan hubungan antarjumlah sehingga nilainya dapat digunakan untuk menentukan bagian dari suatu total."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Jumlah kedua nilai diperoleh dengan menjumlahkan A dan B. Untuk selisih dalam perhitungan banyak benda atau uang, kurangi nilai yang lebih besar dengan nilai yang lebih kecil. Dengan demikian, selisih yang digunakan bernilai positif."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Sebelum menghitung, pastikan urutan nama sesuai dengan urutan angka perbandingan. Untuk dua besaran sejenis, satuannya juga harus sama. Jika urutan nama ditukar, angka perbandingannya ikut ditukar agar hubungan keduanya tetap benar."
             },
             {
               "jenis": "subjudul",
@@ -203,14 +194,6 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Jika jumlah keduanya diketahui, A merupakan bagian dari total A dan B. Karena seluruh bagian perbandingan adalah gabungan a dan b, angka a ditempatkan di atas pecahan dan jumlah a serta b ditempatkan di bawah pecahan. Kalikan pecahan tersebut dengan jumlah sebenarnya."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika selisih keduanya diketahui, gunakan selisih angka perbandingan di bawah pecahan. Tanda garis tegak pada selisih angka perbandingan menunjukkan nilai mutlak, yaitu besar selisih yang diambil positif. Angka a tetap berada di atas pecahan karena nilai yang dicari adalah A."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Pada rumus selisih, A dikurangi B digunakan ketika A lebih besar daripada B. Jika B lebih besar, gunakan B dikurangi A sebagai penggantinya. Nilai yang dimasukkan ke rumus harus berupa besar selisih yang positif."
             }
           ]
@@ -275,15 +258,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Cara mencari B mengikuti informasi yang sama. Angka b menjadi pembilang karena nilai B yang dicari. Jika yang diketahui total kedua nilai, penyebutnya berupa jumlah angka perbandingan. Jika yang diketahui selisih kedua nilai, penyebutnya berupa besar selisih angka perbandingan."
-            },
-            {
-              "jenis": "paragraf",
               "teks": "Penyebut dipilih berdasarkan informasi yang diketahui, sedangkan pembilang dipilih berdasarkan nilai yang ditanyakan. Jadi, satu total atau satu selisih dapat digunakan untuk menghitung A dan B secara terpisah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika ingin mencari jumlah keseluruhan dari selisih, jumlahkan kedua angka perbandingan di atas pecahan. Besar selisih perbandingan tetap menjadi penyebut."
             },
             {
               "jenis": "sorot",
@@ -308,10 +283,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jadi, jumlah buku Ani dan Budi adalah 50. Pembilang mewakili seluruh bagian, sedangkan penyebut mewakili selisih bagian."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Rumus selisih berlaku jika kedua angka perbandingan berbeda. Jika angkanya sama, kedua jumlah juga sama sehingga selisihnya nol. Selisih nol saja belum dapat menentukan besar masing-masing jumlah."
             }
           ]
         }
@@ -348,14 +319,6 @@
             {
               "jenis": "sorot",
               "teks": "$B=2/5·50=20$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perbandingan yang ditanyakan adalah angka atau gabungan angka milik nilai yang dicari. Perbandingan yang diketahui adalah angka, gabungan angka, atau selisih angka yang mewakili informasi dalam soal. Kedua bagian pecahan harus merujuk pada kelompok yang tepat."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Setelah memilih rumus, masukkan angka sesuai posisinya, hitung jumlah atau selisih dalam pecahan, lalu lakukan perkalian. Pecahan boleh disederhanakan terlebih dahulu dengan membagi pembilang dan penyebut oleh faktor yang sama."
             },
             {
               "jenis": "paragraf",
@@ -436,18 +399,6 @@
             {
               "jenis": "paragraf",
               "teks": "Jadi, jumlah buku ketiganya adalah 50. Angka 35 mewakili gabungan Ani dan Citra, sehingga penyebutnya berjumlah tujuh bagian."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Penyebut harus mengikuti kelompok yang jumlahnya diketahui. Gabungan dua kelompok digunakan sebagai penyebut ketika informasi yang tersedia memang hanya jumlah kedua kelompok tersebut. Angka kelompok lain ikut ditambahkan saat menghitung jumlah keseluruhan yang ditanyakan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Perbandingan boleh disederhanakan dengan membagi semua angkanya oleh faktor pembagi yang sama. Penyederhanaan diterapkan pada seluruh angka sekaligus. Gunakan satu bentuk perbandingan secara konsisten dalam satu perhitungan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk benda yang dihitung satu per satu, seperti permen, kelereng, dan orang, jumlah akhirnya harus berupa bilangan bulat. Jika hasilnya tidak bulat, periksa kembali urutan angka, kelompok yang diketahui, dan perhitungannya."
             }
           ]
         }
@@ -478,6 +429,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Perhitungan rasio dimulai dengan menentukan nilai yang diketahui dan nilai yang ditanyakan. Untuk mencari A, gunakan angka perbandingan a sebagai pembilang. Untuk mencari B, gunakan angka b. Penyebutnya mengikuti informasi yang diketahui, yaitu jumlah atau besar selisih angka perbandingan. Setelah memilih rumus, masukkan angka secara berurutan dan periksa hasilnya. Ketelitian membaca informasi membantu memilih perhitungan yang tepat. Periksa apakah suatu gabungan mencakup semua kelompok atau hanya kelompok tertentu. Setelah memperoleh hasil, kembalikan ke rasio, jumlah, atau selisih awal untuk memastikan jawabannya sesuai."
+    "pesan": "Perhitungan rasio dimulai dengan menentukan nilai yang diketahui dan nilai yang ditanyakan. Untuk mencari A, gunakan angka perbandingan a sebagai pembilang. Untuk mencari B, gunakan angka b. Penyebutnya mengikuti informasi yang diketahui, yaitu jumlah atau besar selisih angka perbandingan. Setelah memilih rumus, masukkan angka secara berurutan dan periksa hasilnya."
   }
 }

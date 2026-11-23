@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "“Jika berkas lengkap, maka berkas diperiksa” setara dengan “Berkas tidak lengkap atau berkas diperiksa”. Keduanya hanya salah ketika berkas lengkap tetapi tidak diperiksa.",
-      "Ekuivalensi membantu ketika premis dan pilihan jawaban memakai bentuk kalimat yang berbeda."
+      "“Jika berkas lengkap, maka berkas diperiksa” setara dengan “Berkas tidak lengkap atau berkas diperiksa”. Keduanya hanya salah ketika berkas lengkap tetapi tidak diperiksa."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -118,14 +117,6 @@
             {
               "jenis": "paragraf",
               "teks": "Misalkan p berarti “berkas lengkap” dan q berarti “berkas diperiksa”. Mulai dari “Jika berkas lengkap, maka berkas diperiksa”. Balik p menjadi “berkas tidak lengkap”, gunakan “atau”, dan biarkan q tetap. Hasilnya “Berkas tidak lengkap atau berkas diperiksa”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Untuk mengubah bentuk ¬p ∨ q kembali, balik ¬p menjadi p dan pertahankan q. Hasilnya p → q."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kesetaraan ini bisa diperiksa pada keadaan yang melanggar aturan. Jika berkas lengkap tetapi tidak diperiksa, kalimat jika–maka salah. Pada bentuk “atau”, bagian “berkas tidak lengkap” dan “berkas diperiksa” sama-sama salah. Pada keadaan lain, setidaknya satu bagian pada bentuk “atau” benar dan ketentuan jika–maka terpenuhi."
             }
           ]
         }
@@ -146,14 +137,6 @@
             {
               "jenis": "paragraf",
               "teks": "Contoh. “Jika berkas lengkap, maka berkas diperiksa” menjadi “Jika berkas tidak diperiksa, maka berkas tidak lengkap”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Pada kontraposisi, q berpindah ke bagian “jika” dan menjadi ¬q, sedangkan p berpindah ke bagian “maka” dan menjadi ¬p. Jika salah satu bagian sudah berbentuk negatif, balik seluruh pernyataannya. Misalnya, kebalikan “berkas tidak diperiksa” adalah “berkas diperiksa”."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika hanya ditukar, hasilnya “Jika berkas diperiksa, maka berkas lengkap”. Padahal, berkas yang belum lengkap juga mungkin diperiksa."
             }
           ]
         }
@@ -173,10 +156,6 @@
                 "Ubah premis jika bentuknya perlu disesuaikan agar bisa dipadukan dengan premis lain.",
                 "Jika hasil penalaran belum tampak pada opsi, tulis kesimpulan sementara, lalu cari bentuk yang setara."
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Mulailah dari tujuan perubahan. Jika premis berbentuk “atau” dan sulit dipasangkan dengan premis kedua, ubah premis itu menjadi jika–maka. Jika kedua premis sudah bisa disambung, tarik kesimpulannya terlebih dahulu. Ubah kesimpulan sementara hanya jika opsi menyatakan hasil yang sama dalam bentuk berbeda."
             }
           ]
         }
@@ -203,6 +182,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Hukum implikasi menulis p → q sebagai ¬p ∨ q. Kontraposisi menulisnya sebagai ¬q → ¬p. Gunakan bentuk yang membantu menghubungkan premis atau mencocokkan kesimpulan dengan opsi."
+    "pesan": ""
   }
 }

@@ -45,8 +45,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Dalam soal perkalian dan pembagian setara, kita mencari satu opsi yang memuat dua operasi dengan hasil yang sama. Perkalian dapat langsung dibandingkan, sedangkan pembagian diubah menjadi perkalian silang. Setelah itu, kita dapat menyederhanakan angka, mengecek satuan, dan menghitung penuh hanya saat diperlukan.",
-      "Angka yang panjang dapat membuat dua operasi sulit dibandingkan sekilas. Mulailah dengan mengubah keduanya ke bentuk yang lebih mudah diuji. Angka satuan membantu menyingkirkan pasangan yang pasti berbeda. Untuk memastikan dua hasil benar-benar sama, bandingkan hasil lengkap dari pasangan yang masih mungkin benar."
+      "Dalam soal perkalian dan pembagian setara, kita mencari satu opsi yang memuat dua operasi dengan hasil yang sama. Perkalian dapat langsung dibandingkan, sedangkan pembagian diubah menjadi perkalian silang. Setelah itu, kita dapat menyederhanakan angka, mengecek satuan, dan menghitung penuh hanya saat diperlukan."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -88,10 +87,6 @@
             {
               "jenis": "paragraf",
               "teks": "Satu soal mempunyai lima opsi, A sampai E. Setiap opsi berisi dua operasi yang dibandingkan. Pilih satu opsi yang kedua hasilnya sama. Kata “dibandingkan dengan” mengajak kita menguji pasangan tersebut."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Soal juga dapat disajikan lewat cerita singkat. Pada perkalian, perhatikan apakah yang dibandingkan adalah jumlah seluruh barang, misalnya banyak paket dikali isi per paket. Pada pembagian, perhatikan apakah yang dibandingkan adalah isi tiap paket, misalnya jumlah barang dibagi banyak paket."
             }
           ]
         }
@@ -137,10 +132,6 @@
                   "1.980 × 28 = 55.440"
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kedua pembagi harus selain nol. Perkalian silang menguji kesamaan secara tepat, termasuk saat hasil pembagian berbentuk desimal berulang."
             }
           ]
         }
@@ -230,10 +221,6 @@
                   "1.824"
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Selalu ambil angka satuan dari bentuk setelah penyederhanaan. Jika nol masih tersisa di akhir sebuah faktor, nol itulah angka satuannya. Pada hasil yang lebih dari satu digit, seperti 24, yang dibandingkan hanya digit terakhirnya, yaitu 4."
             }
           ]
         }
@@ -260,6 +247,6 @@
         "teks": ""
       }
     ],
-    "pesan": "Pada perkalian, bandingkan dua hasil kali secara langsung. Pada pembagian, tulis dulu hasil kali silang. Coret nol akhir secara berpasangan, lalu cek angka satuan. Jika satuannya sama, hitung kedua hasil secara lengkap sebelum memilih jawaban. Biasakan menulis pasangan kiri dan kanan pada baris yang sama agar mudah dicek. Bila masih ada nol setelah penyederhanaan, pertahankan nol itu saat mencari angka satuan. Pada pembagian, baca ulang hasil kali silang sebelum menghitung. Cara ini membantu menemukan kesalahan seperti memasangkan angka dengan pembagi dari sisi yang sama."
+    "pesan": "Pada perkalian, bandingkan dua hasil kali secara langsung. Pada pembagian, tulis dulu hasil kali silang. Coret nol akhir secara berpasangan, lalu cek angka satuan. Jika satuannya sama, hitung kedua hasil secara lengkap sebelum memilih jawaban."
   }
 }
