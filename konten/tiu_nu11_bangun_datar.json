@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "judul": "Bangun Datar",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Bangun Datar",
+    "sumber": "https://docs.google.com/document/d/1ma4KhW33VPbAuGNwFaeLZk1h8QUA0o3xmxu0Yjv6KBs/edit",
+    "id_katalog": "nu-11"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bangun datar membantu kita menggambarkan bentuk pada permukaan, seperti ubin, halaman, atau lingkaran pada gambar. Saat menghitung keliling, kita mengukur panjang di sekeliling bangun. Saat menghitung luas, kita mengukur besar daerah di dalam batas itu.",
+      "Sebelum memilih rumus, kenali bentuknya dan baca ukuran pada gambar. Panjang sisi, tinggi, diagonal, jari-jari, dan diameter mempunyai peran berbeda. Memilih ukuran yang tepat sama pentingnya dengan melakukan perhitungannya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "keliling, luas, sisi, sudut, dan diagonal pada gambar bangun datar."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "berbagai bangun datar dari ciri dan unsur yang ditunjukkan."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "dan menggunakan rumus keliling, luas, atau diagonal sesuai ukuran yang diketahui."
+      },
+      {
+        "level": "",
+        "kko": "Menafsirkan",
+        "teks": "hasil hitung dengan satuan yang tepat, termasuk pada masalah pengukuran dan biaya."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Bangun Datar",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Bangun Datar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bangun datar adalah bangun dua dimensi yang hanya memiliki panjang dan lebar, tetapi tidak memiliki ketebalan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-01.png",
+              "lebar": 6.17,
+              "tinggi": 2.03
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada gambar, garis merah yang mengelilingi bangun menunjukkan keliling. Warna merah yang memenuhi bagian dalam menunjukkan luas. Jika panjang diukur dalam sentimeter, keliling juga bersatuan sentimeter, sedangkan luas dinyatakan dalam sentimeter persegi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diagonal menghubungkan dua titik sudut yang tidak bertetangga. Garis diagonal melintas di dalam persegi panjang pada gambar, sehingga tidak ikut dijumlahkan saat mencari panjang batas luarnya. Tidak semua bangun datar memiliki diagonal. Segitiga tidak memilikinya karena semua pasangan titik sudut pada segitiga bersebelahan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Macam-Macam Bangun Datar",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Macam-Macam Bangun Datar",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-02.png",
+              "lebar": 6.18,
+              "tinggi": 2.34
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kenali bangun dari sifatnya, bukan dari arah gambar. Persegi yang diputar tetap mempunyai empat sisi sama panjang dan empat sudut siku-siku. Lingkaran berbeda dari bangun bersisi lurus karena batas luarnya melengkung dan tidak mempunyai titik sudut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Persegi dan Persegi Panjang",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Persegi dan Persegi Panjang",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Persegi"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-03.png",
+              "lebar": 2.0,
+              "tinggi": 2.25
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan: s adalah panjang sisi, d adalah panjang diagonal, L adalah luas, dan K adalah keliling."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=s², K=4s, d=s√2$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keempat sisi persegi sama panjang dan keempat sudutnya siku-siku. Luas diperoleh dari satu sisi dikali sisi yang lain, sementara keliling menjumlahkan empat sisi yang sama panjang. Diagonal menghubungkan dua pojok yang berhadapan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Persegi Panjang"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-04.png",
+              "lebar": 2.47,
+              "tinggi": 2.06
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan: p adalah panjang, l adalah lebar, d adalah panjang diagonal, L adalah luas, dan K adalah keliling."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=p×l, K=2(p+l), d=√(p²+l²)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persegi panjang mempunyai dua pasang sisi berhadapan yang sama panjang dan empat sudut siku-siku. Karena panjang dan lebar masing-masing muncul dua kali, kelilingnya dua kali jumlah panjang dan lebar. Huruf l pada rumus adalah huruf kecil untuk lebar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Segitiga",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Segitiga",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-05.png",
+              "lebar": 3.6,
+              "tinggi": 3.22
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan: a adalah alas atau sisi a, b adalah sisi b, c adalah sisi c, t adalah tinggi, L adalah luas, dan K adalah keliling."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=1/2×a×t, K=a+b+c$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alas dapat dipilih dari salah satu sisi. Tinggi yang digunakan harus tegak lurus pada garis alas itu dan diukur dari titik sudut di seberangnya. Pada segitiga siku-siku, salah satu sisi yang saling tegak lurus dapat menjadi alas dan sisi satunya menjadi tinggi. Pada bentuk lain, tinggi bisa berupa garis bantu dan dapat jatuh di luar bangun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda garis pendek pada gambar menandai sisi yang sama panjang. Segitiga sama sisi memiliki tiga sisi sama panjang, segitiga sama kaki memiliki dua sisi sama panjang, dan segitiga sembarang memiliki tiga panjang sisi berbeda. Segitiga siku-siku dikenali dari sudut 90°, sehingga dapat sekaligus termasuk segitiga sama kaki atau sembarang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jajar Genjang dan Trapesium",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jajar Genjang dan Trapesium",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jajar Genjang"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-06.png",
+              "lebar": 3.19,
+              "tinggi": 1.99
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan: a adalah alas atau sisi a, b adalah sisi b, t adalah tinggi, L adalah luas, dan K adalah keliling."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=a×t, K=2(a+b)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua pasang sisi yang berhadapan sejajar dan sama panjang. Saat mencari luas, gunakan jarak tegak lurus antara sisi sejajar sebagai tinggi. Sisi miring dipakai pada keliling, sedangkan tinggi dipakai pada luas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Trapesium"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-07.png",
+              "lebar": 2.19,
+              "tinggi": 2.22
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan: a dan b adalah sisi sejajar, c dan d adalah dua sisi lainnya, t adalah tinggi, L adalah luas, dan K adalah keliling."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=1/2×(a+b)×t, K=a+b+c+d$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlahkan dua sisi sejajar sebelum mengalikan dengan tinggi dan membaginya dengan dua. Tingginya adalah jarak tegak lurus antara dua sisi sejajar. Untuk menghitung keliling, jumlahkan keempat sisi luar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Belah Ketupat dan Layang-Layang",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Belah Ketupat dan Layang-Layang",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Belah Ketupat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-08.png",
+              "lebar": 2.15,
+              "tinggi": 2.44
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan: d₁ dan d₂ adalah panjang diagonal, s adalah panjang sisi, L adalah luas, dan K adalah keliling."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=1/2×d₁×d₂, K=4s$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keempat sisi belah ketupat sama panjang. Pada gambar, kedua diagonal digambar putus-putus untuk membedakannya dari sisi luar. Untuk luas, gunakan panjang penuh kedua diagonal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Layang-Layang"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-09.png",
+              "lebar": 1.76,
+              "tinggi": 2.74
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan: d₁ dan d₂ adalah panjang diagonal, a dan b adalah panjang dua jenis sisi, L adalah luas, dan K adalah keliling."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=1/2×d₁×d₂, K=2(a+b)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Layang-layang memiliki dua pasang sisi berdekatan yang sama panjang. Tanda yang berbeda pada gambar menunjukkan dua pasangan itu. Rumus luasnya sama dengan belah ketupat karena keduanya memakai dua diagonal. Cara menghitung keliling mengikuti panjang sisi luarnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Lingkaran",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Lingkaran",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu11_bangun_datar/gambar-10.png",
+              "lebar": 2.42,
+              "tinggi": 2.42
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan: r adalah jari-jari, d adalah diameter, L adalah luas, dan K adalah keliling."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$d=2r$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=πr² atau L=πd²/4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=2πr atau K=πd$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$π≈22/7 atau π≈3,14$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih nilai π yang memudahkan perhitungan jika soal tidak menetapkan nilainya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jari-jari menghubungkan pusat dengan satu titik pada batas lingkaran. Diameter menghubungkan dua titik pada batas itu dan melewati pusat. Jika menggunakan rumus yang memuat jari-jari, bagi diameter dengan dua terlebih dahulu. Nilai 22 per 7 dan 3,14 adalah pendekatan untuk π."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah segitiga memiliki alas 16 cm, tinggi 12 cm, dan dua sisi lainnya masing-masing 10 cm dan 18 cm. Tentukan luas dan keliling segitiga tersebut."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan angka yang tertera, gunakan rumus luas segitiga terlebih dahulu. Huruf a menyatakan alas dan t menyatakan tinggi."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=1/2×a×t$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan alas 16 cm dan tinggi 12 cm."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=1/2×16×12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=8×12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=96 cm²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keliling diperoleh dari jumlah panjang ketiga sisi luar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=a+b+c$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=16+10+18$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=44 cm$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil hitung luasnya 96 cm² dan kelilingnya 44 cm. Perhatikan catatan konsistensi data berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Catatan tentang data: 96 cm² dan 44 cm adalah hasil memasukkan angka ke rumus. Data tersebut tidak membentuk segitiga yang mungkin. Jarak tegak lurus dari puncak ke garis alas tidak dapat lebih panjang daripada sisi miring yang menghubungkan puncak dengan ujung alas. Di sini, tinggi 12 cm sudah melebihi sisi 10 cm."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah taman berbentuk lingkaran memiliki diameter 14 m. Di sekeliling taman akan dipasang pagar dengan biaya Rp75.000 per meter. Bagian dalam taman akan ditanami rumput dengan biaya Rp25.000 per m². Jika nilai π yang digunakan adalah 22 per 7, tentukan total biaya yang diperlukan."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diameter taman adalah 14 m. Untuk menghitung luas, cari jari-jari terlebih dahulu."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$r=d/2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$r=14/2=7 m$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Panjang pagar mengikuti keliling lingkaran. Gunakan rumus keliling dengan diameter."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=πd$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=22/7×14$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=22×2=44 m$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalikan panjang pagar dengan tarif per meter."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya pagar=44×Rp75.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya pagar=Rp3.300.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk rumput, gunakan luas lingkaran dan jari-jari 7 m."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=πr²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=22/7×7²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=22/7×49$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=22×7=154 m²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalikan luas yang ditanami dengan tarif per meter persegi."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya rumput=154×Rp25.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya rumput=Rp3.850.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlahkan biaya pagar dan biaya rumput."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total biaya=Rp3.300.000+Rp3.850.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total biaya=Rp7.150.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, total biaya yang diperlukan adalah Rp7.150.000. Keliling dipakai pada tarif per meter, sedangkan luas dipakai pada tarif per meter persegi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Bangun Datar",
+        "teks": ""
+      },
+      {
+        "judul": "Macam-Macam Bangun Datar",
+        "teks": ""
+      },
+      {
+        "judul": "Persegi dan Persegi Panjang",
+        "teks": ""
+      },
+      {
+        "judul": "Segitiga",
+        "teks": ""
+      },
+      {
+        "judul": "Jajar Genjang dan Trapesium",
+        "teks": ""
+      },
+      {
+        "judul": "Belah Ketupat dan Layang-Layang",
+        "teks": ""
+      }
+    ],
+    "pesan": "Kenali dulu bentuk dan ukuran yang ditunjukkan. Gunakan keliling untuk panjang batas luar, luas untuk besar daerah di dalamnya, dan diagonal untuk jarak antartitik sudut yang tidak bersebelahan. Periksa satuan sejak awal agar ukuran yang berbeda tidak tercampur. Sebelum menyimpulkan, cek apakah angka sesuai dengan ciri bangunnya. Pada perhitungan biaya, cocokkan pula ukuran yang dihitung dengan tarifnya. Tarif per meter dikalikan panjang, sedangkan tarif per meter persegi dikalikan luas."
+  }
+}

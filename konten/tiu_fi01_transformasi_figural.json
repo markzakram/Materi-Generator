@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "judul": "Macam-Macam Transformasi Figural",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Figural - Macam-Macam Transformasi Figural",
+    "sumber": "https://drive.google.com/file/d/1J5NiNaYYj2Df2klVZIHtnkLNCU9wTphE/view",
+    "id_katalog": "fi-01",
+    "lewati_kosong": true
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 5
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Macam-Macam Transformasi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "kartu",
+          "judul": "Macam-Macam Transformasi Figural",
+          "kolom": 3,
+          "kartu": [
+            {
+              "judul": "Warna objek",
+              "poin": [
+                "Hitam-putih",
+                "Berpindah warna",
+                "Bertambah/berkurang warna",
+                "Arsir"
+              ]
+            },
+            {
+              "judul": "Letak objek",
+              "poin": [
+                "Musafir (pindah-pindah)",
+                "Tukar tempat (posisi)",
+                "Kesiangan (muncul nanti)",
+                "Kabur (hilang)",
+                "Kelap-kelip (hilang-muncul)"
+              ]
+            },
+            {
+              "judul": "Bentuk objek",
+              "poin": [
+                "Ganti objek",
+                "Tambah-kurang sisi",
+                "Membesar-mengecil"
+              ]
+            },
+            {
+              "judul": "Jumlah objek",
+              "poin": [
+                "Menggandakan diri",
+                "Deret jumlah objek"
+              ]
+            },
+            {
+              "judul": "Arah objek",
+              "poin": [
+                "Rotasi (45°, 90°, 135°,180°)",
+                "Pencerminan (Refleksi)"
+              ]
+            },
+            {
+              "judul": "Special case",
+              "poin": [
+                "Penjumlahan-pengurangan"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Warna Objek",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Hitam-putih",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-01.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-02.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Berpindah warna",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-03.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Bertambah/berkurang warna",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1 (Bertambah)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-04.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2 (Bertambah)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-05.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Arsir",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-06.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-07.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Letak Objek",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Musafir/Pindah-pindah",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-08.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Tukar tempat (posisi)",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-09.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-10.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Kesiangan (muncul nanti)",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-11.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-12.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Kabur (hilang)",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-13.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-14.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Kelap-kelip (hilang-muncul)",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-15.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-16.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bentuk Objek",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ganti objek",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-17.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-18.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Tambah/kurang sisi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-19.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Membesar-mengecil",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-20.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-21.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jumlah Objek",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menggandakan diri",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-22.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-23.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Deret jumlah objek",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-24.png",
+              "lebar": 6.66,
+              "tinggi": 1.44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Arah Objek",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rotasi (45°, 90°, 135°, 180°)",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1 (45°)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-25.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2 (90°)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-26.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Rotasi (45°, 90°, 135°, 180°) (lanjutan)",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 3 (135°)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-27.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 4 (180°)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-28.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Pencerminan (Refleksi)",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1 (Secara Horizontal)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-29.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2 (Secara Vertikal)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-30.png",
+              "lebar": 3.18,
+              "tinggi": 1.44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Special Case",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penjumlahan/pengurangan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 1 (Penjumlahan)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-31.png",
+              "lebar": 4.92,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh 2 (Pengurangan)"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi01_transformasi_figural/gambar-32.png",
+              "lebar": 4.92,
+              "tinggi": 1.44
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -2,7 +2,7 @@
  "judul": "Materi TKU PCAM OJK",
  "merek": "JadiOJK · Materi PCAM OJK",
  "sumber_sheet": "https://docs.google.com/spreadsheets/d/1gbLje0bYQAQT6lN0QjSSd05OaPMGMdIRm6vRzo0zR-s/edit#gid=442022191",
- "dibuat": "2026-11-20",
+ "dibuat": "2026-11-23",
  "palet": "jadiojk",
  "tema": [
   {
@@ -23,22 +23,49 @@
    "dokumen": "https://docs.google.com/document/d/1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi/edit",
    "tema": {
     "general": {
-     "slide": 61,
+     "slide": 42,
      "nama": "OJK TKU - Fill Shape (General)",
      "pptx": "unduh/general/ojk-pi-fill-shape.pptx",
      "pdf": "unduh/general/ojk-pi-fill-shape.pdf",
      "sampul": "sampul/general/ojk-pi-fill-shape.jpg",
-     "ukuran_pptx": 1859555,
-     "ukuran_pdf": 2511506
+     "ukuran_pptx": 1460923,
+     "ukuran_pdf": 1964213
     },
     "general-foto": {
-     "slide": 61,
+     "slide": 42,
      "nama": "OJK TKU - Fill Shape (General, sampul foto)",
      "pptx": "unduh/general-foto/ojk-pi-fill-shape.pptx",
      "pdf": "unduh/general-foto/ojk-pi-fill-shape.pdf",
      "sampul": "sampul/general-foto/ojk-pi-fill-shape.jpg",
-     "ukuran_pptx": 1859794,
-     "ukuran_pdf": 2785165
+     "ukuran_pptx": 1461161,
+     "ukuran_pdf": 2237903
+    }
+   }
+  },
+  {
+   "id": "pi-01-soal",
+   "kelompok": "Penalaran Induktif",
+   "bab": "Contoh Soal Fill Shape",
+   "judul": "Contoh Soal Fill Shape",
+   "dokumen": "https://docs.google.com/document/d/1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi/edit",
+   "tema": {
+    "general": {
+     "slide": 22,
+     "nama": "OJK TKU - Contoh Soal Fill Shape (General)",
+     "pptx": "unduh/general/ojk-pi-fill-shape-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-pi-fill-shape-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-pi-fill-shape-contoh-soal.jpg",
+     "ukuran_pptx": 1176701,
+     "ukuran_pdf": 1503380
+    },
+    "general-foto": {
+     "slide": 22,
+     "nama": "OJK TKU - Contoh Soal Fill Shape (General, sampul foto)",
+     "pptx": "unduh/general-foto/ojk-pi-fill-shape-contoh-soal.pptx",
+     "pdf": "unduh/general-foto/ojk-pi-fill-shape-contoh-soal.pdf",
+     "sampul": "sampul/general-foto/ojk-pi-fill-shape-contoh-soal.jpg",
+     "ukuran_pptx": 1176937,
+     "ukuran_pdf": 1777154
     }
    }
   },
@@ -50,22 +77,49 @@
    "dokumen": "https://docs.google.com/document/d/1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr/edit",
    "tema": {
     "general": {
-     "slide": 52,
+     "slide": 38,
      "nama": "OJK TKU - Drag the Line (General)",
      "pptx": "unduh/general/ojk-pi-drag-the-line.pptx",
      "pdf": "unduh/general/ojk-pi-drag-the-line.pdf",
      "sampul": "sampul/general/ojk-pi-drag-the-line.jpg",
-     "ukuran_pptx": 1451864,
-     "ukuran_pdf": 1965666
+     "ukuran_pptx": 1177149,
+     "ukuran_pdf": 1575700
     },
     "general-foto": {
-     "slide": 52,
+     "slide": 38,
      "nama": "OJK TKU - Drag the Line (General, sampul foto)",
      "pptx": "unduh/general-foto/ojk-pi-drag-the-line.pptx",
      "pdf": "unduh/general-foto/ojk-pi-drag-the-line.pdf",
      "sampul": "sampul/general-foto/ojk-pi-drag-the-line.jpg",
-     "ukuran_pptx": 1452101,
-     "ukuran_pdf": 2239405
+     "ukuran_pptx": 1177386,
+     "ukuran_pdf": 1849418
+    }
+   }
+  },
+  {
+   "id": "pi-02-soal",
+   "kelompok": "Penalaran Induktif",
+   "bab": "Contoh Soal Drag the Line",
+   "judul": "Contoh Soal Drag the Line",
+   "dokumen": "https://docs.google.com/document/d/1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr/edit",
+   "tema": {
+    "general": {
+     "slide": 17,
+     "nama": "OJK TKU - Contoh Soal Drag the Line (General)",
+     "pptx": "unduh/general/ojk-pi-drag-the-line-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-pi-drag-the-line-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-pi-drag-the-line-contoh-soal.jpg",
+     "ukuran_pptx": 1026744,
+     "ukuran_pdf": 1297740
+    },
+    "general-foto": {
+     "slide": 17,
+     "nama": "OJK TKU - Contoh Soal Drag the Line (General, sampul foto)",
+     "pptx": "unduh/general-foto/ojk-pi-drag-the-line-contoh-soal.pptx",
+     "pdf": "unduh/general-foto/ojk-pi-drag-the-line-contoh-soal.pdf",
+     "sampul": "sampul/general-foto/ojk-pi-drag-the-line-contoh-soal.jpg",
+     "ukuran_pptx": 1026981,
+     "ukuran_pdf": 1571447
     }
    }
   },
@@ -77,22 +131,49 @@
    "dokumen": "https://docs.google.com/document/d/1E3yPOHTghB_nkdES7JNGFQaMA0ZzCu1LkUIXFBeXDWU/edit",
    "tema": {
     "general": {
-     "slide": 22,
+     "slide": 14,
      "nama": "OJK TKU - Calendar Date Selection (General)",
      "pptx": "unduh/general/ojk-pd-calendar-date-selection.pptx",
      "pdf": "unduh/general/ojk-pd-calendar-date-selection.pdf",
      "sampul": "sampul/general/ojk-pd-calendar-date-selection.jpg",
-     "ukuran_pptx": 934988,
-     "ukuran_pdf": 1281236
+     "ukuran_pptx": 857932,
+     "ukuran_pdf": 1116212
     },
     "general-foto": {
-     "slide": 22,
+     "slide": 14,
      "nama": "OJK TKU - Calendar Date Selection (General, sampul foto)",
      "pptx": "unduh/general-foto/ojk-pd-calendar-date-selection.pptx",
      "pdf": "unduh/general-foto/ojk-pd-calendar-date-selection.pdf",
      "sampul": "sampul/general-foto/ojk-pd-calendar-date-selection.jpg",
-     "ukuran_pptx": 935223,
-     "ukuran_pdf": 1554971
+     "ukuran_pptx": 858169,
+     "ukuran_pdf": 1389915
+    }
+   }
+  },
+  {
+   "id": "pd-01-soal",
+   "kelompok": "Penalaran Deduktif",
+   "bab": "Contoh Soal Calendar Date Selection",
+   "judul": "Contoh Soal Calendar Date Selection",
+   "dokumen": "https://docs.google.com/document/d/1E3yPOHTghB_nkdES7JNGFQaMA0ZzCu1LkUIXFBeXDWU/edit",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "OJK TKU - Contoh Soal Calendar Date Selection (General)",
+     "pptx": "unduh/general/ojk-pd-calendar-date-selection-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-pd-calendar-date-selection-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-pd-calendar-date-selection-contoh-soal.jpg",
+     "ukuran_pptx": 829280,
+     "ukuran_pdf": 1088366
+    },
+    "general-foto": {
+     "slide": 11,
+     "nama": "OJK TKU - Contoh Soal Calendar Date Selection (General, sampul foto)",
+     "pptx": "unduh/general-foto/ojk-pd-calendar-date-selection-contoh-soal.pptx",
+     "pdf": "unduh/general-foto/ojk-pd-calendar-date-selection-contoh-soal.pdf",
+     "sampul": "sampul/general-foto/ojk-pd-calendar-date-selection-contoh-soal.jpg",
+     "ukuran_pptx": 829516,
+     "ukuran_pdf": 1362074
     }
    }
   },
@@ -104,22 +185,49 @@
    "dokumen": "https://docs.google.com/document/d/1DyUreRcyTFM6TCec4Srlk_cUit5zyv2_XC1OkyArjaU/edit",
    "tema": {
     "general": {
-     "slide": 21,
+     "slide": 13,
      "nama": "OJK TKU - Room Allocations (General)",
      "pptx": "unduh/general/ojk-pd-room-allocations.pptx",
      "pdf": "unduh/general/ojk-pd-room-allocations.pdf",
      "sampul": "sampul/general/ojk-pd-room-allocations.jpg",
-     "ukuran_pptx": 1548807,
-     "ukuran_pdf": 1486294
+     "ukuran_pptx": 854899,
+     "ukuran_pdf": 1118388
     },
     "general-foto": {
-     "slide": 21,
+     "slide": 13,
      "nama": "OJK TKU - Room Allocations (General, sampul foto)",
      "pptx": "unduh/general-foto/ojk-pd-room-allocations.pptx",
      "pdf": "unduh/general-foto/ojk-pd-room-allocations.pdf",
      "sampul": "sampul/general-foto/ojk-pd-room-allocations.jpg",
-     "ukuran_pptx": 1549041,
-     "ukuran_pdf": 1760013
+     "ukuran_pptx": 855135,
+     "ukuran_pdf": 1392089
+    }
+   }
+  },
+  {
+   "id": "pd-02-soal",
+   "kelompok": "Penalaran Deduktif",
+   "bab": "Contoh Soal Room Allocations",
+   "judul": "Contoh Soal Room Allocations",
+   "dokumen": "https://docs.google.com/document/d/1DyUreRcyTFM6TCec4Srlk_cUit5zyv2_XC1OkyArjaU/edit",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "OJK TKU - Contoh Soal Room Allocations (General)",
+     "pptx": "unduh/general/ojk-pd-room-allocations-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-pd-room-allocations-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-pd-room-allocations-contoh-soal.jpg",
+     "ukuran_pptx": 1446240,
+     "ukuran_pdf": 1314211
+    },
+    "general-foto": {
+     "slide": 11,
+     "nama": "OJK TKU - Contoh Soal Room Allocations (General, sampul foto)",
+     "pptx": "unduh/general-foto/ojk-pd-room-allocations-contoh-soal.pptx",
+     "pdf": "unduh/general-foto/ojk-pd-room-allocations-contoh-soal.pdf",
+     "sampul": "sampul/general-foto/ojk-pd-room-allocations-contoh-soal.jpg",
+     "ukuran_pptx": 1446476,
+     "ukuran_pdf": 1587930
     }
    }
   },
@@ -131,22 +239,49 @@
    "dokumen": "https://docs.google.com/document/d/1uywjxquMQRfUxr12ohHEeVNQnUNg3IDO/edit",
    "tema": {
     "general": {
-     "slide": 52,
+     "slide": 26,
      "nama": "OJK TKU - Timeline Scheduling (General)",
      "pptx": "unduh/general/ojk-pd-timeline-scheduling.pptx",
      "pdf": "unduh/general/ojk-pd-timeline-scheduling.pdf",
      "sampul": "sampul/general/ojk-pd-timeline-scheduling.jpg",
-     "ukuran_pptx": 1388064,
-     "ukuran_pdf": 2070512
+     "ukuran_pptx": 960201,
+     "ukuran_pdf": 1356615
     },
     "general-foto": {
-     "slide": 52,
+     "slide": 26,
      "nama": "OJK TKU - Timeline Scheduling (General, sampul foto)",
      "pptx": "unduh/general-foto/ojk-pd-timeline-scheduling.pptx",
      "pdf": "unduh/general-foto/ojk-pd-timeline-scheduling.pdf",
      "sampul": "sampul/general-foto/ojk-pd-timeline-scheduling.jpg",
-     "ukuran_pptx": 1388302,
-     "ukuran_pdf": 2344294
+     "ukuran_pptx": 960438,
+     "ukuran_pdf": 1630324
+    }
+   }
+  },
+  {
+   "id": "pd-03-soal",
+   "kelompok": "Penalaran Deduktif",
+   "bab": "Contoh Soal Timeline Scheduling",
+   "judul": "Contoh Soal Timeline Scheduling",
+   "dokumen": "https://docs.google.com/document/d/1uywjxquMQRfUxr12ohHEeVNQnUNg3IDO/edit",
+   "tema": {
+    "general": {
+     "slide": 29,
+     "nama": "OJK TKU - Contoh Soal Timeline Scheduling (General)",
+     "pptx": "unduh/general/ojk-pd-timeline-scheduling-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-pd-timeline-scheduling-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-pd-timeline-scheduling-contoh-soal.jpg",
+     "ukuran_pptx": 1179425,
+     "ukuran_pdf": 1595919
+    },
+    "general-foto": {
+     "slide": 29,
+     "nama": "OJK TKU - Contoh Soal Timeline Scheduling (General, sampul foto)",
+     "pptx": "unduh/general-foto/ojk-pd-timeline-scheduling-contoh-soal.pptx",
+     "pdf": "unduh/general-foto/ojk-pd-timeline-scheduling-contoh-soal.pdf",
+     "sampul": "sampul/general-foto/ojk-pd-timeline-scheduling-contoh-soal.jpg",
+     "ukuran_pptx": 1179662,
+     "ukuran_pdf": 1869657
     }
    }
   },
@@ -158,22 +293,49 @@
    "dokumen": "https://docs.google.com/document/d/14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w/edit",
    "tema": {
     "general": {
-     "slide": 30,
+     "slide": 22,
      "nama": "OJK TKU - Badges (General)",
      "pptx": "unduh/general/ojk-pd-badges.pptx",
      "pdf": "unduh/general/ojk-pd-badges.pdf",
      "sampul": "sampul/general/ojk-pd-badges.jpg",
-     "ukuran_pptx": 1059438,
-     "ukuran_pdf": 1448754
+     "ukuran_pptx": 889589,
+     "ukuran_pdf": 1274286
     },
     "general-foto": {
-     "slide": 30,
+     "slide": 22,
      "nama": "OJK TKU - Badges (General, sampul foto)",
      "pptx": "unduh/general-foto/ojk-pd-badges.pptx",
      "pdf": "unduh/general-foto/ojk-pd-badges.pdf",
      "sampul": "sampul/general-foto/ojk-pd-badges.jpg",
-     "ukuran_pptx": 1059677,
-     "ukuran_pdf": 1722490
+     "ukuran_pptx": 889827,
+     "ukuran_pdf": 1547881
+    }
+   }
+  },
+  {
+   "id": "pd-04-soal",
+   "kelompok": "Penalaran Deduktif",
+   "bab": "Contoh Soal Badges",
+   "judul": "Contoh Soal Badges",
+   "dokumen": "https://docs.google.com/document/d/14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w/edit",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "OJK TKU - Contoh Soal Badges (General)",
+     "pptx": "unduh/general/ojk-pd-badges-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-pd-badges-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-pd-badges-contoh-soal.jpg",
+     "ukuran_pptx": 922007,
+     "ukuran_pdf": 1152732
+    },
+    "general-foto": {
+     "slide": 11,
+     "nama": "OJK TKU - Contoh Soal Badges (General, sampul foto)",
+     "pptx": "unduh/general-foto/ojk-pd-badges-contoh-soal.pptx",
+     "pdf": "unduh/general-foto/ojk-pd-badges-contoh-soal.pdf",
+     "sampul": "sampul/general-foto/ojk-pd-badges-contoh-soal.jpg",
+     "ukuran_pptx": 922246,
+     "ukuran_pdf": 1426440
     }
    }
   },
@@ -217,8 +379,8 @@
      "pptx": "unduh/general/ojk-sjk-perencanaan-keuangan.pptx",
      "pdf": "unduh/general/ojk-sjk-perencanaan-keuangan.pdf",
      "sampul": "sampul/general/ojk-sjk-perencanaan-keuangan.jpg",
-     "ukuran_pptx": 958817,
-     "ukuran_pdf": 1493114
+     "ukuran_pptx": 958848,
+     "ukuran_pdf": 1493141
     },
     "general-foto": {
      "slide": 41,
@@ -226,8 +388,8 @@
      "pptx": "unduh/general-foto/ojk-sjk-perencanaan-keuangan.pptx",
      "pdf": "unduh/general-foto/ojk-sjk-perencanaan-keuangan.pdf",
      "sampul": "sampul/general-foto/ojk-sjk-perencanaan-keuangan.jpg",
-     "ukuran_pptx": 959054,
-     "ukuran_pdf": 1766812
+     "ukuran_pptx": 959085,
+     "ukuran_pdf": 1766860
     }
    }
   },

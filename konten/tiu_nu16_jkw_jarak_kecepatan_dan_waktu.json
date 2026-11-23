@@ -1,0 +1,1005 @@
+{
+  "meta": {
+    "judul": "JKW (Jarak, Kecepatan, Waktu)",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - JKW (Jarak, Kecepatan, dan Waktu)",
+    "sumber": "https://docs.google.com/document/d/11yM9UV66x2JQMRjBGpoNzu6GAodjwEDz0n3QndRW3Bo/edit",
+    "id_katalog": "nu-16"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Jarak, kecepatan, dan waktu saling berkaitan dalam perjalanan. Jika dua di antaranya diketahui, nilai yang lain dapat dihitung. Segitiga JKW membantu memilih rumus dasar, sedangkan arah gerak dan waktu keberangkatan membantu menentukan cara menghitung waktu menyusul atau berpapasan.",
+      "Perhitungan dimulai dengan memahami perjalanan yang dibicarakan: siapa yang bergerak, dari mana ia berangkat, dan sejak kapan waktunya dihitung. Setelah itu, samakan satuan dan gunakan rumus yang sesuai. Dengan urutan ini, angka dalam soal memiliki arti yang jelas dan tidak sekadar dimasukkan ke rumus."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "arti jarak, kecepatan, dan waktu dalam perjalanan."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "segitiga JKW untuk mencari jarak, kecepatan, atau waktu."
+      },
+      {
+        "level": "",
+        "kko": "Menyamakan",
+        "teks": "satuan dan membedakan lama perjalanan dengan pukul tiba."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "rumus menyusul atau berpapasan berdasarkan arah gerak dan waktu keberangkatan."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "sisa jarak dan sisa waktu pada perjalanan yang diselingi pemberhentian."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Dasar Jarak, Kecepatan, dan Waktu",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Dasar Jarak, Kecepatan, dan Waktu",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jarak (J) adalah panjang lintasan yang ditempuh. Kecepatan (K) menyatakan jarak yang ditempuh setiap satuan waktu. Waktu (W) adalah lamanya perjalanan berlangsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecepatan 60 km/jam berarti kendaraan menempuh 60 km dalam satu jam jika kecepatannya tetap. Dalam dua jam, jaraknya menjadi dua kali lipat. Jika kecepatannya berubah selama perjalanan, kecepatan rata-rata diperoleh dari seluruh jarak dibagi seluruh waktu yang diperhitungkan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-01.png",
+              "lebar": 1.75,
+              "tinggi": 1.5
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Segitiga JKW: J berada di atas, sedangkan K dan W berada di bawah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tutup huruf yang ingin dicari. Jika dua huruf yang tersisa berdampingan, kalikan keduanya. Jika satu huruf berada di atas huruf lain, bagi huruf atas dengan huruf bawah."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-02.png",
+              "lebar": 6.25,
+              "tinggi": 1.51
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cara membaca segitiga: tutup J untuk mencari jarak, tutup K untuk mencari kecepatan, atau tutup W untuk mencari waktu."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$J=K×W$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=J/W$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=J/K$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Segitiga adalah alat bantu mengingat hubungan ketiganya. Huruf yang ditutup bukan angka nol dan bukan bagian yang ikut dihitung. Tentukan terlebih dahulu apa yang ditanyakan, baru pilih salah satu rumus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan rumus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rina menempuh 18 km dalam 1,5 jam. Untuk mencari kecepatannya, tutup K sehingga tersisa J dibagi W."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-03.png",
+              "lebar": 6.24,
+              "tinggi": 1.69
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=18/1,5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=12 km/jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, jarak rata-rata yang ditempuh Rina setiap jam adalah 12 km. Dari data yang sama, jarak dapat diperiksa dengan mengalikan 12 km/jam dengan 1,5 jam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Satuan dan Cara Membaca Waktu",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Satuan dan Cara Membaca Waktu",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satuan harus cocok sebelum angka dihitung. Kecepatan dalam km/jam harus dipasangkan dengan jarak dalam kilometer dan waktu dalam jam. Jika waktu masih dalam menit, ubah terlebih dahulu menjadi jam."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1 jam=60 menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1 km=1.000 m$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengubah menit menjadi jam, bagi jumlah menit dengan 60. Untuk mengubah bagian desimal jam menjadi menit, kalikan bagian desimal itu dengan 60."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh perubahan satuan"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$36 menit=36/60 jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$36 menit=0,6 jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$0,6 jam=36 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pukul menunjukkan saat tertentu, sedangkan jam sebagai durasi menunjukkan lamanya kegiatan. Pukul 07.00 ditambah perjalanan 3,6 jam menghasilkan pukul 10.36 karena 0,6 jam adalah 36 menit. Jangan membaca 3,6 jam sebagai 3 jam 6 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tabel rumus perjalanan, W dihitung sejak kendaraan pertama berangkat. Untuk mencari pukul bertemu, tambahkan W ke pukul keberangkatan pertama. Jika yang ditanyakan adalah lama perjalanan kendaraan kedua, kurangi W dengan selisih waktu keberangkatan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Ringkasan Rumus Perjalanan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ringkasan Rumus Perjalanan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan arah perjalanan dan apakah kedua kendaraan berangkat bersamaan. K₁ adalah kecepatan kendaraan pertama, K₂ adalah kecepatan kendaraan kedua, dan ΔT adalah selisih waktu keberangkatan. Pada keberangkatan berbeda waktu, kendaraan pertama berangkat lebih dahulu."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "W adalah lama waktu sejak kendaraan pertama berangkat sampai bertemu atau tersusul. Pada arah berlawanan, J adalah jarak awal antara kedua tempat keberangkatan. Pada perjalanan searah dari tempat yang sama, keduanya menempuh jarak J yang sama ketika bertemu; rumus waktunya cukup memakai kecepatan dan selisih keberangkatan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menyusul",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menyusul",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-04.png",
+              "lebar": 6.24,
+              "tinggi": 1.69
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menyusul dari tempat keberangkatan yang sama, kendaraan kedua harus lebih cepat. Selisih kecepatan menunjukkan seberapa cepat penyusul mendekati kendaraan pertama. Rumus pada tabel langsung memberikan lama perjalanan kendaraan pertama, sehingga tidak perlu memberi lambang lain untuk jarak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada saat tersusul, jarak yang ditempuh kedua kendaraan sama. Waktu bergeraknya berbeda: kendaraan pertama bergerak selama W, sedangkan kendaraan kedua bergerak selama W dikurangi ΔT. Inilah alasan selisih keberangkatan perlu diperhatikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan rumus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kendaraan pertama melaju 40 km/jam dan berangkat 30 menit lebih awal. Kendaraan kedua melaju 60 km/jam. Ubah 30 menit menjadi 0,5 jam, lalu gunakan rumus searah untuk keberangkatan tidak bersamaan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=K₂ΔT/(K₂−K₁)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(60×0,5)/(60−40)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=30/20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=1,5 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lama perjalanan kendaraan pertama adalah 1,5 jam. Untuk mengetahui lama perjalanan kendaraan kedua, kurangi hasil tersebut dengan selisih keberangkatan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W kedua=W−ΔT$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=1,5−0,5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=1 jam$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Berpapasan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Berpapasan",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-05.png",
+              "lebar": 6.24,
+              "tinggi": 1.69
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika dua kendaraan bergerak saling mendekat, gunakan jumlah kecepatan. Jika berangkat bersamaan, jarak awal J dibagi jumlah kecepatan. Hasilnya adalah lama perjalanan hingga berpapasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “berlawanan arah” perlu dibaca bersama konteksnya. Rumus berpapasan berlaku ketika keduanya bergerak saling mendekat pada lintasan yang sama, bukan ketika bergerak menjauhi satu sama lain."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-06.png",
+              "lebar": 6.24,
+              "tinggi": 1.69
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kendaraan pertama berangkat lebih awal, gunakan rumus berlawanan arah pada baris “Berangkat Tidak Bareng”. Masukkan jarak awal J, kedua kecepatan, dan selisih waktu ΔT. Hasil W tetap dihitung sejak kendaraan pertama berangkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kendaraan pertama sudah mencapai titik keberangkatan kendaraan kedua sebelum kendaraan kedua mulai bergerak, rumus dua kendaraan yang sama-sama bergerak belum dapat langsung digunakan. Periksa dahulu urutan waktu dalam cerita."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perjalanan dengan Pemberhentian",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perjalanan dengan Pemberhentian",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-07.png",
+              "lebar": 6.24,
+              "tinggi": 1.69
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat berhenti, waktu tetap berlalu tetapi jarak tidak bertambah. Agar tiba sesuai jadwal, sisa perjalanan harus diselesaikan dalam waktu yang masih tersedia. Kecepatan baru diperoleh dari sisa jarak dibagi sisa waktu bergerak."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Yang dicari",
+                "Rumus"
+              ],
+              "baris": [
+                [
+                  "Waktu target",
+                  "$W target=(J total)/(K awal)$"
+                ],
+                [
+                  "Sisa jarak",
+                  "$J sisa=J total−J ditempuh$"
+                ],
+                [
+                  "Sisa waktu bergerak",
+                  "$W sisa=W target−W terpakai−W berhenti$"
+                ],
+                [
+                  "Kecepatan baru",
+                  "$K baru=(J sisa)/(W sisa)$"
+                ],
+                [
+                  "Tambahan kecepatan",
+                  "$Tambahan K=K baru−K awal$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "W terpakai adalah waktu bergerak sebelum berhenti. W berhenti adalah lama pemberhentian. K baru menunjukkan kecepatan untuk sisa perjalanan; tambahan kecepatan menunjukkan kenaikannya dibandingkan kecepatan awal. Keduanya merupakan jawaban yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pastikan sisa waktu bergerak masih positif. Untuk menentukan kecepatan baru, perlu diketahui posisi atau jarak yang sudah ditempuh saat berhenti, kecuali pemberhentian dinyatakan terjadi sebelum perjalanan dimulai."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Langkah Mengerjakan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Langkah Mengerjakan",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Catat jarak, kecepatan, waktu, arah gerak, dan pukul keberangkatan yang diketahui.",
+                "Samakan satuan; ubah menit menjadi bagian dari satu jam jika kecepatan memakai km/jam.",
+                "Pilih segitiga JKW untuk satu perjalanan atau tabel rumus untuk dua kendaraan dan perjalanan bertahap.",
+                "Untuk keberangkatan tidak bersamaan, tentukan kendaraan pertama, kendaraan kedua, dan selisih waktunya.",
+                "Hitung bertahap, satu tanda sama dengan pada setiap baris; kemudian periksa satuan dan waktu yang menjadi titik awal."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rina menempuh perjalanan sejauh 18 km dalam waktu 1,5 jam. Kecepatan rata-rata perjalanan Rina adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "8 km/jam",
+            "B": "10 km/jam",
+            "C": "12 km/jam",
+            "D": "14 km/jam",
+            "E": "16 km/jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jarak (J)=18 km$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Waktu (W)=1,5 jam$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecepatan rata-rata perjalanan Rina."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-08.png",
+              "lebar": 1.46,
+              "tinggi": 1.25
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan segitiga JKW dan tutup K. J berada di atas W, sehingga jarak dibagi waktu."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=J/W$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=18/1,5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=12 km/jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, kecepatan rata-rata Rina adalah 12 km/jam. Jawaban C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua buah kereta api berjalan dengan jalur yang sama dengan kecepatan rata-rata 25 dan 30 mil/jam. Jika kereta pertama berjalan satu jam lebih awal. Berapa lama waktu yang diperlukan oleh kereta kedua agar dapat menyusul kereta pertama?"
+            }
+          ],
+          "opsi": {
+            "A": "3 jam",
+            "B": "4 jam",
+            "C": "5 jam",
+            "D": "6 jam",
+            "E": "7 jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 1 (K₁)=25 mil/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 2 (K₂)=30 mil/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Selisih waktu (ΔT)=1 jam$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lama waktu kereta kedua untuk menyusul, dihitung sejak kereta kedua mulai berjalan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus searah untuk keberangkatan tidak bersamaan. W pada rumus adalah lama perjalanan kereta pertama."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=K₂ΔT/(K₂−K₁)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(30×1)/(30−25)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=30/5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=6 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yang ditanyakan adalah lama perjalanan kereta kedua. Kereta kedua berangkat satu jam lebih lambat, sehingga waktu bergeraknya satu jam lebih singkat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W kereta kedua=W−ΔT$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=6−1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=5 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, kereta kedua membutuhkan 5 jam sejak mulai berjalan. Jawaban C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jarak kota Semarang ke Jakarta adalah 540 km. Tegar berangkat pada pukul 07.00 dengan kecepatan 45 km/jam, sedangkan Gelar berangkat pukul 08.00 dengan kecepatan 60 km/jam. Pada pukul berapa Gelar akan menyusul Tegar?"
+            }
+          ],
+          "opsi": {
+            "A": "10.00",
+            "B": "11.00",
+            "C": "12.00",
+            "D": "13.00",
+            "E": "14.00"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 1 (K₁)=45 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 2 (K₂)=60 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Selisih waktu (ΔT)=1 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberangkatan pertama: Tegar, pukul 07.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberangkatan kedua: Gelar, pukul 08.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jarak Semarang–Jakarta adalah 540 km."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pukul Gelar menyusul Tegar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus searah untuk keberangkatan tidak bersamaan. W dihitung sejak Tegar berangkat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=K₂ΔT/(K₂−K₁)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(60×1)/(60−45)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=60/15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Empat jam setelah pukul 07.00 adalah pukul 11.00. Jadi, Gelar menyusul Tegar pada pukul 11.00. Jawaban B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ahmad berangkat dari kota P pukul 07.00 dengan kecepatan rata-rata 60 km/jam. Pada saat yang sama Dhani berangkat dari kota Q menuju kota P dengan kecepatan rata-rata 40 km/jam. Jarak kota P dan Q ialah 360 km, maka Ahmad dan Dhani akan bertemu pada pukul …"
+            }
+          ],
+          "opsi": {
+            "A": "16.00",
+            "B": "13.00",
+            "C": "10.36",
+            "D": "10.12",
+            "E": "10.32"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jarak (J)=360 km$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 1 (K₁)=60 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 2 (K₂)=40 km/jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya berangkat pukul 07.00 dan bergerak saling mendekat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pukul Ahmad dan Dhani bertemu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus berlawanan arah untuk keberangkatan bersamaan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=J/(K₁+K₂)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=360/(60+40)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=360/100$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3,6 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian desimal 0,6 jam diubah menjadi menit."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$0,6 jam=0,6×60 menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=36 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lama perjalanan 3 jam 36 menit. Dihitung sejak pukul 07.00, keduanya bertemu pukul 10.36. Jawaban C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 5",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Alan mengendarai sepeda motor dari kota A ke kota B dengan kecepatan 25 km/jam dengan jarak 80 km. Dari arah berlawanan, Walker mengendarai sepeda motor dengan kecepatan 35 km/jam menuju kota A melalui jalan yang sama. Jika Alan berangkat pukul 06.00 dan Walker berangkat pukul 06.36, maka pada pukul berapa mereka berpapasan?"
+            }
+          ],
+          "opsi": {
+            "A": "07.00",
+            "B": "07.30",
+            "C": "07.41",
+            "D": "08.10",
+            "E": "08.41"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jarak (J)=80 km$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 1 (K₁)=25 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 2 (K₂)=35 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Selisih waktu (ΔT)=36 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberangkatan pertama: Alan, pukul 06.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberangkatan kedua: Walker, pukul 06.36."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pukul keduanya berpapasan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecepatan menggunakan km/jam, sehingga selisih waktu 36 menit diubah menjadi jam."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$ΔT=36/60 jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=0,6 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus berlawanan arah untuk keberangkatan tidak bersamaan. W dihitung sejak Alan berangkat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=(J+K₂·ΔT)/(K₁+K₂)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(80+35×0,6)/(25+35)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(80+21)/60$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=101/60 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ubah waktu tersebut menjadi menit."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=101/60×60 menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=101 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seratus satu menit adalah 1 jam 41 menit. Dihitung sejak pukul 06.00, keduanya berpapasan pukul 07.41. Jawaban C."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Dasar Jarak, Kecepatan, dan Waktu",
+        "teks": ""
+      },
+      {
+        "judul": "Satuan dan Cara Membaca Waktu",
+        "teks": ""
+      },
+      {
+        "judul": "Ringkasan Rumus Perjalanan",
+        "teks": ""
+      },
+      {
+        "judul": "Menyusul",
+        "teks": ""
+      },
+      {
+        "judul": "Berpapasan",
+        "teks": ""
+      },
+      {
+        "judul": "Perjalanan dengan Pemberhentian",
+        "teks": ""
+      }
+    ],
+    "pesan": "Gunakan segitiga JKW untuk satu perjalanan dan pilih rumus pada tabel berdasarkan arah serta waktu keberangkatan. Pada tabel, W dihitung sejak kendaraan pertama berangkat. Samakan satuan sebelum substitusi dan bedakan lama perjalanan kendaraan pertama dengan lama perjalanan kendaraan kedua. Biasakan menuliskan satuan dan menentukan sejak kapan waktu dihitung. Setelah memperoleh hasil, cocokkan kembali dengan arah gerak, urutan keberangkatan, dan hal yang ditanyakan. Pemeriksaan ini membantu membedakan lama perjalanan, pukul bertemu, kecepatan baru, serta tambahan kecepatan."
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Fill Shape",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Fill Shape",
+    "sumber": "https://docs.google.com/document/d/1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi/edit",
+    "bagian": "soal",
+    "id_katalog": "pi-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1 — Siklus warna pada segitiga",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan warna tiap bagian pada segitiga kosong bernomor. Bandingkan bagian yang sama dari gambar 1 sampai 4 sebelum mengisi gambar 5."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-21.png",
+              "lebar": 6.05,
+              "tinggi": 1.5
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Siklus warna pada bagian yang tetap. Bagian 1 kembali hijau pada gambar 4; jumlah bagian hijau tidak selalu sama."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Mulai dari bagian 1 di atas. Warnanya hijau, ungu bertitik, putih, lalu hijau. Urutannya menunjukkan siklus hijau → ungu → putih → hijau. Setelah hijau pada gambar 4, bagian ini menjadi ungu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Periksa bagian 2 di kanan bawah. Warnanya putih, hijau, ungu, lalu putih. Jadi, pada gambar berikutnya bagian 2 menjadi hijau. Bagian 4 di tengah memiliki urutan yang sama, sehingga menjadi hijau juga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Bagian 3 di kiri bawah mengikuti ungu, putih, hijau, ungu. Sesudah ungu, keadaannya putih. Semua bagian telah ditentukan, sehingga tidak ada daerah yang perlu ditebak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Bagian 1 ungu bertitik; bagian 2 dan 4 hijau; bagian 3 putih."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gambar 4 sama dengan gambar 1 secara lengkap. Setelah siklus tiap bagian teruji, gambar 5 sama dengan gambar 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isian yang perlu dihindari: Memutar gambar saja mempertahankan jumlah bagian tiap warna. Pada gambar 4 hanya ada satu bagian hijau, sedangkan gambar 5 memiliki dua. Bagian tengah (4) berubah dari putih menjadi hijau."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2 — Penambahan pada persegi delapan bagian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Persegi dibagi menjadi delapan segitiga kecil. Tentukan bagian mana yang harus hijau pada gambar berikutnya. Semua bagian lain tetap putih."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-22.png",
+              "lebar": 6.05,
+              "tinggi": 1.5
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penambahan satu bagian secara berurutan. Bagian yang sudah hijau tidak kembali putih."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Gambar 1 mempunyai satu bagian hijau, yaitu 1. Gambar 2 mempunyai dua, yaitu 1 dan 2. Gambar 3 mempunyai 1, 2, dan 3. Gambar 4 mempunyai 1, 2, 3, dan 4. Jadi, bagian lama selalu dipertahankan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Bagian baru ditambahkan searah jarum jam. Setelah 4, bagian berikutnya pada lintasan adalah 5. Karena penambahannya satu setiap kali, hanya bagian 5 yang ditambahkan dari gambar terakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Pertahankan bagian 1–4 hijau, lalu isi 5 hijau. Bagian 6–8 masih putih. Jumlah akhirnya lima bagian hijau, tetapi jawaban juga harus benar letaknya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Bagian 1–5 hijau; bagian 6–8 putih."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-23.png",
+              "lebar": 1.6,
+              "tinggi": 1.18
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa jumlah dan batas akhir warna. Keduanya harus maju tepat satu bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isian yang perlu dihindari: Hanya mengisi bagian 5 hijau memperlakukan penumpukan sebagai perpindahan. Mengisi 1–6 hijau menambahkan dua daerah. Mengisi daerah 8 sebagai tambahan melanggar arah pertambahan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 3 — Dua arah pada dua lapisan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan empat bagian dalam dan empat bagian luar pada persegi. Tentukan posisi hijau dan ungu pada gambar kelima tanpa menukar lapisannya."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-24.png",
+              "lebar": 6.05,
+              "tinggi": 1.5
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gerak yang berbeda pada lapisan dalam dan luar. Hijau selalu di luar; ungu selalu di dalam."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Lapisan luar bernomor 5–8. Hijau mengikuti 5, 6, 7, 8. Geraknya satu bagian searah jarum jam. Dari 8, posisi berikutnya kembali ke 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Lapisan dalam bernomor 1–4. Ungu mengikuti 1, 4, 3, 2. Geraknya satu bagian berlawanan arah jarum jam. Dari 2, posisi berikutnya kembali ke 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Gabungkan kedua hasil: bagian luar 5 hijau dan bagian dalam 1 ungu. Bagian lain putih. Walaupun keduanya berada di sisi kiri atas, garis batas menunjukkan bahwa keduanya merupakan bagian yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Bagian luar 5 hijau; bagian dalam 1 ungu bertitik; bagian lain putih."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-25.png",
+              "lebar": 1.6,
+              "tinggi": 1.18
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Catat urutan luar dan dalam pada dua baris terpisah, kemudian satukan hasil akhirnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isian yang perlu dihindari: Mengisi bagian 1 hijau dan 5 ungu menukar lapisan. Mengisi bagian 6 hijau dan 4 ungu mengulang gambar kedua, bukan menerapkan satu perubahan dari gambar keempat."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 4 — Panjang langkah yang bergantian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hijau dan ungu berada pada ujung luar bintang enam ujung. Tentukan isian berikutnya. Kali ini, jangan hanya melihat arah; hitung juga banyak ujung yang dilalui."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-26.png",
+              "lebar": 6.05,
+              "tinggi": 1.5
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rotasi dengan langkah satu dan dua secara bergantian. Arah tetap searah jarum jam; besar perpindahan berubah teratur."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Hijau mengikuti 1, 2, 4, 5. Dari 1 ke 2 maju satu; dari 2 ke 4 maju dua; dari 4 ke 5 maju satu. Jadi, langkah berikutnya dua. Dari 5, lewat 6 lalu tiba di 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Ungu mengikuti 4, 5, 1, 2. Perpindahannya juga satu, dua, satu. Selanjutnya maju dua dari 2, lewat 3 lalu tiba di 4. Kedua warna tetap berada pada ujung yang berseberangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Jawaban akhirnya ujung 1 hijau dan ujung 4 ungu. Semua bagian dalam putih karena tidak ada perubahan di sana sepanjang rangkaian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Ujung 1 hijau; ujung 4 ungu bertitik; semua bagian lain putih."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-27.png",
+              "lebar": 1.6,
+              "tinggi": 1.18
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tulis panjang langkahnya: satu, dua, satu, lalu dua. Jangan otomatis mengulang langkah terakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isian yang perlu dihindari: Hijau di 6 dan ungu di 3 mempertahankan pasangan berseberangan, tetapi salah panjang langkah. Karena itu, hubungan antardua warna saja belum cukup menentukan jawaban."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 5 — Memilih deret untuk gambar ketujuh",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Enam gambar disusun bergantian menggunakan hijau dan ungu. Tentukan gambar ketujuh dengan memeriksa kelompok nomor gambar terlebih dahulu."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-28.png",
+              "lebar": 5.75,
+              "tinggi": 3.6
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua deret ganjil–genap. Warna berganti setiap gambar; posisi bertahan selama dua gambar."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Pisahkan gambar 1, 3, dan 5. Ketiganya memuat hijau pada bagian 1, 2, dan 3. Deret ganjil bergerak satu bagian searah jarum jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Pisahkan gambar 2, 4, dan 6. Ketiganya memuat ungu pada bagian 1, 2, dan 3. Deret genap memiliki perpindahan serupa, tetapi warna yang dipakai ungu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Nomor 7 termasuk ganjil. Jadi, teruskan hijau dari gambar 5, yaitu bagian 3, menuju bagian 4. Bagian 1, 2, dan 3 putih. Jangan memakai ungu dari gambar 6 hanya karena gambar itu paling dekat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Bagian 4 hijau; bagian 1, 2, dan 3 putih."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk gambar 7, baca 1 → 3 → 5 → 7. Nomor gambar dan nomor bagian mempunyai fungsi yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isian yang perlu dihindari: Bagian 3 ungu mengulang gambar 6. Bagian 4 ungu memakai posisi yang tepat tetapi warna deret genap. Bagian 1 hijau mengembalikan siklus sebelum lintasan empat bagian selesai dilalui."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 6 — Cermin yang diikuti pertukaran warna",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar kelima pada persegi berikut. Perhatikan bahwa perubahan posisi saja belum menjelaskan seluruh susunan; warna juga berubah setelah posisi dicerminkan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-29.png",
+              "lebar": 6.05,
+              "tinggi": 1.5
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cerminkan posisi kiri dan kanan, lalu tukar hijau dengan ungu. Pada rangkaian ini, membaca susunan sebagai A–B–A–B memberi jawaban yang sama."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Dari gambar 1, cerminkan kiri dan kanan: hijau 1 pindah ke 2, sedangkan ungu 3 pindah ke 4. Namun, pada gambar 2, bagian 2 justru ungu dan bagian 4 hijau. Berarti setelah dicerminkan, kedua warna ditukar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Uji dari gambar 2 ke 3. Hijau 4 dicerminkan ke 3 lalu menjadi ungu; ungu 2 dicerminkan ke 1 lalu menjadi hijau. Hasilnya tepat sama dengan gambar 3. Perubahan berikutnya juga sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Terapkan aturan pada gambar 4. Hasilnya bagian 1 hijau dan bagian 3 ungu, sedangkan 2 dan 4 putih. Susunan ini sama dengan gambar 1 dan 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Bagian 1 hijau; bagian 3 ungu bertitik; bagian 2 dan 4 putih."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-30.png",
+              "lebar": 1.6,
+              "tinggi": 1.18
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Setelah aturan teruji, kenali susunan A–B–A–B. Gambar berikutnya kembali ke A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isian yang perlu dihindari: Cermin saja menghasilkan hijau 3 dan ungu 1, sehingga warnanya tertukar dari jawaban. Pola ini juga dapat dinyatakan sebagai pertukaran dua susunan; pada deret terbatas, uraian aturan tidak selalu tunggal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 7 — Langkah berbeda pada luar dan dalam",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bintang memiliki enam ujung luar dan enam segitiga dalam. Hijau selalu berada di ujung, sedangkan ungu berada di dalam. Tentukan posisi kedua warna pada gambar kelima."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-31.png",
+              "lebar": 6.05,
+              "tinggi": 1.5
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungan gerak satu langkah dan dua langkah. Ungu sudah kembali ke 7 pada gambar 4; hijau belum kembali ke 1."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Hijau luar mengikuti 1 → 2 → 3 → 4. Geraknya satu langkah searah jarum jam, sehingga posisi berikutnya ujung 5. Ujung lain tidak ikut diwarnai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Ungu dalam mengikuti 7 → 9 → 11 → 7. Geraknya dua langkah searah jarum jam pada lintasan 7–8–9–10–11–12. Dari 7, lewat 8 lalu tiba di 9."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Gabungkan hasilnya: ujung luar 5 hijau dan bagian dalam 9 ungu. Bagian lainnya putih. Ungu kembali lebih cepat karena menempuh dua posisi setiap kali; pengulangannya tidak mengulang posisi hijau."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Ujung luar 5 hijau; bagian dalam 9 ungu bertitik; semua bagian lain putih."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_fill_shape/gambar-32.png",
+              "lebar": 1.6,
+              "tinggi": 1.18
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lanjutkan luar dan dalam secara terpisah. Jangan menyalin seluruh gambar 2 hanya karena ungu sedang kembali ke posisi awal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isian yang perlu dihindari: Ungu di 8 maju satu langkah. Ungu di 11 maju empat langkah. Hijau di ujung 2 menyalin gambar 2. Dari gambar 4, hijau harus maju dari ujung 4 ke ujung 5."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

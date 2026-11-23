@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "judul": "Perbandingan Senilai dan Berbalik",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Perbandingan Senilai dan Berbalik",
+    "sumber": "https://docs.google.com/document/d/1qNrxIuWwYbY6CPXLj6c4f_OFsHv8F39GGDqFtJAcpHk/edit",
+    "id_katalog": "nu-14"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Perbandingan senilai dan berbalik membantu kita menentukan perubahan suatu nilai ketika nilai lain berubah. Pada hubungan senilai, kedua nilai berubah searah dan sebanding. Pada hubungan berbalik, kenaikan satu nilai diikuti penurunan nilai lainnya dengan hasil kali yang tetap. Jenis hubungan ditentukan terlebih dahulu agar susunan perhitungannya tepat.",
+      "Langkah awalnya adalah mengenali dua hal yang dibandingkan serta keadaan yang dibuat tetap. Setelah itu, pasangan nilai ditulis dalam urutan yang sama, angka dimasukkan ke rumus, dan hasil diperiksa kembali. Dengan cara ini, perhitungan memiliki alasan yang jelas pada setiap langkah."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "perbedaan hubungan senilai dan berbalik."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "dua besaran yang dibandingkan dan keadaan yang dianggap tetap."
+      },
+      {
+        "level": "",
+        "kko": "Memasangkan",
+        "teks": "nilai pada keadaan pertama dan kedua secara tepat."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "rumus senilai dan berbalik melalui substitusi angka bertahap."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "kesesuaian hasil dengan hubungan dan informasi awal."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Perbandingan Senilai",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbandingan Senilai",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "adalah perbandingan dua besaran yang digambarkan, apabila nilai suatu besaran meningkat, nilai besaran yang lain juga akan meningkat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika x naik, maka y juga ikut naik"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika x turun, maka y juga ikut turun"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₁→y₁$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₂→y₂$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₁/x₂=y₁/y₂$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf x dan y menyatakan dua besaran, yaitu dua hal yang dapat dihitung atau diukur. Angka kecil 1 menandai keadaan pertama dan angka kecil 2 menandai keadaan kedua. Pasangkan nilai pada keadaan yang sama. Nilai x pertama harus berpasangan dengan nilai y pertama, demikian pula kedua nilai pada keadaan kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan senilai memiliki nilai per satuan yang tetap. Jika satu besaran menjadi dua kali semula, besaran pasangannya juga menjadi dua kali semula. Jika satu besaran menjadi setengah, pasangannya juga menjadi setengah. Faktor perubahan yang sama inilah yang digunakan dalam rumus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada rumus, susunan keadaan pertama terhadap keadaan kedua dibuat sama di kedua pecahan. Setelah nilainya dimasukkan, salah satu nilai yang belum diketahui dapat dicari dengan perkalian dan pembagian. Sebelum menghitung, samakan satuan setiap besaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan rumus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan harga per kilogram yang tetap, 3 kg gula berharga Rp45.000. Tentukan harga 5 kg gula. Gunakan x untuk berat gula dan y untuk harganya. Keadaan pertama adalah pembelian 3 kg, sedangkan keadaan kedua adalah pembelian 5 kg."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₁=3, x₂=5, y₁=45.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan angka sesuai pasangan pada rumus senilai."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3/5=45.000/y₂$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mencari harga 5 kg, kalikan harga awal dengan perbandingan berat baru terhadap berat awal."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y₂=45.000·5/3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y₂=15.000·5=75.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, harga 5 kg gula adalah Rp75.000. Harga per kilogramnya dapat digunakan untuk memeriksa hasil."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$45.000/3=75.000/5=15.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua keadaan memiliki harga Rp15.000 per kilogram. Karena harga per kilogram tetap, bertambahnya berat gula diikuti bertambahnya harga secara sebanding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perbandingan Berbalik",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbandingan Berbalik",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "adalah perbandingan dua besaran yang digambarkan, apabila nilai suatu besaran meningkat, nilai besaran yang lain juga akan menurun, begitu juga sebaliknya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika x naik, maka y turun"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika x turun, maka y naik"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₁→y₁$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₂→y₂$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₁/x₂=y₂/y₁$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan tetap ditulis menurut keadaan pertama dan keadaan kedua. Perbandingan pada sisi y dibalik karena arah perubahannya berlawanan. Jika jumlah pekerja meningkat, waktu untuk menyelesaikan pekerjaan yang sama berkurang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada hubungan berbalik, hasil kali kedua besaran tetap. Jika satu nilai menjadi dua kali semula, pasangannya menjadi setengah. Jika satu nilai menjadi tiga kali semula, pasangannya menjadi sepertiga."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₁·y₁=x₂·y₂$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menggunakan hubungan pekerja dan waktu, pekerjaan yang diselesaikan harus sama. Kemampuan serta jam kerja setiap pekerja juga dianggap sama. Dengan keadaan tersebut, penambahan pekerja meningkatkan banyak pekerjaan yang dapat diselesaikan per hari."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan rumus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Enam pekerja menyelesaikan suatu pekerjaan dalam 12 hari. Jika pekerjaan yang sama dikerjakan oleh 9 pekerja dengan kemampuan dan jam kerja yang sama, berapa hari waktu yang diperlukan? Gunakan x untuk banyak pekerja dan y untuk waktu."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x₁=6, x₂=9, y₁=12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan pasangan nilai ke rumus perbandingan berbalik."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6/9=y₂/12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalikan 12 dengan perbandingan jumlah pekerja awal terhadap jumlah pekerja baru."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y₂=6/9·12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y₂=2/3·12=8 hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, waktu yang diperlukan adalah 8 hari. Hasil kali banyak pekerja dengan jumlah hari pada kedua keadaan dapat diperiksa sebagai berikut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6·12=9·8=72$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Enam pekerja selama 12 hari dan sembilan pekerja selama 8 hari memberikan jumlah hari kerja seluruh pekerja yang sama. Waktu pengerjaan menjadi lebih singkat ketika jumlah pekerja bertambah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memilih Hubungan yang Tepat",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memilih Hubungan yang Tepat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan dua besaran yang dibandingkan dan keadaan yang dibuat tetap. Hubungan senilai memakai perubahan dengan faktor yang sama dan nilai per satuan yang tetap. Hubungan berbalik memakai perubahan dengan faktor kebalikan dan hasil kali yang tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pembelian gula, harga per kilogram dijaga tetap sehingga harga mengikuti perubahan berat. Pada pekerjaan, banyak pekerjaan yang harus diselesaikan dijaga tetap sehingga penambahan pekerja mengurangi waktu. Menentukan keadaan yang tetap membantu menjelaskan alasan pemilihan rumus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Urutan mengerjakan"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Tulis kedua besaran beserta satuannya.",
+                "Pasangkan nilai pada keadaan pertama dan keadaan kedua.",
+                "Tentukan hubungan senilai atau berbalik berdasarkan perubahan dan keadaan yang tetap.",
+                "Tuliskan rumus, masukkan angka, lalu hitung nilai yang dicari.",
+                "Periksa satuan, kecocokan arah perubahan, dan ketepatan angka awal."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apabila ada tambahan jumlah, hitung jumlah baru terlebih dahulu. Pada contoh sapi, tambahan 10 membuat jumlahnya menjadi 60. Pada contoh pekerja, tambahan 5 membuat jumlahnya menjadi 25. Nilai yang dimasukkan ke perbandingan adalah jumlah pada masing-masing keadaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan dapat dilakukan melalui harga per satuan pada senilai atau hasil kali pada berbalik. Hasil yang memiliki arah perubahan sesuai tetap perlu diperiksa hitungannya. Arah perubahan membantu memilih hubungan, sedangkan rumus memastikan besar nilainya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 50 sapi menghabiskan 80 karung rumput dalam waktu 1 bulan. Jika terdapat tambahan 10 sapi, maka akan menghabiskan berapa karung rumput?"
+            }
+          ],
+          "opsi": {
+            "A": "16",
+            "B": "32",
+            "C": "84",
+            "D": "96",
+            "E": "108"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pembahasan ini, x menyatakan banyak karung rumput yang dihabiskan oleh 60 sapi selama satu bulan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$50 sapi→80 karung rumput$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat tambahan 10 sapi, sehingga $50+10=60$ sapi"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$60 sapi→x karung rumput$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "*Lihat bahwa jika sapi bertambah (↑), maka karung rumput yang dihabiskan juga akan bertambah (↑)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka digunakanlah perbandingan senilai:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$50 sapi→80 karung rumput$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$60 sapi→x karung rumput$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$50/60=80/x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=80·60/50$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=80·6/5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=16·6$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=96 karung rumput$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu yang dibandingkan sama-sama satu bulan. Perhitungan juga menggunakan kebutuhan rumput per sapi yang sama. Jumlah sapi yang baru adalah seluruh 60 sapi, sehingga perbandingan memakai 50 dan 60."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pecahan 60 per 50 disederhanakan menjadi 6 per 5 dengan membagi pembilang dan penyebut oleh 10. Setelah itu, 80 dibagi 5 menjadi 16, lalu dikalikan 6. Hasil 96 karung lebih besar daripada 80 karung, sesuai dengan pertambahan jumlah sapi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu pekerjaan dapat diselesaikan oleh 20 orang dalam waktu 40 hari. Jika ada tambahan 5 orang pekerja, maka pekerjaan akan selesai dalam berapa hari?"
+            }
+          ],
+          "opsi": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Catatan kesesuaian angka"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan menyebut waktu awal 40 hari. Perhitungan yang menghasilkan 8 hari di bawah memakai waktu awal 10 hari. Untuk waktu awal 40 hari, hasilnya adalah 32 hari dan belum tersedia pada pilihan jawaban. Kedua perhitungan dijelaskan agar perbedaan angkanya jelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhitungan berikut berlaku untuk waktu awal 10 hari."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20 pekerja→10 hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat tambahan 5 pekerja, sehingga $20+5=25$ pekerja"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$25 pekerja→x hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "*Lihat bahwa jika pekerja bertambah (↑), maka lama pekerjaan akan semakin cepat/berkurang (↓)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka digunakanlah perbandingan berbalik:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20 pekerja→10 hari$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$25 pekerja→x hari$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20/25=x/10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=20/25·10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=200/25$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=8 hari$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Koreksi untuk waktu awal 40 hari"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan jumlah pekerja awal 20 orang dan tambahan 5 orang, jumlah pekerja baru tetap 25 orang. Masukkan waktu 40 hari sebagaimana tertulis dalam pertanyaan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20/25=x/40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=20/25·40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=800/25=32 hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, untuk pertanyaan dengan waktu awal 40 hari, jawabannya adalah 32 hari. Hasil ini lebih singkat daripada 40 hari karena jumlah pekerja bertambah. Pilihan 8 hari sesuai apabila waktu awalnya 10 hari."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Perbandingan Senilai",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan Berbalik",
+        "teks": ""
+      },
+      {
+        "judul": "Memilih Hubungan yang Tepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Perbandingan senilai digunakan ketika dua besaran berubah searah dengan faktor yang sama, sedangkan perbandingan berbalik digunakan ketika perubahan satu besaran diimbangi faktor kebalikan pada besaran lain. Kenali keadaan yang tetap, pasangkan nilai secara teratur, lalu gunakan rumus yang sesuai. Akhiri perhitungan dengan memeriksa satuan dan kecocokan hasil terhadap informasi awal. Kebiasaan menulis rumus sebelum memasukkan angka membantu menjaga urutan perhitungan. Ketelitian juga diperlukan saat membaca tambahan jumlah, waktu awal, dan satuan. Dengan memahami hubungan kedua besaran, alasan setiap perkalian dan pembagian dapat dijelaskan dengan sederhana."
+  }
+}

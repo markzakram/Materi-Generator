@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "judul": "Figural Ketidaksamaan",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Figural - Figural Ketidaksamaan",
+    "sumber": "https://drive.google.com/file/d/156SLESHfpER_XCRumNcXm_ZCEZqZAlO4/view",
+    "id_katalog": "fi-03",
+    "lewati_kosong": true
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 5
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Metode Pengerjaan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Metode Pengerjaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Menentukan gambar yang berbeda dari gambar yang disajikan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Metode Putar-Putar"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi03_figural_ketidaksamaan/gambar-01.png",
+              "lebar": 9.71,
+              "tinggi": 1.71
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Metode Find the Difference"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi03_figural_ketidaksamaan/gambar-02.png",
+              "lebar": 9.42,
+              "tinggi": 2.09
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

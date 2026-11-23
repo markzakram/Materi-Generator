@@ -1,0 +1,1074 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pola Bilangan Tabel",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Data & Deret - Pola Bilangan Tabel",
+    "sumber": "https://docs.google.com/document/d/1NUn4ywHjZklJ6L9ykcUP8KbTS4VtGJ6XXaMGj8Y73S8/edit",
+    "bagian": "soal",
+    "id_katalog": "dd-07-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "10"
+                ],
+                [
+                  "5",
+                  "x"
+                ],
+                [
+                  "9",
+                  "17"
+                ],
+                [
+                  "12",
+                  "20"
+                ],
+                [
+                  "16",
+                  "24"
+                ],
+                [
+                  "20",
+                  "28"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "11",
+            "B": "12",
+            "C": "13",
+            "D": "14",
+            "E": "15"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan u menyatakan Urutan dan y menyatakan Nilai. Bandingkan pasangan yang sudah lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$10−2=8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$17−9=8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih Nilai terhadap Urutan pada dua pasangan adalah 8. Periksa aturan tambah 8 pada seluruh pasangan lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=u+8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus tersebut sesuai dengan seluruh pasangan lengkap:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+8=10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9+8=17$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12+8=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$16+8=24$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20+8=28$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan Urutan 5 untuk menentukan Nilai x:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=5+8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=13$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali hasilnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$13−5=8$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-11.png",
+              "lebar": 2.87,
+              "tinggi": 3.78
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 13. Jawaban yang benar adalah C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "5"
+                ],
+                [
+                  "5",
+                  "x"
+                ],
+                [
+                  "6",
+                  "13"
+                ],
+                [
+                  "10",
+                  "21"
+                ],
+                [
+                  "16",
+                  "33"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "13",
+            "E": "15"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan u menyatakan Urutan dan y menyatakan Nilai. Bandingkan pasangan yang sudah lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$13−5=8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6−2=4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8÷4=2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5−2×2=1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan Nilai dibagi perubahan Urutan memberi pengali 2. Sesudah dua kali Urutan dikurangkan dari Nilai, tersisa konstanta 1."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=2u+1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus tersebut sesuai dengan seluruh pasangan lengkap:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×2+1=5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×6+1=13$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×10+1=21$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×16+1=33$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan Urutan 5 untuk menentukan Nilai x:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=2×5+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=10+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=11$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali hasilnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×5+1=11$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-12.png",
+              "lebar": 2.87,
+              "tinggi": 3.37
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 11. Jawaban yang benar adalah B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "10"
+                ],
+                [
+                  "6",
+                  "22"
+                ],
+                [
+                  "10",
+                  "34"
+                ],
+                [
+                  "x",
+                  "46"
+                ],
+                [
+                  "17",
+                  "55"
+                ],
+                [
+                  "20",
+                  "64"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "11",
+            "B": "12",
+            "C": "13",
+            "D": "14",
+            "E": "16"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan u menyatakan Urutan dan y menyatakan Nilai. Bandingkan pasangan yang sudah lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$22−10=12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6−2=4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12÷4=3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$10−3×2=4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan perubahan memberi pengali 3. Dari pasangan Urutan 2 dan Nilai 10, diperoleh konstanta 4."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=3u+4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus tersebut sesuai dengan seluruh pasangan lengkap:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3×2+4=10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3×6+4=22$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3×10+4=34$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3×17+4=55$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3×20+4=64$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan Nilai 46 untuk menentukan Urutan x:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3x+4=46$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3x=46−4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3x=42$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=42÷3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=14$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali hasilnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3×14+4=46$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasilnya merupakan urutan bulat positif dan sesuai dengan letak baris pada tabel."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-13.png",
+              "lebar": 2.87,
+              "tinggi": 3.78
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 14. Jawaban yang benar adalah D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "0"
+                ],
+                [
+                  "5",
+                  "21"
+                ],
+                [
+                  "10",
+                  "96"
+                ],
+                [
+                  "13",
+                  "x"
+                ],
+                [
+                  "17",
+                  "285"
+                ],
+                [
+                  "20",
+                  "396"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "165",
+            "B": "169",
+            "C": "173",
+            "D": "156",
+            "E": "160"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan u menyatakan Urutan dan y menyatakan Nilai. Bandingkan pasangan yang sudah lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5²−2²=21$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$21−0=21$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$21÷21=1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$0−2²=−4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan Nilai sama dengan perubahan kuadrat Urutan, sehingga pengalinya 1. Nilai dikurangi kuadrat Urutan memberi konstanta −4."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=u²−4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus tersebut sesuai dengan seluruh pasangan lengkap:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2²−4=0$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5²−4=21$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$10²−4=96$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$17²−4=285$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20²−4=396$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan Urutan 13 untuk menentukan Nilai x:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=13²−4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=169−4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=165$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali hasilnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$165+4=13²$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-14.png",
+              "lebar": 2.87,
+              "tinggi": 3.78
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 165. Jawaban yang benar adalah A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "11"
+                ],
+                [
+                  "6",
+                  "75"
+                ],
+                [
+                  "10",
+                  "203"
+                ],
+                [
+                  "x",
+                  "291"
+                ],
+                [
+                  "14",
+                  "395"
+                ],
+                [
+                  "15",
+                  "453"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "10",
+            "B": "11",
+            "C": "13",
+            "D": "14",
+            "E": "12"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan u menyatakan Urutan dan y menyatakan Nilai. Bandingkan pasangan yang sudah lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6²−2²=32$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$75−11=64$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$64÷32=2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$11−2×2²=3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan Nilai dua kali perubahan kuadrat Urutan. Konstanta yang tersisa setelah dua kali kuadrat Urutan dikurangkan adalah 3."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=2u²+3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus tersebut sesuai dengan seluruh pasangan lengkap:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×2²+3=11$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×6²+3=75$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×10²+3=203$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×14²+3=395$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×15²+3=453$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan Nilai 291 untuk menentukan Urutan x:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x²+3=291$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x²=291−3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x²=288$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x²=288÷2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x²=144$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=±12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persamaan mempunyai akar 12 dan −12. Karena x menyatakan Urutan, hanya 12 yang merupakan bilangan bulat positif. Angka 12 juga berada di antara urutan 10 dan 14."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali hasilnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×12²+3=291$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasilnya merupakan urutan bulat positif dan sesuai dengan letak baris pada tabel."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-15.png",
+              "lebar": 2.87,
+              "tinggi": 3.78
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 12. Jawaban yang benar adalah E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "2"
+                ],
+                [
+                  "4",
+                  "9"
+                ],
+                [
+                  "6",
+                  "28"
+                ],
+                [
+                  "8",
+                  "x"
+                ],
+                [
+                  "10",
+                  "126"
+                ],
+                [
+                  "12",
+                  "217"
+                ],
+                [
+                  "14",
+                  "344"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "63",
+            "B": "64",
+            "C": "65",
+            "D": "66",
+            "E": "72"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan u menyatakan Urutan dan y menyatakan Nilai. Bandingkan pasangan yang sudah lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4³−2³=56$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9−2=7$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$56÷7=8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2−2³÷8=1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan kubik Urutan delapan kali perubahan Nilai. Karena itu, kubik Urutan dibagi 8. Dari pasangan pertama, penyesuaian tetapnya adalah tambah 1."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=u³÷8+1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus tersebut sesuai dengan seluruh pasangan lengkap:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2³÷8+1=2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4³÷8+1=9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6³÷8+1=28$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$10³÷8+1=126$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12³÷8+1=217$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$14³÷8+1=344$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan Urutan 8 untuk menentukan Nilai x:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=8³÷8+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=512÷8+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=64+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=65$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali hasilnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(65−1)×8=8³$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-16.png",
+              "lebar": 2.87,
+              "tinggi": 4.2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 65. Jawaban yang benar adalah C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "3",
+                  "3"
+                ],
+                [
+                  "6",
+                  "15"
+                ],
+                [
+                  "10",
+                  "31"
+                ],
+                [
+                  "14",
+                  "x"
+                ],
+                [
+                  "18",
+                  "63"
+                ],
+                [
+                  "20",
+                  "71"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "43",
+            "B": "47",
+            "C": "49",
+            "D": "53",
+            "E": "56"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan u menyatakan Urutan dan y menyatakan Nilai. Bandingkan pasangan yang sudah lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$15−3=12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6−3=3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12÷3=4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3−4×3=−9$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan Nilai dibanding perubahan Urutan memberi pengali 4. Konstanta yang tersisa adalah −9. Pengali 4 dapat ditulis sebagai kuadrat 2, dan 9 sebagai kuadrat 3."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=4u−9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=2²u−3²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus tersebut sesuai dengan seluruh pasangan lengkap:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4×3−9=3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4×6−9=15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4×10−9=31$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4×18−9=63$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4×20−9=71$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan Urutan 14 untuk menentukan Nilai x:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=4×14−9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=56−9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=47$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali hasilnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4×14−9=47$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd07_pola_bilangan_tabel/gambar-17.png",
+              "lebar": 2.87,
+              "tinggi": 3.78
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 47. Jawaban yang benar adalah B."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

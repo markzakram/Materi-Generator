@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "judul": "Figural Serial",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Figural - Figural Serial",
+    "sumber": "https://drive.google.com/file/d/1VtHImmtU8JJ2ajCPKAF0c9dSboR0fDP-/view",
+    "id_katalog": "fi-04",
+    "lewati_kosong": true
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 5
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "4 Kotak",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "4 Kotak – Contoh 1",
+          "opsi": {},
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: D**"
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Menyajikan 4 kotak di mana salah satu kotak tidak ketahui polanya"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi04_figural_serial/gambar-01.png",
+              "lebar": 10.24,
+              "tinggi": 4.16
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "4 Kotak – Contoh 2",
+          "opsi": {},
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: C**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi04_figural_serial/gambar-03.png",
+              "lebar": 8.85,
+              "tinggi": 5.58
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi04_figural_serial/gambar-02.png",
+              "lebar": 11.03,
+              "tinggi": 3.88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "5 Kotak",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "5 Kotak – Contoh 1",
+          "opsi": {},
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: A**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah objek bintang selalu berkurang satu (4, 3, 2, 1, 0)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah objek bulan sabit selalu bertambah dua (0, 2, 4, 6, 8)."
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi04_figural_serial/gambar-04.png",
+              "lebar": 10.12,
+              "tinggi": 3.69
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "5 Kotak – Contoh 2",
+          "opsi": {},
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: B**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal seperti ini dapat dikerjakan dengan melihat pola dari gambar yang diberikan. Pola yang ada pada soal ini adalah pola akan terus berpindah sebanyak satu langkah berlawanan dengan arah jarum jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sehingga jika dicermati, jawaban yang tepat adalah Opsi B."
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi04_figural_serial/gambar-05.png",
+              "lebar": 9.56,
+              "tinggi": 3.97
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "6 Kotak",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "6 Kotak – Contoh 1",
+          "opsi": {},
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: B**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari gambar (1) ke gambar (2), gambar (2) ke gambar (3) dst, berlaku:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "unsur lingkaran: terus diperkecil",
+                "unsur panah hitam: dirotasi 90° searah jarum jam",
+                "unsur panah putih: dirotasi 45° berlawanan arah jarum jam"
+              ]
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Menyajikan 6 kotak di mana salah satu kotak tidak ketahui polanya"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi04_figural_serial/gambar-06.png",
+              "lebar": 11.37,
+              "tinggi": 4.59
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "6 Kotak – Contoh 2",
+          "opsi": {},
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: A**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari gambar (1) ke gambar (2), gambar (2) ke gambar (3) dst, berlaku:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "unsur kiri: terus bertambah satu segitiga hitam yang merupakan 1/8 bagian lingkaran",
+                "unsur kanan: diperkecil - berubah warna (perubahan terjadi selang-seling)"
+              ]
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi04_figural_serial/gambar-07.png",
+              "lebar": 11.93,
+              "tinggi": 4.82
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

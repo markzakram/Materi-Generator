@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "judul": "Konsep Dasar Geometri",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Konsep Dasar Geometri",
+    "sumber": "https://docs.google.com/document/d/1vF6xumsnWBwu6-8UhthriRt_CSkeJGO41DkXcX48vwc/edit",
+    "id_katalog": "nu-10"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri membantu kita membaca bentuk dan letak benda. Saat melihat denah, misalnya, kita dapat menunjukkan pojok sebagai titik, tepi sebagai ruas garis, dan belokan sebagai sudut. Istilah-istilah ini membantu kita menjelaskan bagian gambar dan hubungan antarbagiannya.",
+      "Mulailah dengan memperhatikan apa yang ditunjukkan oleh gambar. Satu gambar bisa memuat beberapa unsur sekaligus. Pada gambar jendela, misalnya, pojok menunjukkan titik, bingkai menunjukkan sisi, dan bagian yang dibatasi bingkai menunjukkan suatu daerah datar."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "apa yang dipelajari dalam geometri dan memberi contoh bentuk, ukuran, posisi, dan hubungan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "titik, garis, ruas garis, sinar garis, dan bidang dari ciri-cirinya."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "garis sejajar, berpotongan, dan tegak lurus dari gambar atau keterangan."
+      },
+      {
+        "level": "",
+        "kko": "Membaca",
+        "teks": "nama sudut dari tiga huruf dan mengelompokkan sudut berdasarkan besar bukaannya."
+      },
+      {
+        "level": "",
+        "kko": "Menunjukkan",
+        "teks": "unsur dasar bangun datar dan bangun ruang pada gambar."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Geometri",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Geometri",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Geometri adalah cabang matematika yang mempelajari bentuk, ukuran, posisi, dan hubungan antarobjek ruang."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-01.png",
+              "lebar": 6.07,
+              "tinggi": 1.61
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan sebuah meja. Permukaan atasnya dapat berbentuk persegi panjang, panjangnya dapat diukur, dua tepi yang berhadapan dapat sejajar, dan dua tepi yang bertemu membentuk sudut. Bentuk, ukuran, posisi, dan hubungan menjawab pertanyaan yang berbeda tentang benda yang sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Titik",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Titik",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Titik adalah unsur geometri yang menunjukkan letak atau posisi. Titik tidak memiliki panjang, lebar, maupun tinggi. Titik menjadi dasar untuk membentuk garis, sudut, bangun datar, dan bangun ruang."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-02.png",
+              "lebar": 3.33,
+              "tinggi": 1.85
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Titik biasanya diberi nama dengan huruf kapital, misalnya A, B, C, dan seterusnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bulatan pada gambar hanya membantu mata melihat letak titik. Ukuran bulatan tidak menyatakan ukuran titik. Jika titik A digunakan untuk menandai sebuah pojok, informasi yang kita ambil adalah letak pojok itu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Garis",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Garis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Garis adalah kumpulan titik yang memanjang lurus ke dua arah tanpa batas. Pada bangun datar, sisi bangun merupakan bagian dari garis."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-03.png",
+              "lebar": 3.55,
+              "tinggi": 2.07
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Garis dapat dinamai dengan satu huruf kecil atau dua titik yang dilaluinya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada gambar, g adalah nama garis. Garis AB dinamai dengan dua titik yang dilaluinya, yaitu A dan B. Keduanya hanya penanda letak pada garis. Bagian yang digambar memang terbatas oleh halaman, tetapi garisnya dipahami terus memanjang ke kedua arah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Ruas Garis dan Sinar Garis",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ruas Garis dan Sinar Garis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Selain garis, ada dua istilah yang sering digunakan saat membahas bangun geometri."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-04.png",
+              "lebar": 6.07,
+              "tinggi": 1.38
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ruas Garis. Bagian garis yang dibatasi oleh dua titik ujung. Pada gambar, A dan B adalah ujung ruas garis AB."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sinar Garis. Bagian garis yang memiliki satu titik pangkal dan memanjang ke satu arah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cara membedakannya adalah dengan menghitung titik yang menjadi batas. Garis tidak mempunyai ujung. Ruas garis mempunyai dua ujung, sehingga panjangnya dapat diukur. Sinar garis mempunyai satu titik pangkal, seperti titik O pada gambar, lalu berlanjut ke satu arah tanpa batas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ruas AB dan ruas BA menunjuk bagian yang sama. Pada sinar garis, urutan nama penting. Sinar AB dimulai di A dan melewati B, sedangkan sinar BA dimulai di B dan melewati A."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bidang",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bidang",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bidang adalah permukaan datar yang memanjang ke segala arah. Pada pembelajaran dasar, bidang dapat dipahami sebagai tempat bangun datar berada."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-05.png",
+              "lebar": 6.07,
+              "tinggi": 1.83
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bidang pada gambar dilukiskan sebagai daerah miring agar mudah dibedakan dari bangun yang ada di atasnya. Tepi gambar hanya membatasi bagian yang terlihat. Persegi panjang mempunyai batas, sedangkan bidang tempatnya berada dianggap terus memanjang. Sisi datar pada kubus juga merupakan bagian dari suatu bidang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kedudukan Dasar Dua Garis",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kedudukan Dasar Dua Garis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua garis dapat memiliki hubungan posisi yang berbeda. Pada materi awal, cukup kenali tiga bentuk berikut."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-06.png",
+              "lebar": 6.06,
+              "tinggi": 1.88
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menilai dua garis pada satu bidang, bayangkan keduanya diperpanjang. Garis sejajar tidak bertemu. Garis berpotongan bertemu di satu titik. Garis tegak lurus adalah pasangan garis berpotongan yang membentuk sudut siku-siku. Jadi, semua garis tegak lurus berpotongan, dan tidak semua garis yang berpotongan tegak lurus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Sudut",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Sudut",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut adalah daerah yang dibentuk oleh dua sinar garis yang memiliki titik pangkal yang sama."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-07.png",
+              "lebar": 3.26,
+              "tinggi": 2.33
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut AOB. Huruf O di tengah menunjukkan titik sudut. Kedua kaki sudut berasal dari O dan mengarah melalui A dan B."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan huruf membantu kita menemukan sudut yang dimaksud saat beberapa sinar bertemu. Sudut AOB juga dapat dibaca BOA jika yang dimaksud bukaannya sama. Besar sudut ditentukan oleh lebar bukaan antara kedua kaki, sehingga memperpanjang kaki sudut tidak mengubah besar sudutnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jenis-Jenis Sudut",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jenis-Jenis Sudut",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-08.png",
+              "lebar": 6.04,
+              "tinggi": 1.6
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-09.png",
+              "lebar": 6.07,
+              "tinggi": 1.61
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut tumpul lebih besar dari 90° dan kurang dari 180°. Sudut refleks lebih besar dari 180° dan kurang dari 360°. Tepat 90° disebut siku-siku, tepat 180° disebut lurus, dan tepat 360° disebut penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan seperempat putaran sebagai patokan 90°, setengah putaran sebagai patokan 180°, dan satu putaran penuh sebagai patokan 360°. Saat satu gambar punya dua pilihan bukaan, perhatikan busurnya. Busur kecil menunjukkan bukaan yang lebih kecil. Busur yang memutari sisi luar dapat menunjukkan sudut refleks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Koneksi ke Bangun Datar dan Bangun Ruang",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Koneksi ke Bangun Datar dan Bangun Ruang",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu10_konsep_dasar_geometri/gambar-10.png",
+              "lebar": 5.69,
+              "tinggi": 2.29
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bangun Datar. Memiliki sisi, sudut, diagonal, dan bidang. Gambar di sebelah kiri menunjukkan persegi panjang dengan dua diagonal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bangun Ruang. Memiliki titik sudut, rusuk, sisi, dan bidang. Gambar di sebelah kanan menunjukkan kubus dengan diagonal pada salah satu sisinya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada bangun datar bersisi lurus, sisi adalah ruas garis yang membatasi daerahnya. Diagonal menghubungkan dua titik sudut yang tidak bersebelahan. Unsur ini bergantung pada bentuknya. Segitiga, misalnya, tidak memiliki diagonal karena setiap pasangan titik sudutnya bersebelahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kubus, rusuk adalah ruas garis tempat dua sisi bertemu. Sisi kubus adalah permukaan berbentuk persegi, sehingga kata «sisi» pada kubus menunjuk permukaan, sedangkan sisi persegi menunjuk garis pembatasnya. Gambar memperlihatkan diagonal pada permukaan atas kubus, bukan garis yang melintasi bagian dalam kubus."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Geometri",
+        "teks": ""
+      },
+      {
+        "judul": "Titik",
+        "teks": ""
+      },
+      {
+        "judul": "Garis",
+        "teks": ""
+      },
+      {
+        "judul": "Ruas Garis dan Sinar Garis",
+        "teks": ""
+      },
+      {
+        "judul": "Bidang",
+        "teks": ""
+      },
+      {
+        "judul": "Kedudukan Dasar Dua Garis",
+        "teks": ""
+      }
+    ],
+    "pesan": "Konsep dasar geometri membantu kita membaca bentuk dan hubungan antarbagian pada gambar maupun benda di sekitar. Kenali titik, garis, ruas, sinar, dan bidang dari cirinya. Untuk membedakan kedudukan garis dan jenis sudut, perhatikan perpotongan garis serta besar bukaannya. Saat mengamati gambar, tanyakan bagian mana yang menunjukkan letak, bagian mana yang mempunyai batas, dan bagian mana yang membentuk bukaan. Periksa tanda atau keterangan yang diberikan. Gambar membantu kita memahami hubungan, tetapi ukuran yang tampak bisa berbeda dari ukuran sebenarnya."
+  }
+}

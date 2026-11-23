@@ -148,7 +148,7 @@ def main(argv=None):
     palet = None if palet == "tanpa" else palet
     app = katalog.get("aplikasi") or {"id": "tiu" if utama else os.path.basename(konten),
                                       "nama": katalog.get("judul", "Materi"), "urutan": 99}
-    entri = [dict(m, url=f"https://docs.google.com/document/d/{m['doc_id']}/edit") for m in katalog["materi"]]
+    entri = [dict(m, url=m.get("url") or f"https://docs.google.com/document/d/{m['doc_id']}/edit") for m in katalog["materi"]]
     entri += [dict(m, url=None) for m in (TAMBAHAN if utama else [])]
     entri = [m for m in entri if os.path.exists(os.path.join(konten, m["naskah"]))
              or print(f"Lewati {m['id']}: naskah {m['naskah']} belum ada")]

@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "judul": "Soal Cerita Aljabar",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Soal Cerita Aljabar",
+    "sumber": "https://docs.google.com/document/d/1unAWBnj5W84Vp1-WqTAckeXehyUAauCuD6vW3PUthF8/edit",
+    "subjudul": "Aljabar",
+    "id_katalog": "nu-08"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal cerita aljabar, informasi diberikan lewat kalimat sehari-hari. Kita bisa memecah cerita menjadi tiga bagian: apa yang diketahui, apa yang ditanyakan, dan bagaimana keduanya berhubungan. Hubungan itulah yang ditulis sebagai persamaan.",
+      "Cara ini membantu saat membandingkan usia atau mencari harga barang dari beberapa pembelian. Setelah mendapatkan nilai variabel, kita kembali ke cerita untuk memastikan besaran dan satuannya sesuai dengan yang ditanyakan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "besaran yang diketahui dan yang ditanyakan dalam soal cerita."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "variabel, menyebutkan satuannya, dan menuliskan hubungan antardata sebagai persamaan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "cerita yang dapat dimodelkan dengan satu variabel dan cerita yang memerlukan dua variabel."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "persamaan yang terbentuk dan memeriksa jawaban berdasarkan konteks cerita."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Dari cerita ke persamaan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Dari cerita ke persamaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Pahami informasi dalam soal. Baca pertanyaan akhir, lalu catat besaran yang diketahui dan hubungan yang diperlukan untuk menjawabnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tentukan variabel. Pilih huruf untuk mewakili besaran yang belum diketahui. Tulis artinya secara lengkap, misalnya usia seseorang dalam tahun atau harga satu barang dalam rupiah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Susun persamaan. Tuliskan hubungan dari cerita pada ruas yang sesuai. Kata «total» menyatakan hasil penjumlahan beberapa bagian, sedangkan «selisih» menunjukkan perbedaan nilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Selesaikan dengan metode yang tepat. Setelah menghitung, periksa kembali angka terhadap informasi awal dan tuliskan jawaban sesuai pertanyaan, lengkap dengan satuannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda sama dengan menghubungkan dua cara menyatakan besaran yang sama. Misalnya, jumlah harga barang satu per satu berada di satu ruas, dan jumlah yang dibayar berada di ruas lainnya. Saat membuat persamaan harga, kedua ruas harus sama-sama menyatakan uang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Persamaan linear satu variabel",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Persamaan linear satu variabel",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan satu variabel jika besaran lain dapat ditulis dengan variabel yang sama dan angka yang diketahui. Cara ini berguna pada soal usia atau soal tentang dua jumlah yang berselisih tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika usia Mira dua tahun lebih muda daripada usia Dani, usia Mira adalah usia Dani dikurangi dua tahun. Dibaca dari arah sebaliknya, usia Dani adalah usia Mira ditambah dua tahun."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu08_soal_cerita_aljabar/gambar-01.png",
+              "lebar": 5.92,
+              "tinggi": 1.74
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai dari orang yang dijadikan pembanding. Arah penjumlahan atau pengurangan berubah ketika pembandingnya ditukar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$m = d − 2$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf m menyatakan usia Mira dan d menyatakan usia Dani, keduanya dalam tahun. Jika usia Dani sudah diketahui, masukkan angka itu. Jika hanya usia Mira yang belum diketahui, cukup gunakan satu variabel untuk usia Mira."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pastikan waktu yang dibandingkan sama. Jika cerita menyebut «tiga tahun lagi», tambahkan tiga tahun pada setiap usia yang memang diminta pada waktu itu. Jika usia dua orang dibandingkan pada waktu yang sama, selisih usia mereka tetap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Sistem persamaan linear dua variabel",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Sistem persamaan linear dua variabel",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan dua variabel jika ada dua besaran yang belum diketahui dan keduanya diperlukan untuk menulis hubungan dalam cerita. Dua informasi yang berbeda biasanya memberi dua persamaan. Pada cerita belanja, misalnya, setiap transaksi memberi satu hubungan antara harga satuan dan total belanja."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu08_soal_cerita_aljabar/gambar-02.png",
+              "lebar": 5.9,
+              "tinggi": 1.71
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga setiap jenis barang dihitung dari jumlah barang dikali harga satuannya. Jumlahkan kedua harga tersebut untuk memperoleh total tagihan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2b + 3p = 21.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf b menyatakan harga satu buku dan p harga satu pensil, keduanya dalam rupiah. Satu transaksi menunjukkan jumlah tagihan, sehingga masih mungkin ada beberapa pasangan harga satuan. Transaksi kedua dengan komposisi yang berbeda membantu menentukan pasangan harganya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih penyelesaian dari bentuk persamaan dan yang ditanyakan. Substitusi mudah jika satu variabel bisa dibuat berdiri sendiri. Eliminasi cocok jika ada koefisien yang sama atau mudah disamakan. Jika yang ditanya harga gabungan, perhatikan apakah penjumlahan atau pengurangan persamaan langsung memberi harga gabungan itu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Periksa jawaban terhadap cerita",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Periksa jawaban terhadap cerita",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pastikan hasil menjawab besaran yang ditanyakan. Jika yang ditanya total belanja, gunakan harga satuan untuk menghitung total belanja. Samakan satuan terlebih dahulu, misalnya satu lusin berarti 12 buah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan hasil pada hubungan awal. Pada soal usia, cek siapa yang lebih tua dan berapa selisihnya. Pada soal belanja, cek apakah harga satuan menghasilkan total yang sesuai. Pemeriksaan ini membantu menemukan tanda yang terbalik, satuan yang belum diubah, atau angka yang keliru."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1 • Persamaan Linear Satu Variabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Romi adalah adik Rino yang usianya 3 tahun lebih muda. Risa adalah kakak Romi dan usia keduanya berbeda 7 tahun. Jika saat ini Rino baru saja merayakan ulang tahun yang ke-23 maka usia Risa adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "25 tahun",
+            "B": "27 tahun",
+            "C": "29 tahun",
+            "D": "31 tahun",
+            "E": "33 tahun"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan x adalah usia Risa dalam tahun. Rino berusia 23 tahun. Romi 3 tahun lebih muda daripada Rino, sehingga usia Romi adalah 20 tahun."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$23 − 3 = 20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Risa 7 tahun lebih tua daripada Romi. Karena itu, jika usia Risa dikurangi 7 tahun, hasilnya sama dengan usia Romi."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x − 7 = 20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x = 20 + 7 = 27$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, usia Risa adalah 27 tahun. Selisih usia Risa dan Romi adalah 7 tahun, sesuai dengan informasi pada soal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2 • Sistem Persamaan Linear Dua Variabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bu Intan belanja di supermarket membeli 5 sabun dan 8 sampo seharga 49.000. Bu Desi juga membeli 3 sabun dan 6 sampo di supermarket yang sama dan membayar 33.000. Jika Bu Citra membeli sabun dan sampo masing-masing 1 lusin, berapa uang yang harus dibayarkan Bu Citra?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp 3.000",
+            "B": "Rp 5.000",
+            "C": "Rp 50.000",
+            "D": "Rp 75.000",
+            "E": "Rp 96.000"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan x adalah harga satu sabun dan y adalah harga satu sampo, keduanya dalam rupiah. Jumlah setiap barang menjadi pengali harga satuannya. Dari belanja Bu Intan dan Bu Desi, diperoleh dua persamaan berikut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5x + 8y = 49.000 (i)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3x + 6y = 33.000 (ii)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bu Citra membeli 12 sabun dan 12 sampo. Itu setara dengan 12 pasangan sabun dan sampo, jadi cukup mencari harga satu pasangan. Kurangi persamaan (i) dengan persamaan (ii). Selisih kedua pembelian adalah dua sabun dan dua sampo."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(5x + 8y) − (3x + 6y) = 49.000 − 33.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x + 2y = 16.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagi kedua ruas dengan 2 untuk mendapatkan harga satu pasangan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x + y = 8.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalikan harga satu pasangan dengan 12."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12 × 8.000 = 96.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Bu Citra harus membayar Rp96.000."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Dari cerita ke persamaan",
+        "teks": ""
+      },
+      {
+        "judul": "Persamaan linear satu variabel",
+        "teks": ""
+      },
+      {
+        "judul": "Sistem persamaan linear dua variabel",
+        "teks": ""
+      },
+      {
+        "judul": "Periksa jawaban terhadap cerita",
+        "teks": ""
+      }
+    ],
+    "pesan": "Mulailah dari pertanyaan, lalu tentukan variabel dan satuannya. Tulis persamaan dari hubungan yang benar-benar diberikan dalam cerita. Setelah menghitung, periksa kembali apakah hasilnya memenuhi informasi awal dan menjawab yang diminta. Jika hubungan antardata terasa sulit dibaca, gambarkan selisihnya atau susun data berdasarkan kelompok. Setelah model terbentuk, pilih langkah hitung yang langsung menuju besaran yang ditanyakan."
+  }
+}

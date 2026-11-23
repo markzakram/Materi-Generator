@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Operasi Hitung",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Numerik - Operasi Hitung",
+    "sumber": "https://docs.google.com/document/d/1NH35Z_A7LnD7DBVh_ThQb1ixtHBzOGsAgSk3nP-AcuY/edit",
+    "bagian": "soal",
+    "id_katalog": "nu-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil dari $2((1/3 - 2/5)/(1/6 - 1/5)) + (2/3 - (-7/3))$ adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "sorot",
+              "teks": "$2((1/3 - 2/5)/(1/6 - 1/5)) + (2/3 - (-7/3))$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tips: $a - (-b) = a + b$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 2((1/3 - 2/5)/(1/6 - 1/5)) + (2/3 + 7/3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 2(((5 - 6)/15)/((5 - 6)/30)) + (9/3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 2((-1/15)/(-1/30)) + (3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 2 (-1/15 ÷ -1/30) + (3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 2 (-1/15 × 30/(-1)) + (3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 2(2) + (3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 4 + 3 = 7$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Samakan penyebut di bagian atas dan di bagian bawah pecahan besar secara terpisah. Setelah itu, ubah pembagian pecahan menjadi perkalian dengan pecahan pembagi yang dibalik."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil dari $19,683 : 2,43$ adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "81",
+            "B": "8,1",
+            "C": "1,80",
+            "D": "1,23",
+            "E": "0,123"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bulatkan angka yang dibagi ke atas dan pembaginya ke bawah untuk mendapat taksiran yang lebih besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$19,683 → 20$ dan $2,43 → 2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20 : 2 = 10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bulatkan dengan arah sebaliknya untuk mendapat taksiran yang lebih kecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$19,683 → 19$ dan $2,43 → 3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19 : 3 = 6,...$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari pilihan yang tersedia, hanya 8,1 yang lebih besar dari taksiran rendah dan lebih kecil dari 10."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Taksiran pertama sengaja dibuat besar, dengan menaikkan angka yang dibagi dan menurunkan angka pembaginya. Taksiran kedua dibuat kecil dengan cara sebaliknya. Dari pilihan yang tersedia, hanya 8,1 yang berada di antara kedua taksiran itu. Cek dengan perkalian balik, $2,43 × 8,1 = 19,683$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil dari $(11^{2} - 8^{2})/(11 + 8) × 1/27 - 3^{-2}$ adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "$-3^{2}$",
+            "B": "$-3^{-2}$",
+            "C": "−3",
+            "D": "0",
+            "E": "$3^{2}$"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan: $a^{2} - b^{2} = (a - b)(a + b)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$((11 - 8)(11 + 8))/(11 + 8) × 1/27 - 3^{-2}$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Coret faktor jumlah 11 dan 8 karena faktor itu ada di atas dan di bawah garis pecahan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 3 × 1/27 - 3^{-2}$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ingat: $a^{-n} = 1/a^{n}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 1/9 - 1/3^{2} = 1/9 - 1/9 = 0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sesudah pembilang diuraikan, faktor jumlah 11 dan 8 juga ada di bagian bawah pecahan. Faktor yang sama ini habis saat dibagi, sehingga tersisa selisih 11 dan 8, yaitu 3. Setelah dikali satu per dua puluh tujuh, hasilnya satu per sembilan. Tiga pangkat negatif dua juga bernilai satu per sembilan. Selisih dua bilangan yang sama adalah nol."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil dari $255 × 245 + 295 × 305 + 145 × 155 - 195 × 205$ adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "131.950",
+            "B": "133.950",
+            "C": "134.950",
+            "D": "137.950",
+            "E": "139.950"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "$255 × 245 + 295 × 305 + 145 × 155 - 195 × 205$ → Kira-kira saja menjadi:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$250 × 250 + 300 × 300 + 150 × 150 - 200 × 200$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 62.500 + 90.000 + 22.500 - 40.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 62.500 + 22.500 + 90.000 - 40.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 85.000 + 50.000 = 135.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Taksirannya 135.000. Pilihan yang paling dekat adalah C, yaitu 134.950."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka 255 dan 245 masing-masing berjarak 5 dari 250. Karena itu, hasil kali keduanya kurang 25 dari kuadrat 250. Tiga pasangan lain juga berjarak 5 dari angka tengahnya. Tiga hasil kali yang ditambahkan masing-masing mengurangi taksiran sebesar 25. Hasil kali terakhir dikurangkan, jadi selisih 25 itu justru ditambahkan. Hasil akhirnya 134.950."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 5",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil dari $2,375 ÷ 3/8 + 3,875 ÷ 3/8$ adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "15,667",
+            "B": "15,767",
+            "C": "16,660",
+            "D": "16,667",
+            "E": "17,007"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "sorot",
+              "teks": "$= (2 + 0,375) ÷ 3/8 + (3 + 0,875) ÷ 3/8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ingat pecahan istimewa:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pecahan Istimewa",
+                "",
+                "",
+                ""
+              ],
+              "baris": [
+                [
+                  "$1/2=0,5=50%$",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "$1/3=0,3333=33,33%$",
+                  "$2/3=0,6667=66,67%$",
+                  "",
+                  ""
+                ],
+                [
+                  "$1/4=0,25=25%$",
+                  "$3/4=0,75=75%$",
+                  "",
+                  ""
+                ],
+                [
+                  "$1/6=0,1667=16,67%$",
+                  "$5/6=0,8333=83,33%$",
+                  "",
+                  ""
+                ],
+                [
+                  "$1/8=0,125=12,5%$",
+                  "$3/8=0,375=37,5%$",
+                  "$5/8=0,625=62,5%$",
+                  "$7/8=0,875=87,5%$"
+                ]
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= (2 + 3/8) ÷ 3/8 + (3 + 7/8) ÷ 3/8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan sifat distributif: $(b + c) × a = b × a + c × a$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= (2 ÷ 3/8 + 3/8 ÷ 3/8) + (3 ÷ 3/8 + 7/8 ÷ 3/8)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= (2 × 8/3 + 3/8 × 8/3) + (3 × 8/3 + 7/8 × 8/3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= (16/3 + 1) + (8 + 7/3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= (16/3 + 3/3) + (24/3 + 7/3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 19/3 + 31/3 = 50/3 = 16 2/3 ≈ 16,6667$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lihat dua bagian yang sama-sama dibagi dengan tiga per delapan. Tabel membantu mengubah 0,375 menjadi tiga per delapan dan 0,875 menjadi tujuh per delapan. Setelah menghitung kedua bagian, jumlahkan hasilnya. Hasilnya dibulatkan sampai tiga angka di belakang koma."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 6",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "32 adalah berapa persen dari 80?"
+            }
+          ],
+          "opsi": {
+            "A": "50",
+            "B": "60",
+            "C": "40",
+            "D": "30",
+            "E": "36"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "sorot",
+              "teks": "$x% ⋅ 80 = 32$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ingat: $x% = x/100$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(x/100) × 80 = 32$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x = 32 × 100/80 = 32 × 10/8 = 4 × 10 = 40$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Anggap persentase yang dicari sebagai x. Dari 80, kita ingin mendapat 32. Karena persen berarti per seratus, ubah x persen menjadi x per seratus, lalu cari nilai x. Hasilnya 40 persen."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 7",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$80% ÷ 50% =?$"
+            }
+          ],
+          "opsi": {
+            "A": "160%",
+            "B": "150%",
+            "C": "145%",
+            "D": "130%",
+            "E": "120%"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Trik cepat:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua angka sama-sama ditulis dalam bentuk persen. Keduanya memiliki faktor per seratus yang bisa dicoret dalam pembagian."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$80% ÷ 50% = 80/50$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan jawaban berbentuk persen. Ubah pecahan ke bentuk per seratus."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$80/50 = (80 × 2)/(50 × 2) = 160/100 = 160%$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalikan 50 dengan 2 agar penyebutnya menjadi 100. Kalikan bagian atas dengan 2 juga. Dengan penyebut 100, 160 per 100 dapat ditulis sebagai 160%."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

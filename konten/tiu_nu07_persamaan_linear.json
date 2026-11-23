@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "judul": "Persamaan Linear",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Persamaan Linear",
+    "sumber": "https://docs.google.com/document/d/1F_of9XIMKx74wIN3UqLYoJqf7oNMIjnPR0omnQsD9eA/edit",
+    "subjudul": "Aljabar",
+    "id_katalog": "nu-07"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Persamaan menyatakan bahwa nilai di ruas kiri sama dengan nilai di ruas kanan. Untuk menemukan bilangan yang belum diketahui, kita mengubah kedua ruas dengan cara yang tetap menjaga kesetaraan. Jika ada dua variabel, dua persamaan dapat dipakai bersama untuk mencari pasangan nilai yang memenuhi keduanya.",
+      "Bab ini dimulai dari persamaan satu variabel agar langkah dasarnya mudah diikuti. Prinsip yang sama kemudian digunakan pada sistem dua variabel. Perhitungannya ditulis berurutan agar alasan di balik setiap perubahan terlihat."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "bentuk umum persamaan linear satu variabel, persamaan linear dua variabel, dan SPLDV."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "persamaan satu variabel dengan melakukan operasi yang sama pada kedua ruas."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "pasangan solusi SPLDV dengan metode substitusi dan metode campuran."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "solusi dengan menggantikan nilai variabel pada persamaan awal."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Persamaan linear satu variabel",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Persamaan linear satu variabel",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk umum"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-01.png",
+              "lebar": 1.6,
+              "tinggi": 0.44
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf x adalah variabel, a adalah koefisien dari x, dan b adalah konstanta. Koefisien a harus bukan nol agar suku yang memuat x tetap ada."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Disebut linear karena variabelnya berpangkat satu. Bentuk umum ditulis dengan nol di ruas kanan, tetapi persamaan seperti 3x + 5 = 20 juga linear. Jika perlu, kurangi kedua ruas dengan 20 untuk menuliskannya dalam bentuk umum."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penyelesaian persamaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menyelesaikan persamaan berarti mencari nilai yang membuat kedua ruas bernilai sama. Lakukan operasi yang sama pada kedua ruas agar persamaan tetap setara. Jika mengalikan atau membagi kedua ruas, gunakan bilangan selain nol."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: cari nilai x pada 3x + 5 = 20. Kurangi kedua ruas dengan 5 untuk menghilangkan suku tetap dari ruas kiri."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-02.png",
+              "lebar": 5.81,
+              "tinggi": 1.51
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka 5 dikurangkan dari ruas kiri dan ruas kanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3x = 15"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagi kedua ruas dengan 3 agar x berdiri sendiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x = 5"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan mengganti x pada persamaan awal. Tiga kali 5 ditambah 5 menghasilkan 20, sama dengan ruas kanan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Sistem Persamaan Linear Dua Variabel (SPLDV)",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Sistem Persamaan Linear Dua Variabel (SPLDV)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "SPLDV terdiri atas dua persamaan linear dengan dua variabel yang sama. Solusinya berupa pasangan nilai yang membuat kedua persamaan benar secara bersamaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk umum persamaan dua variabel"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-03.png",
+              "lebar": 1.61,
+              "tinggi": 0.47
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf x dan y adalah variabel. Koefisien x adalah a, koefisien y adalah b, dan c adalah konstanta."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk umum SPLDV"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-04.png",
+              "lebar": 1.81,
+              "tinggi": 0.84
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf x dan y mewakili variabel yang sama pada kedua persamaan. Huruf a dan p adalah koefisien x. Huruf b dan q adalah koefisien y. Huruf c dan r adalah konstanta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam satu persamaan linear dua variabel, koefisien x dan y tidak boleh keduanya nol. Satu persamaan saja sering memungkinkan beberapa pasangan. Pada persamaan x + y = 7, misalnya, pasangan (2, 5) dan (3, 4) sama-sama memenuhi. Persamaan kedua membantu menentukan pasangan mana yang juga memenuhi hubungan berikutnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Teknik penyelesaian SPLDV",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teknik penyelesaian SPLDV",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Metode substitusi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi berarti mengganti suatu variabel dengan bentuk lain yang nilainya sama. Nyatakan satu variabel dengan variabel lainnya, lalu masukkan bentuk itu ke persamaan yang belum digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Atur salah satu persamaan agar x atau y berdiri sendiri di satu ruas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Ganti variabel tersebut pada persamaan lainnya dengan bentuk yang diperoleh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Selesaikan persamaan yang sekarang hanya memuat satu variabel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Gunakan nilai tersebut untuk mendapatkan nilai variabel yang lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulailah dari variabel yang koefisiennya 1 atau −1 jika tersedia. Variabel ini biasanya dapat dibuat berdiri sendiri tanpa memperkenalkan pecahan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh Soal — Metode Substitusi"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-05.png",
+              "lebar": 1.54,
+              "tinggi": 0.65
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa nilai x dan y?"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Jawaban: x = 3 dan y = 4"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembahasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x + y = 7 (i)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2x + y = 10 (ii)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari persamaan (i), kurangi kedua ruas dengan x sehingga y berdiri sendiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "y = 7 − x (iii)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ganti y pada persamaan (ii) dengan bentuk dari persamaan (iii)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2x + y = 10"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ 2x + (7 − x) = 10"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ 2x + 7 − x = 10"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ 2x − x = 10 − 7"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ x = 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan x = 3 ke persamaan (i) untuk mendapatkan y."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x + y = 7"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ 3 + y = 7"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ y = 7 − 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ y = 4"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda ⇔ berarti kedua baris setara. Bentuk dalam kurung menggantikan satu variabel secara utuh. Pasangan hasil juga memenuhi persamaan (ii), karena dua kali 3 ditambah 4 menghasilkan 10."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Metode campuran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Metode campuran menggabungkan eliminasi dan substitusi. Eliminasi berarti menggabungkan dua persamaan agar salah satu variabel hilang. Setelah nilai variabel pertama ditemukan, gunakan substitusi untuk memperoleh nilai variabel lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Gunakan eliminasi untuk menemukan nilai salah satu variabel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Substitusikan nilai itu ke salah satu persamaan awal untuk menemukan nilai variabel lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika koefisien suatu variabel sama pada kedua persamaan, kurangi satu persamaan dengan yang lain. Jika koefisiennya berlawanan tanda dengan besar yang sama, jumlahkan kedua persamaan. Jika belum sama besar, kalikan seluruh suku dan kedua ruas pada persamaan yang perlu disesuaikan sebelum menjumlahkan atau mengurangkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh Soal — Metode Campuran"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-06.png",
+              "lebar": 1.54,
+              "tinggi": 0.65
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa nilai x dan y?"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Jawaban: x = 3 dan y = 4"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembahasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x + y = 7 (i)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2x + y = 10 (ii)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menghilangkan y, kurangi persamaan (i) dengan persamaan (ii). Kedua persamaan sama-sama mempunyai satu y, sehingga bagian itu saling menghapus."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-07.png",
+              "lebar": 1.88,
+              "tinggi": 1.58
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil pengurangan adalah −x = −3. Bagi kedua ruas dengan −1 sehingga x = 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan x = 3 ke persamaan (i) untuk mendapatkan y."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x + y = 7"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ 3 + y = 7"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ y = 7 − 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇔ y = 4"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua metode menghasilkan pasangan yang sama. Eliminasi langsung lebih singkat pada contoh ini karena koefisien y sudah sama. Substitusi juga mudah karena y bisa dibuat berdiri sendiri dari persamaan pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu SPLDV dapat mempunyai satu solusi, tidak mempunyai solusi, atau mempunyai banyak solusi. Jika penggabungan menghasilkan pernyataan yang mustahil, seperti 0 = 3, kedua persamaan tidak dapat dipenuhi bersamaan. Jika kedua persamaan sebenarnya setara, keduanya memberikan syarat yang sama sehingga masih ada banyak pasangan yang memenuhi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Persamaan linear satu variabel",
+        "teks": ""
+      },
+      {
+        "judul": "Sistem Persamaan Linear Dua Variabel (SPLDV)",
+        "teks": ""
+      },
+      {
+        "judul": "Teknik penyelesaian SPLDV",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pada persamaan satu variabel, jaga kesetaraan dengan melakukan operasi yang sama pada kedua ruas. Pada SPLDV, gunakan substitusi atau campuran untuk menemukan satu variabel terlebih dahulu, lalu cari variabel yang lain. Periksa pasangan hasil pada kedua persamaan awal. Saat memilih metode, lihat bentuk persamaannya. Variabel yang mudah dibuat berdiri sendiri memudahkan substitusi. Koefisien yang sudah sama besar memudahkan eliminasi. Kedua cara dapat digunakan untuk sistem yang sama."
+  }
+}

@@ -1,0 +1,1185 @@
+{
+  "meta": {
+    "judul": "Kecukupan Data",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Data & Deret - Kecukupan Data",
+    "sumber": "https://docs.google.com/document/d/1YJ6m212FZiG_LKUSITFjXTsIa-gvq_43uHGDUNy1MFs/edit",
+    "id_katalog": "dd-01"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Kecukupan Data meminta kita menilai apakah informasi yang diberikan sudah memastikan jawaban suatu pertanyaan. Jawabannya bukan langsung berupa hasil hitungan, melainkan pilihan yang menunjukkan pernyataan mana yang cukup. Kuncinya adalah menguji setiap pernyataan secara terpisah sebelum menggabungkannya bila diperlukan.",
+      "Pengetahuan Bilangan, Aljabar, dan Soal Cerita digunakan sebagai alat bantu. Namun, perhitungan hanya perlu diteruskan sampai kita mengetahui apakah jawabannya pasti. Kebiasaan membaca syarat, menjaga pemisahan informasi, dan memeriksa kemungkinan lain lebih menentukan daripada menghitung panjang."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "informasi awal, pertanyaan utama, dua pernyataan, dan pilihan kecukupan."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "pernyataan (1) dan (2) secara mandiri serta gabungannya bila diperlukan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "satu jawaban pasti dengan beberapa jawaban yang masih mungkin."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "sifat bilangan, hubungan aljabar, dan rumus cerita seperlunya."
+      },
+      {
+        "level": "",
+        "kko": "Menilai",
+        "teks": "apakah persamaan memberi informasi baru atau hanya mengulang informasi sebelumnya."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Arti Data yang Cukup",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Arti Data yang Cukup",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Data cukup jika semua keadaan yang memenuhi informasi tersebut menghasilkan jawaban yang sama. Untuk pertanyaan nilai, hasilnya harus satu nilai pasti. Untuk pertanyaan ya/tidak, jawabannya harus selalu “ya” atau selalu “tidak”."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd01_kecukupan_data/gambar-01.png",
+              "lebar": 6.25,
+              "tinggi": 1.96
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban pasti “tidak” tetap berarti cukup. Sebaliknya, satu contoh yang menjawab “ya” belum membuktikan cukup jika masih ada contoh lain yang menjawab “tidak”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai variabel boleh berbeda selama jawaban yang ditanyakan tetap sama. Misalnya, ketika yang ditanyakan perbandingan dua besaran, kita tidak selalu perlu mengetahui nilai masing-masing. Karena itu, selalu tentukan terlebih dahulu apa yang harus dijawab."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bentuk Soal dan Pilihan Jawaban",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk Soal dan Pilihan Jawaban",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu soal memuat informasi awal, satu pertanyaan utama, pernyataan (1), pernyataan (2), dan pilihan A–E. Informasi awal berlaku pada semua pengujian. Fakta yang hanya diberikan dalam pernyataan (1) tidak boleh dipakai saat menguji pernyataan (2), dan sebaliknya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuknya dapat berupa pertanyaan nilai, perbandingan, atau ya/tidak. Pada soal cerita, data awal dapat disajikan sebagai narasi atau tabel. Tabel bukan informasi tambahan: seluruh data di dalamnya tetap dipakai ketika menguji masing-masing pernyataan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pilihan",
+                "(1) saja",
+                "(2) saja",
+                "Gabungan"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "Cukup",
+                  "Tidak cukup",
+                  "Tidak perlu diuji untuk memilih opsi."
+                ],
+                [
+                  "B",
+                  "Tidak cukup",
+                  "Cukup",
+                  "Tidak perlu diuji untuk memilih opsi."
+                ],
+                [
+                  "C",
+                  "Tidak cukup",
+                  "Tidak cukup",
+                  "Cukup."
+                ],
+                [
+                  "D",
+                  "Cukup",
+                  "Cukup",
+                  "Tidak perlu diuji untuk memilih opsi."
+                ],
+                [
+                  "E",
+                  "Tidak cukup",
+                  "Tidak cukup",
+                  "Tetap tidak cukup."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Catatan pilihan jawaban: Susunan A–E pada tabel merupakan pola yang umum digunakan. Redaksi, urutan, dan huruf pilihan dapat berbeda tergantung pembuat soal. Selalu baca opsi pada soal yang dikerjakan, lalu cocokkan dengan hasil pengujian kecukupannya; jangan hanya menghafal huruf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D berarti masing-masing pernyataan dapat menjawab secara mandiri. C berarti kedua pernyataan baru cukup setelah digabungkan. E berarti gabungannya pun belum memastikan jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan berhenti ketika pernyataan (1) sudah cukup. Pernyataan (2) tetap perlu diuji untuk membedakan A dari D. Jika pernyataan (1) tidak cukup tetapi pernyataan (2) cukup, pilih B."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Review Materi yang Digunakan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Review Materi yang Digunakan",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Dasar materi",
+                "Yang perlu diingat",
+                "Penggunaannya"
+              ],
+              "baris": [
+                [
+                  "Bilangan",
+                  "Jenis bilangan, ganjil/genap, bilangan prima, keterbagian, serta faktor dan kelipatan.",
+                  "Periksa seluruh sifat yang disebutkan; jangan menganggap semua bilangan ganjil adalah prima."
+                ],
+                [
+                  "Aljabar",
+                  "Persamaan, pertidaksamaan, perbandingan, serta eliminasi dan substitusi.",
+                  "Cari hubungan yang menjawab pertanyaan, tanpa harus selalu menentukan semua variabel."
+                ],
+                [
+                  "Soal Cerita",
+                  "Hubungan antara jumlah, harga, laju, waktu, dan besaran lain yang ditanyakan.",
+                  "Tentukan arti variabel dan satuannya sebelum memakai rumus."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan prima adalah bilangan yang memiliki 2 faktor positif. Bilangan 1 bukan bilangan prima. Syarat bilangan bulat, positif, atau tidak negatif harus dibaca apa adanya karena dapat mengubah kemungkinan jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam aljabar, pertidaksamaan sebaiknya dibaca langsung melalui simbolnya. Tanda kurang dari atau sama dengan mencakup nilai batas; tanda kurang dari tidak. Jangan mengubah batas menjadi kalimat yang justru membuat artinya kabur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada cerita, periksa dasar persentase, kesamaan jarak, kesamaan pekerjaan, dan satuan. Misalnya, jumlah mesin dikali waktu hanya dapat dibandingkan untuk pekerjaan yang sama jika produktivitas tiap mesin sama dan tetap. Jika kesamaan pekerjaan belum disebutkan, jangan menganggapnya sudah ada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jumlah Persamaan dan Variabel",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jumlah Persamaan dan Variabel",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menentukan seluruh n variabel real secara tunggal dalam sistem persamaan linear, diperlukan n persamaan yang independen dan konsisten. Independen berarti setiap persamaan memberi hubungan baru, bukan sekadar kelipatan atau pengulangan persamaan lain. Konsisten berarti semua persamaan dapat dipenuhi secara bersamaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yang dihitung adalah persamaan linear, bukan banyaknya sistem persamaan. Dua variabel biasanya memerlukan dua persamaan independen untuk menentukan keduanya. Tiga variabel memerlukan tiga persamaan independen. Menambah persamaan yang isinya berulang tidak menambah informasi."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd01_kecukupan_data/gambar-02.png",
+              "lebar": 6.25,
+              "tinggi": 2.4
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Keadaan",
+                "Dua persamaan",
+                "Hasil"
+              ],
+              "baris": [
+                [
+                  "Informasi berbeda",
+                  "$x+y=10$ $x−y=4$",
+                  "Satu pasangan: x bernilai 7 dan y bernilai 3."
+                ],
+                [
+                  "Informasi berulang",
+                  "$x+y=10$ $2x+2y=20$",
+                  "Persamaan kedua hanya dua kali persamaan pertama. Nilai masing-masing belum pasti."
+                ],
+                [
+                  "Informasi bertentangan",
+                  "$x+y=10$ $2x+2y=22$",
+                  "Tidak ada pasangan yang memenuhi keduanya sekaligus."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aturan jumlah persamaan bukan pengganti pengujian kecukupan. Pertanyaan dapat terjawab sebelum semua variabel diketahui. Batas bilangan bulat atau positif juga dapat mempersempit kemungkinan, sehingga keputusan akhirnya tetap berdasarkan pertanyaan dan seluruh syarat yang diberikan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung variabel bebas, lalu hitung persamaan linear independen dari informasi awal dan pernyataan yang diuji. Dua variabel dengan dua persamaan independen yang konsisten dapat ditentukan tunggal. Persamaan berulang tidak menambah informasi. Jika hubungan belum lengkap, tetap periksa yang ditanyakan dan batas bilangannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika ada dua variabel dan dua persamaan linear independen yang konsisten, nilai keduanya pasti sehingga data cukup. Jika baru ada satu hubungan, periksa apakah masih ada dua jawaban yang mungkin. Untuk pertanyaan nilai satu variabel, cara ini dapat mempercepat penentuan status tanpa menyelesaikan seluruh hitungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tetap periksa yang ditanyakan dan batas bilangannya. Satu persamaan dapat cukup untuk menentukan jumlah atau perbandingan tertentu, dan syarat bilangan bulat dapat mempersempit kemungkinan. Hubungan berupa hasil kali dua variabel yang belum diketahui bukan persamaan linear, sehingga tidak dinilai hanya dengan menghitung banyak persamaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika hanya diketahui jumlah dua bilangan adalah 10, nilai setiap bilangan belum tentu pasti. Namun, jika yang ditanyakan jumlah keduanya, jawabannya sudah diketahui."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x+y=10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua persamaan yang saling bertentangan juga tidak dapat disebut cukup. Tidak adanya keadaan yang memenuhi data berbeda dengan adanya satu jawaban pasti."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cara Mengerjakan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara Mengerjakan",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd01_kecukupan_data/gambar-03.png",
+              "lebar": 6.25,
+              "tinggi": 1.96
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Tentukan yang ditanyakan. Apakah mencari nilai, membandingkan besaran, atau menjawab ya/tidak?",
+                "Baca informasi awal dan domainnya. Catat jenis bilangan, arti variabel, satuan, dan hubungan yang memang sudah diketahui.",
+                "Uji (1) bersama informasi awal saja. Tentukan apakah jawabannya selalu sama.",
+                "Mulai ulang untuk menguji (2). Lepaskan nilai khusus yang hanya diperoleh dari (1).",
+                "Jika keduanya sendiri belum cukup, gabungkan (1) dan (2), lalu uji kembali.",
+                "Cocokkan hasil pengujian dengan pilihan A–E."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk membuktikan tidak cukup, cari dua keadaan yang sama-sama memenuhi data tetapi menghasilkan jawaban berbeda. Pada pertanyaan ya/tidak, kedua keadaan itu harus menghasilkan satu “ya” dan satu “tidak”. Dua nilai variabel yang berbeda belum tentu berarti dua jawaban yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk membuktikan cukup, jelaskan hubungan yang memastikan jawaban pada semua kemungkinan yang diperbolehkan. Menguji satu angka yang kebetulan berhasil tidak cukup sebagai bukti."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tips Mengerjakan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tips Mengerjakan",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Utamakan pertanyaan. Informasi tambahan tentang variabel lain belum tentu diperlukan.",
+                "Jangan menebak sifat bilangan. Variabel tidak otomatis bulat, positif, atau berbeda satu sama lain.",
+                "Periksa informasi berulang. Dua pernyataan yang setara tidak memberi dua hubungan baru.",
+                "Gunakan contoh kecil untuk membuktikan tidak cukup, lalu periksa kembali semua syaratnya.",
+                "Pada cerita, jangan menyisipkan kesamaan pekerjaan, jarak, atau jumlah barang yang belum diberikan.",
+                "Hentikan hitungan setelah kecukupan terbukti, tetapi tetap uji pernyataan lain untuk memilih opsi yang tepat."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan yang paling sering terjadi adalah membawa hasil (1) ke uji (2), menyamakan “belum tahu semua variabel” dengan “tidak cukup”, atau menganggap jawaban “tidak” berarti data kurang. Ketiganya dapat dihindari dengan menuliskan status setiap uji secara jelas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui x dan y adalah bilangan bulat positif. Berapakah nilai x?"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(1) x+y=10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(2) 2x+3y=23$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah informasi yang dapat digunakan untuk menjawab pertanyaan."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi (2) saja tidak cukup.",
+            "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) saja tidak cukup.",
+            "C": "KEDUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+            "D": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan (2) SAJA cukup",
+            "E": "Pertanyaan (1) dan (2) TIDAK CUKUP untuk menjawab pertanyaan."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui dan ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi awal hanya menyatakan x dan y bilangan bulat positif. Ada dua variabel yang belum diketahui dan belum ada persamaan awal. Cara cepatnya adalah menghitung hubungan linear independen pada setiap uji, lalu memastikan apakah nilai x masih dapat berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1)"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x+y=10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada (1), ada dua variabel tetapi hanya satu persamaan linear. Di sini nilai x belum pasti: pasangan x bernilai 5 dan y bernilai 5 berjumlah 10, sedangkan pasangan x bernilai 6 dan y bernilai 4 juga berjumlah 10. Nilai x dapat 5 atau 6, sehingga (1) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai lagi dari informasi awal. Pada (2), tetap ada dua variabel dan hanya satu persamaan linear. Dua pasangan yang memenuhi adalah x bernilai 10 dengan y bernilai 1, serta x bernilai 7 dengan y bernilai 3. Pemeriksaannya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×10+3×1=23$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×7+3×3=23$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya bilangan bulat positif, tetapi nilai x dapat 10 atau 7. Jadi, (2) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gabungan (1) dan (2)"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "gabungan data memberi dua persamaan linear independen untuk dua variabel. Persamaan kedua bukan kelipatan persamaan pertama, sehingga keduanya dapat menentukan satu pasangan nilai. Jadi, gabungan data cukup. Perhitungan berikut memperlihatkan hasilnya: kalikan persamaan (1) dengan 2 agar koefisien x sama."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x+2y=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangkan persamaan ini dari persamaan (2)."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(2x+3y)−(2x+2y)=23−20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusikan nilai y ke persamaan (1)."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=10−3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=7$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masing-masing pernyataan belum cukup. Bersama-sama, keduanya memastikan x bernilai 7. Jawaban C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui x dan y adalah bilangan bulat positif yang memenuhi hubungan berikut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x+y=26$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah x lebih besar daripada y?"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(1) x+y=16$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(2) x+2y≤23$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah informasi yang dapat digunakan untuk menjawab pertanyaan."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi (2) saja tidak cukup.",
+            "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) saja tidak cukup.",
+            "C": "KEDUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+            "D": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan (2) SAJA cukup",
+            "E": "Pertanyaan (1) dan (2) TIDAK CUKUP untuk menjawab pertanyaan."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui dan ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ada dua variabel dan satu persamaan linear pada informasi awal. Persamaan awal ini tetap dihitung saat menguji setiap pernyataan. Yang ditanyakan adalah apakah x lebih besar daripada y; nilai tepat keduanya tidak harus dicari jika perbandingannya sudah pasti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1)"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "informasi awal dan (1) memberi dua persamaan linear independen untuk dua variabel, sehingga keduanya dapat ditentukan. Untuk melihat perbandingannya, kurangkan hubungan pada (1) dari hubungan awal."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(2x+y)−(x+y)=26−16$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan x ke hubungan pada (1)."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$y=16−10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=6$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 10 lebih besar daripada 6, jawabannya pasti “ya”. Pernyataan (1) saja cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (2) berbentuk pertidaksamaan, sehingga tidak dihitung sebagai satu persamaan linear tambahan. Gunakan hubungan awal dan batas pada (2) untuk menilai perbandingan secara langsung. Selisih kedua bentuk di bawah adalah x dikurangi y."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x−y=(2x+y)−(x+2y)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk pertama bernilai 26, sedangkan bentuk kedua paling besar 23. Jadi, selisihnya paling kecil 3."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x−y≥26−23$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x−y≥3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisihnya selalu positif, sehingga x selalu lebih besar daripada y. Pernyataan (2) saja cukup, meskipun nilai x dan y belum harus ditentukan satu per satu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (1) dan (2) masing-masing memastikan jawaban “ya” secara mandiri. Jawaban D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui n adalah bilangan bulat yang lebih besar daripada 1. Apakah n merupakan bilangan prima?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) n adalah bilangan ganjil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) n memiliki tepat dua faktor positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah informasi yang dapat digunakan untuk menjawab pertanyaan."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi (2) saja tidak cukup.",
+            "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) saja tidak cukup.",
+            "C": "KEDUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+            "D": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan (2) SAJA cukup",
+            "E": "Pertanyaan (1) dan (2) TIDAK CUKUP untuk menjawab pertanyaan."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui dan ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kita menilai apakah n pasti prima. Bilangan prima memiliki 2 faktor positif. Informasi awal belum menentukan status prima karena ada bilangan prima dan bukan prima yang lebih besar daripada 1."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan 3 memenuhi syarat ganjil dan merupakan prima. Bilangan 9 juga ganjil, tetapi bukan prima karena mempunyai faktor positif 1, 3, dan 9. Jadi, jawaban dapat “ya” atau “tidak”; (1) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Memiliki tepat dua faktor positif adalah ciri bilangan prima. Apa pun nilai n yang memenuhi (2), jawabannya pasti “ya”. Jadi, (2) saja cukup tanpa harus mengetahui nilai n secara tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hanya pernyataan (2) yang cukup. Jawaban B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui n adalah bilangan bulat yang memenuhi batas berikut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$10<n<50$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah n habis dibagi 6?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) n adalah bilangan ganjil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) n adalah kelipatan 9."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah informasi yang dapat digunakan untuk menjawab pertanyaan."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi (2) saja tidak cukup.",
+            "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) saja tidak cukup.",
+            "C": "KEDUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+            "D": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan (2) SAJA cukup",
+            "E": "Pertanyaan (1) dan (2) TIDAK CUKUP untuk menjawab pertanyaan."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui dan ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Habis dibagi berarti hasil pembagiannya bilangan bulat tanpa sisa. Kita perlu memastikan apakah n habis dibagi 6, dengan tetap memperhatikan batas bilangan pada informasi awal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan yang habis dibagi 6 pasti genap karena 6 adalah kelipatan 2. Jika n ganjil, n pasti tidak habis dibagi 6. Jawabannya selalu “tidak”, sehingga (1) saja cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan 18 dan 27 sama-sama kelipatan 9 dan berada di antara 10 dan 50. Periksa pembagiannya dengan 6."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$18÷6=3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$27÷6=4,5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk n bernilai 18, jawabannya “ya”. Untuk n bernilai 27, jawabannya “tidak”. Jadi, (2) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (1) cukup karena memastikan jawaban “tidak”, sedangkan (2) belum cukup. Jawaban A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 5",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua kelompok mesin menghasilkan barang. Semua mesin memiliki produktivitas yang sama dan tetap selama bekerja tanpa jeda. Data produksinya sebagai berikut. x adalah jumlah mesin pada kelompok B dan t adalah lama produksinya dalam jam."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kelompok Mesin",
+                "Jumlah Mesin",
+                "Waktu Produksi"
+              ],
+              "baris": [
+                [
+                  "Kelompok mesin A",
+                  "6 mesin",
+                  "18 jam"
+                ],
+                [
+                  "Kelompok mesin B",
+                  "x mesin",
+                  "t jam"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai t?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Kedua kelompok menyelesaikan jumlah barang yang sama."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(2) x≥9$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah informasi yang dapat digunakan untuk menjawab pertanyaan."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi (2) saja tidak cukup.",
+            "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) saja tidak cukup.",
+            "C": "KEDUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+            "D": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan (2) SAJA cukup",
+            "E": "Pertanyaan (1) dan (2) TIDAK CUKUP untuk menjawab pertanyaan."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui dan ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompok A memakai 6 mesin selama 18 jam. Jumlah mesin dan lama produksi kelompok B belum diketahui. Kita mencari satu nilai pasti untuk t. Informasi awal belum menyatakan jumlah barang yang dikerjakan kedua kelompok sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena jumlah barang sama dan produktivitas setiap mesin sama, hasil kali jumlah mesin dengan waktu kerjanya harus sama."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x×t=6×18$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x×t=108$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah mesin B bisa 9 atau 12 karena keduanya bilangan bulat positif. Hitung waktu untuk masing-masing kemungkinan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$t=108/9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=12 jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$t=108/12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=9 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya menghasilkan jumlah barang yang sama dengan kelompok A, tetapi t dapat 12 atau 9 jam. Pernyataan (1) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan hanya informasi awal dan batas jumlah mesin pada (2). Jumlah barang kelompok B belum dinyatakan sama dengan kelompok A, sehingga hubungan pada uji (1) tidak boleh digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai contoh yang sah, misalkan setiap mesin menghasilkan satu barang per jam. Kelompok A menghasilkan 108 barang dalam 18 jam. Dengan 9 mesin, kelompok B dapat mengerjakan 54 barang atau 108 barang; informasi yang sedang diuji mengizinkan jumlah pesanan berbeda."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$t=54/9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=6 jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$t=108/9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=12 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua contoh memakai sedikitnya 9 mesin dan produktivitas yang sama, tetapi t dapat 6 atau 12 jam. Pernyataan (2) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gabungan (1) dan (2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungan data menyatakan jumlah barang sama dan kelompok B memiliki sedikitnya 9 mesin. Pilihan 9 mesin dengan waktu 12 jam masih memenuhi keduanya. Pilihan 12 mesin dengan waktu 9 jam juga memenuhi keduanya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9×12=108$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12×9=108$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil kali tetap sama, tetapi waktu tetap dapat 12 atau 9 jam. Jadi, gabungan kedua pernyataan pun belum menentukan t."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masing-masing pernyataan dan gabungannya masih belum cukup. Jawaban E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 6",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Panitia seminar menjual dua jenis tiket dengan data berikut. m dan n menyatakan banyaknya tiket terjual, berupa bilangan bulat tidak negatif. Setiap peserta membeli satu tiket dan tidak ada biaya tambahan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis Peserta",
+                "Harga/Tiket",
+                "Jumlah Tiket Terjual"
+              ],
+              "baris": [
+                [
+                  "Seminar Tatap Muka",
+                  "Rp180.000",
+                  "m"
+                ],
+                [
+                  "Seminar Daring",
+                  "Rp90.000",
+                  "n"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah total pendapatan penjualan tiket?"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(1) m+n=30$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(2) m−n=10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah informasi yang dapat digunakan untuk menjawab pertanyaan."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi (2) saja tidak cukup.",
+            "B": "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi (1) saja tidak cukup.",
+            "C": "KEDUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+            "D": "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan (2) SAJA cukup",
+            "E": "Pertanyaan (1) dan (2) TIDAK CUKUP untuk menjawab pertanyaan."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui dan ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pendapatan diperoleh dari harga setiap jenis tiket dikalikan banyak tiketnya, lalu dijumlahkan. Misalkan R menyatakan pendapatan dalam rupiah."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$R=180.000m+90.000n$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Variabel bebas yang perlu ditentukan ada dua, yaitu m dan n. R adalah hasil perhitungan dari keduanya, bukan jumlah tiket tambahan yang harus dicari. Informasi awal baru memberi harga tiket dan belum memberi hubungan yang menentukan m serta n."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada (1), ada dua variabel tetapi baru satu persamaan linear, yaitu jumlah tiket 30. Periksa apakah pendapatan masih dapat berbeda. Jika 10 tiket tatap muka dan 20 tiket daring terjual, pendapatannya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$R=180.000×10+90.000×20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=1.800.000+1.800.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3.600.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 20 tiket tatap muka dan 10 tiket daring terjual, jumlahnya tetap 30, tetapi pendapatannya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$R=180.000×20+90.000×10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3.600.000+900.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4.500.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pendapatan dapat Rp3.600.000 atau Rp4.500.000. Jadi, (1) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai kembali dari informasi awal. Pada (2), juga baru ada satu persamaan linear untuk dua variabel: tiket tatap muka terjual 10 lebih banyak daripada tiket daring. Pasangan 15 tiket tatap muka dan 5 tiket daring memenuhi syarat ini."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$R=180.000×15+90.000×5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=2.700.000+450.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3.150.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan 20 tiket tatap muka dan 10 tiket daring juga memiliki selisih 10."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$R=180.000×20+90.000×10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3.600.000+900.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4.500.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pendapatan dapat Rp3.150.000 atau Rp4.500.000. Jadi, (2) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gabungan (1) dan (2)"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "gabungan data memberi dua persamaan linear independen untuk dua variabel, yaitu hubungan jumlah dan selisih. Jumlah setiap jenis tiket dapat ditentukan secara tunggal, sehingga pendapatannya juga pasti. Untuk memperoleh nilainya, jumlahkan kedua persamaan untuk menghilangkan n."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(m+n)+(m−n)=30+10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2m=40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$m=40/2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan jumlah tiket 30 untuk memperoleh tiket daring."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n=30−20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan kedua jumlah tiket ke rumus pendapatan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$R=180.000×20+90.000×10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3.600.000+900.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4.500.000$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masing-masing pernyataan belum cukup. Setelah digabungkan, pendapatan pasti Rp4.500.000. Jawaban C."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Arti Data yang Cukup",
+        "teks": ""
+      },
+      {
+        "judul": "Bentuk Soal dan Pilihan Jawaban",
+        "teks": ""
+      },
+      {
+        "judul": "Review Materi yang Digunakan",
+        "teks": ""
+      },
+      {
+        "judul": "Jumlah Persamaan dan Variabel",
+        "teks": ""
+      },
+      {
+        "judul": "Cara Mengerjakan",
+        "teks": ""
+      },
+      {
+        "judul": "Tips Mengerjakan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Kecukupan Data berfokus pada kepastian jawaban. Uji (1) dan (2) secara terpisah bersama informasi awal, lalu gabungkan jika keduanya sendiri belum cukup. Satu nilai pasti atau satu keputusan ya/tidak yang tetap berarti cukup; dua jawaban berbeda yang sama-sama memenuhi data berarti belum cukup. Gunakan konsep Bilangan, Aljabar, dan Soal Cerita secukupnya untuk membuktikan status tersebut. Perhatikan domain, informasi yang berulang, serta kesamaan kondisi dalam cerita. Jumlah persamaan membantu membaca hubungan, tetapi keputusan akhir tetap harus menjawab pertanyaan yang benar-benar diajukan."
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "judul": "Perkalian dan Pembagian Setara",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Perkalian dan Pembagian Setara",
+    "sumber": "https://docs.google.com/document/d/1OT4wdL_rWHEX8oJ8eLZ1My7AhloJOeAYNV7xae0a9uc/edit",
+    "id_katalog": "nu-02"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal perkalian dan pembagian setara, kita mencari satu opsi yang memuat dua operasi dengan hasil yang sama. Perkalian dapat langsung dibandingkan, sedangkan pembagian diubah menjadi perkalian silang. Setelah itu, kita dapat menyederhanakan angka, mengecek satuan, dan menghitung penuh hanya saat diperlukan.",
+      "Angka yang panjang dapat membuat dua operasi sulit dibandingkan sekilas. Mulailah dengan mengubah keduanya ke bentuk yang lebih mudah diuji. Angka satuan membantu menyingkirkan pasangan yang pasti berbeda. Untuk memastikan dua hasil benar-benar sama, bandingkan hasil lengkap dari pasangan yang masih mungkin benar."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "bentuk soal perkalian dan pembagian setara serta letak dua operasi pada setiap opsi."
+      },
+      {
+        "level": "",
+        "kko": "Menyederhanakan",
+        "teks": "dua hasil kali dengan mencoret nol akhir secara berpasangan."
+      },
+      {
+        "level": "",
+        "kko": "Mengubah",
+        "teks": "uji hasil bagi menjadi perkalian silang tanpa menukar posisi pembagi."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "angka satuan untuk menyaring opsi dan hitung penuh untuk menentukan satu jawaban."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bentuk soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu soal mempunyai lima opsi, A sampai E. Setiap opsi berisi dua operasi yang dibandingkan. Pilih satu opsi yang kedua hasilnya sama. Kata “dibandingkan dengan” mengajak kita menguji pasangan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal juga dapat disajikan lewat cerita singkat. Pada perkalian, perhatikan apakah yang dibandingkan adalah jumlah seluruh barang, misalnya banyak paket dikali isi per paket. Pada pembagian, perhatikan apakah yang dibandingkan adalah isi tiap paket, misalnya jumlah barang dibagi banyak paket."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perkalian silang pada pembagian",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perkalian silang pada pembagian",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kalikan angka yang dibagi di sisi kiri dengan pembagi di sisi kanan. Lalu kalikan angka yang dibagi di sisi kanan dengan pembagi di sisi kiri. Jika kedua hasil kali silang sama, kedua hasil bagi juga sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perkalian silang pada dua hasil bagi"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Sisi kiri",
+                "Sisi kanan"
+              ],
+              "baris": [
+                [
+                  "Baca pembagian",
+                  "1.260 ÷ 28",
+                  "1.980 ÷ 44"
+                ],
+                [
+                  "Pasangkan secara silang",
+                  "1.260 dengan 44",
+                  "1.980 dengan 28"
+                ],
+                [
+                  "Bandingkan hasil kali",
+                  "1.260 × 44 = 55.440",
+                  "1.980 × 28 = 55.440"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pembagi harus selain nol. Perkalian silang menguji kesamaan secara tepat, termasuk saat hasil pembagian berbentuk desimal berulang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Eliminasi nol pada kedua sisi",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Eliminasi nol pada kedua sisi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Coret jumlah nol akhir yang sama banyak di kedua sisi. Satu pasang nol berarti kedua hasil kali dibagi 10. Dua pasang berarti keduanya dibagi 100. Pada pembagian, lakukan langkah ini setelah menulis pasangan hasil kali silang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pencoretan nol pada kedua sisi"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Sisi kiri",
+                "Sisi kanan"
+              ],
+              "baris": [
+                [
+                  "Sebelum dicoret",
+                  "24 × 730",
+                  "35 × 600"
+                ],
+                [
+                  "Setelah dicoret",
+                  "24 × 73",
+                  "35 × 60"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tabel, sisi kiri mempunyai satu nol akhir dan sisi kanan mempunyai dua. Coret satu nol dari setiap sisi. Dengan begitu, kedua hasil sama-sama dibagi 10. Satu nol di sisi kanan tetap ada, sehingga 600 menjadi 60. Nol di tengah bilangan juga tetap ditulis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cek angka satuan, lalu hitung penuh jika perlu",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cek angka satuan, lalu hitung penuh jika perlu",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Angka satuan adalah digit paling kanan. Kalikan angka satuan kedua faktor di sisi kiri, lalu lakukan hal yang sama di sisi kanan. Jika angka satuan hasil berbeda, coret opsi itu. Jika sama, hitung kedua hasil kali lengkap untuk memastikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Dari angka satuan ke hasil penuh"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Sisi kiri",
+                "Sisi kanan"
+              ],
+              "baris": [
+                [
+                  "Bandingkan pasangan",
+                  "44 × 36",
+                  "48 × 38"
+                ],
+                [
+                  "Cek angka satuan",
+                  "4 × 6 = 24 → satuan 4",
+                  "8 × 8 = 64 → satuan 4"
+                ],
+                [
+                  "Hitung penuh",
+                  "1.584",
+                  "1.824"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selalu ambil angka satuan dari bentuk setelah penyederhanaan. Jika nol masih tersisa di akhir sebuah faktor, nol itulah angka satuannya. Pada hasil yang lebih dari satu digit, seperti 24, yang dibandingkan hanya digit terakhirnya, yaitu 4."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bentuk soal",
+        "teks": ""
+      },
+      {
+        "judul": "Perkalian silang pada pembagian",
+        "teks": ""
+      },
+      {
+        "judul": "Eliminasi nol pada kedua sisi",
+        "teks": ""
+      },
+      {
+        "judul": "Cek angka satuan, lalu hitung penuh jika perlu",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pada perkalian, bandingkan dua hasil kali secara langsung. Pada pembagian, tulis dulu hasil kali silang. Coret nol akhir secara berpasangan, lalu cek angka satuan. Jika satuannya sama, hitung kedua hasil secara lengkap sebelum memilih jawaban. Biasakan menulis pasangan kiri dan kanan pada baris yang sama agar mudah dicek. Bila masih ada nol setelah penyederhanaan, pertahankan nol itu saat mencari angka satuan. Pada pembagian, baca ulang hasil kali silang sebelum menghitung. Cara ini membantu menemukan kesalahan seperti memasangkan angka dengan pembagi dari sisi yang sama."
+  }
+}

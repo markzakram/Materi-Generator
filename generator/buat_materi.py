@@ -436,12 +436,12 @@ class Pembangun:
                 y -= 0.35
             y = D.gambar_opsi(s, y + 0.35, opsi)
             self.cek_batas(y, judul)
-        tombol_bahas = D.tombol(s, D.KIRI, 10.36, "Lihat pembahasan ›")
-
         kunci = sl.get("kunci", "")
         blok = list(sl.get("pembahasan", []))
         if kunci and opsi.get(kunci):
             blok.insert(0, {"jenis": "kunci", "teks": f"**Kunci {kunci}.** {opsi[kunci]}"})
+        if blok:
+            tombol_bahas = D.tombol(s, D.KIRI, 10.36, "Lihat pembahasan ›")
 
         def kepala_bahas(lanjutan, _judul=None):
             s = self.baru("Pendalaman Materi")
@@ -556,9 +556,11 @@ class Pembangun:
         self.selesaikan()
 
     def _bagian_dilewati(self, sumber):
-        """Deck contoh soal (meta.bagian 'soal') tidak punya pendahuluan, tujuan, dan penutup sendiri;
-        slidenya dilewati selama masih kosong."""
-        if self.k["meta"].get("bagian") != "soal" or sumber not in ("pendahuluan", "tujuan", "penutup"):
+        """Deck contoh soal (meta.bagian 'soal') dan naskah dari PDF (meta.lewati_kosong) tidak punya
+        pendahuluan, tujuan, dan penutup sendiri; slidenya dilewati selama masih kosong."""
+        meta = self.k["meta"]
+        if not (meta.get("bagian") == "soal" or meta.get("lewati_kosong")) \
+                or sumber not in ("pendahuluan", "tujuan", "penutup"):
             return False
         isi = self.k.get(sumber) or {}
         return not any(isi.get(x) for x in ("paragraf", "pemantik", "gambar", "butir", "ringkasan", "pesan"))

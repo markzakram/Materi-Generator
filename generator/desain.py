@@ -196,6 +196,8 @@ def lebar_pt(teks: str, ukuran: float, tebal=False, rumus=False) -> float:
     if not teks:
         return 0.0
     w = _lebar_rumus(teks) if rumus else _ft(bool(tebal)).getlength(teks)
+    if rumus in ("sup", "sub"):  # pangkat/indeks digambar PowerPoint sekitar 2/3 ukuran run
+        w *= 0.67
     return w * ukuran / 400.0
 
 
@@ -210,15 +212,29 @@ def kutip_lengkung(teks: str) -> str:
     return "".join(hasil)
 
 
+def _segmen_rumus(isi, warna=None):
+    """Isi rumus -> segmen; pangkat ^{..} dan indeks _{..} menjadi run superskrip/subskrip."""
+    keluar = []
+    for bagian in re.split(r"(\^\{[^{}]*\}|_\{[^{}]*\})", isi.replace(" ", " ")):
+        if bagian.startswith(("^{", "_{")) and bagian.endswith("}"):
+            if bagian[2:-1]:
+                keluar.append((bagian[2:-1], False, "sup" if bagian[0] == "^" else "sub", warna))
+        elif bagian:
+            keluar.append((bagian, False, True, warna))
+    return keluar
+
+
 def segmen(teks: str, tebal=False, warna=None):
-    """Ubah markup menjadi daftar segmen (teks, tebal, rumus, warna)."""
+    """Ubah markup menjadi daftar segmen (teks, tebal, rumus, warna).
+
+    rumus: False, True (Cambria Math), atau "sup"/"sub" untuk pangkat dan indeks di dalam $..$.
+    """
     keluar = []
     for bagian in re.split(r"(\$[^$]+\$)", teks):
         if not bagian:
             continue
         if bagian.startswith("$") and bagian.endswith("$"):
-            isi = bagian[1:-1].replace(" ", "\u00a0")
-            keluar.append((isi, False, True, warna))
+            keluar.extend(_segmen_rumus(bagian[1:-1], warna))
             continue
         bagian = kutip_lengkung(bagian)
         for i, potong in enumerate(re.split(r"\*\*", bagian)):
@@ -309,7 +325,7 @@ class P:
         if segs is not None:
             self.segs = segs
         elif rumus:
-            self.segs = [(teks.replace(" ", " "), False, True, None)]
+            self.segs = _segmen_rumus(teks)
         else:
             self.segs = segmen(teks, tebal=tebal)
 
@@ -380,6 +396,8 @@ def isi_teks(tf, paragraf, inset=(0, 0, 0, 0), jangkar="t"):
             f.size = Pt(ukuran_run(spec.ukuran, rumus, campur))
             f.bold = bool(tebal)
             f.name = FONT_RUMUS if rumus else FONT
+            if rumus in ("sup", "sub"):
+                r._r.get_or_add_rPr().set("baseline", "30000" if rumus == "sup" else "-25000")
             if spec.gradien and not rata_gradien:
                 rpr = r._r.get_or_add_rPr()
                 rpr.insert(0, _gradfill_xml(spec.gradien))
@@ -791,6 +809,8 @@ def kartu_isi(item, lebar, gelap=False):
         par.append(P(item["rumus"], 26, wr, spasi=1.2, setelah=8))
     if item.get("isi"):
         par.append(P(item["isi"], 18, wi, spasi=1.35, setelah=10))
+    for butir in item.get("poin", []):
+        par.append(P("•  " + butir, 18, wi, spasi=1.35))
     if item.get("contoh"):
         par.append(P("**Contoh:** " + item["contoh"], 16, wi, spasi=1.35))
     return par

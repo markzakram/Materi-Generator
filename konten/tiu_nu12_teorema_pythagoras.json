@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "judul": "Teorema Pythagoras",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Teorema Pythagoras",
+    "sumber": "https://docs.google.com/document/d/1Ooi1WVnNqVYwBsmqSps-YUwQoKI6et6W1YrzbCGQWgQ/edit",
+    "id_katalog": "nu-12"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pada segitiga siku-siku, panjang dua sisi cukup untuk menemukan panjang sisi yang ketiga. Langkah pertamanya adalah menemukan sudut siku-siku dan mengenali sisi di depannya. Setelah itu, Teorema Pythagoras menghubungkan ketiga panjang sisi melalui kuadratnya.",
+      "Hubungan ini bisa dipakai untuk menemukan panjang garis miring, misalnya diagonal persegi panjang. Agar perhitungannya tepat, kenali dulu segitiga yang terbentuk dan samakan satuan ketiga panjang."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menunjukkan",
+        "teks": "sudut siku-siku, dua sisi siku-siku, dan hipotenusa pada gambar."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "Teorema Pythagoras untuk menghitung panjang hipotenusa atau salah satu sisi siku-siku."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "apakah tiga panjang sisi membentuk segitiga siku-siku dan mengenali tripel Pythagoras."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Segitiga Siku-Siku",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Segitiga Siku-Siku",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Teorema Pythagoras hanya berlaku pada segitiga siku-siku."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu12_teorema_pythagoras/gambar-01.png",
+              "lebar": 3.5,
+              "tinggi": 3.04
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Memiliki satu sudut siku-siku, yaitu 90°.",
+                "Dua sisi yang membentuk sudut siku-siku disebut sisi siku-siku.",
+                "Sisi di depan sudut siku-siku disebut sisi miring atau hipotenusa.",
+                "Sisi miring selalu menjadi sisi terpanjang."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kotak kecil pada gambar menandai sudut 90°. Mulailah dari kotak itu. Kedua sisi yang bertemu di sana adalah sisi siku-siku. Satu sisi yang tidak menyentuh titik sudut itu adalah hipotenusa. Cara ini tetap berlaku jika gambar diputar, meskipun hipotenusanya tampak mendatar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Hubungan Panjang Ketiga Sisi",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Hubungan Panjang Ketiga Sisi",
+          "blok": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu12_teorema_pythagoras/gambar-02.png",
+              "lebar": 6.06,
+              "tinggi": 2.62
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada gambar, a dan b adalah panjang sisi siku-siku, sedangkan c adalah panjang hipotenusa. Jumlah kuadrat kedua sisi siku-siku sama dengan kuadrat hipotenusa."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+b²=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kuadrat suatu panjang berarti panjang itu dikalikan dengan dirinya sendiri. Karena yang dicari adalah panjang sisi, ambil akar kuadrat positif setelah mendapatkan kuadratnya. Gunakan satuan yang sama untuk semua panjang sebelum menghitung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan Sisi yang Belum Diketahui"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika yang dicari hipotenusa, jumlahkan kuadrat kedua sisi siku-siku. Jika yang dicari salah satu sisi siku-siku, kurangi kuadrat hipotenusa dengan kuadrat sisi siku-siku yang diketahui."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$c=√(a²+b²)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a=√(c²−b²)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf a dan b dapat bertukar karena keduanya sama-sama sisi siku-siku. Posisi c tetap untuk hipotenusa. Jika panjang yang dianggap hipotenusa lebih pendek daripada sisi lain, periksa lagi label pada gambar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memeriksa Sudut Siku-Siku dari Tiga Panjang Sisi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika tiga panjang sisi segitiga diketahui, anggap sisi terpanjang sebagai c, lalu bandingkan kuadratnya dengan jumlah kuadrat dua sisi lainnya. Jika kedua hasil sama, sudut di depan sisi terpanjang adalah sudut siku-siku. Jika berbeda, segitiga tersebut bukan segitiga siku-siku."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tripel Pythagoras",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tripel Pythagoras",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tripel Pythagoras adalah tiga bilangan asli yang memenuhi hubungan kuadrat sisi pada segitiga siku-siku."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+b²=c²$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu12_teorema_pythagoras/gambar-03.png",
+              "lebar": 3.28,
+              "tinggi": 2.25
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh Penggunaan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Jika diketahui sisi siku-siku 5 cm dan 12 cm, maka sisi miringnya 13 cm.",
+                "Jika diketahui sisi 6 cm, 8 cm, dan 10 cm, itu juga tripel karena kelipatan 3–4–5.",
+                "Tripel membantu menghitung lebih cepat tanpa akar panjang."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Supaya tripel tetap berlaku, kalikan ketiga panjang dengan pengali yang sama. Pada tripel 3–4–5, semua panjang dikali 2 untuk memperoleh 6–8–10. Jika hanya satu sisi yang berubah, periksa kembali hubungan kuadratnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah segitiga siku-siku memiliki dua sisi siku-siku dengan panjang 6 cm dan 7 cm. Tentukan panjang hipotenusanya."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan huruf a untuk sisi siku-siku sepanjang 6 cm dan b untuk sisi siku-siku sepanjang 7 cm. Huruf c menyatakan hipotenusa yang dicari. Mulai dari hubungan ketiga sisinya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+b²=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ganti a dengan 6 dan b dengan 7."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6²+7²=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung masing-masing kuadrat, lalu jumlahkan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$36+49=c²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$85=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil akar kuadrat positif karena c menyatakan panjang."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$c=√85 cm$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil tersebut lebih dari 7 cm, sesuai dengan sifat hipotenusa sebagai sisi terpanjang. Bentuk akar dapat dipertahankan jika tidak diminta pembulatan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hipotenusa sebuah segitiga siku-siku panjangnya 17 cm. Salah satu sisi siku-sikunya panjangnya 8 cm. Tentukan panjang sisi siku-siku lainnya."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan huruf c untuk hipotenusa sepanjang 17 cm dan b untuk sisi siku-siku sepanjang 8 cm. Huruf a menyatakan sisi siku-siku lainnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+b²=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan panjang yang diketahui pada posisi huruf yang sesuai."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+8²=17²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+64=289$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangi kedua ruas dengan 64 untuk memperoleh kuadrat sisi a."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²=289−64$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²=225$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil akar kuadrat positif untuk mendapatkan panjang sisinya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a=√225=15 cm$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan rumus awal."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$15²+8²=225+64=289=17²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, panjang sisi siku-siku lainnya adalah 15 cm. Ketiga panjang 8, 15, dan 17 juga merupakan tripel Pythagoras."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Segitiga Siku-Siku",
+        "teks": ""
+      },
+      {
+        "judul": "Hubungan Panjang Ketiga Sisi",
+        "teks": ""
+      },
+      {
+        "judul": "Tripel Pythagoras",
+        "teks": ""
+      }
+    ],
+    "pesan": "Temukan dulu sudut siku-siku dan sisi di depannya. Jumlahkan kuadrat kedua sisi siku-siku untuk mencari hipotenusa, atau kurangi kuadrat hipotenusa untuk mencari sisi siku-siku. Akhiri dengan mengambil akar kuadrat positif dan menuliskan satuannya. Periksa apakah hasilnya masuk akal. Hipotenusa harus lebih panjang daripada masing-masing sisi siku-siku. Jika menemukan tiga bilangan bulat yang tampak seperti tripel, hubungan kuadratnya dapat diperiksa langsung."
+  }
+}

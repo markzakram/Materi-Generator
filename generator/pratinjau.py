@@ -143,6 +143,9 @@ def _teks(tf_el):
                 "c": _warna_isian(rpr) or "000000",
                 "f": latin.get("typeface") if latin is not None else "Poppins",
             })
+            naik = int(rpr.get("baseline", 0)) if rpr is not None else 0
+            if naik:  # pangkat/indeks rumus
+                run[-1]["v"] = "super" if naik > 0 else "sub"
         paragraf.append({
             "al": {"ctr": "c", "r": "r", "just": "j"}.get(ppr.get("algn") if ppr is not None else None, "l"),
             "ls": int(lnspc.get("val")) / 100 if lnspc is not None else None,

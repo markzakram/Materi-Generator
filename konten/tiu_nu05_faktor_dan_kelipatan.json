@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "judul": "Faktor dan Kelipatan",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Faktor dan Kelipatan",
+    "sumber": "https://docs.google.com/document/d/1BzmMe8Q04cFOkyQmYP4bShZ6yufKpmSaEO5znDjiUWU/edit",
+    "subjudul": "Bilangan",
+    "id_katalog": "nu-05"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dua belas benda dapat dikelompokkan berisi 3 atau 4 tanpa sisa. Karena itu, 3 dan 4 adalah faktor dari 12, sedangkan 12 adalah kelipatan dari 3 dan 4. Faktor dan kelipatan menceritakan hubungan yang sama dari dua arah.",
+      "Hubungan ini membantu kita membagi benda secara merata, mengatur kegiatan yang berulang, dan memahami penyederhanaan pecahan. Bab ini dimulai dari satu bilangan, lalu membahas faktor dan kelipatan yang dimiliki bersama oleh dua bilangan atau lebih."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "hubungan antara faktor, kelipatan, dan pembagian tanpa sisa."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "daftar faktor dengan pasangan perkalian dan daftar kelipatan dengan pengali berurutan."
+      },
+      {
+        "level": "",
+        "kko": "Menuliskan",
+        "teks": "suatu bilangan sebagai hasil kali faktor prima dengan bantuan pohon faktor."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "FPB dan KPK dari daftar atau faktorisasi prima."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "FPB atau KPK untuk menyelesaikan masalah pengelompokan dan kegiatan berulang."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Faktor",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Faktor",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Faktor positif suatu bilangan adalah bilangan bulat positif yang dapat membaginya tanpa sisa."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12 ÷ 3 = 4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembagian di atas bersisa nol, sehingga 3 adalah faktor dari 12. Bilangan 4 juga faktor dari 12 karena 12 habis dibagi 4."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12 = 1 × 12 = 2 × 6 = 3 × 4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap pasangan menghasilkan 12. Kumpulkan semua bilangan yang muncul, lalu urutkan. Faktor positif 12 adalah 1, 2, 3, 4, 6, dan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa calon faktor dari yang paling kecil. Berhenti ketika anggota pertama pasangan mulai lebih besar dari anggota kedua, karena pasangan setelahnya hanya mengulang urutan terbalik. Pada bilangan kuadrat seperti 36, pasangan terakhir dapat berisi bilangan yang sama. Pasangan 6 dan 6 membuat 6 dicatat sekali dalam daftar faktor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap bilangan bulat positif mempunyai faktor 1 dan dirinya sendiri. Untuk bilangan 1, keduanya menunjuk angka yang sama, sehingga faktor positifnya hanya satu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kelipatan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kelipatan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelipatan diperoleh dengan mengalikan suatu bilangan dengan bilangan bulat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4 × 1 = 4; 4 × 2 = 8; 4 × 3 = 12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga hasil di atas adalah kelipatan positif awal dari 4. Lanjutkan dengan pengali 4, 5, dan seterusnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan 6 adalah faktor dari 24 karena 24 dapat dibagi 6 tanpa sisa. Dibaca dari arah yang lain, 24 adalah kelipatan dari 6 karena diperoleh dengan mengalikan 6 dengan 4. Pada bilangan bulat positif, daftar faktor berhenti, sedangkan daftar kelipatan positif terus berlanjut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nol juga merupakan kelipatan dari setiap bilangan bulat positif karena perkalian bilangan tersebut dengan nol menghasilkan nol. Saat mencari KPK, kita membandingkan kelipatan positif sehingga pencarian dimulai dari kelipatan pertama di atas nol."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Faktor prima dan faktorisasi prima",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Faktor prima dan faktorisasi prima",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Faktor prima adalah faktor yang juga merupakan bilangan prima. Faktorisasi prima berarti menuliskan sebuah bilangan lebih dari 1 sebagai hasil kali faktor-faktor prima. Suatu faktor prima dapat muncul lebih dari sekali."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12 = 2 × 6 = 2 × 2 × 3 = 2² × 3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai dari 2 dikali 6. Karena 6 masih bisa diuraikan, ganti 6 dengan 2 dikali 3. Semua faktor akhirnya prima. Pangkat 2 pada bilangan pokok 2 menunjukkan bahwa faktor 2 muncul dua kali."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu05_faktor_dan_kelipatan/gambar-01.png",
+              "lebar": 5.83,
+              "tinggi": 2.04
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pohon faktor 12. Lingkaran hijau menandai faktor prima di ujung cabang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kita juga bisa mulai dari pasangan 3 dan 4. Setelah 4 diuraikan menjadi dua faktor 2, hasil akhirnya tetap sama. Urutan cabang dapat berbeda, tetapi faktor prima dan jumlah kemunculannya tetap sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Faktor Persekutuan Terbesar (FPB)",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Faktor Persekutuan Terbesar (FPB)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Faktor persekutuan adalah faktor yang terdapat pada semua bilangan yang dibandingkan. Faktor Persekutuan Terbesar (FPB) adalah faktor persekutuan dengan nilai terbesar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan daftar, faktor 12 adalah 1, 2, 3, 4, 6, dan 12. Faktor 18 adalah 1, 2, 3, 6, 9, dan 18. Faktor yang sama adalah 1, 2, 3, dan 6, sehingga FPB dari 12 dan 18 adalah 6."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12 = 2² × 3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$18 = 2 × 3²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$FPB(12, 18) = 2 × 3 = 6$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka 2 dan 3 muncul di kedua faktorisasi. Keduanya sama-sama memiliki satu faktor 2 dan satu faktor 3. Untuk FPB, ambil faktor prima yang sama dengan pangkat terkecil dari tiap jenis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh penggunaan. Ada 12 pensil dan 18 penghapus. Semua barang akan dimasukkan ke sebanyak mungkin paket yang isinya sama dan tidak bersisa. Karena jumlah paket harus menjadi pembagi 12 sekaligus 18, gunakan FPB. Hasilnya 6 paket, masing-masing berisi 2 pensil dan 3 penghapus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kelipatan Persekutuan Terkecil (KPK)",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kelipatan Persekutuan Terkecil (KPK)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelipatan persekutuan adalah kelipatan yang sama dari semua bilangan yang dibandingkan. Kelipatan Persekutuan Terkecil (KPK) adalah kelipatan persekutuan positif dengan nilai terkecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan daftar, kelipatan positif 12 dimulai dari 12, 24, dan 36. Kelipatan positif 18 dimulai dari 18 dan 36. Kelipatan positif pertama yang muncul pada kedua daftar adalah 36, sehingga KPK dari 12 dan 18 adalah 36."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$KPK(12, 18) = 2² × 3² = 36$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Agar bisa dibagi 12, hasilnya perlu memuat dua faktor 2. Agar bisa dibagi 18, hasilnya perlu memuat dua faktor 3. Untuk KPK, gunakan semua jenis faktor prima yang muncul, dengan pangkat terbesar dari tiap jenis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh penggunaan. Dua lampu menyala bersamaan pada awal pengamatan. Lampu pertama menyala setiap 12 detik dan lampu kedua setiap 18 detik. Waktu bersama berikutnya harus merupakan kelipatan 12 sekaligus 18. Karena KPK-nya 36, kedua lampu menyala bersama lagi setelah 36 detik."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memilih antara FPB dan KPK",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memilih antara FPB dan KPK",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Yang dicari",
+                "FPB",
+                "KPK"
+              ],
+              "baris": [
+                [
+                  "Makna",
+                  "Faktor persekutuan terbesar.",
+                  "Kelipatan persekutuan positif terkecil."
+                ],
+                [
+                  "Dari daftar 12 dan 18",
+                  "Faktor yang sama adalah 1, 2, 3, dan 6. Pilih 6.",
+                  "Kelipatan positif pertama yang sama adalah 36."
+                ],
+                [
+                  "Dari faktor prima",
+                  "Ambil faktor prima yang dimiliki keduanya, dengan jumlah kemunculan paling sedikit.",
+                  "Ambil semua jenis faktor prima yang muncul, dengan jumlah kemunculan paling banyak."
+                ],
+                [
+                  "Kapan dipakai",
+                  "Membagi seluruh isi ke sebanyak mungkin paket yang sama, tanpa sisa.",
+                  "Mencari kapan dua kegiatan berulang terjadi bersama lagi."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan dulu apa yang dicari. Jika yang dicari adalah jumlah paket sama terbanyak, hasilnya harus dapat membagi semua jumlah barang. Jika yang dicari adalah waktu bersama paling awal setelah titik awal yang sama, hasilnya harus merupakan kelipatan dari semua jeda waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk tiga bilangan atau lebih, prinsipnya sama. FPB mengambil faktor yang dimiliki semua bilangan dengan jumlah kemunculan paling sedikit. KPK mengambil setiap faktor prima yang muncul di salah satu bilangan dengan jumlah kemunculan paling banyak. Jika sebuah faktor prima tidak muncul pada salah satu bilangan, faktor itu tidak masuk dalam FPB."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Faktor",
+        "teks": ""
+      },
+      {
+        "judul": "Kelipatan",
+        "teks": ""
+      },
+      {
+        "judul": "Faktor prima dan faktorisasi prima",
+        "teks": ""
+      },
+      {
+        "judul": "Faktor Persekutuan Terbesar (FPB)",
+        "teks": ""
+      },
+      {
+        "judul": "Kelipatan Persekutuan Terkecil (KPK)",
+        "teks": ""
+      },
+      {
+        "judul": "Memilih antara FPB dan KPK",
+        "teks": ""
+      }
+    ],
+    "pesan": "Faktor membagi suatu bilangan tanpa sisa, sedangkan kelipatan terbentuk dari perkalian. FPB mencari faktor terbesar yang dimiliki bersama. KPK mencari kelipatan positif terkecil yang dimiliki bersama. Gunakan daftar jika bilangannya kecil. Jika daftarnya panjang, uraikan bilangan menjadi faktor prima. Periksa kembali hasilnya: FPB harus membagi semua bilangan, sedangkan KPK harus habis dibagi oleh semua bilangan."
+  }
+}

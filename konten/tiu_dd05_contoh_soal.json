@@ -1,0 +1,649 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Jenis Deret Angka",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Data & Deret - Jenis Deret Angka",
+    "sumber": "https://docs.google.com/document/d/13lb87So5Tn9w_nO_VxcZQZhYU9mCReB452KFhB8sDEs/edit",
+    "bagian": "soal",
+    "id_katalog": "dd-05-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$31,27,23,19,...$"
+            }
+          ],
+          "opsi": {
+            "A": "13",
+            "B": "15",
+            "C": "17",
+            "D": "11",
+            "E": "21"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-10.png",
+              "lebar": 5.97,
+              "tinggi": 1.85
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "↓ ↓ ↓ artinya 1 towew."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-11.png",
+              "lebar": 5.97,
+              "tinggi": 1.13
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Suku ke-5 berada dalam satu larik. Setiap suku berkurang 4, sehingga:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19−4=15$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, bilangan berikutnya adalah 15. Jawaban yang benar adalah B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$3,6,12,24,...,...$"
+            }
+          ],
+          "opsi": {
+            "A": "36, 72",
+            "B": "48, 72",
+            "C": "48, 84",
+            "D": "48, 96",
+            "E": "42, 96"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-12.png",
+              "lebar": 5.97,
+              "tinggi": 1.85
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "↑ ↑ ↑ artinya 1 towew."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-13.png",
+              "lebar": 5.97,
+              "tinggi": 1.13
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua rumpang berada pada suku ke-5 dan ke-6 dalam satu larik. Aturannya kali 2."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$24×2=48$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$48×2=96$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, dua bilangan berikutnya berturut-turut adalah 48 dan 96. Jawaban yang benar adalah D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$2,5,9,14,...,27$"
+            }
+          ],
+          "opsi": {
+            "A": "18",
+            "B": "19",
+            "C": "20",
+            "D": "21",
+            "E": "22"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-14.png",
+              "lebar": 5.97,
+              "tinggi": 1.85
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "↑ ↑ ↑ artinya 1 towew. Arah dibaca dari empat suku awal yang diketahui."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-15.png",
+              "lebar": 5.97,
+              "tinggi": 1.53
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Suku ke-5 berada dalam satu larik. Selisih berturut-turut 3, 4, 5; selisih berikutnya 6. Maka:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$14+6=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa suku sesudah rumpang:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$27−20=7$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih 7 meneruskan urutan selisih. Jadi, bilangan yang rumpang adalah 20. Jawaban yang benar adalah C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$4,7,60,9,12,58,14,...,56,19,22,54$"
+            }
+          ],
+          "opsi": {
+            "A": "15",
+            "B": "16",
+            "C": "18",
+            "D": "19",
+            "E": "17"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-16.png",
+              "lebar": 5.97,
+              "tinggi": 1.4
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka ketiga tiap kelompok merupakan pemisah bergerak yang berkurang 2. Awal kelompok bertambah 5 dan angka kedua selalu 3 lebih besar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola kelompok"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(4,7,60)→(9,12,58)→(14,17,56)→(19,22,54)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumpang berada pada angka kedua kelompok ketiga, sesudah 14:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$14+3=17$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kelompok berikutnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19+3=22$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aturan yang sama cocok. Jadi, bilangan yang rumpang adalah 17. Jawaban yang benar adalah E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$2,5,0,6,9,0,10,13,0,14,...,0$"
+            }
+          ],
+          "opsi": {
+            "A": "17",
+            "B": "15",
+            "C": "16",
+            "D": "18",
+            "E": "19"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-17.png",
+              "lebar": 5.97,
+              "tinggi": 1.4
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "0 sebagai pemisah tetap pada akhir kelompok. Awal kelompok bertambah 4 dan angka kedua selalu 3 lebih besar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola kelompok"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(2,5,0)→(6,9,0)→(10,13,0)→(14,17,0)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumpang berada pada angka kedua kelompok keempat, sesudah 14:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$14+3=17$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil ini sesuai dengan pasangan 2 dan 5, 6 dan 9, serta 10 dan 13. Jadi, bilangan yang rumpang adalah 17. Jawaban yang benar adalah A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$2,3,6,5,6,9,...,12,15,23,24,...$"
+            }
+          ],
+          "opsi": {
+            "A": "10, 27",
+            "B": "11, 26",
+            "C": "11, 27",
+            "D": "12, 27",
+            "E": "11, 28"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-18.png",
+              "lebar": 5.97,
+              "tinggi": 1.4
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Batas kelompok tidak ditulis. Setiap kelompok memakai aturan tambah 1 lalu tambah 3. Awal kelompok berikutnya diperoleh dengan kali 2 lalu tambah 1."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola kelompok"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(2,3,6)→(5,6,9)→(11,12,15)→(23,24,27)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa perubahan awal kelompok:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×2+1=5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumpang pertama adalah awal kelompok ketiga:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5×2+1=11$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa awal kelompok keempat:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$11×2+1=23$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumpang kedua adalah angka ketiga kelompok keempat, sesudah 24:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$24+3=27$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompok ketiga menjadi 11, 12, 15 dan kelompok keempat menjadi 23, 24, 27. Keduanya mengikuti aturan tambah 1 lalu tambah 3. Jadi, dua bilangan yang rumpang berturut-turut adalah 11 dan 27. Jawaban yang benar adalah C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$2,3,5,8,13,...,...$"
+            }
+          ],
+          "opsi": {
+            "A": "18, 31",
+            "B": "21, 31",
+            "C": "20, 34",
+            "D": "21, 34",
+            "E": "21, 35"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-19.png",
+              "lebar": 5.97,
+              "tinggi": 1.46
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap suku mulai dari suku ketiga adalah jumlah dua suku sebelumnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+3=5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3+5=8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5+8=13$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Suku ke-6 memakai 8 dan 13. Untuk suku ke-7, gunakan hasil pertama bersama 13:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8+13=21$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$13+21=34$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, dua bilangan berikutnya adalah 21 dan 34. Jawaban yang benar adalah D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 8",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$4,11,32,...,284$"
+            }
+          ],
+          "opsi": {
+            "A": "94",
+            "B": "95",
+            "C": "96",
+            "D": "97",
+            "E": "98"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-20.png",
+              "lebar": 5.97,
+              "tinggi": 1.13
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap perpindahan memakai urutan kali 3 lalu kurang 1."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4×3−1=11$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$11×3−1=32$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$32×3−1=95$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$95×3−1=284$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasilnya sesuai dengan suku sebelum dan sesudah rumpang. Jadi, bilangan yang rumpang adalah 95. Jawaban yang benar adalah B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 9",
+          "soal": [
+            {
+              "jenis": "sorot",
+              "teks": "$3,8,...,24,...,48,63$"
+            }
+          ],
+          "opsi": {
+            "A": "14, 35",
+            "B": "15, 34",
+            "C": "16, 35",
+            "D": "15, 36",
+            "E": "15, 35"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₁=1×(1+2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₂=2×(2+2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₃=3×(3+2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₄=4×(4+2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=24$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₅=5×(5+2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=35$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₆=6×(6+2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=48$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₇=7×(7+2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=63$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk posisi ke-n, rumus umumnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U(n)=n(n+2)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penomoran posisi dimulai dari 1."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-21.png",
+              "lebar": 5.97,
+              "tinggi": 1.44
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumpang berada pada posisi ke-3 dan ke-5. Jadi, dua bilangan yang rumpang berturut-turut adalah 15 dan 35. Jawaban yang benar adalah E."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

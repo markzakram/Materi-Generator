@@ -267,7 +267,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Nilai uang pada waktu berbeda tidak selalu setara karena perubahan harga dan peluang hasil. Inflasi berarti kenaikan tingkat harga secara umum sehingga kebutuhan dana masa depan mungkin lebih besar daripada sekarang. Untuk proyeksi sederhana, kebutuhan masa depan dapat ditulis $FV = PV × (1+i)n$, dengan $i$ sebagai tingkat kenaikan asumsi per periode dan $n$ banyaknya periode."
+              "teks": "Nilai uang pada waktu berbeda tidak selalu setara karena perubahan harga dan peluang hasil. Inflasi berarti kenaikan tingkat harga secara umum sehingga kebutuhan dana masa depan mungkin lebih besar daripada sekarang. Untuk proyeksi sederhana, kebutuhan masa depan dapat ditulis $FV = PV × (1+i)^{n}$, dengan $i$ sebagai tingkat kenaikan asumsi per periode dan $n$ banyaknya periode."
             },
             {
               "jenis": "paragraf",
@@ -337,7 +337,7 @@
                 ],
                 [
                   "**Proyeksi biaya masa depan**",
-                  "$FV = PV × (1+i)n$",
+                  "$FV = PV × (1+i)^{n}$",
                   "Asumsi inflasi tetap, bukan prediksi pasti"
                 ]
               ]

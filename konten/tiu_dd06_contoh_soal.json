@@ -1,0 +1,932 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Matriks Deret",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Data & Deret - Matriks Deret",
+    "sumber": "https://docs.google.com/document/d/1BnJBTAl-1u_4jPvHpGxGM4pXHgyJqg9ordXCPLpPmK0/edit",
+    "bagian": "soal",
+    "id_katalog": "dd-06-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "3",
+                "-8",
+                "11",
+                "5"
+              ],
+              "baris": [
+                [
+                  "4",
+                  "2",
+                  "-16",
+                  "9"
+                ],
+                [
+                  "7",
+                  "-6",
+                  "-5",
+                  "x"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "12",
+            "B": "14",
+            "C": "16",
+            "D": "18",
+            "E": "20"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungannya adalah Baris 1 ditambah Baris 2 menghasilkan Baris 3 pada posisi yang bersesuaian."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-27.png",
+              "lebar": 2.73,
+              "tinggi": 1.94
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3+4=7$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$−8+2=−6$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$11+(−16)=−5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga posisi lengkap sesuai. Pada posisi keempat, gunakan hubungan yang sama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5+9=x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=14$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5+9=14$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 14. Jawaban yang benar adalah B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "4",
+                "9",
+                "18",
+                "15"
+              ],
+              "baris": [
+                [
+                  "7",
+                  "12",
+                  "24",
+                  "21"
+                ],
+                [
+                  "11",
+                  "16",
+                  "32",
+                  "x"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "26",
+            "B": "27",
+            "C": "28",
+            "D": "29",
+            "E": "30"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap perpindahan kolom memakai tahap yang sama: Kolom 1 ditambah 5 menjadi Kolom 2, Kolom 2 dikalikan 2 menjadi Kolom 3, lalu Kolom 3 dikurangi 3 menjadi Kolom 4."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-28.png",
+              "lebar": 3.0,
+              "tinggi": 1.94
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4+5=9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9×2=18$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$18−3=15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7+5=12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12×2=24$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$24−3=21$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada Baris 3, dua tahap awal menghasilkan 16 dan 32. Tahap terakhir memberi:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$32−3=x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=29$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$32−3=29$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 29. Jawaban yang benar adalah D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "6",
+                "4",
+                "x"
+              ],
+              "baris": [
+                [
+                  "8",
+                  "5",
+                  "69"
+                ],
+                [
+                  "9",
+                  "3",
+                  "84"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "40",
+            "B": "20",
+            "C": "36",
+            "D": "42",
+            "E": "52"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungannya adalah kuadrat Kolom 1 ditambah Kolom 2 menghasilkan Kolom 3. Pangkat dikerjakan pada setiap angka di Kolom 1."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-29.png",
+              "lebar": 2.36,
+              "tinggi": 1.94
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8²+5=69$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9²+3=84$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua baris lengkap sesuai. Pada Baris 1, x berada di hasil sehingga cukup hitung kedua masukannya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6²+4=x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$36+4=x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=40$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6²+4=40$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 40. Jawaban yang benar adalah A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "21",
+                "34",
+                "12",
+                "133"
+              ],
+              "baris": [
+                [
+                  "120",
+                  "24",
+                  "17",
+                  "39"
+                ],
+                [
+                  "75",
+                  "25",
+                  "16",
+                  "x"
+                ],
+                [
+                  "56",
+                  "55",
+                  "28",
+                  "61"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "74",
+            "B": "80",
+            "C": "84",
+            "D": "94",
+            "E": "100"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Total setiap baris sama. Tentukan total dari baris yang sudah lengkap, kemudian gunakan total itu pada Baris 3."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-30.png",
+              "lebar": 2.73,
+              "tinggi": 2.35
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$21+34+12+133=200$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$120+24+17+39=200$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$56+55+28+61=200$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua baris lengkap berjumlah 200. Pada Baris 3:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$75+25+16+x=200$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$116+x=200$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=200−116$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=84$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$75+25+16+84=200$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 84. Jawaban yang benar adalah C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "2",
+                "11",
+                "7"
+              ],
+              "baris": [
+                [
+                  "16",
+                  "10",
+                  "4"
+                ],
+                [
+                  "13",
+                  "9",
+                  "x"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "10",
+            "B": "16",
+            "C": "17",
+            "D": "20",
+            "E": "18"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sel yang berhadapan terhadap pusat mempunyai jumlah yang sama, yaitu dua kali angka pusat. Bandingkan tiga pasangan yang sudah lengkap."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-31.png",
+              "lebar": 3.2,
+              "tinggi": 1.94
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$11+9=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7+13=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$16+4=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×10=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan keempat adalah sudut kiri atas dan sudut kanan bawah. Maka:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+x=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=20−2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=18$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+18=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 18. Jawaban yang benar adalah E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "1",
+                "3",
+                "2",
+                "8"
+              ],
+              "baris": [
+                [
+                  "7",
+                  "9",
+                  "4",
+                  "6"
+                ],
+                [
+                  "2",
+                  "5",
+                  "1",
+                  "4"
+                ],
+                [
+                  "6",
+                  "7",
+                  "6",
+                  "x"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "9",
+            "B": "7",
+            "C": "8",
+            "D": "10",
+            "E": "11"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Matriks terbagi menjadi empat blok berukuran dua kali dua. Total angka pada setiap blok sama."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-32.png",
+              "lebar": 2.73,
+              "tinggi": 2.35
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1+3+7+9=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+8+4+6=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+5+6+7=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga blok lengkap berjumlah 20. Gunakan total yang sama pada blok kanan bawah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1+4+6+x=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$11+x=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=20−11$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=9$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1+4+6+9=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 9. Jawaban yang benar adalah A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "4",
+                "7",
+                "10"
+              ],
+              "baris": [
+                [
+                  "19",
+                  "16",
+                  "13"
+                ],
+                [
+                  "22",
+                  "x",
+                  "28"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "23",
+            "B": "24",
+            "C": "26",
+            "D": "25",
+            "E": "27"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Baca Baris 1 dari kiri ke kanan, Baris 2 dari kanan ke kiri, lalu Baris 3 dari kiri ke kanan. Urutan zigzag itu memakai beda tetap 3, termasuk pada sambungan antargaris."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-33.png",
+              "lebar": 2.31,
+              "tinggi": 1.94
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4,7,10,13,16,19,22,x,28$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$10+3=13$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19+3=22$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada urutan tersebut, x berada sesudah 22:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$22+3=x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=25$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$25+3=28$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 25. Jawaban yang benar adalah D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 8",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "13",
+                "1",
+                "34"
+              ],
+              "baris": [
+                [
+                  "3",
+                  "x",
+                  "1"
+                ],
+                [
+                  "21",
+                  "5",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10",
+            "E": "11"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Angka disusun acak. Setelah diurutkan sebagai Fibonacci, kumpulan tersebut mempunyai dua angka 1 dan mencakup suku awal hingga 34. Nilai x mengisi bagian tengah urutan itu."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-34.png",
+              "lebar": 4.23,
+              "tinggi": 1.94
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1,1,2,3,5,x,13,21,34$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1+1=2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1+2=3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+3=5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Suku sesudah 5 berasal dari dua suku sebelumnya, yaitu 3 dan 5:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3+5=x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5+8=13$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8+13=21$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$13+21=34$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 8. Jawaban yang benar adalah B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 9",
+          "soal": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "2",
+                "5",
+                "8",
+                "11"
+              ],
+              "baris": [
+                [
+                  "9",
+                  "12",
+                  "x",
+                  "18"
+                ],
+                [
+                  "16",
+                  "19",
+                  "22",
+                  "25"
+                ],
+                [
+                  "23",
+                  "26",
+                  "29",
+                  "32"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapakah nilai x?"
+            }
+          ],
+          "opsi": {
+            "A": "12",
+            "B": "14",
+            "C": "15",
+            "D": "16",
+            "E": "17"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungannya berlaku dua arah: setiap langkah ke kanan bertambah 3 dan setiap langkah ke bawah bertambah 7. Periksa kedua arah pada posisi yang sudah lengkap."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-35.png",
+              "lebar": 2.73,
+              "tinggi": 2.35
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+3=5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5+3=8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9+7=16$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$16+7=23$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari sebelah kiri, x mengikuti angka 12:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12+3=x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=15$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan nilai yang diperoleh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8+7=15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$15+3=18$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai x adalah 15. Jawaban yang benar adalah C."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

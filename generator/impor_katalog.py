@@ -20,7 +20,7 @@ import ekstrak_gdoc as E  # noqa: E402
 
 AKAR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KONTEN = os.path.join(AKAR, "konten")
-KELOMPOK = {"Verbal Analogi": 0, "Verbal Silogisme": 1, "Verbal Analitis": 2}
+KELOMPOK = {"Verbal Analogi": 0, "Verbal Silogisme": 1, "Verbal Analitis": 2, "Numerik": 3, "Data & Deret": 4, "Figural": 5}
 
 
 def url_dokumen(doc_id):

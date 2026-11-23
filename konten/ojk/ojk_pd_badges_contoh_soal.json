@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Badges",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Badges",
+    "sumber": "https://docs.google.com/document/d/14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w/edit",
+    "bagian": "soal",
+    "id_katalog": "pd-04-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Laba Produk",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gambar berikut diambil dari halaman contoh soal pada referensi. Gambar mempertahankan bentuk tampilan objek dan lencana sesuai bahan sumber."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_badges/gambar-01.png",
+              "lebar": 6.27,
+              "tinggi": 3.03
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Produk",
+                "Unit/bulan",
+                "Laba/unit (USD)",
+                "Perhitungan",
+                "Laba bulanan"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "10.500",
+                  "1,60",
+                  "10.500 x 1,60",
+                  "16.800"
+                ],
+                [
+                  "B",
+                  "5.000",
+                  "3,00",
+                  "5.000 x 3,00",
+                  "15.000"
+                ],
+                [
+                  "C",
+                  "6.500",
+                  "2,50",
+                  "6.500 x 2,50",
+                  "16.250"
+                ],
+                [
+                  "D",
+                  "9.500",
+                  "1,75",
+                  "9.500 x 1,75",
+                  "16.625"
+                ],
+                [
+                  "E",
+                  "8.500",
+                  "2,50",
+                  "8.500 x 2,50",
+                  "21.250"
+                ],
+                [
+                  "F",
+                  "11.000",
+                  "1,50",
+                  "11.000 x 1,50",
+                  "16.500"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Laba bulanan diperoleh dengan mengalikan unit terjual dan laba per unit untuk masing-masing produk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai terbesar adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "E (21.250), berikutnya",
+                "A (16.800),",
+                "D (16.625),",
+                "F (16.500),",
+                "C (16.250), dan",
+                "B (15.000)."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Produk D, F dan C harus dibandingkan tanpa pembulatan karena selisihnya relatif kecil."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Urutan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$E > A > D > F > C > B$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban lencana"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$A = 2, B = 6, C = 5, D = 3, E = 1, F = 4$."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "hitung langsung hasil kali tiap produk; tandai hasil tertinggi dan terendah, kemudian urutkan nilai tengah. Jangan menilai hanya berdasarkan unit terjual atau laba per unit."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pemasangan Batu Bata",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gambar berikut menggunakan halaman contoh soal asli referensi, termasuk panel objek dan lencana."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_badges/gambar-02.jpg",
+              "lebar": 6.09,
+              "tinggi": 2.68
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pekerja",
+                "Perhitungan",
+                "Jumlah"
+              ],
+              "baris": [
+                [
+                  "Naomi",
+                  "Diketahui langsung",
+                  "175"
+                ],
+                [
+                  "Quentin",
+                  "$175 × 1,60$",
+                  "280"
+                ],
+                [
+                  "Patsy",
+                  "$2 × 280$",
+                  "560"
+                ],
+                [
+                  "Oscar",
+                  "$280/2$",
+                  "140"
+                ],
+                [
+                  "Mike",
+                  "$560/4+ 70$",
+                  "210"
+                ],
+                [
+                  "Rachel",
+                  "$140 × 0,25$",
+                  "35"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai dari:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$Naomi = 175$.",
+                "Quentin memasang $60%$ lebih banyak, yaitu 280.",
+                "Patsy memasang dua kali Quentin, yaitu 560.",
+                "Oscar memasang setengah Quentin, yaitu 140.",
+                "Mike memasang seperempat Patsy ditambah 70, yaitu 210.",
+                "Rachel memasang 75% lebih sedikit daripada Oscar, berarti hanya $25% × 140 = 35$."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cek total"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$175 + 280 + 560 + 140 + 210 + 35 = 1.400$ batu bata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total cocok dengan stimulus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Urutan terkecil ke terbesar"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Rachel (35) < Oscar (140) < Naomi (175)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$< Mike (210) < Quentin (280) < Patsy (560).$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban lencana"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Mike = 4, Naomi = 3, Oscar = 2, Patsy = 6, Quentin = 5, Rachel = 1.$"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Susun rantai $Naomi → Quentin → Patsy$, kemudian hitung $Oscar, Mike dan Rachel$. Ingat bahwa “75% lebih sedikit” berarti tersisa 25%, bukan menjadi 75%."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -201,8 +201,9 @@ def ringkas_naskah(n):
     materi = n.get("materi") or []
     isi = [s for sub in materi for s in sub.get("slide", [])]
     perlu = []
-    deck_soal = (n.get("meta") or {}).get("bagian") == "soal"  # contoh soal tidak punya pendahuluan sendiri
-    if not deck_soal and not (n.get("pendahuluan") or {}).get("pemantik"):
+    meta = n.get("meta") or {}
+    tanpa_pembuka = meta.get("bagian") == "soal" or meta.get("lewati_kosong")  # tidak punya pendahuluan sendiri
+    if not tanpa_pembuka and not (n.get("pendahuluan") or {}).get("pemantik"):
         perlu.append("pertanyaan pemantik")
     if any(not b.get("level") for b in (n.get("tujuan") or {}).get("butir", [])):
         perlu.append("level Bloom")
@@ -356,7 +357,7 @@ def api_katalog():
         draf, stat = _muat(nilai[2 * i]), _muat(nilai[2 * i + 1])
         naskah = draf["naskah"] if draf and isinstance(draf.get("naskah"), dict) else \
             _baca_json(os.path.join(KONTEN, m["naskah"]))
-        daftar.append(dict(m, url=f"https://docs.google.com/document/d/{m['doc_id']}/edit",
+        daftar.append(dict(m, url=m.get("url") or f"https://docs.google.com/document/d/{m['doc_id']}/edit",
                            ringkas=ringkas_naskah(naskah),
                            draf={"diubah": draf.get("diubah"), "oleh": draf.get("oleh")} if draf else None,
                            status=stat or {"status": "belum"}))
@@ -373,7 +374,7 @@ def api_materi(id_materi):
         _, stat = ambil_data(id_materi)
     except penyimpanan.PenyimpananGagal as e:
         return _galat(str(e), 502)
-    return jsonify({"katalog": dict(m, url=f"https://docs.google.com/document/d/{m['doc_id']}/edit"),
+    return jsonify({"katalog": dict(m, url=m.get("url") or f"https://docs.google.com/document/d/{m['doc_id']}/edit"),
                     "naskah": naskah, "draf": {"diubah": draf["diubah"], "oleh": draf.get("oleh")} if draf else None,
                     "status": stat or {"status": "belum"}, "status_label": STATUS,
                     "bisa_simpan": SIMPAN.bisa_tulis})

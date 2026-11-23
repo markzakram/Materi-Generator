@@ -1,0 +1,682 @@
+{
+  "meta": {
+    "judul": "Operasi Hitung",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Operasi Hitung",
+    "sumber": "https://docs.google.com/document/d/1NH35Z_A7LnD7DBVh_ThQb1ixtHBzOGsAgSk3nP-AcuY/edit",
+    "id_katalog": "nu-01"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Operasi hitung mencakup penjumlahan, pengurangan, perkalian, dan pembagian. Saat beberapa operasi muncul dalam satu soal, tentukan urutan pengerjaannya, lalu pilih bentuk bilangan yang memudahkan hitungan. Pecahan, desimal, dan persen dapat menyatakan nilai yang sama.",
+      "Biasakan membaca soal sampai selesai sebelum mulai menghitung. Tanda kurung mengelompokkan bagian yang harus diselesaikan lebih dahulu. Garis pecahan juga mengelompokkan hitungan di atas dan di bawahnya. Setelah mengenali kelompok tersebut, periksa apakah bentuk bilangannya bisa disederhanakan. Misalnya, bentuk persen memudahkan perbandingan per seratus, sedangkan bentuk pecahan membantu mempertahankan nilai yang tepat saat hitungan masih berlanjut."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "urutan operasi dan aturan tanda pada hitungan campuran."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "cara mengubah dan mengoperasikan pecahan, desimal, dan persen."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "sifat operasi, pangkat, dan akar untuk menyederhanakan hitungan."
+      },
+      {
+        "level": "",
+        "kko": "Memakai",
+        "teks": "taksiran untuk memeriksa kewajaran dan hitungan eksak untuk memastikan hasil."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Operasi Hitung",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Operasi Hitung",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Operasi hitung adalah prosedur atau tindakan matematis untuk mendapatkan hasil dari satu atau lebih nilai operan melalui pengerjaan penjumlahan (+), pengurangan (−), perkalian (×), dan pembagian (÷)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tingkatan Operasi Hitung",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tingkatan Operasi Hitung",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Urutan",
+                "Operasi",
+                "Bentuk"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Kurung",
+                  "(x)"
+                ],
+                [
+                  "2",
+                  "Akar dan Pangkat",
+                  "$√x$ dan $x^{y}$"
+                ],
+                [
+                  "3",
+                  "Kali dan Bagi",
+                  "× dan ÷"
+                ],
+                [
+                  "4",
+                  "Tambah dan Kurang",
+                  "+ dan −"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan pengerjaan dari tingkatan tertinggi (yaitu 1). Jika setara, maka kerjakan dari kiri ke kanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kerjakan operasi di dalam kurung terlebih dahulu, mulai dari kurung yang paling dalam. Di luar kurung, kerjakan akar dan pangkat, lalu perkalian atau pembagian, kemudian penjumlahan atau pengurangan. Operasi yang setingkat dikerjakan dari kiri ke kanan. Garis pecahan juga mengelompokkan seluruh pembilang dan seluruh penyebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh. Pada $24 ÷ 6 × 2$, pembagian dan perkalian setingkat. Hitung $24 ÷ 6$ terlebih dahulu, lalu kalikan hasil 4 dengan 2. Hasilnya 8. Pada $24 ÷ (6 × 2)$, kurung membuat perkalian dikerjakan lebih dahulu. Hasilnya 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pecahan, Pecahan Campuran, Desimal, Persen",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pecahan, Pecahan Campuran, Desimal, Persen",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk umum pecahan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a/b$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk umum pecahan campuran:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a b/c$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengubah pecahan campuran menjadi pecahan biasa"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a b/c = ((a × c) + b)/c$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2 4/7 = ((2 × 7) + 4)/7 = (14 + 4)/7 = 18/7$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembilang menunjukkan jumlah bagian yang diambil, sedangkan penyebut menunjukkan banyak bagian sama besar dalam satu utuh. Penyebut tidak boleh nol. Pecahan campuran terdiri dari bilangan bulat dan bagian pecahan. Pada $2 4/7$, dua bilangan utuh sama dengan 14 bagian berukuran sepertujuh. Tambahkan 4 bagian untuk mendapat $18/7$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengubah pecahan biasa menjadi pecahan campuran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$18/7$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakanlah pembagian:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu01_operasi_hitung/gambar-01.png",
+              "lebar": 5.99,
+              "tinggi": 2.22
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah pembagian 18 oleh 7"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Yang dikerjakan",
+                "Yang ditulis"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Cari kelipatan 7 terbesar yang tidak melebihi 18.",
+                  "Tulis 2 di atas garis."
+                ],
+                [
+                  "2",
+                  "Kalikan hasil bagi dengan pembagi.",
+                  "$2 × 7 = 14$"
+                ],
+                [
+                  "3",
+                  "Kurangkan 14 dari 18.",
+                  "$18 - 14 = 4$"
+                ],
+                [
+                  "4",
+                  "Susun hasil sebagai pecahan campuran.",
+                  "2 di depan, 4 di atas garis, dan 7 di bawah garis."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$18/7 = 2 4/7$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengubah pecahan biasa menjadi pecahan campuran, bagi pembilang dengan penyebut. Pada 18 dibagi 7, hasil bagi 2 menjadi bagian bulat, sisa 4 menjadi pembilang baru, dan penyebut tetap 7. Cek dengan mengalikan hasil bagi dengan penyebut lalu menambahkan sisa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengubah pecahan menjadi desimal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$23/4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakanlah pembagian:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu01_operasi_hitung/gambar-02.png",
+              "lebar": 5.99,
+              "tinggi": 3.18
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah pembagian 23 oleh 4"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Yang dikerjakan",
+                "Yang ditulis"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Bagi 23 dengan 4. Kurangkan 20 dari 23.",
+                  "Tulis 5. Sisanya 3."
+                ],
+                [
+                  "2",
+                  "Tulis koma, lalu turunkan 0 agar sisa 3 menjadi 30.",
+                  "Tulis 7. Sisanya 2."
+                ],
+                [
+                  "3",
+                  "Turunkan 0 lagi agar sisa 2 menjadi 20.",
+                  "Tulis 5. Sisanya 0."
+                ],
+                [
+                  "4",
+                  "Berhenti saat sisanya 0.",
+                  "$23/4 = 5,75$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$23/4=5,75$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengubah desimal menjadi pecahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: 0,17 → ada 2 angka di belakang koma"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "0,17 dikali $100 = 17$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$0,17=17/100$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengubah pecahan ke desimal, bagi pembilang dengan penyebut. Untuk mengubah desimal berhingga ke pecahan, gunakan nilai tempat angka terakhir. Pada 0,17, angka terakhir ada di tempat perseratus, sehingga nilainya $17/100$. Pada 0,375, angka terakhir ada di tempat perseribu, sehingga nilainya $375/1.000$ atau $3/8$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembagian pecahan"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a/b ÷ c/d = a/b × d/c$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk tambah atau kurang, samakan penyebut agar bagian yang dihitung seukuran. Untuk kali, kalikan pembilang dengan pembilang dan penyebut dengan penyebut. Untuk bagi, kalikan pecahan pertama dengan kebalikan pecahan kedua. Pecahan yang menjadi pembagi harus bernilai selain nol. Sederhanakan faktor bersama sebelum mengalikan jika memungkinkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Persen"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x% = x/100$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Atau"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x/100 = x%$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persen berarti per seratus. Untuk mencari persentase, tentukan dulu nilai yang dibandingkan dan nilai acuannya. Pada Soal 6, nilai yang dibandingkan adalah 32 dan acuannya 80. Rasio $32/80$ menyederhana menjadi $2/5$, yang sama dengan $40/100$ atau 40%. Jika kedua bilangan sudah berbentuk persen, faktor per seratus pada pembilang dan penyebut dapat dicoret. Pada Soal 7, rasio $80/50$ bernilai 1,6 atau 160%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pecahan Istimewa",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pecahan Istimewa",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pecahan Istimewa",
+                "",
+                "",
+                ""
+              ],
+              "baris": [
+                [
+                  "$1/2=0,5=50%$",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "$1/3=0,3333=33,33%$",
+                  "$2/3=0,6667=66,67%$",
+                  "",
+                  ""
+                ],
+                [
+                  "$1/4=0,25=25%$",
+                  "$3/4=0,75=75%$",
+                  "",
+                  ""
+                ],
+                [
+                  "$1/6=0,1667=16,67%$",
+                  "$5/6=0,8333=83,33%$",
+                  "",
+                  ""
+                ],
+                [
+                  "$1/8=0,125=12,5%$",
+                  "$3/8=0,375=37,5%$",
+                  "$5/8=0,625=62,5%$",
+                  "$7/8=0,875=87,5%$"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": ""
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pecahan istimewa mempercepat konversi. Gunakan nilai eksak seperti $3/8 = 0,375$ dan $7/8 = 0,875$ saat hitungan masih berlanjut. Nilai 0,3333 untuk $1/3$ dn 0,1667 untuk $1/6$ sudah dibulatkan. Pertahankan pecahan aslinya sampai langkah akhir agar kesalahan pembulatan tidak terakumulasi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Sifat-sifat Operasi Hitung",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Sifat-sifat Operasi Hitung",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Sifat Komutatif"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a + b = b + a$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a × b = b × a$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sifat Asosiatif"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(a + b) + c = a + (b + c)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(a × b) × c = a × (b × c)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sifat Distributif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$a × (b + c) = a × b + a × c$ atau $(b + c) × a = b × a + c × a$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Komutatif berarti urutan dua bilangan dapat ditukar pada penjumlahan dan perkalian. Asosiatif berarti cara mengelompokkan tiga bilangan dapat diubah pada kedua operasi tersebut. Pada pengurangan dan pembagian, pertukaran atau perubahan pengelompokan dapat mengubah hasil. Contohnya, $12 ÷ 3$ bernilai 4, sedangkan $3 ÷ 12$ bernilai seperempat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sifat distributif bisa dipakai dari dua arah. Kalikan faktor dengan tiap suku dalam kurung, atau tarik faktor yang sama ke luar kurung agar tidak mengulang perhitungan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Akar dan Pangkat",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Akar dan Pangkat",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pangkat sebagai perkalian berulang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pangkat adalah perkalian berulang. Misal:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5^{1} = 5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5^{2} = 5 × 5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5^{5} = 5 × 5 × 5 × 5 × 5$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perkalian dan pembagian dengan bilangan pokok sama"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{m} × a^{n} = a^{m+n}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{m}/a^{n} = a^{m-n}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pangkat sama pada bilangan pokok berbeda"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{n} × b^{n} = (ab)^{n}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{n}/b^{n} = (a/b)^{n}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pangkat yang dipangkatkan lagi"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(a^{m})^{n} = a^{mn}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pangkat nol dan pangkat negatif"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{0} = 1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{-n} = 1/a^{n}$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pangkat bulat positif menyatakan perkalian berulang. Untuk perkalian dengan bilangan pokok sama, jumlahkan pangkatnya. Pada pembagian dengan bilangan pokok sama yang bukan nol, kurangkan pangkatnya. Pangkat nol bernilai 1 jika bilangan pokoknya bukan nol. Pangkat negatif menyatakan kebalikan. Misalnya, $3^{-2}$ sama dengan $1/9$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurung menentukan apakah tanda negatif ikut dipangkatkan. Pada $(-3)^{2}$, bilangan yang dikuadratkan adalah −3 sehingga hasilnya 9. Pada $-3^{2}$, pangkat dikerjakan sebelum tanda negatif sehingga hasilnya −9. Akar kuadrat utama selalu tidak negatif. Misalnya, $√25$ bernilai 5. Akar dengan indeks ganjil dapat menerima bilangan negatif dalam bilangan real."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Akar sebagai kebalikan pangkat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Akar adalah kebalikan dari bilangan pangkat. Misal:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika $5^{2} = 25$, maka $√25 = 5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika $2^{5} = 32$, maka $^{5}√32=2$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk pangkat pecahan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk lain akar"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$√25 = 25^{1/2}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$^{5}√32 = 32^{1/5}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perkalian dan pembagian akar dengan indeks sama"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$^{n}√a × ^{n}√b = ^{n}√(ab)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$^{n}√a/^{n}√b = ^{n}√(a/b)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjumlahan dan pengurangan akar sejenis"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$m√a + n√a = (m + n)√a$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$m√a - n√a = (m - n)√a$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menjumlahkan atau mengurangkan bentuk akar, samakan bentuk akar terlebih dahulu. Jika bagian di dalam akar sudah sama, gabungkan koefisiennya. Dalam perkalian akar kuadrat real, gunakan aturan penggabungan ketika kedua bilangan di bawah akar tidak negatif. Pada pembagian, akar di penyebut juga harus selain nol."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Aljabar yang Wajib dihafalkan"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{2} - b^{2} = (a - b)(a + b)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan selisih kuadrat ketika dua bilangan berada pada jarak yang sama dari titik tengah. Misalnya, 255 dan 245 masing-masing berjarak 5 dari 250. Hasil kalinya adalah $250^{2} - 5^{2}$."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Operasi Hitung",
+        "teks": ""
+      },
+      {
+        "judul": "Tingkatan Operasi Hitung",
+        "teks": ""
+      },
+      {
+        "judul": "Pecahan, Pecahan Campuran, Desimal, Persen",
+        "teks": ""
+      },
+      {
+        "judul": "Pecahan Istimewa",
+        "teks": ""
+      },
+      {
+        "judul": "Sifat-sifat Operasi Hitung",
+        "teks": ""
+      },
+      {
+        "judul": "Akar dan Pangkat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Kerjakan bagian dalam kurung terlebih dahulu dan selesaikan hitungan di atas serta di bawah garis pecahan sebelum membaginya. Untuk operasi yang setingkat, kerjakan dari kiri ke kanan. Pilih bentuk bilangan yang memudahkan dan gunakan taksiran untuk memeriksa apakah hasilnya masuk akal. Sebelum menyamakan penyebut, periksa dulu operasi yang diminta. Penyebut perlu disamakan untuk menjumlahkan atau mengurangkan pecahan. Untuk membagi pecahan, balik pecahan pembaginya, lalu kalikan. Pertahankan nilai yang tepat sampai langkah terakhir, terutama jika pilihan jawaban berdekatan. Jika hasilnya terasa terlalu besar atau terlalu kecil, telusuri kembali urutan hitung atau cek dengan operasi balik. Misalnya, hasil pembagian dapat diperiksa dengan mengalikannya kembali dengan pembagi."
+  }
+}

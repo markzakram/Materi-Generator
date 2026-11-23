@@ -1,0 +1,1015 @@
+{
+  "meta": {
+    "judul": "Matriks Deret",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Data & Deret - Matriks Deret",
+    "sumber": "https://docs.google.com/document/d/1BnJBTAl-1u_4jPvHpGxGM4pXHgyJqg9ordXCPLpPmK0/edit",
+    "id_katalog": "dd-06"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Matriks deret adalah susunan angka dalam baris dan kolom yang mengikuti hubungan tertentu. Angka yang belum diketahui ditandai dengan x. Untuk menemukannya, kenali bagian-bagian yang saling berhubungan, buktikan aturan pada bagian yang sudah lengkap, lalu terapkan aturan yang sama pada posisi x.",
+      "Hubungan itu dapat berupa operasi sederhana, perubahan berurutan, keseimbangan jumlah, susunan posisi, atau deret yang dibaca melalui suatu lintasan. Banyaknya angka tidak selalu berarti polanya lebih rumit. Pemeriksaan yang terarah membantu mengurangi coba-coba dan membuat alasan jawaban lebih mudah diikuti."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "baris, kolom, posisi sel, dan arah hubungan antarangka."
+      },
+      {
+        "level": "",
+        "kko": "Mengelompokkan",
+        "teks": "pola berdasarkan jenis hubungan yang digunakan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "nilai x dengan aturan yang berlaku pada semua bagian yang bersesuaian."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "operasi balik, urutan operasi, dan pemeriksaan ulang dengan tepat."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pola yang didukung data dari dugaan yang hanya cocok pada sebagian angka."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Cara Membaca Matriks",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara Membaca Matriks",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Baris adalah susunan mendatar; kolom adalah susunan tegak. Satu tempat pertemuan baris dan kolom disebut sel. Ukuran matriks menyatakan banyak baris lebih dahulu, kemudian banyak kolom. Matriks tiga baris dan empat kolom berarti memiliki dua belas sel."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-01.png",
+              "lebar": 2.28,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penomoran baris dimulai dari atas dan penomoran kolom dimulai dari kiri. Dengan begitu, posisi suatu angka dapat dijelaskan tanpa bergantung pada letak gambar di halaman. Istilah baris dan kolom tetap mengikuti susunannya, walaupun pemeriksaan dilakukan dari arah yang berbeda."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Operasi antarbaris dan antarkolom",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Operasi antarbaris menghubungkan baris utuh. Operasi antarkolom menghubungkan kolom utuh. Operasi diterapkan pada angka yang posisinya bersesuaian, bukan pada semua angka sekaligus sebagai satu bilangan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-02.png",
+              "lebar": 2.2,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada hubungan antarbaris di atas, angka pertama Baris 1 dijumlahkan dengan angka pertama Baris 2; hasilnya berada pada angka pertama Baris 3. Lakukan hal yang sama pada posisi kedua dan ketiga. Memeriksa satu kolom membantu membuktikan hubungan antarbaris tersebut; nama hubungannya tetap antarbaris."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7+12=19$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$−15+8=−7$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4+(−13)=−9$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-03.png",
+              "lebar": 2.32,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada hubungan antarkolom, pasangan angka diambil dari baris yang sama. Bentuk matematis dapat disingkat dengan B untuk baris dan K untuk kolom, diikuti nomor kecil yang menunjukkan urutannya. Penjumlahan, perkalian, pembagian, dan pangkat dalam hubungan ini selalu dikerjakan pada angka yang bersesuaian. Tidak diperlukan aturan perkalian matriks."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B₁+B₂=B₃$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K₁+K₂=K₃$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kelompok Pola Umum",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kelompok Pola Umum",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Transformasi berurutan: satu baris atau kolom berubah menjadi baris atau kolom berikutnya.",
+                "Penggabungan bilangan: dua atau lebih angka menghasilkan angka lain pada posisi tertentu.",
+                "Keseimbangan jumlah: total atau hubungan dua kelompok dipertahankan.",
+                "Hubungan dua arah: keteraturan mendatar dan tegak saling mendukung.",
+                "Posisi dan simetri: aturan mengikuti letak sel, pasangan, atau blok.",
+                "Lintasan baca: angka membentuk deret setelah dibaca melalui jalur tertentu.",
+                "Kumpulan bilangan acak: posisi tidak menentukan urutan; kelengkapan anggotanya yang diperiksa."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompok ini membantu memilih pemeriksaan, bukan memaksa sebuah matriks hanya memiliki satu nama. Suatu susunan dapat dibaca melalui lebih dari satu hubungan. Yang perlu dipastikan adalah setiap hubungan yang dipakai sesuai dengan data dan memberi nilai x yang sama. Mulailah dari hubungan yang paling sederhana dan paling banyak mempunyai pembanding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Transformasi Berurutan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Transformasi Berurutan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kelompok ini, perubahan dari satu tahap ke tahap berikutnya mempunyai aturan yang berulang. Tahap dapat berupa baris berikutnya, kolom berikutnya, atau suku berikutnya di dalam satu garis. Bandingkan posisi yang bersesuaian sebelum menentukan operasinya."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "a. Tambah, kurang, kali, dan bagi tetap",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa apakah setiap tahap memakai selisih atau faktor yang sama. Konstanta yang disebut tetap harus berlaku pada semua posisi dan seluruh perpindahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan turun dapat dibaca sebagai pengurangan atau pembagian. Bila x berada sebelum nilai yang diketahui, gunakan operasi kebalikannya. Pada pembagian, pembagi tidak boleh nol dan hasil harus sesuai dengan hubungan awal."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-04.png",
+              "lebar": 3.02,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9+7=16$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$16+7=23$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cara yang sama dipakai pada pengalian atau pembagian tetap: bandingkan hasil bagi pada beberapa posisi, kemudian periksa tahap berikutnya. Satu pasangan yang kebetulan cocok belum cukup untuk menyimpulkan bahwa semua angka harus dikalikan dengan faktor tersebut."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "b. Operasi gabungan tetap",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu perpindahan dapat memakai dua operasi berurutan, misalnya kali dahulu lalu tambah, atau bagi dahulu lalu kurang. Urutan operasi merupakan bagian dari aturan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh, setiap angka dikalikan dua kemudian ditambah tiga. Gunakan urutan yang sama pada setiap posisi. Untuk menelusuri ke belakang, kurangi tiga dahulu baru bagi dua; membalik urutan secara sembarang memberi hasil yang berbeda."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-05.png",
+              "lebar": 3.28,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×2+3=7$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7×2+3=17$"
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "c. Operasi berbeda pada setiap tahap",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Operasi boleh berbeda antartahap. Namun, operasi pada tahap yang sama harus berlaku seragam pada seluruh posisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca perpindahan Kolom 1 ke Kolom 2 secara terpisah dari perpindahan selanjutnya. Jangan memaksakan satu operasi yang sama jika semua baris justru menunjukkan urutan operasi yang konsisten. Setelah satu tahap dikenali, cocokkan pada baris lain sebelum meneruskan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-06.png",
+              "lebar": 3.0,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K₁+5=K₂$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K₂×2=K₃$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K₃−3=K₄$"
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "d. Selisih bertingkat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika selisih pertama belum tetap, periksa perubahan selisih tersebut. Selisih tingkat kedua adalah selisih antara dua selisih pertama yang berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Empat angka dalam satu baris memberi tiga selisih pertama dan dua selisih tingkat kedua. Periksa pengulangan pada baris lain juga. Jangan menyatakan selisih tingkat kedua tetap hanya berdasarkan satu perubahan yang belum memiliki pembanding."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-07.png",
+              "lebar": 3.44,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3−1=2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7−3=4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$13−7=6$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tiga angka per garis, aturan selisih tingkat kedua masih dapat dipakai bila nilai perubahannya juga dibuktikan oleh garis-garis lengkap lain. Hubungan tambahan itulah yang membatasi dugaan, bukan sekadar tersedianya tiga angka."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "e. Kuadrat dan kubik berurutan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Angka dapat berasal dari kuadrat atau kubik bilangan yang berurutan. Periksa bilangan asalnya untuk melihat urutan yang tersembunyi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan asal berarti bilangan yang dikuadratkan atau dipangkatkan tiga. Cocokkan seluruh urutannya dan arah pembacaannya. Jika bilangan yang dicari merupakan masukan pangkat genap, hasil positif saja belum menentukan apakah masukannya positif atau negatif."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-08.png",
+              "lebar": 3.26,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4=2²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9=3²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$16=4²$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penggabungan Bilangan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penggabungan Bilangan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kelompok ini, dua atau lebih angka berperan sebagai masukan dan satu posisi menampung hasil. Tentukan dahulu letak masukan dan hasilnya. Hasil tidak harus berada di kanan atau di bawah; x juga dapat menggantikan salah satu masukan."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "a. Dua masukan sederhana",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Coba jumlah, selisih, hasil kali, hasil bagi, rata-rata, atau bobot kecil yang sama. Pertahankan urutan masukan pada pengurangan dan pembagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rata-rata dua angka dapat diperiksa dengan menjumlahkan keduanya lalu membagi dua. Hubungan berbobot berarti salah satu masukan dikalikan suatu bilangan tetap sebelum digabungkan. Penambahan konstanta juga harus menggunakan nilai yang sama pada seluruh kelompok lengkap."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-09.png",
+              "lebar": 2.57,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×3+4=10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×5+2=12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2×7+6=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk membedakan rata-rata dari sekadar jumlah, periksa apakah hasilnya berada di tengah kedua masukan. Tiga angka yang berjarak sama juga memenuhi hubungan bahwa dua kali angka tengah sama dengan jumlah dua angka di tepinya. Hubungan tersebut perlu diperiksa pada semua garis lengkap."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "b. Pangkat pada salah satu masukan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan dengan tepat masukan mana yang dipangkatkan. Pangkat pada masukan pertama berbeda dari pangkat pada masukan kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh, Kolom 1 dikuadratkan lebih dahulu lalu ditambah Kolom 2. Jika pangkat dipindahkan ke Kolom 2, hubungan itu harus diuji ulang pada semua baris; tidak boleh dipindahkan hanya karena lebih mudah dihitung."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-10.png",
+              "lebar": 2.36,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6²+4=40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8²+5=69$"
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "c. Pangkat pada kedua masukan atau hasil gabungan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bedakan menjumlahkan dua hasil kuadrat dengan menguadratkan jumlah dua angka. Letak kurung menentukan operasi yang dikerjakan lebih dahulu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjumlahan atau pengurangan dapat dipakai pada kedua bentuk itu. Pangkat tiga juga mengikuti urutan yang sama. Buktikan bentuk yang dipilih pada beberapa pasangan lengkap; jangan hanya melihat bahwa hasil akhirnya merupakan bilangan kuadrat."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-11.png",
+              "lebar": 2.21,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5²+4²=41$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(5+4)²=81$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua perhitungan di atas memperlihatkan perbedaan hasil walaupun memakai masukan yang sama. Pada bentuk pertama, masing-masing masukan dikuadratkan sebelum dijumlahkan. Pada bentuk kedua, kedua masukan dijumlahkan lebih dahulu. Pola dengan hasil kali yang kemudian ditambah jumlah atau selisih juga harus mempertahankan kelompok dan urutan operasinya."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "d. Tiga masukan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada empat baris atau empat kolom, tiga posisi dapat digabungkan untuk menghasilkan posisi keempat. Gunakan satu susunan tambah atau kurang yang sama pada semua posisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Banyaknya masukan bertambah, tetapi aturannya dapat tetap sederhana. Tandai seluruh baris atau kolom yang menjadi masukan agar tidak mengambil angka dari posisi yang berbeda. Bila x menggantikan masukan, pindahkan operasi dengan langkah yang sah satu per satu."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-12.png",
+              "lebar": 3.1,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+5+1=8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4+3+7=14$"
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "e. Faktor, kelipatan, dan digit",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian hubungan memakai FPB, KPK, atau digit penyusun angka. Gunakan pola ini jika beberapa kelompok lengkap mendukung aturan yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FPB adalah faktor persekutuan terbesar, sedangkan KPK adalah kelipatan persekutuan terkecil. Pada relasi digit, bedakan menjumlahkan digit, membalik urutan digit, dan menggabungkan digit menurut nilai tempat. Jangan memilih cara yang berbeda untuk setiap baris."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-13.png",
+              "lebar": 3.23,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada gambar, hasil di Kolom 3 adalah faktor yang membagi kedua angka masukan dan merupakan faktor bersama yang paling besar. Periksa juga apakah aturan yang lebih sederhana, seperti mengambil angka terkecil atau membagi salah satu masukan, benar-benar berlaku pada semua baris. Kesamaan satu baris tidak cukup untuk menetapkannya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Keseimbangan Jumlah",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Keseimbangan Jumlah",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola keseimbangan, yang dipertahankan adalah total atau kesetaraan dua kelompok. Bandingkan bagian yang sudah lengkap untuk mengetahui total atau hubungan yang harus dijaga sebelum menghitung x."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "a. Total baris atau kolom tetap",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah seluruh angka pada setiap baris atau setiap kolom sama. Nilai total harus diperoleh dari kelompok lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika hanya diketahui bahwa total merupakan kelipatan tertentu, x belum tentu dapat ditentukan. Yang diperlukan adalah total yang sama dan nilainya jelas dari angka-angka yang tersedia. Setelah mendapat total, kurangkan seluruh angka lain dalam kelompok yang memuat x."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-14.png",
+              "lebar": 2.2,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$13+47+40=100$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$46+22+32=100$"
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "b. Kesetaraan dua pasangan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat angka dalam satu garis dapat dibagi menjadi dua pasangan dengan jumlah, selisih, atau hasil kali yang berhubungan tetap. Pembagian pasangannya harus konsisten."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan bisa bersebelahan atau menyilang. Pilih pembagian yang terbukti pada seluruh garis lengkap. Kesetaraan jumlah dua pasangan berbeda dari tuntutan total seluruh baris sama; total baris boleh berbeda selama hubungan pasangannya tetap."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-15.png",
+              "lebar": 3.1,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3+8=5+6$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7+4=2+9$"
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "c. Total atau hubungan dalam blok",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Blok adalah sekumpulan sel yang berdekatan. Pada matriks empat kali empat, empat blok dua kali dua dapat mempunyai total atau hubungan internal yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tandai batas blok terlebih dahulu. Hitung setiap blok lengkap tanpa mencampurkan angka dari blok lain. Hubungan internal dapat berupa kesetaraan dua diagonal blok atau selisih dua pasangan, tetapi tetap memerlukan pengulangan yang memadai."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-16.png",
+              "lebar": 2.73,
+              "tinggi": 2.13
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1+3+7+9=20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+8+4+6=20$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Hubungan Dua Arah",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Hubungan Dua Arah",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Keteraturan dapat berlaku sekaligus secara mendatar dan tegak. Gunakan kedua arah sebagai pemeriksaan silang: angka yang sama harus menghasilkan nilai yang sama ketika ditelusuri dari dua arah."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "a. Kontribusi baris dan kolom",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap posisi dapat dibentuk dari kontribusi baris dan kontribusi kolom. Pada penjumlahan, perubahan suatu kolom akan berulang pada baris lain; pada perkalian, perbandingannya yang berulang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih antarkolom tidak harus sama besar untuk semua perpindahan. Yang penting, selisih pada perpindahan kolom tertentu berulang pada baris lain. Hal serupa berlaku pada perubahan antarbaris. Ini mencakup beda tetap dua arah maupun pola penjumlahan dua sumbu yang lebih umum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-17.png",
+              "lebar": 2.73,
+              "tinggi": 2.13
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12+3=15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8+7=15$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola produk dua sumbu, nilai dari suatu baris dikalikan faktor yang sama pada seluruh posisi untuk menghasilkan baris lainnya. Jangan menyimpulkan pola produk hanya dari satu hasil kali yang cocok; rasionya juga harus sesuai di posisi lain. Hubungan dua arah yang setara boleh dipakai untuk mempercepat pemeriksaan."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "b. Diagonal yang berulang",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diagonal menghubungkan posisi yang bergerak mendatar sekaligus tegak. Hubungan diagonal perlu mempunyai pengulangan atau pembanding yang jelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu kesamaan pada dua diagonal panjang belum cukup bila angka lainnya tidak berperan. Periksa diagonal-diagonal kecil yang sebanding atau hubungannya dengan baris dan kolom. Pada gambar, jumlah dua sudut yang saling berhadapan dalam setiap blok kecil sama; hubungan ini berulang di seluruh kisi."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-18.png",
+              "lebar": 2.98,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2+9=5+6$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5+13=9+9$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Posisi dan Simetri",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Posisi dan Simetri",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kelompok ini, letak sel menentukan angka mana yang dibandingkan. Periksa pasangan berhadapan, pusat, sudut, sisi, pengulangan motif, atau pergeseran. Aturan posisi harus berlaku pada semua bagian yang sejenis."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "a. Pasangan berhadapan dan pusat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sel yang berhadapan terhadap pusat dapat mempunyai jumlah atau hubungan yang sama. Pusat dapat berfungsi sebagai rata-rata dua anggota pasangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk matriks tiga kali tiga, terdapat empat pasangan berhadapan di luar pusat. Bandingkan seluruh pasangan lengkap. Jika pusat merupakan rata-rata, jumlah setiap pasangan harus sama dengan dua kali pusat. Kedekatan suatu angka dengan pusat saja bukan bukti bahwa keduanya harus dijumlahkan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-19.png",
+              "lebar": 3.2,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$11+9=2×10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7+13=2×10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$16+4=2×10$"
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "b. Sudut, sisi, dan pola papan catur",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sel dapat dikelompokkan menurut perannya, seperti sudut, tengah sisi, atau posisi berselang. Setiap kelompok harus mempunyai hubungan yang dapat dibuktikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola papan catur membagi posisi seperti warna kotak pada papan catur. Urutan atau pengulangan setiap kelompok diperiksa sendiri, lalu dikembalikan ke posisi aslinya. Jangan membuat aturan terpisah yang bebas untuk tiap wilayah hanya agar semua angka tampak cocok."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-20.png",
+              "lebar": 3.02,
+              "tinggi": 2.13
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada matriks yang memakai sudut dan sisi, angka pusat tetap perlu mempunyai fungsi yang masuk akal, misalnya menghubungkan pasangan atau memeriksa total. Menemukan urutan pada sudut saja belum menyelesaikan matriks bila seluruh angka pada sisi diabaikan."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "c. Pergeseran dan blok bersesuaian",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Isi suatu baris, kolom, atau blok dapat dipindahkan dengan aturan yang sama. Pada geser melingkar, angka yang melewati ujung kembali masuk dari ujung lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan posisi sebelum dan sesudah geseran secara utuh. Bedakan sekadar menggeser dari menggeser sambil menambah atau mengalikan. Bila dua blok saling bersesuaian, gunakan operasi yang sama pada setiap pasangan posisi dalam kedua blok."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-21.png",
+              "lebar": 3.1,
+              "tinggi": 2.13
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengulangan motif juga dapat terjadi tanpa geseran: suatu blok disalin, dicerminkan, atau diputar. Periksa beberapa salinan lengkap supaya nilai tidak hanya ditebak dari satu tetangga yang kebetulan sama. Pada simetri, pasangan posisi harus mengikuti pencerminan atau putaran yang sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Lintasan Baca",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Lintasan Baca",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola lintasan, sel-sel dibaca dalam urutan tertentu sehingga membentuk satu atau lebih deret. Jalur baru dianggap masuk akal jika aturan angkanya tetap berlaku ketika berpindah baris, berbelok, atau berpindah putaran."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "a. Jalur biasa dan zigzag",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jalur biasa membaca setiap baris dari kiri ke kanan lalu berlanjut ke baris berikutnya. Jalur zigzag membalik arah pada baris berikutnya; bentuk tegaknya membalik arah pada kolom berikutnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa sambungan di ujung baris atau kolom, bukan hanya angka yang berdekatan dalam satu garis. Jalur yang benar mempertahankan beda, rasio, atau aturan lain pada sambungan tersebut. Saat selesai menghitung, kembalikan hasil ke sel x yang semula."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-22.png",
+              "lebar": 3.41,
+              "tinggi": 1.77
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "b. Jalur spiral",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jalur spiral mengitari bagian tepi lalu masuk ke bagian yang lebih dalam, atau bergerak sebaliknya. Tentukan jalur dari keteraturan angka, bukan dari kebiasaan memulai pada suatu sudut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji pergantian sisi dan sambungan menuju pusat. Jika titik awal atau arah lain memberi hubungan yang sama kuat dengan hasil berbeda, dugaan jalurnya belum cukup. Panah pada pembahasan membantu memperlihatkan jalur yang telah dibuktikan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-23.png",
+              "lebar": 2.29,
+              "tinggi": 1.77
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "c. Aturan deret di dalam lintasan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah jalurnya dikenali, aturan dapat berupa operasi bergantian, selisih progresif, jumlah dua suku sebelumnya, atau dua urutan yang berselang. Jalur dan aturan harus sama-sama terbukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada jumlah dua suku sebelumnya, gunakan hasil yang baru dihitung untuk menentukan suku berikutnya. Pada dua jalur berselang, pisahkan posisi ganjil dan genap pada urutan lintasan, bukan semata-mata pada letak mendatar. Jangan mencari jalur rumit sekaligus menambah operasi bebas pada setiap langkah."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-24.png",
+              "lebar": 3.3,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1+1=2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1+2=3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan Fibonacci pada gambar dimulai 1, 1, 2, lalu 3, 5, 8, dan seterusnya. Karena itu, susunan angka harus mempertahankan tepat urutan tersebut. Langkah bergantian juga harus mempertahankan urutan operasinya sampai akhir, termasuk saat melintasi batas baris."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kumpulan Bilangan Acak",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kumpulan Bilangan Acak",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola ini, angka tidak harus dibaca menurut letak sel. Kumpulkan seluruh angkanya, susun menurut urutan yang relevan, lalu periksa anggota yang belum ada. Jenis bilangan dan rentang urutannya harus didukung oleh data."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "a. Daftar bilangan khusus",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa apakah kumpulan tersebut berasal dari deret berurutan, seperti bilangan prima, kuadrat, kubik, bilangan segitiga, atau Fibonacci. Jangan langsung menganggap urutan dimulai dari satu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan segitiga diperoleh dari jumlah bilangan asli berurutan mulai dari satu. Pada semua daftar, periksa nilai ujung yang tersedia dan anggota di antaranya. Dua ujung yang jelas membantu memastikan angka mana yang sebenarnya hilang, bukan sekadar mencari anggota lain dari keluarga yang sama."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-25.png",
+              "lebar": 3.33,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Letak sembilan kuadrat pada gambar tidak membentuk satu jalur sederhana yang harus diikuti. Setelah diurutkan, anggotanya lengkap dari kuadrat dua hingga kuadrat sepuluh. Cara ini berbeda dari pola lintasan: pada kumpulan acak, urutan sel tidak menjadi dasar aturan."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "b. Frekuensi kemunculan dan batas urutan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah kemunculan angka tetap diperhitungkan. Dua angka yang sama tidak boleh digabung menjadi satu ketika memeriksa kelengkapan deret."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fibonacci mempunyai dua angka satu pada awal urutannya. Menghapus salah satunya mengubah banyak suku dan dapat membuat angka yang dicari keliru. Periksa juga kedua ujung urutan: kumpulan yang masih dapat dilengkapi dari dua ujung berbeda belum menentukan satu jawaban."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd06_matriks_deret/gambar-26.png",
+              "lebar": 3.44,
+              "tinggi": 1.77
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1,1,2,3,5,8,13,21,34$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Langkah dan Tips Mengerjakan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Langkah dan Tips Mengerjakan",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Amati struktur. Catat ukuran, letak x, angka yang berulang, dan kelompok lengkap yang tersedia.",
+                "Uji pola lokal dahulu. Bandingkan operasi antarbaris atau antarkolom, total, dan pasangan yang bersesuaian.",
+                "Jika belum cocok, periksa posisi dan lintasan. Cari pengulangan yang jelas, bukan jalur yang dipilih hanya agar x mudah dihitung.",
+                "Buktikan aturan pada semua kelompok lengkap. Jangan berhenti setelah satu pasangan cocok.",
+                "Tentukan peran x. Jika x merupakan masukan, gunakan operasi balik; jika x merupakan hasil, hitung masukan sesuai urutan operasi.",
+                "Masukkan kembali hasil. Periksa hubungan awal, semua arah yang dipakai, lalu cocokkan dengan opsi."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan yang sering terjadi adalah menamai sumbu secara terbalik, mengubah urutan masukan, melupakan kurung, memilih akar positif tanpa alasan, atau hanya memeriksa satu baris. Pada pola global, kesalahan juga dapat muncul karena melewati sel, memakai satu angka dua kali, atau menghapus angka yang berulang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan jawaban membantu mencocokkan hasil akhir, tetapi tidak menggantikan pembuktian pola. Bila dua aturan sederhana yang sama-sama cocok pada seluruh data menghasilkan nilai berbeda, periksa kembali dugaan. Jangan menganggap suatu aturan benar hanya karena hasilnya kebetulan tersedia di opsi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Cara Membaca Matriks",
+        "teks": ""
+      },
+      {
+        "judul": "Kelompok Pola Umum",
+        "teks": ""
+      },
+      {
+        "judul": "Transformasi Berurutan",
+        "teks": ""
+      },
+      {
+        "judul": "Penggabungan Bilangan",
+        "teks": ""
+      },
+      {
+        "judul": "Keseimbangan Jumlah",
+        "teks": ""
+      },
+      {
+        "judul": "Hubungan Dua Arah",
+        "teks": ""
+      }
+    ],
+    "pesan": "Matriks deret diselesaikan dengan menemukan hubungan yang berulang dan menerapkannya pada posisi x. Mulailah dari baris dan kolom, kemudian periksa keseimbangan, hubungan dua arah, posisi, lintasan, atau kelengkapan kumpulan bilangan. Gunakan aturan yang sama pada seluruh bagian yang bersesuaian dan periksa kembali hasilnya. Bentuk yang tampak rumit sering menjadi lebih jelas setelah peran setiap angka ditentukan. Biasakan membuktikan pola pada bagian yang lengkap, menjaga urutan operasi, serta menuliskan langkah hitung dari hubungan awal sampai nilai x. Cara ini membuat jawaban dapat diperiksa, bukan sekadar ditebak dari kemiripan beberapa angka."
+  }
+}

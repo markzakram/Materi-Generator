@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Drag the Line",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Drag the Line",
+    "sumber": "https://docs.google.com/document/d/1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr/edit",
+    "bagian": "soal",
+    "id_katalog": "pi-02-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1 Huruf dan angka maju dengan langkah berbeda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Telusuri garis hingga H5. Dari H5, ke simpul mana garis perlu diseret?"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_drag_the_line/gambar-20.png",
+              "lebar": 6.0,
+              "tinggi": 2.12
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua deret berjalan bersama: huruf maju dua dan angka naik satu."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca huruf B, D, F, H. Setiap perpindahan maju dua posisi alfabet. Sesudah H, hitung I lalu J."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Baca angka 2, 3, 4, 5. Setiap perpindahan naik satu. Sesudah 5 diperoleh 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Gabungkan J dan 6 dengan format yang tetap, yaitu huruf lalu angka. Sambungkan H5 ke J6."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Seret garis dari H5 ke J6. Pastikan garis berakhir di J6."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan huruf dan angka; prediksi keduanya sebelum melihat pilihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: J5 tidak menaikkan angka. H6 tidak memajukan huruf. 6J membalik format label."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2 Format berganti pada setiap simpul",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan simpul berikutnya dari ujung urutan 4D."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_drag_the_line/gambar-21.png",
+              "lebar": 6.0,
+              "tinggi": 2.12
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai huruf dan angka maju satu; format bergantian."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Huruf A, B, C, D berlanjut E. Angka 1, 2, 3, 4 berlanjut 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Format empat simpul adalah huruf–angka, angka–huruf, huruf–angka, angka–huruf. Tahap kelima memakai huruf–angka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Label yang memenuhi nilai dan format adalah E5. Sambungkan dari 4D menuju E5."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: E5."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa tiga unsur: huruf, angka, lalu format."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: 5E mempunyai nilai benar tetapi format salah. D5 menahan huruf. E4 menahan angka."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 3 Huruf dan angka berubah bergiliran",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan simpul berikutnya dari ujung urutan C3."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_drag_the_line/gambar-22.png",
+              "lebar": 6.0,
+              "tinggi": 2.12
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tindakan bergantian: huruf maju, kemudian angka naik."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. A1 ke B1 mengubah huruf. B1 ke B2 mengubah angka. B2 ke C2 mengubah huruf. C2 ke C3 mengubah angka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Sesudah perubahan angka, giliran berikutnya mengubah huruf. C menjadi D; angka 3 tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Sambungkan C3 menuju D3. Jangan menjalankan perubahan huruf dan angka sekaligus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: D3."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Catat unsur yang berubah: huruf, angka, huruf, angka, lalu huruf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: D4 menjalankan dua perubahan. C4 mengulangi giliran angka. B3 memundurkan huruf."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 4 Siklus susunan tiga karakter",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai dari simpul keempat, yaitu XXO di ujung garis. Tentukan simpul berikutnya."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_drag_the_line/gambar-23.png",
+              "lebar": 6.0,
+              "tinggi": 2.12
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karakter paling kanan berpindah ke depan; dua karakter lain bergeser ke kanan."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. XXO menjadi OXX ketika O terakhir dipindahkan ke depan. Jumlah dua X dan satu O tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Uji OXX menjadi XOX, lalu XOX menjadi XXO. Tindakan yang sama cocok pada kedua hubungan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Terapkan satu tindakan dari XXO terakhir: pindahkan O ke depan. Hasilnya OXX. Sambungkan ke simpul dengan label itu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: OXX."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tandai karakter terakhir, letakkan di depan, lalu salin dua karakter sebelumnya sesuai urutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: OOX dan XOO mengubah jumlah X menjadi satu. XXX menghilangkan O. Jumlah dan posisi harus sama-sama benar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 5 Empat posisi berubah secara mandiri",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan simpul berikutnya dari ujung urutan 4De5."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_drag_the_line/gambar-24.png",
+              "lebar": 6.0,
+              "tinggi": 2.12
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap posisi maju satu; bentuk kapital dan kecil tetap menurut tempatnya."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Pisahkan posisi pertama dan keempat. Angka kiri 1, 2, 3, 4 menjadi 5; angka kanan 2, 3, 4, 5 menjadi 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Huruf posisi kedua A, B, C, D menjadi E kapital. Posisi ketiga b, c, d, e menjadi f kecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Satukan hasil sesuai posisi: 5, E, f, 6. Label berikutnya 5Ef6. Periksa kembali bentuk huruf sebelum menyambung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 5Ef6."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Buat empat catatan pendek, lalu gabungkan dari posisi pertama sampai keempat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: 5EF6 salah kapital pada huruf ketiga. Pada 5Fe6, posisi kedua seharusnya E kapital dan posisi ketiga f kecil. 6Ef5 menukar angka ujung."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 6 Bentuk huruf bergantian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan simpul berikutnya dari ujung urutan 4dD5."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_drag_the_line/gambar-25.png",
+              "lebar": 6.0,
+              "tinggi": 2.12
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka dan nilai alfabet naik satu; bentuk pasangan berganti kapital–kecil dan kecil–kapital."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Angka di kiri menjadi 5 dan angka di kanan menjadi 6. Nama huruf maju A, B, C, D, sehingga berikutnya E."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Bentuk pasangan Aa, bB, Cc, dD menunjukkan pergantian. Sesudah kecil–kapital, tahap berikutnya kapital–kecil: Ee."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Gabungkan 5 + Ee + 6 menjadi 5Ee6. Sambungkan dari 4dD5 ke simpul itu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 5Ee6."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tentukan nama huruf dahulu, kemudian bentuknya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: 5eE6 salah tahap bentuk. 5Ef6 memakai dua nama huruf berbeda. 6Ee5 membalik angka."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 7 Simbol menentukan perubahan angka",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan simpul berikutnya dari ujung urutan 3>>."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pi_drag_the_line/gambar-26.png",
+              "lebar": 6.0,
+              "tinggi": 2.12
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada latihan ini > berarti +1, >> berarti +2, dan < berarti −1 untuk menuju angka berikutnya."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Uji simbol pada simpul asal. 1> menuju 2: naik satu. 2>> menuju 4: naik dua. 4< menuju 3: turun satu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Simbol >> pada ujung aktif 3>> menambah dua. Prediksi angka tujuan: 3 + 2 = 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Cocokkan angka 5 dengan kandidat. Hanya 5< yang berangka 5. Simbol < digunakan jika jalur diteruskan dari 5<."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 5<."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Baca simbol pada simpul asal, hitung angka tujuan, lalu cocokkan kandidat lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan yang perlu dihindari: 4> memakai kenaikan satu. 6>> memakai kenaikan tiga. 2< justru mengurangi satu. Jawaban ditentukan oleh perubahan dari 3>>."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

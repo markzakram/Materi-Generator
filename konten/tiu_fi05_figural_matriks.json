@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "judul": "Figural Matriks",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Figural - Figural Matriks",
+    "sumber": "https://drive.google.com/file/d/1dYGzHv3qvcWk-QBvZrF53txr5YvTJZiA/view",
+    "id_katalog": "fi-05",
+    "lewati_kosong": true
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 5
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1",
+          "opsi": {},
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: B**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap baris dan kolom memiliki bangun datar bintang, lingkaran besar, lingkaran kecil, segitiga, dan persegi panjang. Masing-masing bangun datar bergesar searah jarum jam. Bangun datar yang berwarna hitam pada masing-masing kotak mengikuti pola berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lingkaran kecil → Segitiga → Persegi panjang → Bintang → Lingkaran besar"
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi05_figural_matriks/gambar-01.png",
+              "lebar": 8.7,
+              "tinggi": 6.56
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2",
+          "opsi": {},
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: A**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan bagian bangun datar di tengah masing-masing kotak terlebih dahulu (yang dilingkari merah)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap baris memiliki aturan sebagai berikut:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Setiap baris gambar terdiri atas masing-masing 1 dari 3 macam, yaitu segitiga, lingkaran, dan persegi.",
+                "Setiap baris gambar terdiri atas masing-masing 1 dari 3 warna, yaitu putih, abu-abu, dan hitam."
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi05_figural_matriks/gambar-03.png",
+              "lebar": 2.91,
+              "tinggi": 2.83
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi05_figural_matriks/gambar-04.png",
+              "lebar": 4.64,
+              "tinggi": 1.19
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka pilihan yang memungkinkan setelah eliminasi opsi adalah A dan B."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sekarang perhatikan bagian bangun datar di kiri atas masing-masing kotak (yang dilingkari merah). Setiap baris memiliki aturan yang sama seperti sebelumnya yaitu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Setiap baris gambar terdiri atas masing-masing 1 dari 3 macam, yaitu segitiga, lingkaran, dan persegi.",
+                "Setiap baris gambar terdiri atas masing-masing 1 dari 3 warna, yaitu putih, abu-abu, dan hitam."
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi05_figural_matriks/gambar-05.png",
+              "lebar": 2.96,
+              "tinggi": 2.94
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi05_figural_matriks/gambar-06.png",
+              "lebar": 4.63,
+              "tinggi": 1.18
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sehingga jika dikombinasikan adalah segitiga hitam di bagian tengah kotak dan lingkaran hitam di bagian kiri atas hitam. Opsi yang memiliki kombinasi ini adalah opsi A"
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi05_figural_matriks/gambar-02.png",
+              "lebar": 7.97,
+              "tinggi": 6.04
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 3",
+          "opsi": {},
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: D**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi05_figural_matriks/gambar-08.png",
+              "lebar": 7.37,
+              "tinggi": 6.03
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi05_figural_matriks/gambar-07.png",
+              "lebar": 8.92,
+              "tinggi": 6.72
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

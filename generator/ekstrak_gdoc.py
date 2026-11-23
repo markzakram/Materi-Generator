@@ -25,6 +25,7 @@ import zipfile
 from lxml import etree
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import omml  # noqa: E402
 
 NS = {
     "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main",
@@ -105,14 +106,19 @@ def _teks_paragraf(p):
                         t += x.text or ""
                     elif x.tag in (f"{W}tab", f"{W}br"):
                         t += " "
-                if t:
+                posisi = anak.find(f"{W}rPr/{W}vertAlign")
+                naik = {"superscript": "^", "subscript": "_"}.get(posisi.get(f"{W}val") if posisi is not None else None)
+                if t.strip() and naik:  # superskrip/subskrip teks biasa: cm^{2}, H_{2}O
+                    ada_teks = True
+                    potongan.append((f"{naik}{{{t.strip()}}}", "m"))
+                elif t:
                     if t.strip():
                         ada_teks = True
                         semua_tebal &= _tebal(anak)
                         semua_miring &= _miring(anak)
                     potongan.append((t, "b" if _tebal(anak) else ""))
             elif tag in (f"{M}oMath", f"{M}oMathPara"):
-                t = "".join(x.text or "" for x in anak.iter(f"{M}t"))
+                t = omml.teks(anak)  # pecahan, pangkat, akar dibaca strukturnya (bukan digabung teksnya)
                 if t.strip():
                     ada_teks = True
                     semua_tebal = False
@@ -406,6 +412,9 @@ POLA_JUDUL_SOAL = re.compile(r"^(contoh\s+)?soal\s*\d+", re.I)
 POLA_KUNCI = re.compile(r"^(?i:jawaban)\b(?:[^:]{0,20}:)?\s*\(?([A-E])\)?(?=$|[.),;\s])")
 
 
+POLA_KUNCI_AKHIR = re.compile(r"\b[Jj]awaban(?:nya)?(?:\s+(?:yang\s+)?(?:benar|tepat))?(?:\s+adalah)?\s*:?\s*\(?([A-E])\)?\s*\.?$")
+
+
 def _soal(penyusun, elemen):
     """Bagian 'Contoh Soal dan Pembahasan' -> daftar slide contoh_soal.
 
@@ -456,6 +465,10 @@ def _soal(penyusun, elemen):
             continue
         kini["pembahasan" if mode in ("bahas", "kunci") else "soal"].append(el)
     for s in hasil:
+        if s["opsi"] and not s["kunci"]:  # kunci hanya ditulis di penutup pembahasan: 'Jadi, ... Jawaban A.'
+            akhir = [e.get("polos", "").strip() for e in s["pembahasan"] if e["jenis"] == "paragraf"][-2:]
+            kunci = [m.group(1) for m in map(POLA_KUNCI_AKHIR.search, akhir) if m and m.group(1) in s["opsi"]]
+            s["kunci"] = kunci[-1] if kunci else ""
         s["soal"] = penyusun.blok_dari(s["soal"])
         s["pembahasan"] = penyusun.blok_dari(s["pembahasan"])
     return hasil
@@ -538,12 +551,12 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
             for el in isi:
                 if el["jenis"] == "h2" and el["polos"]:
                     if sub is not None or isi_sub:
-                        tambah_subbab(sub or "Materi", isi_sub, False)
+                        tambah_subbab(sub or judul_bersih, isi_sub, False)
                     sub, isi_sub = el["teks"], []
                 else:
                     isi_sub.append(el)
             if sub is not None or isi_sub:
-                tambah_subbab(sub or "Materi", isi_sub, False)
+                tambah_subbab(sub or judul_bersih, isi_sub, False)
         elif kunci.startswith("contoh soal") or kunci.startswith("latihan soal"):
             soal = _soal(penyusun, isi)
             if soal:

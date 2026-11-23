@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Figural Analogi",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Figural - Figural Analogi",
+    "sumber": "https://drive.google.com/file/d/1o_eLDIo1BLnkVewN2ir19ynwMwADATrJ/view",
+    "id_katalog": "fi-02-soal",
+    "lewati_kosong": true,
+    "bagian": "soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 5
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1",
+          "opsi": {},
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: D**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi02_contoh_soal/gambar-02.png",
+              "lebar": 10.75,
+              "tinggi": 4.22
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang tepat untuk menggantikan tanda tanya “?”, sehingga kedua pasangan gambar di bawah ini memiliki hubungan yang serupa."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi02_contoh_soal/gambar-01.png",
+              "lebar": 10.42,
+              "tinggi": 3.39
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2",
+          "opsi": {},
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: D**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola perubahan untuk setiap gambar adalah pencerminan dan adanya perubahan warna dari setiap elemen (hitam -> putih) (putih -> hitam)"
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang tepat untuk menggantikan tanda tanya “?”, sehingga kedua pasangan gambar di bawah ini memiliki hubungan yang serupa."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi02_contoh_soal/gambar-03.png",
+              "lebar": 9.28,
+              "tinggi": 4.86
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 3",
+          "opsi": {},
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: B**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban yang tepat untuk soal ini adalah jawaban yang (B)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga unsur pada gambar pertama diputar searah jarum jam 180 derajat (hasilnya sama dengan gambar dibalik)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tambahkan unsur baru yang bentuknya sama dengan dua unsur lain (yang dibawah), tetapi dengan warna yang berlawanan"
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang tepat untuk menggantikan tanda tanya “?”, sehingga kedua pasangan gambar di bawah ini memiliki hubungan yang serupa."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi02_contoh_soal/gambar-04.png",
+              "lebar": 11.1,
+              "tinggi": 3.59
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 4",
+          "opsi": {},
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: B**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi02_contoh_soal/gambar-06.png",
+              "lebar": 8.85,
+              "tinggi": 5.77
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang tepat untuk menggantikan tanda tanya “?”, sehingga kedua pasangan gambar di bawah ini memiliki hubungan yang serupa."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi02_contoh_soal/gambar-05.png",
+              "lebar": 11.06,
+              "tinggi": 4.39
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 5",
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang tepat untuk menggantikan tanda tanya “?”, sehingga kedua pasangan gambar di bawah ini memiliki hubungan yang serupa."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi02_contoh_soal/gambar-07.png",
+              "lebar": 10.21,
+              "tinggi": 4.84
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -10,7 +10,7 @@ Dokumen materi di Google Docs bisa dikonversi otomatis menjadi naskah, lalu diti
 ## Alur kerja
 
 1. **Dokumen → naskah.** Dokumen materi (templat booklet SKD) diunduh sebagai `.docx` dan dikonversi oleh `generator/impor_katalog.py` menjadi `konten/*.json` beserta gambarnya di `konten/media/`.
-2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 27 deck TIU Verbal (materi dan contoh soal), mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
+2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 65 deck TIU (Verbal, Numerik, dan Figural; materi dan contoh soal), mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
 3. **Ekspor.** Unduh PPTX dari dasbor atau editor. PDF dibuat di Windows lokal (butuh PowerPoint).
 
 ## Cara pakai (baris perintah)
@@ -43,7 +43,7 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU Verbal** (28 deck: 15 dokumen Verbal Analogi, Silogisme, dan Analitis, 12 deck contoh soal yang dipisah dari dokumennya, dan Penalaran Logis) dan **JadiOJK · PCAM OJK** (materi TKU PCAM OJK). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi dan sampul, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`).
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (66 deck: 28 Verbal, 31 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (28 deck TKU PCAM OJK). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi dan sampul, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`).
 
 Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn --sampul foto`.
 
@@ -56,7 +56,7 @@ python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-gene
 
 Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general general-foto`. Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
 
-Ukuran: TIU sekitar 86 MB dan OJK sekitar 126 MB, jadi seluruh situs sekitar 210 MB. Dokumentasi Vercel menyebut batas 100 MB untuk unggahan file statis di paket Hobby lewat CLI; untuk deploy dari GitHub batas itu tidak disebutkan. Bila deploy ditolak karena ukuran, kurangi menjadi satu sampul (`--tema general`) atau pindah ke paket Pro (1 GB).
+Ukuran: TIU sekitar 333 MB dan OJK sekitar 157 MB, jadi seluruh situs sekitar 490 MB. Dokumentasi Vercel menyebut batas 100 MB untuk unggahan file statis di paket Hobby lewat CLI; untuk deploy dari GitHub batas itu tidak disebutkan. Bila deploy ditolak karena ukuran, kurangi menjadi satu sampul (`--tema general`) atau pindah ke paket Pro (1 GB).
 
 Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint dan menyimpan hiasan abu-abu sebagai gambar satu kanal, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 1,5–2 MB tanpa mengubah tampilan.
 
@@ -66,7 +66,7 @@ Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs
 
 ## Impor dokumen Google Docs
 
-`konten/katalog.json` mendaftar 15 dokumen di kolom D sheet "Kerangka Course" (Mapping SKD 2027) sebagai 27 deck: kelompok, bab, baris sheet, dan ID dokumen. Untuk membuat ulang naskah setelah dokumen diperbarui:
+`konten/katalog.json` mendaftar 46 dokumen TIU di kolom D sheet "Kerangka Course" (Mapping SKD 2027) sebagai 65 deck: kelompok, bab, baris sheet, dan ID dokumen. Untuk membuat ulang naskah setelah dokumen diperbarui:
 
 1. Unduh dokumen sebagai Word (File › Download › Microsoft Word) ke satu folder, beri nama `<doc_id>.docx`.
 2. Jalankan:
@@ -75,17 +75,27 @@ Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs
 python generator/impor_katalog.py --docx folder_docx
 ```
 
-Baris "Contoh Soal" di sheet (Silogisme 02–06 dan Analitis 01–07) tidak punya dokumen sendiri karena soalnya ditulis di dokumen materi. Entri `"bagian": "soal"` (mis. `vs-02-soal`) memakai `doc_id` yang sama, dan importer memisahkan satu dokumen menjadi dua naskah: materi (`tiu_vs02_logika_kondisional.json`) dan contoh soal (`tiu_vs02_contoh_soal.json`). Deck contoh soal hanya memuat sampul, peta materi, soal, dan pembahasan; importer menandai soal yang tidak punya kunci ("TANPA KUNCI").
+Baris "Contoh Soal" di sheet (Silogisme 02–06, Analitis 01–07, Operasi Hitung, Pecahan, dan sebagian Data & Deret) tidak punya dokumen sendiri karena soalnya ditulis di dokumen materi. Entri `"bagian": "soal"` (mis. `vs-02-soal`) memakai `doc_id` yang sama, dan importer memisahkan satu dokumen menjadi dua naskah: materi (`tiu_vs02_logika_kondisional.json`) dan contoh soal (`tiu_vs02_contoh_soal.json`). Deck contoh soal hanya memuat sampul, peta materi, soal, dan pembahasan; importer menandai soal yang tidak punya kunci ("TANPA KUNCI"). Dokumen yang berisi soal tetapi tidak punya baris "Contoh Soal" di sheet (mis. Rasio) tetap satu deck.
 
 Hanya entri dengan `"otomatis": true` yang ditimpa; `va-01` (Verbal Analogi) disusun manual. Satu dokumen bisa dikonversi langsung dengan `generator/ekstrak_gdoc.py`.
 
-Yang dikonversi apa adanya: paragraf, subjudul, daftar, tabel (termasuk sel gabungan), gambar beserta keterangannya, persamaan Word (menjadi `$…$`), serta contoh soal (soal, opsi A–E, kunci, pembahasan). Yang tidak ada di dokumen dibiarkan kosong untuk dilengkapi di editor: pertanyaan pemantik, level Bloom (lingkaran menampilkan nomor bila kosong), dan teks ringkasan penutup. Dasbor menandai materi yang masih perlu dilengkapi.
+Yang dikonversi apa adanya: paragraf, subjudul, daftar, tabel (termasuk sel gabungan), gambar beserta keterangannya, persamaan Word (menjadi `$…$`, lewat `generator/omml.py`: pecahan `a/b`, pangkat `x^{2}`, indeks `U_{n}`, akar `√x`), serta contoh soal (soal, opsi A–E, kunci, pembahasan). Yang tidak ada di dokumen dibiarkan kosong untuk dilengkapi di editor: pertanyaan pemantik, level Bloom (lingkaran menampilkan nomor bila kosong), dan teks ringkasan penutup. Dasbor menandai materi yang masih perlu dilengkapi.
 
 Catatan: tautan "05 Logika Pernyataan" di sheet (baris 39) kurang satu huruf sehingga tidak bisa dibuka; katalog memakai ID yang benar.
 
+### Figural (PDF)
+
+Dokumen Figural di sheet (baris 76–82) berupa PDF hasil ekspor Canva, bukan Google Docs. Entrinya di katalog punya `"url"` (tautan Drive) dan `"otomatis": false`, dan naskahnya dibuat skrip tersendiri (butuh PyMuPDF dan Pillow):
+
+```bash
+python generator/ekstrak_figural.py --pdf folder_pdf
+```
+
+`folder_pdf` berisi `<doc_id>.pdf`. Teks dan kunci diambil dari PDF; gambar soal dan pembahasan dipotong dari halaman, jadi opsi A–E ada di dalam gambar dan `opsi` di naskah kosong. Letak potongan mengikuti susunan halaman PDF saat ini; bila PDF diganti, periksa lagi hasil potongannya. PDF tidak punya pendahuluan, tujuan, dan penutup, sehingga naskahnya diberi `"lewati_kosong": true` dan slide itu tidak dibuat sampai isinya dilengkapi.
+
 ### Materi PCAM OJK (JadiOJK)
 
-`konten/ojk/katalog.json` mendaftar 22 dokumen di kolom File sheet "Kerangka Course" (Mapping Tahap 2 PCAM OJK 2026): subtes TKU (Penalaran Induktif, Penalaran Deduktif, Pengetahuan Sektor Jasa Keuangan), materi, bab, dan ID dokumen. Katalog ini juga menyimpan pengaturan deck: subtes di sampul ("Tes Kemampuan Umum"), peta subtes TKU, awalan nama berkas ("OJK TKU"), merek situs, dan palet `jadiojk`. Naskah dan gambar ada di `konten/ojk/`.
+`konten/ojk/katalog.json` mendaftar 22 dokumen di kolom File sheet "Kerangka Course" (Mapping Tahap 2 PCAM OJK 2026) sebagai 28 deck (contoh soal Penalaran Induktif dan Deduktif dipisah menjadi deck sendiri): subtes TKU (Penalaran Induktif, Penalaran Deduktif, Pengetahuan Sektor Jasa Keuangan), materi, bab, dan ID dokumen. Katalog ini juga menyimpan pengaturan deck: subtes di sampul ("Tes Kemampuan Umum"), peta subtes TKU, awalan nama berkas ("OJK TKU"), merek situs, dan palet `jadiojk`. Naskah dan gambar ada di `konten/ojk/`.
 
 ```bash
 python generator/impor_katalog.py --katalog konten/ojk/katalog.json --docx folder_docx_ojk
@@ -150,7 +160,7 @@ Catatan:
 
 | Bagian | Isi |
 |---|---|
-| `meta` | `judul`, `subjudul` (opsional), `subtes`, `nama_file`, `sumber` |
+| `meta` | `judul`, `subjudul` (opsional), `subtes`, `nama_file`, `sumber`, `bagian` (`"soal"` untuk deck contoh soal), `lewati_kosong` (opsional; lewati slide pendahuluan, tujuan, dan penutup yang masih kosong) |
 | `peta_subtes` | `judul`, `subjudul`, `aktif` (indeks kartu yang disorot), `kartu[]` (`judul`, `deskripsi`, `ikon`) |
 | `pendahuluan` | `paragraf[]`, `pemantik` (opsional), `ikon` atau `gambar` (path di `konten/`) |
 | `tujuan` | `pengantar`, `butir[]` (`level` opsional, `kko`, `teks`) |
@@ -163,7 +173,7 @@ Tipe slide materi (`tipe`):
 - `blok`: isi umum hasil konversi dokumen, berupa daftar `blok[]` dengan `jenis` `paragraf`, `subjudul`, `sorot`, `poin`, `gambar`, `tabel`, atau `catatan`. Bila slide penuh, generator membuat slide lanjutan; slide yang dimulai tepat di subjudul memakai subjudul itu sebagai judul.
 - `contoh_soal`: `judul`, `label` (opsional), `soal[]` (blok), `opsi` (`A`–`E`), `kunci`, `pembahasan[]` (blok). Menghasilkan slide soal dan slide pembahasan yang saling bertaut. Opsi yang semuanya pendek disusun mendatar.
 
-Markup teks: `**tebal**` dan `$p → q$` untuk simbol/rumus (ditulis dengan Cambria Math karena Poppins tidak punya glyph logika).
+Markup teks: `**tebal**` dan `$p → q$` untuk simbol/rumus (ditulis dengan Cambria Math karena Poppins tidak punya glyph logika). Di dalam `$…$`, `^{…}` menjadi superskrip dan `_{…}` subskrip, mis. `$x^{2}$` dan `$U_{n}$`; pecahan ditulis mendatar (`3/4`).
 
 Ikon: `globe`, `strategi`, `grafik`, `checklist`, `roket`, `peringatan`, `presenter`, `bingung`. Varian navy dan putih untuk desain Opsi B ada di `generator/assets/ikon/` (dibuat ulang dengan `python generator/buat_ikon.py`).
 

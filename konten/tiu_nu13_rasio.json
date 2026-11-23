@@ -1,0 +1,753 @@
+{
+  "meta": {
+    "judul": "Rasio",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Rasio",
+    "sumber": "https://docs.google.com/document/d/1k2xIPnhoeYRBj-tgO8haxOOlpH3K2TFdQ9sEBM_dZuI/edit",
+    "id_katalog": "nu-13"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Rasio membantu kita memahami perbandingan dua atau lebih jumlah. Dengan mengetahui rasionya, kita dapat menentukan pembagian suatu total, mencari nilai yang belum diketahui, atau menghitung jumlah keseluruhan dari selisih dua bagian. Langkah dasarnya adalah mencocokkan jumlah yang diketahui dengan banyak bagian yang diwakilinya.",
+      "Angka pada rasio menunjukkan banyak bagian yang sebanding. Besar setiap bagian baru dapat ditentukan setelah ada informasi jumlah sebenarnya. Karena itu, membaca urutan nama, satuan, serta keterangan jumlah atau selisih sama pentingnya dengan melakukan perhitungan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "arti rasio dan membedakan angka perbandingan dari jumlah sebenarnya."
+      },
+      {
+        "level": "",
+        "kko": "Menuliskan",
+        "teks": "rasio sesuai urutan, menyamakan satuan, dan menyederhanakannya."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "nilai masing-masing bagian dari jumlah atau selisih yang diketahui."
+      },
+      {
+        "level": "",
+        "kko": "Menggunakan",
+        "teks": "rasio tiga bagian dan memeriksa kesesuaian hasil dengan informasi awal."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Rasio",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rasio",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan umum:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a:b$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai masing-masingnya misalkan A dan B"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah keduanya: $A+B$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih keduanya: $A−B$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rasio membandingkan dua jumlah. Huruf kecil a dan b menyatakan angka perbandingannya, sedangkan huruf besar A dan B menyatakan nilai sebenarnya. Urutannya saling berpasangan, yaitu a untuk A dan b untuk B. Angka perbandingan menunjukkan hubungan antarjumlah sehingga nilainya dapat digunakan untuk menentukan bagian dari suatu total."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah kedua nilai diperoleh dengan menjumlahkan A dan B. Untuk selisih dalam perhitungan banyak benda atau uang, kurangi nilai yang lebih besar dengan nilai yang lebih kecil. Dengan demikian, selisih yang digunakan bernilai positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum menghitung, pastikan urutan nama sesuai dengan urutan angka perbandingan. Untuk dua besaran sejenis, satuannya juga harus sama. Jika urutan nama ditukar, angka perbandingannya ikut ditukar agar hubungan keduanya tetap benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ani memiliki 30 buku dan Budi memiliki 20 buku. Gunakan A untuk jumlah buku Ani dan B untuk jumlah buku Budi. Perbandingannya dapat disederhanakan dengan membagi kedua jumlah oleh 10."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A:B=30:20=3:2$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, setiap tiga bagian milik Ani berpasangan dengan dua bagian milik Budi. Jumlah dan selisih buku mereka dihitung sebagai berikut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B=30+20=50$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A−B=30−20=10$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rumus Mencari A",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rumus Mencari A",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "$a/(a+b)·(A+B)$→ Jika diketahui jumlah keduanya"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan dari jumlah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan buku Ani dan Budi adalah tiga berbanding dua. Jika jumlah buku mereka 50, tentukan jumlah buku Ani. Masukkan angka 3 untuk a, angka 2 untuk b, dan 50 untuk jumlah keduanya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A=3/(3+2)·50$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A=3/5·50=30$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Ani memiliki 30 buku. Angka 3 di atas pecahan menunjukkan bagian Ani, sedangkan angka 5 di bawah pecahan menunjukkan total bagian Ani dan Budi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$a/|a−b|·(A−B)$→ Jika diketahui selisih keduanya"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan dari selisih"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan buku Ani dan Budi adalah tiga berbanding dua. Jika selisih buku mereka 10, tentukan jumlah buku Ani. Gunakan angka perbandingan Ani sebagai pembilang dan selisih angka perbandingan sebagai penyebut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A=3/(3−2)·10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A=3/1·10=30$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Ani memiliki 30 buku. Selisih satu bagian bernilai 10 buku sehingga tiga bagian bernilai 30 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika jumlah keduanya diketahui, A merupakan bagian dari total A dan B. Karena seluruh bagian perbandingan adalah gabungan a dan b, angka a ditempatkan di atas pecahan dan jumlah a serta b ditempatkan di bawah pecahan. Kalikan pecahan tersebut dengan jumlah sebenarnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika selisih keduanya diketahui, gunakan selisih angka perbandingan di bawah pecahan. Tanda garis tegak pada selisih angka perbandingan menunjukkan nilai mutlak, yaitu besar selisih yang diambil positif. Angka a tetap berada di atas pecahan karena nilai yang dicari adalah A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada rumus selisih, A dikurangi B digunakan ketika A lebih besar daripada B. Jika B lebih besar, gunakan B dikurangi A sebagai penggantinya. Nilai yang dimasukkan ke rumus harus berupa besar selisih yang positif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rumus Mencari B",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rumus Mencari B",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "$b/(a+b)·(A+B)$→ Jika diketahui jumlah keduanya"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan dari jumlah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan buku Ani dan Budi adalah tiga berbanding dua dan jumlahnya 50 buku. Untuk mencari jumlah buku Budi, gunakan angka 2 sebagai pembilang karena B menyatakan jumlah buku Budi."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=2/(3+2)·50$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=2/5·50=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Budi memiliki 20 buku. Gabungan 30 buku Ani dan 20 buku Budi tepat 50 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$b/|a−b|·(A−B)$→ Jika diketahui selisih keduanya"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan dari selisih"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan buku Ani dan Budi adalah tiga berbanding dua dan selisihnya 10 buku. Untuk mencari jumlah buku Budi, gunakan angka 2 di atas pecahan dan selisih 3 dikurangi 2 di bawah pecahan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=2/(3−2)·10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=2/1·10=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Budi memiliki 20 buku. Selisih 30 buku Ani dan 20 buku Budi tepat 10 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cara mencari B mengikuti informasi yang sama. Angka b menjadi pembilang karena nilai B yang dicari. Jika yang diketahui total kedua nilai, penyebutnya berupa jumlah angka perbandingan. Jika yang diketahui selisih kedua nilai, penyebutnya berupa besar selisih angka perbandingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyebut dipilih berdasarkan informasi yang diketahui, sedangkan pembilang dipilih berdasarkan nilai yang ditanyakan. Jadi, satu total atau satu selisih dapat digunakan untuk menghitung A dan B secara terpisah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika ingin mencari jumlah keseluruhan dari selisih, jumlahkan kedua angka perbandingan di atas pecahan. Besar selisih perbandingan tetap menjadi penyebut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B=(a+b)/|a−b|·|A−B|$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan untuk jumlah keseluruhan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan buku Ani dan Budi adalah tiga berbanding dua. Jika selisihnya 10 buku, jumlah buku keduanya dapat dicari langsung dengan menjumlahkan angka perbandingan pada pembilang."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B=(3+2)/(3−2)·10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B=5/1·10=50$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jumlah buku Ani dan Budi adalah 50. Pembilang mewakili seluruh bagian, sedangkan penyebut mewakili selisih bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus selisih berlaku jika kedua angka perbandingan berbeda. Jika angkanya sama, kedua jumlah juga sama sehingga selisihnya nol. Selisih nol saja belum dapat menentukan besar masing-masing jumlah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cara Memilih dan Menggunakan Rumus",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara Memilih dan Menggunakan Rumus",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Baca terlebih dahulu apa yang diketahui. “Jumlah keduanya” berarti gabungan dua nilai. “Selisih keduanya” berarti perbedaan dua nilai. Setelah itu, tentukan apakah yang diminta nilai A, nilai B, atau jumlah keduanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Susunan perhitungannya dapat diingat melalui bentuk berikut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(perbandingan yang ditanyakan)/(perbandingan yang diketahui)·nilai yang diketahui$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mencari buku Budi dari total 50 buku pada perbandingan tiga berbanding dua, perbandingan yang ditanyakan adalah 2. Perbandingan yang mewakili total adalah 5. Dengan demikian, perhitungannya menjadi berikut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=2/5·50=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan yang ditanyakan adalah angka atau gabungan angka milik nilai yang dicari. Perbandingan yang diketahui adalah angka, gabungan angka, atau selisih angka yang mewakili informasi dalam soal. Kedua bagian pecahan harus merujuk pada kelompok yang tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah memilih rumus, masukkan angka sesuai posisinya, hitung jumlah atau selisih dalam pecahan, lalu lakukan perkalian. Pecahan boleh disederhanakan terlebih dahulu dengan membagi pembilang dan penyebut oleh faktor yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan hasil mengikuti informasi awal. Jika total diketahui, jumlahkan hasil kedua nilai. Jika selisih diketahui, kurangkan hasil yang lebih besar dengan yang lebih kecil. Urutan nilai juga harus sesuai dengan urutan nama pada perbandingan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pengembangan pada Rasio Tiga Nilai",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengembangan pada Rasio Tiga Nilai",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus yang sama dapat digunakan ketika ada tiga nilai. Pasangkan setiap nama dengan angka perbandingannya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A:B:C=a:b:c$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika yang diketahui hanya jumlah A dan B, bagian yang mewakili informasi itu adalah jumlah a dan b. Untuk mencari jumlah ketiga nilai, gunakan jumlah a, b, dan c sebagai pembilang."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=(a+b+c)/(a+b)·(A+B)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan jika jumlah A dan B diketahui"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan buku Ani, Budi, dan Citra adalah dua berbanding tiga berbanding lima. Jumlah buku Ani dan Budi adalah 25. Untuk mencari jumlah buku ketiganya, gunakan seluruh angka perbandingan di atas pecahan dan gabungan Ani serta Budi di bawah pecahan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=(2+3+5)/(2+3)·25$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=10/5·25=50$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jumlah buku ketiganya adalah 50. Penyebutnya memakai bagian Ani dan Budi karena angka 25 hanya menyatakan gabungan buku keduanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika yang diketahui jumlah A dan C, gunakan jumlah a dan c sebagai penyebut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=(a+b+c)/(a+c)·(A+C)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan jika jumlah A dan C diketahui"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan buku Ani, Budi, dan Citra adalah dua berbanding tiga berbanding lima. Jika jumlah buku Ani dan Citra adalah 35, penyebut pecahan harus memakai angka 2 dan 5."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=(2+3+5)/(2+5)·35$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=10/7·35=50$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jumlah buku ketiganya adalah 50. Angka 35 mewakili gabungan Ani dan Citra, sehingga penyebutnya berjumlah tujuh bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyebut harus mengikuti kelompok yang jumlahnya diketahui. Gabungan dua kelompok digunakan sebagai penyebut ketika informasi yang tersedia memang hanya jumlah kedua kelompok tersebut. Angka kelompok lain ikut ditambahkan saat menghitung jumlah keseluruhan yang ditanyakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan boleh disederhanakan dengan membagi semua angkanya oleh faktor pembagi yang sama. Penyederhanaan diterapkan pada seluruh angka sekaligus. Gunakan satu bentuk perbandingan secara konsisten dalam satu perhitungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk benda yang dihitung satu per satu, seperti permen, kelereng, dan orang, jumlah akhirnya harus berupa bilangan bulat. Jika hasilnya tidak bulat, periksa kembali urutan angka, kelompok yang diketahui, dan perhitungannya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dilakukan suatu perlombaan antara tim A dan tim B untuk berjualan. Perbandingan uang yang terkumpul oleh tim A : tim B adalah 2:5. Jumlah uang kedua tim adalah Rp. 259.000,-. Tentukan berapa besar uang yang masing-masing mereka kumpulkan!"
+            }
+          ],
+          "opsi": {
+            "A": "Rp. 74.000,- dan Rp. 185.000,-",
+            "B": "Rp. 86.000,- dan Rp. 178.000,-",
+            "C": "Rp. 75.000,- dan Rp. 185.000,-",
+            "D": "Rp. 68.000,- dan Rp. 169.000,-",
+            "E": "Rp. 82.000,- dan Rp. 194.000,-"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan tim A dan tim B adalah dua berbanding lima. Yang diketahui adalah jumlah uang keduanya, yaitu Rp259.000. Karena nilai masing-masing tim yang ditanyakan, gunakan rumus mencari A dan B dari jumlah keduanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk tim A, tulis rumusnya terlebih dahulu."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A=a/(a+b)·(A+B)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan angka perbandingan tim A di atas pecahan, jumlah perbandingan kedua tim di bawah pecahan, dan total uang sebagai pengalinya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A=2/(2+5)·259.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A=2/7·259.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A=74.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk tim B, pembilangnya diganti dengan angka perbandingan tim B. Penyebut dan total uangnya tetap sama."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=b/(a+b)·(A+B)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=5/(2+5)·259.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=5/7·259.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$B=185.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa total uang kedua tim."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$74.000+185.000=259.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, uang tim A adalah Rp74.000 dan uang tim B adalah Rp185.000. Jawaban A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan permen Ahmad, Eko, dan Uya adalah 6 : 4 : 2. Sementara jumlah permen Ahmad dan Eko adalah 55. Jumlah permen tiga orang tersebut adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "66",
+            "B": "75",
+            "C": "80",
+            "D": "105",
+            "E": "115"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah yang diketahui hanya permen Ahmad dan Eko, yaitu 55. Angka perbandingan yang mewakili gabungan keduanya adalah 6 dan 4. Yang ditanyakan adalah jumlah permen ketiganya, sehingga pembilang mencakup 6, 4, dan 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan A menyatakan jumlah permen Ahmad, B jumlah permen Eko, dan C jumlah permen Uya. Mulai dari rumus jumlah tiga nilai ketika jumlah A dan B diketahui."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=(a+b+c)/(a+b)·(A+B)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan perbandingan ketiga orang dan jumlah permen Ahmad serta Eko."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=(6+4+2)/(6+4)·55$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung jumlah angka di atas dan di bawah pecahan, kemudian sederhanakan pecahannya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=12/10·55$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=6/5·55$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=6·11=66$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyebutnya hanya memuat Ahmad dan Eko karena jumlah 55 merujuk pada keduanya. Jadi, jumlah permen tiga orang tersebut adalah 66. Jawaban A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan kelereng Afif, Haris, dan Ilhan adalah 3 : 7 : 9. Jika jumlah kelereng Afif dan Ilhan adalah 96 butir, maka jumlah kelereng ketiganya adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "135 butir",
+            "B": "152 butir",
+            "C": "160 butir",
+            "D": "240 butir",
+            "E": "285 butir"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah 96 butir merupakan gabungan kelereng Afif dan Ilhan. Angka perbandingan kedua nama itu adalah 3 dan 9. Untuk mencari jumlah kelereng ketiganya, pembilang memuat seluruh angka perbandingan, yaitu 3, 7, dan 9."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan A menyatakan jumlah kelereng Afif, B jumlah kelereng Haris, dan C jumlah kelereng Ilhan. Gunakan rumus jumlah tiga nilai ketika jumlah A dan C diketahui."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=(a+b+c)/(a+c)·(A+C)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan angka sesuai kelompoknya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=(3+7+9)/(3+9)·96$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlahkan angka di dalam pecahan. Setelah itu, bagi 96 dengan 12 dan kalikan hasilnya dengan 19."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=19/12·96$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=19·8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A+B+C=152$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jumlah kelereng ketiganya adalah 152 butir. Jawaban B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "PT Cerebrum memiliki perbandingan karyawan perempuan dan laki-laki sebesar 3 : 5. Jika selisih laki-laki dan perempuan adalah 30, maka jumlah laki-laki dan perempuan di Cerebrum adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "80 orang",
+            "B": "95 orang",
+            "C": "110 orang",
+            "D": "112 orang",
+            "E": "120 orang"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan perempuan dan laki-laki adalah tiga berbanding lima. Yang diketahui adalah selisih kedua jumlah, yaitu 30 orang. Laki-laki memiliki angka perbandingan lebih besar, sehingga selisih perbandingannya dihitung dari 5 dikurangi 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan P menyatakan jumlah perempuan dan L jumlah laki-laki. Untuk mencari jumlah keduanya, gunakan jumlah perbandingan di atas pecahan dan besar selisih perbandingan di bawah pecahan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P+L=(3+5)/(5−3)·30$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung jumlah dan selisih di dalam pecahan, lalu kalikan dengan 30."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P+L=8/2·30$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P+L=4·30=120$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil dapat diperiksa melalui jumlah masing-masing kelompok."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P=3/(5−3)·30=45$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L=5/(5−3)·30=75$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$75−45=30$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih hasilnya tepat 30 orang. Jadi, jumlah laki-laki dan perempuan di Cerebrum adalah 120 orang. Jawaban E."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Rasio",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus Mencari A",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus Mencari B",
+        "teks": ""
+      },
+      {
+        "judul": "Cara Memilih dan Menggunakan Rumus",
+        "teks": ""
+      },
+      {
+        "judul": "Pengembangan pada Rasio Tiga Nilai",
+        "teks": ""
+      }
+    ],
+    "pesan": "Perhitungan rasio dimulai dengan menentukan nilai yang diketahui dan nilai yang ditanyakan. Untuk mencari A, gunakan angka perbandingan a sebagai pembilang. Untuk mencari B, gunakan angka b. Penyebutnya mengikuti informasi yang diketahui, yaitu jumlah atau besar selisih angka perbandingan. Setelah memilih rumus, masukkan angka secara berurutan dan periksa hasilnya. Ketelitian membaca informasi membantu memilih perhitungan yang tepat. Periksa apakah suatu gabungan mencakup semua kelompok atau hanya kelompok tertentu. Setelah memperoleh hasil, kembalikan ke rasio, jumlah, atau selisih awal untuk memastikan jawabannya sesuai."
+  }
+}

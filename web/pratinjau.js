@@ -31,6 +31,7 @@
         s.style.color = "#" + r.c;
         if (r.b || /bold/i.test(r.f || "")) s.style.fontWeight = "700";
         s.style.fontFamily = r.f === "Cambria Math" ? RUMUS : "'Poppins', sans-serif";
+        if (r.v) { s.style.verticalAlign = r.v; s.style.fontSize = `${r.pt * PT * 0.67}px`; s.style.lineHeight = "0"; }
         el.appendChild(s);
       }
       if (!p.r.length) el.innerHTML = "&nbsp;";

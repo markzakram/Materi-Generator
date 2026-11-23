@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Tabel Pernyataan – Kombinasi Pernyataan",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Pernyataan",
+    "sumber": "https://docs.google.com/document/d/1HUhZxLVGXEWNXVBLXgRZ8YDZxV9Rb47eO4A3aZbRhcE/edit",
+    "bagian": "soal",
+    "id_katalog": "dd-02-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Daftar harga di sebuah toko alat tulis:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Barang",
+                "Harga satuan"
+              ],
+              "baris": [
+                [
+                  "Pulpen",
+                  "Rp5.000"
+                ],
+                [
+                  "Buku tulis",
+                  "Rp8.000"
+                ],
+                [
+                  "Pensil",
+                  "Rp3.000"
+                ],
+                [
+                  "Penghapus",
+                  "Rp2.000"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Rani membeli 2 pulpen dan 1 buku tulis seharga Rp18.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Sinta membeli 3 pensil dan 2 penghapus seharga Rp12.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Doni membeli 1 buku tulis, 1 pensil, dan 1 penghapus seharga Rp13.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Eka membeli 4 pulpen seharga Rp19.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kombinasi pernyataan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "1 dan 2",
+            "B": "1 dan 3",
+            "C": "2 dan 4",
+            "D": "1, 2, dan 3",
+            "E": "1, 2, 3, dan 4"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Hitung biaya 2 pulpen dan 1 buku tulis."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=2×5.000+8.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=18.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (1) benar karena totalnya Rp18.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Hitung biaya 3 pensil dan 2 penghapus."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=3×3.000+2×2.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=13.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (2) salah. Totalnya Rp13.000, bukan Rp12.000. Opsi A, C, D, dan E gugur karena memuat nomor 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Hitung biaya 1 buku tulis, 1 pensil, dan 1 penghapus."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=8.000+3.000+2.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=13.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (3) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Hitung biaya 4 pulpen."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=4×5.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=20.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (4) salah. Totalnya Rp20.000, bukan Rp19.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang benar adalah (1) dan (3). Opsi B memuat tepat kedua nomor tersebut. Jadi, jawabannya B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah buku yang dipinjam di sebuah perpustakaan selama tiga bulan:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis buku",
+                "Januari",
+                "Februari",
+                "Maret"
+              ],
+              "baris": [
+                [
+                  "Cerita",
+                  "20",
+                  "24",
+                  "26"
+                ],
+                [
+                  "Pengetahuan",
+                  "15",
+                  "18",
+                  "22"
+                ],
+                [
+                  "Sejarah",
+                  "10",
+                  "16",
+                  "14"
+                ],
+                [
+                  "Keterampilan",
+                  "12",
+                  "14",
+                  "18"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Buku cerita paling banyak dipinjam pada Maret."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Total peminjaman buku pengetahuan selama tiga bulan adalah 55 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Total peminjaman seluruh jenis buku pada Maret adalah 80 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Total peminjaman seluruh jenis buku pada Februari adalah 74 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kombinasi pernyataan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "1 dan 4",
+            "B": "2 dan 3",
+            "C": "1, 3, dan 4",
+            "D": "2, 3, dan 4",
+            "E": "1, 2, dan 3"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pada baris Cerita, jumlah peminjaman Januari 20 buku, Februari 24 buku, dan Maret 26 buku. Jumlah terbesar adalah 26 buku pada Maret. Pernyataan (1) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Jumlahkan tiga nilai pada baris Pengetahuan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total=15+18+22$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=55$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (2) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Jumlahkan seluruh nilai pada kolom Maret."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total=26+22+14+18$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=80$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (3) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Jumlahkan seluruh nilai pada kolom Februari."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total=24+18+16+14$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=72$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (4) salah karena totalnya 72 buku, bukan 74 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang benar adalah (1), (2), dan (3). A, C, dan D memuat nomor 4 yang salah. B melewatkan nomor 1 yang benar. Jadi, jawabannya E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah paket yang disiapkan tiga kelompok selama dua pekan:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kelompok",
+                "Pekan I (paket)",
+                "Pekan II (paket)"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "80",
+                  "100"
+                ],
+                [
+                  "B",
+                  "120",
+                  "144"
+                ],
+                [
+                  "C",
+                  "100",
+                  "125"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Jumlah paket kelompok A meningkat 25% dari Pekan I ke Pekan II."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Jumlah paket kelompok B meningkat 25% dari Pekan I ke Pekan II."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Kelompok C menyiapkan 25 paket lebih banyak pada Pekan II daripada Pekan I."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Total paket ketiga kelompok pada Pekan II adalah 369 paket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kombinasi pernyataan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "1 dan 4",
+            "B": "2 dan 3",
+            "C": "1, 3, dan 4",
+            "D": "2, 3, dan 4",
+            "E": "1, 2, dan 3"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Persentase kenaikan kelompok A dihitung terhadap jumlah pada Pekan I."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persentase kenaikan=(nilai akhir−nilai awal)/(nilai awal)×100%$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(100−80)/80×100%$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=25%$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (1) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Gunakan jumlah awal kelompok B sebagai pembagi."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persentase kenaikan=(144−120)/120×100%$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=20%$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (2) salah. Kenaikannya 20%, bukan 25%. Opsi B, D, dan E gugur karena memuat nomor 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Pernyataan ini menanyakan kenaikan jumlah paket, bukan persentasenya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kenaikan=125−100$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=25$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (3) benar. Opsi A belum lengkap karena tidak memuat nomor 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Jumlahkan nilai ketiga kelompok pada Pekan II."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total=100+144+125$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=369$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (4) benar. Seluruh nomor yang benar adalah (1), (3), dan (4). Jadi, jawabannya C."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

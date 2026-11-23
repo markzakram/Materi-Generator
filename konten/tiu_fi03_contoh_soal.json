@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Figural Ketidaksamaan",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Figural - Figural Ketidaksamaan",
+    "sumber": "https://drive.google.com/file/d/12IqYdT9UfrE5iCz4x__pumrKRIr21S-F/view",
+    "id_katalog": "fi-03-soal",
+    "lewati_kosong": true,
+    "bagian": "soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 5
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1",
+          "opsi": {},
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: C**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap gambar hasil rotasi (perputaran) dari gambar lainnya, kecuali gambar (C)."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "gambar (A): anggap sebagai acuan",
+                "gambar (B): hasil rotasi gambar (A) sejauh 90° searah jarum jam",
+                "gambar (C): hasil pencerminan gambar (A) terhadap sumbu horizontal",
+                "gambar (D): hasil rotasi gambar (A) sejauh 135° berlawanan arah jarum jam",
+                "gambar (E): hasil rotasi gambar (A) sejauh 45° searah jarum jam"
+              ]
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang berbeda dari gambar yang disajikan berikut!"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi03_contoh_soal/gambar-01.png",
+              "lebar": 10.92,
+              "tinggi": 2.5
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2",
+          "opsi": {},
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: C**"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi03_contoh_soal/gambar-03.png",
+              "lebar": 8.83,
+              "tinggi": 5.99
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang berbeda dari gambar yang disajikan berikut!"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi03_contoh_soal/gambar-02.png",
+              "lebar": 11.52,
+              "tinggi": 1.97
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 3",
+          "opsi": {},
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: C**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A, B, D, E : titik hitam ada di dalam persegi panjang tetapi di luar segitiga"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C : titik hitam ada di dalam persegi panjang sekaligus di dalam segitiga"
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang berbeda dari gambar yang disajikan berikut!"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi03_contoh_soal/gambar-04.png",
+              "lebar": 10.63,
+              "tinggi": 2.35
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 4",
+          "opsi": {},
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: A**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah objek lingkaran dan bintang selalu sama, kecuali pada gambar di opsi A bintang dua dan lingkarannya satu."
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang berbeda dari gambar yang disajikan berikut!"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi03_contoh_soal/gambar-05.png",
+              "lebar": 11.26,
+              "tinggi": 2.34
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 5",
+          "opsi": {},
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "kunci",
+              "teks": "**Kunci jawaban: D**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua gambar memiliki 4 elemen bertumpuk dan memiliki warna hitam dan putih berselang-seling, kecuali pilihan D yang memiliki 5 elemen bertumpuk."
+            }
+          ],
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan gambar yang berbeda dari gambar yang disajikan berikut!"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi03_contoh_soal/gambar-06.png",
+              "lebar": 11.23,
+              "tinggi": 2.11
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

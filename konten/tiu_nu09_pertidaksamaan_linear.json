@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "judul": "Pertidaksamaan Linear",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Pertidaksamaan Linear",
+    "sumber": "https://docs.google.com/document/d/1VKNdPKAuSZKNT7Tl99XdVS_V29YR_K6_A2K5ZOf_a9k/edit",
+    "subjudul": "Aljabar",
+    "id_katalog": "nu-09"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pertidaksamaan menyatakan hubungan lebih kecil atau lebih besar antara dua ruas. Dalam pertidaksamaan linear, nilai variabel yang memenuhi bisa lebih dari satu. Kita akan belajar menemukan himpunan solusi dan menampilkannya dengan notasi interval serta garis bilangan.",
+      "Cara menyelesaikannya mirip dengan persamaan. Kita melakukan operasi pada kedua ruas hingga variabel berdiri sendiri. Perbedaan yang perlu diperhatikan adalah arah tanda saat kedua ruas dikali atau dibagi bilangan negatif."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membaca",
+        "teks": "tanda kurang dari, lebih dari, kurang dari atau sama dengan, dan lebih dari atau sama dengan."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "pertidaksamaan linear satu variabel dan menentukan kapan tanda harus dibalik."
+      },
+      {
+        "level": "",
+        "kko": "Menunjukkan",
+        "teks": "himpunan penyelesaian pada garis bilangan dengan titik batas dan arah yang tepat."
+      },
+      {
+        "level": "",
+        "kko": "Menyatakan",
+        "teks": "himpunan penyelesaian dalam notasi interval dan memeriksa apakah angka batas termasuk."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Mengenali pertidaksamaan linear",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengenali pertidaksamaan linear",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertidaksamaan membandingkan nilai dua ruas. Pada pertidaksamaan linear satu variabel, hanya ada satu variabel, dan setiap suku yang memuat variabel itu berbentuk bilangan dikali variabel berpangkat satu. Bentuk seperti x kuadrat tidak termasuk. Contoh berikut menyatakan bahwa dua kali x ditambah satu harus lebih kecil dari tujuh."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x + 1 < 7$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai x yang membuat kalimat matematika itu benar disebut penyelesaian. Nilai 2 memenuhi karena ruas kiri bernilai 5. Nilai 3 tidak memenuhi karena ruas kiri bernilai 7, sedangkan syaratnya kurang dari 7."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk umum pertidaksamaan linear"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu variabel. Suku yang memuat x berada di satu ruas bersama konstanta. Setelah disederhanakan, koefisien x bukan nol."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$ax + b □ 0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua variabel. Bentuk umumnya memuat x dan y berpangkat satu. Koefisien x dan y tidak boleh keduanya nol."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$ax + by + c □ 0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada dua bentuk umum di atas, kotak □ diganti dengan salah satu dari <, >, ≤, atau ≥."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyelesaian pertidaksamaan dua variabel berupa pasangan nilai. Misalnya, pada batas dua kali x ditambah y paling banyak 6, pasangan x bernilai 1 dan y bernilai 4 memenuhi karena hasilnya tepat 6. Pasangan x bernilai 2 dan y bernilai 4 tidak memenuhi karena hasilnya 8."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca tanda dan menggambar batas",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca tanda dan menggambar batas",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda < berarti kurang dari, dan > berarti lebih dari. Garis tambahan pada ≤ dan ≥ berarti nilai batas juga boleh sama dengan angka yang tertulis. Ungkapan «paling banyak» berarti ≤, sedangkan «paling sedikit» berarti ≥."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu09_pertidaksamaan_linear/gambar-01.png",
+              "lebar": 5.92,
+              "tinggi": 2.53
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Titik kosong berarti batas tidak termasuk. Titik penuh berarti batas termasuk. Garis berwarna ke kiri menunjukkan nilai yang lebih kecil, dan garis ke kanan menunjukkan nilai yang lebih besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka bulat pada garis bilangan adalah penanda jarak. Jika variabel bernilai real, pecahan dan desimal yang berada pada bagian berwarna juga menjadi solusi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Operasi pada kedua ruas",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Operasi pada kedua ruas",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penjumlahan dan pengurangan dengan bilangan yang sama pada kedua ruas tidak mengubah arah tanda. Mengalikan atau membagi kedua ruas dengan bilangan positif juga tidak mengubah arahnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Balik arah tanda saat mengalikan atau membagi kedua ruas dengan bilangan negatif. Tanda < berubah menjadi >, tanda ≤ berubah menjadi ≥, dan sebaliknya. Pembagian dengan nol tidak terdefinisi."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu09_pertidaksamaan_linear/gambar-02.png",
+              "lebar": 5.92,
+              "tinggi": 1.79
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulanya 2 berada di kiri 4. Setelah keduanya dikali negatif satu, −2 berada di kanan −4. Karena urutannya bertukar, arah tanda juga harus dibalik."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2 < 4; −2 > −4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan membalik tanda hanya karena ada bilangan negatif di soal. Pada pertidaksamaan dengan x ditambah sebuah bilangan negatif, kita dapat menambah bilangan yang sama pada kedua ruas dan arah tanda tetap. Jika variabel ada di kedua ruas, kumpulkan suku berhuruf pada satu ruas dan konstanta pada ruas lain. Baru periksa tanda pengali atau pembagi yang digunakan untuk membuat variabel berdiri sendiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika variabel habis saat disederhanakan, baca kalimat yang tersisa. Pernyataan yang selalu benar berarti seluruh nilai yang diperbolehkan memenuhi pertidaksamaan. Pernyataan yang salah berarti tidak ada nilai yang memenuhi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menulis himpunan penyelesaian dan notasi interval",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menulis himpunan penyelesaian dan notasi interval",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Himpunan penyelesaian adalah kumpulan semua nilai yang memenuhi pertidaksamaan. Untuk bilangan real, kumpulan itu bisa ditulis dalam notasi interval. Kurung siku berarti batas termasuk. Kurung biasa berarti batas tidak termasuk. Lambang ∞ dan −∞ selalu memakai kurung biasa karena keduanya menunjukkan arah tanpa batas."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu09_pertidaksamaan_linear/gambar-03.png",
+              "lebar": 6.08,
+              "tinggi": 3.43
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika solusi berada di antara dua batas, lihat kedua ujungnya secara terpisah. Batas kiri dan kanan dapat sama-sama termasuk, sama-sama tidak termasuk, atau hanya salah satunya termasuk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca interval dari nilai kecil ke nilai besar. Untuk nilai yang kurang dari 3, tuliskan dari negatif tak hingga sampai 3 dengan kurung biasa di kedua ujung. Jika nilai 3 ikut menjadi solusi, ganti kurung di sisi 3 dengan kurung siku."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan himpunan penyelesaian dari:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3x − 7 ≤ 11$"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tambahkan 7 pada kedua ruas, lalu bagi dengan 3. Karena pembaginya positif, tanda ≤ tidak berubah."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3x ≤ 18$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x ≤ 6$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua bilangan real yang kurang dari atau sama dengan 6 memenuhi. Angka 6 termasuk. Pada garis bilangan, gunakan titik penuh di 6 dan arah ke kiri."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(−∞, 6]$"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan himpunan penyelesaian dari:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$−2x + 4 > 10$"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangi kedua ruas dengan 4. Setelah itu, bagi kedua ruas dengan −2. Pembagian dengan bilangan negatif mengubah tanda > menjadi <."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$−2x > 6$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x < −3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka −3 tidak ikut karena membuat kedua ruas sama dengan 10. Gunakan titik kosong di −3 dan arah ke kiri."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(−∞, −3)$"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan himpunan penyelesaian dari:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3(2t − 1) − 4 ≤ 2(t + 5)$"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kalikan angka di luar kurung dengan setiap suku di dalamnya. Setelah itu, gabungkan konstanta di ruas kiri."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6t − 3 − 4 ≤ 2t + 10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6t − 7 ≤ 2t + 10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangi kedua ruas dengan 2t, lalu tambahkan 7 pada kedua ruas. Bagi hasilnya dengan 4. Tanda ≤ tetap karena 4 positif."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4t ≤ 17$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$t ≤ 17/4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Batasnya 17 per 4 dan nilai itu ikut memenuhi. Semua solusi berada di sebelah kiri batas, termasuk batasnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(−∞, 17/4]$"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Mengenali pertidaksamaan linear",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca tanda dan menggambar batas",
+        "teks": ""
+      },
+      {
+        "judul": "Operasi pada kedua ruas",
+        "teks": ""
+      },
+      {
+        "judul": "Menulis himpunan penyelesaian dan notasi interval",
+        "teks": ""
+      }
+    ],
+    "pesan": "Baca dulu arti tandanya. Lakukan operasi yang sama pada kedua ruas, dan balik tanda hanya saat keduanya dikali atau dibagi bilangan negatif. Saat menggambar solusi, periksa apakah angka batas termasuk dan ke arah mana solusi berlanjut. Untuk memeriksa hasil, uji angka batas serta satu nilai di kiri dan kanannya pada pertidaksamaan awal. Cek apakah tanda dan notasi interval menggambarkan himpunan yang sama."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "judul": "Figural Analogi",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Figural - Figural Analogi",
+    "sumber": "https://drive.google.com/file/d/1NyP1vDYTRt78YbB404ImBCzYRg9A3Sl5/view",
+    "id_katalog": "fi-02",
+    "lewati_kosong": true
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 5
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Metode Pengerjaan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Metode Pengerjaan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mengidentifikasi perubahan dari Gambar A ke Gambar B, lalu menerapkan pola yang sama dari Gambar C ke Gambar D."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_fi02_figural_analogi/gambar-01.png",
+              "lebar": 14.28,
+              "tinggi": 3.71
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

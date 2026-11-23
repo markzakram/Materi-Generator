@@ -1,0 +1,741 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Tabel Pernyataan – Kombinasi Optimal",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Data & Deret - Tabel Pernyataan - Kombinasi Optimal",
+    "sumber": "https://docs.google.com/document/d/1sI8IiSUjPMx2lqAO3KHtoy7Oim6Q-fPkzoFbnHkV_cM/edit",
+    "bagian": "soal",
+    "id_katalog": "dd-03-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah panitia akan mengangkut 40 peserta dalam satu perjalanan. Tersedia masing-masing satu kendaraan dari tiga jenis berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis kendaraan",
+                "Kapasitas"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "12 orang"
+                ],
+                [
+                  "B",
+                  "20 orang"
+                ],
+                [
+                  "C",
+                  "28 orang"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Dengan ketentuan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Seluruh peserta harus memperoleh tempat duduk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Jumlah kursi kosong dari seluruh kendaraan yang digunakan paling banyak 4 kursi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kombinasi kendaraan yang memenuhi ketentuan tersebut adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "1 kendaraan A dan 1 kendaraan B",
+            "B": "1 kendaraan A dan 1 kendaraan C",
+            "C": "1 kendaraan B dan 1 kendaraan C",
+            "D": "1 kendaraan A, 1 kendaraan B, dan 1 kendaraan C",
+            "E": "1 kendaraan C"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kebutuhannya 40 kursi. Karena kursi kosong paling banyak 4, kapasitas total yang diperbolehkan adalah 40 sampai 44 kursi. Setiap jenis tersedia hanya satu kendaraan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 1 kendaraan A dan 1 kendaraan B"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=12+20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=32$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kapasitas 32 kursi kurang dari 40. Opsi A tidak memenuhi ketentuan (1)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 1 kendaraan A dan 1 kendaraan C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=12+28$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kursi kosong=40−40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seluruh peserta mendapat kursi dan tidak ada kursi kosong. Opsi B memenuhi kedua ketentuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 1 kendaraan B dan 1 kendaraan C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=20+28$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=48$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kursi kosong=48−40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kursi kosong 8 melebihi batas 4. Opsi C tidak memenuhi ketentuan (2)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 1 kendaraan A, 1 kendaraan B, dan 1 kendaraan C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=12+20+28$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=60$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kursi kosong=60−40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=20$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kursi kosong 20 melebihi batas 4. Opsi D tidak memenuhi ketentuan (2)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 1 kendaraan C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=28$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kapasitas 28 kursi kurang dari 40. Opsi E tidak memenuhi ketentuan (1)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan persediaan satu unit tiap jenis, kombinasi lain yang belum tercantum hanya satu kendaraan A, satu kendaraan B, atau tidak memakai kendaraan. Semuanya berkapasitas kurang dari 40. Jadi, hanya 1 kendaraan A dan 1 kendaraan C yang memenuhi seluruh ketentuan. Jawabannya B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Panitia menyewa bus untuk mengangkut peserta kegiatan dalam satu perjalanan. Biaya pada tabel berlaku untuk satu bus dan tidak ada biaya tambahan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bus",
+                "Kapasitas",
+                "Biaya"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "12 orang",
+                  "Rp500.000"
+                ],
+                [
+                  "B",
+                  "20 orang",
+                  "Rp700.000"
+                ],
+                [
+                  "C",
+                  "28 orang",
+                  "Rp1.100.000"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Peserta berjumlah 60 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Semua peserta harus memperoleh tempat duduk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Setiap jenis bus dapat disewa lebih dari satu unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Panitia ingin biaya total paling rendah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kombinasi bus yang paling hemat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "5 bus A",
+            "B": "1 bus A, 1 bus B, dan 1 bus C",
+            "C": "2 bus A dan 2 bus B",
+            "D": "3 bus B",
+            "E": "1 bus A dan 2 bus C"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kapasitas harus cukup untuk 60 peserta. Setelah itu, bandingkan biaya total. Kelebihan kursi diperbolehkan karena tidak ada batas kursi kosong."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 5 bus A"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=5×12$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=60$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=5×500.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=2.500.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 1 bus A, 1 bus B, dan 1 bus C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=12+20+28$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=60$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=500.000+700.000+1.100.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=2.300.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 2 bus A dan 2 bus B"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=2×12+2×20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=64$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=2×500.000+2×700.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=2.400.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 3 bus B"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=3×20$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=60$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=3×700.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=2.100.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 1 bus A dan 2 bus C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=12+2×28$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=68$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=500.000+2×1.100.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=2.700.000$"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Opsi",
+                "Kapasitas",
+                "Biaya total",
+                "Hasil"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "60 kursi",
+                  "Rp2.500.000",
+                  "Cukup; lebih mahal."
+                ],
+                [
+                  "B",
+                  "60 kursi",
+                  "Rp2.300.000",
+                  "Cukup; lebih mahal."
+                ],
+                [
+                  "C",
+                  "64 kursi",
+                  "Rp2.400.000",
+                  "Cukup; lebih mahal."
+                ],
+                [
+                  "D",
+                  "60 kursi",
+                  "Rp2.100.000",
+                  "Paling hemat."
+                ],
+                [
+                  "E",
+                  "68 kursi",
+                  "Rp2.700.000",
+                  "Cukup; lebih mahal."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua opsi cukup kapasitasnya. Opsi D memiliki biaya paling rendah. Untuk memastikan tidak ada kombinasi lain yang lebih murah, kelompokkan kemungkinan berdasarkan jumlah bus C."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bus C",
+                "Pilihan termurah yang cukup",
+                "Biaya total"
+              ],
+              "baris": [
+                [
+                  "0",
+                  "3 bus B",
+                  "Rp2.100.000"
+                ],
+                [
+                  "1",
+                  "1 bus A, 1 bus B, 1 bus C",
+                  "Rp2.300.000"
+                ],
+                [
+                  "2",
+                  "1 bus A dan 2 bus C",
+                  "Rp2.700.000"
+                ],
+                [
+                  "3 atau lebih",
+                  "Biaya bus C saja sudah besar",
+                  "Minimal Rp3.300.000"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanpa bus C, tiga bus B sudah memenuhi 60 kursi. Jika hanya memakai dua bus B, masih kurang 20 kursi sehingga perlu dua bus A; biayanya lebih besar. Jika hanya satu bus B, perlu empat bus A; tanpa bus B, perlu lima bus A. Dengan satu bus C, masih dibutuhkan 32 kursi; tambahan termurah adalah satu bus A dan satu bus B. Dengan dua bus C, masih dibutuhkan 4 kursi; tambahan termurah adalah satu bus A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Biaya paling rendah dari seluruh kelompok adalah Rp2.100.000 untuk 3 bus B. Jadi, jawabannya D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah gudang membeli wadah untuk menyimpan barang. Kapasitas setiap wadah dapat dijumlahkan. Harga pada tabel adalah harga satu wadah dan tidak ada biaya tambahan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Wadah",
+                "Kapasitas",
+                "Harga"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "10 kg",
+                  "Rp80.000"
+                ],
+                [
+                  "B",
+                  "16 kg",
+                  "Rp110.000"
+                ],
+                [
+                  "C",
+                  "22 kg",
+                  "Rp170.000"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Dengan ketentuan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Masing-masing jenis wadah tersedia paling banyak 2 buah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Anggaran pembelian paling banyak Rp300.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Kapasitas total wadah yang dibeli harus sebesar mungkin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kombinasi wadah dengan kapasitas terbesar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "2 wadah A dan 1 wadah B",
+            "B": "1 wadah B dan 1 wadah C",
+            "C": "1 wadah A dan 2 wadah B",
+            "D": "2 wadah C",
+            "E": "2 wadah B"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tujuannya kapasitas terbesar, dengan biaya maksimal Rp300.000 dan persediaan maksimal dua wadah tiap jenis. Kapasitas yang besar tetap ditolak jika biayanya melebihi anggaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 2 wadah A dan 1 wadah B"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=2×10+16$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=36$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=2×80.000+110.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=270.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 1 wadah B dan 1 wadah C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=16+22$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=38$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=110.000+170.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=280.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 1 wadah A dan 2 wadah B"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=10+2×16$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=42$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=80.000+2×110.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=300.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 2 wadah C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=2×22$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=44$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=2×170.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=340.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 2 wadah B"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kapasitas=2×16$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=32$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya=2×110.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=220.000$"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Opsi",
+                "Kapasitas",
+                "Biaya total",
+                "Hasil"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "36 kg",
+                  "Rp270.000",
+                  "Memenuhi batas."
+                ],
+                [
+                  "B",
+                  "38 kg",
+                  "Rp280.000",
+                  "Memenuhi batas."
+                ],
+                [
+                  "C",
+                  "42 kg",
+                  "Rp300.000",
+                  "Terbesar yang memenuhi."
+                ],
+                [
+                  "D",
+                  "44 kg",
+                  "Rp340.000",
+                  "Melebihi anggaran."
+                ],
+                [
+                  "E",
+                  "32 kg",
+                  "Rp220.000",
+                  "Memenuhi batas."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi D mempunyai kapasitas lebih besar, tetapi biayanya melampaui anggaran. Dari pilihan yang memenuhi batas, opsi C memberi kapasitas terbesar. Periksa pula kemungkinan berdasarkan jumlah wadah C:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Wadah C",
+                "Kombinasi terbaik dalam anggaran",
+                "Kapasitas"
+              ],
+              "baris": [
+                [
+                  "0",
+                  "1 wadah A dan 2 wadah B",
+                  "42 kg"
+                ],
+                [
+                  "1",
+                  "1 wadah B dan 1 wadah C",
+                  "38 kg"
+                ],
+                [
+                  "2",
+                  "Tidak dapat dibeli dalam anggaran",
+                  "Tidak memenuhi"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanpa wadah C, dua wadah B menghabiskan Rp220.000 dan menyisakan Rp80.000, cukup untuk satu wadah A. Jika hanya membeli satu wadah B, kapasitas terbesar diperoleh dengan dua wadah A, yaitu 36 kg. Tanpa wadah B, dua wadah A hanya memberi 20 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan satu wadah C, sisa anggaran Rp130.000. Sisa ini cukup untuk satu wadah B atau satu wadah A, tetapi tidak cukup untuk dua wadah A. Tambahan kapasitas terbesar berasal dari satu wadah B. Dua wadah C sendiri sudah berharga Rp340.000, sehingga tidak dapat dipilih."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kapasitas terbesar yang memenuhi seluruh ketentuan adalah 42 kg, diperoleh dari 1 wadah A dan 2 wadah B. Jadi, jawabannya C."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

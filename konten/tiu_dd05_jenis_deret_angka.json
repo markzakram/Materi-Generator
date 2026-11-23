@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "judul": "Jenis Deret Angka",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Data & Deret - Jenis Deret Angka",
+    "sumber": "https://docs.google.com/document/d/13lb87So5Tn9w_nO_VxcZQZhYU9mCReB452KFhB8sDEs/edit",
+    "subjudul": "Deret Angka",
+    "id_katalog": "dd-05"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Deret angka adalah susunan bilangan yang mengikuti suatu aturan. Aturan itu dapat berupa penambahan tetap, perkalian, perubahan selisih, pengelompokan, penjumlahan dua bilangan sebelumnya, operasi gabungan, atau pembentukan bilangan berdasarkan posisinya. Mengenali jenis pola membantu kita memilih pemeriksaan yang sesuai sebelum menghitung bilangan yang hilang.",
+      "Satu bilangan disebut satu suku, sedangkan posisi menunjukkan letak suku tersebut dalam deret. Angka yang besar belum tentu menandakan pola yang rumit. Yang perlu diperiksa adalah hubungan antarsuku dan apakah aturan itu berlaku secara konsisten pada seluruh bagian yang tersedia."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pola beda, rasio, bertingkat, Hijab, Fibonacci, Campuran, dan Template."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "selisih, hasil bagi, kelompok, dan hubungan antarsuku dengan tepat."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "suku berikutnya atau suku rumpang berdasarkan aturan yang konsisten."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "kembali jawaban pada seluruh deret dan mengurutkan hasil sesuai posisi rumpang."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Barisan beda",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Barisan beda",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Barisan beda memiliki selisih yang tetap antara dua suku berurutan. Jika setiap suku bertambah dengan bilangan yang sama, deret bergerak naik. Jika setiap suku berkurang dengan bilangan yang sama, deret bergerak turun. Selisih diperiksa dengan mengurangkan suku berikutnya dengan suku sebelumnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2,4,6,8,...$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-01.png",
+              "lebar": 4.44,
+              "tinggi": 1.79
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap perpindahan pada contoh menambahkan dua. Karena aturan yang sama digunakan dari awal sampai akhir, suku setelah delapan juga diperoleh dengan menambahkan dua."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8+2=10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa lebih dari satu pasangan. Dua suku saja dapat sesuai dengan banyak aturan, sedangkan beberapa perpindahan yang sama memberi petunjuk lebih kuat. Untuk rumpang di tengah, jawaban harus cocok dengan suku di sebelah kiri dan kanan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Barisan rasio",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Barisan rasio",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Barisan rasio memakai faktor pengali yang tetap. Rasio berarti perbandingan nilai suku berikutnya terhadap suku sebelumnya. Cara memeriksanya adalah membagi suku berikutnya dengan suku sebelumnya, selama suku pembaginya bukan nol."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2,4,8,16,32,...$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-02.png",
+              "lebar": 5.0,
+              "tinggi": 1.53
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap suku merupakan dua kali suku sebelumnya. Selisihnya berubah, tetapi faktor pengalinya tetap dua. Karena itu, memeriksa perkalian lebih membantu daripada memaksakan selisih yang sama."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$32×2=64$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola pembagian tetap juga dapat dibaca sebagai rasio. Ketika mencari suku sebelum nilai yang diketahui, gunakan operasi kebalikannya. Jika aturan maju adalah kali dua, aturan mundurnya adalah bagi dua. Setelah dihitung, jalankan kembali aturan maju untuk memeriksa hasil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Barisan bertingkat",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Barisan bertingkat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada barisan bertingkat, selisih antarsuku belum tetap, tetapi daftar selisihnya mempunyai pola. Tulis dahulu selisih antara setiap dua suku berurutan. Jika daftar itu masih berubah, periksa hubungan antar-selisihnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$4,7,11,16,22,...$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-03.png",
+              "lebar": 5.0,
+              "tinggi": 2.15
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih pada contoh berturut-turut adalah tiga, empat, lima, dan enam. Selisih tersebut bertambah satu setiap langkah, sehingga selisih berikutnya adalah tujuh."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$22+7=29$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan yang ditambahkan adalah selisih berikutnya, bukan selisih terakhir yang sudah digunakan. Menambahkan enam lagi akan mengabaikan kenaikan selisih yang terlihat. Garis tingkat kedua pada gambar membantu menunjukkan bahwa selisihnya sendiri bertambah satu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Barisan Hijab (Pemisah atau Pembatas)",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Barisan Hijab (Pemisah atau Pembatas)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hijab adalah pemisah atau batas yang membantu membagi deret menjadi beberapa kelompok. Setelah kelompoknya terlihat, periksa peran setiap anggota: mana yang menjadi pembatas, mana yang membentuk hubungan di dalam kelompok, dan bagaimana kelompok berikutnya berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemisah tidak selalu berarti semua kemunculan angka tertentu harus dibuang. Letaknya harus teratur dan hubungan kelompoknya harus dapat diperiksa. Ada pemisah yang nilainya berubah, pemisah yang tetap, serta batas kelompok yang tidak ditulis sebagai angka khusus."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "a. Hijab Terlihat – Bergerak",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemisah muncul pada posisi yang teratur, tetapi nilainya berubah mengikuti aturan. Tandai letak pemisah lebih dahulu, lalu pisahkan aturan perubahan pemisah dari aturan anggota di antara dua pemisah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7,10,7,8,17,14,9,11,8,10$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-04.png",
+              "lebar": 5.97,
+              "tinggi": 1.92
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka yang diberi kotak adalah tujuh, delapan, sembilan, dan sepuluh. Letaknya berjarak tiga posisi dan nilainya bertambah satu. Di antara dua kotak, pasangan sepuluh dan tujuh, tujuh belas dan empat belas, serta sebelas dan delapan masing-masing berkurang tiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gambar ini memperlihatkan dua peran yang berbeda: pembatas bergerak dan pasangan anggota di dalam kelompok. Aturan kurang tiga menjelaskan anggota kedua dari suatu pasangan, tetapi belum menentukan nilai pertama pasangan berikutnya. Untuk meneruskan deret, aturan antarkelompok juga harus diketahui."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "b. Hijab Terlihat – Tidak Bergerak",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemisah tetap muncul berulang dengan nilai yang sama. Periksa posisinya sebelum mengelompokkan. Angka yang nilainya sama dengan pemisah masih mungkin menjadi anggota biasa jika letaknya berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2,2,3,2,5,6,2,10,11,2$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-05.png",
+              "lebar": 5.97,
+              "tinggi": 1.91
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kotak pada gambar menandai angka dua di posisi pertama, keempat, ketujuh, dan kesepuluh. Pasangan anggota di antaranya adalah dua dan tiga, lima dan enam, serta sepuluh dan sebelas. Dalam setiap pasangan, anggota kedua lebih besar satu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka dua pada posisi kedua merupakan anggota pasangan, bukan kotak pembatas. Jika semua angka dua langsung dihapus, kelompok pertama justru kehilangan anggotanya. Peran suatu suku ditentukan oleh posisi dan hubungannya, bukan hanya oleh nilainya."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "c. Hijab Tak Terlihat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada Hijab tak terlihat, batas kelompok tidak ditulis sebagai bilangan khusus. Batas baru ditandai ketika pola yang berulang di dalam kelompok sudah dikenali. Garis pada gambar membantu melihat kelompok tanpa mengubah urutan bilangan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3,4,7,10,11,14,6,7,10$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-06.png",
+              "lebar": 5.97,
+              "tinggi": 1.73
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Deret dibaca sebagai tiga kelompok: tiga, empat, tujuh; sepuluh, sebelas, empat belas; serta enam, tujuh, sepuluh. Di setiap kelompok, langkah pertama menambahkan satu dan langkah kedua menambahkan tiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan di dalam kelompok tidak otomatis menentukan nilai awal kelompok selanjutnya. Untuk soal yang meminta kelanjutan deret, periksa juga aturan perpindahan antarkelompok. Jangan memilih batas kelompok hanya karena cocok pada satu kelompok."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Barisan Fibonacci",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Barisan Fibonacci",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola Fibonacci, setiap suku mulai suku ketiga diperoleh dengan menjumlahkan dua suku tepat sebelumnya. Dua suku awal menjadi titik awal pola. Nilai awalnya tidak harus selalu satu dan satu; yang diperiksa adalah hubungan penjumlahan setelahnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1,1,2,3,5,8,13,21$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-07.png",
+              "lebar": 5.42,
+              "tinggi": 1.91
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap panah menunjukkan dua bilangan yang dijumlahkan untuk menghasilkan suku di atasnya. Misalnya, tiga belas berasal dari lima ditambah delapan, sedangkan dua puluh satu berasal dari delapan ditambah tiga belas."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5+8=13$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8+13=21$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika diminta dua suku berikutnya, hasil suku pertama dipakai untuk menghitung suku kedua. Jangan menghitung kedua rumpang dari pasangan awal yang sama. Untuk rumpang di tengah, pengurangan dapat dipakai untuk mencari salah satu bilangan sumber, lalu hasilnya diperiksa kembali dengan penjumlahan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Barisan Campuran",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Barisan Campuran",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Barisan Campuran menggunakan beberapa operasi dalam satu aturan perpindahan. Urutan operasi menjadi bagian dari pola. “Kali tiga lalu tambah satu” berbeda dari “tambah satu lalu kali tiga”. Periksa aturan lengkap, bukan salah satu operasinya saja."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2,7,22,...,202$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-08.png",
+              "lebar": 5.0,
+              "tinggi": 1.45
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aturannya adalah kali tiga lalu tambah satu. Terapkan kedua operasi pada dua puluh dua untuk menemukan rumpang, kemudian periksa apakah hasilnya menghasilkan dua ratus dua pada langkah berikutnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$22×3+1=67$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$67×3+1=202$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mencari suku sebelumnya, balik urutan operasinya. Aturan maju kali tiga lalu tambah satu dibalik menjadi kurang satu lalu bagi tiga. Pembalikan selalu dimulai dari operasi yang terakhir dikerjakan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Barisan Template",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Barisan Template",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada barisan Template, nilai suku dibentuk dari nomor posisinya. Nomor posisi pertama adalah satu, posisi kedua adalah dua, dan seterusnya. Aturan ini berguna ketika hubungan yang sederhana lebih mudah terlihat dari pembentukan tiap suku daripada dari selisih antarsuku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3,11,...,29,...,55,69$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf U menunjukkan nilai suku, sedangkan angka kecil di bawahnya menunjukkan posisi. Huruf n berarti nomor posisi yang sedang diperiksa. Sebagai contoh, U dengan indeks tiga berarti nilai suku pada posisi ketiga."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₁=(1×4)−1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₂=(2×5)+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=11$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₃=(3×6)−1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=17$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₄=(4×7)+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=29$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₅=(5×8)−1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=39$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₆=(6×9)+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=55$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₇=(7×10)−1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=69$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U(n)=[n(n+3)]∓1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "dengan (−) untuk suku ganjil dan (+) untuk suku genap."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd05_jenis_deret_angka/gambar-09.png",
+              "lebar": 5.97,
+              "tinggi": 2.24
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda ∓ menyatakan pilihan kurang atau tambah. Pada aturan ini, posisi ganjil menggunakan kurang satu dan posisi genap menggunakan tambah satu. Ganjil atau genap dilihat dari nomor posisi, bukan dari nilai sukunya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumpang pertama berada pada posisi ketiga, sehingga hasilnya tujuh belas. Rumpang kedua berada pada posisi kelima, sehingga hasilnya tiga puluh sembilan. Keduanya memakai kurang satu karena nomor posisinya ganjil. Penomoran dimulai dari satu dan harus dipertahankan saat memeriksa semua suku."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memilih Pemeriksaan Pola",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memilih Pemeriksaan Pola",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Periksa selisih tetap. Jika selisih berubah teratur, periksa tingkat selisih berikutnya.",
+                "Periksa faktor pengali atau pembagi yang tetap.",
+                "Perhatikan apakah deret perlu dikelompokkan dengan pemisah atau batas yang teratur.",
+                "Uji penjumlahan dua suku sebelumnya, operasi gabungan, atau aturan berbasis posisi jika pola sederhana belum cocok.",
+                "Masukkan hasil ke seluruh rumpang, lalu periksa aturan di kedua sisi dan urutan jawabannya."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jenis pola dapat memiliki hubungan satu sama lain. Sebuah deret berbasis posisi juga mungkin dapat dijelaskan melalui selisih bertingkat. Yang menentukan jawaban adalah aturan yang konsisten pada seluruh data, bukan sekadar nama jenisnya. Jika terdapat lebih dari satu cara yang sama-sama sederhana, periksa apakah keduanya memberi hasil yang sama."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Barisan beda",
+        "teks": ""
+      },
+      {
+        "judul": "Barisan rasio",
+        "teks": ""
+      },
+      {
+        "judul": "Barisan bertingkat",
+        "teks": ""
+      },
+      {
+        "judul": "Barisan Hijab (Pemisah atau Pembatas)",
+        "teks": ""
+      },
+      {
+        "judul": "Barisan Fibonacci",
+        "teks": ""
+      },
+      {
+        "judul": "Barisan Campuran",
+        "teks": ""
+      }
+    ],
+    "pesan": "Mengenali jenis deret membantu memilih pemeriksaan yang tepat: selisih untuk pola beda, faktor pengali untuk rasio, perubahan selisih untuk bertingkat, kelompok untuk Hijab, dua suku sebelumnya untuk Fibonacci, urutan operasi untuk Campuran, serta nomor posisi untuk Template. Apa pun jenisnya, jawaban harus sesuai dengan seluruh aturan yang terlihat. Biasakan memeriksa kembali hasil pada suku sebelum dan sesudah rumpang. Jika ada dua bilangan yang dicari, tuliskan dalam urutan posisi semula. Gambar panah, tanda kelompok, dan daftar selisih membantu memperjelas hubungan, sedangkan pemeriksaan hitungan memastikan jawabannya tepat. **Terima kasih**"
+  }
+}

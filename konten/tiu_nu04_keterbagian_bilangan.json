@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "judul": "Keterbagian Bilangan",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Numerik - Keterbagian Bilangan",
+    "sumber": "https://docs.google.com/document/d/1McGESPfif1OlVUV7NaIOr4fHc4Cn7CRmSfpULfD6htA/edit",
+    "subjudul": "Bilangan",
+    "id_katalog": "nu-04"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Saat membagi benda menjadi kelompok yang sama besar, mungkin semua benda masuk ke kelompok, atau ada yang tersisa. Keterbagian membantu kita mengenali dua keadaan itu. Misalnya, 12 benda dapat dikelompokkan berempat tanpa sisa, sedangkan 14 benda menyisakan 2.",
+      "Kita akan mulai dari arti sisa pembagian. Setelah itu, kita akan melihat cara memeriksa keterbagian dari angka penyusun suatu bilangan. Cara ini berguna untuk memilih ukuran kelompok, memeriksa pembagian, dan menyederhanakan pecahan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "arti habis dibagi, pembagi, hasil bagi, dan sisa."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "apakah suatu bilangan bulat habis dibagi dengan memakai aturan yang sesuai."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "kapan perlu memeriksa angka terakhir, jumlah angka, atau dua aturan sekaligus."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "bilangan yang habis dibagi dari bilangan yang masih bersisa, termasuk pada kasus yang melibatkan nol."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Arti habis dibagi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Arti habis dibagi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu bilangan habis dibagi jika pembagian itu menghasilkan bilangan bulat tanpa sisa. Bilangan yang dibagi adalah jumlah awal. Pembagi menunjukkan banyaknya benda dalam tiap kelompok pada contoh ini. Hasil bagi menunjukkan banyaknya kelompok lengkap."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu04_keterbagian_bilangan/gambar-01.png",
+              "lebar": 5.82,
+              "tinggi": 1.51
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan ukuran kelompok 4, sebanyak 12 benda membentuk 3 kelompok dan tidak bersisa. Sebanyak 14 benda juga membentuk 3 kelompok lengkap, tetapi tersisa 2 benda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan yang dibagi dapat disusun kembali dari pembagi dikali hasil bagi, lalu ditambah sisa. Pada pembagian 14 oleh 4, empat benda dalam masing-masing dari tiga kelompok menghasilkan 12 benda. Tambahkan dua benda yang tersisa untuk mendapatkan 14. Sisa selalu lebih kecil daripada pembagi positif. Jika masih ada 4 benda tersisa, kita dapat membuat satu kelompok lengkap lagi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika sisa pembagian nol, pembagi itu adalah faktor dari bilangan yang dibagi. Sebaliknya, bilangan yang dibagi adalah kelipatan dari pembaginya. Contohnya, 4 adalah faktor dari 12 dan 12 adalah kelipatan dari 4."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cara memeriksa keterbagian",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara memeriksa keterbagian",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih aturan berdasarkan bilangan pembaginya. Ada aturan yang cukup memakai angka satuan, ada yang memakai dua atau tiga angka terakhir, dan ada yang memakai jumlah semua angka. Angka yang diperiksa bergantung pada pembaginya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pembagi",
+                "Yang diperiksa",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "Angka satuan 0, 2, 4, 6, atau 8.",
+                  "146 berakhir dengan 6."
+                ],
+                [
+                  "3",
+                  "Jumlah semua angka habis dibagi 3.",
+                  "372: jumlah angkanya 12."
+                ],
+                [
+                  "4",
+                  "Bilangan yang dibentuk oleh dua angka terakhir habis dibagi 4.",
+                  "516: dua angka terakhir membentuk 16."
+                ],
+                [
+                  "5",
+                  "Angka satuan 0 atau 5.",
+                  "235 berakhir dengan 5."
+                ],
+                [
+                  "6",
+                  "Habis dibagi 2 dan 3.",
+                  "234 genap dan jumlah angkanya 9."
+                ],
+                [
+                  "8",
+                  "Bilangan yang dibentuk oleh tiga angka terakhir habis dibagi 8.",
+                  "3.216: tiga angka terakhir membentuk 216, yaitu 8 kali 27."
+                ],
+                [
+                  "9",
+                  "Jumlah semua angka habis dibagi 9.",
+                  "738: jumlah angkanya 18."
+                ],
+                [
+                  "10",
+                  "Angka satuan 0.",
+                  "470 berakhir dengan 0."
+                ],
+                [
+                  "11",
+                  "Selisih dua jumlah angka pada posisi berselang-seling sama dengan 0 atau kelipatan 11.",
+                  "2.728: kelompok pertama berjumlah 4, kelompok kedua 15. Selisihnya 11."
+                ],
+                [
+                  "12",
+                  "Habis dibagi 3 dan 4.",
+                  "312: jumlah angkanya 6 dan dua angka terakhirnya 12."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk bilangan yang lebih pendek daripada jumlah angka yang diminta, periksa bilangan itu seluruhnya. Misalnya, untuk memeriksa apakah 24 habis dibagi 8, cukup bagi 24 dengan 8. Untuk pembagi yang belum dikenal aturannya, gunakan pembagian langsung atau periksa kelipatan terdekat. Misalnya, 49 habis dibagi 7 karena 7 kali 7 menghasilkan 49."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengapa aturan angka terakhir bekerja?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya 516. Bilangan ini terdiri dari 500 dan 16. Bagian 500 pasti habis dibagi 4 karena 100 habis dibagi 4. Kita tinggal memeriksa 16. Karena 16 juga habis dibagi 4, maka 516 habis dibagi 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk pembagi 2, 5, dan 10, semua puluhan utuh pasti habis dibagi. Itulah sebabnya cukup melihat satuan. Untuk pembagi 8, setiap ribuan utuh habis dibagi 8, sehingga tiga angka terakhir cukup. Misalnya, pada 3.216, bagian 3.000 sudah habis dibagi 8 dan bagian 216 juga habis dibagi 8."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengapa jumlah angka bisa dipakai?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil 372. Bilangan itu terdiri dari 300, 70, dan 2. Dari 300 kita dapat menyisihkan 297, dan dari 70 kita dapat menyisihkan 63. Kedua bagian yang disisihkan habis dibagi 9. Bagian yang tinggal adalah 3, 7, dan 2. Jumlahnya 12, sehingga 372 tidak habis dibagi 9. Karena 12 habis dibagi 3, maka 372 habis dibagi 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Polanya berlaku karena 9 lebih kecil satu dari 10 dan 99 lebih kecil satu dari 100. Puluhan dan ratusan dapat dipisah menjadi kelipatan 9 serta angka yang menempati posisi itu. Karena setiap kelipatan 9 juga habis dibagi 3, cara menjumlahkan angka dapat digunakan untuk kedua pembagi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kapan dua aturan harus terpenuhi?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 6, periksa keterbagian oleh 2 dan 3. Contohnya 234. Satuannya 4, jadi genap. Jumlah angkanya 9, jadi habis dibagi 3. Karena kedua syarat terpenuhi, 234 habis dibagi 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 12, periksa keterbagian oleh 3 dan 4. Contohnya 132. Jumlah angkanya 6 dan dua angka terakhirnya membentuk 32. Keduanya memenuhi aturan masing-masing, sehingga 132 habis dibagi 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan pemeriksaan tidak bisa dipilih sembarang. Misalnya, 18 habis dibagi 2 dan 6, tetapi tidak habis dibagi 12. Pemeriksaan kelipatan 2 sudah tercakup dalam kelipatan 6. Untuk memastikan kelipatan 12, gunakan pasangan 3 dan 4."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Nol, tanda negatif, dan sisa",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Nol, tanda negatif, dan sisa",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nol habis dibagi oleh setiap bilangan bulat selain nol. Misalnya, membagi nol benda ke kelompok berisi tujuh menghasilkan nol kelompok tanpa sisa. Pembagian dengan pembagi nol tidak terdefinisi, termasuk ketika bilangan yang dibagi juga nol."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda negatif tidak mengubah keterbagian. Misalnya, 24 habis dibagi 6 dan −24 juga habis dibagi 6, dengan hasil bagi −4. Aturan berdasarkan angka dapat diterapkan pada nilai tanpa tandanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menentukan sisa bilangan positif, cari kelipatan pembagi terbesar yang tidak melampaui bilangan awal. Jika 53 dibagi 7, kelipatan terdekat yang tidak melebihi 53 adalah 49. Selisih 53 dan 49 adalah 4, sehingga sisanya 4. Kelipatan berikutnya, 56, sudah melewati 53."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Arti habis dibagi",
+        "teks": ""
+      },
+      {
+        "judul": "Cara memeriksa keterbagian",
+        "teks": ""
+      },
+      {
+        "judul": "Nol, tanda negatif, dan sisa",
+        "teks": ""
+      }
+    ],
+    "pesan": "Habis dibagi berarti tidak ada sisa. Pilih aturan sesuai pembagi, lalu periksa bagian bilangan yang tepat. Jika pembagi memerlukan dua syarat, pastikan keduanya terpenuhi. Jika bilangan tidak habis dibagi, kita masih bisa mencari hasil bagi dan sisanya dari kelipatan terdekat. Pemahaman ini menjadi dasar untuk membahas faktor, kelipatan, dan hubungan keduanya pada bab berikutnya."
+  }
+}

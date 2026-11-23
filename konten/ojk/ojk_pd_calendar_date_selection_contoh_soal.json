@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Calendar Date Selection",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Calendar Date Selection",
+    "sumber": "https://docs.google.com/document/d/1E3yPOHTghB_nkdES7JNGFQaMA0ZzCu1LkUIXFBeXDWU/edit",
+    "bagian": "soal",
+    "id_katalog": "pd-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Jadwal Tim — Tanggal Rapat Paling Awal",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_calendar_date_selection/gambar-01.jpg",
+              "lebar": 6.27,
+              "tinggi": 2.89
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Selasa, tanggal 17."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fei hanya tersedia pada Selasa, sehingga tanggal kandidat pada kalender adalah 3, 10, 17, dan 24. George juga tersedia Selasa sehingga tidak menghilangkan kandidat. Edward cuti tanggal 2–13, jadi tanggal 3 dan 10 gugur. Diana cuti tanggal 24–26 dan tidak tersedia Senin/Jumat, sehingga tanggal 24 gugur, sedangkan tanggal 17 (Selasa) memenuhi ketentuannya. Maka tanggal paling awal yang memenuhi seluruh aturan adalah Selasa tanggal 17."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Conference Room Session — Irisan Ketersediaan",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_calendar_date_selection/gambar-02.jpg",
+              "lebar": 6.27,
+              "tinggi": 3.53
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Selasa, 19 Februari 2019"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Winter hanya tersedia pada hari Selasa, sehingga kandidat Februari 2019 adalah 5, 12, 19, dan 26. Ningning tersedia Selasa dan Kamis sehingga semua kandidat Selasa tetap memungkinkan. Giselle cuti tanggal 2–13 sehingga tanggal 5 dan 12 dieliminasi. Karina cuti tanggal 24–26 sehingga 26 dieliminasi, tetapi tersedia pada Selasa tanggal 19. Jadi tanggal pertama yang sah ialah 19 Februari 2019. Catatan QC: dokumen sumber menuliskan Selasa tanggal 16; tanggal 16 Februari 2019 adalah Sabtu, sehingga kunci itu tidak konsisten dengan kalender."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pertemuan Minggu Kedua — Hari Bersama",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_calendar_date_selection/gambar-03.jpg",
+              "lebar": 6.27,
+              "tinggi": 3.53
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Rabu, tanggal 13 Februari 2019."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Irisan hari tersedia Andi, Budi, dan Cici adalah Rabu. Pada kalender minggu kedua 10–16 Februari 2019, Rabu jatuh pada tanggal 13. Ketiganya memenuhi kondisi tersedia pada hari tersebut; hari lain tidak menjadi irisan ketiga jadwal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Sidang Skripsi — Hubungan Tanggal Berantai",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_calendar_date_selection/gambar-04.jpg",
+              "lebar": 6.27,
+              "tinggi": 3.53
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 25 Februari 2023."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Minggu pertama pada kalender terdiri dari tanggal 1–4; tanggal yang habis dibagi 3 ialah tanggal 3, jadi Melly pada 3 Februari. Anita seminggu kemudian pada 10 Februari. Edwardo 15 hari setelah 10 Februari, yaitu 25 Februari. Alexandro 26 Februari. Keempat tanggal berbeda, sehingga jawaban yang diminta adalah tanggal 25."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

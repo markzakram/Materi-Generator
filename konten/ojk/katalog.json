@@ -57,6 +57,19 @@
    "otomatis": true
   },
   {
+   "id": "pi-01-soal",
+   "kelompok": "Penalaran Induktif",
+   "subtes": "Tes Penalaran Induktif",
+   "materi": "Fill Shape",
+   "bab": "Contoh Soal Fill Shape",
+   "baris_sheet": 3,
+   "dokumen": "Fill Shape.docx",
+   "doc_id": "1dZpjVGflR30rk3G0rC3mxxehzu0bXDPi",
+   "naskah": "ojk_pi_fill_shape_contoh_soal.json",
+   "bagian": "soal",
+   "otomatis": true
+  },
+  {
    "id": "pi-02",
    "kelompok": "Penalaran Induktif",
    "subtes": "Tes Penalaran Induktif",
@@ -66,6 +79,19 @@
    "dokumen": "Drag the Line.docx",
    "doc_id": "1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr",
    "naskah": "ojk_pi_drag_the_line.json",
+   "otomatis": true
+  },
+  {
+   "id": "pi-02-soal",
+   "kelompok": "Penalaran Induktif",
+   "subtes": "Tes Penalaran Induktif",
+   "materi": "Drag the Line",
+   "bab": "Contoh Soal Drag the Line",
+   "baris_sheet": 5,
+   "dokumen": "Drag the Line.docx",
+   "doc_id": "1Tj6uM2fcEIoojdivPxgU9uTtkQGrltXr",
+   "naskah": "ojk_pi_drag_the_line_contoh_soal.json",
+   "bagian": "soal",
    "otomatis": true
   },
   {
@@ -81,6 +107,19 @@
    "otomatis": true
   },
   {
+   "id": "pd-01-soal",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Calendar Date Selection",
+   "bab": "Contoh Soal Calendar Date Selection",
+   "baris_sheet": 7,
+   "dokumen": "Calendar Date Selection - Penalaran Deduktif",
+   "doc_id": "1E3yPOHTghB_nkdES7JNGFQaMA0ZzCu1LkUIXFBeXDWU",
+   "naskah": "ojk_pd_calendar_date_selection_contoh_soal.json",
+   "bagian": "soal",
+   "otomatis": true
+  },
+  {
    "id": "pd-02",
    "kelompok": "Penalaran Deduktif",
    "subtes": "Tes Penalaran Deduktif",
@@ -90,6 +129,19 @@
    "dokumen": "Room Allocations - Penalaran Deduktif",
    "doc_id": "1DyUreRcyTFM6TCec4Srlk_cUit5zyv2_XC1OkyArjaU",
    "naskah": "ojk_pd_room_allocations.json",
+   "otomatis": true
+  },
+  {
+   "id": "pd-02-soal",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Room Allocations",
+   "bab": "Contoh Soal Room Allocations",
+   "baris_sheet": 9,
+   "dokumen": "Room Allocations - Penalaran Deduktif",
+   "doc_id": "1DyUreRcyTFM6TCec4Srlk_cUit5zyv2_XC1OkyArjaU",
+   "naskah": "ojk_pd_room_allocations_contoh_soal.json",
+   "bagian": "soal",
    "otomatis": true
   },
   {
@@ -105,6 +157,19 @@
    "otomatis": true
   },
   {
+   "id": "pd-03-soal",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Timeline Scheduling",
+   "bab": "Contoh Soal Timeline Scheduling",
+   "baris_sheet": 11,
+   "dokumen": "Timeline Scheduling_PCAM OJK 2026.docx",
+   "doc_id": "1uywjxquMQRfUxr12ohHEeVNQnUNg3IDO",
+   "naskah": "ojk_pd_timeline_scheduling_contoh_soal.json",
+   "bagian": "soal",
+   "otomatis": true
+  },
+  {
    "id": "pd-04",
    "kelompok": "Penalaran Deduktif",
    "subtes": "Tes Penalaran Deduktif",
@@ -114,6 +179,19 @@
    "dokumen": "Badges",
    "doc_id": "14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w",
    "naskah": "ojk_pd_badges.json",
+   "otomatis": true
+  },
+  {
+   "id": "pd-04-soal",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Badges",
+   "bab": "Contoh Soal Badges",
+   "baris_sheet": 13,
+   "dokumen": "Badges",
+   "doc_id": "14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w",
+   "naskah": "ojk_pd_badges_contoh_soal.json",
+   "bagian": "soal",
    "otomatis": true
   },
   {

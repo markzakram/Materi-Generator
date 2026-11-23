@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perkalian dan Pembagian Setara",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Numerik - Perkalian dan Pembagian Setara",
+    "sumber": "https://docs.google.com/document/d/1OT4wdL_rWHEX8oJ8eLZ1My7AhloJOeAYNV7xae0a9uc/edit",
+    "bagian": "soal",
+    "id_katalog": "nu-02-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1 • Perkalian Setara",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah percetakan sedang menentukan kombinasi jumlah paket dan banyaknya brosur dalam setiap paket. Kombinasi yang menghasilkan jumlah brosur keseluruhan yang sama adalah..."
+            }
+          ],
+          "opsi": {
+            "A": "24 × 730 dibandingkan dengan 35 × 460",
+            "B": "27 × 540 dibandingkan dengan 36 × 410",
+            "C": "28 × 600 dibandingkan dengan 24 × 700",
+            "D": "32 × 450 dibandingkan dengan 36 × 430",
+            "E": "44 × 360 dibandingkan dengan 48 × 380"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada opsi C, kedua sisi dibagi 100. Pada opsi lainnya, kedua sisi dibagi 10."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 24 × 730 dan 35 × 460 → 24 × 73 dan 35 × 46"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 27 × 540 dan 36 × 410 → 27 × 54 dan 36 × 41"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 28 × 600 dan 24 × 700 → 28 × 6 dan 24 × 7"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 32 × 450 dan 36 × 430 → 32 × 45 dan 36 × 43"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 44 × 360 dan 48 × 380 → 44 × 36 dan 48 × 38"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa angka satuan setiap pasangan. Jika sama, bandingkan hasil kali lengkapnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "A. 24 × 73 dan 35 × 46"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4 × 3 = 12, satuan 2. 5 × 6 = 30, satuan 0. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "B. 27 × 54 dan 36 × 41"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "7 × 4 = 28, satuan 8. 6 × 1 = 6, satuan 6. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "C. 28 × 6 dan 24 × 7"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "8 × 6 = 48, satuan 8. 4 × 7 = 28, satuan 8. Satuannya sama, jadi lanjutkan ke hitung penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "28 × 6 = 168 dan 24 × 7 = 168. Hasilnya sama, jadi jawabannya C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2 • Perkalian Setara",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah percetakan sedang menentukan kombinasi jumlah rol dan banyaknya label dalam setiap rol. Kombinasi yang menghasilkan jumlah label keseluruhan yang sama adalah..."
+            }
+          ],
+          "opsi": {
+            "A": "24 × 1.730 dibandingkan dengan 35 × 1.460",
+            "B": "27 × 1.540 dibandingkan dengan 36 × 1.410",
+            "C": "28 × 1.600 dibandingkan dengan 24 × 1.700",
+            "D": "32 × 1.750 dibandingkan dengan 40 × 1.400",
+            "E": "44 × 1.360 dibandingkan dengan 48 × 1.380"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada opsi C, kedua sisi dibagi 100. Pada opsi lainnya, kedua sisi dibagi 10."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 24 × 1.730 dan 35 × 1.460 → 24 × 173 dan 35 × 146"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 27 × 1.540 dan 36 × 1.410 → 27 × 154 dan 36 × 141"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 28 × 1.600 dan 24 × 1.700 → 28 × 16 dan 24 × 17"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 32 × 1.750 dan 40 × 1.400 → 32 × 175 dan 4 × 1.400"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 44 × 1.360 dan 48 × 1.380 → 44 × 136 dan 48 × 138"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa angka satuan setiap pasangan. Jika sama, bandingkan hasil kali lengkapnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "A. 24 × 173 dan 35 × 146"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4 × 3 = 12, satuan 2. 5 × 6 = 30, satuan 0. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "B. 27 × 154 dan 36 × 141"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "7 × 4 = 28, satuan 8. 6 × 1 = 6, satuan 6. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "C. 28 × 16 dan 24 × 17"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "8 × 6 = 48, satuan 8. 4 × 7 = 28, satuan 8. Satuannya sama, jadi lanjutkan ke hitung penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "28 × 16 = 448 dan 24 × 17 = 408. Hasilnya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "D. 32 × 175 dan 4 × 1.400"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2 × 5 = 10, satuan 0. 4 × 0 = 0, satuan 0. Satuannya sama, jadi lanjutkan ke hitung penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "32 × 175 = 5.600 dan 4 × 1.400 = 5.600. Hasilnya sama, jadi jawabannya D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3 • Pembagian Setara",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah gudang akan membagi sejumlah kotak makanan secara merata ke beberapa rak. Kombinasi yang menghasilkan jumlah kotak makanan yang sama pada setiap rak adalah..."
+            }
+          ],
+          "opsi": {
+            "A": "900 ÷ 24 dibandingkan dengan 1.280 ÷ 32",
+            "B": "1.470 ÷ 35 dibandingkan dengan 1.600 ÷ 42",
+            "C": "1.260 ÷ 25 dibandingkan dengan 1.540 ÷ 35",
+            "D": "1.260 ÷ 28 dibandingkan dengan 1.980 ÷ 44",
+            "E": "1.800 ÷ 26 dibandingkan dengan 2.300 ÷ 39"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ubah setiap pembagian menjadi dua hasil kali silang. Angka yang dibagi di satu sisi dikalikan dengan pembagi dari sisi seberang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 900/24 dan 1.280/32 → 900 × 32 dan 1.280 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 1.470/35 dan 1.600/42 → 1.470 × 42 dan 1.600 × 35"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 1.260/25 dan 1.540/35 → 1.260 × 35 dan 1.540 × 25"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 1.260/28 dan 1.980/44 → 1.260 × 44 dan 1.980 × 28"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 1.800/26 dan 2.300/39 → 1.800 × 39 dan 2.300 × 26"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada opsi E, kedua sisi dibagi 100. Pada opsi lainnya, kedua sisi dibagi 10."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 900 × 32 dan 1.280 × 24 → 90 × 32 dan 128 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 1.470 × 42 dan 1.600 × 35 → 147 × 42 dan 160 × 35"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 1.260 × 35 dan 1.540 × 25 → 126 × 35 dan 154 × 25"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 1.260 × 44 dan 1.980 × 28 → 126 × 44 dan 198 × 28"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 1.800 × 39 dan 2.300 × 26 → 18 × 39 dan 23 × 26"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa angka satuan setiap pasangan. Jika sama, bandingkan hasil kali lengkapnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "A. 90 × 32 dan 128 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "0 × 2 = 0, satuan 0. 8 × 4 = 32, satuan 2. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "B. 147 × 42 dan 160 × 35"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "7 × 2 = 14, satuan 4. 0 × 5 = 0, satuan 0. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "C. 126 × 35 dan 154 × 25"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6 × 5 = 30, satuan 0. 4 × 5 = 20, satuan 0. Satuannya sama, jadi lanjutkan ke hitung penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "126 × 35 = 4.410 dan 154 × 25 = 3.850. Hasilnya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "D. 126 × 44 dan 198 × 28"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6 × 4 = 24, satuan 4. 8 × 8 = 64, satuan 4. Satuannya sama, jadi lanjutkan ke hitung penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "126 × 44 = 5.544 dan 198 × 28 = 5.544. Hasilnya sama, jadi jawabannya D. Kedua pembagian awal sama-sama menghasilkan 45."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4 • Pembagian Setara",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah tempat pengolahan air akan membagi sejumlah liter air secara merata ke beberapa tangki. Kombinasi yang menghasilkan volume air yang sama pada setiap tangki adalah..."
+            }
+          ],
+          "opsi": {
+            "A": "840 ÷ 21 dibandingkan dengan 960 ÷ 32",
+            "B": "720 ÷ 24 dibandingkan dengan 840 ÷ 18",
+            "C": "600 ÷ 24 dibandingkan dengan 900 ÷ 32",
+            "D": "780 ÷ 26 dibandingkan dengan 960 ÷ 34",
+            "E": "900 ÷ 36 dibandingkan dengan 750 ÷ 30"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ubah setiap pembagian menjadi dua hasil kali silang. Kalikan angka yang dibagi dengan pembagi dari sisi seberang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 840/21 dan 960/32 → 840 × 32 dan 960 × 21"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 720/24 dan 840/18 → 720 × 18 dan 840 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 600/24 dan 900/32 → 600 × 32 dan 900 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 780/26 dan 960/34 → 780 × 34 dan 960 × 26"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 900/36 dan 750/30 → 900 × 30 dan 750 × 36"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada opsi C, coret dua nol dari masing-masing sisi sehingga kedua hasil kali dibagi 100. Pada opsi lain, coret satu nol dari masing-masing sisi sehingga keduanya dibagi 10."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 840 × 32 dan 960 × 21 → 84 × 32 dan 96 × 21"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 720 × 18 dan 840 × 24 → 72 × 18 dan 84 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 600 × 32 dan 900 × 24 → 6 × 32 dan 9 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 780 × 34 dan 960 × 26 → 78 × 34 dan 96 × 26"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 900 × 30 dan 750 × 36 → 90 × 30 dan 75 × 36"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada opsi E, dua nol masih tersisa di sisi kiri. Gunakan bentuk setelah pencoretan untuk mengecek angka satuan. Jika satuannya sama, bandingkan hasil kali lengkap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "A. 84 × 32 dan 96 × 21"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4 × 2 = 8, satuan 8. 6 × 1 = 6, satuan 6. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "B. 72 × 18 dan 84 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2 × 8 = 16, satuan 6. 4 × 4 = 16, satuan 6. Satuannya sama, jadi hitung kedua hasil kali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "72 × 18 = 1.296 dan 84 × 24 = 2.016. Hasilnya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "C. 6 × 32 dan 9 × 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6 × 2 = 12, satuan 2. 9 × 4 = 36, satuan 6. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "D. 78 × 34 dan 96 × 26"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "8 × 4 = 32, satuan 2. 6 × 6 = 36, satuan 6. Satuannya berbeda, sehingga opsi ini gugur."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "E. 90 × 30 dan 75 × 36"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "0 × 0 = 0, satuan 0. 5 × 6 = 30, satuan 0. Satuannya sama, jadi hitung kedua hasil kali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "90 × 30 = 2.700 dan 75 × 36 = 2.700. Hasilnya sama, jadi jawabannya E. Kedua pembagian awal menghasilkan 25 liter per tangki."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

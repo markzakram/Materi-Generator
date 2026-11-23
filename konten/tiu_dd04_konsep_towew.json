@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "judul": "Konsep Towew",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Data & Deret - Konsep Towew",
+    "sumber": "https://docs.google.com/document/d/1faa8KU5YduZo72u3uBQhOH65uF7LkWzGk4E2u-ue8f0/edit",
+    "subjudul": "Deret Angka",
+    "id_katalog": "dd-04"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Deret angka menampilkan bilangan dalam urutan tertentu. Untuk melanjutkannya, kita perlu menemukan hubungan yang berulang di antara bilangan-bilangan tersebut. Konsep Towew membantu menentukan apakah deret perlu dibaca berurutan, dipisahkan menjadi dua larik, atau dipisahkan menjadi tiga larik.",
+      "Arah naik dan turun dapat membantu memilih cara membaca deret. Setelah itu, pola hitungnya tetap perlu diperiksa. Dengan memahami posisi bilangan dan hubungan dalam setiap larik, kita dapat menjelaskan alasan suatu bilangan menjadi kelanjutan deret, bukan sekadar menebaknya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "arti suku dan larik dalam deret angka."
+      },
+      {
+        "level": "",
+        "kko": "Membaca",
+        "teks": "arah perubahan bilangan dengan tanda naik dan turun."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "susunan satu Towew, dua Towew, dan tiga Towew."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "bilangan berikutnya dengan memeriksa pola pada larik yang sesuai."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Towew",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Towew",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Towew adalah konsep deret yang polanya masih dapat terlihat dari arah perubahan suku-sukunya. Pola dapat berupa satu larik, dua larik, atau tiga larik."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tebel konsep towew"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "↑ ↑ ↑ atau ↓ ↓ ↓",
+                "1 Towew"
+              ],
+              "baris": [
+                [
+                  "↑ ↓ ↑ atau ↓ ↑ ↓",
+                  "2 Towew"
+                ],
+                [
+                  "↑ ↑ ↓ atau ↓ ↓ ↑",
+                  "3 Towew"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Memahami suku dan larik",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suku adalah setiap bilangan yang menempati satu posisi dalam deret. Suku pertama berada pada posisi pertama, suku kedua pada posisi kedua, dan seterusnya. Posisi dan nilai adalah dua hal berbeda: posisi menunjukkan letaknya, sedangkan nilai menunjukkan bilangan yang tertulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larik adalah kelompok suku yang dibaca sebagai satu jalur pola. Pada satu larik, kita membaca suku-suku secara berurutan. Pada dua larik, ada dua jalur yang disisipkan selang-seling. Pada tiga larik, ada tiga jalur yang disisipkan bergantian setiap tiga posisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda ↑ berarti bilangan berikutnya lebih besar, sedangkan ↓ berarti bilangan berikutnya lebih kecil. Baca tanda dari kiri ke kanan. Tiga tanda arah berasal dari empat suku karena setiap tanda membandingkan dua suku yang berdekatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tabel arah merupakan petunjuk awal untuk mencoba pengelompokan. Jumlah larik tetap dipastikan melalui pola hitung yang cocok pada seluruh anggota kelompok. Arah yang tampak pada satu potongan pendek saja belum cukup untuk memastikan aturan deret."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Satu Towew (Satu Larik)",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Satu Towew (Satu Larik)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Deret yang seluruh sukunya mengikuti satu pola perubahan yang sama. Pola dapat berupa penjumlahan, pengurangan, perkalian, pembagian, atau kombinasi sederhana yang berlaku berurutan dari satu suku ke suku berikutnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola: ↑ ↑ ↑ atau ↓ ↓ ↓"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada satu Towew, tidak ada suku yang dilompati ketika memeriksa pola. Mulailah dari suku pertama ke suku kedua, lalu dari suku kedua ke suku ketiga. Aturan yang dipilih harus sesuai dengan seluruh perpindahan yang tersedia."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2,4,6,8,10,...$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd04_konsep_towew/gambar-01.png",
+              "lebar": 4.17,
+              "tinggi": 1.56
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "↑ ↑ ↑ atau ↓ ↓ ↓",
+                "1 Towew"
+              ],
+              "baris": [
+                [
+                  "↑ ↓ ↑ atau ↓ ↑ ↓",
+                  "2 Towew"
+                ],
+                [
+                  "↑ ↑ ↓ atau ↓ ↓ ↑",
+                  "3 Towew"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "↑ ↑ ↑ artinya 1 towew"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd04_konsep_towew/gambar-02.png",
+              "lebar": 5.0,
+              "tinggi": 1.45
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap bilangan bertambah dua dari bilangan tepat sebelumnya. Seluruh suku berada pada satu jalur, sehingga tidak perlu dipisahkan menjadi kelompok ganjil dan genap. Bilangan setelah sepuluh diperoleh dengan menerapkan aturan yang sama."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Suku berikutnya=10+2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Arah naik memberi petunjuk bahwa deret bergerak searah, tetapi aturan “bertambah dua” diperoleh dari pemeriksaan angkanya. Pada deret lain, arah naik dapat berasal dari perkalian atau operasi lain. Karena itu, arah dan hitungan selalu digunakan bersama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Dua Towew (Dua Larik)",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Dua Towew (Dua Larik)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Deret yang sebenarnya terdiri atas dua pola berbeda yang berjalan selang-seling. Biasanya suku pada posisi ganjil membentuk satu pola, sedangkan suku pada posisi genap membentuk pola lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola: ↑ ↓ ↑ atau ↓ ↑ ↓"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada dua Towew, baca satu suku lalu lewati satu suku untuk mendapatkan anggota berikutnya dalam larik yang sama. Larik pertama memakai posisi ganjil, sedangkan larik kedua memakai posisi genap. Kelompok ditentukan oleh posisi, bukan oleh apakah nilai bilangannya ganjil atau genap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$22,18,26,22,30,26,...,...$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd04_konsep_towew/gambar-03.png",
+              "lebar": 4.97,
+              "tinggi": 1.03
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "↑ ↑ ↑ atau ↓ ↓ ↓",
+                "1 Towew"
+              ],
+              "baris": [
+                [
+                  "↑ ↓ ↑ atau ↓ ↑ ↓",
+                  "2 Towew"
+                ],
+                [
+                  "↑ ↑ ↓ atau ↓ ↓ ↑",
+                  "3 Towew"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "↓ ↑ ↓ artinya 2 towew"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd04_konsep_towew/gambar-04.png",
+              "lebar": 5.42,
+              "tinggi": 1.81
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Panah biru menghubungkan larik pertama, yaitu suku pada posisi pertama, ketiga, kelima, dan ketujuh. Panah hijau menghubungkan larik kedua, yaitu suku pada posisi kedua, keempat, keenam, dan kedelapan. Keduanya disisipkan selang-seling dalam deret yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larik pertama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$22,26,30,34$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larik kedua:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$18,22,26,30$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua larik sama-sama bertambah empat, tetapi dimulai dari nilai berbeda. Inilah sebabnya pola yang mudah terlihat setelah dipisahkan dapat terasa tidak teratur ketika semua suku langsung dibaca berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumpang pertama berada pada posisi ketujuh, sehingga memakai larik pertama. Rumpang kedua berada pada posisi kedelapan, sehingga memakai larik kedua."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Suku ketujuh=30+4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=34$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Suku kedelapan=26+4$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=30$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan hasilnya kembali sesuai posisi semula. Urutan dua bilangan yang mengisi rumpang adalah 34 lalu 30. Jangan menukar hasil kedua larik meskipun pola hitungnya sama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tiga Towew (Tiga Larik)",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tiga Towew (Tiga Larik)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Deret yang terdiri atas tiga pola berbeda yang berulang setiap tiga suku. Suku ke-1, ke-4, ke-7, dan seterusnya membentuk satu pola; suku ke-2, ke-5, ke-8 membentuk pola kedua; suku ke-3, ke-6, ke-9 membentuk pola ketiga."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola: ↑ ↑ ↓ atau ↓ ↓ ↑"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tiga Towew, anggota berikutnya dari larik yang sama berada tiga posisi setelah anggota sebelumnya. Artinya, dua suku di antaranya dilewati. Ketiga larik diperiksa sendiri-sendiri, lalu hasilnya dikembalikan ke posisi deret semula."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5,8,7,5,11,8,5,14,9,...$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd04_konsep_towew/gambar-05.png",
+              "lebar": 5.42,
+              "tinggi": 1.0
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "↑ ↑ ↑ atau ↓ ↓ ↓",
+                "1 Towew"
+              ],
+              "baris": [
+                [
+                  "↑ ↓ ↑ atau ↓ ↑ ↓",
+                  "2 Towew"
+                ],
+                [
+                  "↑ ↑ ↓ atau ↓ ↓ ↑",
+                  "3 Towew"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "↑ ↑ ↓ artinya 3 towew"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang terlihat"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_dd04_konsep_towew/gambar-06.png",
+              "lebar": 5.56,
+              "tinggi": 2.36
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Garis biru menghubungkan suku pada posisi pertama, keempat, ketujuh, dan kesepuluh. Garis hijau menghubungkan posisi kedua, kelima, dan kedelapan. Garis merah menghubungkan posisi ketiga, keenam, dan kesembilan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larik pertama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$5,5,5,5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilainya tetap lima. Operasi pada gambar adalah dikali satu, sehingga nilainya tidak berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larik kedua:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8,11,14,...$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap anggota larik kedua bertambah tiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larik ketiga:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$7,8,9,...$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap anggota larik ketiga bertambah satu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumpang berada pada posisi kesepuluh. Posisi ini merupakan kelanjutan larik pertama, sehingga gunakan pola larik pertama, bukan aturan tambah tiga atau tambah satu."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Suku kesepuluh=5×1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada gambar arah, bagian 8, 7, 5, 11 bergerak turun, turun, lalu naik. Bagian ini sesuai dengan bentuk ↓ ↓ ↑ pada tabel. Bentuk ↑ ↑ ↓ adalah bentuk petunjuk lain pada tabel; tidak perlu memaksakan setiap potongan deret menampilkan arah yang sama. Tiga larik dipastikan melalui pola tetap, tambah tiga, dan tambah satu yang terlihat setelah pengelompokan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larik yang tetap juga merupakan pola. Bilangan yang muncul berulang tidak otomatis diabaikan atau dianggap pemisah. Periksa lebih dahulu apakah bilangan tersebut menempati posisi yang teratur dalam satu larik."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cara Menerapkan Konsep Towew",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara Menerapkan Konsep Towew",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Beri nomor posisi pada deret, terutama jika terdapat dua rumpang atau lebih.",
+                "Perhatikan perubahan naik-turun sebagai petunjuk awal.",
+                "Coba baca berurutan. Jika satu aturan belum cocok, periksa dua atau tiga larik sesuai susunan posisinya.",
+                "Pastikan aturan berlaku pada seluruh anggota setiap larik, bukan hanya pada satu pasangan.",
+                "Tentukan larik yang memuat posisi kosong, hitung kelanjutannya, lalu susun kembali hasil sesuai urutan semula."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat memeriksa dua larik, gunakan loncatan posisi dua; untuk tiga larik, gunakan loncatan posisi tiga. Warna panah atau garis bantu dapat membedakan jalurnya. Semua suku tetap dipakai, termasuk suku bernilai sama, karena letaknya dapat menentukan pola."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan menentukan jumlah larik hanya dari satu kelompok tanda arah. Jika dua suku yang dibandingkan bernilai sama, suku itu tidak naik dan tidak turun; jangan memaksanya menjadi ↑ atau ↓. Lihat keteraturan posisinya dan uji aturan hitung pada tiap larik."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Towew",
+        "teks": ""
+      },
+      {
+        "judul": "Satu Towew (Satu Larik)",
+        "teks": ""
+      },
+      {
+        "judul": "Dua Towew (Dua Larik)",
+        "teks": ""
+      },
+      {
+        "judul": "Tiga Towew (Tiga Larik)",
+        "teks": ""
+      },
+      {
+        "judul": "Cara Menerapkan Konsep Towew",
+        "teks": ""
+      }
+    ],
+    "pesan": "Konsep Towew membantu membaca deret melalui satu, dua, atau tiga larik. Gunakan arah perubahan sebagai petunjuk awal, kelompokkan suku berdasarkan posisinya, lalu pastikan pola hitung setiap larik. Bilangan yang mengisi rumpang harus mengikuti larik tempat posisi kosong itu berada. Ketelitian membedakan posisi dan nilai membuat pola lebih mudah dipahami. Biasakan mengembalikan hasil perhitungan ke urutan deret semula dan memeriksa kembali seluruh anggotanya. Dengan cara ini, kelanjutan deret dapat dijelaskan melalui aturan yang konsisten. **Terima kasih**"
+  }
+}
