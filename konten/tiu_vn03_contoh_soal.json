@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Jadwal",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Verbal Analitis - Jadwal",
+    "sumber": "https://docs.google.com/document/d/1xIBJu-fohfbRPEuXUUowZwzSki-BlwrprCiTVKYUlqM/edit",
+    "bagian": "soal",
+    "id_katalog": "vn-03-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dewi belajar 5 bahasa pemrograman: Java (J), Python (P), Ruby (R), Kotlin (K), dan Swift (S) dengan aturan berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ruby hanya bisa dipelajari setelah Python dan Java."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Swift harus dipelajari tepat setelah Kotlin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bahasa pertama yang dipelajari adalah Java."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan yang mungkin dipelajari Dewi adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "J, P, R, K, S",
+            "B": "J, R, P, K, S",
+            "C": "J, P, K, S, R",
+            "D": "J, K, S, R, P",
+            "E": "J, P, R, S, K"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan informasi awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Java (J) menempati giliran 1. Karena Ruby (R) harus dipelajari setelah Java dan Python (P), Python harus menempati salah satu giliran sebelum Ruby."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menggabungkan aturan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kotlin (K) dan Swift (S) harus berurutan dengan Kotlin lebih dulu. Pasangan K–S dapat menempati giliran 2–3, 3–4, atau 4–5. Pada tiap penempatan, isi dua giliran tersisa dengan P lebih dulu daripada R."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Giliran",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "baris": [
+                [
+                  "Di luar opsi",
+                  "J",
+                  "K",
+                  "S",
+                  "P",
+                  "R"
+                ],
+                [
+                  "Opsi C",
+                  "J",
+                  "P",
+                  "K",
+                  "S",
+                  "R"
+                ],
+                [
+                  "Opsi A",
+                  "J",
+                  "P",
+                  "R",
+                  "K",
+                  "S"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi A sesuai dengan pasangan K–S pada giliran 4–5. Opsi C juga sah karena pasangan K–S mengisi giliran 3–4 dan Python tetap mendahului Ruby. Opsi B dan D menempatkan Ruby sebelum Python. Opsi E membalik urutan Kotlin dan Swift."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "PPT mencantumkan A. Berdasarkan semua aturan yang tertulis, opsi A dan C sama-sama mungkin."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk meningkatkan keterampilannya, Andi mempelajari 5 topik pemrograman yang saling berkaitan, yaitu P, Q, R, S, dan T, dengan ketentuan sebagai berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Ia hanya dapat mempelajari topik S jika sudah mempelajari topik R dan T."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Topik Q harus dipelajari sebelum topik R berurutan dan Topik Q tepat setelah topik P yaitu kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Topik pertama yang harus dipelajari adalah P."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan topik yang mungkin dipelajari Andi adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "P, Q, R, T, S",
+            "B": "P, R, Q, T, S",
+            "C": "P, T, Q, R, S",
+            "D": "Q, P, R, T, S",
+            "E": "P, Q, T, R, S"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Menetapkan informasi awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "P menempati giliran 1. Q tepat setelah P, sehingga Q menempati giliran 2."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menggabungkan aturan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Q dan R harus berurutan dengan Q lebih dahulu. Jadi, R menempati giliran 3. T dan S mengisi dua giliran terakhir. Karena T harus dipelajari sebelum S, T menempati giliran 4 dan S giliran 5."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Giliran",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "baris": [
+                [
+                  "Topik",
+                  "P",
+                  "Q",
+                  "R",
+                  "T",
+                  "S"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi B dan C gagal karena Q tidak langsung mengikuti P. Opsi D gagal karena P tidak berada di giliran 1. Opsi E menempatkan T di antara Q dan R, padahal Q dan R harus berurutan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan yang memenuhi semua petunjuk adalah P, Q, R, T, S. Jawaban yang benar adalah A."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

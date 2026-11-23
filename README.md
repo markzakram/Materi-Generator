@@ -10,7 +10,7 @@ Dokumen materi di Google Docs bisa dikonversi otomatis menjadi naskah, lalu diti
 ## Alur kerja
 
 1. **Dokumen → naskah.** Dokumen materi (templat booklet SKD) diunduh sebagai `.docx` dan dikonversi oleh `generator/impor_katalog.py` menjadi `konten/*.json` beserta gambarnya di `konten/media/`.
-2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 15 materi TIU Verbal, mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
+2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 27 deck TIU Verbal (materi dan contoh soal), mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
 3. **Ekspor.** Unduh PPTX dari dasbor atau editor. PDF dibuat di Windows lokal (butuh PowerPoint).
 
 ## Cara pakai (baris perintah)
@@ -43,7 +43,7 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU Verbal** (15 materi TIU Verbal + Penalaran Logis) dan **JadiOJK · PCAM OJK** (materi TKU PCAM OJK). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi dan sampul, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`).
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU Verbal** (28 deck: 15 dokumen Verbal Analogi, Silogisme, dan Analitis, 12 deck contoh soal yang dipisah dari dokumennya, dan Penalaran Logis) dan **JadiOJK · PCAM OJK** (materi TKU PCAM OJK). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi dan sampul, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`).
 
 Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn --sampul foto`.
 
@@ -66,7 +66,7 @@ Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs
 
 ## Impor dokumen Google Docs
 
-`konten/katalog.json` mendaftar 15 dokumen di kolom D sheet "Kerangka Course" (Mapping SKD 2027): kelompok, bab, baris sheet, dan ID dokumen. Untuk membuat ulang naskah setelah dokumen diperbarui:
+`konten/katalog.json` mendaftar 15 dokumen di kolom D sheet "Kerangka Course" (Mapping SKD 2027) sebagai 27 deck: kelompok, bab, baris sheet, dan ID dokumen. Untuk membuat ulang naskah setelah dokumen diperbarui:
 
 1. Unduh dokumen sebagai Word (File › Download › Microsoft Word) ke satu folder, beri nama `<doc_id>.docx`.
 2. Jalankan:
@@ -74,6 +74,8 @@ Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs
 ```bash
 python generator/impor_katalog.py --docx folder_docx
 ```
+
+Baris "Contoh Soal" di sheet (Silogisme 02–06 dan Analitis 01–07) tidak punya dokumen sendiri karena soalnya ditulis di dokumen materi. Entri `"bagian": "soal"` (mis. `vs-02-soal`) memakai `doc_id` yang sama, dan importer memisahkan satu dokumen menjadi dua naskah: materi (`tiu_vs02_logika_kondisional.json`) dan contoh soal (`tiu_vs02_contoh_soal.json`). Deck contoh soal hanya memuat sampul, peta materi, soal, dan pembahasan; importer menandai soal yang tidak punya kunci ("TANPA KUNCI").
 
 Hanya entri dengan `"otomatis": true` yang ditimpa; `va-01` (Verbal Analogi) disusun manual. Satu dokumen bisa dikonversi langsung dengan `generator/ekstrak_gdoc.py`.
 

@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Rute & Jalur",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Verbal Analitis - Rute & Jalur",
+    "sumber": "https://docs.google.com/document/d/1r0eUXv6BpdhwaUu4pAvTUlwVVK8q98ysJTMyr38pw9w/edit",
+    "bagian": "soal",
+    "id_katalog": "vn-04-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Risa pergi ke festival makanan disana banyak gerai makanan dari berbagai kota yang dapat dicicipi. Di dekat pintu masuk dapat melihat gerai makanan A. Dari gerai makanan A dapat pergi ke gerai makanan B dan C. Dari gerai makanan B dapat pergi ke gerai makanan D dan E. Gerai D dan gerai E saling terhubung. Dari gerai D dapat mencicipi makanan I. Dari gerai E bisa menuju gerai I, dan H. Dari gerai C dapat mengunjungi gerai G. Gerai G terhubung dengan gerai H. Dari gerai H dan I langsung terhubung dengan gerai J yang berada di dekat pintu keluar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa banyak rute yang dapat dilewati risa dari pintu masuk hingga pintu keluar? Jika tidak diperbolehkan mengunjungi gerai sebelumnya"
+            }
+          ],
+          "opsi": {
+            "A": "3 Rute",
+            "B": "4 Rute",
+            "C": "5 Rute",
+            "D": "6 Rute",
+            "E": "7 Rute"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Memetakan jaringan lengkap"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perjalanan dimulai di A dan berakhir di J. D dan E saling terhubung, sehingga keduanya dihubungkan oleh dua panah. I dapat dicapai dari D atau E, sedangkan H dapat dicapai dari E atau G. Dari H dan I, perjalanan berakhir di J."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-06.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menelusuri setiap cabang awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari A, mulai melalui B atau C. Melalui B, periksa D dan E secara bergantian. D bisa langsung ke I atau lewat E, sedangkan E bisa langsung ke I atau H maupun lewat D. Cabang C hanya dapat berlanjut ke G, lalu H dan J."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cabang A–B"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 1. A → B → D → E → I → J"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-07.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 2. A → B → D → E → H → J"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-08.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 3. A → B → D → I → J"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-09.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 4. A → B → E → D → I → J"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-10.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 5. A → B → E → I → J"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-11.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 6. A → B → E → H → J"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-12.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cabang A–C"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 7. A → C → G → H → J"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-13.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Menggugurkan kunjungan ulang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A → B → D → E → D gugur. Langkah E ke D kembali ke D, yang sudah dikunjungi dalam rute ini."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-14.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A → B → E → D → E gugur. Langkah D ke E kembali ke E, yang sudah dikunjungi dalam rute ini."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-15.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cabang A–B menghasilkan enam rute dan cabang A–C menghasilkan satu rute. Totalnya tujuh rute. Jawaban yang benar adalah E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah band musik ternama ingin mengadakan tur konser di berbagai kota, dimulai dari kota G menuju kota N. Kota G menghubungkan kota H dan I. Kota H menghubungkan kota K dan L. Kota H dan I saling terhubung. Dari Kota K & L langsung terhubung dengan kota N. Dari kota I menuju kota N perlu melewati kota M."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa banyak rute berbeda yang dapat dipilih oleh band musik tersebut? (Jika tidak diperbolehkan ke kota sebelumnya)"
+            }
+          ],
+          "opsi": {
+            "A": "2 Rute",
+            "B": "3 Rute",
+            "C": "4 Rute",
+            "D": "5 Rute",
+            "E": "6 Rute"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Memetakan jaringan lengkap"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perjalanan dimulai di G dan berakhir di N. H dan I saling terhubung. Dari H, perjalanan dapat menuju K atau L, lalu N. Dari I, jalur langsung menuju N melewati M. Nama K dan L pada peta mengikuti naskah soal."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-16.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menelusuri setiap cabang awal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari G, mulai melalui H atau I. Setelah H, pilih K, L, atau I. Setelah I, pilih M atau H. Berpindah ke cabang lain melalui H–I diperbolehkan selama kota yang dituju belum dikunjungi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cabang G–H"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 1. G → H → K → N"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-17.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 2. G → H → L → N"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-18.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 3. G → H → I → M → N"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-19.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cabang G–I"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 4. G → I → H → K → N"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-20.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 5. G → I → H → L → N"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-21.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rute 6. G → I → M → N"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-22.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Menggugurkan kunjungan ulang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "G → H → I → H gugur. Langkah I ke H kembali ke H, yang sudah dikunjungi dalam rute ini."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-23.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "G → I → H → I gugur. Langkah H ke I kembali ke I, yang sudah dikunjungi dalam rute ini."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn04_rute_jalur/gambar-24.png",
+              "lebar": 5.97,
+              "tinggi": 2.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cabang G–H menghasilkan tiga rute dan cabang G–I menghasilkan tiga rute. Totalnya enam rute. Jawaban yang benar adalah E."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

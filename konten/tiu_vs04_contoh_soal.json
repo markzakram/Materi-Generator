@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Logika Kuantor",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Verbal Silogisme - Logika Kuantor",
+    "sumber": "https://docs.google.com/document/d/1bWg3axv0l1F8EHyv2Z0XEOuM2KBo2iBjs6a-eTqq4IA/edit",
+    "bagian": "soal",
+    "id_katalog": "vs-04-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua laki-laki itu ganteng."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian yang ganteng memiliki badan berotot."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang paling tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Semua laki-laki ganteng memiliki badan berotot",
+            "B": "Sebagian yang memiliki badan berotot adalah laki-laki",
+            "C": "Sebagian yang memiliki badan tidak berotot juga ganteng.",
+            "D": "Sebagian laki-laki tidak memiliki badan berotot",
+            "E": "Tidak dapat ditarik kesimpulan"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Semua laki-laki itu ganteng."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Sebagian yang ganteng memiliki badan berotot."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Logika Panah"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-12.png",
+              "lebar": 5.92,
+              "tinggi": 1.55
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Cepat & Eliminasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua laki-laki masuk ke kelompok orang ganteng. Premis “sebagian” memilih anggota dari kelompok orang ganteng. A, B, dan D membutuhkan hubungan dengan laki-laki yang belum diberikan. C juga belum pasti karena premis tidak menjamin ada orang ganteng yang tidak berotot."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cek Jalur Logika"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Orang ganteng yang berotot bisa berasal dari dalam atau luar kelompok laki-laki. Kedua kemungkinan sesuai dengan premis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian radio memakai baterai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian radio tidak memakai antena panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang paling tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Tidak ada radio yang tidak memakai baterai tetapi memakai antena panjang",
+            "B": "Semua radio yang tidak memakai antena panjang dan tidak memakai baterai",
+            "C": "Radio yang tidak memakai baterai dan tidak memakai antena panjang",
+            "D": "Beberapa radio yang tidak memakai antena panjang tetapi memakai baterai",
+            "E": "Tidak dapat ditarik kesimpulan"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Sebagian radio memakai baterai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Sebagian radio tidak memakai antena panjang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Logika Panah"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-13.png",
+              "lebar": 5.92,
+              "tinggi": 1.1
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Cepat & Eliminasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cabang di kanan menunjukkan dua kemungkinan pemakaian baterai. Cabang di kiri menunjukkan dua kemungkinan pemakaian antena panjang. Kedua premis “sebagian” dapat merujuk pada radio yang berbeda, sehingga hubungan antara pemakaian baterai dan antena pada opsi A–D belum bisa dipastikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cek Jalur Logika"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, radio pertama memakai baterai dan antena panjang. Radio kedua tidak memakai baterai dan tidak memakai antena panjang. Kedua premis terpenuhi, tetapi dalam contoh ini tidak ada radio yang memakai baterai tanpa antena panjang. Opsi D masih mungkin jika satu radio memenuhi kedua premis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua warga kampung Bunut menanam pohon durian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak ada pegawai kantor Cerebrum menanam pohon durian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang paling tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Beberapa warga kampung Bunut adalah pegawai kantor Cerebrum",
+            "B": "Tidak ada pegawai kantor Cerebrum yang menanam pohon durian",
+            "C": "Semua yang menanam pohon durian menjadi pegawai kantor Cerebrum",
+            "D": "Beberapa pegawai kantor Cerebrum menanam pohon durian",
+            "E": "Semua warga kampung Bunut adalah pegawai kantor Cerebrum"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Semua warga kampung Bunut menanam pohon durian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Tidak ada pegawai kantor Cerebrum menanam pohon durian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Logika Panah"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-14.png",
+              "lebar": 5.92,
+              "tinggi": 0.67
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Cepat & Eliminasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Tidak ada pegawai kantor Cerebrum yang menanam durian” berarti semua pegawai kantor Cerebrum bukan penanam durian. Pernyataan yang setara adalah semua penanam durian bukan pegawai kantor Cerebrum. Dengan bentuk ini, panah bergerak dari penanam durian ke bukan pegawai kantor Cerebrum."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cek Jalur Logika"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ikuti jalur dari warga kampung Bunut ke penanam durian, lalu ke bukan pegawai kantor Cerebrum. Jadi, tidak ada warga kampung Bunut yang menjadi pegawai kantor Cerebrum. A dan E bertentangan dengan simpulan ini. C dan D bertentangan dengan Premis 2. B benar karena menyatakan kembali Premis 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian politikus suka popularitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua politikus suka memengaruhi pihak lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Tidak mungkin ada politikus yang tidak ingin terkenal",
+            "B": "Hanya sebagian kecil saja politikus yang ingin dirinya dikenal khalayak luas",
+            "C": "Sebagian besar politikus suka menjadi orang yang populer",
+            "D": "Semua politikus yang suka popularitas, belum tentu suka memengaruhi pihak lain",
+            "E": "Ada politikus yang suka memengaruhi pihak lain tanpa ingin menjadi populer"
+          },
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Tidak ada opsi yang tepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Sebagian politikus suka popularitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Semua politikus suka memengaruhi pihak lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Logika Panah"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-15.png",
+              "lebar": 5.92,
+              "tinggi": 1.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Cepat & Eliminasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Sebagian” hanya menjamin bahwa ada anggota yang memenuhi pernyataan. A, B, dan C mengubah cakupannya. D bertentangan dengan aturan untuk semua politikus. E menambahkan keberadaan politikus yang tidak ingin populer."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cek Jalur Logika"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1 memastikan ada politikus pada cabang “suka popularitas”. Panah ke kiri berlaku untuk semua politikus, termasuk mereka. Jadi, ada politikus yang suka popularitas dan suka memengaruhi pihak lain. Cabang “tidak suka popularitas” menunjukkan kemungkinan. Premis 1 belum memastikan ada politikus pada cabang itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, tidak ada opsi yang memuat simpulan yang tepat."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 5",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua yang memabukkan adalah haram."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alkohol adalah minuman yang memabukkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Sebagian alkohol memabukkan",
+            "B": "Sebagian alkohol haram",
+            "C": "Semua alkohol tidak memabukkan",
+            "D": "Alkohol itu halal",
+            "E": "Alkohol haram"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Semua yang memabukkan adalah haram."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Alkohol adalah minuman yang memabukkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Logika Panah"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-16.png",
+              "lebar": 5.92,
+              "tinggi": 0.8
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Cepat & Eliminasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola semua + semua menghasilkan kesimpulan yang berlaku bagi seluruh kelompok awal. A hanya menyinggung sifat memabukkan. B menyatakan hasil yang lebih lemah. C dan D bertentangan dengan penggolongan pada premis jika alkohol yang dimaksud ada."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cek Jalur Logika"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal ini, alkohol ditempatkan dalam kelompok yang memabukkan. Ketentuan pada premis pertama berlaku untuk seluruh kelompok itu. E menyatakan hasil rantai secara utuh. Jika keberadaan alkohol diasumsikan, B juga dapat benar sebagai pernyataan yang lebih lemah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah E."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 6",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian siswa SDN 02 suka bakso."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua siswa suka soto."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulannya adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Siswa SDN 02 yang suka bakso pasti juga suka soto",
+            "B": "Siswa SDN 02 yang tidak suka soto suka bakso",
+            "C": "Belum tentu siswa SDN 02 yang tidak suka bakso suka soto",
+            "D": "Siswa SDN 02 yang suka soto pastilah juga suka bakso",
+            "E": "Selain suka bakso pastilah ada sebagian siswa SDN 02 yang suka soto"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Sebagian siswa SDN 02 suka bakso."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Semua siswa suka soto."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Logika Panah"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-17.png",
+              "lebar": 5.92,
+              "tinggi": 1.08
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Cepat & Eliminasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi A membahas siswa SDN 02 yang suka bakso. Premis 1 memastikan kelompok ini ada, dan ketentuan pada Premis 2 juga berlaku untuk mereka. B dan C bertentangan dengan ketentuan bahwa semua siswa suka soto. D membalik arah hubungan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cek Jalur Logika"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulai dari cabang “suka bakso”, lalu gunakan Premis 2. Setiap siswa pada cabang itu juga suka soto, sehingga A benar. Jika E hanya menyatakan bahwa ada siswa SDN 02 yang suka soto, E juga dapat benar. Jika E merujuk pada kelompok lain, keberadaan kelompok itu belum pasti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah A."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

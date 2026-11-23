@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Logika Kondisional (Jika–Maka)",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Verbal Silogisme - Logika Kondisional (Jika-Maka)",
+    "sumber": "https://docs.google.com/document/d/1L6suAU2DvA1EyDrR1JpB3oXSuUpL0jlo2lIXJ_KNjx0/edit",
+    "bagian": "soal",
+    "id_katalog": "vs-02-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika hujan mengakibatkan banjir, maka sekolah saya diliburkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hari ini turun hujan yang mengakibatkan banjir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang tepat adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "Hujan mengakibatkan banjir jika dan hanya jika sekolah saya libur",
+            "B": "Jika sekolah saya diliburkan maka hujan mengakibatkan banjir",
+            "C": "Hujan mengakibatkan banjir tetapi sekolah saya tidak diliburkan",
+            "D": "Sekolah saya diliburkan",
+            "E": "Sekolah saya tidak diliburkan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika hujan mengakibatkan banjir, maka sekolah saya diliburkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Hari ini turun hujan yang mengakibatkan banjir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Hujan mengakibatkan banjir"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Sekolah saya diliburkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Ponens"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Sekolah saya diliburkan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika ada makanan manis, maka semut datang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semut tidak datang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang tepat adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "Tidak ada makanan manis",
+            "B": "Makanan tidak manis",
+            "C": "Makanan tidak manis melainkan gurih",
+            "D": "Jika terlihat semut datang maka ada makanan manis",
+            "E": "Ada makanan manis"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika ada makanan manis, maka semut datang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Semut tidak datang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Ada makanan manis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Semut datang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: ¬q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Modus Tollens"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Tidak ada makanan manis."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika hujan deras maka sepatu saya berpotensi basah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika sepatu saya berpotensi basah maka saya memakai sandal musala."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat untuk pernyataan di atas adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Hujan tidak deras",
+            "B": "Hujan tidak deras dan saya memakai sandal musala",
+            "C": "Jika hujan deras maka saya memakai sandal musala",
+            "D": "Jika hujan deras atau saya memakai sandal musala maka sepatu saya basah",
+            "E": "Jika hujan tidak deras maka saya tidak memakai sandal musala"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika hujan deras maka sepatu saya berpotensi basah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Jika sepatu saya berpotensi basah maka saya memakai sandal musala."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Hujan deras"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Sepatu saya berpotensi basah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r: Saya memakai sandal musala"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: q → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan Silogisme Kondisional"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: p → r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Jika hujan deras maka saya memakai sandal musala."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika Faza sakit perut, maka toilet dipakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faza tidak sakit perut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Toilet dipakai",
+            "B": "Toilet tidak dipakai",
+            "C": "Faza sakit perut dan toilet dipakai",
+            "D": "Faza sakit perut atau toilet tidak dipakai",
+            "E": "Tidak dapat disimpulkan"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: Jika Faza sakit perut, maka toilet dipakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: Faza tidak sakit perut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p: Faza sakit perut"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q: Toilet dipakai"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 1: p → q"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Premis 2: ¬p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pola Tidak Dapat Disimpulkan (TDS). Premis 2 menyatakan bahwa bagian “jika” tidak terjadi. Toilet bisa dipakai dan bisa tidak dipakai. Kedua keadaan cocok dengan kedua premis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan: Tidak dapat disimpulkan apakah toilet dipakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban: Tidak dapat disimpulkan apakah toilet dipakai."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

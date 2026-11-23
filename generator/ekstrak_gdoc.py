@@ -14,6 +14,7 @@ agar diisi tim akademik lewat editor.
 from __future__ import annotations
 
 import argparse
+import copy
 import io
 import json
 import os
@@ -558,6 +559,26 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
     naskah["penutup"]["ringkasan"] = [
         {"judul": sub["subbab"], "teks": ""} for sub in naskah["materi"] if sub["subbab"] != "Contoh Soal"][:6]
     return naskah
+
+
+def pisah_soal(naskah, nama_file_soal):
+    """(naskah materi, naskah contoh soal) dari dokumen yang memuat keduanya.
+
+    Naskah contoh soal hanya berisi soal dan pembahasannya (meta.bagian = "soal"); pendahuluan, tujuan,
+    dan penutup milik materi, jadi dikosongkan dan slidenya dilewati buat_materi.
+    """
+    def berisi_soal(sub):
+        return any(s["tipe"] == "contoh_soal" for s in sub["slide"])
+
+    materi, soal = copy.deepcopy(naskah), copy.deepcopy(naskah)
+    materi["materi"] = [s for s in materi["materi"] if not berisi_soal(s)]
+    soal["materi"] = [s for s in soal["materi"] if berisi_soal(s)]
+    soal["meta"].update(judul=f"Contoh Soal {naskah['meta']['judul']}", nama_file=nama_file_soal, bagian="soal")
+    soal["meta"].pop("subjudul", None)
+    soal["pendahuluan"] = {"paragraf": [], "pemantik": "", "ikon": "presenter"}
+    soal["tujuan"] = dict(naskah["tujuan"], butir=[])
+    soal["penutup"] = {"judul": "Yang Perlu Diingat", "ringkasan": [], "pesan": ""}
+    return materi, soal
 
 
 def main(argv=None):

@@ -549,9 +549,19 @@ class Pembangun:
         for sumber, langkah in (("meta", self.sampul), ("peta_subtes", self.peta_subtes),
                                 ("pendahuluan", self.pendahuluan), ("tujuan", self.tujuan),
                                 ("materi", self.materi), ("penutup", self.penutup), (None, self.penutup_akhir)):
+            if self._bagian_dilewati(sumber):
+                continue
             self.sumber = sumber
             langkah()
         self.selesaikan()
+
+    def _bagian_dilewati(self, sumber):
+        """Deck contoh soal (meta.bagian 'soal') tidak punya pendahuluan, tujuan, dan penutup sendiri;
+        slidenya dilewati selama masih kosong."""
+        if self.k["meta"].get("bagian") != "soal" or sumber not in ("pendahuluan", "tujuan", "penutup"):
+            return False
+        isi = self.k.get(sumber) or {}
+        return not any(isi.get(x) for x in ("paragraf", "pemantik", "gambar", "butir", "ringkasan", "pesan"))
 
 
 # ---------------------------------------------------------------- ekspor ---

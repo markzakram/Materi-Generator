@@ -201,7 +201,8 @@ def ringkas_naskah(n):
     materi = n.get("materi") or []
     isi = [s for sub in materi for s in sub.get("slide", [])]
     perlu = []
-    if not (n.get("pendahuluan") or {}).get("pemantik"):
+    deck_soal = (n.get("meta") or {}).get("bagian") == "soal"  # contoh soal tidak punya pendahuluan sendiri
+    if not deck_soal and not (n.get("pendahuluan") or {}).get("pemantik"):
         perlu.append("pertanyaan pemantik")
     if any(not b.get("level") for b in (n.get("tujuan") or {}).get("butir", [])):
         perlu.append("level Bloom")

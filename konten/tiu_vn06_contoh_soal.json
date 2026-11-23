@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Distribusi & Kategori",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Verbal Analitis - Distribusi & Kategori",
+    "sumber": "https://docs.google.com/document/d/1-ErwLanWs1_69ZqH71-b5UwPx23T7oQEmE6I1elfROw/edit",
+    "bagian": "soal",
+    "id_katalog": "vn-06-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sukma, Bayu dan Alya bersekolah di SMA yang sama. Masing-masing dari mereka mengikuti dua jenis ekstrakurikuler di sekolahnya. Terdapat beberapa informasi sebagai berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1.Hanya salah satu di antara mereka yang tidak mengikuti ekstrakurikuler basket"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2.Bayu adalah satu- satunya di antara mereka yang mengikuti ekstrakurikuler paduan suara"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3.Alya mengikuti ekstrakurikuler basket"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4.Sukma dan Bayu sama- sama mengikuti ekstrakurikuler teater"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di antara mereka bertiga, siapakah yang mengikuti ekstrakurikuler fotografi?"
+            }
+          ],
+          "opsi": {
+            "A": "Hanya Alya",
+            "B": "Hanya Bayu",
+            "C": "Hanya Sukma",
+            "D": "Sukma dan Bayu",
+            "E": "Sukma dan Alya"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Mengisi pasangan pasti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bayu mengikuti paduan suara dan teater. Kuota dua kegiatannya sudah penuh, sehingga Bayu tidak mengikuti basket maupun fotografi. Sukma mengikuti teater, dan Alya mengikuti basket."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menerapkan kuota"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hanya satu siswa yang tidak mengikuti basket. Siswa itu adalah Bayu, sehingga Sukma juga mengikuti basket. Kuota Sukma kini penuh oleh teater dan basket."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa pilihan yang tersisa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alya sudah mengikuti basket dan masih membutuhkan satu kegiatan. Sukma dan Bayu sudah memenuhi kuota, sehingga Alya satu-satunya yang bisa mengikuti fotografi. Petunjuk masih membolehkan Alya mengambil teater sebagai kegiatan kedua. Dalam susunan itu, tidak ada peserta fotografi. Tanda tanya pada tabel menunjukkan pilihan Alya yang belum dapat dipastikan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Siswa",
+                "Basket",
+                "Paduan suara",
+                "Teater",
+                "Fotografi",
+                "Kuota"
+              ],
+              "baris": [
+                [
+                  "Sukma",
+                  "✓",
+                  "×",
+                  "✓",
+                  "×",
+                  "2 dari 2"
+                ],
+                [
+                  "Bayu",
+                  "×",
+                  "✓",
+                  "✓",
+                  "×",
+                  "2 dari 2"
+                ],
+                [
+                  "Alya",
+                  "✓",
+                  "×",
+                  "?",
+                  "?",
+                  "1 dari 2 pasti"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua susunan lengkap berikut menunjukkan mengapa Alya bisa mengikuti fotografi dan mengapa keberadaan peserta fotografi belum pasti."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn06_distribusi_kategori/gambar-03.png",
+              "lebar": 6.06,
+              "tinggi": 1.69
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alya satu-satunya siswa yang masih bisa mengikuti fotografi. Kunci A berlaku jika diasumsikan ada siswa yang mengikuti fotografi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gina membutuhkan berbagai jenis bunga untuk kado pernikahan orang tuanya. Terdapat 5 toko bunga di kota terdiri dari Toko A, Toko B, Toko C, Toko D, dan Toko E."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga mawar dapat ditemukan di Toko A, B, C, dan E."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua toko menjual bunga lili. Hanya Toko B yang tidak menjual bunga anggrek."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko B dan Toko E tidak menjual bunga tulip."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga dahlia dapat ditemukan di toko B,C, dan E."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko apa yang akan dikunjungi Gina jika Gina membutuhkan bunga mawar, lili, anggrek, tulip dan dahlia?"
+            }
+          ],
+          "opsi": {
+            "A": "Toko A",
+            "B": "Toko B",
+            "C": "Toko c",
+            "D": "Toko D",
+            "E": "Toko E"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1 — Mencatat kebutuhan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gina membutuhkan satu toko yang menjual mawar, lili, anggrek, tulip, dan dahlia. Semua toko menjual lili, sehingga kategori itu tidak menggugurkan pilihan mana pun."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2 — Menyaring toko dari petunjuk"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dahlia hanya tersedia di B, C, dan E menurut daftar soal. Toko A dan D gugur karena tidak menyediakan dahlia. Toko B dan E gugur karena tidak menjual tulip. Toko C menjadi satu-satunya kandidat yang tersisa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3 — Memeriksa kelima kategori"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko C ada dalam daftar penjual mawar dan dahlia, menjual lili seperti semua toko, serta tidak termasuk toko yang dikecualikan untuk anggrek dan tulip. Tabel berikut membaca daftar ketersediaan dan pengecualian sebagai daftar lengkap, sebagaimana dimaksud soal."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Toko",
+                "Mawar",
+                "Lili",
+                "Anggrek",
+                "Tulip",
+                "Dahlia"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "×"
+                ],
+                [
+                  "B",
+                  "✓",
+                  "✓",
+                  "×",
+                  "×",
+                  "✓"
+                ],
+                [
+                  "C",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "✓"
+                ],
+                [
+                  "D",
+                  "×",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "×"
+                ],
+                [
+                  "E",
+                  "✓",
+                  "✓",
+                  "✓",
+                  "×",
+                  "✓"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko C menyediakan kelima bunga yang dibutuhkan. Jawaban yang benar adalah C. PPT Materi OLD mencantumkan D, tetapi Toko D tidak tercantum dalam daftar penjual mawar dan dahlia."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}
