@@ -1,0 +1,629 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pengenalan OJK dan Waspada Investasi",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Pengenalan OJK dan Waspada Investasi",
+    "sumber": "https://docs.google.com/document/d/1QK4EVB5S5xiv59vimc2f3SVJcWAQaVd_TCDRPpblugE/edit",
+    "bagian": "soal",
+    "id_katalog": "sjk-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dasar Pembentukan dan Pembaruan Hukum",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dasar pembentukan OJK yang tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "UU No. 4 Tahun 2023",
+            "B": "UU No. 21 Tahun 2011",
+            "C": "POJK No. 22 Tahun 2023",
+            "D": "PP No. 49 Tahun 2024",
+            "E": "UU No. 7 Tahun 1992"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK dibentuk melalui UU Nomor 21 Tahun 2011. UU 4/2023 memperbarui kerangka sektor keuangan dan sejumlah kewenangan, bukan menggantikan identitas UU pembentukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Identifikasi kata “dibentuk”, bukan “diubah”."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan Visi, Misi, dan Tujuan",
+          "soal": [
+            {
+              "jenis": "subjudul",
+              "teks": "Soal 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK memerintahkan lembaga keuangan memperbaiki praktik penyampaian informasi biaya. Contoh tersebut paling langsung menunjukkan ..."
+            }
+          ],
+          "opsi": {
+            "A": "tujuan umum negara",
+            "B": "kewenangan pengawasan",
+            "C": "fungsi pencetakan uang",
+            "D": "penjaminan simpanan",
+            "E": "kebijakan fiskal"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Memberikan tindakan pengawasan dan perintah kepada pelaku usaha merupakan contoh penggunaan kewenangan OJK, bukan fungsi moneter, fiskal, atau penjaminan simpanan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari kata tindakan konkret pengawas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Soal 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Salah satu ketentuan mengenai OJK menyebutkan bahwa kegiatan sektor jasa keuangan harus mampu melindungi kepentingan konsumen dan masyarakat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketentuan tersebut merupakan bagian dari ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tujuan pembentukan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Struktur kelembagaan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Mekanisme pengawasan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Kewenangan administratif OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tata kelola organisasi OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban:** A. Tujuan pembentukan OJK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan UU Nomor 21 Tahun 2011 tentang OJK sebagaimana telah diubah, salah satu tujuan pembentukan OJK adalah agar keseluruhan kegiatan di sektor jasa keuangan mampu melindungi kepentingan konsumen dan masyarakat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan pada soal menunjukkan hasil yang ingin dicapai melalui pembentukan OJK, bukan struktur organisasi, mekanisme pengawasan, kewenangan administratif, atau tata kelola kelembagaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah A. Tujuan pembentukan OJK."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Fungsi dan Kewenangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK menginstruksikan perusahaan pembiayaan memperbaiki penyajian biaya produk. Ini terutama merupakan pelaksanaan ..."
+            }
+          ],
+          "opsi": {
+            "A": "kebijakan moneter",
+            "B": "kewenangan pengawasan",
+            "C": "penjaminan simpanan",
+            "D": "penetapan pajak",
+            "E": "penerbitan mata uang"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perintah dalam rangka kepatuhan pelaku usaha merupakan tindakan pengawasan OJK, bukan fungsi BI atau LPS."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** B sesuai konsep; opsi lainnya mencampur mandat, mengabaikan syarat, atau menyimpulkan hal yang tidak didukung stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Independensi dan Akuntabilitas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang paling tepat mengenai independensi OJK adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Bebas dari seluruh bentuk pengawasan.",
+            "B": "Berwenang tanpa batasan peraturan.",
+            "C": "Mandiri dengan tetap bertanggung jawab.",
+            "D": "Bertanggung jawab kepada pelaku usaha.",
+            "E": "Mengutamakan kepentingan lembaga tertentu."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Independensi OJK berarti OJK menjalankan tugas dan kewenangannya secara mandiri sesuai ketentuan peraturan perundang-undangan, tanpa campur tangan pihak lain yang bertentangan dengan hukum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, independensi tidak menghilangkan kewajiban OJK untuk mempertanggungjawabkan pelaksanaan tugas dan kewenangannya. OJK tetap harus menerapkan prinsip akuntabilitas dan tata kelola yang baik."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Independen tidak sama dengan tanpa pengawasan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Struktur Organisasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam struktur OJK, pengawasan atas bank umum secara sektoral berada pada bidang yang dipimpin oleh ..."
+            }
+          ],
+          "opsi": {
+            "A": "Kepala Eksekutif Pengawas Perbankan",
+            "B": "Kepala Eksekutif Pengawas Pasar Modal",
+            "C": "Deputi Gubernur BI",
+            "D": "Kepala LPS",
+            "E": "Menteri Perdagangan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Struktur pengawasan OJK mengelompokkan pekerjaan sesuai sektor. Kepala Eksekutif Pengawas Perbankan memimpin bidang pengawasan sektor perbankan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** A sesuai konsep; opsi lainnya mencampur mandat, mengabaikan syarat, atau menyimpulkan hal yang tidak didukung stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dewan Komisioner dan Profil",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menjawab soal tentang nama pejabat dan masa jabatan OJK, sumber yang paling tepat untuk diprioritaskan adalah…"
+            }
+          ],
+          "opsi": {
+            "A": "Akun media sosial tidak resmi",
+            "B": "Daftar pejabat dari buku lama tanpa tanggal",
+            "C": "Profil resmi OJK yang bertanggal mutakhir",
+            "D": "Pesan berantai",
+            "E": "Iklan lowongan anonim"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Keanggotaan Dewan Komisioner dapat berubah; profil yang tersedia harus dibandingkan dengan kanal resmi terbaru. Jangan menghafal profil sebagai informasi tetap sepanjang waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** C sesuai konsep; opsi lainnya mencampur mandat, mengabaikan syarat, atau menyimpulkan hal yang tidak didukung stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Nilai-Nilai dan Etika",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang pemeriksa menemukan hubungan pribadi dengan pihak yang diawasinya. Tindakan yang paling selaras dengan integritas adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Membatasi komunikasi dengan pihak terkait.",
+            "B": "Melaporkan potensi benturan kepentingan.",
+            "C": "Melanjutkan pemeriksaan secara mandiri.",
+            "D": "Meminta pihak terkait menjaga kerahasiaan.",
+            "E": "Menyerahkan keputusan kepada pihak terkait."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "ntegritas mengharuskan pemeriksa menjaga objektivitas, transparansi, dan profesionalisme. Ketika terdapat hubungan pribadi dengan pihak yang diawasi, pemeriksa perlu melaporkan potensi benturan kepentingan melalui mekanisme yang berlaku agar dapat ditangani secara tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** B sesuai konsep; opsi lainnya mencampur mandat, mengabaikan syarat, atau menyimpulkan hal yang tidak didukung stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "identifikasi kata kunci soal, tentukan domain kewenangan atau prinsip yang ditanya, lalu eliminasi opsi yang terlalu mutlak."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Peta Produk Jasa Keuangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Produk yang pada umumnya terkait pasar modal adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Reksa dana",
+            "B": "Rekening giro",
+            "C": "Polis asuransi kesehatan",
+            "D": "Kredit kendaraan",
+            "E": "Program manfaat pensiun"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Reksa dana adalah instrumen investasi pasar modal, sedangkan opsi lain mencerminkan perbankan, asuransi, pembiayaan, atau pensiun."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kenali instrumen, bukan hanya nama perusahaan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "OJK, BI, LPS",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga yang menjalankan penjaminan simpanan bank sesuai persyaratan yang berlaku adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "OJK",
+            "B": "Bappebti",
+            "C": "Kementerian Perdagangan",
+            "D": "LPS",
+            "E": "Bursa Efek"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "LPS memiliki mandat penjaminan simpanan yang memenuhi persyaratan. OJK berfokus pada pengaturan/pengawasan, BI pada moneter dan sistem pembayaran dalam ruang mandatnya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Frasa “penjaminan simpanan” mengarah ke LPS."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Prinsip Pelindungan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "PUJK tidak menjelaskan biaya administrasi material hingga konsumen menandatangani perjanjian. Prinsip yang paling langsung dilanggar ialah ..."
+            }
+          ],
+          "opsi": {
+            "A": "persaingan sehat",
+            "B": "keterbukaan dan transparansi",
+            "C": "inflasi terkendali",
+            "D": "stabilitas moneter",
+            "E": "perluasan kredit"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kegagalan menyampaikan informasi biaya sejak awal berkaitan langsung dengan keterbukaan dan transparansi dalam POJK 22/2023."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ambil kata kunci “informasi biaya”."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Keamanan Data",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Petugas meminta nasabah mengirimkan OTP lewat pesan pribadi. Sikap yang benar adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Memberikan agar proses cepat",
+            "B": "Mengirim kepada teman petugas",
+            "C": "Menolak dan memverifikasi melalui kanal resmi",
+            "D": "Mengunggah OTP ke grup",
+            "E": "Memberi OTP bila pelaku memakai logo bank"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "OTP adalah kredensial sensitif. Logo atau identitas yang diklaim tidak cukup sebagai verifikasi; gunakan kanal resmi dan jangan membagikan OTP."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kredensial tidak dibagikan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Prinsip 2L",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah platform investasi mengaku telah memiliki izin resmi dan menawarkan keuntungan tetap sebesar 20% setiap minggu tanpa risiko kerugian. Berdasarkan prinsip Legal dan Logis (2L), tindakan yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Memastikan izin usaha dan riwayat keuntungan.",
+            "B": "Memeriksa izin resmi dan kewajaran imbal hasil.",
+            "C": "Membandingkan keuntungan dengan produk sejenis.",
+            "D": "Memastikan izin usaha dan testimoni investor.",
+            "E": "Memeriksa laporan keuangan dan reputasi usaha."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip 2L terdiri atas Legal dan Logis. Legal berarti memeriksa legalitas penyelenggara dan kesesuaian izin dengan kegiatan usaha yang ditawarkan. Logis berarti menilai kewajaran keuntungan, risiko, dan mekanisme investasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penawaran keuntungan tetap 20% setiap minggu tanpa risiko merupakan tanda bahaya yang perlu diwaspadai. Meskipun penyelenggara mengaku memiliki izin, klaim tersebut tetap harus diperiksa secara kritis."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Legal = izin sesuai kegiatan usaha. Logis = keuntungan dan risiko masuk akal."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Skema Berbasis Rekrutmen",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Program memberi keuntungan utama dari biaya peserta baru dan tidak menjelaskan kegiatan ekonomi nyata. Kesimpulan paling tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Pasti aman",
+            "B": "Bebas risiko",
+            "C": "Patut diduga berisiko tinggi dan harus diverifikasi",
+            "D": "Otomatis dijamin LPS",
+            "E": "Selalu lebih baik daripada tabungan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ketergantungan pada anggota baru dan ketiadaan sumber hasil jelas adalah tanda bahaya. Penetapan status ilegal tetap memerlukan verifikasi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari sumber hasil ekonominya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Satgas PASTI",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nomenklatur terkini dari Satgas Waspada Investasi adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Satgas Penjaminan",
+            "B": "Satgas PASTI",
+            "C": "Komite Pasar Modal",
+            "D": "Dewan Moneter",
+            "E": "LAPS"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "SWI merupakan sebutan historis; Satgas PASTI digunakan untuk koordinasi penanganan aktivitas keuangan ilegal."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan buku historis dan istilah terkini."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pengaduan Layanan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang konsumen menemukan biaya tambahan pada layanan perusahaan jasa keuangan berizin yang tidak tercantum dalam kontrak. Konsumen tersebut ingin mengajukan pengaduan agar permasalahannya dapat ditindaklanjuti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah awal yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Melaporkan biaya tersebut kepada OJK.",
+            "B": "Mengajukan sengketa melalui LAPS SJK.",
+            "C": "Mengadukan masalah kepada PUJK terkait.",
+            "D": "Meminta mediasi dari lembaga konsumen.",
+            "E": "Melaporkan dugaan pelanggaran ke polisi."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Konsumen yang menemukan biaya tambahan tidak sesuai kontrak perlu terlebih dahulu menyampaikan pengaduan kepada Pelaku Usaha Jasa Keuangan (PUJK) terkait melalui kanal resmi, disertai bukti pendukung seperti kontrak dan rincian biaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apabila pengaduan tidak terselesaikan, konsumen dapat menggunakan mekanisme eskalasi atau penyelesaian sengketa sesuai ketentuan yang berlaku."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pengaduan awal → PUJK. Jika belum terselesaikan → eskalasi sesuai ketentuan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Aset Kripto",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sejak peralihan kewenangan pada Januari 2025, pengaturan dan pengawasan perdagangan aset keuangan digital termasuk aset kripto beralih dari Bappebti kepada ..."
+            }
+          ],
+          "opsi": {
+            "A": "LPS",
+            "B": "Kementerian Pariwisata",
+            "C": "OJK",
+            "D": "BPS",
+            "E": "DJP"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Peralihan pengawasan ke OJK dilaksanakan sejalan dengan UU P2SK dan aturan pelaksananya. Peralihan tersebut tidak menjamin nilai aset."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan konteks tanggal soal."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

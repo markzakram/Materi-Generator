@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbandingan Senilai dan Berbalik",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Numerik - Perbandingan Senilai dan Berbalik",
+    "sumber": "https://docs.google.com/document/d/1qNrxIuWwYbY6CPXLj6c4f_OFsHv8F39GGDqFtJAcpHk/edit",
+    "bagian": "soal",
+    "id_katalog": "nu-14-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 50 sapi menghabiskan 80 karung rumput dalam waktu 1 bulan. Jika terdapat tambahan 10 sapi, maka akan menghabiskan berapa karung rumput?"
+            }
+          ],
+          "opsi": {
+            "A": "16",
+            "B": "32",
+            "C": "84",
+            "D": "96",
+            "E": "108"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pembahasan ini, x menyatakan banyak karung rumput yang dihabiskan oleh 60 sapi selama satu bulan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$50 sapi→80 karung rumput$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat tambahan 10 sapi, sehingga $50+10=60$ sapi"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$60 sapi→x karung rumput$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "*Lihat bahwa jika sapi bertambah (↑), maka karung rumput yang dihabiskan juga akan bertambah (↑)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka digunakanlah perbandingan senilai:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$50 sapi→80 karung rumput$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$60 sapi→x karung rumput$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$50/60=80/x$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=80·60/50$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=80·6/5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=16·6$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=96 karung rumput$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu yang dibandingkan sama-sama satu bulan. Perhitungan juga menggunakan kebutuhan rumput per sapi yang sama. Jumlah sapi yang baru adalah seluruh 60 sapi, sehingga perbandingan memakai 50 dan 60."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pecahan 60 per 50 disederhanakan menjadi 6 per 5 dengan membagi pembilang dan penyebut oleh 10. Setelah itu, 80 dibagi 5 menjadi 16, lalu dikalikan 6. Hasil 96 karung lebih besar daripada 80 karung, sesuai dengan pertambahan jumlah sapi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu pekerjaan dapat diselesaikan oleh 20 orang dalam waktu 40 hari. Jika ada tambahan 5 orang pekerja, maka pekerjaan akan selesai dalam berapa hari?"
+            }
+          ],
+          "opsi": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Catatan kesesuaian angka"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan menyebut waktu awal 40 hari. Perhitungan yang menghasilkan 8 hari di bawah memakai waktu awal 10 hari. Untuk waktu awal 40 hari, hasilnya adalah 32 hari dan belum tersedia pada pilihan jawaban. Kedua perhitungan dijelaskan agar perbedaan angkanya jelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhitungan berikut berlaku untuk waktu awal 10 hari."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20 pekerja→10 hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat tambahan 5 pekerja, sehingga $20+5=25$ pekerja"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$25 pekerja→x hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "*Lihat bahwa jika pekerja bertambah (↑), maka lama pekerjaan akan semakin cepat/berkurang (↓)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka digunakanlah perbandingan berbalik:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20 pekerja→10 hari$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$25 pekerja→x hari$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20/25=x/10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=20/25·10$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=200/25$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=8 hari$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Koreksi untuk waktu awal 40 hari"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan jumlah pekerja awal 20 orang dan tambahan 5 orang, jumlah pekerja baru tetap 25 orang. Masukkan waktu 40 hari sebagaimana tertulis dalam pertanyaan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$20/25=x/40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=20/25·40$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x=800/25=32 hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, untuk pertanyaan dengan waktu awal 40 hari, jawabannya adalah 32 hari. Hasil ini lebih singkat daripada 40 hari karena jumlah pekerja bertambah. Pilihan 8 hari sesuai apabila waktu awalnya 10 hari."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Aset Kripto",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Aset Kripto",
+    "sumber": "https://docs.google.com/document/d/1U_eiFlONn42doVtw_osfN51q7cgUBpd9/edit",
+    "bagian": "soal",
+    "id_katalog": "sjk-15-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Lembaga Pengawas Aset Kripto",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pengaturan perdagangan aset keuangan digital di Indonesia setelah peralihan kewenangan 2025, lembaga yang menjadi pengawas utamanya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Bank Indonesia yang mengatur fungsi sistem pembayaran nasional",
+            "B": "Otoritas Jasa Keuangan yang mengatur dan mengawasi sektor AKD",
+            "C": "Bappebti yang sebelumnya mengawasi perdagangan aset kripto",
+            "D": "Kementerian Perdagangan yang mengatur izin usaha perdagangan",
+            "E": "Bursa AKD yang menetapkan tata tertib kegiatan perdagangan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pengawasan perdagangan AKD"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "OJK menerima tugas pengaturan dan pengawasan AKD termasuk kripto dari Bappebti. Bank Indonesia tetap memiliki kewenangan sistem pembayaran; LPS tidak menjamin harga kripto."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan otoritas pengawas perdagangan dari otoritas pembayaran."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Fungsi Lembaga dalam Ekosistem",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam skema penyelenggaraan AKD, lembaga yang berfokus pada kliring, penjaminan, dan penyelesaian transaksi ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Pedagang yang meneruskan amanat jual beli konsumen",
+            "B": "Pengelola yang memelihara sistem penyimpanan aset",
+            "C": "Otoritas yang menetapkan kebijakan pengawasan nasional",
+            "D": "Lembaga kliring penjaminan dan penyelesaian transaksi",
+            "E": "Bursa yang menetapkan daftar aset dalam ketentuan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kelembagaan AKD"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Istilah kliring, penjaminan, dan penyelesaian merujuk langsung pada fungsi lembaga kliring. Pedagang, bursa, dan pengelola penyimpanan memiliki peran berbeda."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pasangkan kata “kliring” dengan lembaga kliring, bukan pedagang."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kelayakan Aset untuk Diperdagangkan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu token ramai dibahas, tetapi tidak tercantum dalam DAKD yang ditetapkan bursa. Penilaian yang tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Aset itu tidak dapat diperdagangkan dalam pasar yang diatur OJK",
+            "B": "Aset tersebut dapat dijual bebas karena volume media sosial besar",
+            "C": "Aset tersebut otomatis diperbolehkan jika pendukungnya banyak",
+            "D": "Aset tersebut cukup disetujui konsumen tanpa mengikuti daftar",
+            "E": "Aset tersebut sah begitu dipromosikan aplikasi keuangan umum"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Daftar Aset Keuangan Digital"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketentuan POJK 23/2025 melarang penyelenggara memperdagangkan AKD selain yang berada dalam DAKD yang ditetapkan bursa. Kepopuleran tidak menggantikan syarat tersebut."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari istilah “di luar DAKD”; popularitas bukan pengganti regulasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Aset Kripto dan Pembayaran",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang benar mengenai penggunaan aset kripto di Indonesia adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Kripto merupakan mata uang nasional pengganti rupiah",
+            "B": "Kripto otomatis menjadi alat bayar jika nilainya stabil",
+            "C": "Kripto boleh menjadi alat bayar setelah masuk DAKD",
+            "D": "Kripto sah untuk membayar semua kewajiban domestik",
+            "E": "Kripto bukan alat pembayaran sah di wilayah Indonesia"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Alat pembayaran dan aset"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bank Indonesia menegaskan virtual currency bukan alat pembayaran yang sah. Aturan perdagangan AKD tidak mengubah kedudukan rupiah sebagai mata uang nasional."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan legalitas perdagangan dari status alat pembayaran."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Prinsip Buku Besar Terdistribusi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari sudut konsep, ciri buku besar terdistribusi pada jaringan blockchain adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Seluruh catatan disimpan dalam satu berkas milik satu pedagang",
+            "B": "Semua data transaksi ditentukan melalui keputusan bank sentral",
+            "C": "Catatan disebarkan dan divalidasi menurut aturan jaringan",
+            "D": "Nilai semua token dipertahankan tetap melalui jaringan bursa",
+            "E": "Pembeli selalu mendapat jaminan pengembalian dari regulator"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Blockchain dan ledger"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Blockchain merupakan contoh penerapan buku besar terdistribusi. Validasi catatan dan mekanisme jaringan bukan kewenangan menetapkan keuntungan atau menjamin harga."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ledger menjawab pencatatan dan validasi, bukan garansi imbal hasil."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Fungsi Pengelola Tempat Penyimpanan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah kasus menitikberatkan pengamanan dan pencatatan aset digital yang menjadi hak konsumen. Pelaku ekosistem paling relevan ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Pengelola tempat penyimpanan sesuai lingkup perizinan",
+            "B": "Lembaga kliring yang memproses penyelesaian transaksi",
+            "C": "Bursa yang menetapkan aturan dan daftar aset digital",
+            "D": "Pedagang yang menyediakan akses perdagangan konsumen",
+            "E": "Otoritas yang mengatur pengawasan pelaku industri"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penyimpanan AKD"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengelola tempat penyimpanan mempunyai peran menjaga dan mengelola penyimpanan aset sesuai aturan. Bursa, kliring, dan pedagang memiliki fungsi lain."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kata “pengamanan dan penyimpanan” menunjuk pengelola penyimpanan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan Risiko Pasar dan Operasional",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga token turun tajam walaupun sistem perdagangan tetap normal. Risiko yang paling langsung terlihat ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Risiko kelalaian penyimpanan karena catatan aset terhapus",
+            "B": "Risiko operasional karena jaringan aplikasi tidak dapat dibuka",
+            "C": "Risiko volatilitas pasar akibat perubahan harga yang cepat",
+            "D": "Risiko gagal bayar bank karena seluruh deposito ditarik",
+            "E": "Risiko keterlambatan kliring karena semua transaksi tertahan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Risiko volatilitas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal menyebut harga berubah sementara sistem tetap normal. Itu lebih langsung menggambarkan volatilitas pasar, bukan kerusakan jaringan atau persoalan penyimpanan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanya dulu apa yang berubah: harga atau sistem."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Makna Stablecoin",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah token dirancang mengikuti nilai acuan tertentu, tetapi kemudian menyimpang dari nilai acuannya. Kesimpulan yang tepat ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Nama token stabil selalu membuktikan nilai pasti kembali",
+            "B": "Rancangan nilai stabil tetap dapat gagal menjaga acuannya",
+            "C": "Penyimpangan nilai membuktikan token sudah menjadi rupiah",
+            "D": "Perubahan harga menghapus seluruh kewajiban keterbukaan",
+            "E": "Acuan nilai menjamin token tidak terkena risiko likuiditas"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Risiko nilai acuan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Istilah stablecoin menunjuk rancangan yang berupaya menstabilkan nilai terhadap acuan. Namun, dukungan aset, tata kelola, dan kondisi pasar dapat memunculkan penyimpangan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kata “stabil” menunjukkan tujuan desain, bukan jaminan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Spot dan Derivatif AKD",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang paling tepat membedakan kepemilikan aset secara langsung dan kontrak derivatif AKD ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Kedua transaksi selalu memberikan hak kepemilikan yang sama",
+            "B": "Kontrak derivatif tidak mempunyai ketentuan penyelesaian",
+            "C": "Pembelian aset langsung otomatis berstatus kontrak derivatif",
+            "D": "Derivatif mengacu aset dasar tanpa selalu memilikinya langsung",
+            "E": "Kontrak derivatif hanya berlaku untuk transaksi mata uang fisik"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbedaan spot dan derivatif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Derivatif berkaitan dengan aset yang mendasari dan hak/kewajiban kontrak. Pemegang kontrak tidak otomatis memiliki aset dasar, berbeda dari konsep kepemilikan langsung."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari unsur kontrak yang nilainya terkait aset dasar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Persyaratan Konsumen pada Derivatif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ketentuan POJK 23/2025 menempatkan suatu langkah pemahaman bagi konsumen sebelum melakukan perdagangan derivatif AKD. Langkah itu berupa ...."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan bahwa seluruh risiko dapat ditanggung oleh bursa",
+            "B": "Jaminan dari pedagang bahwa nilai kontrak tidak pernah turun",
+            "C": "Penghapusan persyaratan informasi produk bagi semua konsumen",
+            "D": "Persetujuan lisan dari konsumen tanpa pengujian pengetahuan",
+            "E": "Knowledge test yang diadakan pedagang untuk derivatif AKD"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pelindungan konsumen derivatif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Siaran pers OJK mengenai POJK 23/2025 menyebut konsumen derivatif AKD harus mengikuti knowledge test yang diselenggarakan pedagang. Hal ini bukan jaminan keuntungan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ingat istilah khusus “knowledge test” untuk derivatif AKD."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Makna Whitelist Resmi OJK",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seseorang menunjukkan aplikasi yang berlogo mirip regulator, tetapi identitas legal entitas belum cocok dengan daftar OJK. Sikap analitis yang tepat ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Meninjau logo aplikasi yang menampilkan identitas pengawas",
+            "B": "Mencocokkan entitas dan platform pada whitelist resmi OJK",
+            "C": "Menyimpulkan izin dari komentar pengguna yang dianggap asli",
+            "D": "Mencari status izin melalui klaim unggahan media sosial",
+            "E": "Menilai legalitas dari peringkat unduhan aplikasi digital"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pemeriksaan legalitas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Whitelist OJK membantu memverifikasi izin/penetapan entitas dan aplikasi. Logo, promosi, serta testimoni tidak membuktikan status perizinan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Legalitas mengacu daftar resmi, bukan ciri tampilan aplikasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Perhitungan Perubahan Nilai secara Ilustratif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal hipotetis, harga satu unit aset turun dari Rp200.000 menjadi Rp170.000. Berapa persentase perubahan harga tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "Turun 15% karena selisih dibagi harga awal Rp200.000",
+            "B": "Turun 30% karena selisih dibanding harga akhir Rp170.000",
+            "C": "Turun 17% karena seluruh perubahan dihitung dari nilai akhir",
+            "D": "Naik 15% karena harga awal lebih besar daripada harga akhir",
+            "E": "Tetap 0% karena aset keuangan digital tidak berubah nilainya"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Persentase perubahan (ilustrasi)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih = Rp170.000 − Rp200.000 = −Rp30.000. Persentase = −30.000/200.000 × 100% = −15%. Ilustrasi ini tidak memasukkan biaya dan tidak meramalkan harga."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Selisih dibagi nilai awal; tanda negatif berarti turun."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Tanggal Peralihan Pengawasan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan kronologi yang tepat tentang pengalihan pengawasan perdagangan aset kripto adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "OJK menerima pengawasan pada 2023 dan mengakhiri transisi pada 2023",
+            "B": "Bappebti menerima kembali pengawasan penuh pada akhir tahun 2025",
+            "C": "Bank Indonesia mengambil pengawasan perdagangan mulai Januari 2026",
+            "D": "OJK memulai pengawasan untuk pertama kali pada September 2026",
+            "E": "OJK menerima kewenangan pada 10 Januari 2025 dari Bappebti"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kronologi peralihan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Proses peralihan kewenangan pengawasan AKD dari Bappebti ke OJK dilakukan 10 Januari 2025. Pengakhiran masa transisi diumumkan 20 Januari 2026, dua peristiwa yang berlainan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan tanggal serah terima kewenangan dan akhir masa transisi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Peraturan Teknis Pelaporan Tahun 2026",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan menyusun laporan berkala dan hasil evaluasi DAKD pada akhir 2026. Ketentuan pelaksanaan yang secara khusus mengatur topik ini ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Peraturan Bank Indonesia tentang penyetakan mata uang rupiah",
+            "B": "Peraturan OJK yang khusus membahas tata cara pengadaan saham",
+            "C": "PADK 3/2026 yang mengatur evaluasi daftar aset dan pelaporan",
+            "D": "Peraturan lama yang tidak mengenal laporan insidental kegiatan",
+            "E": "Peraturan pajak yang menggantikan seluruh ketentuan OJK"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pelaporan AKD"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "PADK 3/2026 memuat pelaporan hasil evaluasi aset dalam DAKD, laporan berkala/insidental, serta mekanisme penyampaian terkait kegiatan tertentu. Berlaku mulai 1 September 2026."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Istilah laporan dan evaluasi DAKD menunjuk PADK 3/2026."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Perizinan Bukan Jaminan Hasil",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang peserta menyimpulkan bahwa aset yang diperdagangkan melalui lembaga berizin pasti tidak dapat turun nilainya. Penilaian terbaik adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Izin menyatakan semua produk telah memiliki imbal hasil tetap",
+            "B": "Otoritas menanggung kerugian investasi pada pedagang berizin",
+            "C": "Status terdaftar membuat analisis risiko tidak diperlukan lagi",
+            "D": "Izin penyelenggara tidak menjamin harga aset selalu naik",
+            "E": "Pencantuman dalam DAKD memastikan hasil investasi bersifat pasti"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perizinan dan risiko"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perizinan dan pengawasan mendukung tata kelola dan pelindungan konsumen, bukan memberikan jaminan terhadap perubahan nilai pasar aset."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan legalitas lembaga dan risiko pergerakan harga."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

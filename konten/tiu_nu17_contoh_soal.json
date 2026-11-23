@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "judul": "Contoh Soal VDW (Volume, Debit, Waktu)",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Numerik - VDW (Volume, Debit, Waktu)",
+    "sumber": "https://docs.google.com/document/d/1D_IrlmVH7f4bCVN5BikuDDZ2E3-ambgtz8Uf0X_lrn4/edit",
+    "bagian": "soal",
+    "id_katalog": "nu-17-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Volume bak mandi di rumah Wandi dapat menampung air sebanyak 100 liter. Waktu yang diperlukan untuk mengisi bak mandi dalam keadaan kosong sampai penuh adalah 2 menit. Debit air yang mengalir mengisi bak mandi di rumah Wandi adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "50 liter/menit",
+            "B": "60 liter/menit",
+            "C": "70 liter/menit",
+            "D": "80 liter/menit",
+            "E": "90 liter/menit"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Volume (V)=100 liter$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Waktu (W)=2 menit$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Debit air yang mengisi bak mandi (D)."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu17_vdw_volume_debit_waktu/gambar-06.png",
+              "lebar": 3.68,
+              "tinggi": 1.39
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan segitiga VDW dan tutup D. Debit diperoleh dengan membagi volume oleh waktu. Bak mula-mula kosong, sehingga volume yang diisi sama dengan kapasitas bak."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$D=V/W$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=100/2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=50 liter/menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, debit air yang mengisi bak mandi adalah 50 liter/menit. Jawaban A."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 9.000 liter air terisi dalam sebuah bak air yang memiliki dua lubang. Karena diameter 2 lubang itu berlainan, debit air yang keluar dari keduanya juga berbeda. Lubang pembuangan pertama dapat mengeluarkan air dari bak dengan debit 150 liter/menit. Lubang kedua dapat mengeluarkan air dari bak sebanyak 50 liter/menit. Dari keterangan di atas, bisa diketahui bahwa bak air tadi dapat dikosongkan dalam waktu...."
+            }
+          ],
+          "opsi": {
+            "A": "180 menit",
+            "B": "90 menit",
+            "C": "60 menit",
+            "D": "45 menit",
+            "E": "15 menit"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Volume (V)=9.000 liter$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Debit 1 (D₁)=150 liter/menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Debit 2 (D₂)=50 liter/menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua lubang mengeluarkan air secara bersamaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu untuk mengosongkan bak (W)."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Keadaan aliran",
+                "Debit yang digunakan",
+                "Pengaruh pada isi wadah"
+              ],
+              "baris": [
+                [
+                  "Satu aliran",
+                  "$D$",
+                  "Bertambah jika masuk; berkurang jika keluar."
+                ],
+                [
+                  "Dua aliran masuk",
+                  "$D total=D₁+D₂$",
+                  "Isi wadah bertambah."
+                ],
+                [
+                  "Dua aliran keluar",
+                  "$D total=D₁+D₂$",
+                  "Isi wadah berkurang."
+                ],
+                [
+                  "Aliran masuk dan keluar",
+                  "$D bersih=D masuk−D keluar$",
+                  "Bertambah jika debit masuk lebih besar."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua aliran sama-sama keluar, sehingga debitnya dijumlahkan. Besar debit total menyatakan volume air yang berkurang setiap menit."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$D total=D₁+D₂$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=150+50$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=200 liter/menit$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu17_vdw_volume_debit_waktu/gambar-07.png",
+              "lebar": 3.68,
+              "tinggi": 1.39
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tutup W pada segitiga VDW. Volume yang dikeluarkan dibagi debit total."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=V/(D total)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=9.000/200$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=45 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, bak dapat dikosongkan dalam waktu 45 menit. Jawaban D."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mesin pompa merek A dapat mengisi penuh satu tangki air dengan kapasitas 100 liter dalam waktu 15 menit. Sedangkan, mesin pompa merek B dapat mengisi penuh satu tangki air dengan kapasitas 200 liter dalam waktu 24 menit. Dalam berapa menit dapat terisi penuh satu tangki dengan kapasitas 315 liter jika menggunakan 1 mesin pompa merek A dan 1 mesin pompa merek B secara bersama-sama?"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 21 menit"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Volume acuan pompa A (V₁)=100 liter$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Waktu pompa A (W₁)=15 menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Volume acuan pompa B (V₂)=200 liter$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Waktu pompa B (W₂)=24 menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Volume tangki tujuan (V)=315 liter$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pompa bekerja bersama-sama mengisi tangki."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu pengisian tangki 315 liter dengan kedua pompa (W)."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu17_vdw_volume_debit_waktu/gambar-08.png",
+              "lebar": 3.68,
+              "tinggi": 1.39
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung debit setiap pompa terlebih dahulu. Volume acuan dan waktu setiap pompa dipasangkan sesuai mereknya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$D₁=V₁/W₁$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=100/15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=20/3 liter/menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$D₂=V₂/W₂$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=200/24$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=25/3 liter/menit$"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Keadaan aliran",
+                "Debit yang digunakan",
+                "Pengaruh pada isi wadah"
+              ],
+              "baris": [
+                [
+                  "Satu aliran",
+                  "$D$",
+                  "Bertambah jika masuk; berkurang jika keluar."
+                ],
+                [
+                  "Dua aliran masuk",
+                  "$D total=D₁+D₂$",
+                  "Isi wadah bertambah."
+                ],
+                [
+                  "Dua aliran keluar",
+                  "$D total=D₁+D₂$",
+                  "Isi wadah berkurang."
+                ],
+                [
+                  "Aliran masuk dan keluar",
+                  "$D bersih=D masuk−D keluar$",
+                  "Bertambah jika debit masuk lebih besar."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya sama-sama memasukkan air ke tangki, sehingga debit dijumlahkan. Bentuk pecahan dipertahankan agar hasilnya tepat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$D total=D₁+D₂$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=20/3+25/3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=45/3 liter/menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=15 liter/menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan volume tangki tujuan, yaitu 315 liter, lalu bagi dengan debit total."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=V/(D total)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=315/15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=21 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, tangki 315 liter terisi penuh dalam 21 menit. Hasil ini memakai debit gabungan kedua pompa, bukan jumlah waktu kerja masing-masing pompa."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

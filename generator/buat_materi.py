@@ -367,9 +367,8 @@ class Pembangun:
             else:
                 muat = (h <= sisa or kosong) and not pindah_dulu
                 if muat and b["jenis"] == "subjudul" and i + 1 < len(blok) and not kosong:
-                    berikut = blok[i + 1]
-                    h2 = D.skala_min_gambar(berikut, w) if berikut["jenis"] == "gambar" else                         D.tinggi_blok(berikut, w, self.folder, gaya)
-                    muat = h + jarak + min(h2, 1.2) <= sisa  # subjudul ikut ke isi berikutnya
+                    # subjudul tidak boleh tertinggal sendirian di bawah halaman
+                    muat = 0.1 + self._tinggi_perlu(blok, i, w, gaya, jarak) <= sisa
             if not muat:
                 self.cek_batas(y - jarak, nama)
                 if judul_dari_subjudul and b["jenis"] == "subjudul":
@@ -393,6 +392,20 @@ class Pembangun:
         y -= jarak
         self.cek_batas(y, nama)
         return s, y
+
+    def _tinggi_perlu(self, blok, i, w, gaya, jarak):
+        """Tinggi terkecil agar blok[i] layak berada di suatu halaman: potongan pertama untuk blok yang bisa
+        dipecah, ukuran terkecil untuk gambar, dan subjudul bersama isi di bawahnya."""
+        b = blok[i]
+        if b["jenis"] == "gambar":
+            return D.skala_min_gambar(b, w)
+        pecah = BISA_DIPECAH.get(b["jenis"])
+        if pecah and len(b[pecah[0]]) > pecah[2]:
+            b = dict(b, **{pecah[0]: b[pecah[0]][:pecah[2]]})
+        h = D.tinggi_blok(b, w, self.folder, gaya)
+        if b["jenis"] == "subjudul" and i + 1 < len(blok):
+            h += jarak + self._tinggi_perlu(blok, i + 1, w, gaya, jarak)
+        return h
 
     def _bagian_muat(self, b, kunci, langkah, w, sisa):
         """Jumlah isi terbanyak (kelipatan langkah) dari b[kunci] yang muat dalam tinggi sisa."""
@@ -508,8 +521,12 @@ class Pembangun:
         """Ringkasan bernomor di kiri, kartu pesan penutup navy di kanan."""
         p = self.k["penutup"]
         if self.general:
-            s = self.baru("Penutup", hias=False, bingkai=True)
-            self.cek_batas(D._KAIT.penutup(s, p.get("ringkasan", []), p.get("pesan")), "Penutup")
+            ringkasan, pesan = p.get("ringkasan", []), p.get("pesan")
+            # pesan yang panjang dipindah ke slide penutup kedua supaya semua butir ringkasan tetap tampil
+            muat = not (ringkasan and pesan) or D._KAIT.susun_penutup(ringkasan, pesan)
+            for r, ps in [(ringkasan, pesan)] if muat else [(ringkasan, None), ([], pesan)]:
+                s = self.baru("Penutup", hias=False, bingkai=True)
+                self.cek_batas(D._KAIT.penutup(s, r, ps), "Penutup")
             return
         s = self.baru("Penutup")
         y = D.kerangka_isi(s, "Penutup", p.get("ikon_chip", "roket"), p.get("judul", "Yang Perlu Diingat"))

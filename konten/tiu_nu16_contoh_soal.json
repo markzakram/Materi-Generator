@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "judul": "Contoh Soal JKW (Jarak, Kecepatan, Waktu)",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Numerik - JKW (Jarak, Kecepatan, dan Waktu)",
+    "sumber": "https://docs.google.com/document/d/11yM9UV66x2JQMRjBGpoNzu6GAodjwEDz0n3QndRW3Bo/edit",
+    "bagian": "soal",
+    "id_katalog": "nu-16-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Rina menempuh perjalanan sejauh 18 km dalam waktu 1,5 jam. Kecepatan rata-rata perjalanan Rina adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "8 km/jam",
+            "B": "10 km/jam",
+            "C": "12 km/jam",
+            "D": "14 km/jam",
+            "E": "16 km/jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jarak (J)=18 km$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Waktu (W)=1,5 jam$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecepatan rata-rata perjalanan Rina."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-08.png",
+              "lebar": 1.46,
+              "tinggi": 1.25
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan segitiga JKW dan tutup K. J berada di atas W, sehingga jarak dibagi waktu."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=J/W$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=18/1,5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=12 km/jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, kecepatan rata-rata Rina adalah 12 km/jam. Jawaban C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua buah kereta api berjalan dengan jalur yang sama dengan kecepatan rata-rata 25 dan 30 mil/jam. Jika kereta pertama berjalan satu jam lebih awal. Berapa lama waktu yang diperlukan oleh kereta kedua agar dapat menyusul kereta pertama?"
+            }
+          ],
+          "opsi": {
+            "A": "3 jam",
+            "B": "4 jam",
+            "C": "5 jam",
+            "D": "6 jam",
+            "E": "7 jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 1 (K₁)=25 mil/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 2 (K₂)=30 mil/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Selisih waktu (ΔT)=1 jam$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lama waktu kereta kedua untuk menyusul, dihitung sejak kereta kedua mulai berjalan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus searah untuk keberangkatan tidak bersamaan. W pada rumus adalah lama perjalanan kereta pertama."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=K₂ΔT/(K₂−K₁)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(30×1)/(30−25)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=30/5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=6 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yang ditanyakan adalah lama perjalanan kereta kedua. Kereta kedua berangkat satu jam lebih lambat, sehingga waktu bergeraknya satu jam lebih singkat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W kereta kedua=W−ΔT$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=6−1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=5 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, kereta kedua membutuhkan 5 jam sejak mulai berjalan. Jawaban C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jarak kota Semarang ke Jakarta adalah 540 km. Tegar berangkat pada pukul 07.00 dengan kecepatan 45 km/jam, sedangkan Gelar berangkat pukul 08.00 dengan kecepatan 60 km/jam. Pada pukul berapa Gelar akan menyusul Tegar?"
+            }
+          ],
+          "opsi": {
+            "A": "10.00",
+            "B": "11.00",
+            "C": "12.00",
+            "D": "13.00",
+            "E": "14.00"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 1 (K₁)=45 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 2 (K₂)=60 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Selisih waktu (ΔT)=1 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberangkatan pertama: Tegar, pukul 07.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberangkatan kedua: Gelar, pukul 08.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jarak Semarang–Jakarta adalah 540 km."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pukul Gelar menyusul Tegar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus searah untuk keberangkatan tidak bersamaan. W dihitung sejak Tegar berangkat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=K₂ΔT/(K₂−K₁)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(60×1)/(60−45)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=60/15$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Empat jam setelah pukul 07.00 adalah pukul 11.00. Jadi, Gelar menyusul Tegar pada pukul 11.00. Jawaban B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ahmad berangkat dari kota P pukul 07.00 dengan kecepatan rata-rata 60 km/jam. Pada saat yang sama Dhani berangkat dari kota Q menuju kota P dengan kecepatan rata-rata 40 km/jam. Jarak kota P dan Q ialah 360 km, maka Ahmad dan Dhani akan bertemu pada pukul …"
+            }
+          ],
+          "opsi": {
+            "A": "16.00",
+            "B": "13.00",
+            "C": "10.36",
+            "D": "10.12",
+            "E": "10.32"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jarak (J)=360 km$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 1 (K₁)=60 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 2 (K₂)=40 km/jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya berangkat pukul 07.00 dan bergerak saling mendekat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pukul Ahmad dan Dhani bertemu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus berlawanan arah untuk keberangkatan bersamaan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=J/(K₁+K₂)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=360/(60+40)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=360/100$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3,6 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian desimal 0,6 jam diubah menjadi menit."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$0,6 jam=0,6×60 menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=36 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lama perjalanan 3 jam 36 menit. Dihitung sejak pukul 07.00, keduanya bertemu pukul 10.36. Jawaban C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 5",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Alan mengendarai sepeda motor dari kota A ke kota B dengan kecepatan 25 km/jam dengan jarak 80 km. Dari arah berlawanan, Walker mengendarai sepeda motor dengan kecepatan 35 km/jam menuju kota A melalui jalan yang sama. Jika Alan berangkat pukul 06.00 dan Walker berangkat pukul 06.36, maka pada pukul berapa mereka berpapasan?"
+            }
+          ],
+          "opsi": {
+            "A": "07.00",
+            "B": "07.30",
+            "C": "07.41",
+            "D": "08.10",
+            "E": "08.41"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Diketahui"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jarak (J)=80 km$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 1 (K₁)=25 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kecepatan 2 (K₂)=35 km/jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Selisih waktu (ΔT)=36 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberangkatan pertama: Alan, pukul 06.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberangkatan kedua: Walker, pukul 06.36."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ditanyakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pukul keduanya berpapasan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengerjaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "",
+                "Searah",
+                "Berlawanan Arah"
+              ],
+              "baris": [
+                [
+                  "**Berangkat Bareng**",
+                  "–",
+                  "$J/(K₁+K₂)$"
+                ],
+                [
+                  "**Berangkat Tidak Bareng**",
+                  "$K₂ΔT/(K₂−K₁)$",
+                  "$(J+K₂·ΔT)/(K₁+K₂)$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecepatan menggunakan km/jam, sehingga selisih waktu 36 menit diubah menjadi jam."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$ΔT=36/60 jam$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=0,6 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan rumus berlawanan arah untuk keberangkatan tidak bersamaan. W dihitung sejak Alan berangkat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=(J+K₂·ΔT)/(K₁+K₂)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(80+35×0,6)/(25+35)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(80+21)/60$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=101/60 jam$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ubah waktu tersebut menjadi menit."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W=101/60×60 menit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=101 menit$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seratus satu menit adalah 1 jam 41 menit. Dihitung sejak pukul 06.00, keduanya berpapasan pukul 07.41. Jawaban C."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

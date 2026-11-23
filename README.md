@@ -10,7 +10,7 @@ Dokumen materi di Google Docs bisa dikonversi otomatis menjadi naskah, lalu diti
 ## Alur kerja
 
 1. **Dokumen → naskah.** Dokumen materi (templat booklet SKD) diunduh sebagai `.docx` dan dikonversi oleh `generator/impor_katalog.py` menjadi `konten/*.json` beserta gambarnya di `konten/media/`.
-2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 65 deck TIU (Verbal, Numerik, dan Figural; materi dan contoh soal), mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
+2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 75 deck TIU (Verbal, Numerik, dan Figural; materi dan contoh soal), mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
 3. **Ekspor.** Unduh PPTX dari dasbor atau editor. PDF dibuat di Windows lokal (butuh PowerPoint).
 
 ## Cara pakai (baris perintah)
@@ -43,7 +43,7 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (66 deck: 28 Verbal, 31 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (28 deck TKU PCAM OJK). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi dan sampul, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`).
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (76 deck: 28 Verbal, 41 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (44 deck TKU PCAM OJK: 22 materi dan 22 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan dua pilihan sampul (putih dan foto, keduanya dari template General), masing-masing PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi dan sampul, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`).
 
 Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn --sampul foto`.
 
@@ -56,7 +56,7 @@ python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-gene
 
 Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general general-foto`. Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
 
-Ukuran: TIU sekitar 333 MB dan OJK sekitar 157 MB, jadi seluruh situs sekitar 490 MB. Dokumentasi Vercel menyebut batas 100 MB untuk unggahan file statis di paket Hobby lewat CLI; untuk deploy dari GitHub batas itu tidak disebutkan. Bila deploy ditolak karena ukuran, kurangi menjadi satu sampul (`--tema general`) atau pindah ke paket Pro (1 GB).
+Ukuran: TIU sekitar 373 MB dan OJK sekitar 216 MB, jadi seluruh situs sekitar 590 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus. Bila deploy ditolak karena ukuran, kurangi menjadi satu sampul (`--tema general`) atau pindah ke paket Pro.
 
 Pasang `requirements-lokal.txt` dulu: PyMuPDF menggabungkan gambar latar yang disimpan berulang oleh PowerPoint dan menyimpan hiasan abu-abu sebagai gambar satu kanal, sehingga PDF General turun dari sekitar 15 MB menjadi sekitar 1,5–2 MB tanpa mengubah tampilan.
 
@@ -66,7 +66,7 @@ Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs
 
 ## Impor dokumen Google Docs
 
-`konten/katalog.json` mendaftar 46 dokumen TIU di kolom D sheet "Kerangka Course" (Mapping SKD 2027) sebagai 65 deck: kelompok, bab, baris sheet, dan ID dokumen. Untuk membuat ulang naskah setelah dokumen diperbarui:
+`konten/katalog.json` mendaftar 46 dokumen TIU di kolom D sheet "Kerangka Course" (Mapping SKD 2027) sebagai 75 deck: kelompok, bab, baris sheet, dan ID dokumen. Untuk membuat ulang naskah setelah dokumen diperbarui:
 
 1. Unduh dokumen sebagai Word (File › Download › Microsoft Word) ke satu folder, beri nama `<doc_id>.docx`.
 2. Jalankan:
@@ -75,7 +75,7 @@ Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs
 python generator/impor_katalog.py --docx folder_docx
 ```
 
-Baris "Contoh Soal" di sheet (Silogisme 02–06, Analitis 01–07, Operasi Hitung, Pecahan, dan sebagian Data & Deret) tidak punya dokumen sendiri karena soalnya ditulis di dokumen materi. Entri `"bagian": "soal"` (mis. `vs-02-soal`) memakai `doc_id` yang sama, dan importer memisahkan satu dokumen menjadi dua naskah: materi (`tiu_vs02_logika_kondisional.json`) dan contoh soal (`tiu_vs02_contoh_soal.json`). Deck contoh soal hanya memuat sampul, peta materi, soal, dan pembahasan; importer menandai soal yang tidak punya kunci ("TANPA KUNCI"). Dokumen yang berisi soal tetapi tidak punya baris "Contoh Soal" di sheet (mis. Rasio) tetap satu deck.
+Soal yang ditulis di dokumen materi selalu dipisah menjadi deck sendiri, baik yang punya baris "Contoh Soal" di sheet (mis. Silogisme 02–06) maupun yang tidak (mis. Rasio; `baris_sheet`-nya memakai baris materi). Entri `"bagian": "soal"` (mis. `vs-02-soal`) memakai `doc_id` yang sama, dan importer memisahkan satu dokumen menjadi dua naskah: materi (`tiu_vs02_logika_kondisional.json`) dan contoh soal (`tiu_vs02_contoh_soal.json`). Deck contoh soal hanya memuat sampul, peta materi, soal, dan pembahasan; importer menandai soal yang tidak punya kunci ("TANPA KUNCI").
 
 Hanya entri dengan `"otomatis": true` yang ditimpa; `va-01` (Verbal Analogi) disusun manual. Satu dokumen bisa dikonversi langsung dengan `generator/ekstrak_gdoc.py`.
 
@@ -95,7 +95,7 @@ python generator/ekstrak_figural.py --pdf folder_pdf
 
 ### Materi PCAM OJK (JadiOJK)
 
-`konten/ojk/katalog.json` mendaftar 22 dokumen di kolom File sheet "Kerangka Course" (Mapping Tahap 2 PCAM OJK 2026) sebagai 28 deck (contoh soal Penalaran Induktif dan Deduktif dipisah menjadi deck sendiri): subtes TKU (Penalaran Induktif, Penalaran Deduktif, Pengetahuan Sektor Jasa Keuangan), materi, bab, dan ID dokumen. Katalog ini juga menyimpan pengaturan deck: subtes di sampul ("Tes Kemampuan Umum"), peta subtes TKU, awalan nama berkas ("OJK TKU"), merek situs, dan palet `jadiojk`. Naskah dan gambar ada di `konten/ojk/`.
+`konten/ojk/katalog.json` mendaftar 22 dokumen di kolom File sheet "Kerangka Course" (Mapping Tahap 2 PCAM OJK 2026) sebagai 44 deck (contoh soal setiap bab dipisah menjadi deck sendiri): subtes TKU (Penalaran Induktif, Penalaran Deduktif, Pengetahuan Sektor Jasa Keuangan), materi, bab, dan ID dokumen. Katalog ini juga menyimpan pengaturan deck: subtes di sampul ("Tes Kemampuan Umum"), peta subtes TKU, awalan nama berkas ("OJK TKU"), merek situs, dan palet `jadiojk`. Naskah dan gambar ada di `konten/ojk/`.
 
 ```bash
 python generator/impor_katalog.py --katalog konten/ojk/katalog.json --docx folder_docx_ojk
@@ -189,7 +189,7 @@ Ikon: `globe`, `strategi`, `grafik`, `checklist`, `roket`, `peringatan`, `presen
 
 `generator/tema_general.py` mengambil grafis langsung dari slide contoh `Template Materi General.pptx` saat deck dibuat, sehingga foto dan ilustrasi perusahaan tidak perlu disalin ke repo:
 
-- Sampul, Pendahuluan (bingkai navy), Tujuan, Penutup (bingkai kuning), dan Terima kasih disalin dari slide contohnya; teks contoh diganti isi naskah. Slide contoh dikenali dari teks besarnya (MATERI BESAR, PENDAHULUAN, TUJUAN PEMBELAJARAN, PENUTUP, TERIMA KASIH) dan slide isi bertabel, bukan dari nomor urutnya.
+- Sampul, Pendahuluan (bingkai navy), Tujuan, Penutup (bingkai kuning), dan Terima kasih disalin dari slide contohnya; teks contoh diganti isi naskah. Slide contoh dikenali dari teks besarnya (MATERI BESAR, PENDAHULUAN, TUJUAN PEMBELAJARAN, PENUTUP, TERIMA KASIH) dan slide isi bertabel, bukan dari nomor urutnya. Di Penutup, butir ringkasan disusun dua kolom bila perlu, dan pesan yang terlalu panjang dipindah ke slide penutup kedua.
 - Slide isi memakai chip penanda dan hiasan samar (lingkaran kuning, gelombang garis) dari template; komponennya sama dengan Opsi B, dengan token warna General: kartu gradien kuning muda ke putih, kartu gelap gradien navy ke abu-abu, catatan kuning.
 - Navigasi digambar ulang mengikuti gaya template (pil bergaris navy, bagian aktif navy) agar bagian aktif benar dan tetap bisa diklik; di slide berbingkai warnanya putih.
 - Sampul memakai `meta.materi_besar` (bila ada) atau subtes sebagai teks besar, dan `meta.tutor` (opsional) untuk nama tutor.

@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Teorema Pythagoras",
+    "subtes": "Tes Intelegensia Umum",
+    "nama_file": "TIU - Contoh Soal Numerik - Teorema Pythagoras",
+    "sumber": "https://docs.google.com/document/d/1Ooi1WVnNqVYwBsmqSps-YUwQoKI6et6W1YrzbCGQWgQ/edit",
+    "bagian": "soal",
+    "id_katalog": "nu-12-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Intelegensia Umum",
+    "subjudul": "Peta Materi Subtes TIU",
+    "kartu": [
+      {
+        "judul": "Verbal Analogi",
+        "deskripsi": "Jenis hubungan antarkata dan analogi dua kata",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Verbal Silogisme",
+        "deskripsi": "Operator logika, kondisional, ekuivalensi, kuantor",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Verbal Analitis",
+        "deskripsi": "Posisi, urutan, jadwal, rute, dan argumen",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Numerik",
+        "deskripsi": "Berhitung, aljabar, geometri, dan perbandingan",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Data & Deret",
+        "deskripsi": "Kecukupan data, tabel pernyataan, deret angka",
+        "ikon": "roket"
+      },
+      {
+        "judul": "Figural",
+        "deskripsi": "Transformasi, analogi, serial, dan matriks gambar",
+        "ikon": "strategi"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah segitiga siku-siku memiliki dua sisi siku-siku dengan panjang 6 cm dan 7 cm. Tentukan panjang hipotenusanya."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan huruf a untuk sisi siku-siku sepanjang 6 cm dan b untuk sisi siku-siku sepanjang 7 cm. Huruf c menyatakan hipotenusa yang dicari. Mulai dari hubungan ketiga sisinya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+b²=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ganti a dengan 6 dan b dengan 7."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6²+7²=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung masing-masing kuadrat, lalu jumlahkan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$36+49=c²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$85=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil akar kuadrat positif karena c menyatakan panjang."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$c=√85 cm$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil tersebut lebih dari 7 cm, sesuai dengan sifat hipotenusa sebagai sisi terpanjang. Bentuk akar dapat dipertahankan jika tidak diminta pembulatan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hipotenusa sebuah segitiga siku-siku panjangnya 17 cm. Salah satu sisi siku-sikunya panjangnya 8 cm. Tentukan panjang sisi siku-siku lainnya."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan huruf c untuk hipotenusa sepanjang 17 cm dan b untuk sisi siku-siku sepanjang 8 cm. Huruf a menyatakan sisi siku-siku lainnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+b²=c²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masukkan panjang yang diketahui pada posisi huruf yang sesuai."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+8²=17²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²+64=289$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangi kedua ruas dengan 64 untuk memperoleh kuadrat sisi a."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²=289−64$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a²=225$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil akar kuadrat positif untuk mendapatkan panjang sisinya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a=√225=15 cm$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kembali dengan rumus awal."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$15²+8²=225+64=289=17²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, panjang sisi siku-siku lainnya adalah 15 cm. Ketiga panjang 8, 15, dan 17 juga merupakan tripel Pythagoras."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

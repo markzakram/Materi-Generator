@@ -562,8 +562,13 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
             if soal:
                 naskah["materi"].append({"subbab": "Contoh Soal", "ikon": "checklist", "slide": soal})
         elif kunci == "penutup":
-            naskah["penutup"]["pesan"] = " ".join(
-                el["teks"] for el in isi if el["jenis"] == "paragraf" and el["polos"])
+            pesan = []
+            for el in isi:
+                if el["jenis"] == "h2" and _kunci_bagian(el["polos"]).startswith(LEWATI_BAGIAN):
+                    break  # catatan penyusun di ujung penutup, mis. 'PEMETAAN REFERENSI TAMBAHAN DAN CATATAN QC'
+                if el["jenis"] == "paragraf" and el["polos"]:
+                    pesan.append(el["teks"])
+            naskah["penutup"]["pesan"] = " ".join(pesan)
         elif kunci in ("sumber", "referensi", "daftar pustaka"):
             continue
         else:
@@ -586,7 +591,8 @@ def pisah_soal(naskah, nama_file_soal):
     materi, soal = copy.deepcopy(naskah), copy.deepcopy(naskah)
     materi["materi"] = [s for s in materi["materi"] if not berisi_soal(s)]
     soal["materi"] = [s for s in soal["materi"] if berisi_soal(s)]
-    soal["meta"].update(judul=f"Contoh Soal {naskah['meta']['judul']}", nama_file=nama_file_soal, bagian="soal")
+    judul = naskah["meta"]["judul"].removeprefix("Soal ")  # 'Soal Cerita Aljabar' -> 'Contoh Soal Cerita Aljabar'
+    soal["meta"].update(judul=f"Contoh Soal {judul}", nama_file=nama_file_soal, bagian="soal")
     soal["meta"].pop("subjudul", None)
     soal["pendahuluan"] = {"paragraf": [], "pemantik": "", "ikon": "presenter"}
     soal["tujuan"] = dict(naskah["tujuan"], butir=[])

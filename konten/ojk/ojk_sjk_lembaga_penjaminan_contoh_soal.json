@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Lembaga Penjaminan",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Lembaga Penjaminan",
+    "sumber": "https://docs.google.com/document/d/1vVXxQRLgSa2dgB3m3eLvqRJjpz-eTN2I/edit",
+    "bagian": "soal",
+    "id_katalog": "sjk-07-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Penerima jaminan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "UMKM menerima kredit dari bank dengan penjaminan perusahaan penjaminan. Siapa penerima jaminannya?"
+            }
+          ],
+          "opsi": {
+            "A": "UMKM",
+            "B": "Pemasok",
+            "C": "Perusahaan penjaminan",
+            "D": "Bank pemberi kredit",
+            "E": "Pemilik toko tempat UMKM berjualan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank adalah pihak yang menerima perlindungan atas kewajiban debitur yang dijamin."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari pihak yang berhak menerima pembayaran atas kewajiban yang dijamin."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Hak tagih",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah klaim dibayar, hak tagih beralih dari bank kepada penjamin sesuai ketentuan. Apa nama peralihan ini?"
+            }
+          ],
+          "opsi": {
+            "A": "Divestasi",
+            "B": "Subrogasi",
+            "C": "Penyertaan modal",
+            "D": "Penerimaan simpanan",
+            "E": "Pelunasan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Subrogasi adalah peralihan hak tagih. Dalam kasus ini, penjamin memperoleh hak tersebut setelah membayar klaim."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lihat siapa yang memegang hak tagih sebelum dan sesudah klaim dibayar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Syarat sebelum Mengajukan Klaim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Terjamin gagal memenuhi kewajibannya. Sebelum mengajukan klaim, apa yang harus dicocokkan oleh bank dengan dokumen penjaminan?"
+            }
+          ],
+          "opsi": {
+            "A": "Besaran modal disetor perusahaan penjaminan",
+            "B": "Jadwal penjualan produk terjamin",
+            "C": "Nilai agunan tanpa melihat syarat klaim",
+            "D": "Kewajiban yang dijamin, syarat, bukti, dan tenggat pengajuan",
+            "E": "Persentase pembagian hasil penagihan setelah klaim"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank memeriksa apakah kejadian memenuhi syarat penjaminan dan apakah bukti serta tenggat pengajuan sesuai dokumen."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa syarat pengajuan sebelum menghitung nilai klaim."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan pemberi dana dan penjamin",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kredit UMKM, bank menyalurkan uang kepada debitur. Perusahaan penjaminan memberi perlindungan kepada bank sesuai perjanjian. Siapa yang menyalurkan kredit?"
+            }
+          ],
+          "opsi": {
+            "A": "UMKM",
+            "B": "Perusahaan penjaminan",
+            "C": "Bank",
+            "D": "Pemasok",
+            "E": "Pemilik agunan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menjadi sumber dana dalam kasus ini. Perusahaan penjaminan memberi perlindungan atas kewajiban yang dijamin."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ikuti arah penyaluran uang."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Pengajuan Klaim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dina gagal memenuhi kewajiban kredit dan syarat pengajuan klaim terpenuhi. Siapa yang mengajukan klaim kepada penjamin?"
+            }
+          ],
+          "opsi": {
+            "A": "Dina",
+            "B": "Bank pemberi kredit",
+            "C": "Pelanggan Dina",
+            "D": "Pemasok rotan",
+            "E": "Penjamin ulang"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank adalah penerima jaminan. Bank mengajukan permintaan pembayaran kepada penjamin."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari pihak yang menerima perlindungan dan mengajukan klaim."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Awal Hitungan Tenggat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank baru mengirim sebagian dokumen klaim. Kapan hitungan batas keputusan menurut ketentuan umum Pasal 33 dimulai?"
+            }
+          ],
+          "opsi": {
+            "A": "Sejak kredit dicairkan",
+            "B": "Sejak cicilan pertama jatuh tempo",
+            "C": "Sejak bank pertama kali menghubungi penjamin",
+            "D": "Sejak permohonan pembayaran diterima lengkap",
+            "E": "Sejak klaim disetujui"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tenggat keputusan dihitung sejak permohonan lengkap. Tenggat pembayaran dihitung sejak persetujuan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan tanggal dokumen lengkap dari tanggal persetujuan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Dasar Perhitungan Klaim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank memberikan kredit awal sebesar Rp30 juta. Setelah memeriksa pengajuan klaim, penjamin menyetujui Rp20 juta sebagai dasar perhitungan klaim. Perjanjian penjaminan dalam kasus ini menetapkan cakupan sebesar 70% dari dasar klaim yang disetujui. Berapa jumlah yang dibayarkan penjamin kepada bank?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp6 juta",
+            "B": "Rp9 juta",
+            "C": "Rp14 juta",
+            "D": "Rp20 juta",
+            "E": "Rp21 juta"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembayaran klaim dihitung dari dasar klaim yang disetujui sebesar Rp20 juta. Dengan cakupan 70% sesuai perjanjian dalam kasus ini, penjamin membayar 70% × Rp20 juta = Rp14 juta. Nilai Rp30 juta menunjukkan jumlah kredit saat pertama kali diberikan. Persentase cakupan pada kasus lain mengikuti perjanjian dan ketentuan yang berlaku."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan dasar klaim yang disetujui, lalu kalikan dengan persentase cakupan yang ditetapkan dalam perjanjian."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Penagihan Setelah Klaim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bank menghubungi Dina setelah penjamin membayar klaim dan hak tagih beralih. Dalam kapasitas apa bank dapat melakukan penagihan atas hak penjamin?"
+            }
+          ],
+          "opsi": {
+            "A": "Untuk dan atas nama penjamin sesuai perjanjian",
+            "B": "Sebagai terjamin pengganti",
+            "C": "Sebagai penjamin ulang",
+            "D": "Sebagai pemilik seluruh hak tagih yang telah beralih",
+            "E": "Sebagai pihak yang menerima kredit"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasal 34 mengatur perjanjian agar penerima jaminan melakukan penagihan untuk dan atas nama penjamin."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan pemegang hak tagih dari pihak yang melakukan penagihan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

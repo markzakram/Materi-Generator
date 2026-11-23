@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bulion",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Bulion",
+    "sumber": "https://docs.google.com/document/d/1zXdx7-eSNG_fRF6KVEhbmI1S8rrAnEWh/edit",
+    "bagian": "soal",
+    "id_katalog": "sjk-14-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Definisi Kegiatan Usaha Bulion",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lembaga jasa keuangan menjalankan layanan simpanan, pembiayaan, perdagangan, dan penitipan emas berdasarkan izin yang sesuai. Istilah yang paling tepat untuk kelompok layanan tersebut adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "usaha pengelolaan logam mulia untuk industri pemurnian",
+            "B": "perdagangan komoditas oleh semua toko emas berizin",
+            "C": "kegiatan usaha bulion oleh lembaga jasa keuangan",
+            "D": "pelayanan penjaminan aset pada pasar perdagangan emas",
+            "E": "transaksi investasi efek berbasis kontrak pasar modal"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Definisi bulion dan cakupan kegiatan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK 17/2024 mendefinisikan kegiatan usaha bulion sebagai kegiatan terkait emas yang dilakukan LJK. Keempat bentuk layanan pada narasi merupakan bentuk kegiatan yang disebutkan dalam peraturan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A menyempitkan pada pemurnian; B menyamakan dengan toko ritel; D mengubah menjadi penjaminan; E mengarah ke instrumen pasar modal."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Empat kata kunci—simpanan, pembiayaan, perdagangan, penitipan—mengarah ke kegiatan usaha bulion."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Perbandingan Simpanan dan Penitipan Emas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua nasabah menempatkan emas di LJK yang sama. Skema pertama berupa Simpanan Emas, sedangkan skema kedua merupakan Penitipan Emas. Pernyataan yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "emas simpanan dapat dikelola, sedangkan emas titipan tidak boleh diputar",
+            "B": "emas titipan dapat disalurkan, sedangkan emas simpanan tidak boleh dikelola",
+            "C": "kedua jenis emas bebas dipakai lembaga tanpa kesepakatan dengan para nasabah",
+            "D": "kedua skema selalu mensyaratkan transaksi jual beli emas sejak awal",
+            "E": "emas simpanan dan titipan selalu memberikan hak penggunaan yang sama"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Hak penggunaan emas sesuai jenis produk"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam skema simpanan, emas dapat digunakan sebagai sumber pembiayaan dan/atau perdagangan sesuai ketentuan. Dalam skema penitipan, emas titipan dilarang digunakan untuk dua kegiatan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** B membalik hubungan; C menghapus unsur kesepakatan; D menambahkan kewajiban jual beli; E menganggap dua skema identik."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Simpanan = mungkin dikelola; penitipan = harus dijaga tanpa diputar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Skema Pembiayaan Gold-to-Gold",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah LJK menyediakan emas terstandardisasi kepada pelaku usaha untuk suatu jangka waktu. Setelah jangka waktu itu berakhir, kewajiban pokok pelaku usaha menurut konsep pembiayaan bulion adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "mengganti emas yang diterima dengan unit penyertaan reksa dana",
+            "B": "menyerahkan sejumlah saham perusahaan dengan nominal yang sebanding",
+            "C": "membayar nilai emas menurut kurs dolar pada saat kontrak berakhir saja",
+            "D": "melunasi seluruh cicilan rupiah tanpa perlu mengembalikan emas fisik",
+            "E": "mengembalikan emas sesuai jumlah yang diperjanjikan para pihak"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pembiayaan Emas dengan kewajiban pengembalian emas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembiayaan emas dalam POJK 17/2024 adalah penyediaan emas yang mewajibkan pihak dibiayai mengembalikan sejumlah emas setelah jangka waktu tertentu dengan imbalan atau bagi hasil. Jumlah serta syarat spesifik mengikuti kesepakatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A dan B mengganti bentuk kewajiban; C dan D mengasumsikan rupiah atau kurs sebagai pengganti pokok tanpa dasar pada ketentuan pembiayaan bulion."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika meminjam emas dalam skema bulion, cari jawaban yang menyebut pengembalian emas."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Minimum Gramasi Perdagangan Bulion",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah LJK akan melaksanakan transaksi Perdagangan Emas berdasarkan POJK 17/2024. Berapa jumlah minimal emas dalam satu transaksi perdagangan bulion menurut FAQ resmi OJK?"
+            }
+          ],
+          "opsi": {
+            "A": "250 gram emas terstandardisasi per transaksi",
+            "B": "500 gram emas terstandardisasi per transaksi",
+            "C": "100 gram emas terstandardisasi per transaksi",
+            "D": "750 gram emas terstandardisasi per transaksi",
+            "E": "1.000 gram emas terstandardisasi per transaksi"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Minimum perdagangan emas bulion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FAQ pertanyaan 6 menyebut batas minimum gramasi kegiatan perdagangan emas oleh LJK bulion paling sedikit 500 gram per transaksi. Ketentuan tersebut bukan minimum untuk seluruh pembelian emas ritel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A, C, D, dan E bukan angka minimum yang dijelaskan dalam FAQ untuk transaksi tersebut."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ingat 500 gram untuk perdagangan bulion, bukan untuk semua layanan emas."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Kegiatan Perdagangan dan Kanal Online",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah penyelenggara bulion memasarkan emas melalui situs web. Transaksi tetap memenuhi batas gramasi, dan emas diserahkan kepada pembeli secara fisik. Penilaian yang paling sesuai adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "tidak sah sebab seluruh tahap harus berlangsung tatap muka",
+            "B": "selalu dilarang karena pemasaran digital dianggap melawan hukum",
+            "C": "cukup menyerahkan bukti digital tanpa memberikan emas secara fisik",
+            "D": "pemasaran daring dimungkinkan, tetapi serah fisik tetap wajib",
+            "E": "boleh mengganti emas fisik dengan nilai poin loyalitas perusahaan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pemasaran daring dan penyerahan fisik"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FAQ pertanyaan 7 membedakan pemasaran daring dan penyelenggaraan perdagangan emas secara fisik. Pemasaran secara online tidak otomatis dilarang, namun emas harus diserahkan secara fisik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A dan B menolak kanal daring secara mutlak; C dan E menghilangkan kewajiban penyerahan fisik emas."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kanal promosi online tidak sama dengan kewajiban penyelesaian fisik."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Lembaga Penyelenggara Usaha Bulion",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Terkait pihak yang boleh menyelenggarakan kegiatan usaha bulion, pernyataan yang paling tepat berdasarkan FAQ OJK adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "semua toko emas boleh menawarkan kegiatan bulion tanpa izin OJK",
+            "B": "seluruh LJK dibolehkan tanpa memperhatikan usaha utamanya",
+            "C": "hanya LJK yang memenuhi kriteria dan perizinan sesuai aturan",
+            "D": "setiap lembaga keuangan mikro dapat langsung membuka layanan",
+            "E": "semua BPR dan BPRS otomatis memperoleh persetujuan bulion"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kriteria dan perizinan penyelenggara"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FAQ menjelaskan kegiatan usaha bulion terbatas pada LJK dengan usaha utama penyaluran kredit/pembiayaan, dengan pengecualian kategori tertentu seperti BPR, BPRS, dan LKM. Penyelenggaraan juga memerlukan pemenuhan perizinan dan persyaratan POJK."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A dan B menyamaratakan izin; D dan E justru menyebut kategori yang dikecualikan dalam FAQ."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari frasa “LJK memenuhi syarat dan izin”, bukan “semua lembaga”."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Larangan Memakai Emas Titipan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang petugas menyarankan agar emas yang dititipkan nasabah digunakan sementara untuk pembiayaan kepada pihak lain. Menurut ketentuan penitipan emas, keputusan yang tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "mengizinkan penggunaan emas setelah menerima imbal jasa penitipan",
+            "B": "mengizinkan selama transaksi selesai pada hari yang sama",
+            "C": "mengalihkan emas titipan menjadi barang jaminan otomatis",
+            "D": "menggunakan sebagian emas selama pemilik belum menagih",
+            "E": "menolak penggunaan karena emas titipan tidak boleh disalurkan"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Larangan pemanfaatan emas dalam penitipan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Emas titipan tidak boleh digunakan dalam pembiayaan maupun perdagangan. Imbal jasa penitipan tidak mengubah pembatasan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A, B, dan D membuat pengecualian tanpa dasar; C mengubah hubungan hukum tanpa dasar persetujuan dan ketentuan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ada kata “titipan”? Uji dahulu larangan menggunakan emas tersebut."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Unsur Standar Emas untuk Bulion",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari beberapa bentuk emas berikut, manakah yang paling sesuai dengan definisi emas untuk kegiatan usaha bulion menurut POJK 17/2024?"
+            }
+          ],
+          "opsi": {
+            "A": "batangan berkadar 99,95% dengan standar mutu yang sesuai",
+            "B": "perhiasan 22 karat yang bernilai tinggi di pasar ritel",
+            "C": "uang logam emas koleksi dengan kadar 99,90% aurum",
+            "D": "lempengan berkadar 95% yang baru selesai dicetak",
+            "E": "perhiasan 24 karat yang belum melalui pemeriksaan standar"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Bentuk, kadar, dan standar emas bulion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Definisi POJK menghendaki bentuk batangan atau lempengan, bukan mata uang, kadar Au minimal 99,9%, dan standar yang sesuai. Batangan 99,95% yang terstandardisasi memenuhi unsur definisi yang disebutkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** B dan E berupa perhiasan; C berupa uang; D kadarnya masih di bawah 99,9%."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Saring tiga unsur: batangan/lempengan, bukan mata uang, Au ≥ 99,9% dan standar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Membedakan ETF Emas dan Usaha Bulion",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang peserta menyamakan ETF Emas dengan Penitipan Emas karena keduanya berhubungan dengan emas. Perbaikan konsep yang paling tepat adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "ETF emas adalah bentuk penitipan seluruh emas milik nasabah di LJK",
+            "B": "ETF emas selalu membayar hasil dalam emas batangan pribadi",
+            "C": "ETF emas diatur sebagai kegiatan pergadaian berbasis agunan",
+            "D": "ETF emas adalah reksa dana bursa; penitipan emas layanan bulion",
+            "E": "ETF emas merupakan istilah lain dari pembiayaan emas fisik"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbedaan produk pasar modal dan usaha bulion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "POJK 2/2026 mengatur ETF Emas berupa unit penyertaan reksa dana yang diperdagangkan di bursa dengan aset dasar emas. Penitipan Emas adalah layanan bulion yang diatur POJK 17/2024. Keduanya berbeda pada bentuk produk dan kerangka pengaturannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A, B, C, dan E mencampuradukkan jenis layanan, sifat hak investor, dan dasar pengaturan produk."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "ETF = unit reksa dana di bursa; penitipan = jasa simpan emas milik nasabah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Arah Roadmap Bulion 2026–2031",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "OJK menerbitkan Roadmap Pengembangan dan Penguatan Kegiatan Usaha dan Ekosistem Bulion 2026–2031. Salah satu fokus pada jalur industri jasa keuangan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "meningkatkan produksi emas melalui hilirisasi industri pertambangan",
+            "B": "menguatkan tata kelola, pengawasan, dan pelindungan nasabah",
+            "C": "memperkuat koordinasi kementerian pada tata niaga hasil tambang",
+            "D": "mengembangkan teknologi untuk pemurnian bijih emas nasional",
+            "E": "mengembangkan infrastruktur pengolahan komoditas emas tambang"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Prioritas kebijakan roadmap 2026–2031"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Roadmap memuat penguatan manajemen risiko/tata kelola, pengembangan produk, pengaturan dan pengawasan, pelindungan konsumen, serta pengembangan ekosistem. Sasaran penguatan tidak sama dengan pelonggaran seluruh kewajiban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A, C, D, dan E mengarah pada aspek hulu-hilir produksi atau penambangan, bukan jalur penguatan kegiatan usaha bulion di industri jasa keuangan yang ditanyakan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Roadmap lebih dekat dengan penguatan industri, bukan penghapusan kontrol."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Analisis Risiko Harga Emas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai emas 10 gram dihitung memakai harga asumsi Rp1.500.000 per gram, lalu turun menjadi Rp1.350.000 per gram. Tanpa biaya lain, apa perubahan nilai rupiahnya?"
+            }
+          ],
+          "opsi": {
+            "A": "bertambah Rp1.350.000 karena emas tetap berjumlah 10 gram",
+            "B": "berkurang Rp1.350.000 karena harga baru lebih rendah",
+            "C": "berkurang Rp1.500.000 berdasarkan selisih harga per gram",
+            "D": "bertambah Rp1.500.000 karena berat emas tidak berubah",
+            "E": "tidak berubah karena nilai emas selalu tetap dalam rupiah"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Risiko harga vs berat fisik emas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai awal = 10 × Rp1.500.000 = Rp15.000.000. Nilai akhir = 10 × Rp1.350.000 = Rp13.500.000. Penurunan nilai = Rp1.500.000. Berat emas tetap, tetapi harga rupiahnya berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A dan D membalik arah perubahan; B salah menghitung selisih; E mengabaikan risiko harga."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung selisih harga per gram terlebih dahulu, lalu kalikan dengan gram emas."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Menentukan Batas Minimum Transaksi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah LJK menyiapkan batangan emas 250 gram per keping. Untuk mencapai batas minimum 500 gram dalam satu transaksi Perdagangan Emas bulion, jumlah keping paling sedikit ialah ...."
+            }
+          ],
+          "opsi": {
+            "A": "satu keping emas yang masing-masing beratnya 250 gram",
+            "B": "tiga keping emas yang masing-masing beratnya 250 gram",
+            "C": "empat keping emas yang masing-masing beratnya 250 gram",
+            "D": "lima keping emas yang masing-masing beratnya 250 gram",
+            "E": "dua keping emas yang masing-masing beratnya 250 gram"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penerapan batas minimum gramasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Minimum 500 gram dibagi 250 gram per keping menghasilkan dua keping. Ini berlaku pada skenario perdagangan bulion dalam soal; bukan batas minimum seluruh jual beli emas ritel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi lain:** A belum mencapai 500 gram; B, C, dan D lebih banyak daripada jumlah minimum yang diminta."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Minimum jumlah keping = 500 ÷ berat per keping, lalu bulatkan ke atas bila perlu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

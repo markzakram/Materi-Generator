@@ -341,20 +341,21 @@ class TemaGeneral:
                    nama="Hak cipta")
             return
         self.salin_slide("sampul", slide, lambda el: el.tag == qn("p:sp") and _teks_dalam(el).strip() != "")
-        # Area putih aman selebar 7,2 in (sebelum lengkung navy).
-        self._judul_sampul(slide, 2.58, 7.2, Y_DASAR_BAB, besar, judul, WARNA_BAB, WARNA_JUDUL)
+        # Area putih aman selebar 7,2 in (sebelum lengkung navy); judul berada tepat di bagian lengkung yang
+        # paling menjorok, jadi barisnya dibuat lebih pendek supaya tidak menyentuhnya.
+        self._judul_sampul(slide, 2.58, 7.2, Y_DASAR_BAB, besar, judul, WARNA_BAB, WARNA_JUDUL, lebar_judul=7.0)
         if tutor:
             D.teks(slide, 6.07, 9.34, 4.25, 0.5, [P(tutor, 22, "putih", tebal=True, rata="c", spasi=1.1)],
                    jangkar="m", nama="Nama tutor")
         D.teks(slide, 5.96, 10.05, 8.92, 0.4, [P(D.HAK_CIPTA, 16, "000000", rata="r", spasi=1.1)], nama="Hak cipta")
 
     @staticmethod
-    def _judul_sampul(slide, x, lebar, y_dasar, besar, judul, warna_bab, warna_judul):
+    def _judul_sampul(slide, x, lebar, y_dasar, besar, judul, warna_bab, warna_judul, lebar_judul=None):
         """Seperti template: materi besar (bab) jauh lebih besar dari judul materi (subbab).
 
         Bab boleh dua baris agar tetap besar; garis bawahnya di y_dasar, judul tepat di bawahnya.
         """
-        def muat(teks, ukuran, maks_baris):
+        def muat(teks, ukuran, maks_baris, lebar=lebar):
             kata = max(D.lebar_pt(k, ukuran, True) for k in teks.split()) / 72
             return kata <= lebar * 0.95 and D.jumlah_baris(D.segmen(teks, tebal=True), ukuran, lebar) <= maks_baris
 
@@ -365,10 +366,11 @@ class TemaGeneral:
         D.teks(slide, x, y_dasar - h, lebar, h,
                [P(besar, ukuran, warna_bab, tebal=True, spasi=1.0)], jangkar="b", nama="Materi besar")
         u_judul = min(40, int(ukuran * 0.68))
-        while not muat(judul, u_judul, 2) and u_judul > 24:
+        lebar_judul = lebar_judul or lebar
+        while not muat(judul, u_judul, 2, lebar_judul) and u_judul > 24:
             u_judul -= 2
-        h = D.jumlah_baris(D.segmen(judul, tebal=True), u_judul, lebar) * u_judul * 1.15 / 72 + 0.12
-        D.teks(slide, x, y_dasar + 0.12, lebar, h,
+        h = D.jumlah_baris(D.segmen(judul, tebal=True), u_judul, lebar_judul) * u_judul * 1.15 / 72 + 0.12
+        D.teks(slide, x, y_dasar + 0.12, lebar_judul, h,
                [P(judul, u_judul, warna_judul, tebal=True, spasi=1.1)], nama="Judul sampul")
 
     def _isi_halaman(self, slide, par, y, w, h_maks, x=1.12):
@@ -421,43 +423,57 @@ class TemaGeneral:
             y += h + celah
         return y - celah
 
-    def penutup(self, slide, ringkasan, pesan):
-        self.salin_slide("penutup", slide, lambda el: _navbar_template(el) or self._teks_contoh(el, "LOREM"))
-        x, w = 1.12, 12.6
-        y = 2.0
-        d = 0.6
-        inset = (0.25 + d + 0.25, 0.14, 0.3, 0.14)
-        butir = []
-        for r in ringkasan:
-            isi = f"**{r['judul']}:** {r['teks']}" if r.get("teks") else f"**{r['judul']}**"
-            p = [P(isi, 18, "navy", spasi=1.3)]
-            butir.append((p, max(0.8, D.tinggi_paragraf(p, w, inset))))
-        # Pesan dikecilkan bertahap (sampai 12 pt); bila masih penuh, butir ringkasan dikurangi (min. 3,
-        # lalu boleh habis bila pesannya sangat panjang).
-        sisi = (0.4, 0.3, 0.4, 0.3)
-        pp, hp, n = None, 0, len(butir)
-        for minimal in (min(len(butir), 3), 0):
-            for ukuran in ((22, 20, 19, 18, 17, 16, 15, 14, 13, 12) if pesan else (0,)):
+    # ukuran slide penutup (inci): isi x, lebar, y awal, diameter nomor, jarak antarbutir
+    PENUTUP = {"x": 1.12, "w": 12.6, "y": 2.0, "d": 0.6, "celah": 0.15, "sisi": (0.4, 0.3, 0.4, 0.3)}
+
+    def susun_penutup(self, ringkasan, pesan):
+        """(kolom, baris butir, paragraf pesan, tinggi pesan) bila semuanya muat di satu slide, atau None.
+
+        Pesan dikecilkan dulu (22 sampai 14 pt), lalu butir ringkasan dibuat dua kolom. Pesan tanpa ringkasan
+        boleh sampai 12 pt karena tidak bisa dibagi lagi.
+        """
+        u = self.PENUTUP
+        inset = (0.25 + u["d"] + 0.25, 0.14, 0.3, 0.14)
+        par = [[P(f"**{r['judul']}:** {r['teks']}" if r.get("teks") else f"**{r['judul']}**", 18, "navy", spasi=1.3)]
+               for r in ringkasan]
+        pilihan = [(1, range(22, 15, -1)), (2, range(22, 13, -1)), (1, range(15, 13, -1))] if par else [(1, range(22, 11, -1))]
+        for kolom, deret in pilihan:
+            lw = (u["w"] - u["celah"] * (kolom - 1)) / kolom
+            baris = [(max(max(0.8, D.tinggi_paragraf(p, lw, inset)) for p in par[i:i + kolom]), par[i:i + kolom])
+                     for i in range(0, len(par), kolom)]
+            for ukuran in (deret if pesan else (0,)):
+                pp, hp = None, 0
                 if pesan:
                     pp = [P("Pesan penutup", 14, "kuning_di_gelap", tebal=True, spasi=1.2, setelah=6),
                           P(pesan, ukuran, "putih", tebal=ukuran >= 19, spasi=1.3)]
-                    hp = D.tinggi_paragraf(pp, w, sisi) + 0.15
-                n = next((k for k in range(len(butir), minimal - 1, -1)
-                          if y + sum(h + 0.15 for _, h in butir[:k]) + hp <= BATAS_HALAMAN), None)
-                if n is not None:
-                    break
-            if n is not None:
-                break
-        n = 0 if n is None else n
-        for i, (p, h) in enumerate(butir[:n], 1):
-            D.kotak(slide, x, y, w, h, warna="kartu", radius=D.RADIUS, nama=f"Ringkasan {i}")
-            D.lingkaran(slide, x + 0.25, y + (h - d) / 2, d, "navy", i, 16, "putih", nama=f"Nomor {i}")
-            D.teks(slide, x, y, w, h, p, inset=inset, jangkar="m")
-            y += h + 0.15
-        if pesan:
+                    hp = D.tinggi_paragraf(pp, u["w"], u["sisi"]) + 0.15
+                if u["y"] + sum(h + u["celah"] for h, _ in baris) + hp <= BATAS_HALAMAN:
+                    return kolom, baris, pp, hp
+        return None
+
+    def penutup(self, slide, ringkasan, pesan):
+        self.salin_slide("penutup", slide, lambda el: _navbar_template(el) or self._teks_contoh(el, "LOREM"))
+        u = self.PENUTUP
+        x, w, y, d, celah = u["x"], u["w"], u["y"], u["d"], u["celah"]
+        inset = (0.25 + d + 0.25, 0.14, 0.3, 0.14)
+        n = len(ringkasan)
+        while (susunan := self.susun_penutup(ringkasan[:n], pesan)) is None and n:
+            n -= 1  # hanya bila butirnya sendiri lebih tinggi dari satu halaman
+        kolom, baris, pp, hp = susunan or (1, [], None, 0)
+        lw = (w - celah * (kolom - 1)) / kolom
+        i = 0
+        for h, isi in baris:
+            for j, p in enumerate(isi):
+                i += 1
+                kx = x + j * (lw + celah)
+                D.kotak(slide, kx, y, lw, h, warna="kartu", radius=D.RADIUS, nama=f"Ringkasan {i}")
+                D.lingkaran(slide, kx + 0.25, y + (h - d) / 2, d, "navy", i, 16, "putih", nama=f"Nomor {i}")
+                D.teks(slide, kx, y, lw, h, p, inset=inset, jangkar="m")
+            y += h + celah
+        if pp:
             h = hp - 0.15
             D.kotak(slide, x, y + 0.15, w, h, warna="kartu_gelap", radius=D.RADIUS, nama="Pesan penutup")
-            D.teks(slide, x, y + 0.15, w, h, pp, inset=sisi, jangkar="m")
+            D.teks(slide, x, y + 0.15, w, h, pp, inset=u["sisi"], jangkar="m")
             y += 0.15 + h
         return y
 
