@@ -132,6 +132,18 @@
                   "2 dari 2"
                 ]
               ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn06_distribusi_kategori/gambar-01.png",
+              "lebar": 6.06,
+              "tinggi": 0.93,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
             }
           ]
         }
@@ -151,7 +163,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn06_distribusi_kategori/gambar-01.png",
+              "file": "media/tiu_vn06_distribusi_kategori/gambar-02.png",
               "lebar": 6.06,
               "tinggi": 1.18
             }

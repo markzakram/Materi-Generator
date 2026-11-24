@@ -1,0 +1,245 @@
+{
+ "keterangan": "Tambahan di luar highlight yang dipilih per dokumen (id entri katalog). 'di' = judul subbab tanpa nomor; 'awal' = awal paragraf yang dimasukkan; 'gambar'/'tabel': true = gambar/tabel subbab itu ikut. Hapus satu butir untuk mencoret tambahannya, lalu jalankan impor_katalog.py.",
+ "dokumen": {
+  "va-01": [
+   {
+    "di": "Sinonim dan antonim",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Sinonim adalah kata",
+     "cermat ↔",
+     "Antonim adalah kata",
+     "lambat ←"
+    ]
+   },
+   {
+    "di": "Sebab–akibat",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Hubungan sebab–akibat mengaitkan",
+     "benturan →",
+     "Baca panah sebagai"
+    ]
+   },
+   {
+    "di": "Benda–fungsi",
+    "alasan": "definisi subbab",
+    "awal": [
+     "Hubungan benda–fungsi mengaitkan",
+     "pena →",
+     "Baca panah sebagai"
+    ]
+   },
+   {
+    "di": "Bagian–keseluruhan",
+    "alasan": "definisi subbab",
+    "awal": [
+     "Hubungan bagian–keseluruhan mengaitkan",
+     "roda →",
+     "Baca panah sebagai"
+    ]
+   },
+   {
+    "di": "Profesi atau pelaku–objek",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Hubungan pelaku–objek mengaitkan",
+     "pilot →",
+     "Baca panah sebagai"
+    ]
+   },
+   {
+    "di": "Benda–tempat",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Hubungan benda–tempat mengaitkan",
+     "mobil → garasi",
+     "Baca panah sebagai"
+    ]
+   },
+   {
+    "di": "Objek–sifat",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Hubungan objek–sifat mengaitkan",
+     "es → dingin",
+     "Baca panah sebagai"
+    ]
+   },
+   {
+    "di": "Jenis–kategori",
+    "alasan": "definisi subbab",
+    "awal": [
+     "Hubungan jenis–kategori mengaitkan",
+     "elang →",
+     "Baca panah sebagai"
+    ]
+   }
+  ],
+  "va-02": [
+   {
+    "di": "Langkah 1. Rumuskan hubungan",
+    "alasan": "contoh yang melengkapi gambar/tabel",
+    "awal": [
+     "roda → mobil •",
+     "mobil → roda •"
+    ]
+   },
+   {
+    "di": "Cara mengerjakan empat pola Sebagian Kosong",
+    "alasan": "contoh yang melengkapi gambar/tabel",
+    "awal": [
+     "Opsi ① kata pertama"
+    ]
+   }
+  ],
+  "vs-01": [
+   {
+    "di": "Penerjemahan ke Simbol",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Pisahkan dulu pernyataan",
+     "Pada kalimat “John tidak stres"
+    ]
+   }
+  ],
+  "vs-03": [
+   {
+    "di": "Penutup",
+    "alasan": "pesan penutup kosong",
+    "awal": [
+     "Hukum implikasi menulis"
+    ]
+   }
+  ],
+  "dd-02": [
+   {
+    "di": "b. Total dan selisih",
+    "alasan": "rumus di bawah kalimat wajib",
+    "awal": [
+     "$Total=bagian pertama"
+    ]
+   }
+  ],
+  "dd-03": [
+   {
+    "di": "Tips Menghindari Kesalahan",
+    "alasan": "contoh yang melengkapi gambar/tabel",
+    "awal": [
+     "Contoh: bus A berkapasitas",
+     "Bus B lebih murah jika"
+    ]
+   }
+  ],
+  "dd-04": [
+   {
+    "di": "Memahami suku dan larik",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Suku adalah setiap bilangan",
+     "Larik adalah kelompok suku",
+     "Tanda ↑ berarti"
+    ]
+   },
+   {
+    "di": "Cara Menerapkan Konsep Towew",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Beri nomor posisi",
+     "Perhatikan perubahan naik-turun",
+     "Coba baca berurutan",
+     "Pastikan aturan berlaku",
+     "Tentukan larik yang memuat"
+    ]
+   }
+  ],
+  "dd-05": [
+   {
+    "di": "Barisan Hijab (Pemisah atau Pembatas)",
+    "alasan": "definisi subbab",
+    "awal": [
+     "Hijab adalah pemisah"
+    ]
+   },
+   {
+    "di": "Memilih Pemeriksaan Pola",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Periksa selisih tetap",
+     "Periksa faktor pengali",
+     "Perhatikan apakah deret",
+     "Uji penjumlahan dua suku",
+     "Masukkan hasil ke seluruh rumpang"
+    ]
+   }
+  ],
+  "nu-03": [
+   {
+    "di": "Ringkasan kelompok bilangan",
+    "alasan": "tabel ringkasan subbab",
+    "tabel": true
+   }
+  ],
+  "nu-06": [
+   {
+    "di": "Mengenali persamaan",
+    "alasan": "rumus di bawah kalimat wajib",
+    "awal": [
+     "$2x + 1 = 9$",
+     "Bentuk 2x + 1 berada"
+    ]
+   }
+  ],
+  "nu-07": [
+   {
+    "di": "Penyelesaian persamaan",
+    "alasan": "contoh yang melengkapi gambar/tabel",
+    "awal": [
+     "Contoh: cari nilai x pada 3x + 5",
+     "Angka 5 dikurangkan",
+     "3x = 15",
+     "Bagi kedua ruas dengan 3",
+     "x = 5"
+    ]
+   }
+  ],
+  "nu-08": [
+   {
+    "di": "Persamaan linear satu variabel",
+    "alasan": "rumus di bawah kalimat wajib",
+    "awal": [
+     "$m = d",
+     "Huruf m menyatakan"
+    ]
+   },
+   {
+    "di": "Sistem persamaan linear dua variabel",
+    "alasan": "rumus di bawah kalimat wajib",
+    "awal": [
+     "$2b + 3p",
+     "Huruf b menyatakan"
+    ]
+   }
+  ],
+  "nu-16": [
+   {
+    "di": "Dasar Jarak, Kecepatan, dan Waktu",
+    "alasan": "contoh yang melengkapi gambar/tabel",
+    "awal": [
+     "Rina menempuh 18 km",
+     "$K=18/1,5$",
+     "$K=12 km/jam$"
+    ]
+   }
+  ],
+  "vn-03": [
+   {
+    "di": "Membuat kerangka jadwal",
+    "alasan": "contoh yang melengkapi gambar/tabel",
+    "awal": [
+     "Dalam contoh ini, A memakai Ruang 1"
+    ]
+   }
+  ]
+ }
+}

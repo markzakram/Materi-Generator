@@ -225,6 +225,37 @@
             {
               "jenis": "paragraf",
               "teks": "Jika tidak dilunasi sesuai kontrak, penyelesaian barang jaminan dapat melibatkan proses penjualan/lelang menurut ketentuan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Komponen",
+                "Ilustrasi"
+              ],
+              "baris": [
+                [
+                  "**Pokok pinjaman**",
+                  "Rp4.000.000"
+                ],
+                [
+                  "**Biaya penggunaan dana**",
+                  "Rp80.000"
+                ],
+                [
+                  "**Biaya administrasi**",
+                  "Rp20.000"
+                ],
+                [
+                  "**Total ilustratif**",
+                  "Rp4.100.000"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Komponen | Ilustrasi"
+                }
+              ]
             }
           ]
         }
@@ -275,8 +306,67 @@
       ]
     },
     {
-      "subbab": "Pemeriksaan Legalitas dan Kesalahan Analisis",
+      "subbab": "Contoh Menentukan Kelebihan Hasil Penjualan",
       "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Contoh Menentukan Kelebihan Hasil Penjualan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk memahami hak atas sisa hasil penjualan barang jaminan, gunakan model edukasi: hasil penjualan dikurangi total kewajiban yang sah dan biaya penanganan yang sesuai ketentuan. Nilai sisanya diproses menurut hak dan kewajiban dalam perjanjian serta regulasi.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Untuk memahami hak atas sisa hasil penjualan barang jaminan, gunakan model edukasi: hasil penjualan dikurangi total kewajiban yang sah dan biaya penanganan yang sesuai ketentuan. Nilai sisanya diproses menurut hak dan kewajiban dalam perjanjian serta regulasi."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya secara ilustratif barang terjual Rp5.000.000, sisa utang pokok dan biaya yang sah Rp4.200.000, maka selisihnya Rp800.000. Ini belum menetapkan jadwal atau mekanisme distribusi, karena harus mengikuti ketentuan penyedia jasa yang berlaku.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Misalnya secara ilustratif barang terjual Rp5.000.000, sisa utang pokok dan biaya yang sah Rp4.200.000, maka selisihnya Rp800.000. Ini belum menetapkan jadwal atau mekanisme distribusi, karena harus mengikuti ketentuan penyedia jasa yang berlaku."
+                }
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Besaran",
+                "Nilai ilustratif"
+              ],
+              "baris": [
+                [
+                  "**Hasil penjualan**",
+                  "Rp5.000.000"
+                ],
+                [
+                  "**Total kewajiban dan biaya sah**",
+                  "Rp4.200.000"
+                ],
+                [
+                  "**Selisih**",
+                  "Rp800.000"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Tabel: Besaran | Nilai ilustratif"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pemeriksaan Legalitas dan Kesalahan Analisis",
+      "ikon": "strategi",
       "slide": [
         {
           "tipe": "blok",
@@ -292,7 +382,7 @@
     },
     {
       "subbab": "Memposisikan Pergadaian di Antara Lembaga Jasa Keuangan",
-      "ikon": "strategi",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
@@ -308,7 +398,7 @@
     },
     {
       "subbab": "Membedakan Gadai, Pembiayaan Multiguna, dan Kredit Bank",
-      "ikon": "grafik",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",
@@ -324,7 +414,7 @@
     },
     {
       "subbab": "Pemeriksaan Legalitas Entitas dan Perilaku Penawaran",
-      "ikon": "roket",
+      "ikon": "checklist",
       "slide": [
         {
           "tipe": "blok",
@@ -344,7 +434,7 @@
     },
     {
       "subbab": "Aplikasi Kasus Pelunasan dan Lelang",
-      "ikon": "checklist",
+      "ikon": "globe",
       "slide": [
         {
           "tipe": "blok",
@@ -364,7 +454,7 @@
     },
     {
       "subbab": "Kedudukan Pergadaian sebagai Lembaga Jasa Keuangan",
-      "ikon": "globe",
+      "ikon": "strategi",
       "slide": [
         {
           "tipe": "blok",
@@ -384,7 +474,7 @@
     },
     {
       "subbab": "Proses Penaksiran dan Penentuan Pinjaman",
-      "ikon": "strategi",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
@@ -400,7 +490,7 @@
     },
     {
       "subbab": "Menghitung Kewajiban Pelunasan Secara Akurat",
-      "ikon": "grafik",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",
@@ -416,7 +506,7 @@
     },
     {
       "subbab": "Perpanjangan, Jatuh Tempo, dan Pelelangan",
-      "ikon": "roket",
+      "ikon": "checklist",
       "slide": [
         {
           "tipe": "blok",
@@ -436,7 +526,7 @@
     },
     {
       "subbab": "Pergadaian Konvensional dan Syariah",
-      "ikon": "checklist",
+      "ikon": "globe",
       "slide": [
         {
           "tipe": "blok",
@@ -452,7 +542,7 @@
     },
     {
       "subbab": "Pelindungan Konsumen dalam Pergadaian",
-      "ikon": "globe",
+      "ikon": "strategi",
       "slide": [
         {
           "tipe": "blok",
@@ -472,7 +562,7 @@
     },
     {
       "subbab": "Perbandingan Gadai, Fidusia, dan Kredit Tanpa Agunan",
-      "ikon": "strategi",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
@@ -492,7 +582,7 @@
     },
     {
       "subbab": "Peran Pergadaian bagi UMKM dan Inklusi Keuangan",
-      "ikon": "grafik",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",

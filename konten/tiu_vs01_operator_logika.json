@@ -219,6 +219,38 @@
           ]
         }
       ]
+    },
+    {
+      "subbab": "Penerjemahan ke Simbol",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penerjemahan ke Simbol",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pisahkan dulu pernyataan yang ada dalam kalimat. Lalu lihat apakah ada kata yang menghubungkan keduanya atau kata “tidak” yang mengubah salah satunya.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Pisahkan dulu pernyataan yang ada dalam kalimat. Lalu lihat apakah ada kata yang menghubungkan keduanya atau kata “tidak” yang mengubah salah satunya."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kalimat “John tidak stres, tetapi John lelah”, bagian pertama adalah kebalikan dari “John stres” (¬p). Bagian kedua menyatakan “John lelah” (q). Di sini “tetapi” berfungsi seperti “dan”, sehingga bentuk lengkapnya adalah ¬p ∧ q.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Pada kalimat “John tidak stres, tetapi John lelah”, bagian pertama adalah kebalikan dari “John stres” (¬p). Bagian kedua menyatakan “John lelah” (q). Di sini “tetapi” berfungsi seperti “dan”, sehingga bentuk lengkapnya adalah ¬p ∧ q."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "penutup": {

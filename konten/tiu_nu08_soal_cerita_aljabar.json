@@ -130,6 +130,26 @@
             {
               "jenis": "paragraf",
               "teks": "Mulai dari orang yang dijadikan pembanding. Arah penjumlahan atau pengurangan berubah ketika pembandingnya ditukar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$m = d − 2$",
+              "tambahan": [
+                {
+                  "alasan": "rumus di bawah kalimat wajib",
+                  "isi": "$m = d − 2$"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf m menyatakan usia Mira dan d menyatakan usia Dani, keduanya dalam tahun. Jika usia Dani sudah diketahui, masukkan angka itu. Jika hanya usia Mira yang belum diketahui, cukup gunakan satu variabel untuk usia Mira.",
+              "tambahan": [
+                {
+                  "alasan": "rumus di bawah kalimat wajib",
+                  "isi": "Huruf m menyatakan usia Mira dan d menyatakan usia Dani, keduanya dalam tahun. Jika usia Dani sudah diketahui, masukkan angka itu. Jika hanya usia Mira yang belum diketahui, cukup gunakan satu variabel untuk usia Mira."
+                }
+              ]
             }
           ]
         }
@@ -156,6 +176,26 @@
             {
               "jenis": "paragraf",
               "teks": "Harga setiap jenis barang dihitung dari jumlah barang dikali harga satuannya. Jumlahkan kedua harga tersebut untuk memperoleh total tagihan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2b + 3p = 21.000$",
+              "tambahan": [
+                {
+                  "alasan": "rumus di bawah kalimat wajib",
+                  "isi": "$2b + 3p = 21.000$"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf b menyatakan harga satu buku dan p harga satu pensil, keduanya dalam rupiah. Satu transaksi menunjukkan jumlah tagihan, sehingga masih mungkin ada beberapa pasangan harga satuan. Transaksi kedua dengan komposisi yang berbeda membantu menentukan pasangan harganya.",
+              "tambahan": [
+                {
+                  "alasan": "rumus di bawah kalimat wajib",
+                  "isi": "Huruf b menyatakan harga satu buku dan p harga satu pensil, keduanya dalam rupiah. Satu transaksi menunjukkan jumlah tagihan, sehingga masih mungkin ada beberapa pasangan harga satuan. Transaksi kedua dengan komposisi yang berbeda membantu menentukan pasangan harganya."
+                }
+              ]
             }
           ]
         }

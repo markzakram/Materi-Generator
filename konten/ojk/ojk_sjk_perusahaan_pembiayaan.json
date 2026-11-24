@@ -127,6 +127,37 @@
             {
               "jenis": "paragraf",
               "teks": "Secara umum, kegiatan yang dikenal meliputi pembiayaan investasi, pembiayaan modal kerja, pembiayaan multiguna, dan kegiatan pembiayaan lain sesuai izin dan peraturan. Pembiayaan investasi mendukung pengadaan barang modal; modal kerja membantu kebutuhan operasional usaha; multiguna mencakup pembiayaan barang/jasa untuk penggunaan atau pemanfaatan tertentu."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Tujuan",
+                "Contoh konteks",
+                "Indikator soal"
+              ],
+              "baris": [
+                [
+                  "**Investasi**",
+                  "Mesin, peralatan modal untuk usaha",
+                  "Mendukung aktivitas produksi/ekspansi"
+                ],
+                [
+                  "**Modal kerja**",
+                  "Bahan baku, stok, operasional usaha",
+                  "Kebutuhan operasi jangka berjalan"
+                ],
+                [
+                  "**Multiguna**",
+                  "Barang/jasa bagi konsumen",
+                  "Penggunaan dan persyaratan produk"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Tujuan | Contoh konteks | Indikator soal"
+                }
+              ]
             }
           ]
         }
@@ -273,6 +304,37 @@
             {
               "jenis": "paragraf",
               "teks": "Penilaian kewajaran cicilan mempertimbangkan dana bersih tersedia setelah pengeluaran wajib, kestabilan pendapatan, dan kapasitas membayar pada kondisi tidak ideal. Pengambilan pembiayaan harus mempertimbangkan daya tahan anggaran, bukan hanya persetujuan permohonan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Perbandingan",
+                "Penawaran A",
+                "Penawaran B"
+              ],
+              "baris": [
+                [
+                  "**Angsuran bulanan**",
+                  "Rp1.500.000",
+                  "Rp1.100.000"
+                ],
+                [
+                  "**Tenor**",
+                  "12 bulan",
+                  "18 bulan"
+                ],
+                [
+                  "**Total angsuran**",
+                  "Rp18.000.000",
+                  "Rp19.800.000"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Perbandingan | Penawaran A | Penawaran B"
+                }
+              ]
             }
           ]
         }

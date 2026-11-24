@@ -173,6 +173,22 @@
       "slide": [
         {
           "tipe": "blok",
+          "judul": "Barisan Hijab (Pemisah atau Pembatas)",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hijab adalah pemisah atau batas yang membantu membagi deret menjadi beberapa kelompok. Setelah kelompoknya terlihat, periksa peran setiap anggota: mana yang menjadi pembatas, mana yang membentuk hubungan di dalam kelompok, dan bagaimana kelompok berikutnya berubah.",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "Hijab adalah pemisah atau batas yang membantu membagi deret menjadi beberapa kelompok. Setelah kelompoknya terlihat, periksa peran setiap anggota: mana yang menjadi pembatas, mana yang membentuk hubungan di dalam kelompok, dan bagaimana kelompok berikutnya berubah."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
           "judul": "a. Hijab Terlihat – Bergerak",
           "blok": [
             {
@@ -390,6 +406,50 @@
               "file": "media/tiu_dd05_jenis_deret_angka/gambar-09.png",
               "lebar": 5.97,
               "tinggi": 2.24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memilih Pemeriksaan Pola",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memilih Pemeriksaan Pola",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Periksa selisih tetap. Jika selisih berubah teratur, periksa tingkat selisih berikutnya.",
+                "Periksa faktor pengali atau pembagi yang tetap.",
+                "Perhatikan apakah deret perlu dikelompokkan dengan pemisah atau batas yang teratur.",
+                "Uji penjumlahan dua suku sebelumnya, operasi gabungan, atau aturan berbasis posisi jika pola sederhana belum cocok.",
+                "Masukkan hasil ke seluruh rumpang, lalu periksa aturan di kedua sisi dan urutan jawabannya."
+              ],
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Periksa selisih tetap. Jika selisih berubah teratur, periksa tingkat selisih berikutnya."
+                },
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Periksa faktor pengali atau pembagi yang tetap."
+                },
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Perhatikan apakah deret perlu dikelompokkan dengan pemisah atau batas yang teratur."
+                },
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Uji penjumlahan dua suku sebelumnya, operasi gabungan, atau aturan berbasis posisi jika pola sederhana belum cocok."
+                },
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Masukkan hasil ke seluruh rumpang, lalu periksa aturan di kedua sisi dan urutan jawabannya."
+                }
+              ]
             }
           ]
         }

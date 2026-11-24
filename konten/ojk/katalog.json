@@ -179,6 +179,7 @@
    "dokumen": "Badges",
    "doc_id": "14mlSsrm9_XNueFjmakNgfXBDIQah4vo01vkE8Y7NH6w",
    "naskah": "ojk_pd_badges.json",
+   "penanda": "merah",
    "otomatis": true
   },
   {
@@ -195,6 +196,175 @@
    "otomatis": true
   },
   {
+   "id": "pd-05",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Timeslot Scheduling",
+   "bab": "Timeslot Scheduling",
+   "baris_sheet": 14,
+   "dokumen": "Timeslot Scheduling_PCAM OJK 2026.docx",
+   "doc_id": "1Zuze8pSLj-wSE8xHONq11nEOtDlUdFwL",
+   "naskah": "ojk_pd_timeslot_scheduling.json",
+   "otomatis": true
+  },
+  {
+   "id": "pd-05-soal",
+   "kelompok": "Penalaran Deduktif",
+   "subtes": "Tes Penalaran Deduktif",
+   "materi": "Timeslot Scheduling",
+   "bab": "Contoh Soal Timeslot Scheduling",
+   "baris_sheet": 15,
+   "dokumen": "Timeslot Scheduling_PCAM OJK 2026.docx",
+   "doc_id": "1Zuze8pSLj-wSE8xHONq11nEOtDlUdFwL",
+   "naskah": "ojk_pd_timeslot_scheduling_contoh_soal.json",
+   "bagian": "soal",
+   "otomatis": true
+  },
+  {
+   "id": "bi-01",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Grammar and Vocabulary",
+   "baris_sheet": 16,
+   "dokumen": "1. Grammar and Vocabulary",
+   "doc_id": "1SuUYKiMJZGoXoQ7Hz9ojlcygzjLOq7Xcjcwg8l_PwME",
+   "naskah": "ojk_bi_grammar_and_vocabulary.json",
+   "miring": true,
+   "otomatis": true
+  },
+  {
+   "id": "bi-02",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Sentence Completion",
+   "baris_sheet": 17,
+   "dokumen": "2. Sentence Completion",
+   "doc_id": "1BsYn2XGe26Iw7ZDzv23z6QTzfDAjUsotvn8-78abqMM",
+   "naskah": "ojk_bi_sentence_completion.json",
+   "miring": true,
+   "otomatis": true
+  },
+  {
+   "id": "bi-02-soal",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Contoh Soal Sentence Completion",
+   "baris_sheet": 17,
+   "dokumen": "2. Sentence Completion",
+   "doc_id": "1BsYn2XGe26Iw7ZDzv23z6QTzfDAjUsotvn8-78abqMM",
+   "naskah": "ojk_bi_sentence_completion_contoh_soal.json",
+   "bagian": "soal",
+   "otomatis": true
+  },
+  {
+   "id": "bi-03",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Sentence Improvement",
+   "baris_sheet": 18,
+   "dokumen": "3. Sentence Improvement",
+   "doc_id": "1bwabJQeM27UHVNn9zB6wqBgdINJnlCHL3cLc1-EJkds",
+   "naskah": "ojk_bi_sentence_improvement.json",
+   "miring": true,
+   "otomatis": true
+  },
+  {
+   "id": "bi-03-soal",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Contoh Soal Sentence Improvement",
+   "baris_sheet": 18,
+   "dokumen": "3. Sentence Improvement",
+   "doc_id": "1bwabJQeM27UHVNn9zB6wqBgdINJnlCHL3cLc1-EJkds",
+   "naskah": "ojk_bi_sentence_improvement_contoh_soal.json",
+   "bagian": "soal",
+   "otomatis": true
+  },
+  {
+   "id": "bi-04",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Grammatically Correct Sentence",
+   "baris_sheet": 19,
+   "dokumen": "4. Grammatically Correct Sentence",
+   "doc_id": "1XTOctSnOS0GxO3XJej7pOosYp8xo-ZYx0gZSwSd9owg",
+   "naskah": "ojk_bi_grammatically_correct_sentence.json",
+   "miring": true,
+   "otomatis": true
+  },
+  {
+   "id": "bi-04-soal",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Contoh Soal Grammatically Correct Sentence",
+   "baris_sheet": 19,
+   "dokumen": "4. Grammatically Correct Sentence",
+   "doc_id": "1XTOctSnOS0GxO3XJej7pOosYp8xo-ZYx0gZSwSd9owg",
+   "naskah": "ojk_bi_grammatically_correct_sentence_contoh_soal.json",
+   "bagian": "soal",
+   "otomatis": true
+  },
+  {
+   "id": "bi-05",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Sentence Arrangement",
+   "baris_sheet": 20,
+   "dokumen": "5. Sentence Arrangement",
+   "doc_id": "1cKLisgXNI-X-eLtrhIfd_Jx4sf4F-R-UgBXY2H_dCSg",
+   "naskah": "ojk_bi_sentence_arrangement.json",
+   "miring": true,
+   "otomatis": true
+  },
+  {
+   "id": "bi-05-soal",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Grammar and Vocabulary",
+   "bab": "Contoh Soal Sentence Arrangement",
+   "baris_sheet": 20,
+   "dokumen": "5. Sentence Arrangement",
+   "doc_id": "1cKLisgXNI-X-eLtrhIfd_Jx4sf4F-R-UgBXY2H_dCSg",
+   "naskah": "ojk_bi_sentence_arrangement_contoh_soal.json",
+   "bagian": "soal",
+   "otomatis": true
+  },
+  {
+   "id": "bi-06",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Reading Comprehension",
+   "bab": "Reading Comprehension",
+   "baris_sheet": 21,
+   "dokumen": "Reading Comprehension (Canva)",
+   "doc_id": "DAG3srlbW34",
+   "naskah": "ojk_bi_reading_comprehension.json",
+   "url": "https://canva.link/m2bvtv9wt2fmo82",
+   "otomatis": false
+  },
+  {
+   "id": "bi-06-soal",
+   "kelompok": "Bahasa Inggris",
+   "subtes": "Tes Bahasa Inggris",
+   "materi": "Reading Comprehension",
+   "bab": "Contoh Soal Reading Comprehension",
+   "baris_sheet": 22,
+   "dokumen": "Contoh Soal Reading Comprehension (Canva)",
+   "doc_id": "DAHJh-XTaGA",
+   "naskah": "ojk_bi_reading_comprehension_contoh_soal.json",
+   "url": "https://canva.link/ejfp5maccu1r88k",
+   "bagian": "soal",
+   "otomatis": false
+  },
+  {
    "id": "sjk-01",
    "kelompok": "Sektor Jasa Keuangan",
    "subtes": "Tes Pengetahuan Sektor Jasa Keuangan",
@@ -204,6 +374,7 @@
    "dokumen": "Pengenalan OJK dan Waspada Investasi",
    "doc_id": "1QK4EVB5S5xiv59vimc2f3SVJcWAQaVd_TCDRPpblugE",
    "naskah": "ojk_sjk_pengenalan_ojk_dan_waspada_investasi.json",
+   "pelengkap": "minimal",
    "otomatis": true
   },
   {
@@ -229,6 +400,7 @@
    "dokumen": "Perencanaan Keuangan",
    "doc_id": "1qO5uAshmGEH2y1UcCPYhjg9Efmv5D86zEoNb_b_z_0M",
    "naskah": "ojk_sjk_perencanaan_keuangan.json",
+   "pelengkap": "minimal",
    "otomatis": true
   },
   {
@@ -479,6 +651,7 @@
    "dokumen": "Investasi dan Proteksi_Dana Pensiun.docx",
    "doc_id": "1rgp1sSQ3UT0prFgdJAZDetqwExzBTl1F",
    "naskah": "ojk_sjk_dana_pensiun.json",
+   "pelengkap": "minimal",
    "otomatis": true
   },
   {

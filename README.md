@@ -43,7 +43,7 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (76 deck: 28 Verbal, 41 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (44 deck TKU PCAM OJK: 22 materi dan 22 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (76 deck: 28 Verbal, 41 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (57 deck TKU PCAM OJK: 29 materi dan 28 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
 
 Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn`.
 
@@ -56,7 +56,7 @@ python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-gene
 
 Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general` (satu tampilan, jadi halaman tidak menampilkan pilihan). Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
 
-Ukuran: TIU sekitar 193 MB dan OJK sekitar 108 MB, jadi seluruh situs sekitar 302 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
+Ukuran: TIU sekitar 196 MB dan OJK sekitar 142 MB, jadi seluruh situs sekitar 338 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
 
 Untuk memperbarui daftar saja (kelompok, tautan dokumen, jenis deck) tanpa membangun deck, jalankan perintah yang sama dengan `--hanya-data`; PowerPoint dan template tidak dibutuhkan.
 
@@ -81,16 +81,26 @@ Soal yang ditulis di dokumen materi selalu dipisah menjadi deck sendiri, baik ya
 
 Hanya entri dengan `"otomatis": true` yang ditimpa. Satu dokumen bisa dikonversi langsung dengan `generator/ekstrak_gdoc.py`.
 
-### Yang masuk PPT: hanya bagian yang ditandai penulis
+### Yang masuk PPT: wajib, pelengkap, dan tidak masuk
 
-Aturan tim akademik: yang masuk PPT hanya bagian yang diberi **sorotan (highlight) kuning** di dokumen sumber. Konverter membacanya dari berkas Word (teks, gambar, rumus, dan sel tabel punya tanda sorotan sendiri); lihat `tandai()` dan `saring()` di `generator/ekstrak_gdoc.py`.
+Highlight berarti *wajib* masuk, bukan satu-satunya yang boleh masuk. Ada tiga tingkat:
+
+1. **Wajib**: bagian yang diberi sorotan (highlight) kuning atau berlabel `[WAJIB PPT]` di dokumen sumber (rinciannya di bawah).
+2. **Pelengkap**: tambahan di luar sorotan supaya isi wajib tidak pincang (`pelengkap()` di `generator/ekstrak_gdoc.py`): gambar dan tabel di bawah judul yang sudah punya isi masuk, langkah atau butir daftar yang bolong, dan pilihan per dokumen di `konten/pelengkap.json` / `konten/ojk/pelengkap.json` (inti subbab tanpa sorotan, definisi, tujuan dan pesan penutup yang kosong). Hapus satu butir di berkas itu untuk mencoret tambahannya. Katalog `"pelengkap": "minimal"` (Pengenalan OJK, Perencanaan Keuangan, Dana Pensiun) membatasi tabel ke yang diapit isi wajib.
+3. **Tidak masuk**: `[PENGAYAAN]` (kecuali di bawah label "semua contoh soal wajib"), isi di luar label "hanya foto dan profil", soal tanpa sorotan, penjelasan lanjutan di subbab yang sudah punya sorotan, rujukan, dan catatan penyusun (`CATATAN_PRODUKSI`, mis. "PPT Materi OLD mencantumkan D").
+
+Setiap tambahan ditulis di **catatan pembicara** slide-nya ("TAMBAHAN DI LUAR HIGHLIGHT") dan disimpan di naskah (`tambahan` pada blok) supaya tim bisa meninjau dan mencoretnya.
+
+Aturan bagian wajib: Konverter membacanya dari berkas Word (teks, gambar, rumus, dan sel tabel punya tanda sorotan sendiri); lihat `tandai()` dan `saring()` di `generator/ekstrak_gdoc.py`.
 
 - **Paragraf** yang disorot sebagian: dipakai kalimat yang minimal separuh hurufnya disorot. **Tabel**: header dan baris yang disorot.
-- **Label** di judul: `[WAJIB PPT]` atau `[semua contoh soal wajib ada di PPT]` berarti seluruh isi bagian itu masuk; `[... yang dihighlight wajib ...]` dan `[PENGAYAAN]` berarti sorotan saja; `[Sertakan gambar pada slide]` memasukkan gambarnya; `[... hanya foto dan profil ...]` memasukkan tabel foto sebagai kartu profil.
-- **Judul** subbab dan subjudul tetap ada bila isinya masuk. Gambar yang diapit dua paragraf yang masuk, atau yang keterangannya disorot, ikut.
-- **Soal** masuk bila minimal separuh pertanyaan dan opsinya disorot. Pertanyaan, opsi, dan kuncinya utuh; pembahasannya hanya bagian yang disorot (jawaban uraian tetap ikut).
+- **Label** di judul: `[WAJIB PPT]` berarti seluruh isi bagian itu masuk; `[... yang dihighlight wajib ...]` dan `[PENGAYAAN]` berarti sorotan saja; `[semua contoh soal wajib ada di PPT]` memasukkan semua soal, termasuk yang berlabel `[PENGAYAAN]`; `[Sertakan gambar pada slide]` memasukkan gambarnya; `[... hanya foto dan profil ...]` memasukkan tabel foto sebagai kartu profil.
+- **Judul** subbab dan subjudul tetap ada bila isinya masuk.
+- **Gambar** ikut teksnya, karena sorotan di Google Docs hanya tampak pada teks sehingga gambar jarang ikut disorot (lihat `_ikutkan_gambar()`): gambar masuk bila disorot, keterangannya disorot, diapit paragraf yang masuk, atau, di dokumen yang penulisnya tidak pernah menyorot gambar di bagian materi (mis. Fill Shape dan Drag the Line), bila ada isi yang masuk di bawah judul yang sama. Di dokumen yang sebagian gambar materinya disorot (Verbal, Numerik), gambar lain tidak dianggap wajib. Gambar di dokumen semacam itu tetap masuk sebagai pelengkap bila subbabnya masuk.
+- **Soal** masuk bila minimal separuh pertanyaan dan opsinya disorot. Pertanyaan, opsi, dan kuncinya utuh; pembahasannya hanya bagian yang disorot (jawaban uraian tetap ikut). Bila yang ditandai hanya judul soalnya (Badges), soal dan pembahasannya masuk utuh.
 - **Pendahuluan, tujuan, dan pesan penutup** yang tidak ditandai dilewati (`meta.lewati_kosong`); ringkasan penutup tetap berisi judul subbab.
-- Dokumen yang tidak punya tanda sama sekali (saat ini hanya **Badges**) dikonversi utuh. Figural (PDF) dan Penalaran Logis tidak memakai aturan ini.
+- **Teks merah**: Badges tidak memakai highlight; penandanya teks merah (`"penanda": "merah"` di katalog), dibaca sama seperti highlight kuning. Di dokumen lain warna teks bukan penanda; Perkalian dan Pembagian Setara memakai `"coret": true` supaya coretan merah (`<s>…</s>`) ikut. Sorotan kuning yang dipasang sebagai latar paragraf juga dibaca.
+- Dokumen yang tidak punya tanda sama sekali dikonversi utuh (saat ini tidak ada). Figural (PDF) dan Penalaran Logis tidak memakai aturan ini.
 
 Yang ditandai dikonversi apa adanya: paragraf, subjudul, daftar, tabel (termasuk sel gabungan), gambar beserta keterangannya, persamaan Word (menjadi `$…$`, lewat `generator/omml.py`: pecahan `a/b`, pangkat `x^{2}`, indeks `U_{n}`, akar `√x`), serta contoh soal (soal, opsi A–E, kunci, pembahasan). Yang tidak ada di dokumen dibiarkan kosong untuk dilengkapi di editor: pertanyaan pemantik, level Bloom (lingkaran menampilkan nomor bila kosong), dan teks ringkasan penutup. Dasbor menandai materi yang masih perlu dilengkapi.
 
@@ -108,7 +118,7 @@ python generator/ekstrak_figural.py --pdf folder_pdf
 
 ### Materi PCAM OJK (JadiOJK)
 
-`konten/ojk/katalog.json` mendaftar 22 dokumen di kolom File sheet "Kerangka Course" (Mapping Tahap 2 PCAM OJK 2026) sebagai 44 deck (contoh soal setiap bab dipisah menjadi deck sendiri): subtes TKU (Penalaran Induktif, Penalaran Deduktif, Pengetahuan Sektor Jasa Keuangan), materi, bab, dan ID dokumen. Katalog ini juga menyimpan pengaturan deck: subtes di sampul ("Tes Kemampuan Umum"), peta subtes TKU, awalan nama berkas ("OJK TKU"), merek situs, dan palet `jadiojk`. Naskah dan gambar ada di `konten/ojk/`.
+`konten/ojk/katalog.json` mendaftar 28 dokumen dan 2 deck Canva di kolom File sheet "Kerangka Course" (Mapping Tahap 2 PCAM OJK 2026) sebagai 57 deck (contoh soal setiap bab dipisah menjadi deck sendiri): subtes TKU (Penalaran Induktif, Penalaran Deduktif, Bahasa Inggris, Pengetahuan Sektor Jasa Keuangan), materi, bab, dan ID dokumen. Katalog ini juga menyimpan pengaturan deck: subtes di sampul ("Tes Kemampuan Umum"), peta subtes TKU, awalan nama berkas ("OJK TKU"), merek situs, dan palet `jadiojk`. Naskah dan gambar ada di `konten/ojk/`.
 
 ```bash
 python generator/impor_katalog.py --katalog konten/ojk/katalog.json --docx folder_docx_ojk
@@ -116,6 +126,8 @@ python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-gene
 ```
 
 Perintah kedua membangun materi OJK ke `situs/ojk/` dan menambahkan tab "JadiOJK · PCAM OJK" di situs unduhan yang sama dengan TIU (warna halaman JadiOJK).
+
+Materi Bahasa Inggris (baris 16–20) memakai `"miring": true` di katalog supaya cetak miring dokumen ikut (`<i>…</i>` di naskah), karena soal Sentence Improvement menanyakan "the italicised part". Reading Comprehension (baris 21–22) berupa deck Canva, jadi naskahnya disusun manual (`"otomatis": false`, `"url"` tautan Canva); latihan di deck materinya dipindah ke deck contoh soal. Soal bacaan diberi `"bacaan": true` supaya teks, pertanyaan, dan opsi diusahakan muat di satu slide (huruf diperkecil sampai 16 pt).
 
 Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN", "C. Materi Pembelajaran"), catatan penulis dalam kurung siku ("[WAJIB PPT]", "[PENGAYAAN]") yang dibuang dari teks (dan menentukan isi yang masuk, lihat di atas), bagian yang dilewati (Kata Pengantar, Capaian Pembelajaran, Daftar Rujukan), soal per Heading 2 ("4.1 …", "Contoh Soal 1 — …"), dan kunci "Jawaban C. …". Tabel yang punya kolom foto (mis. Profil Anggota Dewan Komisioner OJK) menjadi kartu profil berisi foto, nama, dan jabatan, sesuai catatan "[yang harus ada di PPT hanya foto dan profil]"; kolom uraian panjang tidak ikut. Tabel, daftar butir, dan kartu profil yang lebih tinggi dari satu halaman dipecah ke halaman berikutnya.
 

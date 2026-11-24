@@ -48,7 +48,14 @@
       "Gunakan petunjuk posisi untuk menentukan siapa atau benda apa yang menempati setiap tempat yang ditanya. Model posisi membantu saat petunjuk tersebar, misalnya satu aturan menyebut kursi yang pasti dan aturan lain melarang dua orang duduk berdampingan."
     ],
     "pemantik": "",
-    "ikon": "presenter"
+    "ikon": "presenter",
+    "gambar": "media/tiu_vn01_susunan_posisi/gambar-01.png",
+    "tambahan": [
+      {
+        "alasan": "gambar di subbab yang masuk",
+        "isi": "Gambar"
+      }
+    ]
   },
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
@@ -85,9 +92,52 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-01.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-02.png",
               "lebar": 6.08,
               "tinggi": 1.28
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Petunjuk",
+                "Cara membacanya"
+              ],
+              "baris": [
+                [
+                  "Di kiri",
+                  "Boleh berjarak lebih dari satu posisi."
+                ],
+                [
+                  "Tepat di kiri",
+                  "Satu posisi ke kiri."
+                ],
+                [
+                  "Di samping",
+                  "Satu posisi di kiri atau kanan."
+                ],
+                [
+                  "Tepat di antara",
+                  "Di tengah dua unsur dan berdampingan dengan keduanya."
+                ],
+                [
+                  "Di antara",
+                  "Dalam rentang dua unsur. Jarak ke masing-masing unsur bisa lebih dari satu posisi."
+                ],
+                [
+                  "Berhadapan",
+                  "Setengah putaran pada lingkaran berkursi genap dan berjarak seragam."
+                ],
+                [
+                  "Tepat di belakang",
+                  "Satu baris ke belakang dalam kolom yang sama."
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Petunjuk | Cara membacanya"
+                }
+              ]
             },
             {
               "jenis": "paragraf",
@@ -99,7 +149,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-02.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-03.png",
               "lebar": 6.08,
               "tinggi": 1.41
             },
@@ -109,7 +159,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-03.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-04.png",
               "lebar": 6.08,
               "tinggi": 1.28
             }
@@ -131,7 +181,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-04.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-05.png",
               "lebar": 6.08,
               "tinggi": 0.69
             },
@@ -141,7 +191,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-05.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-06.png",
               "lebar": 6.08,
               "tinggi": 1.28
             },
@@ -151,7 +201,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-06.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-07.png",
               "lebar": 6.08,
               "tinggi": 1.86
             }
@@ -173,7 +223,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-07.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-08.png",
               "lebar": 6.08,
               "tinggi": 1.76
             },
@@ -183,9 +233,21 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-08.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-09.png",
               "lebar": 6.08,
               "tinggi": 1.76
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-10.png",
+              "lebar": 6.06,
+              "tinggi": 1.68,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
             },
             {
               "jenis": "paragraf",
@@ -209,7 +271,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-09.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-11.png",
               "lebar": 6.08,
               "tinggi": 1.57
             },
@@ -219,7 +281,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-10.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-12.png",
               "lebar": 6.08,
               "tinggi": 2.15
             }
@@ -241,7 +303,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn01_susunan_posisi/gambar-11.png",
+              "file": "media/tiu_vn01_susunan_posisi/gambar-13.png",
               "lebar": 6.08,
               "tinggi": 1.28
             }

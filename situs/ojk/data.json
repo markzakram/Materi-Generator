@@ -2,7 +2,7 @@
  "judul": "Materi TKU PCAM OJK",
  "merek": "JadiOJK · Materi PCAM OJK",
  "sumber_sheet": "https://docs.google.com/spreadsheets/d/1gbLje0bYQAQT6lN0QjSSd05OaPMGMdIRm6vRzo0zR-s/edit#gid=442022191",
- "dibuat": "2026-11-23",
+ "dibuat": "2026-11-24",
  "palet": "jadiojk",
  "tema": [
   {
@@ -20,13 +20,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 20,
+     "slide": 34,
      "nama": "OJK TKU - Fill Shape",
      "pptx": "unduh/general/ojk-pi-fill-shape.pptx",
      "pdf": "unduh/general/ojk-pi-fill-shape.pdf",
      "sampul": "sampul/general/ojk-pi-fill-shape.jpg",
-     "ukuran_pptx": 908458,
-     "ukuran_pdf": 1467741
+     "ukuran_pptx": 1468193,
+     "ukuran_pdf": 2183055
     }
    }
   },
@@ -44,8 +44,8 @@
      "pptx": "unduh/general/ojk-pi-fill-shape-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pi-fill-shape-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pi-fill-shape-contoh-soal.jpg",
-     "ukuran_pptx": 1182342,
-     "ukuran_pdf": 1678977
+     "ukuran_pptx": 1188746,
+     "ukuran_pdf": 1679845
     }
    }
   },
@@ -58,13 +58,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 18,
+     "slide": 28,
      "nama": "OJK TKU - Drag the Line",
      "pptx": "unduh/general/ojk-pi-drag-the-line.pptx",
      "pdf": "unduh/general/ojk-pi-drag-the-line.pdf",
      "sampul": "sampul/general/ojk-pi-drag-the-line.jpg",
-     "ukuran_pptx": 868262,
-     "ukuran_pdf": 1390796
+     "ukuran_pptx": 1177101,
+     "ukuran_pdf": 1761258
     }
    }
   },
@@ -101,8 +101,8 @@
      "pptx": "unduh/general/ojk-pd-calendar-date-selection.pptx",
      "pdf": "unduh/general/ojk-pd-calendar-date-selection.pdf",
      "sampul": "sampul/general/ojk-pd-calendar-date-selection.jpg",
-     "ukuran_pptx": 854987,
-     "ukuran_pdf": 1384097
+     "ukuran_pptx": 854899,
+     "ukuran_pdf": 1383760
     }
    }
   },
@@ -120,8 +120,8 @@
      "pptx": "unduh/general/ojk-pd-calendar-date-selection-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pd-calendar-date-selection-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pd-calendar-date-selection-contoh-soal.jpg",
-     "ukuran_pptx": 829516,
-     "ukuran_pdf": 1362077
+     "ukuran_pptx": 829442,
+     "ukuran_pdf": 1361882
     }
    }
   },
@@ -153,13 +153,13 @@
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 8,
+     "slide": 11,
      "nama": "OJK TKU - Contoh Soal Room Allocations",
      "pptx": "unduh/general/ojk-pd-room-allocations-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pd-room-allocations-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pd-room-allocations-contoh-soal.jpg",
-     "ukuran_pptx": 967301,
-     "ukuran_pdf": 1485791
+     "ukuran_pptx": 1446476,
+     "ukuran_pdf": 1587930
     }
    }
   },
@@ -172,13 +172,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 27,
+     "slide": 28,
      "nama": "OJK TKU - Timeline Scheduling",
      "pptx": "unduh/general/ojk-pd-timeline-scheduling.pptx",
      "pdf": "unduh/general/ojk-pd-timeline-scheduling.pdf",
      "sampul": "sampul/general/ojk-pd-timeline-scheduling.jpg",
-     "ukuran_pptx": 963874,
-     "ukuran_pdf": 1643896
+     "ukuran_pptx": 1014362,
+     "ukuran_pdf": 1709975
     }
    }
   },
@@ -191,13 +191,13 @@
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 30,
+     "slide": 29,
      "nama": "OJK TKU - Contoh Soal Timeline Scheduling",
      "pptx": "unduh/general/ojk-pd-timeline-scheduling-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pd-timeline-scheduling-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pd-timeline-scheduling-contoh-soal.jpg",
-     "ukuran_pptx": 1182790,
-     "ukuran_pdf": 1875658
+     "ukuran_pptx": 1179649,
+     "ukuran_pdf": 1869659
     }
    }
   },
@@ -210,13 +210,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 22,
+     "slide": 21,
      "nama": "OJK TKU - Badges",
      "pptx": "unduh/general/ojk-pd-badges.pptx",
      "pdf": "unduh/general/ojk-pd-badges.pdf",
      "sampul": "sampul/general/ojk-pd-badges.jpg",
-     "ukuran_pptx": 890078,
-     "ukuran_pdf": 1551578
+     "ukuran_pptx": 891496,
+     "ukuran_pdf": 1535307
     }
    }
   },
@@ -234,8 +234,255 @@
      "pptx": "unduh/general/ojk-pd-badges-contoh-soal.pptx",
      "pdf": "unduh/general/ojk-pd-badges-contoh-soal.pdf",
      "sampul": "sampul/general/ojk-pd-badges-contoh-soal.jpg",
-     "ukuran_pptx": 922246,
-     "ukuran_pdf": 1426439
+     "ukuran_pptx": 921929,
+     "ukuran_pdf": 1425740
+    }
+   }
+  },
+  {
+   "id": "pd-05",
+   "kelompok": "Penalaran Deduktif",
+   "bab": "Timeslot Scheduling",
+   "judul": "Timeslot Scheduling",
+   "dokumen": "https://docs.google.com/document/d/1Zuze8pSLj-wSE8xHONq11nEOtDlUdFwL/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 23,
+     "nama": "OJK TKU - Timeslot Scheduling",
+     "pptx": "unduh/general/ojk-pd-timeslot-scheduling.pptx",
+     "pdf": "unduh/general/ojk-pd-timeslot-scheduling.pdf",
+     "sampul": "sampul/general/ojk-pd-timeslot-scheduling.jpg",
+     "ukuran_pptx": 987774,
+     "ukuran_pdf": 1624148
+    }
+   }
+  },
+  {
+   "id": "pd-05-soal",
+   "kelompok": "Penalaran Deduktif",
+   "bab": "Contoh Soal Timeslot Scheduling",
+   "judul": "Contoh Soal Timeslot Scheduling",
+   "dokumen": "https://docs.google.com/document/d/1Zuze8pSLj-wSE8xHONq11nEOtDlUdFwL/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "OJK TKU - Contoh Soal Timeslot Scheduling",
+     "pptx": "unduh/general/ojk-pd-timeslot-scheduling-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-pd-timeslot-scheduling-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-pd-timeslot-scheduling-contoh-soal.jpg",
+     "ukuran_pptx": 870277,
+     "ukuran_pdf": 1390549
+    }
+   }
+  },
+  {
+   "id": "bi-01",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Grammar and Vocabulary",
+   "judul": "Grammar and Vocabulary",
+   "dokumen": "https://docs.google.com/document/d/1SuUYKiMJZGoXoQ7Hz9ojlcygzjLOq7Xcjcwg8l_PwME/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 43,
+     "nama": "OJK TKU - Grammar and Vocabulary",
+     "pptx": "unduh/general/ojk-bi-grammar-and-vocabulary.pptx",
+     "pdf": "unduh/general/ojk-bi-grammar-and-vocabulary.pdf",
+     "sampul": "sampul/general/ojk-bi-grammar-and-vocabulary.jpg",
+     "ukuran_pptx": 1040006,
+     "ukuran_pdf": 1795570
+    }
+   }
+  },
+  {
+   "id": "bi-02",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Sentence Completion",
+   "judul": "Sentence Completion",
+   "dokumen": "https://docs.google.com/document/d/1BsYn2XGe26Iw7ZDzv23z6QTzfDAjUsotvn8-78abqMM/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "OJK TKU - Sentence Completion",
+     "pptx": "unduh/general/ojk-bi-sentence-completion.pptx",
+     "pdf": "unduh/general/ojk-bi-sentence-completion.pdf",
+     "sampul": "sampul/general/ojk-bi-sentence-completion.jpg",
+     "ukuran_pptx": 839543,
+     "ukuran_pdf": 1304274
+    }
+   }
+  },
+  {
+   "id": "bi-02-soal",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Contoh Soal Sentence Completion",
+   "judul": "Contoh Soal Sentence Completion",
+   "dokumen": "https://docs.google.com/document/d/1BsYn2XGe26Iw7ZDzv23z6QTzfDAjUsotvn8-78abqMM/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "OJK TKU - Contoh Soal Sentence Completion",
+     "pptx": "unduh/general/ojk-bi-sentence-completion-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-bi-sentence-completion-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-bi-sentence-completion-contoh-soal.jpg",
+     "ukuran_pptx": 781666,
+     "ukuran_pdf": 1307771
+    }
+   }
+  },
+  {
+   "id": "bi-03",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Sentence Improvement",
+   "judul": "Sentence Improvement",
+   "dokumen": "https://docs.google.com/document/d/1bwabJQeM27UHVNn9zB6wqBgdINJnlCHL3cLc1-EJkds/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "OJK TKU - Sentence Improvement",
+     "pptx": "unduh/general/ojk-bi-sentence-improvement.pptx",
+     "pdf": "unduh/general/ojk-bi-sentence-improvement.pdf",
+     "sampul": "sampul/general/ojk-bi-sentence-improvement.jpg",
+     "ukuran_pptx": 868216,
+     "ukuran_pdf": 1350790
+    }
+   }
+  },
+  {
+   "id": "bi-03-soal",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Contoh Soal Sentence Improvement",
+   "judul": "Contoh Soal Sentence Improvement",
+   "dokumen": "https://docs.google.com/document/d/1bwabJQeM27UHVNn9zB6wqBgdINJnlCHL3cLc1-EJkds/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "OJK TKU - Contoh Soal Sentence Improvement",
+     "pptx": "unduh/general/ojk-bi-sentence-improvement-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-bi-sentence-improvement-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-bi-sentence-improvement-contoh-soal.jpg",
+     "ukuran_pptx": 778996,
+     "ukuran_pdf": 1303986
+    }
+   }
+  },
+  {
+   "id": "bi-04",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Grammatically Correct Sentence",
+   "judul": "Grammatically Correct Sentence",
+   "dokumen": "https://docs.google.com/document/d/1XTOctSnOS0GxO3XJej7pOosYp8xo-ZYx0gZSwSd9owg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "OJK TKU - Grammatically Correct Sentence",
+     "pptx": "unduh/general/ojk-bi-grammatically-correct-sentence.pptx",
+     "pdf": "unduh/general/ojk-bi-grammatically-correct-sentence.pdf",
+     "sampul": "sampul/general/ojk-bi-grammatically-correct-sentence.jpg",
+     "ukuran_pptx": 872128,
+     "ukuran_pdf": 1328275
+    }
+   }
+  },
+  {
+   "id": "bi-04-soal",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Contoh Soal Grammatically Correct Sentence",
+   "judul": "Contoh Soal Grammatically Correct Sentence",
+   "dokumen": "https://docs.google.com/document/d/1XTOctSnOS0GxO3XJej7pOosYp8xo-ZYx0gZSwSd9owg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "OJK TKU - Contoh Soal Grammatically Correct Sentence",
+     "pptx": "unduh/general/ojk-bi-grammatically-correct-sentence-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-bi-grammatically-correct-sentence-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-bi-grammatically-correct-sentence-contoh-soal.jpg",
+     "ukuran_pptx": 775395,
+     "ukuran_pdf": 1321436
+    }
+   }
+  },
+  {
+   "id": "bi-05",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Sentence Arrangement",
+   "judul": "Sentence Arrangement",
+   "dokumen": "https://docs.google.com/document/d/1cKLisgXNI-X-eLtrhIfd_Jx4sf4F-R-UgBXY2H_dCSg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "OJK TKU - Sentence Arrangement",
+     "pptx": "unduh/general/ojk-bi-sentence-arrangement.pptx",
+     "pdf": "unduh/general/ojk-bi-sentence-arrangement.pdf",
+     "sampul": "sampul/general/ojk-bi-sentence-arrangement.jpg",
+     "ukuran_pptx": 838913,
+     "ukuran_pdf": 1298031
+    }
+   }
+  },
+  {
+   "id": "bi-05-soal",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Contoh Soal Sentence Arrangement",
+   "judul": "Contoh Soal Sentence Arrangement",
+   "dokumen": "https://docs.google.com/document/d/1cKLisgXNI-X-eLtrhIfd_Jx4sf4F-R-UgBXY2H_dCSg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "OJK TKU - Contoh Soal Sentence Arrangement",
+     "pptx": "unduh/general/ojk-bi-sentence-arrangement-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-bi-sentence-arrangement-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-bi-sentence-arrangement-contoh-soal.jpg",
+     "ukuran_pptx": 778816,
+     "ukuran_pdf": 1305646
+    }
+   }
+  },
+  {
+   "id": "bi-06",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Reading Comprehension",
+   "judul": "Reading Comprehension",
+   "dokumen": "https://canva.link/m2bvtv9wt2fmo82",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 18,
+     "nama": "OJK TKU - Reading Comprehension",
+     "pptx": "unduh/general/ojk-bi-reading-comprehension.pptx",
+     "pdf": "unduh/general/ojk-bi-reading-comprehension.pdf",
+     "sampul": "sampul/general/ojk-bi-reading-comprehension.jpg",
+     "ukuran_pptx": 873625,
+     "ukuran_pdf": 1415938
+    }
+   }
+  },
+  {
+   "id": "bi-06-soal",
+   "kelompok": "Bahasa Inggris",
+   "bab": "Contoh Soal Reading Comprehension",
+   "judul": "Contoh Soal Reading Comprehension",
+   "dokumen": "https://canva.link/ejfp5maccu1r88k",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 30,
+     "nama": "OJK TKU - Contoh Soal Reading Comprehension",
+     "pptx": "unduh/general/ojk-bi-reading-comprehension-contoh-soal.pptx",
+     "pdf": "unduh/general/ojk-bi-reading-comprehension-contoh-soal.pdf",
+     "sampul": "sampul/general/ojk-bi-reading-comprehension-contoh-soal.jpg",
+     "ukuran_pptx": 858551,
+     "ukuran_pdf": 1557575
     }
    }
   },
@@ -248,13 +495,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 23,
+     "slide": 24,
      "nama": "OJK TKU - Pengenalan OJK dan Waspada Investasi",
      "pptx": "unduh/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.pptx",
      "pdf": "unduh/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.pdf",
      "sampul": "sampul/general/ojk-sjk-pengenalan-ojk-dan-waspada-investasi.jpg",
-     "ukuran_pptx": 1144407,
-     "ukuran_pdf": 1544548
+     "ukuran_pptx": 1536247,
+     "ukuran_pdf": 1751990
     }
    }
   },
@@ -324,13 +571,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 27,
+     "slide": 29,
      "nama": "OJK TKU - Perbankan",
      "pptx": "unduh/general/ojk-sjk-perbankan.pptx",
      "pdf": "unduh/general/ojk-sjk-perbankan.pdf",
      "sampul": "sampul/general/ojk-sjk-perbankan.jpg",
-     "ukuran_pptx": 902765,
-     "ukuran_pdf": 1521174
+     "ukuran_pptx": 919163,
+     "ukuran_pdf": 1548600
     }
    }
   },
@@ -367,8 +614,8 @@
      "pptx": "unduh/general/ojk-sjk-perusahaan-pembiayaan.pptx",
      "pdf": "unduh/general/ojk-sjk-perusahaan-pembiayaan.pdf",
      "sampul": "sampul/general/ojk-sjk-perusahaan-pembiayaan.jpg",
-     "ukuran_pptx": 910025,
-     "ukuran_pdf": 1539532
+     "ukuran_pptx": 917012,
+     "ukuran_pdf": 1549394
     }
    }
   },
@@ -400,13 +647,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 25,
+     "slide": 26,
      "nama": "OJK TKU - Pergadaian",
      "pptx": "unduh/general/ojk-sjk-pergadaian.pptx",
      "pdf": "unduh/general/ojk-sjk-pergadaian.pdf",
      "sampul": "sampul/general/ojk-sjk-pergadaian.jpg",
-     "ukuran_pptx": 893428,
-     "ukuran_pdf": 1455293
+     "ukuran_pptx": 903711,
+     "ukuran_pdf": 1471954
     }
    }
   },
@@ -438,13 +685,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 21,
+     "slide": 23,
      "nama": "OJK TKU - Lembaga Keuangan Mikro",
      "pptx": "unduh/general/ojk-sjk-lembaga-keuangan-mikro.pptx",
      "pdf": "unduh/general/ojk-sjk-lembaga-keuangan-mikro.pdf",
      "sampul": "sampul/general/ojk-sjk-lembaga-keuangan-mikro.jpg",
-     "ukuran_pptx": 922629,
-     "ukuran_pdf": 1486732
+     "ukuran_pptx": 935815,
+     "ukuran_pdf": 1508736
     }
    }
   },
@@ -476,13 +723,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 20,
+     "slide": 21,
      "nama": "OJK TKU - Lembaga Penjaminan",
      "pptx": "unduh/general/ojk-sjk-lembaga-penjaminan.pptx",
      "pdf": "unduh/general/ojk-sjk-lembaga-penjaminan.pdf",
      "sampul": "sampul/general/ojk-sjk-lembaga-penjaminan.jpg",
-     "ukuran_pptx": 931660,
-     "ukuran_pdf": 1479830
+     "ukuran_pptx": 939867,
+     "ukuran_pdf": 1490984
     }
    }
   },
@@ -666,13 +913,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 26,
+     "slide": 27,
      "nama": "OJK TKU - Dana Pensiun",
      "pptx": "unduh/general/ojk-sjk-dana-pensiun.pptx",
      "pdf": "unduh/general/ojk-sjk-dana-pensiun.pdf",
      "sampul": "sampul/general/ojk-sjk-dana-pensiun.jpg",
-     "ukuran_pptx": 903973,
-     "ukuran_pdf": 1503101
+     "ukuran_pptx": 913881,
+     "ukuran_pdf": 1516385
     }
    }
   },
@@ -709,8 +956,8 @@
      "pptx": "unduh/general/ojk-sjk-pasar-modal.pptx",
      "pdf": "unduh/general/ojk-sjk-pasar-modal.pdf",
      "sampul": "sampul/general/ojk-sjk-pasar-modal.jpg",
-     "ukuran_pptx": 895067,
-     "ukuran_pdf": 1511724
+     "ukuran_pptx": 900169,
+     "ukuran_pdf": 1513233
     }
    }
   },
@@ -742,13 +989,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 18,
+     "slide": 19,
      "nama": "OJK TKU - Bulion",
      "pptx": "unduh/general/ojk-sjk-bulion.pptx",
      "pdf": "unduh/general/ojk-sjk-bulion.pdf",
      "sampul": "sampul/general/ojk-sjk-bulion.jpg",
-     "ukuran_pptx": 876233,
-     "ukuran_pdf": 1406224
+     "ukuran_pptx": 886368,
+     "ukuran_pdf": 1437369
     }
    }
   },
@@ -785,8 +1032,8 @@
      "pptx": "unduh/general/ojk-sjk-aset-kripto.pptx",
      "pdf": "unduh/general/ojk-sjk-aset-kripto.pdf",
      "sampul": "sampul/general/ojk-sjk-aset-kripto.jpg",
-     "ukuran_pptx": 881113,
-     "ukuran_pdf": 1440811
+     "ukuran_pptx": 881125,
+     "ukuran_pdf": 1440813
     }
    }
   },
@@ -818,13 +1065,13 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 24,
+     "slide": 25,
      "nama": "OJK TKU - Keuangan Syariah",
      "pptx": "unduh/general/ojk-sjk-keuangan-syariah.pptx",
      "pdf": "unduh/general/ojk-sjk-keuangan-syariah.pdf",
      "sampul": "sampul/general/ojk-sjk-keuangan-syariah.jpg",
-     "ukuran_pptx": 900479,
-     "ukuran_pdf": 1513812
+     "ukuran_pptx": 910539,
+     "ukuran_pdf": 1529533
     }
    }
   },

@@ -111,6 +111,42 @@
               ]
             }
           ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Memahami suku dan larik",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suku adalah setiap bilangan yang menempati satu posisi dalam deret. Suku pertama berada pada posisi pertama, suku kedua pada posisi kedua, dan seterusnya. Posisi dan nilai adalah dua hal berbeda: posisi menunjukkan letaknya, sedangkan nilai menunjukkan bilangan yang tertulis.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Suku adalah setiap bilangan yang menempati satu posisi dalam deret. Suku pertama berada pada posisi pertama, suku kedua pada posisi kedua, dan seterusnya. Posisi dan nilai adalah dua hal berbeda: posisi menunjukkan letaknya, sedangkan nilai menunjukkan bilangan yang tertulis."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Larik adalah kelompok suku yang dibaca sebagai satu jalur pola. Pada satu larik, kita membaca suku-suku secara berurutan. Pada dua larik, ada dua jalur yang disisipkan selang-seling. Pada tiga larik, ada tiga jalur yang disisipkan bergantian setiap tiga posisi.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Larik adalah kelompok suku yang dibaca sebagai satu jalur pola. Pada satu larik, kita membaca suku-suku secara berurutan. Pada dua larik, ada dua jalur yang disisipkan selang-seling. Pada tiga larik, ada tiga jalur yang disisipkan bergantian setiap tiga posisi."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda ↑ berarti bilangan berikutnya lebih besar, sedangkan ↓ berarti bilangan berikutnya lebih kecil. Baca tanda dari kiri ke kanan. Tiga tanda arah berasal dari empat suku karena setiap tanda membandingkan dua suku yang berdekatan.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Tanda ↑ berarti bilangan berikutnya lebih besar, sedangkan ↓ berarti bilangan berikutnya lebih kecil. Baca tanda dari kiri ke kanan. Tiga tanda arah berasal dari empat suku karena setiap tanda membandingkan dua suku yang berdekatan."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -340,6 +376,50 @@
           ]
         }
       ]
+    },
+    {
+      "subbab": "Cara Menerapkan Konsep Towew",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara Menerapkan Konsep Towew",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Beri nomor posisi pada deret, terutama jika terdapat dua rumpang atau lebih.",
+                "Perhatikan perubahan naik-turun sebagai petunjuk awal.",
+                "Coba baca berurutan. Jika satu aturan belum cocok, periksa dua atau tiga larik sesuai susunan posisinya.",
+                "Pastikan aturan berlaku pada seluruh anggota setiap larik, bukan hanya pada satu pasangan.",
+                "Tentukan larik yang memuat posisi kosong, hitung kelanjutannya, lalu susun kembali hasil sesuai urutan semula."
+              ],
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Beri nomor posisi pada deret, terutama jika terdapat dua rumpang atau lebih."
+                },
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Perhatikan perubahan naik-turun sebagai petunjuk awal."
+                },
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Coba baca berurutan. Jika satu aturan belum cocok, periksa dua atau tiga larik sesuai susunan posisinya."
+                },
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Pastikan aturan berlaku pada seluruh anggota setiap larik, bukan hanya pada satu pasangan."
+                },
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Tentukan larik yang memuat posisi kosong, hitung kelanjutannya, lalu susun kembali hasil sesuai urutan semula."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "penutup": {
@@ -359,6 +439,10 @@
       },
       {
         "judul": "Tiga Towew (Tiga Larik)",
+        "teks": ""
+      },
+      {
+        "judul": "Cara Menerapkan Konsep Towew",
         "teks": ""
       }
     ],

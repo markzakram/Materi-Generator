@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Timeslot Scheduling",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Timeslot Scheduling",
+    "sumber": "https://docs.google.com/document/d/1Zuze8pSLj-wSE8xHONq11nEOtDlUdFwL/edit",
+    "bagian": "soal",
+    "id_katalog": "pd-05-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 1. Empat pelatihan dan Pelatihan TI sebagai kegiatan terakhir",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Susun jadwal kelas pelatihan sehingga Pelatihan TI selesai paling akhir dan seluruh pelatihan selesai paling lambat pukul 15.30. Kegiatan: Kepatuhan (1 jam), Keberagaman (30 menit), SDM (1,5 jam), serta TI (1,5 jam). Kotak abu-abu tidak tersedia; setiap sel mewakili 30 menit."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeslot_scheduling/gambar-05.png",
+              "lebar": 6.06,
+              "tinggi": 1.16,
+              "keterangan": "Gambar 5. Rekonstruksi garis waktu dari contoh riset, sebelum kegiatan ditempatkan. ****"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konversi durasi, pemetaan interval kosong, kegiatan dalam blok utuh, urutan “selesai paling akhir”, dan tenggat 15.30."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Hitung kebutuhan durasi: Kepatuhan = 2 kotak, Keberagaman = 1, SDM = 3, dan TI = 3. Total kebutuhan adalah 9 kotak atau 270 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Sebelum tenggat 15.30, rentang kosong adalah 09.30–10.30 (2 kotak), 11.00–11.30 (1 kotak), 12.00–13.30 (3 kotak), serta 14.00–15.30 (3 kotak). Jumlah semua rentang kosong tepat sembilan kotak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Kepatuhan hanya muat pada rentang dua kotak 09.30–10.30 jika kedua pelatihan 90 menit harus tetap utuh pada kedua rentang tiga kotak. Keberagaman mengisi 11.00–11.30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Dua pelatihan berdurasi 90 menit, yaitu SDM dan TI, mengisi rentang 12.00–13.30 dan 14.00–15.30. Agar TI selesai paling akhir, SDM ditempatkan lebih dahulu dan TI menempati rentang terakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Pastikan tidak ada kegiatan pada kotak abu-abu dan seluruhnya selesai paling lambat pukul 15.30. Susunan ini memenuhi semua syarat."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeslot_scheduling/gambar-06.png",
+              "lebar": 6.06,
+              "tinggi": 1.16,
+              "keterangan": "Gambar 6. Penempatan keempat pelatihan yang memenuhi soal sumber; TI selesai paling akhir. ****"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kegiatan",
+                "Durasi",
+                "Waktu hasil"
+              ],
+              "baris": [
+                [
+                  "Kepatuhan",
+                  "60 menit",
+                  "09.30–10.30"
+                ],
+                [
+                  "Keberagaman",
+                  "30 menit",
+                  "11.00–11.30"
+                ],
+                [
+                  "SDM",
+                  "90 menit",
+                  "12.00–13.30"
+                ],
+                [
+                  "TI",
+                  "90 menit",
+                  "14.00–15.30"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban:** Kepatuhan 09.30–10.30; Keberagaman 11.00–11.30; SDM 12.00–13.30; TI 14.00–15.30."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "kelompokkan semua celah; cocokkan durasi 2, 1, 3, dan 3 kotak. Gunakan ketentuan TI harus selesai paling akhir untuk membedakan dua kegiatan 90 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pilihan yang perlu dihindari:** menukar SDM dan TI membuat TI tidak selesai paling akhir. Menempatkan dua bagian TI pada 12.00–13.00 dan 14.00–14.30 melanggar syarat satu kegiatan utuh. Menggeser TI melewati 15.30 juga melanggar tenggat."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh 2. Durasi kegiatan berbeda dan tenggat pukul 16.00",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah unit pelatihan harus menjadwalkan Orientasi (30 menit), Keamanan (60 menit), Analisis (90 menit), dan Audit (120 menit). Audit harus menjadi kegiatan yang selesai paling akhir, sedangkan seluruh kegiatan harus selesai paling lambat pukul 16.00. Semua kegiatan harus utuh dan tidak boleh menempati sel abu-abu. Tentukan jadwal keempat kegiatan."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeslot_scheduling/gambar-07.png",
+              "lebar": 6.06,
+              "tinggi": 1.16,
+              "keterangan": "Gambar 7. Slot kosong dan penghalang untuk Contoh 2. ****"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konversi empat durasi menjadi 1, 2, 3, dan 4 kotak; penempatan setiap kegiatan dalam celah yang sesuai; serta Audit sebagai kegiatan yang selesai paling akhir sebelum tenggat pukul 16.00."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Waktu yang boleh dipakai sebelum batas pukul 16.00 terbagi menjadi blok 09.00–09.30 (1 kotak), 10.00–11.00 (2), 11.30–13.00 (3), dan 13.30–15.30 (4)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Audit memerlukan empat kotak berurutan. Satu-satunya rentang yang muat adalah 13.30–15.30 sehingga Audit pasti selesai paling akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Analisis berdurasi tiga kotak menempati 11.30–13.00. Keamanan dua kotak menempati 10.00–11.00; Orientasi satu kotak menempati 09.00–09.30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Seluruh kegiatan berakhir pada atau sebelum 16.00, tidak ada tumpang tindih, dan setiap kegiatan menempati blok utuh."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeslot_scheduling/gambar-08.png",
+              "lebar": 6.06,
+              "tinggi": 1.16,
+              "keterangan": "Gambar 8. Jadwal benar untuk Contoh 2, dari pemeriksaan seluruh batasan. ****"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kegiatan",
+                "Durasi",
+                "Waktu hasil"
+              ],
+              "baris": [
+                [
+                  "Orientasi",
+                  "30 menit",
+                  "09.00–09.30"
+                ],
+                [
+                  "Keamanan",
+                  "60 menit",
+                  "10.00–11.00"
+                ],
+                [
+                  "Analisis",
+                  "90 menit",
+                  "11.30–13.00"
+                ],
+                [
+                  "Audit",
+                  "120 menit",
+                  "13.30–15.30"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban:** Orientasi 09.00–09.30; Keamanan 10.00–11.00; Analisis 11.30–13.00; Audit 13.30–15.30."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari durasi terpanjang terlebih dahulu; jika hanya satu celah yang cukup panjang, tempatkan kegiatan tersebut sebelum memeriksa durasi lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pilihan yang perlu dihindari:** Audit 13.00–15.00 tidak sah karena 13.00–13.30 tidak berada dalam rentang kosong. Audit 15.00–17.00 melampaui tenggat. Keamanan tidak boleh dibagi ke dua sela 30 menit."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -291,6 +291,18 @@
               "teks": "Bentuk “Semua”, “Sebagian”, dan “Tidak Ada”"
             },
             {
+              "jenis": "gambar",
+              "file": "media/tiu_vs05_3_premis/gambar-05.png",
+              "lebar": 6.17,
+              "tinggi": 2.11,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
+            },
+            {
               "jenis": "subjudul",
               "teks": "Rumus Cepat"
             },
@@ -320,7 +332,7 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-05.png",
+              "file": "media/tiu_vs05_3_premis/gambar-06.png",
               "lebar": 2.92,
               "tinggi": 1.4
             },
@@ -364,9 +376,15 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-06.png",
+              "file": "media/tiu_vs05_3_premis/gambar-07.png",
               "lebar": 6.17,
-              "tinggi": 1.12
+              "tinggi": 1.12,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
             },
             {
               "jenis": "subjudul",

@@ -60,8 +60,19 @@
       },
       {
         "level": "",
+        "kko": "Membedakan",
+        "teks": "sinonim, antonim, sebab–akibat, benda–fungsi, bagian–keseluruhan, pelaku–objek, benda–tempat, objek–sifat, dan jenis–kategori."
+      },
+      {
+        "level": "",
         "kko": "Menjelaskan",
         "teks": "persamaan dan perbedaan hubungan pada dua pasangan kata berdasarkan jenis, arah, dan peran masing-masing kata."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "butir daftar yang bolong",
+        "isi": "Membedakan sinonim, antonim, sebab–akibat, benda–fungsi, bagian–keseluruhan, pelaku–objek, benda–tempat, objek–sifat, dan jenis–kategori."
       }
     ]
   },
@@ -91,13 +102,145 @@
       ]
     },
     {
-      "subbab": "Benda–fungsi",
+      "subbab": "Sinonim dan antonim",
       "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Sinonim dan antonim",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Sinonim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sinonim adalah kata yang bermakna sama atau mirip dalam konteks tertentu. Contohnya, cermat dan teliti sama-sama dapat menggambarkan orang yang memperhatikan rincian.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Sinonim adalah kata yang bermakna sama atau mirip dalam konteks tertentu. Contohnya, cermat dan teliti sama-sama dapat menggambarkan orang yang memperhatikan rincian."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "cermat ↔ teliti",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "cermat ↔ teliti"
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Antonim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Antonim adalah kata yang maknanya berlawanan pada aspek yang sama. Cepat dan lambat berlawanan dalam hal kecepatan. Awal dan akhir berlawanan dalam hal posisi pada suatu urutan.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Antonim adalah kata yang maknanya berlawanan pada aspek yang sama. Cepat dan lambat berlawanan dalam hal kecepatan. Awal dan akhir berlawanan dalam hal posisi pada suatu urutan."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "lambat ←────────→ cepat",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "lambat ←────────→ cepat"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Sebab–akibat",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Sebab–akibat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan sebab–akibat mengaitkan pemicu dengan dampaknya. Pada benturan : penyok, benturan dapat menyebabkan permukaan penyok.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Hubungan sebab–akibat mengaitkan pemicu dengan dampaknya. Pada benturan : penyok, benturan dapat menyebabkan permukaan penyok."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "benturan → penyok",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "benturan → penyok"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca panah sebagai “dapat menyebabkan”. Benturan berada di sisi pemicu dan penyok berada di sisi dampak.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Baca panah sebagai “dapat menyebabkan”. Benturan berada di sisi pemicu dan penyok berada di sisi dampak."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Benda–fungsi",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
           "judul": "Benda–fungsi",
           "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan benda–fungsi mengaitkan benda dengan kegunaannya. Pada pena : menulis, pena dipakai untuk menulis.",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "Hubungan benda–fungsi mengaitkan benda dengan kegunaannya. Pada pena : menulis, pena dipakai untuk menulis."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "pena → menulis",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "pena → menulis"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca panah sebagai “digunakan untuk”. Pena : menulis dan gergaji : memotong mengikuti penghubung yang sama.",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "Baca panah sebagai “digunakan untuk”. Pena : menulis dan gergaji : memotong mengikuti penghubung yang sama."
+                }
+              ]
+            },
             {
               "jenis": "paragraf",
               "teks": "Pisau : memotong menyatakan kegunaan pisau. Pisau : tajam menyatakan cirinya."
@@ -108,7 +251,7 @@
     },
     {
       "subbab": "Bagian–keseluruhan",
-      "ikon": "strategi",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",
@@ -116,7 +259,163 @@
           "blok": [
             {
               "jenis": "paragraf",
+              "teks": "Hubungan bagian–keseluruhan mengaitkan komponen dengan benda yang disusunnya. Roda merupakan bagian dari mobil, sebagaimana kelopak merupakan bagian dari bunga.",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "Hubungan bagian–keseluruhan mengaitkan komponen dengan benda yang disusunnya. Roda merupakan bagian dari mobil, sebagaimana kelopak merupakan bagian dari bunga."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "roda → mobil",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "roda → mobil"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca panah sebagai “merupakan bagian dari”. Jika pasangan dibalik menjadi mobil : roda, bacanya “memiliki sebagai bagian”.",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "Baca panah sebagai “merupakan bagian dari”. Jika pasangan dibalik menjadi mobil : roda, bacanya “memiliki sebagai bagian”."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
               "teks": "Bandingkan mesin : mobil dengan mobil : garasi. Mesin merupakan bagian dari mobil. Garasi adalah tempat mobil disimpan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Profesi atau pelaku–objek",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Profesi atau pelaku–objek",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan pelaku–objek mengaitkan orang dengan sesuatu yang terlibat dalam pekerjaannya. Pilot mengoperasikan pesawat, petani memakai cangkul, dan wartawan menghasilkan berita.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Hubungan pelaku–objek mengaitkan orang dengan sesuatu yang terlibat dalam pekerjaannya. Pilot mengoperasikan pesawat, petani memakai cangkul, dan wartawan menghasilkan berita."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "pilot → pesawat",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "pilot → pesawat"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca panah sebagai “mengoperasikan”. Pilot : pesawat searah dengan masinis : kereta karena kata kedua pada keduanya adalah kendaraan yang dioperasikan.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Baca panah sebagai “mengoperasikan”. Pilot : pesawat searah dengan masinis : kereta karena kata kedua pada keduanya adalah kendaraan yang dioperasikan."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Benda–tempat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Benda–tempat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan benda–tempat mengaitkan benda dengan lokasi penyimpanan atau penggunaannya. Pesawat ditempatkan di hanggar dan mobil disimpan di garasi.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Hubungan benda–tempat mengaitkan benda dengan lokasi penyimpanan atau penggunaannya. Pesawat ditempatkan di hanggar dan mobil disimpan di garasi."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "mobil → garasi",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "mobil → garasi"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca panah sebagai “lazim disimpan di”. Pada mobil : jalan, penghubungnya berubah menjadi “lazim melintas di”.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Baca panah sebagai “lazim disimpan di”. Pada mobil : jalan, penghubungnya berubah menjadi “lazim melintas di”."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Objek–sifat",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Objek–sifat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan objek–sifat mengaitkan benda dengan cirinya. Pada es : dingin, kata kedua menjelaskan suhu es.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Hubungan objek–sifat mengaitkan benda dengan cirinya. Pada es : dingin, kata kedua menjelaskan suhu es."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "es → dingin",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "es → dingin"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca panah sebagai “lazimnya bersifat”. Es : dingin dan api : panas sama-sama memakai suhu sebagai aspek pembanding.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Baca panah sebagai “lazimnya bersifat”. Es : dingin dan api : panas sama-sama memakai suhu sebagai aspek pembanding."
+                }
+              ]
             }
           ]
         }
@@ -130,6 +429,36 @@
           "tipe": "blok",
           "judul": "Jenis–kategori",
           "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan jenis–kategori mengaitkan jenis khusus dengan kelompoknya. Elang termasuk jenis burung, sebagaimana hiu termasuk jenis ikan.",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "Hubungan jenis–kategori mengaitkan jenis khusus dengan kelompoknya. Elang termasuk jenis burung, sebagaimana hiu termasuk jenis ikan."
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "elang → burung",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "elang → burung"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca panah sebagai “termasuk jenis”. Jika urutannya burung : elang, bacanya “mencakup jenis”.",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "Baca panah sebagai “termasuk jenis”. Jika urutannya burung : elang, bacanya “mencakup jenis”."
+                }
+              ]
+            },
             {
               "jenis": "paragraf",
               "teks": "Elang termasuk jenis burung. Roda merupakan bagian dari mobil. Gunakan “termasuk jenis” untuk kategori dan “merupakan bagian dari” untuk komponen."
@@ -207,7 +536,14 @@
               "jenis": "poin",
               "butir": [
                 "Baca dari kiri ke kanan. Lengkapi “X … Y” dengan kata kerja atau penghubung yang menjelaskan pasangan acuan secara langsung.",
-                "Saat membandingkan dua pasangan, terapkan penghubung yang sama dari kiri ke kanan. Periksa apakah kedua pasangan memiliki hubungan yang sejenis dan searah."
+                "Saat membandingkan dua pasangan, terapkan penghubung yang sama dari kiri ke kanan. Periksa apakah kedua pasangan memiliki hubungan yang sejenis dan searah.",
+                "Jika jenis hubungannya terlihat sama, periksa peran yang lebih spesifik. Bedakan kendaraan yang dioperasikan dari alat yang dipakai, atau tempat penyimpanan dari lokasi aktivitas."
+              ],
+              "tambahan": [
+                {
+                  "alasan": "butir daftar yang bolong",
+                  "isi": "Jika jenis hubungannya terlihat sama, periksa peran yang lebih spesifik. Bedakan kendaraan yang dioperasikan dari alat yang dipakai, atau tempat penyimpanan dari lokasi aktivitas."
+                }
               ]
             }
           ]
@@ -223,6 +559,14 @@
         "teks": ""
       },
       {
+        "judul": "Sinonim dan antonim",
+        "teks": ""
+      },
+      {
+        "judul": "Sebab–akibat",
+        "teks": ""
+      },
+      {
         "judul": "Benda–fungsi",
         "teks": ""
       },
@@ -231,15 +575,7 @@
         "teks": ""
       },
       {
-        "judul": "Jenis–kategori",
-        "teks": ""
-      },
-      {
-        "judul": "Ringkasan pembeda",
-        "teks": ""
-      },
-      {
-        "judul": "Langkah mengenali hubungan antarkata",
+        "judul": "Profesi atau pelaku–objek",
         "teks": ""
       }
     ],

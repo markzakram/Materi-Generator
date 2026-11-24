@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Sentence Completion",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Sentence Completion",
+    "sumber": "https://docs.google.com/document/d/1BsYn2XGe26Iw7ZDzv23z6QTzfDAjUsotvn8-78abqMM/edit",
+    "bagian": "soal",
+    "id_katalog": "bi-02-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Contoh Soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Pilih satu opsi A–D pada tiap soal.</i> Coba jawab sebelum membaca pembahasan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1 • Adjective dan cakupan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "The review covered every branch, every reporting period, and every category of expense, making it a ____ assessment of the organisation’s spending."
+            }
+          ],
+          "opsi": {
+            "A": "controversial",
+            "B": "comprehensive",
+            "C": "compulsory",
+            "D": "selective"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Adjective dan cakupan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** every branch, every reporting period, every category of expense"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Comprehensive berarti menyeluruh. Adjective ini menerangkan assessment dan menggambarkan pemeriksaan yang mencakup ketiga dimensi sekaligus. Pengulangan every menunjukkan bahwa pemeriksaan mencakup seluruh anggota dalam masing-masing kategori."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Controversial berarti memicu perdebatan. Kalimat menjelaskan cakupan pemeriksaan dan tidak menyebut perdebatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Compulsory berarti wajib. Kalimat tidak menyatakan kewajiban melakukan pemeriksaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Selective berarti memilih sebagian berdasarkan kriteria. Makna ini bertentangan dengan cakupan setiap cabang, periode, dan kategori."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tandai kata yang menunjukkan cakupan, seperti every atau all. Jika semua opsi berupa adjective, pilih yang menjelaskan cakupan tersebut."
+            }
+          ],
+          "label": "Pola utama • Makna dan kolokasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2 • Verb dan preposisi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Before the next inspection, all participating firms must ____ with the revised reporting requirements for recording and disclosing customer complaints."
+            }
+          ],
+          "opsi": {
+            "A": "comply",
+            "B": "compete",
+            "C": "collaborate",
+            "D": "negotiate"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kolokasi verb + preposition"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** must ____ with the revised reporting requirements"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Comply with berarti mematuhi. Modal must meminta bentuk dasar comply, dan frasa the revised reporting requirements menunjukkan aturan yang harus dipatuhi. Kalimat menyatakan kewajiban perusahaan menjelang inspeksi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Compete with berarti bersaing dengan pihak atau hal lain. Persyaratan pelaporan bukan pesaing."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Collaborate with berarti bekerja sama dengan pihak lain. Persyaratan bukan mitra kerja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Negotiate with berarti berunding dengan pihak tertentu. Persyaratan tersebut adalah aturan yang perlu dipatuhi, bukan pihak yang diajak berunding."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Baca satu unit di sekitar bagian kosong, yaitu ____ with + requirements. Uji apakah verb dan objek setelah with membentuk hubungan yang masuk akal."
+            }
+          ],
+          "label": "Pola utama • Makna dan kolokasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3 • Noun dan tujuan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "To encourage earlier submissions, the organisers offered a financial ____ in the form of a cash bonus for teams meeting the first deadline."
+            }
+          ],
+          "opsi": {
+            "A": "forecast",
+            "B": "penalty",
+            "C": "guideline",
+            "D": "incentive"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Noun dan tujuan tindakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** to encourage earlier submissions, cash bonus, meeting the first deadline"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Incentive berarti insentif atau pendorong tindakan. Bonus tunai diberikan kepada tim yang memenuhi tenggat pertama. Syarat pemberian bonus ini menjelaskan bagaimana penyelenggara mendorong pengiriman lebih awal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Forecast adalah perkiraan tentang kondisi mendatang. Bonus tunai bukan perkiraan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Penalty adalah hukuman atau denda. Bonus diberikan sebagai penghargaan kepada tim yang mencapai target."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Guideline adalah pedoman. Pedoman memberi arahan dan berbeda dari bonus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari frasa tujuan dan bentuk tindakannya. Jika tujuannya mendorong perilaku dan bentuknya bonus, cari noun yang berarti pendorong."
+            }
+          ],
+          "label": "Pola utama • Makna dan kolokasi"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

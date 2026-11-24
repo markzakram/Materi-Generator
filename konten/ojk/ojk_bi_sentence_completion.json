@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "judul": "Sentence Completion",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Sentence Completion",
+    "sumber": "https://docs.google.com/document/d/1BsYn2XGe26Iw7ZDzv23z6QTzfDAjUsotvn8-78abqMM/edit",
+    "id_katalog": "bi-02"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam Sentence Completion, peserta memilih satu kata untuk melengkapi kalimat. Perhatikan dua hal sekaligus. Kata itu harus mengisi fungsi yang dibutuhkan dan membuat makna kalimat masuk akal."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "jenis kata yang dibutuhkan, menemukan petunjuk penentu, memeriksa pasangan kata, dan menjelaskan alasan satu pilihan lebih tepat daripada pilihan lainnya."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bentuk soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Instruksi yang dapat digunakan adalah “<i>Choose the word that best completes the sentence.</i>” Setiap soal berisi satu kalimat, satu bagian kosong, dan empat opsi A–D. Setiap opsi terdiri dari satu kata dan hanya satu jawaban yang tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pola utama, keempat pilihan biasanya memiliki kelas kata yang sama. Misalnya, semua opsi berupa adjective. Struktur kalimat membantu mengenali posisi kata, lalu makna dan kelaziman penggunaannya membantu menentukan pilihan. Tiga pola yang teramati dalam contoh riset adalah adjective dalam konteks, verb dengan pasangan kata atau preposisi, dan noun yang menyatakan gagasan abstrak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Review singkat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Review singkat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Adjective menerangkan noun, seperti practical dalam “<i>a practical guide</i>”. Noun dapat mengisi posisi subjek atau objek, seperti assistance dalam “<i>provide assistance</i>”. Verb menyatakan tindakan atau keadaan. Adverb dapat menerangkan cara suatu tindakan dilakukan, seperti accurately dalam “<i>record the figures accurately</i>”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Collocation adalah pasangan kata yang lazim dipakai bersama. Dalam “<i>meet a deadline</i>”, meet berarti memenuhi tenggat. Dalam “<i>comply with a requirement</i>”, with merupakan bagian dari pola pemakaian comply. Baca kata sebelum dan sesudah bagian kosong untuk mengenali pola semacam ini."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cara mengerjakan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara mengerjakan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "1. Posisi kosong 2. Petunjuk makna 3. Pasangan kata 4. Baca ulang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Tentukan peran bagian kosong. Baca beberapa kata di kiri dan kanan. Dalam “<i>must ____ with</i>”, must membutuhkan verb bentuk dasar dan with dapat menjadi petunjuk pasangan kata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Temukan petunjuk penentu. Cari tujuan, akibat, kontras, atau rincian cakupan. Dalam “<i>every stage of the process</i>”, kata every mengarahkan perhatian pada cakupan menyeluruh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Prediksi makna sederhana sebelum melihat opsi. Coba frasa seperti “<i>mematuhi aturan</i>” atau “<i>manfaat yang mendorong orang bertindak</i>”. Prediksi makna membantu ketika beberapa opsi berasal dari bidang yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Uji pilihan dalam kalimat lengkap. Jika dua opsi terasa mirip, periksa pasangan kata, objek, dan rincian yang harus dijelaskan. Pastikan jawaban cocok dari sisi bentuk dan makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika semua opsi merupakan satu jenis kata, langsung cari petunjuk makna. Jika opsi berupa empat bentuk dari satu keluarga kata, periksa posisi kosong terlebih dahulu. Dalam kedua kasus, baca ulang kalimat dengan jawaban yang dipilih."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bentuk soal",
+        "teks": ""
+      },
+      {
+        "judul": "Review singkat",
+        "teks": ""
+      },
+      {
+        "judul": "Cara mengerjakan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pada pola kosakata, temukan petunjuk makna dan uji pasangan kata dalam kalimat lengkap. Pada perluasan grammar, periksa fungsi posisi kosong, kata bantu, dan inti subjek. Jika dua opsi masih terasa mungkin, tunjuk bagian kalimat yang membedakannya sebelum memilih."
+  }
+}

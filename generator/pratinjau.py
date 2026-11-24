@@ -140,6 +140,8 @@ def _teks(tf_el):
                 "t": t.text if t is not None and t.text else "",
                 "pt": int(rpr.get("sz", 1800)) / 100 if rpr is not None else 18,
                 "b": rpr is not None and rpr.get("b") in ("1", "true"),
+                "i": rpr is not None and rpr.get("i") in ("1", "true"),
+                "s": rpr is not None and rpr.get("strike") == "sngStrike",
                 "c": _warna_isian(rpr) or "000000",
                 "f": latin.get("typeface") if latin is not None else "Poppins",
             })

@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Grammatically Correct Sentence",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Grammatically Correct Sentence",
+    "sumber": "https://docs.google.com/document/d/1XTOctSnOS0GxO3XJej7pOosYp8xo-ZYx0gZSwSd9owg/edit",
+    "bagian": "soal",
+    "id_katalog": "bi-04-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1 • Agreement dan preposisi waktu",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Identify the sentence that is grammatically correct.</i>"
+            }
+          ],
+          "opsi": {
+            "A": "The inspection reports from the regional offices was reviewed on Tuesday before the weekly briefing.",
+            "B": "The inspection reports from the regional offices were reviewed at Tuesday before the weekly briefing.",
+            "C": "The inspection reports from the regional offices were reviewed on Tuesday before the weekly briefing.",
+            "D": "The inspection reports from the regional offices were reviewed in Tuesday before the weekly briefing.",
+            "E": "The inspection reports from the regional offices was reviewed at Tuesday before the weekly briefing."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Subject-verb agreement dan preposisi waktu"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** reports, from the regional offices, Tuesday"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reports adalah inti subjek jamak, sehingga pasangan yang tepat adalah were reviewed. Nama hari didahului on dalam konteks ini. Frasa from the regional offices hanya menerangkan reports."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Was tidak sesuai dengan reports."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. At tidak tepat sebelum Tuesday."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. In tidak tepat sebelum Tuesday."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Was tidak sesuai dengan reports dan at tidak tepat sebelum Tuesday."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Coret sementara frasa from the regional offices. Cek reports → were dan Tuesday → on secara terpisah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3 • Pasif setelah modal",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Identify the sentence that is grammatically correct.</i>"
+            }
+          ],
+          "opsi": {
+            "A": "All refund requests must processed by the finance team before the end of the month.",
+            "B": "All refund requests must be process by the finance team before the end of the month.",
+            "C": "All refund requests must been processed by the finance team before the end of the month.",
+            "D": "All refund requests must being processed by the finance team before the end of the month.",
+            "E": "All refund requests must be processed by the finance team before the end of the month."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Passive dengan modal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** refund requests, must, by the finance team"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Refund requests menerima tindakan, sedangkan the finance team adalah pelakunya. Setelah must, gunakan be dalam bentuk dasar, diikuti V3 processed. Rangkaian must be processed menyampaikan kewajiban memproses permintaan pengembalian dana."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Processed tidak dapat langsung mengikuti must dalam konstruksi pasif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Process adalah V1. Passive membutuhkan V3 setelah be."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Been tidak dapat langsung mengikuti must."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Being tidak dapat langsung mengikuti must."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tandai penerima tindakan dan cari urutan modal → be → V3."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4 • Urutan noun clause",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Identify the sentence that is grammatically correct.</i>"
+            }
+          ],
+          "opsi": {
+            "A": "The coordinator explained why was the training session postponed during the briefing with the regional operations team.",
+            "B": "The coordinator explained why the training session was postponed during the briefing with the regional operations team.",
+            "C": "The coordinator explained why the training session were postponed during the briefing with the regional operations team.",
+            "D": "The coordinator explained why the training session was postpone during the briefing with the regional operations team.",
+            "E": "The coordinator explained why the training session did postponed during the briefing with the regional operations team."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Urutan noun clause dan passive"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** explained why, the training session"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klausa setelah explained menjelaskan alasan penundaan. Susun why, kemudian subjek the training session, lalu was postponed. Session tunggal sesuai dengan was, dan postponed adalah V3."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Was the training session memakai inversi pertanyaan langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Were tidak cocok dengan the training session yang tunggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Postpone adalah V1. Pola passive memerlukan postponed."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Did tidak membentuk passive, dan bentuk setelah did harus V1."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Setelah explained why, cari subjek sebelum kata kerja bantu. Cek be + V3 jika subjek menerima tindakan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

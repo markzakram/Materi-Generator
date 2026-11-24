@@ -336,6 +336,65 @@
             },
             {
               "jenis": "subjudul",
+              "teks": "Membaca Kesehatan LKM dan Kualitas Pinjamannya"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kualitas pinjaman menilai pembayaran pada satu pinjaman atau pembiayaan. Kesehatan LKM melihat kondisi lembaga secara keseluruhan. Misalnya, jika cicilan Rani terlambat, LKM menilai kualitas pembiayaan Rani berdasarkan ketentuan yang berlaku. Untuk menilai kesehatan lembaga, pengawas melihat kondisi yang lebih luas, termasuk kualitas aset dan kemampuan LKM memenuhi kewajibannya.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Kualitas pinjaman menilai pembayaran pada satu pinjaman atau pembiayaan. Kesehatan LKM melihat kondisi lembaga secara keseluruhan. Misalnya, jika cicilan Rani terlambat, LKM menilai kualitas pembiayaan Rani berdasarkan ketentuan yang berlaku. Untuk menilai kesehatan lembaga, pengawas melihat kondisi yang lebih luas, termasuk kualitas aset dan kemampuan LKM memenuhi kewajibannya."
+                }
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek kesehatan LKM",
+                "Pertanyaan sederhana"
+              ],
+              "baris": [
+                [
+                  "Permodalan dan solvabilitas",
+                  "Apakah modal LKM cukup untuk menghadapi risiko dan mendukung pemenuhan kewajiban jangka panjang?"
+                ],
+                [
+                  "Kualitas aset",
+                  "Seberapa baik kualitas aset LKM, termasuk pinjaman atau pembiayaan yang disalurkan?"
+                ],
+                [
+                  "Rentabilitas",
+                  "Apakah kegiatan LKM mampu menghasilkan laba atau hasil usaha yang memadai?"
+                ],
+                [
+                  "Likuiditas",
+                  "Apakah LKM memiliki dana yang cukup untuk memenuhi kewajiban yang segera jatuh tempo?"
+                ],
+                [
+                  "Manajemen",
+                  "Apakah pengurus mengelola kegiatan, risiko, dan kepatuhan dengan baik?"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Tabel: Aspek kesehatan LKM | Pertanyaan sederhana"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klasifikasi kualitas pinjaman atau pembiayaan dalam Pasal 106 POJK 41 Tahun 2024 terdiri atas lima kelompok, yaitu lancar, dalam perhatian khusus, kurang lancar, diragukan, dan macet. Penilaiannya memperhatikan ketepatan pembayaran pokok dan/atau bunga atau imbal hasil sesuai jenis transaksi.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Klasifikasi kualitas pinjaman atau pembiayaan dalam Pasal 106 POJK 41 Tahun 2024 terdiri atas lima kelompok, yaitu lancar, dalam perhatian khusus, kurang lancar, diragukan, dan macet. Penilaiannya memperhatikan ketepatan pembayaran pokok dan/atau bunga atau imbal hasil sesuai jenis transaksi."
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
               "teks": "Kasus Pinjaman Usaha Kue"
             },
             {

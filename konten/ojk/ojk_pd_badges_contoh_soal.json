@@ -53,10 +53,6 @@
           "judul": "Contoh Soal 1 — Laba Produk",
           "soal": [
             {
-              "jenis": "paragraf",
-              "teks": "Gambar berikut diambil dari halaman contoh soal pada referensi. Gambar mempertahankan bentuk tampilan objek dan lencana sesuai bahan sumber."
-            },
-            {
               "jenis": "gambar",
               "file": "media/ojk_pd_badges/gambar-01.png",
               "lebar": 6.27,
@@ -171,10 +167,6 @@
           "tipe": "contoh_soal",
           "judul": "Contoh Soal 2 — Pemasangan Batu Bata",
           "soal": [
-            {
-              "jenis": "paragraf",
-              "teks": "Gambar berikut menggunakan halaman contoh soal asli referensi, termasuk panel objek dan lencana."
-            },
             {
               "jenis": "gambar",
               "file": "media/ojk_pd_badges/gambar-02.jpg",

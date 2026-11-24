@@ -182,6 +182,12 @@
         "teks": ""
       }
     ],
-    "pesan": ""
+    "pesan": "Hukum implikasi menulis p → q sebagai ¬p ∨ q. Kontraposisi menulisnya sebagai ¬q → ¬p. Gunakan bentuk yang membantu menghubungkan premis atau mencocokkan kesimpulan dengan opsi.",
+    "tambahan": [
+      {
+        "alasan": "pesan penutup kosong",
+        "isi": "Hukum implikasi menulis p → q sebagai ¬p ∨ q. Kontraposisi menulisnya sebagai ¬q → ¬p. Gunakan bentuk yang membantu menghubungkan premis atau mencocokkan kesimpulan dengan opsi."
+      }
+    ]
   }
 }

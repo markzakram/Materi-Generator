@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "judul": "Grammatically Correct Sentence",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Grammatically Correct Sentence",
+    "sumber": "https://docs.google.com/document/d/1XTOctSnOS0GxO3XJej7pOosYp8xo-ZYx0gZSwSd9owg/edit",
+    "id_katalog": "bi-04"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam tipe soal ini, kamu membaca lima versi dari gagasan yang sama dan memilih satu kalimat yang benar secara tata bahasa. Perbedaan antarpilihan sering hanya satu atau dua kata. Setelah menemukan satu bentuk yang tepat, periksa bagian lain sebelum menentukan jawaban."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menemukan",
+        "teks": "titik yang berubah antarpilihan, menjelaskan kaidah yang berlaku pada tiap titik, dan memilih kalimat yang benar secara utuh."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bentuk soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Instruksi meminta kamu memilih kalimat yang benar secara tata bahasa. Opsi A–E berupa kalimat lengkap. Pilih satu jawaban. Pada pola yang teramati dalam riset, peserta harus memeriksa agreement pada subjek yang dipisahkan oleh frasa penjelas serta pemilihan preposisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika dua bagian berubah, sebuah pilihan dapat benar pada bagian pertama dan keliru pada bagian kedua. Misalnya, The files were ... sudah tepat dari sisi agreement. Jika kalimat yang sama memakai at Monday, pilihan itu tetap gugur karena nama hari dalam konteks tersebut memakai on."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_bi_grammatically_correct_sentence/gambar-01.png",
+              "lebar": 6.24,
+              "tinggi": 1.68,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Anotasi agreement dan preposisi waktu</i>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Review singkat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Review singkat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Saat memeriksa agreement, cari inti subjek dan kata kerja utama. Saat memeriksa tense, tentukan waktu tindakan yang sedang dibahas. Untuk passive, lihat apakah subjek menerima tindakan dan cek bentuk be + V3. Untuk article, quantifier, atau pronoun, baca kata sebelum dan sesudahnya. Kaidah lengkap tersedia di tab Grammar and Vocabulary."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tips mengerjakan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tips mengerjakan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Bandingkan opsi. Tandai bagian yang berubah agar kamu tahu kaidah yang sedang diuji."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Temukan struktur inti. Pisahkan frasa yang hanya menjelaskan subjek. Misalnya, dalam the files from the office, inti subjeknya files."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Periksa setiap perbedaan secara terpisah. Jika semua opsi dengan was salah untuk subjek jamak, gugurkan opsi itu. Lalu cek preposisi atau bentuk lain pada opsi yang tersisa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Baca kembali pilihan akhir secara utuh. Pastikan setiap bagian benar dalam konteks dan kalimatnya menyatakan gagasan yang lengkap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Bandingkan opsi 2. Temukan titik perubahan 3. Uji tiap kaidah 4. Baca ulang"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bentuk soal",
+        "teks": ""
+      },
+      {
+        "judul": "Review singkat",
+        "teks": ""
+      },
+      {
+        "judul": "Tips mengerjakan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Mulai dari bagian yang berubah, kemudian periksa kalimat secara utuh. Saat meninjau kesalahan, catat kaidah yang terlewat. Jika sering tertukar antara inti subjek dan frasa penjelas, ulangi contoh agreement. Jika sering berhenti setelah satu cek, biasakan memeriksa seluruh titik perubahan sebelum memilih jawaban."
+  }
+}

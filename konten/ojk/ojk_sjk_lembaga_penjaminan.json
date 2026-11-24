@@ -143,6 +143,33 @@
               "teks": "Dina membutuhkan modal untuk membeli bahan baku rotan. Bank memberi kredit dan Dina wajib mengembalikannya sesuai perjanjian. Perusahaan penjaminan memberi perlindungan kepada bank atas bagian kewajiban Dina yang dijamin. Dari hubungan ini, kita bisa mengenali tiga pihak utama dalam penjaminan."
             },
             {
+              "jenis": "tabel",
+              "kolom": [
+                "Pihak",
+                "Peran dalam kasus Dina"
+              ],
+              "baris": [
+                [
+                  "Terjamin",
+                  "Dina menerima kredit dan berkewajiban membayarnya. Kewajiban pembayaran inilah yang dijamin sesuai perjanjian."
+                ],
+                [
+                  "Penerima jaminan",
+                  "Bank menyalurkan kredit dan menerima perlindungan atas bagian kewajiban yang dijamin. Jika syarat klaim terpenuhi, bank dapat mengajukan klaim kepada penjamin."
+                ],
+                [
+                  "Penjamin",
+                  "Perusahaan penjaminan memberikan jaminan, memeriksa pengajuan klaim, dan membayar klaim yang disetujui sesuai cakupan penjaminan."
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Pihak | Peran dalam kasus Dina"
+                }
+              ]
+            },
+            {
               "jenis": "paragraf",
               "teks": "Di belakang hubungan itu, perusahaan penjaminan dapat menggunakan penjaminan ulang. Perusahaan penjaminan ulang membantu menanggung kembali sebagian risiko yang sudah diterima penjamin, sesuai perjanjian penjaminan ulang. Dalam kasus Dina, bank tetap mengajukan klaim kepada perusahaan penjaminan. Jika ada penjaminan ulang, perusahaan penjaminan menangani hubungan tersebut dengan perusahaan penjaminan ulang."
             },

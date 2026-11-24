@@ -7,6 +7,9 @@ folder dengan nama <doc_id>.docx, lalu jalankan:
     python generator/impor_katalog.py --katalog konten/ojk/katalog.json --docx folder_docx_ojk
 
 Hanya entri dengan "otomatis": true yang ditimpa. Gambar disimpan di konten/media/<naskah>/.
+Entri dengan "miring": true mempertahankan cetak miring dokumen (materi Bahasa Inggris); entri dengan
+"penanda": "merah" memakai teks merah sebagai penanda wajib PPT, seperti highlight kuning (Badges); "coret": true
+mempertahankan coretan merah; "pelengkap": "minimal" membatasi tambahan di luar sorotan.
 """
 from __future__ import annotations
 
@@ -42,6 +45,12 @@ def main(argv=None):
     indeks_peta = katalog.get("indeks_peta", KELOMPOK)
     awalan = katalog.get("awalan_nama", "TIU")
     hilang = []
+    # pelengkap.json: tambahan di luar sorotan yang dipilih per dokumen (lihat pelengkap() di ekstrak_gdoc.py)
+    path_pilihan = os.path.join(folder, "pelengkap.json")
+    pilihan = {}
+    if os.path.exists(path_pilihan):
+        with open(path_pilihan, encoding="utf-8") as f:
+            pilihan = json.load(f)["dokumen"]
     # Entri "bagian": "soal" = baris 'Contoh Soal' di sheet yang soalnya ditulis di dokumen materi (doc_id sama).
     pasangan = {m["doc_id"]: m for m in katalog["materi"] if m.get("bagian") == "soal"}
     for m in katalog["materi"]:
@@ -56,9 +65,11 @@ def main(argv=None):
             continue
         slug = os.path.splitext(m["naskah"])[0]
         aktif = indeks_peta.get(m.get("subtes"), indeks_peta.get(m["kelompok"], 0))
-        naskah = E.susun(E.baca_docx(path), folder, slug, url_dokumen(m["doc_id"]), aktif,
+        naskah = E.susun(E.baca_docx(path, miring=bool(m.get("miring")), merah=m.get("penanda") == "merah",
+                                     coret=bool(m.get("coret"))), folder, slug, url_dokumen(m["doc_id"]), aktif,
                          f"{awalan} - {m['bab']}".replace("/", "-"), subtes=subtes, peta=peta,
-                         judul=m["bab"] if "peta" in katalog else None)
+                         judul=m["bab"] if "peta" in katalog else None,
+                         pilihan=pilihan.get(m["id"], []), minimal=m.get("pelengkap") == "minimal")
         keluaran = [(m, naskah)]
         if soal:
             materi, contoh = E.pisah_soal(naskah, f"{awalan} - {soal['bab']}".replace("/", "-"))

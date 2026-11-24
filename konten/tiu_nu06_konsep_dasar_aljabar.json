@@ -107,6 +107,41 @@
               "teks": "Variabel adalah huruf atau simbol yang mewakili suatu bilangan, seperti x dan y. Koefisien adalah bilangan pengali suatu suku yang memuat variabel. Konstanta adalah suku yang tidak memuat variabel, sehingga nilainya tetap."
             },
             {
+              "jenis": "tabel",
+              "kolom": [
+                "Suku",
+                "Bagian variabel",
+                "Koefisien",
+                "Keterangan"
+              ],
+              "baris": [
+                [
+                  "3x",
+                  "x",
+                  "3",
+                  "Nilai x dikali 3."
+                ],
+                [
+                  "−2y",
+                  "y",
+                  "−2",
+                  "Tanda negatif ikut pada koefisien."
+                ],
+                [
+                  "5",
+                  "—",
+                  "—",
+                  "Konstanta. Nilainya tetap."
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Suku | Bagian variabel | Koefisien | Keterangan"
+                }
+              ]
+            },
+            {
               "jenis": "gambar",
               "file": "media/tiu_nu06_konsep_dasar_aljabar/gambar-01.png",
               "lebar": 6.11,
@@ -271,6 +306,26 @@
             {
               "jenis": "paragraf",
               "teks": "Persamaan adalah kalimat matematika yang menyatakan bahwa nilai dua bentuk sama. Tanda sama dengan memisahkan ruas kiri dari ruas kanan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x + 1 = 9$",
+              "tambahan": [
+                {
+                  "alasan": "rumus di bawah kalimat wajib",
+                  "isi": "$2x + 1 = 9$"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk 2x + 1 berada di ruas kiri, sedangkan 9 berada di ruas kanan. Jika berdiri sendiri, 2x + 1 disebut bentuk aljabar. Setelah dihubungkan dengan 9 melalui tanda sama dengan, keduanya membentuk persamaan.",
+              "tambahan": [
+                {
+                  "alasan": "rumus di bawah kalimat wajib",
+                  "isi": "Bentuk 2x + 1 berada di ruas kiri, sedangkan 9 berada di ruas kanan. Jika berdiri sendiri, 2x + 1 disebut bentuk aljabar. Setelah dihubungkan dengan 9 melalui tanda sama dengan, keduanya membentuk persamaan."
+                }
+              ]
             },
             {
               "jenis": "gambar",

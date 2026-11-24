@@ -1,0 +1,688 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Reading Comprehension",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Reading Comprehension",
+    "sumber": "https://canva.link/ejfp5maccu1r88k",
+    "id_katalog": "bi-06-soal",
+    "bagian": "soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "label": "Contoh soal",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harvard Business School expert Michael I. Norton explores how social norms influence individual preferences. According to Norton, our tastes develop differently across various categories. For instance, music preferences are often formed during adolescence, while brand preferences for items like cars emerge later when a need arises. Additionally, parental influence plays a significant role; people often stick with brands used by their parents, such as spaghetti sauce."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Norton argues that while we believe our attitudes lead to our choices, it is sometimes the product choices that shape our attitudes. For example, people often develop strong opinions about local pizza places based on convenience rather than quality. Similarly, wine connoisseurs might claim expertise, but their views can still be affected by factors like price, demonstrating how preferences can be influenced by external signals."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "In the digital age, companies use AI to analyse personal data and target ads more effectively. Social media plays a crucial role in shaping our preferences, as we tend to favour brands that align with our self-image. Despite increasing segmentation and personalised marketing, our preferences are still largely shaped by social and environmental influences, showing that forming genuine tastes without external influence is challenging."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Source: The Harvard Gazette"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**What is the main idea of the passage?**"
+            }
+          ],
+          "opsi": {
+            "A": "Preferences for different products are developed at various life stages and influenced by social and environmental factors.",
+            "B": "Personal preferences are solely a result of individual choice and have no external influences.",
+            "C": "Social media is the primary factor shaping consumer preferences today.",
+            "D": "AI is the only method used to understand consumer preferences in modern marketing."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Soal ini menguji kemampuan kita dalam menemukan gagasan utama di dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada paragraf pertama, teks menjelaskan bahwa preferensi berkembang berbeda pada berbagai kategori: “our tastes develop differently across various categories.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada paragraf ketiga, teks menegaskan bahwa preferensi dipengaruhi faktor sosial dan lingkungan: “our preferences are still largely shaped by social and environmental influences.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Isi teks secara umum membahas bagaimana preferensi konsumen terbentuk. Teks menjelaskan bahwa preferensi tidak sepenuhnya muncul dari pilihan pribadi, tetapi dipengaruhi oleh banyak hal, seperti usia, kebutuhan, pengaruh orang tua, pengalaman, harga, media sosial, AI marketing, serta lingkungan sosial."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena itu, gagasan utama yang paling mencakup seluruh teks adalah bahwa preferensi terhadap berbagai produk berkembang pada tahap kehidupan yang berbeda dan dipengaruhi faktor sosial serta lingkungan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, karena teks justru menekankan bahwa preferensi dipengaruhi oleh faktor eksternal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Kurang tepat, karena media sosial hanya salah satu faktor yang disebutkan, bukan satu-satunya fokus utama teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, karena AI hanya disebut sebagai alat perusahaan untuk menganalisis data dan menargetkan iklan, bukan inti utama teks."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Tips menjawab",
+              "teks": "Untuk soal main idea, pilih opsi yang paling luas dan mencakup semua paragraf. Jangan pilih opsi yang hanya membahas satu bagian, seperti social media atau AI, karena itu hanya detail pendukung."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "label": "Contoh soal",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harvard Business School expert Michael I. Norton explores how social norms influence individual preferences. According to Norton, our tastes develop differently across various categories. For instance, music preferences are often formed during adolescence, while brand preferences for items like cars emerge later when a need arises. Additionally, parental influence plays a significant role; people often stick with brands used by their parents, such as spaghetti sauce."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Norton argues that while we believe our attitudes lead to our choices, it is sometimes the product choices that shape our attitudes. For example, people often develop strong opinions about local pizza places based on convenience rather than quality. Similarly, wine connoisseurs might claim expertise, but their views can still be affected by factors like price, demonstrating how preferences can be influenced by external signals."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "In the digital age, companies use AI to analyse personal data and target ads more effectively. Social media plays a crucial role in shaping our preferences, as we tend to favour brands that align with our self-image. Despite increasing segmentation and personalised marketing, our preferences are still largely shaped by social and environmental influences, showing that forming genuine tastes without external influence is challenging."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Source: The Harvard Gazette"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**According to the passage, when do people typically develop their music preferences?**"
+            }
+          ],
+          "opsi": {
+            "A": "In their early childhood",
+            "B": "During their teenage years",
+            "C": "When they start shopping for cars",
+            "D": "As they begin using social media"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Ini merupakan jenis pertanyaan detail information. Artinya, jawaban dapat ditemukan langsung di dalam teks, bukan perlu disimpulkan terlalu jauh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kunci dalam soal:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "when = menanyakan waktu",
+                "develop their music preferences = kapan preferensi musik terbentuk",
+                "typically = biasanya/umumnya"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada paragraf pertama tertulis: “music preferences are often formed during adolescence”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata adolescence berarti masa remaja atau teenage years."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks menjelaskan bahwa preferensi seseorang berkembang berbeda-beda tergantung kategorinya. Untuk musik, preferensi biasanya terbentuk saat seseorang berada pada masa remaja. Karena itu, jawaban yang paling sesuai adalah B."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, karena teks tidak menyebut preferensi musik terbentuk pada masa kanak-kanak awal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar, karena sesuai dengan frasa “during adolescence”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, karena ini berkaitan dengan preferensi merek mobil, bukan musik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, karena media sosial disebut sebagai faktor yang membentuk preferensi di era digital, tetapi bukan waktu khas terbentuknya preferensi musik."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "label": "Contoh soal",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harvard Business School expert Michael I. Norton explores how social norms influence individual preferences. According to Norton, our tastes develop differently across various categories. For instance, music preferences are often formed during adolescence, while brand preferences for items like cars emerge later when a need arises. Additionally, parental influence plays a significant role; people often stick with brands used by their parents, such as spaghetti sauce."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Norton argues that while we believe our attitudes lead to our choices, it is sometimes the product choices that shape our attitudes. For example, people often develop strong opinions about local pizza places based on convenience rather than quality. Similarly, wine connoisseurs might claim expertise, but their views can still be affected by factors like price, demonstrating how preferences can be influenced by external signals."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "In the digital age, companies use AI to analyse personal data and target ads more effectively. Social media plays a crucial role in shaping our preferences, as we tend to favour brands that align with our self-image. Despite increasing segmentation and personalised marketing, our preferences are still largely shaped by social and environmental influences, showing that forming genuine tastes without external influence is challenging."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Source: The Harvard Gazette"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**What is NOT mentioned as a factor influencing consumer preferences in the passage?**"
+            }
+          ],
+          "opsi": {
+            "A": "Parental influence",
+            "B": "Social media activity",
+            "C": "Economic conditions",
+            "D": "Personal experiences"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Soal ini menanyakan informasi yang tidak disebutkan dalam teks. Jadi, kita harus mencari faktor yang tidak muncul sebagai penyebab atau pengaruh terhadap preferensi konsumen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pembahasan:** Dalam teks, beberapa faktor yang memengaruhi preferensi konsumen disebutkan, yaitu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Parental influence, misalnya orang cenderung tetap memakai merek yang digunakan orang tua mereka.",
+                "Social media, karena media sosial membentuk preferensi dan membuat orang menyukai merek yang sesuai dengan citra diri mereka.",
+                "Personal experiences, misalnya pengalaman memilih tempat pizza lokal karena kemudahan atau kenyamanan, bukan semata kualitas."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, teks tidak menyebut economic conditions atau kondisi ekonomi sebagai faktor yang memengaruhi preferensi konsumen."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Pengaruh orang tua disebutkan secara jelas dalam paragraf pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Media sosial disebutkan dalam paragraf ketiga sebagai faktor yang memengaruhi preferensi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Pengalaman pribadi tampak dalam contoh preferensi terhadap musik, merek, pizza lokal, dan produk tertentu."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Tips menjawab",
+              "teks": "Untuk soal NOT mentioned, jangan memilih jawaban yang terasa masuk akal secara umum. Pilih jawaban yang benar-benar tidak ada informasinya dalam teks. Lakukan teknik eliminasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Exercise 1",
+          "label": "Exercise",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "For much of the twentieth century, city planners treated urban trees primarily as decorative features. Trees were planted along streets and in public parks because they made neighborhoods more attractive, but their ecological functions received comparatively little attention. More recent research has changed this perspective. Trees can lower urban temperatures by providing shade and by releasing water vapor through transpiration. Their leaves can also capture some airborne particles, while their root systems help absorb rainwater that might otherwise contribute to flooding. These benefits have encouraged many cities to increase tree planting as part of their environmental strategies. However, researchers caution that simply increasing the number of trees does not guarantee the desired results. Different species vary in their tolerance of heat, drought, pollution, and limited soil space. Furthermore, poorly selected trees may require excessive irrigation or may fail to survive under urban conditions. Effective urban forestry therefore depends not only on planting more trees but also on selecting species appropriate to local environmental conditions."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**What is the main idea of the passage?**"
+            }
+          ],
+          "opsi": {
+            "A": "Urban trees should be planted only in public parks where they can receive sufficient water.",
+            "B": "Most twentieth-century planners understood the environmental importance of urban trees.",
+            "C": "Urban trees provide several environmental benefits, but successful planting requires appropriate species selection.",
+            "D": "Air pollution is the main reason modern cities have begun planting more trees."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan C paling tepat karena mencakup dua gagasan besar dalam teks. Pertama, penelitian modern menunjukkan bahwa pohon perkotaan memiliki berbagai manfaat lingkungan, seperti mengurangi panas, menangkap partikel udara, dan membantu mengelola air hujan. Kedua, paragraf menegaskan bahwa keberhasilan penghijauan tidak cukup dengan sekadar menambah jumlah pohon; jenis pohon juga harus sesuai dengan kondisi lingkungan lokal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, jawaban harus memuat benefits + proper selection, bukan hanya salah satunya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Dasar soal:** Main Idea."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "A salah karena teks tidak mengatakan pohon hanya boleh ditanam di taman umum.",
+                "B salah karena justru pada masa lalu manfaat ekologis pohon kurang mendapat perhatian.",
+                "C benar karena merangkum keseluruhan isi paragraf.",
+                "D salah karena polusi udara hanya salah satu isu yang dibahas, bukan alasan utama tunggal."
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat menjawab",
+              "teks": "Perhatikan perubahan arah setelah However. Bagian sebelum however membahas manfaat, sedangkan bagian setelahnya memberi batasan. Jawaban main idea yang baik harus mencakup keduanya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Exercise 2",
+          "label": "Exercise",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "For much of the twentieth century, city planners treated urban trees primarily as decorative features. Trees were planted along streets and in public parks because they made neighborhoods more attractive, but their ecological functions received comparatively little attention. More recent research has changed this perspective. Trees can lower urban temperatures by providing shade and by releasing water vapor through transpiration. Their leaves can also capture some airborne particles, while their root systems help absorb rainwater that might otherwise contribute to flooding. These benefits have encouraged many cities to increase tree planting as part of their environmental strategies. However, researchers caution that simply increasing the number of trees does not guarantee the desired results. Different species vary in their tolerance of heat, drought, pollution, and limited soil space. Furthermore, poorly selected trees may require excessive irrigation or may fail to survive under urban conditions. Effective urban forestry therefore depends not only on planting more trees but also on selecting species appropriate to local environmental conditions."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**According to the passage, how can tree roots help cities during periods of rainfall?**"
+            }
+          ],
+          "opsi": {
+            "A": "By absorbing water that could otherwise contribute to flooding",
+            "B": "By increasing the amount of water stored in city streets",
+            "C": "By preventing leaves from capturing airborne particles",
+            "D": "By reducing the amount of water released through transpiration"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Teks secara eksplisit menyatakan: <i>their root systems help absorb rainwater that might otherwise contribute to flooding.</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan A merupakan parafrasa langsung dari informasi tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Dasar soal:** Factual Information."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal factual meminta informasi yang dinyatakan langsung, sehingga tidak perlu membuat inferensi tambahan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "A benar karena sesuai dengan fungsi akar yang disebut dalam teks.",
+                "B salah karena akar justru menyerap air, bukan meningkatkan air di jalan.",
+                "C salah karena fungsi akar dan fungsi daun berbeda.",
+                "D salah karena transpiration berkaitan dengan pelepasan uap air dari daun, bukan penyerapan air oleh akar."
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat menjawab",
+              "teks": "Scan kata kunci root systems. Jawaban langsung berada dalam kalimat yang sama."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Exercise 4",
+          "label": "Exercise",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "For many years, archaeological interpretations of ancient settlements depended heavily on large structures such as temples, palaces, and defensive walls. Because these buildings survived more visibly than ordinary homes, they naturally attracted scholarly attention. However, this emphasis sometimes produced an incomplete picture of ancient life. Recent archaeologists increasingly examine small houses, cooking areas, discarded tools, animal bones, and other everyday remains. Such evidence can reveal what ordinary people ate, how households organized work, and how resources were distributed within a community. These findings do not make monumental architecture irrelevant; temples and palaces still provide valuable information about political authority, religion, and public life. Instead, the broader approach allows archaeologists to compare elite institutions with the daily experiences of the larger population. As a result, archaeological research has gradually shifted from describing only rulers and major institutions toward reconstructing the lives of a wider range of people."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**According to the passage, all of the following are examples of evidence increasingly studied by archaeologists EXCEPT...**"
+            }
+          ],
+          "opsi": {
+            "A": "Cooking areas",
+            "B": "Discarded tools",
+            "C": "Animal bones",
+            "D": "Royal genealogical records"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf secara eksplisit menyebut:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "small houses;",
+                "cooking areas;",
+                "discarded tools;",
+                "animal bones;",
+                "other everyday remains."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak terdapat penyebutan mengenai royal genealogical records."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena pertanyaan menggunakan EXCEPT, jawaban yang benar adalah pilihan yang tidak disebutkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Dasar soal:** Negative Factual Information."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strateginya adalah: CHECK 3 → FIND 1. Tiga opsi harus dapat dibuktikan dari teks dan satu tidak memiliki bukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "A salah sebagai jawaban karena cooking areas disebutkan.",
+                "B salah sebagai jawaban karena discarded tools disebutkan.",
+                "C salah sebagai jawaban karena animal bones disebutkan.",
+                "D benar karena royal genealogical records tidak disebutkan."
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat menjawab",
+              "teks": "Tandai EXCEPT terlebih dahulu. Kemudian scan pilihan satu per satu dan coret semua yang benar-benar terdapat dalam teks."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Exercise 5",
+          "label": "Exercise",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "For many years, archaeological interpretations of ancient settlements depended heavily on large structures such as temples, palaces, and defensive walls. Because these buildings survived more visibly than ordinary homes, they naturally attracted scholarly attention. However, this emphasis sometimes produced an incomplete picture of ancient life. Recent archaeologists increasingly examine small houses, cooking areas, discarded tools, animal bones, and other everyday remains. Such evidence can reveal what ordinary people ate, how households organized work, and how resources were distributed within a community. These findings do not make monumental architecture irrelevant; temples and palaces still provide valuable information about political authority, religion, and public life. Instead, the broader approach allows archaeologists to compare elite institutions with the daily experiences of the larger population. As a result, archaeological research has gradually shifted from describing only rulers and major institutions toward reconstructing the lives of a wider range of people."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**What best describes the author's attitude toward the newer, broader approach to archaeological research?**"
+            }
+          ],
+          "opsi": {
+            "A": "Strongly critical because it ignores political institutions",
+            "B": "Indifferent because both approaches produce identical information",
+            "C": "Supportive because it provides a more complete picture without dismissing earlier evidence",
+            "D": "Skeptical because evidence from ordinary households is generally unreliable"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penulis jelas melihat pendekatan baru secara positif. Pendekatan yang lebih luas memungkinkan arkeolog memahami kehidupan masyarakat biasa sekaligus tetap mempertahankan manfaat penelitian terhadap bangunan monumental."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pentingnya: <i>These findings do not make monumental architecture irrelevant...</i> dan: <i>the broader approach allows archaeologists to compare elite institutions with the daily experiences of the larger population.</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, penulis tidak mengganti satu metode dengan metode lain secara total, tetapi mendukung pendekatan yang lebih lengkap dan seimbang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Dasar soal:** Author’s Attitude."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "A salah karena institusi politik tetap dianggap relevan.",
+                "B salah karena kedua pendekatan menghasilkan jenis informasi yang berbeda.",
+                "C benar karena menggambarkan sikap positif sekaligus seimbang.",
+                "D salah karena penulis tidak meragukan validitas bukti kehidupan sehari-hari."
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat menjawab",
+              "teks": "Cari kalimat evaluatif. Frasa seperti valuable information, broader approach, dan wider range of people menunjukkan sikap positif."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Exercise 6",
+          "label": "Exercise",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Many animals living in cold climates have developed strategies for surviving periods when food is scarce. Some small mammals, for example, enter a state of greatly reduced activity during winter. Their body temperature falls, their heart rate slows, and they use stored body fat as an energy source. This condition allows them to conserve energy when searching for food would require more energy than the food itself could provide. However, these animals do not necessarily remain inactive throughout the entire winter. Some periodically return to normal body temperature before entering the low-energy state again."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**The word “their” in the sentence “Their body temperature falls, their heart rate slows...” refers to...**"
+            }
+          ],
+          "opsi": {
+            "A": "cold climates",
+            "B": "small mammals",
+            "C": "winter periods",
+            "D": "energy sources"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pronoun their merujuk pada subjek yang dibicarakan dalam kalimat sebelumnya, yaitu: <i>Some small mammals...</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah menyebut small mammals, penulis menjelaskan perubahan fisiologis yang terjadi pada hewan-hewan tersebut, seperti turunnya suhu tubuh dan melambatnya detak jantung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, their = small mammals."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Dasar soal:** Reference Question"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk reference question, cari noun sebelum pronoun yang:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "sesuai jumlahnya;",
+                "sesuai secara gramatikal;",
+                "dan paling masuk akal secara makna."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "A salah karena cold climates adalah kondisi lingkungan, bukan makhluk yang memiliki suhu tubuh atau detak jantung.",
+                "B benar karena small mammals merupakan subjek yang mengalami perubahan tersebut.",
+                "C salah karena winter periods tidak memiliki body temperature.",
+                "D salah karena energy sources tidak memiliki heart rate."
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat menjawab",
+              "teks": "Baca satu kalimat sebelum pronoun. Kandidat plural terdekat adalah small mammals, dan secara makna paling sesuai."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Exercise 7",
+          "label": "Exercise",
+          "bacaan": true,
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Many animals living in cold climates have developed strategies for surviving periods when food is scarce. Some small mammals, for example, enter a state of greatly reduced activity during winter. Their body temperature falls, their heart rate slows, and they use stored body fat as an energy source. This condition allows them to conserve energy when searching for food would require more energy than the food itself could provide. However, these animals do not necessarily remain inactive throughout the entire winter. Some periodically return to normal body temperature before entering the low-energy state again."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**What can be inferred about the low-energy state described in the passage?**"
+            }
+          ],
+          "opsi": {
+            "A": "It helps animals reduce energy use when obtaining food would be inefficient.",
+            "B": "It allows animals to search for food more actively during winter.",
+            "C": "It permanently lowers the body temperature of small mammals.",
+            "D": "It occurs only when animals have completely exhausted their stored fat."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Teks menjelaskan bahwa kondisi aktivitas rendah memungkinkan hewan: <i>to conserve energy when searching for food would require more energy than the food itself could provide.</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, kondisi tersebut menguntungkan ketika biaya energi untuk mencari makanan justru lebih besar daripada energi yang mungkin diperoleh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan A merupakan inferensi paling tepat dari hubungan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Dasar soal:** Inference Question"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban inference harus merupakan kesimpulan logis dari bukti yang tersedia, bukan pengetahuan tambahan dari luar teks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi lain salah"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "A benar karena sesuai dengan fungsi penghematan energi yang dijelaskan.",
+                "B salah karena justru aktivitas mereka berkurang.",
+                "C salah karena suhu tubuh tidak turun secara permanen; hewan dapat kembali ke suhu normal.",
+                "D salah karena teks tidak mengatakan kondisi tersebut baru terjadi setelah cadangan lemak habis."
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat menjawab",
+              "teks": "Cari hubungan sebab-akibat: food scarce → searching costly → reduced activity → energy conserved. Inferensi yang benar harus mengikuti rantai tersebut."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

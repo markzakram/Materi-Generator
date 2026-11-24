@@ -1,0 +1,700 @@
+{
+  "meta": {
+    "judul": "Timeslot Scheduling",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Timeslot Scheduling",
+    "sumber": "https://docs.google.com/document/d/1Zuze8pSLj-wSE8xHONq11nEOtDlUdFwL/edit",
+    "id_katalog": "pd-05"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Timeslot Scheduling merupakan bentuk latihan penalaran deduktif interaktif untuk menempatkan beberapa kegiatan pada satu garis waktu. Peserta membaca kotak yang tidak tersedia, menghitung durasi tiap kegiatan, lalu menyusun seluruh kegiatan ke dalam waktu kosong sehingga tidak saling bertabrakan dan memenuhi ketentuan urutan serta tenggat."
+    ],
+    "pemantik": "",
+    "ikon": "presenter",
+    "gambar": "media/ojk_pd_timeslot_scheduling/gambar-01.png",
+    "keterangan": "Gambar 1. Contoh tampilan Timeslot Scheduling. Ilustrasi sumber menampilkan empat pelatihan, durasi, jadwal satu baris, dan keterangan 30 menit per sel. ****"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "satu garis waktu 09.00–18.00 dengan 18 kotak, masing-masing 30 menit, sebagaimana contoh sumber."
+      },
+      {
+        "level": "",
+        "kko": "Menerjemahkan",
+        "teks": "durasi 30, 60, 90, hingga 120 menit menjadi jumlah kotak berurutan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "waktu tersedia dan waktu terhalang serta menghindari pemakaian sel abu-abu."
+      },
+      {
+        "level": "",
+        "kko": "Menempatkan",
+        "teks": "semua kegiatan sebagai blok utuh tanpa tumpang tindih."
+      },
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "perbedaan antara “selesai paling akhir” dan “selesai paling lambat”."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "susunan jadwal terhadap tenggat, urutan, dan semua durasi; menjelaskan kandidat yang salah."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Mengenali tampilan Timeslot Scheduling",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengenali tampilan Timeslot Scheduling",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bacalah tampilan dari bagian atas ke bawah: (1) perintah atau tujuan penjadwalan, (2) garis waktu “Hari Ini”, (3) daftar kegiatan beserta durasi, dan (4) legenda warna. Dalam contoh sumber, abu-abu berarti tidak tersedia, sedangkan putih berarti masih dapat dipakai. Kegiatan yang dipilih perlu ditempatkan di dalam kotak putih secara berurutan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Komponen tampilan",
+                "Informasi yang dibaca",
+                "Kesalahan yang dihindari"
+              ],
+              "baris": [
+                [
+                  "Pertanyaan",
+                  "Urutan kegiatan dan batas akhir semua kegiatan",
+                  "Hanya memperhatikan durasi tanpa target"
+                ],
+                [
+                  "Garis waktu",
+                  "Awal dan akhir tiap kotak",
+                  "Mengira angka jam sebagai satu sel"
+                ],
+                [
+                  "Kotak abu-abu",
+                  "Waktu yang tidak tersedia",
+                  "Menempatkan kegiatan melewati blok terhalang"
+                ],
+                [
+                  "Daftar pelatihan",
+                  "Nama dan durasi seluruh kegiatan",
+                  "Mengabaikan satu kegiatan"
+                ],
+                [
+                  "Pilihan jawaban",
+                  "Letak setiap blok yang digeser/dipilih",
+                  "Membiarkan jadwal beririsan"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mengubah kotak menjadi waktu",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengubah kotak menjadi waktu",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Skala yang digunakan pada contoh sumber adalah satu hari pukul 09.00–18.00, dengan 18 kotak yang sama lebar. Satu kotak = 30 menit. Kotak pertama adalah 09.00–09.30, kotak kedua 09.30–10.00, dan kotak ke-18 adalah 17.30–18.00. Angka 18.00 adalah batas akhir garis waktu, bukan kotak ke-19."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeslot_scheduling/gambar-02.png",
+              "lebar": 6.06,
+              "tinggi": 0.9,
+              "keterangan": "Gambar 2. Contoh garis waktu 18 kotak dan tenggat. Sel abu-abu tidak boleh digunakan. ****"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kotak",
+                "Durasi",
+                "Contoh rentang"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "30 menit",
+                  "11.00–11.30"
+                ],
+                [
+                  "2",
+                  "60 menit / 1 jam",
+                  "09.30–10.30"
+                ],
+                [
+                  "3",
+                  "90 menit / 1,5 jam",
+                  "12.00–13.30"
+                ],
+                [
+                  "4",
+                  "120 menit / 2 jam",
+                  "13.30–15.30"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kegiatan harus ditempatkan sebagai satu blok utuh",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kegiatan harus ditempatkan sebagai satu blok utuh",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika durasi kegiatan 90 menit, kegiatan harus menempati tiga kotak yang berurutan. Ketiganya tidak boleh dipisahkan oleh kotak abu-abu atau oleh kegiatan lain. Menyusun 30 menit pagi dan 60 menit siang tidak sama dengan menempatkan satu kegiatan 90 menit, kecuali soal secara eksplisit mengizinkan pembagian—izin tersebut tidak terdapat pada contoh sumber."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeslot_scheduling/gambar-03.png",
+              "lebar": 6.06,
+              "tinggi": 1.35,
+              "keterangan": "Gambar 3. Durasi 30, 60, dan 90 menit direpresentasikan sebagai satu, dua, dan tiga kotak yang menempel. ****"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk latihan dengan durasi lebih panjang, prinsipnya tetap sama: jumlah kotak = durasi dalam menit ÷ 30. Jumlah tersebut harus merupakan bilangan bulat dan masih muat pada satu rentang kosong."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membedakan berdampingan dan bertabrakan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membedakan berdampingan dan bertabrakan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kegiatan A pukul 11.00–12.00 dan kegiatan B pukul 12.00–12.30 boleh dijadwalkan pada sumber daya yang sama karena akhir A tepat bertemu awal B. Sebaliknya, kegiatan C pukul 11.30–12.30 bertabrakan dengan A selama 30 menit. Dua kegiatan tidak harus dipisahkan oleh satu kotak kosong; keduanya boleh bersambungan langsung jika tidak ada larangan lain."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_timeslot_scheduling/gambar-04.png",
+              "lebar": 6.06,
+              "tinggi": 1.16,
+              "keterangan": "Gambar 4. Kegiatan yang berdampingan tidak bertabrakan, sedangkan blok dengan irisan waktu tidak sah. ****"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca seluruh rentang kosong sebelum memilih tempat",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca seluruh rentang kosong sebelum memilih tempat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompokkan kotak putih yang berurutan menjadi beberapa rentang kosong. Sebagai contoh, dua kotak putih 09.30–10.30 membentuk satu rentang 60 menit, sedangkan tiga kotak putih 12.00–13.30 membentuk rentang 90 menit. Kotak abu-abu memutus rentang; dua rentang yang terpisah tidak boleh digabungkan untuk satu kegiatan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Rentang",
+                "Kotak berurutan",
+                "Kegiatan yang muat"
+              ],
+              "baris": [
+                [
+                  "09.30–10.30",
+                  "2",
+                  "30 atau 60 menit"
+                ],
+                [
+                  "11.00–11.30",
+                  "1",
+                  "30 menit"
+                ],
+                [
+                  "12.00–13.30",
+                  "3",
+                  "30, 60, atau 90 menit"
+                ],
+                [
+                  "14.00–15.30",
+                  "3",
+                  "30, 60, atau 90 menit"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utama: cocokkan durasi kegiatan dengan keseluruhan rentang kosong yang berurutan. Satu kotak putih saja tidak cukup membuktikan bahwa kegiatan dapat ditempatkan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca tenggat “selesai paling lambat”",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca tenggat “selesai paling lambat”",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Frasa “selesai paling lambat pukul 15.30” berarti tidak satu pun kegiatan boleh berakhir setelah pukul 15.30. Kegiatan yang selesai 15.00 tetap memenuhi tenggat. Jika suatu kegiatan berlangsung 90 menit dan harus selesai paling lambat 15.30, waktu mulai paling lambatnya adalah 14.00, dengan syarat seluruh kotak antara 14.00 dan 15.30 tersedia."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Arti yang benar"
+              ],
+              "baris": [
+                [
+                  "Paling lambat pukul 15.30",
+                  "Semua kegiatan selesai pada atau sebelum 15.30"
+                ],
+                [
+                  "Kegiatan X selesai paling akhir",
+                  "Waktu selesai X lebih akhir daripada seluruh kegiatan lain"
+                ],
+                [
+                  "Kegiatan X selesai tepat 15.30",
+                  "Waktu akhir X harus sama dengan 15.30 (hanya bila disebut)"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membedakan selesai paling akhir dan selesai selambat mungkin",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membedakan selesai paling akhir dan selesai selambat mungkin",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "“Selesai paling akhir” menunjuk urutan relatif antarkegiatan. Ini berbeda dengan “selesaikan kegiatan tersebut pada waktu selambat mungkin”. Sebuah pelatihan dapat menjadi yang terakhir walaupun masih ada waktu kosong sebelum tenggat. Jangan mengubah kalimat soal menjadi syarat optimasi tambahan yang tidak tertulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh sumber, kombinasi durasi dan blok kosong yang tersedia sebelum pukul 15.30 membuat Pelatihan TI dapat berada pada 14.00–15.30 dan menjadi kegiatan terakhir. Itu adalah hasil pengujian seluruh batasan pada contoh tersebut, bukan aturan bahwa semua soal selalu harus berakhir tepat pada tenggat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menempatkan kegiatan yang paling terbatas lebih dahulu",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menempatkan kegiatan yang paling terbatas lebih dahulu",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi yang sering efisien adalah mencari kegiatan dengan durasi terpanjang atau syarat posisi paling ketat. Kegiatan 120 menit hanya dapat masuk pada rentang kosong minimal empat kotak; kegiatan 30 menit jauh lebih fleksibel. Namun, durasi panjang tidak otomatis berarti kegiatan tersebut harus dijadwalkan paling akhir. Ikuti instruksi soal secara keseluruhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identifikasi semua celah kosong yang tidak melewati tenggat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Cari kegiatan yang hanya muat pada satu celah; tempatkan kegiatan itu sementara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Gunakan syarat urutan relatif untuk menentukan kegiatan terakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Isi sisa celah sambil memastikan semua kegiatan tidak saling menabrak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Periksa seluruh batasan sebelum menilai jawaban sudah benar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memeriksa seluruh kegiatan, bukan hanya kegiatan target",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memeriksa seluruh kegiatan, bukan hanya kegiatan target",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penempatan kegiatan target mungkin tampak sesuai tenggat, tetapi jadwal tetap salah jika kegiatan lain terlewat, durasinya terpotong, atau satu kegiatan menabrak sel abu-abu. Pemeriksaan harus dilakukan untuk setiap kegiatan: nama, durasi, awal, akhir, ketersediaan, dan hubungan dengan kegiatan lain."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pertanyaan QC",
+                "Tanda valid"
+              ],
+              "baris": [
+                [
+                  "Apakah seluruh kegiatan sudah masuk?",
+                  "Jumlah kegiatan terjadwal sama dengan jumlah kegiatan yang diminta"
+                ],
+                [
+                  "Apakah durasi tetap utuh?",
+                  "Kotak berurutan sesuai durasi / 30"
+                ],
+                [
+                  "Apakah ada sel abu-abu yang terpakai?",
+                  "Tidak ada"
+                ],
+                [
+                  "Apakah dua kegiatan saling bertabrakan?",
+                  "Tidak ada irisan waktu"
+                ],
+                [
+                  "Apakah kegiatan target selesai paling akhir?",
+                  "Selesainya lebih akhir dari seluruh kegiatan lain"
+                ],
+                [
+                  "Apakah seluruhnya memenuhi tenggat?",
+                  "Tidak ada waktu selesai melebihi batas"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mengenali jawaban unik dan soal yang bermasalah",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengenali jawaban unik dan soal yang bermasalah",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah soal penjadwalan bisa memiliki lebih dari satu susunan sah. Apabila tes meminta seluruh penempatan kegiatan sebagai satu jawaban, variasi yang sama-sama memenuhi aturan harus dikenali sebagai potensi kunci ganda. Untuk latihan produksi internal, konfigurasi yang memungkinkan beberapa susunan berbeda tanpa kriteria pembeda sebaiknya diperbaiki. Sebaliknya, jika tidak ada celah cukup panjang untuk salah satu kegiatan, soal tidak dapat diselesaikan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perbedaan Timeslot Scheduling dan Timeline Scheduling",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbedaan Timeslot Scheduling dan Timeline Scheduling",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Timeslot Scheduling",
+                "Timeline Scheduling"
+              ],
+              "baris": [
+                [
+                  "Tampilan inti",
+                  "Satu baris waktu + kegiatan yang ditempatkan",
+                  "Tiga baris jadwal diketahui + satu baris jawaban"
+                ],
+                [
+                  "Fokus penalaran",
+                  "Menata beberapa kegiatan pada slot tersedia",
+                  "Menguji rapat, ketergantungan ruangan, atau petugas"
+                ],
+                [
+                  "Aktivitas utama",
+                  "Menempatkan blok pelatihan utuh",
+                  "Menentukan blok rapat/reservasi atau cakupan tim"
+                ],
+                [
+                  "Arti abu-abu",
+                  "Tidak tersedia pada contoh sumber",
+                  "Tergantung profil; pada petugas dapat berarti sedang bertugas"
+                ],
+                [
+                  "Ketentuan lintas subtes",
+                  "Tidak menggunakan aturan empat baris Timeline",
+                  "Mengikuti blueprint Timeline tersendiri"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesamaan satuan 30 menit atau rentang 09.00–18.00 pada kedua contoh bukan alasan untuk menyamakan seluruh aturan. Produk konten dan generator soal harus mengikuti mekanisme spesifik masing-masing subtes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab dan Cara Cepat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab dan Cara Cepat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan alur S–D–B–T–P: Saring slot kosong, Daftar durasi, Baca batasan, Tempatkan kegiatan, Periksa keseluruhan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Tahap",
+                "Langkah praktis"
+              ],
+              "baris": [
+                [
+                  "S – Saring",
+                  "Tandai semua sel abu-abu dan kelompokkan sel putih berurutan."
+                ],
+                [
+                  "D – Durasi",
+                  "Konversi setiap durasi ke banyak kotak 30 menit."
+                ],
+                [
+                  "B – Batasan",
+                  "Baca kembali tenggat dan kegiatan yang harus selesai paling akhir."
+                ],
+                [
+                  "T – Tempatkan",
+                  "Pasang kegiatan yang paling terkekang lebih dahulu; lanjutkan kegiatan lain."
+                ],
+                [
+                  "P – Periksa",
+                  "Uji semua kegiatan, irisan waktu, durasi, urutan selesai, dan tenggat."
+                ]
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "mulai dari kombinasi celah dan durasi yang paling membatasi, bukan dari kegiatan yang paling pendek. Bila semua celah berbeda panjang dan kegiatan cocok tepat, tempatkan berdasarkan panjang blok terlebih dahulu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Catatan pengelolaan waktu: mapping internal menempatkan Tes Penalaran Deduktif sebagai kelompok 12 soal selama 18 menit; jika dibagi rata, rata-ratanya 90 detik per soal. Angka ini bukan waktu resmi khusus Timeslot Scheduling. Selalu ikuti ketentuan yang ditampilkan pada tes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kesalahan Umum",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Mengapa keliru",
+                "Perbaikan"
+              ],
+              "baris": [
+                [
+                  "Menghitung setiap label jam sebagai satu kotak",
+                  "Satu jam terdiri atas dua kotak.",
+                  "Gunakan 30 menit per kotak."
+                ],
+                [
+                  "Melewati kotak abu-abu",
+                  "Sel abu-abu tidak tersedia.",
+                  "Buat rentang kosong berurutan terlebih dahulu."
+                ],
+                [
+                  "Membagi kegiatan 90 menit menjadi beberapa bagian",
+                  "Durasi satu kegiatan harus utuh.",
+                  "Cari satu rentang minimal tiga kotak."
+                ],
+                [
+                  "Menganggap “terakhir” selalu berarti tepat di tenggat",
+                  "Urutan relatif tidak selalu sama dengan waktu maksimum.",
+                  "Pisahkan syarat urutan dan tenggat."
+                ],
+                [
+                  "Menempatkan satu kegiatan benar tetapi melupakan kegiatan lain",
+                  "Semua pelatihan wajib masuk.",
+                  "Buat daftar centang semua kegiatan."
+                ],
+                [
+                  "Menggunakan dua kegiatan pada satu slot",
+                  "Terdapat tabrakan waktu.",
+                  "Uji irisan dua kegiatan."
+                ],
+                [
+                  "Mengabaikan durasi terpanjang",
+                  "Celah panjang dapat terpakai kegiatan pendek lebih dahulu.",
+                  "Coba kegiatan paling terbatas terlebih dahulu."
+                ],
+                [
+                  "Menganggap hanya satu kandidat pasti benar",
+                  "Bisa terdapat kunci ganda atau tanpa solusi.",
+                  "Periksa seluruh kemungkinan jadwal."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan sebelum menjawab:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Sudahkah semua kotak abu-abu dibiarkan kosong?",
+                "Apakah tiap durasi sesuai banyaknya kotak dan tidak terpecah?",
+                "Apakah setiap kegiatan ditempatkan tepat satu kali dan tidak bertabrakan?",
+                "Apakah kegiatan yang diminta selesai paling akhir benar-benar berakhir terakhir, dan apakah semua kegiatan selesai pada atau sebelum tenggat?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Konsep utama",
+                "Ringkasan"
+              ],
+              "baris": [
+                [
+                  "Kotak waktu",
+                  "18 kotak pada contoh sumber, 30 menit per kotak, dari 09.00 sampai 18.00."
+                ],
+                [
+                  "Sel abu-abu",
+                  "Waktu tidak tersedia; tidak dapat dilalui kegiatan."
+                ],
+                [
+                  "Durasi kegiatan",
+                  "Wajib berurutan dan tidak dipecah."
+                ],
+                [
+                  "Selesai paling akhir",
+                  "Kegiatan target harus berakhir lebih lambat daripada kegiatan lain."
+                ],
+                [
+                  "Selesai paling lambat",
+                  "Tidak ada kegiatan yang boleh berakhir melewati batas."
+                ],
+                [
+                  "Jawaban valid",
+                  "Semua kegiatan tercakup, tidak ada konflik, seluruh syarat dipenuhi."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Mengenali tampilan Timeslot Scheduling",
+        "teks": ""
+      },
+      {
+        "judul": "Mengubah kotak menjadi waktu",
+        "teks": ""
+      },
+      {
+        "judul": "Kegiatan harus ditempatkan sebagai satu blok utuh",
+        "teks": ""
+      },
+      {
+        "judul": "Membedakan berdampingan dan bertabrakan",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca seluruh rentang kosong sebelum memilih tempat",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca tenggat “selesai paling lambat”",
+        "teks": ""
+      }
+    ],
+    "pesan": "Timeslot Scheduling menguji ketelitian menerjemahkan durasi dan batasan waktu menjadi satu susunan kegiatan yang sah. Pada contoh sumber, 18 kotak masing-masing berdurasi 30 menit digunakan untuk menyusun empat pelatihan. Langkah terpenting bukan menebak warna, melainkan menghitung rentang kosong, memastikan kegiatan tetap utuh, kemudian menguji urutan dan tenggat. Urutan kerja: saring interval kosong → hitung durasi → baca batasan → tempatkan seluruh kegiatan → periksa kembali semua syarat."
+  }
+}

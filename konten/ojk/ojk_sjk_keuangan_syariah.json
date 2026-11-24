@@ -520,6 +520,42 @@
               "teks": "Daftar Efek Syariah (DES) merupakan kumpulan efek yang memenuhi kriteria dan ditetapkan OJK atau pihak penerbit DES yang mendapat persetujuan. DES berfungsi sebagai rujukan bagi pengelolaan portofolio syariah dan pembentukan indeks. POJK 8 Tahun 2025 memperbarui ketentuan penerbitan DES dan DES luar negeri."
             },
             {
+              "jenis": "tabel",
+              "kolom": [
+                "Istilah",
+                "Fungsi",
+                "Kesalahan umum"
+              ],
+              "baris": [
+                [
+                  "DES",
+                  "Kumpulan efek yang memenuhi kriteria syariah",
+                  "Dianggap jaminan keuntungan"
+                ],
+                [
+                  "ISSI / JII",
+                  "Indeks saham syariah dengan metodologi masing-masing",
+                  "Disamakan dengan badan pengawas"
+                ],
+                [
+                  "Saham syariah",
+                  "Bukti penyertaan kepemilikan saham yang sesuai kriteria",
+                  "Dianggap selalu tanpa risiko pasar"
+                ],
+                [
+                  "Sukuk",
+                  "Efek syariah dengan hak sesuai akad dan aset dasar",
+                  "Dianggap obligasi berbunga biasa"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Istilah | Fungsi | Kesalahan umum"
+                }
+              ]
+            },
+            {
               "jenis": "subjudul",
               "teks": "Sukuk: Efek Syariah Berbasis Aset atau Manfaat"
             },
@@ -669,6 +705,12 @@
         "teks": ""
       }
     ],
-    "pesan": ""
+    "pesan": "Keuangan syariah merupakan ekosistem yang memiliki prinsip, akad, produk, dan pengawasan yang khas. Pemahaman yang kuat dimulai dari kemampuan membedakan penitipan, jual beli, kerja sama usaha, sewa manfaat, pemesanan barang, dan pinjaman sesuai karakteristik akad. Penyebutan sebuah produk sebagai “syariah” harus didukung kesesuaian akad, tata kelola, serta pelindungan konsumen.",
+    "tambahan": [
+      {
+        "alasan": "pesan penutup kosong",
+        "isi": "Keuangan syariah merupakan ekosistem yang memiliki prinsip, akad, produk, dan pengawasan yang khas. Pemahaman yang kuat dimulai dari kemampuan membedakan penitipan, jual beli, kerja sama usaha, sewa manfaat, pemesanan barang, dan pinjaman sesuai karakteristik akad. Penyebutan sebuah produk sebagai “syariah” harus didukung kesesuaian akad, tata kelola, serta pelindungan konsumen."
+      }
+    ]
   }
 }

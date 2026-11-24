@@ -121,6 +121,74 @@
               ]
             }
           ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Denah Kompleks SHL",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_pd_room_allocations/gambar-03.png",
+              "lebar": 6.27,
+              "tinggi": 3.35
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Control Room: Dimas dan Raka"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Room A: Arman"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Room B: Sinta"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Briefing Room: Bella"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Corridor: tidak digunakan sebagai ruang penempatan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dimas harus ditempatkan di Control Room karena membutuhkan akses sistem yang tersedia di ruangan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Raka berasal dari departemen yang sama dengan Dimas, yaitu Operations, dan tidak memiliki batasan khusus. Karena peserta dari departemen yang sama diperbolehkan berbagi ruangan, Raka dapat ditempatkan bersama Dimas di Control Room."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sinta tidak dapat ditempatkan di Room A karena ruangan tersebut berbatasan langsung dengan Control Room. Sinta juga tidak dapat berbagi ruangan dengan peserta dari departemen lain. Oleh karena itu, Sinta ditempatkan di Room B."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Arman harus bekerja sendiri di Room A untuk menangani dokumen rahasia. Dengan demikian, Room A hanya ditempati oleh Arman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bella berasal dari departemen Legal dan tidak memiliki batasan khusus. Setelah Control Room digunakan oleh Operations, Room A digunakan Arman, dan Room B digunakan Sinta, tidak ada ruang lain yang tersedia bagi Bella. Sesuai ketentuan, Briefing Room dapat digunakan oleh Legal apabila ruang lainnya tidak tersedia. Oleh karena itu, Bella ditempatkan di Briefing Room."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, susunan akhirnya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dimas dan Raka → Control Room Arman → Room A Sinta → Room B Bella → Briefing Room"
+            }
+          ]
         }
       ]
     }

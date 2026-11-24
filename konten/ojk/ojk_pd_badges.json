@@ -35,9 +35,7 @@
   },
   "pendahuluan": {
     "paragraf": [
-      "Badges adalah tipe soal penalaran numerik yang meminta peserta memasangkan nomor lencana (badge) pada beberapa objek sesuai urutan nilai atau peringkat berdasarkan kriteria tertentu. Objek dapat berupa produk, pekerja, tim, proyek, cabang, atau kelompok lainnya. Data yang diberikan dapat berupa nilai langsung maupun informasi yang harus diolah terlebih dahulu.",
-      "Hal terpenting pada soal Badges bukan sekadar menghitung, melainkan menentukan indikator yang benar, arah urutan, dan hubungan satu-ke-satu antara objek dengan lencana. Lencana 1 tidak otomatis berarti nilai terbesar; maknanya selalu mengikuti instruksi soal.",
-      "Karakteristik utama soal Badges adalah: peserta membandingkan beberapa objek, setiap objek biasanya memperoleh satu lencana, setiap lencana digunakan satu kali ketika seluruh peringkat berbeda, dan urutan baru dapat ditetapkan setelah semua nilai dibandingkan pada dasar yang sama."
+      "Badges adalah tipe soal penalaran numerik yang meminta peserta memasangkan nomor lencana (badge) pada beberapa objek sesuai urutan nilai atau peringkat berdasarkan kriteria tertentu. Objek dapat berupa produk, pekerja, tim, proyek, cabang, atau kelompok lainnya. Data yang diberikan dapat berupa nilai langsung maupun informasi yang harus diolah terlebih dahulu."
     ],
     "pemantik": "",
     "ikon": "presenter"
@@ -149,42 +147,6 @@
                   "Waktu terkecil mendapat lencana 1"
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Kesalahan yang sering terjadi adalah mengurutkan berdasarkan angka pertama yang terlihat. Padahal angka tersebut belum tentu indikator yang diminta."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Lencana angka dipasang sesuai urutan, bukan otomatis berdasarkan besarnya angka yang pertama terlihat."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Misalnya:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$A = 900,$"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "$B = 700$, dan"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "$C = 500$."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Jika diminta laba tertinggi ke terendah, urutannya $A–B–C$. Jika diminta biaya terendah ke tertinggi, urutannya $C–B–A$."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Kunci konsep"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Selalu garis bawahi frasa “paling sedikit”, “tertinggi”, “terendah”, “persentase”, atau “laba bulanan”. Nomor 1 mengikuti definisi yang diberikan dalam pertanyaan."
             }
           ]
         }
@@ -230,18 +192,6 @@
                   "$Nilai baru = nilai awal × faktor perubahan$"
                 ]
               ]
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Gunakan indikator yang sama untuk semua objek. Dua bentuk yang sering digunakan adalah:"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Laba bulanan = jumlah unit terjual per bulan × laba per unit.$"
-            },
-            {
-              "jenis": "sorot",
-              "teks": "$Persentase pencapaian target = (realisasi ÷ target) × 100%.$"
             },
             {
               "jenis": "subjudul",
@@ -353,7 +303,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Jika $A > B$ dan $B > C$, maka $A > B > C$. Namun, jika hanya diketahui $A>B$dan $A>C$, hubungan antara $B$ dan $C$ belum dapat dipastikan. Terdapat tiga kemungkinan, yaitu $B>C$, $B<C$, atau $B=C$. Tetapi jika hanya diketahui $A > B$ serta $A > C$, belum dapat dipastikan apakah $B > C$ atau $C > B$."
+              "teks": "Jika $A > B$ dan $B > C$, maka $A > B > C$. Namun, jika hanya diketahui $A>B$ dan $A>C$, hubungan antara $B$ dan $C$ belum dapat dipastikan. Terdapat tiga kemungkinan, yaitu $B>C$, $B<C$, atau $B=C$. Tetapi jika hanya diketahui $A > B$ serta $A > C$, belum dapat dipastikan apakah $B > C$ atau $C > B$."
             },
             {
               "jenis": "tabel",
@@ -390,19 +340,43 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh"
+              "teks": "Contoh",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Contoh:"
+                }
+              ]
             },
             {
               "jenis": "paragraf",
-              "teks": "$60%$ lebih banyak dari $175 = 175 × 1,60 = 280$;"
+              "teks": "$60%$ lebih banyak dari $175 = 175 × 1,60 = 280$;",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "$60%$ lebih banyak dari $175 = 175 × 1,60 = 280$;"
+                }
+              ]
             },
             {
               "jenis": "paragraf",
-              "teks": "$75%$lebih sedikit dari $140 = 140 × 0,25 = 35$."
+              "teks": "$75%$ lebih sedikit dari $140 = 140 × 0,25 = 35$.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "$75%$ lebih sedikit dari $140 = 140 × 0,25 = 35$."
+                }
+              ]
             },
             {
               "jenis": "paragraf",
-              "teks": "Jika dua nilai sama, cek aturan tambahan di soal. Tanpa aturan pemecah seri, urutan dua objek tersebut belum tentu unik."
+              "teks": "Jika dua nilai sama, cek aturan tambahan di soal. Tanpa aturan pemecah seri, urutan dua objek tersebut belum tentu unik.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Jika dua nilai sama, cek aturan tambahan di soal. Tanpa aturan pemecah seri, urutan dua objek tersebut belum tentu unik."
+                }
+              ]
             }
           ]
         }
@@ -432,7 +406,7 @@
                   "$realisasi/target× 100%$"
                 ],
                 [
-                  "Kenaikan$p%$",
+                  "Kenaikan $p%$",
                   "$nilai baru = nilai awal × (1 + p/100 )$"
                 ],
                 [
@@ -495,18 +469,6 @@
             {
               "jenis": "paragraf",
               "teks": "Setelah semua nilai pembanding diperoleh, urutkan sesuai arah yang diminta, kemudian ubah posisi tersebut menjadi lencana. Untuk nilai yang berdekatan, gunakan nilai asli dan hindari pembulatan terlalu awal."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Urutkan hasil olahan mengikuti arah lencana. Bandingkan angka yang berdekatan secara teliti."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Contoh"
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "$16.625 > 16.500 > 16.250$. Jika dibulatkan terlalu kasar menjadi $16,6; 16,5; 16,3,$urutan masih terlihat, tetapi pada selisih yang lebih kecil pembulatan dapat mengubah peringkat."
             },
             {
               "jenis": "poin",
@@ -707,6 +669,12 @@
                   "Lencana dapat duplikat/terlewat",
                   "Periksa jumlah objek, lencana, arah, dan total"
                 ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Tabel: Kesalahan | Dampak | Perbaikan"
+                }
               ]
             }
           ]

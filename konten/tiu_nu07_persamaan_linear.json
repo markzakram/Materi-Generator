@@ -106,6 +106,68 @@
             {
               "jenis": "paragraf",
               "teks": "Menyelesaikan persamaan berarti mencari nilai yang membuat kedua ruas bernilai sama. Lakukan operasi yang sama pada kedua ruas agar persamaan tetap setara. Jika mengalikan atau membagi kedua ruas, gunakan bilangan selain nol."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: cari nilai x pada 3x + 5 = 20. Kurangi kedua ruas dengan 5 untuk menghilangkan suku tetap dari ruas kiri.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Contoh: cari nilai x pada 3x + 5 = 20. Kurangi kedua ruas dengan 5 untuk menghilangkan suku tetap dari ruas kiri."
+                }
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-02.png",
+              "lebar": 5.81,
+              "tinggi": 1.51,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Angka 5 dikurangkan dari ruas kiri dan ruas kanan.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Angka 5 dikurangkan dari ruas kiri dan ruas kanan."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3x = 15",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "3x = 15"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagi kedua ruas dengan 3 agar x berdiri sendiri.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Bagi kedua ruas dengan 3 agar x berdiri sendiri."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x = 5",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "x = 5"
+                }
+              ]
             }
           ]
         }
@@ -129,7 +191,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu07_persamaan_linear/gambar-02.png",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-03.png",
               "lebar": 1.61,
               "tinggi": 0.47
             },
@@ -143,7 +205,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu07_persamaan_linear/gambar-03.png",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-04.png",
               "lebar": 1.81,
               "tinggi": 0.84
             },
@@ -193,7 +255,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu07_persamaan_linear/gambar-04.png",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-05.png",
               "lebar": 1.54,
               "tinggi": 0.65
             },
@@ -291,7 +353,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu07_persamaan_linear/gambar-05.png",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-06.png",
               "lebar": 1.54,
               "tinggi": 0.65
             },
@@ -321,7 +383,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu07_persamaan_linear/gambar-06.png",
+              "file": "media/tiu_nu07_persamaan_linear/gambar-07.png",
               "lebar": 1.88,
               "tinggi": 1.58
             },

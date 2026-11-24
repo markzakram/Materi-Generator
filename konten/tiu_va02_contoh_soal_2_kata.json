@@ -124,6 +124,26 @@
               "teks": "Ubah pasangan acuan menjadi kalimat pendek. Untuk roda : mobil, gunakan “roda merupakan bagian dari mobil”."
             },
             {
+              "jenis": "sorot",
+              "teks": "roda → mobil • merupakan bagian dari",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "roda → mobil • merupakan bagian dari"
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "mobil → roda • memiliki sebagai bagian",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "mobil → roda • memiliki sebagai bagian"
+                }
+              ]
+            },
+            {
               "jenis": "subjudul",
               "teks": "Langkah 2. Kenali peran kata"
             },
@@ -154,6 +174,16 @@
             {
               "jenis": "paragraf",
               "teks": "Nomori rumpang dari kiri ke kanan. Kata pertama dari opsi masuk ke ①. Kata kedua masuk ke ②."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Opsi ① kata pertama : ② kata kedua",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Opsi ① kata pertama : ② kata kedua"
+                }
+              ]
             },
             {
               "jenis": "subjudul",

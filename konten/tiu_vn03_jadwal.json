@@ -92,6 +92,28 @@
               "file": "media/tiu_vn03_jadwal/gambar-01.png",
               "lebar": 6.08,
               "tinggi": 1.3
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam contoh ini, A memakai Ruang 1 pukul 09.00–10.00 dan B membutuhkan ruang pukul 09.30–10.30. Dengan petugas berbeda, memindahkan B ke Ruang 2 menghilangkan bentrok ruang.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Dalam contoh ini, A memakai Ruang 1 pukul 09.00–10.00 dan B membutuhkan ruang pukul 09.30–10.30. Dengan petugas berbeda, memindahkan B ke Ruang 2 menghilangkan bentrok ruang."
+                }
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vn03_jadwal/gambar-02.png",
+              "lebar": 6.06,
+              "tinggi": 1.44,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
             }
           ]
         }
@@ -111,7 +133,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-02.png",
+              "file": "media/tiu_vn03_jadwal/gambar-03.png",
               "lebar": 6.08,
               "tinggi": 1.3
             },
@@ -121,7 +143,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-03.png",
+              "file": "media/tiu_vn03_jadwal/gambar-04.png",
               "lebar": 6.06,
               "tinggi": 1.18
             }
@@ -151,7 +173,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-04.png",
+              "file": "media/tiu_vn03_jadwal/gambar-05.png",
               "lebar": 6.08,
               "tinggi": 1.91
             }
@@ -177,7 +199,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vn03_jadwal/gambar-05.png",
+              "file": "media/tiu_vn03_jadwal/gambar-06.png",
               "lebar": 6.06,
               "tinggi": 1.18
             }

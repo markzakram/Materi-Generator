@@ -128,6 +128,52 @@
             {
               "jenis": "sorot",
               "teks": "$W=J/K$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh penggunaan rumus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rina menempuh 18 km dalam 1,5 jam. Untuk mencari kecepatannya, tutup K sehingga tersisa J dibagi W.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Rina menempuh 18 km dalam 1,5 jam. Untuk mencari kecepatannya, tutup K sehingga tersisa J dibagi W."
+                }
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-03.png",
+              "lebar": 6.24,
+              "tinggi": 1.69,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=18/1,5$",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "$K=18/1,5$"
+                }
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$K=12 km/jam$",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "$K=12 km/jam$"
+                }
+              ]
             }
           ]
         }
@@ -219,7 +265,7 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-03.png",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-04.png",
               "lebar": 6.24,
               "tinggi": 1.69
             },
@@ -245,7 +291,7 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-04.png",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-05.png",
               "lebar": 6.24,
               "tinggi": 1.69
             },
@@ -255,7 +301,7 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-05.png",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-06.png",
               "lebar": 6.24,
               "tinggi": 1.69
             },
@@ -277,7 +323,7 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-06.png",
+              "file": "media/tiu_nu16_jkw_jarak_kecepatan_dan_waktu/gambar-07.png",
               "lebar": 6.24,
               "tinggi": 1.69
             },

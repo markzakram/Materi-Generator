@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "judul": "Sentence Arrangement",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Sentence Arrangement",
+    "sumber": "https://docs.google.com/document/d/1cKLisgXNI-X-eLtrhIfd_Jx4sf4F-R-UgBXY2H_dCSg/edit",
+    "id_katalog": "bi-05"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam Sentence Arrangement, kamu menyusun lima fragmen acak menjadi satu kalimat utuh. Mulailah dengan mencari potongan yang saling membutuhkan, seperti preposisi dan pelengkapnya atau subjek dan predikatnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menemukan",
+        "teks": "pasangan fragmen, menyusun struktur inti, dan memilih urutan yang membentuk satu kalimat lengkap."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bentuk soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap soal menampilkan lima fragmen berlabel A–E dan empat pilihan urutan berlabel A–D. Huruf pada daftar fragmen menunjukkan potongan kalimat. Huruf pada pilihan jawaban menunjukkan urutan yang dapat dipilih. Misalnya, pilihan B dapat berisi urutan C–A–E–B–D."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan setiap fragmen tepat satu kali. Pertahankan kata yang diberikan dan susun semuanya menjadi satu kalimat. Gunakan kapitalisasi dan tanda baca sebagai petunjuk tambahan, lalu periksa apakah struktur dan maknanya tepat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Review singkat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Review singkat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Cari subjek yang sedang dibicarakan dan predikat yang menyatakan tindakan atau keadaan. Subjek dapat memuat keterangan, seperti stored in the locked cabinet. Predikat dapat membutuhkan pelengkap, seperti for checking setelah is responsible. Jika ada whether, why, atau who, tentukan dahulu bagian kalimat yang diperkenalkan oleh kata itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Subjek: The branch manager | Predikat: is responsible | Pelengkap: for checking the expense records**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tips mengerjakan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tips mengerjakan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Cari pasangan yang sulit dipisahkan. Misalnya, responsible berpasangan dengan for, dan the previous month's membutuhkan noun seperti expense records."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Temukan subjek dan predikat utama. Jika ada klausa atau frasa penjelas, tentukan noun yang diterangkannya sebelum memasangkan subjek dengan predikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Eliminasi opsi yang memisahkan pasangan tetap. Jika satu pilihan menempatkan for checking jauh dari is responsible, periksa bagian yang menyelanya dan gugurkan jika hubungan keduanya terputus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Baca kalimat hasil susunan. Cek apakah semua fragmen sudah terpakai, apakah tiap kata kerja memiliki unsur yang dibutuhkan, dan apakah makna kalimat dapat dipahami."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bentuk soal",
+        "teks": ""
+      },
+      {
+        "judul": "Review singkat",
+        "teks": ""
+      },
+      {
+        "judul": "Tips mengerjakan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Susun pasangan yang paling kuat terlebih dahulu, lalu hubungkan subjek, predikat, dan pelengkap. Sebelum memilih jawaban, baca urutan itu sebagai satu kalimat lengkap."
+  }
+}

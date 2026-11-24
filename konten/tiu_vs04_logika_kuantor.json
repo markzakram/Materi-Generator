@@ -253,6 +253,23 @@
               "keterangan": "Gambar 4. Dua panah “semua” dapat disambung dari P melalui Q ke R."
             },
             {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-05.png",
+              "lebar": 5.89,
+              "tinggi": 3.5,
+              "keterangan": "Gambar 5. Aturan bagi seluruh pegawai lapangan berlaku juga untuk teknisi.",
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                },
+                {
+                  "alasan": "keterangan gambar",
+                  "isi": "Gambar 5. Aturan bagi seluruh pegawai lapangan berlaku juga untuk teknisi."
+                }
+              ]
+            },
+            {
               "jenis": "subjudul",
               "teks": "Semua dan Sebagian pada Kelompok Tengah"
             },
@@ -262,10 +279,27 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-05.png",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-06.png",
               "lebar": 4.97,
               "tinggi": 2.09,
               "keterangan": "Gambar 6. Cabang pada Q membantu menguji kemungkinan. Sebagian Q yang termasuk R belum tentu berasal dari P."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-07.png",
+              "lebar": 5.89,
+              "tinggi": 3.31,
+              "keterangan": "Gambar 7. Orang yang sering berpenyakit bisa berada di luar kelompok orang buncit. Gambar menunjukkan kemungkinan, sementara simpulan pasti memerlukan premis tambahan.",
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                },
+                {
+                  "alasan": "keterangan gambar",
+                  "isi": "Gambar 7. Orang yang sering berpenyakit bisa berada di luar kelompok orang buncit. Gambar menunjukkan kemungkinan, sementara simpulan pasti memerlukan premis tambahan."
+                }
+              ]
             },
             {
               "jenis": "subjudul",
@@ -274,6 +308,40 @@
             {
               "jenis": "paragraf",
               "teks": "Jika semua A termasuk B dan sebagian A termasuk C, sebagian B termasuk C."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-08.png",
+              "lebar": 4.97,
+              "tinggi": 2.09,
+              "keterangan": "Gambar 8. Pada pola kelompok awal, premis “sebagian” memilih anggota P. Diagram cabang saja belum menunjukkan anggota yang sama.",
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                },
+                {
+                  "alasan": "keterangan gambar",
+                  "isi": "Gambar 8. Pada pola kelompok awal, premis “sebagian” memilih anggota P. Diagram cabang saja belum menunjukkan anggota yang sama."
+                }
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-09.png",
+              "lebar": 5.89,
+              "tinggi": 3.31,
+              "keterangan": "Gambar 9. Ikuti peserta klub bahasa yang ikut lomba. Orang tersebut juga siswa aktif. Cabang yang tidak ikut lomba menunjukkan kemungkinan.",
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                },
+                {
+                  "alasan": "keterangan gambar",
+                  "isi": "Gambar 9. Ikuti peserta klub bahasa yang ikut lomba. Orang tersebut juga siswa aktif. Cabang yang tidak ikut lomba menunjukkan kemungkinan."
+                }
+              ]
             },
             {
               "jenis": "subjudul",
@@ -285,10 +353,27 @@
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs04_logika_kuantor/gambar-06.png",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-10.png",
               "lebar": 4.97,
               "tinggi": 2.09,
               "keterangan": "Gambar 10. Cabang pada P dan Q membantu menguji apakah kedua premis membicarakan anggota yang sama."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs04_logika_kuantor/gambar-11.png",
+              "lebar": 5.89,
+              "tinggi": 3.31,
+              "keterangan": "Gambar 11. Relawan yang bekerja sebagai pegawai bisa berbeda dari relawan yang ikut pelatihan. Diagram ini memetakan kemungkinan.",
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                },
+                {
+                  "alasan": "keterangan gambar",
+                  "isi": "Gambar 11. Relawan yang bekerja sebagai pegawai bisa berbeda dari relawan yang ikut pelatihan. Diagram ini memetakan kemungkinan."
+                }
+              ]
             }
           ]
         }

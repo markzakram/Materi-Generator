@@ -205,6 +205,42 @@
               "teks": "Langkah pembagian 18 oleh 7"
             },
             {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Yang dikerjakan",
+                "Yang ditulis"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Cari kelipatan 7 terbesar yang tidak melebihi 18.",
+                  "Tulis 2 di atas garis."
+                ],
+                [
+                  "2",
+                  "Kalikan hasil bagi dengan pembagi.",
+                  "$2 × 7 = 14$"
+                ],
+                [
+                  "3",
+                  "Kurangkan 14 dari 18.",
+                  "$18 - 14 = 4$"
+                ],
+                [
+                  "4",
+                  "Susun hasil sebagai pecahan campuran.",
+                  "2 di depan, 4 di atas garis, dan 7 di bawah garis."
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Langkah | Yang dikerjakan | Yang ditulis"
+                }
+              ]
+            },
+            {
               "jenis": "paragraf",
               "teks": "Maka"
             },
@@ -237,6 +273,42 @@
             {
               "jenis": "subjudul",
               "teks": "Langkah pembagian 23 oleh 4"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Yang dikerjakan",
+                "Yang ditulis"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Bagi 23 dengan 4. Kurangkan 20 dari 23.",
+                  "Tulis 5. Sisanya 3."
+                ],
+                [
+                  "2",
+                  "Tulis koma, lalu turunkan 0 agar sisa 3 menjadi 30.",
+                  "Tulis 7. Sisanya 2."
+                ],
+                [
+                  "3",
+                  "Turunkan 0 lagi agar sisa 2 menjadi 20.",
+                  "Tulis 5. Sisanya 0."
+                ],
+                [
+                  "4",
+                  "Berhenti saat sisanya 0.",
+                  "$23/4 = 5,75$"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Langkah | Yang dikerjakan | Yang ditulis"
+                }
+              ]
             },
             {
               "jenis": "paragraf",

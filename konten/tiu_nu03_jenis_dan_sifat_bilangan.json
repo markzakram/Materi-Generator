@@ -114,10 +114,6 @@
               "tinggi": 1.22
             },
             {
-              "jenis": "subjudul",
-              "teks": ""
-            },
-            {
               "jenis": "paragraf",
               "teks": "Nilai tempat pada bilangan 215."
             }
@@ -248,6 +244,56 @@
             {
               "jenis": "paragraf",
               "teks": "Hubungan kelompok bilangan. Kotak di dalam kotak berarti semua anggotanya juga termasuk kelompok yang mengelilinginya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ringkasan kelompok bilangan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kelompok",
+                "Cara mengenali",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Asli",
+                  "Bilangan bulat mulai dari 1",
+                  "1, 2, 3, …"
+                ],
+                [
+                  "Cacah",
+                  "Bilangan asli dan nol",
+                  "0, 1, 2, 3, …"
+                ],
+                [
+                  "Bulat",
+                  "Bilangan tanpa bagian pecahan, termasuk negatif dan nol",
+                  "…, −2, −1, 0, 1, 2, …"
+                ],
+                [
+                  "Rasional",
+                  "Dapat ditulis sebagai pecahan dua bilangan bulat dengan penyebut bukan nol",
+                  "−0,75, 0,25, 5"
+                ],
+                [
+                  "Irasional",
+                  "Tidak dapat ditulis sebagai pecahan dua bilangan bulat",
+                  "√2, π"
+                ],
+                [
+                  "Real",
+                  "Mencakup bilangan rasional dan irasional",
+                  "−3, 0,5, √2"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel ringkasan subbab",
+                  "isi": "Tabel: Kelompok | Cara mengenali | Contoh"
+                }
+              ]
             }
           ]
         }

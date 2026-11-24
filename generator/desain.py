@@ -8,6 +8,7 @@ Poppins tidak punya glyph seperti → ∨ ∧ ≡.
 
 Markup teks kaya yang didukung di naskah:
   **tebal**     -> Poppins Bold
+  <i>miring</i> -> Poppins miring; <s>coret</s> -> coretan merah; <r>merah</r> -> teks merah
   $p → q$       -> Cambria Math (tidak dipotong saat pindah baris)
 """
 from __future__ import annotations
@@ -224,10 +225,30 @@ def _segmen_rumus(isi, warna=None):
     return keluar
 
 
+class Tebal(int):
+    """Nilai 'tebal' sebuah segmen (0/1) yang sekaligus membawa cetak miring dan coretan."""
+
+    miring = coret = False
+
+
+def _gaya(tebal, miring, coret=False):
+    if not miring and not coret:
+        return tebal
+    g = Tebal(bool(tebal))
+    g.miring, g.coret = miring, coret
+    return g
+
+
+def polos(teks: str) -> str:
+    """Teks tanpa penanda markup (tebal, miring, rumus)."""
+    return re.sub(r"\*\*|</?[isr]>|\$", "", teks)
+
+
 def segmen(teks: str, tebal=False, warna=None):
     """Ubah markup menjadi daftar segmen (teks, tebal, rumus, warna).
 
     rumus: False, True (Cambria Math), atau "sup"/"sub" untuk pangkat dan indeks di dalam $..$.
+    tebal: bool, atau Tebal dengan .miring (cetak miring) dan .coret (coretan).
     """
     keluar = []
     for bagian in re.split(r"(\$[^$]+\$)", teks):
@@ -237,21 +258,29 @@ def segmen(teks: str, tebal=False, warna=None):
             keluar.extend(_segmen_rumus(bagian[1:-1], warna))
             continue
         bagian = kutip_lengkung(bagian)
-        for i, potong in enumerate(re.split(r"\*\*", bagian)):
+        b_kini, nyala = False, {"i": False, "s": False, "r": False}
+        for potong in re.split(r"(\*\*|</?[isr]>)", bagian):
+            if potong == "**":
+                b_kini = not b_kini
+                continue
+            if re.fullmatch(r"</?[isr]>", potong):
+                nyala[potong[-2]] = potong[1] != "/"
+                continue
             if not potong:
                 continue
-            b = tebal or (i % 2 == 1)
+            b, miring, coret = tebal or b_kini, nyala["i"], nyala["s"]
+            w = "FF0000" if coret or nyala["r"] else warna
             # karakter yang tak ada di Poppins dialihkan ke Cambria Math
             buf, buf_rumus = "", False
             for ch in potong:
                 r = not ada_glyph_poppins(ch)
                 if buf and r != buf_rumus:
-                    keluar.append((buf, b and not buf_rumus, buf_rumus, warna))
+                    keluar.append((buf, _gaya(b and not buf_rumus, miring, coret), buf_rumus, w))
                     buf = ""
                 buf += ch
                 buf_rumus = r
             if buf:
-                keluar.append((buf, b and not buf_rumus, buf_rumus, warna))
+                keluar.append((buf, _gaya(b and not buf_rumus, miring, coret), buf_rumus, w))
     return keluar
 
 
@@ -395,6 +424,10 @@ def isi_teks(tf, paragraf, inset=(0, 0, 0, 0), jangkar="t"):
             f = r.font
             f.size = Pt(ukuran_run(spec.ukuran, rumus, campur))
             f.bold = bool(tebal)
+            if getattr(tebal, "miring", False):
+                f.italic = True
+            if getattr(tebal, "coret", False):
+                r._r.get_or_add_rPr().set("strike", "sngStrike")
             f.name = FONT_RUMUS if rumus else FONT
             if rumus in ("sup", "sub"):
                 r._r.get_or_add_rPr().set("baseline", "30000" if rumus == "sup" else "-25000")
@@ -715,17 +748,36 @@ def _siapkan_tabel(kolom, baris, lebar, ukuran, w, tengah, sorot, kebenaran, tin
     n = len(kolom) if kolom else max(len(b) for b in baris)
     if not lebar:  # lebar kolom mengikuti panjang isi terpanjang
         semua = ([kolom] if kolom else []) + [list(b) + [""] * (n - len(b)) for b in baris]
-        panjang = [max(len(re.sub(r"\*\*|\$", "", r[j])) for r in semua) for j in range(n)]
+        panjang = [max(len(polos(r[j])) for r in semua) for j in range(n)]
         lebar = [min(42, max(6, p)) for p in panjang]
     rasio = lebar
     lebar_kol = [w * r / sum(rasio) for r in rasio]
     inset = (0.22, 0.12, 0.22, 0.12)
     rata = "c" if tengah else "l"
+    if not kebenaran:  # kolom tidak lebih sempit dari kata terpanjangnya (kata tidak terpotong di tengah)
+        def kata_terlebar(j):
+            kata = [(x, max(14, ukuran - 2), True) for x in polos(kolom[j]).split()] if kolom else []
+            kata += [(x, ukuran, "**" in b[j]) for b in baris if j < len(b) and "$" not in b[j] for x in polos(b[j]).split()]
+            return max((lebar_pt(x, u, t) for x, u, t in kata), default=0) / 72 + inset[0] + inset[2] + 0.05
+
+        minimal = [min(kata_terlebar(j), w * 0.45) for j in range(n)]
+        if sum(minimal) < w:
+            for _ in range(n):
+                kurang = [j for j in range(n) if lebar_kol[j] < minimal[j] - 1e-6]
+                if not kurang:
+                    break
+                longgar = [j for j in range(n) if lebar_kol[j] > minimal[j]]
+                butuh = sum(minimal[j] - lebar_kol[j] for j in kurang)
+                sisa = sum(lebar_kol[j] - minimal[j] for j in longgar)
+                for j in kurang:
+                    lebar_kol[j] = minimal[j]
+                for j in longgar:
+                    lebar_kol[j] -= butuh * (lebar_kol[j] - minimal[j]) / sisa
 
     def spes(isi, header=False, r=None, c=None):
         rumus_saja = bool(re.fullmatch(r"\$[^$]+\$", isi.strip()))
         if header:
-            return P(isi.replace("**", ""), max(14, ukuran - 2), "putih", tebal=True, rata=rata, spasi=1.25)
+            return P(re.sub(r"\*\*|</?[isr]>", "", isi), max(14, ukuran - 2), "putih", tebal=True, rata=rata, spasi=1.25)
         if kebenaran:
             terang = sorot and [r, c] == list(sorot)
             return P(isi, ukuran + 4, "navy" if isi == "B" else "teks", tebal=(isi == "B" or terang),
@@ -1007,7 +1059,9 @@ JARAK_BLOK = 0.2
 
 
 def _gaya_paragraf(gaya):
-    return (20, "navy") if gaya == "soal" else (19, "teks")
+    if (gaya or "").startswith("soal"):  # 'soal' atau 'soal:17' (ukuran diperkecil untuk bacaan panjang)
+        return int(gaya.partition(":")[2] or 20), "navy"
+    return 19, "teks"
 
 
 def _par_blok(b, gaya=None):
@@ -1143,7 +1197,7 @@ def gambar_blok(slide, b, x, y, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0)
 
 def _opsi_mendatar(opsi, w, ukuran):
     """Semua opsi pendek, dan kata terpanjangnya muat di kartu (kalau tidak, kata terpotong di tengah)."""
-    isi = [v.replace("**", "").replace("$", "") for v in opsi.values()]
+    isi = [polos(v) for v in opsi.values()]
     if not 2 <= len(isi) <= 5 or any(len(v) > 26 for v in isi):
         return False
     muat = ((w - 0.2 * (len(isi) - 1)) / len(isi) - 0.95) * 72

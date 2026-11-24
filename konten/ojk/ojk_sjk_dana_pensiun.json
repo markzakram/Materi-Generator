@@ -252,6 +252,32 @@
               "teks": "Tingkat 1 – Jenis lembaga menjawab siapa yang membentuk dana pensiun: DPPK dibentuk pemberi kerja, sedangkan DPLK dibentuk lembaga jasa keuangan yang memenuhi persyaratan. Tingkat 2 – Jenis program menjawab apa yang ditetapkan: PPMP menetapkan rumus manfaat, sedangkan PPIP menetapkan iuran. Dengan demikian, DPPK/DPLK dan PPMP/PPIP bukan empat kategori yang sejajar."
             },
             {
+              "jenis": "tabel",
+              "kolom": [
+                "Tingkat 1: lembaga",
+                "Tingkat 2: program yang dapat diselenggarakan",
+                "Contoh pemahaman"
+              ],
+              "baris": [
+                [
+                  "DPPK — dibentuk pemberi kerja",
+                  "PPMP dan/atau PPIP sesuai ketentuan, dengan pengelolaan setiap program secara terpisah.",
+                  "Dana pensiun perusahaan dapat mengelola program manfaat pasti dan/atau iuran pasti bagi karyawannya."
+                ],
+                [
+                  "DPLK — dibentuk lembaga jasa keuangan yang diizinkan",
+                  "PPIP sesuai ketentuan.",
+                  "Pekerja mandiri mengikuti program iuran pasti yang ditawarkan DPLK."
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Tingkat 1: lembaga | Tingkat 2: program yang dapat diselenggarakan | Contoh pemahaman"
+                }
+              ]
+            },
+            {
               "jenis": "paragraf",
               "teks": "Cara membaca peta: tanyakan terlebih dahulu siapa pendiri/pengelolanya (DPPK atau DPLK), lalu tanyakan bagaimana manfaat atau iuran ditetapkan (PPMP atau PPIP)."
             }
@@ -632,6 +658,12 @@
         "teks": ""
       }
     ],
-    "pesan": ""
+    "pesan": "Pesan utama: identifikasi dulu siapa penyelenggara programnya, jenis programnya, sumber iurannya, kapan syarat manfaat terpenuhi, lalu periksa aturan pembayaran. Urutan berpikir ini lebih kuat dibanding hanya menghafal definisi.",
+    "tambahan": [
+      {
+        "alasan": "pesan penutup kosong",
+        "isi": "Pesan utama: identifikasi dulu siapa penyelenggara programnya, jenis programnya, sumber iurannya, kapan syarat manfaat terpenuhi, lalu periksa aturan pembayaran. Urutan berpikir ini lebih kuat dibanding hanya menghafal definisi."
+      }
+    ]
   }
 }

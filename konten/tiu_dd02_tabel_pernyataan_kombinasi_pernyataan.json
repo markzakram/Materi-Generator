@@ -203,6 +203,16 @@
             {
               "jenis": "paragraf",
               "teks": "Total diperoleh dengan menjumlahkan semua bagian yang termasuk dalam cakupan pernyataan. Selisih menunjukkan perbedaan dua nilai; untuk kenaikan, kurangi nilai akhir dengan nilai awal."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total=bagian pertama+bagian kedua$",
+              "tambahan": [
+                {
+                  "alasan": "rumus di bawah kalimat wajib",
+                  "isi": "$Total=bagian pertama+bagian kedua$"
+                }
+              ]
             }
           ]
         },

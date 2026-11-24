@@ -62,6 +62,17 @@
         "level": "",
         "kko": "Membedakan",
         "teks": "Modus Ponens, Modus Tollens, Silogisme Kondisional, dan dua pola Tidak Dapat Disimpulkan."
+      },
+      {
+        "level": "",
+        "kko": "Menarik",
+        "teks": "kesimpulan yang pasti dari dua premis sambil mempertahankan kata “tidak” dan rincian penting dalam kalimat."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "butir daftar yang bolong",
+        "isi": "Menarik kesimpulan yang pasti dari dua premis sambil mempertahankan kata “tidak” dan rincian penting dalam kalimat."
       }
     ]
   },
@@ -85,10 +96,6 @@
             {
               "jenis": "paragraf",
               "teks": "Huruf p, q, dan r mewakili pernyataan yang berbeda. Tanda ¬ dibaca “tidak”. TDS berarti informasi yang ditanyakan belum dapat dipastikan."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": ""
             },
             {
               "jenis": "tabel",
@@ -229,6 +236,18 @@
             {
               "jenis": "paragraf",
               "teks": "**Kesimpulan:** Tidak dapat disimpulkan apakah p benar."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/tiu_vs02_logika_kondisional/gambar-02.png",
+              "lebar": 5.9,
+              "tinggi": 1.94,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
             },
             {
               "jenis": "subjudul",

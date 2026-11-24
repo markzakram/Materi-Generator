@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "judul": "Reading Comprehension",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Reading Comprehension",
+    "sumber": "https://canva.link/m2bvtv9wt2fmo82",
+    "id_katalog": "bi-06",
+    "lewati_kosong": true
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Mindset",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Asumsi umum yang sering keliru",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "“Harus paham semua kata.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yang penting fungsi paragraf, ide utama, dan bukti pendukung. Kosakata bisa diatasi dengan context clue."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "“Selalu baca dari awal sampai akhir secara detail.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pakai skimming—mapping dulu, lalu scanning sesuai pertanyaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "“Jawaban terbaik = kalimat yang paling ‘puitis’.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di TOEFL, jawaban terbaik adalah yang paling tepat, spesifik, dan terikat teks (evidence-based)."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Vocabulary in Context",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Vocabulary in Context adalah tipe soal yang meminta peserta menentukan arti suatu kata atau frasa berdasarkan konteks kalimat atau paragraf tempat kata tersebut digunakan. Satu kata dalam bahasa Inggris dapat memiliki beberapa arti. Karena itu, arti yang benar harus ditentukan dari hubungannya dengan kata, kalimat, dan ide di sekitarnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya: <i>“issue”</i>. Bisa berarti:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "masalah;",
+                "edisi;",
+                "menerbitkan;",
+                "mengeluarkan secara resmi."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: <i>The government issued a new regulation.</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di sini: issued = officially released. Bukan: problem."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Tips Cepat Vocabulary in Context",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Question stem yang umum antara lain:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "The word “___” in the passage is closest in meaning to...",
+                "The word “___” could best be replaced by...",
+                "The phrase “___” is closest in meaning to...",
+                "As used in the passage, the word “___” means..."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata pentingnya adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "in the passage",
+                "as used in the passage"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, kita harus menentukan contextual meaning, bukan mengambil arti pertama dari kamus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Anatomi Teks",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Anatomi Teks",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Kalimat topik (topic sentence):** sering di awal paragraf, tapi tidak selalu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Peran paragraf:** pengenalan topik / definisi / contoh / sebab–akibat / perbandingan / bantahan / kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Sinyal wacana (discourse markers):** however, therefore, for example, in contrast, similarly, as a result, in addition, on the other hand, despite, whereas, notably, crucially."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Teknik mapping cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca judul (jika ada) dan 2–3 kalimat awal paragraf 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tandai marker kontrastif (however, although) dan sebab–akibat (because, therefore)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Catat kata kunci tiap paragraf (2–5 kata), bukan kalimat panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Buat outline 1 baris/paragraf: P1 (definisi/isu), P2 (evidence), P3 (kontra), P4 (kesimpulan), dsb."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Keluarga Soal dan Strategi Jawab",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Main Idea",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "**e.g.:** “What is the main idea of the passage?” or “Which sentence best states the passage’s main idea?”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi menjawab"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Skim topic sentence tiap paragraf",
+                "Perhatikan kata-kata yang sering diulang.",
+                "Cari kata penghubung (however/therefore/for example)."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "however, whereas, on the other hand → Contrast pattern → Comparison/Contrast"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "because, therefore, thus → Cause–Effect → Expository/Analytical"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "first/next/finally; initially/subsequently → Sequence/Process → Process/Procedure"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "in conclusion/overall → Conclusion"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Jangan gegabah!",
+              "teks": "Discourse markers memang bisa membantu, tapi jangan kamu jadikan satu-satunya penentu! Tetap perlu dikonfirmasi lewat tujuan penulis, pola paragraf, dan bukti."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Factual vs Negative Factual Information",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Factual Information",
+                "Negative Factual Information"
+              ],
+              "baris": [
+                [
+                  "Cari informasi yang benar/disebutkan",
+                  "Cari informasi yang tidak benar/tidak disebutkan"
+                ],
+                [
+                  "Biasanya 1 benar + 3 salah",
+                  "Biasanya 3 benar + 1 salah"
+                ],
+                [
+                  "Fokus satu fakta",
+                  "Harus memverifikasi beberapa fakta"
+                ],
+                [
+                  "Bisa selesai setelah menemukan jawaban",
+                  "Biasanya perlu memeriksa semua opsi"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh pertanyaan untuk factual information"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "According to the passage, ...",
+                "According to paragraph X, ...",
+                "Which of the following is true about...?",
+                "What does the author say about...?"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh pertanyaan untuk negative factual information"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "All of the following are mentioned in the passage EXCEPT...",
+                "According to the passage, all of the following are true EXCEPT...",
+                "Which of the following is NOT mentioned...?",
+                "Which of the following is NOT true according to the passage?"
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Factual dan Negative Factual",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Identifikasi kata kunci"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cari kata yang paling mudah dilacak. Misalnya: <i>According to the passage, why did the researchers repeat the experiment in 2018?</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kunci: researchers, experiment, 2018"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cari parafrasa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan mencari opsi dengan kata paling banyak sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "CHECK 3 → FIND 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya: Tiga opsi harus bisa dibuktikan dari teks. Satu opsi tidak memiliki bukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tips cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada Factual dan Negative Factual, waspadai kata absolut: all, only, completely, always, never."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika passage hanya mengatakan: may, often, some, generally, lalu opsi mengubahnya menjadi: always, all, must, **biasanya salah**."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Rhetorical Purpose",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "This type of question requires you to understand why the author has included a piece of information. Because the answer to this question is not directly stated in the reading passage, you need to understand the main point of the paragraph and how the referenced information is related to the main point of the paragraph in order to solve this type of question."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**e.g.:** “Why does the author mention (X)?” or “What is the author’s purpose in mentioning…”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi menjawab: pahami tujuan teks"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "to describe/to show (descriptive text)",
+                "to explain/to illustrate (explanatory text/procedure text)",
+                "to support/to refute/to oppose (argumentative text)",
+                "to retell (recount text)",
+                "to contrast/to compare (comparative text)",
+                "to inform (news item text)"
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Detail Question",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Detail questions ask you about information that’s specifically stated in a small part of the passage. They generally focus on the “who,” “what,” “when,” “where,” and “why” as explained by the author."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**e.g.:** “According to the passage”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi menjawab"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Ambil kata kunci unik → scan lokasi (baris/kalimat)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Baca 1–2 kalimat sebelum–sesudah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Parafrase tanpa mengubah makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Eliminasi:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Menambah info baru",
+                "Mengganti kuantifier (some→most)",
+                "Mengambil kata sama, makna beda (keyword trap)"
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Trik",
+              "teks": "garis bawahi **angka, nama, istilah teknis**—itu “jangkar” scanning."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Inference Question",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "An inference question requires you to make logical assumptions and connections by using the information in the passage to come up with a new conclusion."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**e.g.:** “Which of the following can be inferred from the paragraph about…” or “It can be inferred from the text that…”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi menjawab"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Jawab berdasarkan bukti dalam teks, bukan asumsi pribadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Identifikasi kata kunci pada pertanyaan (imply/suggest/infer)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Find Context Clues"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Tarik kesimpulan logis. Contoh:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Dalam teks: ‘The harsh winters in the northern region often lead to a higher incidence of seasonal depression’",
+                "Kita bisa simpulkan: ‘people have lower rates of depression in summer’"
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Vocabulary in Context Question",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "test your ability to understand the meaning of a word or phrase as it is used in the context of the passage."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**e.g.:** “The word ‘band’ in the paragraph 3 is closest meaning to…”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi menjawab"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca kalimat sebelum dan sesudah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Hati-hati akan homograf!"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Look for opposites or mismatched positive/negative meanings."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Reference Question",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "You are asked what the highlighted word refers to. If it's a pronoun then you need to identify what word the pronoun is replacing."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**e.g.:** “The author’s tone toward road diets is best described as...”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi menjawab"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca kalimat sebelumnya untuk menentukan subjek utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Hubungkan kata ganti dengan kata benda yang diwakilinya."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Subject pronoun: it, they",
+                "Object pronoun: it, them",
+                "Demonstrative pronoun: these, those, this, that",
+                "Possessive adjectives: its, their",
+                "Other reference words: the former, the latter, one, ones, another, other, others"
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Author’s Attitude Question",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sikap penulis terhadap topik/claim: positif, negatif, netral-kritis, hati-hati, skeptis, antusias, dsb. Sikap penulis yang terpantul dari pilihan kata dan cara menyusun argumen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**e.g.:** “What best describes the author’s attitude toward the prototype?”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi menjawab"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Cari kalimat yang menyatakan penilaian (biasanya awal/akhir paragraf, atau sebelum/setelah “however/although/nevertheless”)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tandai kata evaluatif (positive/negative), modalitas (may, might, likely), intensifier (crucial, severely), hedge (somewhat, arguably)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Mindset",
+        "teks": ""
+      },
+      {
+        "judul": "Anatomi Teks",
+        "teks": ""
+      },
+      {
+        "judul": "Keluarga Soal dan Strategi Jawab",
+        "teks": ""
+      }
+    ],
+    "pesan": ""
+  }
+}

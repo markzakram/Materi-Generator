@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "judul": "Sentence Improvement",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Sentence Improvement",
+    "sumber": "https://docs.google.com/document/d/1bwabJQeM27UHVNn9zB6wqBgdINJnlCHL3cLc1-EJkds/edit",
+    "id_katalog": "bi-03"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam Sentence Improvement, kamu membaca satu kalimat lengkap dan menilai bagian yang dicetak miring. Pilih pengganti yang membuat seluruh kalimat benar sambil mempertahankan maksudnya. Jika bagian yang ditandai sudah tepat, pilih E."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "batas bagian yang diganti, mengenali petunjuk grammar di sekitarnya, dan menguji pilihan dalam kalimat lengkap."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "kapan opsi E layak dipilih."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bentuk soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk soal",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu kalimat berisi satu bagian sasaran yang berurutan dan dicetak miring. Opsi A–D masing-masing merupakan pengganti untuk bagian itu. Opsi E selalu berbunyi “no improvement needed”. Gunakan satu jawaban."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pertahankan kata di kiri dan kanan bagian miring."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "↓ Ganti hanya bagian miring."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "↓ Baca ulang seluruh kalimat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Review singkat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Review singkat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pola yang teramati pada contoh riset menguji gerund setelah to yang berfungsi sebagai preposisi. Pada look forward to, object to, dan be accustomed to, kegiatan setelah to menggunakan bentuk V-ing. Pada plan to atau decide to, to adalah penanda infinitive sehingga diikuti V1."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_bi_sentence_improvement/gambar-01.png",
+              "lebar": 6.24,
+              "tinggi": 1.68,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Perbandingan to sebagai preposisi dan penanda infinitive</i>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tips mengerjakan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tips mengerjakan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca kalimat awal sampai selesai. Tentukan batas sasaran dan perhatikan kata di kiri serta kanannya. Kata yang menentukan bentuk sering berada di luar bagian yang dicetak miring."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tentukan bentuk yang dibutuhkan sebelum membaca opsi. Misalnya, cari V-ing setelah preposisi atau cari V3 setelah has dalam present perfect."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Ganti bagian miring dengan opsi secara utuh. Periksa apakah ada kata yang menjadi rangkap, apakah bentuknya cocok dengan kata di sekitarnya, dan apakah maksud kalimat tetap sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Gunakan E jika bentuk awal sudah benar secara struktur dan makna. Gaya penulisan yang berbeda saja belum menjadi alasan untuk menggantinya."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bentuk soal",
+        "teks": ""
+      },
+      {
+        "judul": "Review singkat",
+        "teks": ""
+      },
+      {
+        "judul": "Tips mengerjakan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Dalam setiap soal, pertahankan bagian di luar teks miring. Gunakan petunjuk di sekitarnya untuk memprediksi bentuk yang diperlukan. Setelah memasukkan opsi, periksa kembali tata bahasa dan maksud kalimat. Pilih E ketika kalimat awal sudah memenuhi kedua kriteria tersebut."
+  }
+}

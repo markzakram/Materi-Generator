@@ -4,7 +4,6 @@
     "subtes": "Tes Kemampuan Umum",
     "nama_file": "OJK TKU - Bulion",
     "sumber": "https://docs.google.com/document/d/1zXdx7-eSNG_fRF6KVEhbmI1S8rrAnEWh/edit",
-    "lewati_kosong": true,
     "id_katalog": "sjk-14"
   },
   "peta_subtes": {
@@ -43,7 +42,82 @@
   },
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
-    "butir": []
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mendefinisikan",
+        "teks": "bulion dan menyebutkan empat kegiatan usaha utamanya."
+      },
+      {
+        "level": "",
+        "kko": "Menerangkan",
+        "teks": "alasan emas untuk kegiatan usaha bulion harus memenuhi syarat bentuk, kadar, dan standar tertentu."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "hak penggunaan emas pada Simpanan Emas dan Penitipan Emas."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "pembiayaan emas dengan kewajiban pengembalian dalam bentuk emas (gold-to-gold)."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "batas minimum transaksi perdagangan bulion dan hubungan antara pemasaran daring dengan penyerahan fisik."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "kewajiban perizinan, tata kelola, pengawasan, dan transparansi informasi kepada nasabah."
+      },
+      {
+        "level": "",
+        "kko": "Membandingkan",
+        "teks": "bulion dengan gadai emas, investasi emas ritel, dan ETF emas."
+      },
+      {
+        "level": "",
+        "kko": "Menjawab",
+        "teks": "soal berdasarkan kata kunci, bukti regulasi, dan kondisi spesifik dalam kasus."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Mendefinisikan bulion dan menyebutkan empat kegiatan usaha utamanya."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menerangkan alasan emas untuk kegiatan usaha bulion harus memenuhi syarat bentuk, kadar, dan standar tertentu."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Membedakan hak penggunaan emas pada Simpanan Emas dan Penitipan Emas."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Mengidentifikasi pembiayaan emas dengan kewajiban pengembalian dalam bentuk emas (gold-to-gold)."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menjelaskan batas minimum transaksi perdagangan bulion dan hubungan antara pemasaran daring dengan penyerahan fisik."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Mengenali kewajiban perizinan, tata kelola, pengawasan, dan transparansi informasi kepada nasabah."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Membandingkan bulion dengan gadai emas, investasi emas ritel, dan ETF emas."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menjawab soal berdasarkan kata kunci, bukti regulasi, dan kondisi spesifik dalam kasus."
+      }
+    ]
   },
   "materi": [
     {
@@ -414,6 +488,12 @@
         "teks": ""
       }
     ],
-    "pesan": ""
+    "pesan": "Kegiatan usaha bulion merupakan pengelolaan dan pelayanan keuangan terkait emas yang berada di dalam kerangka pengaturan OJK. Empat kegiatan pokoknya adalah Simpanan Emas, Pembiayaan Emas, Perdagangan Emas, dan Penitipan Emas. Meskipun semuanya melibatkan emas, masing-masing memiliki tujuan, hak penggunaan emas, risiko, dan kewajiban yang tidak sama.",
+    "tambahan": [
+      {
+        "alasan": "pesan penutup kosong",
+        "isi": "Kegiatan usaha bulion merupakan pengelolaan dan pelayanan keuangan terkait emas yang berada di dalam kerangka pengaturan OJK. Empat kegiatan pokoknya adalah Simpanan Emas, Pembiayaan Emas, Perdagangan Emas, dan Penitipan Emas. Meskipun semuanya melibatkan emas, masing-masing memiliki tujuan, hak penggunaan emas, risiko, dan kewajiban yang tidak sama."
+      }
+    ]
   }
 }

@@ -278,6 +278,57 @@
                 "Jangan menambah tujuan yang tidak diminta, misalnya memilih jumlah kendaraan paling sedikit ketika pertanyaannya hanya tentang biaya.",
                 "Jika dua pilihan memenuhi ketentuan, gunakan tujuan pertanyaan untuk membandingkan keduanya; jangan langsung memilih yang diperiksa lebih dahulu."
               ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: bus A berkapasitas 10 kursi dengan biaya Rp80.000, sedangkan bus B berkapasitas 18 kursi dengan biaya Rp126.000. Untuk 20 peserta, perbandingannya sebagai berikut.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Contoh: bus A berkapasitas 10 kursi dengan biaya Rp80.000, sedangkan bus B berkapasitas 18 kursi dengan biaya Rp126.000. Untuk 20 peserta, perbandingannya sebagai berikut."
+                }
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kombinasi",
+                "Kursi",
+                "Biaya total"
+              ],
+              "baris": [
+                [
+                  "2 bus A",
+                  "20",
+                  "Rp160.000"
+                ],
+                [
+                  "1 bus A dan 1 bus B",
+                  "28",
+                  "Rp206.000"
+                ],
+                [
+                  "2 bus B",
+                  "36",
+                  "Rp252.000"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Kombinasi | Kursi | Biaya total"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bus B lebih murah jika dihitung per kursi, tetapi dua bus A memberi biaya total lebih rendah untuk kebutuhan 20 peserta. Satu bus B belum cukup, sehingga harus ada unit tambahan. Selisih kapasitas dan jumlah unit inilah yang membuat hitungan total tetap diperlukan.",
+              "tambahan": [
+                {
+                  "alasan": "contoh yang melengkapi gambar/tabel",
+                  "isi": "Bus B lebih murah jika dihitung per kursi, tetapi dua bus A memberi biaya total lebih rendah untuk kebutuhan 20 peserta. Satu bus B belum cukup, sehingga harus ada unit tambahan. Selisih kapasitas dan jumlah unit inilah yang membuat hitungan total tetap diperlukan."
+                }
+              ]
             }
           ]
         }

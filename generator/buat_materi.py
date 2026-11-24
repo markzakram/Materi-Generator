@@ -19,6 +19,7 @@ import sys
 import tempfile
 
 from lxml import etree
+from PIL import Image
 from pptx import Presentation
 from pptx.opc.constants import RELATIONSHIP_TYPE as RT
 from pptx.oxml.ns import qn
@@ -251,15 +252,24 @@ class Pembangun:
     def pendahuluan(self):
         p, m = self.k["pendahuluan"], self.k["meta"]
         if self.general:
-            s = self.baru("Pendahuluan", hias=False, bingkai=True)
-            self.cek_batas(D._KAIT.pendahuluan(s, p.get("paragraf", []), p.get("pemantik")), "Pendahuluan")
+            gambar = None
+            if p.get("gambar") and os.path.exists(os.path.join(self.folder, p["gambar"])):
+                with Image.open(os.path.join(self.folder, p["gambar"])) as im:
+                    gambar = {"jenis": "gambar", "file": p["gambar"], "lebar": 6.0, "tinggi": 6.0 * im.height / im.width}
+                if p.get("keterangan"):
+                    gambar["keterangan"] = p["keterangan"]
+            par, pemantik = p.get("paragraf", []), p.get("pemantik")
+            muat = gambar and D._KAIT.tinggi_gambar_pendahuluan(par, pemantik, gambar, self.folder)
+            for isi in ([(par, pemantik, gambar)] if muat or not gambar else [(par, pemantik, None), ([], None, gambar)]):
+                s = self.baru("Pendahuluan", hias=False, bingkai=True)
+                self.cek_batas(D._KAIT.pendahuluan(s, *isi, folder=self.folder), "Pendahuluan")
             return
         s = self.baru("Pendahuluan")
         y = D.kerangka_isi(s, "Pendahuluan", p.get("ikon_chip", "globe"), p.get("judul") or f"Mengenal {m['judul']}")
         w_panel = 5.6
         x_panel = D.KANAN - w_panel
         w = x_panel - 0.5 - D.KIRI
-        par = [P(t, 20, "teks", spasi=1.45, setelah=14) for t in p["paragraf"]]
+        par = [P(t, 20, "teks", spasi=1.45, setelah=14) for t in p["paragraf"] + ([p["keterangan"]] if p.get("keterangan") else [])]
         h = D.tinggi_paragraf(par, w)
         D.teks(s, D.KIRI, y, w, h, par, nama="Paragraf pendahuluan")
         h_panel = max(4.0, min(h, 4.8))
@@ -339,7 +349,7 @@ class Pembangun:
         s, y = buat_slide(False, None)
         kosong = True
         w = D.LEBAR_ISI
-        jarak = 0.1 if gaya == "soal" else D.JARAK_BLOK
+        jarak = 0.1 if (gaya or "").startswith("soal") else D.JARAK_BLOK
         subjudul_akhir = None
         blok = list(blok)
         i = 0
@@ -371,6 +381,7 @@ class Pembangun:
                 self.cek_batas(y - jarak, nama)
                 if judul_dari_subjudul and b["jenis"] == "subjudul":
                     s, y = buat_slide(True, b["teks"])
+                    self.catat_tambahan(s, b.get("tambahan"))
                     subjudul_akhir = b["teks"]
                     kosong = True
                     i += 1
@@ -385,6 +396,7 @@ class Pembangun:
                 if not kosong:
                     y += 0.1
             y = D.gambar_blok(s, b, D.KIRI, y, w, self.folder, gaya, sisa) + jarak
+            self.catat_tambahan(s, b.get("tambahan"))
             kosong = False
             i += 1
         y -= jarak
@@ -438,14 +450,22 @@ class Pembangun:
             soal_slide.append(s)
             return s, D.Y_CHIP + D.H_CHIP + 0.45
 
-        s, y = self._tata_blok(kepala_soal, sl.get("soal", []), gaya="soal", nama=judul)
         opsi = sl.get("opsi") or {}
+        gaya, u_opsi = "soal", 18
+        if sl.get("bacaan"):  # soal bacaan: teks, pertanyaan, dan opsi sebisa mungkin di satu slide
+            for u in (20, 19, 18, 17, 16):
+                h = D.Y_CHIP + D.H_CHIP + 0.8 + D.tinggi_opsi(opsi, ukuran=min(18, u)) + sum(
+                    D.tinggi_blok(b, D.LEBAR_ISI, self.folder, f"soal:{u}") + 0.1 for b in sl["soal"])
+                if h <= D.BATAS_BAWAH:
+                    gaya, u_opsi = f"soal:{u}", min(18, u)
+                    break
+        s, y = self._tata_blok(kepala_soal, sl.get("soal", []), gaya=gaya, nama=judul)
         if opsi:
-            h = D.tinggi_opsi(opsi)
+            h = D.tinggi_opsi(opsi, ukuran=u_opsi)
             if y + 0.35 + h > D.BATAS_BAWAH and sl.get("soal"):
                 s, y = kepala_soal(True)
                 y -= 0.35
-            y = D.gambar_opsi(s, y + 0.35, opsi)
+            y = D.gambar_opsi(s, y + 0.35, opsi, ukuran=u_opsi)
             self.cek_batas(y, judul)
         kunci = sl.get("kunci", "")
         blok = list(sl.get("pembahasan", []))
@@ -568,7 +588,22 @@ class Pembangun:
                 continue
             self.sumber = sumber
             langkah()
+            if sumber in ("pendahuluan", "tujuan", "penutup"):
+                self.catat_tambahan(self.prs.slides[len(self.prs.slides) - 1], (self.k.get(sumber) or {}).get("tambahan"))
         self.selesaikan()
+
+    def catat_tambahan(self, slide, isi):
+        """Tandai isi di luar highlight di catatan pembicara, supaya tim bisa meninjau dan mencoretnya."""
+        if not isi:
+            return
+        tf = slide.notes_slide.notes_text_frame
+        baris = [p.text for p in tf.paragraphs if p.text] or ["TAMBAHAN DI LUAR HIGHLIGHT (boleh dicoret tim akademik):"]
+        for t in isi:
+            teks = D.polos(t["isi"])
+            butir = f"- {teks if len(teks) <= 160 else teks[:157] + '...'} [{t['alasan']}]"
+            if butir not in baris or t["isi"] == "Gambar":
+                baris.append(butir)
+        tf.text = "\n".join(baris)
 
     def _bagian_dilewati(self, sumber):
         """Deck contoh soal (meta.bagian 'soal') dan naskah dari PDF (meta.lewati_kosong) tidak punya

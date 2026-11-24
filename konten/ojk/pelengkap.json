@@ -1,0 +1,233 @@
+{
+ "keterangan": "Tambahan di luar highlight yang dipilih per dokumen (id entri katalog). 'di' = judul subbab tanpa nomor; 'awal' = awal paragraf yang dimasukkan; 'gambar'/'tabel': true = gambar/tabel subbab itu ikut. Hapus satu butir untuk mencoret tambahannya, lalu jalankan impor_katalog.py.",
+ "dokumen": {
+  "pi-01": [
+   {
+    "di": "Tujuan Pembelajaran",
+    "alasan": "tujuan pembelajaran kosong",
+    "awal": [
+     "• Mengenali",
+     "• Menjelaskan",
+     "• Menentukan",
+     "• Menyelesaikan"
+    ]
+   },
+   {
+    "di": "Membandingkan dua gambar",
+    "alasan": "definisi subbab",
+    "awal": [
+     "Membandingkan gambar berarti"
+    ]
+   },
+   {
+    "di": "Mengenali pengulangan seluruh gambar",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Susunan A mempunyai"
+    ],
+    "gambar": true
+   },
+   {
+    "di": "Mengikuti dua warna yang bergerak sendiri",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Agar tidak tertukar",
+     "Kemudian baca ungu"
+    ],
+    "gambar": true
+   },
+   {
+    "di": "Membaca langkah yang lebih dari satu",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Pada bintang enam ujung, satu warna",
+     "Pada lintasan dalam 7"
+    ],
+    "gambar": true
+   },
+   {
+    "di": "Membaca dua deret yang diselingkan",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Jenis pola berikutnya",
+     "Baca baris atas",
+     "Gambar berikutnya bernomor 7"
+    ],
+    "gambar": true
+   }
+  ],
+  "pi-02": [
+   {
+    "di": "Tujuan Pembelajaran",
+    "alasan": "tujuan pembelajaran kosong",
+    "awal": [
+     "• Membaca",
+     "• Mengenali",
+     "• Menguji",
+     "• Menentukan"
+    ]
+   },
+   {
+    "di": "Membaca pola yang bergantian",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Ada urutan yang tidak mengubah",
+     "Dari A1 ke B1"
+    ],
+    "gambar": true
+   },
+   {
+    "di": "Jika jumlah X bertambah",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Pada baris kedua, jumlah X"
+    ],
+    "gambar": true
+   },
+   {
+    "di": "Mengikuti siklus susunan",
+    "alasan": "definisi subbab",
+    "awal": [
+     "Siklus adalah urutan keadaan"
+    ]
+   },
+   {
+    "di": "Mengamati huruf besar dan huruf kecil",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Huruf kapital dan huruf kecil",
+     "Nilai huruf maju A, B, C, D",
+     "Simpul berikutnya memakai angka 5 dan 6"
+    ],
+    "gambar": true,
+    "tabel": true
+   },
+   {
+    "di": "Menguji kandidat tanpa memaksakan aturan",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Setelah memperoleh prediksi",
+     "Dari H5, huruf maju dua"
+    ],
+    "gambar": true
+   }
+  ],
+  "pd-04": [
+   {
+    "di": "Hubungan Antarobjek dan Perhitungan Berantai",
+    "alasan": "contoh yang melengkapi gambar/tabel",
+    "awal": [
+     "Contoh:",
+     "$60%$ lebih banyak",
+     "$75%$ lebih sedikit",
+     "Jika dua nilai sama, cek aturan"
+    ]
+   },
+   {
+    "di": "Kesalahan Umum",
+    "alasan": "subbab tanpa highlight",
+    "tabel": true
+   }
+  ],
+  "bi-01": [
+   {
+    "di": "Kelas kata dan kelompok kata",
+    "alasan": "definisi subbab",
+    "awal": [
+     "Noun adalah kata benda"
+    ]
+   }
+  ],
+  "sjk-03": [
+   {
+    "di": "Latihan Pengambilan Keputusan dan Kesalahan Umum",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Salah satu kekeliruan umum",
+     "Kekeliruan lain adalah",
+     "Dalam soal studi kasus, lakukan"
+    ]
+   },
+   {
+    "di": "Membaca Publikasi OJK dan Memilah Data",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Direktori Perbankan Indonesia",
+     "Indeks Orientasi Bisnis Perbankan"
+    ]
+   }
+  ],
+  "sjk-05": [
+   {
+    "di": "Contoh Menentukan Kelebihan Hasil Penjualan",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Untuk memahami hak atas sisa",
+     "Misalnya secara ilustratif"
+    ],
+    "tabel": true
+   }
+  ],
+  "sjk-06": [
+   {
+    "di": "Membaca Kesehatan LKM dan Kualitas Pinjamannya",
+    "alasan": "subbab tanpa highlight",
+    "awal": [
+     "Kualitas pinjaman menilai",
+     "Klasifikasi kualitas pinjaman"
+    ],
+    "tabel": true
+   }
+  ],
+  "sjk-12": [
+   {
+    "di": "Penutup",
+    "alasan": "pesan penutup kosong",
+    "awal": [
+     "Pesan utama: identifikasi"
+    ]
+   }
+  ],
+  "sjk-13": [
+   {
+    "di": "Penutup",
+    "alasan": "pesan penutup kosong",
+    "awal": [
+     "Pasar modal adalah sistem"
+    ]
+   }
+  ],
+  "sjk-14": [
+   {
+    "di": "Tujuan Pembelajaran",
+    "alasan": "tujuan pembelajaran kosong",
+    "awal": [
+     "Mendefinisikan",
+     "Menerangkan",
+     "Membedakan",
+     "Mengidentifikasi",
+     "Menjelaskan",
+     "Mengenali",
+     "Membandingkan",
+     "Menjawab"
+    ]
+   },
+   {
+    "di": "Penutup",
+    "alasan": "pesan penutup kosong",
+    "awal": [
+     "Kegiatan usaha bulion merupakan"
+    ]
+   }
+  ],
+  "sjk-16": [
+   {
+    "di": "Penutup",
+    "alasan": "pesan penutup kosong",
+    "awal": [
+     "Keuangan syariah merupakan ekosistem"
+    ]
+   }
+  ]
+ }
+}

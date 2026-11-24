@@ -37,12 +37,12 @@
     "paragraf": [
       "Timeline Scheduling adalah bentuk penalaran deduktif interaktif yang menggunakan kalender atau garis waktu untuk menempatkan suatu kegiatan sesuai batasan yang diberikan. Peserta tidak sekadar mencari kotak putih, tetapi harus memeriksa siapa yang tersedia, kegiatan mana yang dapat dipindahkan, apakah ruang lain diperlukan, atau berapa petugas yang sedang bertugas pada setiap interval.",
       "Bayangkan suatu rapat perlu dimajukan. Walaupun Kalender Anda kosong pada pukul tertentu, rapat belum tentu dapat dilaksanakan karena rekan lain mungkin memiliki agenda. Pada situasi berbeda, jadwal pelatihan harus mempertimbangkan persiapan, pemakaian ruang pendukung, dan pembongkaran peralatan. Dalam penugasan petugas, kotak yang terisi justru menunjukkan bahwa tim sedang bekerja. Arti tiap kotak bergantung pada konteks pertanyaan.",
-      "Dalam latihan, kita membaca seluruh syarat terlebih dahulu, memecah jadwal menjadi interval yang mudah diperiksa, lalu menguji apakah pilihan memenuhi semua syarat sekaligus. Materi ini berfokus pada mekanisme tersebut, bukan pada hafalan susunan kotak atau perkiraan berdasarkan warna semata.",
-      "Gambar 1. Contoh tampilan kalender tim, bagian “Timeline Scheduling”, Soal 1. Tampilan dokumen dapat tidak memuat informasi hover yang tersedia pada aplikasi."
+      "Dalam latihan, kita membaca seluruh syarat terlebih dahulu, memecah jadwal menjadi interval yang mudah diperiksa, lalu menguji apakah pilihan memenuhi semua syarat sekaligus. Materi ini berfokus pada mekanisme tersebut, bukan pada hafalan susunan kotak atau perkiraan berdasarkan warna semata."
     ],
     "pemantik": "",
     "ikon": "presenter",
-    "gambar": "media/ojk_pd_timeline_scheduling/gambar-01.png"
+    "gambar": "media/ojk_pd_timeline_scheduling/gambar-01.png",
+    "keterangan": "Gambar 1. Contoh tampilan kalender tim, bagian “Timeline Scheduling”, Soal 1. Tampilan dokumen dapat tidak memuat informasi hover yang tersedia pada aplikasi."
   },
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
@@ -389,10 +389,6 @@
             {
               "jenis": "paragraf",
               "teks": "Selama seluruh reservasi, Ruang 4 dan ruang pendukung yang disebut pada soal (dalam contoh: Ruang 3) harus kosong. Pelatihan pertama dan kedua tidak boleh berlangsung bersamaan dengan Rapat Penjualan di ruangan lain. Namun, larangan Rapat Penjualan tersebut tidak otomatis berlaku pada fase persiapan atau pembongkaran jika soal hanya melarangnya saat pelatihan."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Catatan ketelitian durasi: sumber rujukan menampilkan pembongkaran 45 menit. Durasi ini tidak sama dengan kelipatan penuh dari kotak 30 menit. Karena itu, versi latihan berbasis grid tetap menggunakan pembongkaran 30 atau 60 menit, dan durasinya selalu dinyatakan pada soal. Ini penyesuaian produksi yang disebutkan dalam blueprint, bukan salinan identik dari contoh sumber."
             }
           ]
         }
@@ -471,7 +467,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Dalam dokumen Word ini, informasi yang biasanya tampil melalui hover dituliskan kembali dalam tabel keterangan kegiatan pada setiap contoh. Kode singkat, seperti A1 atau R3b, dipakai di diagram agar 18 kotak tetap terbaca. Kode tersebut harus dicocokkan dengan nama dan durasi pada tabel; kode bukan petunjuk tambahan untuk jawaban."
+              "teks": "Kode singkat, seperti A1 atau R3b, dipakai di diagram agar 18 kotak tetap terbaca. Kode tersebut harus dicocokkan dengan nama dan durasi pada tabel; kode bukan petunjuk tambahan untuk jawaban."
             }
           ]
         }

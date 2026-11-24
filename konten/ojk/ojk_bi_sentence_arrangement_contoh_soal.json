@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Sentence Arrangement",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Sentence Arrangement",
+    "sumber": "https://docs.google.com/document/d/1cKLisgXNI-X-eLtrhIfd_Jx4sf4F-R-UgBXY2H_dCSg/edit",
+    "bagian": "soal",
+    "id_katalog": "bi-05-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1 • Frasa subjek dan pelengkap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Arrange the fragments to form a complete sentence.</i>"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Fragmen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — the previous month's"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — is responsible"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C — expense records"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D — The branch manager"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E — for checking"
+            }
+          ],
+          "opsi": {
+            "A": "D–B–E–C–A",
+            "B": "D–E–B–A–C",
+            "C": "D–B–E–A–C",
+            "D": "A–C–D–B–E"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Frasa subjek dan pelengkap"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** is responsible, for checking, the previous month's"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan D–B–E–A–C menghasilkan kalimat berikut. The branch manager is responsible for checking the previous month's expense records. Subjek The branch manager diikuti predikat is responsible. For checking menyatakan tanggung jawabnya. The previous month's menerangkan expense records, yang menjadi objek checking."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Expense records muncul sebelum the previous month's, sehingga penanda kepemilikan tertinggal tanpa noun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. For checking diletakkan sebelum is responsible dan memutus pola responsible for."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Frasa the previous month's expense records muncul sebelum subjek tanpa hubungan gramatikal."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kunci responsible for dahulu, lalu satukan penanda kepemilikan dengan noun."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3 • Verb, objek, dan infinitive",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Arrange the fragments to form a complete sentence.</i>"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Fragmen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — branch employees to verify"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — The new procedure"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C — newly appointed"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D — each customer signature"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E — requires all"
+            }
+          ],
+          "opsi": {
+            "A": "B–C–E–A–D",
+            "B": "B–E–A–C–D",
+            "C": "A–D–B–E–C",
+            "D": "B–E–C–A–D"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Verb, objek, dan infinitive"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** requires all, newly appointed, to verify"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan B–E–C–A–D menghasilkan kalimat berikut. The new procedure requires all newly appointed branch employees to verify each customer signature. Requires all newly appointed branch employees menyebut siapa yang wajib bertindak. To verify each customer signature menjelaskan tindakan yang harus mereka lakukan. Each menerangkan customer signature."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Newly appointed terpisah dari branch employees oleh requires all."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Branch employees to verify muncul sebelum newly appointed, sehingga adjective tidak lagi menerangkan employees."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Branch employees to verify each customer signature muncul sebelum subjek dan predikat utama, sehingga objek requires hilang dari posisinya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pasangkan all dengan kelompok orang dan each dengan benda tunggal yang diperiksa."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 4 • Noun clause dengan whether",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Arrange the fragments to form a complete sentence.</i>"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Fragmen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — asked whether"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — approved by headquarters"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C — the revised schedule"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D — The operations manager"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E — had been"
+            }
+          ],
+          "opsi": {
+            "A": "D–C–A–E–B",
+            "B": "D–A–C–E–B",
+            "C": "D–A–E–C–B",
+            "D": "C–D–A–E–B"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Noun clause dengan whether"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** asked whether, the revised schedule, had been"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan D–A–C–E–B menghasilkan kalimat berikut. The operations manager asked whether the revised schedule had been approved by headquarters. Asked whether memperkenalkan pertanyaan tak langsung. The revised schedule menjadi subjek klausa itu, diikuti had been approved. By headquarters menyatakan pelaku persetujuan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. The revised schedule muncul sebelum asked whether dan tidak menempati posisi subjek klausa setelah whether."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Had been muncul sebelum subjek klausa, sehingga susunannya salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. The revised schedule diletakkan di awal dan tidak terhubung dengan subjek klausa utama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Mulai dari asked whether, lalu cari subjek dan pasangan had been + V3."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

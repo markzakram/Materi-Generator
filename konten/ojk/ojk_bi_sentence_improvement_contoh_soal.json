@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Sentence Improvement",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Contoh Soal Sentence Improvement",
+    "sumber": "https://docs.google.com/document/d/1bwabJQeM27UHVNn9zB6wqBgdINJnlCHL3cLc1-EJkds/edit",
+    "bagian": "soal",
+    "id_katalog": "bi-03-soal"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1 • Pola teramati • Gerund setelah to sebagai preposisi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Choose the best replacement for the italicised part. If no change is needed, choose E.</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The project team looks forward to <i>review the feedback</i> from branch managers at the next monthly meeting."
+            }
+          ],
+          "opsi": {
+            "A": "to review the feedback",
+            "B": "reviewing the feedback",
+            "C": "reviewed the feedback",
+            "D": "reviews the feedback",
+            "E": "no improvement needed"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Gerund setelah preposisi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** looks forward to"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam look forward to, to adalah preposisi. Reviewing the feedback menamai kegiatan yang dinantikan. Kalimat lengkapnya adalah The project team looks forward to reviewing the feedback from branch managers at the next monthly meeting."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. To review menggandakan to karena kalimat sudah memuat looks forward to."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Reviewed tidak membentuk gerund untuk kegiatan yang dinantikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Reviews adalah bentuk kata kerja finite dan tidak dapat mengisi posisi ini."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Review masih berbentuk V1 setelah preposisi to."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kenali look forward to sebagai satu ungkapan. Jika setelahnya ada kegiatan, pilih V-ing."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3 • Perluasan • To-infinitive",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Choose the best replacement for the italicised part. If no change is needed, choose E.</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The training coordinator plans to <i>rescheduling the workshop</i> after checking the availability of the participants and the instructor."
+            }
+          ],
+          "opsi": {
+            "A": "reschedule the workshop",
+            "B": "rescheduled the workshop",
+            "C": "to reschedule the workshop",
+            "D": "reschedules the workshop",
+            "E": "no improvement needed"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** To-infinitive setelah plan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** plans to"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada plans to, to adalah penanda infinitive sehingga diikuti V1 reschedule. Kalimat lengkapnya adalah The training coordinator plans to reschedule the workshop after checking the availability of the participants and the instructor. Bagian after checking tetap benar karena after memperkenalkan frasa kegiatan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Rescheduled adalah bentuk lampau atau V3, sedangkan infinitive membutuhkan V1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. To reschedule menggandakan to yang sudah ada dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Reschedules membawa akhiran -s dan tidak dapat mengikuti penanda infinitive to."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Rescheduling tidak cocok setelah penanda infinitive to."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Baca kata yang memimpin pola. Plan membentuk plan to + V1. Periksa apakah to sudah tersedia di luar sasaran."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 8 • Perluasan • Kalimat awal sudah benar",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Choose the best replacement for the italicised part. If no change is needed, choose E.</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Each of the shortlisted candidates <i>has received</i> a confirmation email with instructions for completing the next stage of the selection process."
+            }
+          ],
+          "opsi": {
+            "A": "have received",
+            "B": "has receive",
+            "C": "is received",
+            "D": "have receive",
+            "E": "no improvement needed"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Subject-verb agreement dan present perfect"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata Kunci:** Each of the shortlisted candidates, has received"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Each adalah inti subjek tunggal, sehingga has tepat. Received merupakan V3 dari receive. Kalimat awal sudah lengkap dan menyatakan bahwa setiap kandidat yang masuk daftar pendek telah menerima email konfirmasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Have tidak sesuai dengan each yang tunggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Receive adalah V1. Present perfect memerlukan received setelah has."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Is received membentuk passive dan menjadikan kandidat sebagai pihak yang diterima, padahal kandidat menerima email."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Have tidak sesuai dengan each dan receive tidak memenuhi bentuk V3."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji bagian awal dengan dua cek. Each cocok dengan has, lalu has cocok dengan V3 received. Pilih E jika keduanya sudah tepat."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

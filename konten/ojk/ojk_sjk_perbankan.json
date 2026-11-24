@@ -130,6 +130,37 @@
             {
               "jenis": "paragraf",
               "teks": "Bentuk manfaat bergantung pada akad. Misalnya, titipan dapat menggunakan wadiah, sementara investasi dana nasabah dapat menggunakan mudharabah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Perbandingan",
+                "Konvensional",
+                "Syariah"
+              ],
+              "baris": [
+                [
+                  "**Dasar transaksi**",
+                  "Perjanjian sesuai ketentuan konvensional",
+                  "Akad sesuai prinsip syariah"
+                ],
+                [
+                  "**Imbalan**",
+                  "Bunga atau biaya sesuai produk",
+                  "Margin, ujrah, atau bagi hasil tergantung akad"
+                ],
+                [
+                  "**Pengawasan**",
+                  "OJK dan ketentuan terkait",
+                  "OJK serta tata kelola kesesuaian prinsip syariah"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Perbandingan | Konvensional | Syariah"
+                }
+              ]
             }
           ]
         }
@@ -305,6 +336,79 @@
             {
               "jenis": "paragraf",
               "teks": "Perhitungan bunga sederhana menggunakan $Bunga = Pokok × tingkat tahunan × waktu dalam tahun.$ Persentase setahun harus dikonversi bila periode yang ditanya bulan. Di sisi lain, bagi hasil syariah tidak otomatis dapat dihitung dengan menyamakan nisbah bagi hasil dengan suku bunga flat."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Komponen",
+                "Simulasi edukasi"
+              ],
+              "baris": [
+                [
+                  "**Pokok simpanan**",
+                  "Rp10.000.000"
+                ],
+                [
+                  "**Imbalan bruto tahunan contoh**",
+                  "3%"
+                ],
+                [
+                  "**Waktu**",
+                  "6 bulan = 0,5 tahun"
+                ],
+                [
+                  "**Hasil bunga sederhana bruto**",
+                  "Rp10.000.000 × 3% × 0,5 = Rp150.000"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Komponen | Simulasi edukasi"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Latihan Pengambilan Keputusan dan Kesalahan Umum",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Latihan Pengambilan Keputusan dan Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Salah satu kekeliruan umum adalah menyamakan dana yang ditempatkan di bank dengan produk yang diterbitkan bank. Reksa dana atau surat berharga dapat dipasarkan di bank sebagai distributor tanpa menjadikannya deposito. Risiko dan penjaminan mengikuti karakter produk.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Salah satu kekeliruan umum adalah menyamakan dana yang ditempatkan di bank dengan produk yang diterbitkan bank. Reksa dana atau surat berharga dapat dipasarkan di bank sebagai distributor tanpa menjadikannya deposito. Risiko dan penjaminan mengikuti karakter produk."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kekeliruan lain adalah menganggap seluruh BPR sama sekali tidak boleh melakukan transfer dana. Setelah UU P2SK, BPR dapat melakukan kegiatan transfer dana sesuai izin dan ketentuan, walaupun tidak menerima giro dan tidak memberikan jasa lalu lintas giral secara langsung.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Kekeliruan lain adalah menganggap seluruh BPR sama sekali tidak boleh melakukan transfer dana. Setelah UU P2SK, BPR dapat melakukan kegiatan transfer dana sesuai izin dan ketentuan, walaupun tidak menerima giro dan tidak memberikan jasa lalu lintas giral secara langsung."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal studi kasus, lakukan tiga pemeriksaan: tentukan lembaga dan izinnya, tentukan produknya, kemudian tentukan regulator atau ketentuan perlindungannya. Pemisahan ini mencegah jawaban yang terdengar masuk akal tetapi salah lembaga.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Dalam soal studi kasus, lakukan tiga pemeriksaan: tentukan lembaga dan izinnya, tentukan produknya, kemudian tentukan regulator atau ketentuan perlindungannya. Pemisahan ini mencegah jawaban yang terdengar masuk akal tetapi salah lembaga."
+                }
+              ]
             }
           ]
         }
@@ -312,7 +416,7 @@
     },
     {
       "subbab": "Ruang Lingkup Bank Umum dan Bank Perekonomian Rakyat",
-      "ikon": "strategi",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
@@ -336,7 +440,7 @@
     },
     {
       "subbab": "Bank Konvensional, Bank Syariah, dan Unit Usaha Syariah",
-      "ikon": "grafik",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",
@@ -360,7 +464,7 @@
     },
     {
       "subbab": "Pembiayaan Multijasa Perbankan Syariah 2025",
-      "ikon": "roket",
+      "ikon": "checklist",
       "slide": [
         {
           "tipe": "blok",
@@ -376,7 +480,7 @@
     },
     {
       "subbab": "Kewenangan OJK di Sektor Perbankan",
-      "ikon": "checklist",
+      "ikon": "globe",
       "slide": [
         {
           "tipe": "blok",
@@ -396,7 +500,7 @@
     },
     {
       "subbab": "Produk Informasi Pengawasan dan Publikasi Perbankan",
-      "ikon": "globe",
+      "ikon": "strategi",
       "slide": [
         {
           "tipe": "blok",
@@ -420,7 +524,7 @@
     },
     {
       "subbab": "Pelaporan Akuntansi dan Informasi Keuangan Bank",
-      "ikon": "strategi",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
@@ -440,7 +544,7 @@
     },
     {
       "subbab": "Kerangka Basel dan Pengawasan Berbasis Risiko",
-      "ikon": "grafik",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",
@@ -468,7 +572,7 @@
     },
     {
       "subbab": "Informasi Historis, Direktori, dan Ketelitian Sumber",
-      "ikon": "roket",
+      "ikon": "checklist",
       "slide": [
         {
           "tipe": "blok",
@@ -484,7 +588,7 @@
     },
     {
       "subbab": "Rantai Intermediasi dan Model Bisnis Bank",
-      "ikon": "checklist",
+      "ikon": "globe",
       "slide": [
         {
           "tipe": "blok",
@@ -512,7 +616,7 @@
     },
     {
       "subbab": "Bank Syariah: Akad dan Contoh Penggunaannya",
-      "ikon": "globe",
+      "ikon": "strategi",
       "slide": [
         {
           "tipe": "blok",
@@ -532,7 +636,7 @@
     },
     {
       "subbab": "Kredit UMKM dan Prinsip Kehati-hatian",
-      "ikon": "strategi",
+      "ikon": "grafik",
       "slide": [
         {
           "tipe": "blok",
@@ -548,7 +652,7 @@
     },
     {
       "subbab": "Pengawasan Berbasis Risiko dan Tindakan OJK",
-      "ikon": "grafik",
+      "ikon": "roket",
       "slide": [
         {
           "tipe": "blok",
@@ -568,7 +672,7 @@
     },
     {
       "subbab": "Membaca Kesehatan Bank: Risiko dan Rasio",
-      "ikon": "roket",
+      "ikon": "checklist",
       "slide": [
         {
           "tipe": "blok",
@@ -588,7 +692,7 @@
     },
     {
       "subbab": "Basel III dan Peran Standar Internasional",
-      "ikon": "checklist",
+      "ikon": "globe",
       "slide": [
         {
           "tipe": "blok",
@@ -601,6 +705,38 @@
             {
               "jenis": "paragraf",
               "teks": "Tiga pilar Basel II/III secara konseptual meliputi persyaratan modal minimum, proses penilaian pengawas, dan disiplin pasar melalui pengungkapan. Dalam implementasi Indonesia, aturan rinci dituangkan ke POJK dan SEOJK yang berlaku; tidak semua angka pada infografik internasional boleh langsung digunakan tanpa membaca penerapannya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Membaca Publikasi OJK dan Memilah Data",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Membaca Publikasi OJK dan Memilah Data",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Direktori Perbankan Indonesia, laporan publikasi keuangan, Laporan Surveillance Perbankan Indonesia (LSPI), Survei Orientasi Bisnis Perbankan OJK (SBPO), dan Booklet Perbankan Indonesia memiliki tujuan berbeda. Direktori terutama mengidentifikasi kelembagaan; LSPI memberi analisis industri; SBPO merekam persepsi atau ekspektasi responden.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Direktori Perbankan Indonesia, laporan publikasi keuangan, Laporan Surveillance Perbankan Indonesia (LSPI), Survei Orientasi Bisnis Perbankan OJK (SBPO), dan Booklet Perbankan Indonesia memiliki tujuan berbeda. Direktori terutama mengidentifikasi kelembagaan; LSPI memberi analisis industri; SBPO merekam persepsi atau ekspektasi responden."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Indeks Orientasi Bisnis Perbankan (IBP) pada SBPO berkisar 1–100: lebih dari 50 merepresentasikan persepsi optimistis, sama dengan 50 stabil, dan di bawah 50 pesimistis. Nilai tersebut merupakan ukuran persepsi, bukan jaminan pertumbuhan realisasi.",
+              "tambahan": [
+                {
+                  "alasan": "subbab tanpa highlight",
+                  "isi": "Indeks Orientasi Bisnis Perbankan (IBP) pada SBPO berkisar 1–100: lebih dari 50 merepresentasikan persepsi optimistis, sama dengan 50 stabil, dan di bawah 50 pesimistis. Nilai tersebut merupakan ukuran persepsi, bukan jaminan pertumbuhan realisasi."
+                }
+              ]
             }
           ]
         }

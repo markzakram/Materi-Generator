@@ -366,12 +366,30 @@ class TemaGeneral:
         D.teks(slide, x, y, w, h, p, nama="Isi halaman")
         return y + h
 
-    def pendahuluan(self, slide, paragraf, pemantik=None, gambar=None):
+    W_PENDAHULUAN, Y_PENDAHULUAN = 12.37, 2.02
+
+    def _tinggi_pemantik(self, pemantik):
+        return D.tinggi_catatan(pemantik, self.W_PENDAHULUAN, "Pertanyaan pemantik", 19) + 0.3 if pemantik else 0
+
+    def tinggi_gambar_pendahuluan(self, paragraf, pemantik, gambar, folder):
+        """Ruang (inci) untuk gambar di bawah paragraf 20 pt; 0 bila gambar harus ke slide sendiri."""
+        p = [P(t, 20, "000000", rata="j", spasi=1.4, setelah=12) for t in paragraf]
+        h_teks = D.tinggi_paragraf(p, self.W_PENDAHULUAN) * 1.04 + 0.3 if p else 0
+        sisa = BATAS_HALAMAN - self.Y_PENDAHULUAN - self._tinggi_pemantik(pemantik) - h_teks
+        h_penuh = D.tinggi_blok(gambar, self.W_PENDAHULUAN, folder)
+        return min(sisa, h_penuh) if sisa >= 0.75 * h_penuh or not paragraf else 0
+
+    def pendahuluan(self, slide, paragraf, pemantik=None, gambar=None, folder="."):
+        """gambar: blok gambar di bawah paragraf (pastikan muat lewat tinggi_gambar_pendahuluan)."""
         self.salin_slide("pendahuluan", slide,
                          lambda el: _navbar_template(el) or self._teks_contoh(el, "LOREM"))
-        w = 12.37
-        h_pemantik = D.tinggi_catatan(pemantik, w, "Pertanyaan pemantik", 19) + 0.3 if pemantik else 0
-        y = self._isi_halaman(slide, paragraf, 2.02, w, BATAS_HALAMAN - 2.02 - h_pemantik)
+        w, y = self.W_PENDAHULUAN, self.Y_PENDAHULUAN
+        h_gambar = self.tinggi_gambar_pendahuluan(paragraf, pemantik, gambar, folder) if gambar else 0
+        if paragraf:
+            y = self._isi_halaman(slide, paragraf, y, w, BATAS_HALAMAN - y - self._tinggi_pemantik(pemantik)
+                                  - (h_gambar + 0.2 if h_gambar else 0))
+        if h_gambar:
+            y = D.gambar_blok(slide, gambar, 1.12, y + 0.15 if paragraf else y, w, folder, h_maks=h_gambar)
         if pemantik:
             y = D.catatan(slide, y + 0.3, "pemantik", pemantik, x=1.12, w=w, judul_catatan="Pertanyaan pemantik",
                           ukuran=19)

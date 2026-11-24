@@ -1,0 +1,1295 @@
+{
+  "meta": {
+    "judul": "Grammar and Vocabulary",
+    "subtes": "Tes Kemampuan Umum",
+    "nama_file": "OJK TKU - Grammar and Vocabulary",
+    "sumber": "https://docs.google.com/document/d/1SuUYKiMJZGoXoQ7Hz9ojlcygzjLOq7Xcjcwg8l_PwME/edit",
+    "id_katalog": "bi-01"
+  },
+  "peta_subtes": {
+    "judul": "Tes Kemampuan Umum",
+    "subjudul": "Peta Materi Subtes TKU",
+    "kartu": [
+      {
+        "judul": "Penalaran Induktif",
+        "deskripsi": "Pola bentuk dan garis: Fill Shape dan Drag the Line",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "Penalaran Deduktif",
+        "deskripsi": "Tanggal, ruang, jadwal, lencana, dan slot waktu",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "Bahasa Inggris",
+        "deskripsi": "Grammar, vocabulary, dan reading comprehension",
+        "ikon": "globe"
+      },
+      {
+        "judul": "Pengetahuan Sektor Jasa Keuangan",
+        "deskripsi": "OJK, perbankan, pembiayaan, investasi, dan proteksi",
+        "ikon": "grafik"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bahasa Inggris memiliki pola yang membantu kita memahami siapa yang melakukan sesuatu, apa yang terjadi, kapan peristiwa berlangsung, dan bagaimana satu gagasan berhubungan dengan gagasan lain. Grammar adalah aturan penyusunan pola tersebut. Vocabulary adalah pengetahuan tentang kata: maknanya, bentuknya, penggunaannya, dan pasangan kata yang lazim. Keduanya perlu dipelajari bersama. Mengetahui arti setiap kata belum cukup apabila hubungan antarkata belum dipahami.",
+      "Materi ini menjadi fondasi untuk mempelajari Sentence Completion, Sentence Improvement, Grammatically Correct Sentence, dan Sentence Arrangement. Pembahasan disusun dari pengenalan kalimat hingga hubungan antarklausa. Contohnya menggunakan kegiatan sehari-hari, pendidikan, dan pekerjaan agar konsep dapat dipahami tanpa pengetahuan khusus tentang sektor keuangan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "subjek, kata kerja utama, objek, pelengkap, serta keterangan dalam kalimat; membedakan bentuk dasar, lampau, past participle, dan bentuk -ing; serta menjelaskan alasan penggunaan bentuk tersebut."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "tense berdasarkan waktu dan hubungan peristiwa; menyesuaikan kata kerja dengan subjek; menggunakan noun, article, dan pronoun secara tepat; serta mengubah fokus kalimat aktif dan pasif tanpa mengubah waktu atau makna pokoknya."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "unsur yang sejajar; memilih gerund atau infinitive berdasarkan pola dan makna; menghubungkan gagasan secara logis; serta menafsirkan kosakata melalui kelas kata, konteks, dan pasangan kata yang lazim."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bekal Dasar: Cara Membaca Struktur Kalimat",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bekal Dasar: Cara Membaca Struktur Kalimat",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Subjek, kata kerja, objek, dan pelengkap"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Subjek adalah bagian kalimat yang menjadi pokok pembicaraan. Subjek dapat berupa orang, benda, atau gagasan. Dalam “<i>The analyst checks the figures</i>”, the analyst adalah subjek, checks adalah kata kerja, dan the figures adalah objek yang diperiksa. Artinya: analis tersebut memeriksa angka-angka itu."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_bi_grammar_and_vocabulary/gambar-01.png",
+              "lebar": 6.24,
+              "tinggi": 1.68,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Anotasi kalimat dasar: subjek, kata kerja, dan objek</i>"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kelas kata dan kelompok kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Noun adalah kata benda, misalnya report (laporan). Pronoun menggantikan atau merujuk noun, misalnya it. Verb menyatakan tindakan atau keadaan, misalnya review (meninjau). Adjective menerangkan noun, misalnya accurate dalam an accurate report. Adverb dapat menerangkan verb, adjective, atau adverb lain, misalnya carefully dalam reviews carefully.",
+              "tambahan": [
+                {
+                  "alasan": "definisi subbab",
+                  "isi": "Noun adalah kata benda, misalnya report (laporan). Pronoun menggantikan atau merujuk noun, misalnya it. Verb menyatakan tindakan atau keadaan, misalnya review (meninjau). Adjective menerangkan noun, misalnya accurate dalam an accurate report. Adverb dapat menerangkan verb, adjective, atau adverb lain, misalnya carefully dalam reviews carefully."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klausa mandiri dapat menjadi kalimat: “<i>The analyst works carefully.</i>” Klausa terikat membutuhkan klausa lain: “<i>because the analyst works carefully</i>” berarti karena analis bekerja dengan teliti, tetapi belum menyampaikan apa akibatnya. Pembedaan ini penting saat mempelajari conjunction."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk kata kerja yang akan digunakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "V1 adalah bentuk dasar: work, write, take. V2 adalah bentuk simple past: worked, wrote, took. V3 adalah past participle: worked, written, taken. V-ing adalah bentuk berakhiran -ing: working, writing, taking. Istilah V1, V2, dan V3 digunakan di sini sebagai bantuan belajar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tenses",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tenses",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Peta konsep dan kata kunci"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tense membantu menempatkan kejadian dalam waktu, sedangkan aspect menunjukkan cara memandang kejadian: sebagai fakta, proses, hasil yang sudah tercapai, atau proses yang berlangsung sampai titik tertentu. Materi belajar sering menyajikannya sebagai 12 pola. Pola dengan will dibahas sebagai bentuk masa depan; secara tata bahasa, bahasa Inggris juga menyatakan masa depan dengan beberapa susunan lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simple memandang kejadian sebagai fakta, kebiasaan, atau satu kesatuan. Continuous atau progressive menyoroti proses yang sedang berlangsung. Perfect menghubungkan kejadian yang lebih dahulu dengan suatu titik acuan. Perfect continuous menyoroti lamanya proses sampai titik acuan tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Simple present: kebiasaan, fakta, dan keadaan"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Simple present → S + V1 / V1 + -s/-es"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Negatif → S + do/does not + V1"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Pertanyaan → Do/Does + S + V1?"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Present continuous: proses sekarang dan keadaan sementara"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan “<i>I work in Bandung</i>” dengan “<i>I am working in Bandung this month.</i>” Kalimat pertama menyatakan keadaan pekerjaan secara umum; kalimat kedua menekankan penempatan sementara bulan ini."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Simple past: kejadian pada waktu lampau"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Negatif → S + did not + V1"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Pertanyaan → Did + S + V1?"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Past continuous: proses pada titik waktu lampau"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam “<i>The officer was checking the records when the manager arrived</i>”, pemeriksaan menjadi latar yang sedang berlangsung, sedangkan kedatangan manajer terjadi di dalam rentang proses itu. Artinya: petugas sedang memeriksa catatan ketika manajer datang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Garis waktu • Latar dan kejadian dalam past tense"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Awal proses",
+                "Kejadian di tengah proses",
+                "Sesudah kejadian"
+              ],
+              "baris": [
+                [
+                  "**Pemeriksaan berlangsung**",
+                  "● Manajer tiba",
+                  "Pemeriksaan berlangsung"
+                ],
+                [
+                  "**was checking the records**",
+                  "the manager arrived",
+                  "Pemeriksaan belum tentu berhenti."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Present perfect: hubungan masa lalu dengan sekarang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Since menunjukkan titik awal: since Monday, since 2022. For menunjukkan durasi: for three days, for two years. “<i>She has worked here since 2022</i>” menghubungkan awal bekerja pada 2022 dengan keadaan sekarang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan “<i>She worked here for two years</i>” dengan “<i>She has worked here for two years.</i>” Yang pertama menempatkan masa bekerja dalam periode lampau; yang kedua menghubungkannya dengan sekarang dan biasanya berarti masih bekerja di sini."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam konteks waktu lampau yang jelas sudah selesai, gunakan simple past: “<i>They submitted the report yesterday</i>”, bukan “<i>They have submitted the report yesterday.</i>” Namun, for tidak selalu menandai present perfect: “<i>They worked for two hours yesterday</i>” tetap simple past."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Present perfect continuous: durasi proses sampai sekarang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan “<i>She has written three reports</i>” dengan “<i>She has been writing reports all morning.</i>” Kalimat pertama menekankan hasil terhitung, yaitu tiga laporan. Kalimat kedua menekankan durasi kegiatan; jumlah laporan yang selesai tidak dinyatakan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Past perfect dan past perfect continuous"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan “<i>She had prepared the slides before the meeting</i>” dengan “<i>She had been preparing the slides for two hours before the meeting.</i>” Yang pertama menekankan hasil persiapan; yang kedua menekankan durasinya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Masa depan: will, be going to, dan rencana"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Masa depan → S + will + V1"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Rencana → S + am/is/are going to + V1"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peta 12 pola tense"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola",
+                "Bentuk utama",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Simple present",
+                  "V1 / V1 + -s",
+                  "She checks the file."
+                ],
+                [
+                  "Present continuous",
+                  "am/is/are + V-ing",
+                  "She is checking the file."
+                ],
+                [
+                  "Present perfect",
+                  "have/has + V3",
+                  "She has checked the file."
+                ],
+                [
+                  "Present perfect continuous",
+                  "have/has been + V-ing",
+                  "She has been checking the file."
+                ],
+                [
+                  "Simple past",
+                  "V2",
+                  "She checked the file."
+                ],
+                [
+                  "Past continuous",
+                  "was/were + V-ing",
+                  "She was checking the file."
+                ],
+                [
+                  "Past perfect",
+                  "had + V3",
+                  "She had checked the file."
+                ],
+                [
+                  "Past perfect continuous",
+                  "had been + V-ing",
+                  "She had been checking the file."
+                ],
+                [
+                  "Simple future",
+                  "will + V1",
+                  "She will check the file."
+                ],
+                [
+                  "Future continuous",
+                  "will be + V-ing",
+                  "She will be checking the file."
+                ],
+                [
+                  "Future perfect",
+                  "will have + V3",
+                  "She will have checked the file."
+                ],
+                [
+                  "Future perfect continuous",
+                  "will have been + V-ing",
+                  "She will have been checking the file."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis contoh dan cara cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: “<i>The team has been checking the applications since Monday, but it has not completed the review yet.</i>” Artinya: tim telah memeriksa lamaran sejak Senin, tetapi belum menyelesaikan peninjauannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah pertama, temukan titik acuannya: keadaan sekarang. Langkah kedua, baca since Monday sebagai awal proses. Langkah ketiga, has been checking menyoroti proses, sedangkan has not completed menyatakan hasil yang belum tercapai. Dua pola itu saling melengkapi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "tentukan titik waktu, tentukan apakah fokusnya fakta/proses/hasil/durasi, lalu periksa kata bantu dan bentuk kata kerja. Setelah itu, gunakan keterangan waktu sebagai pemeriksaan tambahan. Jangan memilih tense hanya karena melihat satu kata seperti since atau tomorrow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Regular and Irregular Verbs",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Regular and Irregular Verbs",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Peta konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Regular dan irregular menjelaskan cara kata kerja membentuk V2 dan V3. Pembagian ini tidak menentukan apakah kegiatan dilakukan rutin atau tidak. Work termasuk regular karena bentuknya worked–worked; write termasuk irregular karena bentuknya wrote–written."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "V1 dipakai setelah modal, setelah do/does/did, serta pada bentuk to-infinitive. V2 digunakan sebagai kata kerja utama simple past. V3 digunakan bersama have/has/had dalam perfect dan bersama bentuk be dalam passive. Bentuk -ing digunakan dalam continuous atau fungsi lain yang akan dibahas pada gerund."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembentukan regular verbs"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Umumnya tambahkan -ed: review menjadi reviewed, finish menjadi finished. Jika sudah berakhir dengan -e, tambahkan -d: approve menjadi approved. Jika berakhir dengan konsonan + y, ubah y menjadi i lalu tambahkan -ed: study menjadi studied. Jika sebelum y terdapat vokal, pertahankan y: play menjadi played."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel bentuk kata kerja"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola",
+                "V1",
+                "V2",
+                "V3"
+              ],
+              "baris": [
+                [
+                  "Beraturan",
+                  "review",
+                  "reviewed",
+                  "reviewed"
+                ],
+                [
+                  "Ketiganya sama",
+                  "put",
+                  "put",
+                  "put"
+                ],
+                [
+                  "V2 = V3",
+                  "send",
+                  "sent",
+                  "sent"
+                ],
+                [
+                  "Ketiganya berbeda",
+                  "write",
+                  "wrote",
+                  "written"
+                ],
+                [
+                  "V1 = V3",
+                  "run",
+                  "ran",
+                  "run"
+                ],
+                [
+                  "Kata kerja bantu",
+                  "do",
+                  "did",
+                  "done"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis contoh dan cara cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak tepat: “<i>The secretary has wrote the minutes.</i>” Bentuk yang tepat: “<i>The secretary has written the minutes</i>” (Sekretaris telah menulis notulen). Has menunjukkan present perfect sehingga diperlukan V3 written, bukan V2 wrote."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/ojk_bi_grammar_and_vocabulary/gambar-02.png",
+              "lebar": 6.24,
+              "tinggi": 1.68,
+              "tambahan": [
+                {
+                  "alasan": "gambar di subbab yang masuk",
+                  "isi": "Gambar"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Anotasi present perfect: subjek, kata bantu, bentuk verb, dan objek</i>"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak tepat: “<i>Did the secretary sent the minutes?</i>” Bentuk yang tepat: “<i>Did the secretary send the minutes?</i>” Did sudah membawa penanda lampau, sehingga kata kerja utama memakai V1."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "baca kata tepat sebelum verb. Modal atau did mengarahkan pada V1; have/has/had sebagai pembentuk perfect mengarahkan pada V3; be dalam continuous diikuti V-ing; be dalam passive diikuti V3. Pastikan fungsi kata bantu, sebab “has a meeting” menggunakan has sebagai kata kerja utama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Subject-verb Agreement",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Subject-verb Agreement",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Peta konsep: kata kerja mengikuti inti subjek"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Agreement adalah kesesuaian bentuk kata kerja dengan subjek. Pada simple present, subjek tunggal orang ketiga menggunakan -s/-es: “<i>The analyst works.</i>” Subjek jamak menggunakan V1: “<i>The analysts work.</i>” Jangan tertukar dengan noun: tambahan -s pada analysts menandai jamak, sedangkan -s pada works menandai subjek tunggal orang ketiga."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memisahkan inti subjek dari keterangannya"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peta subjek • Kata mana yang menentukan verb?"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Inti subjek",
+                "Keterangan tambahan",
+                "Kata kerja utama"
+              ],
+              "baris": [
+                [
+                  "**The list**",
+                  "of applicants",
+                  "is on the desk."
+                ],
+                [
+                  "**Inti tunggal: list**",
+                  "Tidak menentukan verb",
+                  "is mengikuti list"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Subjek yang digabungkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Together with, along with, as well as, dan accompanied by tidak otomatis menjadikan subjek jamak. “<i>The manager, together with two assistants, is attending the meeting.</i>” Inti subjeknya tetap manager."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Each, every, dan indefinite pronouns"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Each, every, everyone, everybody, someone, anyone, dan nobody umumnya diikuti kata kerja tunggal: “<i>Everyone needs clear instructions</i>”; “<i>Each of the applicants has an identity card.</i>” Applicants memang jamak, tetapi inti each tetap tunggal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jumlah, satuan, dan bentuk khusus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>A number of applicants are waiting</i>” berarti sejumlah pelamar sedang menunggu. “<i>The number of applicants is increasing</i>” membicarakan jumlah pelamar sebagai satu ukuran. Perbedaan a number dan the number mengubah inti maknanya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "There is/are dan subjek berupa kegiatan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam “<i>There is a problem</i>” dan “<i>There are two problems</i>”, there bukan benda yang menentukan agreement. Kata kerja mengikuti problem atau problems. Dalam tulisan formal, gunakan “<i>There are several reasons</i>”, meskipun bentuk “<i>there's</i>” sebelum noun jamak kadang terdengar dalam percakapan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis contoh dan cara cepat"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "tandai kata kerja utama, temukan inti subjeknya, lalu pisahkan keterangan di antara keduanya. Sesudah itu, tentukan tunggal/jamak dan periksa apakah ada pola khusus seperti each of atau the number of. Jangan mengikuti noun yang kebetulan paling dekat dengan verb tanpa memahami strukturnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Noun, Articles, and Pronouns",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Noun, Articles, and Pronouns",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Peta konsep: benda, penentu, dan rujukan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Noun menamai orang, benda, tempat, kegiatan, atau gagasan. Articles membantu menunjukkan apakah rujukan noun sudah jelas. Pronouns membantu merujuk orang atau benda tanpa mengulang namanya terus-menerus. Ketiganya bekerja bersama: “<i>An applicant submitted a form. The form was complete, so we accepted it.</i>” Mula-mula a form memperkenalkan satu formulir; the form merujuk formulir yang sudah disebut; it menggantikannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Countable dan uncountable nouns"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Countable nouns dapat dihitung sebagai unit: one document, two documents. Bentuk tunggal countable biasanya memerlukan penentu seperti a, the, this, atau my ketika digunakan sebagai noun biasa: “<i>I received a document</i>”, bukan “<i>I received document.</i>”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uncountable nouns diperlakukan sebagai massa atau konsep yang tidak dihitung langsung: information, advice, equipment, furniture, dan money. Gunakan “<i>some information</i>” atau “<i>a piece of information</i>”, bukan “<i>an information</i>” atau “<i>informations</i>” untuk makna umum tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Quantifiers: menyatakan jumlah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Many dan a few dipakai dengan countable plural: many applications, a few questions. Much dan a little dipakai dengan uncountable: much information, a little time. Some, any, enough, dan a lot of dapat dipakai pada kedua kelompok sesuai konteks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "A dan an: satu rujukan yang belum ditentukan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemilihan a atau an mengikuti bunyi awal kata sesudahnya, bukan hanya huruf: a university karena bunyi awalnya /j/; an hour karena h tidak dibunyikan. Dalam “<i>an experienced analyst</i>”, yang diperhatikan ialah bunyi awal experienced."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "The dan tanpa article"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peta pilihan • A, an, the, atau tanpa article?"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Mulai dari rujukan",
+                "Cek jenis noun",
+                "Bentuk yang dipilih"
+              ],
+              "baris": [
+                [
+                  "**Sudah dapat diidentifikasi**",
+                  "Tunggal, jamak, atau uncountable",
+                  "the report / the reports / the information"
+                ],
+                [
+                  "**Belum spesifik**",
+                  "Countable tunggal",
+                  "a report / an email"
+                ],
+                [
+                  "**Umum atau belum spesifik**",
+                  "Countable jamak atau uncountable",
+                  "Reports are useful. / Information is useful."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Personal pronouns dan possessives"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Subject pronouns ialah I, you, he, she, it, we, they. Object pronouns ialah me, you, him, her, it, us, them. Subject pronoun menempati posisi subjek: “<i>She called.</i>” Object pronoun menjadi objek kata kerja atau preposition: “<i>We called her</i>”; “<i>The message is for her.</i>”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Possessive determiners ialah my, your, his, her, its, our, their dan diikuti noun: “<i>their office</i>”. Possessive pronouns seperti mine, yours, his, hers, ours, theirs dapat berdiri sendiri: “<i>This office is theirs.</i>” Tidak tepat: “<i>This is theirs office.</i>”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan “<i>Rani and I prepared the slides</i>” dengan “<i>The trainer thanked Rani and me.</i>” Pada kalimat pertama, I merupakan bagian subjek. Pada kalimat kedua, me merupakan bagian objek. Cara memeriksa: hilangkan sementara Rani and; “<i>The trainer thanked me</i>” tetap benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Reflexive pronouns dan kejelasan rujukan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pronoun perlu memiliki rujukan yang dapat dikenali. “<i>Rani told Sinta that she had been selected</i>” dapat membingungkan karena she bisa merujuk Rani atau Sinta. Jika konteks tidak menjelaskan, tulis ulang: “<i>Rani told Sinta, ‘You have been selected.’</i>”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis contoh dan cara cepat"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "temukan noun, tentukan countable/uncountable dan tunggal/jamak, lalu periksa apakah rujukannya khusus atau umum. Untuk pronoun, periksa posisi dalam kalimat dan orang/benda yang dirujuk. Jangan menilai article hanya dari terjemahan Indonesia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Active vs Passive Forms",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Active vs Passive Forms",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Peta konsep: mengubah fokus informasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat aktif menempatkan pelaku sebagai subjek: “<i>The analyst reviewed the application.</i>” Kalimat pasif menempatkan penerima tindakan sebagai subjek: “<i>The application was reviewed by the analyst.</i>” Keduanya menggambarkan peninjauan yang sama, tetapi fokus informasinya berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Passive berguna ketika penerima tindakan lebih penting, pelaku tidak diketahui, atau pelaku sudah jelas. “<i>The applications were checked yesterday</i>” dapat memadai tanpa menyebut siapa yang memeriksa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Syarat dan langkah perubahan"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Pasif → S penerima tindakan + be + V3"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Objek aktif: the application | Subjek pasif: the application"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "reviewed → was reviewed (be + V3)"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pelaku: The analyst | Dalam pasif: by the analyst"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alur perubahan • Dari aktif ke pasif"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Peran",
+                "Aktif",
+                "Pasif"
+              ],
+              "baris": [
+                [
+                  "**Pelaku**",
+                  "The analyst",
+                  "by the analyst"
+                ],
+                [
+                  "**Tindakan**",
+                  "reviewed",
+                  "was reviewed"
+                ],
+                [
+                  "**Penerima tindakan**",
+                  "the application",
+                  "The application"
+                ],
+                [
+                  "**Kalimat lengkap**",
+                  "The analyst reviewed the application.",
+                  "The application was reviewed by the analyst."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk pasif menurut waktu"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Present continuous: am/is/are being + V3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>The records are being updated now.</i>” Being menunjukkan proses pasif sedang berlangsung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Present perfect: have/has been + V3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>The records have been updated.</i>”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pasif dengan modal: modal + be + V3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>The records must be updated.</i>” Untuk tindakan lampau yang dinilai melalui modal, dapat digunakan modal + have been + V3: “<i>The records should have been updated yesterday</i>” menyatakan bahwa pembaruan seharusnya sudah dilakukan kemarin."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Been, being, dan V3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Been adalah V3 dari be dan muncul setelah have/has/had dalam rangkaian perfect: has been checked. Being adalah bentuk -ing dari be yang membantu membentuk passive continuous: is being checked."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis contoh dan cara cepat"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "tentukan apakah subjek melakukan atau menerima tindakan. Jika menerima, cari bentuk be dan V3, lalu periksa tense serta agreement. Jika subjek hanya berada dalam keadaan, jangan langsung menganggap semua be + kata berikutnya adalah pasif; “The results are accurate” berisi adjective accurate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Parallel Structure",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Parallel Structure",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Peta konsep: unsur setara memakai susunan sebanding"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Parallel structure adalah kesejajaran unsur yang memiliki fungsi setara. Dalam “<i>The role requires accuracy, patience, and discipline</i>”, ketiga unsur merupakan noun. Kesejajaran membantu pembaca memahami bahwa ketiganya berada pada tingkat yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Noun, adjective, dan verb yang sejajar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak tepat: “<i>The instructions are clear, practical, and helpfully.</i>” Clear dan practical adalah adjective, sedangkan helpfully adalah adverb. Bentuk sejajar: “<i>The instructions are clear, practical, and helpful.</i>”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Susunan sejajar • Tiga unsur mengikuti pola yang sama"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pembuka",
+                "Unsur 1",
+                "Unsur 2",
+                "Unsur 3"
+              ],
+              "baris": [
+                [
+                  "**The guide is …**",
+                  "clear (adj.)",
+                  "practical (adj.)",
+                  "helpful (adj.)"
+                ],
+                [
+                  "**Periksa fungsi**",
+                  "menerangkan guide",
+                  "menerangkan guide",
+                  "menerangkan guide"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Frasa -ing dan to-infinitive"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>We plan to collect the data, to analyse the results, and to publish the findings</i>” memiliki tiga to-infinitives. To dapat pula dibagikan: “<i>We plan to collect the data, analyse the results, and publish the findings.</i>” Pengulangan to tidak selalu wajib."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Correlative conjunctions dan posisi pasangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan both ... and, either ... or, neither ... nor, dan not only ... but also menghubungkan unsur yang setara. “<i>The guide is both clear and practical</i>” memasangkan dua adjective."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis contoh dan cara cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh awal: “<i>The programme aims to improve accuracy, reducing delays, and strengthen cooperation.</i>” Kata aims memperkenalkan tujuan dengan to + V1. Improve dan strengthen mengikuti pola itu, sedangkan reducing tidak sejajar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbaikan: “<i>The programme aims to improve accuracy, reduce delays, and strengthen cooperation.</i>” Artinya: program bertujuan meningkatkan akurasi, mengurangi keterlambatan, dan memperkuat kerja sama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "cari and, or, than, dan pasangan penghubung; tandai unsur yang benar-benar dihubungkan; lalu bandingkan kelas kata dan strukturnya. Jangan memaksa semua kata dalam kalimat memiliki bentuk sama jika fungsinya berbeda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Gerunds and Infinitives",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Gerunds and Infinitives",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Peta konsep dan perbedaan fungsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gerund adalah bentuk -ing yang berfungsi seperti noun: “<i>Reading improves concentration.</i>” Reading merupakan kegiatan membaca yang menjadi subjek. To-infinitive berpola to + V1: “<i>She wants to learn.</i>” To learn melengkapi makna wants."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak semua -ing merupakan gerund. Dalam “<i>She is reading</i>”, reading merupakan bagian kata kerja continuous. Dalam “<i>an interesting report</i>”, interesting berfungsi sebagai adjective. Bentuk terlihat sama, tetapi fungsi dalam kalimat berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kata kerja yang diikuti gerund"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kerja umum yang diikuti gerund mencakup enjoy, avoid, consider, finish, postpone, suggest, mind, dan keep. Pelajari sebagai pasangan pola: avoid making mistakes, consider changing the plan, finish writing the report."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kata kerja yang diikuti infinitive"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kerja umum yang diikuti to-infinitive mencakup decide, hope, plan, agree, promise, refuse, manage, dan afford. “<i>They agreed to revise the schedule</i>” berarti mereka sepakat merevisi jadwal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Verb + object + infinitive"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Pola dengan objek → verb + object + to-infinitive"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>The trainer asked us to read the instructions</i>” berarti pelatih meminta kami membaca petunjuk. Us diperlukan karena menunjukkan pihak yang diminta. Bandingkan “<i>We asked to leave early</i>”, ketika subjek we sendiri meminta izin untuk pulang lebih awal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gerund setelah preposition"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "To tidak selalu penanda infinitive. Dalam look forward to dan be accustomed to, to adalah preposition: “<i>We look forward to meeting you</i>”; “<i>She is accustomed to working early.</i>”"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Kebiasaan lampau → used to + V1"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Sudah terbiasa → be used to + noun / V-ing"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perubahan makna: remember, forget, stop, try, regret"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>Remember to send the email</i>” berarti jangan lupa melakukan pengiriman. “<i>I remember sending the email</i>” berarti saya ingat pernah melakukannya. Yang pertama melihat tugas yang perlu dilakukan; yang kedua mengingat kejadian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>Try to restart the computer</i>” menekankan upaya melakukan restart. “<i>Try restarting the computer</i>” mengusulkan restart sebagai metode yang mungkin memecahkan masalah."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Dua cabang makna • Stop + -ing atau stop + to?"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kalimat",
+                "Kegiatan yang berhenti",
+                "Fungsi bentuk setelah stop"
+              ],
+              "baris": [
+                [
+                  "**He stopped talking.**",
+                  "Berbicara",
+                  "talking menamai kegiatan yang dihentikan."
+                ],
+                [
+                  "**He stopped to answer the phone.**",
+                  "Kegiatan lain yang sedang dilakukan",
+                  "to answer menunjukkan tujuan ia berhenti."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis contoh dan cara cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh: “<i>We look forward to discussing the proposal and hope to reach an agreement.</i>” Discussing mengikuti preposition to dalam look forward to, sedangkan to reach mengikuti hope. Dua to dalam satu kalimat memiliki fungsi berbeda."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "periksa unsur sebelum bagian yang dianalisis. Apakah berupa preposition, verb dengan pola tertentu, modal, atau ungkapan tujuan? Setelah pola ditemukan, baca maknanya, terutama pada remember, stop, dan try. Jangan menganggap semua to harus diikuti V1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Conjunction",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Conjunction",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Peta konsep: menghubungkan bentuk dan makna"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Conjunction menghubungkan kata, frasa, atau klausa. Penghubung perlu cocok secara struktur dan hubungan gagasan. “<i>The report is short but clear</i>” memakai but karena ada kontras antara singkat dan tetap jelas. “<i>The report is short and clear</i>” sekadar menambahkan dua sifat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Coordinating conjunctions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "And menyatakan penambahan; but menyatakan pertentangan; or menyatakan pilihan; so menyatakan akibat; yet dapat menyatakan pertentangan yang mengejutkan; for sebagai conjunction memberi alasan; nor melanjutkan gagasan negatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Correlative conjunctions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Both ... and berarti keduanya; either ... or menawarkan alternatif; neither ... nor meniadakan keduanya; not only ... but also menambahkan informasi dengan penekanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Subordinating conjunctions dan klausa terikat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>Because the figures were incomplete, we checked the source again</i>” sudah lengkap. Jika klausa terikat mendahului klausa utama, gunakan koma sesudahnya. Jika mengikuti klausa utama, koma sering tidak diperlukan: “<i>We checked the source again because the figures were incomplete.</i>”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan menulis dua penanda hubungan yang bertabrakan dalam pola standar: “<i>Because the file was missing, so we searched again.</i>” Pilih “<i>Because the file was missing, we searched again</i>” atau “<i>The file was missing, so we searched again.</i>”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peta struktur • Sebab yang sama, dua cara menyatakannya"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Penghubung",
+                "Struktur setelahnya",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "**because**",
+                  "Subjek + kata kerja",
+                  "because the system failed"
+                ],
+                [
+                  "**because of**",
+                  "Noun atau frasa noun",
+                  "because of a system failure"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sebab, akibat, dan tujuan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "So menghubungkan sebab dengan akibat: “<i>The system failed, so we used a backup.</i>” So that menyatakan tujuan: “<i>We saved a backup so that we could recover the data.</i>” Akibat sudah terjadi atau diperkirakan sebagai konsekuensi; tujuan menyatakan hasil yang diinginkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pertentangan dan konsesi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Despite dan in spite of diikuti noun atau gerund: “<i>Despite the difficulty, she completed the task</i>”; “<i>Despite working alone, she finished on time.</i>” Tidak tepat: “<i>Despite the task was difficult ...</i>” tanpa penambahan struktur seperti the fact that."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan memasangkan although dengan but untuk dua klausa yang sama: “<i>Although the task was difficult, but she finished it</i>” tidak tepat dalam pola standar. Gunakan salah satu hubungan yang lengkap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "However dan therefore: penghubung makna yang berbeda struktur"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "However, therefore, moreover, dan nevertheless sering menghubungkan gagasan, tetapi secara struktur merupakan conjunctive adverbs, bukan coordinating conjunctions seperti but atau so."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>The form was incomplete. Therefore, we returned it</i>” menggunakan dua kalimat. Bentuk lain: “<i>The form was incomplete; therefore, we returned it.</i>” Titik koma memisahkan dua klausa mandiri yang berkaitan erat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak tepat dalam tulisan formal: “<i>The form was incomplete, therefore we returned it.</i>” Koma saja tidak cukup untuk menyambungkan dua klausa mandiri dengan therefore. Kesalahan seperti ini disebut comma splice."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis contoh dan cara cepat"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "pisahkan klausa, tentukan hubungan gagasan, lalu cek bentuk setelah penghubung. Jika setelahnya subjek + verb, because atau although mungkin sesuai; jika frasa noun, because of atau despite mungkin diperlukan. Terakhir, cek koma, titik, atau titik koma."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Vocabulary dalam Konteks Grammar",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Vocabulary dalam Konteks Grammar",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Accuracy, accurate, dan accurately"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Accuracy adalah noun yang berarti akurasi atau ketepatan; accurate adalah adjective; accurately adalah adverb. Perbedaan kelas kata menentukan posisi penggunaannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“<i>The accuracy of the report matters</i>” menempatkan accuracy sebagai inti subjek. “<i>The report is accurate</i>” memakai accurate setelah linking verb is. “<i>The officer recorded the figures accurately</i>” memakai accurately untuk menjelaskan cara mencatat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Applicant, analyst, dan assistance"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Applicant berarti pelamar atau pemohon dan merupakan countable noun: one applicant, several applicants. “<i>Each applicant receives a confirmation email</i>” menggabungkan kosakata dengan agreement setelah each."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Assistance berarti bantuan dan umumnya uncountable. “<i>We need assistance with the application</i>” tepat; “<i>an assistance</i>” tidak tepat untuk makna umum bantuan. Jika perlu unit yang dapat dihitung, susun ulang sesuai maksud, misalnya “<i>an offer of assistance</i>”."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Word families, collocation, dan konteks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keluarga kata membantu mengenali bentuk seperti decide–decision, explain–explanation, dan accurate–accuracy. Namun, akhiran hanyalah petunjuk. Tidak semua kata berakhiran -ly adalah adverb; friendly, misalnya, umumnya adjective."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Collocation adalah pasangan kata yang lazim: make a decision, meet a deadline, submit an application, dan provide assistance. Pasangan ini sebaiknya dipelajari sebagai satu kelompok karena terjemahan kata per kata dapat menghasilkan ungkapan yang janggal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman Cepat",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman Cepat",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Topik",
+                "Bentuk tepat",
+                "Kesalahan dan alasan"
+              ],
+              "baris": [
+                [
+                  "Tenses",
+                  "She sent it yesterday.",
+                  "Bukan has sent ... yesterday untuk waktu lampau yang sudah selesai."
+                ],
+                [
+                  "Bentuk verb",
+                  "She has written it.",
+                  "Bukan has wrote: perfect membutuhkan V3."
+                ],
+                [
+                  "Agreement",
+                  "Each applicant has a form.",
+                  "Bukan have: each merupakan inti tunggal."
+                ],
+                [
+                  "Noun dan rujukan",
+                  "I need some information. This file is hers.",
+                  "Bukan an information atau hers file; periksa countability dan fungsi possessive."
+                ],
+                [
+                  "Passive",
+                  "The file is being checked.",
+                  "Bukan is being check: kata kerja utama pasif memakai V3."
+                ],
+                [
+                  "Parallel structure",
+                  "We read, check, and revise.",
+                  "Bukan read, checking, and revise dalam satu daftar tindakan setara."
+                ],
+                [
+                  "Gerund dan infinitive",
+                  "Avoid making errors. Decide to act.",
+                  "Bukan avoid to make atau decide acting pada makna ini."
+                ],
+                [
+                  "Conjunction",
+                  "Although it rained, we came.",
+                  "Bukan although ... but untuk menghubungkan dua klausa yang sama."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cara Memeriksa Kalimat secara Menyeluruh",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cara Memeriksa Kalimat secara Menyeluruh",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mulailah dari makna: siapa atau apa yang dibicarakan, tindakan atau keadaan apa yang terjadi, dan kapan waktunya. Temukan subjek serta kata kerja utama sebelum memeriksa detail kecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selanjutnya, periksa rangkaian kata kerja: apakah kata bantu sesuai, apakah diperlukan V1/V2/V3/V-ing, dan apakah subjek melakukan atau menerima tindakan. Periksa agreement dengan inti subjek, bukan sekadar noun terdekat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah itu, periksa frasa noun: jumlah, countability, article, dan kejelasan pronoun. Periksa pula pola setelah verb atau preposition serta kesejajaran daftar. Terakhir, pastikan penghubung dan tanda baca menyampaikan hubungan gagasan yang benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh terpadu: “<i>Each of the analysts has agreed to review the applications carefully before the results are announced.</i>” Each merupakan inti subjek tunggal, sehingga has tepat. Agreed adalah V3 setelah has. To review mengikuti agree. Applications merupakan noun jamak. Carefully menjelaskan cara meninjau. Before memperkenalkan klausa waktu. Results menerima tindakan, sehingga are announced berbentuk pasif dan mengikuti subjek jamak."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bekal Dasar: Cara Membaca Struktur Kalimat",
+        "teks": ""
+      },
+      {
+        "judul": "Tenses",
+        "teks": ""
+      },
+      {
+        "judul": "Regular and Irregular Verbs",
+        "teks": ""
+      },
+      {
+        "judul": "Subject-verb Agreement",
+        "teks": ""
+      },
+      {
+        "judul": "Noun, Articles, and Pronouns",
+        "teks": ""
+      },
+      {
+        "judul": "Active vs Passive Forms",
+        "teks": ""
+      }
+    ],
+    "pesan": "Grammar dan vocabulary saling mendukung. Grammar menunjukkan hubungan antarkata, sedangkan vocabulary membantu memahami isi dan ketepatan makna. Delapan topik utama dalam materi ini membentuk fondasi untuk membaca, menilai, dan menyusun kalimat bahasa Inggris. Saat menemui kesalahan, jelaskan penyebabnya dan tuliskan perbaikannya beserta maknanya. Kebiasaan ini lebih membantu daripada hanya mengingat bahwa sebuah kalimat “<i>terdengar benar</i>”. Setelah fondasi dipahami, pembelajaran dapat dilanjutkan ke empat tab bentuk soal."
+  }
+}
