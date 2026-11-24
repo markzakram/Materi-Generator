@@ -898,6 +898,20 @@ def _kapital_awal(t):
     return t[:1].upper() + t[1:]
 
 
+def _soal_sisipan(isi):
+    """(isi materi, isi soal): 'Contoh Soal — Metode Substitusi' yang ditulis di tengah Materi dipisah, karena contoh
+    soal selalu menjadi deck sendiri."""
+    materi, soal, tingkat = [], [], None
+    for el in isi:
+        t = TINGKAT.get(el["jenis"])
+        if t and tingkat and t <= tingkat:
+            tingkat = None
+        if t and re.match(r"^contoh soal\b", _bersih(el["teks"]), re.I):
+            tingkat, el = t, dict(el, jenis="h2")
+        (soal if tingkat else materi).append(el)
+    return materi, soal
+
+
 LEWATI_BAGIAN = ("sumber", "referensi", "daftar pustaka", "daftar rujukan", "kata pengantar", "capaian pembelajaran",
                  "pemetaan referensi")
 
@@ -984,6 +998,7 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
                 if el.get("tambahan"):
                     naskah["tujuan"].setdefault("tambahan", []).append(_catatan_tambahan(el))
         elif kunci == "materi":
+            isi, sisipan = _soal_sisipan(isi)
             sub, isi_sub = None, []
             for el in isi:
                 if el["jenis"] == "h2" and el["polos"]:
@@ -994,6 +1009,9 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
                     isi_sub.append(el)
             if sub is not None or isi_sub:
                 tambah_subbab(sub or judul_bersih, isi_sub, False)
+            soal = _soal(penyusun, sisipan)
+            if soal:
+                naskah["materi"].append({"subbab": "Contoh Soal", "ikon": "checklist", "slide": soal})
         elif kunci.startswith("contoh soal") or kunci.startswith("latihan soal"):
             soal = _soal(penyusun, isi)
             if soal:

@@ -422,7 +422,7 @@ class PembangunLatihan:
 
     def _kepala_bahas(self, so, nav, lanjutan):
         s = self.baru(nav, kunci=None if lanjutan else ("bahas", so["nomor"]))
-        label = f"Pembahasan Soal {so['nomor']}" + (" (lanjutan)" if lanjutan else "")
+        label = f"Pembahasan Soal {so['nomor']}"
         w_chip = D.chip(s, label, IKON_NAV[nav])
         if so["kunci"]:
             D.pil(s, D.KIRI + w_chip + 0.3, D.Y_CHIP + (D.H_CHIP - 0.56) / 2, f"Jawaban {so['kunci']}",

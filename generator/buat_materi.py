@@ -344,7 +344,7 @@ class Pembangun:
         """Tata blok berurutan; buat_slide(lanjutan, judul) -> (slide, y). Slide baru dibuat bila penuh.
 
         Jika judul_dari_subjudul, halaman baru yang dimulai tepat di subjudul memakai subjudul itu
-        sebagai judul slide; halaman lanjutan lain diberi judul subjudul terakhir + "(lanjutan)".
+        sebagai judul slide; halaman lanjutan lain memakai judul subjudul terakhir (tanpa kata "lanjutan").
         """
         s, y = buat_slide(False, None)
         kosong = True
@@ -386,7 +386,7 @@ class Pembangun:
                     kosong = True
                     i += 1
                     continue
-                s, y = buat_slide(True, f"{subjudul_akhir} (lanjutan)" if subjudul_akhir else None)
+                s, y = buat_slide(True, subjudul_akhir)
                 kosong = True
                 if pindah_dulu:
                     continue  # ukur ulang blok ini di halaman baru
@@ -428,7 +428,7 @@ class Pembangun:
     def _slide_blok(self, sub, sl):
         def buat(lanjutan, judul=None):
             s = self.baru("Pendalaman Materi")
-            judul = judul or (sl["judul"] + (" (lanjutan)" if lanjutan else ""))
+            judul = judul or sl["judul"]
             return s, D.kerangka_isi(s, sub["subbab"], sub.get("ikon", "checklist"), judul,
                                      None if lanjutan else sl.get("pengantar"))
 
@@ -442,7 +442,7 @@ class Pembangun:
 
         def kepala_soal(lanjutan, _judul=None):
             s = self.baru("Pendalaman Materi")
-            w_chip = D.chip(s, judul + (" (lanjutan)" if lanjutan else ""), sub.get("ikon", "checklist"))
+            w_chip = D.chip(s, judul, sub.get("ikon", "checklist"))
             x = D.X_CHIP + w_chip + 0.25
             for t in tag:
                 _, w = D.pil(s, x, D.Y_CHIP + (D.H_CHIP - 0.46) / 2, t, ukuran=13)
@@ -476,7 +476,7 @@ class Pembangun:
 
         def kepala_bahas(lanjutan, _judul=None):
             s = self.baru("Pendalaman Materi")
-            w_chip = D.chip(s, f"Pembahasan {judul}" + (" (lanjutan)" if lanjutan else ""), "strategi")
+            w_chip = D.chip(s, f"Pembahasan {judul}", "strategi")
             if kunci:
                 D.pil(s, D.X_CHIP + w_chip + 0.25, D.Y_CHIP + (D.H_CHIP - 0.56) / 2, f"Jawaban {kunci}",
                       ukuran=18, warna="kuning", warna_teks="di_kuning", h=0.56, nama="Jawaban")

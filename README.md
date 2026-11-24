@@ -10,7 +10,7 @@ Dokumen materi di Google Docs bisa dikonversi otomatis menjadi naskah, lalu diti
 ## Alur kerja
 
 1. **Dokumen → naskah.** Dokumen materi (templat booklet SKD) diunduh sebagai `.docx` dan dikonversi oleh `generator/impor_katalog.py` menjadi `konten/*.json` beserta gambarnya di `konten/media/`.
-2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 75 deck TIU (Verbal, Numerik, dan Figural; materi dan contoh soal), mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
+2. **Tinjau dan sunting.** Di dasbor web, tim akademik melihat 76 deck TIU (Verbal, Numerik, dan Figural; materi dan contoh soal), mengambil tugas tinjauan, memberi status dan catatan, lalu membuka editor untuk mengubah isi slide dengan pratinjau langsung.
 3. **Ekspor.** Unduh PPTX dari dasbor atau editor. PDF dibuat di Windows lokal (butuh PowerPoint).
 
 ## Cara pakai (baris perintah)
@@ -43,7 +43,7 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (76 deck: 28 Verbal, 41 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (57 deck TKU PCAM OJK: 29 materi dan 28 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (77 deck: 28 Verbal, 42 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (57 deck TKU PCAM OJK: 29 materi dan 28 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
 
 Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn`.
 
@@ -56,7 +56,7 @@ python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-gene
 
 Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general` (satu tampilan, jadi halaman tidak menampilkan pilihan). Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
 
-Ukuran: TIU sekitar 196 MB dan OJK sekitar 142 MB, jadi seluruh situs sekitar 338 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
+Ukuran: TIU sekitar 198 MB dan OJK sekitar 142 MB, jadi seluruh situs sekitar 340 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
 
 Untuk memperbarui daftar saja (kelompok, tautan dokumen, jenis deck) tanpa membangun deck, jalankan perintah yang sama dengan `--hanya-data`; PowerPoint dan template tidak dibutuhkan.
 
@@ -77,7 +77,7 @@ Deploy di Vercel: buat proyek dari repo yang sama dengan Root Directory = `situs
 python generator/impor_katalog.py --docx folder_docx
 ```
 
-Soal yang ditulis di dokumen materi selalu dipisah menjadi deck sendiri, baik yang punya baris "Contoh Soal" di sheet (mis. Silogisme 02–06) maupun yang tidak (mis. Rasio; `baris_sheet`-nya memakai baris materi). Entri `"bagian": "soal"` (mis. `vs-02-soal`) memakai `doc_id` yang sama, dan importer memisahkan satu dokumen menjadi dua naskah: materi (`tiu_vs02_logika_kondisional.json`) dan contoh soal (`tiu_vs02_contoh_soal.json`). Deck contoh soal hanya memuat sampul, peta materi, soal, dan pembahasan; importer menandai soal yang tidak punya kunci ("TANPA KUNCI").
+Soal yang ditulis di dokumen materi selalu dipisah menjadi deck sendiri, baik yang punya baris "Contoh Soal" di sheet (mis. Silogisme 02–06) maupun yang tidak (mis. Rasio; `baris_sheet`-nya memakai baris materi). Contoh soal yang ditulis di tengah Materi (heading "Contoh Soal — Metode Substitusi" di Persamaan Linear) ikut dipisah (`_soal_sisipan`). Entri `"bagian": "soal"` (mis. `vs-02-soal`) memakai `doc_id` yang sama, dan importer memisahkan satu dokumen menjadi dua naskah: materi (`tiu_vs02_logika_kondisional.json`) dan contoh soal (`tiu_vs02_contoh_soal.json`). Deck contoh soal hanya memuat sampul, peta materi, soal, dan pembahasan; importer menandai soal yang tidak punya kunci ("TANPA KUNCI").
 
 Hanya entri dengan `"otomatis": true` yang ditimpa. Satu dokumen bisa dikonversi langsung dengan `generator/ekstrak_gdoc.py`.
 
@@ -195,7 +195,7 @@ Catatan:
 Tipe slide materi (`tipe`):
 
 - Tata letak khusus: `tabel`, `tabel_kebenaran`, `banding`, `notasi`, `kartu`, `alur`, `langkah`, `teks_ikon`. Setiap slide boleh punya `catatan` dengan `jenis` `peringatan` atau `tips`. Contoh lengkap ada di `konten/tiu_penalaran_logis.json` dan `konten/tiu_verbal_analogi.json`.
-- `blok`: isi umum hasil konversi dokumen, berupa daftar `blok[]` dengan `jenis` `paragraf`, `subjudul`, `sorot`, `poin`, `gambar`, `tabel`, atau `catatan`. Bila slide penuh, generator membuat slide lanjutan; slide yang dimulai tepat di subjudul memakai subjudul itu sebagai judul.
+- `blok`: isi umum hasil konversi dokumen, berupa daftar `blok[]` dengan `jenis` `paragraf`, `subjudul`, `sorot`, `poin`, `gambar`, `tabel`, atau `catatan`. Bila slide penuh, generator membuat slide sambungan berjudul sama, tanpa kata "(lanjutan)"; slide yang dimulai tepat di subjudul memakai subjudul itu sebagai judul.
 - `contoh_soal`: `judul`, `label` (opsional), `soal[]` (blok), `opsi` (`A`–`E`), `kunci`, `pembahasan[]` (blok). Menghasilkan slide soal dan slide pembahasan yang saling bertaut. Opsi yang semuanya pendek disusun mendatar.
 
 Markup teks: `**tebal**` dan `$p → q$` untuk simbol/rumus (ditulis dengan Cambria Math karena Poppins tidak punya glyph logika). Di dalam `$…$`, `^{…}` menjadi superskrip dan `_{…}` subskrip, mis. `$x^{2}$` dan `$U_{n}$`; pecahan ditulis mendatar (`3/4`).

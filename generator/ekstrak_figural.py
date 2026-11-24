@@ -263,8 +263,6 @@ class Pengambil:
                     blok.append(g)
             if not materi or materi[-1]["subbab"] != subbab:
                 materi.append({"subbab": subbab, "ikon": E.IKON_SUBBAB[len(materi) % len(E.IKON_SUBBAB)], "slide": []})
-            if materi[-1]["slide"] and materi[-1]["slide"][-1]["judul"] == jenis:
-                jenis += " (lanjutan)"  # rotasi 135 dan 180 derajat
             materi[-1]["slide"].append({"tipe": "blok", "judul": jenis, "blok": blok})
         return materi
 
