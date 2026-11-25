@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Synthesizing Information",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Synthesizing Information",
+    "sumber": "https://docs.google.com/document/d/1OuusDH0kc2dxsATLMjLIX6-EF9Fq3R6daDNc8RPT1EI/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-12-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A city introduced a rainwater-harvesting scheme in public schools. Storage tanks collected water from rooftops for cleaning and garden irrigation. Several schools reported lower use of treated municipal water, although their tanks ran low during long dry periods."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teachers at participating schools reported that the stored rainwater was particularly useful for non-drinking purposes, such as washing outdoor areas and watering plants. They avoided using the collected water for drinking because the systems had not been designed or tested for potable supply. Some schools also found that regular cleaning of gutters and filters affected the reliability of the collection equipment."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "An engineering assessment found that rainwater collection performs best when tank capacity matches local rainfall and building demand. Larger tanks can increase storage but require more space and investment. The assessment recommended combining harvesting with water-saving fixtures and routine maintenance rather than assuming stored rainwater could meet all needs year-round."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The engineering assessment offered a way to interpret the schools' experiences. Tank size should be selected after examining typical rainfall, the amount of water a school uses, and the physical space available. Even well-designed tanks cannot provide an unlimited supply during prolonged dry conditions, so demand-reduction measures remain important."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "In which paragraph of Text 2 does the writer state that larger rainwater tanks require more space and investment? Answer with a number."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini menanyakan lokasi informasi yang menyebutkan konsekuensi penggunaan tangki penampungan air hujan berkapasitas lebih besar. Dalam Text 2, paragraf pertama terdapat kalimat, “Larger tanks can increase storage but require more space and investment.” Kalimat tersebut secara langsung menyatakan bahwa tangki yang lebih besar membutuhkan lebih banyak ruang dan investasi. Oleh karena itu, jawabannya adalah 1, yaitu paragraf pertama Text 2. Pada materi Synthesizing Information, informasi ini merupakan batasan teknis dan finansial yang perlu digabungkan dengan manfaat penampungan air hujan yang dijelaskan dalam Text 1. Penomoran paragraf dihitung khusus di dalam Text 2, bukan dari awal keseluruhan stimulus."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Which synthesis best represents both texts?"
+            }
+          ],
+          "opsi": {
+            "A": "Stored rainwater can replace municipal supplies whenever collection tanks are enlarged.",
+            "B": "Larger tanks provide the best results regardless of rainfall and available space.",
+            "C": "Rainwater storage can reduce treated-water use, subject to rainfall and maintenance limits.",
+            "D": "Schools should prioritize garden irrigation over reducing their overall water demand.",
+            "E": "Water-saving fixtures can provide an adequate supply without collection infrastructure."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan meminta sintesis yang merepresentasikan manfaat serta batasan kedua teks. Text 1 menunjukkan bahwa sekolah dapat mengurangi penggunaan air olahan melalui penampungan air hujan untuk kebutuhan nonminum, tetapi tangki menipis saat kering. Text 2 menekankan kapasitas, curah hujan, pemeliharaan, dan perlengkapan hemat air. Karena itu, opsi C benar: manfaat penampungan tetap diakui dengan syarat ketersediaan air dan pengelolaan yang tepat. Materi Synthesizing Information menuntut integrasi dua kontribusi, bukan pemilihan satu sisi saja."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena tangki yang lebih besar tidak selalu menjamin air cukup saat musim kering panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B salah karena ukuran tangki harus mempertimbangkan curah hujan, kebutuhan, ruang, dan biaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena tidak ada anjuran menempatkan irigasi di atas penghematan air secara umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena perlengkapan hemat air mengurangi kebutuhan, bukan menghasilkan pasokan baru."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "Both sources suggest rainwater collection can have practical value.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The first text reports that tanks never run low.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "A balanced synthesis should ignore water-saving fixtures.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The second text considers storage space and investment.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Synthesizing Information, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan. Pernyataan 1 benar karena kedua teks mendukung nilai praktis penampungan air hujan. Pernyataan 2 salah karena Text 1 menjelaskan tangki dapat menipis saat periode kering yang panjang. Pernyataan 3 salah karena Text 2 justru merekomendasikan perlengkapan hemat air. Pernyataan 4 benar karena Text 2 mempertimbangkan ruang dan investasi yang dibutuhkan tangki. Dalam Synthesizing Information, sintesis harus mempertahankan manfaat sekaligus keterbatasan dari kedua sumber."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Benar): manfaat dan perencanaan disampaikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Salah): tangki berkurang saat musim kering panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Salah): perlengkapan hemat air justru direkomendasikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Benar): tangki besar memerlukan keduanya."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

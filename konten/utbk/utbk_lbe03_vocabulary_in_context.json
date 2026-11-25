@@ -1,0 +1,792 @@
+{
+  "meta": {
+    "judul": "Vocabulary in Context",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Vocabulary in Context",
+    "sumber": "https://docs.google.com/document/d/1MaQf8YSFrwCn7vUdUs2VOF4nMx2sbl4kONGhqaW-rNo/edit",
+    "id_katalog": "lbe-03"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Vocabulary in Context merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan memahami makna kata atau frasa berdasarkan konteks penggunaannya dalam sebuah teks. Suatu kata dalam bahasa Inggris dapat memiliki beberapa makna yang berbeda bergantung pada struktur kalimat, topik pembahasan, dan hubungan antargagasan. Oleh karena itu, peserta tidak cukup hanya menghafalkan arti kosakata, tetapi juga perlu memahami petunjuk konteks, seperti sinonim, antonim, contoh, definisi, dan hubungan sebab-akibat. Melalui materi ini, peserta akan mempelajari cara mengidentifikasi makna kontekstual, mengenali perubahan makna kata dalam situasi berbeda, serta menentukan padanan kata yang tepat tanpa mengubah pesan asli. Penguasaan keterampilan tersebut akan membantu peserta menyelesaikan soal kosakata dalam Literasi Bahasa Inggris UTBK-SNBT secara akurat dan efisien."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian Vocabulary in Context."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "makna literal, kontekstual, denotatif, dan konotatif."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "berbagai jenis context clues."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "makna kata yang memiliki lebih dari satu arti."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "perubahan makna berdasarkan konteks penggunaan."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "contextual substitution test untuk menentukan padanan kata yang tepat."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "soal kosakata dengan menggunakan bukti tekstual."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Vocabulary in Context",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Vocabulary in Context",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Vocabulary in Context"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Vocabulary in Context adalah kemampuan menentukan makna kata atau frasa berdasarkan informasi yang terdapat dalam kalimat, paragraf, atau keseluruhan bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam bahasa Inggris, suatu kata tidak selalu memiliki satu arti tetap. Maknanya dapat berubah sesuai dengan konteks penggunaannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kalimat",
+                "Makna kata issue"
+              ],
+              "baris": [
+                [
+                  "The government must address this **issue** immediately.",
+                  "Masalah atau persoalan"
+                ],
+                [
+                  "The magazine publishes a new **issue** every month.",
+                  "Edisi atau terbitan"
+                ],
+                [
+                  "The office will **issue** new identification cards.",
+                  "Menerbitkan atau mengeluarkan"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga kalimat menggunakan kata issue, tetapi maknanya berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kalimat pertama, kata tersebut merujuk pada persoalan yang perlu ditangani. Pada kalimat kedua, issue berarti edisi majalah. Sementara itu, pada kalimat ketiga, issue berfungsi sebagai kata kerja yang berarti menerbitkan atau mengeluarkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, penentuan makna kosakata harus mempertimbangkan hubungan antara kata dan informasi di sekitarnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Literal Meaning dan Contextual Meaning"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Literal meaning adalah makna dasar suatu kata, sedangkan contextual meaning adalah makna yang dimiliki kata tersebut dalam penggunaan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new policy aims to bridge the gap between urban and rural schools."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata bridge secara literal berarti jembatan atau menjembatani."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pada kalimat tersebut, bridge bermakna mengurangi atau mengatasi kesenjangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penulis tidak sedang membicarakan pembangunan jembatan fisik, melainkan upaya memperkecil perbedaan antara sekolah perkotaan dan pedesaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Denotative Meaning dan Connotative Meaning"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Denotative meaning adalah makna langsung atau makna dasar yang lazim dicatat dalam kamus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Connotative meaning merupakan makna tambahan atau asosiasi yang dapat membawa kesan positif, negatif, maupun emosional."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kata",
+                "Makna dasar",
+                "Kemungkinan konotasi"
+              ],
+              "baris": [
+                [
+                  "Persistent",
+                  "Terus berusaha atau bertahan",
+                  "Positif: gigih"
+                ],
+                [
+                  "Stubborn",
+                  "Tidak mau mengubah pendirian",
+                  "Negatif: keras kepala"
+                ],
+                [
+                  "Economical",
+                  "Hemat dalam penggunaan sumber daya",
+                  "Positif: efisien"
+                ],
+                [
+                  "Stingy",
+                  "Enggan mengeluarkan uang atau berbagi",
+                  "Negatif: pelit"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meskipun persistent dan stubborn sama-sama dapat berkaitan dengan sikap tidak mudah berubah, keduanya tidak selalu dapat dipertukarkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal Vocabulary in Context, peserta harus mempertimbangkan makna sekaligus kesan yang dibangun penulis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Context Clues: Petunjuk Menentukan Makna Kata",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Context Clues: Petunjuk Menentukan Makna Kata",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Context clues merupakan petunjuk yang terdapat dalam teks dan membantu pembaca menentukan makna kata yang belum dikenal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat beberapa jenis petunjuk yang penting untuk dipahami."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Definition Clues"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk definisi muncul ketika penulis memberikan penjelasan langsung mengenai makna suatu istilah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Biodiversity, the variety of living organisms within an ecosystem, plays an important role in environmental stability."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Istilah biodiversity dijelaskan melalui frasa the variety of living organisms within an ecosystem. Dengan demikian, biodiversity berarti keanekaragaman organisme hidup dalam suatu ekosistem."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda yang umum digunakan adalah means, refers to, is defined as, atau penjelasan yang diapit tanda koma."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Synonym or Restatement Clues"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk sinonim muncul ketika penulis menggunakan kata atau frasa yang memiliki makna sama atau berdekatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The scientist's findings were preliminary, or based on early observations rather than final results."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Frasa based on early observations rather than final results menjelaskan bahwa preliminary berarti awal atau sementara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda yang dapat muncul antara lain or, in other words, that is, dan namely."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Antonym or Contrast Clues"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk pertentangan muncul ketika makna kata dapat dipahami melalui perbandingan dengan keadaan yang berlawanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Unlike the abundant rainfall experienced during the previous year, water supplies became scarce during the drought."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata abundant berarti melimpah, sedangkan scarce berarti langka atau terbatas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata unlike membantu pembaca mengenali hubungan pertentangan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda yang umum digunakan meliputi however, whereas, unlike, although, dan in contrast."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Example Clues"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk contoh muncul ketika suatu istilah dijelaskan melalui beberapa ilustrasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Many nocturnal animals, such as owls, bats, and certain rodents, are most active after sunset."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh burung hantu, kelelawar, dan hewan pengerat tertentu membantu pembaca memahami bahwa nocturnal berkaitan dengan aktivitas pada malam hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda yang sering digunakan adalah such as, including, for example, dan for instance."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cause-and-Effect Clues"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk sebab-akibat membantu menjelaskan makna suatu kata melalui konsekuensi atau faktor penyebab."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The bridge's structure had deteriorated after decades of exposure to harsh weather, making major repairs necessary."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kebutuhan perbaikan besar menunjukkan bahwa deteriorated berarti mengalami kerusakan atau penurunan kondisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda hubungan sebab-akibat antara lain because, therefore, consequently, resulting in, dan as a result."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "General Context Clues"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak semua petunjuk makna disampaikan melalui kata penghubung yang jelas. Terkadang makna harus ditentukan berdasarkan keseluruhan situasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Despite several unsuccessful attempts, the research team remained resolute and continued working until the experiment produced reliable results."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Frasa despite several unsuccessful attempts dan continued working menunjukkan bahwa resolute berarti teguh atau memiliki tekad kuat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna tersebut diperoleh dengan menggabungkan beberapa informasi dalam kalimat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Multiple Meanings dan Semantic Shifts",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Multiple Meanings dan Semantic Shifts",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Multiple-Meaning Words"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Multiple-meaning words merupakan kata yang dapat memiliki lebih dari satu makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Salah satu bentuknya adalah polysemy, yaitu ketika satu kata memiliki beberapa makna yang saling berkaitan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kata",
+                "Konteks 1",
+                "Konteks 2"
+              ],
+              "baris": [
+                [
+                  "Address",
+                  "Address a problem: menangani masalah",
+                  "Home address: alamat rumah"
+                ],
+                [
+                  "Run",
+                  "Run a company: mengelola perusahaan",
+                  "Run quickly: berlari cepat"
+                ],
+                [
+                  "Charge",
+                  "Charge a battery: mengisi daya",
+                  "Charge a fee: mengenakan biaya"
+                ],
+                [
+                  "Light",
+                  "A light bag: tas ringan",
+                  "Light from the sun: cahaya"
+                ],
+                [
+                  "Conduct",
+                  "Conduct research: melaksanakan penelitian",
+                  "Conduct electricity: menghantarkan listrik"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan makna ini menunjukkan pentingnya memahami fungsi kata dalam kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Semantic Shift in Context"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam lingkup materi ini, semantic shift merujuk pada perbedaan interpretasi suatu kata ketika digunakan pada konteks yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan dua kalimat berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The government introduced strict measures to contain the spread of the disease."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The container was designed to contain hazardous chemicals safely."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kalimat pertama, contain bermakna membatasi atau mengendalikan penyebaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kalimat kedua, contain bermakna menampung atau menyimpan sesuatu di dalam wadah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya memiliki hubungan makna yang berkaitan dengan pembatasan atau penahanan, tetapi penerapannya berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Makna Idiomatis dan Figuratif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa frasa tidak dapat diterjemahkan secara langsung berdasarkan arti masing-masing kata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new scholarship program opened the door to higher education for students from disadvantaged backgrounds."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Frasa opened the door tidak berarti membuka pintu secara fisik, melainkan menciptakan kesempatan atau akses."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh lainnya:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Frasa",
+                "Makna kontekstual"
+              ],
+              "baris": [
+                [
+                  "Go a long way",
+                  "Memberikan manfaat atau dampak besar"
+                ],
+                [
+                  "Shed light on",
+                  "Memperjelas atau memberikan pemahaman"
+                ],
+                [
+                  "Under pressure",
+                  "Menghadapi tekanan"
+                ],
+                [
+                  "At stake",
+                  "Sedang dipertaruhkan"
+                ],
+                [
+                  "Take into account",
+                  "Mempertimbangkan"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Contextual Substitution Test",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Contextual Substitution Test",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Contextual substitution test merupakan strategi untuk menentukan apakah suatu kata dapat diganti dengan kata lain tanpa mengubah makna yang dimaksud."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah-Langkah Substitution Test"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identifikasi kata atau frasa yang ditanyakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Baca kalimat tempat kata tersebut digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Tentukan makna kata berdasarkan konteks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Ganti kata tersebut dengan pilihan jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Periksa apakah hasil penggantian tetap sesuai secara makna dan gramatikal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers obtained substantial evidence to support their findings."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata yang ditanyakan: substantial."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan padanan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Limited",
+                "Considerable",
+                "Temporary",
+                "Unrelated",
+                "Uncertain"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Padanan yang paling tepat adalah considerable, karena keduanya dapat menggambarkan bukti dalam jumlah atau tingkat yang besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan hasil substitusinya:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers obtained considerable evidence to support their findings."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat tersebut tetap mempertahankan makna sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebaliknya, mengganti substantial dengan limited akan mengubah makna menjadi bukti yang terbatas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tiga Kriteria Substitusi yang Tepat"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kriteria",
+                "Pertanyaan pemeriksaan"
+              ],
+              "baris": [
+                [
+                  "Semantic equivalence",
+                  "Apakah maknanya tetap sesuai?"
+                ],
+                [
+                  "Grammatical compatibility",
+                  "Apakah kelas kata dan struktur kalimat tetap tepat?"
+                ],
+                [
+                  "Contextual appropriateness",
+                  "Apakah pilihan kata wajar digunakan dalam konteks tersebut?"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Vocabulary in Context",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Vocabulary in Context",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menjawab soal kosakata, gunakan pendekatan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan kata yang ditanyakan dan kelas katanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Read the Context"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca kalimat sasaran dan kalimat di sekitarnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Interpret"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan makna berdasarkan petunjuk konteks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Substitute"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji kata atau frasa pada opsi sebagai pengganti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Verify"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih padanan yang paling mempertahankan makna asli."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan yang Harus Dihindari"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Dictionary Meaning Trap: Memilih arti kamus yang tidak sesuai dengan konteks.",
+                "Similar-Looking Words: Menganggap kata dengan bentuk mirip pasti memiliki makna sama.",
+                "Wrong Connotation: Memilih sinonim yang memiliki kesan atau intensitas berbeda.",
+                "Wrong Word Class: Mengabaikan perbedaan fungsi nomina, verba, adjektiva, dan adverbia.",
+                "Ignoring Context: Menentukan arti hanya berdasarkan satu kata tanpa membaca hubungan antarkalimat."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utamanya adalah konteks menentukan makna yang dimaksud penulis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Vocabulary in Context menekankan pemahaman makna kata sesuai kalimat dan situasi penggunaannya, bukan sekadar hafalan padanan kata. Sebuah kata dapat memiliki beberapa makna; yang tepat adalah makna yang konsisten dengan petunjuk sekitar, bidang pembahasan, dan fungsi gramatikalnya. Petunjuk dapat berupa definisi tersirat, contoh, hubungan sebab-akibat, sinonim, antonim, atau penjelasan yang muncul sesudah kata sasaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah menjawab ialah membaca kalimat yang memuat kata sasaran, memeriksa kalimat sebelum dan sesudahnya, menentukan makna sementara, lalu menguji apakah parafrasa tersebut masih masuk akal ketika menggantikan kata asli. Pada soal yang menanyakan kelas kata, pertahankan bentuk yang diperlukan: kata sifat tidak otomatis dapat diganti oleh kata kerja atau nomina. Pengecoh sering terlihat berkaitan dengan topik, tetapi tidak cocok dengan hubungan logis dalam kalimat."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Vocabulary in Context",
+        "teks": ""
+      },
+      {
+        "judul": "Context Clues: Petunjuk Menentukan Makna Kata",
+        "teks": ""
+      },
+      {
+        "judul": "Multiple Meanings dan Semantic Shifts",
+        "teks": ""
+      },
+      {
+        "judul": "Contextual Substitution Test",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Vocabulary in Context",
+        "teks": ""
+      }
+    ],
+    "pesan": "Keterampilan kosakata kontekstual memperkuat pemahaman terhadap bacaan akademik yang memuat istilah tidak familier. Peserta tidak perlu mengetahui setiap kata sebelum mulai membaca; yang lebih penting adalah kemampuan menemukan bukti kebahasaan yang membatasi makna. Dengan menggunakan konteks sebagai alat verifikasi, jawaban dapat dipilih secara objektif dan tidak bergantung pada tebakan semata."
+  }
+}

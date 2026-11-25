@@ -1,0 +1,863 @@
+{
+  "meta": {
+    "judul": "Evidence Across Texts",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Evidence Across Texts",
+    "sumber": "https://docs.google.com/document/d/1OZXEEDe2AJyn6PJW0XhCU28xA3ZxAO_iq_lYnc13dGw/edit",
+    "id_katalog": "lbe-11"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Evaluating Evidence Across Texts merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan membandingkan, menganalisis, dan mengevaluasi kualitas informasi serta bukti yang disampaikan dalam dua teks atau lebih. Meskipun beberapa teks membahas topik yang sama, masing-masing dapat menggunakan jenis bukti, metode pengumpulan informasi, cakupan penelitian, dan sudut pembahasan yang berbeda. Penguasaan keterampilan tersebut membantu peserta menyelesaikan soal Literasi Bahasa Inggris UTBK-SNBT yang menuntut evaluasi kritis terhadap hubungan dan kekuatan bukti dari berbagai sumber bacaan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian Evaluating Evidence Across Texts."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "analisis hubungan antarteks dengan evaluasi kualitas bukti antarteks."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "dasar perbandingan yang sepadan berdasarkan topik, konteks, dan karakteristik informasi."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "jenis bukti yang digunakan dalam masing-masing teks."
+      },
+      {
+        "level": "",
+        "kko": "Menilai",
+        "teks": "ketepatan klaim mengenai persamaan dan perbedaan antara dua sumber."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "keterbatasan bukti dan generalisasi yang tidak didukung."
+      },
+      {
+        "level": "",
+        "kko": "Membandingkan",
+        "teks": "relevansi, kecukupan, dan kekuatan bukti untuk menjawab pertanyaan tertentu."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "informasi tambahan yang diperlukan ketika kedua teks belum memberikan bukti yang memadai."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Evaluating Evidence Across Texts",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Evaluating Evidence Across Texts",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Evaluating Evidence Across Texts"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evaluating Evidence Across Texts adalah kemampuan menilai kualitas, kesesuaian, dan keterbatasan informasi yang digunakan dalam beberapa teks untuk mendukung suatu pernyataan atau kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam keterampilan ini, peserta tidak hanya mencari persamaan dan perbedaan isi, tetapi juga mengevaluasi apakah informasi dari kedua teks dapat dibandingkan secara adil dan apakah bukti yang diberikan cukup untuk mendukung klaim tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A survey of 1,500 university students found that 72% preferred recorded lectures because they could review the material at convenient times."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "An experimental study involving 240 students found no significant difference in examination performance between students attending recorded lectures and those attending live lectures."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks membahas penggunaan rekaman perkuliahan, tetapi mengukur aspek berbeda."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Text 1 membahas preferensi mahasiswa.",
+                "Text 2 membahas hasil ujian mahasiswa."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua hasil tersebut tidak harus bertentangan karena preferensi terhadap metode belajar tidak sama dengan efektivitas metode tersebut terhadap hasil akademik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The texts examine different aspects of recorded lectures, with Text 1 addressing student preferences and Text 2 examining academic performance."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, keterampilan ini menuntut peserta memahami perbedaan antara topik yang sama dan bukti yang benar-benar sepadan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Comparing Text dan Evaluating Evidence Across Texts"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Comparing Text",
+                "Evaluating Evidence Across Texts"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Persamaan dan perbedaan isi",
+                  "Kualitas dan kesepadanan bukti"
+                ],
+                [
+                  "Pertanyaan utama",
+                  "How do the texts differ?",
+                  "How well does the evidence support a claim?"
+                ],
+                [
+                  "Proses",
+                  "Membandingkan gagasan, fokus, dan informasi",
+                  "Menilai relevansi, kecukupan, serta batas bukti"
+                ],
+                [
+                  "Hasil",
+                  "Identifikasi perbedaan pembahasan",
+                  "Penilaian terhadap kekuatan kesimpulan"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menentukan Dasar Perbandingan yang Sepadan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menentukan Dasar Perbandingan yang Sepadan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Comparable Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Comparable evidence merupakan bukti yang dapat dibandingkan secara bermakna karena memiliki karakteristik atau dasar pengukuran yang relevan dan sepadan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua teks tidak harus menggunakan metode identik untuk dapat dibandingkan. Namun, perbandingan harus mempertimbangkan apakah keduanya mengukur konsep yang sama atau aspek yang memang berkaitan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A study found that students attending weekly tutoring sessions obtained higher mathematics scores."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Another study found that students receiving individualized academic support showed improvements in mathematics performance."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks sama-sama membahas hubungan antara dukungan akademik dan hasil belajar matematika."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasilnya dapat dibandingkan pada tingkat umum, meskipun jenis dukungan serta metode penelitiannya mungkin berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, peserta belum dapat menyimpulkan metode mana yang lebih efektif tanpa mengetahui kondisi penelitian secara lebih rinci."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contextual Comparability"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contextual comparability berkaitan dengan kesesuaian konteks ketika membandingkan informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa aspek yang harus diperhatikan meliputi:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Pertanyaan Evaluasi"
+              ],
+              "baris": [
+                [
+                  "Population",
+                  "Apakah kelompok yang diamati sebanding?"
+                ],
+                [
+                  "Setting",
+                  "Apakah lingkungan atau lokasi penelitian serupa?"
+                ],
+                [
+                  "Time Period",
+                  "Apakah informasi berasal dari periode yang dapat dibandingkan?"
+                ],
+                [
+                  "Measurement",
+                  "Apakah indikator yang digunakan mengukur hal serupa?"
+                ],
+                [
+                  "Conditions",
+                  "Apakah terdapat kondisi yang memengaruhi hasil?"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 melaporkan peningkatan penggunaan transportasi umum sebesar 20% di kota metropolitan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 melaporkan peningkatan sebesar 10% di kota kecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak tepat langsung menyimpulkan bahwa kebijakan di kota metropolitan dua kali lebih efektif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan jumlah penduduk, jaringan transportasi, kondisi awal, dan metode pengukuran dapat memengaruhi hasil."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Differences in Evidence Types"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti dalam teks dapat berasal dari berbagai sumber."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis Bukti",
+                "Karakteristik"
+              ],
+              "baris": [
+                [
+                  "Statistical Evidence",
+                  "Data numerik, persentase, atau hasil pengukuran"
+                ],
+                [
+                  "Experimental Evidence",
+                  "Hasil pengujian atau percobaan"
+                ],
+                [
+                  "Observational Evidence",
+                  "Hasil pengamatan terhadap suatu fenomena"
+                ],
+                [
+                  "Survey Evidence",
+                  "Informasi yang diperoleh dari respons peserta"
+                ],
+                [
+                  "Expert Opinion",
+                  "Penilaian atau interpretasi ahli"
+                ],
+                [
+                  "Anecdotal Evidence",
+                  "Pengalaman atau contoh individual"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Limits of Comparability"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Limits of comparability merupakan batasan yang menyebabkan dua hasil tidak dapat disamakan atau diperingkat secara langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 reports increased student satisfaction, while Text 2 reports improved examination performance."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks membahas hasil suatu program pendidikan, tetapi menggunakan indikator yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena itu, tidak dapat disimpulkan bahwa salah satu hasil lebih kuat hanya berdasarkan persentase yang dilaporkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip penting: Perbandingan yang akurat memerlukan kesesuaian antara hal yang diukur dan kesimpulan yang hendak dibuat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mengevaluasi Keakuratan Klaim Antarteks",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengevaluasi Keakuratan Klaim Antarteks",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Claim Accuracy"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Claim accuracy menunjukkan apakah suatu pernyataan mengenai kesamaan atau perbedaan dua teks benar-benar sesuai dengan informasi dalam keduanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Solar energy systems can reduce dependence on fossil fuels, although their electricity output varies with sunlight availability."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Battery-storage technologies can help address fluctuations in solar electricity generation, but their installation requires additional investment."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klaim yang akurat:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Both texts recognize challenges associated with solar energy systems, although they focus on different aspects of those challenges."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klaim yang tidak akurat:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Both texts conclude that solar energy is economically unsuitable for widespread implementation."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan kedua berlebihan karena kedua teks tidak menyampaikan penolakan menyeluruh terhadap energi surya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Overgeneralization Across Texts"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Overgeneralization terjadi ketika informasi dari dua teks digunakan untuk membuat kesimpulan yang cakupannya lebih luas daripada bukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 menunjukkan keberhasilan program daur ulang di dua sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 menunjukkan keberhasilan program serupa di tiga sekolah lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tidak tepat:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Recycling programs are guaranteed to succeed in every school."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberhasilan pada beberapa sekolah belum cukup untuk menjamin keberhasilan universal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "False Agreement"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "False agreement terjadi ketika peserta menganggap dua teks menyampaikan klaim yang sama, padahal keduanya hanya membahas topik berkaitan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1: Students prefer online classes because they are flexible."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2: Online classes can improve access for students living far from educational institutions."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks membahas pembelajaran daring, tetapi tidak sama-sama membuktikan bahwa metode tersebut menghasilkan nilai akademik lebih tinggi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "False Contradiction"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "False contradiction terjadi ketika dua teks dianggap bertentangan, padahal keduanya membahas aspek berbeda yang dapat sama-sama benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Electric vehicles produce no exhaust emissions during operation."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Battery manufacturing can produce substantial environmental impacts."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pernyataan tidak bertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 membahas emisi saat kendaraan digunakan, sedangkan Text 2 membahas dampak lingkungan dari tahap produksi baterai."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mengevaluasi Kekuatan Bukti dari Dua Teks",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengevaluasi Kekuatan Bukti dari Dua Teks",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Relevance"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relevance merupakan kesesuaian bukti dengan pertanyaan yang ingin dijawab."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Does the new learning program improve students' mathematics performance?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 memberikan data peningkatan nilai matematika setelah program berlangsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 memberikan data kepuasan siswa terhadap program tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menjawab pertanyaan mengenai hasil belajar matematika, bukti pada Text 1 lebih langsung relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, relevansi yang lebih tinggi belum tentu berarti bukti Text 1 sudah cukup untuk membuktikan hubungan sebab-akibat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sufficiency"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sufficiency berkaitan dengan kecukupan bukti untuk mendukung kesimpulan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 melaporkan bahwa sepuluh peserta mengalami peningkatan kemampuan membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 melaporkan hasil serupa dari penelitian terhadap ratusan peserta dengan kelompok pembanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kualitas penelitian lainnya memadai, Text 2 dapat memberikan dukungan yang lebih kuat untuk kesimpulan mengenai efektivitas program pada populasi yang diteliti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, jumlah peserta yang lebih besar tidak otomatis menjamin kualitas bukti apabila pengukuran atau pemilihan sampelnya bermasalah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Methodological Strength"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Methodological strength menunjukkan sejauh mana rancangan pengumpulan dan analisis data mampu mendukung kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa faktor yang perlu diperhatikan adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kejelasan metode penelitian.",
+                "Kesesuaian indikator pengukuran.",
+                "Karakteristik dan representativitas sampel.",
+                "Keberadaan kelompok pembanding yang relevan.",
+                "Kemungkinan faktor pengganggu.",
+                "Konsistensi hasil penelitian."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying Evidence Gaps"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence gap adalah informasi penting yang belum tersedia untuk menjawab pertanyaan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 menjelaskan bahwa aplikasi kesehatan membantu pengguna mencatat aktivitas fisik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 menunjukkan bahwa sebagian pengguna merasa lebih termotivasi setelah menggunakan aplikasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Does the application produce long-term improvements in cardiovascular health?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks belum cukup menjawabnya karena tidak memberikan pengukuran kesehatan kardiovaskular jangka panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah bahwa bukti tambahan diperlukan, bukan bahwa aplikasi pasti efektif atau tidak efektif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Evaluating Evidence Across Texts",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Evaluating Evidence Across Texts",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pendekatan Compare–Assess–Conclude (CAC)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify the Common Question"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan isu atau pertanyaan yang hendak dijawab menggunakan kedua teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Compare the Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi jenis data, konteks, indikator, dan cakupan setiap sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Assess the Limitations"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa perbedaan metode, ukuran sampel, dan batas interpretasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Evaluate the Claims"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah klaim perbandingan benar-benar didukung oleh kedua teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Draw a Proportionate Conclusion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih evaluasi yang paling sesuai dengan relevansi dan kekuatan bukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Matriks Evaluasi Bukti"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kriteria",
+                "Text 1",
+                "Text 2"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Apa yang diteliti?",
+                  "Apa yang diteliti?"
+                ],
+                [
+                  "Bukti",
+                  "Data atau temuan apa?",
+                  "Data atau temuan apa?"
+                ],
+                [
+                  "Metode",
+                  "Bagaimana informasi diperoleh?",
+                  "Bagaimana informasi diperoleh?"
+                ],
+                [
+                  "Kekuatan",
+                  "Apa yang didukung dengan baik?",
+                  "Apa yang didukung dengan baik?"
+                ],
+                [
+                  "Keterbatasan",
+                  "Apa yang belum dibuktikan?",
+                  "Apa yang belum dibuktikan?"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Matriks tersebut membantu peserta mengidentifikasi apakah kedua teks saling menguatkan, membahas aspek berbeda, atau belum memberikan informasi yang cukup untuk menjawab pertanyaan bersama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Incomparable Evidence",
+                  "Membandingkan indikator yang tidak sepadan"
+                ],
+                [
+                  "False Agreement",
+                  "Menganggap topik sama berarti klaim identik"
+                ],
+                [
+                  "False Contradiction",
+                  "Menganggap perbedaan fokus sebagai pertentangan"
+                ],
+                [
+                  "Overgeneralization",
+                  "Memperluas kesimpulan melebihi cakupan data"
+                ],
+                [
+                  "Methodological Neglect",
+                  "Mengabaikan metode dan keterbatasan penelitian"
+                ],
+                [
+                  "Source Confusion",
+                  "Menukar informasi antar sumber"
+                ],
+                [
+                  "Evidence Sufficiency Error",
+                  "Menganggap bukti yang relevan otomatis sudah cukup"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utama: Evaluasi bukti lintas teks harus mempertimbangkan bukan hanya apa yang dinyatakan setiap sumber, tetapi juga apa yang dapat dan belum dapat dibuktikan oleh informasi yang disediakan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Evaluating Evidence Across Texts menuntut kemampuan menilai apakah informasi dari dua sumber relevan dan sepadan untuk menjawab pertanyaan bersama. Aspek yang diperiksa mencakup populasi, konteks, metode, ukuran atau indikator, cakupan waktu, dan keterbatasan masing-masing sumber. Dua penelitian dapat membahas persoalan yang sama, tetapi tidak otomatis mengukur konstruk yang sama ataupun mendukung kesimpulan identik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterampilan ini menuntut penolakan terhadap false agreement, false contradiction, dan overgeneralization. Kesamaan lokasi metropolitan tidak menghilangkan perbedaan indikator yang diteliti. Bukti yang relevan untuk preferensi tidak selalu relevan untuk kecepatan atau efektivitas operasional. Untuk menjawab, tulis terlebih dahulu konstruk dan batas pengukuran setiap teks, kemudian tentukan apakah perbandingan dapat dilakukan secara langsung, bersyarat, atau belum cukup untuk menghasilkan kesimpulan tertentu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Evaluating Evidence Across Texts",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan Dasar Perbandingan yang Sepadan",
+        "teks": ""
+      },
+      {
+        "judul": "Mengevaluasi Keakuratan Klaim Antarteks",
+        "teks": ""
+      },
+      {
+        "judul": "Mengevaluasi Kekuatan Bukti dari Dua Teks",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Evaluating Evidence Across Texts",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pembaca yang terampil mengevaluasi bukti lintas teks tidak sekadar mencari angka yang lebih besar atau hasil yang terdengar paling kuat. Ia menilai apakah data tersebut menjawab pertanyaan yang sama dan mempertahankan batas metode yang digunakan. Keterampilan ini menjadi dasar sintesis informasi yang akurat karena penggabungan sumber harus dimulai dari pemahaman kualitas masing-masing bukti."
+  }
+}

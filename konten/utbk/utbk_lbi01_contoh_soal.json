@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Menemukan Informasi Eksplisit dan Menelusuri Bukti Tekstual",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Contoh Soal Menemukan Informasi Eksplisit dan Menelusuri Bukti Tekstual",
+    "sumber": "https://docs.google.com/document/d/1TjYexG2difoMcSnt_ZAnmRgMUo2LrNKyZH9JFtB8D3I/edit",
+    "bagian": "soal",
+    "id_katalog": "lbi-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Paragraf A"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah komunitas pendidikan mengembangkan layanan literasi untuk memperluas kesempatan membaca bagi masyarakat di wilayah pinggiran kota. Program tersebut dirancang setelah pengelola melakukan pengamatan terhadap keterbatasan bahan bacaan yang tersedia di sejumlah lingkungan permukiman. Pada tahap awal, komunitas mengumpulkan buku dari sumbangan warga dan lembaga pendidikan. Buku-buku yang terkumpul kemudian dikelompokkan berdasarkan kategori bacaan sebelum disalurkan ke beberapa titik layanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Paragraf B"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pelaksanaan program dilakukan melalui kerja sama antara relawan, pengurus lingkungan, dan pengelola ruang komunitas. Relawan bertugas membantu pencatatan koleksi serta mendampingi kegiatan membaca, sedangkan pengurus lingkungan membantu menyampaikan informasi jadwal layanan kepada warga. Kegiatan membaca diselenggarakan pada akhir pekan di ruang komunitas yang telah disepakati bersama. Namun, jadwal pelaksanaan dapat disesuaikan apabila lokasi digunakan untuk kegiatan masyarakat lainnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Paragraf C"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah beberapa waktu berjalan, pengelola melakukan evaluasi terhadap pemanfaatan koleksi. Hasil pencatatan menunjukkan bahwa sebagian buku anak lebih sering dipinjam dibandingkan beberapa kategori bacaan lainnya. Akan tetapi, pengelola belum memiliki data yang cukup untuk menentukan apakah peningkatan peminjaman tersebut diikuti oleh perubahan kemampuan memahami bacaan. Oleh karena itu, komunitas mulai merancang kegiatan pendampingan yang memungkinkan peserta mendiskusikan isi buku setelah membaca."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Paragraf D"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengelola juga mempertimbangkan perluasan layanan ke lingkungan lain yang memiliki keterbatasan bahan bacaan. Namun, rencana tersebut belum dilaksanakan karena komunitas masih menilai ketersediaan relawan dan kemampuan pengelolaan koleksi. Untuk sementara, kegiatan tetap dipusatkan pada titik layanan yang telah berjalan. Komunitas berharap evaluasi dan pendampingan membaca dapat membantu meningkatkan kualitas layanan sebelum jangkauannya diperluas."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada paragraf manakah dijelaskan bahwa peningkatan peminjaman buku belum dapat digunakan untuk memastikan adanya perubahan kemampuan peserta dalam memahami bacaan?",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Pada paragraf manakah dijelaskan bahwa peningkatan peminjaman buku belum dapat digunakan untuk memastikan adanya perubahan kemampuan peserta dalam memahami bacaan?"
+                }
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf C merupakan jawaban yang tepat karena secara langsung menjelaskan hasil evaluasi pemanfaatan koleksi dan keterbatasan informasi yang dimiliki pengelola."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam paragraf tersebut, pengelola menemukan bahwa sebagian buku anak lebih sering dipinjam dibandingkan kategori bacaan lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, teks secara jelas menyatakan bahwa pengelola belum memiliki data yang cukup untuk menentukan apakah peningkatan peminjaman diikuti oleh perubahan kemampuan memahami bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini menunjukkan perbedaan antara data aktivitas peminjaman dan data hasil pemahaman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf A membahas latar belakang serta persiapan program. Paragraf B menjelaskan pembagian tugas dan jadwal layanan. Paragraf D membahas rencana perluasan layanan yang belum dilaksanakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, paragraf C merupakan bagian yang secara eksplisit memuat informasi yang ditanyakan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang paling sesuai dengan informasi eksplisit mengenai pelaksanaan dan pengembangan layanan literasi dalam bacaan adalah ....",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Pernyataan yang paling sesuai dengan informasi eksplisit mengenai pelaksanaan dan pengembangan layanan literasi dalam bacaan adalah ...."
+                }
+              ]
+            }
+          ],
+          "opsi": {
+            "A": "Komunitas telah memperluas layanan ke lingkungan lain setelah hasil evaluasi menunjukkan peningkatan peminjaman buku anak.",
+            "B": "Relawan bertanggung jawab menyampaikan jadwal layanan kepada warga, sedangkan pengurus lingkungan mendampingi kegiatan membaca.",
+            "C": "Kegiatan membaca dilaksanakan setiap hari di ruang komunitas, tetapi jadwalnya dapat berubah ketika lokasi digunakan warga.",
+            "D": "Komunitas telah memastikan peningkatan kemampuan memahami bacaan melalui data peminjaman dan kegiatan diskusi peserta.",
+            "E": "Kegiatan membaca berlangsung pada akhir pekan, sedangkan rencana perluasan layanan masih mempertimbangkan ketersediaan relawan dan pengelolaan koleksi."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi E merupakan jawaban yang paling tepat karena menggabungkan dua informasi eksplisit dari bagian bacaan yang berbeda tanpa mengubah maknanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf B menyatakan bahwa kegiatan membaca diselenggarakan pada akhir pekan di ruang komunitas yang telah disepakati bersama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sementara itu, paragraf D menjelaskan bahwa rencana perluasan layanan belum dilaksanakan karena pengelola masih menilai ketersediaan relawan dan kemampuan pengelolaan koleksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua informasi tersebut sesuai dengan pernyataan pada opsi E."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis opsi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Opsi A tidak tepat** karena paragraf D menyatakan bahwa rencana perluasan layanan belum dilaksanakan. Opsi ini mengubah rencana menjadi kegiatan yang sudah terjadi.",
+                "**Opsi B tidak tepat** karena pembagian tugasnya tertukar. Relawan membantu pencatatan dan pendampingan membaca, sedangkan pengurus lingkungan menyampaikan informasi jadwal.",
+                "**Opsi C tidak tepat** karena kegiatan membaca dilaksanakan pada akhir pekan, bukan setiap hari.",
+                "**Opsi D tidak tepat** karena paragraf C justru menyatakan bahwa pengelola belum memiliki data yang cukup untuk memastikan perubahan kemampuan memahami bacaan.",
+                "**Opsi E tepat** karena mempertahankan informasi mengenai jadwal kegiatan dan status rencana perluasan layanan sesuai dengan bacaan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Strategi menjawab:** Identifikasi informasi utama dalam setiap opsi, kemudian telusuri bagian bacaan yang menjadi sumbernya. Periksa apakah opsi mengubah pelaku, waktu, status kegiatan, atau tingkat kepastian informasi. Pilih pernyataan yang seluruh unsurnya sesuai dengan teks."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan informasi eksplisit dalam bacaan!",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan informasi eksplisit dalam bacaan!"
+                }
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "Pengurus lingkungan bertanggung jawab mencatat koleksi dan mendampingi kegiatan membaca, sedangkan relawan menyampaikan jadwal layanan kepada warga.",
+                  "",
+                  "✓"
+                ],
+                [
+                  "Sebagian buku anak tercatat lebih sering dipinjam daripada beberapa kategori bacaan lain, tetapi pengelola belum dapat memastikan perubahan kemampuan memahami bacaan.",
+                  "✓",
+                  ""
+                ],
+                [
+                  "Perluasan layanan ke lingkungan lain telah dilaksanakan setelah komunitas memastikan jumlah relawan dan kapasitas pengelolaan koleksi mencukupi.",
+                  "",
+                  "✓"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pernyataan pertama: Salah.",
+                "Pernyataan kedua: Benar.",
+                "Pernyataan ketiga: Salah."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan pertama — Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf B menjelaskan pembagian tugas antara relawan dan pengurus lingkungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relawan bertugas membantu pencatatan koleksi dan mendampingi kegiatan membaca. Sementara itu, pengurus lingkungan membantu menyampaikan informasi jadwal layanan kepada warga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan pertama tidak sesuai karena menukar tanggung jawab kedua pihak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan ini menunjukkan pentingnya memperhatikan hubungan antara pelaku dan tindakan dalam informasi eksplisit."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan kedua — Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf C menyatakan bahwa hasil pencatatan menunjukkan sebagian buku anak lebih sering dipinjam dibandingkan beberapa kategori bacaan lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pengelola belum memiliki data yang cukup untuk memastikan apakah peningkatan peminjaman tersebut diikuti oleh perubahan kemampuan memahami bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan kedua mempertahankan kedua informasi tersebut tanpa mengubah cakupan atau tingkat kepastiannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, pernyataan ini sesuai dengan informasi eksplisit dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan ketiga — Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf D menjelaskan bahwa komunitas mempertimbangkan perluasan layanan ke lingkungan lain, tetapi rencana tersebut belum dilaksanakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasannya adalah pengelola masih menilai ketersediaan relawan dan kemampuan pengelolaan koleksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan ketiga tidak tepat karena mengubah rencana yang masih dipertimbangkan menjadi kegiatan yang telah terlaksana."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selain itu, bacaan tidak menyatakan bahwa komunitas telah memastikan jumlah relawan maupun kapasitas pengelolaan koleksi mencukupi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

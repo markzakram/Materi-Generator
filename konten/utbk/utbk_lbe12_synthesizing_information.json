@@ -1,0 +1,889 @@
+{
+  "meta": {
+    "judul": "Synthesizing Information",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Synthesizing Information",
+    "sumber": "https://docs.google.com/document/d/1OuusDH0kc2dxsATLMjLIX6-EF9Fq3R6daDNc8RPT1EI/edit",
+    "id_katalog": "lbe-12"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Synthesizing Information merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan menggabungkan, menghubungkan, dan mengintegrasikan informasi dari beberapa bagian teks maupun dua sumber bacaan untuk menghasilkan pemahaman yang utuh. Dalam sebuah bacaan, informasi dapat disampaikan melalui gagasan, bukti, contoh, dan sudut pandang yang berbeda, tetapi tetap memiliki hubungan yang relevan terhadap persoalan yang sama. Penguasaan keterampilan ini membantu peserta menyelesaikan soal Literasi Bahasa Inggris UTBK-SNBT yang menuntut kemampuan berpikir integratif, kritis, dan sistematis."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian synthesizing information dan membedakannya dari summarizing serta comparing."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "gagasan utama dan kontribusi informasi masing-masing sumber."
+      },
+      {
+        "level": "",
+        "kko": "Menghubungkan",
+        "teks": "informasi yang saling melengkapi atau memiliki hubungan logis."
+      },
+      {
+        "level": "",
+        "kko": "Mengintegrasikan",
+        "teks": "informasi menjadi kesimpulan yang mencakup keseluruhan isu."
+      },
+      {
+        "level": "",
+        "kko": "Mempertahankan",
+        "teks": "perbedaan fokus, kondisi, dan keterbatasan dari setiap sumber."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "pilihan sintesis berdasarkan akurasi, kelengkapan, dan keseimbangan."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "strategi pencatatan dua kolom untuk mempermudah analisis lintas teks."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "soal sintesis informasi berdasarkan bukti yang tersedia."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Synthesizing Information",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Synthesizing Information",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Synthesizing Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesizing information adalah proses menggabungkan informasi dari beberapa bagian atau sumber untuk menghasilkan pemahaman baru yang lebih menyeluruh, tanpa mengubah makna asli informasi yang digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam konteks membaca, sintesis tidak sekadar menempatkan dua ringkasan secara berdampingan. Peserta perlu mengidentifikasi hubungan antargagasan dan menentukan pesan yang dapat dibangun ketika informasi tersebut dipertimbangkan bersama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urban parks provide opportunities for physical activity and social interaction. They can also help reduce surface temperatures by providing shade."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maintaining urban parks requires funding, suitable land-use planning, and regular management. Without these resources, green spaces may deteriorate and become less accessible."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urban parks can provide environmental and social benefits, but maintaining these benefits requires adequate funding and effective urban planning."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sintesis tersebut menggabungkan dua informasi utama:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Text 1 menjelaskan manfaat ruang hijau.",
+                "Text 2 menjelaskan persyaratan untuk mempertahankan manfaatnya."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil sintesis mempertahankan manfaat dan persyaratan tanpa menyatakan bahwa taman selalu berhasil atau bahwa biaya pengelolaannya membuat taman tidak layak dibangun."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Summarizing, Comparing, dan Synthesizing"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga keterampilan ini berkaitan, tetapi memiliki tujuan yang berbeda."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Summarizing",
+                "Comparing",
+                "Synthesizing"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Meringkas informasi utama",
+                  "Menemukan persamaan dan perbedaan",
+                  "Mengintegrasikan informasi"
+                ],
+                [
+                  "Proses",
+                  "Memilih gagasan terpenting",
+                  "Menelaah hubungan antarunsur",
+                  "Menggabungkan kontribusi relevan"
+                ],
+                [
+                  "Hasil",
+                  "Ringkasan",
+                  "Hasil perbandingan",
+                  "Pemahaman gabungan"
+                ],
+                [
+                  "Pertanyaan",
+                  "What does the text mainly say?",
+                  "How do the texts differ?",
+                  "What understanding emerges from both texts?"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 membahas keuntungan pembelajaran daring dalam memberikan fleksibilitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 membahas kendala pembelajaran daring akibat keterbatasan perangkat dan kemampuan belajar mandiri."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Summary: Pembelajaran daring memberikan fleksibilitas.",
+                "Comparison: Text 1 menekankan manfaat fleksibilitas, sedangkan Text 2 menekankan kendala akses dan pembelajaran.",
+                "Synthesis: Pembelajaran daring dapat memperluas kesempatan belajar, tetapi manfaatnya bergantung pada ketersediaan teknologi dan dukungan pembelajaran yang memadai."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil sintesis tidak hanya menunjukkan perbedaan, tetapi mengintegrasikan kedua kontribusi menjadi pemahaman yang lebih lengkap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Prinsip Dasar Sintesis yang Baik"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sintesis yang tepat harus memenuhi beberapa prinsip."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Prinsip",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Accuracy",
+                  "Makna setiap sumber dipertahankan"
+                ],
+                [
+                  "Relevance",
+                  "Informasi yang digabungkan berkaitan dengan isu utama"
+                ],
+                [
+                  "Integration",
+                  "Informasi dihubungkan, bukan sekadar didaftarkan"
+                ],
+                [
+                  "Balance",
+                  "Kontribusi penting setiap sumber terwakili"
+                ],
+                [
+                  "Qualification",
+                  "Syarat, keterbatasan, dan ketidakpastian dipertahankan"
+                ],
+                [
+                  "Evidence-Based",
+                  "Tidak menambahkan kesimpulan yang melampaui bukti"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip penting: Sintesis yang seimbang tidak selalu berarti kedua teks memperoleh porsi penjelasan yang sama panjang. Keseimbangan berarti setiap informasi penting mendapatkan representasi yang proporsional sesuai relevansinya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jenis Hubungan Informasi dalam Sintesis",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jenis Hubungan Informasi dalam Sintesis",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Complementary Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Complementary information merupakan informasi dari beberapa sumber yang saling melengkapi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Community libraries provide free access to books and digital learning resources."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Libraries also offer training workshops and opportunities for social interaction among residents."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Community libraries support learning and community development by providing educational resources, practical training, and opportunities for social interaction."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks memberikan kontribusi berbeda terhadap pemahaman fungsi perpustakaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Supporting Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Supporting information terjadi ketika dua sumber memberikan informasi yang saling menguatkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Regular exercise can contribute to improved cardiovascular health."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A long-term study found that physically active adults generally had better cardiovascular indicators than inactive adults."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Both texts support the potential cardiovascular benefits of regular physical activity, with the second providing observational evidence consistent with the first."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sintesis tersebut tidak mengubah hasil pengamatan menjadi klaim bahwa olahraga merupakan satu-satunya penyebab kesehatan jantung yang baik."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contrasting Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contrasting information merupakan informasi yang menampilkan perbedaan penekanan atau hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Remote work can reduce commuting time and provide scheduling flexibility."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Remote work may create communication difficulties for teams requiring frequent collaboration."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Remote work can improve flexibility, but its effectiveness may depend on the communication requirements of different jobs."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sintesis menggabungkan manfaat dan keterbatasan tanpa menganggap salah satu sumber sepenuhnya membatalkan yang lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Conditional Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Conditional information menunjukkan bahwa manfaat atau hasil tertentu bergantung pada suatu persyaratan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Digital learning platforms can expand access to educational materials."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students without reliable internet connections may struggle to participate in online courses."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Digital platforms can increase access to educational materials, provided that learners have the resources necessary to use them effectively."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi dari Text 2 menjadi kondisi yang membatasi manfaat Text 1."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Problem–Solution Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam hubungan problem–solution, satu sumber menjelaskan persoalan, sedangkan sumber lain menyampaikan pendekatan yang dapat membantu mengatasinya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Many urban neighborhoods experience flooding because drainage systems cannot accommodate heavy rainfall."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Permeable surfaces and improved drainage networks can help manage stormwater in densely populated areas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urban flooding associated with inadequate drainage may be reduced through infrastructure improvements and stormwater-management measures."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata may digunakan karena kedua teks mendukung kemungkinan solusi, tetapi belum tentu membuktikan efektivitasnya pada seluruh kondisi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menyusun Sintesis yang Akurat dan Seimbang",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menyusun Sintesis yang Akurat dan Seimbang",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying Shared Themes"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah pertama adalah mengenali topik atau persoalan yang menghubungkan seluruh informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 membahas manfaat transportasi umum untuk mengurangi emisi kendaraan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 membahas kebutuhan meningkatkan akses dan keterjangkauan layanan transportasi umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tema bersama kedua teks adalah pengembangan transportasi umum yang efektif dan berkelanjutan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying Each Source's Contribution"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah menentukan tema bersama, peserta harus mengidentifikasi kontribusi khas masing-masing teks."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Text 1",
+                "Text 2"
+              ],
+              "baris": [
+                [
+                  "Tema",
+                  "Transportasi umum",
+                  "Transportasi umum"
+                ],
+                [
+                  "Fokus",
+                  "Pengurangan emisi",
+                  "Akses dan keterjangkauan"
+                ],
+                [
+                  "Kontribusi",
+                  "Manfaat lingkungan",
+                  "Persyaratan penggunaan"
+                ],
+                [
+                  "Batasan",
+                  "Tidak menjelaskan seluruh kebutuhan pengguna",
+                  "Tidak mengukur emisi secara langsung"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Integrating Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi yang telah diidentifikasi perlu digabungkan berdasarkan hubungan logisnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Information A: Public transportation can reduce dependence on private vehicles."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Information B: Residents may avoid public transportation when services are unreliable or difficult to access."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Public transportation can reduce reliance on private vehicles, but achieving this benefit requires services that residents can access and use reliably."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sintesis tersebut tidak mengulangi kedua informasi secara terpisah, tetapi membangun hubungan antara potensi manfaat dan persyaratan keberhasilannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Preserving Qualifications and Limitations"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan umum dalam sintesis adalah menghilangkan batasan yang terdapat dalam sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Preliminary results suggest that the treatment may reduce symptoms."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The treatment has not yet been evaluated in a large population."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Incorrect Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The treatment has been proven effective for all patients."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Correct Synthesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The treatment shows potential for reducing symptoms, but larger studies are needed before its effectiveness can be established more broadly."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sintesis yang tepat mempertahankan kemungkinan manfaat dan keterbatasan bukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Avoiding Unsupported Generalization"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta tidak boleh menambahkan informasi baru yang tidak didukung kedua teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 menjelaskan peningkatan hasil belajar di tiga sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 menjelaskan manfaat dukungan guru pada beberapa kelompok siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks belum cukup untuk menyimpulkan bahwa metode pembelajaran tersebut pasti berhasil di seluruh sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sintesis harus tetap sesuai dengan cakupan bukti."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Two-Column Note-Taking Strategy",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Two-Column Note-Taking Strategy",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Fungsi Two-Column Notes"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Metode ini digunakan untuk mencatat klaim, bukti, dan keterbatasan masing-masing teks secara terpisah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, peserta dapat membandingkan informasi tanpa mencampuradukkan sumber."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh Penerapan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Topik: Renewable Energy Development"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur",
+                "Text 1",
+                "Text 2"
+              ],
+              "baris": [
+                [
+                  "Main Idea",
+                  "Energi terbarukan dapat mengurangi ketergantungan pada bahan bakar fosil",
+                  "Penggunaan energi terbarukan menghadapi tantangan kestabilan pasokan"
+                ],
+                [
+                  "Evidence",
+                  "Panel surya dan turbin angin menghasilkan listrik tanpa emisi langsung saat beroperasi",
+                  "Produksi listrik bergantung pada kondisi cuaca"
+                ],
+                [
+                  "Limitation",
+                  "Tidak membahas kestabilan pasokan secara mendalam",
+                  "Tidak menolak manfaat lingkungan energi terbarukan"
+                ],
+                [
+                  "Contribution",
+                  "Menjelaskan manfaat lingkungan",
+                  "Menjelaskan kendala teknis"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil sintesis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Renewable energy can reduce dependence on fossil fuels, but its wider adoption requires solutions to address fluctuations in electricity generation."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah Menggunakan Two-Column Notes"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Tentukan topik bersama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Catat gagasan utama Text 1 dan Text 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Identifikasi informasi yang saling mendukung atau melengkapi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Catat perbedaan dan keterbatasan penting."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Rumuskan hubungan antara kedua informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Pilih sintesis yang mempertahankan kontribusi masing-masing sumber."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Synthesizing Information",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Synthesizing Information",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pendekatan Identify–Integrate–Verify (IIV)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify the Shared Issue"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan isu utama yang menghubungkan kedua teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Extract Key Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan gagasan, bukti, dan batasan penting dari masing-masing sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Establish the Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah informasi saling melengkapi, mendukung, membatasi, atau berbeda fokus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Integrate the Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungkan informasi menjadi pemahaman yang mencakup kontribusi kedua sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Verify the Synthesis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa akurasi, keseimbangan, dan keterbatasan sebelum memilih jawaban."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "One-Sided Synthesis",
+                  "Hanya mewakili informasi dari satu sumber"
+                ],
+                [
+                  "Simple Juxtaposition",
+                  "Menyandingkan dua ringkasan tanpa membangun hubungan"
+                ],
+                [
+                  "Overgeneralization",
+                  "Memperluas kesimpulan melebihi bukti"
+                ],
+                [
+                  "False Agreement",
+                  "Menganggap dua teks menyatakan klaim identik"
+                ],
+                [
+                  "False Contradiction",
+                  "Menganggap perbedaan fokus sebagai pertentangan mutlak"
+                ],
+                [
+                  "Ignoring Qualifications",
+                  "Menghilangkan syarat atau keterbatasan"
+                ],
+                [
+                  "Unsupported Addition",
+                  "Menambahkan kesimpulan yang tidak didukung sumber"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utama: Sintesis yang tepat harus menggabungkan kontribusi penting setiap sumber, mempertahankan perbedaan yang relevan, dan tidak menghasilkan klaim yang lebih kuat daripada bukti yang tersedia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Synthesizing Information adalah proses mengintegrasikan kontribusi dari beberapa bagian atau sumber menjadi pemahaman yang menyeluruh. Sintesis berbeda dari ringkasan dan perbandingan biasa: ringkasan memadatkan isi, perbandingan menunjukkan persamaan atau perbedaan, sedangkan sintesis menjelaskan bagaimana informasi saling mendukung, melengkapi, membatasi, atau membentuk kesimpulan gabungan. Sintesis harus akurat, relevan, proporsional, serta menjaga kondisi dan ketidakpastian masing-masing sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi efektif adalah menggunakan catatan dua kolom: tuliskan gagasan utama, bukti, dan batasan setiap teks; tentukan hubungan antarbagian; lalu susun satu pernyataan yang mengintegrasikan kedua kontribusi. Hindari one-sided synthesis yang hanya mencerminkan satu sumber, simple juxtaposition yang sekadar menyandingkan kalimat, dan unsupported addition yang memasukkan klaim baru. Hubungan manfaat dan persyaratan sering menjadi kerangka sintesis paling sesuai untuk bacaan informatif atau evaluatif."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Synthesizing Information",
+        "teks": ""
+      },
+      {
+        "judul": "Jenis Hubungan Informasi dalam Sintesis",
+        "teks": ""
+      },
+      {
+        "judul": "Menyusun Sintesis yang Akurat dan Seimbang",
+        "teks": ""
+      },
+      {
+        "judul": "Two-Column Note-Taking Strategy",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Synthesizing Information",
+        "teks": ""
+      }
+    ],
+    "pesan": "Sintesis yang baik menunjukkan kemampuan memandang satu persoalan melalui beberapa dimensi tanpa kehilangan ketepatan. Sebelum memilih jawaban, pastikan bahwa kedua sumber benar-benar berkontribusi terhadap kalimat gabungan dan tidak ada syarat penting yang dihilangkan. Dengan demikian, hasil pembacaan menjadi lebih komprehensif sekaligus tetap berbasis bukti."
+  }
+}

@@ -1,0 +1,958 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penalaran Kuantitatif",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Penalaran Kuantitatif",
+    "sumber": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-08-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Variabel Positif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui x dan y bilangan positif, x = 3y. Kuantitas P = x + 2y dan Q = 2x. Hubungan yang benar adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "P > Q",
+            "B": "P = Q",
+            "C": "P < Q",
+            "D": "P = 2Q",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Selisih dua bentuk aljabar dan syarat variabel positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi x = 3y"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "memberi P = 5y dan Q = 6y."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena y > 0,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "P − Q = −y < 0."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi P < Q."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A dan B mengabaikan tanda −y; C tepat; D akan menuntut 5y = 12y yang mustahil untuk y > 0; E salah karena syarat positif memastikan perbandingan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanpa menghitung nilai x atau y, kurangi P − Q = −y dan cek y > 0."
+            }
+          ],
+          "label": "Perbandingan Kuantitatif"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Hubungan Dua Variabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 2x + y = 11 dan x − y = 1, hubungan antara x dan y adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "x > y",
+            "B": "x < y",
+            "C": "x = y",
+            "D": "x + y = 0",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Selisih variabel langsung menentukan arah perbandingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Syarat x − y = 1 menunjukkan x lebih besar 1 daripada y."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak perlu menyelesaikan persamaan pertama untuk mengetahui hubungannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A benar; B dan C bertentangan dengan selisih positif; D tidak tersirat; E salah karena selisih diketahui pasti."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan persamaan x − y = 1; tanda positif langsung berarti x > y."
+            }
+          ],
+          "label": "Perbandingan Kuantitatif"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Uji Kasus",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui dua besaran, yaitu P = x² dan Q = 2x, dengan x merupakan bilangan real positif. Seorang siswa ingin mengetahui hubungan kedua besaran tersebut dengan menggunakan beberapa nilai x yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika x = 1, nilai P lebih kecil daripada Q.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika x = 2, nilai P sama dengan Q.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika x = 3, nilai P lebih kecil daripada Q.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Untuk setiap x positif, nilai P selalu lebih besar daripada Q.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Benar, Salah, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbandingan kuantitatif berdasarkan perubahan variabel"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pernyataan (1) Benar. Ketika x = 1, diperoleh P = 1² = 1 dan Q = 2(1) = 2. Jadi, P lebih kecil daripada Q.",
+                "Pernyataan (2) Benar. Ketika x = 2, diperoleh P = 2² = 4 dan Q = 2(2) = 4. Jadi, P sama dengan Q.",
+                "Pernyataan (3) Salah. Ketika x = 3, diperoleh P = 3² = 9 dan Q = 2(3) = 6. Jadi, P lebih besar daripada Q.",
+                "Pernyataan (4) Salah. Hubungan P dan Q tidak selalu sama untuk setiap x positif. Ketika 0 < x < 2, berlaku P < Q; ketika x = 2, berlaku P = Q; dan ketika x > 2, berlaku P > Q."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Benar – Salah – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bandingkan P dan Q melalui selisih P − Q = x(x − 2). Jika hasilnya negatif, P < Q; jika nol, P = Q; dan jika positif, P > Q."
+            }
+          ],
+          "label": "Perbandingan Kuantitatif"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Dua Pompa",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pompa A dan B mengisi tandon berukuran sama. Apakah pompa A lebih cepat mengisi tandon sendiri daripada pompa B?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Keduanya bersama-sama mengisi dalam 40 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Debit A = 1,2 kali debit B."
+            }
+          ],
+          "opsi": {
+            "A": "(1) saja cukup",
+            "B": "(2) saja cukup",
+            "C": "Keduanya bersama-sama cukup, masing-masing tidak",
+            "D": "Masing-masing pernyataan cukup",
+            "E": "Bahkan gabungannya tidak cukup"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pada volume yang sama, waktu pengisian berbanding terbalik dengan debit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) hanya menjelaskan debit gabungan;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "debit tiap pompa belum terbandingkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) menegaskan A memiliki debit 20% lebih besar daripada B sehingga untuk kapasitas tandon sama A pasti lebih cepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A salah karena (1) tidak cukup; B tepat; C salah karena (2) sendiri cukup; D salah karena (1) belum cukup; E salah karena (2) cukup."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk “lebih cepat” dengan kapasitas sama, cukup cek perbandingan debit."
+            }
+          ],
+          "label": "Kecukupan Data"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Median Lima Nilai",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lima bilangan berbeda tersusun dari yang terkecil ke terbesar, yaitu **p, 11, r, s, dan t**, dengan **s = r + 3**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah median kelima bilangan tersebut lebih dari **17**?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Rata-rata kelima bilangan adalah **18**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) **t − p = 18**."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) saja cukup, tetapi pernyataan (2) saja tidak cukup.",
+            "B": "Pernyataan (2) saja cukup, tetapi pernyataan (1) saja tidak cukup.",
+            "C": "Kedua pernyataan bersama-sama cukup, tetapi masing-masing tidak cukup.",
+            "D": "Masing-masing pernyataan cukup untuk menjawab pertanyaan.",
+            "E": "Kedua pernyataan bersama-sama tidak cukup untuk menjawab pertanyaan."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena lima bilangan sudah diurutkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p < 11 < r < s < t"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka median adalah bilangan ketiga, yaitu:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median = r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi pertanyaan sebenarnya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah r > 17?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui juga:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "s = r + 3"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1): Rata-rata kelima bilangan adalah 18."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah kelima bilangan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5 × 18 = 90"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + 11 + r + s + t = 90"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi s = r + 3:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + 11 + r + r + 3 + t = 90"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + t + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persamaan ini belum menentukan nilai r secara pasti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya, r dapat bernilai 17 maupun lebih dari 17 dengan nilai p dan t yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) saja tidak cukup."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Pernyataan (2): t − p = 18."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diperoleh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "t = p + 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini hanya menunjukkan hubungan antara bilangan terkecil dan terbesar. Nilai r masih dapat berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (2) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gabungkan pernyataan (1) dan (2)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (1):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + t + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (2):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "t = p + 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + (p + 18) + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2p + 2r = 58"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + r = 29"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sehingga:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r = 29 − p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena urutan bilangan menunjukkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p < 11"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r = 29 − p > 29 − 11"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r > 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pasti berlaku:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r > 17"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena median = r, maka median pasti lebih dari 17."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, kedua pernyataan harus digunakan bersama-sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: C."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Median = r."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (1):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + t + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (2):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "t = p + 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + (p + 18) + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + r = 29"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena p < 11:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r > 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka median pasti lebih dari 17. **Jadi jawabannya C.**"
+            }
+          ],
+          "label": "Kecukupan Data"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Syarat Tidak Menentukan Jawaban",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah x lebih besar dari 5?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) x² > 25."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) x ≠ −5."
+            }
+          ],
+          "opsi": {
+            "A": "(1) saja cukup",
+            "B": "(2) saja cukup",
+            "C": "Keduanya bersama-sama cukup",
+            "D": "Masing-masing cukup",
+            "E": "Keduanya tetap tidak cukup"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Syarat kuadrat tidak menentukan tanda x."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1): x=6 (Ya) dan x=−6 (Tidak) sama-sama sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2): x=7 (Ya) dan x=0 (Tidak) sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungan tetap memungkinkan x=6 dan x=−6;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "keduanya memenuhi x²>25 dan x≠−5, tetapi menjawab berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A–D salah sebab tidak ada informasi yang memastikan satu jawaban; E benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk soal kuadrat, selalu coba pasangan nilai positif dan negatif."
+            }
+          ],
+          "label": "Kecukupan Data"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Waktu Produksi Dua Jenis Patung",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembuatan 2 patung gajah dan 3 patung banteng memerlukan 8 jam. Pembuatan 1 patung gajah dan 2 patung banteng memerlukan 5 jam. Berapa jam untuk 4 patung gajah dan 1 patung banteng?"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-11.png",
+              "lebar": 8.02,
+              "tinggi": 2.21
+            }
+          ],
+          "opsi": {
+            "A": "4 jam",
+            "B": "5 jam",
+            "C": "6 jam",
+            "D": "7 jam",
+            "E": "8 jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Model sistem persamaan linear dengan waktu per unit konstan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan g jam untuk 1 gajah dan b jam untuk 1 banteng."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Model: 2g+3b=8"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "serta g+2b=5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi g=5−2b ke persamaan pertama memberi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "10−4b+3b=8"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇒ b=2 dan g=1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka 4g+b = 4+2 = 6 jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A, B, D, E tidak memenuhi kedua hubungan waktu; C tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Eliminasi: gandakan persamaan kedua ⇒ 2g+4b=10; kurangi persamaan pertama ⇒ b=2; lalu g=1."
+            }
+          ],
+          "label": "Soal Cerita"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 8 — Kombinasi Produksi Berbeda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga patung lumba-lumba dan dua patung bebek dibuat selama 12 jam; dua lumba-lumba dan satu bebek dibuat selama 7 jam. Berapa waktu untuk satu lumba-lumba dan empat bebek?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk Angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 14"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mengubah stimulus menjadi dua persamaan dan memeriksa satuan waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan d dan b waktu per unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3d+2b=12 dan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2d+b=7."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gandakan persamaan kedua: 4d+2b=14;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "kurangi persamaan pertama ⇒ d=2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka b=7−2(2)=3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Target d+4b=2+12=14 jam."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kurangi 2 × persamaan kedua dengan persamaan pertama untuk memperoleh d langsung."
+            }
+          ],
+          "label": "Soal Cerita"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 9 — Menyusul Kendaraan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tegar berangkat pukul 07.00 dengan kecepatan 45 km/jam. Gelar menyusul di rute sama, berangkat pukul 08.00 dengan 60 km/jam. Pada pukul berapa Gelar menyusul Tegar?"
+            }
+          ],
+          "opsi": {
+            "A": "10.00",
+            "B": "11.00",
+            "C": "12.00",
+            "D": "13.00",
+            "E": "14.00"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jarak keunggulan awal dibagi kecepatan relatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pukul 08.00 Tegar unggul 45 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecepatan relatif Gelar 60−45=15 km/jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu menyusul 45/15=3 jam setelah pukul 08.00, yaitu 11.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Titik pertemuan berjarak 180 km dari awal, belum melewati tujuan 540 km dalam referensi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A terlalu awal; B tepat; C–E lebih lambat daripada waktu menyusul."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jarak awal 45 km ÷ selisih laju 15 km/jam = 3 jam."
+            }
+          ],
+          "label": "Soal Cerita"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 10 — Debit Dua Saluran",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bak berisi 9.000 liter air dikosongkan melalui dua lubang secara bersamaan dengan debit masing-masing 150 dan 50 liter/menit. Waktu yang diperlukan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "180 menit",
+            "B": "90 menit",
+            "C": "60 menit",
+            "D": "45 menit",
+            "E": "15 menit"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Debit gabungan untuk dua saluran yang aktif secara bersamaan dijumlahkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Debit total=150+50=200 liter/menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu = 9000/200=45 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Volume dan debit menggunakan satuan yang konsisten."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A,B,C,E tidak sama dengan 9000/200; D tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gabungkan debit lebih dahulu, baru bagi volume oleh debit gabungan."
+            }
+          ],
+          "label": "Soal Cerita"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 11 — Evaluasi Proyek",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pekerjaan direncanakan selesai dalam 16 hari oleh 8 pekerja. Selama hari ke-6 sampai ke-13, tiga pekerja sakit sehingga hanya lima yang bekerja. Setelahnya delapan pekerja kembali bekerja. Berapa hari tambahan dibanding jadwal semula?"
+            }
+          ],
+          "opsi": {
+            "A": "2 hari",
+            "B": "3 hari",
+            "C": "4 hari",
+            "D": "5 hari",
+            "E": "6 hari"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Beban kerja total dihitung dalam orang-hari; laju tiap pekerja tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total beban=16×8=128 orang-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hari 1–5 selesai 5×8=40;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "hari 6–13 selesai 8×5=40;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sisa 48 orang-hari,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "diselesaikan 8 pekerja selama 6 hari, yakni hari 14–19."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tambahan waktu =19−16=3 hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A,C,D,E bukan selisih 19 dan 16; B tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kekurangan tenaga = 3 pekerja × 8 hari = 24 orang-hari; dibagi 8 pekerja = 3 hari tambahan."
+            }
+          ],
+          "label": "Soal Cerita"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 12 — Memeriksa Validitas Konteks",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah tangki memuat 400 liter. Dua pompa mengalirkan 25 dan 15 liter/menit tanpa kebocoran. Seorang siswa menyatakan pengisian memerlukan 16 menit karena memakai pompa pertama saja. Penilaian tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Benar, karena 400/25=16",
+            "B": "Salah, karena kedua debit dijumlahkan sehingga perlu 10 menit",
+            "C": "Salah, karena waktu adalah 40 menit",
+            "D": "Benar, karena debit kedua tidak berpengaruh",
+            "E": "Waktu tidak dapat ditentukan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Model harus mencakup semua komponen yang bekerja dan asumsi tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kedua pompa berjalan serentak,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "total debit=25+15=40 liter/menit;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "waktu 400/40=10 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhitungan 16 menit mengabaikan pompa kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A dan D mengabaikan debit kedua; B benar; C salah karena 40 adalah debit, bukan waktu; E salah karena data cukup."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tentukan jumlah debit aktif sebelum mengonversi volume ke waktu."
+            }
+          ],
+          "label": "Soal Cerita"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

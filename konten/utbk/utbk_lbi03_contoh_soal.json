@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Gagasan Utama dan Struktur Bacaan",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Contoh Soal Gagasan Utama dan Struktur Bacaan",
+    "sumber": "https://docs.google.com/document/d/1cBJ_nsVUiwCnej55yQZtSxJNQu-WzAJl5YWsEsekPP0/edit",
+    "bagian": "soal",
+    "id_katalog": "lbi-03-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks Bacaan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Perubahan Pola Konsumsi dan Pengurangan Sampah Makanan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(1)** Sampah makanan menjadi salah satu persoalan lingkungan yang berkaitan erat dengan pola konsumsi masyarakat. Sampah ini dapat berasal dari bahan pangan yang tidak terjual, makanan yang rusak selama penyimpanan, maupun hidangan yang tersisa setelah dikonsumsi. Di kawasan perkotaan, perubahan gaya hidup dan kemudahan memperoleh makanan dalam jumlah besar dapat mendorong pembelian yang melebihi kebutuhan. Akibatnya, sebagian bahan pangan tidak sempat dimanfaatkan sebelum kualitasnya menurun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(2)** Persoalan tersebut tidak hanya berkaitan dengan perilaku konsumen, tetapi juga dengan sistem distribusi pangan. Bahan pangan yang mudah rusak membutuhkan penyimpanan dan pengangkutan yang sesuai agar kualitasnya tetap terjaga. Apabila fasilitas penyimpanan terbatas atau proses distribusi berlangsung terlalu lama, sebagian produk dapat mengalami kerusakan sebelum mencapai konsumen. Dengan demikian, sampah makanan dapat muncul pada berbagai tahap rantai pasok, mulai dari produksi hingga konsumsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(3)** Pengurangan sampah makanan memerlukan keterlibatan berbagai pihak. Konsumen dapat merencanakan pembelian, menyimpan bahan pangan dengan tepat, dan memanfaatkan makanan sebelum kedaluwarsa. Pelaku usaha dapat memperbaiki pengelolaan persediaan serta menyalurkan produk yang masih layak konsumsi melalui mekanisme yang aman. Sementara itu, pemerintah dapat mendukung upaya tersebut melalui edukasi, fasilitas pengelolaan, dan kebijakan yang mendorong efisiensi rantai pasok. Pendekatan yang melibatkan berbagai pihak diperlukan karena sumber sampah makanan tidak berada pada satu tahap saja."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf berapakah yang berfungsi menguraikan langkah-langkah penanganan sampah makanan melalui keterlibatan konsumen, pelaku usaha, dan pemerintah?",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Paragraf berapakah yang berfungsi menguraikan langkah-langkah penanganan sampah makanan melalui keterlibatan konsumen, pelaku usaha, dan pemerintah?"
+                }
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf (3) berisi berbagai upaya pengurangan sampah makanan berdasarkan peran masing-masing pihak. Paragraf ini berfungsi sebagai bagian solusi atau rekomendasi setelah paragraf sebelumnya menjelaskan persoalan dan faktor penyebabnya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama yang paling tepat untuk menggambarkan keseluruhan isi bacaan adalah ....",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Gagasan utama yang paling tepat untuk menggambarkan keseluruhan isi bacaan adalah ...."
+                }
+              ]
+            }
+          ],
+          "opsi": {
+            "A": "Perubahan gaya hidup masyarakat perkotaan meningkatkan pembelian makanan dalam jumlah besar sehingga sebagian bahan pangan tidak termanfaatkan.",
+            "B": "Sampah makanan terjadi akibat kerusakan bahan pangan selama penyimpanan dan distribusi sebelum produk mencapai konsumen.",
+            "C": "Pengurangan sampah makanan membutuhkan perubahan perilaku konsumen, perbaikan distribusi, dan keterlibatan berbagai pihak.",
+            "D": "Pemerintah perlu menyediakan fasilitas pengelolaan dan kebijakan untuk meningkatkan efisiensi rantai pasok pangan.",
+            "E": "Bahan pangan yang mudah rusak harus segera dikonsumsi agar tidak menimbulkan persoalan lingkungan di kawasan perkotaan."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "**A tidak tepat.** Pernyataan ini hanya mencakup salah satu faktor yang dijelaskan pada paragraf (1), bukan keseluruhan isi bacaan.",
+                "**B tidak tepat.** Pernyataan ini hanya mewakili sebagian penjelasan pada paragraf (2), khususnya mengenai distribusi dan penyimpanan.",
+                "**C tepat.** Pernyataan ini mencakup persoalan sampah makanan, faktor yang memengaruhinya, serta pendekatan penanganan yang melibatkan berbagai pihak.",
+                "**D tidak tepat.** Pernyataan ini hanya mengambil salah satu bentuk upaya penanganan yang disebutkan pada paragraf (3), yaitu peran pemerintah.",
+                "**E tidak tepat.** Pernyataan ini terlalu sempit karena hanya membahas salah satu tindakan konsumen dan tidak mewakili keseluruhan pembahasan."
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan struktur dan hubungan antargagasan dalam bacaan, tentukan Benar atau Salah untuk setiap pernyataan berikut.",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Berdasarkan struktur dan hubungan antargagasan dalam bacaan, tentukan Benar atau Salah untuk setiap pernyataan berikut."
+                }
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Paragraf (1) berfungsi memperkenalkan persoalan sampah makanan sekaligus menjelaskan salah satu faktor yang mendorong kemunculannya.",
+                  "✓",
+                  ""
+                ],
+                [
+                  "2",
+                  "Paragraf (2) sepenuhnya mengulang gagasan paragraf (1) tanpa menambahkan sudut pandang baru mengenai sumber sampah makanan.",
+                  "",
+                  "✓"
+                ],
+                [
+                  "3",
+                  "Paragraf (3) berfungsi menawarkan penanganan yang berkaitan dengan persoalan dan faktor penyebab yang dijelaskan pada paragraf sebelumnya.",
+                  "✓",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. **Benar.** Paragraf (1) memperkenalkan sampah makanan sebagai persoalan lingkungan dan menjelaskan bahwa pola konsumsi masyarakat dapat mendorong terjadinya pemborosan bahan pangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. **Salah.** Paragraf (2) menambahkan sudut pandang mengenai sistem distribusi pangan, fasilitas penyimpanan, dan kerusakan produk sebelum mencapai konsumen. Informasi tersebut memperluas pembahasan paragraf (1)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. **Benar.** Paragraf (3) menawarkan langkah penanganan melalui peran konsumen, pelaku usaha, dan pemerintah. Solusi tersebut berkaitan dengan berbagai sumber persoalan yang dijelaskan pada paragraf sebelumnya."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

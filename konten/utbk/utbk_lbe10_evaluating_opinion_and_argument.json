@@ -1,0 +1,763 @@
+{
+  "meta": {
+    "judul": "Evaluating Opinion and Argument",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Evaluating Opinion and Argument",
+    "sumber": "https://docs.google.com/document/d/1rbPblwJR5F-FDN2KOt-ggWRSU2IXYbtX3JA6U5TdRyM/edit",
+    "id_katalog": "lbe-10"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Evaluating Opinions and Arguments merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan memahami, menganalisis, dan mengevaluasi kualitas argumentasi yang disampaikan penulis dalam sebuah teks. Suatu argumen umumnya dibangun melalui klaim, alasan, bukti, serta asumsi yang menghubungkan informasi tersebut. Oleh karena itu, peserta perlu memahami cara membedakan fakta dan opini, mengidentifikasi struktur argumentasi, menilai relevansi serta kecukupan bukti, dan menentukan informasi tambahan yang dapat memperkuat atau memperlemah suatu kesimpulan. Melalui materi ini, peserta akan mempelajari strategi mengevaluasi hubungan logis antara klaim dan bukti, mengenali kelemahan penalaran, serta mempertimbangkan kemungkinan penjelasan alternatif. Penguasaan keterampilan tersebut membantu peserta menjawab soal Literasi Bahasa Inggris UTBK-SNBT secara kritis, objektif, dan berdasarkan bukti tekstual."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian opinion, argument, dan argument evaluation."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "klaim, alasan, bukti, dan asumsi dalam bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "kesimpulan utama yang ingin dipertahankan penulis."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "hubungan logis antara klaim dan informasi pendukung."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "relevansi, keandalan, serta kecukupan bukti."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "kesalahan penalaran dan generalisasi yang tidak didukung."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "informasi yang dapat memperkuat atau memperlemah argumen."
+      },
+      {
+        "level": "",
+        "kko": "Mempertimbangkan",
+        "teks": "penjelasan alternatif sebelum menilai kesimpulan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Evaluating Opinions and Arguments",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Evaluating Opinions and Arguments",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Opinion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opinion merupakan pandangan, penilaian, atau pendirian seseorang mengenai suatu persoalan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opini dapat berisi preferensi, evaluasi, maupun rekomendasi yang didasarkan pada pertimbangan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Public transportation should receive greater investment than private vehicle infrastructure."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat tersebut merupakan opini atau rekomendasi kebijakan karena menyatakan hal yang menurut penulis seharusnya dilakukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opini tidak otomatis salah atau tidak dapat dibuktikan. Kualitasnya dapat dinilai berdasarkan alasan dan bukti yang digunakan untuk mendukungnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Argument"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Argument merupakan rangkaian pernyataan yang disusun untuk mendukung suatu klaim atau kesimpulan melalui alasan dan bukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam teks argumentatif, penulis tidak sekadar menyatakan pendapat, tetapi berusaha menunjukkan mengapa pendapat tersebut layak diterima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cities should expand public transportation networks because reliable buses and trains can reduce residents' dependence on private vehicles. A recent transportation survey found that commuters were more willing to use public transit when services became more frequent and accessible."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Struktur argumentasinya adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Claim: Cities should expand public transportation networks.",
+                "Reason: Reliable public transportation can reduce dependence on private vehicles.",
+                "Evidence: Survei menunjukkan bahwa masyarakat lebih bersedia menggunakan transportasi umum ketika layanan menjadi lebih sering dan mudah dijangkau."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti berfungsi mendukung alasan yang digunakan untuk mempertahankan klaim."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Argument Evaluation"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Argument evaluation merupakan proses menilai apakah suatu klaim didukung oleh alasan dan bukti yang relevan, cukup, serta dapat dipertanggungjawabkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evaluasi argumentasi tidak hanya menanyakan apakah penulis menyampaikan pendapat yang menarik, tetapi juga apakah bukti yang diberikan benar-benar mendukung kesimpulan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Claim:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Online learning is more effective than classroom learning for all students."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A survey found that 75% of students at one university preferred recorded lectures."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti tersebut menunjukkan preferensi mahasiswa pada satu universitas, tetapi tidak cukup untuk membuktikan bahwa pembelajaran daring lebih efektif bagi semua siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat perbedaan antara preferensi terhadap metode belajar dan efektivitas hasil belajar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, argumen tersebut memiliki kelemahan karena bukti yang digunakan tidak cukup mendukung klaim yang luas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Struktur Argumentasi: Claim, Reason, Evidence, dan Assumption",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Struktur Argumentasi: Claim, Reason, Evidence, dan Assumption",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Claim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Claim merupakan pernyataan utama yang ingin dibuktikan, dipertahankan, atau diterima oleh pembaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klaim dapat berupa pendapat, interpretasi, kesimpulan, atau rekomendasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Schools should provide financial literacy education to all students."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat tersebut merupakan klaim karena menyatakan tindakan yang dianggap perlu dilakukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Reason"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reason adalah alasan yang menjelaskan mengapa suatu klaim dianggap benar atau layak diterima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Financial literacy helps students understand budgeting, saving, and responsible borrowing."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat tersebut mendukung klaim bahwa pendidikan literasi keuangan perlu diberikan di sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda yang sering digunakan untuk memperkenalkan alasan meliputi because, since, as, dan given that."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence merupakan informasi yang digunakan untuk mendukung klaim atau alasan, seperti data penelitian, hasil survei, pengamatan, atau contoh yang relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A school-based study found that students who completed a financial literacy course performed better on budgeting assessments than those who had not taken the course."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut menjadi bukti mengenai hubungan antara pembelajaran literasi keuangan dan pemahaman pengelolaan anggaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, apakah bukti tersebut cukup untuk mendukung penerapan program di seluruh sekolah masih memerlukan evaluasi lebih lanjut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Assumption"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Assumption merupakan anggapan yang mendasari hubungan antara klaim dan bukti, tetapi tidak selalu dinyatakan secara eksplisit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Asumsi penting karena suatu argumen dapat terlihat logis meskipun bergantung pada anggapan yang belum dibuktikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The city should build more bicycle lanes because doing so will encourage residents to cycle instead of driving."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Argumen tersebut mengandung asumsi bahwa jalur sepeda tambahan akan cukup mudah dijangkau, aman, dan relevan dengan kebutuhan perjalanan warga sehingga dapat mendorong perubahan pilihan transportasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika sebagian besar warga tidak memiliki akses ke jalur tersebut, kekuatan argumentasi dapat berkurang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Antarunsur Argumen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Claim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan atau posisi yang ingin dipertahankan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reason"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan yang mendukung klaim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Data, temuan, dan informasi pendukung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Assumption merupakan penghubung penalaran yang perlu diperiksa pada setiap hubungan antara bukti, alasan, dan klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip penting: Banyaknya bukti tidak otomatis menjadikan sebuah argumen kuat. Bukti harus relevan dengan klaim dan cukup untuk mendukung tingkat kepastian serta cakupan kesimpulan yang disampaikan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mengevaluasi Kualitas Bukti",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengevaluasi Kualitas Bukti",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Relevance of Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relevance menunjukkan apakah bukti memiliki hubungan langsung dengan klaim yang sedang dievaluasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Claim:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Extending library opening hours can improve students' access to study facilities."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence A:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The number of students using the library after 8 p.m. increased following the extension of opening hours."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence B:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The university renovated its administrative offices last year."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence A relevan karena berhubungan dengan penggunaan fasilitas perpustakaan setelah perubahan jam operasional."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence B tidak relevan karena membahas renovasi kantor administrasi, bukan akses mahasiswa terhadap fasilitas belajar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sufficiency of Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sufficiency menunjukkan apakah jumlah dan cakupan bukti memadai untuk mendukung kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Three students reported that the new learning application improved their concentration."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temuan tersebut mungkin dapat mendukung pernyataan terbatas bahwa beberapa siswa merasakan manfaat aplikasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, temuan dari tiga siswa tidak cukup untuk menyimpulkan bahwa aplikasi tersebut efektif bagi seluruh siswa secara umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan harus disesuaikan dengan cakupan bukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Reliability of Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reliability berkaitan dengan sejauh mana bukti dapat dipercaya dan diperoleh melalui prosedur yang konsisten serta dapat dipertanggungjawabkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam teks penelitian, peserta dapat memperhatikan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kejelasan sumber data.",
+                "Prosedur pengumpulan informasi.",
+                "Konsistensi hasil pengukuran.",
+                "Kemungkinan bias.",
+                "Keterbatasan metode penelitian."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai contoh, hasil pengukuran menggunakan instrumen yang telah diuji dapat memberikan dukungan berbeda dibandingkan pendapat pribadi yang tidak disertai data."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Representativeness of Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Representativeness menunjukkan apakah data atau sampel cukup mewakili kelompok yang menjadi sasaran kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A survey of students from one private school found that most preferred digital textbooks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil tersebut tidak otomatis mewakili preferensi seluruh siswa di suatu negara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat perbedaan cakupan antara siswa di satu sekolah dan seluruh populasi siswa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Correlation vs. Causation"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Correlation menunjukkan bahwa dua variabel memiliki hubungan, sedangkan causation menunjukkan bahwa perubahan pada satu faktor menyebabkan perubahan pada faktor lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students who attended optional tutoring sessions obtained higher examination scores than students who did not attend."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan tersebut menunjukkan hubungan antara kehadiran pada bimbingan tambahan dan nilai ujian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, belum tentu bimbingan tersebut menjadi satu-satunya penyebab nilai lebih tinggi. Siswa yang mengikuti bimbingan mungkin juga memiliki motivasi belajar berbeda atau melakukan persiapan tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan kausal memerlukan bukti yang lebih kuat daripada sekadar hubungan yang teramati."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strengthening and Weakening Arguments",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strengthening and Weakening Arguments",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Strengthening an Argument"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strengthening an argument merupakan proses menambahkan informasi yang meningkatkan dukungan terhadap klaim atau kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi penguat dapat berupa temuan tambahan yang relevan, pengujian independen, atau bukti yang mengurangi kemungkinan penjelasan alternatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Claim:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new reading program improves students' comprehension skills."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Additional Evidence:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students assigned to the program showed greater improvement on standardized comprehension assessments than comparable students who followed the previous curriculum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti tersebut memperkuat klaim karena memberikan perbandingan hasil belajar yang relevan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Weakening an Argument"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Weakening an argument merupakan proses menunjukkan informasi yang mengurangi kekuatan dukungan terhadap suatu klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi pelemah tidak harus membuktikan bahwa kesimpulan pasti salah. Cukup apabila informasi tersebut membuat hubungan antara bukti dan kesimpulan menjadi kurang meyakinkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Claim:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The school's new study schedule caused an increase in examination scores."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Additional Information:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "During the same period, the school also introduced an intensive tutoring program, and no comparison was conducted to separate the effects of the two changes."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut memperlemah kesimpulan bahwa jadwal baru merupakan penyebab peningkatan nilai karena terdapat faktor lain yang belum dipisahkan pengaruhnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Evaluating Opinions and Arguments",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Evaluating Opinions and Arguments",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pendekatan Claim–Evidence–Assumption–Evaluation (CEAE)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify the Claim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan kesimpulan atau posisi yang ingin dipertahankan penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Examine the Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi alasan, data, dan informasi yang digunakan sebagai dukungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Detect the Assumption"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan anggapan yang diperlukan agar bukti dapat mendukung klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Evaluate the Argument"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa relevansi, kecukupan, cakupan, dan kemungkinan penjelasan alternatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Test Additional Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk soal strengthen/weaken, pilih informasi yang paling mengubah kekuatan argumen."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Menentukan Assumption"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mencari asumsi, tanyakan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "What must be reasonably assumed for the evidence to support the conclusion?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai pengujian tambahan, bayangkan asumsi tersebut tidak berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apabila hubungan antara bukti dan klaim menjadi jauh lebih lemah, asumsi tersebut kemungkinan merupakan bagian penting dari argumentasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Strengthen and Weaken"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk soal strengthen, cari informasi yang:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Memberikan dukungan lebih langsung terhadap klaim.",
+                "Mengurangi kemungkinan penjelasan alternatif.",
+                "Menunjukkan bahwa hasil dapat dipercaya."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk soal weaken, cari informasi yang:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Memperlihatkan adanya faktor penyebab lain.",
+                "Menunjukkan kelemahan pengukuran atau sampel.",
+                "Mengungkapkan bahwa bukti tidak mencakup klaim yang dibuat."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utama: Evaluasi argumen berfokus pada kekuatan hubungan antara bukti dan kesimpulan, bukan pada setuju atau tidak setujunya pembaca terhadap pendapat penulis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Evaluating Opinions and Arguments berfokus pada penilaian struktur dan kualitas penalaran. Klaim adalah pernyataan yang ingin dipertahankan, alasan menjelaskan mengapa klaim layak diterima, bukti mendukung alasan melalui informasi yang relevan, dan asumsi menghubungkan bukti dengan kesimpulan. Kekuatan argumen tidak hanya diukur dari banyaknya data, tetapi dari relevansi, kecukupan, keandalan, serta ketepatan hubungan antara bukti dan hasil yang diklaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal strengthen dan weaken, cari informasi yang paling memengaruhi hubungan bukti dengan klaim. Informasi yang memperkuat dapat mengurangi penjelasan alternatif atau mengukur hasil secara lebih langsung. Informasi yang memperlemah dapat menunjukkan faktor pengganggu, perbedaan awal antarkelompok, atau ketidakcocokan indikator. Waspadai hasty generalization, false cause, dan klaim yang cakupannya lebih luas daripada sampel. Tujuannya bukan menentukan pendapat yang paling disukai, tetapi argumen yang paling dapat dipertanggungjawabkan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Evaluating Opinions and Arguments",
+        "teks": ""
+      },
+      {
+        "judul": "Struktur Argumentasi: Claim, Reason, Evidence, dan Assumption",
+        "teks": ""
+      },
+      {
+        "judul": "Mengevaluasi Kualitas Bukti",
+        "teks": ""
+      },
+      {
+        "judul": "Strengthening and Weakening Arguments",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Evaluating Opinions and Arguments",
+        "teks": ""
+      }
+    ],
+    "pesan": "Evaluasi argumen menuntut disiplin membedakan apa yang diinginkan penulis, apa yang benar-benar diukur, dan apa yang masih diasumsikan. Peserta sebaiknya membiasakan pertanyaan sederhana: bukti ini mendukung klaim bagian mana, dan informasi apa yang belum tersedia? Kebiasaan tersebut memperkuat penalaran kritis sekaligus mencegah pemilihan jawaban berdasarkan kesan umum semata."
+  }
+}

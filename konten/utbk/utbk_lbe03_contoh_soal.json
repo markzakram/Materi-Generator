@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Vocabulary in Context",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Vocabulary in Context",
+    "sumber": "https://docs.google.com/document/d/1MaQf8YSFrwCn7vUdUs2VOF4nMx2sbl4kONGhqaW-rNo/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-03-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "When a local museum digitized its collection, staff initially believed that scanning photographs would be straightforward. The task proved more intricate than expected. Each photograph required a description, a date when available, and a record of its ownership. Some labels were ambiguous, so curators compared them with historical letters before publishing the files. The museum also introduced a resilient backup system: if one server failed, copies could be recovered from another location. After months of painstaking work, the collection became searchable online. Curators stressed that accurate descriptions were as important as the images themselves."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "For older portraits, the museum often had multiple names attached to the same image. Researchers therefore searched newspapers and donation records to check identities, and marked uncertain dates as approximate rather than presenting them as established facts. They wanted online visitors to understand which details had been verified and which remained open to revision."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The backup plan was tested by deliberately disconnecting one storage server. Staff confirmed that copies could still be retrieved, although the restoration process required additional training. The museum decided to publish the collection gradually, prioritizing accurate metadata over the number of images released each week."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Complete the following sentence using exactly one word or number from the passage. Do not use synonyms."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The task proved more ______ than expected."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: intricate"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada materi Vocabulary in Context, kata intricate menggambarkan proses digitalisasi museum yang melibatkan banyak tahapan, mulai dari pendataan hingga verifikasi informasi. Soal meminta kata yang digunakan secara persis dalam teks, bukan sinonimnya. Bentuk 'more intricate than expected' merupakan kutipan kalimat asli; oleh sebab itu jawaban yang diterima adalah intricat"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "What does 'resilient' mean in the context of the backup system?"
+            }
+          ],
+          "opsi": {
+            "A": "Easy to organize without requiring any additional technical staff.",
+            "B": "Designed to store museum records at a single physical location.",
+            "C": "Capable of preventing all possible interruptions to storage servers.",
+            "D": "Capable of restoring saved files after a system failure.",
+            "E": "Intended to reduce the number of digitized image records."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan meminta makna kata resilient berdasarkan konteks sistem pencadangan, sehingga pembaca tidak cukup memilih sinonim umum tanpa memeriksa fungsi alat. Stimulus menyatakan jika satu server mengalami gangguan, salinan data tetap dapat dipulihkan dari lokasi lain; uji pemutusan server juga mengonfirmasi kemampuan tersebut. Oleh karena itu, opsi D benar: resilient berarti mampu bertahan atau pulih dari gangguan. Ini menerapkan contextual clues berupa kondisi kegagalan dan konsekuensi pemulihan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena teks tidak mendefinisikan resilient sebagai kemudahan penataan tanpa tenaga ahli."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B salah karena cadangan disimpan pada lokasi lain, bukan diwajibkan pada satu lokasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C salah karena sistem tidak mencegah semua kerusakan; kekuatannya justru pemulihan setelah gangguan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena pengurangan jumlah foto bukan tujuan atau ciri sistem cadangan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "'Ambiguous' suggests that some labels had unclear meanings.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "'Painstaking' means that the work was completed carelessly.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "'Straightforward' means exceptionally complicated in this context.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "'Recover' refers to obtaining copies again after a failure.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Vocabulary in Context, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Benar): staf harus membandingkan label dengan surat sejarah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Salah): painstaking menunjukkan ketelitian dan upaya besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Salah): straightforward berarti sederhana atau mudah dipahami."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Benar): salinan dapat dipulihkan dari lokasi lain."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

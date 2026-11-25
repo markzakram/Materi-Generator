@@ -8,8 +8,9 @@ folder dengan nama <doc_id>.docx, lalu jalankan:
 
 Hanya entri dengan "otomatis": true yang ditimpa. Gambar disimpan di konten/media/<naskah>/.
 Entri dengan "miring": true mempertahankan cetak miring dokumen (materi Bahasa Inggris); entri dengan
-"penanda": "merah" memakai teks merah sebagai penanda wajib PPT, seperti highlight kuning (Badges); "coret": true
-mempertahankan coretan merah; "pelengkap": "minimal" membatasi tambahan di luar sorotan.
+"penanda": "merah" memakai teks merah sebagai penanda wajib PPT, seperti highlight kuning (Badges), dan "hijau"
+memakai latar hijau muda (UTBK Literasi); "coret": true mempertahankan coretan merah; "pelengkap": "minimal" membatasi
+tambahan di luar sorotan. Katalog dengan "kerangka": "utbk" dirapikan dulu oleh rapikan_utbk.py.
 """
 from __future__ import annotations
 
@@ -20,6 +21,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ekstrak_gdoc as E  # noqa: E402
+import rapikan_utbk as R  # noqa: E402
 
 AKAR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KONTEN = os.path.join(AKAR, "konten")
@@ -65,14 +67,19 @@ def main(argv=None):
             continue
         slug = os.path.splitext(m["naskah"])[0]
         aktif = indeks_peta.get(m.get("subtes"), indeks_peta.get(m["kelompok"], 0))
-        naskah = E.susun(E.baca_docx(path, miring=bool(m.get("miring")), merah=m.get("penanda") == "merah",
-                                     coret=bool(m.get("coret"))), folder, slug, url_dokumen(m["doc_id"]), aktif,
-                         f"{awalan} - {m['bab']}".replace("/", "-"), subtes=subtes, peta=peta,
+        elemen = E.baca_docx(path, miring=bool(m.get("miring")), penanda=m.get("penanda", ""), coret=bool(m.get("coret")),
+                             rumus_gambar=m.get("rumus_gambar"), ganti_baris=katalog.get("kerangka") == "utbk")
+        if katalog.get("kerangka") == "utbk":
+            elemen = R.rapikan(elemen)
+        naskah = E.susun(elemen, folder, slug, url_dokumen(m["doc_id"]), aktif,
+                         f"{m.get('awalan', awalan)} - {m['bab']}".replace("/", "-"),
+                         subtes=katalog.get("nama_subtes", {}).get(m.get("subtes"), subtes), peta=peta,
                          judul=m["bab"] if "peta" in katalog else None,
-                         pilihan=pilihan.get(m["id"], []), minimal=m.get("pelengkap") == "minimal")
+                         pilihan=pilihan.get(m["id"], []), minimal=m.get("pelengkap") == "minimal",
+                         isi_kosong=katalog.get("kerangka") == "utbk")
         keluaran = [(m, naskah)]
         if soal:
-            materi, contoh = E.pisah_soal(naskah, f"{awalan} - {soal['bab']}".replace("/", "-"))
+            materi, contoh = E.pisah_soal(naskah, f"{m.get('awalan', awalan)} - {soal['bab']}".replace("/", "-"))
             keluaran = [(m, materi), (soal, contoh)]
         for entri, isi in keluaran:
             isi["meta"]["id_katalog"] = entri["id"]

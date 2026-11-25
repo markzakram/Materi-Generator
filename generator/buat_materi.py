@@ -298,8 +298,11 @@ class Pembangun:
         """Kartu tujuan: lingkaran kuning berisi level Bloom, kartu pertama navy."""
         t = self.k["tujuan"]
         if self.general:
-            s = self.baru("Tujuan Pembelajaran", hias=False)
-            self.cek_batas(D._KAIT.tujuan(s, t.get("pengantar"), t["butir"]), "Tujuan")
+            n = len(t["butir"])
+            per = n if n <= 9 else -(-n // -(-n // 8))  # lebih dari 9 butir: bagi rata ke beberapa slide
+            for i in range(0, max(n, 1), max(per, 1)):
+                s = self.baru("Tujuan Pembelajaran", hias=False)
+                self.cek_batas(D._KAIT.tujuan(s, t.get("pengantar"), t["butir"][i:i + per], i), "Tujuan")
             return
         s = self.baru("Tujuan Pembelajaran")
         y = D.kerangka_isi(s, "Tujuan Pembelajaran", t.get("ikon_chip", "strategi"), t.get("judul") or t["pengantar"])
@@ -444,9 +447,12 @@ class Pembangun:
             s = self.baru("Pendalaman Materi")
             w_chip = D.chip(s, judul, sub.get("ikon", "checklist"))
             x = D.X_CHIP + w_chip + 0.25
-            for t in tag:
-                _, w = D.pil(s, x, D.Y_CHIP + (D.H_CHIP - 0.46) / 2, t, ukuran=13)
-                x += w + 0.15
+            for t in tag:  # label panjang dikecilkan supaya tidak keluar tepi slide
+                ruang = D.LEBAR_SLIDE - 0.3 - x
+                ukuran = next((u for u in (13, 12, 11, 10, 9) if D.lebar_pt(t, u, True) / 72 + 0.5 <= ruang), None)
+                if ukuran:
+                    _, w = D.pil(s, x, D.Y_CHIP + (D.H_CHIP - 0.46) / 2, t, ukuran=ukuran)
+                    x += w + 0.15
             soal_slide.append(s)
             return s, D.Y_CHIP + D.H_CHIP + 0.45
 

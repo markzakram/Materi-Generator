@@ -1,0 +1,622 @@
+{
+  "meta": {
+    "judul": "Paraphrase and Restatement",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Paraphrase and Restatement",
+    "sumber": "https://docs.google.com/document/d/11FVOSaHphgTah6N5bzIK8SRaxkadl-r2ueUKFm-yTek/edit",
+    "id_katalog": "lbe-05"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Paraphrase and Restatement merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan memahami dan mengidentifikasi pernyataan yang memiliki makna setara meskipun disampaikan menggunakan pilihan kata atau struktur kalimat yang berbeda. Dalam sebuah bacaan, informasi dapat dinyatakan kembali melalui sinonim, perubahan struktur gramatikal, atau penyusunan ulang kalimat tanpa mengubah pesan utamanya. Namun, perubahan kecil pada negasi, perbandingan, hubungan waktu, modalitas, atau cakupan informasi dapat menghasilkan makna yang berbeda. Oleh karena itu, peserta perlu memahami cara membedakan parafrasa yang tepat dari pernyataan yang mengalami pergeseran makna. Penguasaan materi ini membantu peserta menjawab soal Literasi Bahasa Inggris UTBK-SNBT secara cermat, terutama ketika pilihan jawaban tidak menggunakan redaksi yang sama dengan teks sumber."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian paraphrase dan restatement."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "parafrasa yang setara dari pernyataan yang hanya memiliki kemiripan kosakata."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "perubahan struktur kalimat tanpa perubahan makna."
+      },
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "pentingnya mempertahankan subjek, tindakan, kondisi, dan cakupan informasi."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "dampak perubahan negasi, kuantitas, perbandingan, waktu, dan modalitas."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "pengecoh yang mengubah kekuatan atau maksud pernyataan asli."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "soal parafrasa melalui pemeriksaan kesetaraan makna secara sistematis."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Paraphrase and Restatement",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Paraphrase and Restatement",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Paraphrase"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paraphrase adalah penyampaian kembali suatu informasi menggunakan pilihan kata atau struktur kalimat berbeda dengan tetap mempertahankan makna yang dimaksud."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Parafrasa tidak harus menggunakan kata yang sama dengan sumber. Namun, informasi inti, hubungan antargagasan, dan batasan yang relevan harus dipertahankan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original Sentence:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The government introduced new regulations to reduce industrial pollution."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Correct Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "New rules were implemented by the government to decrease pollution caused by industrial activities."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua kalimat memiliki makna setara karena mempertahankan pelaku, tindakan, dan tujuan kebijakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan yang terjadi meliputi:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Introduced new regulations menjadi implemented new rules.",
+                "Reduce menjadi decrease.",
+                "Struktur aktif berubah menjadi pasif.",
+                "Industrial pollution dinyatakan sebagai pollution caused by industrial activities."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan tersebut tidak menghilangkan informasi inti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Restatement"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Restatement adalah penyampaian ulang suatu pernyataan untuk memperjelas atau menegaskan makna yang sama. Dalam soal Literasi Bahasa Inggris, istilah paraphrase dan restatement sering digunakan untuk menguji keterampilan yang berdekatan, yaitu mengenali kesetaraan makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan penekanannya adalah:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Paraphrase",
+                "Restatement"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Pengungkapan ulang dengan redaksi berbeda",
+                  "Penyampaian ulang informasi"
+                ],
+                [
+                  "Perubahan bentuk",
+                  "Dapat berupa perubahan kosakata dan struktur",
+                  "Dapat berupa penyederhanaan atau penegasan"
+                ],
+                [
+                  "Syarat utama",
+                  "Makna tetap setara",
+                  "Informasi inti tetap dipertahankan"
+                ],
+                [
+                  "Penerapan soal",
+                  "Memilih kalimat bermakna sama",
+                  "Memilih pernyataan ulang yang akurat"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh Restatement:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The museum will remain closed until the renovation is completed."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Restatement:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The museum will reopen only after the renovation has been completed."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya mempertahankan kondisi bahwa museum tidak akan kembali dibuka sebelum renovasi selesai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Prinsip Semantic Equivalence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semantic equivalence merupakan kesetaraan makna antara dua ungkapan atau pernyataan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal parafrasa, kesetaraan tidak cukup ditentukan berdasarkan kemiripan kata. Peserta harus memeriksa apakah kedua kalimat menyampaikan fakta dan batasan yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Some researchers believe that the treatment may reduce symptoms."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Incorrect Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "All researchers have confirmed that the treatment eliminates symptoms."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Parafrasa tersebut tidak setara karena mengubah tiga unsur penting."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur",
+                "Original",
+                "Incorrect Paraphrase"
+              ],
+              "baris": [
+                [
+                  "Cakupan",
+                  "Some researchers",
+                  "All researchers"
+                ],
+                [
+                  "Kepastian",
+                  "Believe, may",
+                  "Have confirmed"
+                ],
+                [
+                  "Hasil",
+                  "Reduce symptoms",
+                  "Eliminate symptoms"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan utama bukan terletak pada perbedaan kosakata, melainkan pada perubahan makna."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bentuk-Bentuk Paraphrase",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk-Bentuk Paraphrase",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Lexical Paraphrase"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lexical paraphrase dilakukan dengan mengganti kata atau frasa menggunakan padanan yang sesuai konteks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new system significantly improved operational efficiency."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new system considerably increased operational efficiency."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata significantly memiliki makna yang berdekatan dengan considerably. Sementara itu, improved dan increased dapat menghasilkan penyampaian yang sepadan dalam konteks peningkatan efisiensi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, sinonim harus dinilai secara kontekstual karena kata yang berdekatan makna tidak selalu dapat saling menggantikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Structural Paraphrase"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Structural paraphrase dilakukan dengan mengubah struktur kalimat tanpa mengubah informasi yang disampaikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers collected data from five coastal villages."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Data were collected from five coastal villages by the researchers."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan dari kalimat aktif menjadi pasif mempertahankan pelaku, tindakan, dan jumlah lokasi penelitian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Nominalization"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nominalization merupakan perubahan bentuk kata kerja atau sifat menjadi kata benda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The number of participants increased substantially."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "There was a substantial increase in the number of participants."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua kalimat menyampaikan peningkatan jumlah peserta dalam tingkat yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Clause Restructuring"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Parafrasa dapat dibuat dengan mengubah susunan frasa atau klausa sambil mempertahankan hubungan maknanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Because the equipment was damaged, the experiment was postponed."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The experiment was postponed due to equipment damage."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan sebab-akibat tetap dipertahankan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, apabila susunan tersebut diubah menjadi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The equipment was damaged because the experiment was postponed."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maknanya berubah karena hubungan penyebab dan akibat menjadi terbalik."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Equivalent Negative Expressions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa bentuk negatif dapat dinyatakan melalui struktur berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The report did not provide sufficient evidence to support the claim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The evidence presented in the report was insufficient to support the claim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua kalimat menunjukkan bahwa bukti dalam laporan tidak memadai untuk mendukung klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Akan tetapi, pernyataan tersebut tidak berarti klaim telah terbukti salah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Paraphrase and Restatement",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Paraphrase and Restatement",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menyelesaikan soal, peserta dapat menggunakan pendekatan Meaning Preservation Test."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify the Core Proposition"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan subjek, tindakan, objek, dan pesan utama kalimat sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Mark the Qualifiers"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tandai negasi, kuantitas, modalitas, waktu, dan kondisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Compare the Options"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa apakah opsi mempertahankan hubungan informasi yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Detect Meaning Shifts"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi unsur yang ditambahkan, dihilangkan, atau diubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Verify Semantic Equivalence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih pernyataan yang paling setara dengan sumber."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh Penerapan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Although the program improved access to education, its long-term impact remains uncertain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan tiga informasi utama:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Program meningkatkan akses pendidikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Dampak jangka panjangnya belum dapat dipastikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Kedua informasi dihubungkan melalui kontras atau konsesi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Correct Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The program increased educational access, but its long-term effects have not yet been established."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Parafrasa tersebut mempertahankan manfaat program dan ketidakpastian dampak jangka panjangnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Incorrect Paraphrase:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The program has permanently improved educational outcomes."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan tersebut salah karena mengganti peningkatan akses pendidikan dengan hasil pendidikan dan menambahkan kepastian dampak permanen."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Word Matching Trap: Memilih opsi karena memiliki banyak kata yang sama.",
+                "Overgeneralization: Mengubah some menjadi all atau may menjadi will.",
+                "Negation Error: Salah memahami cakupan penyangkalan.",
+                "Reversed Relationship: Membalik hubungan sebab-akibat, perbandingan, atau waktu.",
+                "Unsupported Interpretation: Menambahkan kesimpulan yang tidak didukung sumber."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utama materi ini adalah kesetaraan makna lebih penting daripada kesamaan kata."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Paraphrase adalah penyampaian kembali informasi menggunakan susunan atau pilihan kata berbeda dengan mempertahankan isi dan maksud asal. Restatement lebih menekankan kesetaraan informasi ketika pernyataan diungkapkan ulang. Jawaban yang baik tidak cukup menggunakan sinonim; kuantor, syarat, pengecualian, rentang waktu, pelaku, dan tingkat kepastian harus tetap sama. Perubahan kecil pada modalitas atau cakupan dapat menghasilkan pernyataan baru yang tidak setara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah pemeriksaan parafrasa terdiri atas identifikasi pernyataan inti, penandaan unsur pembatas, penggantian struktur atau kata secara wajar, dan pencocokan ulang terhadap teks sumber. Pada pilihan ganda, eliminasi opsi yang menambah kata every, always, proved, permanently, atau guaranteed ketika teks hanya memberi laporan terbatas. Pada kategori Benar/Salah, verifikasi apakah kalimat baru masih menyampaikan informasi identik atau justru menambah asumsi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Paraphrase and Restatement",
+        "teks": ""
+      },
+      {
+        "judul": "Bentuk-Bentuk Paraphrase",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Paraphrase and Restatement",
+        "teks": ""
+      }
+    ],
+    "pesan": "Keterampilan parafrasa yang akurat membantu peserta membedakan jawaban yang hanya tampak mirip dari jawaban yang benar-benar sepadan. Dalam latihan berikutnya, biasakan menguji perubahan kuantor dan modalitas terlebih dahulu. Ketelitian tersebut sangat penting karena kesalahan pada satu kata pembatas dapat mengubah seluruh kesimpulan bacaan."
+  }
+}

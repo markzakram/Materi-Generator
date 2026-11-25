@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Evaluasi Bukti, Fakta, Data, dan Simpulan",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Contoh Soal Evaluasi Bukti, Fakta, Data, dan Simpulan",
+    "sumber": "https://docs.google.com/document/d/1ZXlxN5PW0LOdrihV03a1TgDIg9diBzncW7UYh8DpB3g/edit",
+    "bagian": "soal",
+    "id_katalog": "lbi-06-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks Bacaan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Bacalah teks berikut untuk menjawab soal-soal berikut!"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengembangan Perpustakaan Digital dan Akses Literasi Masyarakat"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Paragraf A"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perkembangan teknologi informasi mendorong sejumlah perpustakaan memperluas layanan melalui penyediaan koleksi digital. Melalui layanan tersebut, masyarakat dapat mengakses bahan bacaan tanpa harus selalu mendatangi gedung perpustakaan. Pengembangan perpustakaan digital dipandang sebagai salah satu upaya memperluas akses literasi, terutama bagi pengguna yang menghadapi keterbatasan jarak dan waktu. Meskipun demikian, kemudahan akses tidak hanya ditentukan oleh ketersediaan koleksi digital, tetapi juga oleh kondisi pengguna dan dukungan infrastruktur."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Paragraf B"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perpustakaan daerah melakukan evaluasi setelah menyediakan layanan peminjaman buku digital. Hasil evaluasi menunjukkan bahwa penggunaan layanan digital meningkat selama masa pengamatan. Sebagian pengguna menyatakan bahwa layanan tersebut membantu mereka memperoleh bahan bacaan di luar jam operasional perpustakaan. Akan tetapi, evaluasi itu tidak membandingkan kebiasaan membaca pengguna sebelum dan sesudah layanan diterapkan. Oleh karena itu, peningkatan penggunaan layanan belum dapat dijadikan bukti bahwa seluruh pengguna mengalami peningkatan minat membaca."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Paragraf C"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selain ketersediaan koleksi, kemampuan masyarakat memanfaatkan layanan digital juga menjadi perhatian. Pengguna yang memiliki perangkat dan akses internet memadai cenderung lebih mudah menggunakan layanan tersebut. Sebaliknya, sebagian masyarakat masih menghadapi hambatan akibat keterbatasan perangkat, koneksi internet, atau keterampilan menggunakan aplikasi. Kondisi ini menunjukkan bahwa penyediaan layanan digital belum tentu menghasilkan manfaat yang sama bagi seluruh kelompok masyarakat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Paragraf D"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pengembangan perpustakaan digital perlu dipahami sebagai upaya memperluas kesempatan mengakses bahan bacaan, bukan sebagai jaminan meningkatnya minat baca seluruh masyarakat. Keberhasilan layanan perlu dievaluasi dengan mempertimbangkan kemudahan akses, kemampuan pengguna, serta perubahan kebiasaan membaca yang benar-benar dapat dibuktikan. Pendekatan tersebut memungkinkan pengelola membedakan peningkatan penggunaan layanan dari peningkatan aktivitas literasi yang lebih luas."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada paragraf manakah penulis menjelaskan bahwa peningkatan penggunaan layanan perpustakaan digital belum cukup untuk membuktikan peningkatan minat membaca seluruh pengguna?",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Pada paragraf manakah penulis menjelaskan bahwa peningkatan penggunaan layanan perpustakaan digital belum cukup untuk membuktikan peningkatan minat membaca seluruh pengguna?"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tuliskan huruf paragraf yang tepat."
+            }
+          ],
+          "opsi": {},
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf B menjelaskan hasil evaluasi penggunaan layanan perpustakaan digital. Meskipun penggunaan layanan meningkat, evaluasi tersebut tidak membandingkan kebiasaan membaca pengguna sebelum dan sesudah layanan diterapkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterbatasan informasi ini menyebabkan peningkatan penggunaan layanan tidak dapat langsung dijadikan bukti bahwa seluruh pengguna mengalami peningkatan minat membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf A memperkenalkan manfaat dan tantangan perpustakaan digital. Paragraf C membahas hambatan akses pada kelompok pengguna, sedangkan paragraf D menyampaikan simpulan keseluruhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, paragraf B merupakan bagian yang paling langsung menjelaskan keterbatasan bukti mengenai peningkatan minat membaca."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan keseluruhan bacaan, simpulan yang paling tepat mengenai pengembangan perpustakaan digital adalah ....",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Berdasarkan keseluruhan bacaan, simpulan yang paling tepat mengenai pengembangan perpustakaan digital adalah ...."
+                }
+              ]
+            }
+          ],
+          "opsi": {
+            "A": "Pengembangan perpustakaan digital dapat meningkatkan penggunaan layanan, tetapi keberhasilan literasi tetap perlu dinilai melalui akses, kesiapan pengguna, dan bukti perubahan kebiasaan membaca.",
+            "B": "Peningkatan penggunaan layanan digital membuktikan bahwa masyarakat telah memiliki kebiasaan membaca yang lebih baik dibandingkan sebelum layanan diterapkan.",
+            "C": "Penyediaan koleksi digital merupakan faktor utama yang menentukan peningkatan minat membaca karena pengguna dapat mengakses bahan bacaan tanpa batasan waktu.",
+            "D": "Pengembangan perpustakaan digital belum dapat memberikan manfaat literasi selama masih terdapat kelompok masyarakat yang menghadapi keterbatasan akses teknologi.",
+            "E": "Keberhasilan perpustakaan digital terutama ditentukan oleh jumlah pengguna layanan karena peningkatan penggunaan menunjukkan tercapainya tujuan pengembangan literasi."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi A merupakan simpulan yang paling tepat karena menggabungkan gagasan utama dan informasi penting dari seluruh bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf A menjelaskan bahwa perpustakaan digital dapat memperluas akses bahan bacaan. Paragraf B menunjukkan peningkatan penggunaan layanan, tetapi menegaskan bahwa hal tersebut belum membuktikan peningkatan minat membaca. Paragraf C menjelaskan adanya hambatan akses teknologi pada sebagian masyarakat. Paragraf D menegaskan perlunya evaluasi yang mempertimbangkan aksesibilitas, kemampuan pengguna, dan perubahan kebiasaan membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, opsi A mempertahankan manfaat sekaligus keterbatasan informasi yang disampaikan penulis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis opsi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Opsi A tepat** karena mencakup manfaat pengembangan layanan digital, keterbatasan bukti, dan perlunya evaluasi berdasarkan kondisi pengguna serta kebiasaan membaca.",
+                "**Opsi B tidak tepat** karena bacaan secara jelas menyatakan bahwa peningkatan penggunaan layanan belum cukup untuk membuktikan perubahan kebiasaan membaca.",
+                "**Opsi C tidak tepat** karena bacaan tidak menyatakan bahwa koleksi digital merupakan faktor utama peningkatan minat membaca. Akses dan kemampuan pengguna juga memengaruhi pemanfaatan layanan.",
+                "**Opsi D tidak tepat** karena keberadaan hambatan pada sebagian masyarakat tidak berarti layanan digital sama sekali tidak memberikan manfaat. Bacaan justru menjelaskan adanya manfaat bagi pengguna tertentu.",
+                "**Opsi E tidak tepat** karena jumlah pengguna layanan tidak dapat dijadikan satu-satunya indikator keberhasilan literasi. Penulis membedakan penggunaan layanan dari perubahan aktivitas membaca."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Strategi menjawab:** Temukan gagasan utama pada awal bacaan, perhatikan informasi pembatas pada paragraf pengembangan, kemudian cocokkan dengan penegasan pada paragraf penutup. Pilih simpulan yang mencakup keseluruhan hubungan tersebut tanpa menambahkan kepastian yang tidak didukung teks."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan kecukupan bukti dan ketepatan simpulan dalam bacaan!",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan kecukupan bukti dan ketepatan simpulan dalam bacaan!"
+                }
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "Peningkatan penggunaan layanan digital dapat menjadi bukti meningkatnya pemanfaatan layanan, tetapi belum cukup untuk membuktikan peningkatan minat membaca seluruh pengguna.",
+                  "✓",
+                  ""
+                ],
+                [
+                  "Keberadaan hambatan teknologi pada sebagian masyarakat membuktikan bahwa pengembangan perpustakaan digital tidak memberikan manfaat bagi pengguna mana pun.",
+                  "",
+                  "✓"
+                ],
+                [
+                  "Evaluasi keberhasilan perpustakaan digital perlu membedakan kemudahan akses terhadap bahan bacaan dari perubahan kebiasaan membaca masyarakat.",
+                  "✓",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pernyataan pertama: Benar",
+                "Pernyataan kedua: Salah",
+                "Pernyataan ketiga: Benar"
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan pertama — Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf B menyatakan bahwa penggunaan layanan digital meningkat selama masa pengamatan. Informasi tersebut mendukung kesimpulan mengenai peningkatan pemanfaatan layanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, evaluasi tidak membandingkan kebiasaan membaca pengguna sebelum dan sesudah layanan diterapkan. Oleh karena itu, peningkatan penggunaan belum cukup untuk membuktikan bahwa seluruh pengguna mengalami peningkatan minat membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan ini tepat karena membedakan bukti yang tersedia dari kesimpulan yang belum dapat dipastikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan kedua — Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf C menjelaskan bahwa sebagian masyarakat menghadapi hambatan akibat keterbatasan perangkat, koneksi internet, atau keterampilan menggunakan aplikasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Akan tetapi, keberadaan hambatan pada sebagian kelompok tidak membuktikan bahwa seluruh pengguna tidak memperoleh manfaat. Paragraf B justru menunjukkan bahwa sebagian pengguna merasa terbantu karena dapat mengakses bahan bacaan di luar jam operasional perpustakaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan tersebut tidak tepat karena mengubah keterbatasan manfaat pada sebagian kelompok menjadi penolakan terhadap seluruh manfaat layanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan ketiga — Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf D menegaskan bahwa pengembangan perpustakaan digital perlu dinilai berdasarkan kemudahan akses, kemampuan pengguna, dan perubahan kebiasaan membaca yang dapat dibuktikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini menunjukkan bahwa peningkatan penggunaan layanan tidak selalu identik dengan peningkatan aktivitas literasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pernyataan ketiga merupakan simpulan yang tepat karena mempertahankan perbedaan antara akses terhadap bahan bacaan dan perubahan kebiasaan membaca masyarakat."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

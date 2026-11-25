@@ -1,0 +1,992 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Aritmatika Sosial",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Aritmatika Sosial",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-02-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Promo barang bonus",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu paket buah berisi lima kilogram berbayar seharga Rp30.000 dan bonus satu kilogram. Jika pembeli ingin menerima tepat 30 kilogram melalui paket tersebut, total pembayaran adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp120.000",
+            "B": "Rp150.000",
+            "C": "Rp180.000",
+            "D": "Rp210.000",
+            "E": "Rp250.000"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Biaya efektif per paket dan jumlah paket utuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap paket memberi 6 kg dan berharga Rp30.000. Untuk menerima 30 kg diperlukan 30 ÷ 6 = 5 paket. Pembayaran = 5 × Rp30.000 = Rp150.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 4 paket hanya 24 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar, lima paket menghasilkan 30 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Setara enam paket dan menghasilkan 36 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Setara tujuh paket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak sesuai harga kelipatan Rp30.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari kilogram diterima per paket, lalu hitung banyak paket."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Transaksi dengan biaya tetap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah toko menjual buku dengan harga Rp18.000 per buku. Seorang pelanggan membeli 3 buku dan mendapatkan potongan harga sebesar Rp6.000 dari total belanja. Selain itu, toko mengenakan biaya kemasan tetap sebesar Rp4.000 untuk setiap transaksi, tanpa memperhatikan jumlah buku yang dibeli."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Total harga ketiga buku sebelum potongan dan biaya kemasan adalah Rp54.000.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika potongan harga diperhitungkan sebelum biaya kemasan, jumlah pembayaran akhir adalah Rp48.000.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika pelanggan membeli 4 buku dengan potongan dan biaya kemasan yang sama, total pembayaran menjadi Rp70.000.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Jika biaya kemasan dihapus, tetapi potongan harga tetap berlaku, pelanggan cukup membayar Rp48.000 untuk 3 buku.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar, Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Operasi hitung campuran pada transaksi dengan potongan nominal dan biaya tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga satu buku adalah Rp18.000. Untuk pembelian 3 buku, total sebelum potongan dan biaya kemasan adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3 × Rp18.000 = Rp54.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga setelah potongan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp54.000 − Rp6.000 = Rp48.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pelanggan masih harus membayar biaya kemasan Rp4.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total pembayaran:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp48.000 + Rp4.000 = Rp52.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Rp48.000 bukan jumlah pembayaran akhir."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pelanggan membeli 4 buku, harga sebelum potongan adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4 × Rp18.000 = Rp72.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah dikurangi potongan dan ditambah biaya kemasan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp72.000 − Rp6.000 + Rp4.000 = Rp70.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (3) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika biaya kemasan dihapus, pelanggan hanya membayar harga ketiga buku setelah potongan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp54.000 − Rp6.000 = Rp48.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (4) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, urutan jawaban yang benar adalah Benar – Salah – Benar – Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan pola:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total pembayaran=(n×h)-d+k$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$n$ = jumlah buku",
+                "$h$ = harga per buku",
+                "$d$ = potongan nominal",
+                "$k$ = biaya kemasan tetap"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pastikan potongan nominal hanya dikurangkan satu kali dan biaya kemasan tetap hanya ditambahkan satu kali untuk setiap transaksi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Harga satuan setelah bonus",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu paket minuman terdiri atas 4 botol berbayar dengan harga Rp24.000 dan bonus 2 botol. Harga efektif setiap botol yang diterima adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp3.000",
+            "B": "Rp4.000",
+            "C": "Rp4.800",
+            "D": "Rp6.000",
+            "E": "Rp8.000"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Harga satuan efektif harus menggunakan semua unit yang diterima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Enam botol diterima dengan pembayaran Rp24.000 sehingga harga efektif = Rp24.000 ÷ 6 = Rp4.000 per botol."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Harga efektif bukan Rp3.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar: 24.000/6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Menggunakan 5 botol, bukan 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mengabaikan dua bonus dan hanya menghitung 4 botol."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Melebihi harga unit berbayar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Total diterima = 4 + 2; bagi pembayaran dengan enam."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Dua pilihan harga bersyarat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Toko A menawarkan paket 6 bolpoin seharga Rp42.000. Toko B menjual bolpoin Rp6.500 per buah dengan biaya pengemasan tetap Rp3.000 per transaksi. Untuk tepat 6 bolpoin, pilihan yang lebih murah adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Toko A lebih murah Rp1.000",
+            "B": "Toko A lebih murah Rp2.000",
+            "C": "Toko B lebih murah Rp1.000",
+            "D": "Toko B lebih murah Rp2.000",
+            "E": "Harga keduanya sama"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Biaya tetap memengaruhi perbandingan penawaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko A = Rp42.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko B = 6 × Rp6.500 + Rp3.000 = Rp42.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi biaya sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak terdapat selisih Rp1.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak terdapat selisih Rp2.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Toko B tidak lebih murah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak ada selisih Rp2.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar, total keduanya Rp42.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung total semua komponen untuk 6 unit, jangan membandingkan harga satuan mentah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Diskon tunggal",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tujuh butir telur berharga Rp35.000. Harga per butir tetap. Jika membeli 12 butir dan mendapat diskon 5% dari total belanja, pembayaran akhir adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp55.000",
+            "B": "Rp56.000",
+            "C": "Rp57.000",
+            "D": "Rp58.000",
+            "E": "Rp59.000"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Harga total sebelum diskon dan faktor pengali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga satu butir = 35.000/7 = 5.000. Dua belas butir = 60.000; potongan 5% × 60.000 = 3.000; bayar Rp57.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Terlalu kecil Rp2.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kurang Rp1.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar Rp57.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Terlalu besar Rp1.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu besar Rp2.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "60.000 × 0,95 = 57.000."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Diskon bertingkat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga tas Rp250.000 mendapat potongan 20%, kemudian potongan tambahan 10% dari harga setelah diskon pertama. Harga akhir tas adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp170.000",
+            "B": "Rp175.000",
+            "C": "Rp180.000",
+            "D": "Rp185.000",
+            "E": "Rp190.000"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Diskon bertingkat menggunakan basis terbaru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah diskon pertama harga menjadi 250.000 × 0,80 = 200.000. Setelah diskon kedua harga = 200.000 × 0,90 = Rp180.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak sesuai faktor 0,72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak sama dengan 250.000 × 0,72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Terlalu tinggi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu tinggi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalikan dua faktor: 250.000 × 0,8 × 0,9."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Membandingkan dua skema",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk barang seharga Rp200.000, Promo A memberikan diskon 25%, sedangkan Promo B memberikan potongan Rp42.000 dan cashback Rp12.000 yang dapat langsung digunakan untuk transaksi ini. Manakah yang lebih menghemat biaya efektif?"
+            }
+          ],
+          "opsi": {
+            "A": "A unggul Rp4.000",
+            "B": "A unggul Rp6.000",
+            "C": "B unggul Rp4.000",
+            "D": "B unggul Rp6.000",
+            "E": "Sama hemat"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbandingan nominal potongan pada basis yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Promo A hemat 25% × 200.000 = 50.000. Promo B mengurangi biaya efektif sebesar 42.000 + 12.000 = 54.000. Jadi B lebih hemat Rp4.000, dengan asumsi cashback benar-benar langsung bernilai dalam transaksi ini."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. A tidak unggul."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. A tidak unggul."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar: 54.000 − 50.000 = 4.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Selisih bukan 6.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Hemat tidak sama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ubah setiap skema menjadi penghematan dalam rupiah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 8 — Modal awal dari nilai akhir",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diana menabung dengan bunga tunggal 12% per tahun. Setelah 8 bulan, saldonya menjadi Rp10.800.000 tanpa setoran tambahan atau biaya. Tabungan awalnya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp9.600.000",
+            "B": "Rp10.240.000",
+            "C": "Rp12.240.000",
+            "D": "Rp12.000.000",
+            "E": "Rp10.000.000"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mencari modal awal dari bunga tunggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lama waktu 8/12 tahun. Faktor akhir = 1 + 0,12 × (8/12) = 1,08. Modal awal = 10.800.000/1,08 = Rp10.000.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Terlalu kecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak memenuhi faktor 1,08."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Lebih besar daripada saldo akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Saldo awal tidak melebihi saldo akhir jika bunga positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bunga 8 bulan = 8% dari modal; bagi saldo akhir dengan 1,08."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 9 — Tunggal versus majemuk",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Modal Rp2.000.000 disimpan dua tahun pada bunga 10% per tahun. Skema A berbunga tunggal; skema B berbunga majemuk tahunan. Selisih nilai akhir kedua skema adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp10.000",
+            "B": "Rp20.000",
+            "C": "Rp30.000",
+            "D": "Rp40.000",
+            "E": "Rp50.000"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Bunga majemuk mengenakan bunga atas saldo terakumulasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A = 2.000.000(1 + 0,10 × 2) = 2.400.000. B = 2.000.000(1,1)² = 2.420.000. Selisih Rp20.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kurang Rp10.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terlalu besar Rp10.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Dua kali selisih benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu besar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perbedaan dua periode = P × r² = 2.000.000 × 0,01 = 20.000."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 10 — Total pembayaran cicilan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perangkat dibeli dengan uang muka Rp600.000 dan 10 cicilan bulanan masing-masing Rp230.000. Ada biaya administrasi satu kali Rp100.000. Total pembayaran adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp2.700.000",
+            "B": "Rp2.800.000",
+            "C": "Rp2.900.000",
+            "D": "Rp3.000.000",
+            "E": "Rp3.100.000"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menjumlah semua komponen pembiayaan nominal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total 10 cicilan = 10 × 230.000 = 2.300.000. Tambahkan uang muka 600.000 dan admin 100.000 sehingga total = Rp3.000.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak mencakup seluruh biaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kurang Rp200.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Mengabaikan sebagian komponen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar, 600.000 + 2.300.000 + 100.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu besar Rp100.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jumlahkan uang muka + n × cicilan + admin."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 11 — Menilai dua skema",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Skema A meminta uang muka Rp500.000 dan 12 cicilan Rp200.000 tanpa biaya lain. Skema B meminta uang muka Rp800.000 dan 10 cicilan Rp205.000 ditambah administrasi Rp50.000. Skema dengan total pembayaran nominal lebih rendah adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "A lebih murah Rp50.000",
+            "B": "A lebih murah Rp100.000",
+            "C": "B lebih murah Rp50.000",
+            "D": "B lebih murah Rp100.000",
+            "E": "Keduanya sama"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Membandingkan total beban nominal dengan tenor berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A = 500.000 + 12 × 200.000 = 2.900.000. B = 800.000 + 10 × 205.000 + 50.000 = 2.900.000. Total nominal sama meskipun tenor dan pembayaran awal berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Total A bukan lebih murah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak ada selisih."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Total B bukan lebih murah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak ada selisih."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar; jumlahnya sama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan tabel uang muka, cicilan × tenor, biaya sekali bayar."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 12 — Keuntungan penjualan akuarium",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pedagang membeli akuarium Rp240.000, lalu menjualnya Rp300.000 tanpa biaya lain. Persentase untung terhadap modal adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka tanpa simbol persen)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 25"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Laba = harga jual − modal; persen laba memakai modal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Laba = 300.000 − 240.000"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "= Rp60.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persen laba = 60.000/240.000 × 100%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "= 25%."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Selisih 60 ribu adalah seperempat 240 ribu."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 13 — Persentase rugi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah mobil dibeli Rp50.000.000 dan dijual Rp45.000.000 tanpa biaya lain. Persentase kerugiannya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "5%",
+            "B": "10%",
+            "C": "15%",
+            "D": "20%",
+            "E": "25%"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Persentase rugi dihitung dari selisih terhadap harga beli."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kerugian = 50 juta − 45 juta = 5 juta. Persen rugi = 5/50 × 100% = 10%."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Hanya setengah nilai rugi benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terlalu besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Dua kali persen yang benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu besar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Harga jual 90% modal, jadi rugi 10%."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 14 — Evaluasi tabel pendapatan dan pengeluaran",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Data seorang pedagang (dalam juta rupiah): tahun 2021 pemasukan 25 dan pengeluaran 15; tahun 2022 pemasukan 55 dan pengeluaran 20; tahun 2023 pemasukan 50 dan pengeluaran 10. Tahun berapakah keuntungan terbesar?"
+            }
+          ],
+          "opsi": {
+            "A": "2021",
+            "B": "2022",
+            "C": "2023",
+            "D": "2021 dan 2022 sama",
+            "E": "2022 dan 2023 sama"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Keuntungan per periode = pemasukan − pengeluaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keuntungan 2021 = 10; 2022 = 35; 2023 = 40 juta rupiah. Terbesar terjadi pada 2023, meskipun pemasukannya lebih kecil daripada 2022."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 10 bukan tertinggi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 35 lebih kecil dari 40."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar: 40 juta rupiah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 35 dan 40 berbeda."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari selisih setiap tahun, bukan pemasukan tertinggi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

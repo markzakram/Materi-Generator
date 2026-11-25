@@ -1,0 +1,683 @@
+{
+  "meta": {
+    "judul": "Evaluasi Kebenaran dan Keakuratan Informasi",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Evaluasi Kebenaran dan Keakuratan Informasi",
+    "sumber": "https://docs.google.com/document/d/1zW4spDm5wLSaBteOwBtTSRBei0-8wAvF1oTqXuv1pTg/edit",
+    "id_katalog": "lbi-05"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Kemampuan mengevaluasi kebenaran dan keakuratan informasi merupakan salah satu keterampilan penting dalam Literasi Bahasa Indonesia karena pembaca tidak cukup hanya memahami isi bacaan, tetapi juga harus mampu menguji kesesuaian pernyataan dengan bukti yang disajikan. Dalam sebuah teks, informasi dapat berbentuk fakta, data numerik, perbandingan, maupun klaim yang memuat syarat dan pengecualian tertentu. Setiap informasi tersebut perlu diperiksa secara cermat agar pembaca tidak menerima kesimpulan yang keliru akibat salah memahami angka, mengabaikan konteks, atau menganggap suatu klaim benar tanpa dukungan bukti yang memadai. Dalam UTBK-SNBT, keterampilan ini diuji melalui kemampuan mencocokkan pernyataan dengan isi bacaan, memeriksa ketepatan fakta dan data, serta menilai apakah suatu informasi disampaikan secara akurat sesuai batasan yang dinyatakan dalam teks. Oleh karena itu, peserta perlu mengembangkan kebiasaan membaca secara teliti, mengidentifikasi bukti pendukung, dan membedakan informasi yang benar, salah, atau belum dapat dipastikan berdasarkan bacaan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "informasi faktual dan klaim yang disampaikan dalam bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "kebenaran suatu pernyataan berdasarkan bukti tekstual."
+      },
+      {
+        "level": "",
+        "kko": "Menguraikan",
+        "teks": "pernyataan majemuk menjadi beberapa unsur untuk diperiksa secara terpisah."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pernyataan yang benar, salah, dan belum dapat dipastikan berdasarkan informasi dalam teks."
+      },
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "penyajian fakta dan data dengan memperhatikan satuan, periode, kelompok pembanding, serta kondisi pengukuran."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "ketepatan perbandingan data berdasarkan dasar perbandingan yang digunakan."
+      },
+      {
+        "level": "",
+        "kko": "Menilai",
+        "teks": "apakah fakta dan data yang disajikan cukup untuk mendukung suatu klaim."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "perubahan makna akibat penghilangan syarat, pengecualian, atau batasan informasi."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "keakuratan pernyataan dengan mempertimbangkan konteks dan tingkat kepastian informasi."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pembahasan Konsep Dasar secara Mendalam",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pembahasan Konsep Dasar secara Mendalam",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Kebenaran Pernyataan Berdasarkan Isi Bacaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kebenaran pernyataan berdasarkan isi bacaan adalah kemampuan menentukan apakah suatu pernyataan sesuai dengan informasi yang disampaikan dalam teks. Penilaian dilakukan dengan membandingkan isi pernyataan dengan bukti yang tersedia, bukan berdasarkan pendapat pribadi atau pengetahuan umum pembaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah pernyataan dapat memiliki tiga status utama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan dinyatakan benar apabila seluruh unsur pentingnya sesuai dengan informasi dalam bacaan. Kesesuaian tersebut mencakup pelaku, tindakan, objek, waktu, jumlah, kondisi, dan hubungan antarinformasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamatan dilakukan terhadap 30 tanaman cabai selama empat minggu. Tanaman yang memperoleh penyiraman teratur menunjukkan pertumbuhan rata-rata lebih tinggi dibandingkan tanaman yang disiram secara tidak teratur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penelitian mengamati 30 tanaman cabai selama empat minggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Status: **Benar**, karena jumlah objek dan durasi pengamatan sesuai dengan teks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan dinyatakan salah apabila bertentangan dengan informasi yang secara jelas disampaikan dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamatan dilakukan terhadap 40 tanaman cabai selama empat minggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Status: **Salah**, karena jumlah tanaman dalam teks adalah 30, bukan 40."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Belum Dapat Dipastikan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan belum dapat dipastikan apabila bacaan tidak menyediakan informasi yang cukup untuk membuktikan atau membantahnya. Status ini berbeda dari salah karena tidak terdapat pertentangan langsung dengan teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seluruh tanaman cabai yang diamati berasal dari varietas unggul."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Status: **Belum dapat dipastikan**, karena bacaan tidak menjelaskan varietas tanaman yang digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal UTBK, perbedaan antara salah dan belum dapat dipastikan sering menjadi bagian penting dari pengujian. Peserta tidak boleh menyimpulkan bahwa suatu pernyataan salah hanya karena informasi tersebut tidak ditemukan dalam teks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Klaim dan Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Klaim merupakan pernyataan yang menyampaikan suatu informasi atau kesimpulan. Sementara itu, bukti merupakan informasi dalam bacaan yang digunakan untuk mendukung atau menolak klaim tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penilaian kebenaran pernyataan membutuhkan pemeriksaan hubungan antara keduanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat tiga kemungkinan hubungan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Didukung bukti:** informasi dalam teks secara langsung atau logis mendukung klaim.",
+                "**Bertentangan dengan bukti:** informasi dalam teks menunjukkan bahwa klaim tidak sesuai.",
+                "**Tidak memiliki bukti yang cukup:** teks tidak menyediakan informasi yang diperlukan untuk menentukan status klaim."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, sebuah bacaan menyebutkan bahwa penggunaan transportasi umum meningkat setelah pemerintah menambah jumlah armada bus. Pernyataan bahwa peningkatan armada merupakan satu-satunya penyebab kenaikan jumlah penumpang belum tentu benar. Bacaan mungkin hanya menunjukkan hubungan waktu antara dua peristiwa, bukan membuktikan bahwa tidak ada faktor lain yang berpengaruh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pembaca perlu membedakan antara informasi yang benar-benar dinyatakan dan kesimpulan yang ditambahkan sendiri."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pemeriksaan Pernyataan Majemuk"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan majemuk adalah pernyataan yang memuat lebih dari satu unsur informasi. Setiap unsur harus diperiksa secara terpisah sebelum keseluruhan pernyataan dinilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemerintah membangun tiga pusat pengolahan sampah di wilayah perkotaan pada 2024 dan seluruh fasilitas tersebut telah beroperasi penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan tersebut memuat beberapa unsur:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Pemerintah membangun pusat pengolahan sampah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Jumlah fasilitas yang dibangun adalah tiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Fasilitas berada di wilayah perkotaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Pembangunan dilakukan pada 2024."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Seluruh fasilitas telah beroperasi penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apabila teks hanya menyatakan bahwa pemerintah membangun tiga pusat pengolahan sampah di wilayah perkotaan pada 2024, unsur kelima belum dapat dipastikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan ini penting karena pernyataan majemuk dapat menggabungkan informasi yang benar dengan informasi yang tidak didukung teks. Satu unsur yang bertentangan dengan bacaan dapat membuat keseluruhan pernyataan tidak benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ketepatan Fakta dan Data"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketepatan fakta dan data berkaitan dengan kemampuan memahami serta memeriksa informasi faktual, terutama informasi kuantitatif yang disajikan dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Data tidak dapat dinilai hanya dengan melihat angka. Pembaca harus memahami konteks yang menyertai angka tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa unsur penting yang harus diperiksa meliputi:"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Satuan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satuan menunjukkan besaran yang sedang diukur. Angka yang sama dapat memiliki arti berbeda apabila satuannya berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Produksi beras sebesar 500 ton.",
+                "Produksi beras sebesar 500 kilogram."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya memiliki angka yang sama, tetapi jumlah sebenarnya berbeda karena satuannya tidak sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Periode"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periode menunjukkan rentang waktu pengukuran atau pengumpulan data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Produksi harian: 120 ton.",
+                "Produksi bulanan: 120 ton."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua angka tersebut tidak dapat dibandingkan secara langsung tanpa memperhatikan periode pengukurannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Kelompok Pembanding"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompok pembanding menunjukkan objek atau kelompok yang digunakan sebagai dasar perbandingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah penelitian membandingkan rata-rata konsumsi air rumah tangga di wilayah perkotaan dan pedesaan. Perbandingan tersebut harus memperhatikan apakah data dihitung berdasarkan rumah tangga, individu, atau jumlah penduduk."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Keakuratan Informasi dan Batasan Makna"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keakuratan informasi berkaitan dengan ketepatan penyampaian informasi sesuai fakta, konteks, dan batasan yang dinyatakan dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi dapat menjadi tidak akurat ketika pembaca atau penulis mengubah cakupan pernyataan, menghilangkan syarat, atau menambahkan tingkat kepastian yang tidak didukung bukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan perbedaan berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pernyataan dalam teks",
+                "Perubahan yang tidak akurat"
+              ],
+              "baris": [
+                [
+                  "Sebagian warga menggunakan transportasi umum.",
+                  "Seluruh warga menggunakan transportasi umum."
+                ],
+                [
+                  "Program berpotensi mengurangi kemacetan.",
+                  "Program pasti menghilangkan kemacetan."
+                ],
+                [
+                  "Penurunan terjadi pada periode tertentu.",
+                  "Penurunan terjadi setiap tahun."
+                ],
+                [
+                  "Hasil ditemukan pada kelompok yang diteliti.",
+                  "Hasil berlaku untuk seluruh masyarakat."
+                ],
+                [
+                  "Peningkatan berkaitan dengan perubahan kebijakan.",
+                  "Peningkatan sepenuhnya disebabkan oleh kebijakan tersebut."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan tersebut dapat mengubah makna asli karena menghilangkan batasan atau menambahkan klaim yang tidak terdapat dalam teks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kata Pembatas dan Penanda Kepastian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata pembatas memiliki peran penting dalam menentukan cakupan informasi. Beberapa kata yang perlu diperhatikan antara lain:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kata atau frasa",
+                "Makna dalam bacaan"
+              ],
+              "baris": [
+                [
+                  "Sebagian",
+                  "Tidak mencakup seluruh kelompok"
+                ],
+                [
+                  "Seluruh",
+                  "Mencakup semua anggota kelompok"
+                ],
+                [
+                  "Hanya",
+                  "Membatasi cakupan pada hal tertentu"
+                ],
+                [
+                  "Umumnya",
+                  "Menunjukkan kecenderungan, bukan kepastian mutlak"
+                ],
+                [
+                  "Dapat",
+                  "Menunjukkan kemungkinan atau kemampuan"
+                ],
+                [
+                  "Berpotensi",
+                  "Menunjukkan peluang terjadinya sesuatu"
+                ],
+                [
+                  "Kemungkinan",
+                  "Menunjukkan tingkat kepastian yang belum mutlak"
+                ],
+                [
+                  "Dalam kondisi tertentu",
+                  "Membatasi keberlakuan informasi pada kondisi yang disebutkan"
+                ],
+                [
+                  "Setidaknya",
+                  "Menunjukkan batas minimum"
+                ],
+                [
+                  "Tidak selalu",
+                  "Menolak anggapan bahwa sesuatu berlaku tanpa pengecualian"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penggunaan pupuk organik dapat meningkatkan kesuburan tanah dalam kondisi pengelolaan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penggunaan pupuk organik selalu meningkatkan kesuburan semua jenis tanah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan tersebut tidak akurat karena mengubah kata <i>dapat</i> menjadi <i>selalu</i>, menghilangkan syarat pengelolaan, dan memperluas cakupan menjadi semua jenis tanah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Penyelesaian Soal"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Identifikasi fokus pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan informasi utama yang sedang diuji. Perhatikan unsur seperti pelaku, objek, waktu, jumlah, lokasi, kondisi, dan hubungan sebab-akibat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Temukan bukti yang relevan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan hanya mengandalkan ingatan terhadap bacaan. Temukan kalimat atau paragraf yang secara langsung membahas informasi dalam pernyataan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Periksa setiap unsur pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pernyataan memuat beberapa informasi, pecah menjadi bagian-bagian kecil. Cocokkan setiap bagian dengan teks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Perhatikan angka dan satuan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pastikan angka tidak tertukar, satuan tidak berubah, dan periode pengukuran tetap sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "5. Periksa kata pembatas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cermati kata seperti <i>sebagian</i>, <i>seluruh</i>, <i>dapat</i>, <i>selalu</i>, <i>hanya</i>, dan <i>dalam kondisi tertentu</i>. Perubahan kecil pada kata-kata tersebut dapat mengubah makna pernyataan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "6. Bedakan salah dan belum dapat dipastikan"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pilih benar jika informasi didukung teks.",
+                "Pilih salah jika informasi bertentangan dengan teks.",
+                "Pilih belum dapat dipastikan jika bukti yang tersedia tidak cukup untuk menentukan kebenarannya."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "7. Evaluasi kekuatan bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pernyataan memuat hubungan sebab-akibat, periksa apakah teks benar-benar membuktikan hubungan tersebut atau hanya menunjukkan keterkaitan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum yang Harus Dihindari"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Menggunakan pengetahuan pribadi",
+                  "Menilai pernyataan berdasarkan hal yang diketahui di luar bacaan, bukan bukti tekstual."
+                ],
+                [
+                  "Menganggap informasi yang tidak disebutkan sebagai salah",
+                  "Tidak membedakan informasi yang bertentangan dengan teks dan informasi yang belum tersedia."
+                ],
+                [
+                  "Mengabaikan satu unsur dalam klaim majemuk",
+                  "Menganggap seluruh pernyataan benar karena sebagian besar unsurnya sesuai."
+                ],
+                [
+                  "Tertukar antara jumlah dan persentase",
+                  "Tidak memeriksa dasar perhitungan data."
+                ],
+                [
+                  "Mengabaikan satuan dan periode",
+                  "Membandingkan data yang sebenarnya menggunakan ukuran atau rentang waktu berbeda."
+                ],
+                [
+                  "Mengubah kemungkinan menjadi kepastian",
+                  "Menganggap kata <i>dapat</i> atau <i>berpotensi</i> sama dengan <i>pasti</i>."
+                ],
+                [
+                  "Menggeneralisasi hasil penelitian",
+                  "Menerapkan temuan pada seluruh kelompok meskipun penelitian hanya mencakup sampel tertentu."
+                ],
+                [
+                  "Menganggap korelasi sebagai sebab-akibat",
+                  "Menyimpulkan bahwa satu faktor menyebabkan perubahan tanpa bukti yang cukup."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Evaluasi kebenaran dan keakuratan informasi merupakan keterampilan untuk menguji kesesuaian pernyataan, fakta, dan data dengan isi bacaan. Penilaian harus didasarkan pada bukti tekstual, bukan asumsi atau pengetahuan pribadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hal-hal utama yang perlu dikuasai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Kebenaran pernyataan ditentukan melalui kesesuaiannya dengan informasi dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Status pernyataan dapat berupa benar, salah, atau belum dapat dipastikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Pernyataan majemuk harus diperiksa dengan menguraikan setiap unsur informasinya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Ketepatan data harus memperhatikan satuan, periode, kelompok pembanding, dan kondisi pengukuran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Perbandingan data harus menggunakan dasar yang sesuai, seperti jumlah total, rata-rata, atau persentase."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Keakuratan informasi bergantung pada ketepatan cakupan, syarat, pengecualian, dan tingkat kepastian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "7. Kata pembatas seperti <i>sebagian</i>, <i>seluruh</i>, <i>dapat</i>, dan <i>selalu</i> dapat mengubah makna pernyataan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "8. Bukti yang menunjukkan keterkaitan tidak selalu cukup untuk membuktikan hubungan sebab-akibat."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pembahasan Konsep Dasar secara Mendalam",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+        "teks": ""
+      }
+    ],
+    "pesan": "Kemampuan mengevaluasi kebenaran dan keakuratan informasi menuntut pembaca untuk bersikap kritis terhadap setiap klaim yang ditemukan dalam bacaan. Ketelitian dalam memeriksa bukti, angka, satuan, konteks, dan batasan informasi menjadi dasar untuk menghasilkan penilaian yang dapat dipertanggungjawabkan. Dalam UTBK-SNBT, keterampilan ini tidak hanya membantu peserta menemukan pernyataan yang sesuai dengan teks, tetapi juga menghindari kesimpulan berlebihan yang tidak didukung oleh informasi. Penguasaan materi perlu diperkuat melalui latihan yang melibatkan berbagai bentuk bacaan dan tingkat kompleksitas informasi."
+  }
+}

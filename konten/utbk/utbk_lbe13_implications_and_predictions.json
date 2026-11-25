@@ -1,0 +1,849 @@
+{
+  "meta": {
+    "judul": "Implications and Predictions",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Implications and Predictions",
+    "sumber": "https://docs.google.com/document/d/1PEAXNwaeNmOAS3sEwu2uu_BGP-pRxjlQgxenmG8vqhg/edit",
+    "id_katalog": "lbe-13"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Implications and Predictions merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan menentukan konsekuensi logis dan memperkirakan kemungkinan perkembangan suatu keadaan berdasarkan informasi dalam teks. Implication berkaitan dengan dampak atau konsekuensi yang dapat diturunkan dari hubungan sebab-akibat, kondisi, dan kecenderungan yang dijelaskan penulis, sedangkan prediction merupakan perkiraan mengenai peristiwa atau kondisi yang mungkin terjadi berdasarkan bukti yang tersedia. Penguasaan keterampilan tersebut membantu peserta menyelesaikan soal Literasi Bahasa Inggris UTBK-SNBT secara logis, kritis, dan akurat."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian dan perbedaan implication dan prediction."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "hubungan sebab-akibat, kondisi, dan kecenderungan dalam bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "konsekuensi logis berdasarkan informasi yang dinyatakan."
+      },
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "hubungan antara persyaratan dan hasil yang mungkin terjadi."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "implikasi yang didukung teks dari asumsi yang tidak memiliki dasar."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "prediksi berdasarkan bukti, ketidakpastian, dan faktor alternatif."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "prediksi yang paling masuk akal tanpa membuat klaim berlebihan."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "soal implikasi dan prediksi menggunakan penalaran berbasis bukti."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Implications and Predictions",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Implications and Predictions",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Implication"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implication adalah konsekuensi atau makna lanjutan yang secara logis dapat diturunkan dari informasi, kondisi, atau hubungan yang dijelaskan dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal literasi, implikasi tidak harus dinyatakan secara eksplisit. Peserta perlu memahami bagaimana suatu keadaan dapat menghasilkan konsekuensi tertentu berdasarkan hubungan informasi yang tersedia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The city provides discounted public transportation fares for students who hold valid identification cards."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut menunjukkan bahwa tarif khusus diberikan kepada siswa yang memiliki kartu identitas yang masih berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Logical Implication:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students without valid identification cards do not meet the stated eligibility requirement for discounted fares."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implikasi tersebut diperoleh dari persyaratan penerima potongan tarif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tidak dapat disimpulkan bahwa siswa tanpa kartu identitas dilarang menggunakan seluruh transportasi umum."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Prediction"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediction adalah perkiraan mengenai keadaan atau peristiwa yang mungkin terjadi berdasarkan informasi, pola, kecenderungan, atau hubungan sebab-akibat yang tersedia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi yang baik harus memiliki dasar bukti dan mempertimbangkan ketidakpastian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A coastal town has experienced increasingly frequent flooding during periods of heavy rainfall. Its drainage system has not been upgraded despite substantial residential development."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reasonable Prediction:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The town may continue to experience flooding during heavy rainfall if drainage capacity remains insufficient."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi tersebut didukung oleh riwayat banjir dan keterbatasan drainase yang dijelaskan dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebaliknya, prediksi bahwa seluruh rumah di kota tersebut pasti akan terendam banjir pada tahun berikutnya merupakan klaim berlebihan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Implication dan Prediction"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Implication",
+                "Prediction"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Konsekuensi logis dari informasi",
+                  "Perkiraan perkembangan atau hasil"
+                ],
+                [
+                  "Dasar",
+                  "Kondisi, hubungan logis, sebab-akibat",
+                  "Bukti, pola, kecenderungan, kondisi"
+                ],
+                [
+                  "Orientasi waktu",
+                  "Tidak selalu berkaitan dengan masa depan",
+                  "Umumnya mengarah pada kemungkinan hasil mendatang"
+                ],
+                [
+                  "Pertanyaan",
+                  "What does this imply?",
+                  "What is most likely to happen?"
+                ],
+                [
+                  "Kesalahan umum",
+                  "Menambahkan konsekuensi yang tidak didukung",
+                  "Menganggap prediksi sebagai kepastian"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua konsep saling berkaitan karena suatu prediksi dapat dibangun berdasarkan implikasi dari kondisi yang dijelaskan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tidak semua implikasi merupakan prediksi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Inference, Implication, dan Prediction"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Materi ini berkaitan dengan Modul 6: Inference and Conclusion. Perbedaannya terletak pada sasaran penalaran."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Konsep",
+                "Fokus Utama"
+              ],
+              "baris": [
+                [
+                  "Inference",
+                  "Menentukan informasi tersirat berdasarkan petunjuk"
+                ],
+                [
+                  "Implication",
+                  "Menentukan konsekuensi dari informasi atau kondisi"
+                ],
+                [
+                  "Prediction",
+                  "Memperkirakan hasil atau perkembangan berdasarkan bukti"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A community library has extended its opening hours. Evening attendance has increased, but the number of available staff remains unchanged."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inference: Evening library services have attracted additional users."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implication: The unchanged staffing level may create greater workload demands during evening hours."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediction: If attendance continues increasing without additional staffing, the library may experience operational difficulties."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiganya menggunakan informasi yang sama, tetapi menghasilkan penalaran dengan fokus berbeda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menentukan Implikasi Berdasarkan Hubungan Informasi",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menentukan Implikasi Berdasarkan Hubungan Informasi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Cause-and-Effect Implication"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan sebab-akibat menunjukkan bahwa suatu faktor berkontribusi terhadap terjadinya hasil tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Heavy rainfall caused extensive soil erosion on the upper slopes, carrying sediment into nearby rivers."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implikasi yang didukung:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Increased erosion on upper slopes can contribute to sediment accumulation in nearby rivers."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan tersebut dapat ditentukan karena teks menyebutkan erosi tanah dan perpindahan sedimen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tidak dapat disimpulkan bahwa seluruh sungai di wilayah tersebut pasti mengalami pendangkalan dengan tingkat yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Conditional Implication"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Conditional implication terjadi ketika suatu konsekuensi bergantung pada kondisi atau persyaratan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda yang sering digunakan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "If",
+                "Unless",
+                "Provided that",
+                "As long as",
+                "Only if",
+                "In the absence of"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The research project will receive additional funding only if its preliminary results meet the required standards."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implikasi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "If the preliminary results do not meet the required standards, the project will not qualify for the additional funding under the stated rule."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata only if menunjukkan persyaratan yang harus dipenuhi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan bahwa terpenuhinya persyaratan tidak selalu menjamin hasil apabila masih terdapat ketentuan lain yang belum dijelaskan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Trend-Based Implication"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Trend-based implication diperoleh dengan menganalisis pola atau kecenderungan perubahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The number of electric buses has increased steadily over the past five years, while the city has expanded its charging infrastructure."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implikasi yang masuk akal:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The expansion of charging infrastructure may help accommodate the growing electric-bus fleet."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tren peningkatan selama lima tahun tidak cukup untuk menjamin bahwa jumlah bus akan selalu meningkat pada tahun-tahun berikutnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Resource and Capacity Implication"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jenis implikasi ini berkaitan dengan hubungan antara kebutuhan, sumber daya, dan kapasitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The hospital has experienced an increase in patient visits, but the number of available examination rooms has remained unchanged."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implikasi yang dapat diturunkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "If demand continues to increase, the hospital may face greater pressure on its examination facilities."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan tersebut menggunakan informasi mengenai permintaan dan kapasitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tidak dapat langsung disimpulkan bahwa mutu pelayanan pasti menurun karena teks tidak memberikan informasi mengenai efisiensi operasional atau penyesuaian jadwal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Policy Implication"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Policy implication merupakan konsekuensi yang dapat diturunkan dari penerapan suatu aturan atau kebijakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new regulation requires restaurants to display mandatory service charges in their advertised prices."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Implikasi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Restaurants subject to the regulation must include mandatory service charges when presenting their advertised prices."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan tersebut mempertahankan ketentuan yang dinyatakan dalam sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak dapat disimpulkan bahwa seluruh harga makanan pasti meningkat karena regulasi tersebut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memahami Prediksi Berbasis Bukti",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memahami Prediksi Berbasis Bukti",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Evidence-Based Prediction"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence-based prediction merupakan perkiraan yang disusun berdasarkan fakta, kecenderungan, atau hubungan yang telah dijelaskan dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The demand for public transportation has increased after the city introduced more frequent bus services. The transportation authority plans to expand several routes next year."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi yang masuk akal:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The planned expansion may accommodate additional passengers if demand remains strong."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi tersebut didukung oleh tren penggunaan transportasi umum dan rencana penambahan layanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Conditional Prediction"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Conditional prediction merupakan perkiraan yang keberlakuannya bergantung pada syarat tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The agricultural program has increased crop yields in areas with reliable irrigation systems. However, farmers without adequate access to water have experienced smaller improvements."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Expanding the program into regions without reliable irrigation may produce more limited benefits unless water access is improved."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi tersebut mempertahankan hubungan antara keberhasilan program dan ketersediaan air."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mengevaluasi Kualitas Implikasi dan Prediksi",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengevaluasi Kualitas Implikasi dan Prediksi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Evidence Strength"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi harus memiliki hubungan yang dapat dijelaskan dengan bukti dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A study found that seedlings receiving adequate water generally grew faster than those experiencing prolonged water shortages."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi yang didukung:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seedlings exposed to prolonged water shortages may experience slower growth under similar conditions."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi yang tidak didukung:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "All plants will die immediately if they receive less water."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan kedua terlalu mutlak dan tidak sesuai dengan cakupan penelitian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Scope Accuracy"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cakupan prediksi harus sesuai dengan kelompok, lokasi, atau kondisi yang disebutkan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bukti",
+                "Prediksi yang Berlebihan"
+              ],
+              "baris": [
+                [
+                  "Some schools improved attendance.",
+                  "Every school will improve attendance."
+                ],
+                [
+                  "The program succeeded in two districts.",
+                  "The program will succeed nationwide."
+                ],
+                [
+                  "Demand increased during the trial.",
+                  "Demand will increase indefinitely."
+                ],
+                [
+                  "The technology reduced costs in one facility.",
+                  "The technology will eliminate costs everywhere."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Degree of Certainty"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi yang baik tidak menggunakan tingkat kepastian yang lebih tinggi daripada dukungan bukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original Evidence:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Preliminary tests suggest that the new material could improve energy storage."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reasonable Prediction:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Further development may improve the material's suitability for energy-storage applications."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Unreasonable Prediction:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The material will completely replace conventional batteries in every application."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan pada pernyataan kedua adalah pengubahan potensi menjadi kepastian universal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Uncertain Factors"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uncertain factors merupakan variabel yang belum dapat dipastikan dan dapat memengaruhi hasil prediksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kondisi cuaca.",
+                "Ketersediaan pendanaan.",
+                "Perubahan kebijakan.",
+                "Ketersediaan teknologi.",
+                "Respons masyarakat.",
+                "Kondisi ekonomi."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika faktor-faktor tersebut memiliki pengaruh penting terhadap hasil, prediksi sebaiknya mempertahankan unsur ketidakpastian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alternative Explanations"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prediksi juga perlu mempertimbangkan kemungkinan faktor lain yang menjelaskan suatu kecenderungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sales increased after the company launched an online advertising campaign."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak dapat langsung disimpulkan bahwa iklan merupakan satu-satunya penyebab peningkatan penjualan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada periode yang sama mungkin terdapat perubahan harga, permintaan musiman, atau faktor pasar lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, prediksi mengenai hasil kampanye berikutnya perlu mempertimbangkan kondisi pendukung tersebut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Implications and Predictions",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Implications and Predictions",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pendekatan Evidence–Condition–Outcome (ECO)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify the Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan informasi, kecenderungan, dan hubungan yang dinyatakan dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Determine the Conditions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa syarat atau faktor yang memengaruhi keberlakuan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Establish the Logical Outcome"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan konsekuensi atau perkembangan yang masuk akal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Evaluate Uncertainty"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa kemungkinan faktor alternatif dan keterbatasan bukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Select the Best-Supported Answer"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih implikasi atau prediksi yang paling sesuai dengan bukti dan tingkat kepastian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Certainty Shift",
+                  "Mengubah kemungkinan menjadi kepastian"
+                ],
+                [
+                  "Ignoring Conditions",
+                  "Mengabaikan persyaratan yang menentukan hasil"
+                ],
+                [
+                  "Overgeneralization",
+                  "Memperluas prediksi melebihi bukti"
+                ],
+                [
+                  "Causal Overreach",
+                  "Menyimpulkan sebab-akibat yang tidak terbukti"
+                ],
+                [
+                  "Unsupported Extrapolation",
+                  "Memperpanjang tren tanpa mempertimbangkan perubahan kondisi"
+                ],
+                [
+                  "Ignoring Alternatives",
+                  "Menganggap hanya ada satu kemungkinan hasil"
+                ],
+                [
+                  "Implausible Outcome",
+                  "Memilih konsekuensi yang tidak memiliki hubungan logis memadai"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Implication merupakan konsekuensi logis yang dapat diturunkan dari kondisi atau hubungan informasi, sedangkan prediction adalah perkiraan mengenai keadaan atau perkembangan yang mungkin terjadi. Implikasi tidak selalu berorientasi masa depan; prediksi umumnya terkait hasil mendatang dan memerlukan evaluasi ketidakpastian. Keduanya bergantung pada hubungan evidence, condition, dan outcome serta tidak membenarkan penambahan kepastian yang tidak tersedia dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam evaluasi prediksi, bedakan observasi masa lalu dari proyeksi, korelasi dari sebab-akibat, dan kemungkinan dari kepastian. Kata may, might, could, dan provided that membantu mempertahankan derajat ketidakpastian serta kondisi keberlakuan. Pengecoh kerap menggunakan always, definitely, never, atau eliminate yang mengubah manfaat potensial menjadi janji universal. Pilih prediksi dengan hubungan paling jelas terhadap bukti, bukan yang paling ekstrem."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Implications and Predictions",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan Implikasi Berdasarkan Hubungan Informasi",
+        "teks": ""
+      },
+      {
+        "judul": "Memahami Prediksi Berbasis Bukti",
+        "teks": ""
+      },
+      {
+        "judul": "Mengevaluasi Kualitas Implikasi dan Prediksi",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Implications and Predictions",
+        "teks": ""
+      }
+    ],
+    "pesan": "Keterampilan implikasi dan prediksi menuntut keseimbangan antara penalaran maju dan kehati-hatian terhadap fakta yang belum tersedia. Kesimpulan yang baik dapat menjelaskan apa yang mungkin terjadi serta syarat yang dapat mengubah hasilnya. Pendekatan tersebut mendukung pengambilan keputusan berbasis bukti pada materi rekomendasi dan penerapan gagasan."
+  }
+}

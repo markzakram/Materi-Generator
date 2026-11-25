@@ -1,0 +1,775 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penataan Gagasan",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penataan Gagasan",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menentukan Gagasan Utama Paragraf",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah koperasi sekolah mengajak siswa mengurangi sampah kemasan dari kantin. Pengelola memulai program dengan mengamati jenis sampah yang paling sering ditemukan setelah jam istirahat. Mereka juga berdiskusi dengan pedagang mengenai perubahan kebiasaan pembeli. Sebagian pedagang khawatir layanan menjadi lebih lambat jika siswa membawa wadah sendiri, tetapi uji coba selama beberapa minggu menunjukkan bahwa antrean dapat diatur. Tim publikasi kemudian menyiapkan paragraf ringkas untuk menjelaskan gagasan utama program. Dalam proses penyuntingan, mereka perlu membedakan kalimat inti dari rincian contoh, insentif, dan hasil pelaksanaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Penggunaan kemasan pakai ulang dapat menekan timbulan sampah. (2) Sejumlah toko memberi insentif bagi pelanggan yang membawa wadah sendiri. (3) Kebiasaan itu mengurangi kebutuhan kemasan sekali pakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kalimat inti yang menaungi keseluruhan paragraf adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Penggunaan kemasan pakai ulang dapat menekan timbulan sampah.",
+            "B": "Insentif toko mendorong pelanggan membawa wadah sendiri.",
+            "C": "Berkurangnya kebutuhan kemasan sekali pakai adalah dampak membawa wadah pribadi.",
+            "D": "Toko dapat berperan melalui penyediaan insentif bagi pelanggan.",
+            "E": "Kebiasaan membawa wadah pribadi berkembang di berbagai toko."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kalimat inti menunjukkan pokok informasi yang dipertahankan setelah bagian penjelas disisihkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.1, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 1. Tentukan apakah pertanyaan meminta inti satu kalimat atau gagasan inti paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 2. Untuk paragraf, beri label ide umum, contoh, sebab, dampak, dan penegas pada setiap kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3. Untuk kalimat, tandai subjek dan predikat utama serta unsur wajib lainnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar. Merupakan gagasan umum yang dijelaskan melalui insentif toko dan penurunan pemakaian kemasan sekali pakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Hanya merinci mekanisme insentif pada kalimat kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Hanya menyebut salah satu dampak di kalimat ketiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Berpusat pada peran toko dan tidak mewakili gagasan umum paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Menyatakan perkembangan kebiasaan yang tidak dibuktikan oleh bacaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalimat inti paragraf = ide yang menaungi rincian; kalimat inti struktural = unsur inti tanpa perluasan. Tentukan unit analisis sebelum memilih jawaban."
+            }
+          ],
+          "label": "Penentuan Kalimat Inti"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Penggabungan Kalimat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tim pengamat lingkungan menyusun laporan mengenai perubahan kondisi wilayah sungai selama beberapa tahun terakhir. Laporan itu memuat hasil pengamatan dari dua lokasi berbeda, yaitu kawasan hilir yang kerap terdampak genangan dan kawasan hulu yang mengalami perubahan tutupan lahan. Penyusun laporan diminta menyajikan kedua temuan secara cermat. Karena laporan belum memuat analisis hubungan langsung di antara keduanya, penyunting harus menghindari penggunaan kata penghubung yang menyatakan sebab-akibat ataupun urutan waktu secara pasti. Perhatikan dua kalimat sumber berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Banjir di wilayah hilir meningkat. Area resapan di bagian hulu semakin berkurang. Penggabungan kedua kalimat yang mempertahankan informasi tanpa menambahkan hubungan waktu atau sebab-akibat yang belum dinyatakan adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Banjir di hilir meningkat karena seluruh area resapan di hulu telah hilang.",
+            "B": "Banjir di wilayah hilir meningkat setelah area resapan di bagian hulu semakin berkurang.",
+            "C": "Banjir di wilayah hilir meningkat dan area resapan di bagian hulu semakin berkurang.",
+            "D": "Banjir di wilayah hilir meningkat sedangkan area resapan di bagian hilir semakin berkurang.",
+            "E": "Banjir di wilayah hilir meningkat meskipun area resapan di bagian hulu semakin berkurang."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penggabungan kalimat menyatukan dua informasi menjadi satu struktur yang efektif tanpa mengubah pelaku, tempat, waktu, negasi, atau kepastian hubungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.2, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 1. Pisahkan fakta pada setiap kalimat menjadi pelaku, tindakan, objek, lokasi, waktu, dan tingkat kepastian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 2. Identifikasi hubungan yang benar-benar dinyatakan: tambahan, waktu, alasan, akibat, atau pertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 3. Periksa konjungsi setiap opsi; tolak yang mengubah fakta menjadi sebab pasti tanpa bukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menambahkan penyebab pasti dan klaim bahwa seluruh area resapan hilang; keduanya tidak dinyatakan sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kata “setelah” menambahkan urutan waktu yang belum diinformasikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar. Konjungsi “dan” menggabungkan dua fakta tanpa mengandaikan hubungan kausal atau kronologis tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mengubah lokasi penyusutan resapan dari hulu menjadi hilir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Kata “meskipun” mengasumsikan pertentangan yang tidak dijelaskan oleh dua kalimat sumber."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gabungkan fakta, jangan menambahkan sebab-akibat atau urutan waktu yang tidak dinyatakan. Periksa perubahan pelaku, lokasi, negasi, dan kepastian."
+            }
+          ],
+          "label": "Penggabungan Kalimat"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Pemeriksaan Tanda Baca pada Majalah Sekolah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Redaksi majalah sekolah sedang memeriksa tanda baca dalam artikel kegiatan warga. Kalimat-kalimat yang diperiksa memuat keterangan pembuka, hubungan pertentangan, serta anak kalimat yang mendahului induk kalimat. Setiap kalimat perlu dinilai secara mandiri berdasarkan kaidah tanda baca, bukan hanya berdasarkan kelancaran ketika dibaca. Penilaian harus mempertimbangkan hubungan antarklausa dan posisi keterangan dalam kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pilih satu kategori untuk setiap pernyataan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "“Menurut laporan tersebut, curah hujan meningkat, tetapi debit sungai tetap stabil.” menggunakan koma secara tepat.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "“Jika hujan berhenti warga akan kembali bekerja.” sudah tepat tanpa koma setelah anak kalimat.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "“Siswa membawa buku, pensil, dan penggaris.” menggunakan tanda koma perincian secara tepat.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "“Walaupun kegiatan dibatalkan, peserta tetap datang.” menggunakan koma secara tepat.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menguji ketepatan tanda baca atau keterpaduan antarkalimat berdasarkan struktur dan hubungan makna.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 — Benar. Koma setelah keterangan pembuka dan sebelum konjungsi pertentangan “tetapi” tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 — Salah. Anak kalimat yang mendahului induk kalimat memerlukan koma: “Jika hujan berhenti, warga akan kembali bekerja.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 — Benar. Koma digunakan untuk memisahkan unsur-unsur perincian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 — Benar. Koma sesudah anak kalimat awal “Walaupun kegiatan dibatalkan” tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah menjawab: (1) temukan batas anak–induk kalimat; (2) identifikasi perincian dan pertentangan; (3) periksa apakah tanda baca memisahkan subjek dan predikat; (4) beri penilaian independen pada setiap baris."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tandai batas klausa sebelum menilai benar–salah. Hindari menilai hanya dari bunyi jeda saat kalimat dibaca."
+            }
+          ],
+          "label": "Penentuan Gagasan Bertanda Baca Tepat"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Pengurutan Kalimat dalam Paragraf",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompok tani mencatat perubahan hasil panen selama musim hujan untuk mengevaluasi metode budidaya. Dalam pertemuan rutin, anggota membahas faktor cuaca, kondisi tanaman, dan upaya perlindungan sederhana. Catatan lapangan yang terkumpul kemudian disusun menjadi paragraf laporan. Penyusun laporan diminta mengawali paragraf dengan kondisi atau masalah, menjelaskan faktor yang relevan, lalu menunjukkan langkah penanganan dan akibatnya. Urutan informasi yang salah dapat membuat pembaca mengira tindakan dilakukan sebelum masalah diketahui. Karena itu, koherensi waktu dan hubungan sebab-akibat perlu diperiksa dengan cermat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Hasil panen cabai menurun pada musim hujan. (2) Petani kemudian memasang pelindung sederhana di atas bedengan. (3) Curah hujan tinggi menyebabkan sebagian bunga rontok. (4) Upaya ini membantu mengurangi kerusakan tanaman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Urutan kalimat yang menghasilkan paragraf padu adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "(2)–(1)–(4)–(3)",
+            "B": "(3)–(1)–(2)–(4)",
+            "C": "(4)–(2)–(1)–(3)",
+            "D": "(1)–(4)–(3)–(2)",
+            "E": "(2)–(3)–(4)–(1)"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mengurutkan kalimat ialah menyusun informasi dari titik awal yang jelas menuju rincian, penjelasan sebab-akibat, tindakan, dan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.4, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1. Cari kalimat yang dapat berdiri sendiri sebagai pembuka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 2. Tandai kata rujukan, penanda waktu, serta penanda sebab-akibat pada setiap kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 3. Bentuk pasangan yang wajib berdekatan: tindakan–upaya ini, sebab–akibat, definisi–contoh."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kalimat (2) sebagai pembuka membuat “upaya ini” pada (4) belum mempunyai urutan dampak yang lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar. (3) sebab: bunga rontok; (1) dampak: panen turun; (2) tindakan petani; (4) hasil tindakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Dimulai dengan “upaya ini” tanpa acuan sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menempatkan hasil upaya sebelum tindakan penyebabnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Membuka paragraf dengan tindakan sebelum kondisi yang mendasarinya dijelaskan, lalu menempatkan dampak sesudah hasil."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari pembuka mandiri → rangkai sebab–dampak–tindakan–hasil → periksa semua kata “ini/itu/tersebut” → baca ulang paragraf."
+            }
+          ],
+          "label": "Pengurutan Kalimat dalam Paragraf"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Penempatan Kalimat pada Posisi yang Tepat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemerintah desa berupaya melindungi sumber air yang digunakan warga untuk kebutuhan sehari-hari. Kegiatan ini melibatkan perangkat desa, kelompok tani, dan relawan lingkungan. Sebelum membuat rencana penanaman, tim melakukan pendataan lokasi dan kondisi sekitar mata air. Hasil pendataan dibahas bersama untuk menentukan prioritas perlindungan. Dalam laporan kegiatan, setiap kalimat memiliki fungsi berbeda: menyampaikan langkah awal, menjelaskan penggunaan data, atau menggambarkan tindak lanjut. Ketika satu kalimat baru ditambahkan, posisinya harus memperkuat urutan informasi yang sudah ada, bukan memutus hubungan antarkalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pemerintah desa mulai memetakan lokasi mata air. (2) Data itu dipakai untuk menentukan daerah yang perlu dilindungi. (3) Penanaman pohon dilakukan pada zona yang paling rawan erosi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kalimat tambahan “Pemetaan juga mencatat kondisi tutupan lahan di sekitar sumber air” paling tepat diletakkan ....**"
+            }
+          ],
+          "opsi": {
+            "A": "sebelum kalimat (1) sebagai pengantar kegiatan pemetaan",
+            "B": "setelah kalimat (3) sebagai tambahan tentang pelaksanaan penanaman",
+            "C": "antara kalimat (2) dan (3) sebagai penjelasan hasil penentuan zona",
+            "D": "antara kalimat (1) dan (2) sebagai rincian kegiatan pemetaan",
+            "E": "setelah kalimat (2) untuk menjelaskan arti kata “daerah”"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penempatan kalimat merupakan kegiatan menyisipkan informasi tambahan ke posisi yang paling mendukung alur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.5, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 1. Tentukan fungsi kalimat tambahan: perincian, contoh, alasan, transisi, atau akibat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2. Temukan kata kunci atau rujukan yang harus muncul sebelum kalimat tambahan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3. Uji setiap kemungkinan posisi dengan membaca kalimat sebelum dan sesudahnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kata “juga” membutuhkan kegiatan pemetaan yang sudah disebutkan lebih dahulu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Menyisipkan rincian pemetaan setelah tahap tindakan penanaman mengganggu urutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terlambat memperinci tahap pemetaan karena kalimat (2) sudah mulai membahas penggunaan data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar. Kalimat tambahan memperinci pemetaan pada (1) sebelum data hasil pemetaan dipakai pada (2)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Isi tambahan tidak menjelaskan arti kata “daerah”, melainkan unsur data yang dicatat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tempat sisipan ditentukan oleh fungsi + acuan kata + hubungan sebelum–sesudah, bukan sekadar kesamaan kosakata."
+            }
+          ],
+          "label": "Penempatan Kalimat pada Posisi yang Tepat"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menentukan Letak Kalimat Sisipan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Sekolah memulai program kantin hemat plastik. (2) Pada pekan pertama, pengurus mendata jenis kemasan yang paling banyak dibuang. (3) Hasil pendataan menunjukkan bahwa gelas sekali pakai merupakan jenis kemasan yang paling sering ditemukan. (4) Berdasarkan temuan itu, pengelola menyediakan dispenser air minum untuk mengurangi penggunaan gelas sekali pakai. (5) Setelah satu bulan, jumlah gelas sekali pakai yang dibuang mulai berkurang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sisipan: “Data tersebut kemudian digunakan untuk menentukan jenis kemasan yang harus diprioritaskan dalam program pengurangan sampah.” Setelah kalimat nomor berapakah sisipan tersebut paling tepat ditempatkan? Tuliskan SATU angka saja."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 3"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep: Menentukan posisi sisipan yang menjaga kesinambungan informasi dan acuan kata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat (3) menyajikan data spesifik hasil pendataan, yakni dominasi gelas sekali pakai. Frasa “Data tersebut” pada sisipan merujuk langsung pada temuan itu dan menjelaskan fungsinya sebagai dasar prioritas. Kalimat (4) kemudian menunjukkan tindak lanjut berupa penyediaan dispenser. Menempatkan sisipan setelah kalimat (3) menjaga alur pendataan → temuan → penetapan prioritas → tindakan → hasil. Karena itu, jawaban numerik yang tepat adalah 3."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan anteseden dari kata “tersebut”, lalu letakkan sisipan sebelum tindakan yang memanfaatkan temuan tersebut."
+            }
+          ],
+          "label": "Penempatan Kalimat pada Posisi yang Tepat"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Mengubah Susunan Kalimat tanpa Mengubah Makna",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Influenza atau flu adalah penyakit yang disebabkan oleh virus influenza dan biasanya menyerang bagian hidung, tenggorokan, dan paru-paru. Penyakit ini sangat mudah menular kepada orang lain, terutama dalam tiga hingga empat hari setelah seseorang terinfeksi virus influenza."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada umumnya, influenza terbagi menjadi tiga tipe, yakni tipe A, tipe B, dan tipe C. Saat ini, influenza tipe A sedang ramai diberitakan karena peningkatan kasus di Tiongkok, khususnya yang berkaitan dengan varian H1N1 dan H9N2. Kasus infeksi influenza tipe A dengan varian tersebut dilaporkan mengalami peningkatan yang signifikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan data Pusat Pengendalian dan Pencegahan Penyakit Tiongkok (CDC Tiongkok), kasus influenza tipe A di Tiongkok mulai meningkat sejak Desember 2024. Pada minggu terakhir Desember 2024, persentase pasien positif influenza yang mengunjungi rumah sakit meningkat sebesar 6,2% dibandingkan dengan minggu sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat berikut terdapat dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Berdasarkan data CDC Tiongkok, kasus influenza tipe A di Tiongkok mulai meningkat sejak Desember 2024.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kalimat yang memiliki makna sama dengan kalimat tersebut adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Kasus influenza tipe A di Tiongkok mulai meningkat sejak Desember 2024 berdasarkan data CDC Tiongkok.",
+            "B": "CDC Tiongkok menyatakan bahwa seluruh kasus influenza di Tiongkok meningkat sejak Desember 2024.",
+            "C": "Peningkatan kasus influenza tipe A di Tiongkok menyebabkan CDC Tiongkok menerbitkan data pada Desember 2024.",
+            "D": "Sejak Desember 2024, seluruh pasien di Tiongkok dinyatakan positif influenza tipe A oleh CDC Tiongkok.",
+            "E": "Data CDC Tiongkok membuktikan bahwa influenza tipe A hanya menyebar di Tiongkok sejak Desember 2024."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pemvariasian kalimat mengubah susunan dan bentuk kalimat supaya lebih efektif tanpa mengubah isi penting."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Periksa kata atau bagian stimulus yang paling langsung menjawab pertanyaan; jangan gunakan asumsi di luar bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 1. Tuliskan unsur inti kalimat sumber: siapa, melakukan apa, kepada apa, kapan, di mana, untuk apa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2. Tandai negasi, kata modal, dan urutan tahap bila ada."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 3. Bandingkan alternatif dari segi aktor, waktu, tempat, derajat kepastian, dan makna."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tepat: keterangan sumber data dipindah ke akhir tanpa mengubah lokasi, jenis penyakit, atau waktu peningkatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Meluaskan cakupan dari influenza tipe A menjadi seluruh jenis influenza."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Menambah hubungan sebab-akibat bahwa peningkatan kasus menyebabkan publikasi data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mengubah informasi peningkatan kasus menjadi klaim semua pasien positif, yang tidak didukung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Menambah klaim bahwa influenza tipe A hanya menyebar di Tiongkok; sumber tidak menyatakannya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Variasi ≠ perubahan makna. Pertahankan pelaku, sasaran, waktu, lokasi, tujuan, negasi, dan kepastian."
+            }
+          ],
+          "label": "Pemvariasian Kalimat"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kohesi dan Koherensi Penggunaan Pupuk Organik",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pupuk organik dapat memperbaiki kondisi tanah dan membantu pemeliharaan kesuburan tanaman. (2) Namun, penggunaan pupuk organik yang tepat memerlukan pengetahuan mengenai bahan, takaran, dan karakteristik lahan. (3) Oleh sebab itu, sekolah menyarankan pelatihan sederhana sebelum siswa menerapkannya pada petak praktik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan paragraf tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "Kalimat pertama menyampaikan manfaat pupuk organik.",
+                  "",
+                  ""
+                ],
+                [
+                  "Kata “Namun” menunjukkan pembatasan terhadap manfaat yang dijelaskan sebelumnya.",
+                  "",
+                  ""
+                ],
+                [
+                  "Kalimat kedua memberikan contoh jenis pupuk yang harus digunakan petani.",
+                  "",
+                  ""
+                ],
+                [
+                  "“Oleh sebab itu” mengantarkan rekomendasi berdasarkan kebutuhan pemahaman pada kalimat kedua.",
+                  "",
+                  ""
+                ],
+                [
+                  "Kalimat terakhir menyangkal manfaat pupuk organik pada awal paragraf.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar – Benar – Salah – Benar – Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 1. Pisahkan manfaat pupuk pada (1), pembatasan penggunaan pada (2), dan rekomendasi pada (3)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 2. Nilai setiap pernyataan dalam tabel berdasarkan informasi dan hubungan antarkalimat pada paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 3. Pernyataan 1, 2, 4 benar karena sesuai dengan fungsi serta hubungan antarkalimat dalam paragraf. Pernyataan (3) dan (5) salah karena tidak sesuai dengan informasi yang disampaikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar. Kalimat pertama menyebut manfaat pupuk organik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Benar. “Namun” memberi pembatasan: manfaat ada, tetapi penerapannya mensyaratkan pemahaman dosis dan lahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Salah. Kalimat kedua membahas pengetahuan penerapan, bukan menyebut jenis pupuk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar. “Oleh sebab itu” menghubungkan kebutuhan pemahaman dengan rekomendasi pelatihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Salah. Rekomendasi pelatihan justru mendukung penerapan yang tepat, bukan menyangkal manfaat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan hubungan antarkalimat melalui kata penghubung seperti namun dan oleh sebab itu. Tentukan fungsi setiap kalimat, kemudian nilai masing-masing pernyataan dalam tabel secara terpisah sebagai Benar atau Salah."
+            }
+          ],
+          "label": "Kohesi dan Koherensi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kata Ganti dan Kata Rujukan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah taman baca menerima sumbangan buku dari warga setelah mengadakan kampanye literasi. Relawan membagi tugas menjadi penerimaan, pemeriksaan kondisi, pencatatan, dan penataan koleksi. Dalam laporan kegiatan, penulis harus menggunakan kata rujukan secara jelas karena terdapat beberapa kelompok orang dan benda yang disebutkan. Apabila kata ganti merujuk pada lebih dari satu pihak, pembaca dapat salah memahami siapa yang melakukan suatu tindakan. Oleh sebab itu, penyunting memeriksa urutan penyebutan pelaku dan memastikan setiap kata rujukan memiliki anteseden yang paling tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petugas taman baca mengumpulkan buku sumbangan warga di balai desa. Para relawan perpustakaan kemudian memeriksa kondisi buku-buku tersebut. Mereka menandai buku yang perlu diperbaiki sebelum dipinjamkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata “Mereka” pada kalimat ketiga merujuk pada ....**"
+            }
+          ],
+          "opsi": {
+            "A": "petugas taman baca",
+            "B": "warga penyumbang buku",
+            "C": "para relawan perpustakaan",
+            "D": "buku-buku sumbangan",
+            "E": "calon peminjam buku"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kata ganti dan kata rujukan membantu penulis menghindari pengulangan, tetapi dapat menimbulkan ambiguitas bila acuan tidak jelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.8, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1. Tandai kata ganti atau frasa rujukan yang ditanyakan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2. Daftar kandidat anteseden pada kalimat sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 3. Saring berdasarkan jumlah, jenis entitas, peran tindakan, dan kelanjutan konteks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Petugas disebut pada kalimat pertama; tindakan pada kalimat ketiga merupakan kelanjutan kegiatan relawan dalam kalimat kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Warga berperan menyumbang buku, bukan memeriksa dan menandainya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar. Anteseden terdekat yang berfungsi sebagai pelaku dan konsisten dengan kegiatan pemeriksaan adalah “para relawan perpustakaan”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Buku merupakan objek yang diperiksa, bukan pelaku yang menandai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Calon peminjam belum disebutkan sebagai pelaku kegiatan dalam teks."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Anteseden = unsur yang dirujuk. Pilih berdasarkan kedekatan + kecocokan makna + kesinambungan pelaku/tindakan; jangan mengandalkan posisi terdekat saja."
+            }
+          ],
+          "label": "Kata Ganti dan Kata Rujukan"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Main Idea, Topic, and Text Purpose",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Main Idea, Topic, and Text Purpose",
+    "sumber": "https://docs.google.com/document/d/1CMmGpP95CteMHM0BiEp1y10mnterQIvgb1bvBQFkcfs/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-02-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Community gardens have become part of several urban renewal projects. On unused lots, residents cultivate vegetables and maintain small green spaces. The gardens provide fresh produce and places where neighbors can share practical knowledge. Yet such projects are not effortless. Volunteers must arrange watering schedules, keep tools in good condition, and negotiate access to suitable land. Some gardens close when regular maintenance becomes difficult. City planners increasingly recognize that these spaces are most valuable when community enthusiasm is matched by reliable long-term support. Instead of treating gardens as temporary decoration, planners are considering them as shared facilities that require ongoing management."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "One project, located beside an apartment complex, successfully maintained its planting beds by assigning weekly responsibilities to residents. Another site lost many volunteers after the initial launch, leaving the garden overgrown. These contrasting outcomes led planners to question whether creating green spaces was sufficient without arrangements for continuing maintenance."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The city is now considering modest grants for shared equipment, water access, and training in garden coordination. Planners believe such support could strengthen existing projects, but they have not concluded that grants alone would guarantee success. Residents' participation and suitable land agreements would still be necessary."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "What is the central topic of the passage? Answer with one English word."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: gardens"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan ini menguji materi Main Idea, Topic, and Text Purpose dan meminta jawaban singkat berupa satu angka atau satu kata. Pembaca perlu menemukan informasi yang secara khusus dirujuk oleh kata kunci pertanyaan, lalu mencocokkannya dengan konteks stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seluruh paragraf membahas kebun komunitas: manfaat sosial dan pangan, tantangan perawatan, serta kebutuhan dukungan jangka panjang. Jawaban satu kata 'gardens' mewakili topik inti, sedangkan detail seperti watering dan tools hanya informasi pendukung. Dalam Main Idea, Topic, and Text Purpose, topik merupakan pokok bahasan yang menaungi seluruh rincian. 'Gardens' mencakup fungsi kebun, tantangan relawan, pemeliharaan, dan perhatian perencana kota. Kata lain seperti vegetables, grants, atau volunteers hanya mewakili bagian tertentu. Pertanyaan meminta one English word sehingga jawaban dijaga satu kata tanpa ringkasan kalimat panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, jawaban gardens sesuai dengan informasi yang ditanyakan. Informasi lain yang muncul dalam stimulus tidak boleh dipilih jika merujuk pada besaran, peristiwa, atau konsep berbeda."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Which statement best expresses the passage's main idea?"
+            }
+          ],
+          "opsi": {
+            "A": "Urban gardens mainly improve vegetable production when cities allocate unused land.",
+            "B": "Urban gardens offer several benefits but depend on sustained coordination and support.",
+            "C": "Urban gardens expand most successfully where residents manage every task independently.",
+            "D": "Urban gardens can replace formal recreation spaces with minimal local investment.",
+            "E": "Urban gardens strengthen neighborhood ties even without consistent long-term maintenance."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Soal menanyakan gagasan utama keseluruhan bacaan, bukan contoh manfaat tunggal. Materi Main Idea, Topic, and Text Purpose menuntut sintesis seluruh paragraf: kebun komunitas menyediakan hasil pangan dan interaksi sosial, tetapi keberlanjutannya memerlukan relawan, pengaturan akses lahan, pemeliharaan, dan dukungan institusi. Opsi B benar karena mencakup manfaat serta kondisi yang menentukan keberlangsungan proyek, sesuai penekanan penulis pada sustainable community support."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena produksi sayuran hanya satu manfaat; teks juga menekankan fungsi sosial dan pengelolaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C salah karena proyek memerlukan dukungan berkelanjutan, bukan selalu dapat dikelola sepenuhnya secara mandiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena tidak ada klaim penggantian seluruh ruang rekreasi atau biaya investasi minimal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena contoh kebun yang kehilangan relawan justru memperlihatkan kebutuhan perawatan konsisten."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "The author mainly describes how to grow a particular vegetable.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The passage recognizes social benefits of community gardens.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The writer presents maintenance as an important challenge.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The passage argues that initial enthusiasm alone guarantees success.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Main Idea, Topic, and Text Purpose, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan. Pembahasan terhubung dengan tema utama: nomor 1 salah karena tidak ada metode menanam satu jenis tanaman; nomor 2 benar sebab pertukaran pengetahuan antarwarga adalah manfaat sosial; nomor 3 benar karena jadwal air, peralatan, dan relawan merupakan tantangan nyata; nomor 4 salah karena antusiasme awal tidak cukup menjamin keberlanjutan. Pembedaan tujuan teks dari rincian pendukung membantu menetapkan kategori dengan konsisten."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Salah): tidak ada petunjuk budidaya sayuran tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Benar): kebun menjadi tempat berbagi pengetahuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Benar): jadwal penyiraman dan peralatan memerlukan perhatian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Salah): dukungan jangka panjang tetap dibutuhkan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

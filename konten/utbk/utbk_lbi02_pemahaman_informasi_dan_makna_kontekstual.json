@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "judul": "Pemahaman Informasi dan Makna Kontekstual",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Pemahaman Informasi dan Makna Kontekstual",
+    "sumber": "https://docs.google.com/document/d/136j54LSPT7LwPipx6EPMsUCnBe_V9-s0CuneAE_fvyA/edit",
+    "id_katalog": "lbi-02"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Memahami bacaan tidak cukup dilakukan dengan menemukan kata atau kalimat yang memuat informasi tertentu. Pembaca juga perlu mengenali makna kata berdasarkan konteks, menghubungkan informasi yang tersebar di beberapa bagian teks, serta menafsirkan pernyataan dengan memperhatikan penjelasan, syarat, dan batasan yang menyertainya. Dalam UTBK-SNBT, kemampuan tersebut diperlukan untuk menjawab pertanyaan yang menguji pemahaman informasi secara cermat, bukan sekadar kemampuan menemukan kalimat yang sama dengan pilihan jawaban.",
+      "Materi ini membahas tiga kemampuan utama:",
+      "1. **Pemahaman informasi eksplisit**, yaitu menemukan dan memahami informasi yang dinyatakan secara langsung dalam bacaan.",
+      "2. **Hubungan kata dalam konteks**, yaitu memahami makna kata atau frasa berdasarkan penggunaannya dalam kalimat dan keseluruhan bacaan.",
+      "3. **Memadukan informasi dan menafsirkan makna teks umum**, yaitu menghubungkan informasi dari beberapa bagian bacaan untuk memperoleh pemahaman yang utuh dan tepat."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menemukan",
+        "teks": "informasi yang dinyatakan secara langsung dalam bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "informasi eksplisit dari kesimpulan, dugaan, dan pengetahuan yang berasal dari luar teks."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "makna kata dan frasa berdasarkan konteks penggunaannya."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "perubahan atau perbedaan hubungan makna kata dan frasa dalam bagian-bagian bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "padanan kata atau frasa yang tetap mempertahankan makna dan hubungan antargagasan."
+      },
+      {
+        "level": "",
+        "kko": "Menghubungkan",
+        "teks": "dua atau lebih informasi yang tersebar dalam bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Menafsirkan",
+        "teks": "pernyataan dengan memperhatikan informasi pelengkap, syarat, dan batasan konteks."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "makna gabungan yang tidak dinyatakan secara langsung dalam satu kalimat."
+      },
+      {
+        "level": "",
+        "kko": "Menghindari",
+        "teks": "penafsiran yang bertentangan dengan informasi atau melampaui bukti dalam bacaan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pendalaman Materi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pendalaman Materi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Membaca sebagai Proses Memahami Informasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Membaca dalam konteks literasi bukan hanya kegiatan mengenali rangkaian kata dan kalimat. Membaca merupakan proses membangun pemahaman berdasarkan informasi yang disajikan penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika membaca sebuah teks, pembaca perlu melakukan beberapa proses:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Mengenali informasi yang disampaikan secara langsung.",
+                "Memahami arti kata dan kalimat berdasarkan konteks.",
+                "Menghubungkan informasi yang satu dengan informasi lainnya.",
+                "Memperhatikan hubungan antarkalimat dan antarparagraf.",
+                "Menafsirkan maksud penulis tanpa menambahkan asumsi yang tidak didukung bacaan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemerintah daerah memperluas layanan perpustakaan digital untuk menjangkau masyarakat di wilayah yang jauh dari pusat kota. Melalui layanan tersebut, masyarakat dapat mengakses berbagai bahan bacaan tanpa harus datang langsung ke perpustakaan. Namun, pemanfaatannya masih menghadapi kendala berupa keterbatasan jaringan internet di sejumlah wilayah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari bacaan tersebut, terdapat beberapa tingkat pemahaman."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Tingkat pemahaman",
+                "Contoh informasi"
+              ],
+              "baris": [
+                [
+                  "Informasi eksplisit",
+                  "Pemerintah daerah memperluas layanan perpustakaan digital."
+                ],
+                [
+                  "Makna kontekstual",
+                  "Kata <i>menjangkau</i> berkaitan dengan upaya membuat layanan dapat diakses masyarakat."
+                ],
+                [
+                  "Hubungan informasi",
+                  "Perpustakaan digital mempermudah akses bacaan, tetapi pemanfaatannya terkendala jaringan internet."
+                ],
+                [
+                  "Penafsiran gabungan",
+                  "Perluasan layanan digital belum otomatis menjamin pemerataan akses bacaan."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh tersebut memperlihatkan bahwa pemahaman bacaan dapat bergerak dari menemukan informasi menuju menghubungkan dan menafsirkan informasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi Eksplisit dan Batas Pemahaman Teks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi eksplisit adalah informasi yang dinyatakan secara langsung oleh penulis melalui kata, frasa, kalimat, atau data dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut dapat ditemukan dengan menelusuri bagian teks yang secara langsung menjawab pertanyaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 240 siswa mengikuti kegiatan pemeriksaan kesehatan di sekolah. Kegiatan tersebut dilaksanakan selama dua hari dan melibatkan tenaga kesehatan dari puskesmas setempat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi eksplisit yang dapat ditemukan adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Jumlah peserta: 240 siswa.",
+                "Jenis kegiatan: pemeriksaan kesehatan.",
+                "Durasi kegiatan: dua hari.",
+                "Pihak yang terlibat: tenaga kesehatan dari puskesmas setempat.",
+                "Lokasi kegiatan: sekolah."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal UTBK, pilihan jawaban dapat menggunakan parafrasa, yaitu menyampaikan kembali informasi dengan susunan kata berbeda. Oleh karena itu, peserta tidak boleh hanya mencari kata yang sama persis dengan teks. Peserta harus memeriksa apakah makna pernyataan tetap sesuai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Makna Kata dan Frasa dalam Konteks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna sebuah kata dapat berubah atau memiliki nuansa berbeda bergantung pada kalimat dan situasi penggunaannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan kata <i>tajam</i> dalam beberapa kalimat berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Pisau itu memiliki ujung yang tajam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Pengamat menyampaikan kritik yang tajam terhadap kebijakan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Kamera itu mampu menghasilkan gambar yang tajam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata <i>tajam</i> memiliki makna berbeda:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kalimat pertama: memiliki sisi atau ujung yang mampu memotong.",
+                "Kalimat kedua: keras, kritis, atau menusuk secara argumentatif.",
+                "Kalimat ketiga: jelas dan terperinci."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, makna kata tidak selalu dapat ditentukan hanya melalui arti yang paling umum di dalam kamus. Pembaca harus memperhatikan kata-kata di sekitarnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan makna antarkata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna sebuah kata juga dapat dipahami melalui hubungannya dengan kata lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa hubungan yang perlu dikenali adalah:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Hubungan makna",
+                "Penjelasan",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Sinonim",
+                  "Memiliki makna yang sama atau hampir sama",
+                  "Cermat – teliti"
+                ],
+                [
+                  "Antonim",
+                  "Memiliki makna berlawanan",
+                  "Stabil – tidak stabil"
+                ],
+                [
+                  "Hipernim",
+                  "Kata yang memiliki cakupan makna lebih luas",
+                  "Kendaraan"
+                ],
+                [
+                  "Hiponim",
+                  "Kata yang memiliki cakupan makna lebih khusus",
+                  "Sepeda, mobil, bus"
+                ],
+                [
+                  "Polisemi",
+                  "Satu kata memiliki beberapa makna yang berkaitan",
+                  "Kepala sekolah, kepala keluarga"
+                ],
+                [
+                  "Makna kias",
+                  "Makna tidak digunakan secara harfiah",
+                  "Tangan kanan pimpinan"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan tersebut perlu dipahami berdasarkan konteks. Dua kata yang dianggap bersinonim belum tentu dapat saling menggantikan dalam semua kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Substitusi Kata dan Frasa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi merupakan penggantian kata atau frasa dengan bentuk lain yang memiliki makna setara dalam konteks tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemerintah berupaya meningkatkan ketahanan pangan melalui penguatan produksi lokal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Frasa <i>ketahanan pangan</i> tidak dapat langsung diganti dengan <i>produksi pangan</i>, karena keduanya memiliki cakupan makna berbeda."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Ketahanan pangan berkaitan dengan kondisi terpenuhinya kebutuhan pangan secara cukup, aman, dan berkelanjutan.",
+                "Produksi pangan berkaitan dengan proses menghasilkan bahan pangan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya berhubungan, tetapi tidak memiliki makna yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memadukan Informasi dari Beberapa Bagian Bacaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi penting dalam sebuah teks tidak selalu disampaikan dalam satu kalimat. Penulis dapat menyebarkan informasi ke beberapa paragraf sehingga pembaca harus menghubungkannya untuk memperoleh pemahaman yang utuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Paragraf 1:** Pemerintah kota mengembangkan jalur sepeda untuk mengurangi ketergantungan masyarakat terhadap kendaraan pribadi. Pembangunan jalur tersebut dilakukan secara bertahap di beberapa ruas jalan utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Paragraf 2:** Meskipun jalur sepeda telah tersedia, penggunaannya belum meningkat secara signifikan. Sebagian masyarakat masih menganggap perjalanan dengan sepeda kurang praktis karena jarak tempat tinggal dan tempat kerja cukup jauh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Paragraf 3:** Pemerintah kemudian merencanakan pembangunan fasilitas parkir sepeda dan integrasi jalur sepeda dengan angkutan umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi yang tersebar:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Paragraf 1: pemerintah membangun jalur sepeda untuk mengurangi ketergantungan pada kendaraan pribadi.",
+                "Paragraf 2: penggunaan jalur sepeda belum meningkat karena kendala jarak dan kepraktisan.",
+                "Paragraf 3: pemerintah merencanakan fasilitas pendukung dan integrasi transportasi."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika ketiga informasi tersebut dipadukan, dapat diperoleh pemahaman bahwa pembangunan jalur sepeda perlu disertai fasilitas dan keterhubungan dengan transportasi umum agar lebih banyak masyarakat bersedia menggunakannya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Menyelesaikan Soal Informasi Eksplisit"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca pertanyaan terlebih dahulu untuk mengetahui informasi yang dicari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Identifikasi kata kunci, seperti nama, angka, waktu, tempat, atau aktivitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Temukan bagian bacaan yang berkaitan dengan kata kunci."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Cocokkan makna informasi, bukan sekadar kesamaan kata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Periksa apakah pilihan jawaban menambahkan informasi yang tidak disebutkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan umum"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Memilih jawaban hanya karena mengandung kata yang sama dengan bacaan.",
+                "Menganggap semua informasi yang masuk akal pasti benar.",
+                "Mengabaikan angka, waktu, atau syarat khusus.",
+                "Menyamakan target dengan hasil aktual.",
+                "Menganggap informasi sebagian sebagai informasi menyeluruh."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Menyelesaikan Soal Makna Kata dalam Konteks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Baca kalimat yang memuat kata sasaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Perhatikan kata atau frasa sebelum dan sesudahnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Tentukan topik yang sedang dibicarakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Cari makna yang paling sesuai dengan hubungan dalam kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Uji pilihan jawaban dengan mengganti kata sasaran menggunakan padanannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Pastikan penggantian tersebut tidak mengubah maksud kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan umum"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Menggunakan arti pertama yang ditemukan di kamus.",
+                "Mengabaikan konteks paragraf.",
+                "Menganggap sinonim selalu dapat dipertukarkan.",
+                "Tidak membedakan makna harfiah dan kias.",
+                "Memilih kata pengganti yang benar secara umum, tetapi tidak sesuai dengan konteks."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Menyelesaikan Soal Pemaduan Informasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identifikasi setiap informasi yang berkaitan dengan pertanyaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Catat letak informasi tersebut dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Tentukan hubungan antarinformasi: sebab-akibat, penambahan, pertentangan, perbandingan, atau pembatasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Gabungkan informasi yang relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Periksa apakah penafsiran tetap mempertahankan syarat dan pengecualian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Pilih jawaban yang mencakup informasi secara tepat tanpa menambahkan asumsi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan umum"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Menggunakan satu kalimat untuk mewakili seluruh isi bacaan.",
+                "Mengabaikan informasi yang muncul pada paragraf lain.",
+                "Menghilangkan syarat atau pengecualian.",
+                "Menyimpulkan hubungan sebab-akibat padahal teks hanya menunjukkan hubungan waktu atau keterkaitan.",
+                "Memilih jawaban yang terlalu luas dibandingkan informasi yang tersedia."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Pemahaman informasi eksplisit merupakan kemampuan menemukan informasi yang dinyatakan secara langsung dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Informasi yang tidak disebutkan secara langsung tidak boleh dianggap sebagai fakta teks hanya karena terdengar masuk akal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Makna kata dan frasa harus ditentukan berdasarkan konteks kalimat dan paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Hubungan makna kata mencakup sinonim, antonim, hipernim, hiponim, polisemi, dan makna kias."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Substitusi kata harus mempertahankan makna, hubungan antargagasan, dan cakupan informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Pemaduan informasi dilakukan dengan menghubungkan beberapa informasi yang tersebar dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "7. Penafsiran harus mempertahankan informasi pelengkap, syarat, dan batasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "8. Pilihan jawaban yang benar tidak selalu menggunakan kata yang sama dengan bacaan, tetapi harus mempertahankan makna bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "9. Dalam UTBK, peserta perlu menghindari pengecoh berupa perubahan cakupan, kepastian, syarat, dan hubungan antarinformasi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pendalaman Materi",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+        "teks": ""
+      }
+    ],
+    "pesan": "Kemampuan memahami informasi dan makna kontekstual merupakan fondasi penting dalam mengerjakan soal Literasi Bahasa Indonesia UTBK-SNBT. Peserta tidak cukup hanya menemukan kalimat yang berkaitan dengan pertanyaan, tetapi juga harus memahami makna kata, hubungan antarinformasi, serta batas penafsiran yang diizinkan oleh bacaan. Semakin cermat peserta memeriksa setiap unsur informasi, semakin kecil kemungkinan terjebak oleh pilihan jawaban yang sekilas tampak benar, tetapi sebenarnya mengubah maksud teks."
+  }
+}

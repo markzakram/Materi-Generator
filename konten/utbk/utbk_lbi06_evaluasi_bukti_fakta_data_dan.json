@@ -1,0 +1,659 @@
+{
+  "meta": {
+    "judul": "Evaluasi Bukti, Fakta, Data, dan Simpulan",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Evaluasi Bukti, Fakta, Data, dan Simpulan",
+    "sumber": "https://docs.google.com/document/d/1ZXlxN5PW0LOdrihV03a1TgDIg9diBzncW7UYh8DpB3g/edit",
+    "id_katalog": "lbi-06"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Evaluasi bukti, fakta, data, dan simpulan merupakan keterampilan penting dalam Literasi Bahasa Indonesia yang memungkinkan pembaca menilai kekuatan informasi dan ketepatan penalaran yang dibangun penulis dalam suatu bacaan. Sebuah teks dapat memuat berbagai fakta, hasil pengamatan, perbandingan, dan pendapat yang digunakan untuk mendukung gagasan tertentu. Namun, keberadaan informasi tersebut tidak selalu menjamin bahwa kesimpulan penulis telah didukung secara memadai. Pembaca perlu memahami fungsi setiap bukti, menilai kesesuaian fakta dan data dengan klaim, serta mengidentifikasi batasan informasi yang memengaruhi kelayakan simpulan. Dalam UTBK-SNBT, kemampuan ini diuji melalui kegiatan menganalisis hubungan antara klaim dan bukti, mengevaluasi kecukupan informasi pendukung, memeriksa ketepatan interpretasi fakta dan data, serta memilih simpulan yang paling sesuai dengan keseluruhan isi bacaan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "perbedaan antara klaim, alasan, bukti, fakta, data, dan simpulan dalam suatu bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "fungsi bukti dalam mendukung gagasan atau pendapat penulis."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "hubungan antara klaim dan informasi pendukung yang tersebar dalam teks."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "relevansi fakta dan data terhadap persoalan yang dibahas."
+      },
+      {
+        "level": "",
+        "kko": "Menilai",
+        "teks": "ketepatan penafsiran fakta dan data berdasarkan konteks penyajiannya."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "keterbatasan informasi yang memengaruhi kekuatan suatu argumen."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "apakah bukti yang tersedia cukup untuk mendukung simpulan penulis."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "hubungan sebab-akibat yang didukung teks dari hubungan yang hanya berupa dugaan."
+      },
+      {
+        "level": "",
+        "kko": "Menilai",
+        "teks": "ketepatan simpulan berdasarkan syarat, pengecualian, dan batas generalisasi dalam bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "simpulan yang paling kuat dan proporsional berdasarkan keseluruhan informasi teks."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pembahasan Konsep Dasar secara Mendalam",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pembahasan Konsep Dasar secara Mendalam",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Hakikat Evaluasi Bukti dalam Literasi Bahasa Indonesia"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evaluasi bukti merupakan proses menilai apakah informasi yang disajikan dalam bacaan memiliki hubungan yang tepat dan cukup kuat untuk mendukung suatu klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kegiatan membaca kritis, peserta tidak hanya dituntut menemukan bukti, tetapi juga memahami **apa yang sebenarnya dapat dibuktikan oleh informasi tersebut**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai contoh, perhatikan kutipan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sejumlah sekolah mulai menyediakan ruang baca terbuka untuk meningkatkan minat membaca siswa. Setelah fasilitas tersebut digunakan, kunjungan siswa ke ruang baca terlihat lebih sering. Namun, pada periode yang sama, sekolah juga menyelenggarakan kegiatan membaca bersama yang melibatkan seluruh kelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kutipan tersebut menyampaikan adanya peningkatan kunjungan setelah ruang baca terbuka digunakan. Akan tetapi, informasi itu belum cukup untuk membuktikan bahwa peningkatan kunjungan hanya disebabkan oleh penyediaan ruang baca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keberadaan kegiatan membaca bersama merupakan informasi penting yang membatasi kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari contoh tersebut, dapat dipahami bahwa evaluasi bukti tidak berhenti pada pertanyaan apakah suatu informasi benar-benar disebutkan dalam teks. Pembaca juga perlu menanyakan apakah informasi tersebut mampu mendukung klaim yang hendak dibuktikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Klaim, Fakta, Data, Bukti, dan Simpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelima unsur tersebut saling berkaitan, tetapi memiliki fungsi yang berbeda dalam sebuah bacaan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur",
+                "Pengertian",
+                "Fungsi dalam bacaan"
+              ],
+              "baris": [
+                [
+                  "Klaim",
+                  "Pernyataan yang diajukan untuk diterima atau dipertimbangkan",
+                  "Menyampaikan pendapat atau posisi penulis"
+                ],
+                [
+                  "Fakta",
+                  "Informasi mengenai keadaan atau peristiwa yang dapat diperiksa kebenarannya",
+                  "Memberikan dasar faktual"
+                ],
+                [
+                  "Data",
+                  "Informasi hasil pencatatan, pengamatan, atau pengukuran",
+                  "Menjelaskan keadaan atau kecenderungan"
+                ],
+                [
+                  "Bukti",
+                  "Informasi yang digunakan untuk mendukung atau menolak klaim",
+                  "Memperkuat atau menguji argumentasi"
+                ],
+                [
+                  "Simpulan",
+                  "Hasil penalaran berdasarkan informasi yang tersedia",
+                  "Merumuskan hasil pemahaman atau argumentasi"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan penting yang perlu diperhatikan adalah bahwa **fakta dan data tidak selalu berfungsi sebagai bukti bagi setiap klaim**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perpustakaan memperpanjang jam operasional hingga malam hari. Setelah perubahan tersebut, jumlah kunjungan pada malam hari meningkat. Pengelola berpendapat bahwa perpanjangan jam operasional membantu memberikan kesempatan kepada masyarakat yang tidak dapat berkunjung pada siang hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kutipan tersebut:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Klaim: perpanjangan jam operasional membantu memperluas kesempatan berkunjung.",
+                "Fakta: perpustakaan memperpanjang jam operasional hingga malam hari.",
+                "Data hasil pengamatan: jumlah kunjungan malam hari meningkat.",
+                "Bukti pendukung: peningkatan kunjungan malam hari setelah perubahan layanan.",
+                "Simpulan yang dapat diterima: perpanjangan jam operasional berpotensi memperluas kesempatan masyarakat mengakses perpustakaan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, simpulan bahwa seluruh masyarakat kini dapat mengakses perpustakaan tidak didukung oleh kutipan tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Relevansi Bukti terhadap Klaim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relevansi bukti menunjukkan seberapa langsung suatu informasi berkaitan dengan klaim yang sedang dibahas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti yang relevan harus membantu menjelaskan, memperkuat, atau menguji pernyataan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Klaim"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyediaan jalur sepeda yang aman dapat mendorong masyarakat menggunakan sepeda untuk perjalanan jarak dekat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi yang mungkin digunakan sebagai bukti:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Jalur sepeda yang terpisah dari kendaraan bermotor dapat mengurangi konflik lalu lintas.",
+                "Keterhubungan jalur sepeda dengan kawasan permukiman dan fasilitas umum memudahkan perjalanan.",
+                "Sepeda telah digunakan sebagai sarana transportasi sejak lama.",
+                "Berbagai jenis sepeda memiliki bentuk dan fungsi yang berbeda."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi mengenai keamanan dan keterhubungan jalur memiliki relevansi langsung dengan klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sementara itu, informasi mengenai sejarah dan jenis sepeda masih berhubungan dengan topik, tetapi tidak secara langsung mendukung pernyataan mengenai penggunaan sepeda untuk perjalanan jarak dekat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam UTBK-SNBT, peserta harus mampu membedakan **informasi yang sekadar berkaitan dengan topik** dari **informasi yang benar-benar mendukung klaim**."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kecukupan Bukti dalam Mendukung Argumentasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecukupan bukti berkaitan dengan apakah informasi yang tersedia sudah memadai untuk mendukung kesimpulan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah bukti dapat relevan, tetapi tetap belum cukup untuk membenarkan klaim yang luas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sekolah menerapkan kegiatan membaca mandiri sebelum pembelajaran dimulai. Setelah kegiatan tersebut berlangsung, beberapa siswa menunjukkan peningkatan keterlibatan dalam diskusi kelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut dapat mendukung pernyataan bahwa kegiatan membaca mandiri berkaitan dengan peningkatan keterlibatan beberapa siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, informasi tersebut belum cukup untuk menyimpulkan bahwa kegiatan membaca mandiri pasti meningkatkan kemampuan seluruh siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hal ini disebabkan oleh perbedaan cakupan antara bukti dan simpulan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bukti dalam bacaan",
+                "Simpulan yang dapat didukung",
+                "Simpulan yang berlebihan"
+              ],
+              "baris": [
+                [
+                  "Beberapa siswa lebih aktif berdiskusi",
+                  "Kegiatan berkaitan dengan peningkatan keterlibatan sebagian siswa",
+                  "Seluruh siswa pasti menjadi lebih aktif"
+                ],
+                [
+                  "Kunjungan perpustakaan meningkat setelah perubahan layanan",
+                  "Perubahan layanan diikuti peningkatan kunjungan",
+                  "Perubahan layanan menjadi satu-satunya penyebab peningkatan"
+                ],
+                [
+                  "Sebagian wilayah mengalami penurunan genangan",
+                  "Penanganan genangan menunjukkan hasil pada wilayah tertentu",
+                  "Seluruh wilayah telah terbebas dari genangan"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecukupan bukti harus selalu dinilai berdasarkan kekuatan klaim yang hendak dibuktikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ketepatan Fakta dan Data sebagai Informasi Tekstual"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam Literasi Bahasa Indonesia, evaluasi fakta dan data berfokus pada kemampuan membaca dan menafsirkan informasi secara tepat.",
+              "tambahan": [
+                {
+                  "alasan": "isi di bawah judul bertanda",
+                  "isi": "Dalam Literasi Bahasa Indonesia, evaluasi fakta dan data berfokus pada kemampuan membaca dan menafsirkan informasi secara tepat."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa unsur yang perlu diperhatikan adalah:",
+              "tambahan": [
+                {
+                  "alasan": "isi di bawah judul bertanda",
+                  "isi": "Beberapa unsur yang perlu diperhatikan adalah:"
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Satuan dan objek yang dibicarakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Data mengenai jumlah pengunjung tidak dapat langsung dianggap sebagai data mengenai jumlah kunjungan unik. Seseorang dapat melakukan kunjungan lebih dari sekali."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Periode pengamatan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan yang terjadi selama masa pengamatan tertentu tidak otomatis menunjukkan bahwa peningkatan tersebut berlangsung secara terus-menerus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Kelompok yang diamati"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temuan terhadap peserta dalam satu wilayah tidak dapat langsung digeneralisasi menjadi keadaan seluruh masyarakat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Dasar perbandingan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan harus mempertahankan kategori yang digunakan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "5. Kondisi atau keterbatasan pengamatan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penulis mungkin menyatakan bahwa terdapat faktor lain yang belum dapat dipisahkan pengaruhnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua unsur tersebut menjadi petunjuk penting ketika peserta diminta menentukan pernyataan atau simpulan yang paling tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Fakta, Data, dan Simpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang tepat dibangun melalui hubungan yang logis antara fakta dan data yang tersedia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan kutipan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah kawasan permukiman mulai menerapkan pemilahan sampah rumah tangga. Setelah program berjalan, jumlah sampah campuran yang dikirim ke tempat penampungan berkurang. Namun, pengelola belum mengetahui apakah penurunan tersebut juga dipengaruhi oleh perubahan jumlah penghuni kawasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut mendukung simpulan bahwa penerapan pemilahan sampah berlangsung bersamaan dengan penurunan jumlah sampah campuran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, belum cukup untuk membuktikan bahwa pemilahan sampah menjadi satu-satunya penyebab penurunan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata <i>namun</i> dalam kutipan tersebut menjadi penanda pembatas yang penting. Penulis mengakui adanya faktor lain yang belum diketahui pengaruhnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, simpulan yang tepat harus mempertahankan keterbatasan tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Generalisasi dan Batas Penarikan Simpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamatan terhadap beberapa sekolah di kawasan perkotaan menunjukkan bahwa siswa lebih sering menggunakan perpustakaan ketika tersedia ruang belajar kelompok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang proporsional:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketersediaan ruang belajar kelompok berkaitan dengan peningkatan pemanfaatan perpustakaan pada sekolah yang diamati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan yang berlebihan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seluruh siswa di Indonesia hanya akan menggunakan perpustakaan apabila tersedia ruang belajar kelompok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan kedua tidak tepat karena memperluas cakupan dari beberapa sekolah menjadi seluruh siswa dan mengubah hubungan yang ditemukan menjadi syarat mutlak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengevaluasi Bukti dan Fakta"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tentukan klaim yang sedang diuji"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum mencari bukti, pahami pernyataan yang hendak didukung atau dibantah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Temukan informasi yang paling relevan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cari kalimat atau paragraf yang secara langsung berkaitan dengan klaim."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Identifikasi fungsi informasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah informasi berfungsi sebagai bukti penguat, penjelas, pembanding, atau pembatas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Periksa konteks penyajian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan apakah informasi berlaku untuk kelompok, kondisi, atau periode tertentu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Nilai kecukupan bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan langsung menerima simpulan hanya karena terdapat satu informasi yang tampak mendukung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengevaluasi Simpulan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Temukan gagasan utama bacaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan harus selaras dengan persoalan yang dibahas secara keseluruhan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungkan informasi penting"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan hubungan antarkalimat dan antarparagraf, terutama bagian yang menjelaskan syarat atau pengecualian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Periksa tingkat kepastian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bedakan informasi yang menunjukkan kemungkinan, kecenderungan, dan kepastian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hindari generalisasi berlebihan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan memperluas temuan pada kelompok terbatas menjadi pernyataan yang berlaku bagi seluruh kelompok."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Waspadai hubungan sebab-akibat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan yang terjadi setelah suatu kebijakan belum tentu sepenuhnya disebabkan oleh kebijakan tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pilih simpulan yang paling proporsional"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Utamakan simpulan yang mempertahankan manfaat, kondisi, dan keterbatasan yang disampaikan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan",
+                "Cara menghindari"
+              ],
+              "baris": [
+                [
+                  "Menganggap seluruh fakta sebagai bukti yang relevan",
+                  "Fakta dapat benar, tetapi tidak mendukung klaim tertentu",
+                  "Periksa hubungan fakta dengan klaim"
+                ],
+                [
+                  "Mengabaikan bukti pembatas",
+                  "Simpulan menjadi terlalu mutlak",
+                  "Perhatikan kalimat yang diawali <i>namun</i>, <i>meskipun</i>, atau <i>akan tetapi</i>"
+                ],
+                [
+                  "Menyamakan hubungan waktu dengan sebab-akibat",
+                  "Perubahan yang terjadi bersamaan dianggap memiliki hubungan kausal yang pasti",
+                  "Periksa apakah teks membuktikan penyebabnya"
+                ],
+                [
+                  "Menggeneralisasi hasil pengamatan",
+                  "Temuan terbatas dianggap berlaku untuk seluruh kelompok",
+                  "Pertahankan cakupan informasi"
+                ],
+                [
+                  "Mengambil simpulan dari satu kalimat",
+                  "Informasi penting pada bagian lain terabaikan",
+                  "Hubungkan informasi lintas paragraf"
+                ],
+                [
+                  "Menggunakan asumsi pribadi",
+                  "Simpulan mengandung informasi di luar teks",
+                  "Gunakan hanya bukti tekstual"
+                ],
+                [
+                  "Memilih simpulan paling tegas",
+                  "Kepastian simpulan melampaui bukti",
+                  "Pilih pernyataan yang paling proporsional"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Evaluasi bukti, fakta, data, dan simpulan merupakan keterampilan membaca kritis yang berfokus pada ketepatan hubungan antara informasi pendukung dan hasil penalaran dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Klaim merupakan pernyataan yang memerlukan dukungan, sedangkan fakta dan data dapat berfungsi sebagai bukti apabila relevan dengan klaim tersebut. Bukti yang relevan belum tentu cukup untuk mendukung simpulan yang luas. Oleh karena itu, pembaca perlu memeriksa fungsi informasi, konteks penyajian, serta keterbatasan yang dinyatakan penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Ketepatan simpulan ditentukan oleh kesesuaiannya dengan gagasan utama, kelengkapan bukti, syarat, pengecualian, dan batas generalisasi. Simpulan yang baik tidak menambahkan asumsi tanpa dasar atau mengubah kemungkinan menjadi kepastian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Dalam Literasi Bahasa Indonesia UTBK-SNBT, keterampilan ini diperlukan untuk menentukan bukti yang paling tepat, menilai kekuatan argumentasi, dan memilih simpulan yang paling dapat dipertanggungjawabkan berdasarkan keseluruhan bacaan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pembahasan Konsep Dasar secara Mendalam",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+        "teks": ""
+      }
+    ],
+    "pesan": "Kemampuan mengevaluasi bukti, fakta, data, dan simpulan membantu peserta memahami bagaimana sebuah bacaan membangun argumentasi serta sejauh mana informasi yang disajikan mampu mendukung kesimpulan tertentu. Keterampilan ini menuntut pembaca untuk tidak hanya menemukan informasi, tetapi juga menilai fungsi, relevansi, kecukupan, dan batas penggunaannya dalam proses penalaran. Melalui pembiasaan membaca secara kritis dan menghubungkan informasi dari berbagai bagian teks, peserta dapat mengembangkan kemampuan mengevaluasi argumentasi secara lebih akurat dan sistematis. Penguasaan keterampilan tersebut menjadi bekal penting dalam menghadapi soal Literasi Bahasa Indonesia UTBK-SNBT yang menuntut pemahaman mendalam dan penilaian berbasis bukti tekstual."
+  }
+}

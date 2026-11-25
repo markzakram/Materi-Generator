@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Evaluasi Kebenaran dan Keakuratan Informasi",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Contoh Soal Evaluasi Kebenaran dan Keakuratan Informasi",
+    "sumber": "https://docs.google.com/document/d/1zW4spDm5wLSaBteOwBtTSRBei0-8wAvF1oTqXuv1pTg/edit",
+    "bagian": "soal",
+    "id_katalog": "lbi-05-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pemanfaatan Panel Surya pada Bangunan Perkantoran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(1)** Sejumlah gedung perkantoran mulai memasang panel surya untuk memenuhi sebagian kebutuhan energi listrik. Teknologi ini mengubah energi cahaya matahari menjadi energi listrik yang dapat digunakan untuk mendukung operasional bangunan. Besarnya listrik yang dihasilkan bergantung pada kapasitas panel, intensitas cahaya matahari, orientasi pemasangan, dan kondisi perangkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(2)** Sebuah pengamatan dilakukan terhadap dua gedung perkantoran yang memasang panel surya dengan kapasitas berbeda. Gedung A memiliki panel berkapasitas 40 kilowatt-peak (kWp), sedangkan Gedung B memiliki kapasitas 60 kWp. Selama satu bulan pengamatan, Gedung A menghasilkan rata-rata 160 kilowatt-jam (kWh) listrik per hari, sementara Gedung B menghasilkan rata-rata 210 kWh per hari. Pengamatan dilakukan pada bulan yang sama, tetapi kedua gedung memiliki orientasi atap dan tingkat paparan sinar matahari yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(3)** Berdasarkan data tersebut, produksi listrik harian Gedung B lebih tinggi daripada Gedung A. Namun, perbedaan produksi tersebut belum cukup untuk membuktikan bahwa kapasitas panel merupakan satu-satunya faktor yang menyebabkan perbedaan hasil. Orientasi atap dan paparan sinar matahari juga dapat memengaruhi jumlah energi yang dihasilkan. Untuk mengukur pengaruh kapasitas panel secara lebih tepat, pengamatan perlu dilakukan dengan mempertimbangkan atau mengendalikan faktor-faktor lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(4)** Panel surya dapat membantu mengurangi ketergantungan gedung terhadap pasokan listrik dari jaringan umum. Meskipun demikian, besarnya penghematan biaya tidak hanya ditentukan oleh jumlah listrik yang dihasilkan. Tarif listrik, pola konsumsi energi, biaya pemasangan, serta kebutuhan pemeliharaan juga perlu diperhitungkan. Oleh sebab itu, keberhasilan penerapan panel surya sebaiknya dinilai dengan mempertimbangkan kinerja energi dan aspek ekonominya secara bersamaan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada paragraf berapakah dijelaskan bahwa perbedaan produksi listrik antara dua gedung belum dapat dikaitkan hanya dengan kapasitas panel surya?",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Pada paragraf berapakah dijelaskan bahwa perbedaan produksi listrik antara dua gedung belum dapat dikaitkan hanya dengan kapasitas panel surya?"
+                }
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf 3 menjelaskan bahwa produksi listrik Gedung B lebih tinggi daripada Gedung A. Akan tetapi, perbedaan tersebut belum cukup untuk membuktikan bahwa kapasitas panel merupakan satu-satunya penyebab perbedaan hasil. Teks juga menyebutkan faktor orientasi atap dan paparan sinar matahari yang dapat memengaruhi produksi listrik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan meminta paragraf yang menjelaskan keterbatasan dalam menentukan penyebab perbedaan produksi. Informasi tersebut terdapat pada paragraf 3."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan data dalam bacaan, pernyataan yang paling akurat adalah ....",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Berdasarkan data dalam bacaan, pernyataan yang paling akurat adalah ...."
+                }
+              ]
+            }
+          ],
+          "opsi": {
+            "A": "Gedung B menghasilkan listrik 50 kWh lebih banyak per hari daripada Gedung A selama periode pengamatan.",
+            "B": "Gedung B menghasilkan listrik 50% lebih banyak per hari daripada Gedung A karena kapasitas panelnya juga 50% lebih besar.",
+            "C": "Gedung A menghasilkan listrik lebih sedikit karena kapasitas panelnya lebih rendah dan orientasi atapnya tidak optimal.",
+            "D": "Kapasitas panel surya menjadi satu-satunya faktor yang menentukan perbedaan produksi listrik kedua gedung.",
+            "E": "Gedung B menghasilkan listrik 210 kWh lebih banyak daripada Gedung A setiap bulan pengamatan."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gedung A menghasilkan rata-rata 160 kWh per hari, sedangkan Gedung B menghasilkan rata-rata 210 kWh per hari. Selisih produksi listrik keduanya adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$210-160=50kWh$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, Gedung B menghasilkan listrik 50 kWh lebih banyak per hari daripada Gedung A. Pernyataan tersebut sesuai dengan angka dan satuan yang disampaikan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis opsi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Opsi A (Benar):** Selisih produksi harian kedua gedung adalah 50 kWh. Pernyataan ini sesuai dengan data dan menggunakan satuan yang tepat.",
+                "**Opsi B (Salah):** Kenaikan produksi dari 160 menjadi 210 kWh adalah 31,25%, bukan 50%. Walaupun kapasitas panel Gedung B 50% lebih besar, persentase kenaikan kapasitas tidak otomatis sama dengan persentase kenaikan produksi.",
+                "**Opsi C (Salah):** Teks menyebutkan bahwa orientasi atap kedua gedung berbeda, tetapi tidak menjelaskan bahwa orientasi atap Gedung A tidak optimal. Pernyataan ini menambahkan informasi yang tidak tersedia.",
+                "**Opsi D (Salah):** Teks secara tegas menyatakan bahwa orientasi atap dan paparan sinar matahari juga dapat memengaruhi produksi listrik. Kapasitas panel bukan satu-satunya faktor.",
+                "**Opsi E (Salah):** Angka 210 kWh merupakan rata-rata produksi per hari Gedung B, bukan selisih produksi bulanan kedua gedung."
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan isi bacaan!",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Tentukan apakah setiap pernyataan berikut Benar atau Salah berdasarkan isi bacaan!"
+                }
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Kapasitas panel surya Gedung B lebih besar 20 kWp daripada Gedung A.",
+                  "✓",
+                  ""
+                ],
+                [
+                  "2",
+                  "Pengamatan terhadap kedua gedung dilakukan pada bulan yang berbeda sehingga hasilnya tidak dapat dibandingkan.",
+                  "",
+                  "✓"
+                ],
+                [
+                  "3",
+                  "Data produksi listrik kedua gedung belum cukup untuk membuktikan bahwa kapasitas panel menjadi satu-satunya penyebab perbedaan produksi.",
+                  "✓",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan 1 — Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kapasitas panel Gedung A adalah 40 kWp, sedangkan Gedung B adalah 60 kWp. Selisih kapasitas keduanya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$60-40=20kWp$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, kapasitas panel Gedung B memang lebih besar 20 kWp daripada Gedung A."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan 2 — Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf 2 menyebutkan bahwa pengamatan dilakukan pada bulan yang sama. Oleh karena itu, pernyataan bahwa pengamatan dilakukan pada bulan berbeda bertentangan langsung dengan informasi dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan 3 — Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf 3 menjelaskan bahwa perbedaan produksi listrik belum cukup untuk membuktikan kapasitas panel sebagai satu-satunya faktor penyebab. Orientasi atap dan paparan sinar matahari juga dapat memengaruhi hasil. Dengan demikian, pernyataan tersebut sesuai dengan batasan kesimpulan yang dijelaskan dalam teks."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

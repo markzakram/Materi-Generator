@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Reference, Cohesion, and Coherence",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Reference, Cohesion, and Coherence",
+    "sumber": "https://docs.google.com/document/d/15AJA0bibBtIFu7zKYryrKs2IiGEn2S5syo30pV8km7Q/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-04-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "A research team developed low-cost sensors to monitor river conditions. The devices measured temperature and acidity every hour. They sent their readings to a central database, where technicians could examine unusual changes. During the pilot phase, several sensors stopped transmitting after heavy rain. This interruption delayed the analysis, but it also helped engineers identify weaknesses in the protective cases. Consequently, the team redesigned the cases and repeated the field test. The revised sensors operated without transmission failures during the following month, although longer testing was still needed."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Technicians soon realized that the damaged protective cases had allowed moisture to reach several electronic components. They documented each failure and compared the readings from affected units with data from sensors that remained operational. This helped establish whether the interruption reflected a problem with communication equipment or a genuine change in river conditions."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "After the redesign, the team added routine inspection procedures and a warning system for missing data. The final report separated the positive one-month result from its broader conclusion: the new cases appeared promising, but the sensors would need to perform reliably through additional rainy periods before the system could be adopted permanently."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "What does 'They' in the third sentence refer to? Answer with one English word."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: devices"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan ini menguji materi Reference, Cohesion, and Coherence dan meminta jawaban singkat berupa satu angka atau satu kata. Pembaca perlu menemukan informasi yang secara khusus dirujuk oleh kata kunci pertanyaan, lalu mencocokkannya dengan konteks stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "They mengacu pada the devices, yakni sensor yang diperkenalkan pada kalimat kedua. Pengujiannya: perangkatlah yang mengirim data pembacaan ke basis data. Research team tidak tepat karena subjek penerima tindakan mengirim readings adalah alat. Dalam Reference and Cohesion and Coherence, pronoun They harus memiliki antecedent yang cocok secara jumlah dan makna. Kalimat sebelumnya memperkenalkan the devices, lalu kalimat sesudahnya menyebut tindakan mengirim readings, yang dilakukan perangkat sensor. Kata devices menjadi jawaban satu kata. Ini berbeda dengan technicians yang belum disebut pada kalimat awal sebagai subjek pengiriman data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, jawaban devices sesuai dengan informasi yang ditanyakan. Informasi lain yang muncul dalam stimulus tidak boleh dipilih jika merujuk pada besaran, peristiwa, atau konsep berbeda."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "What is the function of 'Consequently' in the passage?"
+            }
+          ],
+          "opsi": {
+            "A": "To add another measurement from the initial field experiment.",
+            "B": "To contrast the engineers' expectations with the recorded readings.",
+            "C": "To connect the identified weakness with the subsequent redesign.",
+            "D": "To identify a technical failure preceding the preliminary testing.",
+            "E": "To explain the meaning of the term central database."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Soal menguji fungsi penanda hubungan consequently dalam koherensi teks. Sebelum kata tersebut, hujan menyebabkan beberapa sensor gagal mengirim data dan tim menemukan kelemahan pelindung perangkat. Setelahnya, tim merancang ulang pelindung dan menguji kembali. Hubungan yang terjadi adalah sebab-akibat: temuan masalah menghasilkan tindakan perbaikan. Dengan demikian, opsi C benar karena consequently menghubungkan kelemahan yang teridentifikasi dengan perancangan ulang sistem, bukan menyatakan pertentangan atau definisi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena penulis tidak menambahkan pengukuran; kalimat sesudah consequently melaporkan tindakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B salah karena hubungan kontras biasanya ditandai however atau nevertheless, bukan consequently."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena perancangan ulang terjadi setelah kegagalan uji awal, bukan sebelum pengujian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena tidak ada penjelasan definisi database pada bagian tersebut."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "'This interruption' refers to the sensors' transmission failure.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "'Although' introduces a limitation to the positive test result.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The redesign occurred before the pilot failures.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "'The revised sensors' introduces an entirely unrelated topic.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Reference, Cohesion, and Coherence, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Benar): merujuk pada berhentinya pengiriman data setelah hujan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Benar): keberhasilan sebulan masih perlu uji lebih lama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Salah): perancangan ulang menyusul kegagalan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Salah): frasa itu meneruskan topik sensor yang sama."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

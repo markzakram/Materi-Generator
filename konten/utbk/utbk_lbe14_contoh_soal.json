@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Evidence-Based Recommendations and Applications",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Evidence-Based Recommendations and Applications",
+    "sumber": "https://docs.google.com/document/d/1X_b4aablIyCZJB_PR0lU-QDTHlHfAxAD8S1vw6qluFs/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-14-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "A district health office operates a vaccination center that becomes overcrowded on weekday mornings. Many residents arrive before work, while appointment slots in the afternoon are often unused. The office has a limited budget and cannot open a second permanent site this year. A neighboring district reduced similar queues by introducing flexible appointment times and sending reminders, but it still needed additional staff during occasional high-demand campaigns. Local officials are considering an appointment system, evening outreach sessions, or immediate construction of a new building. Any solution must preserve access for residents who do not use smartphones."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Officials observed that congestion was not equally distributed throughout the day. A small number of morning hours accounted for most complaints, while capacity often remained unused later in the afternoon. Staff suggested that reminders might reduce missed appointments, but they also warned that some residents had unpredictable work schedules and could not book far in advance."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Community representatives asked for telephone and walk-in options so that the scheduling system would not exclude people without smartphones or reliable internet. The health office is considering a short pilot with daily monitoring before making a district-wide change. During vaccination campaigns with unusually high attendance, temporary staffing or outreach sites might still be required."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "In which paragraph do community representatives request telephone and walk-in options to ensure access for residents without smartphones? Answer with a number."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta menemukan paragraf yang menyatakan usulan perwakilan komunitas mengenai mekanisme pendaftaran yang tetap dapat diakses warga tanpa smartphone. Kalimat pertama paragraf ketiga menyebutkan: “Community representatives asked for telephone and walk-in options so that the scheduling system would not exclude people without smartphones or reliable internet.” Oleh karena itu, jawabannya adalah 3. Dalam materi Evidence-Based Recommendations and Applications, usulan ini menunjukkan pentingnya accessibility dan feasibility ketika memilih sistem penjadwalan. Rekomendasi tidak cukup hanya mengurangi antrean; solusi juga perlu menjaga akses kelompok pengguna yang memiliki keterbatasan teknologi. Paragraf pertama memperkenalkan kendala distrik, dan paragraf kedua menjelaskan ketimpangan waktu kunjungan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Which recommendation best fits the district's constraints?"
+            }
+          ],
+          "opsi": {
+            "A": "Provide fixed morning slots while reserving afternoon appointments for emergency visits.",
+            "B": "Require all appointments through smartphones to simplify the staff's booking responsibilities.",
+            "C": "Introduce walk-in services only after every scheduled appointment has been allocated.",
+            "D": "Offer flexible appointments and accessible booking while monitoring peak staffing needs.",
+            "E": "Extend morning operating hours while leaving afternoon capacity largely unused."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan meminta rekomendasi yang paling relevan dan layak bagi pusat vaksinasi dengan kemacetan kunjungan pagi dan kapasitas sore yang belum terpakai. Distrik memiliki anggaran terbatas dan perlu mempertahankan akses warga tanpa smartphone. Opsi D benar karena penjadwalan fleksibel dapat meratakan kedatangan, pilihan pemesanan yang mudah diakses menjaga inklusivitas, dan pemantauan staf mengantisipasi lonjakan. Dalam Evidence-Based Recommendations and Applications, rekomendasi harus menyeimbangkan needs, evidence, constraints, dan feasibility."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena memperketat jadwal pagi dan membatasi sore untuk darurat tidak menyelesaikan ketimpangan permintaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B salah karena mengecualikan warga tanpa smartphone yang perlu tetap dilayani."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C salah karena membatasi layanan walk-in tanpa alasan berbasis kebutuhan akses."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena hanya menambah beban jam pagi, bukan memanfaatkan slot sore yang kosong."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "A flexible schedule could help distribute demand across the day.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The neighboring district's success guarantees identical results here.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "Non-smartphone residents must be considered in the design.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "Occasional surges may still require additional staff.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Evidence-Based Recommendations and Applications, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan. Nomor 1 benar karena ketimpangan permintaan pagi-sore dapat dikurangi lewat jadwal fleksibel. Nomor 2 salah karena transfer praktik dari distrik lain memerlukan pemeriksaan kondisi setempat. Nomor 3 benar karena akses tanpa smartphone merupakan kebutuhan yang eksplisit. Nomor 4 benar karena lonjakan kampanye mungkin memerlukan petugas tambahan. Ini menerapkan Principle–Context–Transfer: ambil prinsip penjadwalan, bandingkan kebutuhan pengguna, lalu pertahankan batas kapasitas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Benar): sore sering tidak terpakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Salah): keberhasilan lintas konteks tidak menjamin hasil identik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Benar): ini syarat eksplisit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Benar): pengalaman pembanding menunjukkan kebutuhan tersebut."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

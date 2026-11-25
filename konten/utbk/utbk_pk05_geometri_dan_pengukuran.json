@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "judul": "Geometri dan Pengukuran",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Geometri dan Pengukuran",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "id_katalog": "pk-05"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri berangkat dari titik, garis, bidang, serta hubungan antarelemen. Dalam geometri bidang, keliling berbeda dengan luas; dalam ruang, luas permukaan berbeda dengan volume. Penalaran geometris juga membutuhkan penggunaan skala, kesebangunan, dan sudut. Sebuah gambar yang terlihat proporsional tidak selalu digambar sesuai skala, sehingga semua kesimpulan harus didasarkan pada informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Konsep Dasar Geometri:",
+        "teks": "mengidentifikasi titik, garis, bidang, jarak; menerapkan sifat dasar; menganalisis beberapa hubungan geometris dalam diagram."
+      },
+      {
+        "level": "",
+        "kko": "Bangun Datar:",
+        "teks": "mengenali unsur dan sifat; menentukan luas/keliling; menganalisis ukuran tersembunyi pada bangun gabungan."
+      },
+      {
+        "level": "",
+        "kko": "Bangun Ruang:",
+        "teks": "mengenali unsur dan jaring-jaring; menentukan volume/luas permukaan; menganalisis efek perubahan ukuran."
+      },
+      {
+        "level": "",
+        "kko": "Garis dan Sudut:",
+        "teks": "mengenali jenis dan hubungan sudut; menentukan sudut pada garis sejajar/berpotongan; menguji konsistensi batasan."
+      },
+      {
+        "level": "",
+        "kko": "Pengukuran:",
+        "teks": "mengenali satuan panjang, luas, volume, waktu dan ketelitian; mengonversi; mengevaluasi ketepatan hasil ukur."
+      },
+      {
+        "level": "",
+        "kko": "Perbandingan Geometri:",
+        "teks": "menjelaskan kesebangunan dan skala; menentukan panjang bersesuaian; menganalisis pengaruh skala pada panjang, luas dan volume."
+      },
+      {
+        "level": "",
+        "kko": "Trigonometri Dasar:",
+        "teks": "menjelaskan sinus, kosinus, tangen segitiga siku-siku; menghitung sisi/sudut; memilih rasio sesuai konteks."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Geometri",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Geometri",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Titik menunjukkan posisi tanpa ukuran; garis memanjang tanpa batas ke dua arah; ruas garis memiliki dua ujung; sinar garis memiliki satu titik pangkal. Bidang merupakan permukaan datar yang meluas ke dua arah. Ruang merupakan himpunan titik yang mempunyai tiga dimensi. Pada gambar, jarak terpendek antara dua titik adalah panjang ruas garis yang menghubungkannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan dasar yang perlu dikenali adalah sejajar (tidak berpotongan pada bidang), tegak lurus (membentuk sudut 90°), serta berpotongan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Koordinat, Jarak, dan Pythagoras"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam sistem koordinat Kartesius, lokasi titik diberikan oleh pasangan (x,y). Jarak horizontal dan vertikal dapat membentuk segitiga siku-siku sehingga jarak dua titik dapat dihitung menggunakan Teorema Pythagoras."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{2} + b^{2} = c^{2}; d = √[(x_{2} − x_{1})^{2} + (y_{2} − y_{1})^{2}]$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teorema Pythagoras hanya berlaku untuk segitiga siku-siku dan c harus merupakan sisi miring, bukan sembarang sisi. Tripel $3–4–5, 5–12–13,$ dan $8–15–17$ dapat mempercepat perhitungan jika memenuhi konteks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengayaan Terbatas: Transformasi Geometri"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Translasi menggeser titik $(x,y)$ menjadi $(x+a,y+b)$; refleksi terhadap sumbu-$x$ menghasilkan $(x,−y)$, sedangkan sumbu-y menghasilkan $(−x,y)$. Refleksi, rotasi dan translasi mempertahankan panjang serta sudut; dilatasi dengan faktor skala k mengubah ukuran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$(x, y) → (x + a, y + b); (x, y) → (kx, ky)$ ****"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tandai objek dan informasi gambar yang benar-benar diketahui; beri simbol pada panjang/sudut; gunakan sifat yang relevan; periksa kemungkinan lain jika gambar tidak berskala."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Teknik cepat T–H–M–C:** Titik/objek → Hubungan → Model → Cek."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bangun Datar",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bangun Datar",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar dan Unsur Bangun"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bangun datar memiliki dua dimensi. Keliling adalah total panjang batas luar, sedangkan luas adalah ukuran daerah yang tertutup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Bangun Datar"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bangun",
+                "Keliling",
+                "Luas"
+              ],
+              "baris": [
+                [
+                  "Persegi sisi $s$",
+                  "$4s$",
+                  "$s²$"
+                ],
+                [
+                  "Persegi panjang $p×l$",
+                  "$2(p+l)$",
+                  "$p×l$"
+                ],
+                [
+                  "Segitiga alas $a$, tinggi $t$",
+                  "$jumlah tiga sisi$",
+                  "$(1/2)at$"
+                ],
+                [
+                  "Jajar genjang alas $a$, tinggi $t$",
+                  "$2(a+b)$",
+                  "$at$"
+                ],
+                [
+                  "Trapesium sisi sejajar $a,b$; tinggi $t$",
+                  "$jumlah semua sisi$",
+                  "$(1/2)(a+b)t$"
+                ],
+                [
+                  "Belah ketupat/layang-layang",
+                  "$jumlah semua sisi$",
+                  "$(1/2)d₁d₂$"
+                ],
+                [
+                  "Lingkaran jari-jari $r$",
+                  "$2πr$",
+                  "$πr²$"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Lingkaran, Busur, dan Juring"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$s = (θ/360°) · 2πr; L_{juring} = (θ/360°) · πr^{2}$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika panjang busur s diketahui, luas juring dapat dihitung lebih cepat dengan $L_{juring}= (1/2)rs$ selama $r$ dan $s$ memakai satuan panjang yang sama. Sudut pusat dalam rumus dengan $360°$ harus dalam derajat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L_{juring} = ½ · r · s$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ukuran Tersembunyi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk jalur dengan lebar $w$ di bagian dalam persegi panjang $p×l$, ukuran tengah adalah $(p−2w)×(l−2w)$, asalkan $w$ kurang dari setengah sisi terpendek."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Teknik P–U–S–C:** Pilih bentuk → Ukuran tersembunyi → Substitusi → Cek satuan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bangun Ruang",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bangun Ruang",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bangun ruang memiliki panjang, lebar, dan tinggi. Volume mengukur ruang yang ditempati, sedangkan luas permukaan mengukur total luas bidang pembatas. Saat menghitung luas permukaan, pastikan bidang yang menempel atau terbuka tidak ikut dihitung jika konteks tidak memerlukannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Volume dan Luas Permukaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bangun",
+                "Volume",
+                "Luas permukaan"
+              ],
+              "baris": [
+                [
+                  "Kubus rusuk $s$",
+                  "$s³$",
+                  "$6s²$"
+                ],
+                [
+                  "Balok $p,l,t$",
+                  "$p·l·t$",
+                  "$2(pl+pt+lt)$"
+                ],
+                [
+                  "Prisma alas $A$, keliling $K$, tinggi $t$",
+                  "$A·t$",
+                  "$2A+Kt$"
+                ],
+                [
+                  "Limas alas $A$, tinggi $t$",
+                  "$(1/3)At$",
+                  "$A+jumlah luas sisi tegak$"
+                ],
+                [
+                  "Tabung $r,t$",
+                  "$πr²t$",
+                  "$2πr(r+t)$"
+                ],
+                [
+                  "Kerucut $r,t,$ garis pelukis $s$",
+                  "$(1/3)πr²t$",
+                  "$πr(r+s)$"
+                ],
+                [
+                  "Bola $r$",
+                  "$(4/3)πr³$",
+                  "$4πr²$"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perubahan Ukuran dan Pengukuran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika semua panjang diperbesar $k$ kali, luas permukaan menjadi $k²$ kali, sedangkan volume menjadi $k³$ kali. Faktor skala tersebut berlaku pada bangun serupa dengan perubahan seragam di seluruh dimensi, bukan ketika hanya satu sisi berubah."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Panjang baru = k · panjang; luas baru = k^{2} · luas; volume baru = k^{3} · volume$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gambar alas, tinggi tegak, dan bidang pembatasnya; gunakan rumus sesuai tipe bangun; periksa apakah soal menanyakan volume, luas permukaan total, atau luas selimut saja. Pada prisma, cari luas alas lebih dahulu. Ingat satuan volume berpangkat tiga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Garis dan Sudut",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Garis dan Sudut",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut dibentuk oleh dua sinar berpangkal sama. Sudut lancip lebih kecil dari 90°, siku-siku tepat 90°, tumpul berada di antara 90° dan 180°, dan lurus tepat 180°. Dua sudut berpelurus berjumlah 180°, berpenyiku berjumlah 90°, dan sudut bertolak belakang sama besar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$α + β = 180° (berpelurus); α + β = 90° (berpenyiku)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Garis Sejajar Dipotong Transversal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut sehadap dan sudut dalam berseberangan sama besar pada dua garis sejajar; sudut dalam sepihak saling berpelurus. Penerapan harus didahului bukti atau keterangan bahwa kedua garis benar-benar sejajar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tandai pasangan yang diketahui, identifikasi hubungan sudut, susun persamaan sederhana, kemudian cek apakah seluruh sudut masih dalam rentang yang sesuai. Gunakan bertolak belakang = sama dan berpelurus = 180° sebagai pemeriksaan awal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pengukuran",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengukuran",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Besaran, Satuan, dan Dimensi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satuan panjang dinyatakan dalam mm, cm, m, km; luas dalam satuan persegi; volume dalam satuan kubik; dan kapasitas sering dinyatakan dalam liter. Satuan luas berubah menurut kuadrat faktor panjang dan satuan volume menurut kubiknya. Tidak benar mengonversi 1 m² menjadi 100 cm²."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1 m = 100 cm; 1 m^{2} = 10.000 cm^{2}; 1 m^{3} = 1.000.000 cm^{3}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1 L = 1.000 cm^{3} = 1 dm^{3}; 1 jam = 60 menit$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-01.png",
+              "lebar": 3.84,
+              "tinggi": 4.8
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ketelitian dan Angka Ukur"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil pengukuran memiliki ketelitian bergantung alat dan cara baca. Jika panjang yang tersedia hanya dibulatkan, hasil luas/volume juga tidak boleh diklaim lebih teliti daripada data asal tanpa alasan. Dalam soal kontekstual, pisahkan ukuran eksak yang didefinisikan soal dari ukuran pengamatan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Samakan satuan sebelum mengoperasikan angka, cek pangkat unit pada hasil akhir, dan lakukan estimasi kewajaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Teknik S–D–H–C:** Samakan satuan → Dimensi → Hitung → Cek."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perbandingan Geometri",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbandingan Geometri",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Kesebangunan dan Kongruensi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua bangun kongruen memiliki bentuk dan ukuran yang sama; dua bangun sebangun memiliki bentuk sama dengan rasio sisi bersesuaian tetap. Pada segitiga, dua sudut yang sama sudah cukup menunjukkan kesebangunan (AA). Panjang sisi yang dibandingkan harus bersesuaian, bukan sekadar ditulis dalam urutan acak."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a_{1}/a_{2} = b_{1}/b_{2} = c_{1}/c_{2} = k$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Skala dan Pengaruhnya"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Skala pada peta atau denah adalah panjang gambar dibanding panjang sebenarnya setelah satuan disamakan. Jika bangun didilatasi dengan $k>0$, keliling berubah $k$ kali, luas $k²$ kali, dan volume $k³$ kali. Refleksi, translasi, dan rotasi memiliki faktor skala panjang 1; dilatasi memperbesar atau memperkecil."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Skala = jarak gambar/jarak sebenarnya$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan pasangan sisi bersesuaian dahulu; buat rasio; cek apakah ukuran yang ditanya panjang, luas, atau volume."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Teknik B–R–P:** Bangun bersesuaian → Rasio skala → Pangkat sesuai dimensi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Trigonometri Dasar",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Trigonometri Dasar",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Segitiga Siku-Siku"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam segitiga siku-siku, sisi miring selalu berhadapan dengan sudut 90°. Terhadap sudut lancip $θ$, sisi depan berada di hadapan $θ$ dan sisi samping bersinggungan dengan $θ$ selain sisi miring. Pemilihan sisi depan atau samping bergantung sudut acuannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sinus, Kosinus, dan Tangen"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$sin θ = depan/miring; cos θ = samping/miring; tan θ = depan/samping$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus SOH–CAH–TOA adalah alat bantu mengingat."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Gunakan sin untuk hubungan depan–miring;",
+                "cos untuk samping–miring; dan",
+                "tan untuk depan–samping."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada segitiga siku-siku, sudut acuan lazimnya adalah salah satu sudut lancip."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Nilai Sudut Istimewa"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "θ",
+                "sin θ",
+                "cos θ",
+                "tan θ"
+              ],
+              "baris": [
+                [
+                  "0°",
+                  "0",
+                  "1",
+                  "0"
+                ],
+                [
+                  "30°",
+                  "$1/2$",
+                  "$√(3/2)$",
+                  "$√(3/3)$"
+                ],
+                [
+                  "45°",
+                  "$√(2/2)$",
+                  "$√(2/2)$",
+                  "1"
+                ],
+                [
+                  "60°",
+                  "$√(3/2)$",
+                  "$1/2$",
+                  "$√3$"
+                ],
+                [
+                  "90°",
+                  "1",
+                  "0",
+                  "tak terdefinisi"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai tangen 90° tidak terdefinisi karena pembaginya nol. Syarat geometris harus diperiksa sebelum memakai tabel sudut istimewa. Untuk menentukan tinggi melalui jarak mendatar dan sudut elevasi, tangen biasanya paling langsung."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-02.png",
+              "lebar": 5.65,
+              "tinggi": 4.26
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan sudut acuan; beri label depan, samping dan miring; pilih rasio yang memuat besaran diketahui dan yang dicari; periksa hasil dengan Pythagoras dan kewajaran sudut."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Geometri",
+        "teks": ""
+      },
+      {
+        "judul": "Bangun Datar",
+        "teks": ""
+      },
+      {
+        "judul": "Bangun Ruang",
+        "teks": ""
+      },
+      {
+        "judul": "Garis dan Sudut",
+        "teks": ""
+      },
+      {
+        "judul": "Pengukuran",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan Geometri",
+        "teks": ""
+      },
+      {
+        "judul": "Trigonometri Dasar",
+        "teks": ""
+      }
+    ],
+    "pesan": "Geometri dan Pengukuran menuntut peserta menghubungkan sifat bangun, ukuran, satuan, dan representasi gambar. Pahami konsep dan syarat model sebelum memakai rumus, terutama pada bangun gabungan, skala, diagram sudut, dan trigonometri. Dengan membandingkan alternatif penyelesaian dan memeriksa kewajaran satuan, peserta dapat menyelesaikan soal secara lebih akurat, tidak sekadar cepat."
+  }
+}

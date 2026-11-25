@@ -1,0 +1,817 @@
+{
+  "meta": {
+    "judul": "Evidence-Based Recommendations and Applications",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Evidence-Based Recommendations and Applications",
+    "sumber": "https://docs.google.com/document/d/1X_b4aablIyCZJB_PR0lU-QDTHlHfAxAD8S1vw6qluFs/edit",
+    "id_katalog": "lbe-14"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Evidence-Based Recommendations and Applications merupakan keterampilan dalam Literasi Bahasa Inggris yang berfokus pada kemampuan menentukan rekomendasi paling tepat berdasarkan informasi dalam bacaan serta menerapkan prinsip yang diperoleh dari teks pada situasi atau konteks yang berbeda. Dalam menyelesaikan persoalan, peserta tidak cukup hanya memahami fakta dan menarik kesimpulan, tetapi juga perlu mempertimbangkan kebutuhan, tujuan, keterbatasan sumber daya, manfaat, serta risiko dari berbagai alternatif tindakan. Selain itu, peserta harus mampu mengidentifikasi prinsip umum dalam suatu bacaan dan mengevaluasi apakah prinsip tersebut dapat diterapkan pada permasalahan lain dengan kondisi yang sebanding. Melalui materi ini, peserta akan mempelajari strategi pengambilan keputusan berbasis bukti, penilaian alternatif rekomendasi, serta penerapan dan pembatasan generalisasi lintas konteks. Penguasaan keterampilan tersebut membantu peserta menyelesaikan soal Literasi Bahasa Inggris UTBK-SNBT yang menuntut kemampuan penalaran aplikatif, evaluatif, dan kritis."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian evidence-based recommendation dan application to broader contexts."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "kebutuhan, tujuan, kendala, dan alternatif tindakan berdasarkan bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "kriteria yang relevan untuk mengevaluasi rekomendasi."
+      },
+      {
+        "level": "",
+        "kko": "Membandingkan",
+        "teks": "manfaat, risiko, dan konsekuensi setiap pilihan."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "tindakan yang paling proporsional terhadap kondisi dalam teks."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "prinsip umum yang dapat diterapkan pada situasi lain."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "karakteristik yang relevan dari rincian yang hanya berlaku pada kasus asal."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "batas penerapan prinsip dan menghindari generalisasi berlebihan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Evidence-Based Recommendations and Applications",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Evidence-Based Recommendations and Applications",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Evidence-Based Recommendation"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence-based recommendation adalah rekomendasi atau saran tindakan yang ditentukan berdasarkan informasi, bukti, kebutuhan, serta keterbatasan yang terdapat dalam suatu teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rekomendasi yang tepat tidak selalu merupakan tindakan yang memberikan manfaat paling besar secara umum. Tindakan tersebut harus sesuai dengan persoalan dan kondisi yang sedang dihadapi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A rural school has introduced online learning materials, but many students cannot access them consistently because internet connections are unreliable. The school has limited funding and cannot provide individual internet subscriptions to every household. However, a community center near the school has a stable internet connection and several shared computers."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Recommended Action:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The school could cooperate with the community center to provide scheduled access to online learning resources."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rekomendasi tersebut didukung oleh tiga informasi:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Siswa membutuhkan akses terhadap materi pembelajaran digital.",
+                "Sekolah memiliki keterbatasan pendanaan.",
+                "Terdapat fasilitas komunitas yang dapat dimanfaatkan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rekomendasi tersebut lebih sesuai daripada menyarankan setiap siswa membeli perangkat baru dan berlangganan internet pribadi, karena tindakan itu mengabaikan keterbatasan anggaran yang dijelaskan dalam teks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Application to Broader Contexts"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Application to broader contexts adalah kemampuan menggunakan prinsip atau gagasan dari suatu teks untuk memahami persoalan lain yang memiliki kondisi relevan dan sebanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterampilan ini juga dikenal sebagai transfer of knowledge, yaitu penerapan pengetahuan yang diperoleh dari suatu situasi pada situasi lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original Context:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A community recycling program increased participation after collection points were placed closer to residential neighborhoods."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip yang dapat diidentifikasi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reducing practical barriers to accessing a service may encourage greater participation."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "New Context:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perpustakaan menemukan bahwa sebagian warga jarang mengikuti program literasi karena lokasi pelatihan terlalu jauh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penerapan prinsip:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Providing literacy activities at locations closer to residents may help increase participation."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penerapan tersebut masuk akal karena kedua situasi memiliki kesamaan kondisi, yaitu keterbatasan akses yang memengaruhi partisipasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, peningkatan partisipasi tidak dapat dijamin apabila terdapat hambatan lain yang belum diketahui."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Recommendation dan Application"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Recommendation",
+                "Application"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Memilih tindakan paling tepat",
+                  "Menerapkan prinsip pada situasi baru"
+                ],
+                [
+                  "Dasar",
+                  "Kebutuhan, kendala, alternatif, bukti",
+                  "Prinsip umum dan kesamaan kondisi"
+                ],
+                [
+                  "Pertanyaan",
+                  "What should be done?",
+                  "How could the principle apply elsewhere?"
+                ],
+                [
+                  "Proses",
+                  "Mengevaluasi pilihan tindakan",
+                  "Memeriksa kesesuaian konteks"
+                ],
+                [
+                  "Hasil",
+                  "Rekomendasi proporsional",
+                  "Penerapan yang relevan dan terbatas"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya saling berkaitan karena rekomendasi pada situasi baru dapat dikembangkan menggunakan prinsip yang telah terbukti relevan pada situasi asal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menentukan Rekomendasi Berdasarkan Teks",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menentukan Rekomendasi Berdasarkan Teks",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying the Problem"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah pertama adalah mengidentifikasi permasalahan utama yang perlu diselesaikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A public library has experienced increasing demand for computer access, but the number of available devices has remained unchanged."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Permasalahan utamanya adalah meningkatnya kebutuhan penggunaan komputer tanpa penambahan perangkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rekomendasi harus berkaitan dengan kemampuan perpustakaan melayani kebutuhan tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying Needs and Objectives"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Needs merupakan kebutuhan yang harus dipenuhi, sedangkan objectives merupakan hasil yang ingin dicapai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The library aims to reduce waiting times while maintaining access for residents who cannot afford personal computers."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Analisis:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Need: Ketersediaan akses komputer.",
+                "Objective: Mengurangi waktu tunggu.",
+                "Additional Consideration: Mempertahankan akses bagi warga dengan keterbatasan ekonomi."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga unsur tersebut menjadi dasar penentuan rekomendasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying Constraints"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Constraints merupakan kendala atau batasan yang memengaruhi pilihan tindakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kendala dapat berupa:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis Kendala",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Financial",
+                  "Limited funding"
+                ],
+                [
+                  "Technical",
+                  "Inadequate equipment"
+                ],
+                [
+                  "Human Resources",
+                  "Staff shortages"
+                ],
+                [
+                  "Time",
+                  "Limited implementation period"
+                ],
+                [
+                  "Infrastructure",
+                  "Unreliable internet connection"
+                ],
+                [
+                  "Environmental",
+                  "Limited water availability"
+                ],
+                [
+                  "Regulatory",
+                  "Required safety standards"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rekomendasi yang mengabaikan kendala utama dapat terlihat menarik, tetapi belum tentu dapat dilaksanakan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying Alternatives"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alternatives adalah pilihan tindakan yang tersedia untuk mengatasi suatu persoalan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perpustakaan mengalami peningkatan waktu tunggu penggunaan komputer."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alternatif yang dapat dipertimbangkan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Menambah perangkat komputer.",
+                "Menerapkan sistem reservasi.",
+                "Memperpanjang jam operasional.",
+                "Mengalihkan sebagian layanan ke fasilitas komunitas."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap alternatif memiliki manfaat, biaya, dan keterbatasan yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Establishing Decision Criteria"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Decision criteria merupakan kriteria yang digunakan untuk membandingkan alternatif tindakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kriteria dapat meliputi:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Effectiveness",
+                "Affordability",
+                "Feasibility",
+                "Accessibility",
+                "Sustainability",
+                "Safety",
+                "Equity",
+                "Resource Requirements"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apabila suatu program memiliki anggaran terbatas, kriteria affordability dan feasibility menjadi penting."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, apabila persoalan utamanya berkaitan dengan keselamatan, kriteria safety dapat menjadi pertimbangan yang lebih menentukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Evaluating Benefits and Risks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap rekomendasi perlu dinilai berdasarkan manfaat dan risiko yang dapat didukung oleh informasi dalam teks."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Alternatif",
+                "Potensi Manfaat",
+                "Potensi Keterbatasan"
+              ],
+              "baris": [
+                [
+                  "Menambah komputer",
+                  "Meningkatkan kapasitas",
+                  "Membutuhkan biaya pembelian"
+                ],
+                [
+                  "Sistem reservasi",
+                  "Mengatur penggunaan lebih efisien",
+                  "Tidak menambah jumlah perangkat"
+                ],
+                [
+                  "Memperpanjang jam operasional",
+                  "Menambah kesempatan penggunaan",
+                  "Memerlukan petugas tambahan"
+                ],
+                [
+                  "Kerja sama dengan pusat komunitas",
+                  "Memanfaatkan fasilitas yang tersedia",
+                  "Bergantung pada kesediaan dan kapasitas mitra"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rekomendasi terbaik ditentukan berdasarkan kebutuhan dan kendala yang diberikan dalam stimulus, bukan berdasarkan anggapan bahwa satu alternatif selalu lebih unggul."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Applying Principles to New Contexts",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Applying Principles to New Contexts",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying the General Principle"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah pertama dalam penerapan lintas konteks adalah membedakan prinsip umum dari rincian khusus kasus asal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original Context:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A hospital reduced waiting times by introducing an appointment system that distributed patient visits more evenly throughout the day."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip umum:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Organizing demand according to available service capacity can reduce congestion and waiting times."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip tersebut tidak terbatas pada rumah sakit."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Distinguishing General and Specific Elements"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur Khusus",
+                "Prinsip yang Lebih Umum"
+              ],
+              "baris": [
+                [
+                  "Appointment system in hospitals",
+                  "Scheduling demand according to capacity"
+                ],
+                [
+                  "Bicycle stations near neighborhoods",
+                  "Improving accessibility may encourage participation"
+                ],
+                [
+                  "Teacher support in online learning",
+                  "Guidance can help users benefit from available resources"
+                ],
+                [
+                  "Regular equipment maintenance",
+                  "Long-term performance requires continuing support"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rincian khusus membantu menjelaskan bagaimana prinsip diterapkan pada kasus asal, sedangkan prinsip umum memungkinkan penalaran pada situasi lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Identifying Comparable Conditions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu prinsip dapat diterapkan pada konteks baru apabila terdapat kesamaan kondisi yang relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original Context:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A hospital reduced waiting times by scheduling patient visits according to available examination rooms."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "New Context:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah kantor pelayanan publik mengalami antrean panjang karena banyak pengunjung datang pada waktu yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penerapan yang masuk akal:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "An appointment system may help distribute visitor arrivals more evenly throughout the day."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua situasi memiliki kesamaan berupa permintaan layanan yang terkonsentrasi dan keterbatasan kapasitas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Applying the Principle"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah menemukan kesamaan kondisi, peserta dapat menerapkan mekanisme yang sama dengan mempertimbangkan perbedaan konteks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original Context"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hospital appointment system reduces crowding"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "General Principle"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Distributing demand according to capacity can reduce congestion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "New Application"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Appointment scheduling for public administrative services"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penerapan tersebut masuk akal, tetapi keberhasilannya tetap bergantung pada kondisi operasional layanan baru."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Evaluating Transfer Limitations"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak semua prinsip dapat diterapkan secara langsung pada seluruh situasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah program pelatihan daring berhasil meningkatkan partisipasi pekerja dewasa yang memiliki akses internet stabil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak tepat langsung menyimpulkan bahwa program yang sama akan berhasil pada siswa sekolah dasar di wilayah tanpa internet."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat perbedaan penting dalam:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Karakteristik peserta.",
+                "Kemampuan belajar mandiri.",
+                "Infrastruktur.",
+                "Kebutuhan pendampingan.",
+                "Tujuan pembelajaran."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan tersebut dapat membatasi keberlakuan prinsip dari kasus asal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Recommendations and Applications",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Recommendations and Applications",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pendekatan Needs–Evidence–Constraints–Action (NECA) untuk rekomendasi, dan Principle–Context–Transfer (PCT) untuk penerapan lintas konteks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi NECA"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Needs"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan masalah, kebutuhan, dan tujuan utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi informasi yang menunjukkan penyebab masalah dan manfaat alternatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Constraints"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa keterbatasan biaya, waktu, sumber daya, keamanan, atau infrastruktur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Action"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih tindakan yang paling relevan, layak, dan proporsional."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi PCT"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Principle: Identifikasi prinsip umum yang dijelaskan dalam kasus asal.",
+                "Context: Bandingkan kondisi kasus asal dengan situasi baru.",
+                "Transfer: Terapkan prinsip hanya apabila kondisi yang relevan cukup sebanding."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Ignoring Constraints",
+                  "Memilih rekomendasi yang mengabaikan keterbatasan"
+                ],
+                [
+                  "Irrelevant Recommendation",
+                  "Memilih tindakan yang tidak menyelesaikan masalah utama"
+                ],
+                [
+                  "Overly Extreme Action",
+                  "Memilih tindakan yang terlalu drastis dibandingkan kebutuhan"
+                ],
+                [
+                  "Unsupported Benefit",
+                  "Menganggap manfaat tertentu pasti terjadi tanpa bukti"
+                ],
+                [
+                  "Contextual Mismatch",
+                  "Menerapkan prinsip pada situasi yang tidak sebanding"
+                ],
+                [
+                  "Overgeneralization",
+                  "Menganggap prinsip berlaku universal"
+                ],
+                [
+                  "Ignoring Risks",
+                  "Tidak mempertimbangkan kemungkinan konsekuensi negatif"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence-Based Recommendations and Applications menggabungkan kemampuan menentukan tindakan yang paling sesuai dengan masalah dan memindahkan prinsip yang relevan ke konteks baru. Rekomendasi perlu mempertimbangkan kebutuhan, tujuan, bukti, alternatif, keterbatasan sumber daya, efektivitas, aksesibilitas, dan risiko. Sementara itu, penerapan lintas konteks membutuhkan pengenalan mekanisme umum serta pengujian apakah kondisi pada situasi baru cukup sebanding dengan situasi asal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip umum yang dapat ditransfer adalah bahwa pengaturan permintaan berdasarkan kapasitas dapat mengurangi penumpukan, selama karakteristik layanan memungkinkan penjadwalan dan kebutuhan pengguna tetap terpenuhi. Namun, sistem reservasi tidak selalu tepat untuk layanan yang bersifat sangat mendesak dan tidak dapat menghapus kekurangan kapasitas yang berlangsung terus-menerus. Strategi pengambilan keputusan dapat dirumuskan melalui Needs–Evidence–Constraints–Action, sedangkan penerapan gagasan melalui Principle–Context–Transfer. Hindari rekomendasi yang tidak relevan, tidak layak, terlalu ekstrem, atau mengabaikan kelompok pengguna tertentu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Evidence-Based Recommendations and Applications",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan Rekomendasi Berdasarkan Teks",
+        "teks": ""
+      },
+      {
+        "judul": "Applying Principles to New Contexts",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Recommendations and Applications",
+        "teks": ""
+      }
+    ],
+    "pesan": "Materi ini menutup rangkaian keterampilan literasi dengan mengubah pemahaman bacaan menjadi penilaian tindakan yang terarah. Keputusan terbaik bukan selalu tindakan paling mahal atau paling modern, melainkan pilihan yang paling sesuai dengan bukti, kebutuhan, dan kondisi pelaksanaan. Ketika peserta mampu menerapkan prinsip tanpa mengabaikan keterbatasan konteks, mereka menunjukkan literasi yang tidak hanya akurat dalam membaca, tetapi juga matang dalam mengevaluasi dan mengambil keputusan."
+  }
+}

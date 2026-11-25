@@ -1,0 +1,37 @@
+{
+ "keterangan": "Tambahan di luar tanda wajib untuk materi UTBK; lihat pelengkap() di generator/ekstrak_gdoc.py. 'di' = judul subbab (huruf kecil, tanpa nomor), 'awal' = awal paragraf.",
+ "dokumen": {
+  "pbm-01": [
+   {
+    "di": "baca kalimat pembuka, peralihan, dan penutup",
+    "awal": [
+     "Kalimat awal umumnya mengenalkan persoalan"
+    ],
+    "alasan": "isi di bawah judul bertanda"
+   }
+  ],
+  "pk-03": [
+   {
+    "di": "menentukan dan memeriksa fungsi invers",
+    "awal": [
+     "Prosedur umum: tulis",
+     "nyatakan $x$ sebagai fungsi",
+     "tukar nama $x$ dan $y$",
+     "tetapkan domain invers",
+     "Untuk $f(x)=ax+b$"
+    ],
+    "alasan": "isi di bawah judul bertanda"
+   }
+  ],
+  "lbi-06": [
+   {
+    "di": "ketepatan fakta dan data sebagai informasi tekstual",
+    "awal": [
+     "Dalam Literasi Bahasa Indonesia, evaluasi fakta",
+     "Beberapa unsur yang perlu diperhatikan adalah"
+    ],
+    "alasan": "isi di bawah judul bertanda"
+   }
+  ]
+ }
+}

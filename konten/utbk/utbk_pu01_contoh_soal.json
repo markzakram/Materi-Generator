@@ -1,0 +1,1854 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penalaran Verbal",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Contoh Soal Penalaran Verbal",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "bagian": "soal",
+    "id_katalog": "pu-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Generalisasi Logis",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam tiga kelas berbeda, kegiatan diskusi kelompok yang dilaksanakan secara rutin diikuti peningkatan keaktifan siswa. Di kelas A, lebih banyak siswa mengajukan pertanyaan. Di kelas B, lebih banyak siswa menyampaikan gagasan. Di kelas C, lebih banyak siswa menanggapi pendapat temannya. Berdasarkan pengamatan tersebut, generalisasi yang PALING TEPAT adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Diskusi kelompok rutin membuat setiap siswa lebih aktif dalam setiap kegiatan pembelajaran.",
+            "B": "Diskusi kelompok rutin cenderung berkaitan dengan meningkatnya partisipasi siswa dalam pembelajaran.",
+            "C": "Diskusi kelompok rutin cenderung meningkatkan kemampuan akademik siswa pada berbagai mata pelajaran.",
+            "D": "Diskusi kelompok rutin lebih efektif meningkatkan partisipasi pada kelas dengan jumlah siswa sedikit.",
+            "E": "Diskusi kelompok rutin merupakan metode paling efektif untuk meningkatkan partisipasi dibanding metode lainnya."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga kelas menunjukkan bentuk keaktifan yang berbeda, tetapi memiliki pola yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas A → lebih banyak siswa bertanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas B → lebih banyak siswa menyampaikan gagasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas C → lebih banyak siswa menanggapi pendapat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga aktivitas tersebut merupakan bentuk **partisipasi siswa dalam pembelajaran**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena pola peningkatan partisipasi muncul pada tiga kelas setelah diskusi kelompok dilakukan secara rutin, generalisasi yang paling sesuai adalah bahwa **diskusi kelompok rutin cenderung berkaitan dengan meningkatnya partisipasi siswa dalam pembelajaran**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata **“cenderung berkaitan”** tepat digunakan karena pengamatan menunjukkan pola yang konsisten, tetapi belum cukup untuk menyatakan bahwa diskusi selalu menyebabkan peningkatan pada setiap siswa dan setiap kondisi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari **pola yang sama** dari semua kasus:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas A → partisipasi meningkat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas B → partisipasi meningkat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas C → partisipasi meningkat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka simpulan umumnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "diskusi rutin → cenderung berkaitan dengan peningkatan partisipasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hindari opsi yang:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "terlalu mutlak,",
+                "menambahkan informasi baru,",
+                "atau membandingkan dengan kondisi yang tidak diamati."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Opsi lain"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**A tidak tepat.** Pengamatan tidak menunjukkan bahwa setiap siswa selalu menjadi lebih aktif dalam seluruh kegiatan pembelajaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**C tidak tepat.** Stimulus membahas keaktifan dan partisipasi, bukan peningkatan kemampuan akademik atau nilai siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**D tidak tepat.** Tidak terdapat informasi mengenai jumlah siswa dalam masing-masing kelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**E tidak tepat.** Tidak ada perbandingan antara diskusi kelompok dan metode pembelajaran lainnya."
+            }
+          ],
+          "label": "Generalisasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Generalisasi Statistik",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lembaga pendidikan melakukan survei terhadap 240 siswa yang dipilih secara acak dari beberapa sekolah. Survei tersebut bertujuan mengetahui kecenderungan penggunaan video pembelajaran sebagai bahan belajar tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil survei menunjukkan bahwa 180 siswa menggunakan video pembelajaran secara rutin, sedangkan siswa lainnya tidak menggunakannya secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga tersebut ingin menggunakan hasil survei sebagai dasar untuk memperkirakan kecenderungan siswa pada populasi yang diwakili sampel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Berapakah persentase siswa dalam sampel yang menggunakan video pembelajaran secara rutin?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam bentuk angka tanpa simbol persen.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 75"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Generalisasi statistik menggunakan proporsi sampel sebagai dasar perkiraan terhadap populasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui jumlah responden survei adalah 240 siswa. Dari jumlah tersebut, 180 siswa menggunakan video pembelajaran secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase dihitung dengan membandingkan jumlah siswa yang memenuhi kriteria terhadap seluruh responden."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$180/240×100%=75%$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, sebanyak **75% siswa dalam sampel** menggunakan video pembelajaran secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil ini dapat menjadi dasar perkiraan mengenai kecenderungan populasi yang diwakili sampel. Namun, angka 75% merupakan hasil pengamatan sampel, bukan jaminan bahwa tepat 75% seluruh siswa dalam populasi memiliki kebiasaan yang sama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bagi jumlah responden yang memenuhi kriteria dengan total sampel, kemudian kalikan 100%. Bedakan persentase hasil survei dengan persentase populasi yang masih berupa perkiraan."
+            }
+          ],
+          "label": "Generalisasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menguji Kekuatan Generalisasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lembaga pendidikan mengamati penggunaan latihan soal digital pada empat kelas di dua sekolah selama enam minggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil pengamatan menunjukkan bahwa sebagian besar siswa yang rutin menggunakan latihan soal digital mengalami peningkatan nilai evaluasi. Namun, terdapat beberapa siswa yang tidak mengalami peningkatan meskipun mengikuti latihan secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penelitian tersebut tidak menggunakan kelompok pembanding. Selain itu, lembaga belum mengamati siswa dari sekolah lain di luar dua sekolah tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah**."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Hasil pengamatan mendukung kesimpulan bahwa latihan soal digital secara rutin cenderung berkaitan dengan peningkatan nilai pada kelompok siswa yang diamati.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Karena sebagian besar siswa mengalami peningkatan nilai, hasil tersebut membuktikan bahwa latihan soal digital merupakan penyebab utama peningkatan nilai seluruh siswa.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Adanya beberapa siswa yang tidak mengalami peningkatan nilai menunjukkan bahwa kesimpulan universal mengenai keberhasilan latihan soal digital tidak didukung oleh data.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Hasil pengamatan pada empat kelas sudah cukup untuk memastikan bahwa siswa di seluruh sekolah akan menunjukkan pola peningkatan nilai yang sama.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Generalisasi induktif, keterwakilan data, batas simpulan, dan perbedaan antara hubungan yang teramati dengan sebab-akibat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamatan menunjukkan bahwa sebagian besar siswa yang rutin menggunakan latihan soal digital mengalami peningkatan nilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola tersebut mendukung kesimpulan bahwa penggunaan latihan soal digital secara rutin **cenderung berkaitan** dengan peningkatan nilai pada kelompok yang diamati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan ini tidak menyatakan bahwa seluruh siswa pasti mengalami peningkatan atau bahwa latihan soal merupakan satu-satunya penyebab perubahan nilai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan nilai setelah penggunaan latihan soal digital tidak secara otomatis membuktikan hubungan sebab-akibat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penelitian tidak menggunakan kelompok pembanding dan tidak menjelaskan faktor lain yang mungkin memengaruhi hasil belajar, seperti tambahan waktu belajar, bimbingan guru, atau perbedaan tingkat kesulitan evaluasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena itu, latihan soal digital belum dapat dipastikan sebagai penyebab utama peningkatan nilai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Generalisasi universal menyatakan bahwa suatu karakteristik berlaku untuk seluruh anggota kelompok tanpa pengecualian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam stimulus disebutkan bahwa beberapa siswa tidak mengalami peningkatan nilai meskipun mengikuti latihan secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hal tersebut menunjukkan bahwa klaim <i>semua siswa yang rutin berlatih pasti mengalami peningkatan nilai</i> tidak sesuai dengan bukti yang tersedia."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamatan hanya dilakukan pada empat kelas di dua sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Walaupun sebagian besar siswa dalam kelompok tersebut mengalami peningkatan nilai, hasilnya belum cukup untuk memastikan bahwa pola yang sama akan berlaku di seluruh sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan karakteristik siswa, kondisi pembelajaran, dan lingkungan sekolah dapat memengaruhi hasil. Diperlukan bukti yang lebih luas dan representatif untuk mendukung generalisasi terhadap populasi yang lebih besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan pola Bukti → Pola → Batas Simpulan. Identifikasi kelompok yang diamati, temukan kecenderungan yang muncul, lalu periksa apakah kesimpulan melebihi cakupan bukti. Waspadai kata semua, pasti, seluruh, dan klaim penyebab yang belum dibuktikan."
+            }
+          ],
+          "label": "Generalisasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Hubungan Tempat - Benda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sekolah menyediakan perpustakaan untuk menyimpan, mengelola, dan memamerkan koleksi buku yang dapat dibaca siswa. Saat kunjungan belajar ke sebuah galeri seni, para siswa melihat ruang yang digunakan untuk menyimpan, mengelola, dan memamerkan karya seni kepada pengunjung. Jika hubungan perpustakaan dengan buku dianalogikan dengan hubungan galeri terhadap suatu benda, benda apakah yang PALING TEPAT melengkapi analogi tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "Kamera",
+            "B": "Lukisan",
+            "C": "Panggung",
+            "D": "Tiket",
+            "E": "Penonton"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini menguji **analogi hubungan tempat dan objek**, yaitu hubungan antara suatu tempat dengan objek utama yang disimpan, dikelola, atau ditampilkan di tempat tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola hubungan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "tempat → objek yang disimpan/dikelola"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Perpustakaan → Buku"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan yang dicari harus memiliki pola yang sama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Galeri → Lukisan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kata Kunci"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "analogi, tempat, objek, perpustakaan, buku, galeri, lukisan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perpustakaan merupakan tempat yang digunakan untuk menyimpan, mengelola, dan menyediakan koleksi buku agar dapat diakses oleh pengunjung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan yang sepadan terdapat pada galeri seni. Galeri digunakan untuk menyimpan, mengelola, dan memamerkan karya seni kepada pengunjung. Salah satu objek utama yang biasa dipamerkan di galeri adalah **lukisan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pola hubungannya adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Perpustakaan → Buku"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Galeri → Lukisan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan menunjukkan hubungan antara **tempat dengan objek utama yang disimpan, dikelola, atau ditampilkan di dalamnya**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanyakan:"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "“Tempat tersebut terutama digunakan untuk menyimpan atau menampilkan apa?”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perpustakaan → buku"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Galeri → lukisan"
+            }
+          ],
+          "label": "Analogi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Analogi Hubungan Urutan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam proses pengembangan suatu produk, rancangan awal harus diselesaikan sebelum masuk ke tahap pengujian. Hubungan serupa terdapat dalam proses penerbitan buku, ketika naskah harus melalui tahap penyuntingan sebelum dicetak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan hubungan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Perancangan : Pengujian = Penyuntingan : ....**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan kesamaan urutan proses tersebut, **tahap apakah yang tepat untuk melengkapi analogi?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam satu kata.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Pencetakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Analogi hubungan urutan, yaitu kesetaraan hubungan antara tahap awal dan tahap berikutnya dalam suatu proses."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan pertama adalah <i>perancangan : pengujian</i>. Perancangan dilakukan untuk menghasilkan rancangan produk yang kemudian diperiksa melalui proses pengujian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kedua harus memiliki pola urutan yang sama. Dalam proses penerbitan buku yang dijelaskan pada stimulus, penyuntingan dilakukan sebelum pencetakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pola hubungannya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perancangan → Pengujian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyuntingan → Pencetakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan menunjukkan hubungan antara suatu tahap dan tahap berikutnya dalam proses yang telah ditetapkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah **Pencetakan**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan metode HAPE. Identifikasi hubungan tahap pertama dan kedua, periksa arah urutannya, kemudian terapkan pola yang sama pada pasangan berikutnya."
+            }
+          ],
+          "label": "Analogi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menguji Kesetaraan Hubungan Analogi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam penalaran analogi, dua pasangan kata tidak harus memiliki bentuk atau karakteristik yang sama. Kesetaraan ditentukan oleh hubungan antarkata, seperti hubungan fungsi, bagian dan keseluruhan, urutan proses, serta jenis dan kategori."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang siswa membandingkan beberapa pasangan kata untuk mengetahui apakah hubungan keduanya memiliki pola yang sepadan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan konsep analogi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Hubungan <i>dokter : pasien</i> sepadan dengan <i>mekanik : kendaraan</i> karena keduanya menunjukkan pelaku yang menangani objek tertentu sesuai bidang pekerjaannya.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Hubungan <i>roda : sepeda</i> sepadan dengan <i>mawar : bunga</i> karena keduanya menunjukkan unsur yang menjadi bagian penyusun suatu keseluruhan.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Hubungan <i>perencanaan : pelaksanaan</i> sepadan dengan <i>pengumpulan data : analisis data</i> karena keduanya menunjukkan urutan tahapan dalam suatu proses.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Hubungan <i>elang : burung</i> sepadan dengan <i>kendaraan : mobil</i> karena keduanya menunjukkan urutan dari jenis khusus menuju kategori yang lebih umum.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kesetaraan hubungan analogi, identifikasi pola, serta ketepatan arah hubungan antara pasangan kata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dokter merupakan tenaga profesional yang menangani pasien. Sementara itu, mekanik merupakan tenaga profesional yang menangani kendaraan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya memiliki pola hubungan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pelaku/profesi → objek yang ditangani"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dokter → Pasien"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mekanik → Kendaraan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meskipun bidang pekerjaannya berbeda, pola hubungan kedua pasangan sepadan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Roda merupakan salah satu bagian penyusun sepeda sehingga menunjukkan hubungan **bagian–keseluruhan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebaliknya, mawar merupakan salah satu jenis bunga sehingga menunjukkan hubungan **jenis–kategori**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Roda → bagian dari sepeda"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mawar → jenis bunga"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan tidak memiliki hubungan yang sama. Jadi, pernyataan (2) salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perencanaan merupakan tahap yang dilakukan sebelum pelaksanaan suatu kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Demikian pula, dalam proses penelitian, pengumpulan data dilakukan sebelum data dianalisis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola hubungannya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perencanaan → Pelaksanaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengumpulan data → Analisis data"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan menunjukkan urutan tahapan dalam suatu proses. Jadi, pernyataan (3) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Elang merupakan salah satu jenis burung. Hubungan tersebut bergerak dari kategori khusus menuju kategori yang lebih umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Elang → Burung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebaliknya, pasangan <i>kendaraan : mobil</i> bergerak dari kategori umum menuju jenis khusus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kendaraan → Mobil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Walaupun kedua pasangan berhubungan dengan klasifikasi, **arah hubungannya terbalik**. Jadi, pernyataan (4) salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan metode HAPE (Hubungan → Arah → Padankan → Eliminasi). Tentukan jenis hubungan pada pasangan pertama, periksa arahnya, kemudian pastikan pasangan kedua memiliki hubungan yang sama. Jangan menganggap dua pasangan sepadan hanya karena kata-katanya berada dalam bidang yang serupa."
+            }
+          ],
+          "label": "Analogi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Sebab Akibat Tidak Langsung",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penelitian menunjukkan bahwa motivasi pekerja dipengaruhi oleh kualitas kepemimpinan atasan dalam mengarahkan bawahan. Pekerja yang memiliki motivasi tinggi cenderung lebih aktif menyampaikan gagasan untuk memperbaiki proses kerja. Berdasarkan temuan tersebut, sebuah perusahaan mengadakan program pendampingan bagi para manajer. Setelah program dilaksanakan, jumlah ide perbaikan yang diajukan karyawan meningkat tajam. Berdasarkan informasi tersebut, tindakan manakah yang PALING MUNGKIN berkontribusi terhadap peningkatan jumlah ide perbaikan yang diajukan karyawan?"
+            }
+          ],
+          "opsi": {
+            "A": "Atasan menyusun peraturan yang memberikan kebebasan kepada karyawan untuk menyampaikan gagasan.",
+            "B": "Perusahaan meningkatkan anggaran pelatihan untuk mengembangkan kemampuan teknis seluruh karyawan.",
+            "C": "Perusahaan mengembangkan kompetensi kepemimpinan atasan melalui program pendampingan manajer.",
+            "D": "Manajemen perusahaan memperbarui sistem perekrutan agar proses seleksi karyawan lebih transparan.",
+            "E": "Perusahaan menerapkan evaluasi kinerja yang mendorong karyawan meningkatkan produktivitas kerja."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini menunjukkan hubungan sebab-akibat tidak langsung, yaitu suatu tindakan dapat memengaruhi hasil melalui satu atau beberapa faktor perantara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan stimulus, kualitas kepemimpinan atasan memengaruhi motivasi pekerja. Pekerja yang memiliki motivasi tinggi cenderung lebih aktif menyampaikan gagasan perbaikan. Perusahaan kemudian melaksanakan program pendampingan manajer yang bertujuan mengembangkan kompetensi kepemimpinan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, program pendampingan manajer merupakan tindakan yang paling mungkin berkontribusi terhadap meningkatnya jumlah ide perbaikan melalui peningkatan kualitas kepemimpinan dan motivasi pekerja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kausal yang diduga adalah sebagai berikut:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-04.png",
+              "lebar": 4.46,
+              "tinggi": 4.64
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi C benar, karena pengembangan kompetensi kepemimpinan atasan melalui pendampingan manajer sesuai dengan tindakan yang dijelaskan. Tindakan ini berpotensi meningkatkan kualitas arahan atasan, motivasi pekerja, dan partisipasi dalam mengajukan ide perbaikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Mengerjakan dengan Teknik S–A–B–A"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik S–A–B–A digunakan untuk mengidentifikasi Sebab, Akibat, Bukti, dan Alternatif secara cepat tanpa perlu membaca ulang seluruh stimulus berkali-kali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "S — Sebab"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan mengadakan program pendampingan bagi manajer untuk mengembangkan kompetensi kepemimpinan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Akibat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah ide perbaikan yang diajukan oleh karyawan meningkat tajam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Stimulus menyebutkan bahwa kualitas kepemimpinan memengaruhi motivasi, sedangkan motivasi yang tinggi berkaitan dengan keaktifan mengajukan gagasan. Ini memberikan dasar bagi dugaan hubungan tidak langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Alternatif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan A, B, D, dan E menggambarkan tindakan lain yang mungkin berpengaruh terhadap karyawan. Namun, tidak satu pun disebutkan sebagai tindakan perusahaan dalam stimulus. Pilihan C paling sesuai dengan program yang dilaksanakan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Saat menemukan soal yang menanyakan tindakan paling mungkin berkontribusi terhadap suatu hasil, cari tiga informasi utama:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apa programnya? → Apa yang ingin ditingkatkan? → Apa hasil yang diamati?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal ini:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pendampingan manajer → Kompetensi kepemimpinan dan motivasi pekerja → Ide perbaikan meningkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari pilihan A–E, hanya C yang mengikuti hubungan tersebut secara utuh."
+            }
+          ],
+          "label": "Hubungan Kausalitas"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Mengidentifikasi Faktor Perantara",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan distribusi mengalami keterlambatan pengiriman barang setelah salah satu jalur utama menuju gudang ditutup untuk perbaikan. Penutupan tersebut menyebabkan kendaraan harus melewati jalur alternatif yang lebih panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Akibatnya, waktu perjalanan kendaraan bertambah. Meskipun jumlah kendaraan dan volume barang yang dikirim tetap sama, sebagian pengiriman tiba melewati jadwal yang telah ditetapkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan hubungan berikut:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-05.png",
+              "lebar": 3.98,
+              "tinggi": 3.12
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, **faktor perantara apakah yang paling langsung menghubungkan penutupan jalur utama dengan keterlambatan pengiriman barang?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam bentuk frasa singkat.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Bertambahnya waktu perjalanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Hubungan sebab-akibat tidak langsung melalui faktor perantara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penutupan jalur utama mengharuskan kendaraan menggunakan jalur alternatif yang lebih panjang. Perubahan tersebut menyebabkan waktu perjalanan bertambah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu perjalanan yang lebih lama kemudian membuat sebagian pengiriman tiba melewati jadwal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, hubungan kausalitasnya adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Penutupan jalur utama → penggunaan jalur lebih panjang → waktu perjalanan bertambah → pengiriman terlambat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktor perantara yang paling langsung menjelaskan keterlambatan pengiriman adalah **bertambahnya waktu perjalanan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah kendaraan dan volume barang tetap sama sehingga kedua faktor tersebut tidak menjelaskan perubahan waktu pengiriman yang terjadi dalam stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan penyebab awal dan akibat akhir, kemudian cari kondisi di antaranya yang menjelaskan bagaimana penyebab awal menghasilkan akibat tersebut."
+            }
+          ],
+          "label": "Hubungan Kausalitas"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Hubungan Kausalitas: Menguji Penyebab Alternatif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah pusat layanan pelanggan menerapkan sistem antrean digital untuk mempercepat proses pelayanan. Sebelum sistem diterapkan, rata-rata waktu tunggu pelanggan adalah 20 menit. Setelah penerapan sistem, rata-rata waktu tunggu menurun menjadi 12 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Manajer menyimpulkan bahwa sistem antrean digital merupakan penyebab utama penurunan waktu tunggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, laporan operasional menunjukkan bahwa pada periode yang sama, jumlah pelanggan yang datang juga berkurang. Selain itu, pusat layanan menambah jumlah petugas pada jam-jam sibuk. Belum dilakukan pengujian terpisah untuk mengetahui pengaruh masing-masing perubahan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah**."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Penurunan rata-rata waktu tunggu setelah penerapan sistem antrean digital membuktikan bahwa sistem tersebut merupakan satu-satunya penyebab perubahan.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Berkurangnya jumlah pelanggan dapat menjadi penyebab alternatif yang turut menjelaskan penurunan waktu tunggu.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Penambahan petugas pada jam sibuk perlu dipertimbangkan sebelum menyimpulkan bahwa sistem antrean digital merupakan penyebab utama penurunan waktu tunggu.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Karena terdapat beberapa perubahan yang berlangsung bersamaan, dapat dipastikan bahwa sistem antrean digital tidak memberikan pengaruh terhadap waktu tunggu.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Salah, Benar, Benar, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Hubungan sebab ganda, korelasi dan kausalitas, serta evaluasi penyebab alternatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Data menunjukkan bahwa rata-rata waktu tunggu menurun dari 20 menit menjadi 12 menit setelah sistem antrean digital diterapkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, perubahan tersebut tidak otomatis membuktikan bahwa sistem merupakan satu-satunya penyebab penurunan waktu tunggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada periode yang sama, jumlah pelanggan juga berkurang dan jumlah petugas pada jam sibuk bertambah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena terdapat beberapa perubahan yang terjadi bersamaan, penyebab utama belum dapat dipastikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berkurangnya jumlah pelanggan dapat mengurangi banyaknya orang yang harus dilayani."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika jumlah pelanggan menurun, antrean berpotensi menjadi lebih pendek sehingga waktu tunggu juga dapat berkurang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, penurunan jumlah pelanggan merupakan **penyebab alternatif yang masuk akal** untuk menjelaskan penurunan waktu tunggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, besarnya pengaruh faktor tersebut belum diketahui."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penambahan petugas pada jam sibuk berpotensi meningkatkan kapasitas pelayanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika lebih banyak pelanggan dapat dilayani dalam waktu bersamaan, waktu tunggu juga berpotensi menurun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, pengaruh penambahan petugas perlu diperiksa sebelum menyimpulkan bahwa sistem antrean digital merupakan penyebab utama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Adanya beberapa penyebab alternatif tidak membuktikan bahwa sistem antrean digital sama sekali tidak berpengaruh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sistem tersebut mungkin turut mempercepat pelayanan, tetapi data yang tersedia belum cukup untuk menentukan besarnya kontribusi masing-masing faktor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah **pengaruh sistem antrean digital belum dapat dipisahkan dari faktor lain**, bukan bahwa sistem tersebut pasti tidak berpengaruh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Salah – Benar – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik S–A–B–A (Sebab → Akibat → Bukti → Alternatif). Identifikasi faktor yang diklaim sebagai penyebab, periksa akibat yang diamati, nilai kekuatan buktinya, kemudian cari faktor lain yang mungkin menjelaskan akibat tersebut. Hindari kesimpulan mutlak yang belum didukung data."
+            }
+          ],
+          "label": "Hubungan Kausalitas"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kesesuaian Informasi Eksplisit",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bel pulang sekolah telah berbunyi, tetapi Iwan masih menunggu jemputannya. Hari ini, kendaraan yang biasa menjemput Iwan mengalami keterlambatan sehingga ia tidak dapat pulang tepat waktu. Iwan juga belum menghubungi orang tuanya untuk memberi tahu bahwa dirinya masih berada di sekolah. Berdasarkan informasi tersebut, simpulan yang PALING TEPAT mengenai kondisi Iwan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Iwan telah menghubungi orang tuanya, tetapi masih menunggu kendaraan jemputan.",
+            "B": "Iwan belum menghubungi orang tuanya dan tidak dapat pulang tepat waktu.",
+            "C": "Iwan telah mengetahui penyebab keterlambatan dan meminta jemputan pengganti.",
+            "D": "Iwan belum menghubungi orang tuanya, tetapi telah meninggalkan sekolah.",
+            "E": "Iwan telah mendapat jemputan pengganti dan dapat pulang tepat waktu."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep yang digunakan adalah Kesesuaian Pernyataan – Informasi Eksplisit, yaitu menentukan simpulan yang sesuai dengan fakta yang secara langsung dinyatakan dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal kesesuaian pernyataan, jawaban yang benar harus didukung oleh informasi dalam teks tanpa menambahkan asumsi atau mengubah makna pernyataan. Apabila suatu pilihan terdiri atas dua informasi yang dihubungkan dengan kata dan atau tetapi, kedua informasi tersebut harus benar agar keseluruhan pernyataan dapat dinyatakan sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat tiga kategori dalam mengevaluasi kesesuaian pernyataan, yaitu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Sesuai: Seluruh informasi dalam pernyataan didukung oleh stimulus.",
+                "Bertentangan: Terdapat informasi yang berlawanan dengan fakta dalam stimulus.",
+                "Tidak dapat disimpulkan: Stimulus tidak menyediakan bukti yang cukup untuk memastikan kebenaran atau kesalahan pernyataan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan stimulus, bel pulang sekolah telah berbunyi, tetapi Iwan masih berada di sekolah karena kendaraan jemputannya mengalami keterlambatan. Akibat keterlambatan tersebut, Iwan tidak dapat pulang tepat waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selain itu, stimulus menyatakan bahwa Iwan belum menghubungi orang tuanya untuk menyampaikan informasi mengenai keterlambatan jemputan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, terdapat dua fakta utama yang dapat digunakan untuk menentukan simpulan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fakta 1: Iwan tidak dapat pulang tepat waktu karena jemputannya terlambat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fakta 2: Iwan belum menghubungi orang tuanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua fakta tersebut dinyatakan secara eksplisit dalam stimulus. Pilihan B menggabungkan kedua informasi tersebut tanpa mengubah maknanya, sehingga merupakan simpulan yang paling tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah. Pernyataan bahwa Iwan telah menghubungi orang tuanya bertentangan dengan stimulus yang menyatakan bahwa Iwan belum menghubungi orang tuanya. Meskipun informasi bahwa Iwan masih menunggu kendaraan jemputan benar, keseluruhan pilihan A tidak sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar. Stimulus secara langsung menyatakan bahwa Iwan belum menghubungi orang tuanya dan tidak dapat pulang tepat waktu karena jemputannya terlambat. Kedua informasi dalam pilihan ini sesuai dengan fakta yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak dapat disimpulkan. Stimulus tidak memberikan informasi mengenai apakah Iwan mengetahui penyebab keterlambatan kendaraan atau telah meminta jemputan pengganti. Oleh karena itu, kebenaran pernyataan tersebut tidak dapat dipastikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah. Pernyataan bahwa Iwan belum menghubungi orang tuanya sesuai dengan stimulus. Namun, informasi bahwa Iwan telah meninggalkan sekolah bertentangan dengan fakta bahwa Iwan masih menunggu jemputannya di sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah. Stimulus menyatakan bahwa Iwan masih menunggu kendaraan jemputannya dan tidak dapat pulang tepat waktu. Pernyataan bahwa Iwan telah memperoleh jemputan pengganti dan dapat pulang tepat waktu tidak sesuai dengan kondisi yang dijelaskan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang paling tepat adalah B. Iwan belum menghubungi orang tuanya dan tidak dapat pulang tepat waktu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Mengerjakan dengan Teknik B–T–C"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik B–T–C (Baca Tugas – Tandai Bukti – Cocokkan Opsi) digunakan untuk menentukan jawaban berdasarkan fakta utama dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Baca Tugas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan meminta simpulan yang paling tepat. Artinya, pilih pernyataan yang benar-benar sesuai dengan informasi dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "T — Tandai Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan dua fakta utama, yaitu Iwan belum menghubungi orang tuanya dan tidak dapat pulang tepat waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C — Cocokkan Opsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan B memuat kedua fakta tersebut. Pilihan A, D, dan E mengandung informasi yang bertentangan, sedangkan pilihan C memerlukan informasi tambahan yang tidak tersedia."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pecah setiap pilihan menjadi dua pernyataan. Jika salah satu bagian bertentangan dengan stimulus, pilihan tersebut langsung dapat dieliminasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal ini, cukup temukan dua fakta kunci:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Belum menghubungi orang tua + Tidak dapat pulang tepat waktu = Jawaban B."
+            }
+          ],
+          "label": "Kesesuaian Pernyataan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menentukan Jumlah Pernyataan yang Didukung",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lembaga pendidikan menyelenggarakan pelatihan untuk 60 peserta. Sebanyak 45 peserta menyelesaikan seluruh sesi pelatihan. Dari peserta yang menyelesaikan seluruh sesi tersebut, 36 orang dinyatakan lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga menetapkan bahwa sertifikat hanya diberikan kepada peserta yang lulus evaluasi akhir. Namun, belum tersedia informasi mengenai jumlah peserta yang telah menerima sertifikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan pernyataan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Sebanyak 15 peserta tidak menyelesaikan seluruh sesi pelatihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Seluruh peserta yang menyelesaikan pelatihan dinyatakan lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Peserta yang telah menerima sertifikat pasti dinyatakan lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Sebanyak 36 peserta telah menerima sertifikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Berdasarkan informasi tersebut, berapa banyak pernyataan yang pasti didukung oleh stimulus?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam bentuk angka.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kesesuaian informasi eksplisit, inferensi implisit, serta kecukupan informasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Didukung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah seluruh peserta adalah 60 orang dan sebanyak 45 orang menyelesaikan seluruh sesi pelatihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah peserta yang tidak menyelesaikan pelatihan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "60 − 45 = 15 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) sesuai dengan data."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Bertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 45 peserta menyelesaikan pelatihan, tetapi hanya 36 peserta yang dinyatakan lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, tidak semua peserta yang menyelesaikan pelatihan dinyatakan lulus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Didukung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Stimulus menetapkan bahwa sertifikat hanya diberikan kepada peserta yang lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, setiap peserta yang telah menerima sertifikat pasti memenuhi syarat kelulusan evaluasi akhir."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Tidak dapat ditentukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meskipun 36 peserta dinyatakan lulus, belum diketahui berapa peserta yang benar-benar telah menerima sertifikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelulusan merupakan syarat untuk memperoleh sertifikat, tetapi tidak otomatis membuktikan bahwa seluruh peserta yang lulus sudah menerima sertifikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, terdapat **2 pernyataan yang didukung**, yaitu nomor 1 dan 3."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik B–T–C (Baca Tugas → Tandai Bukti → Cocokkan Opsi). Bedakan pernyataan yang didukung, bertentangan, dan belum dapat ditentukan. Hitung hanya pernyataan yang benar-benar didukung oleh stimulus."
+            }
+          ],
+          "label": "Kesesuaian Pernyataan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menguji Kesesuaian Pernyataan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sekolah mengadakan program pendampingan akademik untuk siswa kelas XII. Program tersebut dilaksanakan selama delapan minggu dan diikuti oleh 80 siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan laporan pelaksanaan, sebanyak 65 siswa menghadiri seluruh sesi pendampingan, sedangkan 15 siswa tidak mengikuti program secara penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah menetapkan bahwa peserta yang memperoleh penghargaan harus menghadiri seluruh sesi dan menyelesaikan tugas akhir. Dari 65 siswa yang mengikuti seluruh sesi, sebanyak 50 siswa telah menyelesaikan tugas akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pihak sekolah belum mengumumkan daftar penerima penghargaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Pilih Benar apabila pernyataan pasti didukung oleh stimulus. Pilih Salah apabila pernyataan bertentangan atau belum dapat dipastikan dari informasi yang tersedia.</i>"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Setiap siswa yang menerima penghargaan harus telah mengikuti seluruh sesi pendampingan dan menyelesaikan tugas akhir.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Sebanyak 50 siswa telah menerima penghargaan karena mereka sudah memenuhi persyaratan yang ditetapkan sekolah.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Terdapat 15 siswa yang mengikuti seluruh sesi pendampingan tetapi belum menyelesaikan tugas akhir.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Siswa yang tidak menghadiri seluruh sesi tetap dapat memperoleh penghargaan apabila telah menyelesaikan tugas akhir.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kesesuaian informasi eksplisit dan implisit, syarat wajib, serta perbedaan antara informasi yang bertentangan dan yang belum dapat ditentukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah menetapkan bahwa penerima penghargaan harus memenuhi dua persyaratan, yaitu menghadiri seluruh sesi pendampingan dan menyelesaikan tugas akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, siswa yang memperoleh penghargaan pasti telah memenuhi kedua persyaratan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan ini sesuai dengan informasi yang diberikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah — Tidak dapat ditentukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 50 siswa telah menyelesaikan tugas akhir dan mengikuti seluruh sesi pendampingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pemenuhan persyaratan tidak otomatis berarti penghargaan telah diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Stimulus menyatakan bahwa daftar penerima penghargaan belum diumumkan. Oleh karena itu, belum dapat dipastikan apakah 50 siswa tersebut telah menerima penghargaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 65 siswa mengikuti seluruh sesi pendampingan. Dari kelompok tersebut, 50 siswa telah menyelesaikan tugas akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah siswa yang mengikuti seluruh sesi tetapi belum menyelesaikan tugas akhir:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$65-50=15$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, terdapat 15 siswa yang memenuhi kondisi tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah — Bertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Stimulus menetapkan bahwa kehadiran pada seluruh sesi merupakan syarat wajib untuk memperoleh penghargaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, siswa yang tidak menghadiri seluruh sesi tidak memenuhi persyaratan penghargaan, meskipun telah menyelesaikan tugas akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pernyataan (4) bertentangan dengan aturan yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik B–T–C. Perhatikan kata harus, hanya, seluruh, dan telah. Bedakan antara memenuhi persyaratan dengan sudah menerima hasilnya. Jangan menyimpulkan bahwa suatu tindakan telah terjadi hanya karena syaratnya terpenuhi."
+            }
+          ],
+          "label": "Kesesuaian Pernyataan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menggunakan Perbandingan dan Kelompok Kontrol",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah mengadakan kelas pendampingan membaca pada awal semester. Pada akhir semester, rata-rata nilai pemahaman bacaan peserta meningkat. Kepala sekolah menyatakan bahwa kelas pendampingan membantu meningkatkan kemampuan membaca siswa. Informasi tambahan manakah yang PALING MEMPERKUAT pernyataan kepala sekolah?"
+            }
+          ],
+          "opsi": {
+            "A": "Peserta pendampingan menunjukkan peningkatan minat membaca selama semester berlangsung.",
+            "B": "Peserta pendampingan memiliki nilai akhir lebih tinggi daripada siswa kelas lainnya.",
+            "C": "Sekolah memberikan bahan bacaan tambahan kepada seluruh siswa selama semester berlangsung.",
+            "D": "Peserta pendampingan mengalami peningkatan nilai lebih besar daripada kelompok pembanding yang setara.",
+            "E": "Guru pendamping menerapkan metode pembelajaran yang berbeda pada setiap pertemuan."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep yang digunakan adalah Evaluasi Argumen – Memperkuat melalui Bukti Pembanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti pembanding digunakan untuk menilai apakah suatu perubahan lebih mungkin berkaitan dengan program yang dilaksanakan. Perbandingan yang kuat melibatkan kelompok dengan kondisi awal yang sebanding sehingga perbedaan hasil lebih relevan untuk mengevaluasi pengaruh program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kepala sekolah menyimpulkan bahwa kelas pendampingan membantu meningkatkan kemampuan membaca siswa karena nilai pemahaman bacaan peserta meningkat setelah mengikuti program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, peningkatan nilai saja belum cukup membuktikan bahwa program pendampingan memberikan kontribusi. Peningkatan tersebut mungkin juga dipengaruhi oleh pembelajaran reguler atau faktor lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan D memberikan bukti yang lebih kuat karena peserta pendampingan mengalami peningkatan nilai yang lebih besar dibandingkan kelompok pembanding dengan kondisi awal yang setara. Perbedaan peningkatan tersebut mendukung dugaan bahwa kelas pendampingan memberikan manfaat tambahan terhadap kemampuan membaca siswa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kurang tepat. Peningkatan minat membaca merupakan perkembangan positif, tetapi tidak secara langsung membuktikan bahwa kelas pendampingan berkontribusi terhadap peningkatan nilai pemahaman bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kurang tepat. Nilai akhir yang lebih tinggi belum cukup membuktikan pengaruh program karena kemampuan awal kedua kelompok mungkin berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Kurang tepat. Pemberian bahan bacaan tambahan kepada seluruh siswa merupakan faktor lain yang mungkin memengaruhi hasil pembelajaran, sehingga tidak secara khusus memperkuat pengaruh kelas pendampingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Kurang tepat. Variasi metode pembelajaran menjelaskan pelaksanaan program, tetapi tidak menunjukkan apakah program tersebut benar-benar menghasilkan peningkatan kemampuan membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang paling tepat adalah D."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Menggunakan Teknik K–A–B–U"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "K — Kesimpulan: Kelas pendampingan membantu meningkatkan kemampuan membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Alasan: Nilai pemahaman bacaan peserta meningkat setelah program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Bukti: Kelompok pendampingan mengalami peningkatan lebih besar daripada kelompok pembanding yang setara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "U — Uji: Bukti tersebut membuat kontribusi kelas pendampingan lebih meyakinkan dibandingkan sekadar mengetahui bahwa nilai peserta meningkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Trik cepat:** Untuk soal yang menanyakan efektivitas program, cari opsi yang menunjukkan perbandingan perubahan hasil, bukan hanya nilai akhir, kepuasan peserta, atau kegiatan selama program."
+            }
+          ],
+          "label": "Evaluasi Argumen: Memperkuat dan Memperlemah"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menguji Kekuatan Bukti",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sekolah menerapkan program latihan soal berbasis aplikasi selama dua bulan. Setelah program berlangsung, rata-rata nilai peserta meningkat. Kepala sekolah menyimpulkan bahwa **program latihan soal tersebut membantu meningkatkan hasil belajar siswa**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengevaluasi kesimpulan tersebut, tim akademik mengumpulkan beberapa informasi tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan informasi berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Siswa yang mengikuti program mengalami peningkatan nilai lebih besar dibandingkan kelompok pembanding yang memiliki kemampuan awal setara dan tidak mengikuti program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Sebagian besar peserta menyatakan bahwa tampilan aplikasi menarik dan mudah digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Kedua kelompok memperoleh materi, waktu pembelajaran reguler, dan bentuk evaluasi yang sama selama periode pengamatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Pada periode yang sama, peserta program juga mengikuti bimbingan belajar tambahan yang tidak diikuti kelompok pembanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Hasil evaluasi menunjukkan bahwa peningkatan nilai peserta program tetap lebih besar ketika dibandingkan dengan kelompok pembanding pada beberapa pengukuran menggunakan prosedur penilaian yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Berdasarkan informasi tersebut, berapa banyak informasi tambahan yang memperkuat kesimpulan kepala sekolah?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam bentuk angka.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Evaluasi argumen melalui bukti pembanding, kesetaraan kondisi, dan penyebab alternatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (1) Memperkuat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan nilai yang lebih besar pada kelompok peserta program dibandingkan kelompok pembanding dengan kemampuan awal setara mendukung dugaan bahwa program memberikan kontribusi terhadap peningkatan hasil belajar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (2) Tidak secara langsung memperkuat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tampilan aplikasi yang menarik dan mudah digunakan menunjukkan pengalaman pengguna yang positif. Namun, informasi tersebut tidak membuktikan bahwa program berkontribusi terhadap peningkatan nilai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (3) Memperkuat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesamaan materi, waktu pembelajaran reguler, dan bentuk evaluasi membantu mengurangi kemungkinan bahwa perbedaan peningkatan nilai disebabkan oleh faktor-faktor tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, perbandingan kedua kelompok menjadi lebih kuat untuk mengevaluasi pengaruh program."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (4) Memperlemah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bimbingan belajar tambahan yang hanya diikuti peserta program merupakan penyebab alternatif yang masuk akal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan nilai yang lebih besar mungkin dipengaruhi oleh bimbingan tambahan tersebut, sehingga kontribusi program aplikasi menjadi lebih sulit dipastikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (5) Memperkuat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil yang konsisten pada beberapa pengukuran dengan prosedur penilaian yang sama memberikan dukungan tambahan terhadap kesimpulan kepala sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meskipun demikian, hasil tersebut tetap tidak membuktikan bahwa program merupakan satu-satunya penyebab peningkatan nilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, informasi yang memperkuat adalah nomor **1, 3, dan 5**, sehingga jumlahnya **3**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik K–A–B–U (Kesimpulan → Alasan → Bukti → Uji). Tentukan klaim utama, lalu nilai apakah setiap informasi membuat klaim lebih kuat, lebih lemah, atau tidak memberikan dukungan langsung."
+            }
+          ],
+          "label": "Evaluasi Argumen: Memperkuat dan Memperlemah"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Evaluasi Argumen: Memperkuat dan Memperlemah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan menerapkan sistem pemeriksaan kualitas otomatis untuk mengurangi jumlah produk cacat yang dikirim kepada pelanggan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum sistem diterapkan, rata-rata terdapat 40 produk cacat yang lolos pemeriksaan setiap bulan. Setelah sistem digunakan selama tiga bulan, jumlah tersebut menurun menjadi rata-rata 15 produk per bulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Manajer produksi menyimpulkan bahwa **sistem pemeriksaan otomatis merupakan penyebab utama berkurangnya produk cacat yang terkirim**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, perusahaan belum melakukan pengujian terpisah untuk mengetahui pengaruh sistem otomatis terhadap hasil pemeriksaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah** mengenai kekuatan argumen manajer."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika jumlah produk cacat yang dihasilkan sebelum pemeriksaan tetap relatif sama, tetapi semakin sedikit yang lolos pemeriksaan, informasi tersebut memperkuat kesimpulan manajer.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika perusahaan juga meningkatkan kualitas bahan baku sehingga jumlah produk cacat sejak awal berkurang, informasi tersebut memperkuat klaim bahwa sistem pemeriksaan otomatis merupakan penyebab utama penurunan produk cacat yang terkirim.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika ditemukan bahwa sistem otomatis mampu mendeteksi jenis kerusakan yang sebelumnya sering lolos dari pemeriksaan manual, informasi tersebut memperkuat kesimpulan manajer.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Jika jumlah produksi bulanan menurun tajam setelah sistem diterapkan, faktor tersebut tidak perlu dipertimbangkan karena tidak berkaitan dengan jumlah produk cacat yang terkirim.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Memperkuat dan memperlemah argumen melalui pemeriksaan relevansi bukti, mekanisme sebab-akibat, dan penyebab alternatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika jumlah produk cacat yang dihasilkan sebelum pemeriksaan relatif tetap, tetapi semakin sedikit produk cacat yang lolos pemeriksaan, terdapat dukungan bahwa proses pemeriksaan menjadi lebih efektif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut mengurangi kemungkinan bahwa penurunan produk cacat yang terkirim hanya disebabkan oleh berkurangnya jumlah cacat sejak proses produksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, kesimpulan manajer menjadi lebih kuat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan kualitas bahan baku dapat menyebabkan produk yang dihasilkan sejak awal memiliki lebih sedikit kerusakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kondisi tersebut terjadi pada periode yang sama, penurunan jumlah produk cacat yang terkirim mungkin tidak terutama disebabkan oleh sistem pemeriksaan otomatis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut merupakan **penyebab alternatif yang melemahkan klaim manajer**, bukan memperkuatnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika sistem otomatis terbukti mampu menemukan jenis kerusakan yang sebelumnya sering lolos dari pemeriksaan manual, terdapat bukti yang langsung menjelaskan cara kerja sistem dalam mengurangi produk cacat yang terkirim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini mendukung mekanisme sebab-akibat yang diklaim manajer."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, kesimpulan manajer semakin kuat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penurunan jumlah produksi dapat memengaruhi jumlah produk cacat yang dihasilkan dan berpotensi mengurangi jumlah produk cacat yang terkirim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, jika jumlah produk yang diproduksi jauh lebih sedikit, jumlah produk cacat yang lolos juga mungkin berkurang meskipun efektivitas pemeriksaannya tidak berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, perubahan volume produksi perlu diperiksa sebagai faktor alternatif sebelum menetapkan penyebab utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik K–A–B–U. Identifikasi klaim bahwa sistem otomatis merupakan penyebab utama, lalu periksa apakah informasi tambahan mendukung mekanisme pemeriksaan atau justru menunjukkan penyebab alternatif. Ingat bahwa bukti yang memperkuat tidak harus membuktikan klaim secara mutlak, sedangkan bukti yang memperlemah tidak harus membuktikan klaim salah."
+            }
+          ],
+          "label": "Evaluasi Argumen: Memperkuat dan Memperlemah"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

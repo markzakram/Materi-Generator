@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Evidence Across Texts",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Evidence Across Texts",
+    "sumber": "https://docs.google.com/document/d/1OZXEEDe2AJyn6PJW0XhCU28xA3ZxAO_iq_lYnc13dGw/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-11-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "A survey of 900 commuters found that 68% preferred trains over buses for journeys to the city center. Respondents most frequently cited predictable travel times. The survey measured preference, not journey duration."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The commuter survey was conducted online and included frequent users of both services. Respondents were asked which mode they preferred for trips to the city center, not to report each journey's measured duration. Consequently, its figures describe stated preferences among participants rather than the speed of the full transport network."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A transport agency compared recorded travel times on twenty train and bus route pairs during peak hours. Trains were faster on twelve pairs, buses on five, while three showed little difference. The agency noted that service frequency and walking time to stations were not included in the comparison. Both studies concerned the same metropolitan area, but they examined different aspects of travel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The route comparison used recorded travel-time information during the busiest commuting periods. Its results may help compare travel times for the selected route pairs, but passengers also spend time reaching stations and waiting for connections. Those additional stages can affect door-to-door journeys and were beyond the measured scope."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Complete the following sentence using exactly one word or number from the passage. Do not use synonyms."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The survey measured ______, not journey duration."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: preference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada materi Evaluating Evidence Across Texts, penting membedakan jenis bukti dari dua sumber. Text 1 mengukur preferensi moda perjalanan melalui survei, bukan waktu tempuh aktual, sedangkan Text 2 membandingkan waktu perjalanan yang tercatat. Kata preference secara eksplisit membentuk kontras 'preference, not journey duration'. Oleh karena itu, hanya preference yang sesuai dengan kalimat sumber."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Which evaluation is most accurate?"
+            }
+          ],
+          "opsi": {
+            "A": "Text 1 measures passenger satisfaction more objectively than the second text.",
+            "B": "Text 1 measures stated preferences while Text 2 compares recorded route travel times.",
+            "C": "Text 1 examines peak-hour speeds while Text 2 assesses journeys throughout the year.",
+            "D": "Text 1 confirms preferred modes always produce the shortest full travel times.",
+            "E": "Text 2 establishes why the surveyed commuters generally favor trains over buses."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan menguji perbandingan jenis bukti dalam dua sumber. Text 1 melaporkan preferensi moda berdasarkan survei, sedangkan Text 2 membandingkan waktu perjalanan pada dua puluh pasangan rute pada jam sibuk. Opsi B benar karena membedakan construct yang diukur masing-masing penelitian. Dalam Evaluating Evidence Across Texts, angka preferensi tidak setara dengan waktu tempuh; keduanya relevan untuk pertanyaan berbeda dan tidak dapat langsung dibandingkan sebagai ukuran efektivitas total perjalanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena survei preferensi bersifat laporan responden dan tidak lebih objektif tentang waktu perjalanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C salah karena membalik fokus: Text 1 survei preferensi dan Text 2 pengukuran jam sibuk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena moda yang disukai belum tentu memiliki waktu door-to-door paling singkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena catatan waktu rute tidak menetapkan penyebab seluruh preferensi responden."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "Text 1 directly measures actual journey duration.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The evidence is sufficient to conclude every commuter travels faster by train.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "Text 2 includes comparisons based on recorded route travel times.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "Both sources concern the same metropolitan area.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Evaluating Evidence Across Texts, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Salah): survei menilai preferensi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Salah): tidak semua rute lebih cepat dan waktu akses dikecualikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Benar): ada data perjalanan dua puluh pasangan rute."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Benar): lokasi penelitian sama."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

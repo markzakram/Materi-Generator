@@ -1,0 +1,649 @@
+{
+  "meta": {
+    "judul": "Penataan Gagasan",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Penataan Gagasan",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "id_katalog": "pbm-02"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penataan gagasan ialah proses menjaga akurasi informasi dan kesinambungan hubungan makna. Satu teks dapat memiliki semua kalimat yang benar secara tata bahasa tetapi tetap sulit dipahami bila urutannya keliru, rujukannya tidak jelas, atau kata hubungnya mengandaikan hubungan yang tidak dibuktikan. Oleh karena itu, peserta perlu membaca unit yang ditanya sekaligus konteks kalimat sebelum dan sesudahnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "kalimat inti/gagasan pengendali dari kalimat penjelas, contoh, maupun akibat dalam sebuah paragraf."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "kalimat inti yang menaungi isi paragraf dengan menguji keterwakilan seluruh rincian tanpa melakukan generalisasi berlebihan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "hubungan waktu, sebab-akibat, pertentangan, dan keserempakan yang dinyatakan atau belum dipastikan dalam dua kalimat."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "penggabungan kalimat yang mempertahankan pelaku, lokasi, negasi, urutan, dan derajat kepastian hubungan makna."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "fungsi tanda koma pada anak kalimat di awal, perincian, dan hubungan pertentangan antarklausa."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "ketepatan tanda baca pada beberapa kalimat dengan mempertimbangkan struktur sintaksis dan hubungan antarunsurnya."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "penanda waktu, sebab-akibat, referensi, dan urutan peristiwa yang membentuk struktur paragraf."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "kalimat acak menjadi paragraf koheren dengan memperhatikan perkembangan informasi, keterkaitan sebab-akibat, dan rujukan."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "peran informasi tambahan sebagai perincian, contoh, penjelasan, atau transisi pada paragraf."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "posisi penyisipan kalimat yang menjaga urutan informasi lama–baru dan keterpaduan antarpernyataan."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "cara memvariasikan susunan kalimat tanpa mengubah pelaku, keterangan waktu, fokus, dan hubungan informasi."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "variasi kalimat dengan membandingkan kesetaraan isi, hubungan logis, dan kelugasan susunan baru."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "penanda kohesi (rujukan, konjungsi) dan hubungan koherensi antargagasan dalam paragraf."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "beberapa hubungan antarkalimat untuk menilai kesesuaian penanda transisi, kesinambungan topik, dan logika paragraf."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "prinsip pengacuan pronomina terhadap anteseden yang tepat menurut kedekatan, jumlah, dan kesinambungan tindakan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "acuan kata ganti yang tidak ambigu dengan memadukan posisi anteseden, kecocokan makna, dan konteks tindakan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penentuan Kalimat Inti",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat inti menunjukkan pokok informasi yang dipertahankan setelah bagian penjelas disisihkan. Dalam konteks paragraf, gagasan pengendali menaungi rincian penjelas. Namun pada sebagian soal, istilah “kalimat inti” juga berarti struktur inti satu kalimat, yakni S–P beserta pelengkap/objek yang diperlukan. Kenali lebih dahulu unit yang ditanyakan: satu kalimat atau keseluruhan paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penentuan kalimat inti bertujuan menemukan informasi pokok dalam suatu kalimat atau paragraf. Dalam pengerjaan soal PBM, peserta perlu membedakan dua pendekatan, yaitu penentuan gagasan utama paragraf dan penentuan inti struktur kalimat atau klausa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gagasan Utama Paragraf dan Gagasan Pengendali"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama merupakan ide pokok yang menaungi seluruh informasi dalam paragraf. Untuk menentukannya, peserta perlu memahami hubungan antara kalimat utama dan kalimat penjelas, kemudian memilih gagasan yang paling mewakili isi paragraf secara keseluruhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam paragraf, gagasan pengendali bersifat paling mencakup; contoh, data, insentif, akibat, dan ilustrasi merupakan rincian yang menjelaskan gagasan tersebut. Ide umum harus dapat menjawab pertanyaan “semua rincian ini membahas hal apa?” tanpa mengada-adakan generalisasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kalimat inti secara struktural"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk satu kalimat, pisahkan keterangan dan klausa penjelas dari unsur inti. Contoh: “Pada akhir semester, para siswa menyusun laporan penelitian di perpustakaan.” Intinya “Para siswa menyusun laporan penelitian.” Frasa waktu dan tempat memperluas konteks, bukan mengubah pelaku dan tindakannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Inti Struktur Kalimat atau Klausa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inti struktur kalimat atau klausa merupakan susunan unsur gramatikal utama setelah keterangan atau perluasan tertentu dihilangkan. Penentuannya dilakukan dengan mengidentifikasi subjek, predikat, serta objek atau pelengkap yang diperlukan untuk membentuk struktur inti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat: “Media sosial memudahkan masyarakat memperoleh informasi kesehatan.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inti struktur: “Media sosial memudahkan masyarakat.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Subjek: Media sosial"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Predikat: memudahkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Objek: masyarakat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian “memperoleh informasi kesehatan” memberikan informasi tambahan mengenai hal yang dimudahkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Kedua Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan utamanya terletak pada fokus analisis. Gagasan utama paragraf menekankan makna yang mewakili keseluruhan paragraf, sedangkan inti struktur kalimat atau klausa menekankan unsur gramatikal utama yang membentuk kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, sebelum menentukan jawaban, peserta harus memahami apakah pertanyaan meminta gagasan utama sebuah paragraf atau inti struktur dari satu kalimat atau klausa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penggabungan Kalimat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penggabungan kalimat menyatukan dua informasi menjadi satu struktur yang efektif tanpa mengubah pelaku, tempat, waktu, negasi, atau kepastian hubungan. Konjungsi tidak sekadar memperindah kalimat; kata karena, setelah, meskipun, dan sehingga menyampaikan jenis hubungan yang harus dibuktikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peta hubungan antarkalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan penambahan memakai dan atau serta; waktu memakai ketika, setelah, sebelum bila urutannya jelas; sebab-akibat memakai karena atau sehingga jika hubungan kausal memang dinyatakan; pertentangan memakai tetapi atau meskipun bila dua keadaan memang berlawanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konjungsi dan tingkat kepastian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua fakta yang sama-sama terjadi tidak otomatis berkaitan sebab-akibat. Contoh: “Debit sungai meningkat. Sampah di tepi sungai bertambah.” Gabungan aman adalah “Debit sungai meningkat dan sampah di tepi sungai bertambah.” Kata “karena” menambah penjelasan sebab yang belum terbukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ketepatan subjek, predikat, dan keterangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungan harus jelas siapa melakukan tindakan. “Petugas memeriksa fasilitas. Warga memberi laporan.” Jangan diubah menjadi “Warga memeriksa fasilitas” jika tindakan itu dilakukan petugas. Keterangan tempat hulu dan hilir juga tidak boleh tertukar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kehematan yang tidak merusak makna"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Subjek yang sama dapat dihilangkan pada unsur kedua bila struktur paralel jelas: “Guru memeriksa naskah dan memperbaiki tanda bacanya.” Akan tetapi, penghematan tidak boleh menghapus negasi, periode waktu, atau bagian yang menjadi pembeda utama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penentuan Gagasan Bertanda Baca Tepat",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penentuan gagasan bertanda baca tepat menuntut pemahaman struktur, bukan sekadar “enak dibaca”. Tanda koma memisahkan bagian yang memang membutuhkan pemisah; tanda titik koma dapat memisahkan dua klausa mandiri yang berhubungan erat. Pembaca harus mampu menunjukkan subjek, predikat, anak kalimat, induk kalimat, dan unsur perincian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Koma pada anak kalimat pembuka"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika anak kalimat mendahului induk kalimat, batas keduanya ditandai koma: “Jika hujan berhenti, petugas melanjutkan pemeriksaan.” Saat anak kalimat mengikuti induk kalimat, tanda koma umumnya tidak dipakai: “Petugas melanjutkan pemeriksaan jika hujan berhenti.”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Koma pada perincian dan pertentangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan koma untuk memisahkan unsur perincian: “Siswa membawa buku, pensil, dan penggaris.” Dalam kalimat yang memiliki dua klausa bertentangan yang disambung “tetapi”, koma lazim dipakai sebelum konjungsi: “Jadwal berubah, tetapi tempat tetap sama.”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jangan memisahkan unsur inti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Koma tidak boleh memisahkan subjek dari predikat tanpa alasan sintaksis. Bentuk “Petugas yang bertugas pagi, memeriksa dokumen” salah karena frasa pembatas masih bagian dari subjek. Bentuk tepat: “Petugas yang bertugas pagi memeriksa dokumen.”"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Titik koma, titik dua, dan batas klausa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua klausa mandiri yang berkaitan dapat dipisahkan titik koma: “Laporan sudah selesai; tim masih meninjau lampiran.” Titik dua tepat sebelum pemerincian atau penjelasan tertentu; bukan pengganti konjungsi secara sembarang. Tanda baca dipilih menurut fungsi, bukan sekadar banyaknya kata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pakai koma menurut struktur: anak kalimat di awal, perincian, dan klausa pertentangan; jangan pisahkan subjek–predikat. Nilai setiap pernyataan secara mandiri.**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pengurutan Kalimat dalam Paragraf",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mengurutkan kalimat ialah menyusun informasi dari titik awal yang jelas menuju rincian, penjelasan sebab-akibat, tindakan, dan hasil. Pembaca tidak cukup mencari kalimat berawalan kata transisi; ia harus memastikan setiap kata rujukan memiliki anteseden serta waktu kejadian tidak tertukar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kalimat pembuka yang dapat berdiri sendiri"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pembuka biasanya memperkenalkan topik tanpa bergantung pada kata itu, tersebut, hal ini, atau upaya tersebut yang belum punya rujukan. Akan tetapi, kalimat pembuka tidak selalu memuat gagasan paling umum jika teks berupa kronologi; yang penting ia menetapkan konteks awal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengikat sebab, dampak, tindakan, dan hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf yang menjelaskan penanganan masalah sering mengikuti urutan sebab → dampak → tindakan → hasil. Contoh: “Hujan deras merusak jalan → akses warga terhambat → petugas menutup jalur → rute sementara dibuka.” Ini berbeda dari teks prosedur yang menekankan langkah berurutan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kata rujukan membatasi urutan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat “Upaya itu mengurangi antrean” harus ditempatkan setelah tindakan yang disebut sebagai “upaya”. Demikian pula “akibatnya” mengisyaratkan suatu penyebab telah dijelaskan, sedangkan “selanjutnya” menuntut tahapan sebelumnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Uji rantai informasi lama–baru"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah mengusulkan satu urutan, baca seluruh paragraf sebagai satu teks. Periksa bahwa bagian akhir menutup atau melanjutkan secara logis, dan tidak ada pengulangan yang mengganggu atau pernyataan yang melompat mundur tanpa penanda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Penempatan Kalimat pada Posisi yang Tepat",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penempatan kalimat merupakan kegiatan menyisipkan informasi tambahan ke posisi yang paling mendukung alur. Kalimat baru mungkin memperinci pernyataan, memberi contoh, menjelaskan sebab, menjadi jembatan, atau menyampaikan akibat. Posisi yang benar harus tepat secara rujukan dan logika, bukan hanya berada dekat topik yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kenali fungsi kalimat sisipan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah kalimat tambahan menjelaskan suatu istilah, memberikan contoh, memperinci data, menghubungkan dua bagian, atau menyimpulkan. Misalnya, “Pendataan juga mencakup kondisi tutupan lahan” adalah rincian kegiatan pendataan, bukan hasil penanaman pohon."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Periksa kata rujukan yang mengikat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “juga” memerlukan kegiatan sebelumnya yang setopik. “Data tersebut” memerlukan data yang sudah diperkenalkan. “Dengan demikian” umumnya mengikuti penalaran atau fakta pendukung; diletakkan sebelum dasar penjelasan akan menyebabkan alur tidak padu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gunakan uji sebelum–sisipan–sesudah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca tiga kalimat sebagai satu unit. Kalimat sebelumnya harus membuka hal yang diperinci sisipan; kalimat setelahnya harus tetap menjadi lanjutan alami. Jika dua pasangan tidak cocok, posisi itu kurang tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hindari penempatan yang terlambat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat perincian tahap pertama tidak efektif jika ditempatkan sesudah kalimat tentang penggunaan hasil atau tahap tindakan. Itu menyebabkan pembaca harus kembali ke topik lama dan kehilangan urutan informasi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pemvariasian Kalimat",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemvariasian kalimat mengubah susunan dan bentuk kalimat supaya lebih efektif tanpa mengubah isi penting. Transformasi dapat berupa pemindahan keterangan, pengaktifan atau pemasifan, pemadatan, serta penggabungan. Namun kalimat hasil hanya setara jika pelaku, sasaran, waktu, urutan, negasi, dan tingkat kepastian tetap sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memindahkan keterangan tanpa mengubah peristiwa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Para siswa menyusun laporan pada Jumat sore” dapat diubah menjadi “Pada Jumat sore, para siswa menyusun laporan.” Waktu tetap sama dan pelaku tidak berubah. Pemindahan keterangan harus mempertahankan relasi yang sebelumnya dijelaskan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perubahan aktif–pasif yang setara"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Peneliti meninjau hasil survei” dapat menjadi “Hasil survei ditinjau oleh peneliti.” Objek menjadi subjek pasif, tetapi aktornya tetap. Bandingkan dengan perubahan yang menghilangkan kata “oleh peneliti”, yang kadang masih gramatikal tetapi dapat mengurangi informasi penting dalam soal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pertahankan durasi dan urutan tindakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Selama enam bulan, tim mengumpulkan data lalu mengolahnya” berbeda dengan “Tim mengolah data selama enam bulan”. Penempatan keterangan waktu mengubah tahap yang berlangsung enam bulan. Kata sebelum/sesudah atau setelah juga tidak boleh tertukar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jangan menambah klaim atau kepastian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Meneliti pola kenaikan suhu” tidak sama dengan “membuktikan penyebab kenaikan suhu”. Kata meneliti dan membuktikan memiliki tuntutan bukti berbeda. Demikian pula kemungkinan tidak sama dengan kepastian, dan sebagian tidak sama dengan seluruh."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Variasi ≠ perubahan makna. Pertahankan pelaku, sasaran, waktu, lokasi, tujuan, negasi, dan kepastian."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kohesi dan Koherensi",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kohesi adalah hubungan bentuk bahasa yang mengikat bagian-bagian teks, misalnya kata ganti, pengulangan kata kunci, sinonim, serta konjungsi. Koherensi adalah hubungan makna yang membuat ide berkembang secara logis. Teks dapat memiliki kata sambung yang terlihat rapi namun tetap tidak koheren jika hubungan sebab-akibat, pertentangan, atau rujukannya salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kohesi: pengikat antarkalimat yang terlihat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Perpustakaan menerima buku sumbangan. Koleksi itu kemudian diperiksa relawan.” Frasa “koleksi itu” merujuk pada buku sumbangan, sehingga kedua kalimat berhubungan secara gramatikal dan leksikal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Koherensi: hubungan isi yang masuk akal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Jalan licin setelah hujan. Karena itu, petugas memasang rambu peringatan.” Hubungan situasi dan tindakan masuk akal. Sebaliknya, “Jalan licin setelah hujan. Karena itu, seluruh bus terlambat akibat tarif baru” tidak logis jika tarif baru tidak dijelaskan sebelumnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konjungsi sesuai fungsi, bukan hiasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun menandai kontras/pembatasan; oleh sebab itu menandai akibat atau rekomendasi; selain itu menambah informasi; sementara itu dapat menunjukkan keadaan lain. Penanda yang tepat wajib cocok dengan isi gagasan yang dihubungkannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Uji setiap pernyataan secara mandiri"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika soal meminta “pilih semua pernyataan yang tepat”, jangan memaksakan satu opsi saja. Nilai apakah masing-masing pernyataan menggambarkan fungsi kalimat, acuan pronomina, dan hubungan logis yang benar. Periksa satu per satu sebelum menetapkan kumpulan jawaban."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kata Ganti dan Kata Rujukan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kata ganti dan kata rujukan membantu penulis menghindari pengulangan, tetapi dapat menimbulkan ambiguitas bila acuan tidak jelas. Anteseden ialah unsur yang dirujuk, misalnya “para relawan” sebagai acuan “mereka”. Pemilihan rujukan tidak hanya mengandalkan kata benda terdekat, melainkan juga jumlah, peran pelaku, kecocokan makna, dan kesinambungan tindakan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengenali anteseden"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam “Siswa menyerahkan laporan kepada guru. Mereka sudah memeriksanya”, kata “mereka” dapat menjadi ambigu jika tidak ada konteks. Rujukan harus ditentukan dari pelaku tindakan yang logis serta informasi sebelumnya; jika dua kelompok sama-sama mungkin, kalimat perlu disunting."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rujukan kata dan kelompok kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Ini”, “itu”, “tersebut”, “hal ini”, dan “kondisi tersebut” dapat merujuk pada benda atau peristiwa sebelumnya. Kata “tersebut” pada “kebijakan tersebut” harus cocok dengan kebijakan yang benar-benar telah disebut, bukan sekadar nomina apa pun yang muncul lebih dekat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kedekatan tidak boleh mengalahkan konteks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Warga menyumbangkan buku. Relawan memeriksa buku-buku tersebut. Mereka menandai buku yang rusak.” Meskipun warga disebut lebih dahulu, kata “mereka” merujuk pada relawan sebagai subjek pelaksana pemeriksaan yang berlanjut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memperbaiki rujukan ambigu"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika satu kalimat dapat merujuk pada dua pihak yang sama-sama mungkin, ulangi nomina yang spesifik: “Para relawan menyusun laporan”. Kejelasan lebih penting daripada menghindari pengulangan secara mutlak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Penentuan Kalimat Inti. Kalimat inti paragraf merupakan ide yang menaungi rincian; kalimat inti struktural merupakan unsur inti tanpa perluasan. Tentukan unit analisis sebelum memilih jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Penggabungan Kalimat. Gabungkan fakta, jangan menambahkan sebab-akibat atau urutan waktu yang tidak dinyatakan. Periksa perubahan pelaku, lokasi, negasi, dan kepastian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Penentuan Gagasan Bertanda Baca Tepat. Pakai koma menurut struktur: anak kalimat di awal, perincian, dan klausa pertentangan; jangan pisahkan subjek–predikat. Nilai setiap pernyataan secara mandiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Pengurutan Kalimat dalam Paragraf. Cari pembuka mandiri → rangkai sebab–dampak–tindakan–hasil → periksa semua kata “ini/itu/tersebut” → baca ulang paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Penempatan Kalimat pada Posisi yang Tepat. Tempat sisipan ditentukan oleh fungsi + acuan kata + hubungan sebelum–sesudah, bukan sekadar kesamaan kosakata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Pemvariasian Kalimat. Variasi ≠ perubahan makna. Pertahankan pelaku, sasaran, waktu, lokasi, tujuan, negasi, dan kepastian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "7. Kohesi dan Koherensi. Kohesi = keterkaitan bentuk bahasa; koherensi = keterkaitan logis makna. Kata hubung yang tampak benar belum tentu menghasilkan alur logis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "8. Kata Ganti dan Kata Rujukan. Anteseden = unsur yang dirujuk. Pilih berdasarkan kedekatan + kecocokan makna + kesinambungan pelaku/tindakan; jangan mengandalkan posisi terdekat saja."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penentuan Kalimat Inti",
+        "teks": ""
+      },
+      {
+        "judul": "Penggabungan Kalimat",
+        "teks": ""
+      },
+      {
+        "judul": "Penentuan Gagasan Bertanda Baca Tepat",
+        "teks": ""
+      },
+      {
+        "judul": "Pengurutan Kalimat dalam Paragraf",
+        "teks": ""
+      },
+      {
+        "judul": "Penempatan Kalimat pada Posisi yang Tepat",
+        "teks": ""
+      },
+      {
+        "judul": "Pemvariasian Kalimat",
+        "teks": ""
+      },
+      {
+        "judul": "Kohesi dan Koherensi",
+        "teks": ""
+      },
+      {
+        "judul": "Kata Ganti dan Kata Rujukan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan Penataan Gagasan membantu peserta memahami hubungan dan keteraturan informasi dalam teks. Melalui latihan, peserta diharapkan mampu menyusun serta mengevaluasi kalimat dan paragraf secara tepat sesuai kaidah bahasa."
+  }
+}

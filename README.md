@@ -43,20 +43,21 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (77 deck: 28 Verbal, 42 Numerik termasuk Data & Deret, dan 7 Figural) dan **JadiOJK · PCAM OJK** (57 deck TKU PCAM OJK: 29 materi dan 28 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (77 deck: 28 Verbal, 42 Numerik termasuk Data & Deret, dan 7 Figural), **JadiOJK · PCAM OJK** (57 deck TKU PCAM OJK: 29 materi dan 28 contoh soal), dan **Cerebrum · UTBK** (92 deck UTBK-SNBT: 46 materi dan 46 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
 
-Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn`.
+Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Palet `cerebrum` memakai merah bata dan kuning untuk bidang dan judul, dan biru tua (`teks_biasa`) untuk teks isi yang tidak tebal. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn`.
 
 Bangun ulang setelah naskah atau template berubah (Windows + PowerPoint, karena PDF dan sampul diekspor PowerPoint):
 
 ```bash
 python generator/buat_situs.py --template-general "path/Template Materi General.pptx"
 python generator/buat_situs.py --katalog konten/ojk/katalog.json --template-general "path/Template Materi General.pptx"
+python generator/buat_situs.py --katalog konten/utbk/katalog.json --template-general "path/Template Materi General.pptx"
 ```
 
 Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general` (satu tampilan, jadi halaman tidak menampilkan pilihan). Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
 
-Ukuran: TIU sekitar 198 MB dan OJK sekitar 142 MB, jadi seluruh situs sekitar 340 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
+Ukuran: TIU sekitar 198 MB, OJK sekitar 142 MB, dan UTBK sekitar 232 MB, jadi seluruh situs sekitar 572 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
 
 Untuk memperbarui daftar saja (kelompok, tautan dokumen, jenis deck) tanpa membangun deck, jalankan perintah yang sama dengan `--hanya-data`; PowerPoint dan template tidak dibutuhkan.
 
@@ -86,7 +87,7 @@ Hanya entri dengan `"otomatis": true` yang ditimpa. Satu dokumen bisa dikonversi
 Highlight berarti *wajib* masuk, bukan satu-satunya yang boleh masuk. Ada tiga tingkat:
 
 1. **Wajib**: bagian yang diberi sorotan (highlight) kuning atau berlabel `[WAJIB PPT]` di dokumen sumber (rinciannya di bawah).
-2. **Pelengkap**: tambahan di luar sorotan supaya isi wajib tidak pincang (`pelengkap()` di `generator/ekstrak_gdoc.py`): gambar dan tabel di bawah judul yang sudah punya isi masuk, langkah atau butir daftar yang bolong, dan pilihan per dokumen di `konten/pelengkap.json` / `konten/ojk/pelengkap.json` (inti subbab tanpa sorotan, definisi, tujuan dan pesan penutup yang kosong). Hapus satu butir di berkas itu untuk mencoret tambahannya. Katalog `"pelengkap": "minimal"` (Pengenalan OJK, Perencanaan Keuangan, Dana Pensiun) membatasi tabel ke yang diapit isi wajib.
+2. **Pelengkap**: tambahan di luar sorotan supaya isi wajib tidak pincang (`pelengkap()` di `generator/ekstrak_gdoc.py`): gambar dan tabel di bawah judul yang sudah punya isi masuk, langkah atau butir daftar yang bolong, dan pilihan per dokumen di `konten/pelengkap.json` / `konten/ojk/pelengkap.json` / `konten/utbk/pelengkap.json` (inti subbab tanpa sorotan, definisi, tujuan dan pesan penutup yang kosong). Hapus satu butir di berkas itu untuk mencoret tambahannya. Katalog `"pelengkap": "minimal"` (Pengenalan OJK, Perencanaan Keuangan, Dana Pensiun) membatasi tabel ke yang diapit isi wajib.
 3. **Tidak masuk**: `[PENGAYAAN]` (kecuali di bawah label "semua contoh soal wajib"), isi di luar label "hanya foto dan profil", soal tanpa sorotan, penjelasan lanjutan di subbab yang sudah punya sorotan, rujukan, dan catatan penyusun (`CATATAN_PRODUKSI`, mis. "PPT Materi OLD mencantumkan D").
 
 Setiap tambahan ditulis di **catatan pembicara** slide-nya ("TAMBAHAN DI LUAR HIGHLIGHT") dan disimpan di naskah (`tambahan` pada blok) supaya tim bisa meninjau dan mencoretnya.
@@ -132,6 +133,25 @@ Materi Bahasa Inggris (baris 16–20) memakai `"miring": true` di katalog supaya
 Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN", "C. Materi Pembelajaran"), catatan penulis dalam kurung siku ("[WAJIB PPT]", "[PENGAYAAN]") yang dibuang dari teks (dan menentukan isi yang masuk, lihat di atas), bagian yang dilewati (Kata Pengantar, Capaian Pembelajaran, Daftar Rujukan), soal per Heading 2 ("4.1 …", "Contoh Soal 1 — …"), dan kunci "Jawaban C. …". Tabel yang punya kolom foto (mis. Profil Anggota Dewan Komisioner OJK) menjadi kartu profil berisi foto, nama, dan jabatan, sesuai catatan "[yang harus ada di PPT hanya foto dan profil]"; kolom uraian panjang tidak ikut. Tabel, daftar butir, dan kartu profil yang lebih tinggi dari satu halaman dipecah ke halaman berikutnya.
 
 "Pengenalan OJK dan Waspada Investasi" (13 MB) terlalu besar untuk diekspor lewat Google Drive API; unduh manual sebagai Word, simpan sebagai `<doc_id>.docx`, lalu jalankan impor dengan `--id sjk-01`. Untuk membangun ulang satu materi saja di situs (tanpa membangun ulang yang lain), tambahkan `--id sjk-01` ke perintah `buat_situs.py`.
+
+### Materi UTBK (Cerebrum)
+
+`konten/utbk/katalog.json` mendaftar 46 dokumen di kolom File sheet "Kerangka Course" (Mapping UTBK 2027) sebagai 92 deck: satu dokumen menjadi deck materi dan deck contoh soal, walau dokumennya mencakup beberapa baris Bab (`"cakupan"`). Kelompoknya mengikuti sheet (PU, PPU-PBM, PK-PM, LBI, LBE); nama subtes di sampul diambil dari `"nama_subtes"`. Baris 10–15 (Silogisme dan Logika) belum punya dokumen.
+
+```bash
+python generator/impor_katalog.py --katalog konten/utbk/katalog.json --docx folder_docx_utbk
+python generator/buat_situs.py --katalog konten/utbk/katalog.json --template-general "path/Template Materi General.pptx"
+```
+
+Dokumen UTBK ditulis beberapa tim dengan kerangka berbeda, jadi katalognya memakai `"kerangka": "utbk"` dan setiap dokumen disusun ulang dulu oleh `generator/rapikan_utbk.py`: subbab bernomor di Heading 1/2/3, contoh soal yang ditulis di tengah subbab (dikumpulkan ke deck contoh soal dengan nama subbabnya di samping judul), soal berupa heading, paragraf tebal, atau daftar bernomor, opsi dalam satu paragraf, bacaan untuk beberapa soal ("Teks untuk Soal 1–3" menjadi slide sendiri), tabel tujuan (IPK), ganti baris di dalam paragraf, dan nomor daftar otomatis.
+
+Penanda wajib tiap kelompok berbeda:
+
+- **PU dan Bilangan dan Aritmetika**: teks merah (`"penanda": "merah"`).
+- **PPU, PBM, dan PK-PM lainnya**: highlight kuning dan label `[WAJIB PPT]`; label `[semua contoh soal wajib ada di PPT]` memasukkan semua soal.
+- **LBI dan LBE**: latar hijau muda (`"penanda": "hijau"`); tidak ada keterangan arti warnanya di dokumen. LBE memberi label "(SEMUA SOAL HARUS ADA DI PPT)". Soal LBI tidak ditandai sama sekali; soalnya tetap dimasukkan dan dicatat sebagai tambahan ("contoh soal tanpa tanda").
+
+Tujuan pembelajaran atau penutup yang sama sekali tidak ditandai diisi dari dokumennya dan dicatat sebagai tambahan (`isi_bagian_kosong`). Rumus PK-PM yang di dokumen berupa gambar satu baris (16 px) diketik ulang di `"rumus_gambar"` katalog (nama berkas gambar → rumus), karena gambarnya buram di slide; bila gambar di dokumen diganti, sesuaikan pemetaannya. Gambar lain diperbesar 1,5 kali dari ukuran dokumennya.
 
 ## Aplikasi web (Vercel)
 

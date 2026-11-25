@@ -1,0 +1,766 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Peluang dan Kombinatorika",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Peluang dan Kombinatorika",
+    "sumber": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-07-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kejadian Komplemen",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah kotak berisi 4 kelereng merah, 3 biru, dan 5 putih. Satu kelereng diambil secara acak. Peluang terambil kelereng yang tidak berwarna putih adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$1/4$",
+            "B": "$5/12$",
+            "C": "$1/2$",
+            "D": "$7/12$",
+            "E": "$3/4$"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Peluang komplemen pada ruang sampel sama mungkin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total 12 kelereng;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "selain putih ada $4+3=7$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Peluang =7/12$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alternatif: $1−5/12 = 7/12.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(bukan putih) = 1 − 5/12 = 7/12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A, B, C, E tidak menyatakan bagian 7 dari 12; D sesuai."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari jumlah selain putih, atau langsung 1−P(putih)."
+            }
+          ],
+          "label": "Peluang"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pengambilan Tanpa Pengembalian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari kartu bernomor 1 sampai 5 diambil dua kartu sekaligus secara acak. Peluang jumlah kedua nomor genap adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$1/5$",
+            "B": "$2/5$",
+            "C": "$1/2$",
+            "D": "$3/5$",
+            "E": "$4/5$"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jumlah genap terjadi jika kedua nomor ganjil atau kedua nomor genap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ada 3 kartu ganjil dan 2 kartu genap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kasus menguntungkan"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(3,2)+C(2,2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total pemilihan $C(5,2)=10.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peluang $4/10=2/5.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P = [C(3, 2) + C(2, 2)]/C(5, 2) = 2/5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A terlalu sedikit; C, D, E lebih besar dari $4/10$; B benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan kasus $ganjil+ganjil$ dan $genap+genap;$ gunakan kombinasi untuk pengambilan sekaligus."
+            }
+          ],
+          "label": "Peluang"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Kondisi Tambahan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kantong ada 5 bola hijau dan 4 bola merah. Diambil dua bola tanpa pengembalian. Diketahui bola pertama merah. Peluang bola kedua hijau adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$4/9$",
+            "B": "$5/9$",
+            "C": "$1/2$",
+            "D": "$5/8$",
+            "E": "$3/8$"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Peluang bersyarat akibat informasi hasil pengambilan pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah bola merah pertama diambil, tersisa 8 bola, dengan 5 bola hijau."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena itu $P(hijau pada pengambilan kedua | merah pertama)=5/8$."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P = 5/8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A dan B menggunakan penyebut awal; C dan E tidak sama dengan proporsi 5 dari 8; D benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perbarui ruang sampel setelah mengetahui kejadian pertama."
+            }
+          ],
+          "label": "Peluang"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Kode Tanpa Pengulangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sandi terdiri atas tiga karakter dengan pola huruf–digit–digit. Karakter pertama harus berupa satu huruf yang dipilih dari A, B, atau C, sedangkan karakter kedua dan ketiga berupa digit yang dipilih dari 1, 2, 3, atau 4. Kedua digit tidak boleh sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa banyak sandi berbeda yang dapat dibuat? (Jawaban dalam bentuk Angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 36"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Aturan perkalian pada tiga tahapan dengan pembatasan pengulangan digit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karakter pertama berupa huruf yang memiliki 3 pilihan, yaitu A, B, atau C."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karakter kedua berupa digit yang memiliki 4 pilihan, yaitu 1, 2, 3, atau 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karakter ketiga juga berupa digit, tetapi tidak boleh sama dengan digit kedua. Oleh karena itu, hanya tersedia 3 pilihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan aturan perkalian, banyak sandi berbeda adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3 × 4 × 3 = 36 sandi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah 36."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan pola huruf–digit–digit (H–D–D), kemudian kalikan jumlah pilihan setiap posisi: 3 × 4 × 3 = 36."
+            }
+          ],
+          "label": "Aturan Pencacahan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Penempatan Berurutan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari 10 burung berbeda, empat pengamat masing-masing menerima satu burung berbeda untuk dicatat. Berapa penempatan berurutan yang mungkin?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk Angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 5.040"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Aturan perkalian dengan larangan pengulangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamat pertama punya 10 pilihan,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "berikutnya 9,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "lalu 8,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "lalu 7."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak penempatan $10×9×8×7=5.040.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$N = 10 × 9 × 8 × 7 = 5.040$"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tuliskan empat slot: 10,9,8,7."
+            }
+          ],
+          "label": "Aturan Pencacahan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Pembatas Posisi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kegiatan pengamatan satwa, tersedia 10 burung berbeda yang akan dibagikan kepada empat pengamat, yaitu A, B, C, dan D. Setiap pengamat menerima tepat satu burung, dan burung yang sudah diberikan kepada seorang pengamat tidak boleh diberikan kepada pengamat lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Pengamat A memiliki 10 pilihan burung, sedangkan Pengamat B memiliki 9 pilihan setelah A menerima satu burung.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Pengamat C memiliki 9 pilihan burung karena hanya satu burung yang tidak dapat dipilih kembali.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Banyak penempatan burung kepada keempat pengamat adalah 5.040 cara.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Jika burung yang sama boleh diberikan kepada lebih dari satu pengamat, banyak penempatannya menjadi 10.000 cara.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar, Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Aturan perkalian dan permutasi tanpa pengulangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamat A memiliki 10 pilihan burung. Setelah satu burung diberikan, Pengamat B memiliki 9 pilihan. Selanjutnya, Pengamat C memiliki 8 pilihan dan Pengamat D memiliki 7 pilihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak penempatan tanpa pengulangan adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$10 × 9 × 8 × 7 = 5.040$ cara."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pernyataan 1 benar karena pilihan berkurang setelah satu burung diberikan kepada A.",
+                "Pernyataan 2 salah karena saat giliran C, dua burung sudah diberikan kepada A dan B, sehingga tersisa 8 pilihan, bukan 9.",
+                "Pernyataan 3 benar karena jumlah seluruh penempatan adalah 5.040 cara.",
+                "Pernyataan 4 benar secara matematis untuk kondisi alternatif ketika pengulangan diperbolehkan. Setiap pengamat memiliki 10 pilihan sehingga jumlahnya $10 × 10 × 10 × 10 = 10.000$ cara."
+              ]
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk penempatan tanpa pengulangan, jumlah pilihan terus berkurang: 10, 9, 8, 7. Jika pengulangan diperbolehkan, jumlah pilihan setiap tahap tetap 10."
+            }
+          ],
+          "label": "Aturan Pencacahan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Dua Siswa Berdampingan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lima peserta duduk dalam satu baris. Jika dua peserta tertentu harus berdampingan, berapa banyak susunan berbeda?"
+            }
+          ],
+          "opsi": {
+            "A": "24",
+            "B": "36",
+            "C": "48",
+            "D": "60",
+            "E": "120"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Teknik blok pada permutasi linear."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua peserta bersebelahan digabung menjadi satu blok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total empat objek dapat diurutkan $4!=24$ cara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di dalam blok, kedua peserta dapat bertukar posisi sebanyak $2!$ cara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total $24×2=48.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$N = 4! × 2! = 48$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A mengabaikan urutan internal; B,D bukan hasil 4!×2!; E adalah semua 5! tanpa syarat; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gabungkan pasangan menjadi satu blok, lalu kalikan 2! posisi di dalamnya."
+            }
+          ],
+          "label": "Permutasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 8 — Pemilihan Berjabatan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari delapan anggota organisasi dipilih ketua, sekretaris, dan bendahara, tanpa rangkap jabatan. Banyak susunan pengurus adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "56",
+            "B": "112",
+            "C": "168",
+            "D": "336",
+            "E": "512"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Permutasi karena jabatan berbeda dan urutan pengisi jabatan penting."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketua memiliki 8 pilihan,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sekretaris 7,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "dan bendahara 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total $8×7×6=336.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sama dengan $P(8,3).$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(8, 3) = 8!/(8 − 3)! = 336$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A,B,C terlalu kecil; E menganggap pemilihan berulang; D benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Isi slot jabatan dengan 8,7,6 pilihan."
+            }
+          ],
+          "label": "Permutasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 9 — Unsur Sama dan Pembatas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari huruf penyusun kata MATEMATIKA, dibentuk susunan yang dimulai dan diakhiri huruf M. Berapa banyak susunan berbeda?"
+            }
+          ],
+          "opsi": {
+            "A": "1.680",
+            "B": "2.520",
+            "C": "3.360",
+            "D": "5.040",
+            "E": "6.720"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Permutasi dengan unsur sama dan dua posisi tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ada 10 huruf: M dua, A tiga, T dua, serta E,I,K masing-masing satu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua M ditempatkan di ujung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Delapan huruf tengah dapat disusun $8!/(3!2!)=3.360.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$N = 8!/(3! × 2!) = 3.360$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A dan B terlalu kecil; D,E terlalu besar; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kunci posisi ujung, lalu bagi dengan faktorial unsur identik di posisi tengah."
+            }
+          ],
+          "label": "Permutasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 10 — Memilih Tim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari tujuh anggota klub dipilih tiga orang menjadi tim dengan tugas yang sama. Banyak tim yang dapat terbentuk adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "21",
+            "B": "28",
+            "C": "35",
+            "D": "42",
+            "E": "210"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kombinasi tiga dari tujuh karena urutan tidak membedakan tim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah tim"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(7,3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(7!)/(3!4!)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(7×6×5)/(3×2×1)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=35.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(7, 3) = 7!/(3!4!) = 35$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A,B,D tidak sesuai pembagian faktorial; E adalah P(7,3) tanpa menghilangkan urutan; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pakai kombinasi karena yang dinilai anggota tim, bukan jabatan."
+            }
+          ],
+          "label": "Kombinasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 11 — Pemilihan Warna",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari empat burung hitam yang dapat dibedakan, dua dipilih untuk diamati bersama tanpa penugasan. Berapa cara pemilihan?"
+            }
+          ],
+          "opsi": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12",
+            "E": "16"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kombinasi 2 objek dari 4 tanpa urutan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(4,2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4!/(2!2!)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan $(A,B)$ sama dengan $(B,A).$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(4, 2) = 6$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A terlalu sedikit; C,D,E menghitung susunan yang tidak berbeda sebagai hasil lain; B benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pilih dua objek dari empat: 4×3÷2."
+            }
+          ],
+          "label": "Kombinasi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 12 — Syarat Minimal Satu",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah komunitas memiliki 5 anggota kelompok X dan 6 anggota kelompok Y. Dipilih tiga orang tanpa jabatan, dan minimal satu orang harus dari kelompok Y. Banyak cara memilih adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "120",
+            "B": "135",
+            "C": "145",
+            "D": "155",
+            "E": "165"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Teknik komplemen pada kombinasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seluruh pilihan $C(11,3)=165.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kasus tanpa Y berarti memilih tiga dari lima anggota X, yaitu $C(5,3)=10.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil $165−10=155.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(11, 3) − C(5, 3) = 165 − 10 = 155$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A,B,C terlalu kecil; E memasukkan tim tanpa anggota Y; D benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Total semua dikurangi yang sama sekali tidak memenuhi syarat."
+            }
+          ],
+          "label": "Kombinasi"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

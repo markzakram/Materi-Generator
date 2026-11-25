@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pemahaman Teks Eksplanatif dan Penalaran Inferensial",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Contoh Soal Pemahaman Teks Eksplanatif dan Penalaran Inferensial",
+    "sumber": "https://docs.google.com/document/d/1ef87Ky8rTVSelv__IiFhx66zTd5HD9H3tAk8L9YR0Wc/edit",
+    "bagian": "soal",
+    "id_katalog": "lbi-04-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks Bacaan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Daerah Resapan Air dan Risiko Banjir Perkotaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(1)** Air hujan yang jatuh ke permukaan tanah tidak seluruhnya langsung mengalir menuju sungai atau saluran drainase. Sebagian air meresap ke dalam tanah melalui pori-pori tanah dan mengisi lapisan air tanah. Proses masuknya air ke dalam tanah disebut infiltrasi. Besarnya infiltrasi dipengaruhi oleh karakteristik tanah, kondisi permukaan, kemiringan lahan, serta tingkat kejenuhan tanah. Tanah yang memiliki struktur berpori dan ditutupi vegetasi umumnya memungkinkan air meresap lebih baik dibandingkan permukaan yang tertutup lapisan kedap air."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(2)** Ketika kawasan terbuka berubah menjadi permukiman atau pusat kegiatan ekonomi, sebagian permukaan tanah dapat tertutup beton dan aspal. Lapisan tersebut menghambat air hujan untuk masuk ke dalam tanah sehingga bagian air yang mengalir di permukaan atau limpasan meningkat. Jika volume limpasan melampaui kapasitas saluran drainase, genangan dapat terbentuk dan berpotensi berkembang menjadi banjir. Kondisi ini semakin berisiko ketika hujan turun dengan intensitas tinggi dalam waktu singkat atau saluran drainase mengalami penyumbatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(3)** Keberadaan ruang terbuka hijau dapat membantu mengurangi limpasan melalui peningkatan kemampuan tanah menyerap air. Akar tanaman juga membantu membentuk struktur tanah yang memungkinkan air masuk ke lapisan yang lebih dalam. Namun, keberadaan taman atau pepohonan tidak otomatis menghilangkan risiko banjir. Efektivitas daerah resapan tetap dipengaruhi luas area, jenis tanah, intensitas hujan, dan kondisi drainase di sekitarnya. Dengan demikian, ruang terbuka hijau merupakan salah satu unsur pengendalian limpasan, bukan satu-satunya solusi terhadap banjir perkotaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**(4)** Pengelolaan risiko banjir perkotaan memerlukan pendekatan yang menggabungkan perlindungan daerah resapan, perbaikan drainase, dan pengaturan pemanfaatan lahan. Jika pembangunan terus mengurangi permukaan tanah yang dapat menyerap air tanpa diimbangi sistem pengelolaan limpasan yang memadai, tekanan terhadap saluran drainase akan meningkat. Sebaliknya, mempertahankan area resapan dan memastikan saluran berfungsi baik dapat membantu mengurangi volume air yang harus dialirkan sekaligus memperlambat aliran permukaan. Oleh karena itu, pengendalian banjir perlu mempertimbangkan hubungan antara kondisi lahan, kemampuan tanah menyerap air, dan kapasitas infrastruktur perkotaan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada paragraf berapakah dijelaskan bahwa ruang terbuka hijau dapat membantu mengurangi limpasan, tetapi tidak sepenuhnya menghilangkan risiko banjir?",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Pada paragraf berapakah dijelaskan bahwa ruang terbuka hijau dapat membantu mengurangi limpasan, tetapi tidak sepenuhnya menghilangkan risiko banjir?"
+                }
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf (3) menjelaskan fungsi ruang terbuka hijau dalam meningkatkan penyerapan air melalui tanah dan akar tanaman. Paragraf tersebut juga memberikan batasan bahwa efektivitas daerah resapan dipengaruhi oleh luas area, jenis tanah, intensitas hujan, dan kondisi drainase. Dengan demikian, ruang terbuka hijau membantu mengurangi risiko, tetapi tidak menjamin banjir tidak terjadi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika suatu kawasan perkotaan mengalami peningkatan pembangunan yang menyebabkan semakin banyak permukaan tanah tertutup beton, sementara kapasitas drainase tidak mengalami perubahan, akibat yang paling mungkin terjadi berdasarkan mekanisme dalam bacaan adalah ....",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Jika suatu kawasan perkotaan mengalami peningkatan pembangunan yang menyebabkan semakin banyak permukaan tanah tertutup beton, sementara kapasitas drainase tidak mengalami perubahan, akibat yang paling mungkin terjadi berdasarkan mekanisme dalam bacaan adalah ...."
+                }
+              ]
+            }
+          ],
+          "opsi": {
+            "A": "Infiltrasi meningkat karena air hujan lebih cepat dialirkan menuju saluran drainase.",
+            "B": "Volume limpasan permukaan berpotensi meningkat sehingga saluran drainase lebih mudah mengalami kelebihan kapasitas.",
+            "C": "Risiko banjir menurun karena permukaan beton mempercepat pengaliran air menuju sungai.",
+            "D": "Air tanah bertambah karena lapisan kedap air mencegah air hujan keluar dari permukaan tanah.",
+            "E": "Kapasitas drainase meningkat secara alami karena pembangunan memperluas permukaan kawasan perkotaan."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "**A tidak tepat.** Permukaan beton justru menghambat infiltrasi karena air lebih sulit masuk ke dalam tanah.",
+                "**B tepat.** Berkurangnya permukaan yang dapat menyerap air menyebabkan limpasan meningkat. Jika kapasitas drainase tetap, volume air yang masuk dapat melampaui kemampuan saluran sehingga risiko genangan dan banjir meningkat.",
+                "**C tidak tepat.** Meskipun air dapat mengalir lebih cepat di permukaan kedap air, peningkatan limpasan justru dapat membebani saluran drainase. Percepatan aliran tidak otomatis mengurangi risiko banjir.",
+                "**D tidak tepat.** Lapisan kedap air menghambat air hujan meresap ke dalam tanah sehingga tidak mendukung penambahan air tanah melalui infiltrasi.",
+                "**E tidak tepat.** Pembangunan kawasan tidak secara otomatis meningkatkan kapasitas drainase. Kapasitas tersebut bergantung pada ukuran, kondisi, dan kemampuan infrastruktur saluran."
+              ]
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan hubungan informasi dan mekanisme yang dijelaskan dalam bacaan, tentukan Benar atau Salah untuk setiap pernyataan berikut.",
+              "tambahan": [
+                {
+                  "alasan": "contoh soal tanpa tanda",
+                  "isi": "Berdasarkan hubungan informasi dan mekanisme yang dijelaskan dalam bacaan, tentukan Benar atau Salah untuk setiap pernyataan berikut."
+                }
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Peningkatan permukaan kedap air dapat memperbesar limpasan karena mengurangi bagian air hujan yang meresap ke dalam tanah.",
+                  "✓",
+                  ""
+                ],
+                [
+                  "2",
+                  "Pembangunan ruang terbuka hijau dalam jumlah tertentu menjamin banjir tidak akan terjadi meskipun saluran drainase mengalami penyumbatan.",
+                  "",
+                  "✓"
+                ],
+                [
+                  "3",
+                  "Pengendalian banjir yang hanya berfokus pada perbaikan drainase belum tentu cukup apabila pembangunan terus mengurangi daerah resapan air.",
+                  "✓",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. **Benar.** Paragraf (1) dan (2) menjelaskan bahwa infiltrasi memungkinkan air masuk ke dalam tanah, sedangkan permukaan kedap air menghambat proses tersebut. Akibatnya, bagian air yang menjadi limpasan meningkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. **Salah.** Paragraf (3) secara jelas menyatakan bahwa ruang terbuka hijau bukan satu-satunya solusi dan tidak otomatis menghilangkan risiko banjir. Penyumbatan drainase juga dapat meningkatkan risiko genangan dan banjir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. **Benar.** Paragraf (4) menjelaskan bahwa pengelolaan risiko banjir membutuhkan kombinasi perlindungan daerah resapan, perbaikan drainase, dan pengaturan pemanfaatan lahan. Jika daerah resapan terus berkurang, beban terhadap drainase dapat meningkat meskipun salurannya diperbaiki."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

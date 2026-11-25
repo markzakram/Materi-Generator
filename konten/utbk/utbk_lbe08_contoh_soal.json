@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Contextual Grammar and Meaning",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Contextual Grammar and Meaning",
+    "sumber": "https://docs.google.com/document/d/17F8qDfZysy6pEQaIZxDWrsyoa5Vs0dSNl7JpVlukQwc/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-08-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "In 2023, a marine laboratory began testing sensors designed to detect changes in water salinity. Before the first trial started, technicians had calibrated every instrument. During the trial, researchers were recording measurements when a power interruption stopped the equipment. The team later repaired the system and resumed testing. In its report, the laboratory stated that the sensors might improve early detection of unusual salinity changes, but further trials were required before routine deployment. The report also recommended that technicians regularly verify the accuracy of recorded data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "During a later laboratory meeting, the team distinguished observations from conclusions. The sensors had recorded several unusual readings, but those measurements were not yet sufficient to identify the source of changing salinity. Engineers also noted that a correctly calibrated instrument could still produce misleading results if it was placed in an unsuitable location."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "For the next phase, researchers planned to repeat the procedure under varying water conditions and to compare their results with reference instruments. The laboratory wanted to avoid stating that the technology would always detect every change until more extensive testing had been completed."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Complete the following sentence using exactly one word or number from the passage. Do not use synonyms."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "In its report, the laboratory stated that the sensors ______ improve early detection of unusual salinity changes, but further trials were required before routine deployment."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: might"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada materi Contextual Grammar and Meaning, might adalah modal verb yang menandai kemungkinan manfaat sensor, bukan hasil yang telah terjamin. Kalimat berikutnya menegaskan perlunya pengujian lanjutan sebelum penggunaan rutin. Karena soal berupa pelengkapan kalimat asli, jawaban yang tepat hanya might; may, could, dan will tidak digunakan pada posisi tersebut dalam stimulus."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "What does 'might improve' indicate?"
+            }
+          ],
+          "opsi": {
+            "A": "A benefit already verified through complete independent validation trials.",
+            "B": "A required technical improvement before ordinary sensor use begins.",
+            "C": "A possible improvement that remains subject to further testing.",
+            "D": "An unlikely outcome contradicted by the preliminary sensor readings.",
+            "E": "A temporary effect limited to laboratory calibration activities."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan menguji derajat kepastian dari frasa might improve dalam laporan penelitian. Modal might menyatakan kemungkinan, bukan kepastian atau kewajiban. Penulis juga menyebut further trials were required before routine deployment. Jadi opsi C benar: manfaat sensor berpotensi terjadi, tetapi belum terkonfirmasi melalui uji yang cukup. Pada Contextual Grammar and Meaning, perubahan might menjadi will definitely akan mengubah makna dan tingkat kepastian klaim penulis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena laporan belum menyatakan validasi independen telah selesai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B salah karena might tidak menyatakan kewajiban dan tidak menamai jenis perbaikan yang harus dilakukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena hasil awal tidak membantah kemungkinan manfaat sensor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena potensi deteksi dini tidak dibatasi pada aktivitas kalibrasi laboratorium."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "'Regularly' functions as an adjective modifying 'technicians'.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "'Had calibrated' indicates calibration before the first trial.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "'Were recording' describes an activity in progress when power failed.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The report says routine deployment is already fully justified.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Contextual Grammar and Meaning, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Salah): regularly merupakan adverbia yang menerangkan verify."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Benar): past perfect dan before memperjelas urutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Benar): past continuous menunjukkan proses berlangsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Salah): masih diperlukan pengujian lanjutan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,1828 @@
+{
+  "meta": {
+    "judul": "Specific and Explicit Information",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Specific and Explicit Information",
+    "sumber": "https://docs.google.com/document/d/1aF9jvxpRm8WlEZ-4oOCwXCFSCARmZpVE2bpAZf_hrHI/edit",
+    "id_katalog": "lbe-01"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Specific and Explicit Information merupakan salah satu keterampilan dasar dalam Literasi Bahasa Inggris yang berfokus pada kemampuan menemukan, memahami, dan mengidentifikasi informasi yang dinyatakan secara langsung dalam sebuah teks. Materi ini mencakup pencarian informasi spesifik, seperti nama, waktu, tempat, jumlah, alasan, dan persyaratan, serta pemahaman terhadap fakta dan pernyataan yang secara eksplisit disampaikan oleh penulis. Dalam menguasai keterampilan ini, peserta perlu menerapkan strategi membaca seperti scanning untuk menemukan informasi yang relevan, mengenali parafrasa, serta membedakan informasi yang sesuai dengan teks dari pernyataan yang mengalami perubahan makna. Penguasaan materi ini menjadi fondasi penting untuk menjawab soal Literasi Bahasa Inggris UTBK-SNBT secara akurat, kritis, dan efisien sebelum mempelajari keterampilan membaca yang lebih kompleks."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian dan karakteristik specific information, detailed information, dan explicit information."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "informasi rinci dari gagasan utama serta informasi tersurat dari informasi tersirat."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "rincian berdasarkan unsur who, what, when, where, why, how, dan how many."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "teknik skimming, scanning, dan close reading secara tepat."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "informasi yang disampaikan melalui parafrasa dan struktur kalimat yang berbeda."
+      },
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "batasan informasi berupa negasi, kuantitas, modalitas, dan kondisi."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "ketidaksesuaian antara pernyataan dalam opsi dan informasi pada bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "jawaban berdasarkan bukti tekstual tanpa menambahkan asumsi yang tidak didukung."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Specific and Explicit Information",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Specific and Explicit Information",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Specific Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Specific information merupakan informasi tertentu yang terdapat dalam sebuah teks dan berkaitan langsung dengan rincian yang ditanyakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini dapat berupa nama individu, waktu kejadian, tempat, angka, jumlah, alasan, tujuan suatu tindakan, prosedur, atau ketentuan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam membaca teks bahasa Inggris, kemampuan mengidentifikasi specific information sangat penting karena tidak setiap pertanyaan meminta peserta memahami keseluruhan bacaan. Sebagian pertanyaan hanya menuntut pembaca menemukan satu atau beberapa fakta yang relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "CONTOH TEKS"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The university library will extend its opening hours during the examination period. Starting on Monday, the library will remain open until 10 p.m. on weekdays. However, the new schedule will not apply on weekends."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Question: Until what time will the library remain open on weekdays?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Answer: Until 10 p.m."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan tersebut menguji kemampuan menemukan informasi waktu yang secara langsung disebutkan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Detailed Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Detailed information adalah informasi yang menjelaskan suatu fakta, peristiwa, gagasan, atau tindakan secara lebih khusus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rincian ini berfungsi memberikan penjelasan tambahan sehingga suatu informasi dapat dipahami dengan lebih tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai contoh, perhatikan kalimat berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The company introduced a transportation allowance for employees who work at least four days a week at the office."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat tersebut memuat beberapa informasi:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Perusahaan memperkenalkan tunjangan transportasi.",
+                "Penerimanya adalah karyawan.",
+                "Tunjangan hanya berlaku bagi karyawan yang bekerja di kantor sekurang-kurangnya empat hari dalam seminggu."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rincian ketiga sangat penting karena membatasi kelompok penerima tunjangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apabila suatu opsi menyatakan bahwa all employees receive a transportation allowance, opsi tersebut tidak sesuai dengan teks karena menghilangkan persyaratan jumlah hari bekerja di kantor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, memahami detailed information tidak hanya berarti mengetahui fakta utama, tetapi juga memahami unsur yang membatasi keberlakuan fakta tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Explicit Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Explicit information adalah informasi yang dinyatakan secara jelas atau langsung dalam suatu teks. Informasi eksplisit dapat diperoleh tanpa membuat kesimpulan tambahan yang tidak disampaikan oleh penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meskipun disebut informasi langsung, bentuk pernyataannya tidak harus sama persis dengan kalimat pada opsi jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "KALIMAT SUMBER"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Several students submitted their assignments before the deadline, but two students requested an extension."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Two students asked for additional time to submit their assignments."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "All students completed their assignments before the deadline."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan pertama mempertahankan informasi bahwa dua siswa meminta tambahan waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan kedua tidak sesuai karena teks tidak menyatakan bahwa seluruh siswa telah menyelesaikan tugas sebelum tenggat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh ini memperlihatkan bahwa informasi eksplisit harus dipahami berdasarkan makna, bukan sekadar kemiripan kata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Specific, Detailed, dan Explicit Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga konsep tersebut memiliki hubungan yang erat, tetapi fokusnya berbeda."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Specific/Detailed Information",
+                "Explicit Information"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Rincian tertentu dalam teks",
+                  "Informasi yang secara langsung dinyatakan"
+                ],
+                [
+                  "Sasaran",
+                  "Nama, waktu, tempat, jumlah, alasan, syarat",
+                  "Fakta, pernyataan, dan makna yang didukung langsung"
+                ],
+                [
+                  "Proses utama",
+                  "Menemukan dan memeriksa rincian",
+                  "Memahami dan memverifikasi makna"
+                ],
+                [
+                  "Bentuk pertanyaan",
+                  "Who, when, where, how many, according to",
+                  "Which statement is supported/consistent"
+                ],
+                [
+                  "Kesalahan umum",
+                  "Salah menemukan rincian",
+                  "Salah menginterpretasikan cakupan informasi"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "CONTOH"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Teks Stimulus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The school launched a free English tutoring program on April 15, 2025, to help students improve their reading comprehension skills. The program is held every Tuesday and Thursday in the school library. Students must register online before attending the sessions."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Terjemahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah meluncurkan program bimbingan belajar bahasa Inggris gratis pada 15 April 2025 untuk membantu siswa meningkatkan kemampuan pemahaman bacaan mereka. Program tersebut dilaksanakan setiap Selasa dan Kamis di perpustakaan sekolah. Siswa harus mendaftar secara daring sebelum mengikuti sesi pembelajaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Specific/Detailed Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fokusnya adalah menemukan rincian tertentu yang secara spesifik disebutkan dalam teks, seperti tanggal, tempat, jadwal, tujuan, atau persyaratan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh pertanyaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>When was the English tutoring program launched?</i>"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Explicit Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fokusnya adalah **mengidentifikasi pernyataan yang secara langsung didukung oleh teks**, termasuk informasi yang disajikan kembali melalui parafrasa tanpa mengubah maknanya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh pertanyaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Which of the following statements is explicitly supported by the passage?</i>"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Explicit dan Implicit Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemahaman informasi eksplisit perlu dibedakan dari informasi implisit atau tersirat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Explicit information merupakan informasi yang disampaikan secara langsung, sedangkan implicit information merupakan informasi yang diperoleh melalui penalaran terhadap petunjuk dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The research team postponed its fieldwork after several days of heavy rainfall made the mountain roads inaccessible."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Explicit information:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Tim peneliti menunda kegiatan lapangan.",
+                "Hujan deras berlangsung selama beberapa hari.",
+                "Jalan pegunungan tidak dapat dilalui.",
+                "Penundaan dilakukan setelah kondisi jalan tersebut menghambat kegiatan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Possible inference:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Tim peneliti kemungkinan mempertimbangkan akses transportasi sebelum melanjutkan kegiatan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi tersebut masuk akal, tetapi tidak dinyatakan secara langsung oleh penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal Explicit Information, jawaban harus didasarkan pada informasi yang benar-benar dinyatakan, bukan dugaan yang terlihat logis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jenis-Jenis Informasi Spesifik dalam Teks",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jenis-Jenis Informasi Spesifik dalam Teks",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menemukan informasi dengan akurat, peserta perlu mengenali karakteristik rincian yang sering muncul dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Information about People (Who)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini berkaitan dengan individu, kelompok, lembaga, atau pihak yang melakukan tindakan maupun menerima dampaknya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan yang umum digunakan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Who conducted the research?",
+                "Who was responsible for the program?",
+                "Which group benefited from the policy?",
+                "Who was excluded from the initiative?"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The survey was conducted by independent researchers, while the university provided administrative support."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pihak yang melakukan survei adalah independent researchers, bukan universitas. Universitas berperan memberikan dukungan administratif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu teks dapat menyebutkan beberapa pihak dengan peran berbeda sehingga peserta harus memeriksa siapa melakukan apa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Information about Time (When)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini meliputi tanggal, tahun, durasi, urutan waktu, tenggat, dan periode keberlakuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The museum began its renovation in March 2023 and reopened to the public eighteen months later."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks mengandung dua informasi waktu: awal renovasi dan waktu pembukaan kembali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan When did the renovation begin? harus dijawab berdasarkan waktu dimulainya renovasi, bukan waktu museum kembali beroperasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta perlu membedakan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "before dan after;",
+                "since dan until;",
+                "during dan following;",
+                "previously dan subsequently;",
+                "no later than dan no earlier than."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Information about Place (Where)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tempat menunjukkan lokasi suatu kegiatan, asal suatu objek, tujuan perjalanan, atau wilayah keberlakuan kebijakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Although the company is headquartered in Singapore, its manufacturing facilities are located in Vietnam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks membedakan lokasi kantor pusat dan fasilitas produksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pertanyaannya menanyakan tempat produksi, jawaban yang benar adalah Vietnam, bukan Singapura."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Information about Quantity (How Many/How Much)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi kuantitatif mencakup angka, persentase, proporsi, perbandingan, dan perubahan jumlah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Approximately 60% of participants completed the online training, while only 25% attended the optional workshop."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks membicarakan dua aktivitas dengan persentase berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta harus memperhatikan hubungan angka dengan aktivitas yang diukurnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selain angka, informasi kuantitatif juga dapat berbentuk:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Ungkapan",
+                "Makna"
+              ],
+              "baris": [
+                [
+                  "All",
+                  "Seluruh anggota kelompok yang dimaksud"
+                ],
+                [
+                  "Most",
+                  "Sebagian besar"
+                ],
+                [
+                  "Some",
+                  "Sebagian; jumlah pastinya tidak disebutkan"
+                ],
+                [
+                  "Several",
+                  "Beberapa"
+                ],
+                [
+                  "At least",
+                  "Sekurang-kurangnya"
+                ],
+                [
+                  "At most",
+                  "Paling banyak"
+                ],
+                [
+                  "More than",
+                  "Lebih dari"
+                ],
+                [
+                  "Fewer than",
+                  "Kurang dari, untuk nomina yang dapat dihitung"
+                ],
+                [
+                  "No more than",
+                  "Tidak lebih dari"
+                ],
+                [
+                  "Approximately",
+                  "Sekitar atau kurang lebih"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Information about Reasons (Why)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi alasan menjelaskan faktor yang menyebabkan atau melatarbelakangi suatu tindakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penandanya antara lain:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "because;",
+                "since;",
+                "due to;",
+                "owing to;",
+                "as a result of;",
+                "prompted by."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The school postponed the outdoor event because strong winds were expected throughout the afternoon."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan penundaan adalah perkiraan angin kencang, bukan karena kegiatan tidak diminati atau fasilitas tidak tersedia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal informasi spesifik, alasan harus berasal dari bacaan. Peserta tidak boleh menggantikannya dengan alasan lain yang terdengar masuk akal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Information about Methods and Processes (How)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini menjelaskan cara, mekanisme, prosedur, atau tahapan suatu kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers collected data by distributing digital questionnaires to households in five districts."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Metode pengumpulan data adalah penyebaran kuesioner digital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pertanyaannya menanyakan metode, jawaban tidak boleh berupa tujuan penelitian atau lokasi pelaksanaannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Information about Conditions and Requirements"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi persyaratan menjelaskan kondisi yang harus dipenuhi agar suatu tindakan, fasilitas, atau kebijakan dapat berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda yang umum digunakan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "if;",
+                "only if;",
+                "provided that;",
+                "unless;",
+                "as long as;",
+                "subject to;",
+                "eligible for."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Applicants may receive financial assistance provided that their household income falls below the specified threshold."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bantuan keuangan bersifat bersyarat. Tidak semua pelamar otomatis memperolehnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jenis rincian ini sering menjadi sumber pengecoh karena suatu opsi dapat mempertahankan informasi utama tetapi menghilangkan syarat yang menentukan keberlakuannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Information about Exceptions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi pengecualian menunjukkan keadaan atau kelompok yang tidak termasuk dalam aturan umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penanda yang sering digunakan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "except;",
+                "excluding;",
+                "with the exception of;",
+                "other than;",
+                "apart from."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "All laboratory facilities will remain accessible during the holiday period, except the chemistry laboratory."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan bahwa seluruh laboratorium tetap dapat diakses tidak sesuai karena terdapat satu pengecualian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam membaca teks, pengecualian harus diperlakukan sebagai bagian penting dari fakta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Teknik Membaca untuk Menemukan Informasi",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teknik Membaca untuk Menemukan Informasi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Skimming"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Skimming merupakan teknik membaca cepat untuk memperoleh gambaran umum mengenai topik, struktur, dan isi suatu bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik ini tidak bertujuan menemukan setiap rincian, tetapi membantu pembaca memahami arah pembahasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pelaksanaannya, peserta dapat memperhatikan judul, kalimat pembuka, kalimat topik, serta perubahan fokus antarapagraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah bacaan terdiri atas empat paragraf yang masing-masing membahas:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Paragraf",
+                "Isi utama"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Permasalahan limbah plastik di wilayah pesisir"
+                ],
+                [
+                  "2",
+                  "Program pengumpulan sampah oleh masyarakat"
+                ],
+                [
+                  "3",
+                  "Kendala pendanaan dan pengelolaan"
+                ],
+                [
+                  "4",
+                  "Dampak program setelah satu tahun"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Melalui skimming, peserta memperoleh peta isi bacaan sebelum mencari rincian tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pertanyaan menanyakan kendala pendanaan, peserta dapat mengarahkan pencarian ke paragraf ketiga."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Scanning"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Scanning merupakan teknik membaca terarah untuk menemukan informasi tertentu dengan menggunakan petunjuk atau kata kunci."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik ini paling relevan untuk Specific/Detailed Information."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berbeda dari skimming, scanning tidak mengharuskan peserta membaca seluruh teks secara berurutan. Pembaca mencari lokasi informasi yang diperlukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah-langkahnya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Mengidentifikasi informasi yang ditanyakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Menentukan kata kunci yang relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Mencari kata kunci atau padanan maknanya dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Membaca kalimat tempat informasi ditemukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Memeriksa kalimat sebelum atau sesudahnya apabila terdapat syarat, pengecualian, atau penjelasan tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Question:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "How many households participated in the initial survey?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kunci yang dapat digunakan adalah households, participated, initial, dan survey."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta kemudian mencari rincian jumlah rumah tangga pada bagian yang membahas survei awal, bukan membaca seluruh bacaan dengan intensitas yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Close Reading"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Close reading merupakan pembacaan secara teliti untuk memahami makna dan hubungan antarunsur bahasa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik ini diperlukan setelah peserta menemukan bagian teks yang tampaknya berisi jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The program initially served 300 households, but its coverage expanded to 750 households after additional funding became available."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pertanyaannya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "How many households did the program initially serve?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawabannya adalah 300 households, bukan 750."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Scanning membantu menemukan angka yang relevan, sedangkan close reading membantu memahami perbedaan antara jumlah awal dan jumlah setelah perluasan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Memahami Parafrasa dalam Informasi Tersurat",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memahami Parafrasa dalam Informasi Tersurat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Salah satu tantangan penting pada soal Specific and Explicit Information adalah perbedaan redaksi antara informasi pada bacaan dan opsi jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi benar tidak selalu mengulangi kata-kata yang terdapat dalam teks. Informasi yang sama dapat disampaikan melalui ungkapan atau struktur kalimat berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kemampuan memahami kesetaraan makna ini disebut paraphrase recognition."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Lexical Paraphrase"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lexical paraphrase terjadi ketika kata atau frasa diganti dengan padanan makna yang sesuai konteks."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Ungkapan pada teks",
+                "Kemungkinan parafrasa"
+              ],
+              "baris": [
+                [
+                  "Purchase",
+                  "Buy"
+                ],
+                [
+                  "Obtain",
+                  "Acquire"
+                ],
+                [
+                  "Postpone",
+                  "Delay"
+                ],
+                [
+                  "Reduce",
+                  "Decrease"
+                ],
+                [
+                  "Require",
+                  "Need"
+                ],
+                [
+                  "Approximately",
+                  "Roughly"
+                ],
+                [
+                  "Due to",
+                  "Because of"
+                ],
+                [
+                  "A substantial increase",
+                  "A considerable rise"
+                ],
+                [
+                  "No longer available",
+                  "Has become unavailable"
+                ],
+                [
+                  "Provide financial support",
+                  "Offer funding"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Padanan tersebut harus dinilai berdasarkan konteks. Dua kata yang berdekatan maknanya tidak selalu dapat saling menggantikan dalam seluruh kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Structural Paraphrase"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Structural paraphrase terjadi ketika susunan kalimat berubah tanpa mengubah informasi yang disampaikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The local government introduced the program in 2022."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Parafrasa:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The program was introduced by the local government in 2022."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan struktur aktif dan pasif tidak mengubah pelaku, tindakan, atau waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, perubahan dari the local government menjadi a private organization akan mengubah pelaku tindakan sehingga pernyataannya tidak lagi setara."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Nominalization"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nominalization terjadi ketika suatu tindakan atau keadaan dinyatakan melalui bentuk nomina."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The company reduced its energy consumption by 20%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Parafrasa:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The company achieved a 20% reduction in energy consumption."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua kalimat menyampaikan penurunan konsumsi energi sebesar 20%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta perlu mengenali hubungan antara bentuk verba reduce dan nomina reduction."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Equivalent Negative Expressions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna negasi juga dapat dinyatakan melalui beberapa bentuk yang setara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers did not find sufficient evidence to support the claim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Parafrasa:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers found insufficient evidence to support the claim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua kalimat menunjukkan bahwa bukti yang ditemukan belum memadai untuk mendukung klaim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, kalimat tersebut tidak sama dengan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers proved that the claim was false."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak menemukan bukti yang cukup bukan berarti telah membuktikan bahwa klaim tersebut salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengenali Parafrasa yang Tidak Setara"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesamaan sebagian kata tidak menjamin kesamaan makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan perbedaan berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kalimat sumber",
+                "Pernyataan pembanding",
+                "Status"
+              ],
+              "baris": [
+                [
+                  "Some students attended.",
+                  "Several students attended.",
+                  "Tidak selalu setara secara presisi"
+                ],
+                [
+                  "All students attended.",
+                  "Every student attended.",
+                  "Setara"
+                ],
+                [
+                  "The event may be postponed.",
+                  "The event will be postponed.",
+                  "Tidak setara"
+                ],
+                [
+                  "The policy applies to rural schools.",
+                  "The policy applies to all schools.",
+                  "Tidak setara"
+                ],
+                [
+                  "The study began in June.",
+                  "The research started in June.",
+                  "Setara dalam konteks yang sesuai"
+                ],
+                [
+                  "The program reduced costs.",
+                  "The program eliminated costs.",
+                  "Tidak setara"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Ketepatan Makna: Subjek, Cakupan, Kondisi, dan Kepastian",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ketepatan Makna: Subjek, Cakupan, Kondisi, dan Kepastian",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kurikulum, peserta dituntut mampu menganalisis pernyataan yang menggeser subjek, cakupan, atau kondisi dari informasi sumber."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Subject Shift: Pergeseran Subjek"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran subjek terjadi ketika pihak yang melakukan tindakan atau mengalami suatu keadaan berbeda dari informasi sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The environmental agency collected the samples, while university researchers analyzed them."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran makna yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "University researchers collected and analyzed the samples."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahannya terletak pada pelaku pengumpulan sampel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks menyatakan bahwa lembaga lingkungan mengumpulkan sampel, sedangkan peneliti universitas menganalisisnya.Opsi tersebut menggabungkan dua tindakan yang dilakukan oleh pihak berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Scope Shift: Pergeseran Cakupan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran cakupan terjadi ketika suatu pernyataan memperluas atau mempersempit kelompok, wilayah, atau kondisi yang dibahas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Several public schools introduced digital attendance systems."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran cakupan yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Every public school introduced a digital attendance system."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata several menunjukkan beberapa sekolah, sedangkan every mencakup seluruh sekolah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Condition Shift: Pergeseran Persyaratan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran kondisi terjadi ketika syarat keberlakuan suatu informasi dihapus, diganti, atau diubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students can borrow laboratory equipment if they have completed the required safety training."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran persyaratan yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "All students can borrow laboratory equipment without completing safety training."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata if merupakan unsur penting karena menghubungkan hak meminjam peralatan dengan pelatihan keselamatan yang diwajibkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Certainty Shift: Pergeseran Tingkat Kepastian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran kepastian terjadi ketika pernyataan yang masih berupa kemungkinan diubah menjadi kepastian atau sebaliknya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new treatment may improve recovery rates among some patients."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tingkat Kepastian yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new treatment will improve recovery rates among all patients."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat dua perubahan makna:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "May berubah menjadi will, sehingga kemungkinan menjadi kepastian.",
+                "Some patients berubah menjadi all patients, sehingga cakupan kelompok diperluas."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Time Shift: Pergeseran Waktu"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran waktu terjadi ketika tanggal, durasi, atau urutan suatu peristiwa berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers completed the preliminary tests before launching the full-scale experiment."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran Waktu yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers launched the full-scale experiment before completing the preliminary tests."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahannya terletak pada pembalikan urutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam membaca informasi eksplisit, kata before, after, until, dan since harus diperiksa secara cermat karena dapat menentukan hubungan antarkejadian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Negation Shift: Pergeseran Negasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran negasi terjadi ketika penolakan, pembatasan, atau ketiadaan suatu informasi diubah menjadi pernyataan positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The report did not identify a significant difference between the two groups."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran Negasi yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The report identified a significant difference between the two groups."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Degree Shift: Pergeseran Derajat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran derajat terjadi ketika intensitas atau besarnya suatu keadaan diubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new approach significantly reduced processing time."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran Derajat yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new approach completely eliminated processing time."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reduced menunjukkan pengurangan, sedangkan completely eliminated menunjukkan penghilangan sepenuhnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengurangan yang signifikan tidak selalu berarti penghilangan total."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Unsupported Addition: Penambahan Informasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengecoh dapat berupa informasi tambahan yang tidak disebutkan dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sumber:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The school introduced a free breakfast program for students from low-income households."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penambahan informasi yang tidak didukung:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The school introduced the free breakfast program because students had complained about food prices."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks menjelaskan kelompok sasaran program, tetapi tidak menyebutkan bahwa program tersebut dibuat karena keluhan siswa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Sistematis Menjawab Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Sistematis Menjawab Soal",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Tahap 1. Question Analysis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah pertama adalah menentukan informasi yang diminta soal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "According to the passage, why was the environmental program delayed?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata why menunjukkan bahwa peserta harus menemukan alasan penundaan program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kuncinya meliputi:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "environmental program;",
+                "delayed;",
+                "reason or cause."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta sebaiknya tidak langsung membaca opsi sebelum memahami jenis informasi yang dicari, karena opsi yang tampak menarik dapat mengalihkan perhatian dari pertanyaan utama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tahap 2. Evidence Location"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah menentukan sasaran pertanyaan, peserta mencari lokasi informasi pada teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan bacaan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The local government planned to launch a recycling program in January. However, the implementation was postponed until March because several waste-processing facilities had not completed the required safety inspections."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan sebelumnya menanyakan alasan penundaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti tekstual yang relevan adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "\"... because several waste-processing facilities had not completed the required safety inspections.\""
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta telah menemukan kalimat yang secara langsung menjelaskan penyebab penundaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tahap 3. Meaning Interpretation"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tahap ini, peserta memahami makna informasi sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan kalimat tersebut, penundaan terjadi karena beberapa fasilitas pengolahan limbah belum menyelesaikan pemeriksaan keselamatan yang diwajibkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna ini harus dipertahankan ketika peserta membaca pilihan jawaban."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. The government had decided to cancel the recycling program permanently."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. The program was delayed because some facilities had not completed necessary safety checks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. The recycling facilities were closed because the government had reduced their budgets."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. The program was postponed because residents opposed the use of recycling facilities."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. The implementation was delayed until all residents had received environmental training."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban yang sesuai adalah B."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tahap 4. Option Verification"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap opsi harus diperiksa terhadap bukti tekstual."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Opsi",
+                "Hasil pemeriksaan"
+              ],
+              "baris": [
+                [
+                  "A",
+                  "Salah. Penundaan tidak sama dengan pembatalan permanen."
+                ],
+                [
+                  "B",
+                  "Benar. Maknanya sesuai dengan alasan pada bacaan."
+                ],
+                [
+                  "C",
+                  "Salah. Tidak terdapat informasi mengenai pengurangan anggaran."
+                ],
+                [
+                  "D",
+                  "Salah. Tidak disebutkan penolakan warga."
+                ],
+                [
+                  "E",
+                  "Salah. Pelatihan warga tidak disebutkan sebagai persyaratan."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi ini dapat diterapkan baik untuk pertanyaan yang meminta satu rincian maupun pertanyaan yang meminta pernyataan yang sesuai dengan keseluruhan bacaan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Karakteristik Pertanyaan dan Pola Soal",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Karakteristik Pertanyaan dan Pola Soal",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Specific/Detailed Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk pertanyaan yang dapat digunakan antara lain:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola pertanyaan",
+                "Informasi yang diuji"
+              ],
+              "baris": [
+                [
+                  "According to the passage, who ...?",
+                  "Pelaku atau pihak terkait"
+                ],
+                [
+                  "When did ... occur?",
+                  "Waktu"
+                ],
+                [
+                  "Where was ... conducted?",
+                  "Tempat"
+                ],
+                [
+                  "How many ... were involved?",
+                  "Jumlah"
+                ],
+                [
+                  "Why did ... decide to ...?",
+                  "Alasan"
+                ],
+                [
+                  "How did the researchers ...?",
+                  "Metode"
+                ],
+                [
+                  "What was required for ...?",
+                  "Persyaratan"
+                ],
+                [
+                  "Under what condition could ...?",
+                  "Kondisi keberlakuan"
+                ],
+                [
+                  "Which factor contributed to ...?",
+                  "Faktor penyebab"
+                ],
+                [
+                  "What happened after ...?",
+                  "Urutan peristiwa"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tingkat yang lebih menantang, bentuk pertanyaan mungkin tidak langsung menyebutkan unsur who, when, atau where."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Which circumstance prompted the organization to revise its original plan?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan tersebut tetap meminta informasi alasan, yaitu keadaan yang mendorong perubahan rencana."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Explicit Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk pertanyaan yang umum antara lain:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola pertanyaan",
+                "Tugas peserta"
+              ],
+              "baris": [
+                [
+                  "Which statement is explicitly supported by the passage?",
+                  "Memilih pernyataan yang didukung langsung"
+                ],
+                [
+                  "Which statement is consistent with the text?",
+                  "Memeriksa kesesuaian makna"
+                ],
+                [
+                  "According to the passage, which of the following is true?",
+                  "Mengidentifikasi fakta yang benar"
+                ],
+                [
+                  "Which statement accurately reflects the information presented?",
+                  "Memeriksa akurasi pernyataan"
+                ],
+                [
+                  "What does the passage state about ...?",
+                  "Menentukan informasi yang dinyatakan"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk lain, seperti Which statement is NOT supported by the passage?, menggunakan keterampilan verifikasi yang sama tetapi mengubah arah pencarian menjadi identifikasi pernyataan yang tidak didukung."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kesalahan Umum dan Strategi Menghindarinya",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kesalahan Umum dan Strategi Menghindarinya",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Keyword Matching tanpa Verifikasi Makna"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta memilih opsi karena menemukan banyak kata yang sama dengan bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Padahal, kesamaan kata dapat disertai perubahan subjek, waktu, atau negasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi: Periksa hubungan makna antarkata, bukan hanya kemiripan kosakata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengabaikan Pembatas Informasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta menemukan fakta utama tetapi melewatkan kata some, only, unless, atau may."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi: Setelah menemukan bukti, periksa apakah kalimat mengandung syarat, pembatas, atau pengecualian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menggunakan Pengetahuan di Luar Teks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta memilih jawaban berdasarkan informasi umum yang telah diketahui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi: Perlakukan teks sebagai sumber pembuktian utama. Pengetahuan luar boleh membantu memahami istilah, tetapi tidak boleh menggantikan bukti ketika soal meminta informasi yang terdapat dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mencampuradukkan Informasi dari Beberapa Pihak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesalahan ini sering muncul pada teks diskusi atau laporan yang melibatkan beberapa kelompok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi: Identifikasi pembicara, pelaku, dan objek tindakan secara terpisah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menyamakan Kemungkinan dengan Kepastian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta menginterpretasikan may, might, atau could sebagai hasil yang pasti terjadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi: Pertahankan tingkat kepastian dan kondisi yang digunakan penulis."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tidak Membaca Kalimat Sekitar Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta hanya membaca satu frasa yang mengandung kata kunci."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Padahal, kalimat selanjutnya mungkin menyampaikan pengecualian atau pembatas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi: Baca konteks lokal, terutama kalimat sebelum dan setelah bukti utama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Menemukan informasi spesifik dan eksplisit merupakan keterampilan memahami rincian yang disampaikan secara langsung dalam bacaan. Informasi spesifik berfokus pada unsur tertentu, seperti waktu, jumlah, usia, lokasi, syarat, kegiatan, dan pihak yang terlibat, sedangkan informasi eksplisit merupakan keterangan yang memang dinyatakan oleh penulis tanpa memerlukan dugaan tambahan. Kedua konsep tersebut saling beririsan: sebuah angka atau ketentuan dapat sekaligus menjadi informasi spesifik dan eksplisit, tetapi pertanyaan akan menentukan rincian mana yang harus diambil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi membaca yang penting adalah mengidentifikasi kata kunci pertanyaan, menemukan kalimat yang relevan, lalu mencocokkan subjek, tindakan, jumlah, dan batasan yang disebutkan. Dalam stimulus lokakarya perpustakaan, misalnya, jumlah warga yang mendaftar berbeda dari jumlah warga yang setidaknya sekali hadir; kapasitas ruangan juga merupakan angka lain yang tidak boleh tertukar. Demikian pula, kelas yang berlangsung setiap Sabtu tidak otomatis berarti peserta diwajibkan hadir pada setiap pertemuan. Istilah seperti only, at least, must, optional, dan every perlu diperiksa karena menentukan cakupan fakta."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Specific and Explicit Information",
+        "teks": ""
+      },
+      {
+        "judul": "Jenis-Jenis Informasi Spesifik dalam Teks",
+        "teks": ""
+      },
+      {
+        "judul": "Teknik Membaca untuk Menemukan Informasi",
+        "teks": ""
+      },
+      {
+        "judul": "Memahami Parafrasa dalam Informasi Tersurat",
+        "teks": ""
+      },
+      {
+        "judul": "Ketepatan Makna: Subjek, Cakupan, Kondisi, dan Kepastian",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Sistematis Menjawab Soal",
+        "teks": ""
+      },
+      {
+        "judul": "Karakteristik Pertanyaan dan Pola Soal",
+        "teks": ""
+      },
+      {
+        "judul": "Kesalahan Umum dan Strategi Menghindarinya",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan materi ini membentuk dasar akurasi membaca untuk seluruh keterampilan literasi berikutnya. Sebelum menarik inferensi atau mengevaluasi argumen, peserta perlu mampu mengidentifikasi fakta dasar secara tepat. Kebiasaan membedakan pendaftar dari peserta hadir, kewajiban dari pilihan, serta frekuensi dari durasi membantu mencegah kesalahan sederhana yang dapat mengubah makna bacaan."
+  }
+}

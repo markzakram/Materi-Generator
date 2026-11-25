@@ -66,14 +66,22 @@ def _miring(r):
     return i is not None and i.get(f"{W}val") not in ("0", "false")
 
 
-def _disorot(rPr, merah=False):
-    """Run (teks, rumus, gambar) atau tanda paragraf yang diberi sorotan warna; merah: teks merah juga penanda."""
+GANTI_BARIS = " "
+LATAR_HIJAU = ("d9ead3", "b6d7a8")  # hijau muda Google Docs
+
+
+def _disorot(rPr, penanda=""):
+    """Run (teks, rumus, gambar) atau tanda paragraf yang diberi sorotan warna. penanda: 'merah' = teks merah juga
+    penanda; 'hijau' = teks berlatar hijau muda juga penanda."""
     if rPr is None:
         return False
     h = rPr.find(f"{W}highlight")
     if h is not None and h.get(f"{W}val") not in (None, "none", "white"):
         return True
-    return merah and _warna_merah(rPr)
+    if penanda == "hijau":
+        s = rPr.find(f"{W}shd")
+        return s is not None and (s.get(f"{W}fill") or "").lower() in LATAR_HIJAU
+    return penanda == "merah" and _warna_merah(rPr)
 
 
 def _warna_merah(rPr):
@@ -162,14 +170,14 @@ def _coret(r):
     return s is not None and s.get(f"{W}val") not in ("0", "false")
 
 
-def _teks_paragraf(p, miring=False, merah=False, coret=False):
+def _teks_paragraf(p, miring=False, penanda="", coret=False, rumus=None, ganti_baris=False):
     """Teks paragraf dengan markup, daftar gambar (rId, lebar, tinggi, disorot), status tebal/miring penuh, dan
     teks yang hanya memuat kalimat disorot. miring: cetak miring ikut dicatat sebagai <i>..</i>; coret: coretan
     (<s>..</s>) dan angka merah (<r>..</r>) ikut dicatat."""
     potongan, gambar = [], []
     semua_tebal, semua_miring, ada_teks = True, True, False
     latar = _latar_kuning(p)
-    par_disorot = latar or _disorot(p.find(f"{W}pPr/{W}rPr"), merah)
+    par_disorot = latar or _disorot(p.find(f"{W}pPr/{W}rPr"), penanda)
 
     def jalan(el):
         nonlocal semua_tebal, semua_miring, ada_teks
@@ -178,40 +186,50 @@ def _teks_paragraf(p, miring=False, merah=False, coret=False):
             if tag == f"{W}r":
                 for d in anak.iter(f"{W}drawing"):
                     blip = d.find(".//{%s}blip" % NS["a"])
+                    if rumus and blip is not None and blip.get("{%s}embed" % NS["r"]) in rumus:  # rumus berupa gambar di tengah kalimat
+                        ada_teks, semua_tebal = True, False
+                        potongan.append((" " + rumus[blip.get("{%s}embed" % NS["r"])] + " ", "m",
+                                         _disorot(anak.find(f"{W}rPr"), penanda) or par_disorot))
+                        continue
                     ext = d.find(".//{%s}extent" % NS["wp"])
                     if blip is not None:
                         gambar.append((blip.get("{%s}embed" % NS["r"]),
                                        int(ext.get("cx")) / EMU if ext is not None else None,
                                        int(ext.get("cy")) / EMU if ext is not None else None,
-                                       _disorot(anak.find(f"{W}rPr"), merah) or par_disorot))
+                                       _disorot(anak.find(f"{W}rPr"), penanda) or par_disorot))
                 t = ""
                 for x in anak:
                     if x.tag == f"{W}t":
                         t += x.text or ""
+                    elif ganti_baris and x.tag == f"{W}br" and x.get(f"{W}type") != "page":
+                        t += GANTI_BARIS
                     elif x.tag in (f"{W}tab", f"{W}br"):
                         t += " "
                 posisi = anak.find(f"{W}rPr/{W}vertAlign")
                 naik = {"superscript": "^", "subscript": "_"}.get(posisi.get(f"{W}val") if posisi is not None else None)
-                s = latar or _disorot(anak.find(f"{W}rPr"), merah)
-                if t.strip() and naik:  # superskrip/subskrip teks biasa: cm^{2}, H_{2}O
-                    ada_teks = True
-                    potongan.append((f"{naik}{{{t.strip()}}}", "m", s))
-                elif t:
-                    if t.strip():
+                s = latar or _disorot(anak.find(f"{W}rPr"), penanda)
+                for ke, t in enumerate(t.split(GANTI_BARIS)):
+                    if ke:
+                        potongan.append((GANTI_BARIS, "br", s))
+                    if t.strip() and naik:  # superskrip/subskrip teks biasa: cm^{2}, H_{2}O
                         ada_teks = True
-                        semua_tebal &= _tebal(anak)
-                        semua_miring &= _miring(anak)
-                    gaya = ("b" if _tebal(anak) else "") + ("i" if miring and _miring(anak) else "")
-                    if coret and t.strip():
-                        gaya += "s" if _coret(anak) else "r" if _merah(anak) else ""
-                    potongan.append((t, gaya, s))
+                        potongan.append((f"{naik}{{{t.strip()}}}", "m", s))
+                    elif t:
+                        if t.strip():
+                            ada_teks = True
+                            semua_tebal &= _tebal(anak)
+                            semua_miring &= _miring(anak)
+                        gaya = ("b" if _tebal(anak) else "") + ("i" if miring and _miring(anak) else "")
+                        if coret and t.strip():
+                            gaya += "s" if _coret(anak) else "r" if _merah(anak) else ""
+                        potongan.append((t, gaya, s))
             elif tag in (f"{M}oMath", f"{M}oMathPara"):
                 t = omml.teks(anak)  # pecahan, pangkat, akar dibaca strukturnya (bukan digabung teksnya)
                 if t.strip():
                     ada_teks = True
                     semua_tebal = False
                     potongan.append((" " + t + " ", "m", latar or any(
-                        _disorot(r.find(f"{W}rPr"), merah) for r in anak.iter(f"{M}r"))))
+                        _disorot(r.find(f"{W}rPr"), penanda) for r in anak.iter(f"{M}r"))))
             elif tag in (f"{W}hyperlink", f"{W}smartTag", f"{W}ins", f"{W}sdt", f"{W}sdtContent"):
                 jalan(anak)
 
@@ -220,12 +238,34 @@ def _teks_paragraf(p, miring=False, merah=False, coret=False):
             _gabung(_kalimat_disorot(potongan)))
 
 
-def baca_docx(path, miring=False, merah=False, coret=False):
+def _format_nomor(z):
+    """{(numId, ilvl): 'bullet' | 'decimal' | 'lowerLetter' | ...} dari numbering.xml."""
+    if "word/numbering.xml" not in z.namelist():
+        return {}
+    akar = etree.fromstring(z.read("word/numbering.xml"))
+    fmt = {}
+    for a in akar.findall(f"{W}abstractNum"):
+        for lv in a.findall(f"{W}lvl"):
+            n = lv.find(f"{W}numFmt")
+            fmt[a.get(f"{W}abstractNumId"), lv.get(f"{W}ilvl")] = n.get(f"{W}val") if n is not None else ""
+    hasil = {}
+    for n in akar.findall(f"{W}num"):
+        abst = n.find(f"{W}abstractNumId")
+        for (a, lv), f in fmt.items():
+            if abst is not None and abst.get(f"{W}val") == a:
+                hasil[n.get(f"{W}numId"), lv] = f
+    return hasil
+
+
+def baca_docx(path, miring=False, penanda="", coret=False, rumus_gambar=None, ganti_baris=False):
     """Daftar elemen berurutan: judul/subjudul/h1/h2/h3/paragraf/tabel/gambar.
 
     miring: pertahankan cetak miring (soal Bahasa Inggris menanyakan 'the italicised part').
-    merah: teks merah adalah penanda wajib PPT, seperti highlight kuning (dokumen Badges).
-    coret: pertahankan coretan dan angka merah (pencoretan nol di Perkalian dan Pembagian Setara)."""
+    penanda: 'merah' = teks merah adalah penanda wajib PPT, seperti highlight kuning (Badges, UTBK PU);
+    'hijau' = teks berlatar hijau muda adalah penandanya (UTBK Literasi).
+    coret: pertahankan coretan dan angka merah (pencoretan nol di Perkalian dan Pembagian Setara).
+    rumus_gambar: {nama berkas gambar: rumus} untuk rumus yang disisipkan sebagai gambar di tengah kalimat;
+    ganti_baris: ganti baris di dalam paragraf dipertahankan sebagai GANTI_BARIS."""
     z = zipfile.ZipFile(path)
     doc = etree.fromstring(z.read("word/document.xml"))
     gaya = etree.fromstring(z.read("word/styles.xml"))
@@ -235,14 +275,21 @@ def baca_docx(path, miring=False, merah=False, coret=False):
         nama_gaya[s.get(f"{W}styleId")] = (n.get(f"{W}val") if n is not None else s.get(f"{W}styleId")).lower()
     rels = etree.fromstring(z.read("word/_rels/document.xml.rels"))
     target = {r.get("Id"): r.get("Target") for r in rels}
+    format_nomor = _format_nomor(z)
+    nama_gambar = {k: os.path.basename(v or "") for k, v in target.items()}
+    rumus = {k: rumus_gambar[v] for k, v in nama_gambar.items() if v in rumus_gambar} if rumus_gambar else None
 
     elemen = []
     for el in doc.find(f"{W}body"):
         if el.tag == f"{W}p":
             ps = el.find(f"{W}pPr/{W}pStyle")
             st = nama_gaya.get(ps.get(f"{W}val"), "") if ps is not None else ""
-            daftar = el.find(f"{W}pPr/{W}numPr") is not None
-            teks, gambar, tebal, semua_miring, sorot = _teks_paragraf(el, miring, merah, coret)
+            numPr = el.find(f"{W}pPr/{W}numPr")
+            daftar = numPr is not None
+            num = None if numPr is None else tuple(
+                (numPr.find(f"{W}{k}").get(f"{W}val") if numPr.find(f"{W}{k}") is not None else "0") for k in ("numId", "ilvl"))
+            fmt = format_nomor.get(num, "")
+            teks, gambar, tebal, semua_miring, sorot = _teks_paragraf(el, miring, penanda, coret, rumus, ganti_baris)
             jenis = {"title": "judul", "subtitle": "subjudul", "heading 1": "h1", "heading 2": "h2",
                      "heading 3": "h3", "heading 4": "h3"}.get(st, "paragraf")
             for rid, w, h, s in gambar:
@@ -252,7 +299,7 @@ def baca_docx(path, miring=False, merah=False, coret=False):
             polos = _polos(teks).strip()
             if polos or jenis != "paragraf":
                 elemen.append({"jenis": jenis, "teks": teks, "polos": polos, "tebal": tebal,
-                               "miring": semua_miring, "daftar": daftar, "sorot": sorot})
+                               "miring": semua_miring, "daftar": daftar, "sorot": sorot, "gaya": st, "fmt": fmt, "num": num})
         elif el.tag == f"{W}tbl":
             baris, par_baris, gambar_baris, sorot_baris = [], [], [], []
             for tr in el.findall(f"{W}tr"):
@@ -261,7 +308,7 @@ def baca_docx(path, miring=False, merah=False, coret=False):
                     tcPr = tc.find(f"{W}tcPr")
                     rentang = tcPr.find(f"{W}gridSpan") if tcPr is not None else None
                     lanjut = tcPr.find(f"{W}vMerge") if tcPr is not None else None
-                    hasil = [_teks_paragraf(p, miring, merah, coret) for p in tc.findall(f".//{W}p")]
+                    hasil = [_teks_paragraf(p, miring, penanda, coret) for p in tc.findall(f".//{W}p")]
                     isi = [h[0] for h in hasil]
                     sambungan = lanjut is not None and lanjut.get(f"{W}val") != "restart"
                     teks = "" if sambungan else " ".join(x for x in isi if x)
@@ -332,13 +379,21 @@ CATATAN_PRODUKSI = [(re.compile(p), g) for p, g in (
     (r"^Materi ini menyertakan contoh pemeriksaan kasus tidak valid sebagai ilustrasi QC.*$", ""),
     (r"^(?:•\s*)?Mengenali soal yang tidak memiliki solusi .*dikoreksi saat produksi\.?$", ""),
     (r"^Gambar berikut (?:diambil dari halaman contoh soal pada referensi|menggunakan halaman contoh soal asli referensi).*$", ""),
+    # UTBK
+    (r"Strategi ini sangat relevan untuk IPK [A-Z.0-9*]+\s*", ""),
+    (r"; kunci sumber tidak valid(?=\.)", ""),
+    (r"\s*\(contoh penguatan IPK\)", ""),
+    (r"\bKoreksi kunci pada rasio tiga kelompok", "Rasio tiga kelompok"),
+    (r"\s*\(Bukan Subbab Mapping\)", ""),
+    (r" pada bank soal internal(?= digunakan)", ""),
+    (r"\be-book ini memadukan", "materi ini memadukan"),
 )]
 
 
 def _buang_catatan(t):
     for pola, ganti in CATATAN_PRODUKSI:
         t = pola.sub(ganti, t)
-    return t.strip()
+    return re.sub(r"^((?:\*\*|<[isr]>)+)\s+", r"\1", t.strip())  # sisa spasi label di dalam teks tebal
 
 
 def _rapikan_elemen(elemen):
@@ -424,6 +479,9 @@ def tandai(elemen):
                 hasil[-1]["masuk"] = True
         hasil.append(el)
     _ikutkan_gambar(hasil)
+    for el in hasil:
+        if el.get("paksa"):  # soal tanpa tanda yang tetap dimasukkan (rapikan_utbk)
+            el.update(masuk=True, utuh=True)
     return hasil
 
 
@@ -593,7 +651,7 @@ def saring(elemen):
         if tk is None:
             ikut[i] = el["masuk"]
             continue
-        label = tk == 4 and not el["masuk"] and re.fullmatch(r"(contoh|misalnya|ilustrasi)\s*:?", el["polos"], re.I)
+        label = tk == 4 and not el["masuk"] and (el.get("ketat") or re.fullmatch(r"(contoh|misalnya|ilustrasi)\s*:?", el["polos"], re.I))
         for k, lain in enumerate(elemen[i + 1:]):
             tl = _seperti_judul(lain)
             if tl is not None and tl <= tk:
@@ -810,14 +868,33 @@ def _soal(penyusun, elemen):
     hasil, label, kini, mode = [], None, None, None
     pengantar = []  # kalimat sebelum soal pertama
     per_judul = any(e["jenis"] in ("h2", "h3") and POLA_JUDUL_SOAL.match(_bersih(e.get("polos", ""))) for e in elemen)
+    ditandai = any(e.get("awal_soal") for e in elemen)  # awal soal dan bacaan sudah ditandai (rapikan_utbk)
+    bacaan = None
     for el in elemen:
         j, polos = el["jenis"], el.get("polos", "")
-        mulai = (POLA_JUDUL_SOAL.match(_bersih(polos)) if per_judul else j == "h2") and j in ("h2", "h3")
+        if el.get("zona"):  # contoh soal subbab berikutnya
+            label, kini, mode, bacaan = None, None, None, None
+            continue
+        if el.get("awal_bacaan"):
+            bacaan = {"tipe": "blok", "judul": el["teks"], "blok": []}
+            hasil.append(bacaan)
+            kini, mode = None, None
+            continue
+        if ditandai:
+            mulai = el.get("awal_soal")
+            per_judul = True
+        else:
+            mulai = (POLA_JUDUL_SOAL.match(_bersih(polos)) if per_judul else j == "h2") and j in ("h2", "h3")
+        if mulai:
+            bacaan = None
+        if bacaan is not None:
+            bacaan["blok"].append(el)
+            continue
         if mulai and polos:
             kini = {"tipe": "contoh_soal", "judul": _bersih(el["teks"]), "soal": [], "opsi": {}, "kunci": "",
                     "pembahasan": [], "_tanda": [], "_judul": bool(el.get("sorot", "").strip())}
-            if label:
-                kini["label"] = label
+            if el.get("label") or label:
+                kini["label"] = el.get("label") or label
             hasil.append(kini)
             mode = "soal"
             continue
@@ -866,13 +943,22 @@ def _soal(penyusun, elemen):
     # soal masuk (pertanyaan, opsi, dan kunci utuh) bila sebagian besar pertanyaan dan opsinya disorot;
     # pembahasannya hanya bagian yang disorot, kecuali jawaban uraian. Bila yang ditandai hanya judul soalnya
     # (isinya tidak ada yang ditandai), soal dan pembahasannya masuk utuh.
+    teks_bacaan = [s for s in hasil if s["tipe"] == "blok"]
     for s in hasil:
+        if s["tipe"] == "blok":
+            continue
         s["_judul"] = s["_judul"] and not any(ya for _, ya in s["_tanda"]) and not any(e["masuk"] for e in s["pembahasan"])
         if s["_judul"]:
             s["pembahasan"] = [dict(e, masuk=True, utuh=True) for e in s["pembahasan"]]
-    hasil = [s for s in hasil if s["_judul"] or
+    hasil = [s for s in hasil if s["tipe"] == "blok" or s["_judul"] or
              sum(n for n, ya in s["_tanda"] if ya) >= 0.5 * sum(n for n, _ in s["_tanda"])]
+    # bacaan ikut bila ada soal di bawahnya yang masuk
+    hasil = [s for k, s in enumerate(hasil) if s["tipe"] != "blok" or k + 1 < len(hasil) and hasil[k + 1]["tipe"] != "blok"]
+    for s in teks_bacaan:
+        s["blok"] = penyusun.blok_dari([dict(e, masuk=True, utuh=True) for e in s["blok"]]) if s in hasil else []
     for s in hasil:
+        if s["tipe"] == "blok":
+            continue
         del s["_tanda"], s["_judul"]
         if s["opsi"] and not s["kunci"]:  # kunci hanya ditulis di penutup pembahasan: 'Jadi, ... Jawaban A.'
             akhir = [e.get("polos", "").strip() for e in s["pembahasan"] if e["jenis"] == "paragraf"][-2:]
@@ -884,7 +970,7 @@ def _soal(penyusun, elemen):
         s["pembahasan"] = penyusun.blok_dari(saring([
             dict(e, masuk=True, utuh=True) if not s["opsi"] and re.match(r"^jawaban\b", e.get("polos", ""), re.I) else e
             for e in s["pembahasan"]]))
-    awal = penyusun.blok_dari(saring(pengantar)) if hasil else []
+    awal = penyusun.blok_dari(saring([e for e in pengantar if "masuk" in e])) if hasil else []
     if awal:
         hasil.insert(0, {"tipe": "blok", "judul": "Contoh Soal", "blok": awal})
     return hasil
@@ -916,12 +1002,30 @@ LEWATI_BAGIAN = ("sumber", "referensi", "daftar pustaka", "daftar rujukan", "kat
                  "pemetaan referensi")
 
 
+def isi_bagian_kosong(elemen):
+    """Tujuan pembelajaran dan penutup yang sama sekali tidak ditandai tetap diisi, supaya slidenya tidak kosong
+    (tercatat sebagai tambahan): seluruh butir tujuan dan paragraf pertama penutup."""
+    if not any("lingkup" in el for el in elemen):
+        return elemen
+    for nama, alasan, banyak in (("tujuan pembelajaran", "tujuan pembelajaran kosong", None), ("penutup", "pesan penutup kosong", 1)):
+        awal = next((i for i, el in enumerate(elemen) if el["jenis"] == "h1" and _kunci_bagian(el["polos"]) == nama), None)
+        if awal is None:
+            continue
+        akhir = next((i for i in range(awal + 1, len(elemen)) if elemen[i]["jenis"] == "h1"), len(elemen))
+        isi = [el for el in elemen[awal + 1:akhir] if el["jenis"] == "paragraf" and el["polos"]]
+        if isi and not any(el["masuk"] for el in isi):
+            for el in isi[:banyak]:
+                el.update(masuk=True, utuh=True, tambahan=alasan)
+    return elemen
+
+
 def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, subtes=SUBTES_TIU, peta=None,
-          judul=None, pilihan=(), minimal=False):
+          judul=None, pilihan=(), minimal=False, isi_kosong=False):
     """peta: peta subtes (bawaan PETA_TIU); judul: judul materi bila dokumen tidak memakai gaya Title;
-    pilihan, minimal: lihat pelengkap()."""
+    pilihan, minimal: lihat pelengkap(); isi_kosong: lihat isi_bagian_kosong()."""
     penyusun = Penyusun(folder_naskah, slug)
-    judul_dok, subjudul, bagian = _bagi_bagian(pelengkap(_rapikan_elemen(tandai(elemen)), pilihan, minimal))
+    elemen = pelengkap(_rapikan_elemen(tandai(elemen)), pilihan, minimal)
+    judul_dok, subjudul, bagian = _bagi_bagian(isi_bagian_kosong(elemen) if isi_kosong else elemen)
     judul_bersih = judul or re.sub(r"^\d{2}\s+", "", judul_dok).strip() or slug  # buang nomor urut "01 "
     naskah = {
         "meta": {"judul": judul_bersih, "subtes": subtes,
@@ -950,7 +1054,7 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
                     slides.append(dict(kini))
 
         for el in isi:
-            if el["jenis"] in pemecah and el["polos"]:
+            if (el["jenis"] in pemecah or el.get("slide_baru")) and el["polos"]:
                 tutup()
                 buf = []
                 kini = {"tipe": "blok", "judul": _bersih(el["teks"]), "blok": []}
@@ -992,7 +1096,10 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
                 t = re.sub(r"^[•▪●◦\-–]\s+", "", _polos(el["teks"]))
                 t = re.sub(r"^\d+[.)]\s+", "", t)
                 # tujuan berupa kalimat: 'Setelah mempelajari bab ini, kamu dapat menemukan ... Kamu juga dapat ...'
-                for butir in re.split(rf"(?<=\.)\s+(?={PEMBUKA_TUJUAN})", t):
+                if el.get("kko"):  # 'Pola Barisan — mengenali keteraturan ...'
+                    naskah["tujuan"]["butir"].append({"level": "", "kko": el["kko"], "teks": t})
+                    t = ""
+                for butir in re.split(rf"(?<=\.)\s+(?={PEMBUKA_TUJUAN})", t) if t else ():
                     kko, _, sisa = _kapital_awal(re.sub(rf"^{PEMBUKA_TUJUAN}", "", butir)).partition(" ")
                     naskah["tujuan"]["butir"].append({"level": "", "kko": kko, "teks": sisa})
                 if el.get("tambahan"):
@@ -1037,7 +1144,7 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
             tambah_subbab(nama, isi, True)
 
     naskah["penutup"]["ringkasan"] = [
-        {"judul": sub["subbab"], "teks": ""} for sub in naskah["materi"] if sub["subbab"] not in ("Contoh Soal", "Rangkuman")][:6]
+        {"judul": sub["subbab"], "teks": ""} for sub in naskah["materi"] if sub["subbab"] not in ("Contoh Soal", "Rangkuman")][:10 if isi_kosong else 6]
     if not (naskah["pendahuluan"]["paragraf"] and naskah["tujuan"]["butir"]):
         naskah["meta"]["lewati_kosong"] = True  # bagian yang tidak ditandai penulis: slidenya dilewati
     return naskah

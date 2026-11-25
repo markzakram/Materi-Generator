@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "judul": "Kewacanaan",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Kewacanaan",
+    "sumber": "https://docs.google.com/document/d/1wXu9jGlP7mm5Zt3tataKL1Z21-m8lF1B/edit",
+    "id_katalog": "ppu-06"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Kewacanaan membahas bagaimana kalimat dan paragraf saling terhubung untuk membentuk makna sebuah bacaan. Saat membaca, kita memperhatikan isi tiap bagian dan melihat bagaimana bagian berikutnya melanjutkan, menjelaskan, atau membatasi informasi sebelumnya. Dengan memahami hubungan itu, kita bisa mengikuti alur pikiran penulis dan menilai apakah simpulan yang ditarik sesuai dengan informasi dalam bacaan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "fungsi paragraf dalam urutan pengenalan masalah, perincian, pembanding, dan penutup."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "kesinambungan dan perubahan fungsi paragraf dalam membangun alasan, sanggahan, atau akibat."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "hubungan sebab–akibat, kontras, syarat, dan penegasan antarkalimat berdasarkan isi serta penandanya."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "simpulan dan hubungan kausal dengan membedakan fakta, dugaan, generalisasi, dan bukti yang mendukungnya."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menentukan fungsi paragraf dalam urutan pengenalan masalah, perincian, pembanding, dan penutup."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menganalisis kesinambungan dan perubahan fungsi paragraf dalam membangun alasan, sanggahan, atau akibat."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menentukan hubungan sebab–akibat, kontras, syarat, dan penegasan antarkalimat berdasarkan isi serta penandanya."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Mengevaluasi simpulan dan hubungan kausal dengan membedakan fakta, dugaan, generalisasi, dan bukti yang mendukungnya."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Hubungan Antarparagraf",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Hubungan Antarparagraf",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan antarparagraf adalah kaitan antara gagasan dalam satu paragraf dan gagasan dalam paragraf lain. Paragraf berikutnya bisa memperjelas gagasan sebelumnya, menunjukkan batasnya, atau menanggapi masalah yang sudah disebut. Untuk memahami hubungan ini, cari inti tiap paragraf, lalu lihat bagaimana gagasan-gagasan itu saling berkaitan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membaca tugas setiap paragraf"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tugas paragraf adalah peran yang dijalankannya dalam bacaan. Untuk menemukannya, bedakan dua pertanyaan. Pertama, apa isi paragraf itu? Kedua, apa yang dilakukan informasi itu terhadap gagasan sebelumnya? Pertanyaan pertama membantu kita merangkum isi, sedangkan pertanyaan kedua membantu kita menentukan fungsinya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Melihat ke mana pembahasan bergerak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Arah pembahasan terlihat dari urutan gagasan yang disampaikan penulis. Untuk mengikutinya, ringkas inti setiap paragraf secara berurutan, lalu perhatikan bagaimana fokusnya berkembang. Penulis bisa mulai dari menjelaskan suatu keadaan, beralih ke kendala yang muncul, lalu mengusulkan cara untuk mengatasinya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membedakan rincian, contoh, dan sanggahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rincian menguraikan bagian-bagian dari gagasan yang sudah disampaikan. Contoh menunjukkan bagaimana gagasan itu muncul dalam satu kejadian. Sanggahan mempertanyakan atau menolak klaim sebelumnya dengan alasan tertentu. Kalau paragraf berikutnya hanya mempersempit kapan atau untuk siapa klaim itu berlaku, fungsinya adalah memberi batas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan dalam kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk membandingkan fungsi beberapa paragraf, ringkas dulu isi tiap paragraf dalam satu kalimat. Lalu, lihat perannya dalam alur bacaan dan cari keterangan yang mendukung penilaianmu. Di tabel berikut, kolom pertama merangkum isi, kolom kedua menunjukkan fungsi, dan kolom ketiga menunjukkan petunjuk dari bacaan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Yang diceritakan",
+                "Yang dilakukan bagian itu",
+                "Keterangan yang membantu"
+              ],
+              "baris": [
+                [
+                  "Ruang baca dibuka lebih lama.",
+                  "Mengenalkan manfaat tambahan jam buka.",
+                  "Siswa bisa memakai koleksi setelah pelajaran."
+                ],
+                [
+                  "Sebagian siswa harus segera pulang.",
+                  "Menunjukkan batas manfaat tadi.",
+                  "Antarjemput berangkat sebelum jam tambahan."
+                ],
+                [
+                  "Sekolah mengusulkan penyesuaian jadwal.",
+                  "Menanggapi kendala yang baru dijelaskan.",
+                  "Usulan masih perlu dilaksanakan dan dinilai."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Hubungan dan Kelogisan Antarkalimat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Hubungan dan Kelogisan Antarkalimat",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan antarkalimat adalah kaitan antara gagasan yang disampaikan dalam dua kalimat atau lebih. Satu kalimat bisa menjelaskan alasan, memberi syarat, atau menanggapi kalimat sebelumnya. Kelogisan antarkalimat berkaitan dengan apakah hubungan atau simpulan itu masuk akal berdasarkan informasi yang diberikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membedakan waktu dari alasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keterangan waktu menjawab pertanyaan “Kapan ini terjadi?” atau “Mana yang terjadi lebih dulu?” Keterangan alasan menjawab pertanyaan “Mengapa ini terjadi?” Saat dua peristiwa disebut berurutan, urutannya baru memberi tahu mana yang terjadi lebih dulu. Untuk menyatakan bahwa satu peristiwa menyebabkan peristiwa lain, cari informasi yang menjelaskan kaitannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan hubungan dari isi kedua kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulailah dengan merangkum isi kedua kalimat. Lalu tanyakan apa yang dilakukan kalimat kedua terhadap informasi sebelumnya. Kalimat itu bisa membatasi cakupan, menyanggah klaim, memberi syarat, atau menegaskan kembali gagasan. Kata penghubung memberi petunjuk awal, sementara isi kedua kalimat membantu menentukan hubungan yang lebih tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memeriksa seberapa kuat simpulannya"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simpulan adalah hasil penalaran dari informasi yang tersedia. Untuk menilai kekuatannya, cocokkan setiap bagian simpulan dengan bukti dalam bacaan. Periksa arah hubungannya, siapa atau apa yang dicakup, dan seberapa pasti klaimnya. Kata seperti semua, pasti, atau satu-satunya perlu diperhatikan karena klaimnya lebih luas atau lebih tegas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan dalam kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan hubungan yang ditunjukkan pada kolom kedua, lalu gunakan kolom terakhir untuk memeriksa apa yang bisa disimpulkan dari kalimat itu. Dengan begitu, kamu bisa melihat informasi apa yang sudah jelas dan apa yang masih perlu didukung oleh bagian lain dalam bacaan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bentuk dalam bacaan",
+                "Hubungan yang dinyatakan",
+                "Yang perlu diperiksa"
+              ],
+              "baris": [
+                [
+                  "Setelah rak dipindahkan, katalog diperbaiki.",
+                  "Urutan waktu.",
+                  "Pemindahan terjadi lebih dahulu. Sebab perlu diperiksa dari informasi lain."
+                ],
+                [
+                  "Katalog diperbaiki karena catatan lokasi keliru.",
+                  "Alasan.",
+                  "Catatan yang keliru mendorong perbaikan."
+                ],
+                [
+                  "Loket ditambah. Namun, antrean masih panjang.",
+                  "Kontras.",
+                  "Harapan layanan lebih lancar bertemu kendala yang masih ada."
+                ],
+                [
+                  "Peminjaman diizinkan jika kartu anggota diserahkan.",
+                  "Syarat.",
+                  "Penyerahan kartu menjadi ketentuan yang disebut."
+                ],
+                [
+                  "Dengan kata lain, …",
+                  "Perumusan kembali.",
+                  "Isi sesudahnya perlu menjaga maksud sebelumnya."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Antarparagraf. Ringkas inti tiap paragraf, lalu jelaskan perannya dalam alur bacaan. Paragraf berikutnya bisa merinci gagasan, memberi contoh, membatasi klaim, menyanggahnya, atau mengusulkan solusi.",
+                "Antarkalimat. Baca isi kedua kalimat, lalu gunakan kata penghubung sebagai petunjuk untuk mengenali hubungannya. Periksa apakah kalimat berikutnya menjelaskan alasan, menyebut akibat, memberi syarat, atau menunjukkan pertentangan.",
+                "Kelogisan simpulan. Cocokkan simpulan dengan bukti dalam bacaan. Perhatikan arah hubungan, siapa atau apa yang dicakup, dan seberapa tegas klaimnya."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Hubungan Antarparagraf",
+        "teks": ""
+      },
+      {
+        "judul": "Hubungan dan Kelogisan Antarkalimat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Saat membaca wacana, pahami dulu isi tiap bagian, lalu lihat bagaimana gagasannya saling terhubung. Pada hubungan antarparagraf, tanyakan apa yang dilakukan paragraf berikutnya terhadap gagasan sebelumnya. Pada hubungan antarkalimat, periksa kaitan antara kedua gagasan dan bukti yang mendukungnya. Misalnya, kenaikan kunjungan setelah renovasi menunjukkan urutan kejadian. Untuk menyimpulkan bahwa renovasi adalah satu-satunya penyebab, kita juga perlu memeriksa pengaruh perubahan lain yang terjadi pada waktu yang sama."
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Specific and Explicit Information",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Specific and Explicit Information",
+    "sumber": "https://docs.google.com/document/d/1aF9jvxpRm8WlEZ-4oOCwXCFSCARmZpVE2bpAZf_hrHI/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "A neighborhood library introduced weekend workshops in July to help adults develop basic computer skills. Sessions take place every Saturday at 10 a.m. and last ninety minutes. Registration is free for residents aged 18 or older, but participants must bring a valid identification card. The library provides shared computers, although participants may bring their own laptops. During the first month, 48 residents registered and 36 attended at least one session. Because the computer room holds only 20 people, the library divides participants into separate groups."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The program was created after library staff noticed that adults searching for jobs often needed help preparing digital forms. Its lessons cover file management, basic word processing, and safe internet browsing. Participants who have never used a computer can follow introductory exercises, while those with some experience receive additional practice. The library does not issue professional certificates and does not promise employment after completion."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "To make attendance manageable, staff ask registrants to select a preferred group before the first class. Equipment is shared during each session, so bringing a personal laptop is optional rather than required. Library staff plan to assess participation after three months before deciding whether to offer evening sessions."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "How many residents attended at least one session during the first month?"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 36"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan ini menguji materi Specific and Explicit Information dan meminta jawaban singkat berupa satu angka atau satu kata. Pembaca perlu menemukan informasi yang secara khusus dirujuk oleh kata kunci pertanyaan, lalu mencocokkannya dengan konteks stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf menyatakan 48 orang mendaftar, tetapi hanya 36 orang menghadiri sedikitnya satu sesi. Angka yang diminta adalah jumlah peserta hadir, bukan jumlah pendaftar atau kapasitas ruangan. Kaitan dengan materi Specific and Explicit Information: soal menuntut pencarian angka yang secara eksplisit tertulis, bukan inferensi. Perhatikan perbedaan istilah registered (48) dan attended at least one session (36). Angka 20 menyatakan kapasitas ruangan, sedangkan 90 mengacu pada durasi dalam menit. Dengan mencocokkan subjek, aktivitas, dan periode pada pertanyaan, hanya 36 yang menjawab tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, jawaban 36 sesuai dengan informasi yang ditanyakan. Informasi lain yang muncul dalam stimulus tidak boleh dipilih jika merujuk pada besaran, peristiwa, atau konsep berbeda."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Which requirement must participants meet to register?"
+            }
+          ],
+          "opsi": {
+            "A": "Residents must be at least eighteen when registering for the workshops.",
+            "B": "Residents must reserve a library computer before submitting registration.",
+            "C": "Residents must demonstrate basic word-processing skills before joining the class.",
+            "D": "Residents must have attended an earlier library training program.",
+            "E": "Residents must bring a personal laptop to each scheduled session."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan menanyakan syarat yang harus dipenuhi calon peserta untuk mendaftar lokakarya, bukan fasilitas, preferensi, atau aktivitas selama kelas. Pada materi Specific and Explicit Information, peserta harus mengidentifikasi persyaratan eksplisit dan membedakannya dari rincian tambahan. Stimulus menyebutkan bahwa pendaftaran terbuka bagi residents aged 18 or older, disertai ketentuan membawa kartu identitas yang masih berlaku. Karena itu, opsi A benar: usia minimal 18 tahun memang menjadi persyaratan resmi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B salah karena perpustakaan menyediakan komputer bersama, tetapi tidak mewajibkan reservasi perangkat sebelum pendaftaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C salah karena peserta pemula boleh mengikuti latihan dasar; keterampilan pengolahan kata sebelumnya tidak diwajibkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena tidak disebutkan kewajiban pernah mengikuti kursus lain di perpustakaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena membawa laptop pribadi bersifat opsional; perlengkapan bersama sudah disediakan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "The workshops are held once a week.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "Each session lasts two hours.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The library provides computers for participants.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "All 48 registrants attended at least one session.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Specific and Explicit Information, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan. Analisis kategori: pernyataan 1 benar karena every Saturday berarti frekuensi mingguan; pernyataan 2 salah karena ninety minutes tidak sama dengan two hours; pernyataan 3 benar karena shared computers disediakan; pernyataan 4 salah karena jumlah pendaftar tidak identik dengan peserta yang hadir. Keterampilan kuncinya adalah membedakan fakta, angka, dan kuantor all/at least one. Untuk verifikasi, cocokkan setiap pernyataan pada kalimat stimulus yang tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Benar): sesi berlangsung setiap Sabtu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Salah): durasinya sembilan puluh menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Benar): komputer bersama disediakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Salah): hanya 36 orang yang tercatat hadir."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

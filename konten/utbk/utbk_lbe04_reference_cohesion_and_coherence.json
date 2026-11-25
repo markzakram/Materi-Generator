@@ -1,0 +1,935 @@
+{
+  "meta": {
+    "judul": "Reference, Cohesion, and Coherence",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Reference, Cohesion, and Coherence",
+    "sumber": "https://docs.google.com/document/d/15AJA0bibBtIFu7zKYryrKs2IiGEn2S5syo30pV8km7Q/edit",
+    "id_katalog": "lbe-04"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Reference, Cohesion, and Coherence merupakan keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan memahami hubungan antarkata, antarkalimat, dan antarparagraf sehingga sebuah teks membentuk kesatuan makna yang utuh. Reference berkaitan dengan identifikasi kata atau ungkapan yang merujuk pada informasi tertentu, cohesion menjelaskan keterkaitan antarbagian teks melalui unsur kebahasaan, sedangkan coherence menunjukkan kesinambungan gagasan secara logis. Dalam materi ini, peserta akan mempelajari cara menentukan acuan kata ganti, mengenali fungsi kata penghubung, memahami hubungan sebab-akibat dan pertentangan, serta menganalisis urutan kalimat yang membentuk paragraf koheren. Penguasaan keterampilan tersebut membantu peserta memahami alur informasi sekaligus menjawab soal Literasi Bahasa Inggris UTBK-SNBT secara akurat dan sistematis."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian dan perbedaan reference, cohesion, dan coherence."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "pronoun reference, demonstrative reference, dan rujukan frasa."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "antecedent yang tepat berdasarkan petunjuk gramatikal dan semantik."
+      },
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "fungsi cohesive devices dalam membangun hubungan antargagasan."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "hubungan sebab-akibat, kontras, penambahan, dan urutan informasi."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "susunan serta posisi kalimat yang menghasilkan paragraf koheren."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "soal rujukan dan keterpautan teks berdasarkan bukti kontekstual."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Reference, Cohesion, and Coherence",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Reference, Cohesion, and Coherence",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Reference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Reference adalah hubungan antara suatu kata atau ungkapan dengan informasi lain yang menjadi acuannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam sebuah teks, penulis sering menggunakan kata ganti atau kata penunjuk untuk menghindari pengulangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers developed a new recycling method. They tested it in three industrial facilities."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Analisis:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "They merujuk pada the researchers.",
+                "It merujuk pada a new recycling method."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata they dan it tidak dapat ditafsirkan secara tepat tanpa memahami kalimat sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Unsur yang menjadi acuan suatu ungkapan rujukan disebut referent. Jika acuannya berupa unsur bahasa yang muncul lebih dahulu dalam teks, unsur tersebut disebut antecedent."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Cohesion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cohesion atau kohesi adalah keterkaitan antarbagian teks yang dibangun melalui unsur kebahasaan, seperti kata ganti, pengulangan kosakata, sinonim, dan kata penghubung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The city introduced new recycling facilities. These facilities reduced the distance residents needed to travel to dispose of recyclable materials. As a result, participation in the program increased."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kohesi terbentuk melalui:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "These facilities, yang merujuk pada fasilitas daur ulang.",
+                "As a result, yang menghubungkan penyediaan fasilitas dengan peningkatan partisipasi."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua unsur tersebut membantu pembaca memahami hubungan antarpernyataan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Coherence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Coherence atau koherensi adalah kesinambungan gagasan yang membuat teks dapat dipahami secara logis sebagai satu kesatuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah paragraf koheren memiliki hubungan yang jelas antara informasi yang diperkenalkan dan informasi yang dikembangkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan dua susunan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "SUSUNAN A — KOHEREN"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urban trees provide several environmental benefits. They help reduce surface temperatures by providing shade. This cooling effect can make public spaces more comfortable during hot weather."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "SUSUNAN B — KURANG KOHEREN"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "This cooling effect can make public spaces more comfortable during hot weather. Urban trees provide several environmental benefits. They help reduce surface temperatures by providing shade."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Susunan A lebih koheren karena memperkenalkan topik sebelum menjelaskan manfaat dan akibatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada susunan B, frasa This cooling effect muncul sebelum informasi yang menjelaskan efek pendinginan tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Reference, Cohesion, dan Coherence"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Reference",
+                "Cohesion",
+                "Coherence"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Acuan kata atau frasa",
+                  "Keterkaitan kebahasaan",
+                  "Kesinambungan logis"
+                ],
+                [
+                  "Unsur penting",
+                  "Pronouns, demonstratives, antecedents",
+                  "Connectors, repetition, reference",
+                  "Urutan dan hubungan gagasan"
+                ],
+                [
+                  "Pertanyaan utama",
+                  "What does this refer to?",
+                  "How are sentences linked?",
+                  "Does the paragraph make logical sense?"
+                ],
+                [
+                  "Keterampilan",
+                  "Menentukan rujukan",
+                  "Mengenali penghubung",
+                  "Menata dan menghubungkan informasi"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Reference: Memahami Acuan Kata dalam Teks",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Reference: Memahami Acuan Kata dalam Teks",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Personal Pronoun Reference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Personal pronouns merupakan kata ganti yang merujuk pada orang, kelompok, atau benda tertentu."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pronoun",
+                "Penggunaan umum"
+              ],
+              "baris": [
+                [
+                  "He / Him / His",
+                  "Individu laki-laki"
+                ],
+                [
+                  "She / Her",
+                  "Individu perempuan"
+                ],
+                [
+                  "It / Its",
+                  "Benda, konsep, keadaan, atau entitas tunggal"
+                ],
+                [
+                  "They / Them / Their",
+                  "Kelompok atau entitas jamak; juga dapat digunakan secara tunggal dalam konteks tertentu"
+                ],
+                [
+                  "We / Us / Our",
+                  "Kelompok yang mencakup pembicara atau penulis"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The company hired additional engineers because they needed more specialists to complete the project."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata they paling mungkin merujuk pada the company sebagai organisasi, bukan pada additional engineers, karena perusahaanlah yang membutuhkan lebih banyak tenaga ahli untuk menyelesaikan proyek."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh ini menunjukkan bahwa penentuan acuan tidak cukup berdasarkan kedekatan posisi kata. Hubungan makna juga harus diperiksa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Demonstrative Reference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Demonstrative reference menggunakan kata penunjuk seperti this, that, these, dan those."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Demonstrative",
+                "Penggunaan umum"
+              ],
+              "baris": [
+                [
+                  "This",
+                  "Hal atau objek tunggal yang dekat dalam konteks"
+                ],
+                [
+                  "That",
+                  "Hal atau objek tunggal yang ditunjuk atau telah dibicarakan"
+                ],
+                [
+                  "These",
+                  "Beberapa hal atau objek yang dekat dalam konteks"
+                ],
+                [
+                  "Those",
+                  "Beberapa hal atau objek yang ditunjuk atau telah dibicarakan"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Many students struggle to manage their study schedules while working part-time. This can negatively affect their academic performance."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata This merujuk pada situasi kesulitan mengatur jadwal belajar sambil bekerja paruh waktu, bukan hanya pada kata students."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata penunjuk dapat merujuk pada keseluruhan gagasan atau keadaan, bukan hanya satu nomina."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Anaphoric dan Cataphoric Reference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan arah rujukannya, reference dapat dibedakan menjadi dua bentuk utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Anaphoric Reference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rujukan mengarah pada informasi yang telah disebutkan sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new software was released last month. It has already attracted thousands of users."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "It merujuk pada the new software."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cataphoric Reference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rujukan mengarah pada informasi yang baru dijelaskan setelah ungkapan rujukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Although she had faced several difficulties, Maria successfully completed the research."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "She merujuk pada Maria, yang muncul kemudian dalam kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal bacaan, kedua bentuk ini perlu dikenali agar peserta tidak selalu mencari acuan hanya pada kata sebelumnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Multiple Possible Antecedents"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada teks yang lebih kompleks, sebuah kata ganti dapat memiliki lebih dari satu kandidat acuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The committee reviewed the proposal submitted by the research team. It recommended several changes before approving the project."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata It secara gramatikal dapat merujuk pada the committee atau the proposal, karena keduanya merupakan entitas tunggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, hubungan makna menunjukkan bahwa pihak yang dapat merekomendasikan perubahan adalah the committee."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, acuannya adalah the committee."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Menentukan Reference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan langkah berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Temukan kata ganti atau kata penunjuk yang ditanyakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Identifikasi kandidat acuan di sekitar kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Periksa kesesuaian jumlah dan fungsi gramatikal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Periksa hubungan makna antara rujukan dan kandidat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Ganti kata rujukan dengan kandidat acuan untuk menguji apakah kalimat tetap logis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers examined the samples using a new instrument. It produced more accurate measurements."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apabila It diganti dengan a new instrument, kalimat tetap logis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebaliknya, mengganti It dengan the researchers tidak sesuai karena terdapat ketidakcocokan jumlah dan fungsi kata."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Cohesion: Hubungan Kebahasaan dalam Teks",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Cohesion: Hubungan Kebahasaan dalam Teks",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Grammatical Cohesion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Grammatical cohesion terbentuk melalui unsur tata bahasa yang menghubungkan satu bagian teks dengan bagian lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa bentuk utamanya meliputi:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Reference: Penggunaan kata ganti atau kata penunjuk.",
+                "Substitution: Penggantian unsur bahasa dengan bentuk lain.",
+                "Ellipsis: Penghilangan unsur yang dapat dipahami dari konteks.",
+                "Conjunction: Penggunaan kata penghubung."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh substitution:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Some students preferred the printed **textbook**, while others chose the digital **one**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata one menggantikan textbook."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh ellipsis:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Some participants **attended** the morning session, while others the afternoon session."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat dapat dipahami tanpa mengulang seluruh informasi mengenai jenis kegiatan pada bagian kedua."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Lexical Cohesion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lexical cohesion terbentuk melalui hubungan kosakata, seperti pengulangan, sinonim, atau penggunaan kata dalam kelompok makna yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Deforestation threatens biodiversity. The destruction of forest habitats reduces the number of species that can survive in affected areas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Frasa deforestation dan the destruction of forest habitats memiliki hubungan makna yang memperkuat keterkaitan kedua kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Logical Connectors"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata penghubung membantu menjelaskan hubungan logis antarpernyataan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Hubungan",
+                "Kata penghubung",
+                "Fungsi"
+              ],
+              "baris": [
+                [
+                  "Addition",
+                  "Furthermore, moreover, in addition",
+                  "Menambahkan informasi"
+                ],
+                [
+                  "Contrast",
+                  "However, nevertheless, whereas",
+                  "Menyatakan pertentangan"
+                ],
+                [
+                  "Cause",
+                  "Because, since, due to",
+                  "Menunjukkan penyebab"
+                ],
+                [
+                  "Result",
+                  "Therefore, consequently, as a result",
+                  "Menunjukkan akibat"
+                ],
+                [
+                  "Example",
+                  "For example, for instance",
+                  "Memberikan contoh"
+                ],
+                [
+                  "Sequence",
+                  "First, subsequently, finally",
+                  "Menunjukkan urutan"
+                ],
+                [
+                  "Condition",
+                  "If, unless, provided that",
+                  "Menyatakan persyaratan"
+                ],
+                [
+                  "Conclusion",
+                  "In conclusion, overall, thus",
+                  "Menegaskan simpulan"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Coherence: Membangun Kesinambungan Gagasan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Coherence: Membangun Kesinambungan Gagasan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Logical Progression"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Logical progression merupakan perkembangan informasi secara runtut sehingga setiap kalimat memiliki hubungan dengan gagasan sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola yang umum digunakan antara lain:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Umum menuju khusus.",
+                "Masalah menuju solusi.",
+                "Sebab menuju akibat.",
+                "Peristiwa awal menuju peristiwa berikutnya.",
+                "Klaim menuju penjelasan dan bukti."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Online learning provides flexibility for students. This flexibility allows learners to access recorded lessons at convenient times. However, students without reliable internet connections may struggle to benefit from these opportunities."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Susunan tersebut koheren karena dimulai dari manfaat, dilanjutkan dengan penjelasan, kemudian diakhiri dengan batasan manfaat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Given Information dan New Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf yang koheren sering mengembangkan informasi yang sudah dikenal menuju informasi baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Solar panels convert sunlight into electricity. This electricity can be stored in batteries for later use. Such storage systems help households maintain access to power when sunlight is unavailable."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alur informasi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Solar panels produce electricity"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Electricity can be stored in batteries"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Storage provides power when sunlight is unavailable"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap kalimat mengambil informasi sebelumnya sebagai dasar untuk memperkenalkan informasi berikutnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sentence Insertion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal sentence insertion meminta peserta menentukan posisi paling tepat untuk sebuah kalimat dalam paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Posisi yang benar harus mempertahankan hubungan makna dan struktur informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Many cities have introduced bicycle-sharing programs. (2) These programs allow residents to rent bicycles for short journeys. (3) They can also reduce reliance on private vehicles."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat tambahan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "This provides an alternative transportation option for short-distance travel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Posisi yang paling tepat adalah setelah kalimat (2), karena kata This merujuk pada fasilitas penyewaan sepeda untuk perjalanan pendek."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sentence Ordering"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal sentence ordering, peserta harus menyusun beberapa kalimat menjadi paragraf yang koheren."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk yang dapat digunakan meliputi:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kalimat pembuka yang memperkenalkan topik.",
+                "Kata ganti yang membutuhkan acuan.",
+                "Kata penghubung yang menunjukkan hubungan logis.",
+                "Penanda kronologi.",
+                "Kalimat simpulan yang merangkum pembahasan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai contoh, kalimat yang diawali As a result umumnya memerlukan informasi penyebab yang telah dijelaskan sebelumnya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Reference Questions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan metode Locate–Trace–Verify."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Locate: Temukan kata rujukan.",
+                "Trace: Telusuri kandidat acuan.",
+                "Verify: Uji kesesuaian gramatikal dan maknanya."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan yang umum:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The word \"it\" in paragraph 2 refers to ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The phrase \"this development\" refers to ...."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Cohesion Questions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi hubungan logis antarkalimat sebelum memilih kata penghubung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan apakah informasi kedua merupakan tambahan, pertentangan, akibat, contoh, atau simpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The technology offers several benefits. ______, its implementation requires substantial investment."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata penghubung yang tepat adalah However, karena kalimat kedua memperkenalkan keterbatasan yang berlawanan dengan manfaat pada kalimat pertama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Coherence Questions"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menentukan posisi atau urutan kalimat:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Temukan kalimat yang memperkenalkan topik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Identifikasi kata rujukan yang membutuhkan anteseden."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Perhatikan hubungan waktu dan sebab-akibat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Susun perkembangan gagasan dari informasi awal menuju informasi lanjutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Baca kembali paragraf untuk memastikan kesinambungan makna."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Nearest Noun Trap",
+                  "Menganggap kata benda terdekat selalu menjadi acuan"
+                ],
+                [
+                  "Pronoun Mismatch",
+                  "Mengabaikan kesesuaian jumlah atau makna"
+                ],
+                [
+                  "Connector Confusion",
+                  "Menggunakan penghubung yang tidak sesuai hubungan logis"
+                ],
+                [
+                  "Premature Reference",
+                  "Menempatkan kata rujukan sebelum informasi yang diperlukan tersedia"
+                ],
+                [
+                  "Illogical Sequence",
+                  "Menyusun kalimat tanpa mempertimbangkan perkembangan informasi"
+                ],
+                [
+                  "Topic Disruption",
+                  "Menempatkan kalimat yang mengganggu kesinambungan pembahasan"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Reference berkaitan dengan unsur bahasa yang menunjuk kembali atau ke depan pada orang, benda, kegiatan, maupun gagasan tertentu. Cohesion merupakan keterikatan bentuk kebahasaan melalui pronomina, pengulangan kata, substitusi, dan konjungsi; coherence merupakan keterpaduan logika sehingga gagasan tersusun dan dapat dipahami sebagai satu kesatuan. Teks dapat memiliki penghubung gramatikal tetapi tetap tidak koheren apabila urutan gagasannya bertentangan atau tidak masuk akal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam menjawab soal, identifikasi antecedent yang paling tepat dengan mempertimbangkan jumlah, makna, dan kedekatan rujukan. Untuk kata sambung, jangan hanya menghafal artinya, tetapi tentukan fungsi hubungan antarpernyataan, misalnya sebab-akibat, pertentangan, penambahan, urutan waktu, atau penegasan. Penanda seperti consequently tidak dapat disamakan dengan however, sedangkan although tidak membuat dua klaim otomatis saling meniadakan. Periksa keseluruhan hubungan sebelum dan sesudah kata penghubung."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Reference, Cohesion, and Coherence",
+        "teks": ""
+      },
+      {
+        "judul": "Reference: Memahami Acuan Kata dalam Teks",
+        "teks": ""
+      },
+      {
+        "judul": "Cohesion: Hubungan Kebahasaan dalam Teks",
+        "teks": ""
+      },
+      {
+        "judul": "Coherence: Membangun Kesinambungan Gagasan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal",
+        "teks": ""
+      }
+    ],
+    "pesan": "Kemampuan menelusuri rujukan dan keterpaduan antarkalimat membuat pembaca tidak mudah kehilangan arah ketika teks menjadi lebih panjang. Prinsip akhirnya adalah memahami siapa atau apa yang dirujuk, bagaimana dua gagasan terhubung, dan mengapa urutan peristiwa disajikan demikian. Keterampilan ini menjadi landasan bagi parafrasa, inferensi, serta analisis argumen pada materi selanjutnya."
+  }
+}

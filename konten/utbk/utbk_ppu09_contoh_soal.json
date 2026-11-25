@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bahasa Figuratif",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Bahasa Figuratif",
+    "sumber": "https://docs.google.com/document/d/1LP6Wn7TNz7skdsdif6k2l3IG1U3GmmpQ/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-09-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Mengidentifikasi Metafora dan Personifikasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang pengamat menuliskan, “Kabut adalah selimut tipis yang menidurkan bukit sebelum matahari datang.” Dalam catatan berikutnya, ia menjelaskan bahwa kabut pagi membuat sebagian lereng tampak samar. Ketika cahaya matahari menghangatkan udara, kabut mulai menipis dan pemandangan kembali terlihat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ungkapan pada kalimat pembuka menggunakan bahasa figuratif terutama karena ...."
+            }
+          ],
+          "opsi": {
+            "A": "menjelaskan secara ilmiah bahwa kabut merupakan kain yang menutupi bukit",
+            "B": "menyamakan kabut dengan selimut dan menggambarkan bukit seolah-olah dapat tidur",
+            "C": "memastikan bahwa kabut lebih tipis daripada semua benda di sekitar bukit",
+            "D": "menggunakan kata yang sama berulang-ulang sebagai penegasan suasana pagi",
+            "E": "menyatakan bahwa cahaya matahari benar-benar membangunkan manusia di lereng"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Metafora menyatakan perbandingan secara langsung; personifikasi memberikan tindakan atau sifat manusia kepada sesuatu yang bukan manusia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Objek sebenarnya adalah kabut dan bukit. Pembanding selimut menjelaskan bagaimana kabut menutupi lereng sehingga tampak samar. Kata menidurkan memberi tindakan manusia kepada bukit. Keterangan tentang jarak pandang dan kabut yang menipis menegaskan bahwa gambaran ini bukan kejadian harfiah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak tepat. Kabut tersusun atas tetes air atau kristal es yang melayang di udara, bukan kain sungguhan. Teks menggunakan selimut sebagai pembanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tepat. Ada penyamaan langsung kabut dengan selimut (metafora) sekaligus pemberian tindakan tidur kepada bukit (personifikasi)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak tepat. Ungkapan “tipis” bersifat deskriptif dalam gambaran, bukan perbandingan kuantitatif dengan semua benda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak tepat. Kalimat tidak mengandalkan pengulangan kata; efeknya timbul dari perbandingan dan penginsanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak tepat. Matahari berkaitan dengan menipisnya kabut, bukan bukti bahwa ada manusia yang dibangunkan oleh cahaya tersebut."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika ada pola “X adalah Y” yang bukan persamaan nyata, uji metafora. Jika benda atau alam “tidur”, “berbisik”, atau “menangis”, uji personifikasi."
+            }
+          ],
+          "label": "Pengenalan dan Konsep Dasar Bahasa Figuratif"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Memaknai Metafora Cermin Peradaban",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Arkeolog meneliti benda peninggalan di situs kuno untuk mempelajari kehidupan masyarakat pada masa lampau. (2) Bentuk perkakas, tata ruang permukiman, dan jejak kegiatan penduduk dicatat agar peneliti dapat menyusun gambaran sejarah berdasarkan bukti. (3) Bagi generasi sekarang, hasil kajian arkeologi menjadi cermin peradaban yang membantu manusia memahami asal-usul dan perubahan cara hidup masyarakat. (4) Walaupun tidak semua peristiwa masa lalu dapat diketahui secara lengkap, temuan tersebut memberi petunjuk penting tentang perkembangan budaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna metafora “cermin peradaban” pada kalimat (3) yang paling sesuai dengan keseluruhan bacaan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "benda-benda kuno merupakan cermin fisik yang dipamerkan untuk memperindah museum",
+            "B": "penelitian peninggalan masa lalu membantu generasi kini mengenali kehidupan dan perkembangan masyarakat",
+            "C": "arkeologi dapat menggambarkan seluruh peristiwa masa lampau secara pasti tanpa keterbatasan",
+            "D": "penelitian peninggalan sejarah hanya menilai keindahan benda tanpa membahas kehidupan masyarakat",
+            "E": "generasi sekarang harus mengulangi seluruh kebiasaan masa lalu agar memahami sejarah"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Metafora memanfaatkan gambaran suatu benda untuk menjelaskan hal lain. “Cermin” menyiratkan sarana untuk melihat atau mengenali kembali; yang dikenali dalam konteks ini adalah perkembangan kehidupan masyarakat melalui bukti arkeologis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan kalimat (1)–(2): arkeologi mengumpulkan dan mengkaji jejak kehidupan masa lalu. Kalimat (3) menjelaskan manfaat kajian itu bagi generasi sekarang, sedangkan kalimat (4) membatasi tingkat kepastiannya. Jadi, “cermin peradaban” bermakna sarana memahami kehidupan dan perubahan masyarakat, bukan cermin fisik atau gambaran sejarah yang selalu lengkap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak tepat. Cermin dalam kalimat (3) bersifat kiasan, bukan benda koleksi di museum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tepat. Jawaban ini menangkap fungsi arkeologi untuk memahami kehidupan lampau berdasarkan temuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak tepat. Kata “seluruh” dan “tanpa keterbatasan” bertentangan dengan pembatasan pada kalimat (4)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak tepat. Penelitian arkeologi dalam teks menelaah kehidupan sosial dan budaya, bukan hanya keindahan benda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak tepat. Mengenali asal-usul tidak berarti harus mengulang semua kebiasaan masyarakat lampau."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanyakan: “Apa yang dapat diketahui dari kajian peninggalan masa lalu?” Pilih tafsir yang didukung rincian penelitian dan hormati batas pengetahuan yang ditegaskan bacaan."
+            }
+          ],
+          "label": "Pengenalan dan Konsep Dasar Bahasa Figuratif"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menafsirkan Perumpamaan Ketahanan Pangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ketahanan pangan suatu wilayah menghadapi perubahan iklim, penyusutan lahan pertanian, dan ketergantungan pada pasokan dari luar. Ketika terjadi gangguan distribusi atau perubahan harga pasar global, ketersediaan pangan setempat dapat ikut terpengaruh. Penulis menggambarkan keadaan itu “bagai menaruh telur di ujung tanduk”, lalu menyarankan perbaikan produksi dan pengelolaan cadangan pangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna perumpamaan “bagai menaruh telur di ujung tanduk” dalam bacaan tersebut adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "ketahanan pangan berada dalam keadaan rapuh dan rentan terhadap gangguan",
+            "B": "penyimpanan telur menjadi prioritas tunggal dalam cadangan pangan",
+            "C": "perubahan harga pasar global selalu membuat semua hasil panen rusak",
+            "D": "ketergantungan pada pasokan luar membuktikan produksi dalam negeri telah berhenti",
+            "E": "persoalan pangan dapat diatasi hanya dengan mengubah metode pengemasan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna kiasan ditentukan berdasarkan gagasan keseluruhan, bukan dengan mengartikan setiap kata secara fisik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Telur mudah pecah, sedangkan ujung tanduk merupakan tempat yang tidak stabil. Keduanya membangun gambaran situasi berisiko. Dalam teks, bukti risikonya ialah ketergantungan pasokan dan kemungkinan gangguan dari luar. Makna yang paling tepat adalah kondisi pangan rentan, bukan pembahasan tentang telur sebagai komoditas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tepat. Opsi merangkum keadaan rentan yang disiratkan perumpamaan serta dijelaskan melalui risiko pasokan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak tepat. Kata telur dipakai sebagai objek pembanding, bukan barang yang secara khusus dianalisis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak tepat. Kata selalu dan semua tidak didukung; bacaan hanya menjelaskan bahwa gangguan dapat memengaruhi pasokan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak tepat. Ketergantungan pada pasokan luar tidak berarti seluruh produksi dalam negeri berhenti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak tepat. Pengemasan tidak disebut sebagai solusi utama; bacaan justru menyinggung produksi dan cadangan pangan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Terjemahkan kiasan menjadi satu kalimat lugas. Pilih jawaban yang mempertahankan makna umum “rentan/berisiko” tanpa menambah fakta."
+            }
+          ],
+          "label": "Menafsirkan Perumpamaan Berdasarkan Konteks"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Menilai Kritik dalam Metafora Halte",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pemerintah kota memperbarui beberapa halte dengan atap yang lebih teduh dan tempat duduk yang lebih nyaman. (2) Namun, sebagian halte belum terhubung dengan rute angkutan yang menjangkau permukiman; warga masih harus berjalan jauh untuk menggunakan layanan tersebut. (3) Dalam artikel opini, seorang penulis menyebut halte baru itu “pintu megah menuju lorong buntu”. (4) Penulis mengakui perbaikan fasilitas, tetapi menilai manfaatnya masih terbatas jika keterhubungan jaringan angkutan tidak dibenahi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengaruh ungkapan “pintu megah menuju lorong buntu” terhadap gagasan dan sikap penulis adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "mengagumi tampilan halte baru dan meyakini seluruh masalah transportasi telah selesai",
+            "B": "mengkritik bahwa perbaikan fisik halte belum cukup bermanfaat tanpa keterhubungan rute yang memadai",
+            "C": "menyatakan semua halte baru tidak dapat digunakan karena angkutan umum sudah berhenti beroperasi",
+            "D": "menggambarkan adanya lorong fisik yang menghubungkan setiap halte dengan permukiman",
+            "E": "menyarankan penghentian total pembangunan halte meskipun transportasi masih dibutuhkan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna figuratif dan efek penilaian penulis perlu dibaca bersama. Kata “megah” mengakui kemajuan pada fasilitas, sedangkan “lorong buntu” menekankan keterbatasan fungsi karena akses dan jaringan layanan belum mendukungnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Petunjuk dalam bacaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat (1) menyatakan ada perbaikan fisik. Kalimat (2) memberi batasan tentang konektivitas. Kalimat (4) secara langsung memperlihatkan sikap penulis: mengakui kemajuan, tetapi mengkritik manfaat yang belum optimal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertama, kenali bahwa pintu dan lorong bukan bagian infrastruktur yang dibahas secara literal. Kedua, hubungkan “pintu megah” dengan halte yang lebih nyaman. Ketiga, hubungkan “lorong buntu” dengan perjalanan yang tetap sulit karena rute belum menjangkau permukiman. Dari hubungan tersebut, penulis tidak menolak seluruh pembangunan, tetapi menyoroti kesenjangan antara tampilan dan fungsi layanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak tepat. Penulis mengakui perbaikan, tetapi menolak anggapan bahwa seluruh masalah selesai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tepat. Jawaban ini menangkap kritik atas fasilitas yang bagus tetapi belum terhubung dengan layanan transportasi yang efektif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak tepat. Teks hanya menyebut sebagian halte sulit diakses, bukan seluruh halte tidak dapat digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak tepat. “Lorong buntu” adalah metafora tentang keterbatasan manfaat, bukan lorong fisik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak tepat. Artikel tidak menyerukan penghentian pembangunan; penulis meminta pembenahan konektivitas."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari dua sisi penilaian yang tampak berlawanan: “megah” = ada perbaikan; “buntu” = manfaat terhambat. Jawaban harus memuat keduanya dan tidak mengubah kritik bersyarat menjadi penolakan total."
+            }
+          ],
+          "label": "Pengaruh Bahasa Figuratif terhadap Gagasan dan Sikap Penulis"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Menilai Pengaruh Perumpamaan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah platform belajar menyediakan banyak bahan bacaan digital. Akan tetapi, beberapa sekolah di daerah terpencil belum memiliki jaringan internet yang stabil. Seorang penulis menyebut platform tersebut “jendela lebar dengan tirai yang belum terbuka bagi semua siswa”. Ia mengapresiasi tersedianya sumber belajar, tetapi mengingatkan bahwa aksesnya masih perlu diperluas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan keseluruhan konteks, tentukan apakah setiap penafsiran berikut SESUAI atau TIDAK SESUAI dengan makna perumpamaan dan sikap penulis."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Sesuai",
+                "Tidak Sesuai"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "“Jendela lebar” menggambarkan kesempatan untuk mengakses pengetahuan yang beragam.",
+                  "□",
+                  "□"
+                ],
+                [
+                  "2",
+                  "“Tirai yang belum terbuka bagi semua siswa” menyoroti belum meratanya akses.",
+                  "□",
+                  "□"
+                ],
+                [
+                  "3",
+                  "Penulis menyatakan platform digital sama sekali tidak bermanfaat untuk pendidikan.",
+                  "□",
+                  "□"
+                ],
+                [
+                  "4",
+                  "Perumpamaan tersebut membuktikan bahwa semua siswa sudah menikmati layanan secara setara.",
+                  "□",
+                  "□"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban:** 1 Sesuai; 2 Sesuai; 3 Tidak Sesuai; 4 Tidak Sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Mengevaluasi setiap penafsiran majas berdasarkan makna kiasan, gagasan utama, dan sikap penulis.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Sesuai. Jendela menjadi gambaran terbukanya peluang melihat atau mengenali pengetahuan yang lebih luas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Sesuai. Tirai yang belum terbuka menandai hambatan akses pada sebagian sekolah, selaras dengan kendala jaringan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Tidak sesuai. Penulis mengapresiasi sumber belajar digital sehingga tidak menolak seluruh manfaatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Tidak sesuai. Bacaan justru membatasi akses pada sebagian sekolah, bukan menyatakan pemerataan telah tercapai."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Baca dua lapis makna: gambaran positif tentang peluang belajar dan pembatasan akses yang menjadi kritik penulis."
+            }
+          ],
+          "label": "Pengaruh Bahasa Figuratif terhadap Gagasan dan Sikap Penulis"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 8 — Menghitung Tafsir Metafora yang Didukung Teks",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah mengajarkan kebiasaan memeriksa sumber sebelum menyebarkan kabar. Seorang guru menyebut pemeriksaan fakta “rem sebelum memasuki tikungan tajam”. Ia mengingatkan bahwa pesan yang belum jelas asalnya sebaiknya tidak langsung diteruskan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari empat penafsiran berikut, BERAPA pernyataan yang sesuai dengan makna perumpamaan dan sikap guru dalam stimulus? Tuliskan angka saja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Ungkapan “rem” menekankan pentingnya mengendalikan tindakan sebelum meneruskan kabar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Guru mengingatkan siswa untuk memeriksa sumber informasi sebelum membagikannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Guru menyatakan bahwa semua pesan digital pasti salah dan tidak layak dibaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Ungkapan tersebut mewajibkan siswa menggunakan perangkat pengereman fisik saat membaca informasi."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menentukan jumlah penafsiran metafora yang tepat berdasarkan konteks, bukan membaca ungkapan secara harfiah.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (1) benar karena “rem” melambangkan pengendalian diri sebelum bertindak. Pernyataan (2) benar karena stimulus secara langsung mengajak peserta memeriksa sumber sebelum meneruskan informasi. Pernyataan (3) salah: guru tidak menolak seluruh pesan digital atau menyatakan semuanya salah. Pernyataan (4) salah karena menafsirkan rem sebagai alat fisik, padahal digunakan secara metaforis. Jumlah pernyataan yang sesuai adalah 2."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tafsirkan metafora secara lugas, uji setiap pernyataan terhadap konteks, lalu hitung hanya yang terbukti sesuai."
+            }
+          ],
+          "label": "Pengaruh Bahasa Figuratif terhadap Gagasan dan Sikap Penulis"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

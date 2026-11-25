@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Paraphrase and Restatement",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Paraphrase and Restatement",
+    "sumber": "https://docs.google.com/document/d/11FVOSaHphgTah6N5bzIK8SRaxkadl-r2ueUKFm-yTek/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-05-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "A pilot bus program offered discounted fares to residents aged 60 and above. The discount applied only on weekdays and did not include express services. During the three-month trial, most eligible passengers reported lower transport expenses. However, the evaluation did not establish whether the program increased the overall number of bus journeys. Officials said an extension might be considered if funding remained available. They also emphasized that the discount was intended to support older residents rather than replace existing transport assistance."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The transport office used electronic cards to apply the discounted fare automatically. Passengers who were eligible but forgot their identification could not receive the discount during that journey, although they could still purchase a regular ticket. Weekend travel was excluded because the trial initially focused on weekday access to essential services."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Officials collected passenger feedback but did not conduct a controlled comparison with a similar group that received no discount. As a result, the evaluation was limited to reported expenses and could not establish whether the discount changed how often people traveled. Future plans would depend on both the results of a longer trial and the availability of funding"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Complete this accurate restatement with one word from the passage:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Officials ______ consider extending the discount if funding remains available."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: might"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan ini menguji Paraphrase and Restatement, yaitu mempertahankan tingkat kepastian dan persyaratan ketika suatu informasi ditulis ulang. Stimulus menyatakan bahwa pejabat mengatakan perpanjangan 'might be considered if funding remained available'. Dalam kalimat soal, bagian 'if funding remains available' mempertahankan syarat pendanaan. Kata might mempertahankan sifat kemungkinan, bukan janji atau keputusan final. Mengganti might dengan will akan mengubah makna karena perpanjangan belum dijamin. Oleh sebab itu, jawaban satu kata yang tepat ialah might."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Which sentence most accurately restates the evaluation finding?"
+            }
+          ],
+          "opsi": {
+            "A": "Most eligible passengers reported taking more bus journeys after receiving discounts.",
+            "B": "Most eligible passengers reported savings and greater use of express buses.",
+            "C": "Most eligible passengers reported savings, proving total bus journeys increased.",
+            "D": "Most eligible passengers described lower costs, confirming permanent program expansion.",
+            "E": "Most eligible passengers reported lower expenses, but changes in total journeys remained unproven."
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan meminta restatement yang mempertahankan hasil evaluasi dan batas bukti. Teks menyatakan most eligible passengers reported lower transport expenses tetapi penelitian did not establish whether the program increased the overall number of bus journeys. Opsi E benar karena most diparafrasekan menjadi most, penurunan biaya tetap berupa laporan peserta, sedangkan perubahan jumlah perjalanan dinyatakan belum terbukti. Dalam Paraphrase and Restatement, pemeliharaan kuantor dan tingkat kepastian lebih penting daripada meniru susunan kata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena lebih sering bepergian tidak dilaporkan sebagai temuan yang terbukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B salah karena express services secara jelas dikecualikan dari diskon."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C salah karena menukar laporan penghematan dengan bukti peningkatan total perjalanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena perpanjangan program masih bergantung pada pendanaan dan belum dikonfirmasi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "The discount was available on all days of the week.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The program excluded express bus services.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "Officials guaranteed that the program would continue indefinitely.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The fare discount was designed to support older residents.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Paraphrase and Restatement, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Salah): hanya pada hari kerja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Benar): layanan express tidak termasuk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Salah): perpanjangan hanya mungkin jika tersedia pendanaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Benar): tujuan itu dinyatakan eksplisit."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

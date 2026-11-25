@@ -395,7 +395,8 @@ class TemaGeneral:
                           ukuran=19)
         return y
 
-    def tujuan(self, slide, pengantar, butir):
+    def tujuan(self, slide, pengantar, butir, awal=0):
+        """awal: nomor butir pertama dikurangi satu (butir yang dibagi ke beberapa slide)."""
         self.salin_slide("tujuan", slide, lambda el: _navbar_template(el) or (
             el.tag == qn("p:grpSp") and el.find(f".//{qn('a:gradFill')}") is not None))
         y = 2.1
@@ -416,7 +417,7 @@ class TemaGeneral:
                     break
             h = max(h_maks, h_teks)
             D.kotak(slide, 0.78, y, 14.43, h, warna="kartu_gelap", radius=0, nama="Butir tujuan")
-            level = b.get("level") or str(i + 1)
+            level = b.get("level") or str(awal + i + 1)
             D.lingkaran(slide, 0.78 + 0.35, y + (h - d) / 2, d, "kuning", level, min(17, round(d * 26)), "di_kuning",
                         nama=f"Level {level}")
             D.teks(slide, 0.78, y, 14.43, h, p, inset=inset, jangkar="m")
@@ -446,7 +447,7 @@ class TemaGeneral:
                 if pesan:
                     pp = [P("Pesan penutup", 14, "kuning_di_gelap", tebal=True, spasi=1.2, setelah=6),
                           P(pesan, ukuran, "putih", tebal=ukuran >= 19, spasi=1.3)]
-                    hp = D.tinggi_paragraf(pp, u["w"], u["sisi"]) + 0.15
+                    hp = D.tinggi_paragraf(pp, u["w"], u["sisi"]) + 0.23
                 if u["y"] + sum(h + u["celah"] for h, _ in baris) + hp <= BATAS_HALAMAN:
                     return kolom, baris, pp, hp
         return None

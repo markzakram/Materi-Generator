@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Implications and Predictions",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Implications and Predictions",
+    "sumber": "https://docs.google.com/document/d/1PEAXNwaeNmOAS3sEwu2uu_BGP-pRxjlQgxenmG8vqhg/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-13-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "A coastal fishing cooperative stores its catch in a refrigerated facility powered by a small solar installation. During sunny months, the system generally supplies enough electricity for daily operation. In the rainy season, however, generation is less reliable and the cooperative sometimes rents a diesel generator. Fuel rental costs have risen over the last two years. Members are considering battery storage, but they have not yet secured financing or determined whether the proposed capacity would cover extended cloudy periods. Engineers recommend testing actual energy demand before purchasing equipment."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The cooperative's technicians have kept monthly records of solar production and cold-storage demand. These records show that electricity use increases when fishing activity is high, even if the weather is unfavorable for solar generation. The overlap between high demand and low production makes a simple estimate based on average sunny-day output potentially misleading."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Members have discussed using a smaller battery in combination with backup generation, but they do not yet know how much this would reduce rental expenses. A larger system might store more energy but would require higher initial investment. The cooperative plans to compare several designs after engineers complete the demand assessment."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "In which paragraph does the passage explain that electricity demand rises when fishing activity is high, even under unfavorable conditions for solar generation? Answer with a number."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini menanyakan paragraf yang memuat hubungan antara aktivitas penangkapan ikan, kebutuhan listrik, dan kondisi pembangkitan tenaga surya. Bukti terdapat pada paragraf kedua: “These records show that electricity use increases when fishing activity is high, even if the weather is unfavorable for solar generation.” Dengan demikian, jawabannya adalah 2. Dalam materi Implications and Predictions, informasi tersebut mendukung implikasi bahwa kebutuhan daya dapat meningkat justru ketika produksi listrik surya tidak optimal. Kondisi ini perlu dipertimbangkan sebelum memprediksi kecukupan kapasitas baterai atau kebutuhan generator cadangan. Paragraf pertama mengenalkan masalah umum, sedangkan paragraf ketiga membahas alternatif kapasitas penyimpanan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Which prediction is best supported?"
+            }
+          ],
+          "opsi": {
+            "A": "Backup generators may remain necessary if storage and financing are insufficient.",
+            "B": "A larger battery should eliminate generator use even during prolonged cloudy periods.",
+            "C": "Battery investment will probably reduce electricity demand in the refrigerated facility.",
+            "D": "Fuel costs can be forecast precisely from two years of rising rental expenses.",
+            "E": "Solar output should remain stable once energy demand is measured every month."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan meminta prediksi yang paling didukung mengenai energi cadangan koperasi. Teks menjelaskan fluktuasi listrik surya selama musim hujan, biaya sewa generator yang meningkat, serta belum pastinya dana dan kapasitas baterai. Opsi A benar karena menggunakan may dan syarat storage and financing: tanpa penyimpanan yang memadai, penggunaan generator bisa berlanjut saat produksi surya rendah. Dalam Implications and Predictions, hubungan evidence–condition–outcome harus dipertahankan tanpa mengubah kemungkinan menjadi jaminan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B salah karena bahkan baterai besar belum terbukti mampu menutup semua periode mendung panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C salah karena pembelian baterai tidak dengan sendirinya mengurangi permintaan energi lemari pendingin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena kenaikan dua tahun tidak menentukan pola harga berikutnya secara tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena pengukuran permintaan tidak menghilangkan pengaruh cuaca terhadap produksi surya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "Solar generation is less reliable during the rainy season.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The cooperative has already purchased enough batteries for extended cloudy periods.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "Testing energy demand could inform an appropriate storage decision.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The text guarantees that diesel rental costs will fall next year.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Implications and Predictions, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan. Nomor 1 benar karena pada musim hujan output surya kurang andal. Nomor 2 salah karena pembelian baterai belum dilakukan. Nomor 3 benar karena penilaian kebutuhan dapat membantu menentukan kapasitas teknis. Nomor 4 salah karena teks tidak membuktikan penurunan biaya diesel mendatang. Prinsip ECO (Evidence–Condition–Outcome) membantu menghindari certainty shift dalam setiap pernyataan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Benar): disebut eksplisit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Salah): baru mempertimbangkan dan belum menetapkan kapasitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Benar): itu rekomendasi insinyur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Salah): tidak ada prediksi penurunan yang pasti."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

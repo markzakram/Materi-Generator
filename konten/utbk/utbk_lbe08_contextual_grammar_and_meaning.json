@@ -1,0 +1,951 @@
+{
+  "meta": {
+    "judul": "Contextual Grammar and Meaning",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contextual Grammar and Meaning",
+    "sumber": "https://docs.google.com/document/d/17F8qDfZysy6pEQaIZxDWrsyoa5Vs0dSNl7JpVlukQwc/edit",
+    "id_katalog": "lbe-08"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Contextual Grammar and Meaning merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan memahami bagaimana struktur tata bahasa memengaruhi makna dan interpretasi informasi dalam sebuah teks. Materi ini mencakup tiga aspek utama, yaitu Modality, yang berkaitan dengan kemungkinan, kepastian, kewajiban, dan rekomendasi; Grammar and Tenses, yang menjelaskan hubungan waktu, urutan, dan keberlangsungan peristiwa; serta Part of Speech, yang berkaitan dengan fungsi kata dalam membentuk makna kalimat. Dalam konteks Literasi Bahasa Inggris UTBK-SNBT, penguasaan grammar tidak hanya ditujukan untuk mengenali aturan kebahasaan, tetapi terutama untuk memahami pesan penulis, membedakan tingkat kepastian suatu pernyataan, serta mengidentifikasi perubahan makna akibat perbedaan struktur kalimat. Melalui materi ini, peserta diharapkan mampu menganalisis penggunaan unsur kebahasaan secara kontekstual agar dapat memahami bacaan dan menentukan jawaban secara akurat."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "fungsi modalitas dalam menentukan tingkat kepastian dan maksud pernyataan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "makna kemungkinan, kewajiban, izin, kemampuan, dan rekomendasi."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "perubahan makna akibat penggantian modal."
+      },
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "penggunaan tenses dalam konteks peristiwa."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "hubungan waktu serta urutan kejadian."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "fungsi berbagai kelas kata dalam struktur kalimat."
+      },
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "pengaruh perubahan kelas kata terhadap makna."
+      },
+      {
+        "level": "",
+        "kko": "Menyelesaikan",
+        "teks": "soal kebahasaan berdasarkan konteks bacaan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Contextual Grammar and Meaning",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Contextual Grammar and Meaning",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Contextual Grammar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contextual grammar merupakan pemahaman terhadap unsur tata bahasa berdasarkan fungsi dan maknanya dalam komunikasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam Literasi Bahasa Inggris, grammar tidak hanya dipelajari sebagai kumpulan aturan pembentukan kalimat. Grammar digunakan untuk menafsirkan informasi yang dinyatakan penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new policy may reduce transportation costs."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new policy will reduce transportation costs."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua kalimat membahas kemungkinan pengurangan biaya transportasi akibat kebijakan baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, maknanya berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pertama menyatakan kemungkinan, sedangkan kalimat kedua menyampaikan prediksi atau keyakinan yang lebih tegas mengenai hasil kebijakan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan tersebut disebabkan oleh penggunaan modalitas may dan will."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tiga Unsur Utama Contextual Grammar"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur",
+                "Fokus Pembelajaran",
+                "Pengaruh terhadap Makna"
+              ],
+              "baris": [
+                [
+                  "Modality",
+                  "Modal verbs dan kekuatan pernyataan",
+                  "Kepastian, kemungkinan, kewajiban, izin, rekomendasi"
+                ],
+                [
+                  "Grammar/Tenses",
+                  "Bentuk kala dan struktur kalimat",
+                  "Waktu, urutan, durasi, keberlangsungan"
+                ],
+                [
+                  "Part of Speech",
+                  "Fungsi kelas kata",
+                  "Hubungan kata, modifikasi, dan interpretasi informasi"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga unsur tersebut saling berkaitan dalam membentuk makna sebuah kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Researchers may conduct additional experiments before publishing their findings."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat ini memuat tiga aspek kebahasaan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "May menunjukkan kemungkinan atau izin, bergantung pada konteks yang lebih luas.",
+                "Conduct berfungsi sebagai verba yang menyatakan tindakan.",
+                "Before publishing menunjukkan hubungan waktu antara eksperimen tambahan dan publikasi temuan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Memahami ketiganya membantu pembaca menentukan apa yang benar-benar dinyatakan dan apa yang belum dapat dipastikan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Modality: Memahami Tingkat Kepastian dan Kewajiban",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Modality: Memahami Tingkat Kepastian dan Kewajiban",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Modality"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Modality merupakan unsur kebahasaan yang digunakan untuk menyampaikan sikap penulis atau pembicara terhadap suatu pernyataan, termasuk tingkat kepastian, kemungkinan, kemampuan, izin, kewajiban, atau rekomendasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Modalitas penting dalam teks akademik karena penulis sering membedakan antara temuan yang telah dibuktikan dan kemungkinan yang masih memerlukan penelitian."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis-Jenis Modalitas"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Fungsi",
+                "Bentuk umum",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Possibility",
+                  "May, might, could",
+                  "The treatment may improve recovery."
+                ],
+                [
+                  "Ability",
+                  "Can, could, be able to",
+                  "The system can process large datasets."
+                ],
+                [
+                  "Permission",
+                  "May, can",
+                  "Participants may leave the study."
+                ],
+                [
+                  "Obligation",
+                  "Must, have to, be required to",
+                  "Applicants must submit identification."
+                ],
+                [
+                  "Recommendation",
+                  "Should, ought to",
+                  "Schools should improve digital access."
+                ],
+                [
+                  "Prediction",
+                  "Will, be likely to",
+                  "Demand will increase next year."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Catatan: Satu modal dapat memiliki lebih dari satu fungsi. Misalnya, may dapat menunjukkan kemungkinan atau izin, sedangkan must dapat menunjukkan kewajiban maupun kesimpulan yang sangat kuat. Makna pastinya ditentukan oleh konteks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Possibility vs. Certainty"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan perbedaan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new technology might improve energy efficiency."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new technology will improve energy efficiency."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pertama menunjukkan kemungkinan peningkatan efisiensi, sedangkan kalimat kedua menyatakan prediksi yang lebih tegas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata might tidak boleh ditafsirkan sebagai jaminan bahwa peningkatan akan terjadi."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Ungkapan",
+                "Makna dalam konteks"
+              ],
+              "baris": [
+                [
+                  "May improve",
+                  "Mungkin meningkatkan"
+                ],
+                [
+                  "Might improve",
+                  "Mungkin meningkatkan"
+                ],
+                [
+                  "Could improve",
+                  "Berpotensi meningkatkan"
+                ],
+                [
+                  "Is likely to improve",
+                  "Diperkirakan akan meningkatkan"
+                ],
+                [
+                  "Will improve",
+                  "Diprediksi akan meningkatkan"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Obligation vs. Recommendation"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Modalitas juga digunakan untuk membedakan kewajiban dari saran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students must complete safety training before entering the laboratory."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students should complete additional practice before entering the laboratory."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pertama menunjukkan kewajiban mengikuti pelatihan keselamatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat kedua menunjukkan rekomendasi untuk melakukan latihan tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mengubah must menjadi should dapat melemahkan kewajiban menjadi saran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Negative Modality"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk negatif modalitas perlu diperhatikan karena dapat memiliki makna yang sangat berbeda."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Ungkapan",
+                "Makna"
+              ],
+              "baris": [
+                [
+                  "Must not",
+                  "Larangan"
+                ],
+                [
+                  "Do not have to",
+                  "Tidak diwajibkan"
+                ],
+                [
+                  "May not",
+                  "Mungkin tidak, atau tidak diizinkan sesuai konteks"
+                ],
+                [
+                  "Cannot",
+                  "Tidak dapat atau tidak mungkin sesuai konteks"
+                ],
+                [
+                  "Should not",
+                  "Sebaiknya tidak"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students must not enter the laboratory without supervision."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat tersebut menunjukkan larangan memasuki laboratorium tanpa pengawasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan dengan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students do not have to enter the laboratory."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat kedua menunjukkan bahwa peserta tidak diwajibkan memasuki laboratorium."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya tidak setara."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Modality Shift"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Modality shift adalah perubahan kekuatan pernyataan akibat perubahan modalitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The research findings suggest that the intervention may reduce anxiety."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Incorrect Restatement:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The research findings prove that the intervention eliminates anxiety."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pergeseran terjadi karena:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Suggest berubah menjadi prove.",
+                "May reduce berubah menjadi eliminates."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi kedua menyatakan kepastian dan hasil yang jauh lebih kuat daripada sumber."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Grammar and Tenses: Memahami Hubungan Waktu",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Grammar and Tenses: Memahami Hubungan Waktu",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Tenses dalam Konteks Bacaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tenses merupakan bentuk gramatikal yang membantu menunjukkan hubungan waktu suatu peristiwa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam bahasa Inggris, interpretasi waktu juga dipengaruhi oleh aspek verba, seperti simple, continuous, perfect, dan perfect continuous, serta penanda waktu dalam kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal literasi, peserta tidak hanya diminta mengenali bentuk tense, tetapi perlu memahami hubungan waktu, keberlangsungan, dan urutan kejadian yang disampaikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk Tenses yang Penting"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bentuk",
+                "Fungsi umum",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Simple Present",
+                  "Fakta, kebiasaan, kondisi umum",
+                  "The system processes data daily."
+                ],
+                [
+                  "Present Continuous",
+                  "Kegiatan yang sedang berlangsung atau bersifat sementara",
+                  "Researchers are testing a new method."
+                ],
+                [
+                  "Simple Past",
+                  "Peristiwa yang terjadi pada masa lampau",
+                  "The project began in 2022."
+                ],
+                [
+                  "Past Continuous",
+                  "Kegiatan yang sedang berlangsung pada waktu tertentu di masa lampau",
+                  "The team was collecting samples when the storm began."
+                ],
+                [
+                  "Present Perfect",
+                  "Peristiwa lampau yang relevan dengan kondisi sekarang",
+                  "The company has introduced a new system."
+                ],
+                [
+                  "Past Perfect",
+                  "Peristiwa yang telah terjadi sebelum titik waktu lampau lainnya",
+                  "The team had completed the tests before publication."
+                ],
+                [
+                  "Future Construction",
+                  "Rencana, prediksi, atau kejadian mendatang",
+                  "The university will expand the program next year."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Part of Speech: Fungsi Kelas Kata dalam Bacaan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Part of Speech: Fungsi Kelas Kata dalam Bacaan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Part of Speech"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Part of speech merupakan pengelompokan kata berdasarkan fungsi gramatikalnya dalam kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam konteks literasi membaca, pemahaman kelas kata membantu peserta menentukan hubungan antarunsur kalimat dan menafsirkan makna informasi secara tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kelas Kata Utama"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kelas Kata",
+                "Fungsi",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Noun",
+                  "Menamai orang, benda, konsep, atau keadaan",
+                  "Development, policy, evidence"
+                ],
+                [
+                  "Verb",
+                  "Menyatakan tindakan, kejadian, atau keadaan",
+                  "Develop, increase, remain"
+                ],
+                [
+                  "Adjective",
+                  "Menerangkan nomina",
+                  "Significant, effective, reliable"
+                ],
+                [
+                  "Adverb",
+                  "Menerangkan verba, adjektiva, atau unsur lain",
+                  "Significantly, carefully, relatively"
+                ],
+                [
+                  "Pronoun",
+                  "Menggantikan atau merujuk pada unsur lain",
+                  "It, they, this, those"
+                ],
+                [
+                  "Preposition",
+                  "Menyatakan hubungan antarkomponen",
+                  "In, on, between, despite"
+                ],
+                [
+                  "Conjunction",
+                  "Menghubungkan unsur bahasa",
+                  "Because, although, while"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Word Families"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu akar kata dapat memiliki beberapa bentuk yang termasuk kelas kata berbeda."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Noun",
+                "Verb",
+                "Adjective",
+                "Adverb"
+              ],
+              "baris": [
+                [
+                  "Analysis",
+                  "Analyze",
+                  "Analytical",
+                  "Analytically"
+                ],
+                [
+                  "Significance",
+                  "Signify",
+                  "Significant",
+                  "Significantly"
+                ],
+                [
+                  "Efficiency",
+                  "—",
+                  "Efficient",
+                  "Efficiently"
+                ],
+                [
+                  "Reliability",
+                  "Rely",
+                  "Reliable",
+                  "Reliably"
+                ],
+                [
+                  "Accuracy",
+                  "—",
+                  "Accurate",
+                  "Accurately"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak semua kelompok kata memiliki bentuk yang umum digunakan pada setiap kelas kata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengaruh Kelas Kata terhadap Makna"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers conducted a careful analysis of the data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sentence 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers analyzed the data carefully."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kalimat pertama, analysis berfungsi sebagai nomina dan careful sebagai adjektiva."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kalimat kedua, analyzed berfungsi sebagai verba dan carefully sebagai adverbia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua kalimat menyampaikan gagasan yang sepadan dengan struktur berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Adjective vs. Adverb"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan perbedaan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers conducted a thorough investigation."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata thorough menerangkan nomina investigation."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The researchers investigated the issue thoroughly."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata thoroughly menerangkan tindakan investigated."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemilihan bentuk kata harus sesuai dengan fungsi yang dibutuhkan dalam kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Word Class and Contextual Interpretation"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan kelas kata juga dapat mengubah hubungan makna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Original:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The company experienced a significant increase in production."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Equivalent Restatement:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The company's production increased significantly."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan significant menjadi significantly diperlukan karena kata tersebut menerangkan unsur yang berbeda dalam struktur kalimat baru."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Menentukan Kelas Kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menentukan bentuk kata yang tepat:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identifikasi struktur kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tentukan fungsi kata yang dibutuhkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Periksa hubungan kata dengan unsur di sekitarnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Pilih bentuk yang tepat secara gramatikal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Pastikan makna keseluruhan tetap sesuai konteks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Contextual Grammar and Meaning",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Contextual Grammar and Meaning",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pendekatan Form–Function–Meaning."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify the Form"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kenali modal, bentuk verba, atau kelas kata yang digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Determine the Function"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah unsur tersebut menunjukkan kemungkinan, kewajiban, waktu, atau fungsi gramatikal tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Interpret the Meaning"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pahami informasi dan hubungan makna dalam konteks bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Compare the Alternatives"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa dampak perubahan bentuk terhadap isi pernyataan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Verify the Interpretation"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih jawaban yang mempertahankan ketepatan makna dan struktur."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Modality Shift",
+                  "Mengubah kemungkinan menjadi kepastian atau rekomendasi menjadi kewajiban"
+                ],
+                [
+                  "Tense Confusion",
+                  "Salah menentukan waktu atau urutan kejadian"
+                ],
+                [
+                  "Aspect Confusion",
+                  "Menyamakan proses yang masih berlangsung dengan peristiwa yang telah selesai"
+                ],
+                [
+                  "Wrong Word Class",
+                  "Menggunakan bentuk kata yang tidak sesuai fungsi gramatikal"
+                ],
+                [
+                  "Negation Error",
+                  "Salah memahami larangan dan ketiadaan kewajiban"
+                ],
+                [
+                  "Context Ignorance",
+                  "Menentukan makna hanya berdasarkan bentuk grammar tanpa membaca konteks"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utama: Ketepatan grammar dalam soal literasi dinilai berdasarkan kontribusinya terhadap makna, bukan hanya kemampuan mengenali pola tata bahasa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Contextual Grammar and Meaning merupakan keterampilan memahami bagaimana bentuk bahasa memengaruhi waktu, urutan peristiwa, hubungan antargagasan, dan tingkat kepastian dalam suatu teks. Unsur pentingnya mencakup tense, aspect, modal verbs, jenis kata, serta fungsi kata keterangan. Ketepatan gramatikal berkaitan langsung dengan ketepatan interpretasi: perubahan bentuk kata dapat mengubah kapan peristiwa terjadi atau seberapa kuat klaim disampaikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah menjawab adalah memetakan penanda waktu, menentukan hubungan antarperistiwa, menilai fungsi modal, lalu menguji apakah tafsiran kalimat masih sesuai dengan konteks. Past perfect tidak dapat ditukar sembarangan dengan simple past apabila urutan kejadian menjadi kabur. Might tidak sepadan dengan must atau will definitely ketika bukti masih awal. Dalam PGK–Kategori, tiap pernyataan gramatikal harus dinilai berdasarkan fungsi bentuk kata yang sebenarnya, bukan kemiripan istilah."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Contextual Grammar and Meaning",
+        "teks": ""
+      },
+      {
+        "judul": "Modality: Memahami Tingkat Kepastian dan Kewajiban",
+        "teks": ""
+      },
+      {
+        "judul": "Grammar and Tenses: Memahami Hubungan Waktu",
+        "teks": ""
+      },
+      {
+        "judul": "Part of Speech: Fungsi Kelas Kata dalam Bacaan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Contextual Grammar and Meaning",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pemahaman tata bahasa dalam literasi bukan sekadar kemampuan menyebut nama struktur, melainkan kemampuan menjelaskan implikasi maknanya. Ketika peserta dapat menghubungkan tense dengan urutan waktu dan modal dengan tingkat kepastian, mereka akan lebih akurat membaca laporan ilmiah, argumen, serta prediksi yang menggunakan bahasa bersyarat."
+  }
+}

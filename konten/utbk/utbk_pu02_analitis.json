@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "judul": "Analitis",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Analitis",
+    "sumber": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
+    "id_katalog": "pu-02"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penalaran analitis merupakan keterampilan mengolah sejumlah informasi dan aturan untuk menentukan susunan, hubungan, atau pola yang konsisten. Dalam soal UTBK–SNBT, peserta tidak cukup memahami isi kalimat secara terpisah; peserta perlu menggabungkan seluruh informasi yang relevan sebelum menarik simpulan.",
+      "Pada materi Urutan dan Posisi, informasi dinyatakan melalui aturan seperti sebelum, sesudah, di antara, dan bersebelahan. Aturan tersebut membatasi kemungkinan posisi setiap objek. Peserta belajar mengubah kalimat menjadi skema yang mudah diuji serta membedakan posisi yang pasti dari posisi yang hanya mungkin.",
+      "Pada materi Bahasa Buatan, peserta mempelajari sistem kata atau simbol rekaan melalui beberapa contoh terjemahan. Kesamaan dan perbedaan unsur dalam contoh digunakan untuk menemukan padanan makna serta, bila informasi cukup, aturan penyusunan yang konsisten.",
+      "Kedua materi menekankan penalaran berbasis batasan: jawaban yang terlihat masuk akal belum tentu benar apabila melanggar satu ketentuan. Oleh sebab itu, materi ini memadukan konsep, strategi umum, cara cepat, dan contoh soal dengan pembahasan setiap pilihan jawaban.",
+      "Penalaran Analitis mencakup dua materi inti, yaitu (1) Urutan dan Posisi serta (2) Bahasa Buatan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "hubungan urutan, posisi, dan kedudukan relatif berdasarkan ketentuan."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "tabel kemungkinan atau diagram posisi yang memenuhi seluruh batasan."
+      },
+      {
+        "level": "",
+        "kko": "Menggabungkan",
+        "teks": "beberapa aturan untuk menentukan posisi atau susunan yang pasti benar."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "pola korespondensi antara kata, simbol, dan makna pada bahasa buatan."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "aturan bahasa buatan untuk menerjemahkan kata atau kalimat baru."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "beberapa kemungkinan aturan dan memilih terjemahan yang konsisten dengan seluruh contoh."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penalaran Analitis",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penalaran Analitis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Penalaran analitis** merupakan kemampuan menguraikan informasi, mengidentifikasi hubungan antarelemen, serta menarik kesimpulan berdasarkan sejumlah ketentuan yang saling berkaitan. Proses ini menuntut ketelitian dalam membedakan informasi yang sudah pasti, informasi yang masih mungkin, dan kondisi yang tidak dapat dipenuhi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pengantar Penalaran Induktif dan Analitis",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengantar Penalaran Induktif dan Analitis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penalaran induktif merupakan proses berpikir yang dimulai dari pengamatan terhadap sejumlah fakta atau kejadian khusus, kemudian digunakan untuk memperoleh pola atau kesimpulan yang lebih umum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu02_analitis/gambar-01.png",
+              "lebar": 4.1,
+              "tinggi": 3.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Urutan dan Posisi",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Urutan dan Posisi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal urutan dan posisi menguji kemampuan menentukan kedudukan objek atau orang dari sejumlah ketentuan yang harus dipenuhi secara bersamaan. Objek dapat berupa peserta yang tampil berurutan, siswa yang duduk dalam satu baris, barang pada rak, atau agenda yang dijadwalkan pada beberapa sesi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Istilah “sebelum” hanya menetapkan urutan relatif, sedangkan “tepat sebelum” menetapkan dua posisi bersebelahan. Dengan cara yang sama, “di sebelah kanan” perlu dibedakan dari “tepat di sebelah kanan”. Perbedaan kata penentu ini dapat mengubah jawaban secara keseluruhan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis Hubungan yang Perlu Dikenali"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Susunan dan posisi linear. Menempatkan orang atau objek pada kursi, rak, atau barisan. Perhatikan kiri–kanan, posisi tengah, posisi ujung, dan ketentuan bersebelahan. Susun jumlah slot yang sama dengan banyak objek dan masukkan informasi posisi tetap lebih dahulu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Urutan dan peringkat. Membandingkan hasil, waktu kedatangan, nilai, atau kedudukan. Gunakan simbol lebih dulu/lebih tinggi, misalnya A > B > C untuk urutan nilai. Hubungan relatif tidak selalu menunjukkan peringkat absolut jika ada objek lain yang belum ditempatkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Jadwal dan urutan kegiatan. Menyusun beberapa aktivitas dengan aturan sebelum, sesudah, tepat setelah, dan sesi tertentu. Gunakan blok untuk pasangan berurutan langsung, lalu periksa kecocokannya dengan slot yang tersedia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Rute dan jalur. Menelusuri perjalanan dari titik awal menuju tujuan berdasarkan jalan yang boleh dilalui. Gambar simpul dan arah sambungan; jika soal melarang pengulangan lokasi, hentikan rute yang mengunjungi titik sama dua kali. Hitung jalur satu per satu agar tidak terduplikasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Distribusi dan kategori. Memasangkan orang dengan kegiatan, barang, atau atribut sesuai ketentuan. Tabel orang × kategori membantu menandai hubungan yang pasti, tidak mungkin, dan masih mungkin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Pengujian pernyataan berdasarkan susunan. Menentukan posisi atau relasi yang pasti benar, mungkin benar, atau tidak mungkin berdasarkan aturan susunan. Pengujian ini masih berada dalam Urutan dan Posisi jika stimulusnya berupa penempatan objek, bukan pembahasan terpisah tentang logika formal."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Penanda",
+                "Makna operasional",
+                "Cara menulis"
+              ],
+              "baris": [
+                [
+                  "Sebelum/sesudah",
+                  "Urutan relatif, tidak harus berdampingan",
+                  "A < B"
+                ],
+                [
+                  "Tepat sebelum/sesudah",
+                  "Berurutan langsung",
+                  "A–B"
+                ],
+                [
+                  "Bersebelahan",
+                  "Dua objek menempati slot berdampingan",
+                  "A–B atau B–A"
+                ],
+                [
+                  "Di antara",
+                  "Satu objek berada di tengah dua objek lain",
+                  "A … B … C"
+                ],
+                [
+                  "Posisi tetap",
+                  "Objek menempati nomor tertentu",
+                  "C = 3"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan pemeriksaan yang disarankan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) catat seluruh objek dan batasan,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) tentukan relasi yang sudah pasti,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) buat slot atau diagram,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) gabungkan aturan dengan teliti, dan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(5) uji kembali setiap pilihan. Jika soal meminta pernyataan yang pasti benar, pastikan tidak ada satu pun susunan sah yang menggugurkannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan teknik P–B–E–C: Posisikan yang pasti → Bentuk blok bersebelahan → Eliminasi susunan yang melanggar → Cek seluruh aturan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika satu posisi sudah pasti, isi terlebih dahulu. Jika dua orang “tepat bersebelahan”, perlakukan sebagai satu blok. Jika masih ada lebih dari satu susunan, uji apakah posisi yang ditanya tetap sama di semua susunan yang valid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bahasa Buatan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bahasa Buatan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bahasa buatan adalah sistem bahasa rekaan yang ditampilkan melalui pasangan kata, simbol, atau kalimat beserta artinya. Peserta harus menemukan hubungan antara bentuk dan makna berdasarkan contoh yang tersedia, bukan berdasarkan arti kata dalam bahasa sehari-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata atau simbol yang berulang pada dua contoh dapat digunakan sebagai petunjuk padanan arti, asalkan informasi dalam stimulus mendukung pemetaan yang konsisten. Urutan unsur dalam bahasa buatan belum tentu sama dengan urutan bahasa Indonesia."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang Dipelajari"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola",
+                "Yang diuji"
+              ],
+              "baris": [
+                [
+                  "Korespondensi kata–makna",
+                  "Menghubungkan unsur berulang dengan arti berulang"
+                ],
+                [
+                  "Penerjemahan kata baru",
+                  "Menggabungkan padanan arti yang telah diketahui"
+                ],
+                [
+                  "Konsistensi susunan",
+                  "Menguji apakah urutan kata merupakan bagian dari aturan"
+                ],
+                [
+                  "Pola pembeda",
+                  "Membedakan arti yang tampak mirip berdasarkan contoh tambahan"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan pemeriksaan yang disarankan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) tulis contoh bahasa buatan beserta terjemahannya secara sejajar,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) cari unsur yang berulang,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) tentukan padanan yang konsisten,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) periksa kemungkinan aturan posisi atau bentuk kata bila ada bukti, dan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(5) uji setiap opsi terhadap seluruh contoh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika soal tidak menetapkan aturan urutan, jangan menciptakan aturan posisi kata sendiri. Periksa apakah opsi jawaban hanya menyediakan satu bentuk yang memenuhi semua padanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan teknik U–P–U: Ulangi unsur yang sama → Pasangkan dengan arti yang sama → Uji padanan pada semua contoh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal yang lebih sulit, bedakan padanan makna dengan aturan urutan atau imbuhan. Dua unsur dapat memiliki arti yang benar tetapi menghasilkan pilihan yang keliru jika soal secara khusus menetapkan susunan tertentu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penalaran Analitis",
+        "teks": ""
+      },
+      {
+        "judul": "Pengantar Penalaran Induktif dan Analitis",
+        "teks": ""
+      },
+      {
+        "judul": "Urutan dan Posisi",
+        "teks": ""
+      },
+      {
+        "judul": "Bahasa Buatan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Analitis memerlukan kebiasaan mengubah informasi verbal menjadi batasan dan pola yang dapat diperiksa. Pada Urutan dan Posisi, peserta perlu memasang informasi pasti, menggunakan blok untuk hubungan bersebelahan, dan mengecek setiap aturan. Pada Bahasa Buatan, peserta perlu mengidentifikasi unsur yang berulang, menentukan padanan arti, dan memeriksa konsistensi seluruh contoh."
+  }
+}

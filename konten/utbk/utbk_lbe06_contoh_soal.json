@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Inference and Conclusion",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Contoh Soal Inference and Conclusion",
+    "sumber": "https://docs.google.com/document/d/10HKmkQBm29hUSOsXqwXdUqXxeRODmOwZ1ozsJhaqoyY/edit",
+    "bagian": "soal",
+    "id_katalog": "lbe-06-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Teks untuk Soal 1–3",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Stimulus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A school allowed students to borrow tablets for homework. Before the program, many assignments were submitted late by students who shared one device with several family members. After the school opened a borrowing desk, late submissions declined among participating students. The school also introduced weekly study-support sessions during the same term. Teachers were encouraged by the result but avoided attributing the improvement entirely to the tablets. They proposed collecting information on device use and support-session attendance before expanding the scheme."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The borrowing desk offered tablets for three-day periods, and students were asked to return the devices before the next school day when demand was high. Teachers observed that some students used the tablets mainly to access assignments, while others relied on them for reading or communicating with study groups. These differences made it difficult to identify a single mechanism behind the change in submission rates."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The weekly study-support sessions also provided guidance on organizing deadlines. Attendance varied, and not every tablet borrower attended the sessions. The school plans to compare outcomes across patterns of participation rather than assume that an improvement occurring after an intervention must have been caused by that intervention alone."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Complete the following sentence using exactly one word or number from the passage. Do not use synonyms."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The school also introduced weekly study-______ sessions during the same term."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: support"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada materi Inference and Conclusion, study-support sessions merupakan intervensi lain yang diperkenalkan bersamaan dengan peminjaman tablet. Kehadiran dua intervensi menjelaskan mengapa penurunan keterlambatan tugas belum bisa dikaitkan dengan tablet saja. Kata support diambil tepat dari frasa 'study-support sessions' pada stimulus, sehingga tidak ada kebutuhan menafsirkan faktor alternatif dengan istilah lain."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Which conclusion is most defensible?"
+            }
+          ],
+          "opsi": {
+            "A": "Borrowed tablets probably accounted for the entire reduction in late assignments.",
+            "B": "The reduction could reflect both improved device access and additional study guidance.",
+            "C": "Weekly study support likely explained the result without any influence from tablets.",
+            "D": "The improvement proves every participating student developed stronger academic skills.",
+            "E": "All students probably received equally intensive help from both school interventions."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Soal meminta simpulan yang paling dapat dipertanggungjawabkan setelah dua tindakan diperkenalkan pada periode yang sama. Sekolah meminjamkan tablet kepada siswa dan menyelenggarakan weekly study-support sessions; setelah itu keterlambatan tugas menurun pada siswa peserta. Karena pengaruh kedua tindakan belum dipisahkan, opsi B benar: kedua intervensi mungkin berkontribusi terhadap hasil. Pada Inference and Conclusion, hubungan waktu tidak membuktikan sebab tunggal; kesimpulan perlu mempertahankan alternatif penjelasan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan opsi salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A salah karena tidak ada bukti tablet sendiri menyebabkan seluruh perubahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C salah karena tidak ada bukti sesi belajar sepenuhnya menjelaskan hasil tanpa pengaruh perangkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D salah karena yang diukur adalah keterlambatan pengumpulan, bukan seluruh kemampuan akademik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena tingkat penggunaan tablet dan kehadiran sesi tidak sama untuk semua siswa."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Determine whether each statement is true or false according to the passage."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Statement",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "The evidence rules out all influences except tablet access.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The text proves that tablet lending improves every subject grade.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The decrease in late submissions was reported for participating students.",
+                  "☐",
+                  "☐"
+                ],
+                [
+                  "The school could benefit from separating the effects of the two interventions.",
+                  "☐",
+                  "☐"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini meminta peserta mengategorikan empat pernyataan sebagai Benar atau Salah berdasarkan stimulus. Dalam materi Inference and Conclusion, penilaian dilakukan dengan membandingkan cakupan setiap pernyataan dengan fakta, hubungan informasi, dan batasan yang dinyatakan dalam bacaan. Pernyataan 1 salah karena hasil yang diamati belum mengisolasi pengaruh tablet dari dukungan belajar. Pernyataan 2 salah karena penelitian mencatat keterlambatan pengumpulan tugas, bukan nilai semua mata pelajaran. Pernyataan 3 benar karena penurunan keterlambatan dinyatakan untuk siswa peserta. Pernyataan 4 benar karena analisis terpisah atas peminjaman tablet dan kehadiran sesi dapat membantu menguji penjelasan alternatif. Materi Inference and Conclusion menuntut kesimpulan proporsional: hubungan yang teramati tidak otomatis membuktikan satu penyebab."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan setiap pernyataan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 (Salah): sesi dukungan juga diperkenalkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 (Salah): yang diamati adalah keterlambatan pengumpulan tugas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 (Benar): teks membatasi hasil pada kelompok peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 (Benar): itulah alasan mengumpulkan data penggunaan dan kehadiran."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

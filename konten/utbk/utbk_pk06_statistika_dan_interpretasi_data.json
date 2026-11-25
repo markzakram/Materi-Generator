@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "judul": "Statistika dan Interpretasi Data",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Statistika dan Interpretasi Data",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "id_katalog": "pk-06"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal PK–PM, informasi sering diberikan sebagai tabel berisi banyak kategori, diagram dengan skala tertentu, atau data dengan rata-rata dan median. Penyelesaian yang tepat dimulai dari pemeriksaan apa yang sebenarnya diukur: jumlah, proporsi, frekuensi, perubahan waktu, atau nilai tengah. Selanjutnya, pengolahan data perlu mempertahankan unit, periode, dan ukuran kelompok."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Statistika:",
+        "teks": "memahami populasi, sampel, variabel, sebaran; menerapkan ringkasan data sederhana; menganalisis variasi dan keterbatasan simpulan."
+      },
+      {
+        "level": "",
+        "kko": "Tabel:",
+        "teks": "memahami struktur, satuan, kategori; mengambil dan menggabungkan nilai; menganalisis keterbandingan dan simpulan tabel."
+      },
+      {
+        "level": "",
+        "kko": "Grafik dan Diagram:",
+        "teks": "memahami jenis grafik, skala, legenda; membaca nilai/perubahan; menganalisis distorsi karena skala."
+      },
+      {
+        "level": "",
+        "kko": "Interpretasi Data:",
+        "teks": "memahami fakta eksplisit vs tren; menghubungkan informasi; menganalisis simpulan tanpa asumsi tambahan."
+      },
+      {
+        "level": "",
+        "kko": "Persentase Data:",
+        "teks": "memahami bagian terhadap total; menerapkan persen kategori/perubahan; menganalisis penyebut berbeda."
+      },
+      {
+        "level": "",
+        "kko": "Ukuran Pemusatan:",
+        "teks": "memahami mean, median, modus; menghitung nilai pemusatan; menganalisis dampak pencilan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Statistika",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Statistika",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Statistika adalah cara mengumpulkan, menyajikan, menganalisis, serta menafsirkan data. Populasi adalah seluruh objek sasaran, sedangkan sampel merupakan bagian populasi yang diamati. Variabel dapat bersifat kategorik (jenis sampah, jurusan) atau numerik (nilai, tinggi, durasi). Data tidak hanya ditinjau dari pusatnya, tetapi juga dari sebaran dan ukuran kelompok."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Frekuensi dan Sebaran Data"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Frekuensi menunjukkan berapa kali suatu nilai/kategori muncul. Distribusi frekuensi merangkum informasi agar mudah dibandingkan. Rentang (jangkauan) merupakan nilai terbesar dikurangi nilai terkecil; namun rentang hanya memakai dua nilai ekstrem, sehingga tidak menggambarkan seluruh pola sebaran."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jangkauan=x_{maks}-x_{min}$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyajian ringkas yang baik mencantumkan jumlah pengamatan $n$, satuan, periode, dan kategori yang tidak saling tumpang tindih. Tanpa itu, perbandingan antarkelompok bisa tidak adil."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik D–S–B: tentukan Data (populasi/variabel), cek Sebaran (nilai ekstrem dan frekuensi), lalu tetapkan Batas simpulan (apa yang pasti didukung data). Jangan menyimpulkan sebab-akibat hanya dari perubahan bersama atau hasil rata-rata."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tabel",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tabel",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tabel mengorganisasi nilai menurut baris dan kolom. Judul, header, unit, periode, serta kategori merupakan bagian dari informasi. Nilai yang berada pada dua kolom hanya dapat dijumlahkan ketika kategori dan satuannya kompatibel; nilai persentase antarkelompok harus diperiksa basisnya lebih dahulu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Operasi pada Tabel"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan penggunaan penjumlahan baris/kolom, selisih antartahun, rata-rata sederhana, dan pencarian data bersyarat yang memenuhi lebih dari satu ketentuan. Pada kasus nilai ujian serta batas penghasilan, pemilihan peserta memerlukan operasi logika DAN: kedua syarat harus terpenuhi bersamaan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total Kategori=Σ frekuensi setiap subkategori$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik K–U–S: Kenali kolom yang dibutuhkan, Uji satuan dan periode, Saring data berdasarkan semua syarat. Untuk pertanyaan “paling banyak”, baca nilai aktual terlebih dahulu, bukan panjang visual atau persen tanpa total."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Grafik dan Diagram",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Grafik dan Diagram",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep dan Jenis Representasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diagram batang cocok membandingkan kategori; grafik garis untuk perubahan menurut urutan waktu; diagram lingkaran untuk komposisi satu total; histogram untuk sebaran numerik dalam interval. Grafik garis tidak otomatis menunjukkan hubungan sebab-akibat. Diagram lingkaran mengharuskan seluruh sektor mewakili total yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membaca Skala serta Distorsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika satu blok menyatakan 2 ton, maka 12 blok menyatakan 24 ton, bukan 12 ton. Selisih dua nilai harus dihitung dari skala aktual. Grafik dengan sumbu vertikal mulai dari 90 dapat tampak memperbesar perbedaan 95 dan 100 dibanding grafik yang dimulai dari nol."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Nilai sebenarnya = Banyak blok × Nilai per blok$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik S–L–T: cek Skala, cocokkan Legenda, baca Titik/batang yang diminta. Saat membandingkan dua grafik, pastikan sumbunya memakai skala dan periode yang sebanding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Interpretasi Data",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Interpretasi Data",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi Eksplisit, Pola, dan Inferensi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi eksplisit merupakan angka atau pernyataan yang dapat langsung dibaca. Tren merupakan pola perubahan menurut urutan waktu. Inferensi harus diturunkan dari informasi yang tersedia dan tidak boleh menyisipkan faktor baru seperti dugaan penyebab, kualitas layanan, atau kebiasaan penduduk ketika tidak ada data pendukung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan Adil dan Keterbatasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan kategori dengan satuan serta periode yang sama. Ketika ukuran kelompok berbeda, gunakan tingkat atau persentase yang sesuai. Perubahan dua nilai pada waktu yang sama tidak cukup membuktikan satu perubahan menyebabkan yang lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik F–T–A: cari Fakta, periksa Tren, hapus Asumsi tambahan. Opsi yang berisi “pasti menyebabkan” harus ditolak jika data hanya memperlihatkan korelasi atau perbedaan angka."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Persentase Data",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Persentase Data",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar dan Basis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase data adalah perbandingan nilai bagian dengan keseluruhan yang dinyatakan per seratus. Penyebut (basis) selalu harus disebut atau ditentukan dari konteks; persen kategori berbeda dengan persentase pertumbuhan suatu kategori."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persentase kategori = (Bagian ÷ Total) × 100%$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persentase perubahan = ((Baru − Lama) ÷ Lama) × 100%$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Data Bertingkat dan Perubahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 24 dari 100 ton sampah merupakan plastik, komposisi plastik adalah 24%. Jika pada periode berikutnya plastik menjadi 30 ton, pertumbuhan terhadap periode sebelumnya adalah $(30−24)/24 = 25%$, bukan 6%. Selisih 6 ton dan perubahan 25% adalah dua besaran berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik B–B–P: cari Bagian, pastikan Basis, baru hitung Persen. Untuk soal dua kelompok berbeda ukuran, hitung nilai aktual masing-masing sebelum menyimpulkan jumlah terbanyak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Ukuran Pemusatan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ukuran Pemusatan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Mean, Median, Modus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mean (rata-rata aritmetika) diperoleh dari jumlah seluruh data dibagi banyak data. Median adalah nilai tengah setelah data diurutkan; untuk banyak data genap, ambil rata-rata dua nilai tengah. Modus adalah nilai yang frekuensinya paling besar; suatu data dapat memiliki lebih dari satu modus atau tidak memiliki modus yang unik."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Mean = (x_{1} + x_{2} + ⋯ + x_{n}) ÷ n$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Mean berbobot = Σ(f_{i} × x_{i}) ÷ Σf_{i}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rata-rata Gabungan dan Pencilan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menggabungkan rata-rata dua kelompok, jumlahkan total nilai masing-masing kelompok, bukan sekadar merata-ratakan dua mean bila besar kelompok berbeda. Pencilan sangat besar atau kecil dapat menarik mean; median umumnya lebih stabil terhadap pencilan ekstrem. Pemilihan ukuran pemusatan tergantung tujuan analisis, bukan satu rumus yang selalu unggul."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Mean gabungan = (n_{1} × m_{1} + n_{2} × m_{2}) ÷ (n_{1} + n_{2})$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada data berurutan 6, 7, 7, 8, 9, 10, 11, 54, median adalah $(8+9)/2 = 8,5$, sedangkan $mean = 112/8 = 14$. Selisih tersebut menunjukkan bagaimana satu nilai pencilan memengaruhi mean."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-01.png",
+              "lebar": 6.33,
+              "tinggi": 2.0
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik U–J–C: Urutkan data untuk median, Jumlahkan untuk mean, Cek frekuensi untuk modus. Bila terdapat pencilan, jelaskan keterbatasan mean. Untuk mean gabungan, bobotkan sesuai ukuran kelompok."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Statistika",
+        "teks": ""
+      },
+      {
+        "judul": "Tabel",
+        "teks": ""
+      },
+      {
+        "judul": "Grafik dan Diagram",
+        "teks": ""
+      },
+      {
+        "judul": "Interpretasi Data",
+        "teks": ""
+      },
+      {
+        "judul": "Persentase Data",
+        "teks": ""
+      },
+      {
+        "judul": "Ukuran Pemusatan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Statistika dan Interpretasi Data menuntut ketelitian pada sumber, satuan, basis perbandingan, dan keterbatasan kesimpulan. Dengan menguasai penyajian tabel, grafik, analisis persentase, serta ukuran pemusatan, peserta dapat mengubah data menjadi informasi yang dapat diperiksa dan digunakan secara bertanggung jawab."
+  }
+}

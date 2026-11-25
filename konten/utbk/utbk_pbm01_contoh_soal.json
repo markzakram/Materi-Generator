@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pemilihan Gagasan",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Pemilihan Gagasan",
+    "sumber": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Perpustakaan Keliling",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Di beberapa desa, akses terhadap bahan bacaan masih bergantung pada koleksi pribadi dan buku pelajaran sekolah. Pemerintah daerah bekerja sama dengan komunitas literasi untuk memetakan kebutuhan warga. Hasil pemetaan menunjukkan bahwa anak-anak memerlukan bacaan beragam, sementara orang tua membutuhkan informasi praktis tentang pertanian, kesehatan, dan keterampilan. Karena membangun gedung perpustakaan di setiap desa membutuhkan biaya dan waktu, pengelola memilih layanan yang dapat berpindah lokasi. Mereka juga mengadakan diskusi setelah sesi membaca untuk mengetahui apakah kegiatan tersebut benar-benar bermanfaat. Program ini dievaluasi bukan hanya dari jumlah buku yang dipinjam, melainkan juga dari keteraturan kunjungan dan keterlibatan warga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Program perpustakaan keliling menjangkau empat desa yang belum mempunyai ruang baca. Relawan datang setiap akhir pekan membawa buku dan memandu kegiatan membaca. Setelah tiga bulan, kehadiran anak pada kegiatan meningkat dan sekolah meminta jadwal kunjungan yang lebih teratur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Judul yang paling mewakili keseluruhan bacaan adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Kegiatan Membaca Akhir Pekan bagi Anak Desa",
+            "B": "Perpustakaan Keliling Memperluas Akses Literasi Desa",
+            "C": "Sekolah Membangun Ruang Baca di Empat Desa",
+            "D": "Permintaan Sekolah atas Jadwal Kunjungan Relawan",
+            "E": "Peningkatan Kehadiran Anak pada Kegiatan Membaca"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Judul wajib mewakili fokus utuh, yaitu program sekaligus perluasan akses bahan bacaan di desa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Masalah: keterbatasan bacaan; solusi: perpustakaan keliling; hasil: layanan menjangkau empat desa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 1. Tandai topik awal: desa masih memiliki akses bahan bacaan yang terbatas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 2. Temukan gagasan pengendali: layanan berpindah lokasi menjawab keterbatasan tanpa membangun gedung baru."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3. Bandingkan kelima opsi; hanya pilihan B menyebut program utama dan fungsinya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak tepat karena jadwal akhir pekan dan anak merupakan rincian, bukan keseluruhan bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tepat karena layanan perpustakaan keliling dan perluasan akses literasi merangkum pusat bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak tepat karena teks tidak menyatakan sekolah membangun ruang baca di empat desa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Terlalu sempit karena permintaan penjadwalan hanya salah satu hasil kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu sempit karena peningkatan kehadiran anak tidak merangkum program dan masyarakat sasaran."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan kerangka masalah → solusi → dampak; alternatif yang hanya berisi dampak belum tentu judul terbaik."
+            }
+          ],
+          "label": "Penentuan Judul Bacaan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Evaluasi Alternatif Judul",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Di empat desa yang belum memiliki perpustakaan, relawan mengoperasikan layanan baca keliling setiap dua minggu. Layanan tersebut menyediakan peminjaman buku dan kegiatan diskusi. Setelah tiga bulan, jumlah kunjungan meningkat, tetapi pengelola masih harus menyesuaikan koleksi dengan kebutuhan warga. Laporan kegiatan menilai perluasan akses dan pemanfaatan layanan secara nyata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilailah apakah setiap calon judul SESUAI atau TIDAK SESUAI untuk merangkum fokus keseluruhan bacaan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Sesuai",
+                "Tidak Sesuai"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Layanan Baca Keliling dan Evaluasi Pemanfaatan di Desa",
+                  "□",
+                  "□"
+                ],
+                [
+                  "2",
+                  "Pembangunan Gedung Perpustakaan Permanen di Empat Desa",
+                  "□",
+                  "□"
+                ],
+                [
+                  "3",
+                  "Kegiatan Diskusi Relawan Setiap Dua Minggu",
+                  "□",
+                  "□"
+                ],
+                [
+                  "4",
+                  "Perluasan Akses Bacaan melalui Layanan Keliling",
+                  "□",
+                  "□"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban:** 1 Sesuai; 2 Tidak Sesuai; 3 Tidak Sesuai; 4 Sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menguji kecocokan judul dengan fokus keseluruhan bacaan serta mengeliminasi judul yang terlalu sempit atau tidak didukung.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Sesuai. Judul mencakup layanan baca keliling sekaligus evaluasi pemanfaatannya; keduanya merupakan gagasan utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tidak sesuai. Bacaan membahas layanan bergerak, bukan pembangunan gedung perpustakaan permanen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Tidak sesuai. Diskusi setiap dua minggu hanya rincian kegiatan, bukan fokus keseluruhan laporan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Sesuai. Perluasan akses melalui layanan keliling merangkum tujuan program yang menjadi pokok bacaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji setiap judul terhadap topik, arah, dan cakupan; judul yang hanya menyebut satu rincian tidak cukup mewakili bacaan."
+            }
+          ],
+          "label": "Penentuan Judul Bacaan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Fasilitas Peneduh di Taman Kota",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ruang terbuka hijau memiliki fungsi sosial dan ekologis bagi masyarakat perkotaan. Selain menjadi tempat olahraga dan pertemuan warga, taman membantu menjaga kenyamanan lingkungan pada musim kemarau. Pemerintah kota menerima masukan dari pengunjung melalui survei dan kotak saran. Sebagian warga menginginkan fasilitas olahraga tambahan, sedangkan kelompok lain mengutamakan kenyamanan saat beristirahat. Tim perencana diminta menentukan kebutuhan paling mendesak berdasarkan hasil evaluasi, bukan sekadar memilih usulan yang paling populer. Dalam rapat, mereka membandingkan kondisi fasilitas yang telah tersedia dengan keluhan yang paling sering disampaikan pengunjung. Rekomendasi akhir harus langsung menjawab persoalan yang ditemukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Laporan evaluasi menyebutkan bahwa kunjungan ke taman kota meningkat, tetapi pengunjung kesulitan mencari tempat berteduh pada siang hari. Pemerintah berencana ____ area duduk dengan kanopi dan tanaman peneduh agar kenyamanan pengunjung meningkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata yang paling tepat melengkapi kalimat tersebut adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "memperluas",
+            "B": "mengganti",
+            "C": "melengkapi",
+            "D": "memindahkan",
+            "E": "membatasi"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pemilihan diksi didasarkan pada keluhan yang hendak diselesaikan dan kelaziman konstruksi verba–objek–pelengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Keluhan utama adalah minimnya tempat berteduh; pemerintah menambah kanopi dan tanaman peneduh pada area duduk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 1. Tentukan tindakan yang diperlukan: menambah fasilitas peneduh tanpa menghilangkan area duduk."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 2. Uji frasa “... area duduk dengan kanopi dan tanaman peneduh”."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah 3. “Melengkapi” tepat karena menyatakan penambahan unsur yang diperlukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Memperluas berkaitan dengan ukuran area, bukan langsung pada penambahan peneduh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Mengganti menyiratkan penukaran area duduk lama, bukan menambahkan fasilitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tepat: melengkapi area duduk berarti menambah kanopi dan tanaman peneduh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Memindahkan tidak memastikan adanya penambahan fasilitas untuk berteduh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Membatasi mengurangi cakupan area dan bertentangan dengan kebutuhan kenyamanan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan persoalan konkret pada stimulus (kekurangan peneduh), lalu pilih verba yang menyelesaikannya."
+            }
+          ],
+          "label": "Penentuan Diksi yang Tepat"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menghubungkan Karakter dan Literasi Digital",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pendidikan karakter siswa merupakan fondasi penting bagi pembangunan sumber daya manusia unggul di era digital. (2) Kehadiran teknologi informasi membawa dampak ganda, yakni mempermudah akses informasi sekaligus memicu kemerosotan moral jika tidak disikapi secara bijak. (3) Oleh karena itu, penguatan karakter siswa di sekolah perlu dipadukan dengan literasi digital [...]. (4) Strategi ini diharapkan mampu mencetak generasi yang cerdas secara intelektual dan matang secara emosional."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Perhatikan kalimat (3): “Oleh karena itu, penguatan karakter siswa di sekolah perlu dipadukan dengan literasi digital [...]”. Gagasan pendukung yang paling tepat untuk melengkapinya adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "agar siswa dapat memanfaatkan informasi secara optimal tanpa perlu pengawasan guru.",
+            "B": "sehingga siswa dapat memahami penggunaan informasi dan media sosial dengan bijak.",
+            "C": "agar siswa dapat mempelajari seluruh materi pembelajaran berbasis teknologi digital.",
+            "D": "sehingga literasi digital dapat mencegah terjadinya kemerosotan moral.",
+            "E": "agar literasi digital dapat menggantikan metode pembelajaran karakter konvensional."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kalimat pelengkap harus mengungkapkan akibat atau tujuan yang konsisten dengan pengintegrasian karakter dan literasi digital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Kalimat (2) menekankan risiko penggunaan informasi tanpa sikap bijak; kalimat (3) menyebut integrasi pendidikan karakter dan literasi digital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 1. Baca masalah awal: kemudahan informasi dapat disertai risiko apabila tidak disikapi bijak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 2. Tentukan hasil yang logis dari solusi penggabungan karakter dan literasi digital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah 3. Pilih B karena menyatakan kemampuan memahami penggunaan media secara bijak, tanpa klaim mutlak."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. “Tanpa perlu pengawasan guru” menambah klaim yang tidak didukung dan berlebihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tepat: sikap bijak dalam memakai informasi menjadi hasil yang sesuai dengan solusi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terlalu meluas ke penguasaan semua materi digital, bukan pembentukan karakter."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menyatakan pencegahan kemerosotan moral secara terlalu pasti oleh satu faktor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Mengubah makna “dipadukan” menjadi “menggantikan”, bertentangan dengan teks."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bandingkan kata kerja inti: “dipadukan” berarti bekerja bersama, bukan “menggantikan”."
+            }
+          ],
+          "label": "Penentuan Gagasan Pelengkap Kalimat"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menghitung Simpulan yang Sesuai",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Program sekolah mengajak siswa membawa botol minum ulang. Pada minggu pertama, pihak sekolah menyediakan titik isi ulang air minum. Selanjutnya, OSIS mencatat penggunaan botol dan menemukan bahwa sampah kemasan minuman mulai berkurang. [....]"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari empat calon simpulan berikut, BERAPA pernyataan yang sesuai dengan hubungan sebab-akibat dan informasi pada stimulus? Tuliskan angka saja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Dengan demikian, penyediaan titik isi ulang dan kebiasaan membawa botol perlu berjalan bersama untuk mengurangi sampah kemasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Penyediaan fasilitas isi ulang dan keterlibatan siswa merupakan dua bagian program yang saling melengkapi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Semua sampah di sekolah sudah hilang sehingga pengelolaan sampah tidak lagi diperlukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Semua sekolah di Indonesia pasti menerapkan program yang sama dalam waktu dekat."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menghitung jumlah simpulan yang relevan, logis, dan mempertahankan gagasan utama paragraf.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (1) sesuai karena merangkum dua langkah program dan dampak berkurangnya sampah kemasan. Pernyataan (2) sesuai karena menjelaskan hubungan fasilitas dengan partisipasi siswa yang tersirat dari alur bacaan. Pernyataan (3) tidak sesuai sebab berkurangnya sampah kemasan tidak berarti seluruh sampah hilang. Pernyataan (4) tidak sesuai karena bacaan tidak memberikan informasi tentang semua sekolah lain. Jadi, ada 2 simpulan yang dapat diterima."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa setiap simpulan terhadap proses, hasil, dan batasan data; hitung yang tidak melebihkan atau mengalihkan informasi."
+            }
+          ],
+          "label": "Pelengkapan Gagasan Paragraf"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

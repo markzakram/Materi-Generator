@@ -1,0 +1,592 @@
+{
+  "meta": {
+    "judul": "Bahasa Buatan",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Bahasa Buatan",
+    "sumber": "https://docs.google.com/document/d/133gVPaGe0iFm_sE1g_-mqeO-Oufe-ccU/edit",
+    "id_katalog": "ppu-10"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pada soal bahasa buatan, kita menerima contoh “kata atau kalimat rekaan” yang dipasangkan dengan bahasa Indonesia. Karena bahasa tersebut dibuat khusus untuk soal, kita tidak perlu pernah mendengarnya. Yang diperlukan ialah kemampuan menemukan pola, seperti menyusun kepingan teka-teki dari petunjuk yang tersedia.",
+      "Secara keseluruhan, materi Bahasa Buatan mengenalkan hubungan antara unsur bahasa rekaan dan maknanya, aturan penyusunan kata, serta perubahan arti yang ditimbulkan oleh penanda tertentu. Pemahaman tersebut menjadi dasar untuk menerjemahkan ungkapan baru sekaligus menilai apakah hasilnya sesuai dengan seluruh informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "unsur yang sama pada beberapa pasangan ungkapan bahasa buatan dan terjemahannya."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "makna kata atau penanda berdasarkan persamaan dan perbedaan antarpasangan."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "kamus padanan sederhana dan menguji hasilnya terhadap seluruh contoh."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "kemungkinan urutan unsur, misalnya benda–sifat, pelaku–kegiatan, S–P–O, dan S–O–P, menurut aturan yang diberikan."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "perubahan makna akibat penanda seperti negasi, jamak, atau kala pada contoh yang mendukungnya."
+      },
+      {
+        "level": "",
+        "kko": "Menerjemahkan",
+        "teks": "ungkapan baru dan mengevaluasi keakuratan aturan tanpa menambah aturan di luar data."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bahasa Panda dan Pola Bahasa Buatan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bahasa Panda dan Pola Bahasa Buatan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Istilah “bahasa Panda” digunakan untuk latihan menalar bahasa rekaan. Ini bukan nama satu bahasa alami dengan aturan tetap. Pada setiap soal, aturannya bisa berbeda. Karena itu, peserta wajib membaca petunjuk pada soal sebelum menyusun terjemahan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menemukan Korespondensi Unsur",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menemukan Korespondensi Unsur",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Apa yang dimaksud korespondensi?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Korespondensi adalah hubungan antara satu unsur bahasa buatan dan arti yang diwakilinya. Misalnya, jika “luma tari” berarti “buku baru” dan “luma kiri” berarti “buku lama”, unsur luma tetap muncul ketika makna “buku” tetap. Dari sini muncul dugaan awal: luma berarti buku. Dugaan tersebut perlu diuji terhadap contoh lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cari persamaan dan perbedaan pada pasangan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bahasa buatan",
+                "Makna bahasa Indonesia",
+                "Petunjuk yang dapat dilihat"
+              ],
+              "baris": [
+                [
+                  "luma tari",
+                  "buku baru",
+                  "luma sama dengan baris ketiga; tari sama dengan baris kedua"
+                ],
+                [
+                  "sena tari",
+                  "rumah baru",
+                  "tari tetap, tetapi benda berubah"
+                ],
+                [
+                  "luma kiri",
+                  "buku lama",
+                  "luma tetap, tetapi sifat berubah"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari dua pasangan pertama, unsur tari berulang pada makna baru. Jadi, tari = baru; perbedaan luma dan sena menandai buku dan rumah. Dari pasangan pertama dan ketiga, luma tetap muncul ketika kata buku tetap muncul, sedangkan tari dan kiri berbeda sehingga kiri = lama. Hubungan tiap unsur kini dapat dijelaskan dan diuji."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Cara menentukan korespondensi: bandingkan dua contoh yang berbagi satu makna, cari unsur kode yang sama, isolasi sisanya, lalu uji ulang pada pasangan lain.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Susun kamus padanan sementara"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur kode",
+                "Makna yang didukung",
+                "Bukti contoh"
+              ],
+              "baris": [
+                [
+                  "luma",
+                  "buku",
+                  "luma tari dan luma kiri"
+                ],
+                [
+                  "sena",
+                  "rumah",
+                  "sena tari dibandingkan luma tari"
+                ],
+                [
+                  "tari",
+                  "baru",
+                  "luma tari dan sena tari"
+                ],
+                [
+                  "kiri",
+                  "lama",
+                  "luma kiri dibandingkan luma tari"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “sementara” penting: padanan berlaku sejauh contoh soal mendukungnya. Jangan memindahkan arti tersebut ke soal lain yang menggunakan kosakata rekaan berbeda. Jika contoh baru tidak cocok, kita harus memeriksa pemetaan awal atau kemungkinan adanya aturan tambahan yang memang dijelaskan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Verifikasi dengan semua contoh"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji balik: luma tari → buku baru (sesuai); sena tari → rumah baru (sesuai); luma kiri → buku lama (sesuai). Ketiga contoh konsisten. Setelah itu, sena kiri dapat dibaca sebagai rumah lama. Jawaban yang benar bukan sekadar terdengar wajar, melainkan diperoleh dari aturan yang teruji."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Menentukan Urutan Kata dan Struktur Kalimat",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menentukan Urutan Kata dan Struktur Kalimat",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Perhatikan posisi kode, bukan kebiasaan bahasa Indonesia"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh luma tari = buku baru, kedua unsur mengikuti urutan benda–sifat. Pola ini harus diterapkan pada sena kiri = rumah lama. Bila soal mengubah urutan menjadi sifat–benda, kita tidak boleh mempertahankan urutan awal secara otomatis; petunjuklah yang menentukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Urutan pelaku–kegiatan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam contoh “miko lan = anak membaca”, “miko ter = anak menulis”, dan “bena lan = guru membaca”, kata pertama selalu menyebut siapa pelakunya, sedangkan kata kedua menunjukkan kegiatannya. Jadi, bahasa tersebut menggunakan urutan pelaku–kegiatan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kode",
+                "Makna",
+                "Fungsi unsur"
+              ],
+              "baris": [
+                [
+                  "miko lan",
+                  "anak membaca",
+                  "miko = anak; lan = membaca"
+                ],
+                [
+                  "miko ter",
+                  "anak menulis",
+                  "miko = anak; ter = menulis"
+                ],
+                [
+                  "bena lan",
+                  "guru membaca",
+                  "bena = guru; lan = membaca"
+                ],
+                [
+                  "bena ter",
+                  "guru menulis",
+                  "gabungan yang dapat disimpulkan"
+                ]
+              ]
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Untuk menyusun ungkapan baru, cari dulu arti setiap unsur dan polanya. Pada aturan pelaku–kegiatan: bena ter = guru menulis, bukan ter bena."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membedakan S–P–O dengan S–O–P"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kalimat memiliki tiga bagian, tentukan fungsi setiap posisi. S = subjek atau pelaku; P = predikat atau kegiatan; O = objek atau sasaran. Bahasa Indonesia biasa mengikuti S–P–O pada contoh “petani menanam jagung”, tetapi bahasa buatan dapat menggunakan S–O–P, dan keduanya tidak boleh dipertukarkan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis pola",
+                "Contoh kode",
+                "Cara membacanya"
+              ],
+              "baris": [
+                [
+                  "S–P–O",
+                  "tavo meka ruli",
+                  "tavo = petani, meka = menanam, ruli = jagung"
+                ],
+                [
+                  "S–O–P",
+                  "nara lomi peka",
+                  "nara = anak, lomi = buku, peka = membaca"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua contoh tersebut berasal dari sistem bahasa buatan yang berbeda. Kode dari bahasa Panda dan kode dari bahasa Luma tidak boleh digabungkan. Menyamakan aturan dua sistem berbeda adalah kesalahan yang sering membuat jawaban tampak masuk akal tetapi tidak sah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mencari pola S–P–O dari empat kalimat"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bahasa Panda",
+                "Terjemahan"
+              ],
+              "baris": [
+                [
+                  "tavo meka ruli",
+                  "petani menanam jagung"
+                ],
+                [
+                  "sena piko ruli",
+                  "pedagang membeli jagung"
+                ],
+                [
+                  "tavo naki fesa",
+                  "petani memanen padi"
+                ],
+                [
+                  "sena lodi fesa",
+                  "pedagang menjual padi"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cermati token pertama tavo dan sena yang selalu berkaitan dengan pelaku. Token terakhir ruli dan fesa berulang pada jenis hasil panen. Token tengah meka, piko, naki, dan lodi menyatakan tindakan. Berarti urutannya adalah S–P–O, sehingga “pedagang membeli padi” dapat ditulis sena piko fesa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pola urutan harus dibuktikan dari contoh. Periksa posisi kata yang konsisten untuk pelaku, tindakan, dan objek sebelum menerjemahkan kalimat baru.**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mengenali Penanda Makna dan Aturan Gabungan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengenali Penanda Makna dan Aturan Gabungan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Perhatikan tanda yang menempel pada kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagian soal bahasa buatan tidak berhenti pada pasangan kata. Ada tanda tambahan yang mengubah makna, misalnya penanda tidak, bentuk jamak, atau masa lampau. Dalam sebuah bahasa rekaan, penanda itu mungkin berupa akhiran setelah kata, tetapi bentuk dan tempatnya tidak boleh ditebak sebelum dibuktikan oleh pasangan contoh."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penanda negasi dan jamak pada bahasa Nara"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bahasa Nara",
+                "Terjemahan",
+                "Perubahan yang terlihat"
+              ],
+              "baris": [
+                [
+                  "selo luma",
+                  "menjaga tubuh",
+                  "bentuk dasar"
+                ],
+                [
+                  "mira luma",
+                  "menggerakkan tubuh",
+                  "tindakan berbeda"
+                ],
+                [
+                  "selo neri",
+                  "menjaga kesehatan",
+                  "objek berbeda"
+                ],
+                [
+                  "selo-na luma",
+                  "tidak menjaga tubuh",
+                  "-na sesudah tindakan = tidak"
+                ],
+                [
+                  "mira-na luma",
+                  "tidak menggerakkan tubuh",
+                  "-na juga berlaku pada mira"
+                ],
+                [
+                  "selo luma-ri",
+                  "menjaga banyak tubuh",
+                  "-ri sesudah objek = jamak"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan membandingkan selo luma dan selo-na luma, kita tahu bahwa -na menambahkan arti “tidak” pada tindakan. Membandingkan selo luma dengan selo luma-ri menunjukkan bahwa -ri menambahkan arti jumlah jamak pada objek. Kedua akhiran sama-sama melekat, tetapi fungsi dan tempatnya tidak sama. Misalnya, bentuk mira-na neri berarti “tidak menggerakkan kesehatan”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Periksa tiga hal pada penanda: (1) unsur dasar sebelum berubah, (2) makna yang bertambah atau berubah, (3) tempat penanda ditempel. -na dan -ri pada contoh Nara memiliki fungsi berbeda.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penanda jamak dan waktu pada bahasa Luma"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam contoh bahasa Luma, urutannya S–O–P. Akar kata: nara = anak, siva = guru, lomi = buku, tara = peta, peka = membaca, dan ranu = membawa. Penanda -mi ditempel pada nomina jamak, sedangkan -ta ditempel pada predikat untuk menyatakan masa lampau."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bentuk Luma",
+                "Makna",
+                "Aturan yang dipakai"
+              ],
+              "baris": [
+                [
+                  "nara lomi peka",
+                  "anak membaca buku",
+                  "S–O–P tanpa tambahan"
+                ],
+                [
+                  "sivami tara ranu",
+                  "para guru membawa peta",
+                  "-mi pada subjek jamak"
+                ],
+                [
+                  "nara lomi peka-ta",
+                  "anak membaca buku pada masa lampau",
+                  "-ta pada predikat"
+                ],
+                [
+                  "narami tara ranu-ta",
+                  "anak-anak membawa peta pada masa lampau",
+                  "-mi dan -ta dipakai bersama"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menyusun “anak-anak membaca buku pada masa lampau”, kita memerlukan narami (anak-anak), lomi (buku), dan peka-ta (membaca pada masa lampau). Urutkan S–O–P menjadi narami lomi peka-ta. Menghilangkan -ta atau menempelkan -mi pada kata kerja akan mengubah makna atau melanggar aturan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menangani informasi yang belum cukup"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Jangan menambahkan aturan baru di luar data. Ketika bukti hanya mendukung sebagian arti atau pola, simpulan juga harus dibatasi pada bagian yang dapat dipastikan.**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab dan Cara Cepat",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab dan Cara Cepat",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Cara cepat 1 — Cari irisan yang sama"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**CARA CEPAT 1: Cari dua pasangan dengan satu unsur dan satu arti yang sama. Gunakan irisan tersebut sebagai petunjuk pertama.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara cepat 2 — Tulis kerangka fungsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**CARA CEPAT 2: Pastikan urutan kata terlebih dahulu; setelah itu baru masukkan padanan kata dan penanda yang tepat.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara cepat 3 — Periksa satu perubahan makna"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**CARA CEPAT 3: Jika sebuah unsur tambahan muncul, cari contoh dengan bentuk dasar yang sama agar pengaruh unsur tambahan dapat diisolasi.**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Tabel Perbandingan dan Kesalahan yang Sering Muncul",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tabel Perbandingan dan Kesalahan yang Sering Muncul",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Situasi saat menjawab",
+                "Langkah yang tepat",
+                "Kesalahan yang perlu dihindari"
+              ],
+              "baris": [
+                [
+                  "Dua pasangan berbagi satu unsur",
+                  "Isolasi bagian sama dan cocokkan dengan makna yang sama.",
+                  "Menebak arti dari bunyi kata rekaan."
+                ],
+                [
+                  "Ungkapan baru berisi token yang sudah diketahui",
+                  "Susun menurut urutan yang dibuktikan data.",
+                  "Menganggap urutan selalu sama dengan bahasa Indonesia."
+                ],
+                [
+                  "Ada akhiran -na atau -ri pada bahasa Nara",
+                  "Bandingkan pasangan dasar dan turunannya.",
+                  "Menganggap semua akhiran berfungsi sama."
+                ],
+                [
+                  "Ada jamak dan lampau pada bahasa Luma",
+                  "Tempatkan -mi pada nomina, -ta pada predikat.",
+                  "Memindahkan imbuhan ke unsur yang salah."
+                ],
+                [
+                  "Jawaban terlihat hampir benar",
+                  "Terjemahkan balik seluruh token dan urutannya.",
+                  "Memeriksa hanya satu token, mengabaikan yang lain."
+                ],
+                [
+                  "Data belum cukup menjelaskan satu aturan",
+                  "Batasi kesimpulan dan cari bukti tambahan.",
+                  "Membuat aturan baru yang tidak dinyatakan."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bahasa buatan menguji kemampuan menemukan hubungan antara unsur bahasa rekaan dan maknanya. Peserta perlu mengidentifikasi unsur berulang, menentukan padanan kata, memahami pola urutan dan penanda makna, serta menguji konsistensi aturan berdasarkan seluruh contoh yang tersedia."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bahasa Panda dan Pola Bahasa Buatan",
+        "teks": ""
+      },
+      {
+        "judul": "Menemukan Korespondensi Unsur",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan Urutan Kata dan Struktur Kalimat",
+        "teks": ""
+      },
+      {
+        "judul": "Mengenali Penanda Makna dan Aturan Gabungan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab dan Cara Cepat",
+        "teks": ""
+      },
+      {
+        "judul": "Tabel Perbandingan dan Kesalahan yang Sering Muncul",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan Bahasa buatan membantu peserta mengembangkan kemampuan mengenali dan menerapkan pola secara logis. Ketelitian dalam membandingkan contoh serta memverifikasi aturan menjadi kunci untuk menyelesaikan soal dengan tepat."
+  }
+}

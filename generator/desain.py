@@ -1201,6 +1201,8 @@ def _opsi_mendatar(opsi, w, ukuran):
     if not 2 <= len(isi) <= 5 or any(len(v) > 26 for v in isi):
         return False
     muat = ((w - 0.2 * (len(isi) - 1)) / len(isi) - 0.95) * 72
+    if any("$" in v and lebar_segs(segmen(v), ukuran) > muat * 0.95 for v in opsi.values()):
+        return False  # rumus tidak dipotong di spasi, jadi harus muat satu baris
     return all(lebar_pt(k, ukuran) <= muat * 0.98 for v in isi for k in v.split())
 
 

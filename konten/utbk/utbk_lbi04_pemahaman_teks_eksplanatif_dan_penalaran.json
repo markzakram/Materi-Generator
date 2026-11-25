@@ -1,0 +1,618 @@
+{
+  "meta": {
+    "judul": "Pemahaman Teks Eksplanatif dan Penalaran Inferensial",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Pemahaman Teks Eksplanatif dan Penalaran Inferensial",
+    "sumber": "https://docs.google.com/document/d/1ef87Ky8rTVSelv__IiFhx66zTd5HD9H3tAk8L9YR0Wc/edit",
+    "id_katalog": "lbi-04"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pemahaman teks eksplanatif dan penalaran inferensial merupakan dua keterampilan penting dalam Literasi Bahasa Indonesia yang memungkinkan pembaca memahami proses terjadinya suatu fenomena sekaligus menarik kesimpulan logis berdasarkan informasi yang tersedia dalam bacaan. Teks eksplanatif umumnya menjelaskan bagaimana dan mengapa suatu fenomena terjadi melalui hubungan antara penyebab, prasyarat, tahapan proses, dan dampaknya, baik dalam konteks sains dan teknologi maupun sosial humaniora. Sementara itu, penalaran inferensial menuntut pembaca menghubungkan sejumlah petunjuk untuk memperoleh pemahaman yang tidak dinyatakan secara langsung, tetapi tetap didukung oleh bukti tekstual. Dalam UTBK-SNBT, kedua keterampilan tersebut diuji melalui kemampuan mengidentifikasi mekanisme, mengurutkan proses, menganalisis hubungan sebab-akibat, memperkirakan konsekuensi perubahan kondisi, serta membedakan inferensi yang sah dari dugaan yang memerlukan asumsi tambahan. Oleh karena itu, penguasaan materi ini membutuhkan ketelitian dalam membaca hubungan logis, kemampuan memadukan informasi, dan kecermatan menentukan batas kesimpulan yang dapat dipertanggungjawabkan berdasarkan bacaan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "tahapan dan urutan perubahan dalam suatu fenomena berdasarkan teks eksplanatif populer."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "hubungan antara penyebab, prasyarat, proses, dan dampak suatu fenomena."
+      },
+      {
+        "level": "",
+        "kko": "Memperkirakan",
+        "teks": "akibat perubahan kondisi berdasarkan mekanisme yang dijelaskan dalam bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Menghubungkan",
+        "teks": "sedikitnya dua petunjuk tekstual untuk menghasilkan inferensi yang logis dan terbatas."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "inferensi yang didukung oleh teks dari kesimpulan yang memerlukan asumsi tambahan."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "ketepatan suatu inferensi dengan mempertimbangkan keseluruhan petunjuk dan batas informasi bacaan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pembahasan Konsep Dasar secara Mendalam",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pembahasan Konsep Dasar secara Mendalam",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Teks Eksplanatif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks eksplanatif adalah teks yang menjelaskan bagaimana atau mengapa suatu fenomena terjadi. Penjelasan disusun melalui hubungan yang logis antara kondisi awal, penyebab, prasyarat, mekanisme, tahapan proses, dan hasil atau dampak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks eksplanatif berbeda dari teks deskriptif. Teks deskriptif terutama menggambarkan karakteristik suatu objek atau keadaan, sedangkan teks eksplanatif berusaha menjelaskan proses dan hubungan yang menyebabkan suatu keadaan terbentuk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika permukaan laut menerima energi matahari, sebagian air mengalami penguapan. Uap air kemudian naik ke atmosfer dan mengalami pendinginan. Dalam kondisi tertentu, uap air mengalami kondensasi sehingga terbentuk butiran air yang berkumpul menjadi awan. Ketika butiran tersebut semakin besar dan berat, air dapat jatuh ke permukaan bumi sebagai hujan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks tersebut menjelaskan proses terjadinya hujan melalui urutan perubahan yang saling berkaitan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Unsur-Unsur dalam Penjelasan Eksplanatif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk memahami teks eksplanatif, pembaca perlu membedakan beberapa unsur berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur",
+                "Pengertian",
+                "Pertanyaan kunci"
+              ],
+              "baris": [
+                [
+                  "Fenomena",
+                  "Peristiwa atau keadaan yang dijelaskan",
+                  "Apa yang terjadi?"
+                ],
+                [
+                  "Penyebab",
+                  "Faktor yang memicu fenomena",
+                  "Mengapa hal itu terjadi?"
+                ],
+                [
+                  "Prasyarat",
+                  "Kondisi yang harus tersedia agar proses dapat berlangsung",
+                  "Dalam kondisi apa proses terjadi?"
+                ],
+                [
+                  "Mekanisme",
+                  "Cara suatu proses berlangsung",
+                  "Bagaimana proses tersebut bekerja?"
+                ],
+                [
+                  "Tahapan",
+                  "Urutan perubahan dari satu kondisi ke kondisi berikutnya",
+                  "Apa yang terjadi terlebih dahulu?"
+                ],
+                [
+                  "Dampak",
+                  "Akibat yang muncul dari proses atau fenomena",
+                  "Apa akibatnya?"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Unsur-unsur tersebut tidak selalu muncul secara berurutan dalam teks. Penulis dapat memulai dengan fenomena, menjelaskan penyebabnya, lalu kembali membahas kondisi yang memengaruhi proses. Oleh karena itu, pembaca harus mengidentifikasi hubungan antarinformasi, bukan hanya mengikuti urutan kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Sebab, Prasyarat, Proses, dan Dampak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Salah satu kemampuan penting dalam memahami teks eksplanatif adalah membedakan hubungan sebab-akibat dari hubungan kondisi atau prasyarat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Hubungan sebab-akibat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan ini menunjukkan bahwa suatu faktor berkontribusi terhadap terjadinya peristiwa atau perubahan tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Peningkatan suhu udara mempercepat penguapan air.",
+                "Berkurangnya tutupan vegetasi dapat meningkatkan limpasan air permukaan.",
+                "Kenaikan biaya produksi dapat mendorong perusahaan menyesuaikan harga jual."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan sebab-akibat harus didasarkan pada penjelasan bacaan. Dua peristiwa yang terjadi berdekatan belum tentu memiliki hubungan sebab-akibat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Hubungan prasyarat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prasyarat merupakan kondisi yang diperlukan agar suatu proses dapat berlangsung atau menghasilkan dampak tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Proses perkecambahan memerlukan air, oksigen, dan kondisi suhu yang sesuai. Air membantu mengaktifkan proses metabolisme dalam biji, sedangkan oksigen diperlukan dalam respirasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam contoh tersebut, ketersediaan air dan oksigen merupakan kondisi yang mendukung proses perkecambahan. Jika salah satu kondisi tidak terpenuhi, proses dapat terganggu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Hubungan mekanisme"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mekanisme menjelaskan bagaimana penyebab menghasilkan perubahan melalui serangkaian proses."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika air diserap oleh akar, air bergerak melalui jaringan pengangkut menuju bagian daun. Di dalam daun, sebagian air menguap melalui stomata. Proses tersebut membantu mempertahankan aliran air dari akar menuju daun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjelasan tidak hanya menyebutkan bahwa air bergerak, tetapi juga menerangkan jalur dan mekanisme pergerakannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Hubungan dampak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dampak merupakan perubahan yang muncul setelah suatu proses atau fenomena terjadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dampak dapat bersifat langsung maupun tidak langsung. Sebagai contoh, peningkatan suhu dapat meningkatkan kebutuhan pendinginan ruangan. Peningkatan kebutuhan tersebut dapat menaikkan konsumsi listrik, yang selanjutnya berpotensi menambah emisi apabila listrik berasal dari pembangkit berbahan bakar fosil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rangkaian tersebut menunjukkan bahwa satu fenomena dapat menghasilkan beberapa akibat yang saling berhubungan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Penalaran Inferensial"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi adalah kesimpulan yang diperoleh melalui penggabungan petunjuk atau informasi dalam bacaan, meskipun kesimpulan tersebut tidak dinyatakan secara langsung oleh penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi berbeda dari informasi tersurat."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Informasi tersurat:** dinyatakan secara langsung dalam teks.",
+                "**Petunjuk tekstual:** informasi yang dapat digunakan sebagai dasar penalaran.",
+                "**Inferensi:** kesimpulan yang diperoleh dengan menghubungkan petunjuk tersebut.",
+                "**Asumsi:** anggapan tambahan yang belum tentu didukung oleh bacaan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah desa memiliki hasil panen yang melimpah, tetapi sebagian hasil panen tidak dapat dijual dalam kondisi baik. Jalan menuju pasar utama sering terputus ketika hujan deras. Selain itu, desa tersebut belum memiliki fasilitas penyimpanan hasil pertanian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks tidak secara langsung menyatakan bahwa akses transportasi dan fasilitas penyimpanan memengaruhi pemasaran hasil panen. Namun, pembaca dapat menarik inferensi bahwa keterbatasan infrastruktur kemungkinan menjadi salah satu faktor yang menyebabkan hasil panen sulit dipasarkan dalam kondisi baik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi tersebut didukung oleh petunjuk tekstual, bukan sekadar dugaan bebas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menggabungkan Beberapa Petunjuk untuk Menarik Inferensi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi yang kuat umumnya tidak dibangun dari satu informasi terpisah. Pembaca perlu menghubungkan beberapa petunjuk yang relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Informasi 1: Jumlah pengunjung perpustakaan meningkat setelah layanan peminjaman diperpanjang hingga malam.",
+                "Informasi 2: Sebagian besar pengunjung baru datang setelah jam kerja.",
+                "Inferensi: Perpanjangan jam layanan kemungkinan meningkatkan akses perpustakaan bagi masyarakat yang tidak dapat berkunjung pada siang hari."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan tersebut menggabungkan dua petunjuk yang saling melengkapi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam prosesnya, peserta perlu memastikan bahwa setiap petunjuk benar-benar memiliki hubungan dengan kesimpulan yang dibuat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membedakan Inferensi yang Didukung dan Asumsi Tambahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak semua kesimpulan yang terdengar masuk akal dapat dianggap sebagai inferensi yang tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teks:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan menerapkan sistem kerja fleksibel. Setelah kebijakan tersebut berjalan, tingkat keterlambatan karyawan menurun. Perusahaan juga melaporkan bahwa sebagian besar karyawan merasa lebih mudah mengatur waktu kerja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evaluasi kesimpulan:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesimpulan",
+                "Penilaian",
+                "Alasan"
+              ],
+              "baris": [
+                [
+                  "Sistem kerja fleksibel berkaitan dengan penurunan keterlambatan dalam periode pengamatan.",
+                  "Didukung",
+                  "Teks menyebutkan kedua informasi tersebut."
+                ],
+                [
+                  "Sistem kerja fleksibel mungkin membantu karyawan mengatur waktu kerja.",
+                  "Didukung",
+                  "Selaras dengan laporan sebagian besar karyawan."
+                ],
+                [
+                  "Sistem kerja fleksibel pasti meningkatkan produktivitas seluruh karyawan.",
+                  "Tidak didukung",
+                  "Teks tidak menyajikan data produktivitas seluruh karyawan."
+                ],
+                [
+                  "Semua karyawan lebih menyukai sistem kerja fleksibel.",
+                  "Tidak didukung",
+                  "Teks hanya menyebutkan sebagian besar karyawan."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat harus mempertahankan cakupan, tingkat kepastian, dan batas informasi dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Inferensi yang Terbatas dan Logis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi yang baik tidak boleh melampaui bukti. Ada tiga prinsip utama yang perlu diperhatikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Relevansi petunjuk"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk yang digunakan harus berhubungan langsung dengan kesimpulan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Kecukupan informasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan harus didukung oleh informasi yang memadai, bukan satu petunjuk yang masih dapat ditafsirkan dengan banyak cara."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Proporsionalitas kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan tidak boleh lebih luas atau lebih pasti daripada informasi yang tersedia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Penyelesaian Soal"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Soal tentang tahapan atau mekanisme proses"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Temukan fenomena yang dijelaskan.",
+                "Tandai kata yang menunjukkan urutan atau perubahan.",
+                "Susun tahapan secara berurutan.",
+                "Periksa hubungan antara tahap awal dan hasil akhir.",
+                "Hindari menambahkan tahapan yang tidak disebutkan atau tidak dapat disimpulkan dari bacaan."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Soal tentang penyebab, prasyarat, proses, dan dampak"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pisahkan setiap unsur penjelasan.",
+                "Perhatikan hubungan antarkondisi.",
+                "Bedakan faktor pemicu dari kondisi yang memungkinkan proses berlangsung.",
+                "Telusuri bagaimana proses menghasilkan dampak.",
+                "Pilih jawaban yang mempertahankan hubungan sebagaimana dijelaskan teks."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Soal tentang perubahan kondisi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Identifikasi kondisi yang mengalami perubahan.",
+                "Tentukan peran kondisi tersebut dalam mekanisme.",
+                "Telusuri tahapan yang terpengaruh.",
+                "Perkirakan konsekuensi berdasarkan hubungan yang dijelaskan.",
+                "Perhatikan apakah teks memberikan batasan atau kondisi tertentu."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Soal tentang inferensi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Tandai sedikitnya dua petunjuk yang relevan.",
+                "Hubungkan petunjuk tersebut.",
+                "Susun kesimpulan yang menjelaskan hubungan di antara keduanya.",
+                "Periksa apakah kesimpulan didukung oleh informasi yang tersedia.",
+                "Hindari kesimpulan yang terlalu luas atau terlalu pasti."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "5. Soal tentang evaluasi inferensi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Uji setiap pilihan menggunakan bukti yang sama.",
+                "Cari informasi yang secara langsung mendukung atau membatasi kesimpulan.",
+                "Identifikasi asumsi tambahan yang dibutuhkan.",
+                "Singkirkan pilihan yang bertentangan dengan informasi teks.",
+                "Pilih kesimpulan yang paling kuat dan proporsional."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum yang Harus Dihindari"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Mengapa keliru?",
+                "Cara menghindari"
+              ],
+              "baris": [
+                [
+                  "Menganggap dua peristiwa yang berurutan pasti memiliki hubungan sebab-akibat",
+                  "Urutan waktu tidak otomatis menunjukkan hubungan kausal",
+                  "Periksa mekanisme yang dijelaskan"
+                ],
+                [
+                  "Menyamakan penyebab dengan prasyarat",
+                  "Penyebab memicu perubahan, sedangkan prasyarat merupakan kondisi yang diperlukan",
+                  "Identifikasi fungsi setiap unsur"
+                ],
+                [
+                  "Mengabaikan tahapan perantara",
+                  "Akibat sering muncul melalui proses bertahap",
+                  "Telusuri seluruh rangkaian mekanisme"
+                ],
+                [
+                  "Memperkirakan akibat tanpa memahami mekanisme",
+                  "Jawaban dapat didasarkan pada dugaan umum",
+                  "Hubungkan perubahan dengan fungsi variabel"
+                ],
+                [
+                  "Menarik inferensi dari satu petunjuk yang lemah",
+                  "Kesimpulan dapat memiliki banyak kemungkinan",
+                  "Gabungkan beberapa petunjuk relevan"
+                ],
+                [
+                  "Menganggap kesimpulan yang masuk akal pasti didukung teks",
+                  "Kewajaran umum tidak sama dengan bukti tekstual",
+                  "Uji setiap kesimpulan terhadap bacaan"
+                ],
+                [
+                  "Membuat generalisasi berlebihan",
+                  "Kesimpulan dapat melampaui cakupan informasi",
+                  "Pertahankan kata pembatas dan tingkat kepastian"
+                ],
+                [
+                  "Mengabaikan informasi yang membatasi kesimpulan",
+                  "Kesimpulan dapat menjadi terlalu mutlak",
+                  "Periksa syarat, pengecualian, dan ketidakpastian"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Teks eksplanatif menjelaskan bagaimana dan mengapa suatu fenomena terjadi melalui hubungan yang logis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Unsur penting teks eksplanatif meliputi fenomena, penyebab, prasyarat, mekanisme, tahapan, dan dampak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Memahami proses memerlukan kemampuan mengurutkan perubahan dan menjelaskan hubungan antartahap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Analisis sebab-akibat harus membedakan faktor pemicu, kondisi pendukung, proses, dan konsekuensi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Perubahan satu kondisi dapat memengaruhi tahapan proses dan menghasilkan konsekuensi tertentu sesuai mekanisme bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Inferensi merupakan kesimpulan yang diperoleh dengan menghubungkan petunjuk tekstual."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "7. Inferensi yang tepat harus memiliki bukti yang relevan, cukup, dan tidak melampaui batas informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "8. Kesimpulan yang terdengar masuk akal belum tentu didukung oleh bacaan apabila memerlukan asumsi tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "9. Evaluasi inferensi dilakukan dengan membandingkan setiap alternatif terhadap petunjuk yang tersedia."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pembahasan Konsep Dasar secara Mendalam",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan teks eksplanatif dan penalaran inferensial menuntut kemampuan memahami hubungan antarinformasi secara cermat. Peserta perlu melihat bagaimana suatu fenomena berlangsung, faktor apa yang memengaruhinya, dan konsekuensi apa yang dapat muncul ketika kondisi berubah. Pada saat yang sama, peserta harus mampu menghubungkan petunjuk tekstual untuk menghasilkan kesimpulan yang logis tanpa menambahkan asumsi yang tidak didukung. Kemampuan tersebut menjadi bekal penting dalam menghadapi bacaan UTBK-SNBT yang menguji pemahaman proses, hubungan kausal, dan ketepatan penalaran."
+  }
+}

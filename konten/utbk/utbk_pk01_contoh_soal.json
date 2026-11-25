@@ -1,0 +1,3708 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bilangan dan Aritmetika",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Bilangan dan Aritmetika",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-01-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Faktor bilangan prima dan syarat berbeda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil perkalian tiga bilangan prima berbeda $a, b,$ dan $c$ adalah $182$. Nilai $a+b+c$ adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 22"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Faktorisasi prima dan syarat bilangan berbeda. Bilangan 1 bukan prima."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$182 = 2 × 91 = 2 × 7 × 13.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiganya prima berbeda, sehingga $a+b+c = 2+7+13 = 22.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan penamaan $a,b,c$ tidak memengaruhi jumlah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan faktor genap terlebih dahulu: $182 ÷ 2 = 91 = 7 × 13$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlahkan $2+7+13.$"
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Operasi campuran dengan variabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $x$ dan $y$ positif dengan $x=4$ dan $y=3$. Nilai $3x² − 2xy + y²$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "27",
+            "B": "30",
+            "C": "33",
+            "D": "36",
+            "E": "39"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Substitusi, prioritas pangkat, dan operasi bertanda."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3(4²) − 2(4)(3) + 3²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 48 − 24 + 9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 33$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung pangkat lebih dahulu dan jaga tanda negatif pada $−2xy$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, 27 tidak sesuai substitusi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, 30 tidak sesuai substitusi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, hasilnya 33."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, 36 bukan hasil ekspresi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, 39 bukan hasil ekspresi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung tiap suku: $48, −24, 9.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlahkan menjadi 33."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Perbandingan kuantitas dari sisa pembagian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak bilangan genap positif kurang dari $30$ yang bersisa $2$ atau $3$ jika dibagi $5$ adalah $k$. Jika $P=k$ dan $Q=6$, hubungan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$P ≥ 2Q$",
+            "B": "$Q < P < 2Q$",
+            "C": "$P = Q$",
+            "D": "$P < Q$",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penyaringan bilangan berdasarkan dua syarat dan perbandingan kuantitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan genap positif kurang dari 30 adalah $2,4,6,…,28.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yang bersisa 2 atau 3 saat dibagi 5 adalah $2, 8, 12, 18, 22, 28$; jadi $k=6$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $P=6=Q$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, $P$ tidak mencapai 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, $P$ tidak lebih dari $Q$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, kedua kuantitas bernilai 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, $P$ tidak kurang dari $Q$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, hasil dapat ditentukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bentuk dua deret: 2,12,22 (sisa 2) dan 8,18,28 (sisa 3); semuanya genap."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menghitung banyaknya bilangan bersisa sama",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak bilangan dua digit yang bersisa 3 jika dibagi 7 adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "13",
+            "B": "14",
+            "C": "15",
+            "D": "16",
+            "E": "17"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Bilangan yang memenuhi $n = 7q + 3$ membentuk barisan dengan beda 7."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan pertama yang memenuhi adalah $10=7(1)+3$ dan terakhir adalah $94=7(13)+3$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Banyak suku = (94−10)/7+1 = 13$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar, terdapat 13 bilangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, mencakup satu bilangan terlalu banyak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, melebihi banyak suku yang sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, melebihi banyak suku yang sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, melebihi banyak suku yang sah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung $q$ dari 1 sampai 13, sehingga terdapat 13 nilai."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menjumlahkan bilangan bersisa sama",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah seluruh bilangan dua digit yang bersisa 3 jika dibagi 7 adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "666",
+            "B": "676",
+            "C": "683",
+            "D": "777",
+            "E": "589"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Barisan aritmetika dari kelas sisa pembagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diperoleh 13 suku:$10,17,…,94.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jumlah =(13(10+94))/2= 13×52 = 676.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus jumlah dipakai sebagai strategi penghitungan; pembahasan teori barisan yang lengkap tetap berada pada bab tersendiri."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, lebih rendah 10 dari nilai tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar, jumlahnya 676."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, tidak sama dengan jumlah deret."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, terlalu besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, terlalu kecil."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pasangkan suku pertama dengan terakhir: setiap pasangan bernilai 104; gunakan $13×52$."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Operasi khusus dan hubungan $P–Q$",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Didefinisikan $p ★ q =(p+q)/2$ dan $p ■ q = (p ★ q)+pq$. Jika $P=2 ■ 4$ dan $Q=12$, hubungan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$P < Q$",
+            "B": "$P = Q$",
+            "C": "$P > Q$",
+            "D": "$P = 2Q$",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Definisi operasi khusus harus dipakai sesuai instruksi; simbol bukan operasi baku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$2 ★ 4 = (2+4)/2 = 3$, sehingga $2 ■ 4 = 3+(2×4)=11$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $Q=12, P<Q$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar, $11<12$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, 11 tidak sama dengan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, $P$ lebih kecil, bukan lebih besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, 11 bukan dua kali 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, hubungan dapat ditentukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung simbol terdalam ★ terlebih dahulu, baru ■; bandingkan 11 dengan 12."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Substitusi cerdas pada bentuk aljabar",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika $x²y − 3xy = 10$ dan $xy = 2$, nilai $x$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menyederhanakan bentuk menggunakan faktor berulang; tidak perlu mencari $y$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $x²y = x(xy)$,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "substitusi $xy=2$ memberi $2x−3(2)=10$,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sehingga $2x−6=10$ dan $x=8$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsisten dengan $y=1/4$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, $2(4)−6=2.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, $2(5)−6=4.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, $2(6)−6=6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, $2(7)−6=8.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar, $2(8)−6=10.$"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tuliskan $x²y = x·xy$; gantikan $xy$ dengan 2 tanpa menyelesaikan dua variabel."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 8 — Pengujian dua kuantitas berbasis syarat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $x$ dan $y$ bilangan positif serta $x=3y$. Jika $P=x+2y$ dan $Q=2x$, hubungan yang pasti benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$P>Q$",
+            "B": "$P=Q$",
+            "C": "$P<Q$",
+            "D": "$P=2Q$",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Substitusi hubungan antarkuantitas; penggunaan syarat y>0 untuk menentukan tanda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$P=3y+2y=5y$ sedangkan $Q=2(3y)=6y.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $y>0$,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "berlaku $5y<6y$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika syarat $y$ positif tidak ada, hubungan mungkin berbeda menurut tanda ."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah karena $5y<6y$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah karena $5y≠6y$ untuk $y>0$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, $P<Q$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah karena $P$ bukan $2Q$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, syarat $y>0$ sudah cukup menentukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan selisih $P−Q = 5y−6y = −y < 0.$"
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 9 — Diagram operasi silang: uji konsistensi",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk01_bilangan_dan_aritmetika/gambar-01.png",
+              "lebar": 9.4,
+              "tinggi": 3.67
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: −5"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Konsistensi persamaan horizontal dan vertikal serta definisi simbol operasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari baris atas:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6 ÷ P = 2$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P = 3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari kolom kiri:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6 + 2 = Q$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Q = 8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selanjutnya, dari kolom kanan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2 △ 3 = −1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Operasi yang memenuhi adalah pengurangan karena:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2 − 3 = −1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$△ = −$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hal ini juga sesuai dengan baris bawah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Q △ 9 = −1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8 − 9 = −1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka yang ditanyakan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P △ Q = 3 − 8 = −5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, $P △ Q = −5.$"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tentukan operator dari persamaan yang hanya memuat angka; baru cari $P$ dan $Q$. Akhiri dengan memeriksa SEMUA baris/kolom."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 10 — Mengevaluasi pernyataan yang tidak mungkin",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan: “Bilangan bulat n jika dibagi 2 bersisa 3.” Tentukan apakah terdapat n yang memenuhi. Jika terdapat bilangan bulat $n$ yang memenuhi pernyataan tersebut, tuliskan 1. Jika tidak ada, tuliskan 0."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 0"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jika pembagi positif $d$, sisa $r$ wajib memenuhi $0 ≤ r < d$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk pembagian oleh 2, satu-satunya sisa yang diperbolehkan adalah 0 atau 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 3 tidak lebih kecil daripada 2, data sudah tidak konsisten."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menggunakan $n=2a+3$ tanpa memeriksa batas sisa akan menghasilkan interpretasi hasil bagi yang keliru."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Sebelum menghitung, cek apakah sisa pembagian kurang dari pembagi."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 11 — Evaluasi sifat bilangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang siswa sedang memeriksa hasil perhitungan yang melibatkan bilangan prima, operasi bilangan berpangkat, dan sisa pembagian. Setiap perhitungan harus memenuhi sifat bilangan serta aturan operasi matematika yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Bilangan 182 dapat dinyatakan sebagai hasil perkalian tiga bilangan prima berbeda, yaitu 2, 7, dan 13.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Terdapat 6 bilangan genap positif kurang dari 30 yang bersisa 2 atau 3 ketika dibagi 5.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Hasil dari (−3)² dan −3² adalah sama karena keduanya menggunakan bilangan dasar −3.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Suatu bilangan bulat dapat memiliki sisa 3 ketika dibagi 2.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Benar, Salah, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Faktorisasi prima, sisa pembagian, operasi bilangan berpangkat, dan sifat bilangan bulat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan 182 dapat difaktorkan menjadi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "182 = 2 × 7 × 13"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga faktor tersebut merupakan bilangan prima yang berbeda. Jadi, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan genap positif kurang dari 30 yang bersisa 2 atau 3 ketika dibagi 5 adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2, 8, 12, 18, 22, dan 28."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat 6 bilangan yang memenuhi kedua syarat tersebut. Jadi, pernyataan (2) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda kurung memengaruhi urutan operasi bilangan berpangkat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(-3)^{2}=9$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sedangkan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$-3^{2}=-(3^{2})=-9$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua hasil berbeda, sehingga pernyataan (3) salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pembagian bilangan bulat oleh bilangan positif, sisa pembagian harus lebih kecil daripada pembaginya dan tidak boleh negatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pembaginya 2, sisa yang mungkin hanya 0 atau 1. Oleh karena itu, sisa 3 tidak memenuhi ketentuan pembagian tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Benar – Salah – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa setiap pernyataan berdasarkan aturan yang sesuai. Gunakan faktorisasi untuk bilangan prima, daftar bilangan untuk syarat sisa pembagian, tanda kurung untuk operasi pangkat, dan aturan bahwa sisa harus lebih kecil daripada pembagi."
+            }
+          ],
+          "label": "Bilangan dan Operasi Bilangan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — FPB dua bilangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui dua bilangan, yaitu 84 dan 126. Faktor persekutuan terbesar (FPB) kedua bilangan tersebut adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 42"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FPB ditentukan oleh faktor prima bersama dengan pangkat terendah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktorisasi prima $84 = 2² × 3 × 7$ dan $126 = 2 × 3² × 7$. Faktor bersama adalah $2¹, 3¹$, dan $7¹$ sehingga $FPB = 2 × 3 × 7 = 42.$ Verifikasi: $84 ÷ 42 = 2$ dan $126 ÷ 42 = 3$, keduanya bilangan bulat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Algoritma Euclid: $126 = 84 + 42; 84 = 2 × 42,$ sehingga $FPB = 42$."
+            }
+          ],
+          "label": "FPB dan KPK"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — KPK dari beberapa periode",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga alat bekerja dengan siklus 12, 18, dan 30 menit. Ketiganya mulai bersamaan pukul 08.00. Pada pukul berapa ketiganya pertama kali kembali memulai siklus secara bersamaan?"
+            }
+          ],
+          "opsi": {
+            "A": "09.30",
+            "B": "10.00",
+            "C": "10.30",
+            "D": "11.00",
+            "E": "11.30"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "KPK digunakan untuk mencari kelipatan waktu positif terkecil saat jadwal berulang bertemu kembali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$12 = 2² × 3, 18 = 2 × 3²$, dan $30 = 2 × 3 × 5$. $KPK = 2² × 3² × 5 = 180 menit = 3 jam$. Tiga jam setelah pukul 08.00 adalah pukul 11.00."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 90 menit terlalu cepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 120 menit bukan kelipatan 18."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 150 menit bukan kelipatan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar: 180 menit setelah 08.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 210 menit bukan kelipatan 12."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan pangkat prima maksimum; dari $12, 18, 30$ langsung $KPK = 180$ tanpa membuat daftar panjang kelipatan."
+            }
+          ],
+          "label": "FPB dan KPK"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Pembagian menjadi paket identik",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Panitia memiliki 84 pensil dan 126 buku kecil. Semua perlengkapan akan dibagi ke dalam paket dengan isi identik, tanpa sisa. Berapa paket paling banyak yang dapat dibuat?"
+            }
+          ],
+          "opsi": {
+            "A": "21",
+            "B": "28",
+            "C": "36",
+            "D": "42",
+            "E": "63"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah paket harus membagi habis seluruh jenis barang; yang diminta adalah jumlah pembagi bersama terbesar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan paket harus menjadi faktor 84 dan faktor 126. Nilai terbesar yang memenuhi adalah $FPB(84,126) = 42$. Setiap paket berisi $84 ÷ 42 = 2$ pensil dan $126 ÷ 42 = 3$ buku kecil."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 21 paket mungkin, tetapi belum maksimal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 28 tidak membagi habis 126."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 36 tidak membagi habis 84 maupun 126."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar: 42 paket, masing-masing 2 pensil dan 3 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 63 tidak membagi habis 84."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bila barang harus habis dibagi ke paket identik dan jumlah paket dimaksimalkan, hitung FPB dari seluruh jumlah barang."
+            }
+          ],
+          "label": "FPB dan KPK"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menentukan bilangan dari FPB dan KPK",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $t$ bilangan bulat positif dengan $FPB(36,t) = 12$ dan $KPK(36,t) = 180$. Nilai $t$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "48",
+            "B": "54",
+            "C": "60",
+            "D": "72",
+            "E": "90"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk dua bilangan positif berlaku $FPB × KPK = hasil kali kedua bilangan.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan $a = 36, b = t$, maka $12 × 180 = 36 × t$ sehingga $t = 60$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa: $FPB(36,60)=12, KPK(36,60)=180$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua syarat terpenuhi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. $FPB(36,48)=12$ tetapi KPK bukan 180."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. $FPB(36,54)=18$, bukan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar; semua syarat sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. $FPB(36,72)=36,$ bukan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E.$FPB(36,90)=18$, bukan 12."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $t = FPB × KPK ÷ bilangan diketahui$; wajib cek balik kedua syarat."
+            }
+          ],
+          "label": "FPB dan KPK"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menguji konsistensi syarat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang siswa sedang menentukan bilangan bulat positif $t$ berdasarkan dua syarat berikut:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$KPK(8,t) = 120$",
+                "$FPB(24,t) = 8$"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menentukan apakah terdapat nilai $t$ yang memenuhi kedua syarat tersebut, siswa perlu memeriksa hubungan faktor prima pada KPK dan FPB."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Syarat KPK(8, t) = 120 mengharuskan bilangan t memiliki faktor prima 3 dan 5.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Syarat FPB(24, t) = 8 mengharuskan bilangan t memiliki faktor prima 3.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Bilangan t = 120 memenuhi syarat KPK, tetapi tidak memenuhi syarat FPB yang diberikan.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Terdapat setidaknya satu bilangan bulat positif t yang memenuhi kedua syarat secara bersamaan.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Faktorisasi prima, KPK, FPB, dan Konsistensi syarat bilangan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktorisasi prima dari 8 dan 120 adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8=2^{3}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$120=2^{3}×3×5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena KPK mengambil pangkat terbesar dari setiap faktor prima, bilangan $t$ harus memuat faktor prima 3 dan 5 agar KPK(8, t) menghasilkan 120."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktorisasi prima dari 24 adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$24=2^{3}×3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Agar FPB(24, t) = 8, bilangan $t$ harus memiliki faktor $2^{3}$, tetapi tidak boleh memiliki faktor prima 3. Jika $t$ memiliki faktor prima 3, FPB keduanya juga akan mengandung faktor 3."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk $t=120$, diperoleh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "KPK(8, 120) = 120"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FPB(24, 120) = 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai $t=120$ hanya memenuhi syarat KPK, bukan syarat FPB."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Syarat KPK(8, t) = 120 mengharuskan $t$ memiliki faktor prima 3. Sebaliknya, syarat FPB(24, t) = 8 mengharuskan $t$ tidak memiliki faktor prima 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua syarat tersebut saling bertentangan, sehingga tidak ada bilangan bulat positif $t$ yang memenuhi keduanya secara bersamaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Salah – Benar – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bandingkan faktor prima 3 pada kedua syarat. KPK mengharuskan faktor 3 ada dalam $t$, sedangkan FPB mengharuskan faktor tersebut tidak ada. Karena bertentangan, tidak ada solusi."
+            }
+          ],
+          "label": "FPB dan KPK"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Rumus faktor prima untuk tiga bilangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $A = 2² × 3², B = 2³ × 3, dan C = 2 × 3² × 5$. Nilai $KPK(A,B,C)$ dibagi $FPB(A,B,C)$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "30",
+            "B": "45",
+            "C": "60",
+            "D": "90",
+            "E": "120"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FPB mengambil pangkat minimum pada semua bilangan; KPK mengambil maksimum dari seluruh bilangan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$FPB = 2¹ × 3¹ = 6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$KPK = 2³ × 3² × 5 = 360$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $KPK ÷ FPB = 360 ÷ 6 = 60$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 30 bukan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 45 bukan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar: $360 ÷ 6 = 60.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 90 bukan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 120 bukan hasil."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Catat eksponen maksimum dan minimum per prima dalam dua baris, kemudian bagi hasilnya."
+            }
+          ],
+          "label": "FPB dan KPK"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Rasio dari data tabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Femi mempersiapkan lomba lari lintas alam sepanjang 8 km. Ia berlatih sekali setiap pekan selama 16 pekan. Pada pekan pertama jarak latihannya 2 km. Pada setiap pekan berikutnya, jarak latihan bertambah 0,5 km hingga mencapai 8 km. Setelah mencapai jarak itu, latihan berikutnya tetap 8 km. Jarak dihitung dalam kilometer. Jika latihan pada suatu pekan berlangsung, jarak latihan pada pekan tersebut dihitung penuh."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pekan ke-",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "baris": [
+                [
+                  "Jarak (km)",
+                  "2",
+                  "2,5",
+                  "3",
+                  "3,5",
+                  "4"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan jarak latihan pada pekan pertama dan pekan kelima adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "1 : 2",
+            "B": "2 : 3",
+            "C": "3 : 4",
+            "D": "4 : 5",
+            "E": "5 : 6"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mengidentifikasi hubungan dua besaran dan menyederhanakan rasio dengan urutan yang tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua jarak sudah dalam satuan yang sama, yaitu km. $Rasio pertama : kelima = 2 : 4.$ Kedua suku dibagi 2 menjadi $1 : 2$. Tidak diperlukan seluruh informasi tentang 16 pekan karena yang ditanya hanya dua pekan tertentu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar; 2 : 4 disederhanakan menjadi 1 : 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak sesuai dengan 2 : 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak ekuivalen dengan 2 : 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak ekuivalen dengan 2 : 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak ekuivalen dengan 2 : 4."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ambil dua nilai yang ditanyakan, tulis sesuai urutan, lalu bagi keduanya dengan FPB."
+            }
+          ],
+          "label": "Rasio/Perbandingan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pembagian berdasarkan jumlah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan uang yang dikumpulkan tim A dan tim B adalah 2 : 5. Jika jumlah uang kedua tim Rp259.000,00, pasangan jumlah uang tim A dan B adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp74.000 dan Rp185.000",
+            "B": "Rp86.000 dan Rp173.000",
+            "C": "Rp75.000 dan Rp184.000",
+            "D": "Rp68.000 dan Rp191.000",
+            "E": "Rp82.000 dan Rp177.000"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menentukan nilai tiap bagian dari jumlah dan rasio yang diketahui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Total bagian = 2 + 5 = 7$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Nilai satu bagian = Rp259.000 ÷ 7 = Rp37.000$."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Uang tim A = 2 × Rp37.000 = Rp74.000.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Uang tim B = 5 × Rp37.000 = Rp185.000.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya berjumlah $Rp259.000$ dan memiliki rasio $2 : 5$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar; jumlah dan rasio sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Jumlah benar tetapi rasio tidak 2 : 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Jumlah benar tetapi rasio tidak 2 : 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Jumlah benar tetapi rasio tidak 2 : 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Jumlah benar tetapi rasio tidak 2 : 5."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "$2/7 × 259.000 dan 5/7 × 259.000$; cek jumlah."
+            }
+          ],
+          "label": "Rasio/Perbandingan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Rasio tiga besaran dari informasi parsial",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan jumlah permen Ahmad, Eko, dan Uya adalah 6 : 4 : 2. Jumlah permen Ahmad dan Eko adalah 55. Jumlah permen ketiganya adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 66"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menentukan nilai total dari jumlah sebagian kelompok pada rasio tiga besaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ahmad dan Eko mempunyai $6 + 4 = 10$ bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sepuluh bagian sama dengan 55, maka satu bagian bernilai 5,5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total bagian ketiga orang $= 6 + 4 + 2 = 12$, sehingga total $= 12 × 5,5 = 66$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masing-masing nilai adalah 33, 22, dan 11 permen; semuanya bilangan bulat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jangan membagi 55 dengan 12, karena 55 hanya jumlah Ahmad dan Eko. Hitung $(12/10) × 55 = 66$."
+            }
+          ],
+          "label": "Rasio/Perbandingan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Rasio tiga kelompok",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan kelereng Afif, Haris, dan Ilhan adalah 3 : 7 : 9. Jumlah kelereng Afif dan Ilhan adalah 96. Jumlah kelereng ketiganya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "135",
+            "B": "152",
+            "C": "160",
+            "D": "240",
+            "E": "285"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menentukan nilai seluruh kelompok dari jumlah dua kelompok yang tidak berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Afif dan Ilhan menempati $3 + 9 = 12$ bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena jumlahnya 96, maka satu bagian $= 8$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah bagian semuanya $3 + 7 + 9 = 19$ sehingga total kelereng $= 19 × 8 = 152$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah tiap orang: $24, 56, 72; 24 + 72 = 96$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 135 bukan hasil $19 × 8$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar; 152 dari 19 bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak cocok dengan nilai bagian yang diketahui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Hanya cocok jika faktor pengalinya salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak memenuhi jumlah Afif dan Ilhan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari satu bagian dari dua kelompok yang disebut: $96/(3+9)=8$, lalu $8×(3+7+9)=152$."
+            }
+          ],
+          "label": "Rasio/Perbandingan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Perbandingan berdasar selisih",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan banyak karyawan perempuan dan laki-laki adalah 3 : 5. Jika selisih kedua kelompok adalah 30 orang, jumlah seluruh karyawan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "80 orang",
+            "B": "95 orang",
+            "C": "110 orang",
+            "D": "112 orang",
+            "E": "120 orang"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menggunakan selisih bagian untuk memodelkan jumlah, bukan jumlah bagian secara langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih bagian $= 5 − 3 = 2$ bagian, setara 30 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu bagian berarti 15 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Total = (3+5) × 15 = 120$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perempuan = 45, laki-laki = 75; selisihnya tepat 30 orang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Jumlah terlalu kecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak memenuhi rasio 3 : 5 dan selisih 30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak memenuhi rasio 3 : 5 dan selisih 30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak memenuhi rasio 3 : 5 dan selisih 30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar; 120 orang dengan rincian 45 dan 75."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "$Jumlah = (jumlah bagian/selisih bagian) × selisih aktual$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$= (8/2)×30 = 120$."
+            }
+          ],
+          "label": "Rasio/Perbandingan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Rasio bertingkat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perpustakaan menyimpan buku pada tiga rak, yaitu A, B, dan C. Perbandingan jumlah buku di rak A dan B adalah 2 : 3, sedangkan perbandingan jumlah buku di rak B dan C adalah 4 : 5. Jumlah seluruh buku pada ketiga rak tersebut adalah 140 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengelola perpustakaan berencana memindahkan sebagian buku antarrak tanpa mengubah jumlah keseluruhan buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika 8 buku dipindahkan dari rak C ke rak A, jumlah buku di rak A dan B menjadi sama.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika 12 buku dipindahkan dari rak C ke rak B, perbandingan jumlah buku di rak B dan C menjadi 5 : 4.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Agar jumlah buku di ketiga rak sama, cukup memindahkan 8 buku dari rak C ke rak A dan 4 buku dari rak B ke rak A.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Benar, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menyatukan rasio bertingkat, menentukan jumlah aktual, dan menganalisis perubahan perbandingan akibat perpindahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Samakan bagian B dari kedua rasio."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A : B = 2 : 3 = 8 : 12"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B : C = 4 : 5 = 12 : 15"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A : B : C = 8 : 12 : 15"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total bagian = 8 + 12 + 15 = 35."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai satu bagian = 140 ÷ 35 = 4 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah buku mula-mula adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Rak A = 8 × 4 = 32 buku.",
+                "Rak B = 12 × 4 = 48 buku.",
+                "Rak C = 15 × 4 = 60 buku."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 8 buku dipindahkan dari rak C ke rak A:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak A = 32 + 8 = 40 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak B = 48 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 40 ≠ 48, jumlah buku kedua rak tidak sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 12 buku dipindahkan dari rak C ke rak B:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak B = 48 + 12 = 60 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak C = 60 − 12 = 48 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan B : C = 60 : 48 = 5 : 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pernyataan (2) Benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 8 buku dipindahkan dari rak C ke rak A dan 4 buku dari rak B ke rak A:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak A = 32 + 8 + 4 = 44 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak B = 48 − 4 = 44 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak C = 60 − 8 = 52 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah buku ketiga rak belum sama sehingga pernyataan (3) salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Salah – Benar – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Satukan rasio menjadi 8 : 12 : 15, lalu hitung jumlah buku awal (32, 48, 60). Untuk setiap pernyataan, perbarui jumlah buku pada rak yang terlibat dan periksa kembali kondisi yang diminta."
+            }
+          ],
+          "label": "Rasio/Perbandingan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Perubahan rasio akibat perpindahan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak siswa di kelompok A dan B mula-mula berbanding 3 : 5. Setelah 6 siswa berpindah dari kelompok B ke A, perbandingannya menjadi 1 : 1. Jumlah seluruh siswa adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "36 siswa",
+            "B": "42 siswa",
+            "C": "48 siswa",
+            "D": "54 siswa",
+            "E": "60 siswa"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menganalisis rasio sebelum dan setelah perpindahan dengan total yang tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan $A=3k$ dan $B=5k$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sesudah perpindahan, $A=3k+6$ dan $B=5k−6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena menjadi $1:1$, keduanya sama: $3k+6=5k−6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi $2k=12$ dan $k=6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total awal $= 8k=48.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan: awal $A=18, B=30$; sesudah perpindahan $A=24$ dan $B=24.$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak memenuhi keseimbangan sesudah perpindahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak memenuhi model $3k+6=5k−6$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar; 48 siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Total terlalu besar untuk $k=6$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Total tidak memenuhi rasio awal dan rasio baru."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika perpindahan membuat dua kelompok sama, selisih awal $(5−3)k = 2×6$, sehingga $k=6.$"
+            }
+          ],
+          "label": "Rasio/Perbandingan"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menguji kesetaraan dua rasio",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan rasio manakah yang menunjukkan proporsi yang benar?"
+            }
+          ],
+          "opsi": {
+            "A": "3 : 4 = 9 : 12",
+            "B": "3 : 4 = 8 : 12",
+            "C": "4 : 5 = 12 : 20",
+            "D": "5 : 6 = 10 : 15",
+            "E": "6 : 7 = 18 : 28"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua rasio setara bila penyederhanaannya sama atau hasil kali silangnya sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji A: $3×12 = 36$ dan $4×9 = 36$ sehingga setara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Empat opsi lain menghasilkan hasil silang yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar, kedua rasio setara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. $3×12 ≠ 4×8$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. $4×20 ≠ 5×12$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. $5×15 ≠ 6×10$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. $6×28 ≠ 7×18$."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lihat faktor pengali: 3→9 dan 4→12 sama-sama dikali 3."
+            }
+          ],
+          "label": "Proporsi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Kebutuhan pekerja pada dua kondisi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 12 pekerja menyelesaikan 5% volume tanggul dalam 3 hari. Jika produktivitas tiap pekerja tetap, berapa pekerja yang diperlukan untuk menyelesaikan 10% volume tanggul dalam 2 hari?"
+            }
+          ],
+          "opsi": {
+            "A": "18 pekerja",
+            "B": "24 pekerja",
+            "C": "30 pekerja",
+            "D": "36 pekerja",
+            "E": "42 pekerja"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Volume pekerjaan sebanding dengan hasil kali pekerja dan waktu jika produktivitas tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pekerjaan menjadi dua kali lipat $(10%/5%=2)$, tetapi waktu turun dari 3 hari menjadi 2 hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $n₂ = 12 × 2 × (3/2)=36$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji satuan kerja: $12×3 =36$ pekerja-hari untuk $5%$, sehingga $10%$ memerlukan 72 pekerja-hari; dalam 2 hari dibutuhkan 36 pekerja."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 18 hanya setengah kebutuhan yang benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 24 mengabaikan pengurangan waktu secara tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 30 tidak menghasilkan 72 pekerja-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar: $36×2=72$ pekerja-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 42 menghasilkan 84 pekerja-hari, terlalu banyak."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Dari $(12×3×2)/2$, langsung peroleh 36 pekerja. Pastikan produktivitas tetap."
+            }
+          ],
+          "label": "Proporsi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Kebutuhan cat dengan pembatasan unit",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat kaleng cat tembok dapat menutup dinding seluas 20 m². Daya tutup setiap kaleng tetap dan cat hanya dapat dibeli per kaleng utuh. Banyak kaleng paling sedikit untuk mengecat dinding 35 m² adalah .... kaleng"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 7"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesetaraan proporsi kebutuhan bahan–luas dan verifikasi kebutuhan dalam satuan utuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu kaleng menutup $20/4=5 m²$. Dengan daya tutup sama, $35/5=7$ kaleng."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena hasil bilangan bulat, tidak diperlukan pembulatan. Informasi harga cat dan biaya pengiriman pada stimulus asli tidak diperlukan untuk menentukan banyak kaleng."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari daya tutup per kaleng: $5 m²; 35÷5=7$."
+            }
+          ],
+          "label": "Proporsi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menentukan variabel pada proporsi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 6 kotak berisi 48 lembar bahan. Jika isi setiap kotak sama, banyak lembar bahan dalam 11 kotak adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "72 lembar",
+            "B": "80 lembar",
+            "C": "84 lembar",
+            "D": "88 lembar",
+            "E": "96 lembar"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai tak diketahui diperoleh melalui perbandingan tetap antara lembar dan kotak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap kotak berisi $48÷6=8$ lembar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 11 kotak diperoleh $11×8=88$ lembar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Secara proporsi $, 48/6=x/11$, sehingga $6x=528$ dan $x=88$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 72 setara 9 kotak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 80 setara 10 kotak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 84 tidak habis dibagi 11 dengan isi kotak sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar; 11×8=88."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 96 setara 12 kotak."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika unitnya mudah, cari satu kotak lebih cepat daripada perkalian silang."
+            }
+          ],
+          "label": "Proporsi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menganalisis proporsi ketika biaya tetap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jasa cetak mengenakan biaya awal Rp12.000,00 dan Rp2.000,00 per halaman. Seorang siswa mencetak 4 halaman lalu 8 halaman. Pernyataan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Biaya total pada 8 halaman menjadi dua kali lipat.",
+            "B": "Biaya total pada 8 halaman adalah Rp28.000,00.",
+            "C": "Biaya per halaman selalu Rp2.000,00 tanpa tambahan.",
+            "D": "Biaya total berbanding lurus dengan jumlah halaman.",
+            "E": "Biaya awal bertambah sebesar jumlah halaman dicetak."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Biaya tetap membuat total biaya tidak proporsional terhadap jumlah halaman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 4 halaman total biaya $=12.000+4×2.000=20.000.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 8 halaman total $=12.000+8×2.000=28.000$, bukan $40.000.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Walau biaya variabel berbanding lurus dengan halaman, biaya total tidak karena komponen tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak benar; 28.000 bukan 40.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar; $12.000+16.000=28.000$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Ada tambahan biaya awal Rp12.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Total biaya tidak memenuhi $y=kx.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Biaya awal justru tetap Rp12.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan tarif tetap dan tarif per halaman; hitung $y=12.000+2.000x$."
+            }
+          ],
+          "label": "Proporsi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Menguji validitas data tabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan pengiriman mencatat hubungan antara banyak paket barang ($x$) dan total massa barang ($y$). Setiap paket seharusnya memiliki massa yang sama sehingga total massa barang berbanding lurus dengan banyaknya paket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil pencatatan ditunjukkan pada tabel berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Banyak Paket (x)",
+                "Total Massa (y)"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "6 kg"
+                ],
+                [
+                  "4",
+                  "12 kg"
+                ],
+                [
+                  "6",
+                  "19 kg"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan data tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Data pada baris pertama dan kedua menunjukkan hubungan proporsional karena menghasilkan massa per paket yang sama.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Kenaikan massa sebesar 7 kg dari 4 paket menjadi 6 paket membuktikan bahwa seluruh data mengikuti perbandingan yang tetap.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika massa setiap paket mengikuti pola dua baris pertama, total massa untuk 6 paket seharusnya 18 kg sehingga data pada baris ketiga tidak konsisten.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menguji konsistensi hubungan proporsional dengan membandingkan rasio dua besaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan proporsional mensyaratkan rasio massa terhadap banyak paket bernilai tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada baris pertama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6/2=3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada baris kedua:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12/4=3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua baris menghasilkan massa yang sama, yaitu 3 kg per paket. Dengan demikian, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari 4 paket menjadi 6 paket, massa bertambah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19-12=7kg$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pertambahan massa tidak cukup untuk membuktikan bahwa hubungan kedua besaran proporsional."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada baris ketiga, massa per paket adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19/6≈3,17kg$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai tersebut berbeda dari rasio dua baris sebelumnya, yaitu 3 kg per paket. Jadi, pernyataan (2) salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan dua baris pertama, setiap paket memiliki massa 3 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pola tersebut tetap berlaku, massa untuk 6 paket seharusnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6×3=18kg$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tabel mencatat 19 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisihnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19-18=1kg$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, data pada baris ketiga tidak konsisten dengan hubungan proporsional yang ditunjukkan dua baris pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Salah – Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung rasio $y/x$ pada setiap baris. Hubungan proporsional harus memiliki rasio yang sama. Hasilnya adalah 3, 3, dan 19/6 sehingga baris ketiga tidak konsisten."
+            }
+          ],
+          "label": "Proporsi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Konsistensi proporsi setelah produktivitas berubah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah tim menyelesaikan 24 unit pekerjaan dalam 3 jam. Pada hari lain, anggota tim dan durasi kerjanya sama, tetapi produktivitas setiap anggota menurun. Manakah pernyataan yang paling tepat?"
+            }
+          ],
+          "opsi": {
+            "A": "Pekerjaan pasti tetap selesai 24 unit.",
+            "B": "Pekerjaan pasti meningkat menjadi 30 unit.",
+            "C": "Volume hasil tidak dapat dihitung tepat tanpa laju baru.",
+            "D": "Penurunan produktivitas tidak memengaruhi hasil.",
+            "E": "Hasil pasti setengah dari 24 unit."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menguji syarat laju tetap sebelum menerapkan proporsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil awal menunjukkan laju kolektif $24/3=8$ unit per jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, produktivitas pada hari lain menurun sehingga laju tidak lagi 8 unit per jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanpa besarnya penurunan, hasil tepat untuk durasi 3 jam belum dapat dihitung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Bertentangan dengan penurunan produktivitas jika kondisi lain tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak didukung perubahan produktivitas yang menurun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar; diperlukan informasi laju yang baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Penurunan produktivitas memengaruhi hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak ada keterangan bahwa produktivitas turun tepat separuh."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Sebelum memakai perbandingan, tanyakan: apakah lajunya sama? Bila tidak, model awal tidak langsung berlaku."
+            }
+          ],
+          "label": "Proporsi"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Mesin dan Waktu Pengerjaan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Enam mesin identik menyelesaikan satu pesanan dalam 10 jam. Jika setiap mesin memiliki laju tetap, berapa jam diperlukan oleh 4 mesin identik untuk menyelesaikan pesanan yang sama?"
+            }
+          ],
+          "opsi": {
+            "A": "12 jam",
+            "B": "14 jam",
+            "C": "15 jam",
+            "D": "16 jam",
+            "E": "18 jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan berbalik nilai pada jumlah mesin dan waktu; pekerjaan sama dan laju mesin tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total mesin-jam yang diperlukan tetap, yakni $6 × 10 = 60$ mesin-jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 4 mesin, waktu $= 60 ÷ 4 = 15$ jam. Jumlah mesin lebih sedikit sehingga waktu harus lebih lama dari 10 jam."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 12 jam menghasilkan 48 mesin-jam, kurang dari beban kerja 60 mesin-jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 14 jam menghasilkan 56 mesin-jam, belum cukup untuk menyelesaikan pesanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 15 jam menghasilkan 60 mesin-jam, tepat sama dengan pekerjaan awal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 16 jam menghasilkan 64 mesin-jam, lebih dari kebutuhan untuk pekerjaan sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 18 jam menghasilkan 72 mesin-jam, lebih dari beban kerja yang ditetapkan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $6 × 10 = 4 × t$, sehingga $t = 15$. Periksa arah: mesin turun, waktu naik."
+            }
+          ],
+          "label": "Perbandingan Senilai dan Tak Senilai"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Harga dengan Tarif Satuan Tetap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang penyelenggara membeli 4 kotak alat tulis seharga Rp72.000,00. Harga per kotak tetap dan tidak ada biaya tambahan. Berapa harga 7 kotak?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp108.000,00",
+            "B": "Rp117.000,00",
+            "C": "Rp126.000,00",
+            "D": "Rp135.000,00",
+            "E": "Rp144.000,00"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan senilai antara jumlah barang dan harga total pada harga satuan tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga satu kotak $= Rp72.000,00 ÷ 4 = Rp18.000,00.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga tujuh kotak $= 7 × Rp18.000,00 = Rp126.000,00$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rasio harga/jumlah tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menggunakan harga satuan yang terlalu rendah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Nilainya tidak mengikuti rasio tetap empat ke tujuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Setara tujuh kali harga satuan Rp18.000,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menggunakan harga satuan melebihi yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Sama dengan harga delapan kotak, bukan tujuh."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Langsung kalikan $Rp72.000,00 ×7/4 = Rp126.000,00.$"
+            }
+          ],
+          "label": "Perbandingan Senilai dan Tak Senilai"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menentukan Jenis Hubungan dari Tabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua besaran x dan y terukur pada tiga kondisi: (2, 18), (3, 12), dan (6, 6). Manakah hubungan yang didukung oleh seluruh data?"
+            }
+          ],
+          "opsi": {
+            "A": "Hubungan senilai",
+            "B": "Hubungan berbalik nilai",
+            "C": "Hubungan selisih tetap",
+            "D": "Hubungan kuadrat",
+            "E": "Tidak ada pola yang sesuai"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan hasil kali yang tetap versus rasio yang tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil kali setiap pasangan adalah $2 × 18 = 36, 3 × 12 = 36$, dan $6 × 6 = 36$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $xy$ konstan pada semua data, ketiga pasangan mendukung hubungan berbalik nilai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Rasio $y/x$ berubah, sehingga bukan senilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Setiap pasangan memiliki hasil kali 36."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Selisih x dan y bukan bilangan yang sama pada semua pasangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak terdapat bukti bahwa $y = kx²$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Ada pola yang konsisten, sehingga pernyataan ini tidak sesuai."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cek perkalian lebih dahulu:$2×18, 3×12, 6×6$ semuanya 36."
+            }
+          ],
+          "label": "Perbandingan Senilai dan Tak Senilai"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Gabungan Volume, Mesin, dan Waktu",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat mesin identik menghasilkan 240 unit barang dalam 6 jam. Dengan laju per mesin tetap, berapa jam yang diperlukan 6 mesin untuk menghasilkan 360 unit?"
+            }
+          ],
+          "opsi": {
+            "A": "4 jam",
+            "B": "5 jam",
+            "C": "6 jam",
+            "D": "8 jam",
+            "E": "9 jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Model banyak mesin × laju × waktu = total produksi$, memperhitungkan perubahan volume."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Laju per mesin $= 240 ÷ (4 × 6) = 10$ unit per jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan 6 mesin, total laju $= 60$ unit per jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 360 unit diperlukan $360 ÷ 60 = 6$ jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penggunaan $4 × 6 = 6 × t$ tanpa memperhatikan volume yang bertambah akan memberi hasil keliru."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Waktu terlalu singkat untuk target 360 unit pada laju 60 unit/jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Dalam 5 jam produksi hanya 300 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Dalam 6 jam produksi 360 unit, sesuai target."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Dalam 8 jam mesin menghasilkan 480 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Dalam 9 jam mesin menghasilkan 540 unit."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Langsung $t₂ = 6 × (360/240) × (4/6) = 6$ jam."
+            }
+          ],
+          "label": "Perbandingan Senilai dan Tak Senilai"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menguji Asumsi pada Dua Kelompok Pekerja",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan menugaskan 8 pekerja untuk menyelesaikan suatu pekerjaan dalam waktu 12 hari. Pada proyek berikutnya dengan jenis dan beban pekerjaan yang identik, perusahaan menambah jumlah pekerja menjadi 12 orang. Namun, pekerjaan tersebut baru selesai dalam waktu 10 hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan ingin mengevaluasi apakah hubungan antara jumlah pekerja dan waktu penyelesaian sesuai dengan model perbandingan berbalik nilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika produktivitas per pekerja tetap dan jam kerja efektif sama, penambahan jumlah pekerja dari 8 menjadi 12 orang seharusnya mempercepat penyelesaian pekerjaan menjadi 8 hari.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Karena jumlah pekerja meningkat sebesar 50%, waktu penyelesaian yang tercatat selama 10 hari membuktikan bahwa produktivitas setiap pekerja meningkat.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Perbedaan total pekerja-hari pada kedua proyek menunjukkan bahwa model produktivitas per pekerja tetap tidak sepenuhnya sesuai dengan data, tetapi penyebab perbedaannya belum dapat dipastikan.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Salah, Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbandingan berbalik nilai, produktivitas kerja, dan pengujian asumsi model matematika."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika beban pekerjaan, produktivitas per pekerja, dan jam kerja efektif sama, hasil kali jumlah pekerja dan waktu penyelesaian seharusnya tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada proyek pertama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8×12=96 pekerja-hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pekerjaan yang sama diselesaikan oleh 12 pekerja, waktu yang diperlukan menurut model adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$t=96/12=8hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah pekerja meningkat dari 8 menjadi 12 orang, tetapi waktu penyelesaian tidak mengikuti perbandingan berbalik nilai yang diperkirakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada proyek kedua:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12×10=120 pekerja-hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total pekerja-hari justru meningkat dari 96 menjadi 120."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Data tersebut tidak membuktikan bahwa produktivitas setiap pekerja meningkat. Selain itu, perubahan produktivitas masing-masing pekerja tidak dapat diketahui tanpa informasi tambahan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan total pekerja-hari menunjukkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Proyek pertama = 96 pekerja-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Proyek kedua = 120 pekerja-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 96 ≠ 120, data tidak sesuai dengan model sederhana yang mengasumsikan produktivitas per pekerja dan jam kerja efektif tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, perbedaan tersebut belum dapat digunakan untuk memastikan penyebabnya. Faktor seperti perubahan jam kerja efektif, gangguan operasional, atau pembagian tugas dapat memengaruhi waktu penyelesaian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (3) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan jawaban: Benar – Salah – Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung hasil kali jumlah pekerja dan waktu untuk masing-masing proyek."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Proyek pertama: 8 × 12 = 96",
+                "Proyek kedua: 12 × 10 = 120"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena hasilnya berbeda, model perbandingan berbalik nilai dengan produktivitas tetap tidak sesuai dengan kedua data. Jangan menyimpulkan penyebabnya tanpa informasi tambahan."
+            }
+          ],
+          "label": "Perbandingan Senilai dan Tak Senilai"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Kondisi Biaya Tambahan yang Memutus Senilai",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah jasa fotokopi mengenakan biaya awal Rp8.000,00 dan Rp500,00 untuk setiap lembar. Apakah total biaya berbanding senilai dengan jumlah lembar?"
+            }
+          ],
+          "opsi": {
+            "A": "Ya, karena biaya selalu bertambah",
+            "B": "Ya, jika jumlah lembar digandakan",
+            "C": "Tidak, karena ada biaya awal tetap",
+            "D": "Tidak, karena setiap lembar gratis",
+            "E": "Tidak dapat diperiksa dari informasi"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan senilai mensyaratkan biaya/jumlah lembar tetap; adanya komponen biaya tetap menghasilkan persamaan linear dengan intersep bukan nol."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk x lembar, biaya total $y = 8.000 + 500x.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada 10 lembar biaya Rp13.000; pada 20 lembar biaya Rp18.000, bukan Rp26.000. Jadi total biaya tidak berbanding senilai dengan jumlah lembar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kenaikan bersama tidak cukup untuk membuktikan senilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Menggandakan x tidak menggandakan seluruh biaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, biaya awal tetap membuat rasio y/x berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Setiap lembar tetap memiliki tarif Rp500,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Aturan biaya diberikan secara lengkap sehingga dapat diuji."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji syarat “jumlah dua kali → total dua kali”. Jika tidak, bukan senilai."
+            }
+          ],
+          "label": "Perbandingan Senilai dan Tak Senilai"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Perbandingan Senilai dengan Nilai yang Belum Diketahui",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah mesin mampu memproduksi 90 komponen dalam waktu 3 jam. Mesin tersebut bekerja dengan laju produksi tetap tanpa mengalami gangguan atau penghentian selama proses produksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa banyak komponen yang dapat dihasilkan mesin tersebut selama 8 jam?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka.)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 240"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan senilai antara waktu dan output apabila mesin dan laju tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Laju produksi $= 90 ÷ 3 = 30$ komponen/jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam 8 jam, output $= 30 × 8 = 240$ komponen."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $90 × 8/3 = 240$."
+            }
+          ],
+          "label": "Perbandingan Senilai dan Tak Senilai"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Persentase Siswa dan Warna Meja",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas A terdiri dari 60% siswa perempuan dan sisanya laki-laki. Setiap siswa menggunakan satu meja. Sebanyak 40% meja berwarna biru, sisanya merah. Jika separuh siswa perempuan menggunakan meja merah, berapa persen meja biru dari total meja di kelas yang digunakan siswa laki-laki?"
+            }
+          ],
+          "opsi": {
+            "A": "5%",
+            "B": "10%",
+            "C": "20%",
+            "D": "30%",
+            "E": "50%"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase bagian bertingkat dengan basis total meja kelas yang sama; kategori gender dan warna meja dianalisis menggunakan tabel silang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil total siswa dan meja sebagai 100 unit. Perempuan 60 unit, laki-laki 40 unit; meja biru 40 unit, meja merah 60 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setengah dari perempuan menggunakan meja merah: $50% × 60 = 30$ unit. Berarti perempuan dengan meja biru $60 − 30 = 30$ unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari 40 meja biru, 30 ditempati perempuan. Jadi laki-laki menggunakan $40 − 30 = 10$ meja biru dari total 100 meja, yaitu 10%."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 5% berasal dari pengurangan yang tidak sesuai jumlah kelompok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 10% adalah 10 dari 100 meja di kelas, sesuai basis pertanyaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 20% bukan sisa meja biru setelah menghitung perempuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 30% merupakan meja biru milik perempuan, bukan laki-laki."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 50% tidak sesuai total meja biru yang hanya 40%."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $40% − (60% × 50%) = 10%$. Pertahankan semua persentase pada basis total kelas."
+            }
+          ],
+          "label": "Persentase"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Bagian dari Keseluruhan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam sebuah pelatihan, 18 dari 72 peserta menyelesaikan modul tambahan. Berapa persentase peserta yang menyelesaikan modul tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "20%",
+            "B": "22%",
+            "C": "25%",
+            "D": "27%",
+            "E": "30%"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase adalah bagian dibagi total, dikalikan 100%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian = 18 dan total = 72. Karena $18/72= 1/4$, persentasenya 25%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembilang dan penyebut menggunakan satuan yang sama, yaitu jumlah peserta."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 20% setara 14,4 peserta dari 72, bukan 18."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 22% tidak setara dengan tepat 18/72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 25% = 1/4; 18 memang seperempat dari 72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 27% bukan rasio 18 dibanding 72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 30% lebih besar daripada perbandingan sebenarnya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Sederhanakan $18/72= 1/4$ sehingga langsung 25%."
+            }
+          ],
+          "label": "Persentase"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menentukan Keseluruhan dari Bagian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 36 peserta mewakili 45% dari seluruh peserta sebuah kegiatan. Berapa banyak seluruh peserta kegiatan tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "72 orang",
+            "B": "76 orang",
+            "C": "80 orang",
+            "D": "84 orang",
+            "E": "90 orang"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bila nilai bagian dan persennya diketahui, total didapat dengan membagi bagian oleh proporsi desimal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan seluruh peserta T."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persamaan $0,45T = 36$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$T = 36/0,45= 80$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cek: $45% × 80 = 36$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 72 menghasilkan 32,4 peserta pada 45%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 76 menghasilkan 34,2 peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 80 menghasilkan tepat 36 peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 84 menghasilkan 37,8 peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 90 menghasilkan 40,5 peserta."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ubah 45% menjadi 9/20; $T = 36 × 20/9 = 80$."
+            }
+          ],
+          "label": "Persentase"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menganalisis Perubahan Persentase",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah pengunjung sebuah perpustakaan pada bulan pertama tercatat sebanyak 240 orang. Pada bulan berikutnya, jumlah pengunjung meningkat menjadi 300 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa persentase kenaikan jumlah pengunjung perpustakaan dibandingkan dengan jumlah pengunjung awal?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka tanpa simbol persen.)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 25"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase kenaikan selalu berbasis nilai awal, bukan nilai akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih $= 300 − 240 = 60$ orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persen kenaikan $= 60/240 × 100% = 25%$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika memakai 300 sebagai basis, hasil 20% menyatakan besaran berbeda dan tidak menjawab pertanyaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "60 adalah seperempat dari 240 sehingga kenaikannya 25%."
+            }
+          ],
+          "label": "Persentase"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Perubahan Persentase Berurutan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah produksi naik 20% pada bulan pertama, kemudian turun 20% pada bulan kedua dari hasil bulan pertama. Dibandingkan produksi awal, kondisi akhirnya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "turun 8%",
+            "B": "turun 4%",
+            "C": "tetap",
+            "D": "naik 4%",
+            "E": "naik 8%"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase berurutan menggunakan faktor pengali dengan basis yang diperbarui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Asumsikan produksi awal 100 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah naik 20%, menjadi 120 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bulan kedua turun 20% dari 120, yaitu 24 unit, sehingga produksi akhir 96 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dibandingkan 100 unit awal, selisih −4 unit atau turun 4%."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Turun 8% tidak diperoleh dari faktor 1,2 × 0,8."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Turun 4% benar karena faktor akhir 0,96."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tetap salah karena basis penurunan 120, bukan 100."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Naik 4% mengabaikan arah selisih akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Naik 8% tidak sesuai hasil akhir 96."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalikan faktor $1,2 × 0,8 = 0,96$; artinya turun 4%."
+            }
+          ],
+          "label": "Persentase"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Persentase dengan Basis Berbeda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga barang A adalah 25% lebih tinggi daripada harga barang B. Berapa persen harga B lebih rendah dibandingkan harga A?"
+            }
+          ],
+          "opsi": {
+            "A": "15%",
+            "B": "18%",
+            "C": "20%",
+            "D": "22%",
+            "E": "25%"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase relatif selalu bergantung pada basis pembandingnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil harga B = 100 dan harga A = 125."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih 25 dibandingkan dengan harga A = 125, sehingga $25/125 × 100% = 20%.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan 25% pada pernyataan awal berbasis B, bukan A."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 15% lebih kecil daripada rasio 25/125."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 18% bukan hasil rasio yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 20% benar jika selisih dibandingkan harga A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 22% tidak sesuai selisih dan basis A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 25% mengulang persen semula tanpa mengganti basis."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika A 25% lebih besar dari B, perbandingan balik $= 25/125 = 20%$."
+            }
+          ],
+          "label": "Persentase"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Menguji Pernyataan dalam Data Kelompok",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Di sebuah sekolah, sebanyak 40% siswa mengikuti klub sains dan 35% siswa mengikuti klub bahasa. Setiap siswa diperbolehkan mengikuti kedua klub sekaligus, tetapi tidak diwajibkan mengikuti salah satunya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pihak sekolah ingin mengetahui persentase siswa yang mengikuti minimal satu klub. Namun, belum tersedia informasi mengenai jumlah siswa yang mengikuti kedua klub sekaligus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika tidak ada siswa yang mengikuti kedua klub sekaligus, persentase siswa yang mengikuti minimal satu klub adalah 75%.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika 15% siswa mengikuti kedua klub, persentase siswa yang tidak mengikuti klub sains maupun klub bahasa adalah 40%.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Tanpa mengetahui persentase siswa yang mengikuti kedua klub, persentase siswa yang mengikuti minimal satu klub tidak dapat ditentukan secara pasti.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Jika 20% siswa mengikuti kedua klub, persentase siswa yang hanya mengikuti klub sains adalah 40%.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: Benar, Benar, Benar, Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Persentase gabungan dua kelompok, irisan himpunan, dan evaluasi kecukupan informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Klub sains (S) = 40%",
+                "Klub bahasa (B) = 35%"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase siswa yang mengikuti minimal satu klub dihitung dengan rumus:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(S∪B)=P(S)+P(B)-P(S∩B)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika tidak ada siswa yang mengikuti kedua klub, maka irisan kedua kelompok adalah 0%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase siswa yang mengikuti minimal satu klub:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "40% + 35% - 0% = 75%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 15% siswa mengikuti kedua klub, persentase yang mengikuti minimal satu klub adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "40% +35% - 15% =60%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, persentase siswa yang tidak mengikuti kedua klub adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "100% - 60% = 40%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (2) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase siswa yang mengikuti minimal satu klub bergantung pada besarnya irisan kedua kelompok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika tidak ada irisan, persentase gabungan adalah 75%. Namun, jika terdapat 15% siswa yang mengikuti kedua klub, persentase gabungan menjadi 60%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena nilai irisan belum diketahui, persentase siswa yang mengikuti minimal satu klub tidak dapat ditentukan secara pasti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 20% siswa mengikuti kedua klub, persentase siswa yang hanya mengikuti klub sains adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "40% - 20% = 20%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, persentase siswa yang hanya mengikuti klub sains adalah 20%, bukan 40%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, urutan jawaban yang benar adalah Benar – Benar – Benar – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan rumus gabungan dua kelompok:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S∪B=S+B-(S∩B)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangi anggota yang mengikuti kedua klub agar tidak dihitung dua kali. Untuk mencari siswa yang tidak mengikuti keduanya, kurangkan persentase gabungan dari 100%."
+            }
+          ],
+          "label": "Persentase"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

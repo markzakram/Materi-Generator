@@ -1,0 +1,702 @@
+{
+  "meta": {
+    "judul": "Relationship and Comparison Between Texts",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Relationship and Comparison Between Texts",
+    "sumber": "https://docs.google.com/document/d/1-dTwgtGkdvo0hPEda-Zt1arNSN599N1mN4ld2vthRs8/edit",
+    "id_katalog": "lbe-07"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Relationship and Comparison Between Texts merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan memahami, menghubungkan, serta membandingkan informasi dari dua atau lebih teks yang membahas topik berkaitan. Setiap teks dapat menyampaikan informasi, sudut pembahasan, bukti, maupun penekanan yang berbeda meskipun mengangkat isu yang sama. Oleh karena itu, peserta perlu memahami cara mengidentifikasi hubungan antarteks, menemukan persamaan dan perbedaan gagasan, serta menganalisis bagaimana pilihan informasi dan struktur penyajian memengaruhi fokus masing-masing teks. Melalui materi ini, peserta akan mempelajari strategi membaca lintas teks untuk membedakan hubungan yang saling mendukung, melengkapi, memperluas, atau bertentangan. Penguasaan keterampilan tersebut membantu peserta menyelesaikan soal Literasi Bahasa Inggris UTBK-SNBT yang menggunakan dua bacaan secara lebih kritis, akurat, dan sistematis."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian Relationship Between Texts dan Comparing Text."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "topik dan gagasan utama masing-masing teks."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "hubungan antarteks berdasarkan kontribusi informasi yang disampaikan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "hubungan yang saling mendukung, melengkapi, menjelaskan, dan bertentangan."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "persamaan dan perbedaan fokus, argumen, serta bukti antarteks."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "pengaruh pemilihan informasi terhadap penekanan pembahasan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "pernyataan perbandingan yang akurat berdasarkan kedua teks."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Relationship and Comparison Between Texts",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Relationship and Comparison Between Texts",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Relationship Between Texts"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relationship Between Texts adalah hubungan antara dua atau lebih teks berdasarkan informasi, gagasan, atau argumen yang disampaikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua teks dapat membahas isu yang sama, tetapi memiliki fungsi berbeda. Teks pertama mungkin memperkenalkan suatu fenomena, sedangkan teks kedua menjelaskan mekanismenya, memberikan contoh tambahan, atau mengemukakan keterbatasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Electric vehicles can help reduce exhaust emissions in urban areas. Their growing use is supported by improvements in battery technology and charging infrastructure."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "TEXT 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Although electric vehicles produce no exhaust emissions while being driven, their overall environmental impact also depends on battery manufacturing and the sources of electricity used for charging."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks membahas kendaraan listrik dan dampaknya terhadap lingkungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, keduanya memiliki penekanan berbeda:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Text 1 menyoroti manfaat kendaraan listrik dalam mengurangi emisi gas buang.",
+                "Text 2 memberikan batasan terhadap penilaian manfaat tersebut dengan mempertimbangkan produksi baterai dan sumber listrik."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan antarteks: Text 2 qualifies the environmental benefits presented in Text 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, Text 2 memberikan batasan atau kualifikasi terhadap manfaat lingkungan yang dijelaskan Text 1."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Comparing Text"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Comparing Text adalah keterampilan mengidentifikasi persamaan dan perbedaan antara dua teks berdasarkan topik, gagasan utama, fokus, bukti, atau cara penyampaian informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan tidak hanya bertujuan mencari informasi yang sama, tetapi juga memahami hal yang membuat setiap teks memiliki karakteristik tersendiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aspek yang dapat dibandingkan meliputi:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Fokus perbandingan"
+              ],
+              "baris": [
+                [
+                  "Topic",
+                  "Apakah kedua teks membahas isu yang sama?"
+                ],
+                [
+                  "Main Idea",
+                  "Apakah gagasan utama keduanya sejalan atau berbeda?"
+                ],
+                [
+                  "Focus",
+                  "Aspek apa yang lebih ditekankan masing-masing teks?"
+                ],
+                [
+                  "Evidence",
+                  "Fakta, contoh, atau data apa yang digunakan?"
+                ],
+                [
+                  "Approach",
+                  "Bagaimana masing-masing teks mengembangkan pembahasan?"
+                ],
+                [
+                  "Conclusion",
+                  "Apakah simpulan yang disampaikan memiliki kesamaan atau perbedaan?"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Relationship dan Comparison"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Relationship Between Texts",
+                "Comparing Text"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Hubungan atau fungsi satu teks terhadap teks lain",
+                  "Persamaan dan perbedaan kedua teks"
+                ],
+                [
+                  "Pertanyaan utama",
+                  "How does Text 2 relate to Text 1?",
+                  "How do the two texts differ?"
+                ],
+                [
+                  "Analisis",
+                  "Mendukung, menjelaskan, memperluas, menanggapi, menentang",
+                  "Topik, fokus, bukti, dan organisasi"
+                ],
+                [
+                  "Hasil",
+                  "Klasifikasi hubungan antarteks",
+                  "Perbandingan karakteristik teks"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua keterampilan saling berkaitan. Untuk menentukan hubungan antara dua teks, peserta umumnya perlu memahami persamaan dan perbedaan isinya terlebih dahulu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jenis-Jenis Hubungan Antarteks",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jenis-Jenis Hubungan Antarteks",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Supporting Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan supporting terjadi ketika informasi pada satu teks mendukung gagasan yang disampaikan teks lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Regular physical activity can contribute to better cardiovascular health."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A long-term study found that adults who maintained consistent exercise routines generally showed better cardiovascular indicators than those who remained inactive."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 memberikan bukti yang sejalan dengan gagasan Text 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relationship: Text 2 supports the claim presented in Text 1."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Complementary Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan complementary terjadi ketika kedua teks memberikan informasi berbeda yang saling melengkapi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urban forests help reduce surface temperatures and improve environmental quality."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Public green spaces also provide opportunities for recreation and interaction among community members."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 membahas manfaat lingkungan, sedangkan Text 2 membahas manfaat sosial."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya tidak menyampaikan informasi identik, tetapi memberikan kontribusi yang saling melengkapi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relationship: The two texts present complementary benefits of urban green spaces."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Explanatory Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan explanatory terjadi ketika satu teks memberikan penjelasan mengenai mekanisme, penyebab, atau proses dari fenomena yang dibahas teks lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Researchers have developed a new material capable of generating electricity from small mechanical movements."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Certain materials become electrically charged when they come into contact and separate. This process can be used to convert mechanical movement into electrical energy."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1 membahas pengembangan teknologi, sedangkan Text 2 menjelaskan prinsip yang mendasari teknologi tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relationship: Text 2 explains the mechanism underlying the technology described in Text 1."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Expanding Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan expanding terjadi ketika suatu teks memperluas pembahasan dengan menambahkan aspek atau cakupan baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Online learning allows students to access lessons without attending a physical classroom."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beyond providing geographical flexibility, online learning can also support lifelong education for working adults and individuals with family responsibilities."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 memperluas pembahasan dari fleksibilitas lokasi menjadi manfaat bagi berbagai kelompok pembelajar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relationship: Text 2 expands on the benefits introduced in Text 1."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contrasting Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan contrasting terjadi ketika kedua teks menekankan aspek yang berbeda atau menyampaikan penilaian yang berlawanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Remote work can reduce commuting time and provide employees with greater scheduling flexibility."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Remote work may create communication difficulties and reduce opportunities for informal collaboration among employees."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks membahas sistem kerja jarak jauh, tetapi menekankan manfaat dan tantangannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relationship: The two texts present contrasting perspectives on remote work."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perlu diperhatikan bahwa perbedaan fokus tidak selalu berarti pertentangan langsung. Dua teks dapat membahas aspek berbeda tanpa saling menyangkal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Qualifying Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan qualifying terjadi ketika sebuah teks memberikan batasan, kondisi, atau pengecualian terhadap gagasan pada teks lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Digital libraries can increase access to educational resources."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The benefits of digital libraries may be limited for users without reliable internet connections or suitable electronic devices."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2 tidak menolak manfaat perpustakaan digital, tetapi menunjukkan kondisi yang membatasi manfaatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relationship: Text 2 qualifies the benefits described in Text 1."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Opposing Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan opposing terjadi ketika kedua teks mengemukakan klaim yang benar-benar bertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 1:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The city should prohibit private vehicles from entering the central district."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text 2:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A complete prohibition on private vehicles in the central district would be inappropriate because some residents depend on them for essential transportation."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua teks mengambil posisi berbeda terhadap kebijakan pelarangan kendaraan pribadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Relationship: Text 2 opposes the policy recommendation presented in Text 1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Relationship and Comparison Between Texts",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Relationship and Comparison Between Texts",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pendekatan Identify–Compare–Connect (ICC)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify the Shared Topic"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan persoalan yang sama-sama dibahas kedua teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Determine Each Main Idea"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi gagasan utama dan penekanan masing-masing teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Compare the Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa informasi, contoh, atau data yang digunakan setiap penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Establish the Relationship"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah kedua teks saling mendukung, melengkapi, memperluas, menjelaskan, membatasi, atau bertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Verify the Options"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih perbandingan yang paling akurat tanpa menambahkan klaim di luar kedua teks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Matriks Perbandingan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk bacaan yang cukup panjang, buat matriks sederhana."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Text 1",
+                "Text 2"
+              ],
+              "baris": [
+                [
+                  "Topic",
+                  "...",
+                  "..."
+                ],
+                [
+                  "Main Idea",
+                  "...",
+                  "..."
+                ],
+                [
+                  "Focus",
+                  "...",
+                  "..."
+                ],
+                [
+                  "Evidence",
+                  "...",
+                  "..."
+                ],
+                [
+                  "Relationship",
+                  "-",
+                  "Hubungannya terhadap Text 1"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Matriks membantu peserta membedakan informasi yang benar-benar terdapat pada kedua teks dari informasi yang hanya terdapat pada salah satunya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Same Topic = Same Claim",
+                  "Menganggap topik sama berarti gagasan identik"
+                ],
+                [
+                  "Difference = Opposition",
+                  "Menganggap setiap perbedaan merupakan pertentangan"
+                ],
+                [
+                  "Source Confusion",
+                  "Mengatribusikan informasi Text 1 kepada Text 2"
+                ],
+                [
+                  "Overgeneralization",
+                  "Memperluas klaim terbatas menjadi pernyataan universal"
+                ],
+                [
+                  "Ignoring Qualifications",
+                  "Mengabaikan batasan atau pengecualian"
+                ],
+                [
+                  "Evidence Mismatch",
+                  "Membandingkan bukti yang tidak sepadan"
+                ],
+                [
+                  "Partial Comparison",
+                  "Hanya memeriksa satu teks sebelum memilih jawaban"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utama: Hubungan antarteks harus ditentukan berdasarkan fungsi dan isi kedua teks, bukan hanya kesamaan kata atau topik pembahasannya."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Analisis hubungan antarteks menuntut kemampuan membandingkan topik bersama, fokus, sudut pandang, dan fungsi informasi masing-masing sumber. Dua teks dapat saling mendukung, melengkapi, memberikan kualifikasi, menyajikan kontras, atau benar-benar bertentangan. Kesamaan topik tidak otomatis berarti kesamaan klaim; sebaliknya, perbedaan penekanan tidak selalu berarti pertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi yang dapat digunakan ialah membuat matriks sederhana berisi fokus, bukti, rekomendasi, dan batasan dari masing-masing teks. Setelah itu, tentukan apakah teks kedua memperluas pembahasan, memperkuat alasan, memberi pengecualian, atau menentang klaim tertentu. Untuk soal Short Answer, hubungan tersebut dapat dirumuskan dengan satu kata kerja seperti qualifies apabila memang sesuai. Pada soal pilihan ganda, berhati-hatilah terhadap opsi yang mengubah informasi tambahan menjadi penolakan total."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Relationship and Comparison Between Texts",
+        "teks": ""
+      },
+      {
+        "judul": "Jenis-Jenis Hubungan Antarteks",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Relationship and Comparison Between Texts",
+        "teks": ""
+      }
+    ],
+    "pesan": "Membaca dua sumber secara seimbang membantu peserta melihat persoalan secara lebih utuh. Kunci keberhasilannya ialah menjaga identitas dan kontribusi setiap teks sebelum menjelaskan hubungan keduanya. Kemampuan ini menjadi penghubung antara perbandingan bacaan, evaluasi bukti lintas sumber, dan sintesis informasi."
+  }
+}

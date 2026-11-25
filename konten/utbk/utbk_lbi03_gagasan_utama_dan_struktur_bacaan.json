@@ -1,0 +1,567 @@
+{
+  "meta": {
+    "judul": "Gagasan Utama dan Struktur Bacaan",
+    "subtes": "Literasi dalam Bahasa Indonesia",
+    "nama_file": "UTBK LBI - Gagasan Utama dan Struktur Bacaan",
+    "sumber": "https://docs.google.com/document/d/1cBJ_nsVUiwCnej55yQZtSxJNQu-WzAJl5YWsEsekPP0/edit",
+    "id_katalog": "lbi-03"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 3
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Memahami sebuah bacaan tidak cukup dilakukan dengan menemukan informasi yang menarik atau mengingat kalimat-kalimat penting di dalamnya. Pembaca perlu mengenali gagasan yang menjadi pusat pembahasan, membedakan gagasan utama dari rincian pendukung, serta memahami bagaimana setiap paragraf berkontribusi terhadap keseluruhan isi teks. Dalam UTBK-SNBT, kemampuan ini diperlukan untuk menentukan gagasan utama paragraf, menemukan fokus keseluruhan bacaan, mengidentifikasi fungsi paragraf, dan menganalisis hubungan logis antarbagian teks. Pembaca juga perlu memahami bahwa suatu paragraf tidak berdiri sendiri, melainkan menjadi bagian dari susunan gagasan yang dibangun secara bertahap oleh penulis."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "gagasan utama paragraf dengan membedakannya dari contoh, penjelasan, dan rincian pendukung."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "hubungan gagasan utama antarparagraf untuk menemukan fokus pembahasan keseluruhan teks."
+      },
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "fungsi setiap bagian teks, seperti pembuka, pengembang, pemberian contoh, dan penutup."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "hubungan antarparagraf, termasuk hubungan perincian, perbandingan, pertentangan, dan penguatan gagasan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "posisi informasi tambahan yang paling sesuai berdasarkan fungsi paragraf dan alur bacaan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pembahasan Konsep Dasar secara Mendalam",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pembahasan Konsep Dasar secara Mendalam",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Gagasan Utama"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama adalah ide pokok yang menjadi pusat pembahasan dalam suatu paragraf. Gagasan tersebut menjadi dasar bagi kalimat-kalimat lain yang berfungsi menjelaskan, memperinci, memberikan contoh, atau memperkuatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama tidak selalu dinyatakan dalam satu kalimat yang mudah dikenali. Dalam beberapa paragraf, gagasan utama disampaikan secara langsung. Dalam paragraf lain, pembaca perlu menyimpulkan gagasan utama dengan menggabungkan beberapa informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perpustakaan digital memberikan kemudahan bagi masyarakat untuk mengakses sumber bacaan. Pengguna dapat membaca buku elektronik tanpa harus datang ke gedung perpustakaan. Selain itu, koleksi digital dapat diakses melalui berbagai perangkat selama tersedia koneksi internet. Kemudahan tersebut membuat layanan perpustakaan lebih fleksibel, terutama bagi masyarakat yang tinggal jauh dari pusat layanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama paragraf tersebut adalah **perpustakaan digital memberikan kemudahan akses terhadap sumber bacaan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat-kalimat berikutnya merupakan penjelas karena memberikan bentuk konkret dari kemudahan tersebut, seperti akses tanpa kunjungan fisik, penggunaan berbagai perangkat, dan fleksibilitas layanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Topik, Gagasan Utama, dan Gagasan Pendukung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga istilah ini saling berkaitan, tetapi memiliki fungsi berbeda."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Unsur",
+                "Pengertian",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "Topik",
+                  "Pokok persoalan yang dibahas",
+                  "Perpustakaan digital"
+                ],
+                [
+                  "Gagasan utama",
+                  "Pernyataan inti tentang topik",
+                  "Perpustakaan digital mempermudah akses masyarakat terhadap bacaan"
+                ],
+                [
+                  "Gagasan pendukung",
+                  "Informasi yang menjelaskan atau memperkuat gagasan utama",
+                  "Koleksi dapat diakses dari berbagai perangkat"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Topik biasanya berbentuk frasa singkat, sedangkan gagasan utama berbentuk pernyataan yang lebih lengkap. Gagasan pendukung memberikan alasan, bukti, contoh, atau penjelasan yang membuat gagasan utama lebih jelas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gagasan Utama dan Letaknya dalam Paragraf"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan letaknya, gagasan utama dapat ditemukan dalam beberapa pola paragraf."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Paragraf deduktif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama disampaikan pada awal paragraf, kemudian diikuti penjelasan atau rincian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kegiatan membaca secara rutin dapat meningkatkan kemampuan memahami informasi. Kebiasaan ini membantu pembaca mengenali hubungan antargagasan dan membedakan informasi utama dari rincian. Selain itu, semakin sering seseorang membaca, semakin banyak pula kosakata dan pengetahuan yang dapat digunakan untuk memahami teks baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pertama memuat gagasan utama, sedangkan kalimat berikutnya menjelaskan manfaat kegiatan membaca."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Paragraf induktif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama disampaikan pada akhir paragraf setelah beberapa penjelasan atau fakta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa wilayah pesisir mengalami penurunan hasil tangkapan ikan. Di sejumlah tempat, habitat ikan juga mengalami kerusakan akibat pencemaran dan perubahan kondisi perairan. Nelayan kemudian harus melaut lebih jauh untuk memperoleh hasil yang sama. Kondisi tersebut menunjukkan bahwa kerusakan ekosistem dapat memengaruhi keberlanjutan kegiatan perikanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama terdapat pada kalimat terakhir, yaitu hubungan kerusakan ekosistem dengan keberlanjutan kegiatan perikanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Paragraf campuran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama disampaikan pada awal dan ditegaskan kembali pada akhir paragraf dengan rumusan yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ruang terbuka hijau memiliki peran penting dalam menjaga kualitas lingkungan perkotaan. Pepohonan dapat memberikan keteduhan, membantu menyerap air hujan, dan mendukung kehidupan berbagai organisme. Keberadaan taman kota juga menyediakan ruang interaksi bagi masyarakat. Oleh karena itu, ruang terbuka hijau merupakan bagian penting dari perencanaan kota yang berkelanjutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama disampaikan pada awal, kemudian ditegaskan kembali pada akhir paragraf."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Paragraf dengan gagasan utama tersirat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama tidak dinyatakan secara langsung dalam satu kalimat. Pembaca harus menyimpulkannya berdasarkan keseluruhan isi paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap pagi, antrean kendaraan terlihat semakin panjang di sejumlah ruas jalan. Waktu perjalanan masyarakat pun menjadi lebih sulit diperkirakan. Sebagian pekerja harus berangkat lebih awal untuk menghindari keterlambatan, sedangkan pengguna angkutan umum menghadapi kepadatan pada jam sibuk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama tersiratnya adalah **kemacetan lalu lintas menimbulkan berbagai kesulitan dalam mobilitas masyarakat perkotaan**."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Gagasan Utama Antarparagraf"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam sebuah bacaan, setiap paragraf biasanya memiliki gagasan utama yang berbeda, tetapi tetap berkaitan dengan fokus pembahasan yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan tersebut dapat berupa:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. **Perincian:** paragraf berikutnya menjelaskan aspek yang lebih khusus dari gagasan sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. **Sebab–akibat:** paragraf berikutnya menjelaskan penyebab atau dampak dari persoalan yang dibahas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. **Perbandingan:** paragraf berikutnya membandingkan dua kondisi, pendekatan, atau pandangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. **Pertentangan:** paragraf berikutnya menyajikan gagasan yang berlawanan atau mengoreksi pandangan sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. **Penguatan:** paragraf berikutnya memberikan bukti, contoh, atau alasan tambahan untuk memperkuat gagasan sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. **Solusi atau rekomendasi:** paragraf berikutnya menawarkan tindakan untuk mengatasi persoalan yang telah dijelaskan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Fokus Pembahasan Keseluruhan Teks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fokus pembahasan adalah gagasan sentral yang menaungi seluruh paragraf. Fokus ini tidak selalu sama dengan gagasan utama salah satu paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menemukannya, pembaca perlu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Mengidentifikasi gagasan utama setiap paragraf.",
+                "Menemukan persamaan atau keterkaitan antargagasan.",
+                "Memahami arah perkembangan pembahasan.",
+                "Menentukan persoalan atau ide yang paling banyak dijelaskan.",
+                "Memastikan rumusan fokus mencakup keseluruhan teks."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, sebuah teks membahas penyebab berkurangnya lahan pertanian, dampaknya terhadap produksi pangan, dan upaya perlindungan lahan. Fokus keseluruhan teks bukan hanya penyebab berkurangnya lahan, melainkan **permasalahan alih fungsi lahan pertanian dan upaya menjaga keberlanjutan produksi pangan**."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Fungsi Bagian-Bagian Teks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap paragraf memiliki fungsi tertentu dalam membangun keseluruhan bacaan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bagian teks",
+                "Fungsi utama",
+                "Ciri umum"
+              ],
+              "baris": [
+                [
+                  "Pembuka",
+                  "Memperkenalkan topik atau persoalan",
+                  "Definisi, fenomena, latar belakang, atau pernyataan umum"
+                ],
+                [
+                  "Pengembang",
+                  "Menjelaskan gagasan secara lebih terperinci",
+                  "Alasan, proses, data, fakta, atau uraian"
+                ],
+                [
+                  "Contoh atau ilustrasi",
+                  "Memperjelas gagasan melalui kasus tertentu",
+                  "Contoh, peristiwa, hasil penelitian, atau gambaran konkret"
+                ],
+                [
+                  "Perbandingan atau pertentangan",
+                  "Menunjukkan persamaan atau perbedaan",
+                  "Kontras, perbedaan kondisi, atau sudut pandang"
+                ],
+                [
+                  "Penutup",
+                  "Menegaskan inti pembahasan atau menyampaikan implikasi",
+                  "Simpulan, penegasan, rekomendasi, atau konsekuensi"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Antarparagraf dan Organisasi Bacaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Organisasi bacaan adalah cara penulis menyusun dan menghubungkan gagasan agar informasi dapat dipahami secara logis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa pola organisasi yang sering digunakan adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Umum ke khusus:** dimulai dari gagasan luas, kemudian menguraikan bagian-bagiannya.",
+                "**Kronologis:** menyusun informasi berdasarkan urutan waktu.",
+                "**Sebab–akibat:** menjelaskan penyebab, proses, dan konsekuensi suatu fenomena.",
+                "**Masalah–solusi:** menguraikan persoalan, kemudian menawarkan penanganan.",
+                "**Perbandingan:** membandingkan dua atau lebih objek, kondisi, atau pendapat.",
+                "**Klasifikasi:** mengelompokkan informasi berdasarkan karakteristik tertentu."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal UTBK, peserta dapat diminta menentukan hubungan antara dua paragraf, mengidentifikasi posisi suatu paragraf, atau memilih bagian yang paling tepat untuk disisipkan ke dalam bacaan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Penyelesaian"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Untuk menentukan gagasan utama paragraf"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Baca seluruh kalimat, jangan hanya mengandalkan kalimat pertama.",
+                "Temukan topik yang dibahas.",
+                "Cari pernyataan yang paling mencakup seluruh isi paragraf.",
+                "Uji apakah kalimat lain berfungsi sebagai penjelas atau bukti.",
+                "Pilih jawaban dengan cakupan paling proporsional."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Untuk menentukan fokus keseluruhan teks"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Catat inti setiap paragraf.",
+                "Identifikasi gagasan yang menghubungkan seluruh paragraf.",
+                "Perhatikan perkembangan pembahasan dari awal hingga akhir.",
+                "Hindari memilih gagasan yang hanya muncul pada satu bagian.",
+                "Pilih rumusan yang mencakup keseluruhan bacaan."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Untuk menentukan fungsi paragraf"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Perhatikan informasi yang disampaikan.",
+                "Tentukan peran informasi tersebut dalam keseluruhan teks.",
+                "Periksa hubungan paragraf dengan bagian sebelumnya dan sesudahnya.",
+                "Jangan menentukan fungsi hanya berdasarkan posisi paragraf."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Untuk menganalisis hubungan antarparagraf"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Bandingkan gagasan utama kedua paragraf.",
+                "Identifikasi apakah paragraf kedua menjelaskan, memperinci, membandingkan, atau mempertentangkan gagasan pertama.",
+                "Perhatikan hubungan logis, bukan sekadar kemiripan topik."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "5. Untuk menentukan posisi informasi tambahan"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Identifikasi topik informasi tambahan.",
+                "Tentukan fungsi informasi tersebut.",
+                "Cari paragraf yang memiliki keterkaitan paling kuat.",
+                "Periksa apakah informasi tersebut mengganggu urutan pembahasan.",
+                "Pilih posisi yang menjaga keterpaduan bacaan."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum yang Harus Dihindari"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Mengapa keliru?",
+                "Cara menghindari"
+              ],
+              "baris": [
+                [
+                  "Memilih kalimat pertama sebagai gagasan utama secara otomatis",
+                  "Gagasan utama dapat berada di akhir atau tersirat",
+                  "Periksa seluruh paragraf"
+                ],
+                [
+                  "Menyamakan topik dengan gagasan utama",
+                  "Topik belum menjelaskan pernyataan inti penulis",
+                  "Rumuskan gagasan dalam bentuk pernyataan"
+                ],
+                [
+                  "Memilih rincian paling menarik",
+                  "Rincian belum tentu mewakili keseluruhan paragraf",
+                  "Cari ide yang menaungi rincian"
+                ],
+                [
+                  "Menentukan fokus teks dari satu paragraf",
+                  "Fokus harus mencakup seluruh pembahasan",
+                  "Petakan gagasan setiap paragraf"
+                ],
+                [
+                  "Menganggap paragraf terakhir selalu berupa simpulan",
+                  "Paragraf terakhir dapat berisi rekomendasi atau informasi lanjutan",
+                  "Periksa fungsi dan isi paragraf"
+                ],
+                [
+                  "Menentukan hubungan hanya dari kata penghubung",
+                  "Hubungan logis tidak selalu dinyatakan secara eksplisit",
+                  "Analisis isi kedua paragraf"
+                ],
+                [
+                  "Menyisipkan informasi berdasarkan kesamaan topik saja",
+                  "Kesamaan topik tidak menjamin kesesuaian alur",
+                  "Periksa fungsi dan urutan informasi"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "1. Gagasan utama merupakan ide inti yang menjadi pusat pembahasan suatu paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Topik, gagasan utama, dan gagasan pendukung memiliki fungsi yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Gagasan utama dapat terletak di awal, akhir, awal dan akhir, atau tersirat dalam paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Fokus keseluruhan teks terbentuk dari hubungan gagasan utama antarparagraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Setiap paragraf memiliki fungsi tertentu, seperti memperkenalkan topik, menjelaskan, memberikan contoh, membandingkan, atau menyimpulkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "6. Hubungan antarparagraf dapat berupa perincian, sebab–akibat, perbandingan, pertentangan, dan penguatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "7. Informasi tambahan harus ditempatkan sesuai dengan fungsi paragraf dan alur bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "8. Penentuan gagasan dan struktur bacaan harus didasarkan pada keseluruhan informasi, bukan satu kalimat yang dibaca secara terpisah."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Pembahasan Konsep Dasar secara Mendalam",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Penyelesaian Soal dan Kesalahan Umum",
+        "teks": ""
+      }
+    ],
+    "pesan": "Kemampuan memahami gagasan utama dan struktur bacaan membantu peserta melihat teks sebagai satu kesatuan informasi yang saling terhubung. Dalam menghadapi soal UTBK-SNBT, peserta tidak cukup hanya mengenali kalimat yang tampak penting, tetapi juga perlu memahami fungsi setiap paragraf dan perkembangan gagasan penulis. Penguasaan kemampuan ini menjadi dasar untuk menyelesaikan soal yang menuntut pemahaman lebih mendalam terhadap organisasi dan keterpaduan bacaan."
+  }
+}

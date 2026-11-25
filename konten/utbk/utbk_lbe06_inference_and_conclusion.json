@@ -1,0 +1,842 @@
+{
+  "meta": {
+    "judul": "Inference and Conclusion",
+    "subtes": "Literasi dalam Bahasa Inggris",
+    "nama_file": "UTBK LBE - Inference and Conclusion",
+    "sumber": "https://docs.google.com/document/d/10HKmkQBm29hUSOsXqwXdUqXxeRODmOwZ1ozsJhaqoyY/edit",
+    "id_katalog": "lbe-06"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 4
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Materi Inference and Conclusion merupakan salah satu keterampilan penting dalam Literasi Bahasa Inggris yang berfokus pada kemampuan menarik kesimpulan logis berdasarkan informasi yang terdapat dalam sebuah teks. Berbeda dengan explicit information yang dinyatakan secara langsung, inference menuntut pembaca menghubungkan beberapa petunjuk untuk memahami informasi yang tidak disampaikan secara eksplisit, sedangkan conclusion merupakan hasil penalaran yang merangkum atau mengintegrasikan informasi dalam bacaan. Dalam materi ini, peserta akan mempelajari cara mengidentifikasi bukti tekstual, memahami hubungan antarinformasi, membedakan kesimpulan yang didukung dari asumsi yang tidak berdasar, serta mengevaluasi tingkat kepastian suatu kesimpulan. Penguasaan keterampilan ini membantu peserta menjawab soal Literasi Bahasa Inggris UTBK-SNBT secara kritis, logis, dan akurat tanpa membuat penafsiran yang melampaui informasi dalam teks."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pengertian dan perbedaan inference dan conclusion."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "informasi eksplisit dari informasi yang diperoleh melalui inferensi."
+      },
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "petunjuk tekstual yang mendukung suatu kesimpulan."
+      },
+      {
+        "level": "",
+        "kko": "Menghubungkan",
+        "teks": "beberapa informasi untuk menghasilkan inferensi logis."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "kesimpulan yang didukung bukti dari asumsi dan spekulasi."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "cakupan, kekuatan bukti, dan tingkat kepastian kesimpulan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "kesimpulan paling tepat ketika terdapat beberapa alternatif penafsiran."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Inference and Conclusion",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Inference and Conclusion",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Inference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inference adalah proses menarik informasi atau pemahaman yang tidak dinyatakan secara langsung dengan menggunakan petunjuk dan hubungan logis dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal inference, peserta tidak cukup hanya menemukan satu kalimat yang identik dengan pilihan jawaban. Peserta perlu menggabungkan informasi untuk memperoleh pemahaman yang didukung bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The university extended library opening hours during the examination period. During the first week, the number of students using the library after 8 p.m. increased significantly."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua informasi yang tersedia adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Universitas memperpanjang jam operasional perpustakaan selama ujian.",
+                "Jumlah mahasiswa yang menggunakan perpustakaan setelah pukul 20.00 meningkat secara signifikan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Logical Inference:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The extended opening hours provided additional opportunities for students to use the library in the evening."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan tersebut masuk akal karena perubahan jam operasional memungkinkan mahasiswa menggunakan fasilitas perpustakaan pada waktu yang lebih malam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, teks tidak membuktikan bahwa perpanjangan jam operasional menyebabkan peningkatan nilai ujian mahasiswa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengertian Conclusion"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Conclusion merupakan hasil akhir penalaran yang diperoleh dengan mengintegrasikan informasi, bukti, atau gagasan dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal membaca, conclusion biasanya meminta peserta menentukan pernyataan yang paling dapat dipertanggungjawabkan berdasarkan keseluruhan informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Electric buses can reduce exhaust emissions in urban areas. However, their environmental benefits also depend on how the electricity used to charge them is generated. Cities relying heavily on fossil-fuel-based electricity may obtain smaller overall emission reductions."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Conclusion:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The environmental benefits of electric buses depend partly on the sources of electricity used to operate them."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan tersebut menggabungkan manfaat kendaraan listrik dengan kondisi yang membatasi manfaat lingkungannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Inference dan Conclusion"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Aspek",
+                "Inference",
+                "Conclusion"
+              ],
+              "baris": [
+                [
+                  "Fokus",
+                  "Makna tersirat yang dapat diturunkan dari bukti",
+                  "Hasil akhir penggabungan informasi"
+                ],
+                [
+                  "Sumber",
+                  "Satu atau beberapa petunjuk tekstual",
+                  "Beberapa fakta, gagasan, atau temuan"
+                ],
+                [
+                  "Proses",
+                  "Menghubungkan petunjuk",
+                  "Mengintegrasikan dan mengevaluasi informasi"
+                ],
+                [
+                  "Pertanyaan",
+                  "What can be inferred?",
+                  "What can be concluded?"
+                ],
+                [
+                  "Kesalahan umum",
+                  "Menambahkan asumsi",
+                  "Membuat generalisasi berlebihan"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Explicit Information vs. Inference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan contoh berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The city introduced additional bus routes after residents complained about limited access to public transportation."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis",
+                "Informasi"
+              ],
+              "baris": [
+                [
+                  "Explicit",
+                  "Kota memperkenalkan rute bus tambahan."
+                ],
+                [
+                  "Explicit",
+                  "Warga sebelumnya mengeluhkan keterbatasan akses transportasi umum."
+                ],
+                [
+                  "Inference",
+                  "Keluhan warga merupakan salah satu pertimbangan yang mungkin mendorong perluasan layanan."
+                ],
+                [
+                  "Unsupported Claim",
+                  "Semua warga kini memiliki akses transportasi yang memadai."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan pentingnya terletak pada tingkat dukungan bukti. Informasi eksplisit dinyatakan langsung, inferensi diperoleh melalui hubungan logis, sedangkan klaim yang tidak didukung membutuhkan bukti tambahan yang tidak tersedia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Jenis-Jenis Inference dalam Teks",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Jenis-Jenis Inference dalam Teks",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Causal Inference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Causal inference berkaitan dengan penalaran mengenai hubungan sebab dan akibat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Several coastal villages experienced severe flooding after heavy rainfall coincided with unusually high tides."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inference:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The combination of heavy rainfall and high tides contributed to flooding in the affected villages."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan ini didukung hubungan yang dijelaskan teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, perlu dibedakan antara hubungan sebab-akibat yang didukung dan hubungan yang hanya terjadi secara bersamaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika teks hanya menyebutkan bahwa dua peristiwa terjadi pada periode yang sama, peserta tidak boleh langsung menyimpulkan bahwa salah satunya menyebabkan yang lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Comparative Inference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Comparative inference diperoleh dengan membandingkan dua atau lebih informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students who attended weekly discussion sessions generally reported greater confidence in presenting arguments than those who studied independently."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inference:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Participation in discussion sessions was associated with higher reported confidence in presenting arguments."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi tersebut mempertahankan hubungan perbandingan yang tersedia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, teks tidak membuktikan bahwa diskusi merupakan satu-satunya penyebab peningkatan kepercayaan diri."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Conditional Inference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Conditional inference didasarkan pada hubungan persyaratan atau kondisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The research project will proceed only if the ethics committee grants approval."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inference:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Without the committee's approval, the project cannot proceed under the stated condition."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata only if menunjukkan persyaratan yang harus dipenuhi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta perlu berhati-hati karena if dan only if memiliki hubungan logis yang berbeda."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "If A, then B: A cukup untuk menyatakan B dalam kondisi yang diberikan.",
+                "B only if A: A merupakan syarat perlu bagi B, tetapi belum tentu menjamin B."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Behavioral or Motivational Inference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jenis ini berkaitan dengan penafsiran tindakan atau alasan seseorang berdasarkan informasi dalam bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Although the training was optional, Maria attended every session and frequently requested additional practice materials."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inference:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maria appeared strongly motivated to improve her skills."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi tersebut didukung oleh perilaku Maria."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tidak dapat disimpulkan bahwa Maria pasti memiliki nilai tertinggi karena teks tidak menyampaikan hasil penilaiannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contextual Inference"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contextual inference diperoleh dari beberapa petunjuk mengenai keadaan atau situasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The clinic introduced an appointment system after patients frequently waited several hours before receiving treatment. Within three months, the average waiting time decreased substantially."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inference:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new appointment system may have helped improve the clinic's service efficiency."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penggunaan may have helped sesuai karena perbaikan waktu tunggu terjadi setelah sistem diterapkan, tetapi faktor lain belum dapat disingkirkan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Mengevaluasi Kekuatan Kesimpulan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Mengevaluasi Kekuatan Kesimpulan",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak semua kesimpulan yang terdengar logis memiliki tingkat dukungan yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal Inference and Conclusion, peserta perlu menentukan kesimpulan yang paling kuat didukung oleh informasi, bukan sekadar yang mungkin benar di dunia nyata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sufficient Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sufficient evidence berarti bukti yang tersedia cukup untuk mendukung pernyataan pada tingkat kepastian yang digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A survey of 800 commuters found that 62% preferred trains over private cars for daily travel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang didukung:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A majority of the surveyed commuters preferred trains for daily travel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tidak didukung:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Most people in the country prefer trains over private cars."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan kedua memperluas cakupan dari 800 responden menjadi seluruh penduduk negara."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Scope Accuracy"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Scope accuracy berkaitan dengan ketepatan cakupan kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peserta harus mempertahankan kelompok, tempat, periode, dan kondisi yang dinyatakan dalam bacaan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Informasi sumber",
+                "Kesimpulan yang berlebihan"
+              ],
+              "baris": [
+                [
+                  "Some schools improved attendance.",
+                  "Every school improved attendance."
+                ],
+                [
+                  "Participants reported better sleep.",
+                  "Everyone experienced better health."
+                ],
+                [
+                  "The treatment may reduce symptoms.",
+                  "The treatment eliminates the disease."
+                ],
+                [
+                  "The program succeeded in two districts.",
+                  "The program will succeed everywhere."
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang baik tidak mengubah temuan terbatas menjadi klaim universal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Degree of Certainty"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tingkat kepastian menunjukkan seberapa kuat suatu pernyataan disampaikan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Ungkapan",
+                "Tingkat klaim"
+              ],
+              "baris": [
+                [
+                  "May / Might / Could",
+                  "Kemungkinan"
+                ],
+                [
+                  "Suggests / Indicates",
+                  "Mengarah pada suatu penafsiran atau temuan"
+                ],
+                [
+                  "Is likely to",
+                  "Diperkirakan mungkin terjadi"
+                ],
+                [
+                  "Demonstrates / Establishes",
+                  "Menyatakan bahwa bukti telah menunjukkan sesuatu"
+                ],
+                [
+                  "Always / Never",
+                  "Klaim mutlak"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tingkat kekuatan ungkapan harus disesuaikan dengan bukti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Preliminary findings suggest that the intervention may improve reading comprehension."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The intervention shows potential for improving reading comprehension, although further evidence is needed."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tidak sesuai:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The intervention has been proven effective for all students."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alternative Explanations"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alternative explanations merupakan kemungkinan faktor lain yang dapat menjelaskan suatu hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Students who used an educational application achieved higher examination scores than students who did not use it."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temuan tersebut menunjukkan hubungan antara penggunaan aplikasi dan nilai ujian. Namun, belum tentu aplikasi menjadi satu-satunya penyebab."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengguna aplikasi mungkin memiliki kebiasaan belajar berbeda, memperoleh bimbingan tambahan, atau memiliki tingkat persiapan yang lebih tinggi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, kesimpulan yang lebih tepat adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Application users achieved higher scores, but the information does not establish that the application alone caused the difference."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Supported, Plausible, dan Unsupported Conclusions"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kategori",
+                "Karakteristik"
+              ],
+              "baris": [
+                [
+                  "Supported",
+                  "Memiliki dukungan langsung atau inferensial yang memadai"
+                ],
+                [
+                  "Plausible but Unestablished",
+                  "Masuk akal, tetapi masih memerlukan informasi tambahan"
+                ],
+                [
+                  "Unsupported",
+                  "Tidak memiliki dasar yang cukup dalam teks"
+                ],
+                [
+                  "Contradicted",
+                  "Bertentangan dengan informasi yang diberikan"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal yang meminta kesimpulan terbaik, peserta harus memilih pernyataan dengan dukungan paling kuat dan cakupan paling tepat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Strategi Menjawab Soal Inference and Conclusion",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menjawab Soal Inference and Conclusion",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pendekatan Evidence–Reasoning–Conclusion (ERC)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Identify the Question"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah soal meminta inferensi lokal atau kesimpulan keseluruhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Locate the Evidence"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan dua atau lebih informasi yang relevan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Connect the Information"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Analisis hubungan sebab, perbandingan, kondisi, atau konsekuensi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Evaluate the Options"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa dukungan, cakupan, kepastian, dan kemungkinan penjelasan alternatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Select the Best-Supported Answer"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih kesimpulan yang paling kuat didukung tanpa menambahkan asumsi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Contoh Penerapan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Text:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The new bicycle-sharing program attracted more users after additional stations were installed near residential neighborhoods. However, participation remained low in areas without protected cycling lanes."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence 1: Jumlah pengguna meningkat setelah stasiun tambahan dipasang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evidence 2: Partisipasi masih rendah di wilayah tanpa jalur sepeda terlindungi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Logical Inference:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "The accessibility of bicycle stations and the availability of safe cycling infrastructure may both influence participation."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inferensi tersebut mempertahankan kedua faktor yang dibahas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebaliknya, kesimpulan bahwa installing more stations will guarantee high participation everywhere tidak didukung karena mengabaikan keterbatasan infrastruktur."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kesalahan Umum"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kesalahan",
+                "Penjelasan"
+              ],
+              "baris": [
+                [
+                  "Unsupported Assumption",
+                  "Menambahkan informasi yang tidak tersedia"
+                ],
+                [
+                  "Overgeneralization",
+                  "Memperluas temuan terbatas menjadi klaim umum"
+                ],
+                [
+                  "Correlation–Causation Error",
+                  "Menganggap hubungan statistik pasti merupakan sebab-akibat"
+                ],
+                [
+                  "Certainty Shift",
+                  "Mengubah kemungkinan menjadi kepastian"
+                ],
+                [
+                  "Ignoring Alternative Explanations",
+                  "Mengabaikan faktor lain yang mungkin menjelaskan hasil"
+                ],
+                [
+                  "Partial Evidence",
+                  "Menggunakan hanya satu bagian teks dan mengabaikan batasan di bagian lain"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prinsip utama: Inferensi yang baik bukan kesimpulan yang paling jauh atau paling kompleks, melainkan kesimpulan yang paling dapat dibenarkan oleh bukti."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Inference merupakan penalaran untuk memperoleh informasi tersirat dari petunjuk yang tersedia, sedangkan conclusion adalah kesimpulan yang merangkum atau menilai makna bukti secara proporsional. Keduanya memerlukan hubungan logis, tetapi tidak memberi izin untuk menambahkan asumsi bebas. Pembaca harus membedakan fakta yang diamati, penjelasan yang mungkin, dan kesimpulan yang benar-benar dapat didukung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi menjawab adalah mengumpulkan dua atau lebih petunjuk, mencari hubungan yang paling relevan, lalu membatasi kesimpulan sesuai cakupan informasi. Perhatikan unsur alternatif: motivasi, dukungan tambahan, kebiasaan belajar, atau perbedaan kelompok dapat memberikan penjelasan lain. Pengecoh biasanya memperluas hasil kelompok tertentu menjadi semua siswa, menukar penurunan dengan penghilangan total, atau menyatakan dampak akademik yang tidak pernah diukur. Gunakan frasa kemungkinan ketika bukti memang belum memastikan sebab tunggal."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Inference and Conclusion",
+        "teks": ""
+      },
+      {
+        "judul": "Jenis-Jenis Inference dalam Teks",
+        "teks": ""
+      },
+      {
+        "judul": "Mengevaluasi Kekuatan Kesimpulan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab Soal Inference and Conclusion",
+        "teks": ""
+      }
+    ],
+    "pesan": "Materi ini melatih peserta berargumen secara hati-hati: sebuah hasil dapat menjanjikan tanpa membuktikan seluruh penyebab atau dampaknya. Kualitas inferensi ditentukan oleh kedekatannya dengan bukti, bukan seberapa berani kesimpulan terdengar. Dengan sikap tersebut, peserta lebih siap mengevaluasi pandangan penulis dan kualitas argumentasi dalam bacaan tingkat lanjut."
+  }
+}

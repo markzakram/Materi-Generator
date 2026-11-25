@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Hubungan Kata dan Frasa",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Hubungan Kata dan Frasa",
+    "sumber": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-04-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Tubuh manusia membutuhkan berbagai jenis nutrisi penting setiap hari agar dapat menjalankan fungsinya secara optimal. (2) Nutrisi-nutrisi tersebut meliputi karbohidrat sebagai sumber energi utama, lemak sebagai cadangan energi, serta vitamin dan mineral untuk menjaga sistem metabolisme. (3) Kekurangan salah satu zat gizi ini dapat menyebabkan penurunan kondisi kesehatan dan mengganggu aktivitas sehari-hari. (4) Oleh karena itu, penerapan pola makan yang seimbang sangat dianjurkan untuk memenuhi seluruh kebutuhan gizi tersebut. (5) Manusia juga memerlukan protein untuk menunjang pertumbuhan. (6) Selain itu, protein juga dapat membantu mengganti sel-sel rusak dalam tubuh. (7) Protein bisa didapatkan dari jenis kacang-kacangan, seperti kacang merah, kacang hijau, dan olahannya yang disebut dengan protein nabati. …, protein juga bisa didapatkan dari daging hewan dan telur yang disebut dengan protein hewani."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kata karbohidrat : sumber energi dan protein : pertumbuhan pada teks di atas memiliki kesamaan logika dengan hubungan kata ...."
+            }
+          ],
+          "opsi": {
+            "A": "vitamin : sayur-sayuran",
+            "B": "kalsium : pembentukan tulang",
+            "C": "air : dehidrasi ringan",
+            "D": "lemak : daging hewan",
+            "E": "mineral : suplemen makanan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kata antara karbohidrat : sumber energi serta protein : pertumbuhan adalah Zat/Nutrisi : Fungsi/Manfaat bagi tubuh. Karbohidrat berfungsi sebagai sumber energi, sedangkan protein berfungsi untuk menunjang pertumbuhan. Hubungan kata kalsium : pembentukan tulang memiliki hubungan logika yang sepadan, yaitu zat kalsium memiliki fungsi untuk pembentukan tulang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban A dan D salah karena hubungan kata antara vitamin : sayur-sayuran dan lemak : daging hewan adalah hubungan Zat : Sumber Makanan Penghasilnya, bukan fungsinya bagi tubuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban C salah karena hubungan kata antara air : dehidrasi ringan adalah hubungan Solusi : Gangguan Kesehatan, bukan fungsi zatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban E salah karena hubungan kata antara mineral : suplemen makanan adalah hubungan Zat : Wadah/Bentuk, bukan fungsinya bagi tubuh."
+            }
+          ],
+          "label": "Hubungan Kata"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Dalam kegiatan pengamatan cuaca di sekolah, petugas menggunakan termometer untuk mengukur suhu udara. (2) Ia mencatat hasil pengukurannya dalam derajat Celsius. (3) Setelah itu, siswa memasang kembali penyangga yang menjadi bagian dari perangkat pengamatan. (4) Hasil pengamatan mereka disusun dalam sebuah laporan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih semua analisis yang tepat. Perhatikan urutan unsur pada setiap pasangan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Pasangan termometer–suhu udara menunjukkan hubungan alat ukur dengan besaran yang diukur.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Pasangan suhu udara–derajat Celsius menunjukkan hubungan satuan dengan besaran yang dinyatakan.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Pasangan penyangga–perangkat pengamatan menunjukkan hubungan bagian dengan benda utuh.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "Pasangan siswa–laporan menunjukkan hubungan penyusun dengan hasil yang disusun.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Benar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar. Termometer adalah alat yang digunakan untuk mengukur suhu udara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah. Suhu udara adalah besaran dan derajat Celsius adalah satuannya. Pasangan itu menyebut besaran lebih dulu, lalu satuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar. Penyangga merupakan salah satu bagian dari perangkat pengamatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar. Siswa menyusun laporan. Urutannya adalah penyusun, lalu hasil yang disusun."
+            }
+          ],
+          "label": "Hubungan Kata"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pada kegiatan praktik di aula, peserta menggunakan meter untuk menyatakan panjang kain dan sekon untuk mencatat durasi setiap percobaan. (2) Ketika mencoba menimbang bahan, mereka menulis hasilnya dalam kilogram. (3) Pada lembar pengamatan, setiap satuan dicatat bersama nama besarannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lengkapi analogi berikut dengan satu kata yang merupakan nama besaran dalam SI."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meter adalah satuan panjang, sebagaimana kilogram adalah satuan ___."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "sorot",
+              "teks": "Jawaban : massa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan pada kalimat acuan adalah satuan → besaran. Meter menempati posisi satuan dan panjang menempati posisi besaran. Pada bagian kedua, kilogram sudah mengisi posisi satuan. Besaran yang satuan SI-nya kilogram adalah massa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam percakapan sehari-hari, orang sering menyebut hasil timbangan sebagai berat. Dalam SI, berat adalah gaya dan satuannya newton. Karena soal meminta nama besaran dalam SI, kuncinya adalah massa."
+            }
+          ],
+          "label": "Analogi Kata dan Frasa"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam laporan kegiatan sekolah tertulis, “Siswa menggunakan pita ukur untuk mengukur panjang meja.” Beri tanda centang pada kolom Benar jika kalimat pada tabel menunjukkan hubungan dan urutan yang sama dengan pasangan pita ukur–panjang meja. Jika salah satu atau keduanya berbeda, beri tanda centang pada kolom Salah. Unsur yang dibandingkan dicetak tebal."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Petugas menggunakan termometer untuk mengukur suhu air.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Panjang lorong diukur petugas menggunakan meteran gulung.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Petugas menggunakan stopwatch untuk mengukur durasi percobaan.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "Kecepatan angin dicatat petugas dalam kilometer per jam.",
+                  "",
+                  ""
+                ],
+                [
+                  "5",
+                  "Teknisi menggunakan amperemeter untuk mengukur kuat arus pada rangkaian.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah; 5 Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kalimat acuan, pita ukur disebut lebih dulu sebagai alat, lalu panjang meja sebagai besaran yang diukur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar. Termometer adalah alat dan suhu air adalah besaran yang diukur. Urutannya sama dengan pasangan acuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah. Kalimat menyebut panjang lorong sebagai besaran lebih dulu, lalu meteran gulung sebagai alat. Urutannya terbalik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar. Stopwatch disebut sebelum durasi percobaan yang diukur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Salah. Kilometer per jam adalah satuan untuk menyatakan kecepatan angin. Hubungannya adalah besaran dengan satuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Benar. Amperemeter disebut sebelum kuat arus yang diukur."
+            }
+          ],
+          "label": "Analogi Kata dan Frasa"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap manusia mendambakan kebahagiaan yang utuh secara lahir batin. Kebahagiaan lahir dapat dirasakan melalui terpenuhinya kebutuhan hidup, kesehatan tubuh, dan kenyamanan lingkungan. Sementara itu, kebahagiaan batin tercermin dari ketenangan hati, rasa syukur, dan kedamaian pikiran. Selain itu, kebahagiaan lahir batin juga dapat diperoleh melalui hubungan sosial yang baik dengan sesama. Sikap saling menghormati, tolong-menolong, dan kepedulian terhadap lingkungan sekitar mampu menciptakan suasana hidup yang damai. Dengan membangun hubungan yang positif, manusia tidak hanya merasa sejahtera secara fisik, tetapi juga merasakan ketentraman batin dalam kehidupan sehari-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompok kata berpasangan tetap dalam bacaan tersebut adalah…"
+            }
+          ],
+          "opsi": {
+            "A": "Lahir batin",
+            "B": "Kebutuhan hidup",
+            "C": "Kesehatan tubuh",
+            "D": "Kenyamanan lingkungan",
+            "E": "Kebahagiaan batin"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompok kata berpasangan tetap adalah gabungan dua kata yang selalu digunakan bersama, membentuk satu makna utuh, dan tidak dapat dipisahkan atau dipertukarkan tanpa mengubah makna konseptualnya. Dalam bacaan, frasa “lahir batin” merupakan pasangan tetap yang sudah membentuk satu kesatuan makna idiomatis, yaitu kondisi manusia secara fisik dan spiritual atau jasmani dan rohani. Frasa ini tidak sekadar gabungan dua kata biasa, tetapi merupakan ungkapan tetap dalam bahasa Indonesia yang sering digunakan untuk menggambarkan kondisi manusia secara menyeluruh. Karena sifatnya yang idiomatis, mapan, dan selalu digunakan dalam bentuk berpasangan, maka “lahir batin” termasuk kelompok kata berpasangan tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan opsi lain salah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kebutuhan hidup salah karena merupakan frasa biasa yang bersifat deskriptif dan dapat diganti atau diubah, misalnya menjadi kebutuhan dasar, kebutuhan pokok, atau kebutuhan manusia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Kesehatan tubuh salah karena hanya gabungan kata umum yang tidak bersifat tetap dan tidak membentuk ungkapan khusus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Kenyamanan lingkungan salah karena merupakan frasa bebas yang maknanya literal dan tidak memiliki sifat pasangan tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Kebahagiaan batin salah karena bukan pasangan tetap, melainkan frasa biasa yang menjelaskan jenis kebahagiaan, dan tidak memiliki pasangan makna tetap seperti lahir–batin."
+            }
+          ],
+          "label": "Kelompok Kata Berpasangan Tetap"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat pernyataan berikut menilai pasangan kata dalam konteks pemakaiannya. Tentukan berdasarkan makna dan kelaziman, bukan hanya kemiripan arti tiap kata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan Benar atau Salah untuk setiap pernyataan berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Mengambil keputusan lazim digunakan untuk menyatakan tindakan menetapkan pilihan.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Hujan deras pasti merupakan idiom karena kedua katanya lazim muncul berpasangan.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Dalam “Sekretaris mencatat keputusan rapat dalam notulen”, mencatat keputusan sesuai untuk maksud merekam hasil rapat.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "Jika dua kata pernah bersinonim dalam satu konteks, keduanya pasti dapat dipertukarkan pada seluruh pasangan kata.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang dipakai"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelaziman, makna idiomatis, dan kesesuaian konteks merupakan pertimbangan yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Petunjuk dalam bacaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "mengambil keputusan, idiom, mencatat, konteks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara membaca soal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mengambil keputusan lazim dipakai untuk menetapkan pilihan, sehingga pernyataan pertama benar. Hujan deras tetap bisa dipahami melalui arti hujan dan deras. Kelaziman pasangan itu tidak menjadikannya idiom, sehingga pernyataan kedua salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan ketiga benar karena notulen mencatat hasil rapat. Pernyataan keempat salah karena dua kata yang berdekatan makna belum tentu dapat dipertukarkan dalam semua pasangan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji setiap pernyataan pada aspek yang disebutkan. Pasangan lazim tidak otomatis idiom, dan pasangan lazim tetap memerlukan konteks yang tepat."
+            }
+          ],
+          "label": "Kelompok Kata Berpasangan Tetap"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

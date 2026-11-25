@@ -49,6 +49,24 @@ PALET = {
         # merah muda, dan kotak catatan memakai merah muda (teks merah tua).
         "token": {"di_kuning": "FFFFFF", "kuning_di_gelap": "FCE3E3", "isi_catatan": "FCE3E3"},
     },
+    "cerebrum": {
+        "nama": "Cerebrum",
+        # merah bata (warna logo dan ikon) sebagai warna utama, kuning sebagai aksen, hijau kebiruan gelap untuk teks di atas kuning
+        "peran": {"primer": "DE2C2C", "biru_tua": "133744", "primer_alt": "A9292D",
+                  "aksen": "F7BB2A", "aksen_tua": "A57916", "terang": "FCD47C"},
+        "ganti": {
+            "13215A": "A9292D",  # navy -> merah bata
+            "24336F": "C42B2D",  # antara merah bata dan merah primer
+            "FBBB2B": "F7BB2A",  # kuning
+            "FFE6AE": "FDEBBF",  # kuning muda: aksen 30% di atas putih
+            "595858": "DE2C2C",  # ujung gradien kartu aktif: merah primer
+        },
+        "rona": [("13215A", "A9292D"), ("FBBB2B", "F7BB2A")],
+        # merah bata di atas kuning kurang kontras untuk huruf kecil: pakai biru tua Cerebrum
+        "token": {"di_kuning": "133744"},
+        # teks isi (tidak tebal) memakai biru tua supaya paragraf, opsi, dan tabel tidak merah semua
+        "teks_biasa": {"13215A": "133744"},
+    },
 }
 
 
@@ -71,6 +89,16 @@ PALET["jadiojk"]["situs"] = {
     "gelap": {"aksen": "#ED2224", "aksen-teks": "#FFFFFF", "pdf-bg": "transparent", "pdf-teks": "#F58A8B",
               "pdf-garis": "#ED2224", "pilih": "#F58A8B", "fokus": "#F58A8B", "bg": "#1C0708", "kartu": "#2C0E10",
               "teks": "#F7ECEC", "redup": "#D8BDBE", "garis": "#4A1B1D", "sorot": "#3A1315"},
+}
+PALET["cerebrum"]["situs"] = {
+    "terang": {"header": "#A9292D", "header-aksen": "#F7BB2A", "header-redup": "#F6DAD2",
+               "aksen": "#A9292D", "aksen-teks": "#FFFFFF", "kuning": "#F7BB2A", "kuning-teks": "#133744",
+               "pdf-bg": "#F7BB2A", "pdf-teks": "#133744", "pdf-garis": "#F7BB2A",
+               "pilih": "#DE2C2C", "fokus": "#133744", "bg": "#FBF6F2", "teks": "#133744", "redup": "#4A606A",
+               "samar": "#84949B", "garis": "#EBDFD9", "sorot": "#FBEDE9"},
+    "gelap": {"aksen": "#F7BB2A", "aksen-teks": "#133744", "pdf-bg": "transparent", "pdf-teks": "#F7BB2A",
+              "pilih": "#F7BB2A", "fokus": "#F7BB2A", "bg": "#0B222B", "kartu": "#133744", "teks": "#F4EEE7",
+              "redup": "#B8C7CC", "garis": "#2A5060", "sorot": "#1B4655"},
 }
 
 
@@ -152,6 +180,11 @@ def terapkan(prs, nama):
     for part in prs.part.package.iter_parts():
         el = getattr(part, "_element", None)
         if el is not None:
+            for rPr in el.iter(qn("a:rPr")) if p.get("teks_biasa") else ():
+                if rPr.get("b") in ("1", "true"):
+                    continue
+                for c in rPr.findall(f"{qn('a:solidFill')}/{qn('a:srgbClr')}"):
+                    c.set("val", p["teks_biasa"].get((c.get("val") or "").upper(), c.get("val")))
             for c in el.iter(qn("a:srgbClr")):
                 baru = ganti.get((c.get("val") or "").upper())
                 if baru:

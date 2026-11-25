@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bahasa Buatan",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Bahasa Buatan",
+    "sumber": "https://docs.google.com/document/d/133gVPaGe0iFm_sE1g_-mqeO-Oufe-ccU/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-10-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menemukan padanan benda dan sifat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang peserta menerima tiga pasangan ungkapan dalam satu bahasa rekaan. Arti satu token tidak boleh ditebak dari bunyinya, tetapi harus ditentukan dari bagian yang berulang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam sebuah bahasa buatan, terdapat pasangan berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "luma tari = buku baru; sena tari = rumah baru; luma kiri = buku lama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aturan: urutan benda diikuti sifat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Arti “sena kiri” adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "rumah lama",
+            "B": "buku rumah",
+            "C": "baru lama",
+            "D": "buku baru",
+            "E": "rumah baru"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Korespondensi dua unsur dan pola benda–sifat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Petunjuk dalam data"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "tari berulang pada makna baru; luma berulang pada makna buku; sena berpasangan dengan rumah; kiri dengan lama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan luma tari dan sena tari: keduanya bermakna sesuatu yang baru, sehingga tari = baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan luma tari dan luma kiri: luma = buku; maka kiri = lama. Dari sena tari, sena = rumah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Susun sena kiri menurut urutan benda–sifat: rumah lama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap unsur telah diuji pada contoh asal sehingga tidak ada aturan tambahan yang perlu ditebak."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Buku rumah tidak memuat arti kiri = lama dan mengubah sifat menjadi nomina."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Baru lama menyatukan arti tari dan kiri, padahal kode pertama adalah sena = rumah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Buku baru adalah luma tari, bukan sena kiri."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Rumah baru adalah sena tari; kode kiri justru menunjukkan lama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika kata pertama benda dan kata kedua sifat, cari arti masing-masing token, lalu gabungkan tanpa membalik urutan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Memeriksa pernyataan Benar atau Salah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu bahasa rekaan digunakan secara konsisten dalam seluruh pasangan yang tersedia. Kebenaran setiap pernyataan diuji terhadap padanan dan urutan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan bahasa buatan berikut: miko lan = anak membaca; miko ter = anak menulis; bena lan = guru membaca. Urutan selalu pelaku–kegiatan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tentukan Benar atau Salah untuk setiap pernyataan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Unsur miko menunjukkan anak.",
+                  "□",
+                  "□"
+                ],
+                [
+                  "2",
+                  "Unsur lan berarti menulis.",
+                  "□",
+                  "□"
+                ],
+                [
+                  "3",
+                  "Ungkapan bena ter berarti guru menulis.",
+                  "□",
+                  "□"
+                ],
+                [
+                  "4",
+                  "Ungkapan ter bena sesuai untuk guru menulis.",
+                  "□",
+                  "□"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsistensi korespondensi dan urutan pelaku–kegiatan. Setiap klaim diuji secara terpisah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar. Dua pasangan yang diawali miko sama-sama menyebut pelaku anak. Jadi, miko = anak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah. Lan muncul pada miko lan (anak membaca) dan bena lan (guru membaca), sehingga lan = membaca, bukan menulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar. Bena = guru dari bena lan; ter = menulis dari miko ter. Dalam urutan pelaku–kegiatan, bena ter = guru menulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Salah. Ter bena menaruh kegiatan sebelum pelaku. Meskipun tokennya benar, susunannya melanggar aturan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa satu klaim pada satu waktu. Dua pernyataan dengan token yang sama belum tentu sama-sama benar jika urutannya berbeda."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menghitung Unsur Kode yang Perlu Diperbaiki",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bahasa Luma pada latihan ini memiliki urutan khusus dan penanda gramatikal yang dapat melekat pada token. Setiap perubahan dihitung pada unsur yang dipisahkan spasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bahasa Luma menggunakan urutan S–O–P. Kosakata: nara = anak; siva = guru; lomi = buku; tara = peta; peka = membaca; ranu = membawa. Akhiran -mi menandai nomina jamak, sedangkan -ta menandai predikat masa lampau."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Contoh Luma",
+                "Bahasa Indonesia"
+              ],
+              "baris": [
+                [
+                  "nara lomi peka",
+                  "anak membaca buku"
+                ],
+                [
+                  "sivami tara ranu",
+                  "para guru membawa peta"
+                ],
+                [
+                  "nara lomi peka-ta",
+                  "anak membaca buku (masa lampau)"
+                ],
+                [
+                  "narami tara ranu-ta",
+                  "anak-anak membawa peta (masa lampau)"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang siswa menulis “siva tara peka” untuk makna “para guru membaca buku pada masa lampau”. Berdasarkan data bahasa Luma, berapa UNSUR KODE yang perlu diubah agar terjemahannya benar? Satu unsur berarti satu kelompok huruf yang dipisahkan spasi, termasuk imbuhan yang melekat. Tuliskan angka saja."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 3"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Memeriksa ketepatan tiga token menurut padanan makna, urutan S–O–P, penanda jamak (-mi), serta penanda lampau (-ta)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Makna yang diminta adalah “para guru membaca buku pada masa lampau”. Bentuk benar ialah sivami lomi peka-ta menurut urutan S–O–P."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Token pertama harus berubah dari siva menjadi sivami untuk menandai subjek jamak. Ini adalah perubahan unsur ke-1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Token kedua harus berubah dari tara (peta) menjadi lomi (buku). Ini perubahan unsur ke-2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Token ketiga harus berubah dari peka menjadi peka-ta agar kegiatan membaca dinyatakan berlangsung pada masa lampau. Ini perubahan unsur ke-3. Jadi, ada 3 unsur kode yang diubah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bandingkan token pertama, kedua, dan ketiga secara terpisah dengan target terjemahan. Hitung token yang berubah, bukan jumlah huruf atau imbuhannya."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Kewacanaan",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Kewacanaan",
+    "sumber": "https://docs.google.com/document/d/1wXu9jGlP7mm5Zt3tataKL1Z21-m8lF1B/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-06-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Banyak penelitian menunjukkan bahwa kebisingan di ruang kelas dapat mengganggu konsentrasi belajar. (2) Siswa yang belajar dalam lingkungan bising cenderung memiliki hasil tes yang lebih rendah. (3) Kebisingan juga memengaruhi kemampuan memori jangka pendek."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) ____________, beberapa sekolah mulai memasang panel peredam suara di dinding kelas. (2) Guru juga didorong untuk mengatur jadwal kegiatan agar tidak saling bertumpukan antarruang. (3) Langkah-langkah tersebut diharapkan mampu mengurangi gangguan kebisingan saat proses belajar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata/Frasa yang paling tepat untuk melengkapi bagian rumpang sehingga hubungan antarkedua paragraf menunjukkan sebab-akibat secara eksplisit adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Meskipun demikian",
+            "B": "Sebagai respons terhadap temuan tersebut",
+            "C": "Berbeda dengan hasil penelitian di atas",
+            "D": "Tanpa memerhatikan hasil penelitian",
+            "E": "Sementara itu"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban B Benar karena: Paragraf 1 berisi masalah (kebisingan mengganggu belajar) , sedangkan Paragraf 2 berisi tindakan sekolah (memasang peredam). Frasa \"Sebagai respons terhadap temuan tersebut\" menghubungkan kedua paragraf dalam hubungan sebab-akibat atau masalah-solusi secara eksplisit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan opsi lain salah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Meskipun demikian: Menandakan pertentangan, padahal tindakan sekolah sejalan dengan temuan penelitian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Berbeda dengan hasil penelitian: Tindakan sekolah mendukung, bukan berbeda dari hasil penelitian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tanpa memerhatikan hasil penelitian: Ini tidak logis karena sekolah justru bertindak mengatasi masalah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Sementara itu: Hanya menunjukkan urutan waktu, kurang kuat menunjukkan hubungan kausalitas."
+            }
+          ],
+          "label": "Hubungan Antarparagraf"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Warga mengeluhkan antrean panjang ketika mengurus kartu layanan. (2) Pengelola mencatat bahwa banyak pemohon harus kembali ke rumah karena baru mengetahui persyaratan setelah tiba."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Untuk mengurangi kunjungan ulang tersebut, pengelola mengusulkan daftar persyaratan yang dapat diakses sebelum kedatangan. (4) Petugas juga direncanakan memeriksa kelengkapan awal melalui meja bantuan di balai warga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kerja apa pada kalimat (3) yang menunjukkan bahwa paragraf kedua menawarkan cara untuk mengatasi masalah pada paragraf pertama? Tuliskan satu kata dari kalimat (3)."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: mengusulkan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang dipakai"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan kata dapat menunjukkan fungsi paragraf. Kata kerja seperti mengusulkan menandai bahwa penulis sedang menyampaikan langkah yang bisa diambil untuk menanggapi masalah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Petunjuk dalam bacaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Frasa untuk mengurangi kunjungan ulang menunjukkan tujuan langkah yang diajukan. Kata mengusulkan menunjukkan tindakan pengelola."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara membaca soal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf pertama menjelaskan mengapa pemohon harus datang kembali. Paragraf kedua menanggapi masalah itu dengan mengajukan dua langkah, yaitu menyediakan daftar persyaratan sebelum pemohon datang dan merencanakan pemeriksaan awal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal meminta satu kata kerja dari kalimat (3) yang menunjukkan bahwa pengelola menawarkan cara untuk mengatasi masalah. Kata yang tepat adalah mengusulkan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Fokus pada kalimat (3). Cari kata kerja yang menyatakan tindakan pengelola saat mengajukan langkah untuk mengurangi kunjungan ulang."
+            }
+          ],
+          "label": "Hubungan Antarparagraf"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Olahraga kini bukan sekadar aktivitas fisik, tetapi juga telah menjadi bagian dari gaya hidup dan konten media sosial. (2) Namun, tren ini menyimpan risiko apabila dilakukan tanpa memahami kondisi tubuh pribadi. (3) Menurut penelitian, banyak orang tergiur mencoba olahraga kekinian seperti lari jarak jauh, HIIT (high-intensity interval training), hingga padel hanya demi mengikuti tren atau terlihat keren di dunia maya. (4) Padahal, tindakan tersebut bisa berdampak buruk jika tidak disesuaikan dengan kemampuan dan kesehatan individu. (5) Berdasarkan penelitian, setiap orang memiliki kondisi tubuh yang berbeda dari pola makan, kualitas tidur, hingga tingkat stres. (6) Mengikuti program latihan orang lain tanpa pertimbangan medis bisa menyebabkan cedera ringan hingga berat. (7) Maka dari itu, disarankan untuk memulai olahraga secara bertahap dan mempertimbangkan beberapa faktor penting seperti, melakukan pemeriksaan kesehatan jika perlu dan memastikan pemanasan dan pendinginan dilakukan secara benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Diadaptasi dari madiuntoday.id)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan antara kalimat (5) dan (6) adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "Kalimat (5) menyanggah kalimat (6)",
+            "B": "Kalimat (6) merinci contoh pada kalimat (5)",
+            "C": "Kalimat (6) menjelaskan akibat dari kondisi pada kalimat (5)",
+            "D": "Kalimat (5) merupakan kesimpulan kalimat (6)",
+            "E": "Kalimat (6) memperluas topik baru"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep yang digunakan: Kohesi dan koherensi wacana (hubungan antarkalimat)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kunci: gagasan utama, sebab-akibat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "opsi benar:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat (5) menyatakan bahwa setiap orang memiliki kondisi tubuh yang berbeda-beda, misalnya pola makan, kualitas tidur, dan tingkat stres. Kalimat (6) menyatakan bahwa mengikuti program latihan orang lain tanpa pertimbangan medis bisa menyebabkan cedera ringan hingga berat. Hubungan antara kedua kalimat ini bersifat sebab-akibat, di mana kalimat (6) menjelaskan akibat dari fakta yang disebutkan di kalimat (5). Jadi, kalimat (6) menjelaskan risiko yang muncul jika seseorang tidak mempertimbangkan kondisi tubuhnya sendiri sebelum mengikuti program latihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan Opsi Lain Salah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kalimat (5) menyanggah kalimat (6) → kalimat (6) tidak dibantah oleh kalimat (5), justru menjelaskan akibatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kalimat (6) merinci contoh pada kalimat (5) → kalimat (6) bukan merinci contoh, tetapi menunjukkan akibat dari kondisi yang disebutkan di kalimat (5)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Kalimat (5) merupakan kesimpulan kalimat (6) → karena urutannya terbalik; kalimat (5) fakta awal, kalimat (6) akibatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Kalimat (6) memperluas topik baru → topik pada kalimat (6) masih sama, yaitu tentang kondisi tubuh dan risiko olahraga"
+            }
+          ],
+          "label": "Hubungan dan Kelogisan Antarkalimat"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Penampilan Lionel Messi dalam laga Argentina melawan Kroasia mendapat apresiasi. (2) Salah satu aksi menawan ditampilkan dalam proses gol ketiga Tim Tango. (3) Messi mendapat penghargaan man of the match usai laga semifinal Piala Dunia 2022. (4) Meski mencetak satu gol saat dua gol lain dilesakkan Julian Alvarez, Messi menunjukkan penampilan brilian. (5) Keterlibatan Messi dalam permainan Argentina begitu terasa dengan 63 sentuhan bola. (6) Selain itu, Messi juga mengirimkan 34 umpan sukses dan lima kali menggocek lawan. (7) Salah satu gocekan Messi yang membuat lawan tak berdaya sekaligus mengundang decak kagum terjadi pada menit ke-69. (8) Argentina mendapat lemparan ke dalam di tengah lapangan. (9) Sepintas, momen ini tidak mengundang ancaman ke gawang Kroasia. (10) Bola lantas mengarah ke Alvarez, lalu penyerang Argentina itu melepas bola lagi ke arah Messi. (11) Dengan cepat dan cekatan, Messi menguasai si kulit bulat. (12) Messi berlari mendekati kotak penalti dengan kawalan ketat Josko Gvardiol, bek Kroasia yang mendapat penilaian baik selama Piala Dunia 2022. (13) Sebelum memasuki kotak penalti, Messi berhenti sejenak. (14) Dengan gerakan memutar badan ke kiri, Messi mengecoh Gvardiol. (15) Messi menerobos kotak penalti dan berhasil tak terkejar. (16) Alih-alih menuntaskan kesempatan dari sudut sempit, bola dikirim Messi kepada Alvarez. (17) Tanpa kesulitan, Alvarez menyepak bola masuk ke gawang. (18) Momen tersebut banyak direkam dan diunggah para suporter yang hadir di Stadion Lusail Iconic. (19) Sembari mengunggah momen tersebut ke media sosial, suporter tak sungkan memberi pujian kepada Messi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "diadaptasi dari: CNN Indonesia, 14 Desember 2022, Sihir Messi Buat Pemain Kroasia Terkecoh dan Fans Terpesona"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan tabel yang menganalisis hubungan antarkalimat dari teks di atas. Tentukan apakah analisis hubungan tersebut Benar atau Salah!"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Kalimat (2) berfungsi memberikan rincian atau contoh khusus dari “apresiasi penampilan menawan” yang disebut secara umum pada kalimat (1).",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Kalimat (5) dan (6) memiliki hubungan perincian. Keduanya merupakan rincian informasi yang dinyatakan pada kalimat (4)",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Kalimat (13) dan (14) memiliki hubungan sebab akibat. Kalimat (14) merupakan akibat langsung yang disebabkan oleh berhentinya Messi secara mendadak pada kalimat (13).",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Jawaban: 1 Benar; 2 Benar; 3 Salah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat (1) menyatakan Messi mendapat “apresiasi” secara umum, lalu kalimat (2) langsung mengerucutkan apresiasi itu pada momen “proses gol ketiga”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat (5) dan (6) merupakan rincian data yang dinyatakan pada kalimat (4) “Meski mencetak satu gol saat dua gol lain dilesakkan Julian Alvarez, Messi menunjukkan penampilan brilian.” dengan memberikan data tentang jumlah sentuhan bola dan umpan yang dilakukan Messi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kalimat (13) dan (14) bukanlah sebab-akibat, melainkan hubungan kelanjutan peristiwa/kronologis. Kalimat (14) menceritakan tindakan beruntun setelah Messi berhenti sejenak, yaitu mengecoh lawan dengan memutar badan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Analisis pernyataan: Pernyataan pertama Benar karena kalimat (2) memberi contoh aksi Messi yang menjadi dasar apresiasi pada kalimat (1). Pernyataan kedua Benar karena statistik sentuhan dan umpan pada kalimat (5)–(6) merinci kualitas penampilannya pada kalimat (4). Pernyataan ketiga Salah: berhenti, berputar, lalu mengecoh lawan merupakan rangkaian peristiwa; teks tidak menyatakan bahwa berhenti itu sendiri merupakan sebab langsung gerakan berikutnya."
+            }
+          ],
+          "label": "Hubungan dan Kelogisan Antarkalimat"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}
