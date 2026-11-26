@@ -59,7 +59,8 @@
           "blok": [
             {
               "jenis": "subjudul",
-              "teks": "Daerah Resapan Air dan Risiko Banjir Perkotaan"
+              "teks": "Daerah Resapan Air dan Risiko Banjir Perkotaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -98,8 +99,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 3"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 3**"
             },
             {
               "jenis": "paragraf",
@@ -192,7 +193,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Jawaban"
+              "teks": "Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

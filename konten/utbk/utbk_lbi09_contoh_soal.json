@@ -59,11 +59,13 @@
           "blok": [
             {
               "jenis": "subjudul",
-              "teks": "Transformasi Digital dan Perubahan Pola Konsumsi Informasi"
+              "teks": "Transformasi Digital dan Perubahan Pola Konsumsi Informasi",
+              "tingkat": 2
             },
             {
               "jenis": "subjudul",
-              "teks": "Paragraf A"
+              "teks": "Paragraf A",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -71,7 +73,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Paragraf B"
+              "teks": "Paragraf B",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -79,7 +82,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Paragraf C"
+              "teks": "Paragraf C",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -87,7 +91,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Paragraf D"
+              "teks": "Paragraf D",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -189,7 +194,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis opsi"
+              "teks": "Analisis opsi",
+              "tingkat": 2
             },
             {
               "jenis": "poin",
@@ -252,7 +258,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Jawaban"
+              "teks": "Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "poin",
@@ -264,7 +271,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan pertama — Benar"
+              "teks": "Pernyataan pertama — Benar",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -292,7 +300,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan kedua — Salah"
+              "teks": "Pernyataan kedua — Salah",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -320,7 +329,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan ketiga — Benar"
+              "teks": "Pernyataan ketiga — Benar",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

@@ -326,6 +326,10 @@
       {
         "judul": "Solusi valid dan solusi unik",
         "teks": ""
+      },
+      {
+        "judul": "Kesalahan Umum",
+        "teks": ""
       }
     ],
     "pesan": "Room Allocations mengukur kemampuan menggabungkan sejumlah aturan, membaca denah, dan membuat penempatan yang konsisten. Cara yang paling efisien adalah memahami unsur soal, mendahulukan unit berkendala ketat, mengeliminasi kandidat yang mustahil, lalu memeriksa seluruh batasan. Untuk tugas interaktif, ketelitian membaca lokasi sama pentingnya dengan logika penempatan. Ringkasan metode P–B–E–V: Pahami → Batasi → Eliminasi → Verifikasi. Jangan menambahkan kapasitas, aturan kedekatan, atau larangan baru yang tidak dinyatakan dalam stimulus."

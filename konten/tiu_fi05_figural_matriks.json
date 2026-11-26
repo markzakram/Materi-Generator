@@ -84,7 +84,9 @@
               "lebar": 8.7,
               "tinggi": 6.56
             }
-          ]
+          ],
+          "label": "Kotak 3x3",
+          "label_bahas": "The Next Box"
         },
         {
           "tipe": "contoh_soal",
@@ -162,7 +164,9 @@
               "lebar": 7.97,
               "tinggi": 6.04
             }
-          ]
+          ],
+          "label": "Kotak 3x3",
+          "label_bahas": "Kotak 3x3"
         },
         {
           "tipe": "contoh_soal",
@@ -188,7 +192,9 @@
               "lebar": 8.92,
               "tinggi": 6.72
             }
-          ]
+          ],
+          "label": "Kotak 3x3",
+          "label_bahas": "The Next Box"
         }
       ]
     }

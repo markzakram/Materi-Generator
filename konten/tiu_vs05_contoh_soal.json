@@ -102,7 +102,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1 (Premis 1 + 2)"
+              "teks": "Langkah 1 (Premis 1 + 2)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -122,7 +123,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2 (Premis 4 + 3)"
+              "teks": "Langkah 2 (Premis 4 + 3)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -141,8 +143,8 @@
               "teks": "Kesimpulan: $r$"
             },
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Danu menerima panduan praktik"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Danu menerima panduan praktik**"
             }
           ]
         },
@@ -190,7 +192,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1 (Premis 1 + 2)"
+              "teks": "Langkah 1 (Premis 1 + 2)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -210,7 +213,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2 (Premis 4 + 3)"
+              "teks": "Langkah 2 (Premis 4 + 3)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -229,8 +233,8 @@
               "teks": "Kesimpulan: $¬p$"
             },
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Pompa saluran barat tidak aktif"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Pompa saluran barat tidak aktif**"
             }
           ]
         },
@@ -282,7 +286,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1 (Premis 1 + 2)"
+              "teks": "Langkah 1 (Premis 1 + 2)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -302,7 +307,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2 (Premis 4 + 3)"
+              "teks": "Langkah 2 (Premis 4 + 3)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -329,8 +335,8 @@
               "teks": "Kesimpulan: $¬s→p$"
             },
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Dokumen R23 tanpa kode arsip berstatus ditandatangani"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Dokumen R23 tanpa kode arsip berstatus ditandatangani**"
             }
           ]
         }

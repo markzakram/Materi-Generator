@@ -203,8 +203,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Benar, Benar, Salah, Salah"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Benar, Salah, Salah**"
             },
             {
               "jenis": "paragraf",
@@ -319,7 +319,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -355,7 +356,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (1): Rata-rata kelima bilangan adalah 18."
+              "teks": "Pernyataan (1): Rata-rata kelima bilangan adalah 18.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -419,7 +421,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Gabungkan pernyataan (1) dan (2)."
+              "teks": "Gabungkan pernyataan (1) dan (2).",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -498,8 +501,8 @@
               "teks": "Jadi, kedua pernyataan harus digunakan bersama-sama."
             },
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: C."
+              "jenis": "paragraf",
+              "teks": "**Jawaban: C.**"
             },
             {
               "jenis": "catatan",
@@ -695,8 +698,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 14"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 14**"
             },
             {
               "jenis": "paragraf",

@@ -358,8 +358,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: (1) B; (2) B; (3) B; (4) B"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: (1) B; (2) B; (3) B; (4) B**"
             },
             {
               "jenis": "paragraf",
@@ -544,8 +544,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 75"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 75**"
             },
             {
               "jenis": "paragraf",
@@ -700,7 +700,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -760,7 +761,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (1): Rata-rata keempat bilangan adalah 14."
+              "teks": "Pernyataan (1): Rata-rata keempat bilangan adalah 14.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -828,7 +830,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (2): Selisih bilangan terbesar dan terkecil adalah 18."
+              "teks": "Pernyataan (2): Selisih bilangan terbesar dan terkecil adalah 18.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -864,7 +867,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Gabungkan pernyataan (1) dan (2)."
+              "teks": "Gabungkan pernyataan (1) dan (2).",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -1104,8 +1108,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Benar, Salah, Salah, Benar"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Salah, Benar**"
             },
             {
               "jenis": "paragraf",

@@ -146,8 +146,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 1 Salah; 2 Benar; 3 Salah; 4 Benar"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Salah; 2 Benar; 3 Salah; 4 Benar**"
             },
             {
               "jenis": "paragraf",
@@ -254,8 +254,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "sorot",
-              "teks": "Jawaban : kencang"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: kencang**"
             },
             {
               "jenis": "paragraf",
@@ -341,7 +341,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep yang dipakai"
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -349,7 +350,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Petunjuk dalam bacaan"
+              "teks": "Petunjuk dalam bacaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -357,7 +359,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Cara membaca soal"
+              "teks": "Cara membaca soal",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -375,7 +378,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Mengapa pilihan lain kurang tepat"
+              "teks": "Mengapa pilihan lain kurang tepat",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

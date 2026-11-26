@@ -70,12 +70,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Beni"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Beni**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -114,7 +115,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -126,7 +128,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Pilihan Jawaban"
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -233,8 +236,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Benar, Salah, Benar, Salah"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Salah**"
             },
             {
               "jenis": "paragraf",
@@ -278,7 +281,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (1) Benar."
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -290,7 +294,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (2) Salah."
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -302,7 +307,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (3) Benar."
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -314,7 +320,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (4) Salah."
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -361,7 +368,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -373,7 +381,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Pilihan Jawaban"
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -424,7 +433,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -436,7 +446,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Pilihan Jawaban"
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -508,8 +519,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: siva lenu"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: siva lenu**"
             },
             {
               "jenis": "paragraf",
@@ -644,8 +655,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Benar, Benar, Salah, Salah"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Benar, Salah, Salah**"
             },
             {
               "jenis": "paragraf",
@@ -701,7 +712,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (1) Benar."
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -709,7 +721,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (2) Benar."
+              "teks": "Pernyataan (2) Benar.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -717,7 +730,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (3) Salah."
+              "teks": "Pernyataan (3) Salah.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -725,7 +739,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan (4) Salah."
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

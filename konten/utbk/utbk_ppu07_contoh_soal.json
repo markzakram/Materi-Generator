@@ -89,7 +89,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -109,7 +110,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "“Messi menerobos kotak penalti sehingga pemain lawan tidak mampu mengejarnya.”"
+              "teks": "“Messi menerobos kotak penalti sehingga pemain lawan tidak mampu mengejarnya.”",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -174,8 +176,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah**"
             },
             {
               "jenis": "paragraf",
@@ -232,11 +234,13 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "subjudul",
-              "teks": "Sintaksis Kontekstual – Pola dan Struktur Kalimat"
+              "teks": "Sintaksis Kontekstual – Pola dan Struktur Kalimat",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -298,12 +302,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Sebelum"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Sebelum**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

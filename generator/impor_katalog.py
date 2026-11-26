@@ -53,6 +53,12 @@ def main(argv=None):
     if os.path.exists(path_pilihan):
         with open(path_pilihan, encoding="utf-8") as f:
             pilihan = json.load(f)["dokumen"]
+    # koreksi.json: koreksi tim QC yang belum ada di dokumen sumber (lihat koreksi() di ekstrak_gdoc.py)
+    path_koreksi = os.path.join(folder, "koreksi.json")
+    perbaikan = {}
+    if os.path.exists(path_koreksi):
+        with open(path_koreksi, encoding="utf-8") as f:
+            perbaikan = json.load(f)["dokumen"]
     # Entri "bagian": "soal" = baris 'Contoh Soal' di sheet yang soalnya ditulis di dokumen materi (doc_id sama).
     pasangan = {m["doc_id"]: m for m in katalog["materi"] if m.get("bagian") == "soal"}
     for m in katalog["materi"]:
@@ -69,6 +75,7 @@ def main(argv=None):
         aktif = indeks_peta.get(m.get("subtes"), indeks_peta.get(m["kelompok"], 0))
         elemen = E.baca_docx(path, miring=bool(m.get("miring")), penanda=m.get("penanda", ""), coret=bool(m.get("coret")),
                              rumus_gambar=m.get("rumus_gambar"), ganti_baris=katalog.get("kerangka") == "utbk")
+        elemen = E.koreksi(elemen, perbaikan.get(m["id"], []))
         if katalog.get("kerangka") == "utbk":
             elemen = R.rapikan(elemen)
         naskah = E.susun(elemen, folder, slug, url_dokumen(m["doc_id"]), aktif,

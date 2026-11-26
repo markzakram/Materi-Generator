@@ -89,19 +89,20 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 1. Tentukan apakah pertanyaan meminta inti satu kalimat atau gagasan inti paragraf."
+              "teks": "**Langkah 1.** Tentukan apakah pertanyaan meminta inti satu kalimat atau gagasan inti paragraf."
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 2. Untuk paragraf, beri label ide umum, contoh, sebab, dampak, dan penegas pada setiap kalimat."
+              "teks": "**Langkah 2.** Untuk paragraf, beri label ide umum, contoh, sebab, dampak, dan penegas pada setiap kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Untuk kalimat, tandai subjek dan predikat utama serta unsur wajib lainnya."
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 3. Untuk kalimat, tandai subjek dan predikat utama serta unsur wajib lainnya."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -164,19 +165,20 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 1. Pisahkan fakta pada setiap kalimat menjadi pelaku, tindakan, objek, lokasi, waktu, dan tingkat kepastian."
+              "teks": "**Langkah 1.** Pisahkan fakta pada setiap kalimat menjadi pelaku, tindakan, objek, lokasi, waktu, dan tingkat kepastian."
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 2. Identifikasi hubungan yang benar-benar dinyatakan: tambahan, waktu, alasan, akibat, atau pertentangan."
+              "teks": "**Langkah 2.** Identifikasi hubungan yang benar-benar dinyatakan: tambahan, waktu, alasan, akibat, atau pertentangan."
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 3. Periksa konjungsi setiap opsi; tolak yang mengubah fakta menjadi sebab pasti tanpa bukti."
+              "teks": "**Langkah 3.** Periksa konjungsi setiap opsi; tolak yang mengubah fakta menjadi sebab pasti tanpa bukti."
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -217,7 +219,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pilih satu kategori untuk setiap pernyataan."
+              "teks": "Pilih satu kategori untuk setiap pernyataan.",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -259,8 +262,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Benar."
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Benar.**"
             },
             {
               "jenis": "paragraf",
@@ -268,7 +271,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -334,20 +338,21 @@
               "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.4, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
             },
             {
-              "jenis": "subjudul",
-              "teks": "Langkah 1. Cari kalimat yang dapat berdiri sendiri sebagai pembuka."
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Cari kalimat yang dapat berdiri sendiri sebagai pembuka."
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 2. Tandai kata rujukan, penanda waktu, serta penanda sebab-akibat pada setiap kalimat."
+              "teks": "**Langkah 2.** Tandai kata rujukan, penanda waktu, serta penanda sebab-akibat pada setiap kalimat."
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 3. Bentuk pasangan yang wajib berdekatan: tindakan–upaya ini, sebab–akibat, definisi–contoh."
+              "teks": "**Langkah 3.** Bentuk pasangan yang wajib berdekatan: tindakan–upaya ini, sebab–akibat, definisi–contoh."
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -414,19 +419,20 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 1. Tentukan fungsi kalimat tambahan: perincian, contoh, alasan, transisi, atau akibat."
+              "teks": "**Langkah 1.** Tentukan fungsi kalimat tambahan: perincian, contoh, alasan, transisi, atau akibat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Temukan kata kunci atau rujukan yang harus muncul sebelum kalimat tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Uji setiap kemungkinan posisi dengan membaca kalimat sebelum dan sesudahnya."
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2. Temukan kata kunci atau rujukan yang harus muncul sebelum kalimat tambahan."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Langkah 3. Uji setiap kemungkinan posisi dengan membaca kalimat sebelum dan sesudahnya."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -474,12 +480,12 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 3"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 3**"
             },
             {
-              "jenis": "subjudul",
-              "teks": "Konsep: Menentukan posisi sisipan yang menjaga kesinambungan informasi dan acuan kata."
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menentukan posisi sisipan yang menjaga kesinambungan informasi dan acuan kata.**"
             },
             {
               "jenis": "paragraf",
@@ -542,19 +548,20 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 1. Tuliskan unsur inti kalimat sumber: siapa, melakukan apa, kepada apa, kapan, di mana, untuk apa."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Langkah 2. Tandai negasi, kata modal, dan urutan tahap bila ada."
+              "teks": "**Langkah 1.** Tuliskan unsur inti kalimat sumber: siapa, melakukan apa, kepada apa, kapan, di mana, untuk apa."
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 3. Bandingkan alternatif dari segi aktor, waktu, tempat, derajat kepastian, dan makna."
+              "teks": "**Langkah 2.** Tandai negasi, kata modal, dan urutan tahap bila ada."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Bandingkan alternatif dari segi aktor, waktu, tempat, derajat kepastian, dan makna."
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -637,24 +644,25 @@
           "kunci": "",
           "pembahasan": [
             {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar – Benar – Salah – Benar – Salah.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Pisahkan manfaat pupuk pada (1), pembatasan penggunaan pada (2), dan rekomendasi pada (3)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Nilai setiap pernyataan dalam tabel berdasarkan informasi dan hubungan antarkalimat pada paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Pernyataan 1, 2, 4 benar karena sesuai dengan fungsi serta hubungan antarkalimat dalam paragraf. Pernyataan (3) dan (5) salah karena tidak sesuai dengan informasi yang disampaikan."
+            },
+            {
               "jenis": "subjudul",
-              "teks": "Jawaban: Benar – Benar – Salah – Benar – Salah."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Langkah 1. Pisahkan manfaat pupuk pada (1), pembatasan penggunaan pada (2), dan rekomendasi pada (3)."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Langkah 2. Nilai setiap pernyataan dalam tabel berdasarkan informasi dan hubungan antarkalimat pada paragraf."
-            },
-            {
-              "jenis": "paragraf",
-              "teks": "Langkah 3. Pernyataan 1, 2, 4 benar karena sesuai dengan fungsi serta hubungan antarkalimat dalam paragraf. Pernyataan (3) dan (5) salah karena tidak sesuai dengan informasi yang disampaikan."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Analisis Pernyataan"
+              "teks": "Analisis Pernyataan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -720,20 +728,21 @@
               "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.8, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
             },
             {
-              "jenis": "subjudul",
-              "teks": "Langkah 1. Tandai kata ganti atau frasa rujukan yang ditanyakan."
-            },
-            {
-              "jenis": "subjudul",
-              "teks": "Langkah 2. Daftar kandidat anteseden pada kalimat sebelumnya."
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tandai kata ganti atau frasa rujukan yang ditanyakan."
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 3. Saring berdasarkan jumlah, jenis entitas, peran tindakan, dan kelanjutan konteks."
+              "teks": "**Langkah 2.** Daftar kandidat anteseden pada kalimat sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Saring berdasarkan jumlah, jenis entitas, peran tindakan, dan kelanjutan konteks."
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

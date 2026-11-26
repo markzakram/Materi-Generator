@@ -127,12 +127,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: mengusulkan"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: mengusulkan**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep yang dipakai"
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -140,7 +141,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Petunjuk dalam bacaan"
+              "teks": "Petunjuk dalam bacaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -148,7 +150,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Cara membaca soal"
+              "teks": "Cara membaca soal",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -282,8 +285,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 1 Benar; 2 Benar; 3 Salah"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Benar; 3 Salah**"
             },
             {
               "jenis": "paragraf",

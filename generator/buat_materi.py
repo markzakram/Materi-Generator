@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -333,77 +334,218 @@ class Pembangun:
         self.cek_batas(y - celah, "Tujuan")
 
     def materi(self):
+        self._siapkan_tingkat()
         for i, sub in enumerate(self.k["materi"]):
             for j, sl in enumerate(sub["slide"]):
                 self.sumber = f"materi.{i}.slide.{j}"
                 if sl["tipe"] == "blok":
-                    self._slide_blok(sub, sl)
+                    if j and sub["slide"][j - 1]["tipe"] == "blok":
+                        continue  # sudah ikut slide 'blok' pertama di kelompoknya
+                    kumpulan = []
+                    for k in range(j, len(sub["slide"])):
+                        if sub["slide"][k]["tipe"] != "blok":
+                            break
+                        kumpulan.append((f"materi.{i}.slide.{k}", sub["slide"][k]))
+                    self._slide_blok(sub, kumpulan)
                 elif sl["tipe"] == "contoh_soal":
                     self._contoh_soal(sub, sl)
                 else:
                     self._slide_materi(sub, sl)
 
-    def _tata_blok(self, buat_slide, blok, gaya=None, nama="Blok", judul_dari_subjudul=False):
-        """Tata blok berurutan; buat_slide(lanjutan, judul) -> (slide, y). Slide baru dibuat bila penuh.
+    # ---- tata letak blok -------------------------------------------------
+    Y_ISI = D.Y_CHIP + D.H_CHIP + 0.42
 
-        Jika judul_dari_subjudul, halaman baru yang dimulai tepat di subjudul memakai subjudul itu
-        sebagai judul slide; halaman lanjutan lain memakai judul subjudul terakhir (tanpa kata "lanjutan").
-        """
-        s, y = buat_slide(False, None)
-        kosong = True
+    def _siapkan_tingkat(self):
+        """Paragraf tebal (tingkat 2) dinaikkan menjadi subjudul biasa bila deck tidak punya subjudul lain,
+        supaya ukuran subjudul seragam di seluruh deck."""
+        ada = any(b["jenis"] == "subjudul" and b.get("tingkat", 1) == 1 for sub in self.k["materi"] for sl in sub["slide"]
+                  if sl["tipe"] == "blok" for b in sl["blok"])
+        self.tingkat_tebal = 2 if ada else 1
+
+    def _tingkat(self, b):
+        t = b.get("tingkat", 1)
+        return self.tingkat_tebal if t == 2 else t
+
+    def _celah(self, a, b, jarak):
+        """Jarak tegak antara dua blok berurutan di satu halaman."""
+        if a is None:
+            return 0.0
+        if b["jenis"] == "subjudul":
+            return jarak + (0.04 if a["jenis"] == "subjudul" else {0: 0.2, 1: 0.14, 2: 0.06}[b.get("tingkat", 1)])
+        if a["jenis"] == "subjudul":
+            return 0.12 if b["jenis"] in D.TEKS_ALIR else 0.16
+        return jarak
+
+    def _rencana(self, blok, y0, batas, gaya, jarak, ulang=True):
+        """Bagi blok ke halaman -> [[blok, ...], ...]; tiap blok diberi '_h' (tinggi). Di halaman sambungan, judul yang
+        isinya masih berlanjut diulang dengan ukuran yang sama ('ulang')."""
         w = D.LEBAR_ISI
-        jarak = 0.1 if (gaya or "").startswith("soal") else D.JARAK_BLOK
-        subjudul_akhir = None
-        blok = list(blok)
-        i = 0
-        while i < len(blok):
-            b = blok[i]
-            sisa = D.BATAS_BAWAH - y
+        antre, halaman, kini, y, aktif, i = list(blok), [], [], y0, {}, 0
+        while i < len(antre):
+            b = antre[i]
+            celah = self._celah(kini[-1] if kini else None, b, jarak)
+            sisa = batas - y - celah
+            kosong = all(x.get("ulang") for x in kini)
             h = D.tinggi_blok(b, w, self.folder, gaya, sisa)
-            pindah_dulu = False
-            pecah = BISA_DIPECAH.get(b["jenis"])
+            pindah, pecah = False, BISA_DIPECAH.get(b["jenis"])
             if pecah and h > sisa and len(b[pecah[0]]) > pecah[1]:
-                # Blok lebih tinggi dari sisa halaman: pecah (tabel per baris dengan header diulang,
-                # daftar per butir, kartu profil per baris kartu); sisanya ke halaman berikut.
+                # Blok lebih tinggi dari sisa halaman: pecah (tabel per baris dengan header diulang, daftar per
+                # butir, kartu profil per baris kartu); sisanya ke halaman berikut.
                 kunci, langkah, minimal = pecah
-                k = self._bagian_muat(b, kunci, langkah, w, sisa)
+                k = self._bagian_muat(b, kunci, langkah, w, sisa, gaya)
+                if len(b[kunci]) - k == 1 and b["jenis"] != "profil":  # satu baris/butir tidak ditinggal sendirian
+                    k = max(k - (2 if b["jenis"] == "tabel" else 1), min(k, 3))
                 if k >= (langkah if kosong else minimal):
-                    blok[i:i + 1] = [dict(b, **{kunci: b[kunci][:k]}), dict(b, **{kunci: b[kunci][k:]})]
-                    b = blok[i]
+                    antre[i:i + 1] = [dict(b, **{kunci: b[kunci][:k]}), dict(b, **{kunci: b[kunci][k:]})]
+                    b = antre[i]
                     h = D.tinggi_blok(b, w, self.folder, gaya, sisa)
                 elif not kosong:
-                    pindah_dulu = True  # pecah lagi di halaman baru yang lebih lapang
+                    pindah = True  # pecah lagi di halaman baru yang lebih lapang
             if b["jenis"] == "gambar":
                 muat = D.skala_min_gambar(b, w) <= sisa or kosong
             else:
-                muat = (h <= sisa or kosong) and not pindah_dulu
-                if muat and b["jenis"] == "subjudul" and i + 1 < len(blok) and not kosong:
-                    # subjudul tidak boleh tertinggal sendirian di bawah halaman
-                    muat = 0.1 + self._tinggi_perlu(blok, i, w, gaya, jarak) <= sisa
+                muat = (h <= sisa or kosong) and not pindah
+            if muat and self._pembuka(b) and i + 1 < len(antre) and not kosong:
+                muat = self._tinggi_perlu(antre, i, w, gaya, jarak) <= sisa  # judul tidak tertinggal di dasar halaman
             if not muat:
-                self.cek_batas(y - jarak, nama)
-                if judul_dari_subjudul and b["jenis"] == "subjudul":
-                    s, y = buat_slide(True, b["teks"])
-                    self.catat_tambahan(s, b.get("tambahan"))
-                    subjudul_akhir = b["teks"]
-                    kosong = True
-                    i += 1
-                    continue
-                s, y = buat_slide(True, subjudul_akhir)
-                kosong = True
-                if pindah_dulu:
-                    continue  # ukur ulang blok ini di halaman baru
-                sisa = D.BATAS_BAWAH - y
+                halaman.append(kini)
+                kini, y = [], y0
+                for u in self._judul_ulang(aktif, b) if ulang else ():
+                    c = self._celah(kini[-1] if kini else None, u, jarak)
+                    u = dict(u, ulang=True, _h=D.tinggi_blok(u, w, self.folder, gaya))
+                    u.pop("tambahan", None)
+                    kini.append(u)
+                    y += c + u["_h"]
+                continue  # ukur ulang blok ini di halaman baru
+            kini.append(dict(b, _h=h))
+            y += celah + h
             if b["jenis"] == "subjudul":
-                subjudul_akhir = b["teks"]
-                if not kosong:
-                    y += 0.1
-            y = D.gambar_blok(s, b, D.KIRI, y, w, self.folder, gaya, sisa) + jarak
-            self.catat_tambahan(s, b.get("tambahan"))
-            kosong = False
+                t = b.get("tingkat", 1)
+                aktif = {k: v for k, v in aktif.items() if k < t}
+                aktif[t] = b
             i += 1
-        y -= jarak
-        self.cek_batas(y, nama)
+        halaman.append(kini)
+        return halaman
+
+    @staticmethod
+    def _nomor(b):
+        """Nomor butir paragraf ('4. …' -> 4, 'B. …' -> 2), atau None."""
+        m = re.match(r"^\(?(\d{1,2}|[A-Ea-e])[.)]\s", D.polos(b["teks"]).strip()) if b["jenis"] == "paragraf" else None
+        return None if not m else int(m.group(1)) if m.group(1).isdigit() else ord(m.group(1).upper()) - 64
+
+    def _yatim(self, halaman):
+        """Jumlah batas halaman yang meninggalkan satu butir daftar bernomor sendirian."""
+        n = 0
+        for a, b in zip(halaman, halaman[1:]):
+            b = [x for x in b if not x.get("ulang")]
+            akhir, awal = (self._nomor(a[-1]), self._nomor(b[0])) if a and b else (None, None)
+            if akhir and awal == akhir + 1:
+                sisa1 = len(b) < 2 or self._nomor(b[1]) != awal + 1
+                awal1 = len(a) < 2 or self._nomor(a[-2]) != akhir - 1
+                n += sisa1 + awal1
+        return n
+
+    @staticmethod
+    def _pembuka(b):
+        """Judul, atau kalimat pengantar ('Contohnya:', 'Perhatikan kalimat berikut.'): harus sehalaman dengan isinya."""
+        if b["jenis"] != "paragraf":
+            return b["jenis"] == "subjudul"
+        isi = D.polos(b["teks"]).strip()
+        return len(isi) <= 110 and (isi.endswith(":") or bool(re.search(r"\b(berikut|berikut ini|di bawah ini)\.$", isi)))
+
+    @staticmethod
+    def _judul_ulang(aktif, b):
+        """Judul yang diulang di puncak halaman sambungan: judul bagian, lalu subjudul terdekat bila isinya masih berlanjut."""
+        t = b.get("tingkat", 1) if b["jenis"] == "subjudul" else 9
+        hasil = [aktif[0]] if 0 in aktif and t > 0 else []
+        dalam = [k for k in aktif if k > 0]
+        if t == 9 and dalam:
+            hasil.append(aktif[max(dalam)])
+        return hasil
+
+    def _tinggi_isi(self, hal, jarak):
+        return sum(b["_h"] + self._celah(a, b, jarak) for a, b in zip([None] + hal[:-1], hal))
+
+    def _halaman(self, blok, y0, gaya, jarak, ulang, rapikan):
+        """(halaman, gaya, jarak): pembagian halaman yang rapat, seimbang, dan tidak menyisakan halaman nyaris kosong."""
+        B = D.BATAS_BAWAH
+        ruang = B - y0
+        hal = self._rencana(blok, y0, B, gaya, jarak, ulang)
+        if not rapikan:
+            return hal, gaya, jarak
+        potong = lambda r: sum(not b.get("ulang") for h in r for b in h)  # noqa: E731
+        gbr = lambda r: [b["_h"] for h in r for b in h if b["jenis"] == "gambar"]  # noqa: E731
+        if len(hal) > 1:  # halaman terakhir nyaris kosong: rapatkan jarak atau kecilkan gambar supaya hemat satu halaman
+            sisa = self._tinggi_isi(hal[-1], jarak) / ruang
+            coba2 = [(1, r) for r in (0.8, 0.6, 0.45)] if sisa < 0.25 else []
+            if gbr(hal) and sisa < 0.36:
+                coba2 += [(s, r) for r in (0.8, 0.6) for s in (0.85, 0.75, 0.65)]
+            for skala, r in coba2:
+                isi = [dict(b, lebar=b.get("lebar", 4) * skala, tinggi=b.get("tinggi", 3) * skala)
+                       if b["jenis"] == "gambar" and b.get("lebar", 4) * skala >= 2.1 else b for b in blok]
+                coba = self._rencana(isi, y0, B, gaya, jarak * r, ulang)
+                if len(coba) < len(hal):
+                    blok, hal, jarak = isi, coba, jarak * r
+                    break
+        if len(hal) > 1:
+            # bagi rata: batas halaman terendah yang jumlah halamannya tetap. Daftar bernomor yang menyisakan satu
+            # butir di halaman lain dihindari, bila perlu dengan merapatkan jarak sedikit.
+            terbaik = (self._yatim(hal), hal, jarak)
+            for r in (1, 0.85, 0.7, 0.55):
+                rapat = []
+                for k in range(10, 21):
+                    coba = self._rencana(blok, y0, y0 + ruang * k / 20, gaya, jarak * r, ulang)
+                    if len(coba) == len(hal) and potong(coba) <= potong(hal) and all(
+                            a >= 0.97 * b for a, b in zip(gbr(coba), gbr(hal))) and all(
+                            self._tinggi_isi(h, jarak * r) <= ruang + 0.01 for h in coba):
+                        rapat.append((self._yatim(coba), coba, jarak * r))
+                if rapat:
+                    pilih = min(rapat, key=lambda x: x[0])
+                    if pilih[0] < terbaik[0] or r == 1 and pilih[0] == terbaik[0]:
+                        terbaik = pilih
+                if not terbaik[0]:
+                    break
+            _, hal, jarak = terbaik
+        elif gaya is None and self._tinggi_isi(hal[0], jarak) < 0.5 * ruang:
+            # isi sedikit: gambar diperbesar dan spasi dilonggarkan (ukuran huruf tetap)
+            for skala in (1.4, 1.25, 1.0):
+                besar = [dict(b, lebar=b.get("lebar", 4) * skala, tinggi=b.get("tinggi", 3) * skala) if b["jenis"] == "gambar" else b
+                         for b in blok]
+                coba = self._rencana(besar, y0, B, "lega", jarak * 1.5, ulang)
+                if len(coba) == 1 and self._tinggi_isi(coba[0], jarak * 1.5) <= 0.85 * ruang:
+                    return coba, "lega", jarak * 1.5
+        return hal, gaya, jarak
+
+    def _tata_blok(self, buat_slide, blok, gaya=None, nama="Blok", ulang=False, rapikan=True, y0=None):
+        """Tata blok berurutan; buat_slide(lanjutan, sumber) -> (slide, y). Slide baru dibuat bila penuh.
+
+        Paragraf, subjudul, dan butir yang berurutan menjadi satu kotak teks sehingga jarak antarparagrafnya seragam
+        dan mudah disunting. ulang: judul yang isinya berlanjut diulang di halaman sambungan.
+        """
+        w = D.LEBAR_ISI
+        y0 = self.Y_ISI if y0 is None else y0
+        jarak = 0.12 if (gaya or "").startswith("soal") else D.JARAK_BLOK
+        blok = [dict(b, tingkat=self._tingkat(b)) if b["jenis"] == "subjudul" else dict(b) for b in blok]
+        halaman, gaya, jarak = self._halaman(blok, y0, gaya, jarak, ulang, rapikan)
+        for n, hal in enumerate(halaman):
+            s, y = buat_slide(n > 0, next((b["_sumber"] for b in hal if b.get("_sumber")), None))
+            i = 0
+            while i < len(hal):
+                b = hal[i]
+                y += self._celah(hal[i - 1] if i else None, b, jarak)
+                if b["jenis"] in D.TEKS_ALIR:
+                    isi = []
+                    while i < len(hal) and hal[i]["jenis"] in D.TEKS_ALIR:
+                        lanjut = i + 1 < len(hal) and hal[i + 1]["jenis"] in D.TEKS_ALIR
+                        isi.append((hal[i], self._celah(hal[i], hal[i + 1], jarak) if lanjut else 0))
+                        self.catat_tambahan(s, hal[i].get("tambahan"))
+                        i += 1
+                    y = D.alir_teks(s, isi, D.KIRI, y, w, gaya)
+                    continue
+                y = D.gambar_blok(s, b, D.KIRI, y, w, self.folder, gaya, D.BATAS_BAWAH - y)
+                self.catat_tambahan(s, b.get("tambahan"))
+                i += 1
+            self.cek_batas(y, nama)
         return s, y
 
     def _tinggi_perlu(self, blok, i, w, gaya, jarak):
@@ -416,26 +558,43 @@ class Pembangun:
         if pecah and len(b[pecah[0]]) > pecah[2]:
             b = dict(b, **{pecah[0]: b[pecah[0]][:pecah[2]]})
         h = D.tinggi_blok(b, w, self.folder, gaya)
-        if b["jenis"] == "subjudul" and i + 1 < len(blok):
-            h += jarak + self._tinggi_perlu(blok, i + 1, w, gaya, jarak)
+        if i + 1 < len(blok) and (b["jenis"] == "subjudul" or self._pembuka(b) and blok[i + 1]["jenis"] != "subjudul"):
+            perlu = self._tinggi_perlu(blok, i + 1, w, gaya, jarak)
+            h += self._celah(b, blok[i + 1], jarak) + perlu
+            if perlu < 0.5 and blok[i + 1]["jenis"] == "paragraf" and i + 2 < len(blok) and blok[i + 2]["jenis"] == "paragraf":
+                h += jarak + self._tinggi_perlu(blok, i + 2, w, gaya, jarak)  # tidak ditinggal bersama satu butir pendek
         return h
 
-    def _bagian_muat(self, b, kunci, langkah, w, sisa):
+    def _bagian_muat(self, b, kunci, langkah, w, sisa, gaya=None):
         """Jumlah isi terbanyak (kelipatan langkah) dari b[kunci] yang muat dalam tinggi sisa."""
         n = len(b[kunci])
         for k in range((n - 1) // langkah * langkah, 0, -langkah):
-            if D.tinggi_blok(dict(b, **{kunci: b[kunci][:k]}), w, self.folder) <= sisa:
+            if D.tinggi_blok(dict(b, **{kunci: b[kunci][:k]}), w, self.folder, gaya) <= sisa:
                 return k
         return 0
 
-    def _slide_blok(self, sub, sl):
-        def buat(lanjutan, judul=None):
-            s = self.baru("Pendalaman Materi")
-            judul = judul or sl["judul"]
-            return s, D.kerangka_isi(s, sub["subbab"], sub.get("ikon", "checklist"), judul,
-                                     None if lanjutan else sl.get("pengantar"))
+    def _slide_blok(self, sub, kumpulan):
+        """Slide 'blok' berurutan dalam satu subbab mengalir bersama. Nama subbab ada di pita atas; judul slide yang
+        berbeda dari nama subbabnya menjadi judul bagian (tingkat 0) di dalam isi, jadi judul tidak tertulis dua kali."""
+        sama = lambda a, b: re.sub(r"\W+", "", D.polos(a)).lower() == re.sub(r"\W+", "", D.polos(b)).lower()  # noqa: E731
+        isi = []
+        for sumber, sl in kumpulan:
+            blok = [dict(b) for b in sl["blok"]]
+            if blok and blok[0]["jenis"] == "subjudul" and sama(blok[0]["teks"], sl["judul"]):
+                blok.pop(0)
+            if sl.get("pengantar"):
+                blok.insert(0, {"jenis": "paragraf", "teks": sl["pengantar"]})
+            if not sama(sl["judul"], sub["subbab"]):
+                blok.insert(0, {"jenis": "subjudul", "tingkat": 0, "teks": sl["judul"]})
+            isi += [dict(b, _sumber=sumber) for b in blok]
 
-        self._tata_blok(buat, sl["blok"], nama=sl["judul"], judul_dari_subjudul=True)
+        def buat(lanjutan, sumber=None):
+            self.sumber = sumber or self.sumber
+            s = self.baru("Pendalaman Materi")
+            D.chip(s, sub["subbab"], sub.get("ikon", "checklist"))
+            return s, self.Y_ISI
+
+        self._tata_blok(buat, isi, nama=sub["subbab"], ulang=True)
 
     def _contoh_soal(self, sub, sl):
         """Slide soal (stem + opsi) lalu slide pembahasan; tombol menautkan keduanya."""
@@ -454,7 +613,7 @@ class Pembangun:
                     _, w = D.pil(s, x, D.Y_CHIP + (D.H_CHIP - 0.46) / 2, t, ukuran=ukuran)
                     x += w + 0.15
             soal_slide.append(s)
-            return s, D.Y_CHIP + D.H_CHIP + 0.45
+            return s, self.Y_ISI
 
         opsi = sl.get("opsi") or {}
         gaya, u_opsi = "soal", 18
@@ -465,7 +624,7 @@ class Pembangun:
                 if h <= D.BATAS_BAWAH:
                     gaya, u_opsi = f"soal:{u}", min(18, u)
                     break
-        s, y = self._tata_blok(kepala_soal, sl.get("soal", []), gaya=gaya, nama=judul)
+        s, y = self._tata_blok(kepala_soal, sl.get("soal", []), gaya=gaya, nama=judul, rapikan=False)
         if opsi:
             h = D.tinggi_opsi(opsi, ukuran=u_opsi)
             if y + 0.35 + h > D.BATAS_BAWAH and sl.get("soal"):
@@ -474,7 +633,8 @@ class Pembangun:
             y = D.gambar_opsi(s, y + 0.35, opsi, ukuran=u_opsi)
             self.cek_batas(y, judul)
         kunci = sl.get("kunci", "")
-        blok = list(sl.get("pembahasan", []))
+        blok = [b for b in sl.get("pembahasan", [])  # 'Kunci jawaban: C' sudah tertulis di pil 'Jawaban C'
+                if not (kunci and b["jenis"] == "kunci" and re.fullmatch(rf"kunci(?: jawaban)?\s*:?\s*{kunci}\.?", D.polos(b["teks"]), re.I))]
         if kunci and opsi.get(kunci):
             blok.insert(0, {"jenis": "kunci", "teks": f"**Kunci {kunci}.** {opsi[kunci]}"})
         if blok:
@@ -488,8 +648,10 @@ class Pembangun:
                       ukuran=18, warna="kuning", warna_teks="di_kuning", h=0.56, nama="Jawaban")
             kembali = D.tombol(s, D.KIRI, 10.36, "‹ Kembali ke soal")
             kembali.click_action.target_slide = soal_slide[0]
+            for t in (x for x in (sl.get("label_bahas"),) if x):
+                D.pil(s, D.X_CHIP + w_chip + (2.6 if kunci else 0.25), D.Y_CHIP + (D.H_CHIP - 0.46) / 2, t, ukuran=13)
             bahas_slide.append(s)
-            return s, D.Y_CHIP + D.H_CHIP + 0.45
+            return s, self.Y_ISI
 
         if blok:
             self._tata_blok(kepala_bahas, blok, nama=f"Pembahasan {judul}")
@@ -497,7 +659,8 @@ class Pembangun:
 
     def _slide_materi(self, sub, sl):
         s = self.baru("Pendalaman Materi")
-        y = D.kerangka_isi(s, sub["subbab"], sub.get("ikon", "checklist"), sl["judul"], sl.get("pengantar"))
+        judul = None if D.polos(sl["judul"]).strip().lower() == D.polos(sub["subbab"]).strip().lower() else sl["judul"]
+        y = D.kerangka_isi(s, sub["subbab"], sub.get("ikon", "checklist"), judul, sl.get("pengantar"))
         tipe = sl["tipe"]
         if tipe == "tabel":
             y = D.tabel(s, y, sl["kolom"], sl["baris"], sl.get("lebar"), sl.get("ukuran", 20))

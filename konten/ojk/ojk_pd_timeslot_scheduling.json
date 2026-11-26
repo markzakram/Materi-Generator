@@ -40,7 +40,7 @@
     "pemantik": "",
     "ikon": "presenter",
     "gambar": "media/ojk_pd_timeslot_scheduling/gambar-01.png",
-    "keterangan": "Gambar 1. Contoh tampilan Timeslot Scheduling. Ilustrasi sumber menampilkan empat pelatihan, durasi, jadwal satu baris, dan keterangan 30 menit per sel. ****"
+    "keterangan": "Gambar 1. Contoh tampilan Timeslot Scheduling. Ilustrasi sumber menampilkan empat pelatihan, durasi, jadwal satu baris, dan keterangan 30 menit per sel."
   },
   "tujuan": {
     "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
@@ -146,7 +146,7 @@
               "file": "media/ojk_pd_timeslot_scheduling/gambar-02.png",
               "lebar": 6.06,
               "tinggi": 0.9,
-              "keterangan": "Gambar 2. Contoh garis waktu 18 kotak dan tenggat. Sel abu-abu tidak boleh digunakan. ****"
+              "keterangan": "Gambar 2. Contoh garis waktu 18 kotak dan tenggat. Sel abu-abu tidak boleh digunakan."
             },
             {
               "jenis": "tabel",
@@ -199,7 +199,7 @@
               "file": "media/ojk_pd_timeslot_scheduling/gambar-03.png",
               "lebar": 6.06,
               "tinggi": 1.35,
-              "keterangan": "Gambar 3. Durasi 30, 60, dan 90 menit direpresentasikan sebagai satu, dua, dan tiga kotak yang menempel. ****"
+              "keterangan": "Gambar 3. Durasi 30, 60, dan 90 menit direpresentasikan sebagai satu, dua, dan tiga kotak yang menempel."
             },
             {
               "jenis": "paragraf",
@@ -226,7 +226,7 @@
               "file": "media/ojk_pd_timeslot_scheduling/gambar-04.png",
               "lebar": 6.06,
               "tinggi": 1.16,
-              "keterangan": "Gambar 4. Kegiatan yang berdampingan tidak bertabrakan, sedangkan blok dengan irisan waktu tidak sah. ****"
+              "keterangan": "Gambar 4. Kegiatan yang berdampingan tidak bertabrakan, sedangkan blok dengan irisan waktu tidak sah."
             }
           ]
         }
@@ -692,6 +692,22 @@
       },
       {
         "judul": "Membaca tenggat “selesai paling lambat”",
+        "teks": ""
+      },
+      {
+        "judul": "Membedakan selesai paling akhir dan selesai selambat mungkin",
+        "teks": ""
+      },
+      {
+        "judul": "Menempatkan kegiatan yang paling terbatas lebih dahulu",
+        "teks": ""
+      },
+      {
+        "judul": "Memeriksa seluruh kegiatan, bukan hanya kegiatan target",
+        "teks": ""
+      },
+      {
+        "judul": "Mengenali jawaban unik dan soal yang bermasalah",
         "teks": ""
       }
     ],

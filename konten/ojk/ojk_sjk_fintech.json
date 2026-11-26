@@ -73,7 +73,8 @@
           "blok": [
             {
               "jenis": "subjudul",
-              "teks": "Siapa yang Mengatur Apa"
+              "teks": "Siapa yang Mengatur Apa",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -106,7 +107,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Istilah Dasar"
+              "teks": "Istilah Dasar",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",

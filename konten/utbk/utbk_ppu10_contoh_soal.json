@@ -89,7 +89,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -97,7 +98,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Petunjuk dalam data"
+              "teks": "Petunjuk dalam data",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -121,7 +123,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -161,7 +164,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Tentukan Benar atau Salah untuk setiap pernyataan."
+              "teks": "Tentukan Benar atau Salah untuk setiap pernyataan.",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -203,12 +207,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah."
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah.**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -216,7 +221,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis Jawaban"
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -288,12 +294,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 3"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 3**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep"
+              "teks": "Konsep",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

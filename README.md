@@ -107,6 +107,10 @@ Yang ditandai dikonversi apa adanya: paragraf, subjudul, daftar, tabel (termasuk
 
 Catatan: tautan "05 Logika Pernyataan" di sheet (baris 39) kurang satu huruf sehingga tidak bisa dibuka; katalog memakai ID yang benar.
 
+### Koreksi QC (`koreksi.json`)
+
+Koreksi tim QC yang belum ada di dokumen sumber ditulis di `konten/koreksi.json` / `konten/ojk/koreksi.json` / `konten/utbk/koreksi.json` per ID materi, dan diterapkan setiap kali impor (`koreksi()` di `generator/ekstrak_gdoc.py`): `{"cari": "√(3/2)", "ganti": "√3/2", "asal": "QC …"}` untuk teks dan sel tabel, atau `{"hapus_gambar_di": "judul subbab"}`. Bila dokumennya sudah diperbaiki, importer menampilkan "PERINGATAN koreksi tidak ditemukan"; hapus butirnya.
+
 ### Figural (PDF)
 
 Dokumen Figural di sheet (baris 76–82) berupa PDF hasil ekspor Canva, bukan Google Docs. Entrinya di katalog punya `"url"` (tautan Drive) dan `"otomatis": false`, dan naskahnya dibuat skrip tersendiri (butuh PyMuPDF dan Pillow):
@@ -149,7 +153,7 @@ Penanda wajib tiap kelompok berbeda:
 
 - **PU dan Bilangan dan Aritmetika**: teks merah (`"penanda": "merah"`).
 - **PPU, PBM, dan PK-PM lainnya**: highlight kuning dan label `[WAJIB PPT]`; label `[semua contoh soal wajib ada di PPT]` memasukkan semua soal.
-- **LBI dan LBE**: latar hijau muda (`"penanda": "hijau"`); tidak ada keterangan arti warnanya di dokumen. LBE memberi label "(SEMUA SOAL HARUS ADA DI PPT)". Soal LBI tidak ditandai sama sekali; soalnya tetap dimasukkan dan dicatat sebagai tambahan ("contoh soal tanpa tanda").
+- **LBI dan LBE**: latar hijau muda (`"penanda": "hijau"`); tidak ada keterangan arti warnanya di dokumen. LBE memberi label "(SEMUA SOAL HARUS ADA DI PPT)". Catatan `[WAJIB PPT]` di sela contoh soal ikut deck contoh soal di letaknya. Soal LBI tidak ditandai sama sekali; soalnya tetap dimasukkan dan dicatat sebagai tambahan ("contoh soal tanpa tanda").
 
 Tujuan pembelajaran atau penutup yang sama sekali tidak ditandai diisi dari dokumennya dan dicatat sebagai tambahan (`isi_bagian_kosong`). Rumus PK-PM yang di dokumen berupa gambar satu baris (16 px) diketik ulang di `"rumus_gambar"` katalog (nama berkas gambar → rumus), karena gambarnya buram di slide; bila gambar di dokumen diganti, sesuaikan pemetaannya. Gambar lain diperbesar 1,5 kali dari ukuran dokumennya.
 
@@ -215,8 +219,19 @@ Catatan:
 Tipe slide materi (`tipe`):
 
 - Tata letak khusus: `tabel`, `tabel_kebenaran`, `banding`, `notasi`, `kartu`, `alur`, `langkah`, `teks_ikon`. Setiap slide boleh punya `catatan` dengan `jenis` `peringatan` atau `tips`. Contoh lengkap ada di `konten/tiu_penalaran_logis.json` dan `konten/tiu_verbal_analogi.json`.
-- `blok`: isi umum hasil konversi dokumen, berupa daftar `blok[]` dengan `jenis` `paragraf`, `subjudul`, `sorot`, `poin`, `gambar`, `tabel`, atau `catatan`. Bila slide penuh, generator membuat slide sambungan berjudul sama, tanpa kata "(lanjutan)"; slide yang dimulai tepat di subjudul memakai subjudul itu sebagai judul.
+- `blok`: isi umum hasil konversi dokumen, berupa daftar `blok[]` dengan `jenis` `paragraf`, `subjudul`, `sorot`, `poin`, `gambar`, `tabel`, atau `catatan`. `subjudul` boleh punya `tingkat` (1 = Heading di dokumen, 2 = paragraf tebal). Slide `blok` yang berurutan dalam satu subbab mengalir bersama; lihat "Aturan tata letak slide blok".
 - `contoh_soal`: `judul`, `label` (opsional), `soal[]` (blok), `opsi` (`A`–`E`), `kunci`, `pembahasan[]` (blok). Menghasilkan slide soal dan slide pembahasan yang saling bertaut. Opsi yang semuanya pendek disusun mendatar.
+
+### Aturan tata letak slide blok
+
+Dipakai di semua deck (`_slide_blok`, `_rencana`, dan `_halaman` di `generator/buat_materi.py`; `GAYA_JUDUL` dan `alir_teks` di `generator/desain.py`):
+
+- **Ukuran huruf mengikuti tingkat judul di dokumen, bukan letaknya di slide.** Nama subbab di pita atas; judul bagian (tingkat 0) 26 pt; subjudul tingkat 1 22 pt; subjudul tingkat 2 dan isi 20 pt. Subjudul yang setingkat di dokumen selalu sama besar, walau jatuh di awal slide. Deck yang tidak punya tingkat 1 menaikkan semua tingkat 2 menjadi tingkat 1.
+- **Judul tidak ditulis dua kali.** Judul slide yang sama dengan nama subbab hanya tampil di pita. Di halaman sambungan, judul yang isinya masih berlanjut diulang dengan ukuran yang sama, tanpa kata "(lanjutan)".
+- **Yang menjadi judul** hanya judul. Kalimat langkah ("Langkah 2. Uji frasa …."), "Jawaban: 36", "Konsep: …", dan baris bagan ("↓ …", "… | …") adalah isi.
+- **Rata kanan-kiri dan jarak seragam.** Paragraf, subjudul, dan butir yang berurutan berada di satu kotak teks, jadi jarak antarparagrafnya sama dan mudah disunting di PowerPoint.
+- **Halaman tidak bolong.** Isi dibagi rata antarhalaman; halaman terakhir yang nyaris kosong dihapus dengan merapatkan jarak atau mengecilkan gambar (paling kecil 65%); halaman tunggal yang isinya sedikit dilonggarkan. Judul dan kalimat pengantar ("Contohnya:") selalu sehalaman dengan isinya, dan tabel atau daftar tidak menyisakan satu baris sendirian.
+- **Tujuan pembelajaran** satu ukuran huruf untuk semua butir; lebih dari 9 butir dibagi ke dua slide. Penutup memuat paling banyak 10 judul subbab.
 
 Markup teks: `**tebal**` dan `$p → q$` untuk simbol/rumus (ditulis dengan Cambria Math karena Poppins tidak punya glyph logika). Di dalam `$…$`, `^{…}` menjadi superskrip dan `_{…}` subskrip, mis. `$x^{2}$` dan `$U_{n}$`; pecahan ditulis mendatar (`3/4`).
 

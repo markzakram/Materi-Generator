@@ -59,7 +59,8 @@
           "blok": [
             {
               "jenis": "subjudul",
-              "teks": "Paragraf A"
+              "teks": "Paragraf A",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -67,7 +68,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Paragraf B"
+              "teks": "Paragraf B",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -75,7 +77,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Paragraf C"
+              "teks": "Paragraf C",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -83,7 +86,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Paragraf D"
+              "teks": "Paragraf D",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -177,7 +181,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis opsi"
+              "teks": "Analisis opsi",
+              "tingkat": 2
             },
             {
               "jenis": "poin",
@@ -240,7 +245,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Jawaban"
+              "teks": "Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "poin",
@@ -252,7 +258,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan pertama — Salah"
+              "teks": "Pernyataan pertama — Salah",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -272,7 +279,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan kedua — Benar"
+              "teks": "Pernyataan kedua — Benar",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -292,7 +300,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan ketiga — Salah"
+              "teks": "Pernyataan ketiga — Salah",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

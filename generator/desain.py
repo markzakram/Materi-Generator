@@ -297,7 +297,8 @@ def ukuran_run(ukuran, rumus, campur):
 
 def jumlah_baris(segs, ukuran: float, lebar_in: float) -> int:
     """Simulasi pindah baris ala PowerPoint (greedy, putus di spasi)."""
-    batas = lebar_in * 72 * 0.965
+    # kalibrasi terhadap PowerPoint (436 paragraf): kotak lebar nyaris tanpa cadangan, sel sempit tetap diberi cadangan
+    batas = lebar_in * 72 * (0.99 if lebar_in >= 6 else 0.965)
     campur = campuran(segs)
     kata, kini = [], []
     for teks, b, r, _ in segs:
@@ -344,12 +345,15 @@ def lebar_segs(segs, ukuran):
 
 
 # --------------------------------------------------------- paragraf ---
+INDEN_BUTIR = 0.45
+
+
 class P:
-    """Spesifikasi satu paragraf teks kaya."""
+    """Spesifikasi satu paragraf teks kaya. butir: diberi butir kuning dan inden menggantung."""
 
     def __init__(self, teks, ukuran=20, warna="teks", tebal=False, rumus=False,
-                 rata="l", spasi=1.3, setelah=0, segs=None, gradien=None):
-        self.ukuran, self.warna, self.rata = ukuran, warna, rata
+                 rata="l", spasi=1.3, setelah=0, segs=None, gradien=None, butir=False):
+        self.ukuran, self.warna, self.rata, self.butir = ukuran, warna, rata, butir
         self.spasi, self.setelah, self.gradien = spasi, setelah, gradien
         if segs is not None:
             self.segs = segs
@@ -359,6 +363,7 @@ class P:
             self.segs = segmen(teks, tebal=tebal)
 
     def tinggi_pt(self, lebar_in):
+        lebar_in -= INDEN_BUTIR if self.butir else 0
         return jumlah_baris(self.segs, self.ukuran, lebar_in) * self.ukuran * self.spasi
 
 
@@ -403,6 +408,21 @@ def _gradfill_xml(stops, sudut=45):
     )
 
 
+def _butir_paragraf(p):
+    """Butir bulat kuning dengan inden menggantung (butir asli PowerPoint, jadi ikut bila teksnya disunting)."""
+    pPr = p._p.get_or_add_pPr()
+    pPr.set("marL", str(int(INDEN_BUTIR * 914400)))
+    pPr.set("indent", str(-int((INDEN_BUTIR - 0.06) * 914400)))
+    for x in (f'<a:buClr xmlns:a="{_NS_A}"><a:srgbClr val="{_hex("kuning")}"/></a:buClr>',
+              f'<a:buSzPct xmlns:a="{_NS_A}" val="125000"/>',
+              f'<a:buFont xmlns:a="{_NS_A}" typeface="Arial"/>',
+              f'<a:buChar xmlns:a="{_NS_A}" char="●"/>'):
+        pPr.append(etree.fromstring(x))
+
+
+_NS_A = "http://schemas.openxmlformats.org/drawingml/2006/main"
+
+
 def isi_teks(tf, paragraf, inset=(0, 0, 0, 0), jangkar="t"):
     tf.word_wrap = True
     tf.auto_size = MSO_AUTO_SIZE.NONE
@@ -416,6 +436,8 @@ def isi_teks(tf, paragraf, inset=(0, 0, 0, 0), jangkar="t"):
         p.line_spacing = Pt(round(spec.ukuran * spec.spasi, 1))
         p.space_before = Pt(0)
         p.space_after = Pt(spec.setelah if i < len(paragraf) - 1 else 0)
+        if spec.butir:
+            _butir_paragraf(p)
         campur = campuran(spec.segs)
         rata_gradien = _warna_rata(spec.gradien) if spec.gradien else None
         for teks, tebal, rumus, warna in spec.segs:
@@ -722,8 +744,8 @@ SIMBOL_CATATAN = {"peringatan": "!", "tips": "i", "pemantik": "?", "info": "i"}
 def _par_catatan(isi, judul_catatan, ukuran):
     par = []
     if judul_catatan:
-        par.append(P(judul_catatan, 16, "navy", tebal=True, spasi=1.2, setelah=4))
-    par.append(P(isi, ukuran, "navy", spasi=1.3))
+        par.append(P(judul_catatan, 20, "navy", tebal=True, spasi=1.2, setelah=4))
+    par.append(P(isi, ukuran, "navy", spasi=1.3, rata="j"))
     return par, (1.65, 0.28, 0.45, 0.28)
 
 
@@ -748,7 +770,7 @@ def _siapkan_tabel(kolom, baris, lebar, ukuran, w, tengah, sorot, kebenaran, tin
     n = len(kolom) if kolom else max(len(b) for b in baris)
     if not lebar:  # lebar kolom mengikuti panjang isi terpanjang
         semua = ([kolom] if kolom else []) + [list(b) + [""] * (n - len(b)) for b in baris]
-        panjang = [max(len(polos(r[j])) for r in semua) for j in range(n)]
+        panjang = [max(len(x) for r in semua for x in polos(r[j]).split("\n")) for j in range(n)]
         lebar = [min(42, max(6, p)) for p in panjang]
     rasio = lebar
     lebar_kol = [w * r / sum(rasio) for r in rasio]
@@ -784,12 +806,13 @@ def _siapkan_tabel(kolom, baris, lebar, ukuran, w, tengah, sorot, kebenaran, tin
                      rata="c", spasi=1.2)
         if rumus_saja:
             return P(isi, ukuran + 4, "navy", rata=rata, spasi=1.2)
-        return P(isi, ukuran, "navy", rata=rata, spasi=1.25)
+        return P(isi, ukuran, "navy", rata=rata, spasi=1.25, setelah=3)
 
-    sel = ([[spes(k, header=True) for k in kolom]] if kolom else []) + [
-        [spes(v, r=i, c=j) for j, v in enumerate(list(b) + [""] * (n - len(b)))] for i, b in enumerate(baris)
+    sel = ([[[spes(k.replace("\n", " "), header=True)] for k in kolom]] if kolom else []) + [
+        [[spes(x, r=i, c=j) for x in v.split("\n")] for j, v in enumerate(list(b) + [""] * (n - len(b)))]
+        for i, b in enumerate(baris)
     ]
-    tinggi = [max(max(tinggi_paragraf([p], lw, inset) for p, lw in zip(row, lebar_kol)), tinggi_min)
+    tinggi = [max(max(tinggi_paragraf(p, lw, inset) for p, lw in zip(row, lebar_kol)), tinggi_min)
               for row in sel]
     return sel, lebar_kol, inset, tinggi
 
@@ -822,7 +845,7 @@ def tabel(slide, y, kolom, baris, lebar=None, ukuran=20, x=KIRI, w=LEBAR_ISI,
         for j, p in enumerate(row):
             c = tbl.cell(i, j)
             c.text_frame.text = ""
-            isi_teks(c.text_frame, [p], inset, "m")
+            isi_teks(c.text_frame, p, inset, "m")
             c.margin_left, c.margin_top = Inches(inset[0]), Inches(inset[1])
             c.margin_right, c.margin_bottom = Inches(inset[2]), Inches(inset[3])
             c.vertical_anchor = MSO_ANCHOR.MIDDLE
@@ -1061,16 +1084,46 @@ JARAK_BLOK = 0.2
 def _gaya_paragraf(gaya):
     if (gaya or "").startswith("soal"):  # 'soal' atau 'soal:17' (ukuran diperkecil untuk bacaan panjang)
         return int(gaya.partition(":")[2] or 20), "navy"
-    return 19, "teks"
+    return 20, "teks"
+
+
+# Ukuran judul di dalam slide isi: tetap di semua slide, apa pun posisinya di halaman.
+# 0 = judul bagian di dalam subbab, 1 = subjudul, 2 = anak subjudul (paragraf tebal di dokumen).
+GAYA_JUDUL = {0: (26, "navy", 1.2), 1: (22, "navy", 1.2), 2: (20, "teks", 1.25)}
+TEKS_ALIR = ("paragraf", "subjudul", "poin")
+JARAK_BUTIR = 0.14
+
+
+def _par_alir(b, gaya=None):
+    """Paragraf-paragraf sebuah blok teks (paragraf, subjudul, poin) untuk kotak teks mengalir."""
+    j, lega = b["jenis"], gaya == "lega"
+    if j == "subjudul":
+        ukuran, warna, spasi = GAYA_JUDUL[b.get("tingkat", 1)]
+        return [P(b["teks"], ukuran, warna, tebal=True, spasi=spasi)]
+    ukuran, warna = _gaya_paragraf(gaya)
+    if j == "poin":
+        return [P(isi, ukuran, "navy", spasi=1.5 if lega else 1.35, rata="j", butir=True,
+                  setelah=JARAK_BUTIR * 72 * (1.5 if lega else 1)) for isi in b["butir"]]
+    return [P(b["teks"], ukuran, warna, spasi=1.55 if lega else 1.4, rata="j")]
+
+
+def alir_teks(slide, isi, x, y, w, gaya=None):
+    """Blok teks berurutan -> satu kotak teks. isi: [(blok, jarak ke blok berikutnya)]. Mengembalikan y bawah."""
+    par = []
+    for b, celah in isi:
+        p = _par_alir(b, gaya)
+        p[-1].setelah = celah * 72
+        par += p
+    par[-1].setelah = 0
+    h = tinggi_paragraf(par, w)
+    teks(slide, x, y, w, h, par, nama="Blok teks")
+    return y + h
 
 
 def _par_blok(b, gaya=None):
     j = b["jenis"]
-    if j == "paragraf":
-        ukuran, warna = _gaya_paragraf(gaya)
-        return [P(b["teks"], ukuran, warna, spasi=1.4)], (0, 0, 0, 0)
-    if j == "subjudul":
-        return [P(b["teks"], 21, "navy", tebal=True, spasi=1.2)], (0, 0.08, 0, 0)
+    if j in ("paragraf", "subjudul"):
+        return _par_alir(b, gaya), (0, 0, 0, 0)
     if j == "sorot":
         return [P(b["teks"], 22, "navy", spasi=1.3)], (0.45, 0.2, 0.45, 0.2)
     if j == "kunci":
@@ -1093,17 +1146,14 @@ def tinggi_blok(b, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0):
     if par:
         return tinggi_paragraf(par, w, inset)
     if j == "poin":
-        total = 0.0
-        for isi in b["butir"]:
-            total += tinggi_paragraf([P(isi, 19, "navy", spasi=1.3)], w - 0.5) + 0.22  # = jarak di poin_berbutir
-        return total - 0.22
+        return tinggi_paragraf(_par_alir(b, gaya), w)
     if j == "gambar":
         gw, gh, h_ket, _ = _ukur_gambar(b, w, h_maks, folder)
         return gh + 0.4 + h_ket
     if j == "tabel":
         return tinggi_tabel(b["kolom"], b["baris"], b.get("lebar"), b.get("ukuran", 16), w)
     if j == "catatan":
-        return tinggi_catatan(b["teks"], w, b.get("judul"), 18)
+        return tinggi_catatan(b["teks"], w, b.get("judul"), 19)
     if j == "profil":
         _, _, tinggi = _ukur_profil(b, w)
         return sum(tinggi) + (len(tinggi) - 1) * CELAH_PROFIL
@@ -1170,7 +1220,7 @@ def gambar_blok(slide, b, x, y, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0)
         teks(slide, x, y, w, h, par, inset=inset, jangkar="m" if j in ("sorot", "kunci") else "t")
         return y + h
     if j == "poin":
-        return poin_berbutir(slide, y, b["butir"], x, w, ukuran=19)
+        return alir_teks(slide, [(b, 0)], x, y, w, gaya)
     if j == "gambar":
         gw, gh, h_ket, _ = _ukur_gambar(b, w, h_maks, folder)
         kw = gw + 0.4
@@ -1189,7 +1239,7 @@ def gambar_blok(slide, b, x, y, w=LEBAR_ISI, folder=".", gaya=None, h_maks=99.0)
         return tabel(slide, y, b["kolom"], b["baris"], b.get("lebar"), b.get("ukuran", 16), x=x, w=w)
     if j == "catatan":
         return catatan(slide, y, b.get("catatan", "tips"), b["teks"], x=x, w=w, judul_catatan=b.get("judul"),
-                       ukuran=18)
+                       ukuran=19)
     if j == "profil":
         return kartu_profil(slide, y, b, x, w, folder)
     return y

@@ -84,8 +84,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 36"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 36**"
             },
             {
               "jenis": "paragraf",
@@ -125,7 +125,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Penjelasan opsi salah"
+              "teks": "Penjelasan opsi salah",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -189,7 +190,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Jawaban"
+              "teks": "Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -213,7 +215,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Penjelasan setiap pernyataan"
+              "teks": "Penjelasan setiap pernyataan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

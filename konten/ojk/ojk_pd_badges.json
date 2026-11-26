@@ -195,7 +195,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh laba"
+              "teks": "Contoh laba",
+              "tingkat": 2
             },
             {
               "jenis": "sorot",
@@ -203,7 +204,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh persentase"
+              "teks": "Contoh persentase",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -341,6 +343,7 @@
             {
               "jenis": "subjudul",
               "teks": "Contoh",
+              "tingkat": 2,
               "tambahan": [
                 {
                   "alasan": "contoh yang melengkapi gambar/tabel",
@@ -441,7 +444,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh"
+              "teks": "Contoh",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -526,7 +530,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Cara cepat yang aman"
+              "teks": "Cara cepat yang aman",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -707,6 +712,22 @@
       },
       {
         "judul": "Hubungan Antarobjek dan Perhitungan Berantai",
+        "teks": ""
+      },
+      {
+        "judul": "Persentase, Rasio, dan Perubahan",
+        "teks": ""
+      },
+      {
+        "judul": "Nilai Seri dan Aturan Pemecahan Seri (Tie-breaker)",
+        "teks": ""
+      },
+      {
+        "judul": "Menyusun Urutan dan Memasangkan Lencana",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menjawab dan Cara Cepat",
         "teks": ""
       }
     ],

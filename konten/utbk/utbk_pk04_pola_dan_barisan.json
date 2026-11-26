@@ -269,7 +269,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Peta pemilihan metode"
+              "teks": "Peta pemilihan metode",
+              "tingkat": 2
             },
             {
               "jenis": "poin",
@@ -510,11 +511,11 @@
                 ],
                 [
                   "Jumlah $n$ suku dengan beda tetap",
-                  "$Sₙ = (n/2)(2a+(n-1)b)$ atau $Sₙ = (n/2)(a+Uₙ)$"
+                  "$Sₙ = (n/2)(2a+(n-1)b)$\natau $Sₙ = (n/2)(a+Uₙ)$"
                 ],
                 [
                   "Jumlah $n$ suku dengan rasio tetap",
-                  "Untuk $r<1$: $Sₙ = (a(1−rⁿ))/(1−r)$ Untuk $r>1$: $Sₙ = (a(rⁿ-1))/(r-1)$"
+                  "Untuk $r<1$: $Sₙ = (a(1−rⁿ))/(1−r)$\nUntuk $r>1$: $Sₙ = (a(rⁿ-1))/(r-1)$"
                 ],
                 [
                   "Nilai suku ke-$n$ jika jumlah $n$ suku $(Sₙ)$ diketahui",

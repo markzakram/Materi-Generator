@@ -71,12 +71,12 @@
       {
         "level": "",
         "kko": "Pengukuran:",
-        "teks": "mengenali satuan panjang, luas, volume, waktu dan ketelitian; mengonversi; mengevaluasi ketepatan hasil ukur."
+        "teks": "mengenali satuan panjang, luas, volume, waktu, dan ketelitian; mengonversi; mengevaluasi ketepatan hasil ukur."
       },
       {
         "level": "",
         "kko": "Perbandingan Geometri:",
-        "teks": "menjelaskan kesebangunan dan skala; menentukan panjang bersesuaian; menganalisis pengaruh skala pada panjang, luas dan volume."
+        "teks": "menjelaskan kesebangunan dan skala; menentukan panjang bersesuaian; menganalisis pengaruh skala pada panjang, luas, dan volume."
       },
       {
         "level": "",
@@ -112,7 +112,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Dalam sistem koordinat Kartesius, lokasi titik diberikan oleh pasangan (x,y). Jarak horizontal dan vertikal dapat membentuk segitiga siku-siku sehingga jarak dua titik dapat dihitung menggunakan Teorema Pythagoras."
+              "teks": "Dalam sistem koordinat Kartesius, lokasi titik diberikan oleh pasangan $(x, y)$. Jarak horizontal dan vertikal dapat membentuk segitiga siku-siku sehingga jarak dua titik dapat dihitung menggunakan Teorema Pythagoras."
             },
             {
               "jenis": "sorot",
@@ -128,11 +128,11 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Translasi menggeser titik $(x,y)$ menjadi $(x+a,y+b)$; refleksi terhadap sumbu-$x$ menghasilkan $(x,−y)$, sedangkan sumbu-y menghasilkan $(−x,y)$. Refleksi, rotasi dan translasi mempertahankan panjang serta sudut; dilatasi dengan faktor skala k mengubah ukuran."
+              "teks": "Translasi menggeser titik $(x, y)$ menjadi $(x + a, y + b)$; refleksi terhadap sumbu-$x$ menghasilkan $(x, −y)$, sedangkan sumbu-y menghasilkan $(−x, y)$. Refleksi, rotasi, dan translasi mempertahankan panjang serta sudut; dilatasi dengan faktor skala k mengubah ukuran."
             },
             {
-              "jenis": "paragraf",
-              "teks": "$(x, y) → (x + a, y + b); (x, y) → (kx, ky)$ ****"
+              "jenis": "sorot",
+              "teks": "$(x, y) → (x + a, y + b); (x, y) → (kx, ky)$"
             },
             {
               "jenis": "subjudul",
@@ -194,7 +194,7 @@
                   "$(1/2)at$"
                 ],
                 [
-                  "Jajar genjang alas $a$, tinggi $t$",
+                  "Jajar genjang alas $a$, sisi miring $b$, tinggi $t$",
                   "$2(a+b)$",
                   "$at$"
                 ],
@@ -412,7 +412,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Hasil pengukuran memiliki ketelitian bergantung alat dan cara baca. Jika panjang yang tersedia hanya dibulatkan, hasil luas/volume juga tidak boleh diklaim lebih teliti daripada data asal tanpa alasan. Dalam soal kontekstual, pisahkan ukuran eksak yang didefinisikan soal dari ukuran pengamatan."
+              "teks": "Hasil pengukuran memiliki ketelitian yang bergantung pada alat dan cara baca. Jika panjang yang tersedia hanya dibulatkan, hasil luas/volume juga tidak boleh diklaim lebih teliti daripada data asal tanpa alasan. Dalam soal kontekstual, pisahkan ukuran eksak yang didefinisikan soal dari ukuran pengamatan."
             },
             {
               "jenis": "subjudul",
@@ -540,18 +540,18 @@
                 [
                   "30°",
                   "$1/2$",
-                  "$√(3/2)$",
-                  "$√(3/3)$"
+                  "$√3/2$",
+                  "$√3/3$"
                 ],
                 [
                   "45°",
-                  "$√(2/2)$",
-                  "$√(2/2)$",
+                  "$√2/2$",
+                  "$√2/2$",
                   "1"
                 ],
                 [
                   "60°",
-                  "$√(3/2)$",
+                  "$√3/2$",
                   "$1/2$",
                   "$√3$"
                 ],
@@ -579,7 +579,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "Tentukan sudut acuan; beri label depan, samping dan miring; pilih rasio yang memuat besaran diketahui dan yang dicari; periksa hasil dengan Pythagoras dan kewajaran sudut."
+              "teks": "Tentukan sudut acuan; beri label depan, samping, dan miring; pilih rasio yang memuat besaran diketahui dan yang dicari; periksa hasil dengan Pythagoras dan kewajaran sudut."
             }
           ]
         }

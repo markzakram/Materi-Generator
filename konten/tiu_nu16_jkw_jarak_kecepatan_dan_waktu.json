@@ -131,7 +131,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh penggunaan rumus"
+              "teks": "Contoh penggunaan rumus",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -205,7 +206,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh perubahan satuan"
+              "teks": "Contoh perubahan satuan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -416,6 +418,10 @@
       },
       {
         "judul": "Perjalanan dengan Pemberhentian",
+        "teks": ""
+      },
+      {
+        "judul": "Langkah Mengerjakan",
         "teks": ""
       }
     ],

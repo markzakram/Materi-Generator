@@ -393,7 +393,43 @@ CATATAN_PRODUKSI = [(re.compile(p), g) for p, g in (
 def _buang_catatan(t):
     for pola, ganti in CATATAN_PRODUKSI:
         t = pola.sub(ganti, t)
+    t = re.sub(r"\s*\*\*\s*\*\*\s*|\s*<([isr])>\s*</\1>\s*", " ", t)  # sisa label yang dicetak tebal: '**  **'
     return re.sub(r"^((?:\*\*|<[isr]>)+)\s+", r"\1", t.strip())  # sisa spasi label di dalam teks tebal
+
+
+def koreksi(elemen, daftar):
+    """Koreksi tim QC yang belum ada di dokumen (koreksi.json): {"cari", "ganti"} di semua teks dan sel tabel, atau
+    {"hapus_gambar_di": judul}. Bila dokumennya sudah diperbaiki, butirnya tidak ditemukan lagi dan diberi peringatan."""
+    for butir in daftar:
+        kena = 0
+        if butir.get("hapus_gambar_di"):
+            judul, sisa = "", []
+            for el in elemen:
+                if el["jenis"] in TINGKAT and el.get("polos"):
+                    judul = _bersih(el["teks"]).lower()
+                if el["jenis"] == "gambar" and judul == butir["hapus_gambar_di"]:
+                    kena += 1
+                else:
+                    sisa.append(el)
+            elemen = sisa
+        else:
+            a, b = butir["cari"], butir["ganti"]
+            for el in elemen:
+                for k in ("teks", "polos", "sorot"):
+                    if isinstance(el.get(k), str) and a in el[k]:
+                        el[k] = el[k].replace(a, b)
+                        kena += 1
+                if el["jenis"] == "tabel":
+                    for r, par in zip(el["baris"], el["par"]):
+                        for c, isi in enumerate(r):
+                            if a in isi:
+                                r[c] = isi.replace(a, b)
+                                kena += 1
+                        for isi in par:
+                            isi[:] = [x.replace(a, b) for x in isi]
+        if not kena:
+            print(f"  PERINGATAN koreksi tidak ditemukan (dokumen sudah diperbaiki?): {butir.get('cari') or butir}")
+    return elemen
 
 
 def _rapikan_elemen(elemen):
@@ -630,6 +666,11 @@ def _tetangga_masuk(elemen):
     return None
 
 
+# 'Langkah 2. Kalimat lengkap.' adalah isi, bukan judul (judul langkah tidak diakhiri titik). Tanpa ini baris yang
+# pendek menjadi judul dan baris yang panjang menjadi paragraf.
+LANGKAH_KALIMAT = re.compile(r"^Langkah\s+\d+[.:]?\s+[^\s(—–-].*\.$", re.S)
+
+
 def _seperti_judul(el):
     """Tingkat judul elemen: Heading, atau paragraf tebal pendek yang menjadi subjudul di slide (4)."""
     if el["jenis"] in TINGKAT:
@@ -637,7 +678,8 @@ def _seperti_judul(el):
     if el["jenis"] != "paragraf" or len(el["polos"]) > 90 or el["daftar"]:
         return None
     polos = el["polos"]
-    if re.fullmatch(r"cara cepat:?", polos.lower()) or re.match(r"^(Langkah\s+\d+\b|Kesimpulan$|Pemisalan$)", polos):
+    if re.fullmatch(r"cara cepat:?", polos.lower()) or (
+            re.match(r"^(Langkah\s+\d+\b|Kesimpulan$|Pemisalan$)", polos) and not LANGKAH_KALIMAT.match(polos)):
         return 4
     simbol = any(c in SIMBOL_SOROT for c in polos.rstrip(":")) or re.search(r"\w\s+[:=]\s+\w", polos)
     return 4 if el["tebal"] and not simbol and not re.match(r"^[^:]+: .+\.$", polos) else None
@@ -784,13 +826,15 @@ class Penyusun:
                     blok.append(b)
             elif j == "tabel":
                 profil = self.blok_profil(el)
-                baris = [r for r in el["baris"] if any(c.strip() for c in r)]
+                # sel berisi beberapa paragraf ('Premis I:' / 'Premis II:' / 'Kesimpulan:') tetap beberapa baris
+                baris = [["\n".join(p) if len(p) > 1 else c for c, p in zip(r, par)] if len(par) == len(r) else r
+                         for r, par in zip(el["baris"], el["par"]) if any(c.strip() for c in r)]
                 if profil:
                     blok.append(profil)
                 elif len(baris) >= 2 and len(baris[0]) >= 1:
                     n = max(len(r) for r in baris)
                     baris = [r + [""] * (n - len(r)) for r in baris]
-                    blok.append({"jenis": "tabel", "kolom": [_polos(c) for c in baris[0]],
+                    blok.append({"jenis": "tabel", "kolom": [_polos(c).replace("\n", " ") for c in baris[0]],
                                  "baris": baris[1:]})
                 elif baris:
                     for r in baris:
@@ -816,14 +860,28 @@ class Penyusun:
                 elif re.fullmatch(r"\$[^$]+\$", t.strip()):
                     blok.append({"jenis": "sorot", "teks": t.strip()})
                 elif el["tebal"] and re.fullmatch(r"[A-Z][a-z]+ [a-z]+ • [^→←↔=≡]{12,}", polos):
-                    blok.append({"jenis": "subjudul", "teks": polos.rstrip(":")})  # judul bagan: 'Garis waktu • Latar dan kejadian'
+                    # judul bagan: 'Garis waktu • Latar dan kejadian'; tingkat 2 = paragraf tebal, di bawah Heading
+                    blok.append({"jenis": "subjudul", "teks": polos.rstrip(":"), "tingkat": 2})
+                elif re.match(r"^Jawaban\s*:\s*\S", polos) and len(polos) <= 200:
+                    # 'Jawaban: 36' adalah isi, bukan judul bagian; tampilannya sama di semua soal
+                    isi = re.sub(r"^Jawaban\s*:\s*", "", t.replace("**", "")).strip()
+                    blok.append({"jenis": "paragraf", "teks": f"**Jawaban:** {isi}" if re.search(r"\$|</?[isr]>", isi) else f"**Jawaban: {isi}**"})
+                elif el["tebal"] and (re.match(r"^Konsep\s*:\s*\S", polos) or re.match(r"^Kesimpulan\s*:\s*[A-Z][^=→≡]+\.$", polos)):
+                    blok.append({"jenis": "paragraf", "teks": t})
                 elif el["tebal"] and (any(c in SIMBOL_SOROT for c in polos.rstrip(":")) or
-                                      re.search(r"\w\s+[:=]\s+\w", polos)):
+                                      re.search(r"\w\s+[:=]\s+\w", polos) or
+                                      re.search(r"^[↑↓]| \| ", polos) or  # baris bagan
+                                      re.match(r"^1\. \D+ 2\. \D+ 3\. \D", polos)):  # '1. Posisi 2. Petunjuk 3. Pasangan'
+                    if polos.startswith("↓ ") and blok and blok[-1].get("tingkat") == 2 and blok[-1]["jenis"] == "subjudul":
+                        blok[-1] = {k: v for k, v in dict(blok[-1], jenis="sorot").items() if k != "tingkat"}
                     blok.append({"jenis": "sorot", "teks": polos})
                 elif el["tebal"] and len(polos) <= 90:
-                    blok.append({"jenis": "subjudul", "teks": polos.rstrip(":")})
+                    blok.append({"jenis": "subjudul", "teks": polos.rstrip(":"), "tingkat": 2})
+                elif LANGKAH_KALIMAT.match(polos):  # labelnya saja yang tebal
+                    blok.append({"jenis": "paragraf", "teks": re.sub(
+                        r"^(?:\*\*)?(Langkah\s+\d+[.:]?)(?:\s*\*\*)?\s*", r"**\1** ", t, count=1)})
                 elif re.match(r"^(Langkah\s+\d+\b|Kesimpulan$|Pemisalan$)", polos) and len(polos) <= 90:
-                    blok.append({"jenis": "subjudul", "teks": polos})
+                    blok.append({"jenis": "subjudul", "teks": polos, "tingkat": 2})
                 else:
                     blok.append({"jenis": "paragraf", "teks": t})
             for x in elemen[mulai:i + 1]:
@@ -1144,7 +1202,7 @@ def susun(elemen, folder_naskah, slug, sumber="", kelompok=0, nama_file=None, su
             tambah_subbab(nama, isi, True)
 
     naskah["penutup"]["ringkasan"] = [
-        {"judul": sub["subbab"], "teks": ""} for sub in naskah["materi"] if sub["subbab"] not in ("Contoh Soal", "Rangkuman")][:10 if isi_kosong else 6]
+        {"judul": sub["subbab"], "teks": ""} for sub in naskah["materi"] if sub["subbab"] not in ("Contoh Soal", "Rangkuman")][:10]
     if not (naskah["pendahuluan"]["paragraf"] and naskah["tujuan"]["butir"]):
         naskah["meta"]["lewati_kosong"] = True  # bagian yang tidak ditandai penulis: slidenya dilewati
     return naskah

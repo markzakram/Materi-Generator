@@ -190,7 +190,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Garis waktu • Latar dan kejadian dalam past tense"
+              "teks": "Garis waktu • Latar dan kejadian dalam past tense",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -491,7 +492,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Peta subjek • Kata mana yang menentukan verb?"
+              "teks": "Peta subjek • Kata mana yang menentukan verb?",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -609,7 +611,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Peta pilihan • A, an, the, atau tanpa article?"
+              "teks": "Peta pilihan • A, an, the, atau tanpa article?",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -703,7 +706,7 @@
               "teks": "Pasif → S penerima tindakan + be + V3"
             },
             {
-              "jenis": "subjudul",
+              "jenis": "sorot",
               "teks": "Objek aktif: the application | Subjek pasif: the application"
             },
             {
@@ -711,12 +714,13 @@
               "teks": "reviewed → was reviewed (be + V3)"
             },
             {
-              "jenis": "subjudul",
+              "jenis": "sorot",
               "teks": "Pelaku: The analyst | Dalam pasif: by the analyst"
             },
             {
               "jenis": "subjudul",
-              "teks": "Alur perubahan • Dari aktif ke pasif"
+              "teks": "Alur perubahan • Dari aktif ke pasif",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -754,7 +758,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Present continuous: am/is/are being + V3."
+              "teks": "Present continuous: am/is/are being + V3.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -762,7 +767,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Present perfect: have/has been + V3."
+              "teks": "Present perfect: have/has been + V3.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -770,7 +776,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pasif dengan modal: modal + be + V3."
+              "teks": "Pasif dengan modal: modal + be + V3.",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -824,7 +831,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Susunan sejajar • Tiga unsur mengikuti pola yang sama"
+              "teks": "Susunan sejajar • Tiga unsur mengikuti pola yang sama",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -1051,7 +1059,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Peta struktur • Sebab yang sama, dua cara menyatakannya"
+              "teks": "Peta struktur • Sebab yang sama, dua cara menyatakannya",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -1287,6 +1296,22 @@
       },
       {
         "judul": "Active vs Passive Forms",
+        "teks": ""
+      },
+      {
+        "judul": "Parallel Structure",
+        "teks": ""
+      },
+      {
+        "judul": "Gerunds and Infinitives",
+        "teks": ""
+      },
+      {
+        "judul": "Conjunction",
+        "teks": ""
+      },
+      {
+        "judul": "Vocabulary dalam Konteks Grammar",
         "teks": ""
       }
     ],

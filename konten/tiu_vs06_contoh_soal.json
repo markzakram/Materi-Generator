@@ -109,12 +109,13 @@
               "teks": "Kesimpulan: $q$"
             },
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Pengajuan peminjaman alat melalui layanan daring termasuk hak yang dimiliki Dimas"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Pengajuan peminjaman alat melalui layanan daring termasuk hak yang dimiliki Dimas**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis setiap opsi"
+              "teks": "Analisis setiap opsi",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -222,7 +223,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis setiap opsi"
+              "teks": "Analisis setiap opsi",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -294,11 +296,11 @@
           "pembahasan": [
             {
               "jenis": "paragraf",
-              "teks": "Premis 1: Rekaman pertunjukan milik Manda **dengan persetujuan publikasi** **berada di luar kelompok rekaman yang memerlukan penyuntingan ulang** untuk publikasi pertunjukan yang dibahas tersebut."
+              "teks": "Premis 1: Rekaman pertunjukan milik Manda **dengan persetujuan publikasi berada di luar kelompok rekaman yang memerlukan penyuntingan ulang** untuk publikasi pertunjukan yang dibahas tersebut."
             },
             {
               "jenis": "paragraf",
-              "teks": "Premis 2: Dalam pedoman peninjauan publikasi rekaman pertunjukan milik Manda **tanpa persetujuan publikasi** **tercakup dalam daftar peninjauan lanjutan** untuk publikasi pertunjukan tersebut."
+              "teks": "Premis 2: Dalam pedoman peninjauan publikasi rekaman pertunjukan milik Manda **tanpa persetujuan publikasi tercakup dalam daftar peninjauan lanjutan** untuk publikasi pertunjukan tersebut."
             },
             {
               "jenis": "paragraf",
@@ -318,7 +320,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1 (Premis 1 + 3)"
+              "teks": "Langkah 1 (Premis 1 + 3)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -338,7 +341,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2 (Premis 2 + 4)"
+              "teks": "Langkah 2 (Premis 2 + 4)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -357,12 +361,13 @@
               "teks": "Kesimpulan: $r$"
             },
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Daftar peninjauan lanjutan mencakup rekaman pertunjukan milik Manda yang dibahas"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Daftar peninjauan lanjutan mencakup rekaman pertunjukan milik Manda yang dibahas**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis setiap opsi"
+              "teks": "Analisis setiap opsi",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -426,7 +431,7 @@
           "pembahasan": [
             {
               "jenis": "paragraf",
-              "teks": "Premis 1: Pengajuan jadwal penggunaan lapangan milik Tania **dengan pengesahan pengelola** **tercakup dalam daftar pemesanan lapangan** untuk kegiatan komunitas yang menjadi pokok pembahasan."
+              "teks": "Premis 1: Pengajuan jadwal penggunaan lapangan milik Tania **dengan pengesahan pengelola tercakup dalam daftar pemesanan lapangan** untuk kegiatan komunitas yang menjadi pokok pembahasan."
             },
             {
               "jenis": "paragraf",
@@ -450,7 +455,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1 (Premis 1 + 2)"
+              "teks": "Langkah 1 (Premis 1 + 2)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -470,7 +476,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2 (Premis 4 + 3)"
+              "teks": "Langkah 2 (Premis 4 + 3)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -489,12 +496,13 @@
               "teks": "Kesimpulan: Tidak dapat disimpulkan"
             },
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Tidak dapat disimpulkan"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Tidak dapat disimpulkan**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis setiap opsi"
+              "teks": "Analisis setiap opsi",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

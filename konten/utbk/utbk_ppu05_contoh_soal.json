@@ -85,7 +85,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Alasan jawaban benar"
+              "teks": "Alasan jawaban benar",
+              "tingkat": 2
             },
             {
               "jenis": "poin",
@@ -139,8 +140,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "sorot",
-              "teks": "Jawaban : kendaraan"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: kendaraan**"
             },
             {
               "jenis": "paragraf",
@@ -254,12 +255,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Salah; 4 Benar"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Salah; 3 Salah; 4 Benar**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep yang dipakai"
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -267,7 +269,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Petunjuk dalam bacaan"
+              "teks": "Petunjuk dalam bacaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -275,7 +278,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Cara membaca soal"
+              "teks": "Cara membaca soal",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

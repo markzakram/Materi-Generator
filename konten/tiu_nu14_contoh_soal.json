@@ -158,7 +158,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Catatan kesesuaian angka"
+              "teks": "Catatan kesesuaian angka",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -214,7 +215,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Koreksi untuk waktu awal 40 hari"
+              "teks": "Koreksi untuk waktu awal 40 hari",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

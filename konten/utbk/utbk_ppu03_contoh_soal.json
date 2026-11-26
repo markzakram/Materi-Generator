@@ -154,12 +154,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep yang dipakai"
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -167,7 +168,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Petunjuk dalam bacaan"
+              "teks": "Petunjuk dalam bacaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -175,7 +177,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Cara membaca soal"
+              "teks": "Cara membaca soal",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -299,12 +302,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 1 Salah; 2 Benar; 3 Salah; 4 Benar"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Salah; 2 Benar; 3 Salah; 4 Benar**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep yang dipakai"
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -312,7 +316,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Petunjuk dalam bacaan"
+              "teks": "Petunjuk dalam bacaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -320,7 +325,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Cara membaca soal"
+              "teks": "Cara membaca soal",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -405,12 +411,13 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: memberlakukan"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: memberlakukan**"
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep yang dipakai"
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -418,7 +425,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Cara membaca soal"
+              "teks": "Cara membaca soal",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

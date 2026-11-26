@@ -145,12 +145,6 @@
           "judul": "Ekuivalensi Logika",
           "blok": [
             {
-              "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-01.png",
-              "lebar": 5.97,
-              "tinggi": 0.7
-            },
-            {
               "jenis": "paragraf",
               "teks": "Rumus Utama"
             },
@@ -172,11 +166,12 @@
           "blok": [
             {
               "jenis": "subjudul",
-              "teks": "Langkah Pengerjaan — Tiga pilihan pasangan awal"
+              "teks": "Langkah Pengerjaan — Tiga pilihan pasangan awal",
+              "tingkat": 2
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-02.png",
+              "file": "media/tiu_vs05_3_premis/gambar-01.png",
               "lebar": 6.17,
               "tinggi": 1.48
             }
@@ -200,11 +195,13 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pembahasan"
+              "teks": "Pembahasan",
+              "tingkat": 2
             },
             {
               "jenis": "subjudul",
-              "teks": "Pemisalan"
+              "teks": "Pemisalan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -220,11 +217,12 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1 (Premis 1 + Premis 2)"
+              "teks": "Langkah 1 (Premis 1 + Premis 2)",
+              "tingkat": 2
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-03.png",
+              "file": "media/tiu_vs05_3_premis/gambar-02.png",
               "lebar": 2.92,
               "tinggi": 0.72
             },
@@ -246,11 +244,12 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2 (Premis 4 + Premis 3)"
+              "teks": "Langkah 2 (Premis 4 + Premis 3)",
+              "tingkat": 2
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-04.png",
+              "file": "media/tiu_vs05_3_premis/gambar-03.png",
               "lebar": 2.92,
               "tinggi": 0.65
             },
@@ -271,8 +270,8 @@
               "teks": "Gunakan Modus Ponens. Premis 3 memastikan lampu sedang merah, sehingga kita dapat mengambil hasil yang disebut pada Premis 4."
             },
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: Pejalan kaki boleh melintas."
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Pejalan kaki boleh melintas.**"
             }
           ]
         }
@@ -288,11 +287,12 @@
           "blok": [
             {
               "jenis": "subjudul",
-              "teks": "Bentuk “Semua”, “Sebagian”, dan “Tidak Ada”"
+              "teks": "Bentuk “Semua”, “Sebagian”, dan “Tidak Ada”",
+              "tingkat": 2
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-05.png",
+              "file": "media/tiu_vs05_3_premis/gambar-04.png",
               "lebar": 6.17,
               "tinggi": 2.11,
               "tambahan": [
@@ -304,7 +304,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Rumus Cepat"
+              "teks": "Rumus Cepat",
+              "tingkat": 2
             },
             {
               "jenis": "sorot",
@@ -332,21 +333,22 @@
           "blok": [
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-06.png",
+              "file": "media/tiu_vs05_3_premis/gambar-05.png",
               "lebar": 2.92,
               "tinggi": 1.4
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah Pengerjaan"
+              "teks": "Langkah Pengerjaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
-              "teks": "Langkah 1 Premis 1 + Premis 2, periksa apakah ada hasil yang dapat dipakai sebagai Premis 4."
+              "teks": "**Langkah 1** Premis 1 + Premis 2, periksa apakah ada hasil yang dapat dipakai sebagai Premis 4."
             },
             {
-              "jenis": "subjudul",
-              "teks": "Langkah 2 Periksa apakah Premis 4 dapat digunakan bersama Premis 3."
+              "jenis": "paragraf",
+              "teks": "**Langkah 2** Periksa apakah Premis 4 dapat digunakan bersama Premis 3."
             }
           ]
         },
@@ -368,15 +370,17 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pembahasan"
+              "teks": "Pembahasan",
+              "tingkat": 2
             },
             {
               "jenis": "subjudul",
-              "teks": "Logika Panah — Cabang menunjukkan kemungkinan"
+              "teks": "Logika Panah — Cabang menunjukkan kemungkinan",
+              "tingkat": 2
             },
             {
               "jenis": "gambar",
-              "file": "media/tiu_vs05_3_premis/gambar-07.png",
+              "file": "media/tiu_vs05_3_premis/gambar-06.png",
               "lebar": 6.17,
               "tinggi": 1.12,
               "tambahan": [
@@ -388,7 +392,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1 (Premis 1 + Premis 2)"
+              "teks": "Langkah 1 (Premis 1 + Premis 2)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -396,15 +401,16 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2 (Hasil Langkah 1 + Premis 3)"
+              "teks": "Langkah 2 (Hasil Langkah 1 + Premis 3)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
               "teks": "Premis 3 memastikan ada orang yang sering berpenyakit dan harus minum obat. Cabang “minum obat” pada gambar menunjukkan salah satu kemungkinan bagi orang yang buncit dan sering berpenyakit. Premis belum memastikan ada orang buncit pada cabang tersebut."
             },
             {
-              "jenis": "subjudul",
-              "teks": "Kesimpulan: Tidak dapat dipastikan bahwa ada orang buncit yang harus minum obat."
+              "jenis": "paragraf",
+              "teks": "**Kesimpulan: Tidak dapat dipastikan bahwa ada orang buncit yang harus minum obat.**"
             },
             {
               "jenis": "paragraf",

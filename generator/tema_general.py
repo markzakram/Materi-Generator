@@ -407,15 +407,14 @@ class TemaGeneral:
         celah = 0.15 if n <= 5 else 0.1
         h_maks = min(1.12, (9.75 - y - celah * (n - 1)) / n)  # jatah per butir agar semua muat
         d = min(0.66, h_maks - 0.14)
+        inset = (0.35 + d + 0.3, 0.1, 0.4, 0.1)
+        isi = [[(b["kko"], True, False, "putih")] + D.segmen(" " + b["teks"]) for b in butir]
+        tinggi = lambda segs, u: D.tinggi_paragraf([P(None, u, "putih", spasi=1.3, segs=segs)], 14.43, inset)  # noqa: E731
+        # satu ukuran huruf untuk semua butir: terbesar yang membuat butir terpanjang pun muat
+        ukuran = next((u for u in (20, 19, 18, 17, 16, 15, 14, 13) if all(tinggi(s, u) <= h_maks for s in isi)), 13)
         for i, b in enumerate(butir):
-            segs = [(b["kko"], True, False, "putih")] + D.segmen(" " + b["teks"])
-            for ukuran in (20, 19, 18, 17, 16, 15, 14, 13):
-                p = [P(None, ukuran, "putih", spasi=1.3, segs=segs)]
-                inset = (0.35 + d + 0.3, 0.1, 0.4, 0.1)
-                h_teks = D.tinggi_paragraf(p, 14.43, inset)
-                if h_teks <= h_maks:
-                    break
-            h = max(h_maks, h_teks)
+            p = [P(None, ukuran, "putih", spasi=1.3, segs=isi[i])]
+            h = max(h_maks, tinggi(isi[i], ukuran))
             D.kotak(slide, 0.78, y, 14.43, h, warna="kartu_gelap", radius=0, nama="Butir tujuan")
             level = b.get("level") or str(awal + i + 1)
             D.lingkaran(slide, 0.78 + 0.35, y + (h - d) / 2, d, "kuning", level, min(17, round(d * 26)), "di_kuning",
@@ -446,7 +445,7 @@ class TemaGeneral:
                 pp, hp = None, 0
                 if pesan:
                     pp = [P("Pesan penutup", 14, "kuning_di_gelap", tebal=True, spasi=1.2, setelah=6),
-                          P(pesan, ukuran, "putih", tebal=ukuran >= 19, spasi=1.3)]
+                          P(pesan, ukuran, "putih", tebal=ukuran >= 19, spasi=1.3, rata="j")]
                     hp = D.tinggi_paragraf(pp, u["w"], u["sisi"]) + 0.23
                 if u["y"] + sum(h + u["celah"] for h, _ in baris) + hp <= BATAS_HALAMAN:
                     return kolom, baris, pp, hp

@@ -84,7 +84,8 @@
           "soal": [
             {
               "jenis": "subjudul",
-              "teks": "Soal 1"
+              "teks": "Soal 1",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -112,7 +113,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Soal 2"
+              "teks": "Soal 2",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -144,7 +146,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "**Jawaban:** A. Tujuan pembentukan OJK"
+              "teks": "**Jawaban: A. Tujuan pembentukan OJK**"
             },
             {
               "jenis": "paragraf",

@@ -245,17 +245,17 @@
               "baris": [
                 [
                   "Informasi berbeda",
-                  "$x+y=10$ $x−y=4$",
+                  "$x+y=10$\n$x−y=4$",
                   "Satu pasangan: x bernilai 7 dan y bernilai 3."
                 ],
                 [
                   "Informasi berulang",
-                  "$x+y=10$ $2x+2y=20$",
+                  "$x+y=10$\n$2x+2y=20$",
                   "Persamaan kedua hanya dua kali persamaan pertama. Nilai masing-masing belum pasti."
                 ],
                 [
                   "Informasi bertentangan",
-                  "$x+y=10$ $2x+2y=22$",
+                  "$x+y=10$\n$2x+2y=22$",
                   "Tidak ada pasangan yang memenuhi keduanya sekaligus."
                 ]
               ]

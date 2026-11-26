@@ -266,15 +266,6 @@ def rapikan(elemen):
                     and not z["akhir"] and not z["bab"]:
                 keadaan, z = "materi", None  # judul subbab berikutnya: teruskan ke bawah
             else:
-                m = re.match(r"^\[[^\]]*wajib[^\]]*\]\s*(?=\S)", polos, re.I)
-                if m and not z["akhir"] and not z["bab"] and j == "paragraf":  # catatan inti di sela contoh soal: milik materi
-                    isi = bagian["materi"]
-                    tempat = len(isi)  # sesudah isi bertanda terakhir, bukan di bawah judul yang isinya tidak ditandai
-                    while tempat > 1 and isi[tempat - 1]["jenis"] != "h2" and not (
-                            isi[tempat - 1]["jenis"] == "paragraf" and isi[tempat - 1]["sorot"].strip() or any(isi[tempat - 1].get("sorot_baris", []))):
-                        tempat -= 1
-                    isi.insert(tempat, el)
-                    continue
                 if j in JUDUL:
                     el = dict(el, jenis="paragraf", tebal=not z["akhir"] or el["tebal"])
                 (z["soal"][-1][3] if z["soal"] else z["awal"]).append(el)

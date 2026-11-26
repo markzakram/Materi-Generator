@@ -64,7 +64,7 @@
           "pembahasan": [
             {
               "jenis": "paragraf",
-              "teks": "**Jawaban:** Ruang Timur = George dan Helen; Ruang Barat = Fei dan Ian."
+              "teks": "**Jawaban: Ruang Timur = George dan Helen; Ruang Barat = Fei dan Ian.**"
             },
             {
               "jenis": "paragraf",
@@ -92,7 +92,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Jawaban"
+              "teks": "Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -138,7 +139,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Jawaban"
+              "teks": "Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

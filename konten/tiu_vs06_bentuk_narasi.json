@@ -83,10 +83,10 @@
               ],
               "baris": [
                 [
-                  "Premis I: Premis II: Kesimpulan:",
-                  "$p→q$ $p$ $q$",
-                  "Premis I: Premis II: Kesimpulan:",
-                  "$p→q$ $¬q$ $¬p$"
+                  "Premis I:\nPremis II:\nKesimpulan:",
+                  "$p→q$\n$p$\n$q$",
+                  "Premis I:\nPremis II:\nKesimpulan:",
+                  "$p→q$\n$¬q$\n$¬p$"
                 ],
                 [
                   "**Silogisme**",
@@ -95,8 +95,8 @@
                   ""
                 ],
                 [
-                  "Premis I: Premis II: Kesimpulan:",
-                  "$p→q$ $q→r$ $p→r$",
+                  "Premis I:\nPremis II:\nKesimpulan:",
+                  "$p→q$\n$q→r$\n$p→r$",
                   "Ketika premis yang tersedia tidak memenuhi syarat Modus Ponens, Tollens, Silogisme sehingga kesimpulan tidak dapat ditentukan.",
                   ""
                 ]
@@ -239,7 +239,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Narasi asli"
+              "teks": "Narasi asli",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -247,7 +248,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1. Temukan keadaan dan ketentuan yang mengikutinya"
+              "teks": "Langkah 1. Temukan keadaan dan ketentuan yang mengikutinya",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -271,11 +273,13 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2. Pisahkan aturan dari fakta"
+              "teks": "Langkah 2. Pisahkan aturan dari fakta",
+              "tingkat": 2
             },
             {
               "jenis": "subjudul",
-              "teks": "Hasil penyederhanaan"
+              "teks": "Hasil penyederhanaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -287,7 +291,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 3. Periksa kembali maknanya"
+              "teks": "Langkah 3. Periksa kembali maknanya",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -329,15 +334,17 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Narasi asli"
+              "teks": "Narasi asli",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
-              "teks": "Rekaman pertunjukan milik Manda **dengan persetujuan publikasi** **berada di luar kelompok rekaman yang memerlukan penyuntingan ulang** untuk publikasi pertunjukan yang dibahas tersebut. Dalam pedoman peninjauan publikasi rekaman pertunjukan milik Manda **tanpa persetujuan publikasi** **tercakup dalam daftar peninjauan lanjutan** untuk publikasi pertunjukan tersebut. Hasil pemeriksaan rekaman pertunjukan milik Manda untuk publikasi yang sama menyatakan rekaman tersebut **memerlukan penyuntingan ulang** pada proses penyiapan publikasinya."
+              "teks": "Rekaman pertunjukan milik Manda **dengan persetujuan publikasi berada di luar kelompok rekaman yang memerlukan penyuntingan ulang** untuk publikasi pertunjukan yang dibahas tersebut. Dalam pedoman peninjauan publikasi rekaman pertunjukan milik Manda **tanpa persetujuan publikasi tercakup dalam daftar peninjauan lanjutan** untuk publikasi pertunjukan tersebut. Hasil pemeriksaan rekaman pertunjukan milik Manda untuk publikasi yang sama menyatakan rekaman tersebut **memerlukan penyuntingan ulang** pada proses penyiapan publikasinya."
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1. Cari kalimat yang langsung menyatakan fakta"
+              "teks": "Langkah 1. Cari kalimat yang langsung menyatakan fakta",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -345,7 +352,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2. Cari fakta itu atau kebalikannya pada aturan lain"
+              "teks": "Langkah 2. Cari fakta itu atau kebalikannya pada aturan lain",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -374,7 +382,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Hasil penyederhanaan"
+              "teks": "Hasil penyederhanaan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -390,7 +399,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 3. Gunakan fakta sebagai titik awal penalaran"
+              "teks": "Langkah 3. Gunakan fakta sebagai titik awal penalaran",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -406,7 +416,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 1 (Premis 1 + 3)"
+              "teks": "Langkah 1 (Premis 1 + 3)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -426,7 +437,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Langkah 2 (Premis 2 + 4)"
+              "teks": "Langkah 2 (Premis 2 + 4)",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -450,7 +462,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Memilih cara yang lebih mudah"
+              "teks": "Memilih cara yang lebih mudah",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

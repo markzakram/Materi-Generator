@@ -61,11 +61,12 @@
               "file": "media/ojk_pd_timeslot_scheduling/gambar-05.png",
               "lebar": 6.06,
               "tinggi": 1.16,
-              "keterangan": "Gambar 5. Rekonstruksi garis waktu dari contoh riset, sebelum kegiatan ditempatkan. ****"
+              "keterangan": "Gambar 5. Rekonstruksi garis waktu dari contoh riset, sebelum kegiatan ditempatkan."
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep yang digunakan"
+              "teks": "Konsep yang digunakan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -100,7 +101,7 @@
               "file": "media/ojk_pd_timeslot_scheduling/gambar-06.png",
               "lebar": 6.06,
               "tinggi": 1.16,
-              "keterangan": "Gambar 6. Penempatan keempat pelatihan yang memenuhi soal sumber; TI selesai paling akhir. ****"
+              "keterangan": "Gambar 6. Penempatan keempat pelatihan yang memenuhi soal sumber; TI selesai paling akhir."
             },
             {
               "jenis": "tabel",
@@ -134,7 +135,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "**Jawaban:** Kepatuhan 09.30–10.30; Keberagaman 11.00–11.30; SDM 12.00–13.30; TI 14.00–15.30."
+              "teks": "**Jawaban: Kepatuhan 09.30–10.30; Keberagaman 11.00–11.30; SDM 12.00–13.30; TI 14.00–15.30.**"
             },
             {
               "jenis": "catatan",
@@ -161,11 +162,12 @@
               "file": "media/ojk_pd_timeslot_scheduling/gambar-07.png",
               "lebar": 6.06,
               "tinggi": 1.16,
-              "keterangan": "Gambar 7. Slot kosong dan penghalang untuk Contoh 2. ****"
+              "keterangan": "Gambar 7. Slot kosong dan penghalang untuk Contoh 2."
             },
             {
               "jenis": "subjudul",
-              "teks": "Konsep yang digunakan"
+              "teks": "Konsep yang digunakan",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -196,7 +198,7 @@
               "file": "media/ojk_pd_timeslot_scheduling/gambar-08.png",
               "lebar": 6.06,
               "tinggi": 1.16,
-              "keterangan": "Gambar 8. Jadwal benar untuk Contoh 2, dari pemeriksaan seluruh batasan. ****"
+              "keterangan": "Gambar 8. Jadwal benar untuk Contoh 2, dari pemeriksaan seluruh batasan."
             },
             {
               "jenis": "tabel",
@@ -230,7 +232,7 @@
             },
             {
               "jenis": "paragraf",
-              "teks": "**Jawaban:** Orientasi 09.00–09.30; Keamanan 10.00–11.00; Analisis 11.30–13.00; Audit 13.30–15.30."
+              "teks": "**Jawaban: Orientasi 09.00–09.30; Keamanan 10.00–11.00; Analisis 11.30–13.00; Audit 13.30–15.30.**"
             },
             {
               "jenis": "catatan",

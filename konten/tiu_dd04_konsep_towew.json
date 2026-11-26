@@ -91,7 +91,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Tebel konsep towew"
+              "teks": "Tebel konsep towew",
+              "tingkat": 2
             },
             {
               "jenis": "tabel",
@@ -164,11 +165,13 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pola: ↑ ↑ ↑ atau ↓ ↓ ↓"
+              "teks": "Pola: ↑ ↑ ↑ atau ↓ ↓ ↓",
+              "tingkat": 2
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh"
+              "teks": "Contoh",
+              "tingkat": 2
             },
             {
               "jenis": "sorot",
@@ -198,12 +201,13 @@
               ]
             },
             {
-              "jenis": "subjudul",
+              "jenis": "sorot",
               "teks": "↑ ↑ ↑ artinya 1 towew"
             },
             {
               "jenis": "subjudul",
-              "teks": "Pola yang terlihat"
+              "teks": "Pola yang terlihat",
+              "tingkat": 2
             },
             {
               "jenis": "gambar",
@@ -237,11 +241,13 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pola: ↑ ↓ ↑ atau ↓ ↑ ↓"
+              "teks": "Pola: ↑ ↓ ↑ atau ↓ ↑ ↓",
+              "tingkat": 2
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh"
+              "teks": "Contoh",
+              "tingkat": 2
             },
             {
               "jenis": "sorot",
@@ -271,12 +277,13 @@
               ]
             },
             {
-              "jenis": "subjudul",
+              "jenis": "sorot",
               "teks": "↓ ↑ ↓ artinya 2 towew"
             },
             {
               "jenis": "subjudul",
-              "teks": "Pola yang terlihat"
+              "teks": "Pola yang terlihat",
+              "tingkat": 2
             },
             {
               "jenis": "gambar",
@@ -318,11 +325,13 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pola: ↑ ↑ ↓ atau ↓ ↓ ↑"
+              "teks": "Pola: ↑ ↑ ↓ atau ↓ ↓ ↑",
+              "tingkat": 2
             },
             {
               "jenis": "subjudul",
-              "teks": "Contoh"
+              "teks": "Contoh",
+              "tingkat": 2
             },
             {
               "jenis": "sorot",
@@ -352,12 +361,13 @@
               ]
             },
             {
-              "jenis": "subjudul",
+              "jenis": "sorot",
               "teks": "↑ ↑ ↓ artinya 3 towew"
             },
             {
               "jenis": "subjudul",
-              "teks": "Pola yang terlihat"
+              "teks": "Pola yang terlihat",
+              "tingkat": 2
             },
             {
               "jenis": "gambar",

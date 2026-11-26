@@ -59,7 +59,8 @@
           "blok": [
             {
               "jenis": "subjudul",
-              "teks": "Pemanfaatan Panel Surya pada Bangunan Perkantoran"
+              "teks": "Pemanfaatan Panel Surya pada Bangunan Perkantoran",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -98,8 +99,8 @@
           "kunci": "",
           "pembahasan": [
             {
-              "jenis": "subjudul",
-              "teks": "Jawaban: 3"
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 3**"
             },
             {
               "jenis": "paragraf",
@@ -149,7 +150,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Analisis opsi"
+              "teks": "Analisis opsi",
+              "tingkat": 2
             },
             {
               "jenis": "poin",
@@ -212,7 +214,8 @@
           "pembahasan": [
             {
               "jenis": "subjudul",
-              "teks": "Jawaban"
+              "teks": "Jawaban",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -228,7 +231,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan 1 — Benar"
+              "teks": "Pernyataan 1 — Benar",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -244,7 +248,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan 2 — Salah"
+              "teks": "Pernyataan 2 — Salah",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",
@@ -252,7 +257,8 @@
             },
             {
               "jenis": "subjudul",
-              "teks": "Pernyataan 3 — Benar"
+              "teks": "Pernyataan 3 — Benar",
+              "tingkat": 2
             },
             {
               "jenis": "paragraf",

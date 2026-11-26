@@ -107,10 +107,10 @@
               ],
               "baris": [
                 [
-                  "Premis I: Premis II: Kesimpulan:",
-                  "p→q p q",
-                  "Premis I: Premis II: Kesimpulan:",
-                  "p→q ¬q ¬p"
+                  "Premis I:\nPremis II:\nKesimpulan:",
+                  "p→q\np\nq",
+                  "Premis I:\nPremis II:\nKesimpulan:",
+                  "p→q\n¬q\n¬p"
                 ],
                 [
                   "**Silogisme**",
@@ -119,8 +119,8 @@
                   ""
                 ],
                 [
-                  "Premis I: Premis II: Kesimpulan:",
-                  "p→q q→r p→r",
+                  "Premis I:\nPremis II:\nKesimpulan:",
+                  "p→q\nq→r\np→r",
                   "Ketika premis yang tersedia tidak memenuhi syarat Modus Ponens, Tollens, Silogisme sehingga kesimpulan tidak dapat ditentukan.",
                   ""
                 ]
