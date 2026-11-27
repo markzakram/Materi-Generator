@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "judul": "Penentuan Judul Bacaan",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Penentuan Judul Bacaan",
+    "sumber": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+    "id_katalog": "pbm-01-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pemilihan gagasan adalah kegiatan menilai alternatif informasi agar selaras dengan pusat pembahasan teks. Bentuk tugasnya beragam: memilih judul satu bacaan, mengganti satu kata yang kurang tepat, menambah gagasan sebagai penghubung kalimat, atau memasukkan kalimat untuk memperkuat paragraf. Keempatnya memiliki prinsip bersama: isi pilihan harus didukung oleh teks dan tidak mengubah arah pembahasan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "topik dan gagasan pengendali yang mengikat keseluruhan bacaan."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "judul yang tepat dari judul terlalu luas, terlalu sempit, atau tidak sesuai isi."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penentuan Judul Bacaan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Memahami Topik, Gagasan Pengendali, dan Judul",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Topik bukanlah judul"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Topik merupakan pokok persoalan umum yang sedang dibicarakan, misalnya “ruang baca desa”. Judul harus menyatakan pusat pembahasan secara lebih informatif, misalnya “Perpustakaan Keliling Memperluas Akses Literasi Desa”. Jika judul hanya menyebut satu kegiatan kecil, cakupannya terlalu sempit. Jika judul membahas seluruh pendidikan nasional, cakupannya terlalu luas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gagasan pengendali dan fokus setiap paragraf"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan pengendali ialah arah pembahasan yang mengikat rincian. Dalam bacaan tentang perpustakaan keliling, paragraf awal menjelaskan keterbatasan akses, paragraf berikutnya membahas solusi layanan keliling, dan paragraf terakhir memaparkan penerimaan warga. Judul yang tepat menangkap masalah, tindakan utama, dan hasil yang benar-benar dibahas, bukan sekadar jumlah relawan atau jadwal kunjungan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Empat syarat judul yang layak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Mewakili gagasan utama atau fokus utuh bacaan, bukan satu kalimat terpisah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Memiliki cakupan proporsional: tidak terlalu luas dan tidak terlalu sempit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Tidak menambahkan kepastian, evaluasi, atau informasi yang tidak dinyatakan penulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Menggunakan bahasa ringkas dan jelas sehingga pembaca mengetahui arah teks."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menentukan Judul Secara Bertahap",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Baca kalimat pembuka, peralihan, dan penutup"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat awal umumnya mengenalkan persoalan, sedangkan penanda seperti namun, karena itu, dan dengan demikian menunjukkan perubahan arah gagasan. Pembaca tetap perlu melihat keseluruhan teks karena gagasan utama tidak selalu terletak di kalimat pertama. Setelah menemukan masalah dan solusi, rangkum keduanya dalam satu frasa.",
+              "tambahan": [
+                {
+                  "alasan": "isi di bawah judul bertanda",
+                  "isi": "Kalimat awal umumnya mengenalkan persoalan, sedangkan penanda seperti namun, karena itu, dan dengan demikian menunjukkan perubahan arah gagasan. Pembaca tetap perlu melihat keseluruhan teks karena gagasan utama tidak selalu terletak di kalimat pertama. Setelah menemukan masalah dan solusi, rangkum keduanya dalam satu frasa."
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gunakan matriks cakupan untuk memeriksa opsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Tulis satu frasa yang mewakili topik seluruh bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Ringkas arah utama teks: masalah, penjelasan, kebijakan, atau evaluasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Uji setiap judul: apakah dapat mencakup semua paragraf penting?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Coret judul yang hanya mengutip satu data atau menambahkan klaim baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Pilih judul yang paling spesifik sekaligus mencakup keseluruhan isi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemilihan Gagasan mencakup penentuan judul bacaan, pemilihan diksi yang tepat, penentuan gagasan pelengkap kalimat, dan pelengkapan gagasan paragraf. Penyelesaiannya menuntut pemahaman gagasan utama, ketepatan makna kata, serta hubungan logis antarinformasi agar pilihan sesuai dengan konteks bacaan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Memahami Topik, Gagasan Pengendali, dan Judul",
+        "teks": ""
+      },
+      {
+        "judul": "Topik bukanlah judul",
+        "teks": ""
+      },
+      {
+        "judul": "Gagasan pengendali dan fokus setiap paragraf",
+        "teks": ""
+      },
+      {
+        "judul": "Empat syarat judul yang layak",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menentukan Judul Secara Bertahap",
+        "teks": ""
+      },
+      {
+        "judul": "Baca kalimat pembuka, peralihan, dan penutup",
+        "teks": ""
+      },
+      {
+        "judul": "Gunakan matriks cakupan untuk memeriksa opsi",
+        "teks": ""
+      }
+    ],
+    "pesan": "Melalui materi ini, peserta diharapkan mampu menentukan informasi yang paling tepat berdasarkan isi dan tujuan teks. Kemampuan memahami konteks serta hubungan antargagasan menjadi dasar penting dalam menyelesaikan soal."
+  }
+}

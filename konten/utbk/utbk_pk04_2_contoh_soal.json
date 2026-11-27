@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pola Bilangan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Pola Bilangan",
+    "sumber": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-04-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Aturan Berhenti pada Batas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Femi mempersiapkan lomba lari lintas alam sepanjang 8 km. Ia berlatih sekali setiap pekan selama 16 pekan. Pada pekan pertama jarak latihannya 2 km. Pada setiap pekan berikutnya, jarak latihan bertambah 0,5 km hingga mencapai 8 km. Setelah mencapai jarak itu, latihan berikutnya tetap 8 km. Jarak dihitung dalam kilometer. Jika latihan pada suatu pekan berlangsung, jarak latihan pada pekan tersebut dihitung penuh."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk04_pola_dan_barisan/gambar-11.png",
+              "lebar": 8.7,
+              "tinggi": 0.71
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan manakah yang benar tentang pola jarak latihan Femi?"
+            }
+          ],
+          "opsi": {
+            "A": "Jarak latihan pekan ke-12 adalah 8 km.",
+            "B": "Jarak latihan pekan ke-13 adalah 8 km.",
+            "C": "Jarak latihan pekan ke-14 adalah 9 km.",
+            "D": "Jarak latihan selalu naik 0,5 km sampai pekan ke-16.",
+            "E": "Jarak latihan pekan ke-16 adalah 10 km."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pola bertahap: beda 0,5 hingga ambang 8 km, kemudian konstan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus umumnya adalah: $Uₙ = a +(n−1)b$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a=2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$b=0,5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Model sebelum ambang ialah $Uₙ = 2 + 0,5(n−1)$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada $n=12$, diperoleh 7,5 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada $n=13$, diperoleh 8 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena batas sudah dicapai, pekan ke-14, ke-15, dan ke-16 tetap 8 km."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah; pekan ke-12 masih 7,5 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar; pekan ke-13 tepat mencapai 8 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah; setelah mencapai batas, jarak tetap 8 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah; pertambahan berhenti pada pekan ke-13."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah; jarak pekan ke-16 tetap 8 km."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung selisih menuju batas: (8−2)/0,5 = 12 kenaikan, berarti batas tercapai pada pekan ke-13."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

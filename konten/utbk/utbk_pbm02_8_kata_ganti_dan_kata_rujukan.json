@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "judul": "Kata Ganti dan Kata Rujukan",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Kata Ganti dan Kata Rujukan",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "id_katalog": "pbm-02-8"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penataan gagasan ialah proses menjaga akurasi informasi dan kesinambungan hubungan makna. Satu teks dapat memiliki semua kalimat yang benar secara tata bahasa tetapi tetap sulit dipahami bila urutannya keliru, rujukannya tidak jelas, atau kata hubungnya mengandaikan hubungan yang tidak dibuktikan. Oleh karena itu, peserta perlu membaca unit yang ditanya sekaligus konteks kalimat sebelum dan sesudahnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "prinsip pengacuan pronomina terhadap anteseden yang tepat menurut kedekatan, jumlah, dan kesinambungan tindakan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "acuan kata ganti yang tidak ambigu dengan memadukan posisi anteseden, kecocokan makna, dan konteks tindakan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Kata Ganti dan Kata Rujukan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kata ganti dan kata rujukan membantu penulis menghindari pengulangan, tetapi dapat menimbulkan ambiguitas bila acuan tidak jelas. Anteseden ialah unsur yang dirujuk, misalnya “para relawan” sebagai acuan “mereka”. Pemilihan rujukan tidak hanya mengandalkan kata benda terdekat, melainkan juga jumlah, peran pelaku, kecocokan makna, dan kesinambungan tindakan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengenali anteseden"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam “Siswa menyerahkan laporan kepada guru. Mereka sudah memeriksanya”, kata “mereka” dapat menjadi ambigu jika tidak ada konteks. Rujukan harus ditentukan dari pelaku tindakan yang logis serta informasi sebelumnya; jika dua kelompok sama-sama mungkin, kalimat perlu disunting."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rujukan kata dan kelompok kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Ini”, “itu”, “tersebut”, “hal ini”, dan “kondisi tersebut” dapat merujuk pada benda atau peristiwa sebelumnya. Kata “tersebut” pada “kebijakan tersebut” harus cocok dengan kebijakan yang benar-benar telah disebut, bukan sekadar nomina apa pun yang muncul lebih dekat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kedekatan tidak boleh mengalahkan konteks"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Warga menyumbangkan buku. Relawan memeriksa buku-buku tersebut. Mereka menandai buku yang rusak.” Meskipun warga disebut lebih dahulu, kata “mereka” merujuk pada relawan sebagai subjek pelaksana pemeriksaan yang berlanjut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memperbaiki rujukan ambigu"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika satu kalimat dapat merujuk pada dua pihak yang sama-sama mungkin, ulangi nomina yang spesifik: “Para relawan menyusun laporan”. Kejelasan lebih penting daripada menghindari pengulangan secara mutlak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kata Ganti dan Kata Rujukan. Anteseden = unsur yang dirujuk. Pilih berdasarkan kedekatan + kecocokan makna + kesinambungan pelaku/tindakan; jangan mengandalkan posisi terdekat saja."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Prinsip Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Mengenali anteseden",
+        "teks": ""
+      },
+      {
+        "judul": "Rujukan kata dan kelompok kata",
+        "teks": ""
+      },
+      {
+        "judul": "Kedekatan tidak boleh mengalahkan konteks",
+        "teks": ""
+      },
+      {
+        "judul": "Memperbaiki rujukan ambigu",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan Penataan Gagasan membantu peserta memahami hubungan dan keteraturan informasi dalam teks. Melalui latihan, peserta diharapkan mampu menyusun serta mengevaluasi kalimat dan paragraf secara tepat sesuai kaidah bahasa."
+  }
+}

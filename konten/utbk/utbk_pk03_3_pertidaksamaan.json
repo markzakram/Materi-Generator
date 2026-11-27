@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "judul": "Pertidaksamaan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Pertidaksamaan",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "id_katalog": "pk-03-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Aljabar adalah bahasa matematika untuk menyatakan hubungan yang belum sepenuhnya diketahui. Variabel membantu merepresentasikan informasi yang berubah; persamaan dan pertidaksamaan membantu menerjemahkan syarat; relasi dan fungsi menjelaskan hubungan masukan–keluaran."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menguasai",
+        "teks": "konsep dan representasi."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "prosedur penyelesaian."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "kesahihan langkah, domain, dan batasan konteks."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pertidaksamaan",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pertidaksamaan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertidaksamaan menggunakan $<, >, ≤,$ atau $≥$ untuk menyatakan rentang nilai, bukan selalu satu angka. Himpunan penyelesaian dipilih berdasarkan semesta bilangan, misalnya real atau bilangan bulat. Batas terbuka berarti nilai batas tidak termasuk; batas tertutup berarti nilai batas termasuk."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan Materi dan Penalaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menambah bilangan yang sama pada kedua ruas mempertahankan arah tanda. Mengalikan atau membagi kedua ruas dengan bilangan negatif membalik tanda pertidaksamaan. Jika pengali berupa variabel yang belum diketahui tandanya, operasi tidak boleh dilakukan tanpa pemisahan kasus. Gabungan syarat dapat ditentukan dengan irisan interval."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a < b dan k < 0 ⇒ ak > bk$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2x − 3 ≤ 7 ⇒ x ≤ 5$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Strategi:** ubah teks ke pertidaksamaan, identifikasi domain, isolasi variabel, tandai titik batas, lalu uji satu nilai dalam rentang."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "saat memindahkan ruas, ingat arah ketaksamaan hanya wajib dibalik ketika kali/bagi nilai negatif."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Penjelasan Materi dan Penalaran",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Mengerjakan dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Sembilan subbab Aljabar membentuk satu alur penalaran: memahami simbol dan kesetaraan, menyelesaikan beberapa syarat sekaligus, menilai batas nilai, mengolah hubungan pangkat–logaritma, membaca pemetaan, membalik fungsi yang memenuhi syarat, lalu membangun model dari dunia nyata. Keberhasilan tidak hanya ditentukan oleh memperoleh angka, tetapi juga oleh kemampuan menjelaskan alasan suatu langkah sah dan apakah jawaban memenuhi domain serta konteks."
+  }
+}

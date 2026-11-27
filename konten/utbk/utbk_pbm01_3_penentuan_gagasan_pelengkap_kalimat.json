@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "judul": "Penentuan Gagasan Pelengkap Kalimat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Penentuan Gagasan Pelengkap Kalimat",
+    "sumber": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+    "id_katalog": "pbm-01-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pemilihan gagasan adalah kegiatan menilai alternatif informasi agar selaras dengan pusat pembahasan teks. Bentuk tugasnya beragam: memilih judul satu bacaan, mengganti satu kata yang kurang tepat, menambah gagasan sebagai penghubung kalimat, atau memasukkan kalimat untuk memperkuat paragraf. Keempatnya memiliki prinsip bersama: isi pilihan harus didukung oleh teks dan tidak mengubah arah pembahasan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "fungsi kalimat pelengkap dalam menghubungkan masalah, alasan, akibat, tindakan, dan simpulan."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "gagasan pelengkap kalimat yang tidak menambahkan asumsi di luar bukti."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penentuan Gagasan Pelengkap Kalimat",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Menemukan Hubungan yang Hilang Antargagasan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Fungsi kalimat pelengkap"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pelengkap dapat menjelaskan alasan dari suatu masalah, akibat dari suatu kondisi, atau tindakan yang menjadi jembatan menuju simpulan. Soal tidak sekadar menanyakan kalimat yang bertopik sama. Pilihan harus menjalankan fungsi logis yang diperlukan di antara informasi sebelum dan sesudah bagian kosong."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kenali relasi: sebab, akibat, tujuan, perincian, dan pertentangan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Penanda atau pola",
+                "Fungsi hubungan",
+                "Contoh arah pelengkapan"
+              ],
+              "baris": [
+                [
+                  "karena / sebab",
+                  "Menambahkan alasan",
+                  "Jalur kurang aman karena pesepeda bercampur kendaraan cepat"
+                ],
+                [
+                  "sehingga / akibatnya",
+                  "Menambahkan akibat",
+                  "Konsentrasi garam naik sehingga efek pendinginan melemah"
+                ],
+                [
+                  "agar / untuk",
+                  "Menambahkan tujuan",
+                  "Jalur dipisahkan agar perjalanan lebih aman"
+                ],
+                [
+                  "tetapi / namun",
+                  "Menunjukkan pertentangan",
+                  "Minat bersepeda naik, tetapi keselamatan jalur masih bermasalah"
+                ],
+                [
+                  "karena itu",
+                  "Menarik tindak lanjut",
+                  "Masalah keselamatan → usulan jalur khusus"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tentukan posisi celah dalam alur penjelasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya terdapat kalimat: “Sebagian siswa memilih bersepeda. Akan tetapi, jalur belum aman. [...]. Karena itu, pemerintah harus membuat jalur terpisah.” Bagian kosong memerlukan uraian mengenai sumber bahaya, bukan informasi tentang parkir sepeda atau harga kendaraan. Kalimat “Pesepeda masih berbagi jalur dengan kendaraan cepat” menghubungkan masalah dengan usulan solusi secara langsung."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Pelengkap kalimat harus menjawab kebutuhan HUBUNGAN LOGIS, bukan sekadar mengandung topik yang sama. Uji bagian SEBELUM → ISIAN → SESUDAH sebagai satu rangkaian."
+            }
+          ]
+        },
+        {
+          "tipe": "blok",
+          "judul": "Strategi Menilai Alternatif Kalimat Pelengkap",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Hindari asumsi yang lebih kuat daripada bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Gagasan pelengkap kalimat: tanyakan “KALIMAT APA yang diperlukan agar alasan atau akibat setelahnya menjadi masuk akal?”**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemilihan Gagasan mencakup penentuan judul bacaan, pemilihan diksi yang tepat, penentuan gagasan pelengkap kalimat, dan pelengkapan gagasan paragraf. Penyelesaiannya menuntut pemahaman gagasan utama, ketepatan makna kata, serta hubungan logis antarinformasi agar pilihan sesuai dengan konteks bacaan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Menemukan Hubungan yang Hilang Antargagasan",
+        "teks": ""
+      },
+      {
+        "judul": "Fungsi kalimat pelengkap",
+        "teks": ""
+      },
+      {
+        "judul": "Kenali relasi: sebab, akibat, tujuan, perincian, dan pertentangan",
+        "teks": ""
+      },
+      {
+        "judul": "Tentukan posisi celah dalam alur penjelasan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Menilai Alternatif Kalimat Pelengkap",
+        "teks": ""
+      },
+      {
+        "judul": "Hindari asumsi yang lebih kuat daripada bukti",
+        "teks": ""
+      }
+    ],
+    "pesan": "Melalui materi ini, peserta diharapkan mampu menentukan informasi yang paling tepat berdasarkan isi dan tujuan teks. Kemampuan memahami konteks serta hubungan antargagasan menjadi dasar penting dalam menyelesaikan soal."
+  }
+}

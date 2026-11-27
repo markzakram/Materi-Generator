@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Kata Rumpang",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Kata Rumpang",
+    "sumber": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-03-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah bentuk kata yang paling tepat untuk melengkapi kalimat berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Pemerintah tengah berupaya _______ sistem pengawasan agar penyelewengan dana publik dapat diminimalkan.”"
+            }
+          ],
+          "opsi": {
+            "A": "menguat",
+            "B": "menguatkan",
+            "C": "dikuatkan",
+            "D": "menguatkannya",
+            "E": "dipermenguatkan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban B Benar karena: Pola kalimat \"Pemerintah (S) + berupaya (P) + ... (Pelengkap/Objek)\" membutuhkan verba transitif aktif agar bisa diikuti objek \"sistem pengawasan\". Kata \"menguatkan\" adalah verba aktif transitif yang tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan opsi lain salah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menguat: Verba intransitif (tidak butuh objek), contoh: \"Angin menguat\"."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Dikuatkan: Verba pasif, tidak cocok dengan struktur aktif \"berupaya...\"."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menguatkannya: Akhiran \"-nya\" mubazir karena objek \"sistem pengawasan\" sudah disebutkan eksplisit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Dipermenguatkan: Bentuk kata yang tidak baku dan rancu."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Perpustakaan kota semula menerima pengembalian buku hingga pukul delapan malam. (2) Selama renovasi, loket pengembalian akan tutup dua jam lebih awal. (3) Buku yang dipinjam sebelum renovasi tetap bisa dikembalikan sesuai jadwal semula melalui kotak pengembalian di luar gedung. (4) Untuk peminjaman baru, pengelola akan ____ ketentuan jam pengembalian yang tercetak pada bukti pinjam mulai Senin. (5) Ketentuan itu sudah disusun dan diumumkan pekan lalu, tetapi baru wajib diikuti pada tanggal tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lengkapi kalimat (4) dengan satu kata berimbuhan dari bentuk dasar berlaku. Tuliskan katanya saja."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: memberlakukan**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk berimbuhan dipilih berdasarkan peran subjek dan maksud bacaan. Pada kalimat (4), pengelola melakukan tindakan terhadap ketentuan yang sudah disusun."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara membaca soal",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat (5) menunjukkan bahwa ketentuannya sudah ada. Yang dilakukan pengelola mulai Senin adalah membuat ketentuan itu mulai berlaku bagi peminjam baru. Bentuk memberlakukan menyatakan tindakan tersebut. Bentuk berlaku bisa dipakai jika ketentuan menjadi subjek, seperti pada “Ketentuan itu berlaku mulai Senin.”"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cek siapa subjeknya. Jika subjeknya pengelola dan tindakannya membuat suatu ketentuan mulai berlaku, isi rumpangnya dengan memberlakukan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

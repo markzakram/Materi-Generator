@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "judul": "Bangun Ruang",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Bangun Ruang",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "id_katalog": "pk-05-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri berangkat dari titik, garis, bidang, serta hubungan antarelemen. Dalam geometri bidang, keliling berbeda dengan luas; dalam ruang, luas permukaan berbeda dengan volume. Penalaran geometris juga membutuhkan penggunaan skala, kesebangunan, dan sudut. Sebuah gambar yang terlihat proporsional tidak selalu digambar sesuai skala, sehingga semua kesimpulan harus didasarkan pada informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "unsur dan jaring-jaring."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "volume/luas permukaan."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "efek perubahan ukuran."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bangun Ruang",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bangun Ruang",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bangun ruang memiliki panjang, lebar, dan tinggi. Volume mengukur ruang yang ditempati, sedangkan luas permukaan mengukur total luas bidang pembatas. Saat menghitung luas permukaan, pastikan bidang yang menempel atau terbuka tidak ikut dihitung jika konteks tidak memerlukannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Volume dan Luas Permukaan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bangun",
+                "Volume",
+                "Luas permukaan"
+              ],
+              "baris": [
+                [
+                  "Kubus rusuk $s$",
+                  "$s³$",
+                  "$6s²$"
+                ],
+                [
+                  "Balok $p,l,t$",
+                  "$p·l·t$",
+                  "$2(pl+pt+lt)$"
+                ],
+                [
+                  "Prisma alas $A$, keliling $K$, tinggi $t$",
+                  "$A·t$",
+                  "$2A+Kt$"
+                ],
+                [
+                  "Limas alas $A$, tinggi $t$",
+                  "$(1/3)At$",
+                  "$A+jumlah luas sisi tegak$"
+                ],
+                [
+                  "Tabung $r,t$",
+                  "$πr²t$",
+                  "$2πr(r+t)$"
+                ],
+                [
+                  "Kerucut $r,t,$ garis pelukis $s$",
+                  "$(1/3)πr²t$",
+                  "$πr(r+s)$"
+                ],
+                [
+                  "Bola $r$",
+                  "$(4/3)πr³$",
+                  "$4πr²$"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perubahan Ukuran dan Pengukuran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika semua panjang diperbesar $k$ kali, luas permukaan menjadi $k²$ kali, sedangkan volume menjadi $k³$ kali. Faktor skala tersebut berlaku pada bangun serupa dengan perubahan seragam di seluruh dimensi, bukan ketika hanya satu sisi berubah."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Panjang baru = k · panjang; luas baru = k^{2} · luas; volume baru = k^{3} · volume$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gambar alas, tinggi tegak, dan bidang pembatasnya; gunakan rumus sesuai tipe bangun; periksa apakah soal menanyakan volume, luas permukaan total, atau luas selimut saja. Pada prisma, cari luas alas lebih dahulu. Ingat satuan volume berpangkat tiga."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus Volume dan Luas Permukaan",
+        "teks": ""
+      },
+      {
+        "judul": "Perubahan Ukuran dan Pengukuran",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Geometri dan Pengukuran menuntut peserta menghubungkan sifat bangun, ukuran, satuan, dan representasi gambar. Pahami konsep dan syarat model sebelum memakai rumus, terutama pada bangun gabungan, skala, diagram sudut, dan trigonometri. Dengan membandingkan alternatif penyelesaian dan memeriksa kewajaran satuan, peserta dapat menyelesaikan soal secara lebih akurat, tidak sekadar cepat."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penentuan Kalimat Ringkas",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penentuan Kalimat Ringkas",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-8-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Dalam laporan evaluasi tertulis kalimat berikut: “Para siswa yang merupakan peserta didik di sekolah tersebut pada saat ini sekarang dapat melakukan pengecekan terhadap ketersediaan buku melalui aplikasi digital yang telah disediakan oleh pihak sekolah.” Perbaikan yang paling ringkas tanpa menghilangkan informasi pokok kalimat tersebut adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Siswa sekarang dapat memeriksa ketersediaan buku melalui aplikasi sekolah.",
+            "B": "Semua siswa wajib meminjam buku melalui aplikasi sekolah.",
+            "C": "Sekolah menyediakan aplikasi untuk menggantikan seluruh kegiatan perpustakaan.",
+            "D": "Para siswa yang belajar di sekolah tersebut kini dapat melakukan pengecekan buku secara digital melalui aplikasi yang disediakan.",
+            "E": "Siswa dapat menggunakan aplikasi sekolah untuk membaca seluruh buku secara daring."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Meringkas kalimat dengan mempertahankan pesan dan hubungan informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Temukan subjek, tindakan, objek, dan keterangan pembatas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Hapus frasa bersinonim yang berulang dan ubah nominalisasi menjadi verba bila memungkinkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Jaga cakupan kuantitas, waktu, sarana, dan maksud."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar. Pelaku, waktu, tindakan, objek, dan sarana tetap ada tanpa pengulangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah. Menambahkan kewajiban yang tidak dinyatakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah. Mengubah fungsi aplikasi menjadi pengganti seluruh kegiatan perpustakaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah. Masih bertele-tele dan menghilangkan ketepatan objek berupa ketersediaan buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah. Mengubah pemeriksaan ketersediaan menjadi kegiatan membaca buku daring."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "RINGKAS = HEMAT + UTUH. Cari nominalisasi (“melakukan pemeriksaan” → “memeriksa”), tetapi jangan buang pembatas jumlah, waktu, lokasi, atau kepastian."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

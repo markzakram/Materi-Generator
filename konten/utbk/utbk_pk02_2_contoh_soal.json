@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Harga",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Harga",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-02-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Harga satuan setelah bonus",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu paket minuman terdiri atas 4 botol berbayar dengan harga Rp24.000 dan bonus 2 botol. Harga efektif setiap botol yang diterima adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp3.000",
+            "B": "Rp4.000",
+            "C": "Rp4.800",
+            "D": "Rp6.000",
+            "E": "Rp8.000"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Harga satuan efektif harus menggunakan semua unit yang diterima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Enam botol diterima dengan pembayaran Rp24.000 sehingga harga efektif = Rp24.000 ÷ 6 = Rp4.000 per botol."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Harga efektif bukan Rp3.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar: 24.000/6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Menggunakan 5 botol, bukan 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mengabaikan dua bonus dan hanya menghitung 4 botol."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Melebihi harga unit berbayar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Total diterima = 4 + 2; bagi pembayaran dengan enam."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Dua pilihan harga bersyarat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Toko A menawarkan paket 6 bolpoin seharga Rp42.000. Toko B menjual bolpoin Rp6.500 per buah dengan biaya pengemasan tetap Rp3.000 per transaksi. Untuk tepat 6 bolpoin, pilihan yang lebih murah adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Toko A lebih murah Rp1.000",
+            "B": "Toko A lebih murah Rp2.000",
+            "C": "Toko B lebih murah Rp1.000",
+            "D": "Toko B lebih murah Rp2.000",
+            "E": "Harga keduanya sama"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Biaya tetap memengaruhi perbandingan penawaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko A = Rp42.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Toko B = 6 × Rp6.500 + Rp3.000 = Rp42.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi biaya sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak terdapat selisih Rp1.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak terdapat selisih Rp2.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Toko B tidak lebih murah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak ada selisih Rp2.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar, total keduanya Rp42.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung total semua komponen untuk 6 unit, jangan membandingkan harga satuan mentah."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

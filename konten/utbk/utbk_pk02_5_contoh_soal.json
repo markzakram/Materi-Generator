@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Angsuran",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Angsuran",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-02-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Total pembayaran cicilan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perangkat dibeli dengan uang muka Rp600.000 dan 10 cicilan bulanan masing-masing Rp230.000. Ada biaya administrasi satu kali Rp100.000. Total pembayaran adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp2.700.000",
+            "B": "Rp2.800.000",
+            "C": "Rp2.900.000",
+            "D": "Rp3.000.000",
+            "E": "Rp3.100.000"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menjumlah semua komponen pembiayaan nominal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total 10 cicilan = 10 × 230.000 = 2.300.000. Tambahkan uang muka 600.000 dan admin 100.000 sehingga total = Rp3.000.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak mencakup seluruh biaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kurang Rp200.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Mengabaikan sebagian komponen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar, 600.000 + 2.300.000 + 100.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu besar Rp100.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jumlahkan uang muka + n × cicilan + admin."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menilai dua skema",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Skema A meminta uang muka Rp500.000 dan 12 cicilan Rp200.000 tanpa biaya lain. Skema B meminta uang muka Rp800.000 dan 10 cicilan Rp205.000 ditambah administrasi Rp50.000. Skema dengan total pembayaran nominal lebih rendah adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "A lebih murah Rp50.000",
+            "B": "A lebih murah Rp100.000",
+            "C": "B lebih murah Rp50.000",
+            "D": "B lebih murah Rp100.000",
+            "E": "Keduanya sama"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Membandingkan total beban nominal dengan tenor berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A = 500.000 + 12 × 200.000 = 2.900.000. B = 800.000 + 10 × 205.000 + 50.000 = 2.900.000. Total nominal sama meskipun tenor dan pembayaran awal berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Total A bukan lebih murah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak ada selisih."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Total B bukan lebih murah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak ada selisih."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar; jumlahnya sama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan tabel uang muka, cicilan × tenor, biaya sekali bayar."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

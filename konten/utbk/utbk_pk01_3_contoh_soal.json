@@ -1,0 +1,706 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Rasio/Perbandingan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Rasio-Perbandingan",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-01-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Rasio dari data tabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Femi mempersiapkan lomba lari lintas alam sepanjang 8 km. Ia berlatih sekali setiap pekan selama 16 pekan. Pada pekan pertama jarak latihannya 2 km. Pada setiap pekan berikutnya, jarak latihan bertambah 0,5 km hingga mencapai 8 km. Setelah mencapai jarak itu, latihan berikutnya tetap 8 km. Jarak dihitung dalam kilometer. Jika latihan pada suatu pekan berlangsung, jarak latihan pada pekan tersebut dihitung penuh."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pekan ke-",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "baris": [
+                [
+                  "Jarak (km)",
+                  "2",
+                  "2,5",
+                  "3",
+                  "3,5",
+                  "4"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan jarak latihan pada pekan pertama dan pekan kelima adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "1 : 2",
+            "B": "2 : 3",
+            "C": "3 : 4",
+            "D": "4 : 5",
+            "E": "5 : 6"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mengidentifikasi hubungan dua besaran dan menyederhanakan rasio dengan urutan yang tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua jarak sudah dalam satuan yang sama, yaitu km. $Rasio pertama : kelima = 2 : 4.$ Kedua suku dibagi 2 menjadi $1 : 2$. Tidak diperlukan seluruh informasi tentang 16 pekan karena yang ditanya hanya dua pekan tertentu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar; 2 : 4 disederhanakan menjadi 1 : 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak sesuai dengan 2 : 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak ekuivalen dengan 2 : 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak ekuivalen dengan 2 : 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak ekuivalen dengan 2 : 4."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ambil dua nilai yang ditanyakan, tulis sesuai urutan, lalu bagi keduanya dengan FPB."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pembagian berdasarkan jumlah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan uang yang dikumpulkan tim A dan tim B adalah 2 : 5. Jika jumlah uang kedua tim Rp259.000,00, pasangan jumlah uang tim A dan B adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp74.000 dan Rp185.000",
+            "B": "Rp86.000 dan Rp173.000",
+            "C": "Rp75.000 dan Rp184.000",
+            "D": "Rp68.000 dan Rp191.000",
+            "E": "Rp82.000 dan Rp177.000"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menentukan nilai tiap bagian dari jumlah dan rasio yang diketahui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Total bagian = 2 + 5 = 7$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Nilai satu bagian = Rp259.000 ÷ 7 = Rp37.000$."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Uang tim A = 2 × Rp37.000 = Rp74.000.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Uang tim B = 5 × Rp37.000 = Rp185.000.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya berjumlah $Rp259.000$ dan memiliki rasio $2 : 5$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar; jumlah dan rasio sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Jumlah benar tetapi rasio tidak 2 : 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Jumlah benar tetapi rasio tidak 2 : 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Jumlah benar tetapi rasio tidak 2 : 5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Jumlah benar tetapi rasio tidak 2 : 5."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "$2/7 × 259.000 dan 5/7 × 259.000$; cek jumlah."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Rasio tiga besaran dari informasi parsial",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan jumlah permen Ahmad, Eko, dan Uya adalah 6 : 4 : 2. Jumlah permen Ahmad dan Eko adalah 55. Jumlah permen ketiganya adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 66**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menentukan nilai total dari jumlah sebagian kelompok pada rasio tiga besaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ahmad dan Eko mempunyai $6 + 4 = 10$ bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sepuluh bagian sama dengan 55, maka satu bagian bernilai 5,5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total bagian ketiga orang $= 6 + 4 + 2 = 12$, sehingga total $= 12 × 5,5 = 66$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masing-masing nilai adalah 33, 22, dan 11 permen; semuanya bilangan bulat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jangan membagi 55 dengan 12, karena 55 hanya jumlah Ahmad dan Eko. Hitung $(12/10) × 55 = 66$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Rasio tiga kelompok",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan kelereng Afif, Haris, dan Ilhan adalah 3 : 7 : 9. Jumlah kelereng Afif dan Ilhan adalah 96. Jumlah kelereng ketiganya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "135",
+            "B": "152",
+            "C": "160",
+            "D": "240",
+            "E": "285"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menentukan nilai seluruh kelompok dari jumlah dua kelompok yang tidak berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Afif dan Ilhan menempati $3 + 9 = 12$ bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena jumlahnya 96, maka satu bagian $= 8$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah bagian semuanya $3 + 7 + 9 = 19$ sehingga total kelereng $= 19 × 8 = 152$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah tiap orang: $24, 56, 72; 24 + 72 = 96$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 135 bukan hasil $19 × 8$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar; 152 dari 19 bagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak cocok dengan nilai bagian yang diketahui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Hanya cocok jika faktor pengalinya salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak memenuhi jumlah Afif dan Ilhan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari satu bagian dari dua kelompok yang disebut: $96/(3+9)=8$, lalu $8×(3+7+9)=152$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Perbandingan berdasar selisih",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan banyak karyawan perempuan dan laki-laki adalah 3 : 5. Jika selisih kedua kelompok adalah 30 orang, jumlah seluruh karyawan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "80 orang",
+            "B": "95 orang",
+            "C": "110 orang",
+            "D": "112 orang",
+            "E": "120 orang"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menggunakan selisih bagian untuk memodelkan jumlah, bukan jumlah bagian secara langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih bagian $= 5 − 3 = 2$ bagian, setara 30 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu bagian berarti 15 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Total = (3+5) × 15 = 120$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perempuan = 45, laki-laki = 75; selisihnya tepat 30 orang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Jumlah terlalu kecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak memenuhi rasio 3 : 5 dan selisih 30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak memenuhi rasio 3 : 5 dan selisih 30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak memenuhi rasio 3 : 5 dan selisih 30."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar; 120 orang dengan rincian 45 dan 75."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "$Jumlah = (jumlah bagian/selisih bagian) × selisih aktual$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$= (8/2)×30 = 120$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Rasio bertingkat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perpustakaan menyimpan buku pada tiga rak, yaitu A, B, dan C. Perbandingan jumlah buku di rak A dan B adalah 2 : 3, sedangkan perbandingan jumlah buku di rak B dan C adalah 4 : 5. Jumlah seluruh buku pada ketiga rak tersebut adalah 140 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengelola perpustakaan berencana memindahkan sebagian buku antarrak tanpa mengubah jumlah keseluruhan buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika 8 buku dipindahkan dari rak C ke rak A, jumlah buku di rak A dan B menjadi sama.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika 12 buku dipindahkan dari rak C ke rak B, perbandingan jumlah buku di rak B dan C menjadi 5 : 4.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Agar jumlah buku di ketiga rak sama, cukup memindahkan 8 buku dari rak C ke rak A dan 4 buku dari rak B ke rak A.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menyatukan rasio bertingkat, menentukan jumlah aktual, dan menganalisis perubahan perbandingan akibat perpindahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Samakan bagian B dari kedua rasio."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A : B = 2 : 3 = 8 : 12"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B : C = 4 : 5 = 12 : 15"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A : B : C = 8 : 12 : 15"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total bagian = 8 + 12 + 15 = 35."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai satu bagian = 140 ÷ 35 = 4 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah buku mula-mula adalah:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Rak A = 8 × 4 = 32 buku.",
+                "Rak B = 12 × 4 = 48 buku.",
+                "Rak C = 15 × 4 = 60 buku."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 8 buku dipindahkan dari rak C ke rak A:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak A = 32 + 8 = 40 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak B = 48 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 40 ≠ 48, jumlah buku kedua rak tidak sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 12 buku dipindahkan dari rak C ke rak B:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak B = 48 + 12 = 60 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak C = 60 − 12 = 48 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan B : C = 60 : 48 = 5 : 4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pernyataan (2) Benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 8 buku dipindahkan dari rak C ke rak A dan 4 buku dari rak B ke rak A:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak A = 32 + 8 + 4 = 44 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak B = 48 − 4 = 44 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rak C = 60 − 8 = 52 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah buku ketiga rak belum sama sehingga pernyataan (3) salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Salah – Benar – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Satukan rasio menjadi 8 : 12 : 15, lalu hitung jumlah buku awal (32, 48, 60). Untuk setiap pernyataan, perbarui jumlah buku pada rak yang terlibat dan periksa kembali kondisi yang diminta."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Perubahan rasio akibat perpindahan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak siswa di kelompok A dan B mula-mula berbanding 3 : 5. Setelah 6 siswa berpindah dari kelompok B ke A, perbandingannya menjadi 1 : 1. Jumlah seluruh siswa adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "36 siswa",
+            "B": "42 siswa",
+            "C": "48 siswa",
+            "D": "54 siswa",
+            "E": "60 siswa"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menganalisis rasio sebelum dan setelah perpindahan dengan total yang tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan $A=3k$ dan $B=5k$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sesudah perpindahan, $A=3k+6$ dan $B=5k−6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena menjadi $1:1$, keduanya sama: $3k+6=5k−6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi $2k=12$ dan $k=6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total awal $= 8k=48.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan: awal $A=18, B=30$; sesudah perpindahan $A=24$ dan $B=24.$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak memenuhi keseimbangan sesudah perpindahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak memenuhi model $3k+6=5k−6$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar; 48 siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Total terlalu besar untuk $k=6$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Total tidak memenuhi rasio awal dan rasio baru."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika perpindahan membuat dua kelompok sama, selisih awal $(5−3)k = 2×6$, sehingga $k=6.$"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

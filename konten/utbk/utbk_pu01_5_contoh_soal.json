@@ -1,0 +1,435 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Evaluasi Argumen: Memperkuat dan Memperlemah",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Contoh Soal Evaluasi Argumen - Memperkuat dan Memperlemah",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "bagian": "soal",
+    "id_katalog": "pu-01-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menggunakan Perbandingan dan Kelompok Kontrol",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah mengadakan kelas pendampingan membaca pada awal semester. Pada akhir semester, rata-rata nilai pemahaman bacaan peserta meningkat. Kepala sekolah menyatakan bahwa kelas pendampingan membantu meningkatkan kemampuan membaca siswa. Informasi tambahan manakah yang PALING MEMPERKUAT pernyataan kepala sekolah?"
+            }
+          ],
+          "opsi": {
+            "A": "Peserta pendampingan menunjukkan peningkatan minat membaca selama semester berlangsung.",
+            "B": "Peserta pendampingan memiliki nilai akhir lebih tinggi daripada siswa kelas lainnya.",
+            "C": "Sekolah memberikan bahan bacaan tambahan kepada seluruh siswa selama semester berlangsung.",
+            "D": "Peserta pendampingan mengalami peningkatan nilai lebih besar daripada kelompok pembanding yang setara.",
+            "E": "Guru pendamping menerapkan metode pembelajaran yang berbeda pada setiap pertemuan."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep yang digunakan adalah Evaluasi Argumen – Memperkuat melalui Bukti Pembanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti pembanding digunakan untuk menilai apakah suatu perubahan lebih mungkin berkaitan dengan program yang dilaksanakan. Perbandingan yang kuat melibatkan kelompok dengan kondisi awal yang sebanding sehingga perbedaan hasil lebih relevan untuk mengevaluasi pengaruh program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kepala sekolah menyimpulkan bahwa kelas pendampingan membantu meningkatkan kemampuan membaca siswa karena nilai pemahaman bacaan peserta meningkat setelah mengikuti program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, peningkatan nilai saja belum cukup membuktikan bahwa program pendampingan memberikan kontribusi. Peningkatan tersebut mungkin juga dipengaruhi oleh pembelajaran reguler atau faktor lainnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan D memberikan bukti yang lebih kuat karena peserta pendampingan mengalami peningkatan nilai yang lebih besar dibandingkan kelompok pembanding dengan kondisi awal yang setara. Perbedaan peningkatan tersebut mendukung dugaan bahwa kelas pendampingan memberikan manfaat tambahan terhadap kemampuan membaca siswa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kurang tepat. Peningkatan minat membaca merupakan perkembangan positif, tetapi tidak secara langsung membuktikan bahwa kelas pendampingan berkontribusi terhadap peningkatan nilai pemahaman bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kurang tepat. Nilai akhir yang lebih tinggi belum cukup membuktikan pengaruh program karena kemampuan awal kedua kelompok mungkin berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Kurang tepat. Pemberian bahan bacaan tambahan kepada seluruh siswa merupakan faktor lain yang mungkin memengaruhi hasil pembelajaran, sehingga tidak secara khusus memperkuat pengaruh kelas pendampingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Kurang tepat. Variasi metode pembelajaran menjelaskan pelaksanaan program, tetapi tidak menunjukkan apakah program tersebut benar-benar menghasilkan peningkatan kemampuan membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang paling tepat adalah D."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Menggunakan Teknik K–A–B–U",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "K — Kesimpulan: Kelas pendampingan membantu meningkatkan kemampuan membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Alasan: Nilai pemahaman bacaan peserta meningkat setelah program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Bukti: Kelompok pendampingan mengalami peningkatan lebih besar daripada kelompok pembanding yang setara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "U — Uji: Bukti tersebut membuat kontribusi kelas pendampingan lebih meyakinkan dibandingkan sekadar mengetahui bahwa nilai peserta meningkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Trik cepat:** Untuk soal yang menanyakan efektivitas program, cari opsi yang menunjukkan perbandingan perubahan hasil, bukan hanya nilai akhir, kepuasan peserta, atau kegiatan selama program."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menguji Kekuatan Bukti",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sekolah menerapkan program latihan soal berbasis aplikasi selama dua bulan. Setelah program berlangsung, rata-rata nilai peserta meningkat. Kepala sekolah menyimpulkan bahwa **program latihan soal tersebut membantu meningkatkan hasil belajar siswa**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengevaluasi kesimpulan tersebut, tim akademik mengumpulkan beberapa informasi tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan informasi berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Siswa yang mengikuti program mengalami peningkatan nilai lebih besar dibandingkan kelompok pembanding yang memiliki kemampuan awal setara dan tidak mengikuti program."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Sebagian besar peserta menyatakan bahwa tampilan aplikasi menarik dan mudah digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Kedua kelompok memperoleh materi, waktu pembelajaran reguler, dan bentuk evaluasi yang sama selama periode pengamatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Pada periode yang sama, peserta program juga mengikuti bimbingan belajar tambahan yang tidak diikuti kelompok pembanding."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Hasil evaluasi menunjukkan bahwa peningkatan nilai peserta program tetap lebih besar ketika dibandingkan dengan kelompok pembanding pada beberapa pengukuran menggunakan prosedur penilaian yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Berdasarkan informasi tersebut, berapa banyak informasi tambahan yang memperkuat kesimpulan kepala sekolah?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam bentuk angka.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 3**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Evaluasi argumen melalui bukti pembanding, kesetaraan kondisi, dan penyebab alternatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (1) Memperkuat.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan nilai yang lebih besar pada kelompok peserta program dibandingkan kelompok pembanding dengan kemampuan awal setara mendukung dugaan bahwa program memberikan kontribusi terhadap peningkatan hasil belajar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (2) Tidak secara langsung memperkuat.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tampilan aplikasi yang menarik dan mudah digunakan menunjukkan pengalaman pengguna yang positif. Namun, informasi tersebut tidak membuktikan bahwa program berkontribusi terhadap peningkatan nilai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (3) Memperkuat.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesamaan materi, waktu pembelajaran reguler, dan bentuk evaluasi membantu mengurangi kemungkinan bahwa perbedaan peningkatan nilai disebabkan oleh faktor-faktor tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, perbandingan kedua kelompok menjadi lebih kuat untuk mengevaluasi pengaruh program."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (4) Memperlemah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bimbingan belajar tambahan yang hanya diikuti peserta program merupakan penyebab alternatif yang masuk akal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan nilai yang lebih besar mungkin dipengaruhi oleh bimbingan tambahan tersebut, sehingga kontribusi program aplikasi menjadi lebih sulit dipastikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi (5) Memperkuat.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil yang konsisten pada beberapa pengukuran dengan prosedur penilaian yang sama memberikan dukungan tambahan terhadap kesimpulan kepala sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meskipun demikian, hasil tersebut tetap tidak membuktikan bahwa program merupakan satu-satunya penyebab peningkatan nilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, informasi yang memperkuat adalah nomor **1, 3, dan 5**, sehingga jumlahnya **3**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik K–A–B–U (Kesimpulan → Alasan → Bukti → Uji). Tentukan klaim utama, lalu nilai apakah setiap informasi membuat klaim lebih kuat, lebih lemah, atau tidak memberikan dukungan langsung."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Evaluasi Argumen: Memperkuat dan Memperlemah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan menerapkan sistem pemeriksaan kualitas otomatis untuk mengurangi jumlah produk cacat yang dikirim kepada pelanggan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum sistem diterapkan, rata-rata terdapat 40 produk cacat yang lolos pemeriksaan setiap bulan. Setelah sistem digunakan selama tiga bulan, jumlah tersebut menurun menjadi rata-rata 15 produk per bulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Manajer produksi menyimpulkan bahwa **sistem pemeriksaan otomatis merupakan penyebab utama berkurangnya produk cacat yang terkirim**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, perusahaan belum melakukan pengujian terpisah untuk mengetahui pengaruh sistem otomatis terhadap hasil pemeriksaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah** mengenai kekuatan argumen manajer."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika jumlah produk cacat yang dihasilkan sebelum pemeriksaan tetap relatif sama, tetapi semakin sedikit yang lolos pemeriksaan, informasi tersebut memperkuat kesimpulan manajer.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika perusahaan juga meningkatkan kualitas bahan baku sehingga jumlah produk cacat sejak awal berkurang, informasi tersebut memperkuat klaim bahwa sistem pemeriksaan otomatis merupakan penyebab utama penurunan produk cacat yang terkirim.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika ditemukan bahwa sistem otomatis mampu mendeteksi jenis kerusakan yang sebelumnya sering lolos dari pemeriksaan manual, informasi tersebut memperkuat kesimpulan manajer.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Jika jumlah produksi bulanan menurun tajam setelah sistem diterapkan, faktor tersebut tidak perlu dipertimbangkan karena tidak berkaitan dengan jumlah produk cacat yang terkirim.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Memperkuat dan memperlemah argumen melalui pemeriksaan relevansi bukti, mekanisme sebab-akibat, dan penyebab alternatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika jumlah produk cacat yang dihasilkan sebelum pemeriksaan relatif tetap, tetapi semakin sedikit produk cacat yang lolos pemeriksaan, terdapat dukungan bahwa proses pemeriksaan menjadi lebih efektif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut mengurangi kemungkinan bahwa penurunan produk cacat yang terkirim hanya disebabkan oleh berkurangnya jumlah cacat sejak proses produksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, kesimpulan manajer menjadi lebih kuat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan kualitas bahan baku dapat menyebabkan produk yang dihasilkan sejak awal memiliki lebih sedikit kerusakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kondisi tersebut terjadi pada periode yang sama, penurunan jumlah produk cacat yang terkirim mungkin tidak terutama disebabkan oleh sistem pemeriksaan otomatis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi tersebut merupakan **penyebab alternatif yang melemahkan klaim manajer**, bukan memperkuatnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika sistem otomatis terbukti mampu menemukan jenis kerusakan yang sebelumnya sering lolos dari pemeriksaan manual, terdapat bukti yang langsung menjelaskan cara kerja sistem dalam mengurangi produk cacat yang terkirim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini mendukung mekanisme sebab-akibat yang diklaim manajer."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, kesimpulan manajer semakin kuat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penurunan jumlah produksi dapat memengaruhi jumlah produk cacat yang dihasilkan dan berpotensi mengurangi jumlah produk cacat yang terkirim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, jika jumlah produk yang diproduksi jauh lebih sedikit, jumlah produk cacat yang lolos juga mungkin berkurang meskipun efektivitas pemeriksaannya tidak berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, perubahan volume produksi perlu diperiksa sebagai faktor alternatif sebelum menetapkan penyebab utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik K–A–B–U. Identifikasi klaim bahwa sistem otomatis merupakan penyebab utama, lalu periksa apakah informasi tambahan mendukung mekanisme pemeriksaan atau justru menunjukkan penyebab alternatif. Ingat bahwa bukti yang memperkuat tidak harus membuktikan klaim secara mutlak, sedangkan bukti yang memperlemah tidak harus membuktikan klaim salah."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

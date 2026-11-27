@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Kombinasi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Kombinasi",
+    "sumber": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-07-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Memilih Tim",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari tujuh anggota klub dipilih tiga orang menjadi tim dengan tugas yang sama. Banyak tim yang dapat terbentuk adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "21",
+            "B": "28",
+            "C": "35",
+            "D": "42",
+            "E": "210"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kombinasi tiga dari tujuh karena urutan tidak membedakan tim."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah tim"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(7,3)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(7!)/(3!4!)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(7×6×5)/(3×2×1)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=35.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(7, 3) = 7!/(3!4!) = 35$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A,B,D tidak sesuai pembagian faktorial; E adalah P(7,3) tanpa menghilangkan urutan; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pakai kombinasi karena yang dinilai anggota tim, bukan jabatan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pemilihan Warna",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari empat burung hitam yang dapat dibedakan, dua dipilih untuk diamati bersama tanpa penugasan. Berapa cara pemilihan?"
+            }
+          ],
+          "opsi": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12",
+            "E": "16"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kombinasi 2 objek dari 4 tanpa urutan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(4,2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4!/(2!2!)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan $(A,B)$ sama dengan $(B,A).$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(4, 2) = 6$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A terlalu sedikit; C,D,E menghitung susunan yang tidak berbeda sebagai hasil lain; B benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pilih dua objek dari empat: 4×3÷2."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Syarat Minimal Satu",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah komunitas memiliki 5 anggota kelompok X dan 6 anggota kelompok Y. Dipilih tiga orang tanpa jabatan, dan minimal satu orang harus dari kelompok Y. Banyak cara memilih adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "120",
+            "B": "135",
+            "C": "145",
+            "D": "155",
+            "E": "165"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Teknik komplemen pada kombinasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seluruh pilihan $C(11,3)=165.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kasus tanpa Y berarti memilih tiga dari lima anggota X, yaitu $C(5,3)=10.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil $165−10=155.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(11, 3) − C(5, 3) = 165 − 10 = 155$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A,B,C terlalu kecil; E memasukkan tim tanpa anggota Y; D benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Total semua dikurangi yang sama sekali tidak memenuhi syarat."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

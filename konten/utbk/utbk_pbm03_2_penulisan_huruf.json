@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "judul": "Penulisan Huruf",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Penulisan Huruf",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "id_katalog": "pbm-03-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Suatu pilihan dapat salah karena ejaan tidak baku, penggunaan huruf kapital yang tidak tepat, bentuk kata yang tidak sesuai, konjungsi yang mengubah relasi, atau hasil penyuntingan yang menghapus informasi. Masing-masing kesalahan membutuhkan teknik pemeriksaan berbeda. Karena itu, peserta sebaiknya mengidentifikasi “apa yang sedang diuji” sebelum menyunting kata atau kalimat."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "kapitalisasi pada nama diri dan kata umum secara konsisten."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penulisan Huruf",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Ruang Lingkup",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf kapital mengikuti fungsi kata di dalam kalimat, bukan penilaian penulis terhadap pentingnya suatu kata. Nama resmi, nama tempat, nama hari, dan awal kalimat memiliki aturan yang berbeda dari kata jenis atau sebutan umum."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan Konseptual"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Awal kalimat, hari, dan tempat",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Huruf pertama awal kalimat menggunakan kapital. Nama hari, bulan, serta nama geografis seperti Senin, November, dan Bandung juga berawal kapital. Akan tetapi, kata umum hari, bulan, sekolah, museum, atau gedung tidak otomatis berkapital."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Nama diri lembaga dan bangunan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika “Museum Geologi” merupakan nama resmi, kedua unsurnya diawali kapital. Pada “sebuah museum di Bandung”, museum hanyalah penunjuk jenis, sehingga ditulis dengan huruf kecil."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Membedakan nama resmi dari jenis",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Frasa “Gedung Sate” menggunakan kapital karena menunjuk nama diri, sedangkan “gedung sekolah” menggunakan huruf kecil karena hanya menyebut jenis tempat. Periksa fungsi frasa di dalam kalimat, bukan hanya bentuk katanya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Menguji keseluruhan pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal lima opsi, satu kesalahan kapital sudah membuat opsi tidak memenuhi instruksi. Cek awal kalimat, nama hari, nama tempat, dan unsur nama resmi secara berurutan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel Penerapan dan Perbandingan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bentuk/Aspek",
+                "Penulisan/Hasil",
+                "Alasan/Penggunaan"
+              ],
+              "baris": [
+                [
+                  "hari Senin",
+                  "Benar",
+                  "hari = kata umum; Senin = nama hari"
+                ],
+                [
+                  "Museum Geologi",
+                  "Benar",
+                  "Nama resmi museum"
+                ],
+                [
+                  "museum di Bandung",
+                  "Benar",
+                  "museum = jenis tempat, Bandung = nama geografis"
+                ],
+                [
+                  "Hari Senin (tengah kalimat)",
+                  "Tidak tepat",
+                  "Kata hari bukan nama diri"
+                ],
+                [
+                  "siswa mengunjungi Museum geologi",
+                  "Tidak tepat",
+                  "Unsur kedua nama resmi belum dikapitalisasi"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Bentuk/Aspek | Penulisan/Hasil | Alasan/Penggunaan"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**KAPITAL: awal kalimat + unsur nama diri; kata umum seperti hari, museum, gedung, sekolah tetap huruf kecil jika bukan bagian nama resmi.**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbaikan Gagasan mencakup penulisan kata serapan, huruf, dan gabungan kata; perbaikan bentuk kata, konjungsi, kalimat, dan diksi; serta penentuan kata mubazir dan kalimat ringkas. Prinsip utamanya adalah memperbaiki ketidaktepatan bahasa agar kalimat lebih efektif tanpa mengubah informasi penting."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Ruang Lingkup",
+        "teks": ""
+      },
+      {
+        "judul": "Penjelasan Konseptual",
+        "teks": ""
+      },
+      {
+        "judul": "Tabel Penerapan dan Perbandingan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pembelajaran Perbaikan Gagasan membantu peserta meningkatkan ketelitian dalam menyunting teks. Peserta diharapkan mampu menerapkan kaidah kebahasaan untuk menghasilkan kalimat yang baku, efektif, dan tetap mempertahankan maksud penulis."
+  }
+}

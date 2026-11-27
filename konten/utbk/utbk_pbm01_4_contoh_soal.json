@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pelengkapan Gagasan Paragraf",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Pelengkapan Gagasan Paragraf",
+    "sumber": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-01-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menghitung Simpulan yang Sesuai",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Program sekolah mengajak siswa membawa botol minum ulang. Pada minggu pertama, pihak sekolah menyediakan titik isi ulang air minum. Selanjutnya, OSIS mencatat penggunaan botol dan menemukan bahwa sampah kemasan minuman mulai berkurang. [....]"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari empat calon simpulan berikut, BERAPA pernyataan yang sesuai dengan hubungan sebab-akibat dan informasi pada stimulus? Tuliskan angka saja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Dengan demikian, penyediaan titik isi ulang dan kebiasaan membawa botol perlu berjalan bersama untuk mengurangi sampah kemasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Penyediaan fasilitas isi ulang dan keterlibatan siswa merupakan dua bagian program yang saling melengkapi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Semua sampah di sekolah sudah hilang sehingga pengelolaan sampah tidak lagi diperlukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Semua sekolah di Indonesia pasti menerapkan program yang sama dalam waktu dekat."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 2**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menghitung jumlah simpulan yang relevan, logis, dan mempertahankan gagasan utama paragraf.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (1) sesuai karena merangkum dua langkah program dan dampak berkurangnya sampah kemasan. Pernyataan (2) sesuai karena menjelaskan hubungan fasilitas dengan partisipasi siswa yang tersirat dari alur bacaan. Pernyataan (3) tidak sesuai sebab berkurangnya sampah kemasan tidak berarti seluruh sampah hilang. Pernyataan (4) tidak sesuai karena bacaan tidak memberikan informasi tentang semua sekolah lain. Jadi, ada 2 simpulan yang dapat diterima."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa setiap simpulan terhadap proses, hasil, dan batasan data; hitung yang tidak melebihkan atau mengalihkan informasi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

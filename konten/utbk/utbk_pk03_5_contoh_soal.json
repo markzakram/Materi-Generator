@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Logaritma",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Logaritma",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-03-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Logaritma",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika sistem persamaan log₃ x + log₂ y = 2 dan log₃ x² + log₂ y = 5 mempunyai penyelesaian x = α dan y = β, maka nilai α − 2β adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "22",
+            "B": "24",
+            "C": "26",
+            "D": "28",
+            "E": "30"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan sifat logaritma:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$logₐ(xⁿ) = n logₐ x$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kemudian ubah bentuk logaritma menjadi sistem persamaan sederhana."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p = log₃ x"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q = log₂ y"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "log₃ x + log₂ y = 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "log₃ x² + log₂ y = 5"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "log₃ x² = 2 log₃ x"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka sistem persamaan menjadi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + q = 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2p + q = 5"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangkan persamaan kedua dengan persamaan pertama:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2p + q) − (p + q) = 5 − 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p = 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p = log₃ x = 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x = 3³ = 27"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "α = 27"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusikan p = 3 ke:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + q = 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3 + q = 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q = −1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "q = log₂ y = −1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "y = 2⁻¹ = 1/2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "β = 1/2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai yang ditanyakan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "α − 2β"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "= 27 − 2(1/2)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "= 27 − 1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "= 26"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawabannya adalah **C. 26**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kurangkan langsung kedua persamaan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "log₃ x² − log₃ x = 5 − 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "log₃ x² = 2 log₃ x"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "log₃ x = 3"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x = 27"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari persamaan pertama:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3 + log₂ y = 2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "log₂ y = −1"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "y = 1/2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "α − 2β = 27 − 1 = **26**"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

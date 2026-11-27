@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Garis dan Sudut",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Garis dan Sudut",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-05-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Berpelurus",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua garis lurus berpotongan. Salah satu sudut besarnya 68°. Sudut yang berpelurus dengan sudut tersebut adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk Angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban:** $112°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Sudut berpelurus membentuk sudut lurus 180°."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Sudut yang dicari =180°−68°=112°$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut bertolak belakang memang 68°, tetapi tidak ditanyakan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "$180−68=112$; langsung cek jumlah 180°."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Sudut Keliling pada Lingkaran",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan sebuah lingkaran berpusat di $O$. $AB$ merupakan diameter lingkaran. Titik $T$ terletak pada lingkaran sehingga $∠ABT = 63°$. Titik $U$ berada pada busur besar $BT$. Besar $∠BUT$ adalah ...."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-09.png",
+              "lebar": 2.09,
+              "tinggi": 2.09
+            }
+          ],
+          "opsi": {
+            "A": "21°",
+            "B": "24°",
+            "C": "27°",
+            "D": "30°",
+            "E": "36°"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut keliling besarnya setengah dari besar busur yang dihadapinya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $AB$ merupakan diameter, busur dari $A$ ke $B$ pada satu setengah lingkaran memiliki besar: $180°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut $∠ABT$ merupakan sudut keliling yang menghadap busur $AT$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$∠ABT = 63°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena sudut keliling besarnya setengah dari busur yang dihadapinya, maka:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Busur AT = 2 × 63°$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Busur AT = 126°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$AB$ merupakan diameter, sehingga busur $AT$ dan busur $TB$ berada pada satu setengah lingkaran."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Busur AT + busur TB = 180°$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$126° + busur TB = 180°$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Busur TB = 54°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut $∠BUT$ merupakan sudut keliling yang menghadap busur $BT$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$∠BUT = 1/2× 54°$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$∠BUT = 27°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, besar $∠BUT$ adalah $27°$."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Karena $AB$ diameter:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$∠ATB = 90°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada segitiga ABT:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$∠BAT + ∠ABT + ∠ATB = 180°$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$∠BAT + 63° + 90° = 180°$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$∠BAT = 27°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut $∠BAT$ dan $∠BUT$ sama-sama menghadap busur $BT$, sehingga:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$∠BUT = ∠BAT = 27°$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawabannya adalah **C. 27°**."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

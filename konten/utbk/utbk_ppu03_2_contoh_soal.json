@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Imbuhan",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Imbuhan",
+    "sumber": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-03-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "“Anak-anak itu sangat membantu ibunya dalam memasak.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata \"membantu\" pada kalimat tersebut mengalami proses:"
+            }
+          ],
+          "opsi": {
+            "A": "Pengimbuhan dengan imbuhan \"me-\"",
+            "B": "Pengimbuhan dengan imbuhan \"di-\"",
+            "C": "Pengimbuhan dengan imbuhan \"ber-\"",
+            "D": "Pengimbuhan dengan imbuhan \"-kan\"",
+            "E": "Pengimbuhan dengan imbuhan \"-an\""
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kata membantu berasal dari kata dasar bantu yang mendapat imbuhan me- sehingga menjadi membantu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Imbuhan me- berfungsi membentuk kata kerja aktif, yaitu kata kerja yang menunjukkan bahwa subjek melakukan suatu tindakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. me- benar, karena bantu → membantu"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. di- salah, karena membentuk kata kerja pasif, misalnya dibantu"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. ber- salah, karena hasilnya bukan membantu, melainkan bentuk lain"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. -kan salah, karena tidak ada akhiran -kan pada kata tersebut"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. -an salah, karena tidak ada akhiran -an pada kata tersebut"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat pernyataan berikut membandingkan bentuk turunan dan pemakaiannya. Gunakan makna kalimat untuk menilai setiap pernyataan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan Benar atau Salah untuk setiap pernyataan berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Ter- pada “gedung tertinggi” dan “nama terhapus tanpa sengaja” selalu menyatakan paling.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Pengirim dalam “Pengirim paket datang” menunjuk pelaku, sedangkan pengiriman dalam “Pengiriman berlangsung dua hari” menamai kegiatan.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Di pada “di gudang” dan di- pada “disimpan” sama-sama awalan pasif sehingga harus selalu ditulis serangkai.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "Bentuk memproses mempertahankan p pada gugus pr dalam dasar proses.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Salah; 2 Benar; 3 Salah; 4 Benar**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu imbuhan dapat memiliki beberapa makna dan perubahan bunyi mengikuti sifat dasar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Petunjuk dalam bacaan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "tertinggi, terhapus tanpa sengaja, di, memproses."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara membaca soal",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tertinggi menunjukkan tingkat paling tinggi, sedangkan tanpa sengaja pada terhapus menjelaskan bagaimana peristiwa terjadi. Jadi, pernyataan pertama salah. Pernyataan kedua benar karena pengirim menunjuk pelaku dan pengiriman menamai kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di gudang menunjukkan tempat, sedangkan disimpan memuat awalan pasif. Pernyataan ketiga salah. Pada memproses, p tetap tampak dalam gugus pr, sehingga pernyataan keempat benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jangan menyamakan fungsi karena hurufnya mirip. Uji arti kata utuh dan periksa apakah unsur itu imbuhan atau kata tersendiri."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Eksponen",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Eksponen",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-03-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menyamakan Basis",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $2^{(x+1)}=64$. Nilai $3x−2$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "10",
+            "B": "11",
+            "C": "12",
+            "D": "13",
+            "E": "14"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kesamaan pangkat pada basis positif yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $64=2^{6}$,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka $x+1=6$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sehingga $x=5$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung $3x−2=3(5)−2=13$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A–C. Lebih kecil dari hasil yang benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar, 13."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Lebih besar satu dari hasil yang benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tulis $64=2^{6}$ dan langsung peroleh $x=5$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Sifat-sifat Eksponen",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang siswa mencoba membuktikan bahwa:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(10^{12}×3^{10})/(10^{12}×√(10^{6}))=25$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Siswa tersebut menuliskan langkah-langkah penyederhanaan sebagai berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah ke-",
+                "Ekspresi"
+              ],
+              "baris": [
+                [
+                  "0",
+                  "$(10^{12}×3^{10})/(10^{12}×√(10^{6}))$"
+                ],
+                [
+                  "1",
+                  "$((2×5)^{4}×3^{10})/((2×5)^{3}×√(10^{6}))$"
+                ],
+                [
+                  "2",
+                  "$(2^{2}×5^{2}×3^{10})/(5^{2}×3^{2}×2^{2})$"
+                ],
+                [
+                  "3",
+                  "$(2×5^{2}×3^{10})/(2^{8}×5^{8})$"
+                ],
+                [
+                  "4",
+                  "$5^{2}$"
+                ],
+                [
+                  "5",
+                  "$25$"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada langkah ke berapakah kesalahan transformasi pertama kali terjadi?"
+            }
+          ],
+          "opsi": {
+            "A": "Langkah ke-1",
+            "B": "Langkah ke-2",
+            "C": "Langkah ke-3",
+            "D": "Langkah ke-4",
+            "E": "Langkah ke-5"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini menguji sifat-sifat eksponen, khususnya kesetaraan bentuk perpangkatan dan ketelitian dalam memeriksa transformasi aljabar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sifat yang digunakan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(ab)^{n}=a^{n}b^{n}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{m}/a^{n}=a^{m-n},a≠0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap langkah penyederhanaan harus mempertahankan nilai ekspresi sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada langkah ke-0, terdapat faktor $10^{12}$ pada pembilang dan penyebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada langkah ke-1, faktor tersebut diubah menjadi:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$10^{12}→(2×5)^{4}$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Padahal:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$10^{12}=(2×5)^{12}$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukan $(2×5)^{4}$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selain itu, faktor $10^{12}$ pada penyebut juga diubah menjadi $(2×5)^{3}$, yang tidak ekuivalen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, kesalahan transformasi pertama terjadi pada langkah ke-1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk memeriksa nilai ekspresi yang sebenarnya, sederhanakan faktor yang sama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(10^{12}×3^{10})/(10^{12}×√(10^{6}))=3^{10}/10^{3}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=59049/1000=59,049$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, klaim bahwa ekspresi awal bernilai 25 memang tidak benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar. Pada langkah ke-1, pangkat 12 diubah menjadi pangkat 4 dan 3 tanpa transformasi yang sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah. Langkah ke-2 juga bermasalah, tetapi kesalahan sudah terjadi lebih dahulu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah. Langkah ke-3 bukan kesalahan pertama karena transformasi sebelumnya sudah tidak ekuivalen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah. Langkah ke-4 menghasilkan bentuk yang tidak sesuai dengan ekspresi awal, tetapi bukan tahap pertama terjadinya kesalahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah. Perubahan dari $5^{2}$ menjadi 25 justru benar secara aritmetika."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah A."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik B–P–C:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Bandingkan ekspresi pada dua langkah yang berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "P — Periksa apakah pangkat dan faktor-faktornya tetap ekuivalen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C — Cari perubahan pertama yang melanggar sifat eksponen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal ini, cukup perhatikan perubahan $10^{12}$ menjadi $(2×5)^{4}$. Karena keduanya tidak sama, kesalahan langsung ditemukan pada langkah ke-1."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

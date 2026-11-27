@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "judul": "Ide Pokok",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Ide Pokok",
+    "sumber": "https://docs.google.com/document/d/1V7SOFheH2q203AHkp1EXeGf9aqQNYjQE/edit",
+    "id_katalog": "ppu-05-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pemahaman wacana adalah kemampuan memahami isi bacaan dengan menghubungkan informasi dari beberapa kalimat atau paragraf. Saat membaca, kita mencari gagasan utama, menafsirkan kata atau ungkapan, dan menarik simpulan dari petunjuk yang ada."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "gagasan utama paragraf dengan membedakannya dari rincian, contoh, dan akibat."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "hubungan gagasan utama antarparagraf untuk menetapkan fokus teks secara utuh."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menentukan gagasan utama paragraf dengan membedakannya dari rincian, contoh, dan akibat."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menganalisis hubungan gagasan utama antarparagraf untuk menetapkan fokus teks secara utuh."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Ide Pokok",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ide Pokok",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ide pokok adalah gagasan utama yang ingin disampaikan penulis dalam sebuah paragraf. Topik menunjukkan hal yang dibicarakan, sedangkan ide pokok menjelaskan apa yang ingin disampaikan tentang hal itu. Kalimat lain biasanya mendukung gagasan tersebut lewat rincian, alasan, atau contoh."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menceritakan kembali isi satu paragraf"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat menceritakan kembali isi paragraf, sebutkan dulu apa yang dibahas, lalu jelaskan inti yang ingin disampaikan penulis. Untuk memeriksanya, lihat apakah rincian dalam paragraf membantu menjelaskan inti tersebut. Kalau rumusanmu hanya mencakup satu rincian, coba cari gagasan yang bisa menghubungkan rincian lainnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mencari inti ketika kalimatnya berpindah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat utama bisa muncul di awal atau di akhir paragraf. Kadang ide pokok juga tersirat, sehingga kamu perlu merumuskannya sendiri. Caranya, baca semua rincian dan tanyakan apa yang dijelaskan oleh rincian-rincian itu jika dibaca bersama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menghubungkan beberapa paragraf"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menemukan fokus seluruh bacaan, ringkas dulu inti setiap paragraf. Lalu lihat bagaimana paragraf berikutnya melanjutkan, melengkapi, atau membatasi gagasan sebelumnya. Rumuskan fokus teks dengan mempertahankan informasi yang menentukan maksud penulis, termasuk batas yang disebutkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan dalam kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tabel berikut, perhatikan peran tiap bagian. Topik menyebut hal yang dibahas. Kalimat utama, jika ada, menyatakan gagasan itu langsung di dalam teks. Ide pokok bisa kamu tuliskan kembali dengan bahasamu sendiri, sedangkan rincian membantu menjelaskan atau mendukungnya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bagian yang dicari",
+                "Cara melihatnya",
+                "Contoh pada paragraf perpustakaan"
+              ],
+              "baris": [
+                [
+                  "Topik",
+                  "Sebutkan hal yang dibicarakan.",
+                  "Perpustakaan keliling."
+                ],
+                [
+                  "Kalimat utama",
+                  "Cari kalimat yang langsung menyatakan inti jika ada.",
+                  "Perpustakaan keliling memudahkan warga desa meminjam buku."
+                ],
+                [
+                  "Ide pokok",
+                  "Rumuskan apa yang disampaikan tentang topik.",
+                  "Layanan keliling mempermudah peminjaman buku bagi warga desa."
+                ],
+                [
+                  "Rincian",
+                  "Cari contoh, data, atau penjelasan yang mendukung inti.",
+                  "Mobil datang dua kali sebulan. Petugas membawa bacaan yang diminta."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Ide pokok. Tentukan topiknya, lalu rumuskan gagasan yang merangkum rincian penting.",
+                "Makna kontekstual. Baca ungkapan bersama kalimat di sekitarnya dan perhatikan syarat yang membatasi artinya.",
+                "Simpulan. Hubungkan petunjuk dari beberapa kalimat dan sesuaikan tingkat kepastian jawaban dengan bukti yang ada."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Menceritakan kembali isi satu paragraf",
+        "teks": ""
+      },
+      {
+        "judul": "Mencari inti ketika kalimatnya berpindah",
+        "teks": ""
+      },
+      {
+        "judul": "Menghubungkan beberapa paragraf",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan dalam kalimat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Saat membaca wacana, mulai dengan bertanya, “Apa yang ingin disampaikan penulis tentang topik ini?” Gunakan rincian dalam bacaan untuk merumuskan jawabannya. Saat menafsirkan ungkapan atau menarik simpulan, perhatikan juga syarat yang disebutkan. Misalnya, kelas gratis memberi warga kesempatan mendaftar, sementara kesempatan mengikuti kelas masih bergantung pada hasil seleksi. Membawa syarat itu ke dalam jawaban membuat tafsirmu tetap sesuai dengan bacaan."
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "judul": "Bentuk Kata",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Bentuk Kata",
+    "sumber": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+    "id_katalog": "ppu-03-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Ketika membaca “Petugas menguji sampel” dan “Pengujian sampel sudah selesai”, kita masih membicarakan peristiwa yang sama. Kalimat pertama menyoroti pekerjaan petugas. Kalimat kedua menyoroti kegiatan yang dapat dinyatakan selesai. Bentuk kata membantu kita menggeser apa yang sedang dibicarakan.",
+      "Kita akan memulai dari perbedaan itu. Setelah mengenali bentuk kata dalam kalimat, kita akan melihat apa yang berubah ketika imbuhan ditambahkan. Terakhir, kita akan memakai keduanya untuk mengisi rumpang dan memeriksa apakah paragraf tetap masuk akal."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "kelas dan bentuk kata yang sesuai dengan posisi dalam kalimat."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "perubahan bentuk aktif, pasif, dan nominal beserta hubungan pelaku dan tindakannya."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menentukan kelas dan bentuk kata yang sesuai dengan posisi dalam kalimat."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menganalisis perubahan bentuk aktif, pasif, dan nominal beserta hubungan pelaku dan tindakannya."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Morfologi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Morfologi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Morfologi adalah cabang ilmu bahasa yang mempelajari bentuk kata dan cara kata dibentuk. Dalam bab ini, kita akan melihat bagaimana perubahan bentuk kata memengaruhi makna dan fungsinya dalam kalimat. Pemahaman ini membantu kita memilih bentuk kata yang sesuai saat membaca atau melengkapi bacaan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bentuk Kata",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bentuk Kata",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk kata adalah wujud kata yang kita gunakan dalam kalimat. Ada bentuk dasar dan ada bentuk turunan yang terbentuk melalui proses seperti penambahan imbuhan. Saat membandingkan keduanya, perhatikan perubahan pada katanya dan fungsi yang dijalankannya dalam kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membaca satu keluarga kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu keluarga kata terdiri atas bentuk-bentuk yang berasal dari dasar yang sama. Bentuk-bentuk itu masih berkaitan makna, tetapi masing-masing bisa punya fungsi berbeda. Untuk membacanya, cari dulu kata dasarnya, lalu perhatikan apakah bentuk turunannya menyatakan tindakan, menamai kegiatan, atau menyebut orang yang melakukannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengikuti pelaku dan sasaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pelaku adalah pihak yang melakukan tindakan, sedangkan sasaran adalah pihak atau benda yang dikenai tindakan. Perubahan bentuk kata kerja dapat mengubah unsur mana yang ditempatkan sebagai subjek. Saat membandingkan kalimat aktif dan pasif, telusuri siapa yang bertindak dan apa yang dikenai tindakan pada kedua kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan dalam kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tabel berikut, baca setiap bentuk kata bersama kalimatnya. Perhatikan apa yang dinyatakan oleh kata tersebut dan bagaimana kata-kata di sekitarnya membantu kita mengenali fungsinya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kalimat",
+                "Kata yang diperhatikan",
+                "Yang disebut oleh kata itu"
+              ],
+              "baris": [
+                [
+                  "Tim meneliti sampel.",
+                  "meneliti",
+                  "Tindakan tim."
+                ],
+                [
+                  "Sampel diteliti oleh tim.",
+                  "diteliti",
+                  "Tindakan yang dikenakan pada sampel."
+                ],
+                [
+                  "Peneliti datang membawa sampel.",
+                  "peneliti",
+                  "Orang yang melakukan penelitian."
+                ],
+                [
+                  "Penelitian berlangsung dua bulan.",
+                  "penelitian",
+                  "Kegiatan yang berlangsung."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Bentuk kata. Perhatikan fungsi kata dalam kalimat. Kata kerja dapat menyatakan tindakan, sementara kata benda dapat menamai pelaku, proses, atau hasil."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Morfologi",
+        "teks": ""
+      },
+      {
+        "judul": "Bentuk Kata",
+        "teks": ""
+      }
+    ],
+    "pesan": "Dalam morfologi, kita melihat bagaimana perubahan bentuk kata memengaruhi makna dan fungsinya. Dari kata dasar tulis, misalnya, menulis menyatakan tindakan, penulis menyebut pelakunya, dan penulisan menamai prosesnya. Saat mengisi kata rumpang, gunakan susunan kalimat untuk menentukan bentuk yang dibutuhkan. Setelah itu, baca kembali kalimat di sekitarnya untuk memastikan pilihanmu sesuai dengan maksud bacaan."
+  }
+}

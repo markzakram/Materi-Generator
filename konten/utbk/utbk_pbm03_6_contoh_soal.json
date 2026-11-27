@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penentuan Cara Memperbaiki Kalimat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penentuan Cara Memperbaiki Kalimat",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-6-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tim editorial buletin membandingkan kalimat sebelum dan sesudah penyuntingan. Untuk tiap pasangan, tandai Tepat apabila revisi menghemat kalimat tanpa menghilangkan informasi penting. Ketepatan diuji per pernyataan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pasangan kalimat awal dan hasil revisi",
+                "Tepat",
+                "Tidak Tepat"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Sebelum: “Dalam rangka untuk meningkatkan minat membaca, sekolah mengadakan kegiatan rutin.” Sesudah: “Untuk meningkatkan minat membaca, sekolah mengadakan kegiatan rutin.”",
+                  "□",
+                  "□"
+                ],
+                [
+                  "2",
+                  "Sebelum: “Para siswa-siswa berkumpul di aula.” Sesudah: “Para siswa berkumpul di aula.”",
+                  "□",
+                  "□"
+                ],
+                [
+                  "3",
+                  "Sebelum: “Kegiatan dimulai pada pukul delapan pagi.” Sesudah: “Kegiatan dimulai pagi hari.”",
+                  "□",
+                  "□"
+                ],
+                [
+                  "4",
+                  "Sebelum: “Panitia melakukan pendataan terhadap peserta.” Sesudah: “Panitia mendata peserta.”",
+                  "□",
+                  "□"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Tepat; 2 Tepat; 3 Tidak Tepat; 4 Tepat.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menguji perbaikan kalimat agar lebih efektif dengan tetap mempertahankan informasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Langkah Penyelesaian",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Catat unsur informasi wajib dari kalimat awal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Identifikasi kesalahan yang benar-benar memerlukan penyuntingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Bandingkan kalimat sebelum dan sesudah secara kata demi kata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Tepat. “Dalam rangka untuk” berlebihan; “untuk” sudah cukup menyatakan tujuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tepat. Gabungan “para siswa-siswa” memakai penanda jamak ganda; cukup “para siswa”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Tidak tepat. Keterangan khusus pukul delapan hilang jika diganti menjadi “pagi hari”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Tepat. “Melakukan pendataan terhadap” dapat diganti “mendata” tanpa perubahan objek maupun tujuan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "pastikan setiap hasil revisi membuang unsur yang berlebihan, bukan informasi spesifik seperti pukul 08.00."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Bagi warga yang telah mendaftar diwajibkan membawa kartu peserta saat verifikasi. (2) Untuk peserta yang datang terlambat wajib melapor kepada petugas. (3) Panitia menyediakan ruang tunggu bagi pengunjung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika perbaikan HANYA boleh dilakukan dengan menghapus satu kata depan di awal setiap kalimat yang tidak efektif, berapa KATA yang harus dihapus secara keseluruhan agar ketiga kalimat benar secara struktur? Tuliskan angka saja."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 2**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menguji perbaikan kalimat agar lebih efektif dengan tetap mempertahankan informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat (1) kehilangan subjek karena diawali preposisi “Bagi”; hapus kata itu sehingga menjadi “Warga yang telah mendaftar diwajibkan membawa kartu peserta saat verifikasi.” Kalimat (2) juga kehilangan subjek karena diawali “Untuk”; hapus kata tersebut sehingga menjadi “Peserta yang datang terlambat wajib melapor kepada petugas.” Kalimat (3) sudah efektif: “Panitia” sebagai subjek dan “menyediakan” sebagai predikat, sedangkan “bagi pengunjung” merupakan keterangan yang sah. Jadi, total kata yang dihapus adalah 1 + 1 = 2. Tidak ada informasi wajib yang dihilangkan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Identifikasi subjek setiap kalimat. Hitung hanya kata depan awal yang membuat subjek hilang; jangan menghapus preposisi sah di tengah kalimat."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

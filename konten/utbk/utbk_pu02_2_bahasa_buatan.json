@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "judul": "Bahasa Buatan",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Bahasa Buatan",
+    "sumber": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
+    "id_katalog": "pu-02-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penalaran analitis merupakan keterampilan mengolah sejumlah informasi dan aturan untuk menentukan susunan, hubungan, atau pola yang konsisten. Dalam soal UTBK–SNBT, peserta tidak cukup memahami isi kalimat secara terpisah; peserta perlu menggabungkan seluruh informasi yang relevan sebelum menarik simpulan.",
+      "Pada materi Urutan dan Posisi, informasi dinyatakan melalui aturan seperti sebelum, sesudah, di antara, dan bersebelahan. Aturan tersebut membatasi kemungkinan posisi setiap objek. Peserta belajar mengubah kalimat menjadi skema yang mudah diuji serta membedakan posisi yang pasti dari posisi yang hanya mungkin.",
+      "Pada materi Bahasa Buatan, peserta mempelajari sistem kata atau simbol rekaan melalui beberapa contoh terjemahan. Kesamaan dan perbedaan unsur dalam contoh digunakan untuk menemukan padanan makna serta, bila informasi cukup, aturan penyusunan yang konsisten.",
+      "Kedua materi menekankan penalaran berbasis batasan: jawaban yang terlihat masuk akal belum tentu benar apabila melanggar satu ketentuan. Oleh sebab itu, materi ini memadukan konsep, strategi umum, cara cepat, dan contoh soal dengan pembahasan setiap pilihan jawaban.",
+      "Penalaran Analitis mencakup dua materi inti, yaitu (1) Urutan dan Posisi serta (2) Bahasa Buatan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "pola korespondensi antara kata, simbol, dan makna pada bahasa buatan."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "aturan bahasa buatan untuk menerjemahkan kata atau kalimat baru."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "beberapa kemungkinan aturan dan memilih terjemahan yang konsisten dengan seluruh contoh."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penalaran Analitis",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penalaran Analitis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Penalaran analitis** merupakan kemampuan menguraikan informasi, mengidentifikasi hubungan antarelemen, serta menarik kesimpulan berdasarkan sejumlah ketentuan yang saling berkaitan. Proses ini menuntut ketelitian dalam membedakan informasi yang sudah pasti, informasi yang masih mungkin, dan kondisi yang tidak dapat dipenuhi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Pengantar Penalaran Induktif dan Analitis",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengantar Penalaran Induktif dan Analitis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penalaran induktif merupakan proses berpikir yang dimulai dari pengamatan terhadap sejumlah fakta atau kejadian khusus, kemudian digunakan untuk memperoleh pola atau kesimpulan yang lebih umum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu02_analitis/gambar-01.png",
+              "lebar": 4.1,
+              "tinggi": 3.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bahasa Buatan",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bahasa Buatan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bahasa buatan adalah sistem bahasa rekaan yang ditampilkan melalui pasangan kata, simbol, atau kalimat beserta artinya. Peserta harus menemukan hubungan antara bentuk dan makna berdasarkan contoh yang tersedia, bukan berdasarkan arti kata dalam bahasa sehari-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata atau simbol yang berulang pada dua contoh dapat digunakan sebagai petunjuk padanan arti, asalkan informasi dalam stimulus mendukung pemetaan yang konsisten. Urutan unsur dalam bahasa buatan belum tentu sama dengan urutan bahasa Indonesia."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pola yang Dipelajari"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola",
+                "Yang diuji"
+              ],
+              "baris": [
+                [
+                  "Korespondensi kata–makna",
+                  "Menghubungkan unsur berulang dengan arti berulang"
+                ],
+                [
+                  "Penerjemahan kata baru",
+                  "Menggabungkan padanan arti yang telah diketahui"
+                ],
+                [
+                  "Konsistensi susunan",
+                  "Menguji apakah urutan kata merupakan bagian dari aturan"
+                ],
+                [
+                  "Pola pembeda",
+                  "Membedakan arti yang tampak mirip berdasarkan contoh tambahan"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan pemeriksaan yang disarankan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) tulis contoh bahasa buatan beserta terjemahannya secara sejajar,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) cari unsur yang berulang,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) tentukan padanan yang konsisten,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) periksa kemungkinan aturan posisi atau bentuk kata bila ada bukti, dan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(5) uji setiap opsi terhadap seluruh contoh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika soal tidak menetapkan aturan urutan, jangan menciptakan aturan posisi kata sendiri. Periksa apakah opsi jawaban hanya menyediakan satu bentuk yang memenuhi semua padanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan teknik U–P–U: Ulangi unsur yang sama → Pasangkan dengan arti yang sama → Uji padanan pada semua contoh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal yang lebih sulit, bedakan padanan makna dengan aturan urutan atau imbuhan. Dua unsur dapat memiliki arti yang benar tetapi menghasilkan pilihan yang keliru jika soal secara khusus menetapkan susunan tertentu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penalaran Analitis",
+        "teks": ""
+      },
+      {
+        "judul": "Pengantar Penalaran Induktif dan Analitis",
+        "teks": ""
+      },
+      {
+        "judul": "Bahasa Buatan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Analitis memerlukan kebiasaan mengubah informasi verbal menjadi batasan dan pola yang dapat diperiksa. Pada Urutan dan Posisi, peserta perlu memasang informasi pasti, menggunakan blok untuk hubungan bersebelahan, dan mengecek setiap aturan. Pada Bahasa Buatan, peserta perlu mengidentifikasi unsur yang berulang, menentukan padanan arti, dan memeriksa konsistensi seluruh contoh."
+  }
+}

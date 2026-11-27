@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bangun Datar",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Bangun Datar",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-05-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Lingkaran dan Juring",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lingkaran memiliki luas $9π$ satuan luas. Panjang busur kecil $MN$ adalah 7 satuan. Tentukan pernyataan yang benar:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) $r=3$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) $keliling=6π$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) $luas juring MON=10,5$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) $sudut pusat MON=60°$."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-03.png",
+              "lebar": 2.24,
+              "tinggi": 1.84
+            }
+          ],
+          "opsi": {
+            "A": "(1), (2), dan (3) saja",
+            "B": "(1) dan (3) saja",
+            "C": "(2) dan (4) saja",
+            "D": "(4) saja",
+            "E": "Semua benar"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Luas lingkaran, keliling, panjang busur, dan luas juring."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$πr²=9π$ sehingga $r=3$.",
+                "$Keliling 2πr=6π$.",
+                "$Luas juring = ½rs = ½(3)(7)=10,5$.",
+                "$Sudut pusat θ=s/r=7/3$ radian $≈133,69°$, bukan 60°."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka (1),(2),(3) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B mengabaikan (2);"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C dan D memuat (4) yang salah;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E salah karena (4) tidak benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Dari luas dapatkan $r$; gunakan $(1/2)rs$ untuk juring tanpa menghitung sudut dahulu."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Jalur di Dalam Taman",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah taman berbentuk persegi panjang berukuran $18 m × 12 m$. Di sekeliling bagian dalam dibuat jalur selebar 1 m. Luas bagian tengah yang tidak tertutup jalur adalah ...."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-04.png",
+              "lebar": 4.43,
+              "tinggi": 3.14
+            }
+          ],
+          "opsi": {
+            "A": "144 m²",
+            "B": "150 m²",
+            "C": "160 m²",
+            "D": "180 m²",
+            "E": "216 m²"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Ukuran daerah dalam berkurang dua kali lebar jalur pada setiap dimensi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Panjang dalam $=18−2=16 m$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "lebar dalam $=12−2=10 m$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Luas tengah $=16×10=160 m²$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Luas keseluruhan $216 m²$ bukan jawaban karena jalur harus dikecualikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A,B,D tidak memenuhi $16×10$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C benar;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E adalah luas taman sebelum dikurangi jalur."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kurangi $2w$ dari panjang dan lebar dahulu; baru kalikan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Panjang Busur dan Tali Busur",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lingkaran berpusat di $O$ memiliki jari-jari $14 cm$ dan sudut pusat $∠AOB = 120°$. Selisih antara panjang busur kecil $AB$ dan panjang tali busur $AB adalah ....$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-06.png",
+              "lebar": 3.29,
+              "tinggi": 2.82
+            }
+          ],
+          "opsi": {
+            "A": "$14π/3 − 14√3 cm$",
+            "B": "$28π/3 − 14√3 cm$",
+            "C": "$28π/3 − 7√3 cm$",
+            "D": "$14π/3 −7√3 cm$",
+            "E": "$56π/3 − 14√3 cm$"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Panjang busur $s=(θ/(360°))·2πr$ dan panjang tali busur $c=2r sin(θ/2)$."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Busur $AB = (120/360)·2π·14$"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$= 28π/3 cm$."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Tali busur $AB = 2·14·sin 60°$"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$= 14√3 cm$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisihnya adalah $28π/3 − 14√3 cm$(positif)."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A dan D memakai faktor sudut yang salah;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C memakai setengah panjang tali busur;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E menggandakan busur;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pakai sudut pusat 120° → busur sepertiga keliling; tali busur $2r sin60°$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Jarak Pusat Belah Ketupat ke Sisi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Belah ketupat $PQRS$ mempunyai keliling $40 cm$, diagonal $PR = 16 cm$, dan titik $O$ adalah perpotongan kedua diagonal. Jarak titik $O$ ke sisi $QR$ adalah ...."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-07.png",
+              "lebar": 4.73,
+              "tinggi": 3.41
+            }
+          ],
+          "opsi": {
+            "A": "2,4 cm",
+            "B": "2,5 cm",
+            "C": "3,6 cm",
+            "D": "4,2 cm",
+            "E": "4,8 cm"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Diagonal belah ketupat saling tegak lurus dan membagi dua;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$luas = setengah hasil kali diagonal$;"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$luas = semikeliling × jarak pusat ke sisi.$"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Panjang setiap sisi $40/4=10 cm$.",
+                "Setengah $PR = 8 cm$.",
+                "Dari segitiga siku-siku,"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "setengah $QS = √(10²−8²)=6 cm$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka $QS=12 cm$."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$Luas =(16×12)/2=96 cm²$.",
+                "$Semikeliling=20 cm$,"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sehingga jarak $O$ ke $sisi = 96/20 = 4,8 cm$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A–D tidak menghasilkan luas 96 cm² dengan empat segitiga beralas sisi 10 cm;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kenali segitiga 6–8–10; luas 96, lalu bagi semikeliling 20."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

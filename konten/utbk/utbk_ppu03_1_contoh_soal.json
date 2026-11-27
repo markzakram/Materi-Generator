@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bentuk Kata",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Bentuk Kata",
+    "sumber": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-03-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah kata yang merupakan bentuk dasar dari kata \"penyemprotan\":"
+            }
+          ],
+          "opsi": {
+            "A": "Menyemprot",
+            "B": "Semprot",
+            "C": "Penyemprot",
+            "D": "Menyemprotkan",
+            "E": "Semprotkan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kata penyemprotan berasal dari kata dasar semprot. Kata tersebut mengalami proses pengimbuhan, yaitu mendapat awalan peN- dan akhiran -an, sehingga menjadi penyemprotan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, bentuk dasar dari kata penyemprotan adalah semprot."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menyemprot salah, karena sudah mendapat imbuhan meN-"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Semprot benar, karena merupakan kata dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Penyemprot salah, karena sudah mendapat imbuhan peN-"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menyemprotkan salah, karena sudah mendapat imbuhan meN- dan -kan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E.Semprotkan salah, karena sudah mendapat akhiran -kan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penyunting membandingkan bentuk-bentuk yang berkaitan dengan dasar teliti. Penilaian didasarkan pada fungsi dan rujukan kata dalam kalimat, bukan hanya kesamaan dasarnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan Benar atau Salah untuk setiap pernyataan berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Dalam “Tim meneliti sampel”, meneliti menyatakan tindakan yang dilakukan tim.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Dalam “Peneliti itu memerlukan waktu dua bulan”, peneliti menamai kegiatan penelitian.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Dalam “Sampel diteliti oleh tim”, sampel menjadi sasaran tindakan.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "“Tim meneliti sampel” dapat langsung diubah menjadi “Tim penelitian sampel” sebagai kalimat lengkap dengan makna yang sama.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Salah**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perubahan bentuk dapat mengalihkan rujukan dari tindakan ke pelaku atau kegiatan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Petunjuk dalam bacaan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "meneliti, peneliti, penelitian, diteliti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara membaca soal",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pernyataan pertama, meneliti menyebut tindakan tim. Pada pernyataan kedua, peneliti menunjuk orang. Jika yang dimaksud ialah kegiatan yang berlangsung dua bulan, bentuk yang cocok ialah penelitian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada susunan pasif, sampel tetap menjadi sasaran dan tim tetap menjadi pelaku. Karena itu pernyataan ketiga benar. Pernyataan keempat mencoba memasukkan penelitian ke posisi yang semula diisi tindakan meneliti tanpa mengubah susunan kalimat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Baca setiap kata bersama kalimatnya. Dasar yang sama tidak menjamin fungsi dan rujukan yang sama."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

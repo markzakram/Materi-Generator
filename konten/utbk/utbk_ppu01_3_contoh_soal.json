@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Makna Bertingkat",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Makna Bertingkat",
+    "sumber": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-01-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Manusia juga memerlukan protein untuk menunjang pertumbuhan. Selain itu, protein juga dapat membantu mengganti sel-sel rusak dalam tubuh. Protein bisa didapatkan dari jenis kacang-kacangan, seperti kacang merah, kacang hijau, dan olahannya yang disebut dengan protein nabati. [____], protein juga bisa didapatkan dari daging hewan dan telur yang disebut dengan protein hewani."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan stimulus tersebut, pasangan kata yang menunjukkan hubungan makna bertingkat dari **kategori umum menuju jenis khusus** adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Kacang-kacangan – kacang merah",
+            "B": "Kacang merah – kacang-kacangan",
+            "C": "Kacang merah – kacang hijau",
+            "D": "Protein nabati – protein hewani",
+            "E": "Daging hewan – telur"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna Kata dan Frasa – Makna Bertingkat (Hipernim dan Hiponim)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban yang benar adalah **A. Kacang-kacangan – kacang merah**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata <i>kacang-kacangan</i> memiliki cakupan makna lebih luas karena mencakup berbagai jenis kacang, termasuk kacang merah dan kacang hijau. Oleh karena itu, <i>kacang-kacangan</i> merupakan hipernim, sedangkan <i>kacang merah</i> merupakan hiponimnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan B menunjukkan hubungan khusus menuju umum sehingga arahnya terbalik. Pilihan C memperlihatkan dua jenis kacang yang berada pada tingkat kategori setara. Pilihan D menunjukkan dua kelompok protein berdasarkan asalnya, bukan hubungan kategori umum dan anggota khusus. Pilihan E juga tidak menunjukkan hubungan hipernim–hiponim karena daging dan telur merupakan sumber protein hewani yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pasangan kata yang menunjukkan hubungan kategori umum menuju jenis khusus adalah **kacang-kacangan – kacang merah**."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengumuman A berbunyi, “Kegiatan mengenalkan unggas, misalnya ayam dan itik.” Pengumuman B berbunyi, “Pada sesi ini, peserta hanya mengamati ayam dan itik.” Pengajar meminta siswa membedakan contoh anggota kategori dengan daftar pengamatan yang dibatasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan cakupan yang paling tepat antara kedua pengumuman adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "A dan B sama-sama membuktikan bahwa kategori unggas hanya terdiri atas ayam dan itik.",
+            "B": "A menyebut ayam dan itik sebagai contoh unggas, sedangkan B membatasi objek pengamatan sesi itu pada kedua jenis tersebut.",
+            "C": "A membatasi seluruh jenis unggas yang boleh dipelajari, sedangkan B mencakup seluruh hewan yang ditemui peserta.",
+            "D": "A memastikan ayam dan itik akan diamati, sedangkan B masih membuka kemungkinan mengamati unggas lain.",
+            "E": "A dan B sama-sama menyatakan bahwa setiap jenis unggas pasti diamati peserta pada sesi tersebut."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Daftar contoh dan daftar yang dibatasi mempunyai cakupan berbeda. Batas kegiatan juga tidak sama dengan batas suatu kategori."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Petunjuk dalam bacaan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "misalnya, hanya, pada sesi ini."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara membaca soal",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pengumuman A, misalnya memberi tahu bahwa ayam dan itik disebut sebagai contoh unggas. Pada pengumuman B, hanya dan pada sesi ini memberi tahu bahwa kegiatan pengamatan dibatasi pada dua jenis itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan B membedakan cakupan kategori dan cakupan kegiatan. Sebuah sesi bisa memilih dua jenis untuk diamati walaupun kategori unggas mencakup jenis lain."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanyakan “Yang dibatasi kategorinya atau kegiatan pada sesi ini?” Lalu baca penanda contoh dan pembatasnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengapa pilihan lain kurang tepat",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Mengubah contoh atau daftar kegiatan menjadi definisi lengkap kategori unggas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Membalik sifat daftar dan memperluas B menjadi semua hewan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. A memberi contoh unggas yang dikenalkan tanpa memastikan bentuk kegiatannya. B justru menutup kemungkinan mengamati jenis lain pada sesi itu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. A belum memastikan seluruh jenis diamati; B justru membatasi pada dua jenis."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

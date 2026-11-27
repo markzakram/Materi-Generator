@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pengurutan Kalimat dalam Paragraf",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Pengurutan Kalimat dalam Paragraf",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Pengurutan Kalimat dalam Paragraf",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelompok tani mencatat perubahan hasil panen selama musim hujan untuk mengevaluasi metode budidaya. Dalam pertemuan rutin, anggota membahas faktor cuaca, kondisi tanaman, dan upaya perlindungan sederhana. Catatan lapangan yang terkumpul kemudian disusun menjadi paragraf laporan. Penyusun laporan diminta mengawali paragraf dengan kondisi atau masalah, menjelaskan faktor yang relevan, lalu menunjukkan langkah penanganan dan akibatnya. Urutan informasi yang salah dapat membuat pembaca mengira tindakan dilakukan sebelum masalah diketahui. Karena itu, koherensi waktu dan hubungan sebab-akibat perlu diperiksa dengan cermat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Hasil panen cabai menurun pada musim hujan. (2) Petani kemudian memasang pelindung sederhana di atas bedengan. (3) Curah hujan tinggi menyebabkan sebagian bunga rontok. (4) Upaya ini membantu mengurangi kerusakan tanaman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Urutan kalimat yang menghasilkan paragraf padu adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "(2)–(1)–(4)–(3)",
+            "B": "(3)–(1)–(2)–(4)",
+            "C": "(4)–(2)–(1)–(3)",
+            "D": "(1)–(4)–(3)–(2)",
+            "E": "(2)–(3)–(4)–(1)"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mengurutkan kalimat ialah menyusun informasi dari titik awal yang jelas menuju rincian, penjelasan sebab-akibat, tindakan, dan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.4, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Cari kalimat yang dapat berdiri sendiri sebagai pembuka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Tandai kata rujukan, penanda waktu, serta penanda sebab-akibat pada setiap kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Bentuk pasangan yang wajib berdekatan: tindakan–upaya ini, sebab–akibat, definisi–contoh."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kalimat (2) sebagai pembuka membuat “upaya ini” pada (4) belum mempunyai urutan dampak yang lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar. (3) sebab: bunga rontok; (1) dampak: panen turun; (2) tindakan petani; (4) hasil tindakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Dimulai dengan “upaya ini” tanpa acuan sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menempatkan hasil upaya sebelum tindakan penyebabnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Membuka paragraf dengan tindakan sebelum kondisi yang mendasarinya dijelaskan, lalu menempatkan dampak sesudah hasil."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari pembuka mandiri → rangkai sebab–dampak–tindakan–hasil → periksa semua kata “ini/itu/tersebut” → baca ulang paragraf."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

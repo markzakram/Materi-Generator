@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "judul": "Permutasi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Permutasi",
+    "sumber": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+    "id_katalog": "pk-07-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Banyak persoalan tampak seperti perhitungan sederhana, tetapi persoalan utamanya adalah memilih apa yang dihitung. Memilih tiga anggota tim bukanlah kegiatan yang sama dengan menunjuk ketua, sekretaris, dan bendahara. Demikian pula peluang dua objek terambil tanpa pengembalian tidak sama dengan peluang dua pengambilan yang independen. Kesalahan model akan menghasilkan jawaban keliru meskipun hitungan aritmetikanya benar."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "mengapa urutan menentukan hasil."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "susunan bersyarat."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "teknik pembatas yang efisien."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Permutasi",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Permutasi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar dan Faktorial"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Permutasi merupakan penyusunan unsur ketika urutan atau jabatan menghasilkan hasil yang berbeda. Menempatkan A sebagai ketua dan B sebagai sekretaris berbeda dengan menempatkan B sebagai ketua dan A sebagai sekretaris."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n! = n(n − 1)(n − 2) ⋯ 2 · 1; 0! = 1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(n, r) = n!/(n − r)! (0 ≤ r ≤ n)$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk07_peluang_dan_kombinatorika/gambar-02.jpg",
+              "lebar": 6.5,
+              "tinggi": 2.29
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Permutasi Bersyarat, Unsur Sama, dan Siklis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika dua orang harus berdampingan dalam susunan linear, gabungkan sebagai satu blok lalu kalikan dengan kemungkinan urutan internalnya. Teknik blok hanya tepat ketika semua objek dalam blok memang harus bersebelahan. Jika terdapat beberapa unsur identik, bagi faktorial keseluruhan dengan faktorial pengulangan setiap jenis."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Susunan unsur identik = n!/(k_{1}! k_{2}! ⋯ k_{m}!)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk n orang berbeda mengelilingi meja bundar tanpa kursi bernomor, rotasi susunan dianggap sama; banyak susunannya $(n−1)!.$ Jika kursi bernomor atau orientasi tempat tetap dibedakan, aturan ini tidak boleh dipakai begitu saja."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P_{siklis} = (n − 1)!$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal Permutasi",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Tanyakan: apakah pertukaran dua unsur menghasilkan susunan atau hasil yang berbeda? Jika berbeda, permasalahan mengutamakan urutan dan dapat dimodelkan dengan permutasi.",
+                "Tentukan banyak unsur yang tersedia (n), banyak posisi yang diisi (r), serta apakah unsur boleh berulang atau ada unsur identik.",
+                "Pilih model yang sesuai: P(n,r) untuk pemilihan berurutan tanpa pengulangan, n! untuk menyusun seluruh unsur berbeda, pembagian faktorial untuk unsur identik, atau (n−1)! untuk duduk melingkar tanpa kursi bernomor.",
+                "Pada syarat khusus, gunakan teknik blok jika unsur harus berdampingan; untuk syarat larangan pertimbangkan total susunan dikurangi susunan yang melanggar. Periksa pembatasan awal/akhir."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Mengerjakan Soal Permutasi",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Teknik U–P–B–C (Urutan–Posisi–Batasan–Cek): periksa apakah urutan berpengaruh, tentukan posisi, terapkan batasan, lalu uji hasil.",
+                "Pemilihan jabatan berbeda dari n orang untuk r jabatan: hitung n × (n−1) × … × (n−r+1); tidak perlu mengembangkan semua faktorial.",
+                "“Harus berdampingan”: ikat unsur menjadi satu blok, susun objek/blok yang tersisa, lalu kalikan banyak urutan internal blok.",
+                "“Tidak berdampingan”: bila lebih praktis, hitung semua susunan dikurangi susunan berdampingan."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar dan Faktorial",
+        "teks": ""
+      },
+      {
+        "judul": "Permutasi Bersyarat, Unsur Sama, dan Siklis",
+        "teks": ""
+      }
+    ],
+    "pesan": "Peluang dan Kombinatorika menekankan ketepatan pemodelan, bukan hanya penghafalan rumus. Peserta perlu membedakan ruang sampel dengan kejadian, penjumlahan kasus dengan perkalian tahap, permutasi yang memperhatikan urutan dengan kombinasi yang tidak memperhatikan urutan, serta peluang sebelum dan sesudah kondisi tambahan diketahui. Teknik komplemen, blok, pemisahan kasus, dan pengujian pengulangan digunakan bila syaratnya terpenuhi."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Hubungan Kata",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Hubungan Kata",
+    "sumber": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-04-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Tubuh manusia membutuhkan berbagai jenis nutrisi penting setiap hari agar dapat menjalankan fungsinya secara optimal. (2) Nutrisi-nutrisi tersebut meliputi karbohidrat sebagai sumber energi utama, lemak sebagai cadangan energi, serta vitamin dan mineral untuk menjaga sistem metabolisme. (3) Kekurangan salah satu zat gizi ini dapat menyebabkan penurunan kondisi kesehatan dan mengganggu aktivitas sehari-hari. (4) Oleh karena itu, penerapan pola makan yang seimbang sangat dianjurkan untuk memenuhi seluruh kebutuhan gizi tersebut. (5) Manusia juga memerlukan protein untuk menunjang pertumbuhan. (6) Selain itu, protein juga dapat membantu mengganti sel-sel rusak dalam tubuh. (7) Protein bisa didapatkan dari jenis kacang-kacangan, seperti kacang merah, kacang hijau, dan olahannya yang disebut dengan protein nabati. …, protein juga bisa didapatkan dari daging hewan dan telur yang disebut dengan protein hewani."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kata karbohidrat : sumber energi dan protein : pertumbuhan pada teks di atas memiliki kesamaan logika dengan hubungan kata ...."
+            }
+          ],
+          "opsi": {
+            "A": "vitamin : sayur-sayuran",
+            "B": "kalsium : pembentukan tulang",
+            "C": "air : dehidrasi ringan",
+            "D": "lemak : daging hewan",
+            "E": "mineral : suplemen makanan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kata antara karbohidrat : sumber energi serta protein : pertumbuhan adalah Zat/Nutrisi : Fungsi/Manfaat bagi tubuh. Karbohidrat berfungsi sebagai sumber energi, sedangkan protein berfungsi untuk menunjang pertumbuhan. Hubungan kata kalsium : pembentukan tulang memiliki hubungan logika yang sepadan, yaitu zat kalsium memiliki fungsi untuk pembentukan tulang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban A dan D salah karena hubungan kata antara vitamin : sayur-sayuran dan lemak : daging hewan adalah hubungan Zat : Sumber Makanan Penghasilnya, bukan fungsinya bagi tubuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban C salah karena hubungan kata antara air : dehidrasi ringan adalah hubungan Solusi : Gangguan Kesehatan, bukan fungsi zatnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban E salah karena hubungan kata antara mineral : suplemen makanan adalah hubungan Zat : Wadah/Bentuk, bukan fungsinya bagi tubuh."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Dalam kegiatan pengamatan cuaca di sekolah, petugas menggunakan termometer untuk mengukur suhu udara. (2) Ia mencatat hasil pengukurannya dalam derajat Celsius. (3) Setelah itu, siswa memasang kembali penyangga yang menjadi bagian dari perangkat pengamatan. (4) Hasil pengamatan mereka disusun dalam sebuah laporan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih semua analisis yang tepat. Perhatikan urutan unsur pada setiap pasangan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Pasangan termometer–suhu udara menunjukkan hubungan alat ukur dengan besaran yang diukur.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Pasangan suhu udara–derajat Celsius menunjukkan hubungan satuan dengan besaran yang dinyatakan.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Pasangan penyangga–perangkat pengamatan menunjukkan hubungan bagian dengan benda utuh.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "Pasangan siswa–laporan menunjukkan hubungan penyusun dengan hasil yang disusun.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Benar**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar. Termometer adalah alat yang digunakan untuk mengukur suhu udara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Salah. Suhu udara adalah besaran dan derajat Celsius adalah satuannya. Pasangan itu menyebut besaran lebih dulu, lalu satuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Benar. Penyangga merupakan salah satu bagian dari perangkat pengamatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar. Siswa menyusun laporan. Urutannya adalah penyusun, lalu hasil yang disusun."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

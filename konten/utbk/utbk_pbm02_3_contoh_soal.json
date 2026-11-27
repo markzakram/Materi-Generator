@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penentuan Gagasan Bertanda Baca Tepat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penentuan Gagasan Bertanda Baca Tepat",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Pemeriksaan Tanda Baca pada Majalah Sekolah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Redaksi majalah sekolah sedang memeriksa tanda baca dalam artikel kegiatan warga. Kalimat-kalimat yang diperiksa memuat keterangan pembuka, hubungan pertentangan, serta anak kalimat yang mendahului induk kalimat. Setiap kalimat perlu dinilai secara mandiri berdasarkan kaidah tanda baca, bukan hanya berdasarkan kelancaran ketika dibaca. Penilaian harus mempertimbangkan hubungan antarklausa dan posisi keterangan dalam kalimat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pilih satu kategori untuk setiap pernyataan.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "“Menurut laporan tersebut, curah hujan meningkat, tetapi debit sungai tetap stabil.” menggunakan koma secara tepat.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "“Jika hujan berhenti warga akan kembali bekerja.” sudah tepat tanpa koma setelah anak kalimat.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "“Siswa membawa buku, pensil, dan penggaris.” menggunakan tanda koma perincian secara tepat.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "“Walaupun kegiatan dibatalkan, peserta tetap datang.” menggunakan koma secara tepat.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Benar; 2 Salah; 3 Benar; 4 Benar.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menguji ketepatan tanda baca atau keterpaduan antarkalimat berdasarkan struktur dan hubungan makna.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 1 — Benar. Koma setelah keterangan pembuka dan sebelum konjungsi pertentangan “tetapi” tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 2 — Salah. Anak kalimat yang mendahului induk kalimat memerlukan koma: “Jika hujan berhenti, warga akan kembali bekerja.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 3 — Benar. Koma digunakan untuk memisahkan unsur-unsur perincian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan 4 — Benar. Koma sesudah anak kalimat awal “Walaupun kegiatan dibatalkan” tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Langkah menjawab: (1) temukan batas anak–induk kalimat; (2) identifikasi perincian dan pertentangan; (3) periksa apakah tanda baca memisahkan subjek dan predikat; (4) beri penilaian independen pada setiap baris."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tandai batas klausa sebelum menilai benar–salah. Hindari menilai hanya dari bunyi jeda saat kalimat dibaca."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

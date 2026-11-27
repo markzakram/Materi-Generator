@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Trigonometri Dasar",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Trigonometri Dasar",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-05-7-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Evaluasi Pernyataan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan beberapa pernyataan mengenai nilai fungsi trigonometri pada sudut istimewa berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan apakah setiap pernyataan Benar atau Salah dengan memberikan tanda centang pada kolom yang sesuai."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "$sin 30°=1/2$",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "$cos 60°=1/2$",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "$tan 45°=0$",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "$sin 90°=0$",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Benar, Salah, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Nilai sudut istimewa."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$sin30°=1/2$ benar;",
+                "$cos60°=1/2$ benar;",
+                "$tan45°=1$ sehingga (3) salah;",
+                "$sin90°=1$ sehingga (4) salah."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B memuat (3) salah;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C dan D memuat (4) salah;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E memuat dua pernyataan salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ingat tiga nilai kunci: $sin30°=1/2$,$cos60°=1/2$, $tan45°=1$."
+            }
+          ],
+          "label": "Trigonometri"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Operasi Sudut Istimewa",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai $2 sin 30° + cos 60°$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$1/2$",
+            "B": "1",
+            "C": "$3/2$",
+            "D": "2",
+            "E": "$5/2$"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Rasio sudut istimewa dan operasi bilangan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2 sin30°+cos60°$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=2(1/2)+1/2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=1+1/2$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$=3/2$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A,B,D,E tidak sama dengan hasil substitusi; C tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Dua nilai dasar sama-sama $1/2$; hitung $2×1/2+1/2$"
+            }
+          ],
+          "label": "Trigonometri"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Memilih Rasio yang Tepat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah pengamat berjarak mendatar $12 m$ dari kaki tiang vertikal. Garis pandangnya ke puncak tiang membentuk sudut elevasi $θ$, dengan $tan θ = 5/12$. Berapa tinggi tiang, jika tinggi mata pengamat dianggap $0 m$?"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-11.png",
+              "lebar": 4.39,
+              "tinggi": 2.47
+            }
+          ],
+          "opsi": {
+            "A": "5 m",
+            "B": "7 m",
+            "C": "12 m",
+            "D": "13 m",
+            "E": "17 m"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Tangen pada segitiga siku-siku menyatakan perbandingan sisi depan sudut terhadap sisi samping sudut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terhadap sudut $θ$ di posisi pengamat, sisi depan adalah tinggi tiang $h$ dan sisi samping merupakan jarak mendatar $12 m.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi $tan θ =h/12 =5/12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sehingga $h = 5 m.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Panjang garis pandang adalah $13 m$ (Pythagoras), tetapi bukan tinggi tiang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penggunaan sinus atau kosinus tanpa membedakan sisi sering menghasilkan hasil yang salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A benar karena $h = 5 m$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B tidak memenuhi $tan θ$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C hanya jarak mendatar;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D adalah sisi miring, bukan tinggi;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E adalah penjumlahan dua sisi dan tidak relevan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Labeli sisi depan–samping–miring lebih dulu. Jika diketahui sudut dan jarak mendatar untuk mencari tinggi, gunakan tangen (depan/samping)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

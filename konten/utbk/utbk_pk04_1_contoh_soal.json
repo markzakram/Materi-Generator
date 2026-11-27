@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pola Barisan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Pola Barisan",
+    "sumber": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-04-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Operasi Bergantian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pada minggu ini, Pak Doni memetik buah mangga selama beberapa hari berturut-turut. Jumlah buah yang dipetik mengikuti pola bilangan 9, 27, 23, 69, 65, dan seterusnya. Jika pola tersebut berlanjut, berapa banyak buah mangga yang dipetik pada hari ketujuh?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk Angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 191**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pola operasi bergantian ×3 dan −4 atau konsep dua towew"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui barisan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9, 27, 23, 69, 65,…$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Identifikasi arah pola",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9↑27↓23↑69↓65$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terlihat pola arah ↑ ↓ ↑ ↓, sehingga termasuk 2 Towew."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tentukan aturan operasinya",
+              "tingkat": 2
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk04_pola_dan_barisan/gambar-09.png",
+              "lebar": 3.72,
+              "tinggi": 0.56
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola operasi yang berulang adalah ×3, −4."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tentukan suku keenam dan ketujuh",
+              "tingkat": 2
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk04_pola_dan_barisan/gambar-10.png",
+              "lebar": 2.45,
+              "tinggi": 0.72
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah E. 191."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak mengikuti operasi setelah 65."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Bukan hasil operasi berulang ×3 dan −4."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Lebih kecil daripada hasil suku ke-7."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak cocok dengan pola yang sama pada seluruh data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar; suku ke-6 195 lalu suku ke-7 191."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tulis operasi di atas sela antarsuku, bukan selisih semua pasangan saja."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "judul": "Tabel",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Tabel",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "id_katalog": "pk-06-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal PK–PM, informasi sering diberikan sebagai tabel berisi banyak kategori, diagram dengan skala tertentu, atau data dengan rata-rata dan median. Penyelesaian yang tepat dimulai dari pemeriksaan apa yang sebenarnya diukur: jumlah, proporsi, frekuensi, perubahan waktu, atau nilai tengah. Selanjutnya, pengolahan data perlu mempertahankan unit, periode, dan ukuran kelompok."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "struktur, satuan, kategori."
+      },
+      {
+        "level": "",
+        "kko": "Mengambil",
+        "teks": "dan menggabungkan nilai."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "keterbandingan dan simpulan tabel."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Tabel",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Tabel",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tabel mengorganisasi nilai menurut baris dan kolom. Judul, header, unit, periode, serta kategori merupakan bagian dari informasi. Nilai yang berada pada dua kolom hanya dapat dijumlahkan ketika kategori dan satuannya kompatibel; nilai persentase antarkelompok harus diperiksa basisnya lebih dahulu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Operasi pada Tabel"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan penggunaan penjumlahan baris/kolom, selisih antartahun, rata-rata sederhana, dan pencarian data bersyarat yang memenuhi lebih dari satu ketentuan. Pada kasus nilai ujian serta batas penghasilan, pemilihan peserta memerlukan operasi logika DAN: kedua syarat harus terpenuhi bersamaan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total Kategori=Σ frekuensi setiap subkategori$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik K–U–S: Kenali kolom yang dibutuhkan, Uji satuan dan periode, Saring data berdasarkan semua syarat. Untuk pertanyaan “paling banyak”, baca nilai aktual terlebih dahulu, bukan panjang visual atau persen tanpa total."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Operasi pada Tabel",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Statistika dan Interpretasi Data menuntut ketelitian pada sumber, satuan, basis perbandingan, dan keterbatasan kesimpulan. Dengan menguasai penyajian tabel, grafik, analisis persentase, serta ukuran pemusatan, peserta dapat mengubah data menjadi informasi yang dapat diperiksa dan digunakan secara bertanggung jawab."
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "judul": "Fungsi Invers",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Fungsi Invers",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "id_katalog": "pk-03-8"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Aljabar adalah bahasa matematika untuk menyatakan hubungan yang belum sepenuhnya diketahui. Variabel membantu merepresentasikan informasi yang berubah; persamaan dan pertidaksamaan membantu menerjemahkan syarat; relasi dan fungsi menjelaskan hubungan masukan–keluaran."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menguasai",
+        "teks": "konsep dan representasi."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "prosedur penyelesaian."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "kesahihan langkah, domain, dan batasan konteks."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Fungsi Invers",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Fungsi Invers",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Invers fungsi membalikkan hubungan masukan–keluaran sehingga f⁻¹(f(x))=x pada domain yang sesuai. Fungsi harus satu-ke-satu pada domain yang digunakan agar inversnya kembali merupakan fungsi. Fungsi kuadrat tidak memiliki invers sebagai fungsi pada seluruh bilangan real, tetapi dapat memilikinya setelah domain dibatasi ke salah satu cabang monoton."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan Materi dan Penalaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prosedur aljabar: tulis $y=f(x)$, tukar peran $x$ dan $y$, lalu selesaikan $y$ dalam $x$. Terakhir, periksa komposisi dua arah dan domain/range. Untuk $f(x)=x²+1$ pada $x≥0$, inversnya adalah akar kuadrat utama dari $x−1$ dengan domain invers $x≥1$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus/Identitas Utama"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(x) = x^{2} + 1, x ≥ 0 ⇒ f^{−1}(x) = √(x − 1), x ≥ 1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f^{−1}(f(x)) = x untuk x dalam domain f$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Invers dengan Pemetaan Satu-ke-Satu"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi invers membalikkan pasangan $(x,y)$ menjadi $(y,x)$. Agar hasil pembalikan tetap fungsi, keluaran yang sama tidak boleh berasal dari dua masukan berbeda pada domain asal. Untuk invers dari range kembali ke domain, fungsi asal harus injektif. Untuk invers yang didefinisikan dari seluruh kodomain, fungsi asal harus bijektif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Domain $f⁻¹$ sama dengan range $f$, sedangkan range $f⁻¹$ sama dengan domain $f$. Jangan tertukar: simbol $f⁻¹(x)$ bukan $1/(f(x))$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan dan Memeriksa Fungsi Invers"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Prosedur umum: tulis $y=f(x)$;",
+              "tambahan": [
+                {
+                  "alasan": "isi di bawah judul bertanda",
+                  "isi": "Prosedur umum: tulis $y=f(x)$;"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "nyatakan $x$ sebagai fungsi $y$;",
+              "tambahan": [
+                {
+                  "alasan": "isi di bawah judul bertanda",
+                  "isi": "nyatakan $x$ sebagai fungsi $y$;"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "tukar nama $x$ dan $y$;",
+              "tambahan": [
+                {
+                  "alasan": "isi di bawah judul bertanda",
+                  "isi": "tukar nama $x$ dan $y$;"
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "tetapkan domain invers dari range fungsi asal; periksa $f(f⁻¹(x))=x$ dan $f⁻¹(f(x))=x$ pada domain masing-masing.",
+              "tambahan": [
+                {
+                  "alasan": "isi di bawah judul bertanda",
+                  "isi": "tetapkan domain invers dari range fungsi asal; periksa $f(f⁻¹(x))=x$ dan $f⁻¹(f(x))=x$ pada domain masing-masing."
+                }
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk $f(x)=ax+b$ dengan $a≠0$ pada domain real, inversnya adalah $f⁻¹(x)=(x−b)/a.$ Pada fungsi kuadrat, pembatasan domain dapat diperlukan supaya $f$ menjadi satu-ke-satu. Contohnya $f(x)=x²$ pada $x≥0$ mempunyai invers $f⁻¹(x)=√x$ pada $x≥0$, sedangkan $f(x)=x²$ pada seluruh real tidak mempunyai invers yang berupa fungsi real.",
+              "tambahan": [
+                {
+                  "alasan": "isi di bawah judul bertanda",
+                  "isi": "Untuk $f(x)=ax+b$ dengan $a≠0$ pada domain real, inversnya adalah $f⁻¹(x)=(x−b)/a.$ Pada fungsi kuadrat, pembatasan domain dapat diperlukan supaya $f$ menjadi satu-ke-satu. Contohnya $f(x)=x²$ pada $x≥0$ mempunyai invers $f⁻¹(x)=√x$ pada $x≥0$, sedangkan $f(x)=x²$ pada seluruh real tidak mempunyai invers yang berupa fungsi real."
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Strategi:** uji satu-ke-satu dan batas domain sebelum membalik aturan; cek hasil substitusi terhadap domain invers."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "komposisi invers dapat dikerjakan dari kanan ke kiri tanpa mencari bentuk invers yang tidak perlu, jika nilai bisa diinferensikan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Penjelasan Materi dan Penalaran",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus/Identitas Utama",
+        "teks": ""
+      },
+      {
+        "judul": "Hubungan Invers dengan Pemetaan Satu-ke-Satu",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan dan Memeriksa Fungsi Invers",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Mengerjakan dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Sembilan subbab Aljabar membentuk satu alur penalaran: memahami simbol dan kesetaraan, menyelesaikan beberapa syarat sekaligus, menilai batas nilai, mengolah hubungan pangkat–logaritma, membaca pemetaan, membalik fungsi yang memenuhi syarat, lalu membangun model dari dunia nyata. Keberhasilan tidak hanya ditentukan oleh memperoleh angka, tetapi juga oleh kemampuan menjelaskan alasan suatu langkah sah dan apakah jawaban memenuhi domain serta konteks."
+  }
+}

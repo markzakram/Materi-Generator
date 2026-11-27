@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbaikan Diksi",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Perbaikan Diksi",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-10-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah banjir surut, petugas melakukan pemeriksaan kondisi jembatan penghubung dua desa. Mereka mengamati bagian permukaan, pagar pengaman, dan penyangga yang masih dapat diperiksa dengan aman. Hasil peninjauan dicatat untuk membantu pihak berwenang memahami kondisi jembatan secara lebih jelas. Dalam laporan akhir, penyunting ingin mengganti ungkapan panjang dengan satu kata yang mempertahankan makna peningkatan kejelasan informasi. Perhatikan kalimat laporan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Hasil peninjauan lapangan memberikan gambaran yang lebih jelas tentang kondisi jembatan setelah banjir. Kata kerja yang paling tepat untuk menggantikan frasa “memberikan gambaran yang lebih jelas tentang” tanpa mengubah makna adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "menggambarkan",
+            "B": "memperjelas",
+            "C": "menguraikan",
+            "D": "meringkas",
+            "E": "menafsirkan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mengganti diksi sesuai makna, kelaziman pasangan kata, dan struktur kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Maknai frasa sumber secara lengkap, termasuk tingkat perubahan yang disiratkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Buat daftar padanan dan bedakan tindakan maupun nuansanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Substitusikan tiap kandidat ke kalimat, lalu periksa objek dan cakupan maknanya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. “Menggambarkan” dapat memaparkan keadaan, tetapi tidak mempertahankan unsur menjadi lebih jelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar. “Memperjelas” mempertahankan makna peningkatan kejelasan. Setelah frasa sasaran diganti seluruhnya, kalimat menjadi “Hasil peninjauan lapangan memperjelas kondisi jembatan setelah banjir.” Susunan ini efektif karena objek langsung mengikuti verba “memperjelas”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. “Menguraikan” menyatakan penjelasan terperinci, bukan niscaya peningkatan kejelasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. “Meringkas” berarti memadatkan, bukan memberi kejelasan tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. “Menafsirkan” berarti memberikan interpretasi, yang berbeda dari memperjelas kondisi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji substitusi secara utuh. Hapus seluruh frasa “memberikan gambaran yang lebih jelas tentang”, masukkan “memperjelas”, lalu baca kalimat lengkap: “Hasil peninjauan lapangan memperjelas kondisi jembatan setelah banjir.”"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

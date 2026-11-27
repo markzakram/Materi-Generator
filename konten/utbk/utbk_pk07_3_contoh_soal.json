@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Permutasi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Permutasi",
+    "sumber": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-07-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Dua Siswa Berdampingan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lima peserta duduk dalam satu baris. Jika dua peserta tertentu harus berdampingan, berapa banyak susunan berbeda?"
+            }
+          ],
+          "opsi": {
+            "A": "24",
+            "B": "36",
+            "C": "48",
+            "D": "60",
+            "E": "120"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Teknik blok pada permutasi linear."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua peserta bersebelahan digabung menjadi satu blok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total empat objek dapat diurutkan $4!=24$ cara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Di dalam blok, kedua peserta dapat bertukar posisi sebanyak $2!$ cara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total $24×2=48.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$N = 4! × 2! = 48$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A mengabaikan urutan internal; B,D bukan hasil 4!×2!; E adalah semua 5! tanpa syarat; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gabungkan pasangan menjadi satu blok, lalu kalikan 2! posisi di dalamnya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pemilihan Berjabatan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari delapan anggota organisasi dipilih ketua, sekretaris, dan bendahara, tanpa rangkap jabatan. Banyak susunan pengurus adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "56",
+            "B": "112",
+            "C": "168",
+            "D": "336",
+            "E": "512"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Permutasi karena jabatan berbeda dan urutan pengisi jabatan penting."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketua memiliki 8 pilihan,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sekretaris 7,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "dan bendahara 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total $8×7×6=336.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sama dengan $P(8,3).$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(8, 3) = 8!/(8 − 3)! = 336$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A,B,C terlalu kecil; E menganggap pemilihan berulang; D benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Isi slot jabatan dengan 8,7,6 pilihan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Unsur Sama dan Pembatas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari huruf penyusun kata MATEMATIKA, dibentuk susunan yang dimulai dan diakhiri huruf M. Berapa banyak susunan berbeda?"
+            }
+          ],
+          "opsi": {
+            "A": "1.680",
+            "B": "2.520",
+            "C": "3.360",
+            "D": "5.040",
+            "E": "6.720"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Permutasi dengan unsur sama dan dua posisi tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ada 10 huruf: M dua, A tiga, T dua, serta E,I,K masing-masing satu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua M ditempatkan di ujung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Delapan huruf tengah dapat disusun $8!/(3!2!)=3.360.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$N = 8!/(3! × 2!) = 3.360$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A dan B terlalu kecil; D,E terlalu besar; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kunci posisi ujung, lalu bagi dengan faktorial unsur identik di posisi tengah."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "judul": "Bunga",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Bunga",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "id_katalog": "pk-02-4"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Ketika seseorang membeli barang dengan bonus, memperoleh dua potongan harga, menyimpan uang dengan bunga tertentu, atau membandingkan cicilan, angka yang tertera bukan satu-satunya informasi penentu. Ada basis harga, periode waktu, komponen biaya, dan kondisi khusus yang harus dibaca secara tepat. Dua penawaran dengan persentase berbeda bahkan dapat menghasilkan biaya akhir yang berlawanan dengan dugaan awal.",
+      "Karena itu, pembelajaran dimulai dari mengidentifikasi komponen transaksi, berlanjut pada pemodelan harga, diskon, bunga, angsuran, dan untung/rugi. Setiap subbab memadukan penjelasan konsep dengan pengujian asumsi dan contoh soal, sehingga peserta terbiasa memilih prosedur sesuai konteks, bukan langsung memasukkan angka ke rumus."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "modal, tingkat bunga, waktu, dan membedakan bunga tunggal dengan majemuk."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bunga",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bunga",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga menunjukkan tambahan nilai atas modal simpanan atau pinjaman dalam periode tertentu. Besar bunga bergantung pada modal, tingkat bunga, lama waktu, serta metode perhitungan: tunggal atau majemuk."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Bunga"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bunga tunggal dihitung dari modal awal yang sama pada setiap periode. Bunga majemuk menambahkan bunga periode sebelumnya ke saldo yang menjadi dasar periode berikutnya. Jangan menganggap persentase tahunan otomatis persentase bulanan tanpa konversi."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Bunga tunggal: I = P × r × t$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Nilai akhir tunggal: A = P(1 + rt)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bunga Majemuk dan Perbandingan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika bunga dibukukan sekali setiap periode dan tidak ada arus kas lain, saldo akhir mengikuti perkalian faktor yang sama. Rumus majemuk mensyaratkan tingkat r sesuai panjang periode, misalnya per bulan untuk n bulan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Nilai akhir majemuk: A = P(1 + r)^{n}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Syarat Perhitungan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kenali apakah tahun menggunakan 12 bulan, apakah bunga sederhana/majemuk, apakah pajak/biaya admin dinyatakan. Jika informasi itu tidak tersedia, tidak boleh menebak besaran bersih."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tandai modal awal, periode dan tingkat bunga per periode. Pilih bunga tunggal atau majemuk berdasarkan instruksi. Pastikan satuan waktu selaras, lalu cek pertumbuhan nilai dan biaya lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik M–R–T–J: Modal → Rate per periode → Time/jumlah periode → Jenis bunga."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Bunga",
+        "teks": ""
+      },
+      {
+        "judul": "Bunga Majemuk dan Perbandingan",
+        "teks": ""
+      },
+      {
+        "judul": "Syarat Perhitungan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Mengerjakan Soal",
+        "teks": ""
+      },
+      {
+        "judul": "Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Aritmatika Sosial menguji ketepatan peserta membaca transaksi, memilih basis dan periode, membangun model serta menilai hasil. Dalam soal dengan beberapa biaya, strategi terbaik sering kali bukan formula terpanjang, melainkan tabel komponen yang lengkap. Untuk latihan berikutnya, peserta perlu membedakan harga satuan dan total, diskon tunggal dan bertingkat, bunga tunggal dan majemuk, nominal cicilan dan total biaya, serta pemasukan dan keuntungan."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Konsep Dasar Geometri",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Konsep Dasar Geometri",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-05-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Jarak Titik",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Titik $A(1,2)$ dan $B(7,10)$. Jarak kedua titik adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "12",
+            "E": "14"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Rumus jarak dua titik dari Teorema Pythagoras."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih koordinat $x=6$ dan $y=8$."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jarak=√(6²+8²)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=√100$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$=10$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A,B,D,E tidak memenuhi Pythagoras $6–8–10$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kenali tripel $3–4–5$ yang dikali 2, yaitu $6–8–10$."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

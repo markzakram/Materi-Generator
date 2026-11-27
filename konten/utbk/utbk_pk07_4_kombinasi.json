@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "judul": "Kombinasi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Kombinasi",
+    "sumber": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+    "id_katalog": "pk-07-4"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Banyak persoalan tampak seperti perhitungan sederhana, tetapi persoalan utamanya adalah memilih apa yang dihitung. Memilih tiga anggota tim bukanlah kegiatan yang sama dengan menunjuk ketua, sekretaris, dan bendahara. Demikian pula peluang dua objek terambil tanpa pengembalian tidak sama dengan peluang dua pengambilan yang independen. Kesalahan model akan menghasilkan jawaban keliru meskipun hitungan aritmetikanya benar."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pemilihan dari penempatan."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "kombinasi bersyarat."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "penggunaan kombinasi versus permutasi."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Kombinasi",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kombinasi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Kombinasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kombinasi adalah pemilihan objek tanpa memperhatikan urutan terpilihnya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(n, r) = n!/(r!(n − r)!)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(n, r) = C(n, n − r)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilih kombinasi ketika siswa hanya membentuk tim atau kumpulan, dan gunakan permutasi jika siswa dipetakan ke jabatan berbeda. Dalam kasus bersyarat, hitung kelompok yang memenuhi kondisi dengan membagi ke beberapa kategori saling lepas atau menggunakan komplemen."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kondisi khusus pada metode komplemen",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menentukan banyak kelompok yang memiliki minimal satu anggota dari kategori tertentu, gunakan metode komplemen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Kelompok memenuhi syarat = Seluruh kelompok − Kelompok tanpa kategori tersebut$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika jumlah anggota di luar kategori lebih sedikit daripada jumlah orang yang harus dipilih, kelompok tanpa anggota kategori tersebut tidak mungkin terbentuk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, dari 5 siswa terdapat 3 perempuan dan 2 laki-laki. Akan dipilih 3 siswa dengan syarat minimal 1 perempuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak seluruh tim = C(5,3) = 10."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak tim tanpa perempuan = C(2,3) = 0."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena jumlah laki-laki hanya 2 orang, tidak mungkin membentuk tim beranggotakan 3 orang tanpa perempuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, banyak tim yang memenuhi syarat = 10 − 0 = 10 tim."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika jumlah anggota di luar kategori lebih sedikit daripada jumlah orang yang harus dipilih, semua tim yang terbentuk pasti memenuhi syarat minimal satu anggota kategori tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pemilihan Bersyarat dan Teknik Komplemen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “minimal satu” sering lebih mudah dihitung dengan mengurangi kasus tanpa satu pun anggota kategori tersebut. Untuk memilih r dari n total anggota dengan m anggota kelompok tertentu: banyak pemilihan minimal satu anggota kelompok tersebut adalah $C(n,r) − C(n−m,r),$ sepanjang $r ≤ n.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Minimal satu dari m anggota: C(n, r) − C(n − m, r)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal Kombinasi",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Periksa apakah yang diminta adalah kelompok pilihan tanpa jabatan/urutan. Jika anggota terpilih sama walau urutannya bertukar, gunakan kombinasi.",
+                "Tentukan jumlah objek tersedia (n) dan objek yang dipilih (r). Untuk anggota dari kategori berbeda, pisahkan jumlah pilihan menurut komposisi kategori.",
+                "Ubah syarat menjadi kasus tak tumpang tindih: “tepat dua”, “minimal satu”, “maksimal dua”, atau “setidaknya satu dari kelompok tertentu”.",
+                "Gunakan perhitungan langsung per kasus atau metode komplemen, lalu pastikan hasilnya tidak melebihi C(n,r) dan tidak menghitung satu kelompok lebih dari sekali."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Mengerjakan Soal Kombinasi",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Teknik P–S–K–C (Pilih–Syarat–Kasus/Komplemen–Cek): tentukan himpunan pilihan, baca batasan, cari perhitungan paling pendek, cek hasil.",
+                "“Tepat k anggota kategori A”: pilih k dari kategori A dan r−k dari sisanya, lalu kalikan banyak pilihan yang sah.",
+                "“Minimal satu kategori A”: hitung seluruh pilihan C(n,r), lalu kurangi pilihan tanpa anggota A, yaitu C(n−m,r), dengan m banyak anggota A.",
+                "Gunakan simetri C(n,r) = C(n,n−r) untuk menyingkat operasi faktorial; misalnya memilih 2 yang dikeluarkan sama banyaknya dengan memilih n−2 yang dipertahankan.",
+                "Kesalahan yang perlu dihindari: menggunakan permutasi untuk tim tanpa jabatan, menghitung dua kasus yang tumpang tindih, dan memakai komplemen tanpa memeriksa ukuran kelompok yang tersedia."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Kombinasi",
+        "teks": ""
+      },
+      {
+        "judul": "Pemilihan Bersyarat dan Teknik Komplemen",
+        "teks": ""
+      }
+    ],
+    "pesan": "Peluang dan Kombinatorika menekankan ketepatan pemodelan, bukan hanya penghafalan rumus. Peserta perlu membedakan ruang sampel dengan kejadian, penjumlahan kasus dengan perkalian tahap, permutasi yang memperhatikan urutan dengan kombinasi yang tidak memperhatikan urutan, serta peluang sebelum dan sesudah kondisi tambahan diketahui. Teknik komplemen, blok, pemisahan kasus, dan pengujian pengulangan digunakan bila syaratnya terpenuhi."
+  }
+}

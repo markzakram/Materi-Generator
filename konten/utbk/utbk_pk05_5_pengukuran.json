@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "judul": "Pengukuran",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Pengukuran",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "id_katalog": "pk-05-5"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri berangkat dari titik, garis, bidang, serta hubungan antarelemen. Dalam geometri bidang, keliling berbeda dengan luas; dalam ruang, luas permukaan berbeda dengan volume. Penalaran geometris juga membutuhkan penggunaan skala, kesebangunan, dan sudut. Sebuah gambar yang terlihat proporsional tidak selalu digambar sesuai skala, sehingga semua kesimpulan harus didasarkan pada informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "satuan panjang, luas, volume, waktu, dan ketelitian."
+      },
+      {
+        "level": "",
+        "kko": "Mengonversi",
+        "teks": "."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "ketepatan hasil ukur."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pengukuran",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Pengukuran",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Besaran, Satuan, dan Dimensi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satuan panjang dinyatakan dalam mm, cm, m, km; luas dalam satuan persegi; volume dalam satuan kubik; dan kapasitas sering dinyatakan dalam liter. Satuan luas berubah menurut kuadrat faktor panjang dan satuan volume menurut kubiknya. Tidak benar mengonversi 1 m² menjadi 100 cm²."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1 m = 100 cm; 1 m^{2} = 10.000 cm^{2}; 1 m^{3} = 1.000.000 cm^{3}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1 L = 1.000 cm^{3} = 1 dm^{3}; 1 jam = 60 menit$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-01.png",
+              "lebar": 3.84,
+              "tinggi": 4.8
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ketelitian dan Angka Ukur"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil pengukuran memiliki ketelitian yang bergantung pada alat dan cara baca. Jika panjang yang tersedia hanya dibulatkan, hasil luas/volume juga tidak boleh diklaim lebih teliti daripada data asal tanpa alasan. Dalam soal kontekstual, pisahkan ukuran eksak yang didefinisikan soal dari ukuran pengamatan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Samakan satuan sebelum mengoperasikan angka, cek pangkat unit pada hasil akhir, dan lakukan estimasi kewajaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Teknik S–D–H–C:** Samakan satuan → Dimensi → Hitung → Cek."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Besaran, Satuan, dan Dimensi",
+        "teks": ""
+      },
+      {
+        "judul": "Ketelitian dan Angka Ukur",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Geometri dan Pengukuran menuntut peserta menghubungkan sifat bangun, ukuran, satuan, dan representasi gambar. Pahami konsep dan syarat model sebelum memakai rumus, terutama pada bangun gabungan, skala, diagram sudut, dan trigonometri. Dengan membandingkan alternatif penyelesaian dan memeriksa kewajaran satuan, peserta dapat menyelesaikan soal secara lebih akurat, tidak sekadar cepat."
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "judul": "Analogi",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Analogi",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "id_katalog": "pu-01-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penalaran Verbal dalam bahan pembelajaran ini merupakan bagian dari domain Penalaran Umum sesuai kurikulum yang digunakan. Penalaran Verbal melatih kemampuan memahami informasi melalui bahasa, menemukan keteraturan dari sejumlah pengamatan, membandingkan hubungan antarkonsep, mengevaluasi sebab-akibat, memeriksa kesesuaian pernyataan, serta menilai kekuatan argumen berdasarkan bukti.",
+      "Materi disusun dalam lima cakupan utama: Generalisasi; Analogi; Hubungan Kausalitas; Kesesuaian Pernyataan; serta Evaluasi Argumen: Memperkuat dan Memperlemah. Kelima cakupan tersebut berada dalam domain Penalaran Verbal pada kurikulum terlampir dan saling melengkapi kemampuan membaca bukti secara kritis.",
+      "Strategi cepat seperti Bukti–Pola–Batas Simpulan, HAPE, S–A–B–A, B–T–C, dan K–A–B–U digunakan sebagai alat bantu berpikir. Strategi ini bukan pengganti penalaran yang sah, melainkan cara mengurutkan perhatian agar peserta dapat menemukan informasi penting dengan lebih efisien."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "jenis relasi antarpasangan konsep."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "arah dan struktur hubungan."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "analogi yang konsisten dan paling sepadan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penalaran Induktif",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penalaran Induktif",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penalaran induktif merupakan proses berpikir yang dimulai dari pengamatan terhadap sejumlah fakta atau kejadian khusus, kemudian digunakan untuk memperoleh pola atau kesimpulan yang lebih umum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-01.png",
+              "lebar": 4.1,
+              "tinggi": 3.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Analogi",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Analogi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Analogi adalah metode penalaran yang membandingkan dua hal berbeda berdasarkan kesamaan sifat, fungsi, atau hubungan tertentu untuk memahami suatu konsep atau menarik kesimpulan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis-jenis Analogi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Sinonim dan antonim,** mengenali hubungan padanan makna dan pertentangan makna. **Sinonim** adalah hubungan antara dua kata yang memiliki makna sama atau sangat berdekatan dalam konteks tertentu. **Antonim** adalah hubungan antara dua kata yang maknanya berlawanan. Keduanya sering muncul pada soal analogi verbal karena dapat dikenali melalui pemahaman makna kata.",
+                "**Hubungan fungsi,** menilai pasangan berdasarkan kegunaan utama suatu alat. **Analogi fungsi bisa menggunakan pola alat–fungsi–objek**.",
+                "**Hubungan ukuran,** yaitu analogi yang membandingkan dua objek berdasarkan dimensi atau besaran relatif, misalnya kecil–besar, pendek– panjang, sempit–luas, atau tingkat ukuran dalam kategori yang dapat disejajarkan. **Perbandingan ukuran tidak selalu berarti dua objek berada dalam hubungan jenis dan kategori.**",
+                "**Hubungan urutan,** yaitu analogi yang menunjukkan tahapan waktu, tahap perkembangan, langkah proses, atau susunan kejadian yang mempunyai arah tertentu. Intinya, unsur kedua muncul sesudah unsur pertama dalam suatu rangkaian yang masuk akal."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengenali polanya, cari kata penanda seperti **sebelum, sesudah, tahap, berkembang, menjadi,** atau **dimulai dengan**."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Hubungan Bagian dan Keseluruhan,** yaitu memahami hubungan komponen dan objek utuh. Hubungan bagian–keseluruhan menunjukkan bahwa suatu unsur menjadi komponen dari objek yang lebih besar.",
+                "**Hubungan sebab dan akibat,** membedakakn penyebab, kondisi perantara, dan dampaknya. Hubungan sebab–akibat menjelaskan bagaimana suatu kejadian atau keadaan dapat menimbulkan hasil tertentu.",
+                "**Hubungan jenis atau kategori,** membedakakn anggota kelompok, subkategori, dan komponen. Hubungan kategori–jenis muncul ketika objek khusus termasuk ke dalam kelompok yang lebih umum.",
+                "**Hubungan profesi/pelaku-objek,** mengidentifikasi siapa yang bertindak dan objek atau hasil pekerjaannya. Dalam hubungan profesi atau pelaku–objek, kata pertama menunjuk pihak yang melakukan kegiatan, sedangkan kata kedua menunjukkan alat, kendaraan, objek kerja, konteks, atau hasil tertentu.",
+                "**Hubungan Tempat-Benda,** membedakan lokasi penyimpanan, penggunaan, dan habitat. Analogi tempat–benda menekankan hubungan antara objek dan lokasi yang memang digunakan untuk menyimpan atau menempatkannya. Soal tingkat lanjut dapat menambahkan tujuan penyimpanan.",
+                "**Hubungan karakteristik/sifat,** mengenali sifat khas suatu objek dan membedakannya dari hubungan lain. Suatu benda dapat memiliki karakteristik yang lazim melekat padanya. Contohnya, es sering diasosiasikan dengan dingin, sedangkan api dengan panas. Hubungan ini berbeda dari fungsi benda karena sifat bukan tindakan yang dilakukan alat."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat beberapa strategi mengerjakan soal analogi, diantaranya yaitu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Memahami dasar penyelesaian analogi, dimana peserta harus mengenali **kesamaan pola hubungan antara dua atau lebih kata, objek, konsep, maupun peristiwa.** Kunci utama menyelesaikan soal analogi bukanlah mencari kata yang memiliki arti serupa, melainkan menemukan hubungan yang paling tepat antara unsur-unsur yang dibandingkan.",
+                "Identifikasi hubungan antara kata atau objek, langkah pertama adalah menentukan jenis hubungan yang terdapat pada pasangan awal. Jangan langsung membaca seluruh pilihan jawaban sebelum memahami hubungan yang sedang diuji. Dengan mengenali jenis hubungan sejak awal, peserta dapat lebih cepat mengeliminasi pilihan yang tidak sesuai.",
+                "Gunakan metode kalimat penghubung, yang dilakukan dengan mengubah pasangan kata menjadi sebuah kalimat sederhana yang menjelaskan hubungan keduanya. Metode ini sangat membantu ketika beberapa pilihan tampak memiliki hubungan yang mirip.",
+                "Perhatikan arah hubungan, dalam soal analogi, urutan kata mempunyai peran penting. Meskipun menggunakan kata yang sama, arah hubungan yang berbeda dapat menghasilkan makna yang berbeda.",
+                "Pilih hubungan yang paling spesifik, Beberapa pilihan jawaban mungkin memiliki hubungan yang benar secara umum. Namun, soal analogi biasanya meminta hubungan yang **paling sepadan** dengan pasangan awal.",
+                "Gunakan teknik eliminasi jawaban, jika terdapat lima pilihan dan beberapa di antaranya terlihat masuk akal, peserta dapat mengeliminasi opsi yang berbeda jenis hubungan, tidak mempertahankan arah, atau terlalu umum.",
+                "Jangan terpaku pada kemiripan kata, kesalahan yang sering terjadi adalah memilih jawaban karena kedua kata berasal dari bidang atau kategori yang sama."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk memudahkan menjawab soal analogi, maka cukup gunakan metode **HAPE.**"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "H: Hubungan"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi hubungan utama pada pasangan pertama. Apakah menunjukkan fungsi, kategori, bagian, ukuran, urutan, atau hubungan lainnya?"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "A: Arah"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pastikan urutan hubungan tidak terbalik. Jika pasangan awal adalah bagian terhadap keseluruhan, jawaban harus menggunakan arah yang sama."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "P: Padankan"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Buat kalimat hubungan untuk pasangan awal, kemudian terapkan kalimat yang sama pada pilihan jawaban."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "E: Eliminasi"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hilangkan pilihan yang hubungannya berbeda, terlalu luas, atau kurang spesifik dibandingkan pasangan awal."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penalaran Induktif",
+        "teks": ""
+      },
+      {
+        "judul": "Analogi",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Verbal menuntut ketepatan dalam membaca hubungan antara informasi dan simpulan. Generalisasi melatih pembatasan cakupan berdasarkan data; Analogi menguji kesetaraan relasi; Hubungan Kausalitas menuntut pemeriksaan sebab, mekanisme, dan alternatif; Kesesuaian Pernyataan menuntut ketelitian terhadap dukungan stimulus; sedangkan Evaluasi Argumen melatih penilaian kekuatan bukti dan asumsi. Peserta disarankan mempelajari konsep dan pola hubungan terlebih dahulu, menerapkan strategi cepat yang sesuai, lalu mengevaluasi alasan setiap pilihan jawaban. Dalam pengerjaan soal, kualitas bukti harus lebih diutamakan daripada kesamaan kata, dugaan umum, atau pernyataan yang terdengar paling meyakinkan."
+  }
+}

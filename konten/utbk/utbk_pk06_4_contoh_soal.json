@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Interpretasi Data",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Interpretasi Data",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-06-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menggabungkan Kategori",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Petugas kebersihan mengumpulkan 100 ton sampah selama September. Setiap sampah digolongkan hanya ke dalam satu jenis agar tidak terjadi penghitungan ganda. Data jenis dan berat sampah disajikan di bawah ini."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-06.png",
+              "lebar": 5.51,
+              "tinggi": 2.33
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-07.png",
+              "lebar": 2.59,
+              "tinggi": 2.69
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika semua sampah kaca dan logam pada data September dikumpulkan untuk didaur ulang, berapa total massa keduanya?"
+            }
+          ],
+          "opsi": {
+            "A": "18 ton",
+            "B": "20 ton",
+            "C": "22 ton",
+            "D": "24 ton",
+            "E": "28 ton"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penggabungan dua kategori yang saling lepas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kaca 12 ton dan logam 10 ton sehingga total 22 ton."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak ada penghitungan ganda karena tiap sampah hanya berada dalam satu kategori."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** A,B,D,E tidak sama dengan 12+10; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jumlahkan kategori yang disebut dan pastikan kategori tidak tumpang tindih."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Batas Simpulan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah kelas mengikuti program pembelajaran untuk meningkatkan hasil belajar. Sebelum program dilaksanakan, rata-rata skor siswa adalah 68, sedangkan setelah program selesai, rata-rata skor meningkat menjadi 76."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tidak tersedia kelompok pembanding maupun informasi mengenai faktor lain yang mungkin memengaruhi perubahan skor tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Rata-rata skor siswa setelah program meningkat sebesar 8 poin dibandingkan sebelum program.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Kenaikan rata-rata skor membuktikan bahwa program merupakan satu-satunya penyebab peningkatan hasil belajar.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Seluruh siswa dalam kelas mengalami peningkatan skor sebesar 8 poin.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Data yang tersedia belum cukup untuk memastikan bahwa program menyebabkan kenaikan rata-rata skor.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Salah, Benar**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Interpretasi data statistik dan perbedaan antara perubahan deskriptif dengan hubungan sebab-akibat."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pernyataan (1) Benar. Rata-rata skor meningkat dari 68 menjadi 76 sehingga kenaikannya sebesar 76 − 68 = 8 poin.",
+                "Pernyataan (2) Salah. Kenaikan rata-rata skor tidak membuktikan bahwa program menjadi satu-satunya penyebab perubahan. Faktor lain mungkin turut memengaruhi hasil belajar.",
+                "Pernyataan (3) Salah. Kenaikan rata-rata sebesar 8 poin tidak berarti semua siswa mengalami kenaikan yang sama. Tanpa data skor individu, perubahan masing-masing siswa tidak dapat diketahui.",
+                "Pernyataan (4) Benar. Tanpa kelompok pembanding atau informasi faktor lain, data hanya menunjukkan adanya peningkatan rata-rata skor, bukan bukti pasti hubungan sebab-akibat."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Salah – Salah – Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bedakan fakta yang langsung diperoleh dari data dengan dugaan penyebabnya. Perubahan rata-rata dapat dihitung, tetapi penyebab perubahan tidak otomatis dapat dipastikan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

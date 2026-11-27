@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "judul": "Perbandingan Kuantitatif",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Perbandingan Kuantitatif",
+    "sumber": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+    "id_katalog": "pk-08-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal perbandingan kuantitatif, nilai tepat suatu variabel sering tidak diperlukan selama tanda selisih dapat ditentukan. Dalam kecukupan data, tugasnya bukan selalu mencari hasil akhir, melainkan memastikan apakah informasi cukup untuk memberi jawaban tunggal atas pertanyaan. Sementara pada soal cerita, peserta harus mengubah teks menjadi model yang mempertahankan satuan, urutan kejadian, dan batas yang ditetapkan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "P, Q, dan syarat pembanding."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "hubungan dari informasi."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "kepastian hubungan melalui kasus."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Perbandingan Kuantitatif",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbandingan Kuantitatif",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan kuantitatif memeriksa hubungan dua kuantitas P dan Q berdasarkan persamaan, pertidaksamaan, syarat tanda, atau rentang nilai. Jawaban umum dapat berupa P > Q, P = Q, P < Q, atau hubungan yang tidak dapat ditentukan. Ketidakpastian berarti tersedia sedikitnya dua kondisi sah yang menghasilkan hubungan berbeda; bukan berarti peserta kesulitan menghitung."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P − Q > 0 ⇒ P > Q; P − Q = 0 ⇒ P = Q; P − Q < 0 ⇒ P < Q$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membandingkan dengan Variabel dan Batas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan syarat positif, negatif, nol, bilangan bulat, dan rentang. Jika x = 3y dan y > 0, maka P = x + 2y = 5y dan Q = 2x = 6y. Karena y positif, P < Q. Jika tanda y tidak diketahui, kesimpulan tersebut belum tentu berlaku."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-01.jpg",
+              "lebar": 6.75,
+              "tinggi": 2.33
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ketidakpastian dan Pengujian Kasus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menyimpulkan “tidak dapat ditentukan”, buat dua nilai yang sama-sama memenuhi semua syarat tetapi menghasilkan hubungan berlainan. Jangan memilih nilai yang melanggar asumsi seperti penyebut nol atau bilangan seharusnya positif. Mengalikan ketaksamaan dengan bilangan negatif membalik arah tandanya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kondisi",
+                "P",
+                "Q",
+                "Kesimpulan"
+              ],
+              "baris": [
+                [
+                  "x = 2",
+                  "x² = 4",
+                  "2x = 4",
+                  "P = Q"
+                ],
+                [
+                  "x = 3",
+                  "x² = 9",
+                  "2x = 6",
+                  "P > Q"
+                ],
+                [
+                  "x = 1",
+                  "x² = 1",
+                  "2x = 2",
+                  "P < Q"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik B–S–U–K: Baca syarat, Sederhanakan hubungan, Uji tanda atau rentang, Konfirmasi dengan kasus batas. Untuk operasi khusus, uraikan definisi terlebih dahulu; untuk rasio, jangan membandingkan pembilang atau penyebut secara terpisah jika basisnya berlainan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Membandingkan dengan Variabel dan Batas",
+        "teks": ""
+      },
+      {
+        "judul": "Ketidakpastian dan Pengujian Kasus",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Kuantitatif mengintegrasikan kemampuan membandingkan dua besaran, mengevaluasi kecukupan bukti, dan menerjemahkan konteks ke dalam model matematika. Ketiga kemampuan saling berhubungan: model yang benar membantu membandingkan kuantitas, sedangkan pengujian kasus mencegah kesimpulan yang belum pasti. Dalam soal cerita, peserta juga harus menilai kelayakan jawaban melalui satuan dan batasan situasi. Rangkaian strategi praktis yang perlu diingat adalah B–S–U–K untuk perbandingan, T–1–2–G untuk kecukupan, dan D–T–M–U untuk soal cerita. Cara cepat harus bertumpu pada syarat model, bukan sekadar hafalan langkah."
+  }
+}

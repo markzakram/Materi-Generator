@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "judul": "Kata Rumpang",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Kata Rumpang",
+    "sumber": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+    "id_katalog": "ppu-03-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Ketika membaca “Petugas menguji sampel” dan “Pengujian sampel sudah selesai”, kita masih membicarakan peristiwa yang sama. Kalimat pertama menyoroti pekerjaan petugas. Kalimat kedua menyoroti kegiatan yang dapat dinyatakan selesai. Bentuk kata membantu kita menggeser apa yang sedang dibicarakan.",
+      "Kita akan memulai dari perbedaan itu. Setelah mengenali bentuk kata dalam kalimat, kita akan melihat apa yang berubah ketika imbuhan ditambahkan. Terakhir, kita akan memakai keduanya untuk mengisi rumpang dan memeriksa apakah paragraf tetap masuk akal."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "kata pengisi rumpang berdasarkan tata bahasa dan konteks semantis."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "alternatif pengisi rumpang berdasarkan kepaduan seluruh kalimat atau paragraf."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Memilih kata pengisi rumpang berdasarkan tata bahasa dan konteks semantis."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Mengevaluasi alternatif pengisi rumpang berdasarkan kepaduan seluruh kalimat atau paragraf."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Morfologi",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Morfologi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Morfologi adalah cabang ilmu bahasa yang mempelajari bentuk kata dan cara kata dibentuk. Dalam bab ini, kita akan melihat bagaimana perubahan bentuk kata memengaruhi makna dan fungsinya dalam kalimat. Pemahaman ini membantu kita memilih bentuk kata yang sesuai saat membaca atau melengkapi bacaan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kata Rumpang",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kata Rumpang",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Soal kata rumpang meminta kita melengkapi bagian yang kosong dalam kalimat atau bacaan. Kata yang dipilih harus cocok dengan susunan kalimat dan maksud bacaan. Untuk menemukannya, periksa dulu fungsi bagian yang kosong, lalu baca informasi di sekitarnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan bentuk yang dibutuhkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian yang kosong bisa membutuhkan kata kerja, kata benda, atau kata sifat. Untuk mengenalinya, lihat kata-kata sebelum dan sesudah rumpang. Jika kalimat menyatakan tindakan, periksa siapa yang melakukan tindakan itu dan siapa atau apa yang menerimanya. Dari situ, kamu bisa menentukan bentuk kata yang sesuai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menguji makna setelah bentuknya cocok"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa kata bisa mengisi posisi yang sama, tetapi menyampaikan maksud yang berbeda. Setelah menemukan bentuk yang cocok, baca kembali paragrafnya. Periksa apakah kata itu sesuai dengan tindakan, keadaan, atau tingkat kepastian yang ditunjukkan bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan dalam kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tabel berikut, perhatikan petunjuk yang dipakai untuk memilih kata pengisi. Susunan kalimat membantu menentukan bentuk katanya, sementara informasi dalam bacaan membantu menentukan maknanya."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Yang diperiksa",
+                "Contoh pengisi",
+                "Alasan memilih"
+              ],
+              "baris": [
+                [
+                  "Fungsi dalam kalimat",
+                  "Dokumen dikelompokkan menurut tahun.",
+                  "Dokumen menjadi sasaran tindakan petugas."
+                ],
+                [
+                  "Isi paragraf",
+                  "Program efektif mencapai target.",
+                  "Pencapaian target disebut, meski biayanya tinggi."
+                ],
+                [
+                  "Kepastian informasi",
+                  "Retakan mengindikasikan kebocoran.",
+                  "Pemeriksaan masih berlangsung."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kata rumpang. Tentukan bentuk kata yang dibutuhkan, lalu baca ulang paragraf untuk memastikan kata itu sesuai dengan maksud bacaan."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Morfologi",
+        "teks": ""
+      },
+      {
+        "judul": "Kata Rumpang",
+        "teks": ""
+      }
+    ],
+    "pesan": "Dalam morfologi, kita melihat bagaimana perubahan bentuk kata memengaruhi makna dan fungsinya. Dari kata dasar tulis, misalnya, menulis menyatakan tindakan, penulis menyebut pelakunya, dan penulisan menamai prosesnya. Saat mengisi kata rumpang, gunakan susunan kalimat untuk menentukan bentuk yang dibutuhkan. Setelah itu, baca kembali kalimat di sekitarnya untuk memastikan pilihanmu sesuai dengan maksud bacaan."
+  }
+}

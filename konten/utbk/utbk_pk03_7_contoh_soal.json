@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Fungsi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Fungsi",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-03-7-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Akar Persamaan Kuadrat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Grafik fungsi kuadrat $f(x)=x²−bx+12$ memotong sumbu $-x$ di titik $(3,0)$ dan $(a,0)$. Nilai $a+b$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "7",
+            "B": "9",
+            "C": "11",
+            "D": "13",
+            "E": "15"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Hubungan akar dengan koefisien dan pembacaan titik potong fungsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 3 dan $a$ merupakan akar,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "hasil kali akarnya $3a=12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sehingga $a=4$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah akar $3+4=b=7$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $a+b=4+7=11$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Hanya nilai $b$, belum ditambah $a$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak sesuai jumlah $a+b$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, 11."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D–E. Tidak sesuai akar persamaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan hasil kali akar $=12$ dan jumlah akar $=b$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Biaya dengan Ongkir",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah toko bangunan menjual cat tembok seharga Rp70.000 per kaleng. Untuk setiap transaksi pembelian, toko mengenakan ongkos pengantaran tetap sebesar Rp15.000, tanpa memperhatikan jumlah kaleng yang dibeli."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi $f(n)$ menyatakan total biaya pembelian $n$ kaleng cat, termasuk ongkos pengantaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Fungsi biaya total pembelian dapat dinyatakan sebagai $f(n)=70.000n+15.000$.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Total biaya pembelian 3 kaleng cat, termasuk ongkos pengantaran, adalah Rp210.000.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika jumlah pembelian bertambah dari 3 menjadi 5 kaleng dalam satu transaksi, total biaya meningkat sebesar Rp140.000.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Jika pelanggan memiliki anggaran Rp300.000, jumlah maksimal cat yang dapat dibeli dalam satu transaksi dengan pengantaran adalah 4 kaleng.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Benar**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Fungsi linear dengan tarif per unit dan biaya tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap kaleng cat berharga Rp70.000 dan ongkos pengantaran sebesar Rp15.000 dikenakan satu kali dalam setiap transaksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, fungsi biaya total adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(n)=70.000n+15.000$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk pembelian 3 kaleng:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(3)=3(70.000)+15.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(3)=225.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, total pembayaran adalah Rp225.000, bukan Rp210.000. Nilai Rp210.000 hanya mencakup harga cat tanpa ongkos pengantaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total biaya untuk 5 kaleng adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(5)=5(70.000)+15.000=365.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih biaya antara pembelian 5 kaleng dan 3 kaleng:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$365.000-225.000=140.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, biaya meningkat sebesar Rp140.000. Ongkos pengantaran tidak bertambah karena kedua perhitungan menggunakan tarif pengantaran tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan anggaran Rp300.000, berlaku:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$70.000n+15.000≤300.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$70.000n≤285.000$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n≤4,07$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena jumlah kaleng harus berupa bilangan bulat, pembelian maksimal adalah 4 kaleng."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(4)=280.000+15.000=295.000$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, anggaran Rp300.000 cukup untuk membeli 4 kaleng, tetapi tidak cukup untuk 5 kaleng."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, urutan jawaban yang benar adalah Benar – Salah – Benar – Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan biaya menjadi dua komponen, yaitu harga per kaleng dan ongkos pengantaran tetap. Saat jumlah kaleng bertambah, hanya biaya per kaleng yang berubah. Untuk menentukan pembelian maksimal, kurangi anggaran dengan ongkir terlebih dahulu, kemudian bagi dengan harga satu kaleng dan bulatkan ke bawah."
+            }
+          ],
+          "label": "Fungsi Linear"
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Piecewise",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui fungsi:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk03_aljabar/gambar-01.png",
+              "lebar": 3.25,
+              "tinggi": 1.33
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai $2f(−2) + f(1) + f(4)$ adalah …."
+            }
+          ],
+          "opsi": {
+            "A": "$31/3$",
+            "B": "$34/3$",
+            "C": "$35/3$",
+            "D": "$37/3$",
+            "E": "$40/3$"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi sepotong (<i>piecewise function</i>) memiliki rumus yang berbeda pada interval masukan yang berbeda. Untuk menentukan nilai fungsi, tentukan terlebih dahulu interval yang memenuhi nilai $x$, kemudian gunakan rumus pada interval tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $−2 ≤ −1$, gunakan aturan pertama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(−2) = −2 + 5 = 3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $−1 < 1 ≤ 2$, gunakan aturan kedua:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(1) = 2(1) + 1 = 3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $4 > 2$, gunakan aturan ketiga:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(4) = (4 + 4)/(4 − 1) = 8/3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusikan ketiga nilai:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2f(−2) + f(1) + f(4) = 2(3) + 3 + 8/3$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$9 + 8/3 = 27/3 + 8/3 = 35/3$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**A.** Salah, tidak sesuai hasil substitusi ketiga nilai fungsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**B.** Salah, tidak sesuai hasil operasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**C.** Benar, hasilnya $35/3$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**D.** Salah, melebihi nilai hasil substitusi yang benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**E.** Salah, bukan hasil evaluasi ketiga aturan fungsi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

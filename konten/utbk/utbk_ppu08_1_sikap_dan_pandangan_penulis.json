@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "judul": "Sikap dan Pandangan Penulis",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Sikap dan Pandangan Penulis",
+    "sumber": "https://docs.google.com/document/d/10y0E-sgj0VaRiRW1ei_RX757-gLxQ6Kn/edit",
+    "id_katalog": "ppu-08-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Teks eksplanatif menjelaskan bagaimana atau mengapa suatu peristiwa terjadi. Teks argumentatif mengajukan pendapat dan menyertakan alasan atau bukti untuk mendukungnya. Keduanya bisa membahas peristiwa yang sama. Untuk membedakannya, perhatikan apakah penulis memakai informasi untuk menjelaskan proses atau untuk meyakinkan pembaca agar menerima suatu pendapat."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menafsirkan",
+        "teks": "dukungan, penolakan, dan dukungan bersyarat dari penilaian, pilihan kata, serta pembatas yang digunakan penulis."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "konsistensi sikap penulis dengan menghubungkan klaim, alasan, data, dan pengecualian lintas paragraf."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menafsirkan dukungan, penolakan, dan dukungan bersyarat dari penilaian, pilihan kata, serta pembatas yang digunakan penulis."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Mengevaluasi konsistensi sikap penulis dengan menghubungkan klaim, alasan, data, dan pengecualian lintas paragraf."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Sikap dan Pandangan Penulis",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Sikap dan Pandangan Penulis",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sikap penulis adalah posisi yang diambil terhadap suatu masalah atau usulan. Penulis bisa mendukung, menolak, atau menunda penilaian sampai ada bukti tambahan. Pandangan penulis terlihat dari cara ia memahami masalah dan alasan yang dipakainya untuk menjelaskan posisi tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menemukan siapa yang sedang menilai"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu bacaan bisa memuat pendapat penulis dan pendapat orang yang dikutip. Mulailah dengan mencari siapa yang menyampaikan setiap penilaian. Setelah itu, baca tanggapan atau bukti yang muncul di sekitarnya untuk melihat bagaimana penulis memperlakukan pendapat tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan apa yang didukung dan apa batasnya"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membaca dukungan, tentukan dulu apa yang disetujui penulis. Periksa apakah dukungan itu berlaku untuk seluruh usulan atau hanya untuk bagian tertentu. Jika penulis menyebut syarat, batas, atau hal yang masih perlu diperiksa, sertakan informasi itu ketika merumuskan sikapnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membedakan penolakan dari penundaan penilaian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penolakan menunjukkan bahwa penulis sudah menyatakan keberatan terhadap suatu klaim atau usulan. Penundaan penilaian menunjukkan bahwa keputusan masih menunggu informasi tambahan. Untuk membedakannya, cari bagian yang menyatakan keputusan penulis dan perhatikan alasan atau syarat yang menyertainya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan dalam kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada tabel berikut, mulai dari petunjuk dalam teks. Gunakan pertanyaan di kolom kedua untuk memeriksa siapa yang berbicara, apa yang dinilai, dan sejauh mana bukti mendukung penilaian itu. Kolom terakhir menunjukkan cara merumuskan sikap sesuai dengan informasi yang tersedia."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Petunjuk dalam teks",
+                "Yang perlu ditanyakan",
+                "Bacaan yang sesuai"
+              ],
+              "baris": [
+                [
+                  "“Menurut pengelola, semua kendala teratasi.”",
+                  "Siapa yang menilai?",
+                  "Ini klaim pengelola."
+                ],
+                [
+                  "Catatan menunjukkan sebagian warga masih kesulitan.",
+                  "Apa yang dilakukan bukti itu terhadap klaim tadi?",
+                  "Catatan menunjukkan batas jangkauan klaim."
+                ],
+                [
+                  "“Layanan membantu, tetapi meja bantuan masih diperlukan.”",
+                  "Bagian mana yang diakui dan apa yang perlu ditambah?",
+                  "Manfaat diakui. Bantuan tetap diperlukan untuk sebagian warga."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Sikap penulis. Cari siapa yang menyampaikan pendapat, apa yang dinilai, dan bukti yang menunjukkan dukungan, penolakan, atau penundaan keputusan.",
+                "Unsur bahasa. Temukan hal yang ditunjuk oleh kata rujukan. Jika konjungsi diganti, periksa apakah isi bacaan mendukung hubungan yang baru."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Menemukan siapa yang sedang menilai",
+        "teks": ""
+      },
+      {
+        "judul": "Menentukan apa yang didukung dan apa batasnya",
+        "teks": ""
+      },
+      {
+        "judul": "Membedakan penolakan dari penundaan penilaian",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan dalam kalimat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Saat membaca teks, perhatikan apa yang ingin penulis sampaikan dan bagaimana ia memakai informasi untuk mencapai tujuannya. Uraian tentang penyebab antrean, misalnya, dapat membantu pembaca memahami mengapa antrean bertambah panjang. Jika uraian itu dipakai untuk mendukung usulan pemeriksaan awal, periksa juga alasan penulis memilih usulan tersebut dan batas dukungannya. Kata rujukan membantu kita mengikuti hal yang sedang dibahas, sementara konjungsi menunjukkan bagaimana gagasan itu terhubung dengan gagasan lain."
+  }
+}

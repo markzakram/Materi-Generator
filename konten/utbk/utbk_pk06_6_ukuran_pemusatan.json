@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "judul": "Ukuran Pemusatan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Ukuran Pemusatan",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "id_katalog": "pk-06-6"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal PK–PM, informasi sering diberikan sebagai tabel berisi banyak kategori, diagram dengan skala tertentu, atau data dengan rata-rata dan median. Penyelesaian yang tepat dimulai dari pemeriksaan apa yang sebenarnya diukur: jumlah, proporsi, frekuensi, perubahan waktu, atau nilai tengah. Selanjutnya, pengolahan data perlu mempertahankan unit, periode, dan ukuran kelompok."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "mean, median, modus."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "nilai pemusatan."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "dampak pencilan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Ukuran Pemusatan",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Ukuran Pemusatan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Mean, Median, Modus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mean (rata-rata aritmetika) diperoleh dari jumlah seluruh data dibagi banyak data. Median adalah nilai tengah setelah data diurutkan; untuk banyak data genap, ambil rata-rata dua nilai tengah. Modus adalah nilai yang frekuensinya paling besar; suatu data dapat memiliki lebih dari satu modus atau tidak memiliki modus yang unik."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Mean = (x_{1} + x_{2} + ⋯ + x_{n}) ÷ n$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Mean berbobot = Σ(f_{i} × x_{i}) ÷ Σf_{i}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rata-rata Gabungan dan Pencilan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menggabungkan rata-rata dua kelompok, jumlahkan total nilai masing-masing kelompok, bukan sekadar merata-ratakan dua mean bila besar kelompok berbeda. Pencilan sangat besar atau kecil dapat menarik mean; median umumnya lebih stabil terhadap pencilan ekstrem. Pemilihan ukuran pemusatan tergantung tujuan analisis, bukan satu rumus yang selalu unggul."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Mean gabungan = (n_{1} × m_{1} + n_{2} × m_{2}) ÷ (n_{1} + n_{2})$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada data berurutan 6, 7, 7, 8, 9, 10, 11, 54, median adalah $(8+9)/2 = 8,5$, sedangkan $mean = 112/8 = 14$. Selisih tersebut menunjukkan bagaimana satu nilai pencilan memengaruhi mean."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-01.png",
+              "lebar": 6.33,
+              "tinggi": 2.0
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik U–J–C: Urutkan data untuk median, Jumlahkan untuk mean, Cek frekuensi untuk modus. Bila terdapat pencilan, jelaskan keterbatasan mean. Untuk mean gabungan, bobotkan sesuai ukuran kelompok."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Mean, Median, Modus",
+        "teks": ""
+      },
+      {
+        "judul": "Rata-rata Gabungan dan Pencilan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Statistika dan Interpretasi Data menuntut ketelitian pada sumber, satuan, basis perbandingan, dan keterbatasan kesimpulan. Dengan menguasai penyajian tabel, grafik, analisis persentase, serta ukuran pemusatan, peserta dapat mengubah data menjadi informasi yang dapat diperiksa dan digunakan secara bertanggung jawab."
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "judul": "Proporsi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Proporsi",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "id_katalog": "pk-01-4"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bilangan dan Aritmetika merupakan landasan penyelesaian berbagai persoalan kuantitatif."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "kesetaraan dua rasio."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "nilai tak diketahui."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "validitas proporsi saat kondisi berubah."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bilangan dan Aritmetika",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bilangan dan Aritmetika",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua submateri mengikuti alur mengenali konsep, menerapkan model, kemudian menguji ketepatan model terhadap konteks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Proporsi",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Proporsi",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua perbandingan disebut proporsional apabila keduanya menyatakan rasio yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Proporsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Proporsi adalah pernyataan kesetaraan antara dua rasio. Penulisan $a : b = c : d$ menyatakan bahwa nilai $a/b$ sama dengan $c/d$, dengan $b$ dan $d$ tidak nol. Dua rasio yang setara dapat berbeda besar bilangannya tetapi memiliki hubungan relatif yang sama. Berbeda dengan Rasio/Perbandingan yang menekankan pembacaan hubungan, proporsi menuntut pemeriksaan apakah dua hubungan tersebut benar-benar setara."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a : b = c : d ⇔ a/b = c/d, b ≠ 0, d ≠ 0$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a/b = c/d ⇔ a × d = b × c$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rasio Ekuivalen dan Variabel yang Terlibat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rasio 2 : 5 sama dengan 6 : 15 karena kedua besaran dikalikan faktor 3. Kesetaraan dapat diuji dengan menyederhanakan rasio, membandingkan hasil kali silang, atau menggunakan satuan per satu unit. Pemilihan metode bergantung pada bentuk bilangan yang paling mudah diolah."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2/5 = 6/15 karena 2 × 15 = 5 × 6$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan Nilai Tak Diketahui"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika tiga dari empat nilai diketahui, nilai lainnya dapat diperoleh dengan membentuk pecahan yang searah dan menggunakan perkalian silang. Jika kebutuhan bahan konstan, banyak bahan dibagi luas sama sebelum maupun sesudah perubahan. Peserta dapat memakai faktor pengali secara langsung bila angka mudah disederhanakan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a/b = c/x ⇒ x = (b × c)/a, a ≠ 0$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Bahan_{1}/Luas_{1} = Bahan_{2}/Luas_{2}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memeriksa Hubungan Sebelum Memakai Proporsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persamaan proporsi hanya layak dipakai apabila hubungan relatif yang dijadikan dasar memang tetap. Contoh hubungan yang mungkin proporsional adalah kebutuhan cat terhadap luas dengan daya tutup per kaleng tetap. Sebaliknya, total pembayaran tidak selalu sebanding dengan jumlah barang apabila terdapat satu biaya layanan tetap di luar harga setiap barang."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Model proporsional: y = kx, k tetap$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Model dengan biaya tetap: y = kx + c, c ≠ 0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada model $y = kx$, setiap penggandaan x membuat y menjadi dua kali lipat. Pada $y = kx+c$, bagian c tidak ikut digandakan ketika x berubah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Proporsi pada Pekerjaan, Laju, dan Banyak Pekerja"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk pekerjaan yang terselesaikan secara seragam, volume pekerjaan berbanding dengan hasil perkalian jumlah pekerja, waktu, dan produktivitas per pekerja. Jika produktivitas tetap, model jumlah pekerjaan dapat dinyatakan sebagai $W = p × n × t$. Ini membantu memecahkan soal kurikulum tentang persentase pekerjaan dan kebutuhan pekerja pada durasi berbeda. Namun, jika produktivitas berubah, perbandingan sederhana tidak boleh digunakan tanpa menyesuaikan nilai p."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W = p × n × t (p = produktivitas tetap per pekerja per waktu)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n_{2} = n_{1} × (W_{2}/W_{1}) × (t_{1}/t_{2}), bila p sama$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal Proporsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca besaran yang ditanya dan pisahkan data awal dari data akhir. Tetapkan pasangan besaran dengan urutan yang sama dan satuannya setara. Sebelum menghitung, cek apakah laju, harga satuan, produktivitas, dan kondisi lain diasumsikan tetap. Bila ya, gunakan faktor pengali atau persamaan proporsi. Bila terdapat kondisi baru, ubah model terlebih dahulu. Setelah mendapat hasil, uji keterpenuhan syarat, terutama bilangan bulat, batas minimal, dan biaya tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat: Teknik S–A–M–C"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Tahap",
+                "Pertanyaan kerja"
+              ],
+              "baris": [
+                [
+                  "S — Susun",
+                  "Apa dua besaran yang dibandingkan? Pastikan urutan dan satuan sama."
+                ],
+                [
+                  "A — Asumsi",
+                  "Apakah laju, komposisi, produktivitas, atau harga satuan benar-benar tetap?"
+                ],
+                [
+                  "M — Model",
+                  "Gunakan faktor skala, perkalian silang, atau model W = pnt sesuai konteks."
+                ],
+                [
+                  "C — Cek",
+                  "Apakah hasil memenuhi kondisi perubahan dan batasan pembulatan/unit?"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bilangan dan Aritmetika",
+        "teks": ""
+      },
+      {
+        "judul": "Proporsi",
+        "teks": ""
+      }
+    ],
+    "pesan": "Melalui materi Bilangan dan Operasi Bilangan, peserta mempelajari jenis dan sifat bilangan, aturan operasi hitung, serta pemilihan strategi perhitungan yang efisien. Pada materi FPB dan KPK, peserta dilatih mengenali hubungan faktor dan kelipatan serta menentukan penggunaannya dalam persoalan pembagian dan kejadian berulang. Selanjutnya, Rasio/Perbandingan dan Proporsi membantu peserta memahami hubungan antarbesaran, menentukan nilai yang belum diketahui, serta mengevaluasi kesesuaian model matematika dengan informasi yang diberikan. Dengan memahami keseluruhan materi secara bertahap dan berlatih menggunakan berbagai bentuk soal, peserta diharapkan mampu mengembangkan kemampuan berpikir matematis yang sistematis, kritis, dan akurat. Penguasaan Bab Bilangan dan Aritmetika juga menjadi bekal untuk mempelajari materi kuantitatif berikutnya yang membutuhkan pemahaman tentang operasi, hubungan antarbesaran, dan pemodelan matematika. Pada akhirnya, keberhasilan dalam menyelesaikan soal kuantitatif tidak hanya ditentukan oleh kemampuan menghitung, tetapi juga oleh ketepatan memahami persoalan, memilih strategi, dan mengevaluasi hasil berdasarkan informasi yang tersedia."
+  }
+}

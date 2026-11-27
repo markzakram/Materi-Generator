@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "judul": "Konsep Dasar Geometri",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Konsep Dasar Geometri",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "id_katalog": "pk-05-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri berangkat dari titik, garis, bidang, serta hubungan antarelemen. Dalam geometri bidang, keliling berbeda dengan luas; dalam ruang, luas permukaan berbeda dengan volume. Penalaran geometris juga membutuhkan penggunaan skala, kesebangunan, dan sudut. Sebuah gambar yang terlihat proporsional tidak selalu digambar sesuai skala, sehingga semua kesimpulan harus didasarkan pada informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "titik, garis, bidang, jarak."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "sifat dasar."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "beberapa hubungan geometris dalam diagram."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konsep Dasar Geometri",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep Dasar Geometri",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Titik menunjukkan posisi tanpa ukuran; garis memanjang tanpa batas ke dua arah; ruas garis memiliki dua ujung; sinar garis memiliki satu titik pangkal. Bidang merupakan permukaan datar yang meluas ke dua arah. Ruang merupakan himpunan titik yang mempunyai tiga dimensi. Pada gambar, jarak terpendek antara dua titik adalah panjang ruas garis yang menghubungkannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan dasar yang perlu dikenali adalah sejajar (tidak berpotongan pada bidang), tegak lurus (membentuk sudut 90°), serta berpotongan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Koordinat, Jarak, dan Pythagoras"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam sistem koordinat Kartesius, lokasi titik diberikan oleh pasangan $(x, y)$. Jarak horizontal dan vertikal dapat membentuk segitiga siku-siku sehingga jarak dua titik dapat dihitung menggunakan Teorema Pythagoras."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{2} + b^{2} = c^{2}; d = √[(x_{2} − x_{1})^{2} + (y_{2} − y_{1})^{2}]$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teorema Pythagoras hanya berlaku untuk segitiga siku-siku dan c harus merupakan sisi miring, bukan sembarang sisi. Tripel $3–4–5, 5–12–13,$ dan $8–15–17$ dapat mempercepat perhitungan jika memenuhi konteks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengayaan Terbatas: Transformasi Geometri"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Translasi menggeser titik $(x, y)$ menjadi $(x + a, y + b)$; refleksi terhadap sumbu-$x$ menghasilkan $(x, −y)$, sedangkan sumbu-y menghasilkan $(−x, y)$. Refleksi, rotasi, dan translasi mempertahankan panjang serta sudut; dilatasi dengan faktor skala k mengubah ukuran."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(x, y) → (x + a, y + b); (x, y) → (kx, ky)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tandai objek dan informasi gambar yang benar-benar diketahui; beri simbol pada panjang/sudut; gunakan sifat yang relevan; periksa kemungkinan lain jika gambar tidak berskala."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Teknik cepat T–H–M–C:** Titik/objek → Hubungan → Model → Cek."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Koordinat, Jarak, dan Pythagoras",
+        "teks": ""
+      },
+      {
+        "judul": "Pengayaan Terbatas: Transformasi Geometri",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Geometri dan Pengukuran menuntut peserta menghubungkan sifat bangun, ukuran, satuan, dan representasi gambar. Pahami konsep dan syarat model sebelum memakai rumus, terutama pada bangun gabungan, skala, diagram sudut, dan trigonometri. Dengan membandingkan alternatif penyelesaian dan memeriksa kewajaran satuan, peserta dapat menyelesaikan soal secara lebih akurat, tidak sekadar cepat."
+  }
+}

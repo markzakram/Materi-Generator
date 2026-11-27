@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "judul": "Trigonometri Dasar",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Trigonometri Dasar",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "id_katalog": "pk-05-7"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri berangkat dari titik, garis, bidang, serta hubungan antarelemen. Dalam geometri bidang, keliling berbeda dengan luas; dalam ruang, luas permukaan berbeda dengan volume. Penalaran geometris juga membutuhkan penggunaan skala, kesebangunan, dan sudut. Sebuah gambar yang terlihat proporsional tidak selalu digambar sesuai skala, sehingga semua kesimpulan harus didasarkan pada informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "sinus, kosinus, tangen segitiga siku-siku."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "sisi/sudut."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "rasio sesuai konteks."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Trigonometri Dasar",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Trigonometri Dasar",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Segitiga Siku-Siku"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam segitiga siku-siku, sisi miring selalu berhadapan dengan sudut 90°. Terhadap sudut lancip $θ$, sisi depan berada di hadapan $θ$ dan sisi samping bersinggungan dengan $θ$ selain sisi miring. Pemilihan sisi depan atau samping bergantung sudut acuannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sinus, Kosinus, dan Tangen"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$sin θ = depan/miring; cos θ = samping/miring; tan θ = depan/samping$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus SOH–CAH–TOA adalah alat bantu mengingat."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Gunakan sin untuk hubungan depan–miring;",
+                "cos untuk samping–miring; dan",
+                "tan untuk depan–samping."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada segitiga siku-siku, sudut acuan lazimnya adalah salah satu sudut lancip."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Nilai Sudut Istimewa"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "θ",
+                "sin θ",
+                "cos θ",
+                "tan θ"
+              ],
+              "baris": [
+                [
+                  "0°",
+                  "0",
+                  "1",
+                  "0"
+                ],
+                [
+                  "30°",
+                  "$1/2$",
+                  "$√3/2$",
+                  "$√3/3$"
+                ],
+                [
+                  "45°",
+                  "$√2/2$",
+                  "$√2/2$",
+                  "1"
+                ],
+                [
+                  "60°",
+                  "$√3/2$",
+                  "$1/2$",
+                  "$√3$"
+                ],
+                [
+                  "90°",
+                  "1",
+                  "0",
+                  "tak terdefinisi"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai tangen 90° tidak terdefinisi karena pembaginya nol. Syarat geometris harus diperiksa sebelum memakai tabel sudut istimewa. Untuk menentukan tinggi melalui jarak mendatar dan sudut elevasi, tangen biasanya paling langsung."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-02.png",
+              "lebar": 5.65,
+              "tinggi": 4.26
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan sudut acuan; beri label depan, samping, dan miring; pilih rasio yang memuat besaran diketahui dan yang dicari; periksa hasil dengan Pythagoras dan kewajaran sudut."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Segitiga Siku-Siku",
+        "teks": ""
+      },
+      {
+        "judul": "Sinus, Kosinus, dan Tangen",
+        "teks": ""
+      },
+      {
+        "judul": "Nilai Sudut Istimewa",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Geometri dan Pengukuran menuntut peserta menghubungkan sifat bangun, ukuran, satuan, dan representasi gambar. Pahami konsep dan syarat model sebelum memakai rumus, terutama pada bangun gabungan, skala, diagram sudut, dan trigonometri. Dengan membandingkan alternatif penyelesaian dan memeriksa kewajaran satuan, peserta dapat menyelesaikan soal secara lebih akurat, tidak sekadar cepat."
+  }
+}

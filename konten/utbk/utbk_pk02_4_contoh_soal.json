@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bunga",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Bunga",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-02-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Modal awal dari nilai akhir",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diana menabung dengan bunga tunggal 12% per tahun. Setelah 8 bulan, saldonya menjadi Rp10.800.000 tanpa setoran tambahan atau biaya. Tabungan awalnya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp9.600.000",
+            "B": "Rp10.240.000",
+            "C": "Rp12.240.000",
+            "D": "Rp12.000.000",
+            "E": "Rp10.000.000"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mencari modal awal dari bunga tunggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lama waktu 8/12 tahun. Faktor akhir = 1 + 0,12 × (8/12) = 1,08. Modal awal = 10.800.000/1,08 = Rp10.000.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Terlalu kecil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak memenuhi faktor 1,08."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Lebih besar daripada saldo akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Saldo awal tidak melebihi saldo akhir jika bunga positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bunga 8 bulan = 8% dari modal; bagi saldo akhir dengan 1,08."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Tunggal versus majemuk",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Modal Rp2.000.000 disimpan dua tahun pada bunga 10% per tahun. Skema A berbunga tunggal; skema B berbunga majemuk tahunan. Selisih nilai akhir kedua skema adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp10.000",
+            "B": "Rp20.000",
+            "C": "Rp30.000",
+            "D": "Rp40.000",
+            "E": "Rp50.000"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Bunga majemuk mengenakan bunga atas saldo terakumulasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A = 2.000.000(1 + 0,10 × 2) = 2.400.000. B = 2.000.000(1,1)² = 2.420.000. Selisih Rp20.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kurang Rp10.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terlalu besar Rp10.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Dua kali selisih benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu besar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perbedaan dua periode = P × r² = 2.000.000 × 0,01 = 20.000."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

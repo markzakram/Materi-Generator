@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Barisan Geometri",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Barisan Geometri",
+    "sumber": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-04-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Rasio Negatif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu barisan geometri memiliki rasio −3 dan suku ke-5 sama dengan 1. Perhatikan pernyataan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Suku pertama bernilai positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Suku kesembilan bernilai positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Suku keenam bernilai −3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Hasil kali suku kelima dan keenam bernilai negatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "(1), (2), dan (3) SAJA",
+            "B": "(1) dan (3) SAJA",
+            "C": "(2) dan (4) SAJA",
+            "D": "(4) SAJA",
+            "E": "SEMUA PERNYATAAN BENAR"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Rasio geometri negatif dan paritas pangkat; hubungan suku berlainan indeks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Rasio $r=-3$",
+                "Suku kelima $U_{5}=1$"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus barisan geometri:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Uₙ = Uₖ r^{(n-k)}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "(1) Suku pertama bernilai positif — BENAR",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U_{5}=a(-3)^{4}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1=81a$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a=1/81>0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, suku pertama bernilai positif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "(2) Suku kesembilan bernilai positif — BENAR",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U_{9}=U_{5}⋅r^{9-5}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=1⋅(-3)^{4}=81$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, suku kesembilan bernilai positif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "(3) Suku keenam bernilai −3 — BENAR",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U_{6}=U_{5}⋅r$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=1⋅(-3)=-3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, suku keenam bernilai −3."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "(4) Hasil kali suku kelima dan keenam bernilai negatif — BENAR",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U_{5}⋅U_{6}=1⋅(-3)=-3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $-3<0$, hasil kalinya negatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kurang karena (4) juga benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kurang karena (2) dan (4) juga benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Kurang karena (1) dan (3) juga benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Kurang karena (1), (2), (3) juga benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar; keempat pernyataan sesuai."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $Uₙ = Uₖ r^{(n-k)}$ agar tidak perlu menghitung a kecuali untuk pernyataan (1)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

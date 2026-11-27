@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Sinonim",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Sinonim",
+    "sumber": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-02-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihlah padanan kata (sinonim) yang paling tepat untuk kata “kontradiktif” pada konteks berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Pernyataan saksi A terdengar kontradiktif dengan bukti rekaman video yang ditunjukkan di pengadilan.”"
+            }
+          ],
+          "opsi": {
+            "A": "Sejalan",
+            "B": "Bertentangan",
+            "C": "Berlebihan",
+            "D": "Seadanya",
+            "E": "Berlapis"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban B Benar karena: \"Kontradiktif\" memiliki arti berlawanan atau tidak sesuai. Dalam konteks kesaksian vs bukti, sinonim yang paling tepat adalah bertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan opsi lain salah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Sejalan: Antonim dari kontradiktif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C, D, E: Tidak relevan dengan makna pertentangan logika."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Setelah hujan deras, petugas menutup jembatan untuk memeriksa lantai yang rapuh. (2) Pemeriksaan dilakukan secara menyeluruh, mulai dari lantai hingga penyangga. (3) Hasil pemeriksaan menunjukkan bahwa jalur alternatif masih dapat dilalui, tetapi kendaraan berat harus memakai jalan lain. (4) Dalam laporan resmi, petugas menyampaikan bahwa jembatan akan dibuka kembali setelah perbaikan selesai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beri tanda centang pada kolom Benar jika kata pengganti mempertahankan makna dan sesuai dengan kalimat asal. Beri tanda centang pada kolom Salah jika penggantian mengubah makna atau membuat kalimat kurang sesuai."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Kata rapuh dapat diganti dengan ringan karena keduanya menggambarkan kondisi lantai jembatan.",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Kata menyeluruh dapat diganti dengan komprehensif karena pemeriksaan mencakup berbagai bagian jembatan.",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Kata berat pada kendaraan berat dapat diganti dengan sulit karena kedua kata itu berdekatan maknanya pada ungkapan soal berat.",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "Kata menyampaikan dapat diganti dengan memberitahukan karena laporan itu memberi informasi tentang pembukaan kembali jembatan.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Salah; 2 Benar; 3 Salah; 4 Benar**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Salah. Rapuh menggambarkan lantai yang mudah rusak. Ringan berkaitan dengan bobot. Lantai yang ringan bisa saja tetap kuat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Benar. Pemeriksaan mencakup lantai hingga penyangga. Dalam konteks itu, secara komprehensif mempertahankan gagasan bahwa pemeriksaan dilakukan dengan cakupan yang luas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Salah. Pada soal berat, kata berat dapat berarti sulit. Pada kendaraan berat, kata berat berkaitan dengan bobot. Makna yang dipakai perlu diperiksa sebelum memilih padanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar. Kedua kata cocok untuk menyatakan bahwa petugas memberi tahu pembaca laporan kapan jembatan akan dibuka kembali."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Kecukupan Data",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Kecukupan Data",
+    "sumber": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-08-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Dua Pompa",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pompa A dan B mengisi tandon berukuran sama. Apakah pompa A lebih cepat mengisi tandon sendiri daripada pompa B?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Keduanya bersama-sama mengisi dalam 40 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Debit A = 1,2 kali debit B."
+            }
+          ],
+          "opsi": {
+            "A": "(1) saja cukup",
+            "B": "(2) saja cukup",
+            "C": "Keduanya bersama-sama cukup, masing-masing tidak",
+            "D": "Masing-masing pernyataan cukup",
+            "E": "Bahkan gabungannya tidak cukup"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pada volume yang sama, waktu pengisian berbanding terbalik dengan debit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) hanya menjelaskan debit gabungan;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "debit tiap pompa belum terbandingkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) menegaskan A memiliki debit 20% lebih besar daripada B sehingga untuk kapasitas tandon sama A pasti lebih cepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A salah karena (1) tidak cukup; B tepat; C salah karena (2) sendiri cukup; D salah karena (1) belum cukup; E salah karena (2) cukup."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk “lebih cepat” dengan kapasitas sama, cukup cek perbandingan debit."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Median Lima Nilai",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lima bilangan berbeda tersusun dari yang terkecil ke terbesar, yaitu **p, 11, r, s, dan t**, dengan **s = r + 3**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah median kelima bilangan tersebut lebih dari **17**?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Rata-rata kelima bilangan adalah **18**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) **t − p = 18**."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) saja cukup, tetapi pernyataan (2) saja tidak cukup.",
+            "B": "Pernyataan (2) saja cukup, tetapi pernyataan (1) saja tidak cukup.",
+            "C": "Kedua pernyataan bersama-sama cukup, tetapi masing-masing tidak cukup.",
+            "D": "Masing-masing pernyataan cukup untuk menjawab pertanyaan.",
+            "E": "Kedua pernyataan bersama-sama tidak cukup untuk menjawab pertanyaan."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena lima bilangan sudah diurutkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p < 11 < r < s < t"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka median adalah bilangan ketiga, yaitu:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median = r"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi pertanyaan sebenarnya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah r > 17?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui juga:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "s = r + 3"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1): Rata-rata kelima bilangan adalah 18.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah kelima bilangan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5 × 18 = 90"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + 11 + r + s + t = 90"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi s = r + 3:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + 11 + r + r + 3 + t = 90"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + t + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persamaan ini belum menentukan nilai r secara pasti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contohnya, r dapat bernilai 17 maupun lebih dari 17 dengan nilai p dan t yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) saja tidak cukup."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Pernyataan (2): t − p = 18."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diperoleh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "t = p + 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi ini hanya menunjukkan hubungan antara bilangan terkecil dan terbesar. Nilai r masih dapat berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (2) saja tidak cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gabungkan pernyataan (1) dan (2).",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (1):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + t + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (2):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "t = p + 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + (p + 18) + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2p + 2r = 58"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + r = 29"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sehingga:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r = 29 − p"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena urutan bilangan menunjukkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p < 11"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r = 29 − p > 29 − 11"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r > 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pasti berlaku:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r > 17"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena median = r, maka median pasti lebih dari 17."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, kedua pernyataan harus digunakan bersama-sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: C.**"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Median = r."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (1):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + t + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (2):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "t = p + 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + (p + 18) + 2r = 76"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "p + r = 29"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena p < 11:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "r > 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka median pasti lebih dari 17. **Jadi jawabannya C.**"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Syarat Tidak Menentukan Jawaban",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah x lebih besar dari 5?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) x² > 25."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) x ≠ −5."
+            }
+          ],
+          "opsi": {
+            "A": "(1) saja cukup",
+            "B": "(2) saja cukup",
+            "C": "Keduanya bersama-sama cukup",
+            "D": "Masing-masing cukup",
+            "E": "Keduanya tetap tidak cukup"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Syarat kuadrat tidak menentukan tanda x."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1): x=6 (Ya) dan x=−6 (Tidak) sama-sama sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2): x=7 (Ya) dan x=0 (Tidak) sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungan tetap memungkinkan x=6 dan x=−6;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "keduanya memenuhi x²>25 dan x≠−5, tetapi menjawab berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A–D salah sebab tidak ada informasi yang memastikan satu jawaban; E benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk soal kuadrat, selalu coba pasangan nilai positif dan negatif."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

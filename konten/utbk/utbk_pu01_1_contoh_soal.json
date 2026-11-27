@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Generalisasi",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Contoh Soal Generalisasi",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "bagian": "soal",
+    "id_katalog": "pu-01-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Generalisasi Logis",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam tiga kelas berbeda, kegiatan diskusi kelompok yang dilaksanakan secara rutin diikuti peningkatan keaktifan siswa. Di kelas A, lebih banyak siswa mengajukan pertanyaan. Di kelas B, lebih banyak siswa menyampaikan gagasan. Di kelas C, lebih banyak siswa menanggapi pendapat temannya. Berdasarkan pengamatan tersebut, generalisasi yang PALING TEPAT adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Diskusi kelompok rutin membuat setiap siswa lebih aktif dalam setiap kegiatan pembelajaran.",
+            "B": "Diskusi kelompok rutin cenderung berkaitan dengan meningkatnya partisipasi siswa dalam pembelajaran.",
+            "C": "Diskusi kelompok rutin cenderung meningkatkan kemampuan akademik siswa pada berbagai mata pelajaran.",
+            "D": "Diskusi kelompok rutin lebih efektif meningkatkan partisipasi pada kelas dengan jumlah siswa sedikit.",
+            "E": "Diskusi kelompok rutin merupakan metode paling efektif untuk meningkatkan partisipasi dibanding metode lainnya."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga kelas menunjukkan bentuk keaktifan yang berbeda, tetapi memiliki pola yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas A → lebih banyak siswa bertanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas B → lebih banyak siswa menyampaikan gagasan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas C → lebih banyak siswa menanggapi pendapat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga aktivitas tersebut merupakan bentuk **partisipasi siswa dalam pembelajaran**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena pola peningkatan partisipasi muncul pada tiga kelas setelah diskusi kelompok dilakukan secara rutin, generalisasi yang paling sesuai adalah bahwa **diskusi kelompok rutin cenderung berkaitan dengan meningkatnya partisipasi siswa dalam pembelajaran**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata **“cenderung berkaitan”** tepat digunakan karena pengamatan menunjukkan pola yang konsisten, tetapi belum cukup untuk menyatakan bahwa diskusi selalu menyebabkan peningkatan pada setiap siswa dan setiap kondisi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari **pola yang sama** dari semua kasus:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas A → partisipasi meningkat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas B → partisipasi meningkat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas C → partisipasi meningkat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka simpulan umumnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "diskusi rutin → cenderung berkaitan dengan peningkatan partisipasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hindari opsi yang:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "terlalu mutlak,",
+                "menambahkan informasi baru,",
+                "atau membandingkan dengan kondisi yang tidak diamati."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Opsi lain",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**A tidak tepat.** Pengamatan tidak menunjukkan bahwa setiap siswa selalu menjadi lebih aktif dalam seluruh kegiatan pembelajaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**C tidak tepat.** Stimulus membahas keaktifan dan partisipasi, bukan peningkatan kemampuan akademik atau nilai siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**D tidak tepat.** Tidak terdapat informasi mengenai jumlah siswa dalam masing-masing kelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**E tidak tepat.** Tidak ada perbandingan antara diskusi kelompok dan metode pembelajaran lainnya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Generalisasi Statistik",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lembaga pendidikan melakukan survei terhadap 240 siswa yang dipilih secara acak dari beberapa sekolah. Survei tersebut bertujuan mengetahui kecenderungan penggunaan video pembelajaran sebagai bahan belajar tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil survei menunjukkan bahwa 180 siswa menggunakan video pembelajaran secara rutin, sedangkan siswa lainnya tidak menggunakannya secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga tersebut ingin menggunakan hasil survei sebagai dasar untuk memperkirakan kecenderungan siswa pada populasi yang diwakili sampel."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Berapakah persentase siswa dalam sampel yang menggunakan video pembelajaran secara rutin?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam bentuk angka tanpa simbol persen.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 75**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Generalisasi statistik menggunakan proporsi sampel sebagai dasar perkiraan terhadap populasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui jumlah responden survei adalah 240 siswa. Dari jumlah tersebut, 180 siswa menggunakan video pembelajaran secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase dihitung dengan membandingkan jumlah siswa yang memenuhi kriteria terhadap seluruh responden."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$180/240×100%=75%$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, sebanyak **75% siswa dalam sampel** menggunakan video pembelajaran secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil ini dapat menjadi dasar perkiraan mengenai kecenderungan populasi yang diwakili sampel. Namun, angka 75% merupakan hasil pengamatan sampel, bukan jaminan bahwa tepat 75% seluruh siswa dalam populasi memiliki kebiasaan yang sama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bagi jumlah responden yang memenuhi kriteria dengan total sampel, kemudian kalikan 100%. Bedakan persentase hasil survei dengan persentase populasi yang masih berupa perkiraan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menguji Kekuatan Generalisasi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lembaga pendidikan mengamati penggunaan latihan soal digital pada empat kelas di dua sekolah selama enam minggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil pengamatan menunjukkan bahwa sebagian besar siswa yang rutin menggunakan latihan soal digital mengalami peningkatan nilai evaluasi. Namun, terdapat beberapa siswa yang tidak mengalami peningkatan meskipun mengikuti latihan secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penelitian tersebut tidak menggunakan kelompok pembanding. Selain itu, lembaga belum mengamati siswa dari sekolah lain di luar dua sekolah tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah**."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Hasil pengamatan mendukung kesimpulan bahwa latihan soal digital secara rutin cenderung berkaitan dengan peningkatan nilai pada kelompok siswa yang diamati.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Karena sebagian besar siswa mengalami peningkatan nilai, hasil tersebut membuktikan bahwa latihan soal digital merupakan penyebab utama peningkatan nilai seluruh siswa.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Adanya beberapa siswa yang tidak mengalami peningkatan nilai menunjukkan bahwa kesimpulan universal mengenai keberhasilan latihan soal digital tidak didukung oleh data.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Hasil pengamatan pada empat kelas sudah cukup untuk memastikan bahwa siswa di seluruh sekolah akan menunjukkan pola peningkatan nilai yang sama.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Generalisasi induktif, keterwakilan data, batas simpulan, dan perbedaan antara hubungan yang teramati dengan sebab-akibat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamatan menunjukkan bahwa sebagian besar siswa yang rutin menggunakan latihan soal digital mengalami peningkatan nilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola tersebut mendukung kesimpulan bahwa penggunaan latihan soal digital secara rutin **cenderung berkaitan** dengan peningkatan nilai pada kelompok yang diamati."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan ini tidak menyatakan bahwa seluruh siswa pasti mengalami peningkatan atau bahwa latihan soal merupakan satu-satunya penyebab perubahan nilai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peningkatan nilai setelah penggunaan latihan soal digital tidak secara otomatis membuktikan hubungan sebab-akibat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penelitian tidak menggunakan kelompok pembanding dan tidak menjelaskan faktor lain yang mungkin memengaruhi hasil belajar, seperti tambahan waktu belajar, bimbingan guru, atau perbedaan tingkat kesulitan evaluasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena itu, latihan soal digital belum dapat dipastikan sebagai penyebab utama peningkatan nilai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Generalisasi universal menyatakan bahwa suatu karakteristik berlaku untuk seluruh anggota kelompok tanpa pengecualian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam stimulus disebutkan bahwa beberapa siswa tidak mengalami peningkatan nilai meskipun mengikuti latihan secara rutin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hal tersebut menunjukkan bahwa klaim <i>semua siswa yang rutin berlatih pasti mengalami peningkatan nilai</i> tidak sesuai dengan bukti yang tersedia."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengamatan hanya dilakukan pada empat kelas di dua sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Walaupun sebagian besar siswa dalam kelompok tersebut mengalami peningkatan nilai, hasilnya belum cukup untuk memastikan bahwa pola yang sama akan berlaku di seluruh sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan karakteristik siswa, kondisi pembelajaran, dan lingkungan sekolah dapat memengaruhi hasil. Diperlukan bukti yang lebih luas dan representatif untuk mendukung generalisasi terhadap populasi yang lebih besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan pola Bukti → Pola → Batas Simpulan. Identifikasi kelompok yang diamati, temukan kecenderungan yang muncul, lalu periksa apakah kesimpulan melebihi cakupan bukti. Waspadai kata semua, pasti, seluruh, dan klaim penyebab yang belum dibuktikan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

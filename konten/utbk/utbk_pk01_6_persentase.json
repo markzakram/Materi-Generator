@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "judul": "Persentase",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Persentase",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "id_katalog": "pk-01-6"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bilangan dan Aritmetika merupakan landasan penyelesaian berbagai persoalan kuantitatif."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menafsirkan",
+        "teks": "persen per seratus."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "bagian, keseluruhan, dan perubahan."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "persentase berurutan dan pemilihan basis."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bilangan dan Aritmetika",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bilangan dan Aritmetika",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua submateri mengikuti alur mengenali konsep, menerapkan model, kemudian menguji ketepatan model terhadap konteks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Persentase",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Persentase",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Persentase"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase adalah bentuk perbandingan dengan penyebut 100. Lambang % berarti “per seratus”. Dalam persoalan yang menyebut bagian dan keseluruhan, basis persentase ialah keseluruhan pembanding yang dipilih; basis ini harus dikenali sebelum memasukkan angka ke rumus. Misalnya, 30% dari 60 siswa bermakna 18 siswa, bukan 30 siswa."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$p% = p/100$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persentase bagian = (Bagian/Keseluruhan) × 100%$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konversi Pecahan, Desimal, dan Persen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mengubah pecahan ke persen, kalikan pecahan dengan 100%. Untuk mengubah persen ke pecahan, bagi 100 lalu sederhanakan. Pada desimal, nilai 0,125 sama dengan 12,5%. Pecahan istimewa membantu mengurangi operasi kalkulator, tetapi nilai berulang harus ditulis dengan pembulatan yang tepat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Pecahan a/b = (a/b) × 100% (b ≠ 0)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Desimal d = (100d)%$"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pecahan",
+                "Desimal",
+                "Persen"
+              ],
+              "baris": [
+                [
+                  "1/2",
+                  "0,5",
+                  "50%"
+                ],
+                [
+                  "1/4",
+                  "0,25",
+                  "25%"
+                ],
+                [
+                  "3/4",
+                  "0,75",
+                  "75%"
+                ],
+                [
+                  "1/5",
+                  "0,2",
+                  "20%"
+                ],
+                [
+                  "1/8",
+                  "0,125",
+                  "12,5%"
+                ],
+                [
+                  "1/3",
+                  "0,333…",
+                  "33⅓% (≈33,33%)"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan Bagian, Keseluruhan, dan Persen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga hal yang harus dibedakan adalah “berapa bagian”, “berapa total”, dan “berapa persen”. Jika dua di antaranya diketahui, nilai ketiga dapat ditemukan. Untuk menghitung keseluruhan dari bagian, pastikan persentase yang digunakan tidak nol."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Bagian = (p/100) × Keseluruhan$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Keseluruhan = Bagian/(p/100) (p ≠ 0)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Persentase dalam Kelompok Bertingkat dan Tabel"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persen bagian berlapis = persen kelompok × persen subkelompok$"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kategori (basis total kelas)",
+                "Meja merah",
+                "Meja biru",
+                "Jumlah"
+              ],
+              "baris": [
+                [
+                  "Perempuan",
+                  "30%",
+                  "30%",
+                  "60%"
+                ],
+                [
+                  "Laki-laki",
+                  "30%",
+                  "10%",
+                  "40%"
+                ],
+                [
+                  "Jumlah",
+                  "60%",
+                  "40%",
+                  "100%"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Kategori (basis total kelas) | Meja merah | Meja biru | Jumlah"
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Persentase Kenaikan dan Penurunan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase perubahan menyatakan selisih antara nilai baru dan nilai awal, dibandingkan terhadap nilai awal. Nilai akhir lebih besar berarti kenaikan; lebih kecil berarti penurunan. Perhitungan terbalik membutuhkan pengenalan apakah angka yang diketahui adalah nilai awal atau akhir."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persen perubahan = [(Akhir − Awal)/Awal] × 100%$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Akhir = Awal × (1 + r) (kenaikan)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Akhir = Awal × (1 − r) (penurunan)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Persentase Berurutan dan Faktor Pengali"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada perubahan beruntun, setiap perubahan diterapkan pada nilai terbaru, bukan selalu terhadap nilai awal. Kenaikan 20% lalu penurunan 20% tidak mengembalikan nilai ke semula karena penurunan kedua dihitung dari nilai yang sudah lebih besar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Akhir = Awal × (1 + r_{1}) × (1 + r_{2}) × ⋯$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Naik a% lalu turun b%: faktor = (1 + a/100)(1 − b/100)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan Basis yang Benar dan Menguji Kelayakan Model"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$A = B(1 + p/100) → B = A/(1 + p/100)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal Persentase"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulailah dengan menentukan kuantitas yang menjadi basis 100%. Tandai bagian dan total, serta tentukan apakah informasi menyebut persen terhadap total atau terhadap subset. Untuk soal kelompok, susun tabel silang atau asumsi 100 unit. Untuk perubahan nilai, tulis faktor kenaikan atau penurunan sebelum menghitung. Terakhir, cek arah perubahan, nilai total, dan kemungkinan basis berganti di tengah soal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat: Teknik B–A–S–I–S"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Baca besaran yang ditanyakan. A — Acu pada basis 100% yang tepat. S — Susun informasi ke faktor pengali atau tabel. I — Identifikasi apakah terjadi perubahan basis atau perubahan berturut-turut. S — Simpulkan dan cek kewajaran hasil. Strategi ini lebih aman daripada menjumlah atau mengurangkan persentase tanpa memperhatikan penyebut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Cara cepat bagian: p% × Total$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Cara cepat beruntun: Total × faktor_{1} × faktor_{2}$"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bilangan dan Aritmetika",
+        "teks": ""
+      },
+      {
+        "judul": "Persentase",
+        "teks": ""
+      }
+    ],
+    "pesan": "Melalui materi Bilangan dan Operasi Bilangan, peserta mempelajari jenis dan sifat bilangan, aturan operasi hitung, serta pemilihan strategi perhitungan yang efisien. Pada materi FPB dan KPK, peserta dilatih mengenali hubungan faktor dan kelipatan serta menentukan penggunaannya dalam persoalan pembagian dan kejadian berulang. Selanjutnya, Rasio/Perbandingan dan Proporsi membantu peserta memahami hubungan antarbesaran, menentukan nilai yang belum diketahui, serta mengevaluasi kesesuaian model matematika dengan informasi yang diberikan. Dengan memahami keseluruhan materi secara bertahap dan berlatih menggunakan berbagai bentuk soal, peserta diharapkan mampu mengembangkan kemampuan berpikir matematis yang sistematis, kritis, dan akurat. Penguasaan Bab Bilangan dan Aritmetika juga menjadi bekal untuk mempelajari materi kuantitatif berikutnya yang membutuhkan pemahaman tentang operasi, hubungan antarbesaran, dan pemodelan matematika. Pada akhirnya, keberhasilan dalam menyelesaikan soal kuantitatif tidak hanya ditentukan oleh kemampuan menghitung, tetapi juga oleh ketepatan memahami persoalan, memilih strategi, dan mengevaluasi hasil berdasarkan informasi yang tersedia."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penentuan Gagasan Pelengkap Kalimat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penentuan Gagasan Pelengkap Kalimat",
+    "sumber": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-01-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menghubungkan Karakter dan Literasi Digital",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pendidikan karakter siswa merupakan fondasi penting bagi pembangunan sumber daya manusia unggul di era digital. (2) Kehadiran teknologi informasi membawa dampak ganda, yakni mempermudah akses informasi sekaligus memicu kemerosotan moral jika tidak disikapi secara bijak. (3) Oleh karena itu, penguatan karakter siswa di sekolah perlu dipadukan dengan literasi digital [...]. (4) Strategi ini diharapkan mampu mencetak generasi yang cerdas secara intelektual dan matang secara emosional."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Perhatikan kalimat (3): “Oleh karena itu, penguatan karakter siswa di sekolah perlu dipadukan dengan literasi digital [...]”. Gagasan pendukung yang paling tepat untuk melengkapinya adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "agar siswa dapat memanfaatkan informasi secara optimal tanpa perlu pengawasan guru.",
+            "B": "sehingga siswa dapat memahami penggunaan informasi dan media sosial dengan bijak.",
+            "C": "agar siswa dapat mempelajari seluruh materi pembelajaran berbasis teknologi digital.",
+            "D": "sehingga literasi digital dapat mencegah terjadinya kemerosotan moral.",
+            "E": "agar literasi digital dapat menggantikan metode pembelajaran karakter konvensional."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kalimat pelengkap harus mengungkapkan akibat atau tujuan yang konsisten dengan pengintegrasian karakter dan literasi digital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Kalimat (2) menekankan risiko penggunaan informasi tanpa sikap bijak; kalimat (3) menyebut integrasi pendidikan karakter dan literasi digital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Baca masalah awal: kemudahan informasi dapat disertai risiko apabila tidak disikapi bijak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Tentukan hasil yang logis dari solusi penggabungan karakter dan literasi digital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Pilih B karena menyatakan kemampuan memahami penggunaan media secara bijak, tanpa klaim mutlak."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. “Tanpa perlu pengawasan guru” menambah klaim yang tidak didukung dan berlebihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tepat: sikap bijak dalam memakai informasi menjadi hasil yang sesuai dengan solusi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terlalu meluas ke penguasaan semua materi digital, bukan pembentukan karakter."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menyatakan pencegahan kemerosotan moral secara terlalu pasti oleh satu faktor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Mengubah makna “dipadukan” menjadi “menggantikan”, bertentangan dengan teks."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bandingkan kata kerja inti: “dipadukan” berarti bekerja bersama, bukan “menggantikan”."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

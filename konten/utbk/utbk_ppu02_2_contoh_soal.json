@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Antonim",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Antonim",
+    "sumber": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-02-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Harimau sumatera (Panthera tigris sumatrae) adalah harimau terkecil di dunia dan hanya dapat ditemukan di Pulau Sumatera, Indonesia. (2) Spesies ini berkulit lebih gelap dibanding spesies lainnya dan loreng hitamnya lebih rapat. (3) Sekilas, loreng harimau terlihat mirip satu sama lain, namun sebenarnya loreng mereka unik seperti sidik jari manusia. (4) Massa harimau sumatera dewasa dapat mencapai 140 kg dan panjangnya mencapai 2,5 m dari kepala hingga ekor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(5) Harimau berperan sebagai predator puncak rantai makanan. (6) Hilangnya harimau di alam akan mengganggu rantai makanan dan mengakibatkan lonjakan jumlah populasi satwa di bawahnya. (7) [...], keseimbangan ekosistem hutan alam akan terganggu karena jejaring makanan berubah seiring meningkatnya populasi spesies herbivora yang mengonsumsi tanaman muda. (8) Di sisi lain, spesies ini menghadapi ancaman perburuan dan perdagangan ilegal, untuk diambil kulit dan bagian tubuhnya. (9) Harimau juga menghadapi ancaman dari konflik dengan manusia akibat perebutan ruang akibat alih fungsi kawasan hutan menjadi permukiman dan perkebunan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Diadaptasi dari https://indonesia.wcs.org/)"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sesuai dengan konteks dalam bacaan tersebut, kata lonjakan pada kalimat (6) memiliki makna yang berlawanan dengan kata…"
+            }
+          ],
+          "opsi": {
+            "A": "Perlawanan",
+            "B": "Kelancaran",
+            "C": "Dorongan",
+            "D": "Penurunan",
+            "E": "Kenaikan"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep yang digunakan: Menentukan makna dari lawan kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kunci: konteks kalimat, makna berlawanan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "opsi benar:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata “lonjakan” pada kalimat (6) berarti peningkatan jumlah populasi satwa. Untuk mencari lawan katanya, kita mencari kata yang memiliki makna berlawanan, yaitu penurunan jumlah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alasan Opsi Lain Salah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Perlawanan → Berartikan aksi menentang, tidak terkait dengan perubahan jumlah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kelancaran → Berartikan sesuatu berjalan dengan lancar, bukan lawan dari “lonjakan”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Dorongan → Berartikan pendorong, justru mirip dengan makna meningkat/meningkatkan, bukan lawan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Kenaikan → Berartikan sama dengan lonjakan, sehingga bukan lawan katanya"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Saat pemeriksaan pertama, petugas mendapati beberapa baut pada rak penyimpanan sudah longgar. (2) Ia lalu meminta teknisi mengencangkan baut tersebut sebelum rak dipakai kembali. (3) Setelah diperiksa ulang, rak dinyatakan stabil dan dapat digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apa antonim kata longgar jika yang dibicarakan adalah keadaan baut setelah diperbaiki? Tulis satu kata sifat yang dibentuk dari kata kerja mengencangkan dengan melepas imbuhannya."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: kencang**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yang dinilai adalah seberapa kuat baut terpasang. Sebelum diperbaiki, bautnya longgar. Teknisi kemudian mengencangkan baut agar terpasang lebih kuat. Jika imbuhan meN-…-kan dilepas dari mengencangkan, bentuk dasarnya adalah kencang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata stabil pada kalimat (3) menjelaskan keadaan rak secara keseluruhan. Antonim yang diminta menjelaskan keadaan baut, sehingga jawabannya kencang."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

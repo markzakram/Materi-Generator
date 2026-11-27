@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "judul": "Hubungan Kausalitas",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Hubungan Kausalitas",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "id_katalog": "pu-01-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penalaran Verbal dalam bahan pembelajaran ini merupakan bagian dari domain Penalaran Umum sesuai kurikulum yang digunakan. Penalaran Verbal melatih kemampuan memahami informasi melalui bahasa, menemukan keteraturan dari sejumlah pengamatan, membandingkan hubungan antarkonsep, mengevaluasi sebab-akibat, memeriksa kesesuaian pernyataan, serta menilai kekuatan argumen berdasarkan bukti.",
+      "Materi disusun dalam lima cakupan utama: Generalisasi; Analogi; Hubungan Kausalitas; Kesesuaian Pernyataan; serta Evaluasi Argumen: Memperkuat dan Memperlemah. Kelima cakupan tersebut berada dalam domain Penalaran Verbal pada kurikulum terlampir dan saling melengkapi kemampuan membaca bukti secara kritis.",
+      "Strategi cepat seperti Bukti–Pola–Batas Simpulan, HAPE, S–A–B–A, B–T–C, dan K–A–B–U digunakan sebagai alat bantu berpikir. Strategi ini bukan pengganti penalaran yang sah, melainkan cara mengurutkan perhatian agar peserta dapat menemukan informasi penting dengan lebih efisien."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "sebab, akibat, dan korelasi."
+      },
+      {
+        "level": "",
+        "kko": "Menelusuri",
+        "teks": "mekanisme kausal."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "ketepatan simpulan berdasarkan bukti dan kemungkinan faktor lain."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penalaran Induktif",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penalaran Induktif",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penalaran induktif merupakan proses berpikir yang dimulai dari pengamatan terhadap sejumlah fakta atau kejadian khusus, kemudian digunakan untuk memperoleh pola atau kesimpulan yang lebih umum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-01.png",
+              "lebar": 4.1,
+              "tinggi": 3.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Hubungan Kausalitas",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Hubungan Kausalitas",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Hubungan kausalitas adalah hubungan sebab-akibat antara dua atau lebih peristiwa atau variabel, ketika suatu kondisi dapat memengaruhi atau menyebabkan terjadinya kondisi lainnya.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kausalitas melibatkan dua unsur utama, yaitu sebab dan akibat."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Sebab merupakan kondisi atau peristiwa yang memengaruhi terjadinya suatu perubahan.",
+                "Akibat merupakan hasil atau dampak yang muncul karena adanya suatu penyebab."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis-jenis Hubungan Kausalitas"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Hubungan Sebab-Akibat langsung,** merupakan bentuk paling sederhana dalam pembelajaran kausalitas. Sebuah faktor memicu perubahan yang menjadi akibat utama dalam konteks yang dijelaskan. Contohnya, ketika tombol lampu yang berfungsi ditekan pada rangkaian yang normal, lampu menyala. Penyebab dan akibatnya dapat dikenali tanpa harus menelusuri rangkaian sosial atau ekonomi yang panjang."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pola hubungan:** Sebab $→$ akibat | pemanas air dinyalakan $→$ suhu air meningkat (dalam kondisi alat berfungsi dan energi tersedia)."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Hubungan Sebab-Akibat tidak langsung.** Pada hubungan tidak langsung, faktor awal memengaruhi hasil melalui satu atau lebih perantara. Faktor perantara membantu menjelaskan bagaimana suatu perubahan dapat sampai pada akibat akhirnya. Jika perantara diabaikan, kesimpulan dapat tampak melompat terlalu jauh. Oleh sebab itu, pembaca perlau mengidentifikasi mekanisme antara penyebab awal dan akibat akhir, terutama jika stimulus menyajikan proses secara bertahap."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pola hubungan:** Penyebab $→$ Perantara $→$ Akibat | Pengiriman bahan baku terlambat $→$ produksi berkurang $→$ stok produksi menipis."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Hubungan Sebab Ganda (Multikausalitas),** dalam banyak peristiwa, satu akibat dipengaruhi beberapa penyebab sekaligus."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep multikausalitas melatih peserta berhati-hati terhadap klaim “penyebab tunggal”. Sebuah faktor boleh jadi berperan, tetapi bukan berarti faktor lain tidak memengaruhi hasil. Soal jenis ini sering meminta simpulan paling tepat saat stimulus memuat sejumlah perubahan sekaligus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pola hubungan:** penyebab A + penyebab B + penyebab C $→$ satu akibat | metode belajar + jam latihan + bahan ajar $→$ hasil belajar."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Hubungan Satu Sebab dengan Banyak Akibat,** sebuah penyebab dapat menimbulkan beberapa akibat sekaligus, baik pada bidang yang sama maupun berbeda. Pada jenis ini, tugas peserta adalah menemukan penyebab bersama yang paling relevan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pola hubungan:** satu sebab $→$ akibat 1, akibat 2, akibat 3 | jalan utama ditutup $→$ perjalanan lebih lama; biaya distribusi naik; pengiriman terlambat."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kausal Berantai,** terjadi ketika sebuah akibat pada satu tahap menjadi penyebab bagi tahap berikutnya. Berbeda dari contoh hubungan tidak langsung yang menyoroti keberadaan perantara, pola berantai menekankan kemampuan menelusuri beberapa mata rantai dan memeriksa ketepatan hubungan pada setiap tahap."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pola hubungan:** A $→$ B $→$ C $→$ D | Air berkurang $→$ pertumbuhan terganggu $→$ panen menurun $→$ pasokan pasar menipis."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kolerasi dan Kausalitas,** dua variabel yang bergerak bersama disebut berkolerasi. Namun, hubungan tersebut tidak otomatis membuktikan bahwa salah satunya menyebabkan yang lain. Dalam analisis kausal, urutan waktu saja juga tidak cukup. Fakta bahwa suatu program diterapkan sebelum hasil berubah belum memastikan program itu penyebab perubahan. Kesimpulan yang kuat memerlukan alasan kausal yang masuk akal dan bukti yang dapat menyingkirkakn penjelasan alternatif secara memadai."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pola hubungan:** cuaca panas $→$ penjualan minuman dingin naik, cuara panas $→$ kunjungan kolam naik. Hubungan antarhasil belum membuktikan salah satu menjadi sebab yang lain."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Penyebab Alternatif dan Faktor Perancu,** jenis terakhir merupakan tahap evaluasi yang lebih kompleks. Penyebab alternatif adalah penjelasan lain yang juga dapat menghasilkan akibat yang diamati. Faktor perancu adalah variabel yang berhubungan dengan faktor yang sedang diuji sekaligus dengan hasilnya, sehingga dapat membuat hubungan tampak lebih kuat atau lebih lemah daripada yang sebenarnya."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Pola hubungan:** sisten antrean baru $→$ waktu tunggu turun (klaim). Jumlah pelanggan turun $→$ waktu tunggu turun (alternatif yang perlu diuji)."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah menguasai tujuh pola, gunakan langkah yang sama ketika mengerjakan soal baru. Mulai dari klaim utama, bukan dari pilihan jawaban. Tentukan faktor yang disebut sebagai penyebab, perhatikan akibat yang dijelaskan, lalu cari mekanisme yang menhubungkannya."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Temukan klaim kausal, tandai pernyataan seperti “X meningkatkan Y”, “Y menurun karena X”, atau “X menyebabkan Y”.",
+                "Tentukan bentuk hubungan, apakah hubungan langsung, melalui perantara, dipengaruhi beberapa faktpr, atau membentuk rangkaian?",
+                "Periksa kekuatan bukti, bedakan data pengamatan, kelompok pembanding, penjelasan mekanisme, dan dugaan. Jangan mengubah kolerasi menjadi kepastian.",
+                "Tentukan bentuk hubungan, apakah hubungan langsung, melalui perantara, dipengaruhi beberapa faktor, atau membentuk rangkaian?",
+                "Periksa kekuatan bukti, bedakan data pengamatan, kelompok pembanding, penjelasan mekanisme, dan dugaan. Jangan mengubah kolerasi menjadi kepastian.",
+                "Cari penjelasan alternatif, tanyakan apakah faktor lain berubah pada periode sama dan dapat menjelaskan hasil.",
+                "Evaluasi setiap opsi, utamakan pilihan yang paling relevan, tidak mengandung klaim berlebihan, dan sesuai arah sebab-akibat."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat beberapa cara cepat untuk menjawab soal hubungan kausalitas, diantaranya yaitu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Gunakan tektink S-A-B-A"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "S — Sebab"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan kejadian atau kondisi yang diduga menyebabkan perubahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Akibat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan hasil atau perubahan yang muncul setelah kondisi tersebut terjadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa apakah stimulus memberikan bukti yang mendukung hubungan sebab-akibat, bukan sekadar menunjukkan dua kejadian yang bersamaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Alternatif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertimbangkan penyebab lain yang mungkin menjelaskan akibat tersebut."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kenali pola soal, lalu gunakan cara cepat yang sesuai."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Sebab–Akibat Langsung:** Cari perubahan atau faktor yang paling langsung menjelaskan terjadinya suatu akibat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Sebab–Akibat Tidak Langsung:** Temukan faktor perantara yang menghubungkan penyebab awal dengan akibat yang terjadi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Sebab Ganda:** Periksa beberapa faktor yang dapat menjadi penyebab. Jangan langsung menetapkan satu penyebab sebagai faktor utama jika belum terdapat bukti yang cukup."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Satu Sebab Banyak Akibat:** Temukan satu kejadian atau faktor utama yang dapat menjelaskan munculnya beberapa dampak sekaligus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kausal Berantai:** Susun urutan sebab dan akibat secara bertahap, misalnya A menyebabkan B, kemudian B menyebabkan C, dan C menyebabkan D."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Korelasi dan Kausalitas:** Jangan langsung menganggap dua kejadian yang berubah atau terjadi secara bersamaan memiliki hubungan sebab-akibat. Periksa apakah terdapat bukti yang menunjukkan bahwa salah satunya benar-benar menyebabkan yang lain."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Penyebab Alternatif dan Faktor Perancu:** Cari faktor atau perubahan lain yang juga dapat menjelaskan hasil yang terjadi. Adanya penyebab alternatif dapat melemahkan dugaan bahwa satu faktor tertentu merupakan penyebab utama."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Baca pertanyaannya terlebih dahulu. Dalam soal kausalitas, pertanyaan biasanya meminta salah satu dari empat hal berikut."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Akibat paling mungkin:** Cari dampak yang paling logis dan paling mungkin muncul dari kondisi atau penyebab yang disebutkan dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kesimpulan paling tepat:** Pilih kesimpulan yang paling sesuai dengan bukti dan tidak melampaui informasi yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Memperkuat atau memperlemah:** Cari informasi tambahan yang dapat mendukung hubungan sebab-akibat atau, sebaliknya, memberikan penjelasan alternatif yang membuat hubungan tersebut menjadi kurang kuat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan membaca pertanyaan terlebih dahulu, peserta dapat menentukan informasi penting yang perlu dicari saat membaca stimulus."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Gunakan teknik eliminasi berdasarkan hubungan kausal. Jangan langsung memilih jawaban yang tampak paling masuk akal. Bandingkan opsi menggunakan tiga pertanyaan:"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah pilihan tersebut menjelaskan kejadian yang ditanyakan?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah pilihan tersebut sesuai dengan informasi stimulus?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah terdapat pilihan lain yang memberikan penjelasan lebih kuat?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Eliminasi pilihan yang hanya berkaitan dengan topik, tetapi tidak menjelaskan hubungan sebab-akibat yang diminta."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Hindari tiga kesalahan utama"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertama, menganggap kejadian yang terjadi lebih dahulu pasti menjadi penyebab. Urutan waktu saja belum cukup untuk membuktikan kausalitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua, memilih jawaban karena terlihat paling berkaitan dengan topik. Jawaban harus menjelaskan hubungan sebab-akibat yang ditanyakan, bukan hanya membahas peristiwa yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga, mengabaikan penyebab lain. Jika dua perubahan terjadi bersamaan, peserta perlu mempertimbangkan apakah perubahan lain juga dapat menjelaskan hasil."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Rumus cepat yang perlu diingat adalah:"
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-02.png",
+              "lebar": 6.59,
+              "tinggi": 1.06
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penalaran Induktif",
+        "teks": ""
+      },
+      {
+        "judul": "Hubungan Kausalitas",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Verbal menuntut ketepatan dalam membaca hubungan antara informasi dan simpulan. Generalisasi melatih pembatasan cakupan berdasarkan data; Analogi menguji kesetaraan relasi; Hubungan Kausalitas menuntut pemeriksaan sebab, mekanisme, dan alternatif; Kesesuaian Pernyataan menuntut ketelitian terhadap dukungan stimulus; sedangkan Evaluasi Argumen melatih penilaian kekuatan bukti dan asumsi. Peserta disarankan mempelajari konsep dan pola hubungan terlebih dahulu, menerapkan strategi cepat yang sesuai, lalu mengevaluasi alasan setiap pilihan jawaban. Dalam pengerjaan soal, kualitas bukti harus lebih diutamakan daripada kesamaan kata, dugaan umum, atau pernyataan yang terdengar paling meyakinkan."
+  }
+}

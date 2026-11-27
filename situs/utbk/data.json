@@ -2,7 +2,7 @@
  "judul": "Materi UTBK-SNBT 2027",
  "merek": "Cerebrum · Materi UTBK",
  "sumber_sheet": "https://docs.google.com/spreadsheets/d/1rKwRfwduufwXi8tU5nb8PBMWd9OKy9uNtXa8v0oVmM0/edit",
- "dibuat": "2026-11-25",
+ "dibuat": "2026-11-27",
  "palet": "cerebrum",
  "tema": [
   {
@@ -12,382 +12,1104 @@
  ],
  "materi": [
   {
-   "id": "pu-01",
+   "id": "pu-01-1",
    "kelompok": "PU",
-   "bab": "Penalaran Verbal",
-   "judul": "Penalaran Verbal",
+   "bab": "Generalisasi",
+   "judul": "Generalisasi",
    "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 39,
-     "nama": "UTBK PU - Penalaran Verbal",
-     "pptx": "unduh/general/utbk-pu01-penalaran-verbal.pptx",
-     "pdf": "unduh/general/utbk-pu01-penalaran-verbal.pdf",
-     "sampul": "sampul/general/utbk-pu01-penalaran-verbal.jpg",
-     "ukuran_pptx": 998140,
-     "ukuran_pdf": 1764506
+     "slide": 9,
+     "nama": "UTBK PU - Generalisasi",
+     "pptx": "unduh/general/utbk-pu01-1-generalisasi.pptx",
+     "pdf": "unduh/general/utbk-pu01-1-generalisasi.pdf",
+     "sampul": "sampul/general/utbk-pu01-1-generalisasi.jpg",
+     "ukuran_pptx": 863700,
+     "ukuran_pdf": 1374956
     }
    }
   },
   {
-   "id": "pu-01-soal",
+   "id": "pu-01-1-soal",
    "kelompok": "PU",
-   "bab": "Contoh Soal Penalaran Verbal",
-   "judul": "Contoh Soal Penalaran Verbal",
+   "bab": "Contoh Soal Generalisasi",
+   "judul": "Contoh Soal Generalisasi",
    "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 60,
-     "nama": "UTBK PU - Contoh Soal Penalaran Verbal",
-     "pptx": "unduh/general/utbk-pu01-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pu01-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pu01-contoh-soal.jpg",
-     "ukuran_pptx": 1004817,
-     "ukuran_pdf": 1916080
-    }
-   }
-  },
-  {
-   "id": "pu-02",
-   "kelompok": "PU",
-   "bab": "Analitis",
-   "judul": "Analitis",
-   "dokumen": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 14,
-     "nama": "UTBK PU - Analitis",
-     "pptx": "unduh/general/utbk-pu02-analitis.pptx",
-     "pdf": "unduh/general/utbk-pu02-analitis.pdf",
-     "sampul": "sampul/general/utbk-pu02-analitis.jpg",
-     "ukuran_pptx": 882222,
-     "ukuran_pdf": 1422820
-    }
-   }
-  },
-  {
-   "id": "pu-02-soal",
-   "kelompok": "PU",
-   "bab": "Contoh Soal Analitis",
-   "judul": "Contoh Soal Analitis",
-   "dokumen": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 24,
-     "nama": "UTBK PU - Contoh Soal Analitis",
-     "pptx": "unduh/general/utbk-pu02-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pu02-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pu02-contoh-soal.jpg",
-     "ukuran_pptx": 857023,
-     "ukuran_pdf": 1508841
-    }
-   }
-  },
-  {
-   "id": "ppu-01",
-   "kelompok": "PPU-PBM",
-   "bab": "Makna Kata dan Frasa",
-   "judul": "Makna Kata dan Frasa",
-   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 15,
-     "nama": "UTBK PPU - Makna Kata dan Frasa",
-     "pptx": "unduh/general/utbk-ppu01-makna-kata-dan-frasa.pptx",
-     "pdf": "unduh/general/utbk-ppu01-makna-kata-dan-frasa.pdf",
-     "sampul": "sampul/general/utbk-ppu01-makna-kata-dan-frasa.jpg",
-     "ukuran_pptx": 884743,
-     "ukuran_pdf": 1424880
-    }
-   }
-  },
-  {
-   "id": "ppu-01-soal",
-   "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Makna Kata dan Frasa",
-   "judul": "Contoh Soal Makna Kata dan Frasa",
-   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 22,
-     "nama": "UTBK PPU - Contoh Soal Makna Kata dan Frasa",
-     "pptx": "unduh/general/utbk-ppu01-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-ppu01-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-ppu01-contoh-soal.jpg",
-     "ukuran_pptx": 840047,
-     "ukuran_pdf": 1469189
-    }
-   }
-  },
-  {
-   "id": "ppu-02",
-   "kelompok": "PPU-PBM",
-   "bab": "Semantik",
-   "judul": "Semantik",
-   "dokumen": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
      "slide": 13,
-     "nama": "UTBK PPU - Semantik",
-     "pptx": "unduh/general/utbk-ppu02-semantik.pptx",
-     "pdf": "unduh/general/utbk-ppu02-semantik.pdf",
-     "sampul": "sampul/general/utbk-ppu02-semantik.jpg",
-     "ukuran_pptx": 876430,
-     "ukuran_pdf": 1393647
+     "nama": "UTBK PU - Contoh Soal Generalisasi",
+     "pptx": "unduh/general/utbk-pu01-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pu01-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pu01-1-contoh-soal.jpg",
+     "ukuran_pptx": 805893,
+     "ukuran_pdf": 1400755
     }
    }
   },
   {
-   "id": "ppu-02-soal",
-   "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Semantik",
-   "judul": "Contoh Soal Semantik",
-   "dokumen": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 16,
-     "nama": "UTBK PPU - Contoh Soal Semantik",
-     "pptx": "unduh/general/utbk-ppu02-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-ppu02-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-ppu02-contoh-soal.jpg",
-     "ukuran_pptx": 816616,
-     "ukuran_pdf": 1416010
-    }
-   }
-  },
-  {
-   "id": "ppu-03",
-   "kelompok": "PPU-PBM",
-   "bab": "Morfologi",
-   "judul": "Morfologi",
-   "dokumen": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 14,
-     "nama": "UTBK PPU - Morfologi",
-     "pptx": "unduh/general/utbk-ppu03-morfologi.pptx",
-     "pdf": "unduh/general/utbk-ppu03-morfologi.pdf",
-     "sampul": "sampul/general/utbk-ppu03-morfologi.jpg",
-     "ukuran_pptx": 878653,
-     "ukuran_pdf": 1405492
-    }
-   }
-  },
-  {
-   "id": "ppu-03-soal",
-   "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Morfologi",
-   "judul": "Contoh Soal Morfologi",
-   "dokumen": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 15,
-     "nama": "UTBK PPU - Contoh Soal Morfologi",
-     "pptx": "unduh/general/utbk-ppu03-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-ppu03-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-ppu03-contoh-soal.jpg",
-     "ukuran_pptx": 812900,
-     "ukuran_pdf": 1406255
-    }
-   }
-  },
-  {
-   "id": "ppu-04",
-   "kelompok": "PPU-PBM",
-   "bab": "Hubungan Kata dan Frasa",
-   "judul": "Hubungan Kata dan Frasa",
-   "dokumen": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 13,
-     "nama": "UTBK PPU - Hubungan Kata dan Frasa",
-     "pptx": "unduh/general/utbk-ppu04-hubungan-kata-dan-frasa.pptx",
-     "pdf": "unduh/general/utbk-ppu04-hubungan-kata-dan-frasa.pdf",
-     "sampul": "sampul/general/utbk-ppu04-hubungan-kata-dan-frasa.jpg",
-     "ukuran_pptx": 876119,
-     "ukuran_pdf": 1399998
-    }
-   }
-  },
-  {
-   "id": "ppu-04-soal",
-   "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Hubungan Kata dan Frasa",
-   "judul": "Contoh Soal Hubungan Kata dan Frasa",
-   "dokumen": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 16,
-     "nama": "UTBK PPU - Contoh Soal Hubungan Kata dan Frasa",
-     "pptx": "unduh/general/utbk-ppu04-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-ppu04-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-ppu04-contoh-soal.jpg",
-     "ukuran_pptx": 816692,
-     "ukuran_pdf": 1414150
-    }
-   }
-  },
-  {
-   "id": "ppu-05",
-   "kelompok": "PPU-PBM",
-   "bab": "Pemahaman Wacana",
-   "judul": "Pemahaman Wacana",
-   "dokumen": "https://docs.google.com/document/d/1V7SOFheH2q203AHkp1EXeGf9aqQNYjQE/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 11,
-     "nama": "UTBK PPU - Pemahaman Wacana",
-     "pptx": "unduh/general/utbk-ppu05-pemahaman-wacana.pptx",
-     "pdf": "unduh/general/utbk-ppu05-pemahaman-wacana.pdf",
-     "sampul": "sampul/general/utbk-ppu05-pemahaman-wacana.jpg",
-     "ukuran_pptx": 868332,
-     "ukuran_pdf": 1369828
-    }
-   }
-  },
-  {
-   "id": "ppu-05-soal",
-   "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Pemahaman Wacana",
-   "judul": "Contoh Soal Pemahaman Wacana",
-   "dokumen": "https://docs.google.com/document/d/1V7SOFheH2q203AHkp1EXeGf9aqQNYjQE/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 11,
-     "nama": "UTBK PPU - Contoh Soal Pemahaman Wacana",
-     "pptx": "unduh/general/utbk-ppu05-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-ppu05-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-ppu05-contoh-soal.jpg",
-     "ukuran_pptx": 798756,
-     "ukuran_pdf": 1352602
-    }
-   }
-  },
-  {
-   "id": "ppu-06",
-   "kelompok": "PPU-PBM",
-   "bab": "Kewacanaan",
-   "judul": "Kewacanaan",
-   "dokumen": "https://docs.google.com/document/d/1wXu9jGlP7mm5Zt3tataKL1Z21-m8lF1B/edit",
+   "id": "pu-01-2",
+   "kelompok": "PU",
+   "bab": "Analogi",
+   "judul": "Analogi",
+   "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
    "jenis": "materi",
    "tema": {
     "general": {
      "slide": 12,
-     "nama": "UTBK PPU - Kewacanaan",
-     "pptx": "unduh/general/utbk-ppu06-kewacanaan.pptx",
-     "pdf": "unduh/general/utbk-ppu06-kewacanaan.pdf",
-     "sampul": "sampul/general/utbk-ppu06-kewacanaan.jpg",
-     "ukuran_pptx": 871802,
-     "ukuran_pdf": 1380175
+     "nama": "UTBK PU - Analogi",
+     "pptx": "unduh/general/utbk-pu01-2-analogi.pptx",
+     "pdf": "unduh/general/utbk-pu01-2-analogi.pdf",
+     "sampul": "sampul/general/utbk-pu01-2-analogi.jpg",
+     "ukuran_pptx": 874926,
+     "ukuran_pdf": 1387017
     }
    }
   },
   {
-   "id": "ppu-06-soal",
+   "id": "pu-01-2-soal",
+   "kelompok": "PU",
+   "bab": "Contoh Soal Analogi",
+   "judul": "Contoh Soal Analogi",
+   "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 13,
+     "nama": "UTBK PU - Contoh Soal Analogi",
+     "pptx": "unduh/general/utbk-pu01-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pu01-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pu01-2-contoh-soal.jpg",
+     "ukuran_pptx": 805601,
+     "ukuran_pdf": 1379316
+    }
+   }
+  },
+  {
+   "id": "pu-01-3",
+   "kelompok": "PU",
+   "bab": "Hubungan Kausalitas",
+   "judul": "Hubungan Kausalitas",
+   "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 16,
+     "nama": "UTBK PU - Hubungan Kausalitas",
+     "pptx": "unduh/general/utbk-pu01-3-hubungan-kausalitas.pptx",
+     "pdf": "unduh/general/utbk-pu01-3-hubungan-kausalitas.pdf",
+     "sampul": "sampul/general/utbk-pu01-3-hubungan-kausalitas.jpg",
+     "ukuran_pptx": 895776,
+     "ukuran_pdf": 1460222
+    }
+   }
+  },
+  {
+   "id": "pu-01-3-soal",
+   "kelompok": "PU",
+   "bab": "Contoh Soal Hubungan Kausalitas",
+   "judul": "Contoh Soal Hubungan Kausalitas",
+   "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 15,
+     "nama": "UTBK PU - Contoh Soal Hubungan Kausalitas",
+     "pptx": "unduh/general/utbk-pu01-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pu01-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pu01-3-contoh-soal.jpg",
+     "ukuran_pptx": 836069,
+     "ukuran_pdf": 1411298
+    }
+   }
+  },
+  {
+   "id": "pu-01-4",
+   "kelompok": "PU",
+   "bab": "Kesesuaian Pernyataan",
+   "judul": "Kesesuaian Pernyataan",
+   "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 15,
+     "nama": "UTBK PU - Kesesuaian Pernyataan",
+     "pptx": "unduh/general/utbk-pu01-4-kesesuaian-pernyataan.pptx",
+     "pdf": "unduh/general/utbk-pu01-4-kesesuaian-pernyataan.pdf",
+     "sampul": "sampul/general/utbk-pu01-4-kesesuaian-pernyataan.jpg",
+     "ukuran_pptx": 887955,
+     "ukuran_pdf": 1461736
+    }
+   }
+  },
+  {
+   "id": "pu-01-4-soal",
+   "kelompok": "PU",
+   "bab": "Contoh Soal Kesesuaian Pernyataan",
+   "judul": "Contoh Soal Kesesuaian Pernyataan",
+   "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 15,
+     "nama": "UTBK PU - Contoh Soal Kesesuaian Pernyataan",
+     "pptx": "unduh/general/utbk-pu01-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pu01-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pu01-4-contoh-soal.jpg",
+     "ukuran_pptx": 813104,
+     "ukuran_pdf": 1422411
+    }
+   }
+  },
+  {
+   "id": "pu-01-5",
+   "kelompok": "PU",
+   "bab": "Evaluasi Argumen: Memperkuat dan Memperlemah",
+   "judul": "Evaluasi Argumen: Memperkuat dan Memperlemah",
+   "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 14,
+     "nama": "UTBK PU - Evaluasi Argumen - Memperkuat dan Memperlemah",
+     "pptx": "unduh/general/utbk-pu01-5-evaluasi-argumen-memperkuat-dan-memperlemah.pptx",
+     "pdf": "unduh/general/utbk-pu01-5-evaluasi-argumen-memperkuat-dan-memperlemah.pdf",
+     "sampul": "sampul/general/utbk-pu01-5-evaluasi-argumen-memperkuat-dan-memperlemah.jpg",
+     "ukuran_pptx": 890305,
+     "ukuran_pdf": 1416139
+    }
+   }
+  },
+  {
+   "id": "pu-01-5-soal",
+   "kelompok": "PU",
+   "bab": "Contoh Soal Evaluasi Argumen: Memperkuat dan Memperlemah",
+   "judul": "Contoh Soal Evaluasi Argumen: Memperkuat dan Memperlemah",
+   "dokumen": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 16,
+     "nama": "UTBK PU - Contoh Soal Evaluasi Argumen - Memperkuat dan Memperlemah",
+     "pptx": "unduh/general/utbk-pu01-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pu01-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pu01-5-contoh-soal.jpg",
+     "ukuran_pptx": 816220,
+     "ukuran_pdf": 1403113
+    }
+   }
+  },
+  {
+   "id": "pu-02-1",
+   "kelompok": "PU",
+   "bab": "Urutan dan Posisi",
+   "judul": "Urutan dan Posisi",
+   "dokumen": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 12,
+     "nama": "UTBK PU - Urutan dan Posisi",
+     "pptx": "unduh/general/utbk-pu02-1-urutan-dan-posisi.pptx",
+     "pdf": "unduh/general/utbk-pu02-1-urutan-dan-posisi.pdf",
+     "sampul": "sampul/general/utbk-pu02-1-urutan-dan-posisi.jpg",
+     "ukuran_pptx": 874419,
+     "ukuran_pdf": 1394488
+    }
+   }
+  },
+  {
+   "id": "pu-02-1-soal",
+   "kelompok": "PU",
+   "bab": "Contoh Soal Urutan dan Posisi",
+   "judul": "Contoh Soal Urutan dan Posisi",
+   "dokumen": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "UTBK PU - Contoh Soal Urutan dan Posisi",
+     "pptx": "unduh/general/utbk-pu02-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pu02-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pu02-1-contoh-soal.jpg",
+     "ukuran_pptx": 809277,
+     "ukuran_pdf": 1369439
+    }
+   }
+  },
+  {
+   "id": "pu-02-2",
+   "kelompok": "PU",
+   "bab": "Bahasa Buatan",
+   "judul": "Bahasa Buatan",
+   "dokumen": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PU - Bahasa Buatan",
+     "pptx": "unduh/general/utbk-pu02-2-bahasa-buatan.pptx",
+     "pdf": "unduh/general/utbk-pu02-2-bahasa-buatan.pdf",
+     "sampul": "sampul/general/utbk-pu02-2-bahasa-buatan.jpg",
+     "ukuran_pptx": 867385,
+     "ukuran_pdf": 1372186
+    }
+   }
+  },
+  {
+   "id": "pu-02-2-soal",
+   "kelompok": "PU",
+   "bab": "Contoh Soal Bahasa Buatan",
+   "judul": "Contoh Soal Bahasa Buatan",
+   "dokumen": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 16,
+     "nama": "UTBK PU - Contoh Soal Bahasa Buatan",
+     "pptx": "unduh/general/utbk-pu02-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pu02-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pu02-2-contoh-soal.jpg",
+     "ukuran_pptx": 815583,
+     "ukuran_pdf": 1407701
+    }
+   }
+  },
+  {
+   "id": "ppu-01-1",
    "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Kewacanaan",
-   "judul": "Contoh Soal Kewacanaan",
+   "bab": "Makna Frasa",
+   "judul": "Makna Frasa",
+   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Makna Frasa",
+     "pptx": "unduh/general/utbk-ppu01-1-makna-frasa.pptx",
+     "pdf": "unduh/general/utbk-ppu01-1-makna-frasa.pdf",
+     "sampul": "sampul/general/utbk-ppu01-1-makna-frasa.jpg",
+     "ukuran_pptx": 860636,
+     "ukuran_pdf": 1345270
+    }
+   }
+  },
+  {
+   "id": "ppu-01-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Makna Frasa",
+   "judul": "Contoh Soal Makna Frasa",
+   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PPU - Contoh Soal Makna Frasa",
+     "pptx": "unduh/general/utbk-ppu01-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu01-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu01-1-contoh-soal.jpg",
+     "ukuran_pptx": 787065,
+     "ukuran_pdf": 1302796
+    }
+   }
+  },
+  {
+   "id": "ppu-01-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Makna Asosiasi",
+   "judul": "Makna Asosiasi",
+   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Makna Asosiasi",
+     "pptx": "unduh/general/utbk-ppu01-2-makna-asosiasi.pptx",
+     "pdf": "unduh/general/utbk-ppu01-2-makna-asosiasi.pdf",
+     "sampul": "sampul/general/utbk-ppu01-2-makna-asosiasi.jpg",
+     "ukuran_pptx": 861580,
+     "ukuran_pdf": 1344244
+    }
+   }
+  },
+  {
+   "id": "ppu-01-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Makna Asosiasi",
+   "judul": "Contoh Soal Makna Asosiasi",
+   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Makna Asosiasi",
+     "pptx": "unduh/general/utbk-ppu01-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu01-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu01-2-contoh-soal.jpg",
+     "ukuran_pptx": 782727,
+     "ukuran_pdf": 1286713
+    }
+   }
+  },
+  {
+   "id": "ppu-01-3",
+   "kelompok": "PPU-PBM",
+   "bab": "Makna Bertingkat",
+   "judul": "Makna Bertingkat",
+   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Makna Bertingkat",
+     "pptx": "unduh/general/utbk-ppu01-3-makna-bertingkat.pptx",
+     "pdf": "unduh/general/utbk-ppu01-3-makna-bertingkat.pdf",
+     "sampul": "sampul/general/utbk-ppu01-3-makna-bertingkat.jpg",
+     "ukuran_pptx": 860728,
+     "ukuran_pdf": 1346664
+    }
+   }
+  },
+  {
+   "id": "ppu-01-3-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Makna Bertingkat",
+   "judul": "Contoh Soal Makna Bertingkat",
+   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PPU - Contoh Soal Makna Bertingkat",
+     "pptx": "unduh/general/utbk-ppu01-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu01-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu01-3-contoh-soal.jpg",
+     "ukuran_pptx": 787182,
+     "ukuran_pdf": 1308075
+    }
+   }
+  },
+  {
+   "id": "ppu-01-4",
+   "kelompok": "PPU-PBM",
+   "bab": "Makna Imbuhan",
+   "judul": "Makna Imbuhan",
+   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Makna Imbuhan",
+     "pptx": "unduh/general/utbk-ppu01-4-makna-imbuhan.pptx",
+     "pdf": "unduh/general/utbk-ppu01-4-makna-imbuhan.pdf",
+     "sampul": "sampul/general/utbk-ppu01-4-makna-imbuhan.jpg",
+     "ukuran_pptx": 860852,
+     "ukuran_pdf": 1347967
+    }
+   }
+  },
+  {
+   "id": "ppu-01-4-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Makna Imbuhan",
+   "judul": "Contoh Soal Makna Imbuhan",
+   "dokumen": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PPU - Contoh Soal Makna Imbuhan",
+     "pptx": "unduh/general/utbk-ppu01-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu01-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu01-4-contoh-soal.jpg",
+     "ukuran_pptx": 787481,
+     "ukuran_pdf": 1306994
+    }
+   }
+  },
+  {
+   "id": "ppu-02-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Sinonim",
+   "judul": "Sinonim",
+   "dokumen": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Sinonim",
+     "pptx": "unduh/general/utbk-ppu02-1-sinonim.pptx",
+     "pdf": "unduh/general/utbk-ppu02-1-sinonim.pdf",
+     "sampul": "sampul/general/utbk-ppu02-1-sinonim.jpg",
+     "ukuran_pptx": 860146,
+     "ukuran_pdf": 1341941
+    }
+   }
+  },
+  {
+   "id": "ppu-02-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Sinonim",
+   "judul": "Contoh Soal Sinonim",
+   "dokumen": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Sinonim",
+     "pptx": "unduh/general/utbk-ppu02-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu02-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu02-1-contoh-soal.jpg",
+     "ukuran_pptx": 783177,
+     "ukuran_pdf": 1290782
+    }
+   }
+  },
+  {
+   "id": "ppu-02-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Antonim",
+   "judul": "Antonim",
+   "dokumen": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Antonim",
+     "pptx": "unduh/general/utbk-ppu02-2-antonim.pptx",
+     "pdf": "unduh/general/utbk-ppu02-2-antonim.pdf",
+     "sampul": "sampul/general/utbk-ppu02-2-antonim.jpg",
+     "ukuran_pptx": 861225,
+     "ukuran_pdf": 1342120
+    }
+   }
+  },
+  {
+   "id": "ppu-02-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Antonim",
+   "judul": "Contoh Soal Antonim",
+   "dokumen": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Antonim",
+     "pptx": "unduh/general/utbk-ppu02-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu02-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu02-2-contoh-soal.jpg",
+     "ukuran_pptx": 782943,
+     "ukuran_pdf": 1312812
+    }
+   }
+  },
+  {
+   "id": "ppu-02-3",
+   "kelompok": "PPU-PBM",
+   "bab": "Konotatif dan Denotatif",
+   "judul": "Konotatif dan Denotatif",
+   "dokumen": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Konotatif dan Denotatif",
+     "pptx": "unduh/general/utbk-ppu02-3-konotatif-dan-denotatif.pptx",
+     "pdf": "unduh/general/utbk-ppu02-3-konotatif-dan-denotatif.pdf",
+     "sampul": "sampul/general/utbk-ppu02-3-konotatif-dan-denotatif.jpg",
+     "ukuran_pptx": 860041,
+     "ukuran_pdf": 1339639
+    }
+   }
+  },
+  {
+   "id": "ppu-02-3-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Konotatif dan Denotatif",
+   "judul": "Contoh Soal Konotatif dan Denotatif",
+   "dokumen": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PPU - Contoh Soal Konotatif dan Denotatif",
+     "pptx": "unduh/general/utbk-ppu02-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu02-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu02-3-contoh-soal.jpg",
+     "ukuran_pptx": 786763,
+     "ukuran_pdf": 1302607
+    }
+   }
+  },
+  {
+   "id": "ppu-03-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Bentuk Kata",
+   "judul": "Bentuk Kata",
+   "dokumen": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PPU - Bentuk Kata",
+     "pptx": "unduh/general/utbk-ppu03-1-bentuk-kata.pptx",
+     "pdf": "unduh/general/utbk-ppu03-1-bentuk-kata.pdf",
+     "sampul": "sampul/general/utbk-ppu03-1-bentuk-kata.jpg",
+     "ukuran_pptx": 863108,
+     "ukuran_pdf": 1349604
+    }
+   }
+  },
+  {
+   "id": "ppu-03-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Bentuk Kata",
+   "judul": "Contoh Soal Bentuk Kata",
+   "dokumen": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Bentuk Kata",
+     "pptx": "unduh/general/utbk-ppu03-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu03-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu03-1-contoh-soal.jpg",
+     "ukuran_pptx": 783135,
+     "ukuran_pdf": 1292270
+    }
+   }
+  },
+  {
+   "id": "ppu-03-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Imbuhan",
+   "judul": "Imbuhan",
+   "dokumen": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PPU - Imbuhan",
+     "pptx": "unduh/general/utbk-ppu03-2-imbuhan.pptx",
+     "pdf": "unduh/general/utbk-ppu03-2-imbuhan.pdf",
+     "sampul": "sampul/general/utbk-ppu03-2-imbuhan.jpg",
+     "ukuran_pptx": 863364,
+     "ukuran_pdf": 1350536
+    }
+   }
+  },
+  {
+   "id": "ppu-03-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Imbuhan",
+   "judul": "Contoh Soal Imbuhan",
+   "dokumen": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Imbuhan",
+     "pptx": "unduh/general/utbk-ppu03-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu03-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu03-2-contoh-soal.jpg",
+     "ukuran_pptx": 783338,
+     "ukuran_pdf": 1316814
+    }
+   }
+  },
+  {
+   "id": "ppu-03-3",
+   "kelompok": "PPU-PBM",
+   "bab": "Kata Rumpang",
+   "judul": "Kata Rumpang",
+   "dokumen": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PPU - Kata Rumpang",
+     "pptx": "unduh/general/utbk-ppu03-3-kata-rumpang.pptx",
+     "pdf": "unduh/general/utbk-ppu03-3-kata-rumpang.pdf",
+     "sampul": "sampul/general/utbk-ppu03-3-kata-rumpang.jpg",
+     "ukuran_pptx": 863077,
+     "ukuran_pdf": 1348558
+    }
+   }
+  },
+  {
+   "id": "ppu-03-3-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Kata Rumpang",
+   "judul": "Contoh Soal Kata Rumpang",
+   "dokumen": "https://docs.google.com/document/d/1-ZQDvktGCB1JCDkYIogi1-23xeQIxMQj/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Kata Rumpang",
+     "pptx": "unduh/general/utbk-ppu03-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu03-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu03-3-contoh-soal.jpg",
+     "ukuran_pptx": 782715,
+     "ukuran_pdf": 1287644
+    }
+   }
+  },
+  {
+   "id": "ppu-04-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Hubungan Kata",
+   "judul": "Hubungan Kata",
+   "dokumen": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Hubungan Kata",
+     "pptx": "unduh/general/utbk-ppu04-1-hubungan-kata.pptx",
+     "pdf": "unduh/general/utbk-ppu04-1-hubungan-kata.pdf",
+     "sampul": "sampul/general/utbk-ppu04-1-hubungan-kata.jpg",
+     "ukuran_pptx": 860805,
+     "ukuran_pdf": 1347319
+    }
+   }
+  },
+  {
+   "id": "ppu-04-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Hubungan Kata",
+   "judul": "Contoh Soal Hubungan Kata",
+   "dokumen": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PPU - Contoh Soal Hubungan Kata",
+     "pptx": "unduh/general/utbk-ppu04-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu04-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu04-1-contoh-soal.jpg",
+     "ukuran_pptx": 786316,
+     "ukuran_pdf": 1298673
+    }
+   }
+  },
+  {
+   "id": "ppu-04-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Analogi Kata dan Frasa",
+   "judul": "Analogi Kata dan Frasa",
+   "dokumen": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Analogi Kata dan Frasa",
+     "pptx": "unduh/general/utbk-ppu04-2-analogi-kata-dan-frasa.pptx",
+     "pdf": "unduh/general/utbk-ppu04-2-analogi-kata-dan-frasa.pdf",
+     "sampul": "sampul/general/utbk-ppu04-2-analogi-kata-dan-frasa.jpg",
+     "ukuran_pptx": 860425,
+     "ukuran_pdf": 1344724
+    }
+   }
+  },
+  {
+   "id": "ppu-04-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Analogi Kata dan Frasa",
+   "judul": "Contoh Soal Analogi Kata dan Frasa",
+   "dokumen": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Analogi Kata dan Frasa",
+     "pptx": "unduh/general/utbk-ppu04-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu04-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu04-2-contoh-soal.jpg",
+     "ukuran_pptx": 782643,
+     "ukuran_pdf": 1308959
+    }
+   }
+  },
+  {
+   "id": "ppu-04-3",
+   "kelompok": "PPU-PBM",
+   "bab": "Kelompok Kata Berpasangan Tetap",
+   "judul": "Kelompok Kata Berpasangan Tetap",
+   "dokumen": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Kelompok Kata Berpasangan Tetap",
+     "pptx": "unduh/general/utbk-ppu04-3-kelompok-kata-berpasangan-tetap.pptx",
+     "pdf": "unduh/general/utbk-ppu04-3-kelompok-kata-berpasangan-tetap.pdf",
+     "sampul": "sampul/general/utbk-ppu04-3-kelompok-kata-berpasangan-tetap.jpg",
+     "ukuran_pptx": 860567,
+     "ukuran_pdf": 1344084
+    }
+   }
+  },
+  {
+   "id": "ppu-04-3-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Kelompok Kata Berpasangan Tetap",
+   "judul": "Contoh Soal Kelompok Kata Berpasangan Tetap",
+   "dokumen": "https://docs.google.com/document/d/1bGtZgANtcxziIt_LHeprflMEobfo5Y7s/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Kelompok Kata Berpasangan Tetap",
+     "pptx": "unduh/general/utbk-ppu04-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu04-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu04-3-contoh-soal.jpg",
+     "ukuran_pptx": 783982,
+     "ukuran_pdf": 1295310
+    }
+   }
+  },
+  {
+   "id": "ppu-05-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Ide Pokok",
+   "judul": "Ide Pokok",
+   "dokumen": "https://docs.google.com/document/d/1V7SOFheH2q203AHkp1EXeGf9aqQNYjQE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Ide Pokok",
+     "pptx": "unduh/general/utbk-ppu05-1-ide-pokok.pptx",
+     "pdf": "unduh/general/utbk-ppu05-1-ide-pokok.pdf",
+     "sampul": "sampul/general/utbk-ppu05-1-ide-pokok.jpg",
+     "ukuran_pptx": 860527,
+     "ukuran_pdf": 1345267
+    }
+   }
+  },
+  {
+   "id": "ppu-05-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Ide Pokok",
+   "judul": "Contoh Soal Ide Pokok",
+   "dokumen": "https://docs.google.com/document/d/1V7SOFheH2q203AHkp1EXeGf9aqQNYjQE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Ide Pokok",
+     "pptx": "unduh/general/utbk-ppu05-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu05-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu05-1-contoh-soal.jpg",
+     "ukuran_pptx": 782666,
+     "ukuran_pdf": 1301898
+    }
+   }
+  },
+  {
+   "id": "ppu-05-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Makna dalam Konteks Wacana",
+   "judul": "Makna dalam Konteks Wacana",
+   "dokumen": "https://docs.google.com/document/d/1V7SOFheH2q203AHkp1EXeGf9aqQNYjQE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Makna dalam Konteks Wacana",
+     "pptx": "unduh/general/utbk-ppu05-2-makna-dalam-konteks-wacana.pptx",
+     "pdf": "unduh/general/utbk-ppu05-2-makna-dalam-konteks-wacana.pdf",
+     "sampul": "sampul/general/utbk-ppu05-2-makna-dalam-konteks-wacana.jpg",
+     "ukuran_pptx": 860616,
+     "ukuran_pdf": 1344037
+    }
+   }
+  },
+  {
+   "id": "ppu-05-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Makna dalam Konteks Wacana",
+   "judul": "Contoh Soal Makna dalam Konteks Wacana",
+   "dokumen": "https://docs.google.com/document/d/1V7SOFheH2q203AHkp1EXeGf9aqQNYjQE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Makna dalam Konteks Wacana",
+     "pptx": "unduh/general/utbk-ppu05-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu05-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu05-2-contoh-soal.jpg",
+     "ukuran_pptx": 784140,
+     "ukuran_pdf": 1295961
+    }
+   }
+  },
+  {
+   "id": "ppu-06-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Hubungan Antarparagraf",
+   "judul": "Hubungan Antarparagraf",
+   "dokumen": "https://docs.google.com/document/d/1wXu9jGlP7mm5Zt3tataKL1Z21-m8lF1B/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Hubungan Antarparagraf",
+     "pptx": "unduh/general/utbk-ppu06-1-hubungan-antarparagraf.pptx",
+     "pdf": "unduh/general/utbk-ppu06-1-hubungan-antarparagraf.pdf",
+     "sampul": "sampul/general/utbk-ppu06-1-hubungan-antarparagraf.jpg",
+     "ukuran_pptx": 860847,
+     "ukuran_pdf": 1343951
+    }
+   }
+  },
+  {
+   "id": "ppu-06-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Hubungan Antarparagraf",
+   "judul": "Contoh Soal Hubungan Antarparagraf",
    "dokumen": "https://docs.google.com/document/d/1wXu9jGlP7mm5Zt3tataKL1Z21-m8lF1B/edit",
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 14,
-     "nama": "UTBK PPU - Contoh Soal Kewacanaan",
-     "pptx": "unduh/general/utbk-ppu06-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-ppu06-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-ppu06-contoh-soal.jpg",
-     "ukuran_pptx": 809325,
-     "ukuran_pdf": 1388802
+     "slide": 7,
+     "nama": "UTBK PPU - Contoh Soal Hubungan Antarparagraf",
+     "pptx": "unduh/general/utbk-ppu06-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu06-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu06-1-contoh-soal.jpg",
+     "ukuran_pptx": 783246,
+     "ukuran_pdf": 1289926
     }
    }
   },
   {
-   "id": "ppu-07",
+   "id": "ppu-06-2",
    "kelompok": "PPU-PBM",
-   "bab": "Sintaksis Kontekstual",
-   "judul": "Sintaksis Kontekstual",
+   "bab": "Hubungan dan Kelogisan Antarkalimat",
+   "judul": "Hubungan dan Kelogisan Antarkalimat",
+   "dokumen": "https://docs.google.com/document/d/1wXu9jGlP7mm5Zt3tataKL1Z21-m8lF1B/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PPU - Hubungan dan Kelogisan Antarkalimat",
+     "pptx": "unduh/general/utbk-ppu06-2-hubungan-dan-kelogisan-antarkalimat.pptx",
+     "pdf": "unduh/general/utbk-ppu06-2-hubungan-dan-kelogisan-antarkalimat.pdf",
+     "sampul": "sampul/general/utbk-ppu06-2-hubungan-dan-kelogisan-antarkalimat.jpg",
+     "ukuran_pptx": 864083,
+     "ukuran_pdf": 1355793
+    }
+   }
+  },
+  {
+   "id": "ppu-06-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Hubungan dan Kelogisan Antarkalimat",
+   "judul": "Contoh Soal Hubungan dan Kelogisan Antarkalimat",
+   "dokumen": "https://docs.google.com/document/d/1wXu9jGlP7mm5Zt3tataKL1Z21-m8lF1B/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PPU - Contoh Soal Hubungan dan Kelogisan Antarkalimat",
+     "pptx": "unduh/general/utbk-ppu06-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu06-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu06-2-contoh-soal.jpg",
+     "ukuran_pptx": 793960,
+     "ukuran_pdf": 1342465
+    }
+   }
+  },
+  {
+   "id": "ppu-07-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Kalimat Baku",
+   "judul": "Kalimat Baku",
    "dokumen": "https://docs.google.com/document/d/1AvJEERMZ_4GQ-d1tGIEczyfHkg4fg5I9/edit",
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 13,
-     "nama": "UTBK PPU - Sintaksis Kontekstual",
-     "pptx": "unduh/general/utbk-ppu07-sintaksis-kontekstual.pptx",
-     "pdf": "unduh/general/utbk-ppu07-sintaksis-kontekstual.pdf",
-     "sampul": "sampul/general/utbk-ppu07-sintaksis-kontekstual.jpg",
-     "ukuran_pptx": 874570,
-     "ukuran_pdf": 1387618
+     "slide": 10,
+     "nama": "UTBK PPU - Kalimat Baku",
+     "pptx": "unduh/general/utbk-ppu07-1-kalimat-baku.pptx",
+     "pdf": "unduh/general/utbk-ppu07-1-kalimat-baku.pdf",
+     "sampul": "sampul/general/utbk-ppu07-1-kalimat-baku.jpg",
+     "ukuran_pptx": 863693,
+     "ukuran_pdf": 1351862
     }
    }
   },
   {
-   "id": "ppu-07-soal",
+   "id": "ppu-07-1-soal",
    "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Sintaksis Kontekstual",
-   "judul": "Contoh Soal Sintaksis Kontekstual",
+   "bab": "Contoh Soal Kalimat Baku",
+   "judul": "Contoh Soal Kalimat Baku",
    "dokumen": "https://docs.google.com/document/d/1AvJEERMZ_4GQ-d1tGIEczyfHkg4fg5I9/edit",
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 14,
-     "nama": "UTBK PPU - Contoh Soal Sintaksis Kontekstual",
-     "pptx": "unduh/general/utbk-ppu07-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-ppu07-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-ppu07-contoh-soal.jpg",
-     "ukuran_pptx": 810087,
-     "ukuran_pdf": 1371054
+     "slide": 9,
+     "nama": "UTBK PPU - Contoh Soal Kalimat Baku",
+     "pptx": "unduh/general/utbk-ppu07-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu07-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu07-1-contoh-soal.jpg",
+     "ukuran_pptx": 791145,
+     "ukuran_pdf": 1316725
     }
    }
   },
   {
-   "id": "ppu-08",
+   "id": "ppu-07-2",
    "kelompok": "PPU-PBM",
-   "bab": "Teks Eksplanatif dan Argumentatif",
-   "judul": "Teks Eksplanatif dan Argumentatif",
+   "bab": "Pola dan Struktur Kalimat",
+   "judul": "Pola dan Struktur Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1AvJEERMZ_4GQ-d1tGIEczyfHkg4fg5I9/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PPU - Pola dan Struktur Kalimat",
+     "pptx": "unduh/general/utbk-ppu07-2-pola-dan-struktur-kalimat.pptx",
+     "pdf": "unduh/general/utbk-ppu07-2-pola-dan-struktur-kalimat.pdf",
+     "sampul": "sampul/general/utbk-ppu07-2-pola-dan-struktur-kalimat.jpg",
+     "ukuran_pptx": 863716,
+     "ukuran_pdf": 1354183
+    }
+   }
+  },
+  {
+   "id": "ppu-07-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Pola dan Struktur Kalimat",
+   "judul": "Contoh Soal Pola dan Struktur Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1AvJEERMZ_4GQ-d1tGIEczyfHkg4fg5I9/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PPU - Contoh Soal Pola dan Struktur Kalimat",
+     "pptx": "unduh/general/utbk-ppu07-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu07-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu07-2-contoh-soal.jpg",
+     "ukuran_pptx": 786758,
+     "ukuran_pdf": 1304818
+    }
+   }
+  },
+  {
+   "id": "ppu-08-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Sikap dan Pandangan Penulis",
+   "judul": "Sikap dan Pandangan Penulis",
    "dokumen": "https://docs.google.com/document/d/10y0E-sgj0VaRiRW1ei_RX757-gLxQ6Kn/edit",
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 13,
-     "nama": "UTBK PPU - Teks Eksplanatif dan Argumentatif",
-     "pptx": "unduh/general/utbk-ppu08-teks-eksplanatif-dan-argumentatif.pptx",
-     "pdf": "unduh/general/utbk-ppu08-teks-eksplanatif-dan-argumentatif.pdf",
-     "sampul": "sampul/general/utbk-ppu08-teks-eksplanatif-dan-argumentatif.jpg",
-     "ukuran_pptx": 876244,
-     "ukuran_pdf": 1397658
+     "slide": 9,
+     "nama": "UTBK PPU - Sikap dan Pandangan Penulis",
+     "pptx": "unduh/general/utbk-ppu08-1-sikap-dan-pandangan-penulis.pptx",
+     "pdf": "unduh/general/utbk-ppu08-1-sikap-dan-pandangan-penulis.pdf",
+     "sampul": "sampul/general/utbk-ppu08-1-sikap-dan-pandangan-penulis.jpg",
+     "ukuran_pptx": 860628,
+     "ukuran_pdf": 1344355
     }
    }
   },
   {
-   "id": "ppu-08-soal",
+   "id": "ppu-08-1-soal",
    "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Teks Eksplanatif dan Argumentatif",
-   "judul": "Contoh Soal Teks Eksplanatif dan Argumentatif",
+   "bab": "Contoh Soal Sikap dan Pandangan Penulis",
+   "judul": "Contoh Soal Sikap dan Pandangan Penulis",
    "dokumen": "https://docs.google.com/document/d/10y0E-sgj0VaRiRW1ei_RX757-gLxQ6Kn/edit",
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 19,
-     "nama": "UTBK PPU - Contoh Soal Teks Eksplanatif dan Argumentatif",
-     "pptx": "unduh/general/utbk-ppu08-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-ppu08-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-ppu08-contoh-soal.jpg",
-     "ukuran_pptx": 826863,
-     "ukuran_pdf": 1427686
+     "slide": 8,
+     "nama": "UTBK PPU - Contoh Soal Sikap dan Pandangan Penulis",
+     "pptx": "unduh/general/utbk-ppu08-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu08-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu08-1-contoh-soal.jpg",
+     "ukuran_pptx": 786530,
+     "ukuran_pdf": 1313702
+    }
+   }
+  },
+  {
+   "id": "ppu-08-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Tujuan Penulis",
+   "judul": "Tujuan Penulis",
+   "dokumen": "https://docs.google.com/document/d/10y0E-sgj0VaRiRW1ei_RX757-gLxQ6Kn/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Tujuan Penulis",
+     "pptx": "unduh/general/utbk-ppu08-2-tujuan-penulis.pptx",
+     "pdf": "unduh/general/utbk-ppu08-2-tujuan-penulis.pdf",
+     "sampul": "sampul/general/utbk-ppu08-2-tujuan-penulis.jpg",
+     "ukuran_pptx": 860504,
+     "ukuran_pdf": 1344383
+    }
+   }
+  },
+  {
+   "id": "ppu-08-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Tujuan Penulis",
+   "judul": "Contoh Soal Tujuan Penulis",
+   "dokumen": "https://docs.google.com/document/d/10y0E-sgj0VaRiRW1ei_RX757-gLxQ6Kn/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Contoh Soal Tujuan Penulis",
+     "pptx": "unduh/general/utbk-ppu08-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu08-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu08-2-contoh-soal.jpg",
+     "ukuran_pptx": 790709,
+     "ukuran_pdf": 1309143
+    }
+   }
+  },
+  {
+   "id": "ppu-08-3",
+   "kelompok": "PPU-PBM",
+   "bab": "Fungsi Unsur Bahasa dalam Teks",
+   "judul": "Fungsi Unsur Bahasa dalam Teks",
+   "dokumen": "https://docs.google.com/document/d/10y0E-sgj0VaRiRW1ei_RX757-gLxQ6Kn/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PPU - Fungsi Unsur Bahasa dalam Teks",
+     "pptx": "unduh/general/utbk-ppu08-3-fungsi-unsur-bahasa-dalam-teks.pptx",
+     "pdf": "unduh/general/utbk-ppu08-3-fungsi-unsur-bahasa-dalam-teks.pdf",
+     "sampul": "sampul/general/utbk-ppu08-3-fungsi-unsur-bahasa-dalam-teks.jpg",
+     "ukuran_pptx": 860604,
+     "ukuran_pdf": 1342662
+    }
+   }
+  },
+  {
+   "id": "ppu-08-3-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Fungsi Unsur Bahasa dalam Teks",
+   "judul": "Contoh Soal Fungsi Unsur Bahasa dalam Teks",
+   "dokumen": "https://docs.google.com/document/d/10y0E-sgj0VaRiRW1ei_RX757-gLxQ6Kn/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PPU - Contoh Soal Fungsi Unsur Bahasa dalam Teks",
+     "pptx": "unduh/general/utbk-ppu08-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-ppu08-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-ppu08-3-contoh-soal.jpg",
+     "ukuran_pptx": 785584,
+     "ukuran_pdf": 1307252
     }
    }
   },
@@ -425,7 +1147,7 @@
      "pdf": "unduh/general/utbk-ppu09-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-ppu09-contoh-soal.jpg",
      "ukuran_pptx": 833527,
-     "ukuran_pdf": 1464026
+     "ukuran_pdf": 1464022
     }
    }
   },
@@ -444,7 +1166,7 @@
      "pdf": "unduh/general/utbk-ppu10-bahasa-buatan.pdf",
      "sampul": "sampul/general/utbk-ppu10-bahasa-buatan.jpg",
      "ukuran_pptx": 891451,
-     "ukuran_pdf": 1490372
+     "ukuran_pdf": 1490358
     }
    }
   },
@@ -463,164 +1185,1076 @@
      "pdf": "unduh/general/utbk-ppu10-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-ppu10-contoh-soal.jpg",
      "ukuran_pptx": 795112,
-     "ukuran_pdf": 1353816
+     "ukuran_pdf": 1353819
     }
    }
   },
   {
-   "id": "pbm-01",
+   "id": "pbm-01-1",
    "kelompok": "PPU-PBM",
-   "bab": "Pemilihan Gagasan",
-   "judul": "Pemilihan Gagasan",
+   "bab": "Penentuan Judul Bacaan",
+   "judul": "Penentuan Judul Bacaan",
    "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penentuan Judul Bacaan",
+     "pptx": "unduh/general/utbk-pbm01-1-penentuan-judul-bacaan.pptx",
+     "pdf": "unduh/general/utbk-pbm01-1-penentuan-judul-bacaan.pdf",
+     "sampul": "sampul/general/utbk-pbm01-1-penentuan-judul-bacaan.jpg",
+     "ukuran_pptx": 860267,
+     "ukuran_pdf": 1329778
+    }
+   }
+  },
+  {
+   "id": "pbm-01-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penentuan Judul Bacaan",
+   "judul": "Contoh Soal Penentuan Judul Bacaan",
+   "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Contoh Soal Penentuan Judul Bacaan",
+     "pptx": "unduh/general/utbk-pbm01-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm01-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm01-1-contoh-soal.jpg",
+     "ukuran_pptx": 790775,
+     "ukuran_pdf": 1335744
+    }
+   }
+  },
+  {
+   "id": "pbm-01-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Penentuan Diksi yang Tepat",
+   "judul": "Penentuan Diksi yang Tepat",
+   "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penentuan Diksi yang Tepat",
+     "pptx": "unduh/general/utbk-pbm01-2-penentuan-diksi-yang-tepat.pptx",
+     "pdf": "unduh/general/utbk-pbm01-2-penentuan-diksi-yang-tepat.pdf",
+     "sampul": "sampul/general/utbk-pbm01-2-penentuan-diksi-yang-tepat.jpg",
+     "ukuran_pptx": 855403,
+     "ukuran_pdf": 1329034
+    }
+   }
+  },
+  {
+   "id": "pbm-01-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penentuan Diksi yang Tepat",
+   "judul": "Contoh Soal Penentuan Diksi yang Tepat",
+   "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PBM - Contoh Soal Penentuan Diksi yang Tepat",
+     "pptx": "unduh/general/utbk-pbm01-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm01-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm01-2-contoh-soal.jpg",
+     "ukuran_pptx": 782598,
+     "ukuran_pdf": 1286397
+    }
+   }
+  },
+  {
+   "id": "pbm-01-3",
+   "kelompok": "PPU-PBM",
+   "bab": "Penentuan Gagasan Pelengkap Kalimat",
+   "judul": "Penentuan Gagasan Pelengkap Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penentuan Gagasan Pelengkap Kalimat",
+     "pptx": "unduh/general/utbk-pbm01-3-penentuan-gagasan-pelengkap-kalimat.pptx",
+     "pdf": "unduh/general/utbk-pbm01-3-penentuan-gagasan-pelengkap-kalimat.pdf",
+     "sampul": "sampul/general/utbk-pbm01-3-penentuan-gagasan-pelengkap-kalimat.jpg",
+     "ukuran_pptx": 856194,
+     "ukuran_pdf": 1360137
+    }
+   }
+  },
+  {
+   "id": "pbm-01-3-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penentuan Gagasan Pelengkap Kalimat",
+   "judul": "Contoh Soal Penentuan Gagasan Pelengkap Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PBM - Contoh Soal Penentuan Gagasan Pelengkap Kalimat",
+     "pptx": "unduh/general/utbk-pbm01-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm01-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm01-3-contoh-soal.jpg",
+     "ukuran_pptx": 779820,
+     "ukuran_pdf": 1280239
+    }
+   }
+  },
+  {
+   "id": "pbm-01-4",
+   "kelompok": "PPU-PBM",
+   "bab": "Pelengkapan Gagasan Paragraf",
+   "judul": "Pelengkapan Gagasan Paragraf",
+   "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "UTBK PBM - Pelengkapan Gagasan Paragraf",
+     "pptx": "unduh/general/utbk-pbm01-4-pelengkapan-gagasan-paragraf.pptx",
+     "pdf": "unduh/general/utbk-pbm01-4-pelengkapan-gagasan-paragraf.pdf",
+     "sampul": "sampul/general/utbk-pbm01-4-pelengkapan-gagasan-paragraf.jpg",
+     "ukuran_pptx": 862727,
+     "ukuran_pdf": 1354177
+    }
+   }
+  },
+  {
+   "id": "pbm-01-4-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Pelengkapan Gagasan Paragraf",
+   "judul": "Contoh Soal Pelengkapan Gagasan Paragraf",
+   "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Pelengkapan Gagasan Paragraf",
+     "pptx": "unduh/general/utbk-pbm01-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm01-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm01-4-contoh-soal.jpg",
+     "ukuran_pptx": 775580,
+     "ukuran_pdf": 1261687
+    }
+   }
+  },
+  {
+   "id": "pbm-02-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Penentuan Kalimat Inti",
+   "judul": "Penentuan Kalimat Inti",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PBM - Penentuan Kalimat Inti",
+     "pptx": "unduh/general/utbk-pbm02-1-penentuan-kalimat-inti.pptx",
+     "pdf": "unduh/general/utbk-pbm02-1-penentuan-kalimat-inti.pdf",
+     "sampul": "sampul/general/utbk-pbm02-1-penentuan-kalimat-inti.jpg",
+     "ukuran_pptx": 858554,
+     "ukuran_pdf": 1336169
+    }
+   }
+  },
+  {
+   "id": "pbm-02-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penentuan Kalimat Inti",
+   "judul": "Contoh Soal Penentuan Kalimat Inti",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PBM - Contoh Soal Penentuan Kalimat Inti",
+     "pptx": "unduh/general/utbk-pbm02-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm02-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm02-1-contoh-soal.jpg",
+     "ukuran_pptx": 782763,
+     "ukuran_pdf": 1285326
+    }
+   }
+  },
+  {
+   "id": "pbm-02-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Penggabungan Kalimat",
+   "judul": "Penggabungan Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penggabungan Kalimat",
+     "pptx": "unduh/general/utbk-pbm02-2-penggabungan-kalimat.pptx",
+     "pdf": "unduh/general/utbk-pbm02-2-penggabungan-kalimat.pdf",
+     "sampul": "sampul/general/utbk-pbm02-2-penggabungan-kalimat.jpg",
+     "ukuran_pptx": 854949,
+     "ukuran_pdf": 1325192
+    }
+   }
+  },
+  {
+   "id": "pbm-02-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penggabungan Kalimat",
+   "judul": "Contoh Soal Penggabungan Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PBM - Contoh Soal Penggabungan Kalimat",
+     "pptx": "unduh/general/utbk-pbm02-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm02-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm02-2-contoh-soal.jpg",
+     "ukuran_pptx": 779803,
+     "ukuran_pdf": 1278789
+    }
+   }
+  },
+  {
+   "id": "pbm-02-3",
+   "kelompok": "PPU-PBM",
+   "bab": "Penentuan Gagasan Bertanda Baca Tepat",
+   "judul": "Penentuan Gagasan Bertanda Baca Tepat",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penentuan Gagasan Bertanda Baca Tepat",
+     "pptx": "unduh/general/utbk-pbm02-3-penentuan-gagasan-bertanda-baca-tepat.pptx",
+     "pdf": "unduh/general/utbk-pbm02-3-penentuan-gagasan-bertanda-baca-tepat.pdf",
+     "sampul": "sampul/general/utbk-pbm02-3-penentuan-gagasan-bertanda-baca-tepat.jpg",
+     "ukuran_pptx": 855089,
+     "ukuran_pdf": 1327410
+    }
+   }
+  },
+  {
+   "id": "pbm-02-3-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penentuan Gagasan Bertanda Baca Tepat",
+   "judul": "Contoh Soal Penentuan Gagasan Bertanda Baca Tepat",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Penentuan Gagasan Bertanda Baca Tepat",
+     "pptx": "unduh/general/utbk-pbm02-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm02-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm02-3-contoh-soal.jpg",
+     "ukuran_pptx": 776433,
+     "ukuran_pdf": 1268998
+    }
+   }
+  },
+  {
+   "id": "pbm-02-4",
+   "kelompok": "PPU-PBM",
+   "bab": "Pengurutan Kalimat dalam Paragraf",
+   "judul": "Pengurutan Kalimat dalam Paragraf",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Pengurutan Kalimat dalam Paragraf",
+     "pptx": "unduh/general/utbk-pbm02-4-pengurutan-kalimat-dalam-paragraf.pptx",
+     "pdf": "unduh/general/utbk-pbm02-4-pengurutan-kalimat-dalam-paragraf.pdf",
+     "sampul": "sampul/general/utbk-pbm02-4-pengurutan-kalimat-dalam-paragraf.jpg",
+     "ukuran_pptx": 855152,
+     "ukuran_pdf": 1350829
+    }
+   }
+  },
+  {
+   "id": "pbm-02-4-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Pengurutan Kalimat dalam Paragraf",
+   "judul": "Contoh Soal Pengurutan Kalimat dalam Paragraf",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PBM - Contoh Soal Pengurutan Kalimat dalam Paragraf",
+     "pptx": "unduh/general/utbk-pbm02-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm02-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm02-4-contoh-soal.jpg",
+     "ukuran_pptx": 782676,
+     "ukuran_pdf": 1311323
+    }
+   }
+  },
+  {
+   "id": "pbm-02-5",
+   "kelompok": "PPU-PBM",
+   "bab": "Penempatan Kalimat pada Posisi yang Tepat",
+   "judul": "Penempatan Kalimat pada Posisi yang Tepat",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penempatan Kalimat pada Posisi yang Tepat",
+     "pptx": "unduh/general/utbk-pbm02-5-penempatan-kalimat-pada-posisi-yang.pptx",
+     "pdf": "unduh/general/utbk-pbm02-5-penempatan-kalimat-pada-posisi-yang.pdf",
+     "sampul": "sampul/general/utbk-pbm02-5-penempatan-kalimat-pada-posisi-yang.jpg",
+     "ukuran_pptx": 854961,
+     "ukuran_pdf": 1326207
+    }
+   }
+  },
+  {
+   "id": "pbm-02-5-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penempatan Kalimat pada Posisi yang Tepat",
+   "judul": "Contoh Soal Penempatan Kalimat pada Posisi yang Tepat",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Contoh Soal Penempatan Kalimat pada Posisi yang Tepat",
+     "pptx": "unduh/general/utbk-pbm02-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm02-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm02-5-contoh-soal.jpg",
+     "ukuran_pptx": 790020,
+     "ukuran_pdf": 1329900
+    }
+   }
+  },
+  {
+   "id": "pbm-02-6",
+   "kelompok": "PPU-PBM",
+   "bab": "Pemvariasian Kalimat",
+   "judul": "Pemvariasian Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Pemvariasian Kalimat",
+     "pptx": "unduh/general/utbk-pbm02-6-pemvariasian-kalimat.pptx",
+     "pdf": "unduh/general/utbk-pbm02-6-pemvariasian-kalimat.pdf",
+     "sampul": "sampul/general/utbk-pbm02-6-pemvariasian-kalimat.jpg",
+     "ukuran_pptx": 855162,
+     "ukuran_pdf": 1327529
+    }
+   }
+  },
+  {
+   "id": "pbm-02-6-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Pemvariasian Kalimat",
+   "judul": "Contoh Soal Pemvariasian Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PBM - Contoh Soal Pemvariasian Kalimat",
+     "pptx": "unduh/general/utbk-pbm02-6-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm02-6-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm02-6-contoh-soal.jpg",
+     "ukuran_pptx": 782937,
+     "ukuran_pdf": 1288129
+    }
+   }
+  },
+  {
+   "id": "pbm-02-7",
+   "kelompok": "PPU-PBM",
+   "bab": "Kohesi dan Koherensi",
+   "judul": "Kohesi dan Koherensi",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Kohesi dan Koherensi",
+     "pptx": "unduh/general/utbk-pbm02-7-kohesi-dan-koherensi.pptx",
+     "pdf": "unduh/general/utbk-pbm02-7-kohesi-dan-koherensi.pdf",
+     "sampul": "sampul/general/utbk-pbm02-7-kohesi-dan-koherensi.jpg",
+     "ukuran_pptx": 854952,
+     "ukuran_pdf": 1325213
+    }
+   }
+  },
+  {
+   "id": "pbm-02-7-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Kohesi dan Koherensi",
+   "judul": "Contoh Soal Kohesi dan Koherensi",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PBM - Contoh Soal Kohesi dan Koherensi",
+     "pptx": "unduh/general/utbk-pbm02-7-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm02-7-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm02-7-contoh-soal.jpg",
+     "ukuran_pptx": 779580,
+     "ukuran_pdf": 1274708
+    }
+   }
+  },
+  {
+   "id": "pbm-02-8",
+   "kelompok": "PPU-PBM",
+   "bab": "Kata Ganti dan Kata Rujukan",
+   "judul": "Kata Ganti dan Kata Rujukan",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Kata Ganti dan Kata Rujukan",
+     "pptx": "unduh/general/utbk-pbm02-8-kata-ganti-dan-kata-rujukan.pptx",
+     "pdf": "unduh/general/utbk-pbm02-8-kata-ganti-dan-kata-rujukan.pdf",
+     "sampul": "sampul/general/utbk-pbm02-8-kata-ganti-dan-kata-rujukan.jpg",
+     "ukuran_pptx": 855013,
+     "ukuran_pdf": 1325323
+    }
+   }
+  },
+  {
+   "id": "pbm-02-8-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Kata Ganti dan Kata Rujukan",
+   "judul": "Contoh Soal Kata Ganti dan Kata Rujukan",
+   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PBM - Contoh Soal Kata Ganti dan Kata Rujukan",
+     "pptx": "unduh/general/utbk-pbm02-8-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm02-8-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm02-8-contoh-soal.jpg",
+     "ukuran_pptx": 779763,
+     "ukuran_pdf": 1278523
+    }
+   }
+  },
+  {
+   "id": "pbm-03-1",
+   "kelompok": "PPU-PBM",
+   "bab": "Perbaikan Penulisan Kata Serapan",
+   "judul": "Perbaikan Penulisan Kata Serapan",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "UTBK PBM - Perbaikan Penulisan Kata Serapan",
+     "pptx": "unduh/general/utbk-pbm03-1-perbaikan-penulisan-kata-serapan.pptx",
+     "pdf": "unduh/general/utbk-pbm03-1-perbaikan-penulisan-kata-serapan.pdf",
+     "sampul": "sampul/general/utbk-pbm03-1-perbaikan-penulisan-kata-serapan.jpg",
+     "ukuran_pptx": 862254,
+     "ukuran_pdf": 1373459
+    }
+   }
+  },
+  {
+   "id": "pbm-03-1-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Perbaikan Penulisan Kata Serapan",
+   "judul": "Contoh Soal Perbaikan Penulisan Kata Serapan",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Perbaikan Penulisan Kata Serapan",
+     "pptx": "unduh/general/utbk-pbm03-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-1-contoh-soal.jpg",
+     "ukuran_pptx": 775997,
+     "ukuran_pdf": 1269112
+    }
+   }
+  },
+  {
+   "id": "pbm-03-2",
+   "kelompok": "PPU-PBM",
+   "bab": "Penulisan Huruf",
+   "judul": "Penulisan Huruf",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penulisan Huruf",
+     "pptx": "unduh/general/utbk-pbm03-2-penulisan-huruf.pptx",
+     "pdf": "unduh/general/utbk-pbm03-2-penulisan-huruf.pdf",
+     "sampul": "sampul/general/utbk-pbm03-2-penulisan-huruf.jpg",
+     "ukuran_pptx": 860158,
+     "ukuran_pdf": 1329269
+    }
+   }
+  },
+  {
+   "id": "pbm-03-2-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penulisan Huruf",
+   "judul": "Contoh Soal Penulisan Huruf",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Penulisan Huruf",
+     "pptx": "unduh/general/utbk-pbm03-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-2-contoh-soal.jpg",
+     "ukuran_pptx": 776160,
+     "ukuran_pdf": 1270147
+    }
+   }
+  },
+  {
+   "id": "pbm-03-3",
+   "kelompok": "PPU-PBM",
+   "bab": "Penulisan Kata Gabung",
+   "judul": "Penulisan Kata Gabung",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penulisan Kata Gabung",
+     "pptx": "unduh/general/utbk-pbm03-3-penulisan-kata-gabung.pptx",
+     "pdf": "unduh/general/utbk-pbm03-3-penulisan-kata-gabung.pdf",
+     "sampul": "sampul/general/utbk-pbm03-3-penulisan-kata-gabung.jpg",
+     "ukuran_pptx": 855221,
+     "ukuran_pdf": 1328962
+    }
+   }
+  },
+  {
+   "id": "pbm-03-3-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penulisan Kata Gabung",
+   "judul": "Contoh Soal Penulisan Kata Gabung",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Penulisan Kata Gabung",
+     "pptx": "unduh/general/utbk-pbm03-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-3-contoh-soal.jpg",
+     "ukuran_pptx": 775944,
+     "ukuran_pdf": 1269134
+    }
+   }
+  },
+  {
+   "id": "pbm-03-4",
+   "kelompok": "PPU-PBM",
+   "bab": "Perbaikan Kata",
+   "judul": "Perbaikan Kata",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Perbaikan Kata",
+     "pptx": "unduh/general/utbk-pbm03-4-perbaikan-kata.pptx",
+     "pdf": "unduh/general/utbk-pbm03-4-perbaikan-kata.pdf",
+     "sampul": "sampul/general/utbk-pbm03-4-perbaikan-kata.jpg",
+     "ukuran_pptx": 855270,
+     "ukuran_pdf": 1327435
+    }
+   }
+  },
+  {
+   "id": "pbm-03-4-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Perbaikan Kata",
+   "judul": "Contoh Soal Perbaikan Kata",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Perbaikan Kata",
+     "pptx": "unduh/general/utbk-pbm03-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-4-contoh-soal.jpg",
+     "ukuran_pptx": 776049,
+     "ukuran_pdf": 1269472
+    }
+   }
+  },
+  {
+   "id": "pbm-03-5",
+   "kelompok": "PPU-PBM",
+   "bab": "Perbaikan Kata Sambung/Konjungsi",
+   "judul": "Perbaikan Kata Sambung/Konjungsi",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Perbaikan Kata Sambung-Konjungsi",
+     "pptx": "unduh/general/utbk-pbm03-5-perbaikan-kata-sambung-konjungsi.pptx",
+     "pdf": "unduh/general/utbk-pbm03-5-perbaikan-kata-sambung-konjungsi.pdf",
+     "sampul": "sampul/general/utbk-pbm03-5-perbaikan-kata-sambung-konjungsi.jpg",
+     "ukuran_pptx": 855379,
+     "ukuran_pdf": 1328268
+    }
+   }
+  },
+  {
+   "id": "pbm-03-5-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Perbaikan Kata Sambung/Konjungsi",
+   "judul": "Contoh Soal Perbaikan Kata Sambung/Konjungsi",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PBM - Contoh Soal Perbaikan Kata Sambung-Konjungsi",
+     "pptx": "unduh/general/utbk-pbm03-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-5-contoh-soal.jpg",
+     "ukuran_pptx": 779557,
+     "ukuran_pdf": 1301935
+    }
+   }
+  },
+  {
+   "id": "pbm-03-6",
+   "kelompok": "PPU-PBM",
+   "bab": "Penentuan Cara Memperbaiki Kalimat",
+   "judul": "Penentuan Cara Memperbaiki Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penentuan Cara Memperbaiki Kalimat",
+     "pptx": "unduh/general/utbk-pbm03-6-penentuan-cara-memperbaiki-kalimat.pptx",
+     "pdf": "unduh/general/utbk-pbm03-6-penentuan-cara-memperbaiki-kalimat.pdf",
+     "sampul": "sampul/general/utbk-pbm03-6-penentuan-cara-memperbaiki-kalimat.jpg",
+     "ukuran_pptx": 854555,
+     "ukuran_pdf": 1320297
+    }
+   }
+  },
+  {
+   "id": "pbm-03-6-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penentuan Cara Memperbaiki Kalimat",
+   "judul": "Contoh Soal Penentuan Cara Memperbaiki Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PBM - Contoh Soal Penentuan Cara Memperbaiki Kalimat",
+     "pptx": "unduh/general/utbk-pbm03-6-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-6-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-6-contoh-soal.jpg",
+     "ukuran_pptx": 783437,
+     "ukuran_pdf": 1314772
+    }
+   }
+  },
+  {
+   "id": "pbm-03-7",
+   "kelompok": "PPU-PBM",
+   "bab": "Penentuan Kata Mubazir",
+   "judul": "Penentuan Kata Mubazir",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Penentuan Kata Mubazir",
+     "pptx": "unduh/general/utbk-pbm03-7-penentuan-kata-mubazir.pptx",
+     "pdf": "unduh/general/utbk-pbm03-7-penentuan-kata-mubazir.pdf",
+     "sampul": "sampul/general/utbk-pbm03-7-penentuan-kata-mubazir.jpg",
+     "ukuran_pptx": 854514,
+     "ukuran_pdf": 1320024
+    }
+   }
+  },
+  {
+   "id": "pbm-03-7-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penentuan Kata Mubazir",
+   "judul": "Contoh Soal Penentuan Kata Mubazir",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Penentuan Kata Mubazir",
+     "pptx": "unduh/general/utbk-pbm03-7-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-7-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-7-contoh-soal.jpg",
+     "ukuran_pptx": 776274,
+     "ukuran_pdf": 1271192
+    }
+   }
+  },
+  {
+   "id": "pbm-03-8",
+   "kelompok": "PPU-PBM",
+   "bab": "Penentuan Kalimat Ringkas",
+   "judul": "Penentuan Kalimat Ringkas",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PBM - Penentuan Kalimat Ringkas",
+     "pptx": "unduh/general/utbk-pbm03-8-penentuan-kalimat-ringkas.pptx",
+     "pdf": "unduh/general/utbk-pbm03-8-penentuan-kalimat-ringkas.pdf",
+     "sampul": "sampul/general/utbk-pbm03-8-penentuan-kalimat-ringkas.jpg",
+     "ukuran_pptx": 851403,
+     "ukuran_pdf": 1312070
+    }
+   }
+  },
+  {
+   "id": "pbm-03-8-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Penentuan Kalimat Ringkas",
+   "judul": "Contoh Soal Penentuan Kalimat Ringkas",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Penentuan Kalimat Ringkas",
+     "pptx": "unduh/general/utbk-pbm03-8-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-8-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-8-contoh-soal.jpg",
+     "ukuran_pptx": 776280,
+     "ukuran_pdf": 1294841
+    }
+   }
+  },
+  {
+   "id": "pbm-03-9",
+   "kelompok": "PPU-PBM",
+   "bab": "Perbaikan Kalimat",
+   "judul": "Perbaikan Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Perbaikan Kalimat",
+     "pptx": "unduh/general/utbk-pbm03-9-perbaikan-kalimat.pptx",
+     "pdf": "unduh/general/utbk-pbm03-9-perbaikan-kalimat.pdf",
+     "sampul": "sampul/general/utbk-pbm03-9-perbaikan-kalimat.jpg",
+     "ukuran_pptx": 854499,
+     "ukuran_pdf": 1320054
+    }
+   }
+  },
+  {
+   "id": "pbm-03-9-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Perbaikan Kalimat",
+   "judul": "Contoh Soal Perbaikan Kalimat",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PBM - Contoh Soal Perbaikan Kalimat",
+     "pptx": "unduh/general/utbk-pbm03-9-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-9-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-9-contoh-soal.jpg",
+     "ukuran_pptx": 776144,
+     "ukuran_pdf": 1270548
+    }
+   }
+  },
+  {
+   "id": "pbm-03-10",
+   "kelompok": "PPU-PBM",
+   "bab": "Perbaikan Diksi",
+   "judul": "Perbaikan Diksi",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PBM - Perbaikan Diksi",
+     "pptx": "unduh/general/utbk-pbm03-10-perbaikan-diksi.pptx",
+     "pdf": "unduh/general/utbk-pbm03-10-perbaikan-diksi.pdf",
+     "sampul": "sampul/general/utbk-pbm03-10-perbaikan-diksi.jpg",
+     "ukuran_pptx": 854439,
+     "ukuran_pdf": 1319663
+    }
+   }
+  },
+  {
+   "id": "pbm-03-10-soal",
+   "kelompok": "PPU-PBM",
+   "bab": "Contoh Soal Perbaikan Diksi",
+   "judul": "Contoh Soal Perbaikan Diksi",
+   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PBM - Contoh Soal Perbaikan Diksi",
+     "pptx": "unduh/general/utbk-pbm03-10-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pbm03-10-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pbm03-10-contoh-soal.jpg",
+     "ukuran_pptx": 779620,
+     "ukuran_pdf": 1278410
+    }
+   }
+  },
+  {
+   "id": "pk-01-1",
+   "kelompok": "PK-PM",
+   "bab": "Bilangan dan Operasi Bilangan",
+   "judul": "Bilangan dan Operasi Bilangan",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
    "jenis": "materi",
    "tema": {
     "general": {
      "slide": 17,
-     "nama": "UTBK PBM - Pemilihan Gagasan",
-     "pptx": "unduh/general/utbk-pbm01-pemilihan-gagasan.pptx",
-     "pdf": "unduh/general/utbk-pbm01-pemilihan-gagasan.pdf",
-     "sampul": "sampul/general/utbk-pbm01-pemilihan-gagasan.jpg",
-     "ukuran_pptx": 890081,
-     "ukuran_pdf": 1449654
+     "nama": "UTBK PK-PM - Bilangan dan Operasi Bilangan",
+     "pptx": "unduh/general/utbk-pk01-1-bilangan-dan-operasi-bilangan.pptx",
+     "pdf": "unduh/general/utbk-pk01-1-bilangan-dan-operasi-bilangan.pdf",
+     "sampul": "sampul/general/utbk-pk01-1-bilangan-dan-operasi-bilangan.jpg",
+     "ukuran_pptx": 886143,
+     "ukuran_pdf": 1511960
     }
    }
   },
   {
-   "id": "pbm-01-soal",
-   "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Pemilihan Gagasan",
-   "judul": "Contoh Soal Pemilihan Gagasan",
-   "dokumen": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+   "id": "pk-01-1-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Bilangan dan Operasi Bilangan",
+   "judul": "Contoh Soal Bilangan dan Operasi Bilangan",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
    "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 18,
-     "nama": "UTBK PBM - Contoh Soal Pemilihan Gagasan",
-     "pptx": "unduh/general/utbk-pbm01-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pbm01-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pbm01-contoh-soal.jpg",
-     "ukuran_pptx": 824253,
-     "ukuran_pdf": 1433195
-    }
-   }
-  },
-  {
-   "id": "pbm-02",
-   "kelompok": "PPU-PBM",
-   "bab": "Penataan Gagasan",
-   "judul": "Penataan Gagasan",
-   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 25,
-     "nama": "UTBK PBM - Penataan Gagasan",
-     "pptx": "unduh/general/utbk-pbm02-penataan-gagasan.pptx",
-     "pdf": "unduh/general/utbk-pbm02-penataan-gagasan.pdf",
-     "sampul": "sampul/general/utbk-pbm02-penataan-gagasan.jpg",
-     "ukuran_pptx": 912066,
-     "ukuran_pdf": 1528015
-    }
-   }
-  },
-  {
-   "id": "pbm-02-soal",
-   "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Penataan Gagasan",
-   "judul": "Contoh Soal Penataan Gagasan",
-   "dokumen": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 32,
-     "nama": "UTBK PBM - Contoh Soal Penataan Gagasan",
-     "pptx": "unduh/general/utbk-pbm02-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pbm02-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pbm02-contoh-soal.jpg",
-     "ukuran_pptx": 876609,
-     "ukuran_pdf": 1581193
-    }
-   }
-  },
-  {
-   "id": "pbm-03",
-   "kelompok": "PPU-PBM",
-   "bab": "Perbaikan Gagasan",
-   "judul": "Perbaikan Gagasan",
-   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
-   "jenis": "materi",
    "tema": {
     "general": {
      "slide": 29,
-     "nama": "UTBK PBM - Perbaikan Gagasan",
-     "pptx": "unduh/general/utbk-pbm03-perbaikan-gagasan.pptx",
-     "pdf": "unduh/general/utbk-pbm03-perbaikan-gagasan.pdf",
-     "sampul": "sampul/general/utbk-pbm03-perbaikan-gagasan.jpg",
-     "ukuran_pptx": 931649,
-     "ukuran_pdf": 1588606
+     "nama": "UTBK PK-PM - Contoh Soal Bilangan dan Operasi Bilangan",
+     "pptx": "unduh/general/utbk-pk01-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk01-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk01-1-contoh-soal.jpg",
+     "ukuran_pptx": 891596,
+     "ukuran_pdf": 1619575
     }
    }
   },
   {
-   "id": "pbm-03-soal",
-   "kelompok": "PPU-PBM",
-   "bab": "Contoh Soal Perbaikan Gagasan",
-   "judul": "Contoh Soal Perbaikan Gagasan",
-   "dokumen": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 27,
-     "nama": "UTBK PBM - Contoh Soal Perbaikan Gagasan",
-     "pptx": "unduh/general/utbk-pbm03-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pbm03-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pbm03-contoh-soal.jpg",
-     "ukuran_pptx": 861207,
-     "ukuran_pdf": 1564718
-    }
-   }
-  },
-  {
-   "id": "pk-01",
+   "id": "pk-01-2",
    "kelompok": "PK-PM",
-   "bab": "Bilangan dan Aritmetika",
-   "judul": "Bilangan dan Aritmetika",
+   "bab": "FPB dan KPK",
+   "judul": "FPB dan KPK",
    "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 44,
-     "nama": "UTBK PK-PM - Bilangan dan Aritmetika",
-     "pptx": "unduh/general/utbk-pk01-bilangan-dan-aritmetika.pptx",
-     "pdf": "unduh/general/utbk-pk01-bilangan-dan-aritmetika.pdf",
-     "sampul": "sampul/general/utbk-pk01-bilangan-dan-aritmetika.jpg",
-     "ukuran_pptx": 996216,
-     "ukuran_pdf": 1884984
+     "slide": 12,
+     "nama": "UTBK PK-PM - FPB dan KPK",
+     "pptx": "unduh/general/utbk-pk01-2-fpb-dan-kpk.pptx",
+     "pdf": "unduh/general/utbk-pk01-2-fpb-dan-kpk.pdf",
+     "sampul": "sampul/general/utbk-pk01-2-fpb-dan-kpk.jpg",
+     "ukuran_pptx": 866754,
+     "ukuran_pdf": 1427476
     }
    }
   },
   {
-   "id": "pk-01-soal",
+   "id": "pk-01-2-soal",
    "kelompok": "PK-PM",
-   "bab": "Contoh Soal Bilangan dan Aritmetika",
-   "judul": "Contoh Soal Bilangan dan Aritmetika",
+   "bab": "Contoh Soal FPB dan KPK",
+   "judul": "Contoh Soal FPB dan KPK",
    "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 116,
-     "nama": "UTBK PK-PM - Contoh Soal Bilangan dan Aritmetika",
-     "pptx": "unduh/general/utbk-pk01-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pk01-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pk01-contoh-soal.jpg",
-     "ukuran_pptx": 1215166,
-     "ukuran_pdf": 2619443
+     "slide": 17,
+     "nama": "UTBK PK-PM - Contoh Soal FPB dan KPK",
+     "pptx": "unduh/general/utbk-pk01-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk01-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk01-2-contoh-soal.jpg",
+     "ukuran_pptx": 820376,
+     "ukuran_pdf": 1470212
     }
    }
   },
   {
-   "id": "pk-02",
+   "id": "pk-01-3",
+   "kelompok": "PK-PM",
+   "bab": "Rasio/Perbandingan",
+   "judul": "Rasio/Perbandingan",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 13,
+     "nama": "UTBK PK-PM - Rasio-Perbandingan",
+     "pptx": "unduh/general/utbk-pk01-3-rasio-perbandingan.pptx",
+     "pdf": "unduh/general/utbk-pk01-3-rasio-perbandingan.pdf",
+     "sampul": "sampul/general/utbk-pk01-3-rasio-perbandingan.jpg",
+     "ukuran_pptx": 870791,
+     "ukuran_pdf": 1428423
+    }
+   }
+  },
+  {
+   "id": "pk-01-3-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Rasio/Perbandingan",
+   "judul": "Contoh Soal Rasio/Perbandingan",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 23,
+     "nama": "UTBK PK-PM - Contoh Soal Rasio-Perbandingan",
+     "pptx": "unduh/general/utbk-pk01-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk01-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk01-3-contoh-soal.jpg",
+     "ukuran_pptx": 841166,
+     "ukuran_pdf": 1536180
+    }
+   }
+  },
+  {
+   "id": "pk-01-4",
+   "kelompok": "PK-PM",
+   "bab": "Proporsi",
+   "judul": "Proporsi",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "UTBK PK-PM - Proporsi",
+     "pptx": "unduh/general/utbk-pk01-4-proporsi.pptx",
+     "pdf": "unduh/general/utbk-pk01-4-proporsi.pdf",
+     "sampul": "sampul/general/utbk-pk01-4-proporsi.jpg",
+     "ukuran_pptx": 863551,
+     "ukuran_pdf": 1410909
+    }
+   }
+  },
+  {
+   "id": "pk-01-4-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Proporsi",
+   "judul": "Contoh Soal Proporsi",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 20,
+     "nama": "UTBK PK-PM - Contoh Soal Proporsi",
+     "pptx": "unduh/general/utbk-pk01-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk01-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk01-4-contoh-soal.jpg",
+     "ukuran_pptx": 831671,
+     "ukuran_pdf": 1486344
+    }
+   }
+  },
+  {
+   "id": "pk-01-5",
+   "kelompok": "PK-PM",
+   "bab": "Perbandingan Senilai dan Tak Senilai",
+   "judul": "Perbandingan Senilai dan Tak Senilai",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 12,
+     "nama": "UTBK PK-PM - Perbandingan Senilai dan Tak Senilai",
+     "pptx": "unduh/general/utbk-pk01-5-perbandingan-senilai-dan-tak-senilai.pptx",
+     "pdf": "unduh/general/utbk-pk01-5-perbandingan-senilai-dan-tak-senilai.pdf",
+     "sampul": "sampul/general/utbk-pk01-5-perbandingan-senilai-dan-tak-senilai.jpg",
+     "ukuran_pptx": 873583,
+     "ukuran_pdf": 1420014
+    }
+   }
+  },
+  {
+   "id": "pk-01-5-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Perbandingan Senilai dan Tak Senilai",
+   "judul": "Contoh Soal Perbandingan Senilai dan Tak Senilai",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 20,
+     "nama": "UTBK PK-PM - Contoh Soal Perbandingan Senilai dan Tak Senilai",
+     "pptx": "unduh/general/utbk-pk01-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk01-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk01-5-contoh-soal.jpg",
+     "ukuran_pptx": 831749,
+     "ukuran_pdf": 1507383
+    }
+   }
+  },
+  {
+   "id": "pk-01-6",
+   "kelompok": "PK-PM",
+   "bab": "Persentase",
+   "judul": "Persentase",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 13,
+     "nama": "UTBK PK-PM - Persentase",
+     "pptx": "unduh/general/utbk-pk01-6-persentase.pptx",
+     "pdf": "unduh/general/utbk-pk01-6-persentase.pdf",
+     "sampul": "sampul/general/utbk-pk01-6-persentase.jpg",
+     "ukuran_pptx": 875448,
+     "ukuran_pdf": 1440113
+    }
+   }
+  },
+  {
+   "id": "pk-01-6-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Persentase",
+   "judul": "Contoh Soal Persentase",
+   "dokumen": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 22,
+     "nama": "UTBK PK-PM - Contoh Soal Persentase",
+     "pptx": "unduh/general/utbk-pk01-6-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk01-6-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk01-6-contoh-soal.jpg",
+     "ukuran_pptx": 837546,
+     "ukuran_pdf": 1505745
+    }
+   }
+  },
+  {
+   "id": "pk-02-1",
    "kelompok": "PK-PM",
    "bab": "Aritmatika Sosial",
    "judul": "Aritmatika Sosial",
@@ -628,18 +2262,18 @@
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 20,
+     "slide": 9,
      "nama": "UTBK PK-PM - Aritmatika Sosial",
-     "pptx": "unduh/general/utbk-pk02-aritmatika-sosial.pptx",
-     "pdf": "unduh/general/utbk-pk02-aritmatika-sosial.pdf",
-     "sampul": "sampul/general/utbk-pk02-aritmatika-sosial.jpg",
-     "ukuran_pptx": 897281,
-     "ukuran_pdf": 1517670
+     "pptx": "unduh/general/utbk-pk02-1-aritmatika-sosial.pptx",
+     "pdf": "unduh/general/utbk-pk02-1-aritmatika-sosial.pdf",
+     "sampul": "sampul/general/utbk-pk02-1-aritmatika-sosial.jpg",
+     "ukuran_pptx": 856142,
+     "ukuran_pdf": 1379942
     }
    }
   },
   {
-   "id": "pk-02-soal",
+   "id": "pk-02-1-soal",
    "kelompok": "PK-PM",
    "bab": "Contoh Soal Aritmatika Sosial",
    "judul": "Contoh Soal Aritmatika Sosial",
@@ -647,241 +2281,1476 @@
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 33,
+     "slide": 9,
      "nama": "UTBK PK-PM - Contoh Soal Aritmatika Sosial",
-     "pptx": "unduh/general/utbk-pk02-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pk02-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pk02-contoh-soal.jpg",
-     "ukuran_pptx": 878321,
-     "ukuran_pdf": 1632844
+     "pptx": "unduh/general/utbk-pk02-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk02-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk02-1-contoh-soal.jpg",
+     "ukuran_pptx": 790456,
+     "ukuran_pdf": 1365587
     }
    }
   },
   {
-   "id": "pk-03",
+   "id": "pk-02-2",
    "kelompok": "PK-PM",
-   "bab": "Aljabar",
-   "judul": "Aljabar",
+   "bab": "Harga",
+   "judul": "Harga",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Harga",
+     "pptx": "unduh/general/utbk-pk02-2-harga.pptx",
+     "pdf": "unduh/general/utbk-pk02-2-harga.pdf",
+     "sampul": "sampul/general/utbk-pk02-2-harga.jpg",
+     "ukuran_pptx": 852660,
+     "ukuran_pdf": 1368926
+    }
+   }
+  },
+  {
+   "id": "pk-02-2-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Harga",
+   "judul": "Contoh Soal Harga",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Contoh Soal Harga",
+     "pptx": "unduh/general/utbk-pk02-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk02-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk02-2-contoh-soal.jpg",
+     "ukuran_pptx": 783154,
+     "ukuran_pdf": 1294128
+    }
+   }
+  },
+  {
+   "id": "pk-02-3",
+   "kelompok": "PK-PM",
+   "bab": "Diskon",
+   "judul": "Diskon",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Diskon",
+     "pptx": "unduh/general/utbk-pk02-3-diskon.pptx",
+     "pdf": "unduh/general/utbk-pk02-3-diskon.pdf",
+     "sampul": "sampul/general/utbk-pk02-3-diskon.jpg",
+     "ukuran_pptx": 852380,
+     "ukuran_pdf": 1362544
+    }
+   }
+  },
+  {
+   "id": "pk-02-3-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Diskon",
+   "judul": "Contoh Soal Diskon",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Diskon",
+     "pptx": "unduh/general/utbk-pk02-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk02-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk02-3-contoh-soal.jpg",
+     "ukuran_pptx": 790439,
+     "ukuran_pdf": 1317463
+    }
+   }
+  },
+  {
+   "id": "pk-02-4",
+   "kelompok": "PK-PM",
+   "bab": "Bunga",
+   "judul": "Bunga",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Bunga",
+     "pptx": "unduh/general/utbk-pk02-4-bunga.pptx",
+     "pdf": "unduh/general/utbk-pk02-4-bunga.pdf",
+     "sampul": "sampul/general/utbk-pk02-4-bunga.jpg",
+     "ukuran_pptx": 852493,
+     "ukuran_pdf": 1361956
+    }
+   }
+  },
+  {
+   "id": "pk-02-4-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Bunga",
+   "judul": "Contoh Soal Bunga",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Contoh Soal Bunga",
+     "pptx": "unduh/general/utbk-pk02-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk02-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk02-4-contoh-soal.jpg",
+     "ukuran_pptx": 783085,
+     "ukuran_pdf": 1291879
+    }
+   }
+  },
+  {
+   "id": "pk-02-5",
+   "kelompok": "PK-PM",
+   "bab": "Angsuran",
+   "judul": "Angsuran",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Angsuran",
+     "pptx": "unduh/general/utbk-pk02-5-angsuran.pptx",
+     "pdf": "unduh/general/utbk-pk02-5-angsuran.pdf",
+     "sampul": "sampul/general/utbk-pk02-5-angsuran.jpg",
+     "ukuran_pptx": 852697,
+     "ukuran_pdf": 1366910
+    }
+   }
+  },
+  {
+   "id": "pk-02-5-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Angsuran",
+   "judul": "Contoh Soal Angsuran",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Contoh Soal Angsuran",
+     "pptx": "unduh/general/utbk-pk02-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk02-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk02-5-contoh-soal.jpg",
+     "ukuran_pptx": 783122,
+     "ukuran_pdf": 1293934
+    }
+   }
+  },
+  {
+   "id": "pk-02-6",
+   "kelompok": "PK-PM",
+   "bab": "Untung/Rugi",
+   "judul": "Untung/Rugi",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Untung-Rugi",
+     "pptx": "unduh/general/utbk-pk02-6-untung-rugi.pptx",
+     "pdf": "unduh/general/utbk-pk02-6-untung-rugi.pdf",
+     "sampul": "sampul/general/utbk-pk02-6-untung-rugi.jpg",
+     "ukuran_pptx": 856420,
+     "ukuran_pdf": 1380420
+    }
+   }
+  },
+  {
+   "id": "pk-02-6-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Untung/Rugi",
+   "judul": "Contoh Soal Untung/Rugi",
+   "dokumen": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Untung-Rugi",
+     "pptx": "unduh/general/utbk-pk02-6-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk02-6-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk02-6-contoh-soal.jpg",
+     "ukuran_pptx": 789691,
+     "ukuran_pdf": 1311287
+    }
+   }
+  },
+  {
+   "id": "pk-03-1",
+   "kelompok": "PK-PM",
+   "bab": "Persamaan Linear",
+   "judul": "Persamaan Linear",
    "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 27,
-     "nama": "UTBK PK-PM - Aljabar",
-     "pptx": "unduh/general/utbk-pk03-aljabar.pptx",
-     "pdf": "unduh/general/utbk-pk03-aljabar.pdf",
-     "sampul": "sampul/general/utbk-pk03-aljabar.jpg",
-     "ukuran_pptx": 928332,
-     "ukuran_pdf": 1598553
+     "slide": 8,
+     "nama": "UTBK PK-PM - Persamaan Linear",
+     "pptx": "unduh/general/utbk-pk03-1-persamaan-linear.pptx",
+     "pdf": "unduh/general/utbk-pk03-1-persamaan-linear.pdf",
+     "sampul": "sampul/general/utbk-pk03-1-persamaan-linear.jpg",
+     "ukuran_pptx": 852119,
+     "ukuran_pdf": 1350377
     }
    }
   },
   {
-   "id": "pk-03-soal",
+   "id": "pk-03-1-soal",
    "kelompok": "PK-PM",
-   "bab": "Contoh Soal Aljabar",
-   "judul": "Contoh Soal Aljabar",
+   "bab": "Contoh Soal Persamaan Linear",
+   "judul": "Contoh Soal Persamaan Linear",
    "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 45,
-     "nama": "UTBK PK-PM - Contoh Soal Aljabar",
-     "pptx": "unduh/general/utbk-pk03-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pk03-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pk03-contoh-soal.jpg",
-     "ukuran_pptx": 924572,
-     "ukuran_pdf": 1801987
+     "slide": 6,
+     "nama": "UTBK PK-PM - Contoh Soal Persamaan Linear",
+     "pptx": "unduh/general/utbk-pk03-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-1-contoh-soal.jpg",
+     "ukuran_pptx": 779196,
+     "ukuran_pdf": 1278944
     }
    }
   },
   {
-   "id": "pk-04",
+   "id": "pk-03-2",
    "kelompok": "PK-PM",
-   "bab": "Pola dan Barisan",
-   "judul": "Pola dan Barisan",
+   "bab": "Sistem Persamaan Linear",
+   "judul": "Sistem Persamaan Linear",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Sistem Persamaan Linear",
+     "pptx": "unduh/general/utbk-pk03-2-sistem-persamaan-linear.pptx",
+     "pdf": "unduh/general/utbk-pk03-2-sistem-persamaan-linear.pdf",
+     "sampul": "sampul/general/utbk-pk03-2-sistem-persamaan-linear.jpg",
+     "ukuran_pptx": 852263,
+     "ukuran_pdf": 1360867
+    }
+   }
+  },
+  {
+   "id": "pk-03-2-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Sistem Persamaan Linear",
+   "judul": "Contoh Soal Sistem Persamaan Linear",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PK-PM - Contoh Soal Sistem Persamaan Linear",
+     "pptx": "unduh/general/utbk-pk03-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-2-contoh-soal.jpg",
+     "ukuran_pptx": 779301,
+     "ukuran_pdf": 1317248
+    }
+   }
+  },
+  {
+   "id": "pk-03-3",
+   "kelompok": "PK-PM",
+   "bab": "Pertidaksamaan",
+   "judul": "Pertidaksamaan",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Pertidaksamaan",
+     "pptx": "unduh/general/utbk-pk03-3-pertidaksamaan.pptx",
+     "pdf": "unduh/general/utbk-pk03-3-pertidaksamaan.pdf",
+     "sampul": "sampul/general/utbk-pk03-3-pertidaksamaan.jpg",
+     "ukuran_pptx": 852206,
+     "ukuran_pdf": 1355400
+    }
+   }
+  },
+  {
+   "id": "pk-03-3-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Pertidaksamaan",
+   "judul": "Contoh Soal Pertidaksamaan",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PK-PM - Contoh Soal Pertidaksamaan",
+     "pptx": "unduh/general/utbk-pk03-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-3-contoh-soal.jpg",
+     "ukuran_pptx": 779443,
+     "ukuran_pdf": 1318053
+    }
+   }
+  },
+  {
+   "id": "pk-03-4",
+   "kelompok": "PK-PM",
+   "bab": "Eksponen",
+   "judul": "Eksponen",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Eksponen",
+     "pptx": "unduh/general/utbk-pk03-4-eksponen.pptx",
+     "pdf": "unduh/general/utbk-pk03-4-eksponen.pdf",
+     "sampul": "sampul/general/utbk-pk03-4-eksponen.jpg",
+     "ukuran_pptx": 852375,
+     "ukuran_pdf": 1358143
+    }
+   }
+  },
+  {
+   "id": "pk-03-4-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Eksponen",
+   "judul": "Contoh Soal Eksponen",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Eksponen",
+     "pptx": "unduh/general/utbk-pk03-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-4-contoh-soal.jpg",
+     "ukuran_pptx": 791957,
+     "ukuran_pdf": 1368941
+    }
+   }
+  },
+  {
+   "id": "pk-03-5",
+   "kelompok": "PK-PM",
+   "bab": "Logaritma",
+   "judul": "Logaritma",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Logaritma",
+     "pptx": "unduh/general/utbk-pk03-5-logaritma.pptx",
+     "pdf": "unduh/general/utbk-pk03-5-logaritma.pdf",
+     "sampul": "sampul/general/utbk-pk03-5-logaritma.jpg",
+     "ukuran_pptx": 852432,
+     "ukuran_pdf": 1357478
+    }
+   }
+  },
+  {
+   "id": "pk-03-5-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Logaritma",
+   "judul": "Contoh Soal Logaritma",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Logaritma",
+     "pptx": "unduh/general/utbk-pk03-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-5-contoh-soal.jpg",
+     "ukuran_pptx": 789224,
+     "ukuran_pdf": 1339377
+    }
+   }
+  },
+  {
+   "id": "pk-03-6",
+   "kelompok": "PK-PM",
+   "bab": "Relasi",
+   "judul": "Relasi",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Relasi",
+     "pptx": "unduh/general/utbk-pk03-6-relasi.pptx",
+     "pdf": "unduh/general/utbk-pk03-6-relasi.pdf",
+     "sampul": "sampul/general/utbk-pk03-6-relasi.jpg",
+     "ukuran_pptx": 852534,
+     "ukuran_pdf": 1369481
+    }
+   }
+  },
+  {
+   "id": "pk-03-6-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Relasi",
+   "judul": "Contoh Soal Relasi",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PK-PM - Contoh Soal Relasi",
+     "pptx": "unduh/general/utbk-pk03-6-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-6-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-6-contoh-soal.jpg",
+     "ukuran_pptx": 793347,
+     "ukuran_pdf": 1360418
+    }
+   }
+  },
+  {
+   "id": "pk-03-7",
+   "kelompok": "PK-PM",
+   "bab": "Fungsi",
+   "judul": "Fungsi",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PK-PM - Fungsi",
+     "pptx": "unduh/general/utbk-pk03-7-fungsi.pptx",
+     "pdf": "unduh/general/utbk-pk03-7-fungsi.pdf",
+     "sampul": "sampul/general/utbk-pk03-7-fungsi.jpg",
+     "ukuran_pptx": 859885,
+     "ukuran_pdf": 1387971
+    }
+   }
+  },
+  {
+   "id": "pk-03-7-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Fungsi",
+   "judul": "Contoh Soal Fungsi",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 12,
+     "nama": "UTBK PK-PM - Contoh Soal Fungsi",
+     "pptx": "unduh/general/utbk-pk03-7-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-7-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-7-contoh-soal.jpg",
+     "ukuran_pptx": 803866,
+     "ukuran_pdf": 1404800
+    }
+   }
+  },
+  {
+   "id": "pk-03-8",
+   "kelompok": "PK-PM",
+   "bab": "Fungsi Invers",
+   "judul": "Fungsi Invers",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Fungsi Invers",
+     "pptx": "unduh/general/utbk-pk03-8-fungsi-invers.pptx",
+     "pdf": "unduh/general/utbk-pk03-8-fungsi-invers.pdf",
+     "sampul": "sampul/general/utbk-pk03-8-fungsi-invers.jpg",
+     "ukuran_pptx": 862159,
+     "ukuran_pdf": 1376842
+    }
+   }
+  },
+  {
+   "id": "pk-03-8-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Fungsi Invers",
+   "judul": "Contoh Soal Fungsi Invers",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PK-PM - Contoh Soal Fungsi Invers",
+     "pptx": "unduh/general/utbk-pk03-8-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-8-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-8-contoh-soal.jpg",
+     "ukuran_pptx": 775193,
+     "ukuran_pdf": 1295156
+    }
+   }
+  },
+  {
+   "id": "pk-03-9",
+   "kelompok": "PK-PM",
+   "bab": "Pemodelan Aljabar",
+   "judul": "Pemodelan Aljabar",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Pemodelan Aljabar",
+     "pptx": "unduh/general/utbk-pk03-9-pemodelan-aljabar.pptx",
+     "pdf": "unduh/general/utbk-pk03-9-pemodelan-aljabar.pdf",
+     "sampul": "sampul/general/utbk-pk03-9-pemodelan-aljabar.jpg",
+     "ukuran_pptx": 852278,
+     "ukuran_pdf": 1359611
+    }
+   }
+  },
+  {
+   "id": "pk-03-9-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Pemodelan Aljabar",
+   "judul": "Contoh Soal Pemodelan Aljabar",
+   "dokumen": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PK-PM - Contoh Soal Pemodelan Aljabar",
+     "pptx": "unduh/general/utbk-pk03-9-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk03-9-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk03-9-contoh-soal.jpg",
+     "ukuran_pptx": 779111,
+     "ukuran_pdf": 1305450
+    }
+   }
+  },
+  {
+   "id": "pk-04-1",
+   "kelompok": "PK-PM",
+   "bab": "Pola Barisan",
+   "judul": "Pola Barisan",
    "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
    "jenis": "materi",
    "tema": {
     "general": {
-     "slide": 21,
-     "nama": "UTBK PK-PM - Pola dan Barisan",
-     "pptx": "unduh/general/utbk-pk04-pola-dan-barisan.pptx",
-     "pdf": "unduh/general/utbk-pk04-pola-dan-barisan.pdf",
-     "sampul": "sampul/general/utbk-pk04-pola-dan-barisan.jpg",
-     "ukuran_pptx": 1043861,
-     "ukuran_pdf": 1660203
+     "slide": 9,
+     "nama": "UTBK PK-PM - Pola Barisan",
+     "pptx": "unduh/general/utbk-pk04-1-pola-barisan.pptx",
+     "pdf": "unduh/general/utbk-pk04-1-pola-barisan.pdf",
+     "sampul": "sampul/general/utbk-pk04-1-pola-barisan.jpg",
+     "ukuran_pptx": 856523,
+     "ukuran_pdf": 1373324
     }
    }
   },
   {
-   "id": "pk-04-soal",
+   "id": "pk-04-1-soal",
    "kelompok": "PK-PM",
-   "bab": "Contoh Soal Pola dan Barisan",
-   "judul": "Contoh Soal Pola dan Barisan",
+   "bab": "Contoh Soal Pola Barisan",
+   "judul": "Contoh Soal Pola Barisan",
    "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 24,
-     "nama": "UTBK PK-PM - Contoh Soal Pola dan Barisan",
-     "pptx": "unduh/general/utbk-pk04-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pk04-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pk04-contoh-soal.jpg",
-     "ukuran_pptx": 881084,
-     "ukuran_pdf": 1578485
+     "slide": 6,
+     "nama": "UTBK PK-PM - Contoh Soal Pola Barisan",
+     "pptx": "unduh/general/utbk-pk04-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk04-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk04-1-contoh-soal.jpg",
+     "ukuran_pptx": 784716,
+     "ukuran_pdf": 1311601
     }
    }
   },
   {
-   "id": "pk-05",
+   "id": "pk-04-2",
    "kelompok": "PK-PM",
-   "bab": "Geometri dan Pengukuran",
-   "judul": "Geometri dan Pengukuran",
-   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 20,
-     "nama": "UTBK PK-PM - Geometri dan Pengukuran",
-     "pptx": "unduh/general/utbk-pk05-geometri-dan-pengukuran.pptx",
-     "pdf": "unduh/general/utbk-pk05-geometri-dan-pengukuran.pdf",
-     "sampul": "sampul/general/utbk-pk05-geometri-dan-pengukuran.jpg",
-     "ukuran_pptx": 2974263,
-     "ukuran_pdf": 1894959
-    }
-   }
-  },
-  {
-   "id": "pk-05-soal",
-   "kelompok": "PK-PM",
-   "bab": "Contoh Soal Geometri dan Pengukuran",
-   "judul": "Contoh Soal Geometri dan Pengukuran",
-   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 43,
-     "nama": "UTBK PK-PM - Contoh Soal Geometri dan Pengukuran",
-     "pptx": "unduh/general/utbk-pk05-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pk05-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pk05-contoh-soal.jpg",
-     "ukuran_pptx": 3422461,
-     "ukuran_pdf": 2080085
-    }
-   }
-  },
-  {
-   "id": "pk-06",
-   "kelompok": "PK-PM",
-   "bab": "Statistika dan Interpretasi Data",
-   "judul": "Statistika dan Interpretasi Data",
-   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 13,
-     "nama": "UTBK PK-PM - Statistika dan Interpretasi Data",
-     "pptx": "unduh/general/utbk-pk06-statistika-dan-interpretasi-data.pptx",
-     "pdf": "unduh/general/utbk-pk06-statistika-dan-interpretasi-data.pdf",
-     "sampul": "sampul/general/utbk-pk06-statistika-dan-interpretasi-data.jpg",
-     "ukuran_pptx": 880115,
-     "ukuran_pdf": 1450420
-    }
-   }
-  },
-  {
-   "id": "pk-06-soal",
-   "kelompok": "PK-PM",
-   "bab": "Contoh Soal Statistika dan Interpretasi Data",
-   "judul": "Contoh Soal Statistika dan Interpretasi Data",
-   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 37,
-     "nama": "UTBK PK-PM - Contoh Soal Statistika dan Interpretasi Data",
-     "pptx": "unduh/general/utbk-pk06-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pk06-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pk06-contoh-soal.jpg",
-     "ukuran_pptx": 1876562,
-     "ukuran_pdf": 1842262
-    }
-   }
-  },
-  {
-   "id": "pk-07",
-   "kelompok": "PK-PM",
-   "bab": "Peluang dan Kombinatorika",
-   "judul": "Peluang dan Kombinatorika",
-   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
-   "jenis": "materi",
-   "tema": {
-    "general": {
-     "slide": 19,
-     "nama": "UTBK PK-PM - Peluang dan Kombinatorika",
-     "pptx": "unduh/general/utbk-pk07-peluang-dan-kombinatorika.pptx",
-     "pdf": "unduh/general/utbk-pk07-peluang-dan-kombinatorika.pdf",
-     "sampul": "sampul/general/utbk-pk07-peluang-dan-kombinatorika.jpg",
-     "ukuran_pptx": 912033,
-     "ukuran_pdf": 1536063
-    }
-   }
-  },
-  {
-   "id": "pk-07-soal",
-   "kelompok": "PK-PM",
-   "bab": "Contoh Soal Peluang dan Kombinatorika",
-   "judul": "Contoh Soal Peluang dan Kombinatorika",
-   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
-   "jenis": "soal",
-   "tema": {
-    "general": {
-     "slide": 29,
-     "nama": "UTBK PK-PM - Contoh Soal Peluang dan Kombinatorika",
-     "pptx": "unduh/general/utbk-pk07-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pk07-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pk07-contoh-soal.jpg",
-     "ukuran_pptx": 864879,
-     "ukuran_pdf": 1610400
-    }
-   }
-  },
-  {
-   "id": "pk-08",
-   "kelompok": "PK-PM",
-   "bab": "Penalaran Kuantitatif",
-   "judul": "Penalaran Kuantitatif",
-   "dokumen": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+   "bab": "Pola Bilangan",
+   "judul": "Pola Bilangan",
+   "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
    "jenis": "materi",
    "tema": {
     "general": {
      "slide": 15,
-     "nama": "UTBK PK-PM - Penalaran Kuantitatif",
-     "pptx": "unduh/general/utbk-pk08-penalaran-kuantitatif.pptx",
-     "pdf": "unduh/general/utbk-pk08-penalaran-kuantitatif.pdf",
-     "sampul": "sampul/general/utbk-pk08-penalaran-kuantitatif.jpg",
-     "ukuran_pptx": 1921991,
-     "ukuran_pdf": 1649672
+     "nama": "UTBK PK-PM - Pola Bilangan",
+     "pptx": "unduh/general/utbk-pk04-2-pola-bilangan.pptx",
+     "pdf": "unduh/general/utbk-pk04-2-pola-bilangan.pdf",
+     "sampul": "sampul/general/utbk-pk04-2-pola-bilangan.jpg",
+     "ukuran_pptx": 1020830,
+     "ukuran_pdf": 1579187
     }
    }
   },
   {
-   "id": "pk-08-soal",
+   "id": "pk-04-2-soal",
    "kelompok": "PK-PM",
-   "bab": "Contoh Soal Penalaran Kuantitatif",
-   "judul": "Contoh Soal Penalaran Kuantitatif",
+   "bab": "Contoh Soal Pola Bilangan",
+   "judul": "Contoh Soal Pola Bilangan",
+   "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PK-PM - Contoh Soal Pola Bilangan",
+     "pptx": "unduh/general/utbk-pk04-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk04-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk04-2-contoh-soal.jpg",
+     "ukuran_pptx": 792188,
+     "ukuran_pdf": 1328871
+    }
+   }
+  },
+  {
+   "id": "pk-04-3",
+   "kelompok": "PK-PM",
+   "bab": "Barisan Aritmetika",
+   "judul": "Barisan Aritmetika",
+   "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Barisan Aritmetika",
+     "pptx": "unduh/general/utbk-pk04-3-barisan-aritmetika.pptx",
+     "pdf": "unduh/general/utbk-pk04-3-barisan-aritmetika.pdf",
+     "sampul": "sampul/general/utbk-pk04-3-barisan-aritmetika.jpg",
+     "ukuran_pptx": 852929,
+     "ukuran_pdf": 1361751
+    }
+   }
+  },
+  {
+   "id": "pk-04-3-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Barisan Aritmetika",
+   "judul": "Contoh Soal Barisan Aritmetika",
+   "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PK-PM - Contoh Soal Barisan Aritmetika",
+     "pptx": "unduh/general/utbk-pk04-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk04-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk04-3-contoh-soal.jpg",
+     "ukuran_pptx": 794979,
+     "ukuran_pdf": 1332688
+    }
+   }
+  },
+  {
+   "id": "pk-04-4",
+   "kelompok": "PK-PM",
+   "bab": "Barisan Geometri",
+   "judul": "Barisan Geometri",
+   "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Barisan Geometri",
+     "pptx": "unduh/general/utbk-pk04-4-barisan-geometri.pptx",
+     "pdf": "unduh/general/utbk-pk04-4-barisan-geometri.pdf",
+     "sampul": "sampul/general/utbk-pk04-4-barisan-geometri.jpg",
+     "ukuran_pptx": 852945,
+     "ukuran_pdf": 1361749
+    }
+   }
+  },
+  {
+   "id": "pk-04-4-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Barisan Geometri",
+   "judul": "Contoh Soal Barisan Geometri",
+   "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Contoh Soal Barisan Geometri",
+     "pptx": "unduh/general/utbk-pk04-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk04-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk04-4-contoh-soal.jpg",
+     "ukuran_pptx": 783389,
+     "ukuran_pdf": 1350491
+    }
+   }
+  },
+  {
+   "id": "pk-04-5",
+   "kelompok": "PK-PM",
+   "bab": "Deret",
+   "judul": "Deret",
+   "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Deret",
+     "pptx": "unduh/general/utbk-pk04-5-deret.pptx",
+     "pdf": "unduh/general/utbk-pk04-5-deret.pdf",
+     "sampul": "sampul/general/utbk-pk04-5-deret.jpg",
+     "ukuran_pptx": 856382,
+     "ukuran_pdf": 1374504
+    }
+   }
+  },
+  {
+   "id": "pk-04-5-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Deret",
+   "judul": "Contoh Soal Deret",
+   "dokumen": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 11,
+     "nama": "UTBK PK-PM - Contoh Soal Deret",
+     "pptx": "unduh/general/utbk-pk04-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk04-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk04-5-contoh-soal.jpg",
+     "ukuran_pptx": 811285,
+     "ukuran_pdf": 1402807
+    }
+   }
+  },
+  {
+   "id": "pk-05-1",
+   "kelompok": "PK-PM",
+   "bab": "Konsep Dasar Geometri",
+   "judul": "Konsep Dasar Geometri",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Konsep Dasar Geometri",
+     "pptx": "unduh/general/utbk-pk05-1-konsep-dasar-geometri.pptx",
+     "pdf": "unduh/general/utbk-pk05-1-konsep-dasar-geometri.pdf",
+     "sampul": "sampul/general/utbk-pk05-1-konsep-dasar-geometri.jpg",
+     "ukuran_pptx": 852672,
+     "ukuran_pdf": 1361499
+    }
+   }
+  },
+  {
+   "id": "pk-05-1-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Konsep Dasar Geometri",
+   "judul": "Contoh Soal Konsep Dasar Geometri",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 5,
+     "nama": "UTBK PK-PM - Contoh Soal Konsep Dasar Geometri",
+     "pptx": "unduh/general/utbk-pk05-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk05-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk05-1-contoh-soal.jpg",
+     "ukuran_pptx": 775807,
+     "ukuran_pdf": 1309317
+    }
+   }
+  },
+  {
+   "id": "pk-05-2",
+   "kelompok": "PK-PM",
+   "bab": "Bangun Datar",
+   "judul": "Bangun Datar",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Bangun Datar",
+     "pptx": "unduh/general/utbk-pk05-2-bangun-datar.pptx",
+     "pdf": "unduh/general/utbk-pk05-2-bangun-datar.pdf",
+     "sampul": "sampul/general/utbk-pk05-2-bangun-datar.jpg",
+     "ukuran_pptx": 852822,
+     "ukuran_pdf": 1378119
+    }
+   }
+  },
+  {
+   "id": "pk-05-2-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Bangun Datar",
+   "judul": "Contoh Soal Bangun Datar",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 12,
+     "nama": "UTBK PK-PM - Contoh Soal Bangun Datar",
+     "pptx": "unduh/general/utbk-pk05-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk05-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk05-2-contoh-soal.jpg",
+     "ukuran_pptx": 900424,
+     "ukuran_pdf": 1514001
+    }
+   }
+  },
+  {
+   "id": "pk-05-3",
+   "kelompok": "PK-PM",
+   "bab": "Bangun Ruang",
+   "judul": "Bangun Ruang",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Bangun Ruang",
+     "pptx": "unduh/general/utbk-pk05-3-bangun-ruang.pptx",
+     "pdf": "unduh/general/utbk-pk05-3-bangun-ruang.pdf",
+     "sampul": "sampul/general/utbk-pk05-3-bangun-ruang.jpg",
+     "ukuran_pptx": 852739,
+     "ukuran_pdf": 1376771
+    }
+   }
+  },
+  {
+   "id": "pk-05-3-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Bangun Ruang",
+   "judul": "Contoh Soal Bangun Ruang",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Contoh Soal Bangun Ruang",
+     "pptx": "unduh/general/utbk-pk05-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk05-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk05-3-contoh-soal.jpg",
+     "ukuran_pptx": 1558199,
+     "ukuran_pdf": 1442902
+    }
+   }
+  },
+  {
+   "id": "pk-05-4",
+   "kelompok": "PK-PM",
+   "bab": "Garis dan Sudut",
+   "judul": "Garis dan Sudut",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Garis dan Sudut",
+     "pptx": "unduh/general/utbk-pk05-4-garis-dan-sudut.pptx",
+     "pdf": "unduh/general/utbk-pk05-4-garis-dan-sudut.pdf",
+     "sampul": "sampul/general/utbk-pk05-4-garis-dan-sudut.jpg",
+     "ukuran_pptx": 848641,
+     "ukuran_pdf": 1348610
+    }
+   }
+  },
+  {
+   "id": "pk-05-4-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Garis dan Sudut",
+   "judul": "Contoh Soal Garis dan Sudut",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Garis dan Sudut",
+     "pptx": "unduh/general/utbk-pk05-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk05-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk05-4-contoh-soal.jpg",
+     "ukuran_pptx": 1761142,
+     "ukuran_pdf": 1397541
+    }
+   }
+  },
+  {
+   "id": "pk-05-5",
+   "kelompok": "PK-PM",
+   "bab": "Pengukuran",
+   "judul": "Pengukuran",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Pengukuran",
+     "pptx": "unduh/general/utbk-pk05-5-pengukuran.pptx",
+     "pdf": "unduh/general/utbk-pk05-5-pengukuran.pdf",
+     "sampul": "sampul/general/utbk-pk05-5-pengukuran.jpg",
+     "ukuran_pptx": 2648666,
+     "ukuran_pdf": 1631130
+    }
+   }
+  },
+  {
+   "id": "pk-05-5-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Pengukuran",
+   "judul": "Contoh Soal Pengukuran",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Pengukuran",
+     "pptx": "unduh/general/utbk-pk05-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk05-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk05-5-contoh-soal.jpg",
+     "ukuran_pptx": 796180,
+     "ukuran_pdf": 1379153
+    }
+   }
+  },
+  {
+   "id": "pk-05-6",
+   "kelompok": "PK-PM",
+   "bab": "Perbandingan Geometri",
+   "judul": "Perbandingan Geometri",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Perbandingan Geometri",
+     "pptx": "unduh/general/utbk-pk05-6-perbandingan-geometri.pptx",
+     "pdf": "unduh/general/utbk-pk05-6-perbandingan-geometri.pdf",
+     "sampul": "sampul/general/utbk-pk05-6-perbandingan-geometri.jpg",
+     "ukuran_pptx": 848869,
+     "ukuran_pdf": 1351913
+    }
+   }
+  },
+  {
+   "id": "pk-05-6-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Perbandingan Geometri",
+   "judul": "Contoh Soal Perbandingan Geometri",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Contoh Soal Perbandingan Geometri",
+     "pptx": "unduh/general/utbk-pk05-6-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk05-6-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk05-6-contoh-soal.jpg",
+     "ukuran_pptx": 801774,
+     "ukuran_pdf": 1360511
+    }
+   }
+  },
+  {
+   "id": "pk-05-7",
+   "kelompok": "PK-PM",
+   "bab": "Trigonometri Dasar",
+   "judul": "Trigonometri Dasar",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Trigonometri Dasar",
+     "pptx": "unduh/general/utbk-pk05-7-trigonometri-dasar.pptx",
+     "pdf": "unduh/general/utbk-pk05-7-trigonometri-dasar.pdf",
+     "sampul": "sampul/general/utbk-pk05-7-trigonometri-dasar.jpg",
+     "ukuran_pptx": 1139019,
+     "ukuran_pdf": 1462965
+    }
+   }
+  },
+  {
+   "id": "pk-05-7-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Trigonometri Dasar",
+   "judul": "Contoh Soal Trigonometri Dasar",
+   "dokumen": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PK-PM - Contoh Soal Trigonometri Dasar",
+     "pptx": "unduh/general/utbk-pk05-7-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk05-7-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk05-7-contoh-soal.jpg",
+     "ukuran_pptx": 1437905,
+     "ukuran_pdf": 1452758
+    }
+   }
+  },
+  {
+   "id": "pk-06-1",
+   "kelompok": "PK-PM",
+   "bab": "Statistika",
+   "judul": "Statistika",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Statistika",
+     "pptx": "unduh/general/utbk-pk06-1-statistika.pptx",
+     "pdf": "unduh/general/utbk-pk06-1-statistika.pdf",
+     "sampul": "sampul/general/utbk-pk06-1-statistika.jpg",
+     "ukuran_pptx": 848864,
+     "ukuran_pdf": 1342851
+    }
+   }
+  },
+  {
+   "id": "pk-06-2",
+   "kelompok": "PK-PM",
+   "bab": "Tabel",
+   "judul": "Tabel",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Tabel",
+     "pptx": "unduh/general/utbk-pk06-2-tabel.pptx",
+     "pdf": "unduh/general/utbk-pk06-2-tabel.pdf",
+     "sampul": "sampul/general/utbk-pk06-2-tabel.jpg",
+     "ukuran_pptx": 848691,
+     "ukuran_pdf": 1348977
+    }
+   }
+  },
+  {
+   "id": "pk-06-2-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Tabel",
+   "judul": "Contoh Soal Tabel",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Tabel",
+     "pptx": "unduh/general/utbk-pk06-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk06-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk06-2-contoh-soal.jpg",
+     "ukuran_pptx": 792566,
+     "ukuran_pdf": 1383549
+    }
+   }
+  },
+  {
+   "id": "pk-06-3",
+   "kelompok": "PK-PM",
+   "bab": "Grafik dan Diagram",
+   "judul": "Grafik dan Diagram",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Grafik dan Diagram",
+     "pptx": "unduh/general/utbk-pk06-3-grafik-dan-diagram.pptx",
+     "pdf": "unduh/general/utbk-pk06-3-grafik-dan-diagram.pdf",
+     "sampul": "sampul/general/utbk-pk06-3-grafik-dan-diagram.jpg",
+     "ukuran_pptx": 848668,
+     "ukuran_pdf": 1344481
+    }
+   }
+  },
+  {
+   "id": "pk-06-3-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Grafik dan Diagram",
+   "judul": "Contoh Soal Grafik dan Diagram",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Grafik dan Diagram",
+     "pptx": "unduh/general/utbk-pk06-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk06-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk06-3-contoh-soal.jpg",
+     "ukuran_pptx": 1764706,
+     "ukuran_pdf": 1446702
+    }
+   }
+  },
+  {
+   "id": "pk-06-4",
+   "kelompok": "PK-PM",
+   "bab": "Interpretasi Data",
+   "judul": "Interpretasi Data",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Interpretasi Data",
+     "pptx": "unduh/general/utbk-pk06-4-interpretasi-data.pptx",
+     "pdf": "unduh/general/utbk-pk06-4-interpretasi-data.pdf",
+     "sampul": "sampul/general/utbk-pk06-4-interpretasi-data.jpg",
+     "ukuran_pptx": 848421,
+     "ukuran_pdf": 1306608
+    }
+   }
+  },
+  {
+   "id": "pk-06-4-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Interpretasi Data",
+   "judul": "Contoh Soal Interpretasi Data",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Contoh Soal Interpretasi Data",
+     "pptx": "unduh/general/utbk-pk06-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk06-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk06-4-contoh-soal.jpg",
+     "ukuran_pptx": 827835,
+     "ukuran_pdf": 1331872
+    }
+   }
+  },
+  {
+   "id": "pk-06-5",
+   "kelompok": "PK-PM",
+   "bab": "Persentase Data",
+   "judul": "Persentase Data",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 7,
+     "nama": "UTBK PK-PM - Persentase Data",
+     "pptx": "unduh/general/utbk-pk06-5-persentase-data.pptx",
+     "pdf": "unduh/general/utbk-pk06-5-persentase-data.pdf",
+     "sampul": "sampul/general/utbk-pk06-5-persentase-data.jpg",
+     "ukuran_pptx": 848700,
+     "ukuran_pdf": 1360089
+    }
+   }
+  },
+  {
+   "id": "pk-06-5-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Persentase Data",
+   "judul": "Contoh Soal Persentase Data",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 6,
+     "nama": "UTBK PK-PM - Contoh Soal Persentase Data",
+     "pptx": "unduh/general/utbk-pk06-5-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk06-5-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk06-5-contoh-soal.jpg",
+     "ukuran_pptx": 819947,
+     "ukuran_pdf": 1325656
+    }
+   }
+  },
+  {
+   "id": "pk-06-6",
+   "kelompok": "PK-PM",
+   "bab": "Ukuran Pemusatan",
+   "judul": "Ukuran Pemusatan",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Ukuran Pemusatan",
+     "pptx": "unduh/general/utbk-pk06-6-ukuran-pemusatan.pptx",
+     "pdf": "unduh/general/utbk-pk06-6-ukuran-pemusatan.pdf",
+     "sampul": "sampul/general/utbk-pk06-6-ukuran-pemusatan.jpg",
+     "ukuran_pptx": 860777,
+     "ukuran_pdf": 1375093
+    }
+   }
+  },
+  {
+   "id": "pk-06-6-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Ukuran Pemusatan",
+   "judul": "Contoh Soal Ukuran Pemusatan",
+   "dokumen": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 17,
+     "nama": "UTBK PK-PM - Contoh Soal Ukuran Pemusatan",
+     "pptx": "unduh/general/utbk-pk06-6-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk06-6-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk06-6-contoh-soal.jpg",
+     "ukuran_pptx": 825592,
+     "ukuran_pdf": 1455040
+    }
+   }
+  },
+  {
+   "id": "pk-07-1",
+   "kelompok": "PK-PM",
+   "bab": "Peluang",
+   "judul": "Peluang",
+   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Peluang",
+     "pptx": "unduh/general/utbk-pk07-1-peluang.pptx",
+     "pdf": "unduh/general/utbk-pk07-1-peluang.pdf",
+     "sampul": "sampul/general/utbk-pk07-1-peluang.jpg",
+     "ukuran_pptx": 856349,
+     "ukuran_pdf": 1382738
+    }
+   }
+  },
+  {
+   "id": "pk-07-1-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Peluang",
+   "judul": "Contoh Soal Peluang",
+   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PK-PM - Contoh Soal Peluang",
+     "pptx": "unduh/general/utbk-pk07-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk07-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk07-1-contoh-soal.jpg",
+     "ukuran_pptx": 794178,
+     "ukuran_pdf": 1376680
+    }
+   }
+  },
+  {
+   "id": "pk-07-2",
+   "kelompok": "PK-PM",
+   "bab": "Aturan Pencacahan",
+   "judul": "Aturan Pencacahan",
+   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Aturan Pencacahan",
+     "pptx": "unduh/general/utbk-pk07-2-aturan-pencacahan.pptx",
+     "pdf": "unduh/general/utbk-pk07-2-aturan-pencacahan.pdf",
+     "sampul": "sampul/general/utbk-pk07-2-aturan-pencacahan.jpg",
+     "ukuran_pptx": 862171,
+     "ukuran_pdf": 1385686
+    }
+   }
+  },
+  {
+   "id": "pk-07-2-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Aturan Pencacahan",
+   "judul": "Contoh Soal Aturan Pencacahan",
+   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Aturan Pencacahan",
+     "pptx": "unduh/general/utbk-pk07-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk07-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk07-2-contoh-soal.jpg",
+     "ukuran_pptx": 790089,
+     "ukuran_pdf": 1354513
+    }
+   }
+  },
+  {
+   "id": "pk-07-3",
+   "kelompok": "PK-PM",
+   "bab": "Permutasi",
+   "judul": "Permutasi",
+   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Permutasi",
+     "pptx": "unduh/general/utbk-pk07-3-permutasi.pptx",
+     "pdf": "unduh/general/utbk-pk07-3-permutasi.pdf",
+     "sampul": "sampul/general/utbk-pk07-3-permutasi.jpg",
+     "ukuran_pptx": 863377,
+     "ukuran_pdf": 1396344
+    }
+   }
+  },
+  {
+   "id": "pk-07-3-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Permutasi",
+   "judul": "Contoh Soal Permutasi",
+   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Permutasi",
+     "pptx": "unduh/general/utbk-pk07-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk07-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk07-3-contoh-soal.jpg",
+     "ukuran_pptx": 790744,
+     "ukuran_pdf": 1350708
+    }
+   }
+  },
+  {
+   "id": "pk-07-4",
+   "kelompok": "PK-PM",
+   "bab": "Kombinasi",
+   "judul": "Kombinasi",
+   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PK-PM - Kombinasi",
+     "pptx": "unduh/general/utbk-pk07-4-kombinasi.pptx",
+     "pdf": "unduh/general/utbk-pk07-4-kombinasi.pdf",
+     "sampul": "sampul/general/utbk-pk07-4-kombinasi.jpg",
+     "ukuran_pptx": 859515,
+     "ukuran_pdf": 1402076
+    }
+   }
+  },
+  {
+   "id": "pk-07-4-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Kombinasi",
+   "judul": "Contoh Soal Kombinasi",
+   "dokumen": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 10,
+     "nama": "UTBK PK-PM - Contoh Soal Kombinasi",
+     "pptx": "unduh/general/utbk-pk07-4-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk07-4-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk07-4-contoh-soal.jpg",
+     "ukuran_pptx": 794070,
+     "ukuran_pdf": 1364407
+    }
+   }
+  },
+  {
+   "id": "pk-08-1",
+   "kelompok": "PK-PM",
+   "bab": "Perbandingan Kuantitatif",
+   "judul": "Perbandingan Kuantitatif",
+   "dokumen": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Perbandingan Kuantitatif",
+     "pptx": "unduh/general/utbk-pk08-1-perbandingan-kuantitatif.pptx",
+     "pdf": "unduh/general/utbk-pk08-1-perbandingan-kuantitatif.pdf",
+     "sampul": "sampul/general/utbk-pk08-1-perbandingan-kuantitatif.jpg",
+     "ukuran_pptx": 861349,
+     "ukuran_pdf": 1365204
+    }
+   }
+  },
+  {
+   "id": "pk-08-1-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Perbandingan Kuantitatif",
+   "judul": "Contoh Soal Perbandingan Kuantitatif",
    "dokumen": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
    "jenis": "soal",
    "tema": {
     "general": {
-     "slide": 31,
-     "nama": "UTBK PK-PM - Contoh Soal Penalaran Kuantitatif",
-     "pptx": "unduh/general/utbk-pk08-contoh-soal.pptx",
-     "pdf": "unduh/general/utbk-pk08-contoh-soal.pdf",
-     "sampul": "sampul/general/utbk-pk08-contoh-soal.jpg",
-     "ukuran_pptx": 1705642,
-     "ukuran_pdf": 1670420
+     "slide": 9,
+     "nama": "UTBK PK-PM - Contoh Soal Perbandingan Kuantitatif",
+     "pptx": "unduh/general/utbk-pk08-1-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk08-1-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk08-1-contoh-soal.jpg",
+     "ukuran_pptx": 790791,
+     "ukuran_pdf": 1332877
+    }
+   }
+  },
+  {
+   "id": "pk-08-2",
+   "kelompok": "PK-PM",
+   "bab": "Kecukupan Data",
+   "judul": "Kecukupan Data",
+   "dokumen": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 8,
+     "nama": "UTBK PK-PM - Kecukupan Data",
+     "pptx": "unduh/general/utbk-pk08-2-kecukupan-data.pptx",
+     "pdf": "unduh/general/utbk-pk08-2-kecukupan-data.pdf",
+     "sampul": "sampul/general/utbk-pk08-2-kecukupan-data.jpg",
+     "ukuran_pptx": 852635,
+     "ukuran_pdf": 1323386
+    }
+   }
+  },
+  {
+   "id": "pk-08-2-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Kecukupan Data",
+   "judul": "Contoh Soal Kecukupan Data",
+   "dokumen": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 13,
+     "nama": "UTBK PK-PM - Contoh Soal Kecukupan Data",
+     "pptx": "unduh/general/utbk-pk08-2-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk08-2-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk08-2-contoh-soal.jpg",
+     "ukuran_pptx": 804379,
+     "ukuran_pdf": 1358099
+    }
+   }
+  },
+  {
+   "id": "pk-08-3",
+   "kelompok": "PK-PM",
+   "bab": "Soal Cerita",
+   "judul": "Soal Cerita",
+   "dokumen": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+   "jenis": "materi",
+   "tema": {
+    "general": {
+     "slide": 12,
+     "nama": "UTBK PK-PM - Soal Cerita",
+     "pptx": "unduh/general/utbk-pk08-3-soal-cerita.pptx",
+     "pdf": "unduh/general/utbk-pk08-3-soal-cerita.pdf",
+     "sampul": "sampul/general/utbk-pk08-3-soal-cerita.jpg",
+     "ukuran_pptx": 1901668,
+     "ukuran_pdf": 1572737
+    }
+   }
+  },
+  {
+   "id": "pk-08-3-soal",
+   "kelompok": "PK-PM",
+   "bab": "Contoh Soal Soal Cerita",
+   "judul": "Contoh Soal Soal Cerita",
+   "dokumen": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+   "jenis": "soal",
+   "tema": {
+    "general": {
+     "slide": 15,
+     "nama": "UTBK PK-PM - Contoh Soal Soal Cerita",
+     "pptx": "unduh/general/utbk-pk08-3-contoh-soal.pptx",
+     "pdf": "unduh/general/utbk-pk08-3-contoh-soal.pdf",
+     "sampul": "sampul/general/utbk-pk08-3-contoh-soal.jpg",
+     "ukuran_pptx": 1646358,
+     "ukuran_pdf": 1465606
     }
    }
   },
@@ -900,7 +3769,7 @@
      "pdf": "unduh/general/utbk-lbi01-menemukan-informasi-eksplisit-dan-menelusuri.pdf",
      "sampul": "sampul/general/utbk-lbi01-menemukan-informasi-eksplisit-dan-menelusuri.jpg",
      "ukuran_pptx": 897138,
-     "ukuran_pdf": 1481641
+     "ukuran_pdf": 1481640
     }
    }
   },
@@ -919,7 +3788,7 @@
      "pdf": "unduh/general/utbk-lbi01-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbi01-contoh-soal.jpg",
      "ukuran_pptx": 811613,
-     "ukuran_pdf": 1362960
+     "ukuran_pdf": 1362948
     }
    }
   },
@@ -938,7 +3807,7 @@
      "pdf": "unduh/general/utbk-lbi02-pemahaman-informasi-dan-makna-kontekstual.pdf",
      "sampul": "sampul/general/utbk-lbi02-pemahaman-informasi-dan-makna-kontekstual.jpg",
      "ukuran_pptx": 885910,
-     "ukuran_pdf": 1454761
+     "ukuran_pdf": 1454774
     }
    }
   },
@@ -976,7 +3845,7 @@
      "pdf": "unduh/general/utbk-lbi03-gagasan-utama-dan-struktur-bacaan.pdf",
      "sampul": "sampul/general/utbk-lbi03-gagasan-utama-dan-struktur-bacaan.jpg",
      "ukuran_pptx": 889458,
-     "ukuran_pdf": 1463561
+     "ukuran_pdf": 1463548
     }
    }
   },
@@ -995,7 +3864,7 @@
      "pdf": "unduh/general/utbk-lbi03-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbi03-contoh-soal.jpg",
      "ukuran_pptx": 803637,
-     "ukuran_pdf": 1341665
+     "ukuran_pdf": 1341663
     }
    }
   },
@@ -1014,7 +3883,7 @@
      "pdf": "unduh/general/utbk-lbi04-pemahaman-teks-eksplanatif-dan-penalaran.pdf",
      "sampul": "sampul/general/utbk-lbi04-pemahaman-teks-eksplanatif-dan-penalaran.jpg",
      "ukuran_pptx": 897393,
-     "ukuran_pdf": 1487827
+     "ukuran_pdf": 1487814
     }
    }
   },
@@ -1033,7 +3902,7 @@
      "pdf": "unduh/general/utbk-lbi04-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbi04-contoh-soal.jpg",
      "ukuran_pptx": 804339,
-     "ukuran_pdf": 1344992
+     "ukuran_pdf": 1344994
     }
    }
   },
@@ -1052,7 +3921,7 @@
      "pdf": "unduh/general/utbk-lbi05-evaluasi-kebenaran-dan-keakuratan-informasi.pdf",
      "sampul": "sampul/general/utbk-lbi05-evaluasi-kebenaran-dan-keakuratan-informasi.jpg",
      "ukuran_pptx": 896883,
-     "ukuran_pdf": 1483832
+     "ukuran_pdf": 1483843
     }
    }
   },
@@ -1071,7 +3940,7 @@
      "pdf": "unduh/general/utbk-lbi05-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbi05-contoh-soal.jpg",
      "ukuran_pptx": 810602,
-     "ukuran_pdf": 1395345
+     "ukuran_pdf": 1395342
     }
    }
   },
@@ -1090,7 +3959,7 @@
      "pdf": "unduh/general/utbk-lbi06-evaluasi-bukti-fakta-data-dan.pdf",
      "sampul": "sampul/general/utbk-lbi06-evaluasi-bukti-fakta-data-dan.jpg",
      "ukuran_pptx": 900683,
-     "ukuran_pdf": 1479320
+     "ukuran_pdf": 1479329
     }
    }
   },
@@ -1109,7 +3978,7 @@
      "pdf": "unduh/general/utbk-lbi06-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbi06-contoh-soal.jpg",
      "ukuran_pptx": 814781,
-     "ukuran_pdf": 1369082
+     "ukuran_pdf": 1369076
     }
    }
   },
@@ -1147,7 +4016,7 @@
      "pdf": "unduh/general/utbk-lbi07-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbi07-contoh-soal.jpg",
      "ukuran_pptx": 815550,
-     "ukuran_pdf": 1376041
+     "ukuran_pdf": 1376036
     }
    }
   },
@@ -1166,7 +4035,7 @@
      "pdf": "unduh/general/utbk-lbi08-pemahaman-teks-naratif-nilai-dan.pdf",
      "sampul": "sampul/general/utbk-lbi08-pemahaman-teks-naratif-nilai-dan.jpg",
      "ukuran_pptx": 893501,
-     "ukuran_pdf": 1460368
+     "ukuran_pdf": 1460371
     }
    }
   },
@@ -1185,7 +4054,7 @@
      "pdf": "unduh/general/utbk-lbi08-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbi08-contoh-soal.jpg",
      "ukuran_pptx": 815680,
-     "ukuran_pdf": 1373786
+     "ukuran_pdf": 1373780
     }
    }
   },
@@ -1204,7 +4073,7 @@
      "pdf": "unduh/general/utbk-lbi09-analisis-keterkaitan-dan-interpretasi-menyeluruh.pdf",
      "sampul": "sampul/general/utbk-lbi09-analisis-keterkaitan-dan-interpretasi-menyeluruh.jpg",
      "ukuran_pptx": 889362,
-     "ukuran_pdf": 1443983
+     "ukuran_pdf": 1443987
     }
    }
   },
@@ -1223,7 +4092,7 @@
      "pdf": "unduh/general/utbk-lbi09-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbi09-contoh-soal.jpg",
      "ukuran_pptx": 822319,
-     "ukuran_pdf": 1390190
+     "ukuran_pdf": 1390191
     }
    }
   },
@@ -1242,7 +4111,7 @@
      "pdf": "unduh/general/utbk-lbe01-specific-and-explicit-information.pdf",
      "sampul": "sampul/general/utbk-lbe01-specific-and-explicit-information.jpg",
      "ukuran_pptx": 995392,
-     "ukuran_pdf": 1805973
+     "ukuran_pdf": 1805961
     }
    }
   },
@@ -1261,7 +4130,7 @@
      "pdf": "unduh/general/utbk-lbe01-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe01-contoh-soal.jpg",
      "ukuran_pptx": 793847,
-     "ukuran_pdf": 1324683
+     "ukuran_pdf": 1324684
     }
    }
   },
@@ -1280,7 +4149,7 @@
      "pdf": "unduh/general/utbk-lbe02-main-idea-topic-and-text.pdf",
      "sampul": "sampul/general/utbk-lbe02-main-idea-topic-and-text.jpg",
      "ukuran_pptx": 950582,
-     "ukuran_pdf": 1655226
+     "ukuran_pdf": 1655215
     }
    }
   },
@@ -1299,7 +4168,7 @@
      "pdf": "unduh/general/utbk-lbe02-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe02-contoh-soal.jpg",
      "ukuran_pptx": 797188,
-     "ukuran_pdf": 1331403
+     "ukuran_pdf": 1331405
     }
    }
   },
@@ -1318,7 +4187,7 @@
      "pdf": "unduh/general/utbk-lbe03-vocabulary-in-context.pdf",
      "sampul": "sampul/general/utbk-lbe03-vocabulary-in-context.jpg",
      "ukuran_pptx": 902858,
-     "ukuran_pdf": 1499287
+     "ukuran_pdf": 1499282
     }
    }
   },
@@ -1337,7 +4206,7 @@
      "pdf": "unduh/general/utbk-lbe03-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe03-contoh-soal.jpg",
      "ukuran_pptx": 793446,
-     "ukuran_pdf": 1322029
+     "ukuran_pdf": 1322033
     }
    }
   },
@@ -1356,7 +4225,7 @@
      "pdf": "unduh/general/utbk-lbe04-reference-cohesion-and-coherence.pdf",
      "sampul": "sampul/general/utbk-lbe04-reference-cohesion-and-coherence.jpg",
      "ukuran_pptx": 916973,
-     "ukuran_pdf": 1550289
+     "ukuran_pdf": 1550328
     }
    }
   },
@@ -1375,7 +4244,7 @@
      "pdf": "unduh/general/utbk-lbe04-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe04-contoh-soal.jpg",
      "ukuran_pptx": 793621,
-     "ukuran_pdf": 1323444
+     "ukuran_pdf": 1323449
     }
    }
   },
@@ -1394,7 +4263,7 @@
      "pdf": "unduh/general/utbk-lbe05-paraphrase-and-restatement.pdf",
      "sampul": "sampul/general/utbk-lbe05-paraphrase-and-restatement.jpg",
      "ukuran_pptx": 887433,
-     "ukuran_pdf": 1444851
+     "ukuran_pdf": 1444856
     }
    }
   },
@@ -1413,7 +4282,7 @@
      "pdf": "unduh/general/utbk-lbe05-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe05-contoh-soal.jpg",
      "ukuran_pptx": 793397,
-     "ukuran_pdf": 1321973
+     "ukuran_pdf": 1321982
     }
    }
   },
@@ -1432,7 +4301,7 @@
      "pdf": "unduh/general/utbk-lbe06-inference-and-conclusion.pdf",
      "sampul": "sampul/general/utbk-lbe06-inference-and-conclusion.jpg",
      "ukuran_pptx": 910208,
-     "ukuran_pdf": 1522115
+     "ukuran_pdf": 1522109
     }
    }
   },
@@ -1451,7 +4320,7 @@
      "pdf": "unduh/general/utbk-lbe06-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe06-contoh-soal.jpg",
      "ukuran_pptx": 796842,
-     "ukuran_pdf": 1329845
+     "ukuran_pdf": 1329858
     }
    }
   },
@@ -1470,7 +4339,7 @@
      "pdf": "unduh/general/utbk-lbe07-relationship-and-comparison-between-texts.pdf",
      "sampul": "sampul/general/utbk-lbe07-relationship-and-comparison-between-texts.jpg",
      "ukuran_pptx": 898364,
-     "ukuran_pdf": 1484786
+     "ukuran_pdf": 1484780
     }
    }
   },
@@ -1489,7 +4358,7 @@
      "pdf": "unduh/general/utbk-lbe07-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe07-contoh-soal.jpg",
      "ukuran_pptx": 796538,
-     "ukuran_pdf": 1328327
+     "ukuran_pdf": 1328328
     }
    }
   },
@@ -1508,7 +4377,7 @@
      "pdf": "unduh/general/utbk-lbe08-contextual-grammar-and-meaning.pdf",
      "sampul": "sampul/general/utbk-lbe08-contextual-grammar-and-meaning.jpg",
      "ukuran_pptx": 911672,
-     "ukuran_pdf": 1546270
+     "ukuran_pdf": 1546267
     }
    }
   },
@@ -1546,7 +4415,7 @@
      "pdf": "unduh/general/utbk-lbe09-tone-attitude-and-author-s.pdf",
      "sampul": "sampul/general/utbk-lbe09-tone-attitude-and-author-s.jpg",
      "ukuran_pptx": 913754,
-     "ukuran_pdf": 1534132
+     "ukuran_pdf": 1534145
     }
    }
   },
@@ -1565,7 +4434,7 @@
      "pdf": "unduh/general/utbk-lbe09-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe09-contoh-soal.jpg",
      "ukuran_pptx": 793712,
-     "ukuran_pdf": 1323250
+     "ukuran_pdf": 1323244
     }
    }
   },
@@ -1584,7 +4453,7 @@
      "pdf": "unduh/general/utbk-lbe10-evaluating-opinion-and-argument.pdf",
      "sampul": "sampul/general/utbk-lbe10-evaluating-opinion-and-argument.jpg",
      "ukuran_pptx": 901313,
-     "ukuran_pdf": 1485018
+     "ukuran_pdf": 1485020
     }
    }
   },
@@ -1603,7 +4472,7 @@
      "pdf": "unduh/general/utbk-lbe10-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe10-contoh-soal.jpg",
      "ukuran_pptx": 793423,
-     "ukuran_pdf": 1321954
+     "ukuran_pdf": 1321947
     }
    }
   },
@@ -1622,7 +4491,7 @@
      "pdf": "unduh/general/utbk-lbe11-evidence-across-texts.pdf",
      "sampul": "sampul/general/utbk-lbe11-evidence-across-texts.jpg",
      "ukuran_pptx": 910173,
-     "ukuran_pdf": 1525803
+     "ukuran_pdf": 1525808
     }
    }
   },
@@ -1641,7 +4510,7 @@
      "pdf": "unduh/general/utbk-lbe11-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe11-contoh-soal.jpg",
      "ukuran_pptx": 793346,
-     "ukuran_pdf": 1322724
+     "ukuran_pdf": 1322726
     }
    }
   },
@@ -1679,7 +4548,7 @@
      "pdf": "unduh/general/utbk-lbe12-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe12-contoh-soal.jpg",
      "ukuran_pptx": 799983,
-     "ukuran_pdf": 1337680
+     "ukuran_pdf": 1337686
     }
    }
   },
@@ -1698,7 +4567,7 @@
      "pdf": "unduh/general/utbk-lbe13-implications-and-predictions.pdf",
      "sampul": "sampul/general/utbk-lbe13-implications-and-predictions.jpg",
      "ukuran_pptx": 912098,
-     "ukuran_pdf": 1524680
+     "ukuran_pdf": 1524689
     }
    }
   },
@@ -1717,7 +4586,7 @@
      "pdf": "unduh/general/utbk-lbe13-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe13-contoh-soal.jpg",
      "ukuran_pptx": 793921,
-     "ukuran_pdf": 1325123
+     "ukuran_pdf": 1325117
     }
    }
   },
@@ -1736,7 +4605,7 @@
      "pdf": "unduh/general/utbk-lbe14-evidence-based-recommendations-and-applications.pdf",
      "sampul": "sampul/general/utbk-lbe14-evidence-based-recommendations-and-applications.jpg",
      "ukuran_pptx": 907710,
-     "ukuran_pdf": 1521180
+     "ukuran_pdf": 1521187
     }
    }
   },
@@ -1755,7 +4624,7 @@
      "pdf": "unduh/general/utbk-lbe14-contoh-soal.pdf",
      "sampul": "sampul/general/utbk-lbe14-contoh-soal.jpg",
      "ukuran_pptx": 797194,
-     "ukuran_pdf": 1332459
+     "ukuran_pdf": 1332461
     }
    }
   }

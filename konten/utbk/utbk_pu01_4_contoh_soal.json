@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Kesesuaian Pernyataan",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Contoh Soal Kesesuaian Pernyataan",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "bagian": "soal",
+    "id_katalog": "pu-01-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kesesuaian Informasi Eksplisit",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bel pulang sekolah telah berbunyi, tetapi Iwan masih menunggu jemputannya. Hari ini, kendaraan yang biasa menjemput Iwan mengalami keterlambatan sehingga ia tidak dapat pulang tepat waktu. Iwan juga belum menghubungi orang tuanya untuk memberi tahu bahwa dirinya masih berada di sekolah. Berdasarkan informasi tersebut, simpulan yang PALING TEPAT mengenai kondisi Iwan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Iwan telah menghubungi orang tuanya, tetapi masih menunggu kendaraan jemputan.",
+            "B": "Iwan belum menghubungi orang tuanya dan tidak dapat pulang tepat waktu.",
+            "C": "Iwan telah mengetahui penyebab keterlambatan dan meminta jemputan pengganti.",
+            "D": "Iwan belum menghubungi orang tuanya, tetapi telah meninggalkan sekolah.",
+            "E": "Iwan telah mendapat jemputan pengganti dan dapat pulang tepat waktu."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep yang digunakan adalah Kesesuaian Pernyataan – Informasi Eksplisit, yaitu menentukan simpulan yang sesuai dengan fakta yang secara langsung dinyatakan dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal kesesuaian pernyataan, jawaban yang benar harus didukung oleh informasi dalam teks tanpa menambahkan asumsi atau mengubah makna pernyataan. Apabila suatu pilihan terdiri atas dua informasi yang dihubungkan dengan kata dan atau tetapi, kedua informasi tersebut harus benar agar keseluruhan pernyataan dapat dinyatakan sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat tiga kategori dalam mengevaluasi kesesuaian pernyataan, yaitu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Sesuai: Seluruh informasi dalam pernyataan didukung oleh stimulus.",
+                "Bertentangan: Terdapat informasi yang berlawanan dengan fakta dalam stimulus.",
+                "Tidak dapat disimpulkan: Stimulus tidak menyediakan bukti yang cukup untuk memastikan kebenaran atau kesalahan pernyataan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan stimulus, bel pulang sekolah telah berbunyi, tetapi Iwan masih berada di sekolah karena kendaraan jemputannya mengalami keterlambatan. Akibat keterlambatan tersebut, Iwan tidak dapat pulang tepat waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selain itu, stimulus menyatakan bahwa Iwan belum menghubungi orang tuanya untuk menyampaikan informasi mengenai keterlambatan jemputan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, terdapat dua fakta utama yang dapat digunakan untuk menentukan simpulan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fakta 1: Iwan tidak dapat pulang tepat waktu karena jemputannya terlambat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fakta 2: Iwan belum menghubungi orang tuanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua fakta tersebut dinyatakan secara eksplisit dalam stimulus. Pilihan B menggabungkan kedua informasi tersebut tanpa mengubah maknanya, sehingga merupakan simpulan yang paling tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah. Pernyataan bahwa Iwan telah menghubungi orang tuanya bertentangan dengan stimulus yang menyatakan bahwa Iwan belum menghubungi orang tuanya. Meskipun informasi bahwa Iwan masih menunggu kendaraan jemputan benar, keseluruhan pilihan A tidak sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar. Stimulus secara langsung menyatakan bahwa Iwan belum menghubungi orang tuanya dan tidak dapat pulang tepat waktu karena jemputannya terlambat. Kedua informasi dalam pilihan ini sesuai dengan fakta yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak dapat disimpulkan. Stimulus tidak memberikan informasi mengenai apakah Iwan mengetahui penyebab keterlambatan kendaraan atau telah meminta jemputan pengganti. Oleh karena itu, kebenaran pernyataan tersebut tidak dapat dipastikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah. Pernyataan bahwa Iwan belum menghubungi orang tuanya sesuai dengan stimulus. Namun, informasi bahwa Iwan telah meninggalkan sekolah bertentangan dengan fakta bahwa Iwan masih menunggu jemputannya di sekolah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah. Stimulus menyatakan bahwa Iwan masih menunggu kendaraan jemputannya dan tidak dapat pulang tepat waktu. Pernyataan bahwa Iwan telah memperoleh jemputan pengganti dan dapat pulang tepat waktu tidak sesuai dengan kondisi yang dijelaskan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang paling tepat adalah B. Iwan belum menghubungi orang tuanya dan tidak dapat pulang tepat waktu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Mengerjakan dengan Teknik B–T–C",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik B–T–C (Baca Tugas – Tandai Bukti – Cocokkan Opsi) digunakan untuk menentukan jawaban berdasarkan fakta utama dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Baca Tugas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaan meminta simpulan yang paling tepat. Artinya, pilih pernyataan yang benar-benar sesuai dengan informasi dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "T — Tandai Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan dua fakta utama, yaitu Iwan belum menghubungi orang tuanya dan tidak dapat pulang tepat waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C — Cocokkan Opsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan B memuat kedua fakta tersebut. Pilihan A, D, dan E mengandung informasi yang bertentangan, sedangkan pilihan C memerlukan informasi tambahan yang tidak tersedia."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pecah setiap pilihan menjadi dua pernyataan. Jika salah satu bagian bertentangan dengan stimulus, pilihan tersebut langsung dapat dieliminasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal ini, cukup temukan dua fakta kunci:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Belum menghubungi orang tua + Tidak dapat pulang tepat waktu = Jawaban B."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menentukan Jumlah Pernyataan yang Didukung",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah lembaga pendidikan menyelenggarakan pelatihan untuk 60 peserta. Sebanyak 45 peserta menyelesaikan seluruh sesi pelatihan. Dari peserta yang menyelesaikan seluruh sesi tersebut, 36 orang dinyatakan lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lembaga menetapkan bahwa sertifikat hanya diberikan kepada peserta yang lulus evaluasi akhir. Namun, belum tersedia informasi mengenai jumlah peserta yang telah menerima sertifikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan pernyataan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Sebanyak 15 peserta tidak menyelesaikan seluruh sesi pelatihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Seluruh peserta yang menyelesaikan pelatihan dinyatakan lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Peserta yang telah menerima sertifikat pasti dinyatakan lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Sebanyak 36 peserta telah menerima sertifikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Berdasarkan informasi tersebut, berapa banyak pernyataan yang pasti didukung oleh stimulus?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam bentuk angka.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 2**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kesesuaian informasi eksplisit, inferensi implisit, serta kecukupan informasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Didukung.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah seluruh peserta adalah 60 orang dan sebanyak 45 orang menyelesaikan seluruh sesi pelatihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah peserta yang tidak menyelesaikan pelatihan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "60 − 45 = 15 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) sesuai dengan data."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Bertentangan.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 45 peserta menyelesaikan pelatihan, tetapi hanya 36 peserta yang dinyatakan lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, tidak semua peserta yang menyelesaikan pelatihan dinyatakan lulus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Didukung.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Stimulus menetapkan bahwa sertifikat hanya diberikan kepada peserta yang lulus evaluasi akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, setiap peserta yang telah menerima sertifikat pasti memenuhi syarat kelulusan evaluasi akhir."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Tidak dapat ditentukan.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meskipun 36 peserta dinyatakan lulus, belum diketahui berapa peserta yang benar-benar telah menerima sertifikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kelulusan merupakan syarat untuk memperoleh sertifikat, tetapi tidak otomatis membuktikan bahwa seluruh peserta yang lulus sudah menerima sertifikat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, terdapat **2 pernyataan yang didukung**, yaitu nomor 1 dan 3."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik B–T–C (Baca Tugas → Tandai Bukti → Cocokkan Opsi). Bedakan pernyataan yang didukung, bertentangan, dan belum dapat ditentukan. Hitung hanya pernyataan yang benar-benar didukung oleh stimulus."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menguji Kesesuaian Pernyataan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sekolah mengadakan program pendampingan akademik untuk siswa kelas XII. Program tersebut dilaksanakan selama delapan minggu dan diikuti oleh 80 siswa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan laporan pelaksanaan, sebanyak 65 siswa menghadiri seluruh sesi pendampingan, sedangkan 15 siswa tidak mengikuti program secara penuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah menetapkan bahwa peserta yang memperoleh penghargaan harus menghadiri seluruh sesi dan menyelesaikan tugas akhir. Dari 65 siswa yang mengikuti seluruh sesi, sebanyak 50 siswa telah menyelesaikan tugas akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pihak sekolah belum mengumumkan daftar penerima penghargaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>Pilih Benar apabila pernyataan pasti didukung oleh stimulus. Pilih Salah apabila pernyataan bertentangan atau belum dapat dipastikan dari informasi yang tersedia.</i>"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Setiap siswa yang menerima penghargaan harus telah mengikuti seluruh sesi pendampingan dan menyelesaikan tugas akhir.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Sebanyak 50 siswa telah menerima penghargaan karena mereka sudah memenuhi persyaratan yang ditetapkan sekolah.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Terdapat 15 siswa yang mengikuti seluruh sesi pendampingan tetapi belum menyelesaikan tugas akhir.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Siswa yang tidak menghadiri seluruh sesi tetap dapat memperoleh penghargaan apabila telah menyelesaikan tugas akhir.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kesesuaian informasi eksplisit dan implisit, syarat wajib, serta perbedaan antara informasi yang bertentangan dan yang belum dapat ditentukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah menetapkan bahwa penerima penghargaan harus memenuhi dua persyaratan, yaitu menghadiri seluruh sesi pendampingan dan menyelesaikan tugas akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, siswa yang memperoleh penghargaan pasti telah memenuhi kedua persyaratan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan ini sesuai dengan informasi yang diberikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah — Tidak dapat ditentukan.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 50 siswa telah menyelesaikan tugas akhir dan mengikuti seluruh sesi pendampingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pemenuhan persyaratan tidak otomatis berarti penghargaan telah diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Stimulus menyatakan bahwa daftar penerima penghargaan belum diumumkan. Oleh karena itu, belum dapat dipastikan apakah 50 siswa tersebut telah menerima penghargaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 65 siswa mengikuti seluruh sesi pendampingan. Dari kelompok tersebut, 50 siswa telah menyelesaikan tugas akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah siswa yang mengikuti seluruh sesi tetapi belum menyelesaikan tugas akhir:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$65-50=15$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, terdapat 15 siswa yang memenuhi kondisi tersebut."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah — Bertentangan.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Stimulus menetapkan bahwa kehadiran pada seluruh sesi merupakan syarat wajib untuk memperoleh penghargaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Artinya, siswa yang tidak menghadiri seluruh sesi tidak memenuhi persyaratan penghargaan, meskipun telah menyelesaikan tugas akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pernyataan (4) bertentangan dengan aturan yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik B–T–C. Perhatikan kata harus, hanya, seluruh, dan telah. Bedakan antara memenuhi persyaratan dengan sudah menerima hasilnya. Jangan menyimpulkan bahwa suatu tindakan telah terjadi hanya karena syaratnya terpenuhi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

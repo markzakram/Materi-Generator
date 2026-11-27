@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbandingan Geometri",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Perbandingan Geometri",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-05-6-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Skala Luas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua segitiga sebangun memiliki faktor panjang $3:2$ dari segitiga kecil ke besar. Jika luas segitiga kecil 24 cm², luas segitiga besar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "36 cm²",
+            "B": "48 cm²",
+            "C": "54 cm²",
+            "D": "72 cm²",
+            "E": "81 cm²"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Luas bangun sebangun berubah menurut kuadrat skala panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Skala panjang $k=3/2$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Skala luas $k²=9/4$, sehingga luas besar $=24×9/4=54 cm²$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A,B,D,E mengabaikan pengkuadratan skala atau salah operasi; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Skala panjang $3:2$ berarti skala luas $9:4; 24÷4×9=54$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Luas Segitiga dalam Trapesium",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Trapesium $ABCD$ memiliki $AB$ sejajar $CD$, $AB = 14 m$, $CD = 8 m$, tinggi $6 m$. Diagonal $AC$ dan $BD$ berpotongan di $P$. Perbandingan luas segitiga $APB$ dan $CPD$ adalah ...."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-08.png",
+              "lebar": 6.56,
+              "tinggi": 3.27
+            }
+          ],
+          "opsi": {
+            "A": "1 : 1",
+            "B": "7 : 4",
+            "C": "2 : 1",
+            "D": "14 : 8",
+            "E": "49 : 16"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Segitiga $APB$ dan $CPD$ sebangun karena $AB ∥ CD$, sehingga rasio panjang yang bersesuaian adalah $14:8 = 7:4$. Rasio luas adalah kuadrat rasio panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari kesebangunan,"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$AP/(PC)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= BP/(PD)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= AB/(CD)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 7/4$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Luas segitiga-segitiga sebangun berbanding kuadrat skala, sehingga"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$[APB]:[CPD]$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 7²:4²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 49:16.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tinggi $6 m$ tidak diperlukan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B dan D adalah rasio panjang, bukan luas;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A dan C bukan hasil pengkuadratan skala;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bila pertanyaan membandingkan LUAS dua segitiga sebangun, langsung kuadratkan rasio sisi sejajar."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

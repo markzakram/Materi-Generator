@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "judul": "Garis dan Sudut",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Garis dan Sudut",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "id_katalog": "pk-05-4"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri berangkat dari titik, garis, bidang, serta hubungan antarelemen. Dalam geometri bidang, keliling berbeda dengan luas; dalam ruang, luas permukaan berbeda dengan volume. Penalaran geometris juga membutuhkan penggunaan skala, kesebangunan, dan sudut. Sebuah gambar yang terlihat proporsional tidak selalu digambar sesuai skala, sehingga semua kesimpulan harus didasarkan pada informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "jenis dan hubungan sudut."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "sudut pada garis sejajar/berpotongan."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "konsistensi batasan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Garis dan Sudut",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Garis dan Sudut",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut dibentuk oleh dua sinar berpangkal sama. Sudut lancip lebih kecil dari 90°, siku-siku tepat 90°, tumpul berada di antara 90° dan 180°, dan lurus tepat 180°. Dua sudut berpelurus berjumlah 180°, berpenyiku berjumlah 90°, dan sudut bertolak belakang sama besar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$α + β = 180° (berpelurus); α + β = 90° (berpenyiku)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Garis Sejajar Dipotong Transversal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sudut sehadap dan sudut dalam berseberangan sama besar pada dua garis sejajar; sudut dalam sepihak saling berpelurus. Penerapan harus didahului bukti atau keterangan bahwa kedua garis benar-benar sejajar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tandai pasangan yang diketahui, identifikasi hubungan sudut, susun persamaan sederhana, kemudian cek apakah seluruh sudut masih dalam rentang yang sesuai. Gunakan bertolak belakang = sama dan berpelurus = 180° sebagai pemeriksaan awal."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Garis Sejajar Dipotong Transversal",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Geometri dan Pengukuran menuntut peserta menghubungkan sifat bangun, ukuran, satuan, dan representasi gambar. Pahami konsep dan syarat model sebelum memakai rumus, terutama pada bangun gabungan, skala, diagram sudut, dan trigonometri. Dengan membandingkan alternatif penyelesaian dan memeriksa kewajaran satuan, peserta dapat menyelesaikan soal secara lebih akurat, tidak sekadar cepat."
+  }
+}

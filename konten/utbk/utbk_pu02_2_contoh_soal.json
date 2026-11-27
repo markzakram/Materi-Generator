@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bahasa Buatan",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Contoh Soal Bahasa Buatan",
+    "sumber": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
+    "bagian": "soal",
+    "id_katalog": "pu-02-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menentukan Padanan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam suatu bahasa buatan, “mira tolen” berarti “siswa membaca”, “tolen pavi” berarti “membaca cerita”, dan “mira rako” berarti “siswa menulis”. Setiap kata mewakili satu makna. Bagaimana mengatakan “menulis cerita” dalam bahasa tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "Mira pavi",
+            "B": "Tolen rako",
+            "C": "Rako pavi",
+            "D": "Mira tolen",
+            "E": "Pavi tolen"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Membandingkan unsur berulang untuk memperoleh padanan kata yang konsisten dengan seluruh pasangan terjemahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata yang sama pada contoh pertama dan kedua adalah tolen; makna yang sama adalah membaca. Jadi, tolen = membaca. Dari contoh pertama dan ketiga, mira = siswa. Selanjutnya, pavi = cerita dan rako = menulis. Gabungan kata untuk “menulis cerita” adalah rako pavi. Dalam opsi yang tersedia, hanya pilihan C memuat kedua arti itu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**A.** Mira berarti siswa, bukan menulis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**B.** Tolen berarti membaca, bukan cerita."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**C.** Rako berarti menulis dan pavi berarti cerita."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**D.** Mira tolen berarti siswa membaca."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**E.** Pavi tolen berarti cerita membaca, bukan menulis cerita."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tolen = membaca; mira = siswa; rako = menulis; pavi = cerita. Pilih gabungan rako + pavi → C."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menerapkan Padanan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui “tari benu” berarti “burung terbang”, “benu soka” berarti “terbang tinggi”, dan “tari lusi” berarti “burung kecil”. Dalam bahasa tersebut, arti “lusi soka” adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Burung tinggi",
+            "B": "Terbang kecil",
+            "C": "Kecil tinggi",
+            "D": "Burung kecil",
+            "E": "Tinggi terbang"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menerapkan hasil identifikasi padanan makna dari beberapa pasangan contoh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata benu muncul pada dua contoh pertama, sebagaimana makna terbang. Jadi, benu = terbang. Kata tari muncul pada contoh pertama dan ketiga, sebagaimana makna burung. Jadi, tari = burung. Maka soka = tinggi dan lusi = kecil. Ungkapan lusi soka berarti kecil tinggi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**A.** Burung tinggi memerlukan tari soka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**B.** Terbang kecil memerlukan benu lusi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**C.** Kecil tinggi sesuai dengan lusi soka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**D.** Burung kecil memerlukan tari lusi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**E.** Tinggi terbang memerlukan soka benu."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari unsur berulang: benu = terbang; tari = burung. Sisa lusi = kecil dan soka = tinggi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menerjemahkan Gabungan Kata",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam suatu bahasa buatan, setiap kata memiliki satu makna yang tetap. Urutan kata dalam bahasa buatan tidak harus mengikuti urutan bahasa Indonesia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui beberapa pasangan kata berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "moka tari: petani menanam"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "tari lenu: menanam jagung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "moka siva: petani memanen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "moka pira: petani menjual"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tuliskan dua kata bahasa buatan yang masing-masing berarti “memanen” dan “jagung” secara berurutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban menggunakan dua kata bahasa buatan.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: siva lenu**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Korespondensi kata dan makna serta penerapan padanan untuk menerjemahkan gabungan kata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "moka tari = petani menanam"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "tari lenu = menanam jagung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata yang sama adalah <i>tari</i>, sedangkan makna yang sama adalah <i>menanam</i>. Jadi, **tari = menanam**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari contoh pertama, kata yang tersisa adalah <i>moka</i>, sehingga **moka = petani**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selanjutnya, perhatikan contoh ketiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "moka siva = petani memanen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena <i>moka</i> berarti <i>petani</i>, maka **siva = memanen**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari contoh kedua, karena <i>tari</i> berarti <i>menanam</i>, maka **lenu = jagung**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, dua kata bahasa buatan yang masing-masing berarti <i>memanen</i> dan <i>jagung</i>, secara berurutan, adalah **siva lenu**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari kata yang berulang pada pasangan dengan makna yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "tari = menanam → moka = petani → siva = memanen dan lenu = jagung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawabannya adalah **siva lenu**."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menguji Konsistensi Padanan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam suatu bahasa buatan, setiap kata memiliki satu arti yang tetap. Susunan kata dalam bahasa buatan tidak harus mengikuti urutan bahasa Indonesia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui informasi berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "nari feko luma: anak membawa makanan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "feko sira nari: makanan diberikan anak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "luma peko: membawa tas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sira peko: diberikan tas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "nari peko: tas anak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan seluruh informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah**."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Kata <i>nari</i> berarti \"anak\" karena menjadi unsur yang sama pada dua kalimat yang memuat makna tersebut.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Gabungan <i>peko feko</i> memuat dua kata yang masing-masing memiliki arti \"tas\" dan \"makanan\".",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Kata <i>sira</i> berarti \"membawa\" karena muncul dalam kalimat yang berkaitan dengan perpindahan barang.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Berdasarkan seluruh contoh, dapat dipastikan bahwa kata yang menunjukkan benda harus selalu berada di akhir kalimat bahasa buatan.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Benar, Salah, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pemetaan kata dan makna, pemeriksaan konsistensi padanan, serta evaluasi kecukupan informasi untuk menentukan aturan susunan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menemukan arti setiap kata, bandingkan unsur yang berulang pada beberapa contoh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pertama dan ketiga sama-sama memuat kata <i>luma</i>, sedangkan makna yang sama adalah <i>membawa</i>. Jadi, **luma = membawa**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat kedua dan keempat sama-sama memuat kata <i>sira</i>, sedangkan makna yang sama adalah <i>diberikan</i>. Jadi, **sira = diberikan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat ketiga dan keempat sama-sama memuat kata <i>peko</i>, sedangkan makna yang sama adalah <i>tas</i>. Jadi, **peko = tas**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada contoh kelima, <i>nari peko</i> berarti <i>tas anak</i>. Karena <i>peko</i> berarti <i>tas</i>, diperoleh **nari = anak**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selanjutnya, pada contoh pertama, <i>nari feko luma</i> berarti <i>anak membawa makanan</i>. Karena <i>nari</i> berarti <i>anak</i> dan <i>luma</i> berarti <i>membawa</i>, diperoleh **feko = makanan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, seluruh padanan kata adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "nari: anak"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "feko: makanan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "luma: membawa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sira: diberikan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "peko: tas"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata <i>nari</i> berarti <i>anak</i>. Hal ini dapat dipastikan dari contoh kelima, yaitu <i>nari peko</i>, karena kata <i>peko</i> sudah diketahui berarti <i>tas</i>. Padanan tersebut juga konsisten dengan contoh pertama dan kedua."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata <i>peko</i> berarti <i>tas</i>, sedangkan <i>feko</i> berarti <i>makanan</i>. Dengan demikian, gabungan <i>peko feko</i> memuat dua kata yang masing-masing memiliki makna tersebut. Pernyataan ini tidak mensyaratkan aturan urutan kata tertentu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata <i>sira</i> berarti <i>diberikan</i>, sedangkan kata <i>luma</i> berarti <i>membawa</i>. Oleh karena itu, pernyataan bahwa <i>sira</i> berarti <i>membawa</i> tidak sesuai dengan padanan yang telah diperoleh."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh yang tersedia tidak menetapkan bahwa kata benda harus selalu berada di akhir kalimat. Posisi kata dalam bahasa buatan juga tidak harus mengikuti susunan bahasa Indonesia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, tidak cukup bukti untuk menyimpulkan adanya aturan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Benar – Benar – Salah – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik U–P–U: temukan unsur yang berulang, pasangkan dengan arti yang sama, lalu uji konsistensinya pada seluruh contoh. Jangan menetapkan aturan urutan kata tanpa bukti yang cukup."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

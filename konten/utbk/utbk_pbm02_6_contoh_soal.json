@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pemvariasian Kalimat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Pemvariasian Kalimat",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-6-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Mengubah Susunan Kalimat tanpa Mengubah Makna",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Influenza atau flu adalah penyakit yang disebabkan oleh virus influenza dan biasanya menyerang bagian hidung, tenggorokan, dan paru-paru. Penyakit ini sangat mudah menular kepada orang lain, terutama dalam tiga hingga empat hari setelah seseorang terinfeksi virus influenza."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada umumnya, influenza terbagi menjadi tiga tipe, yakni tipe A, tipe B, dan tipe C. Saat ini, influenza tipe A sedang ramai diberitakan karena peningkatan kasus di Tiongkok, khususnya yang berkaitan dengan varian H1N1 dan H9N2. Kasus infeksi influenza tipe A dengan varian tersebut dilaporkan mengalami peningkatan yang signifikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan data Pusat Pengendalian dan Pencegahan Penyakit Tiongkok (CDC Tiongkok), kasus influenza tipe A di Tiongkok mulai meningkat sejak Desember 2024. Pada minggu terakhir Desember 2024, persentase pasien positif influenza yang mengunjungi rumah sakit meningkat sebesar 6,2% dibandingkan dengan minggu sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat berikut terdapat dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Berdasarkan data CDC Tiongkok, kasus influenza tipe A di Tiongkok mulai meningkat sejak Desember 2024.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kalimat yang memiliki makna sama dengan kalimat tersebut adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Kasus influenza tipe A di Tiongkok mulai meningkat sejak Desember 2024 berdasarkan data CDC Tiongkok.",
+            "B": "CDC Tiongkok menyatakan bahwa seluruh kasus influenza di Tiongkok meningkat sejak Desember 2024.",
+            "C": "Peningkatan kasus influenza tipe A di Tiongkok menyebabkan CDC Tiongkok menerbitkan data pada Desember 2024.",
+            "D": "Sejak Desember 2024, seluruh pasien di Tiongkok dinyatakan positif influenza tipe A oleh CDC Tiongkok.",
+            "E": "Data CDC Tiongkok membuktikan bahwa influenza tipe A hanya menyebar di Tiongkok sejak Desember 2024."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Pemvariasian kalimat mengubah susunan dan bentuk kalimat supaya lebih efektif tanpa mengubah isi penting."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Periksa kata atau bagian stimulus yang paling langsung menjawab pertanyaan; jangan gunakan asumsi di luar bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tuliskan unsur inti kalimat sumber: siapa, melakukan apa, kepada apa, kapan, di mana, untuk apa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Tandai negasi, kata modal, dan urutan tahap bila ada."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Bandingkan alternatif dari segi aktor, waktu, tempat, derajat kepastian, dan makna."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tepat: keterangan sumber data dipindah ke akhir tanpa mengubah lokasi, jenis penyakit, atau waktu peningkatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Meluaskan cakupan dari influenza tipe A menjadi seluruh jenis influenza."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Menambah hubungan sebab-akibat bahwa peningkatan kasus menyebabkan publikasi data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mengubah informasi peningkatan kasus menjadi klaim semua pasien positif, yang tidak didukung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Menambah klaim bahwa influenza tipe A hanya menyebar di Tiongkok; sumber tidak menyatakannya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Variasi ≠ perubahan makna. Pertahankan pelaku, sasaran, waktu, lokasi, tujuan, negasi, dan kepastian."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

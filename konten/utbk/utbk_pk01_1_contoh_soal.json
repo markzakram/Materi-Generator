@@ -1,0 +1,886 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Bilangan dan Operasi Bilangan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Bilangan dan Operasi Bilangan",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-01-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Faktor bilangan prima dan syarat berbeda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil perkalian tiga bilangan prima berbeda $a, b,$ dan $c$ adalah $182$. Nilai $a+b+c$ adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 22**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Faktorisasi prima dan syarat bilangan berbeda. Bilangan 1 bukan prima."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$182 = 2 × 91 = 2 × 7 × 13.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiganya prima berbeda, sehingga $a+b+c = 2+7+13 = 22.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan penamaan $a,b,c$ tidak memengaruhi jumlah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan faktor genap terlebih dahulu: $182 ÷ 2 = 91 = 7 × 13$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlahkan $2+7+13.$"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Operasi campuran dengan variabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $x$ dan $y$ positif dengan $x=4$ dan $y=3$. Nilai $3x² − 2xy + y²$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "27",
+            "B": "30",
+            "C": "33",
+            "D": "36",
+            "E": "39"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Substitusi, prioritas pangkat, dan operasi bertanda."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3(4²) − 2(4)(3) + 3²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 48 − 24 + 9$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 33$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung pangkat lebih dahulu dan jaga tanda negatif pada $−2xy$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, 27 tidak sesuai substitusi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, 30 tidak sesuai substitusi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, hasilnya 33."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, 36 bukan hasil ekspresi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, 39 bukan hasil ekspresi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung tiap suku: $48, −24, 9.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlahkan menjadi 33."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Perbandingan kuantitas dari sisa pembagian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak bilangan genap positif kurang dari $30$ yang bersisa $2$ atau $3$ jika dibagi $5$ adalah $k$. Jika $P=k$ dan $Q=6$, hubungan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$P ≥ 2Q$",
+            "B": "$Q < P < 2Q$",
+            "C": "$P = Q$",
+            "D": "$P < Q$",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penyaringan bilangan berdasarkan dua syarat dan perbandingan kuantitas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan genap positif kurang dari 30 adalah $2,4,6,…,28.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Yang bersisa 2 atau 3 saat dibagi 5 adalah $2, 8, 12, 18, 22, 28$; jadi $k=6$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $P=6=Q$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, $P$ tidak mencapai 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, $P$ tidak lebih dari $Q$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, kedua kuantitas bernilai 6."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, $P$ tidak kurang dari $Q$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, hasil dapat ditentukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bentuk dua deret: 2,12,22 (sisa 2) dan 8,18,28 (sisa 3); semuanya genap."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menghitung banyaknya bilangan bersisa sama",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Banyak bilangan dua digit yang bersisa 3 jika dibagi 7 adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "13",
+            "B": "14",
+            "C": "15",
+            "D": "16",
+            "E": "17"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Bilangan yang memenuhi $n = 7q + 3$ membentuk barisan dengan beda 7."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan pertama yang memenuhi adalah $10=7(1)+3$ dan terakhir adalah $94=7(13)+3$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Banyak suku = (94−10)/7+1 = 13$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar, terdapat 13 bilangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, mencakup satu bilangan terlalu banyak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, melebihi banyak suku yang sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, melebihi banyak suku yang sah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, melebihi banyak suku yang sah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung $q$ dari 1 sampai 13, sehingga terdapat 13 nilai."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menjumlahkan bilangan bersisa sama",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah seluruh bilangan dua digit yang bersisa 3 jika dibagi 7 adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "666",
+            "B": "676",
+            "C": "683",
+            "D": "777",
+            "E": "589"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Barisan aritmetika dari kelas sisa pembagian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diperoleh 13 suku:$10,17,…,94.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Jumlah =(13(10+94))/2= 13×52 = 676.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus jumlah dipakai sebagai strategi penghitungan; pembahasan teori barisan yang lengkap tetap berada pada bab tersendiri."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, lebih rendah 10 dari nilai tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar, jumlahnya 676."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, tidak sama dengan jumlah deret."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, terlalu besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, terlalu kecil."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pasangkan suku pertama dengan terakhir: setiap pasangan bernilai 104; gunakan $13×52$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Operasi khusus dan hubungan $P–Q$",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Didefinisikan $p ★ q =(p+q)/2$ dan $p ■ q = (p ★ q)+pq$. Jika $P=2 ■ 4$ dan $Q=12$, hubungan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$P < Q$",
+            "B": "$P = Q$",
+            "C": "$P > Q$",
+            "D": "$P = 2Q$",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Definisi operasi khusus harus dipakai sesuai instruksi; simbol bukan operasi baku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$2 ★ 4 = (2+4)/2 = 3$, sehingga $2 ■ 4 = 3+(2×4)=11$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $Q=12, P<Q$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar, $11<12$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, 11 tidak sama dengan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, $P$ lebih kecil, bukan lebih besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, 11 bukan dua kali 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, hubungan dapat ditentukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung simbol terdalam ★ terlebih dahulu, baru ■; bandingkan 11 dengan 12."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Substitusi cerdas pada bentuk aljabar",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika $x²y − 3xy = 10$ dan $xy = 2$, nilai $x$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menyederhanakan bentuk menggunakan faktor berulang; tidak perlu mencari $y$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $x²y = x(xy)$,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "substitusi $xy=2$ memberi $2x−3(2)=10$,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sehingga $2x−6=10$ dan $x=8$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Konsisten dengan $y=1/4$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah, $2(4)−6=2.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah, $2(5)−6=4.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah, $2(6)−6=6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah, $2(7)−6=8.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar, $2(8)−6=10.$"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tuliskan $x²y = x·xy$; gantikan $xy$ dengan 2 tanpa menyelesaikan dua variabel."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 8 — Pengujian dua kuantitas berbasis syarat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $x$ dan $y$ bilangan positif serta $x=3y$. Jika $P=x+2y$ dan $Q=2x$, hubungan yang pasti benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$P>Q$",
+            "B": "$P=Q$",
+            "C": "$P<Q$",
+            "D": "$P=2Q$",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Substitusi hubungan antarkuantitas; penggunaan syarat y>0 untuk menentukan tanda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$P=3y+2y=5y$ sedangkan $Q=2(3y)=6y.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $y>0$,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "berlaku $5y<6y$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika syarat $y$ positif tidak ada, hubungan mungkin berbeda menurut tanda ."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah karena $5y<6y$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah karena $5y≠6y$ untuk $y>0$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, $P<Q$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah karena $P$ bukan $2Q$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah, syarat $y>0$ sudah cukup menentukan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan selisih $P−Q = 5y−6y = −y < 0.$"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 9 — Diagram operasi silang: uji konsistensi",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk01_bilangan_dan_aritmetika/gambar-01.png",
+              "lebar": 9.4,
+              "tinggi": 3.67
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: −5**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Konsistensi persamaan horizontal dan vertikal serta definisi simbol operasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari baris atas:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6 ÷ P = 2$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P = 3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari kolom kiri:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6 + 2 = Q$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "maka:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Q = 8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selanjutnya, dari kolom kanan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2 △ 3 = −1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Operasi yang memenuhi adalah pengurangan karena:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2 − 3 = −1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$△ = −$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hal ini juga sesuai dengan baris bawah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Q △ 9 = −1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8 − 9 = −1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka yang ditanyakan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P △ Q = 3 − 8 = −5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, $P △ Q = −5.$"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tentukan operator dari persamaan yang hanya memuat angka; baru cari $P$ dan $Q$. Akhiri dengan memeriksa SEMUA baris/kolom."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 10 — Mengevaluasi pernyataan yang tidak mungkin",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan: “Bilangan bulat n jika dibagi 2 bersisa 3.” Tentukan apakah terdapat n yang memenuhi. Jika terdapat bilangan bulat $n$ yang memenuhi pernyataan tersebut, tuliskan 1. Jika tidak ada, tuliskan 0."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 0**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jika pembagi positif $d$, sisa $r$ wajib memenuhi $0 ≤ r < d$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk pembagian oleh 2, satu-satunya sisa yang diperbolehkan adalah 0 atau 1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 3 tidak lebih kecil daripada 2, data sudah tidak konsisten."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menggunakan $n=2a+3$ tanpa memeriksa batas sisa akan menghasilkan interpretasi hasil bagi yang keliru."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Sebelum menghitung, cek apakah sisa pembagian kurang dari pembagi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 11 — Evaluasi sifat bilangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang siswa sedang memeriksa hasil perhitungan yang melibatkan bilangan prima, operasi bilangan berpangkat, dan sisa pembagian. Setiap perhitungan harus memenuhi sifat bilangan serta aturan operasi matematika yang berlaku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Bilangan 182 dapat dinyatakan sebagai hasil perkalian tiga bilangan prima berbeda, yaitu 2, 7, dan 13.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Terdapat 6 bilangan genap positif kurang dari 30 yang bersisa 2 atau 3 ketika dibagi 5.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Hasil dari (−3)² dan −3² adalah sama karena keduanya menggunakan bilangan dasar −3.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Suatu bilangan bulat dapat memiliki sisa 3 ketika dibagi 2.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Benar, Salah, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Faktorisasi prima, sisa pembagian, operasi bilangan berpangkat, dan sifat bilangan bulat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan 182 dapat difaktorkan menjadi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "182 = 2 × 7 × 13"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketiga faktor tersebut merupakan bilangan prima yang berbeda. Jadi, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan genap positif kurang dari 30 yang bersisa 2 atau 3 ketika dibagi 5 adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2, 8, 12, 18, 22, dan 28."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat 6 bilangan yang memenuhi kedua syarat tersebut. Jadi, pernyataan (2) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanda kurung memengaruhi urutan operasi bilangan berpangkat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(-3)^{2}=9$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sedangkan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$-3^{2}=-(3^{2})=-9$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua hasil berbeda, sehingga pernyataan (3) salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam pembagian bilangan bulat oleh bilangan positif, sisa pembagian harus lebih kecil daripada pembaginya dan tidak boleh negatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pembaginya 2, sisa yang mungkin hanya 0 atau 1. Oleh karena itu, sisa 3 tidak memenuhi ketentuan pembagian tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Benar – Salah – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Periksa setiap pernyataan berdasarkan aturan yang sesuai. Gunakan faktorisasi untuk bilangan prima, daftar bilangan untuk syarat sisa pembagian, tanda kurung untuk operasi pangkat, dan aturan bahwa sisa harus lebih kecil daripada pembagi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

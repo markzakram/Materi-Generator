@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "judul": "Penentuan Kalimat Inti",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Penentuan Kalimat Inti",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "id_katalog": "pbm-02-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penataan gagasan ialah proses menjaga akurasi informasi dan kesinambungan hubungan makna. Satu teks dapat memiliki semua kalimat yang benar secara tata bahasa tetapi tetap sulit dipahami bila urutannya keliru, rujukannya tidak jelas, atau kata hubungnya mengandaikan hubungan yang tidak dibuktikan. Oleh karena itu, peserta perlu membaca unit yang ditanya sekaligus konteks kalimat sebelum dan sesudahnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "kalimat inti/gagasan pengendali dari kalimat penjelas, contoh, maupun akibat dalam sebuah paragraf."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "kalimat inti yang menaungi isi paragraf dengan menguji keterwakilan seluruh rincian tanpa melakukan generalisasi berlebihan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penentuan Kalimat Inti",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat inti menunjukkan pokok informasi yang dipertahankan setelah bagian penjelas disisihkan. Dalam konteks paragraf, gagasan pengendali menaungi rincian penjelas. Namun pada sebagian soal, istilah “kalimat inti” juga berarti struktur inti satu kalimat, yakni S–P beserta pelengkap/objek yang diperlukan. Kenali lebih dahulu unit yang ditanyakan: satu kalimat atau keseluruhan paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penentuan kalimat inti bertujuan menemukan informasi pokok dalam suatu kalimat atau paragraf. Dalam pengerjaan soal PBM, peserta perlu membedakan dua pendekatan, yaitu penentuan gagasan utama paragraf dan penentuan inti struktur kalimat atau klausa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gagasan Utama Paragraf dan Gagasan Pengendali"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gagasan utama merupakan ide pokok yang menaungi seluruh informasi dalam paragraf. Untuk menentukannya, peserta perlu memahami hubungan antara kalimat utama dan kalimat penjelas, kemudian memilih gagasan yang paling mewakili isi paragraf secara keseluruhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam paragraf, gagasan pengendali bersifat paling mencakup; contoh, data, insentif, akibat, dan ilustrasi merupakan rincian yang menjelaskan gagasan tersebut. Ide umum harus dapat menjawab pertanyaan “semua rincian ini membahas hal apa?” tanpa mengada-adakan generalisasi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kalimat inti secara struktural"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk satu kalimat, pisahkan keterangan dan klausa penjelas dari unsur inti. Contoh: “Pada akhir semester, para siswa menyusun laporan penelitian di perpustakaan.” Intinya “Para siswa menyusun laporan penelitian.” Frasa waktu dan tempat memperluas konteks, bukan mengubah pelaku dan tindakannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Inti Struktur Kalimat atau Klausa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inti struktur kalimat atau klausa merupakan susunan unsur gramatikal utama setelah keterangan atau perluasan tertentu dihilangkan. Penentuannya dilakukan dengan mengidentifikasi subjek, predikat, serta objek atau pelengkap yang diperlukan untuk membentuk struktur inti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat: “Media sosial memudahkan masyarakat memperoleh informasi kesehatan.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Inti struktur: “Media sosial memudahkan masyarakat.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Subjek: Media sosial"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Predikat: memudahkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Objek: masyarakat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian “memperoleh informasi kesehatan” memberikan informasi tambahan mengenai hal yang dimudahkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbedaan Kedua Konsep"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbedaan utamanya terletak pada fokus analisis. Gagasan utama paragraf menekankan makna yang mewakili keseluruhan paragraf, sedangkan inti struktur kalimat atau klausa menekankan unsur gramatikal utama yang membentuk kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, sebelum menentukan jawaban, peserta harus memahami apakah pertanyaan meminta gagasan utama sebuah paragraf atau inti struktur dari satu kalimat atau klausa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penentuan Kalimat Inti. Kalimat inti paragraf merupakan ide yang menaungi rincian; kalimat inti struktural merupakan unsur inti tanpa perluasan. Tentukan unit analisis sebelum memilih jawaban."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Prinsip Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Gagasan Utama Paragraf dan Gagasan Pengendali",
+        "teks": ""
+      },
+      {
+        "judul": "Kalimat inti secara struktural",
+        "teks": ""
+      },
+      {
+        "judul": "Inti Struktur Kalimat atau Klausa",
+        "teks": ""
+      },
+      {
+        "judul": "Perbedaan Kedua Konsep",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan Penataan Gagasan membantu peserta memahami hubungan dan keteraturan informasi dalam teks. Melalui latihan, peserta diharapkan mampu menyusun serta mengevaluasi kalimat dan paragraf secara tepat sesuai kaidah bahasa."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbaikan Penulisan Kata Serapan",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Perbaikan Penulisan Kata Serapan",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penyunting sedang memeriksa naskah laporan kegiatan dan menilai ketepatan bentuk kata serapan sebelum dipublikasikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah laporan sekolah menggunakan istilah untuk proses pengumpulan informasi guna menilai hasil belajar. Penyunting harus menggunakan satu bentuk serapan baku dalam bahasa Indonesia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Bentuk kata yang tepat dalam laporan tersebut adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "assessmen",
+            "B": "assesmen",
+            "C": "asesmen",
+            "D": "asessment",
+            "E": "assessment"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mengidentifikasi dan memilih bentuk kata serapan yang baku sesuai konteks kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tandai kata serapan yang akan diuji, bukan semua kata dalam paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Cek ejaan baku setiap unsur dan bedakan bentuk dasar dari turunannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Periksa setiap opsi secara terpisah, kemudian pilih satu bentuk kata serapan yang sesuai dengan kaidah bahasa Indonesia."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Bentuk ini tidak mengikuti ejaan baku Indonesia."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Susunan konsonannya tidak sesuai ejaan baku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Baku: asesmen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Bentuk campuran yang tidak baku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Ejaan bahasa Inggris, bukan bentuk baku bahasa Indonesia."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Untuk ejaan serapan, bandingkan susunan huruf dengan bentuk baku “asesmen”; coret opsi yang masih mempertahankan ejaan asing atau penambahan konsonan yang keliru."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

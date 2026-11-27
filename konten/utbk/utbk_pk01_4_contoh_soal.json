@@ -1,0 +1,646 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Proporsi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Proporsi",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-01-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menguji kesetaraan dua rasio",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pasangan rasio manakah yang menunjukkan proporsi yang benar?"
+            }
+          ],
+          "opsi": {
+            "A": "3 : 4 = 9 : 12",
+            "B": "3 : 4 = 8 : 12",
+            "C": "4 : 5 = 12 : 20",
+            "D": "5 : 6 = 10 : 15",
+            "E": "6 : 7 = 18 : 28"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua rasio setara bila penyederhanaannya sama atau hasil kali silangnya sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji A: $3×12 = 36$ dan $4×9 = 36$ sehingga setara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Empat opsi lain menghasilkan hasil silang yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar, kedua rasio setara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. $3×12 ≠ 4×8$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. $4×20 ≠ 5×12$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. $5×15 ≠ 6×10$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. $6×28 ≠ 7×18$."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lihat faktor pengali: 3→9 dan 4→12 sama-sama dikali 3."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Kebutuhan pekerja pada dua kondisi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 12 pekerja menyelesaikan 5% volume tanggul dalam 3 hari. Jika produktivitas tiap pekerja tetap, berapa pekerja yang diperlukan untuk menyelesaikan 10% volume tanggul dalam 2 hari?"
+            }
+          ],
+          "opsi": {
+            "A": "18 pekerja",
+            "B": "24 pekerja",
+            "C": "30 pekerja",
+            "D": "36 pekerja",
+            "E": "42 pekerja"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Volume pekerjaan sebanding dengan hasil kali pekerja dan waktu jika produktivitas tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pekerjaan menjadi dua kali lipat $(10%/5%=2)$, tetapi waktu turun dari 3 hari menjadi 2 hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $n₂ = 12 × 2 × (3/2)=36$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Uji satuan kerja: $12×3 =36$ pekerja-hari untuk $5%$, sehingga $10%$ memerlukan 72 pekerja-hari; dalam 2 hari dibutuhkan 36 pekerja."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 18 hanya setengah kebutuhan yang benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 24 mengabaikan pengurangan waktu secara tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 30 tidak menghasilkan 72 pekerja-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar: $36×2=72$ pekerja-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 42 menghasilkan 84 pekerja-hari, terlalu banyak."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Dari $(12×3×2)/2$, langsung peroleh 36 pekerja. Pastikan produktivitas tetap."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Kebutuhan cat dengan pembatasan unit",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat kaleng cat tembok dapat menutup dinding seluas 20 m². Daya tutup setiap kaleng tetap dan cat hanya dapat dibeli per kaleng utuh. Banyak kaleng paling sedikit untuk mengecat dinding 35 m² adalah .... kaleng"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 7**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesetaraan proporsi kebutuhan bahan–luas dan verifikasi kebutuhan dalam satuan utuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Satu kaleng menutup $20/4=5 m²$. Dengan daya tutup sama, $35/5=7$ kaleng."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena hasil bilangan bulat, tidak diperlukan pembulatan. Informasi harga cat dan biaya pengiriman pada stimulus asli tidak diperlukan untuk menentukan banyak kaleng."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari daya tutup per kaleng: $5 m²; 35÷5=7$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menentukan variabel pada proporsi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 6 kotak berisi 48 lembar bahan. Jika isi setiap kotak sama, banyak lembar bahan dalam 11 kotak adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "72 lembar",
+            "B": "80 lembar",
+            "C": "84 lembar",
+            "D": "88 lembar",
+            "E": "96 lembar"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai tak diketahui diperoleh melalui perbandingan tetap antara lembar dan kotak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap kotak berisi $48÷6=8$ lembar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 11 kotak diperoleh $11×8=88$ lembar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Secara proporsi $, 48/6=x/11$, sehingga $6x=528$ dan $x=88$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 72 setara 9 kotak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 80 setara 10 kotak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 84 tidak habis dibagi 11 dengan isi kotak sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar; 11×8=88."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 96 setara 12 kotak."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika unitnya mudah, cari satu kotak lebih cepat daripada perkalian silang."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menganalisis proporsi ketika biaya tetap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jasa cetak mengenakan biaya awal Rp12.000,00 dan Rp2.000,00 per halaman. Seorang siswa mencetak 4 halaman lalu 8 halaman. Pernyataan yang benar adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Biaya total pada 8 halaman menjadi dua kali lipat.",
+            "B": "Biaya total pada 8 halaman adalah Rp28.000,00.",
+            "C": "Biaya per halaman selalu Rp2.000,00 tanpa tambahan.",
+            "D": "Biaya total berbanding lurus dengan jumlah halaman.",
+            "E": "Biaya awal bertambah sebesar jumlah halaman dicetak."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Biaya tetap membuat total biaya tidak proporsional terhadap jumlah halaman."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 4 halaman total biaya $=12.000+4×2.000=20.000.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 8 halaman total $=12.000+8×2.000=28.000$, bukan $40.000.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Walau biaya variabel berbanding lurus dengan halaman, biaya total tidak karena komponen tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak benar; 28.000 bukan 40.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar; $12.000+16.000=28.000$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Ada tambahan biaya awal Rp12.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Total biaya tidak memenuhi $y=kx.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Biaya awal justru tetap Rp12.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan tarif tetap dan tarif per halaman; hitung $y=12.000+2.000x$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Menguji validitas data tabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan pengiriman mencatat hubungan antara banyak paket barang ($x$) dan total massa barang ($y$). Setiap paket seharusnya memiliki massa yang sama sehingga total massa barang berbanding lurus dengan banyaknya paket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil pencatatan ditunjukkan pada tabel berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Banyak Paket (x)",
+                "Total Massa (y)"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "6 kg"
+                ],
+                [
+                  "4",
+                  "12 kg"
+                ],
+                [
+                  "6",
+                  "19 kg"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan data tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Data pada baris pertama dan kedua menunjukkan hubungan proporsional karena menghasilkan massa per paket yang sama.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Kenaikan massa sebesar 7 kg dari 4 paket menjadi 6 paket membuktikan bahwa seluruh data mengikuti perbandingan yang tetap.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika massa setiap paket mengikuti pola dua baris pertama, total massa untuk 6 paket seharusnya 18 kg sehingga data pada baris ketiga tidak konsisten.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menguji konsistensi hubungan proporsional dengan membandingkan rasio dua besaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan proporsional mensyaratkan rasio massa terhadap banyak paket bernilai tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada baris pertama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6/2=3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada baris kedua:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12/4=3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua baris menghasilkan massa yang sama, yaitu 3 kg per paket. Dengan demikian, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari 4 paket menjadi 6 paket, massa bertambah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19-12=7kg$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pertambahan massa tidak cukup untuk membuktikan bahwa hubungan kedua besaran proporsional."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada baris ketiga, massa per paket adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19/6≈3,17kg$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai tersebut berbeda dari rasio dua baris sebelumnya, yaitu 3 kg per paket. Jadi, pernyataan (2) salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan dua baris pertama, setiap paket memiliki massa 3 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pola tersebut tetap berlaku, massa untuk 6 paket seharusnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6×3=18kg$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, tabel mencatat 19 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisihnya:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$19-18=1kg$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, data pada baris ketiga tidak konsisten dengan hubungan proporsional yang ditunjukkan dua baris pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Salah – Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung rasio $y/x$ pada setiap baris. Hubungan proporsional harus memiliki rasio yang sama. Hasilnya adalah 3, 3, dan 19/6 sehingga baris ketiga tidak konsisten."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Konsistensi proporsi setelah produktivitas berubah",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah tim menyelesaikan 24 unit pekerjaan dalam 3 jam. Pada hari lain, anggota tim dan durasi kerjanya sama, tetapi produktivitas setiap anggota menurun. Manakah pernyataan yang paling tepat?"
+            }
+          ],
+          "opsi": {
+            "A": "Pekerjaan pasti tetap selesai 24 unit.",
+            "B": "Pekerjaan pasti meningkat menjadi 30 unit.",
+            "C": "Volume hasil tidak dapat dihitung tepat tanpa laju baru.",
+            "D": "Penurunan produktivitas tidak memengaruhi hasil.",
+            "E": "Hasil pasti setengah dari 24 unit."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menguji syarat laju tetap sebelum menerapkan proporsi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil awal menunjukkan laju kolektif $24/3=8$ unit per jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, produktivitas pada hari lain menurun sehingga laju tidak lagi 8 unit per jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanpa besarnya penurunan, hasil tepat untuk durasi 3 jam belum dapat dihitung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Bertentangan dengan penurunan produktivitas jika kondisi lain tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak didukung perubahan produktivitas yang menurun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar; diperlukan informasi laju yang baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Penurunan produktivitas memengaruhi hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak ada keterangan bahwa produktivitas turun tepat separuh."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Sebelum memakai perbandingan, tanyakan: apakah lajunya sama? Bila tidak, model awal tidak langsung berlaku."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

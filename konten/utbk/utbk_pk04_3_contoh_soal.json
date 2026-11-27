@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Barisan Aritmetika",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Barisan Aritmetika",
+    "sumber": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-04-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Suku Pekan Kedelapan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Femi mempersiapkan lomba lari lintas alam sepanjang 8 km. Ia berlatih sekali setiap pekan selama 16 pekan. Pada pekan pertama jarak latihannya 2 km. Pada setiap pekan berikutnya, jarak latihan bertambah 0,5 km hingga mencapai 8 km. Setelah mencapai jarak itu, latihan berikutnya tetap 8 km. Jarak dihitung dalam kilometer. Jika latihan pada suatu pekan berlangsung, jarak latihan pada pekan tersebut dihitung penuh."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk04_pola_dan_barisan/gambar-12.png",
+              "lebar": 8.71,
+              "tinggi": 0.71
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jarak yang ditempuh Femi pada pekan kedelapan adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "4,5 km",
+            "B": "5 km",
+            "C": "5,5 km",
+            "D": "6 km",
+            "E": "6,5 km"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Barisan aritmetika dengan a=2 km dan b=0,5 km, masih sebelum batas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus umumnya adalah: $Uₙ = a +(n−1)b$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a=2$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$b=0,5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n=8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U₈ = 2 + (8−1)×0,5$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$= 2 + 3,5 = 5,5 km.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai tersebut masih di bawah 8 km sehingga aturan pertambahan tetap berlaku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menghitung lima kenaikan, bukan tujuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Menghitung enam kenaikan, bukan tujuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar; tujuh kenaikan dari 2 km menghasilkan 5,5 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menghitung delapan kenaikan, bukan tujuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Menghitung sembilan kenaikan, bukan tujuh."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Suku ke-8 berarti ada tujuh perpindahan dari suku pertama."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

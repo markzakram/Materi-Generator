@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penentuan Judul Bacaan",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penentuan Judul Bacaan",
+    "sumber": "https://docs.google.com/document/d/1PhiYo2IDGe2z61W5N8fKkrPEcdQZCsGl/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-01-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Perpustakaan Keliling",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Di beberapa desa, akses terhadap bahan bacaan masih bergantung pada koleksi pribadi dan buku pelajaran sekolah. Pemerintah daerah bekerja sama dengan komunitas literasi untuk memetakan kebutuhan warga. Hasil pemetaan menunjukkan bahwa anak-anak memerlukan bacaan beragam, sementara orang tua membutuhkan informasi praktis tentang pertanian, kesehatan, dan keterampilan. Karena membangun gedung perpustakaan di setiap desa membutuhkan biaya dan waktu, pengelola memilih layanan yang dapat berpindah lokasi. Mereka juga mengadakan diskusi setelah sesi membaca untuk mengetahui apakah kegiatan tersebut benar-benar bermanfaat. Program ini dievaluasi bukan hanya dari jumlah buku yang dipinjam, melainkan juga dari keteraturan kunjungan dan keterlibatan warga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Program perpustakaan keliling menjangkau empat desa yang belum mempunyai ruang baca. Relawan datang setiap akhir pekan membawa buku dan memandu kegiatan membaca. Setelah tiga bulan, kehadiran anak pada kegiatan meningkat dan sekolah meminta jadwal kunjungan yang lebih teratur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Judul yang paling mewakili keseluruhan bacaan adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Kegiatan Membaca Akhir Pekan bagi Anak Desa",
+            "B": "Perpustakaan Keliling Memperluas Akses Literasi Desa",
+            "C": "Sekolah Membangun Ruang Baca di Empat Desa",
+            "D": "Permintaan Sekolah atas Jadwal Kunjungan Relawan",
+            "E": "Peningkatan Kehadiran Anak pada Kegiatan Membaca"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Judul wajib mewakili fokus utuh, yaitu program sekaligus perluasan akses bahan bacaan di desa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Masalah: keterbatasan bacaan; solusi: perpustakaan keliling; hasil: layanan menjangkau empat desa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tandai topik awal: desa masih memiliki akses bahan bacaan yang terbatas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Temukan gagasan pengendali: layanan berpindah lokasi menjawab keterbatasan tanpa membangun gedung baru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Bandingkan kelima opsi; hanya pilihan B menyebut program utama dan fungsinya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak tepat karena jadwal akhir pekan dan anak merupakan rincian, bukan keseluruhan bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tepat karena layanan perpustakaan keliling dan perluasan akses literasi merangkum pusat bacaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tidak tepat karena teks tidak menyatakan sekolah membangun ruang baca di empat desa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Terlalu sempit karena permintaan penjadwalan hanya salah satu hasil kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu sempit karena peningkatan kehadiran anak tidak merangkum program dan masyarakat sasaran."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan kerangka masalah → solusi → dampak; alternatif yang hanya berisi dampak belum tentu judul terbaik."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Evaluasi Alternatif Judul",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Di empat desa yang belum memiliki perpustakaan, relawan mengoperasikan layanan baca keliling setiap dua minggu. Layanan tersebut menyediakan peminjaman buku dan kegiatan diskusi. Setelah tiga bulan, jumlah kunjungan meningkat, tetapi pengelola masih harus menyesuaikan koleksi dengan kebutuhan warga. Laporan kegiatan menilai perluasan akses dan pemanfaatan layanan secara nyata."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilailah apakah setiap calon judul SESUAI atau TIDAK SESUAI untuk merangkum fokus keseluruhan bacaan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Sesuai",
+                "Tidak Sesuai"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Layanan Baca Keliling dan Evaluasi Pemanfaatan di Desa",
+                  "□",
+                  "□"
+                ],
+                [
+                  "2",
+                  "Pembangunan Gedung Perpustakaan Permanen di Empat Desa",
+                  "□",
+                  "□"
+                ],
+                [
+                  "3",
+                  "Kegiatan Diskusi Relawan Setiap Dua Minggu",
+                  "□",
+                  "□"
+                ],
+                [
+                  "4",
+                  "Perluasan Akses Bacaan melalui Layanan Keliling",
+                  "□",
+                  "□"
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 1 Sesuai; 2 Tidak Sesuai; 3 Tidak Sesuai; 4 Sesuai.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menguji kecocokan judul dengan fokus keseluruhan bacaan serta mengeliminasi judul yang terlalu sempit atau tidak didukung.**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Sesuai. Judul mencakup layanan baca keliling sekaligus evaluasi pemanfaatannya; keduanya merupakan gagasan utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Tidak sesuai. Bacaan membahas layanan bergerak, bukan pembangunan gedung perpustakaan permanen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Tidak sesuai. Diskusi setiap dua minggu hanya rincian kegiatan, bukan fokus keseluruhan laporan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Sesuai. Perluasan akses melalui layanan keliling merangkum tujuan program yang menjadi pokok bacaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji setiap judul terhadap topik, arah, dan cakupan; judul yang hanya menyebut satu rincian tidak cukup mewakili bacaan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

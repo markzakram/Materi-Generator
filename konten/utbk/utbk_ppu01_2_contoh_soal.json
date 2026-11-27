@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Makna Asosiasi",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Makna Asosiasi",
+    "sumber": "https://docs.google.com/document/d/1fHUomnYCTIklVe-vWMEDAVqtSXpScxqE/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-01-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan kalimat berikut!"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Sejak menjadi pejabat, sikapnya berubah seperti kacang lupa kulitnya.”"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata yang bercetak tebal mengandung makna…"
+            }
+          ],
+          "opsi": {
+            "A": "Makna leksikal",
+            "B": "Makna gramatikal",
+            "C": "Makna asosiasi",
+            "D": "Makna denotatif",
+            "E": "Makna literal"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Makna asosiasi merupakan makna yang timbul dari hubungan atau asosiasi dengan hal-hal di luar makna harfiahnya, dipengaruhi oleh pengalaman, konteks, budaya, atau emosi individu. Pada umumnya makna asosiasi berbentuk ungkapan atau peribahasa. Ungkapan “Kacang lupa kulit” berarti orang yang melupakan asal-usulnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban A kurang tepat, karena makna leksikal adalah makna kamus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban B kurang tepat, karena makna gramatikal adalah makna yang muncul dari proses kebahasaan seperti imbuhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban D kurang tepat, karena makna denotatif merupakan makna sebenarnya atau makna literal, tanpa kiasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban E kurang tepat, sama seperti jawaban D, makna literal adalah makna sebenarnya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum jadwal bulanan diumumkan, warga sering tiba ketika loket sudah tutup. Setelah pengumuman diterbitkan, ketua warga menyebut jadwal itu sebagai jangkar bagi warga yang harus membagi waktu antara pekerjaan dan urusan administrasi. Dalam keadaan darurat, pengelola masih bisa mengubah jadwal dengan memberi pemberitahuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Empat warga menceritakan pengalaman mereka setelah jadwal bulanan diterbitkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Rina mendapat nomor antrean lebih cepat karena pengelola membuka loket tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Sari bisa menukar giliran kerjanya dua minggu sebelumnya karena sudah tahu kapan loket buka."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(3) Dimas mendapat pemberitahuan ketika loket ditutup mendadak karena listrik padam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(4) Bayu bisa menyelesaikan urusannya tanpa kembali ke loket karena berkasnya sudah lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengalaman nomor berapa yang paling tepat menggambarkan makna asosiasi kata jangkar dalam bacaan? Tuliskan satu angka."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 2**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep yang dipakai",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Makna asosiasi dapat muncul ketika fungsi sebuah benda dikaitkan dengan manfaat hal lain dalam bacaan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara membaca soal",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangkar menahan kapal agar tidak mudah bergeser. Dalam bacaan, jadwal yang diumumkan lebih awal memberi warga pegangan untuk mengatur kegiatan. Pengalaman Sari menunjukkan kaitan itu. Ia bisa menukar giliran kerja dua minggu sebelumnya karena sudah punya patokan waktu untuk datang ke loket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengalaman Dimas paling dekat karena sama-sama berkaitan dengan jadwal. Namun, ia menerima kabar setelah muncul gangguan, sementara Sari memakai jadwal untuk membuat rencana jauh hari. Itulah manfaat yang digambarkan oleh kata jangkar."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

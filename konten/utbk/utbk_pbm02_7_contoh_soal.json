@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Kohesi dan Koherensi",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Kohesi dan Koherensi",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-7-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kohesi dan Koherensi Penggunaan Pupuk Organik",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pupuk organik dapat memperbaiki kondisi tanah dan membantu pemeliharaan kesuburan tanaman. (2) Namun, penggunaan pupuk organik yang tepat memerlukan pengetahuan mengenai bahan, takaran, dan karakteristik lahan. (3) Oleh sebab itu, sekolah menyarankan pelatihan sederhana sebelum siswa menerapkannya pada petak praktik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan paragraf tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "Kalimat pertama menyampaikan manfaat pupuk organik.",
+                  "",
+                  ""
+                ],
+                [
+                  "Kata “Namun” menunjukkan pembatasan terhadap manfaat yang dijelaskan sebelumnya.",
+                  "",
+                  ""
+                ],
+                [
+                  "Kalimat kedua memberikan contoh jenis pupuk yang harus digunakan petani.",
+                  "",
+                  ""
+                ],
+                [
+                  "“Oleh sebab itu” mengantarkan rekomendasi berdasarkan kebutuhan pemahaman pada kalimat kedua.",
+                  "",
+                  ""
+                ],
+                [
+                  "Kalimat terakhir menyangkal manfaat pupuk organik pada awal paragraf.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar – Benar – Salah – Benar – Salah.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Pisahkan manfaat pupuk pada (1), pembatasan penggunaan pada (2), dan rekomendasi pada (3)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Nilai setiap pernyataan dalam tabel berdasarkan informasi dan hubungan antarkalimat pada paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Pernyataan 1, 2, 4 benar karena sesuai dengan fungsi serta hubungan antarkalimat dalam paragraf. Pernyataan (3) dan (5) salah karena tidak sesuai dengan informasi yang disampaikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pernyataan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Benar. Kalimat pertama menyebut manfaat pupuk organik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Benar. “Namun” memberi pembatasan: manfaat ada, tetapi penerapannya mensyaratkan pemahaman dosis dan lahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Salah. Kalimat kedua membahas pengetahuan penerapan, bukan menyebut jenis pupuk."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Benar. “Oleh sebab itu” menghubungkan kebutuhan pemahaman dengan rekomendasi pelatihan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Salah. Rekomendasi pelatihan justru mendukung penerapan yang tepat, bukan menyangkal manfaat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan hubungan antarkalimat melalui kata penghubung seperti namun dan oleh sebab itu. Tentukan fungsi setiap kalimat, kemudian nilai masing-masing pernyataan dalam tabel secara terpisah sebagai Benar atau Salah."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

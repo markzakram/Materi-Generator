@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "judul": "Interpretasi Data",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Interpretasi Data",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "id_katalog": "pk-06-4"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal PK–PM, informasi sering diberikan sebagai tabel berisi banyak kategori, diagram dengan skala tertentu, atau data dengan rata-rata dan median. Penyelesaian yang tepat dimulai dari pemeriksaan apa yang sebenarnya diukur: jumlah, proporsi, frekuensi, perubahan waktu, atau nilai tengah. Selanjutnya, pengolahan data perlu mempertahankan unit, periode, dan ukuran kelompok."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "fakta eksplisit vs tren."
+      },
+      {
+        "level": "",
+        "kko": "Menghubungkan",
+        "teks": "informasi."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "simpulan tanpa asumsi tambahan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Interpretasi Data",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Interpretasi Data",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Informasi Eksplisit, Pola, dan Inferensi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Informasi eksplisit merupakan angka atau pernyataan yang dapat langsung dibaca. Tren merupakan pola perubahan menurut urutan waktu. Inferensi harus diturunkan dari informasi yang tersedia dan tidak boleh menyisipkan faktor baru seperti dugaan penyebab, kualitas layanan, atau kebiasaan penduduk ketika tidak ada data pendukung."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan Adil dan Keterbatasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan kategori dengan satuan serta periode yang sama. Ketika ukuran kelompok berbeda, gunakan tingkat atau persentase yang sesuai. Perubahan dua nilai pada waktu yang sama tidak cukup membuktikan satu perubahan menyebabkan yang lain."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik F–T–A: cari Fakta, periksa Tren, hapus Asumsi tambahan. Opsi yang berisi “pasti menyebabkan” harus ditolak jika data hanya memperlihatkan korelasi atau perbedaan angka."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Informasi Eksplisit, Pola, dan Inferensi",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan Adil dan Keterbatasan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Statistika dan Interpretasi Data menuntut ketelitian pada sumber, satuan, basis perbandingan, dan keterbatasan kesimpulan. Dengan menguasai penyajian tabel, grafik, analisis persentase, serta ukuran pemusatan, peserta dapat mengubah data menjadi informasi yang dapat diperiksa dan digunakan secara bertanggung jawab."
+  }
+}

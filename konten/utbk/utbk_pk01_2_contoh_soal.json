@@ -1,0 +1,535 @@
+{
+  "meta": {
+    "judul": "Contoh Soal FPB dan KPK",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal FPB dan KPK",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-01-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — FPB dua bilangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui dua bilangan, yaitu 84 dan 126. Faktor persekutuan terbesar (FPB) kedua bilangan tersebut adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 42**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FPB ditentukan oleh faktor prima bersama dengan pangkat terendah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktorisasi prima $84 = 2² × 3 × 7$ dan $126 = 2 × 3² × 7$. Faktor bersama adalah $2¹, 3¹$, dan $7¹$ sehingga $FPB = 2 × 3 × 7 = 42.$ Verifikasi: $84 ÷ 42 = 2$ dan $126 ÷ 42 = 3$, keduanya bilangan bulat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Algoritma Euclid: $126 = 84 + 42; 84 = 2 × 42,$ sehingga $FPB = 42$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — KPK dari beberapa periode",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga alat bekerja dengan siklus 12, 18, dan 30 menit. Ketiganya mulai bersamaan pukul 08.00. Pada pukul berapa ketiganya pertama kali kembali memulai siklus secara bersamaan?"
+            }
+          ],
+          "opsi": {
+            "A": "09.30",
+            "B": "10.00",
+            "C": "10.30",
+            "D": "11.00",
+            "E": "11.30"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "KPK digunakan untuk mencari kelipatan waktu positif terkecil saat jadwal berulang bertemu kembali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$12 = 2² × 3, 18 = 2 × 3²$, dan $30 = 2 × 3 × 5$. $KPK = 2² × 3² × 5 = 180 menit = 3 jam$. Tiga jam setelah pukul 08.00 adalah pukul 11.00."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 90 menit terlalu cepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 120 menit bukan kelipatan 18."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 150 menit bukan kelipatan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar: 180 menit setelah 08.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 210 menit bukan kelipatan 12."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan pangkat prima maksimum; dari $12, 18, 30$ langsung $KPK = 180$ tanpa membuat daftar panjang kelipatan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Pembagian menjadi paket identik",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Panitia memiliki 84 pensil dan 126 buku kecil. Semua perlengkapan akan dibagi ke dalam paket dengan isi identik, tanpa sisa. Berapa paket paling banyak yang dapat dibuat?"
+            }
+          ],
+          "opsi": {
+            "A": "21",
+            "B": "28",
+            "C": "36",
+            "D": "42",
+            "E": "63"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah paket harus membagi habis seluruh jenis barang; yang diminta adalah jumlah pembagi bersama terbesar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan paket harus menjadi faktor 84 dan faktor 126. Nilai terbesar yang memenuhi adalah $FPB(84,126) = 42$. Setiap paket berisi $84 ÷ 42 = 2$ pensil dan $126 ÷ 42 = 3$ buku kecil."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 21 paket mungkin, tetapi belum maksimal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 28 tidak membagi habis 126."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 36 tidak membagi habis 84 maupun 126."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar: 42 paket, masing-masing 2 pensil dan 3 buku."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 63 tidak membagi habis 84."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bila barang harus habis dibagi ke paket identik dan jumlah paket dimaksimalkan, hitung FPB dari seluruh jumlah barang."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menentukan bilangan dari FPB dan KPK",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $t$ bilangan bulat positif dengan $FPB(36,t) = 12$ dan $KPK(36,t) = 180$. Nilai $t$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "48",
+            "B": "54",
+            "C": "60",
+            "D": "72",
+            "E": "90"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk dua bilangan positif berlaku $FPB × KPK = hasil kali kedua bilangan.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan $a = 36, b = t$, maka $12 × 180 = 36 × t$ sehingga $t = 60$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa: $FPB(36,60)=12, KPK(36,60)=180$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua syarat terpenuhi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. $FPB(36,48)=12$ tetapi KPK bukan 180."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. $FPB(36,54)=18$, bukan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar; semua syarat sesuai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. $FPB(36,72)=36,$ bukan 12."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E.$FPB(36,90)=18$, bukan 12."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $t = FPB × KPK ÷ bilangan diketahui$; wajib cek balik kedua syarat."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menguji konsistensi syarat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang siswa sedang menentukan bilangan bulat positif $t$ berdasarkan dua syarat berikut:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$KPK(8,t) = 120$",
+                "$FPB(24,t) = 8$"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menentukan apakah terdapat nilai $t$ yang memenuhi kedua syarat tersebut, siswa perlu memeriksa hubungan faktor prima pada KPK dan FPB."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Syarat KPK(8, t) = 120 mengharuskan bilangan t memiliki faktor prima 3 dan 5.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Syarat FPB(24, t) = 8 mengharuskan bilangan t memiliki faktor prima 3.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Bilangan t = 120 memenuhi syarat KPK, tetapi tidak memenuhi syarat FPB yang diberikan.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Terdapat setidaknya satu bilangan bulat positif t yang memenuhi kedua syarat secara bersamaan.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Faktorisasi prima, KPK, FPB, dan Konsistensi syarat bilangan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktorisasi prima dari 8 dan 120 adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8=2^{3}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$120=2^{3}×3×5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena KPK mengambil pangkat terbesar dari setiap faktor prima, bilangan $t$ harus memuat faktor prima 3 dan 5 agar KPK(8, t) menghasilkan 120."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktorisasi prima dari 24 adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$24=2^{3}×3$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Agar FPB(24, t) = 8, bilangan $t$ harus memiliki faktor $2^{3}$, tetapi tidak boleh memiliki faktor prima 3. Jika $t$ memiliki faktor prima 3, FPB keduanya juga akan mengandung faktor 3."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk $t=120$, diperoleh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "KPK(8, 120) = 120"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FPB(24, 120) = 24"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, nilai $t=120$ hanya memenuhi syarat KPK, bukan syarat FPB."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Syarat KPK(8, t) = 120 mengharuskan $t$ memiliki faktor prima 3. Sebaliknya, syarat FPB(24, t) = 8 mengharuskan $t$ tidak memiliki faktor prima 3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua syarat tersebut saling bertentangan, sehingga tidak ada bilangan bulat positif $t$ yang memenuhi keduanya secara bersamaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Salah – Benar – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bandingkan faktor prima 3 pada kedua syarat. KPK mengharuskan faktor 3 ada dalam $t$, sedangkan FPB mengharuskan faktor tersebut tidak ada. Karena bertentangan, tidak ada solusi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Rumus faktor prima untuk tiga bilangan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $A = 2² × 3², B = 2³ × 3, dan C = 2 × 3² × 5$. Nilai $KPK(A,B,C)$ dibagi $FPB(A,B,C)$ adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "30",
+            "B": "45",
+            "C": "60",
+            "D": "90",
+            "E": "120"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FPB mengambil pangkat minimum pada semua bilangan; KPK mengambil maksimum dari seluruh bilangan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$FPB = 2¹ × 3¹ = 6.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$KPK = 2³ × 3² × 5 = 360$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $KPK ÷ FPB = 360 ÷ 6 = 60$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 30 bukan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 45 bukan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar: $360 ÷ 6 = 60.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 90 bukan hasil."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 120 bukan hasil."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Catat eksponen maksimum dan minimum per prima dalam dua baris, kemudian bagi hasilnya."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

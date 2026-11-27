@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pemodelan Aljabar",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Pemodelan Aljabar",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-03-9-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Harga Paket",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga paket A berisi 2 kaleng cat tembok dan 1 kaleng cat kayu adalah Rp170.000, sedangkan paket B berisi 1 kaleng cat tembok dan 1 kaleng cat kayu seharga Rp100.000. Ongkos pengantaran Rp15.000 berlaku terpisah untuk setiap transaksi. Jika $t$ dan $k$ adalah harga kaleng sebelum pengantaran, model harga paket yang benar adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E.$t+k=170.000; t−k=100.000$"
+            }
+          ],
+          "opsi": {
+            "A": "$2t+k=170.000; t+k=100.000$",
+            "B": "$t+2k=170.000; t+k=100.000$",
+            "C": "$2t+k=100.000; t+k=170.000$",
+            "D": "$2t+2k=170.000; t=100.000$"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menerjemahkan banyak unit dan harga paket ke persamaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan $t$ untuk cat tembok dan $k$ untuk cat kayu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paket A memberi $2t+k=170.000$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "paket B memberi $t+k=100.000$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Biaya pengantaran adalah komponen tambahan per transaksi, tidak masuk model harga paket sebelum pengantaran."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar sesuai komposisi dua paket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Jumlah kaleng terbalik pada paket A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Harga paket tertukar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mengganti komposisi paket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak merepresentasikan isi paket."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tuliskan koefisien mengikuti jumlah kaleng; ongkir ditambahkan hanya jika yang ditanya total transaksi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

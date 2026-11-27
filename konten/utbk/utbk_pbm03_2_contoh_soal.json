@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penulisan Huruf",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penulisan Huruf",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Panitia sekolah menyiapkan pengumuman resmi. Ketepatan huruf kapital diperiksa agar nama diri dan kata umum dapat dibedakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan penulisan huruf kapital dalam beberapa kalimat pengumuman sekolah. Museum Geologi merupakan nama resmi museum yang menjadi tujuan kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kalimat dengan penulisan huruf kapital yang tepat adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Rombongan berangkat pada hari Senin menuju Museum Geologi di Bandung.",
+            "B": "Pada hari Senin, siswa mengunjungi museum Geologi di Bandung.",
+            "C": "Pada hari senin, siswa dijadwalkan berkunjung ke Museum Geologi di Bandung.",
+            "D": "Kegiatan pada Hari Senin mencakup kunjungan ke Museum Geologi di Bandung.",
+            "E": "Di Bandung, siswa mengunjungi Museum geologi pada hari Senin."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menerapkan aturan huruf kapital dan huruf kecil pada nama diri dan kata umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Cari semua unsur yang mungkin memerlukan kapital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Klasifikasikan setiap unsur: awal kalimat, nama diri, nama hari, atau kata umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Uji tiap opsi tanpa terpengaruh kapital yang tampak lebih menonjol."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar. “Senin” merupakan nama hari, “Museum Geologi” adalah nama diri tempat, dan “Bandung” nama kota; penulisan kapital tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Salah. “museum” sebagai unsur awal nama resmi “Museum Geologi” perlu huruf kapital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah. Nama hari “Senin” harus diawali huruf kapital."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah. Kata umum “hari” dalam frasa “Hari Senin” tidak diawali kapital di tengah kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah. Unsur kedua nama diri “Museum Geologi” harus memakai kapital awal pada “Geologi”."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "KAPITAL: awal kalimat + unsur nama diri; kata umum seperti hari, museum, gedung, sekolah tetap huruf kecil jika bukan bagian nama resmi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

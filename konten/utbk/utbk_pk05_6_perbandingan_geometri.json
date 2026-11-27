@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "judul": "Perbandingan Geometri",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Perbandingan Geometri",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "id_katalog": "pk-05-6"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri berangkat dari titik, garis, bidang, serta hubungan antarelemen. Dalam geometri bidang, keliling berbeda dengan luas; dalam ruang, luas permukaan berbeda dengan volume. Penalaran geometris juga membutuhkan penggunaan skala, kesebangunan, dan sudut. Sebuah gambar yang terlihat proporsional tidak selalu digambar sesuai skala, sehingga semua kesimpulan harus didasarkan pada informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "kesebangunan dan skala."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "panjang bersesuaian."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "pengaruh skala pada panjang, luas, dan volume."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Perbandingan Geometri",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbandingan Geometri",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Kesebangunan dan Kongruensi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua bangun kongruen memiliki bentuk dan ukuran yang sama; dua bangun sebangun memiliki bentuk sama dengan rasio sisi bersesuaian tetap. Pada segitiga, dua sudut yang sama sudah cukup menunjukkan kesebangunan (AA). Panjang sisi yang dibandingkan harus bersesuaian, bukan sekadar ditulis dalam urutan acak."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a_{1}/a_{2} = b_{1}/b_{2} = c_{1}/c_{2} = k$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Skala dan Pengaruhnya"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Skala pada peta atau denah adalah panjang gambar dibanding panjang sebenarnya setelah satuan disamakan. Jika bangun didilatasi dengan $k>0$, keliling berubah $k$ kali, luas $k²$ kali, dan volume $k³$ kali. Refleksi, translasi, dan rotasi memiliki faktor skala panjang 1; dilatasi memperbesar atau memperkecil."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Skala = jarak gambar/jarak sebenarnya$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan pasangan sisi bersesuaian dahulu; buat rasio; cek apakah ukuran yang ditanya panjang, luas, atau volume."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Teknik B–R–P:** Bangun bersesuaian → Rasio skala → Pangkat sesuai dimensi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Kesebangunan dan Kongruensi",
+        "teks": ""
+      },
+      {
+        "judul": "Skala dan Pengaruhnya",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Geometri dan Pengukuran menuntut peserta menghubungkan sifat bangun, ukuran, satuan, dan representasi gambar. Pahami konsep dan syarat model sebelum memakai rumus, terutama pada bangun gabungan, skala, diagram sudut, dan trigonometri. Dengan membandingkan alternatif penyelesaian dan memeriksa kewajaran satuan, peserta dapat menyelesaikan soal secara lebih akurat, tidak sekadar cepat."
+  }
+}

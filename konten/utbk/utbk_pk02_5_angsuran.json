@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "judul": "Angsuran",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Angsuran",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "id_katalog": "pk-02-5"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Ketika seseorang membeli barang dengan bonus, memperoleh dua potongan harga, menyimpan uang dengan bunga tertentu, atau membandingkan cicilan, angka yang tertera bukan satu-satunya informasi penentu. Ada basis harga, periode waktu, komponen biaya, dan kondisi khusus yang harus dibaca secara tepat. Dua penawaran dengan persentase berbeda bahkan dapat menghasilkan biaya akhir yang berlawanan dengan dugaan awal.",
+      "Karena itu, pembelajaran dimulai dari mengidentifikasi komponen transaksi, berlanjut pada pemodelan harga, diskon, bunga, angsuran, dan untung/rugi. Setiap subbab memadukan penjelasan konsep dengan pengujian asumsi dan contoh soal, sehingga peserta terbiasa memilih prosedur sesuai konteks, bukan langsung memasukkan angka ke rumus."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "pokok, tenor, cicilan, biaya tambahan serta menilai biaya efektif skema pembayaran."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Angsuran",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Angsuran",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Angsuran adalah pembayaran berkala atas pembiayaan atau kewajiban tertentu. Besar angsuran nominal tidak selalu menunjukkan biaya termurah; uang muka, biaya admin, bunga, biaya per bulan, dan tenor harus dilihat sebagai satu kesatuan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar dan Istilah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pokok pinjaman merupakan jumlah yang dibiayai. Tenor adalah banyaknya periode cicilan. Angsuran berkala dapat mencakup pengembalian pokok dan bunga/biaya. Uang muka dibayarkan di awal dan tetap bagian dari total yang dikeluarkan pembeli."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total dibayar = uang muka + jumlah seluruh cicilan + biaya lain$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Angsuran Pokok Tetap dan Bunga Flat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada model flat sederhana, bunga dihitung dari pokok awal sehingga nilai nominal bunga per periode tetap. Bentuk ini berbeda dari bunga efektif atau anuitas, yang memerlukan jadwal saldo pokok. Jangan menyamakan semua pinjaman dengan satu formula."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Bunga flat total = pokok × r × t$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Cicilan flat/bulan = (pokok + bunga flat total)/n$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Evaluasi Skema"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua skema dengan cicilan bulanan yang berbeda harus dibandingkan dengan jumlah periode, uang muka, biaya administrasi, dan biaya lain. Ketika waktu pembayaran berbeda, “biaya efektif” dalam kurikulum sebaiknya dipahami sebagai total beban nominal jika data hanya nominal, bukan sebagai APR/EIR tanpa perincian arus kas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Buat tabel skema: uang muka, tenor, cicilan bulanan, biaya awal dan biaya akhir. Hitung seluruh arus pembayaran yang dinyatakan. Jika soal meminta bunga efektif tahunan tetapi jadwal saldo tidak ada, nyatakan informasi belum cukup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik U–T–C–B: Uang muka → Tenor → Cicilan → Biaya tambahan; bandingkan total."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar dan Istilah",
+        "teks": ""
+      },
+      {
+        "judul": "Angsuran Pokok Tetap dan Bunga Flat",
+        "teks": ""
+      },
+      {
+        "judul": "Evaluasi Skema",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Mengerjakan Soal",
+        "teks": ""
+      },
+      {
+        "judul": "Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Aritmatika Sosial menguji ketepatan peserta membaca transaksi, memilih basis dan periode, membangun model serta menilai hasil. Dalam soal dengan beberapa biaya, strategi terbaik sering kali bukan formula terpanjang, melainkan tabel komponen yang lengkap. Untuk latihan berikutnya, peserta perlu membedakan harga satuan dan total, diskon tunggal dan bertingkat, bunga tunggal dan majemuk, nominal cicilan dan total biaya, serta pemasukan dan keuntungan."
+  }
+}

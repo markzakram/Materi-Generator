@@ -1,0 +1,628 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbandingan Senilai dan Tak Senilai",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Perbandingan Senilai dan Tak Senilai",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-01-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Mesin dan Waktu Pengerjaan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Enam mesin identik menyelesaikan satu pesanan dalam 10 jam. Jika setiap mesin memiliki laju tetap, berapa jam diperlukan oleh 4 mesin identik untuk menyelesaikan pesanan yang sama?"
+            }
+          ],
+          "opsi": {
+            "A": "12 jam",
+            "B": "14 jam",
+            "C": "15 jam",
+            "D": "16 jam",
+            "E": "18 jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan berbalik nilai pada jumlah mesin dan waktu; pekerjaan sama dan laju mesin tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total mesin-jam yang diperlukan tetap, yakni $6 × 10 = 60$ mesin-jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 4 mesin, waktu $= 60 ÷ 4 = 15$ jam. Jumlah mesin lebih sedikit sehingga waktu harus lebih lama dari 10 jam."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 12 jam menghasilkan 48 mesin-jam, kurang dari beban kerja 60 mesin-jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 14 jam menghasilkan 56 mesin-jam, belum cukup untuk menyelesaikan pesanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 15 jam menghasilkan 60 mesin-jam, tepat sama dengan pekerjaan awal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 16 jam menghasilkan 64 mesin-jam, lebih dari kebutuhan untuk pekerjaan sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 18 jam menghasilkan 72 mesin-jam, lebih dari beban kerja yang ditetapkan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $6 × 10 = 4 × t$, sehingga $t = 15$. Periksa arah: mesin turun, waktu naik."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Harga dengan Tarif Satuan Tetap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang penyelenggara membeli 4 kotak alat tulis seharga Rp72.000,00. Harga per kotak tetap dan tidak ada biaya tambahan. Berapa harga 7 kotak?"
+            }
+          ],
+          "opsi": {
+            "A": "Rp108.000,00",
+            "B": "Rp117.000,00",
+            "C": "Rp126.000,00",
+            "D": "Rp135.000,00",
+            "E": "Rp144.000,00"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan senilai antara jumlah barang dan harga total pada harga satuan tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga satu kotak $= Rp72.000,00 ÷ 4 = Rp18.000,00.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga tujuh kotak $= 7 × Rp18.000,00 = Rp126.000,00$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rasio harga/jumlah tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menggunakan harga satuan yang terlalu rendah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Nilainya tidak mengikuti rasio tetap empat ke tujuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Setara tujuh kali harga satuan Rp18.000,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menggunakan harga satuan melebihi yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Sama dengan harga delapan kotak, bukan tujuh."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Langsung kalikan $Rp72.000,00 ×7/4 = Rp126.000,00.$"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menentukan Jenis Hubungan dari Tabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dua besaran x dan y terukur pada tiga kondisi: (2, 18), (3, 12), dan (6, 6). Manakah hubungan yang didukung oleh seluruh data?"
+            }
+          ],
+          "opsi": {
+            "A": "Hubungan senilai",
+            "B": "Hubungan berbalik nilai",
+            "C": "Hubungan selisih tetap",
+            "D": "Hubungan kuadrat",
+            "E": "Tidak ada pola yang sesuai"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pemeriksaan hasil kali yang tetap versus rasio yang tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hasil kali setiap pasangan adalah $2 × 18 = 36, 3 × 12 = 36$, dan $6 × 6 = 36$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $xy$ konstan pada semua data, ketiga pasangan mendukung hubungan berbalik nilai."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Rasio $y/x$ berubah, sehingga bukan senilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Setiap pasangan memiliki hasil kali 36."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Selisih x dan y bukan bilangan yang sama pada semua pasangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak terdapat bukti bahwa $y = kx²$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Ada pola yang konsisten, sehingga pernyataan ini tidak sesuai."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cek perkalian lebih dahulu:$2×18, 3×12, 6×6$ semuanya 36."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Gabungan Volume, Mesin, dan Waktu",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat mesin identik menghasilkan 240 unit barang dalam 6 jam. Dengan laju per mesin tetap, berapa jam yang diperlukan 6 mesin untuk menghasilkan 360 unit?"
+            }
+          ],
+          "opsi": {
+            "A": "4 jam",
+            "B": "5 jam",
+            "C": "6 jam",
+            "D": "8 jam",
+            "E": "9 jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Model banyak mesin × laju × waktu = total produksi$, memperhitungkan perubahan volume."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Laju per mesin $= 240 ÷ (4 × 6) = 10$ unit per jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan 6 mesin, total laju $= 60$ unit per jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk 360 unit diperlukan $360 ÷ 60 = 6$ jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penggunaan $4 × 6 = 6 × t$ tanpa memperhatikan volume yang bertambah akan memberi hasil keliru."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Waktu terlalu singkat untuk target 360 unit pada laju 60 unit/jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Dalam 5 jam produksi hanya 300 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Dalam 6 jam produksi 360 unit, sesuai target."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Dalam 8 jam mesin menghasilkan 480 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Dalam 9 jam mesin menghasilkan 540 unit."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Langsung $t₂ = 6 × (360/240) × (4/6) = 6$ jam."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Menguji Asumsi pada Dua Kelompok Pekerja",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan menugaskan 8 pekerja untuk menyelesaikan suatu pekerjaan dalam waktu 12 hari. Pada proyek berikutnya dengan jenis dan beban pekerjaan yang identik, perusahaan menambah jumlah pekerja menjadi 12 orang. Namun, pekerjaan tersebut baru selesai dalam waktu 10 hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan ingin mengevaluasi apakah hubungan antara jumlah pekerja dan waktu penyelesaian sesuai dengan model perbandingan berbalik nilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika produktivitas per pekerja tetap dan jam kerja efektif sama, penambahan jumlah pekerja dari 8 menjadi 12 orang seharusnya mempercepat penyelesaian pekerjaan menjadi 8 hari.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Karena jumlah pekerja meningkat sebesar 50%, waktu penyelesaian yang tercatat selama 10 hari membuktikan bahwa produktivitas setiap pekerja meningkat.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Perbedaan total pekerja-hari pada kedua proyek menunjukkan bahwa model produktivitas per pekerja tetap tidak sepenuhnya sesuai dengan data, tetapi penyebab perbedaannya belum dapat dipastikan.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbandingan berbalik nilai, produktivitas kerja, dan pengujian asumsi model matematika."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika beban pekerjaan, produktivitas per pekerja, dan jam kerja efektif sama, hasil kali jumlah pekerja dan waktu penyelesaian seharusnya tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada proyek pertama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8×12=96 pekerja-hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pekerjaan yang sama diselesaikan oleh 12 pekerja, waktu yang diperlukan menurut model adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$t=96/12=8hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah pekerja meningkat dari 8 menjadi 12 orang, tetapi waktu penyelesaian tidak mengikuti perbandingan berbalik nilai yang diperkirakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada proyek kedua:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$12×10=120 pekerja-hari$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total pekerja-hari justru meningkat dari 96 menjadi 120."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Data tersebut tidak membuktikan bahwa produktivitas setiap pekerja meningkat. Selain itu, perubahan produktivitas masing-masing pekerja tidak dapat diketahui tanpa informasi tambahan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan total pekerja-hari menunjukkan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Proyek pertama = 96 pekerja-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Proyek kedua = 120 pekerja-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 96 ≠ 120, data tidak sesuai dengan model sederhana yang mengasumsikan produktivitas per pekerja dan jam kerja efektif tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, perbedaan tersebut belum dapat digunakan untuk memastikan penyebabnya. Faktor seperti perubahan jam kerja efektif, gangguan operasional, atau pembagian tugas dapat memengaruhi waktu penyelesaian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (3) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan jawaban: Benar – Salah – Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung hasil kali jumlah pekerja dan waktu untuk masing-masing proyek."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Proyek pertama: 8 × 12 = 96",
+                "Proyek kedua: 12 × 10 = 120"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena hasilnya berbeda, model perbandingan berbalik nilai dengan produktivitas tetap tidak sesuai dengan kedua data. Jangan menyimpulkan penyebabnya tanpa informasi tambahan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Kondisi Biaya Tambahan yang Memutus Senilai",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah jasa fotokopi mengenakan biaya awal Rp8.000,00 dan Rp500,00 untuk setiap lembar. Apakah total biaya berbanding senilai dengan jumlah lembar?"
+            }
+          ],
+          "opsi": {
+            "A": "Ya, karena biaya selalu bertambah",
+            "B": "Ya, jika jumlah lembar digandakan",
+            "C": "Tidak, karena ada biaya awal tetap",
+            "D": "Tidak, karena setiap lembar gratis",
+            "E": "Tidak dapat diperiksa dari informasi"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan senilai mensyaratkan biaya/jumlah lembar tetap; adanya komponen biaya tetap menghasilkan persamaan linear dengan intersep bukan nol."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk x lembar, biaya total $y = 8.000 + 500x.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada 10 lembar biaya Rp13.000; pada 20 lembar biaya Rp18.000, bukan Rp26.000. Jadi total biaya tidak berbanding senilai dengan jumlah lembar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kenaikan bersama tidak cukup untuk membuktikan senilai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Menggandakan x tidak menggandakan seluruh biaya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar, biaya awal tetap membuat rasio y/x berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Setiap lembar tetap memiliki tarif Rp500,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Aturan biaya diberikan secara lengkap sehingga dapat diuji."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Uji syarat “jumlah dua kali → total dua kali”. Jika tidak, bukan senilai."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Perbandingan Senilai dengan Nilai yang Belum Diketahui",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah mesin mampu memproduksi 90 komponen dalam waktu 3 jam. Mesin tersebut bekerja dengan laju produksi tetap tanpa mengalami gangguan atau penghentian selama proses produksi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa banyak komponen yang dapat dihasilkan mesin tersebut selama 8 jam?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka.)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 240**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan senilai antara waktu dan output apabila mesin dan laju tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Laju produksi $= 90 ÷ 3 = 30$ komponen/jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam 8 jam, output $= 30 × 8 = 240$ komponen."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $90 × 8/3 = 240$."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

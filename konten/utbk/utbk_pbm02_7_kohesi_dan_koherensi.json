@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "judul": "Kohesi dan Koherensi",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Kohesi dan Koherensi",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "id_katalog": "pbm-02-7"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penataan gagasan ialah proses menjaga akurasi informasi dan kesinambungan hubungan makna. Satu teks dapat memiliki semua kalimat yang benar secara tata bahasa tetapi tetap sulit dipahami bila urutannya keliru, rujukannya tidak jelas, atau kata hubungnya mengandaikan hubungan yang tidak dibuktikan. Oleh karena itu, peserta perlu membaca unit yang ditanya sekaligus konteks kalimat sebelum dan sesudahnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "penanda kohesi (rujukan, konjungsi) dan hubungan koherensi antargagasan dalam paragraf."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "beberapa hubungan antarkalimat untuk menilai kesesuaian penanda transisi, kesinambungan topik, dan logika paragraf."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Kohesi dan Koherensi",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kohesi adalah hubungan bentuk bahasa yang mengikat bagian-bagian teks, misalnya kata ganti, pengulangan kata kunci, sinonim, serta konjungsi. Koherensi adalah hubungan makna yang membuat ide berkembang secara logis. Teks dapat memiliki kata sambung yang terlihat rapi namun tetap tidak koheren jika hubungan sebab-akibat, pertentangan, atau rujukannya salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kohesi: pengikat antarkalimat yang terlihat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Perpustakaan menerima buku sumbangan. Koleksi itu kemudian diperiksa relawan.” Frasa “koleksi itu” merujuk pada buku sumbangan, sehingga kedua kalimat berhubungan secara gramatikal dan leksikal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Koherensi: hubungan isi yang masuk akal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Jalan licin setelah hujan. Karena itu, petugas memasang rambu peringatan.” Hubungan situasi dan tindakan masuk akal. Sebaliknya, “Jalan licin setelah hujan. Karena itu, seluruh bus terlambat akibat tarif baru” tidak logis jika tarif baru tidak dijelaskan sebelumnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konjungsi sesuai fungsi, bukan hiasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun menandai kontras/pembatasan; oleh sebab itu menandai akibat atau rekomendasi; selain itu menambah informasi; sementara itu dapat menunjukkan keadaan lain. Penanda yang tepat wajib cocok dengan isi gagasan yang dihubungkannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Uji setiap pernyataan secara mandiri"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika soal meminta “pilih semua pernyataan yang tepat”, jangan memaksakan satu opsi saja. Nilai apakah masing-masing pernyataan menggambarkan fungsi kalimat, acuan pronomina, dan hubungan logis yang benar. Periksa satu per satu sebelum menetapkan kumpulan jawaban."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kohesi dan Koherensi. Kohesi = keterkaitan bentuk bahasa; koherensi = keterkaitan logis makna. Kata hubung yang tampak benar belum tentu menghasilkan alur logis."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Prinsip Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Kohesi: pengikat antarkalimat yang terlihat",
+        "teks": ""
+      },
+      {
+        "judul": "Koherensi: hubungan isi yang masuk akal",
+        "teks": ""
+      },
+      {
+        "judul": "Konjungsi sesuai fungsi, bukan hiasan",
+        "teks": ""
+      },
+      {
+        "judul": "Uji setiap pernyataan secara mandiri",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan Penataan Gagasan membantu peserta memahami hubungan dan keteraturan informasi dalam teks. Melalui latihan, peserta diharapkan mampu menyusun serta mengevaluasi kalimat dan paragraf secara tepat sesuai kaidah bahasa."
+  }
+}

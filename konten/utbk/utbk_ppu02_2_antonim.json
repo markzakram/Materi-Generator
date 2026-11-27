@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "judul": "Antonim",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Antonim",
+    "sumber": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+    "id_katalog": "ppu-02-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Semantik adalah cabang ilmu bahasa yang mempelajari makna. Dalam bab ini, kita akan melihat bagaimana makna kata dipahami dari kalimat tempat kata itu digunakan. Kita akan mencoba mengganti kata dengan padanannya, mencari lawan kata yang sesuai, dan membandingkan kesan yang muncul ketika penulis memilih kata yang berbeda."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "antonim pada dimensi makna yang sesuai dengan konteks."
+      },
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "pertentangan mutlak, bertingkat, dan relasional."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menentukan antonim pada dimensi makna yang sesuai dengan konteks."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Membedakan pertentangan mutlak, bertingkat, dan relasional."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Antonim",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Antonim",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Antonim adalah kata atau ungkapan yang maknanya berlawanan. Untuk mencari lawan kata, tentukan dulu hal yang sedang dibandingkan. Misalnya, longgar pada pakaian berkaitan dengan ukuran, sedangkan longgar pada aturan berkaitan dengan ketegasan penerapannya. Kata ketat bisa menjadi lawan keduanya, tetapi alasan pemilihannya mengikuti konteks masing-masing."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menentukan hal yang dibandingkan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk mencari antonim, tanyakan dulu, “Kata ini menjelaskan apa?” Jawabannya bisa berupa suhu, ukuran, atau sifat lain. Setelah itu, periksa apakah calon lawan katanya membicarakan hal yang sama. Dua kata bisa berbeda makna tanpa membentuk pasangan antonim karena masing-masing menjelaskan hal yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Mengenali skala, dua status, dan dua peran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ada tiga bentuk hubungan yang akan kita lihat. Pada antonim bertingkat, kedua kata berada pada satu skala dan masih ada keadaan di antaranya. Pada antonim mutlak, pilihan status dalam konteks yang diberikan hanya dua dan keduanya saling meniadakan. Pada antonim relasional, kedua kata menunjukkan peran yang berpasangan dalam satu peristiwa."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan dalam kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membaca tabel, coba ajukan tiga pertanyaan. Apakah ada keadaan di antara kedua kata? Apakah konteks hanya menyediakan dua status? Apakah kedua kata menunjukkan peran yang berpasangan dalam peristiwa yang sama? Jawabannya membantu kamu menentukan jenis hubungan pada setiap pasangan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Hubungan",
+                "Contoh",
+                "Cara melihatnya"
+              ],
+              "baris": [
+                [
+                  "Bertingkat",
+                  "panas dan dingin",
+                  "Air dapat berada di antara keduanya, misalnya hangat."
+                ],
+                [
+                  "Mutlak",
+                  "lulus dan tidak lulus pada daftar dua status",
+                  "Daftar itu tidak menyediakan status ketiga."
+                ],
+                [
+                  "Relasional",
+                  "membeli dan menjual",
+                  "Pembeli dan penjual terlibat dalam transaksi yang sama."
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Hubungan | Contoh | Cara melihatnya"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Antonim. Tentukan ukuran yang dibandingkan dan apakah ada keadaan antara. Pada pasangan relasional, lihat peran kedua pihak.",
+                "Denotasi dan konotasi. Tentukan dulu arti kata dalam kalimat, termasuk bila dipakai secara kias. Setelah itu, jelaskan kesan yang menyertai pilihan kata."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Menentukan hal yang dibandingkan",
+        "teks": ""
+      },
+      {
+        "judul": "Mengenali skala, dua status, dan dua peran",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan dalam kalimat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Sinonim, antonim, dan konotasi perlu dipahami melalui pemakaian kata dalam kalimat. Pada sinonim, periksa apakah arti, fungsi kata, intensitas, dan ragam tetap terjaga. Pada antonim, temukan dimensi yang dipertentangkan dan tentukan apakah hubungannya mutlak, bertingkat, atau relasional. Pada konotasi, jelaskan penilaian yang dibawa pilihan kata tanpa mengubah fakta yang tersedia."
+  }
+}

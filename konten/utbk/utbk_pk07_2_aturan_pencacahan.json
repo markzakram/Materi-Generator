@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "judul": "Aturan Pencacahan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Aturan Pencacahan",
+    "sumber": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+    "id_katalog": "pk-07-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Banyak persoalan tampak seperti perhitungan sederhana, tetapi persoalan utamanya adalah memilih apa yang dihitung. Memilih tiga anggota tim bukanlah kegiatan yang sama dengan menunjuk ketua, sekretaris, dan bendahara. Demikian pula peluang dua objek terambil tanpa pengembalian tidak sama dengan peluang dua pengambilan yang independen. Kesalahan model akan menghasilkan jawaban keliru meskipun hitungan aritmetikanya benar."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "aturan jumlah/kali."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "pilihan bertahap."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "batasan dan pengulangan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Aturan Pencacahan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Aturan Pencacahan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Prinsip Penjumlahan dan Perkalian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aturan penjumlahan digunakan jika sebuah pilihan berasal dari kasus alternatif yang saling lepas. Jika ada m pilihan pada kasus pertama dan n pilihan pada kasus kedua, total m+n. Jika dua kasus bertumpang tindih, anggota irisan tidak boleh dihitung dua kali."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n(A ∪ B) = n(A) + n(B) − n(A ∩ B)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aturan perkalian digunakan ketika proses terdiri atas beberapa tahap dan seluruh tahap harus dilalui. Jika suatu tahap memiliki m pilihan dan setiap hasilnya membuka n pilihan tahap berikutnya, total m×n. Jika jumlah pilihan bergantung pada hasil sebelumnya, hitung per cabang lalu jumlahkan."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$N = n_{1} × n_{2} × ⋯ × n_{k}$"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk07_peluang_dan_kombinatorika/gambar-01.jpg",
+              "lebar": 6.48,
+              "tinggi": 2.44
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pembatas dan Pengulangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengulangan yang diperbolehkan mempertahankan pilihan pada setiap tahap; tanpa pengulangan jumlah pilihan biasanya berkurang."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal Aturan Pencacahan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Uraikan persoalan menjadi tahapan atau kasus. Sebutkan apakah semua tahap wajib terjadi atau hanya salah satu dari beberapa pilihan alternatif.",
+                "Hitung pilihan yang sah pada setiap tahap setelah memperhatikan larangan pengulangan, digit awal, ketersediaan objek, dan posisi khusus.",
+                "Terapkan perkalian untuk tahapan yang harus sama-sama terjadi; gunakan penjumlahan untuk kasus alternatif yang saling lepas. Jika kasus bertumpang tindih, hilangkan hitungan ganda.",
+                "Validasi dengan diagram pohon atau tabel kecil ketika memungkinkan, terutama jika pilihan tahap berikutnya bergantung pada hasil tahap sebelumnya."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Mengerjakan Soal Aturan Pencacahan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Teknik S–B–K–C (Slot–Batasan–Kalikan/Jumlahkan–Cek): buat kotak untuk setiap posisi, isi jumlah pilihan yang sah, lalu lakukan operasi yang sesuai.",
+                "Untuk kode tanpa pengulangan, jumlah pilihan biasanya menurun satu per satu; jika pengulangan diizinkan, pilihan tidak otomatis berkurang.",
+                "Kerjakan posisi paling terbatas terlebih dahulu, misalnya digit pertama yang tidak boleh nol, baru hitung posisi lainnya.",
+                "Pemisahan kasus lebih aman daripada satu perkalian apabila syarat posisi membuat jumlah pilihan berubah di antara cabang.",
+                "Kesalahan yang perlu dihindari: menganggap kata “atau” selalu berarti tambah tanpa memeriksa irisan, dan kata “dan” selalu berarti kalikan tanpa melihat ketergantungan."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Prinsip Penjumlahan dan Perkalian",
+        "teks": ""
+      },
+      {
+        "judul": "Pembatas dan Pengulangan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Peluang dan Kombinatorika menekankan ketepatan pemodelan, bukan hanya penghafalan rumus. Peserta perlu membedakan ruang sampel dengan kejadian, penjumlahan kasus dengan perkalian tahap, permutasi yang memperhatikan urutan dengan kombinasi yang tidak memperhatikan urutan, serta peluang sebelum dan sesudah kondisi tambahan diketahui. Teknik komplemen, blok, pemisahan kasus, dan pengujian pengulangan digunakan bila syaratnya terpenuhi."
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbandingan Kuantitatif",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Perbandingan Kuantitatif",
+    "sumber": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-08-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Variabel Positif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui x dan y bilangan positif, x = 3y. Kuantitas P = x + 2y dan Q = 2x. Hubungan yang benar adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "P > Q",
+            "B": "P = Q",
+            "C": "P < Q",
+            "D": "P = 2Q",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Selisih dua bentuk aljabar dan syarat variabel positif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi x = 3y"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "memberi P = 5y dan Q = 6y."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena y > 0,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "P − Q = −y < 0."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi P < Q."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A dan B mengabaikan tanda −y; C tepat; D akan menuntut 5y = 12y yang mustahil untuk y > 0; E salah karena syarat positif memastikan perbandingan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanpa menghitung nilai x atau y, kurangi P − Q = −y dan cek y > 0."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Hubungan Dua Variabel",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 2x + y = 11 dan x − y = 1, hubungan antara x dan y adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "x > y",
+            "B": "x < y",
+            "C": "x = y",
+            "D": "x + y = 0",
+            "E": "Tidak dapat ditentukan"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Selisih variabel langsung menentukan arah perbandingan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Syarat x − y = 1 menunjukkan x lebih besar 1 daripada y."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak perlu menyelesaikan persamaan pertama untuk mengetahui hubungannya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A benar; B dan C bertentangan dengan selisih positif; D tidak tersirat; E salah karena selisih diketahui pasti."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan persamaan x − y = 1; tanda positif langsung berarti x > y."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Uji Kasus",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui dua besaran, yaitu P = x² dan Q = 2x, dengan x merupakan bilangan real positif. Seorang siswa ingin mengetahui hubungan kedua besaran tersebut dengan menggunakan beberapa nilai x yang berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika x = 1, nilai P lebih kecil daripada Q.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika x = 2, nilai P sama dengan Q.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika x = 3, nilai P lebih kecil daripada Q.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Untuk setiap x positif, nilai P selalu lebih besar daripada Q.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Benar, Salah, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbandingan kuantitatif berdasarkan perubahan variabel"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pernyataan (1) Benar. Ketika x = 1, diperoleh P = 1² = 1 dan Q = 2(1) = 2. Jadi, P lebih kecil daripada Q.",
+                "Pernyataan (2) Benar. Ketika x = 2, diperoleh P = 2² = 4 dan Q = 2(2) = 4. Jadi, P sama dengan Q.",
+                "Pernyataan (3) Salah. Ketika x = 3, diperoleh P = 3² = 9 dan Q = 2(3) = 6. Jadi, P lebih besar daripada Q.",
+                "Pernyataan (4) Salah. Hubungan P dan Q tidak selalu sama untuk setiap x positif. Ketika 0 < x < 2, berlaku P < Q; ketika x = 2, berlaku P = Q; dan ketika x > 2, berlaku P > Q."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Benar – Salah – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Bandingkan P dan Q melalui selisih P − Q = x(x − 2). Jika hasilnya negatif, P < Q; jika nol, P = Q; dan jika positif, P > Q."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

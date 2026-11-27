@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Aritmatika Sosial",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Aritmatika Sosial",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-02-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Promo barang bonus",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Satu paket buah berisi lima kilogram berbayar seharga Rp30.000 dan bonus satu kilogram. Jika pembeli ingin menerima tepat 30 kilogram melalui paket tersebut, total pembayaran adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp120.000",
+            "B": "Rp150.000",
+            "C": "Rp180.000",
+            "D": "Rp210.000",
+            "E": "Rp250.000"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Biaya efektif per paket dan jumlah paket utuh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap paket memberi 6 kg dan berharga Rp30.000. Untuk menerima 30 kg diperlukan 30 ÷ 6 = 5 paket. Pembayaran = 5 × Rp30.000 = Rp150.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 4 paket hanya 24 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar, lima paket menghasilkan 30 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Setara enam paket dan menghasilkan 36 kg."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Setara tujuh paket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tidak sesuai harga kelipatan Rp30.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari kilogram diterima per paket, lalu hitung banyak paket."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Transaksi dengan biaya tetap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah toko menjual buku dengan harga Rp18.000 per buku. Seorang pelanggan membeli 3 buku dan mendapatkan potongan harga sebesar Rp6.000 dari total belanja. Selain itu, toko mengenakan biaya kemasan tetap sebesar Rp4.000 untuk setiap transaksi, tanpa memperhatikan jumlah buku yang dibeli."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Total harga ketiga buku sebelum potongan dan biaya kemasan adalah Rp54.000.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika potongan harga diperhitungkan sebelum biaya kemasan, jumlah pembayaran akhir adalah Rp48.000.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika pelanggan membeli 4 buku dengan potongan dan biaya kemasan yang sama, total pembayaran menjadi Rp70.000.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Jika biaya kemasan dihapus, tetapi potongan harga tetap berlaku, pelanggan cukup membayar Rp48.000 untuk 3 buku.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Benar**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Operasi hitung campuran pada transaksi dengan potongan nominal dan biaya tetap."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga satu buku adalah Rp18.000. Untuk pembelian 3 buku, total sebelum potongan dan biaya kemasan adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3 × Rp18.000 = Rp54.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga setelah potongan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp54.000 − Rp6.000 = Rp48.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, pelanggan masih harus membayar biaya kemasan Rp4.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total pembayaran:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp48.000 + Rp4.000 = Rp52.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Rp48.000 bukan jumlah pembayaran akhir."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika pelanggan membeli 4 buku, harga sebelum potongan adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4 × Rp18.000 = Rp72.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah dikurangi potongan dan ditambah biaya kemasan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp72.000 − Rp6.000 + Rp4.000 = Rp70.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (3) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika biaya kemasan dihapus, pelanggan hanya membayar harga ketiga buku setelah potongan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rp54.000 − Rp6.000 = Rp48.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (4) benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, urutan jawaban yang benar adalah Benar – Salah – Benar – Benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan pola:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total pembayaran=(n×h)-d+k$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "$n$ = jumlah buku",
+                "$h$ = harga per buku",
+                "$d$ = potongan nominal",
+                "$k$ = biaya kemasan tetap"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pastikan potongan nominal hanya dikurangkan satu kali dan biaya kemasan tetap hanya ditambahkan satu kali untuk setiap transaksi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

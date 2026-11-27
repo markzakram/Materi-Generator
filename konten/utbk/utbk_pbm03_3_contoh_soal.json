@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penulisan Kata Gabung",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penulisan Kata Gabung",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah pengumuman kegiatan harus menggunakan gabungan kata dan bentuk berimbuhan yang baku secara konsisten."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Panitia menyusun kebijakan agar penggunaan data peserta tetap dilakukan secara bertanggung jawab."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Penulisan bentuk berimbuhan yang tepat adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "bertanggungjawab",
+            "B": "ber-tanggung jawab",
+            "C": "bertanggung jawab",
+            "D": "bertangung jawab",
+            "E": "bertanggung-jawab"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menentukan penulisan gabungan kata berdasarkan bentuk dasar dan proses pengimbuhan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Temukan bentuk dasar dan batas antarkatanya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Periksa apakah bentuk itu tanpa afiks, berawalan saja, atau berawalan dan berakhiran sekaligus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Cocokkan dengan aturan perangkaian dan pengecualian yang sudah baku."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Awalan ber- pada gabungan ini tidak menyebabkan dua unsur dirangkaikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tanda hubung setelah awalan tidak diperlukan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar; gabungan tanggung jawab dengan awalan ber- tetap terpisah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Huruf g pada unsur tanggung tidak lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Tanda hubung antarbentuk tidak sesuai ejaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan bentuk dasar “tanggung jawab”. Karena hanya ditambah awalan ber-, penulisannya tetap “bertanggung jawab”, bukan disatukan atau diberi tanda hubung."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

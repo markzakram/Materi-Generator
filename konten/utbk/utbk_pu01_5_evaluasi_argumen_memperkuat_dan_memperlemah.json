@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "judul": "Evaluasi Argumen: Memperkuat dan Memperlemah",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Evaluasi Argumen - Memperkuat dan Memperlemah",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "id_katalog": "pu-01-5"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penalaran Verbal dalam bahan pembelajaran ini merupakan bagian dari domain Penalaran Umum sesuai kurikulum yang digunakan. Penalaran Verbal melatih kemampuan memahami informasi melalui bahasa, menemukan keteraturan dari sejumlah pengamatan, membandingkan hubungan antarkonsep, mengevaluasi sebab-akibat, memeriksa kesesuaian pernyataan, serta menilai kekuatan argumen berdasarkan bukti.",
+      "Materi disusun dalam lima cakupan utama: Generalisasi; Analogi; Hubungan Kausalitas; Kesesuaian Pernyataan; serta Evaluasi Argumen: Memperkuat dan Memperlemah. Kelima cakupan tersebut berada dalam domain Penalaran Verbal pada kurikulum terlampir dan saling melengkapi kemampuan membaca bukti secara kritis.",
+      "Strategi cepat seperti Bukti–Pola–Batas Simpulan, HAPE, S–A–B–A, B–T–C, dan K–A–B–U digunakan sebagai alat bantu berpikir. Strategi ini bukan pengganti penalaran yang sah, melainkan cara mengurutkan perhatian agar peserta dapat menemukan informasi penting dengan lebih efisien."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "klaim, alasan, asumsi, dan bukti."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "informasi yang menguatkan atau melemahkan argumen."
+      },
+      {
+        "level": "",
+        "kko": "Membandingkan",
+        "teks": "pengaruh bukti tambahan terhadap asumsi penghubung."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penalaran Deduktif",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penalaran Deduktif",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penalaran deduktif merupakan proses berpikir yang dimulai dari aturan, prinsip, atau pernyataan yang bersifat umum, kemudian digunakan untuk menarik kesimpulan pada kondisi yang lebih khusus. Berbeda dengan penalaran induktif yang membentuk kesimpulan umum berdasarkan sejumlah fakta atau pengamatan khusus, penalaran deduktif menggunakan aturan yang sudah tersedia untuk menentukan konsekuensi yang logis. Jika premis yang digunakan benar dan pola penalarannya tepat, kesimpulan yang dihasilkan dapat dipastikan mengikuti premis tersebut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Evaluasi Argumen: Memperkuat dan Memperlemah",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Evaluasi Argumen: Memperkuat dan Memperlemah",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Evaluasi argumen merupakan kemampuan menilai seberapa kuat alasan mendukung suatu kesimpulan. Pada soal memperkuat, peserta memilih informasi tambahan yang menaikkan dukungan terhadap klaim; pada soal memperlemah, peserta memilih informasi yang menurunkan dukungan terhadap klaim. Keduanya tidak menuntut pembuktian mutlak, melainkan perbandingan kekuatan bukti. Terdapat beberapa perbedaan dalam evaluasi argumen: memperkuat dan memperlemah, diantaranya yaitu:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Memperkuat",
+                "Memperlemah"
+              ],
+              "baris": [
+                [
+                  "Mendukung asumsi penting",
+                  "Membantah asumsi penting"
+                ],
+                [
+                  "Menunjukkan hasil sebanding pada kelompok kontrol",
+                  "Menunjukkan ketidaksebandingan kelompok"
+                ],
+                [
+                  "Mengurangi kemungkinan penyebab alternatif",
+                  "Menunjukkan penyebab alternatif yang masuk akal"
+                ],
+                [
+                  "Memberi bukti yang relevan dan representatif",
+                  "Menunjukkan bias data atau sampel"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis-jenis evaluasi argumen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Beberapa jenis evaluasi argumen, diantaranya yaitu:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Mengenali klaim, alasan, dan kesimpulan,** sebuah argumen tidak sama dengan sekumpulan fakta. Argumen terdiri atas kesimpulan yang ingin diyakinkan dan alasan yang digunakan untuk mendukungnya.",
+                "**Menilai relevansi dan kekuatan bukti**, Informasi disebut relevan apabila membantu menguji klaim yang sedang dinilai. Bukti yang relevan belum tentu kuat; kekuatannya bergantung pada seberapa langsung informasi menjelaskan mekanisme, besar pengaruh, dan kesesuaian dengan kelompok yang dibahas. Salah satu jebakan adalah memilih opsi yang menyebut kata-kata serupa dengan stimulus, padahal tidak mengubah dukungan terhadap kesimpulan. Perhatikan pula perbedaan antara hasil yang benar-benar diukur dan sekadar kesan atau pendapat.",
+                "**Mengungkap Asumsi Tersembunyi,** Argumen sering bergerak dari suatu fakta menuju kesimpulan melalui jembatan logis yang tidak tertulis. Jembatan tersebut disebut asumsi. Suatu opsi dapat memperkuat argumen jika menunjukkan bahwa asumsi penting terpenuhi; sebaliknya, informasi bahwa asumsi gagal dapat memperlemah klaim."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik yang berguna ialah menguji negasi asumsi: bayangkan dugaan penghubung itu salah. Jika alasan tidak lagi cukup menopang kesimpulan, asumsi tersebut sangat penting."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Menguji penyebab alternatif**, Argumen sebab-akibat sering dibangun dari urutan “program diterapkan, lalu hasil membaik”. Urutan waktu saja belum cukup membuktikan bahwa program menyebabkan perubahan. Mungkin ada kebijakan, tren musiman, atau perubahan kondisi lain yang terjadi bersamaan.",
+                "**Menggunakan perbandingan dan kelompok kontrol,** Perbandingan membantu memperkuat klaim kausal apabila kelompok yang menerima perlakuan dan kelompok pembanding memiliki kondisi awal yang sepadan. Semakin mirip faktor penting di luar perlakuan, semakin bernilai perbandingan tersebut.",
+                "**Menguji generalisasi dan kualitas sampel,** Kesimpulan tentang banyak orang atau seluruh wilayah perlu ditopang oleh sampel yang cukup mewakili kelompok sasaran. Sampel besar pun dapat menyesatkan jika hanya berisi kelompok yang memiliki karakteristik tertentu."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam menilai argumen generalisasi, perhatikan siapa yang ditanya, bagaimana responden dipilih, apakah ada kelompok yang tidak terwakili, dan apakah klaim terlalu luas dibandingkan cakupan pengamatan."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Mengenali pengecualian dan bukti penyangkal,** Dalam argumen dengan kata “semua”, “selalu”, atau “tidak pernah”, satu contoh yang sah dan bertentangan dapat membatalkan klaim universal. Namun, satu contoh belum tentu cukup untuk membantah klaim yang bersifat kecenderungan seperti “umumnya” atau “sebagian besar”."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bukti penyangkal yang tepat harus masuk cakupan klaim dan terverifikasi. Kasus dari tempat, kondisi, atau periode yang berbeda bisa jadi tidak relevan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal Evaluasi Argumen UTBK, peserta diminta menilai apakah suatu informasi tambahan dapat memperkuat atau memperlemah kesimpulan yang disampaikan dalam stimulus. Kunci penyelesaiannya bukan sekadar menentukan apakah suatu pernyataan benar atau salah, melainkan memahami seberapa besar pengaruh informasi tersebut terhadap kekuatan argumen."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Gunakan tekntik K-A-B-U, yang dapat digunkan untuk mengevaluasi argumen secara sistematis dan efisien."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "K — Kesimpulan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan klaim utama yang ingin dibuktikan penulis. Kesimpulan biasanya ditandai dengan kata oleh karena itu, sehingga, dengan demikian, atau disimpulkan bahwa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Alasan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi alasan atau fakta yang digunakan untuk mendukung kesimpulan. Perhatikan apakah alasan benar-benar berkaitan dengan klaim tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa informasi tambahan yang diberikan setiap pilihan jawaban. Tentukan apakah bukti tersebut berkaitan langsung dengan kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "U — Uji"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tanyakan: Jika informasi ini benar, apakah kesimpulan menjadi lebih kuat, lebih lemah, atau tidak berubah? Pilih opsi dengan pengaruh paling besar sesuai tugas soal."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Cara cepat membedakan memperkuat dan memperlemah"
+              ]
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-03.png",
+              "lebar": 7.22,
+              "tinggi": 1.96
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Gunakan teknik eliminasi jawaban"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Eliminasi informasi yang tidak relevan. Pilihan mungkin membahas topik yang sama, tetapi tidak memengaruhi kesimpulan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Periksa arah pengaruh. Dalam soal memperkuat, singkirkan opsi yang justru melemahkan, dan sebaliknya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bedakan bukti dan pengulangan klaim. Pernyataan yang hanya mengulang kesimpulan tidak otomatis menambah kekuatan argumen."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waspadai faktor alternatif. Ketika suatu hasil terjadi setelah sebuah program, jangan langsung menganggap program tersebut sebagai penyebabnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan kekuatan dua opsi tersisa. Pilih informasi yang paling langsung mengenai inti kesimpulan, bukan sekadar yang terdengar positif atau negatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Gunakan teknik K-A-B-U",
+                "Gunakan trik cepat memperkuat dan memperlemah"
+              ]
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jika Soal Meminta",
+                "Langsung Cari"
+              ],
+              "baris": [
+                [
+                  "PALING MEMPERKUAT",
+                  "Bukti yang mendukung hubungan alasan dan kesimpulan"
+                ],
+                [
+                  "PALING MEMPERLEMAH",
+                  "Bukti yang meragukan hubungan alasan dan kesimpulan"
+                ],
+                [
+                  "Memperkuat hubungan sebab-akibat",
+                  "Bukti bahwa hasil berubah karena faktor yang diklaim"
+                ],
+                [
+                  "Memperlemah hubungan sebab-akibat",
+                  "Penyebab alternatif yang dapat menjelaskan hasil"
+                ],
+                [
+                  "Memperkuat generalisasi",
+                  "Data tambahan yang lebih representatif"
+                ],
+                [
+                  "Memperlemah generalisasi",
+                  "Sampel yang bias atau bukti pengecualian yang relevan"
+                ]
+              ]
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Saat menemukan dua pilihan yang sama-sama terlihat benar, gunakan pertanyaan:"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "\"Jika informasi ini benar, apakah kesimpulan penulis menjadi lebih kuat atau lebih lemah?\""
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan memilih jawaban hanya karena terdengar positif atau negatif. Yang dinilai adalah pengaruhnya terhadap kesimpulan, bukan terhadap topik secara umum."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penalaran Deduktif",
+        "teks": ""
+      },
+      {
+        "judul": "Evaluasi Argumen: Memperkuat dan Memperlemah",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Verbal menuntut ketepatan dalam membaca hubungan antara informasi dan simpulan. Generalisasi melatih pembatasan cakupan berdasarkan data; Analogi menguji kesetaraan relasi; Hubungan Kausalitas menuntut pemeriksaan sebab, mekanisme, dan alternatif; Kesesuaian Pernyataan menuntut ketelitian terhadap dukungan stimulus; sedangkan Evaluasi Argumen melatih penilaian kekuatan bukti dan asumsi. Peserta disarankan mempelajari konsep dan pola hubungan terlebih dahulu, menerapkan strategi cepat yang sesuai, lalu mengevaluasi alasan setiap pilihan jawaban. Dalam pengerjaan soal, kualitas bukti harus lebih diutamakan daripada kesamaan kata, dugaan umum, atau pernyataan yang terdengar paling meyakinkan."
+  }
+}

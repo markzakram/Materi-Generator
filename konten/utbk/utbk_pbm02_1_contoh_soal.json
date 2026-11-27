@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penentuan Kalimat Inti",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penentuan Kalimat Inti",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Menentukan Gagasan Utama Paragraf",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah koperasi sekolah mengajak siswa mengurangi sampah kemasan dari kantin. Pengelola memulai program dengan mengamati jenis sampah yang paling sering ditemukan setelah jam istirahat. Mereka juga berdiskusi dengan pedagang mengenai perubahan kebiasaan pembeli. Sebagian pedagang khawatir layanan menjadi lebih lambat jika siswa membawa wadah sendiri, tetapi uji coba selama beberapa minggu menunjukkan bahwa antrean dapat diatur. Tim publikasi kemudian menyiapkan paragraf ringkas untuk menjelaskan gagasan utama program. Dalam proses penyuntingan, mereka perlu membedakan kalimat inti dari rincian contoh, insentif, dan hasil pelaksanaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Penggunaan kemasan pakai ulang dapat menekan timbulan sampah. (2) Sejumlah toko memberi insentif bagi pelanggan yang membawa wadah sendiri. (3) Kebiasaan itu mengurangi kebutuhan kemasan sekali pakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kalimat inti yang menaungi keseluruhan paragraf adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Penggunaan kemasan pakai ulang dapat menekan timbulan sampah.",
+            "B": "Insentif toko mendorong pelanggan membawa wadah sendiri.",
+            "C": "Berkurangnya kebutuhan kemasan sekali pakai adalah dampak membawa wadah pribadi.",
+            "D": "Toko dapat berperan melalui penyediaan insentif bagi pelanggan.",
+            "E": "Kebiasaan membawa wadah pribadi berkembang di berbagai toko."
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kalimat inti menunjukkan pokok informasi yang dipertahankan setelah bagian penjelas disisihkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.1, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tentukan apakah pertanyaan meminta inti satu kalimat atau gagasan inti paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Untuk paragraf, beri label ide umum, contoh, sebab, dampak, dan penegas pada setiap kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Untuk kalimat, tandai subjek dan predikat utama serta unsur wajib lainnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Benar. Merupakan gagasan umum yang dijelaskan melalui insentif toko dan penurunan pemakaian kemasan sekali pakai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Hanya merinci mekanisme insentif pada kalimat kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Hanya menyebut salah satu dampak di kalimat ketiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Berpusat pada peran toko dan tidak mewakili gagasan umum paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Menyatakan perkembangan kebiasaan yang tidak dibuktikan oleh bacaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalimat inti paragraf = ide yang menaungi rincian; kalimat inti struktural = unsur inti tanpa perluasan. Tentukan unit analisis sebelum memilih jawaban."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

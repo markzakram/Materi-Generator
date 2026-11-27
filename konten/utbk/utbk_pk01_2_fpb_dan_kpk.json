@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "judul": "FPB dan KPK",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - FPB dan KPK",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "id_katalog": "pk-01-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bilangan dan Aritmetika merupakan landasan penyelesaian berbagai persoalan kuantitatif."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "faktor, kelipatan, dan faktorisasi prima."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "FPB/KPK."
+      },
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "model tepat untuk pengelompokan atau periode."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bilangan dan Aritmetika",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bilangan dan Aritmetika",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua submateri mengikuti alur mengenali konsep, menerapkan model, kemudian menguji ketepatan model terhadap konteks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "FPB dan KPK",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "FPB dan KPK",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Faktor, Kelipatan, dan Bilangan Prima"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktor suatu bilangan merupakan bilangan bulat positif yang membagi habis bilangan tersebut. Faktor bersifat terbatas untuk setiap bilangan positif, sedangkan kelipatan positif tidak terbatas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep FPB dan KPK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "FPB dari beberapa bilangan adalah bilangan bulat positif terbesar yang membagi habis seluruh bilangan tersebut."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$FPB(84, 126) = 42$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$KPK(84, 126) = 252$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena 42 membagi 84 dan 126, bilangan itu merupakan faktor persekutuan. Tidak ada faktor bersama yang lebih besar. Sementara itu, 252 merupakan kelipatan bersama positif terkecil bagi keduanya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Faktorisasi Prima dan Aturan Pangkat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk menentukan FPB, pilih setiap faktor prima yang muncul pada semua bilangan dengan pangkat terkecil. Untuk menentukan KPK, pilih setiap faktor prima yang muncul pada sekurang-kurangnya satu bilangan dengan pangkat terbesar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$84 = 2^{2} × 3 × 7; 126 = 2 × 3^{2} × 7$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$FPB = 2 × 3 × 7 = 42$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$KPK = 2^{2} × 3^{2} × 7 = 252$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Metode Menentukan FPB dan KPK"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Metode daftar faktor cocok untuk bilangan kecil. Faktorisasi prima lebih sistematis ketika angkanya besar atau jumlah bilangannya banyak. Algoritma Euclid sangat efisien untuk FPB dua bilangan, khususnya ketika bilangan besar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$FPB(a, b) = FPB(b, sisa(a ÷ b))$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebagai ilustrasi: 126 ÷ 84 bersisa 42 dan 84 ÷ 42 bersisa 0, sehingga FPB(126,84)=42. Untuk KPK dua bilangan positif, manfaatkan hubungan hasil kali berikut setelah FPB diketahui."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$FPB(a, b) × KPK(a, b) = a × b$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identitas ini berlaku langsung untuk dua bilangan positif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pemilihan FPB atau KPK dalam Konteks"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Petunjuk konteks",
+                "Model umum",
+                "Hal yang harus diuji"
+              ],
+              "baris": [
+                [
+                  "Barang dibagi menjadi paket identik; tanpa sisa; jumlah paket maksimal",
+                  "FPB",
+                  "Paket identik, semua barang habis, tak ada sisa"
+                ],
+                [
+                  "Dua jadwal berulang; kapan bertepatan lagi",
+                  "KPK",
+                  "Peristiwa benar-benar dimulai bersamaan; periode tetap"
+                ],
+                [
+                  "Panjang potongan seragam terbesar tanpa sisa",
+                  "FPB",
+                  "Panjang asal terbagi habis oleh ukuran potongan"
+                ],
+                [
+                  "Bilangan positif terkecil yang habis dibagi semua angka",
+                  "KPK",
+                  "Ada syarat tambahan yang bisa mengubah kandidat"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bilangan Tak Diketahui dan Pemeriksaan Syarat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal yang memuat FPB/KPK bersama bilangan tidak diketahui, jangan langsung mengisi salah satu rumus. Tuliskan dahulu faktorisasi prima bilangan yang diketahui, tentukan batas pangkat prima bagi bilangan tak diketahui, lalu cek apakah syarat tersebut konsisten."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika $KPK(a,t)=L$, maka a dan t harus sama-sama membagi L. Jika $FPB(b,t)=G$, maka G harus membagi b dan t. Jika salah satu pasangan syarat memaksa suatu faktor prima ada dan tidak ada secara bersamaan, soal tidak mempunyai solusi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kenali pertanyaan: mencari pembagi bersama, kelipatan bersama, atau bilangan yang memenuhi dua syarat?",
+                "Ubah setiap bilangan menjadi faktorisasi prima dan catat pangkat tiap faktor.",
+                "Gunakan pangkat terkecil untuk FPB atau pangkat terbesar untuk KPK; bila konteks lebih mudah, pilih Euclid atau daftar kelipatan.",
+                "Periksa seluruh ketentuan: positif, bilangan bulat, tidak bersisa, waktu mulai, dan jumlah kelompok.",
+                "Substitusikan hasil untuk memastikan semua syarat terpenuhi."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat: Teknik P–F–P–C"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "P",
+                "Pahami konteks",
+                "Bagi sama rata = cek FPB; berulang = cek KPK"
+              ],
+              "baris": [
+                [
+                  "F",
+                  "Faktorkan",
+                  "Tentukan pangkat faktor prima"
+                ],
+                [
+                  "P",
+                  "Pilih aturan",
+                  "Pangkat minimum (FPB)/maksimum (KPK)"
+                ],
+                [
+                  "C",
+                  "Cek syarat",
+                  "Uji hasil pada seluruh bilangan dan batasan"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bilangan dan Aritmetika",
+        "teks": ""
+      },
+      {
+        "judul": "FPB dan KPK",
+        "teks": ""
+      }
+    ],
+    "pesan": "Melalui materi Bilangan dan Operasi Bilangan, peserta mempelajari jenis dan sifat bilangan, aturan operasi hitung, serta pemilihan strategi perhitungan yang efisien. Pada materi FPB dan KPK, peserta dilatih mengenali hubungan faktor dan kelipatan serta menentukan penggunaannya dalam persoalan pembagian dan kejadian berulang. Selanjutnya, Rasio/Perbandingan dan Proporsi membantu peserta memahami hubungan antarbesaran, menentukan nilai yang belum diketahui, serta mengevaluasi kesesuaian model matematika dengan informasi yang diberikan. Dengan memahami keseluruhan materi secara bertahap dan berlatih menggunakan berbagai bentuk soal, peserta diharapkan mampu mengembangkan kemampuan berpikir matematis yang sistematis, kritis, dan akurat. Penguasaan Bab Bilangan dan Aritmetika juga menjadi bekal untuk mempelajari materi kuantitatif berikutnya yang membutuhkan pemahaman tentang operasi, hubungan antarbesaran, dan pemodelan matematika. Pada akhirnya, keberhasilan dalam menyelesaikan soal kuantitatif tidak hanya ditentukan oleh kemampuan menghitung, tetapi juga oleh ketepatan memahami persoalan, memilih strategi, dan mengevaluasi hasil berdasarkan informasi yang tersedia."
+  }
+}

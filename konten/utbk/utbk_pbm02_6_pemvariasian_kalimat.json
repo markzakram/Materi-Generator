@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "judul": "Pemvariasian Kalimat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Pemvariasian Kalimat",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "id_katalog": "pbm-02-6"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penataan gagasan ialah proses menjaga akurasi informasi dan kesinambungan hubungan makna. Satu teks dapat memiliki semua kalimat yang benar secara tata bahasa tetapi tetap sulit dipahami bila urutannya keliru, rujukannya tidak jelas, atau kata hubungnya mengandaikan hubungan yang tidak dibuktikan. Oleh karena itu, peserta perlu membaca unit yang ditanya sekaligus konteks kalimat sebelum dan sesudahnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menjelaskan",
+        "teks": "cara memvariasikan susunan kalimat tanpa mengubah pelaku, keterangan waktu, fokus, dan hubungan informasi."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "variasi kalimat dengan membandingkan kesetaraan isi, hubungan logis, dan kelugasan susunan baru."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pemvariasian Kalimat",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemvariasian kalimat mengubah susunan dan bentuk kalimat supaya lebih efektif tanpa mengubah isi penting. Transformasi dapat berupa pemindahan keterangan, pengaktifan atau pemasifan, pemadatan, serta penggabungan. Namun kalimat hasil hanya setara jika pelaku, sasaran, waktu, urutan, negasi, dan tingkat kepastian tetap sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Memindahkan keterangan tanpa mengubah peristiwa"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Para siswa menyusun laporan pada Jumat sore” dapat diubah menjadi “Pada Jumat sore, para siswa menyusun laporan.” Waktu tetap sama dan pelaku tidak berubah. Pemindahan keterangan harus mempertahankan relasi yang sebelumnya dijelaskan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perubahan aktif–pasif yang setara"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Peneliti meninjau hasil survei” dapat menjadi “Hasil survei ditinjau oleh peneliti.” Objek menjadi subjek pasif, tetapi aktornya tetap. Bandingkan dengan perubahan yang menghilangkan kata “oleh peneliti”, yang kadang masih gramatikal tetapi dapat mengurangi informasi penting dalam soal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pertahankan durasi dan urutan tindakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Selama enam bulan, tim mengumpulkan data lalu mengolahnya” berbeda dengan “Tim mengolah data selama enam bulan”. Penempatan keterangan waktu mengubah tahap yang berlangsung enam bulan. Kata sebelum/sesudah atau setelah juga tidak boleh tertukar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jangan menambah klaim atau kepastian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Meneliti pola kenaikan suhu” tidak sama dengan “membuktikan penyebab kenaikan suhu”. Kata meneliti dan membuktikan memiliki tuntutan bukti berbeda. Demikian pula kemungkinan tidak sama dengan kepastian, dan sebagian tidak sama dengan seluruh."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Variasi ≠ perubahan makna. Pertahankan pelaku, sasaran, waktu, lokasi, tujuan, negasi, dan kepastian."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemvariasian Kalimat. Variasi ≠ perubahan makna. Pertahankan pelaku, sasaran, waktu, lokasi, tujuan, negasi, dan kepastian."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Prinsip Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Memindahkan keterangan tanpa mengubah peristiwa",
+        "teks": ""
+      },
+      {
+        "judul": "Perubahan aktif–pasif yang setara",
+        "teks": ""
+      },
+      {
+        "judul": "Pertahankan durasi dan urutan tindakan",
+        "teks": ""
+      },
+      {
+        "judul": "Jangan menambah klaim atau kepastian",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan Penataan Gagasan membantu peserta memahami hubungan dan keteraturan informasi dalam teks. Melalui latihan, peserta diharapkan mampu menyusun serta mengevaluasi kalimat dan paragraf secara tepat sesuai kaidah bahasa."
+  }
+}

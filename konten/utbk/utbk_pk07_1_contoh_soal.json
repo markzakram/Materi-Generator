@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Peluang",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Peluang",
+    "sumber": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-07-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kejadian Komplemen",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah kotak berisi 4 kelereng merah, 3 biru, dan 5 putih. Satu kelereng diambil secara acak. Peluang terambil kelereng yang tidak berwarna putih adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$1/4$",
+            "B": "$5/12$",
+            "C": "$1/2$",
+            "D": "$7/12$",
+            "E": "$3/4$"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Peluang komplemen pada ruang sampel sama mungkin."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total 12 kelereng;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "selain putih ada $4+3=7$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$Peluang =7/12$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Alternatif: $1−5/12 = 7/12.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(bukan putih) = 1 − 5/12 = 7/12$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A, B, C, E tidak menyatakan bagian 7 dari 12; D sesuai."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari jumlah selain putih, atau langsung 1−P(putih)."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Pengambilan Tanpa Pengembalian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dari kartu bernomor 1 sampai 5 diambil dua kartu sekaligus secara acak. Peluang jumlah kedua nomor genap adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$1/5$",
+            "B": "$2/5$",
+            "C": "$1/2$",
+            "D": "$3/5$",
+            "E": "$4/5$"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jumlah genap terjadi jika kedua nomor ganjil atau kedua nomor genap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ada 3 kartu ganjil dan 2 kartu genap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kasus menguntungkan"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$C(3,2)+C(2,2)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=3+1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=4.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total pemilihan $C(5,2)=10.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Peluang $4/10=2/5.$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P = [C(3, 2) + C(2, 2)]/C(5, 2) = 2/5$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A terlalu sedikit; C, D, E lebih besar dari $4/10$; B benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan kasus $ganjil+ganjil$ dan $genap+genap;$ gunakan kombinasi untuk pengambilan sekaligus."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Kondisi Tambahan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam kantong ada 5 bola hijau dan 4 bola merah. Diambil dua bola tanpa pengembalian. Diketahui bola pertama merah. Peluang bola kedua hijau adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "$4/9$",
+            "B": "$5/9$",
+            "C": "$1/2$",
+            "D": "$5/8$",
+            "E": "$3/8$"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Peluang bersyarat akibat informasi hasil pengambilan pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah bola merah pertama diambil, tersisa 8 bola, dengan 5 bola hijau."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena itu $P(hijau pada pengambilan kedua | merah pertama)=5/8$."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P = 5/8$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis pilihan:** A dan B menggunakan penyebut awal; C dan E tidak sama dengan proporsi 5 dari 8; D benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perbarui ruang sampel setelah mengetahui kejadian pertama."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

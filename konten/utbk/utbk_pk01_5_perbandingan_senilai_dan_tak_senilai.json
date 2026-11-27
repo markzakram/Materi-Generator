@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "judul": "Perbandingan Senilai dan Tak Senilai",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Perbandingan Senilai dan Tak Senilai",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "id_katalog": "pk-01-5"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bilangan dan Aritmetika merupakan landasan penyelesaian berbagai persoalan kuantitatif."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "hubungan senilai dan berbalik nilai."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "model."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "hubungan multivariabel dan asumsi laju tetap."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bilangan dan Aritmetika",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bilangan dan Aritmetika",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua submateri mengikuti alur mengenali konsep, menerapkan model, kemudian menguji ketepatan model terhadap konteks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Perbandingan Senilai dan Tak Senilai",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Perbandingan Senilai dan Tak Senilai",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Perbandingan Senilai dan Tak Senilai"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan senilai adalah hubungan dua besaran dengan rasio yang tetap: ketika besaran pertama dikalikan faktor k, besaran kedua juga dikalikan faktor k (pada kondisi lain yang relevan tetap). Perbandingan berbalik nilai adalah hubungan dua besaran dengan hasil kali yang tetap: ketika besaran pertama dikalikan faktor k, besaran kedua dibagi faktor k. Kedua hubungan ini tidak dapat diterapkan hanya berdasarkan kesan “naik” atau “turun”."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Senilai: y = kx dan y/x = k$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Berbalik nilai: y = k/x dan xy = k$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ciri dan Representasi Hubungan Senilai"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x_{1}/y_{1} = x_{2}/y_{2} atau y_{2} = y_{1} × (x_{2}/x_{1})$"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jumlah barang",
+                "Harga total (Rp)",
+                "Harga per barang"
+              ],
+              "baris": [
+                [
+                  "2",
+                  "18.000",
+                  "9.000"
+                ],
+                [
+                  "4",
+                  "36.000",
+                  "9.000"
+                ],
+                [
+                  "5",
+                  "45.000",
+                  "9.000"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Jumlah barang | Harga total (Rp) | Harga per barang"
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ciri dan Representasi Hubungan Berbalik Nilai"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ciri utamanya adalah $x × y$ tetap. Untuk satu pekerjaan dengan total beban tetap dan pekerja berkemampuan identik, jumlah pekerja dan waktu penyelesaian dapat berbalik nilai."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$x_{1}y_{1} = x_{2}y_{2} atau y_{2} = (x_{1}y_{1})/x_{2}$"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jumlah mesin",
+                "Waktu (jam)",
+                "Mesin × jam"
+              ],
+              "baris": [
+                [
+                  "3",
+                  "12",
+                  "36"
+                ],
+                [
+                  "4",
+                  "9",
+                  "36"
+                ],
+                [
+                  "6",
+                  "6",
+                  "36"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Jumlah mesin | Waktu (jam) | Mesin × jam"
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Membedakan Model dari Tabel dan Narasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca dua kondisi lalu uji konstanta. Jika rasio $y/x$ sama, data mendukung senilai. Jika hasil kali $xy$ sama, data mendukung berbalik nilai. Jika keduanya berubah, jangan memaksakan salah satu model; periksa kemungkinan biaya awal, efisiensi menurun, atau variabel tersembunyi."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pertanyaan penguji",
+                "Senilai",
+                "Berbalik nilai"
+              ],
+              "baris": [
+                [
+                  "Jika $x$ dua kali lipat",
+                  "$y$ juga dua kali lipat",
+                  "$y$ menjadi setengah"
+                ],
+                [
+                  "Besaran yang tetap",
+                  "$y/x$",
+                  "$x × y$"
+                ],
+                [
+                  "Contoh bersyarat",
+                  "jumlah dan harga (tarif/unit tetap)",
+                  "jumlah mesin dan waktu (beban & laju tetap)"
+                ],
+                [
+                  "Kondisi pengganggu",
+                  "biaya tambahan/tarif bertingkat",
+                  "waktu persiapan/produktivitas berubah"
+                ]
+              ],
+              "tambahan": [
+                {
+                  "alasan": "tabel di subbab yang masuk",
+                  "isi": "Tabel: Pertanyaan penguji | Senilai | Berbalik nilai"
+                }
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Beberapa Variabel dalam Pekerjaan dan Produksi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal produktivitas dapat melibatkan jumlah pekerja (n), waktu (t), laju per pekerja per satuan waktu (r), serta pekerjaan total (W). Hubungan dasar $W = nrt.$ Untuk pekerjaan yang sama dengan laju per unit yang sama, produk n × t tetap. Namun jika volume pekerjaan berubah atau laju berubah, model sederhana jumlah × waktu tidak cukup."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$W = n × r × t$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n_{1}r_{1}t_{1}/W_{1} = n_{2}r_{2}t_{2}/W_{2} = 1$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari $W = nrt$, jika dibandingkan dua kondisi, gunakan $n₂ = n₁ × (W₂/W₁) × (r₁/r₂) × (t₁/t₂)$. Setiap faktor harus jelas: volume pekerjaan lebih besar menaikkan kebutuhan pekerja, waktu lebih panjang menurunkan kebutuhan pekerja, sedangkan laju lebih tinggi juga menurunkan kebutuhan pekerja."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n_{2} = n_{1} × W_{2}/W_{1} × r_{1}/r_{2} × t_{1}/t_{2}$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertama, identifikasi dua atau lebih besaran yang berubah dan kondisi yang harus tetap. Kedua, nyatakan hubungan yang masuk akal berdasarkan konteks, bukan berdasarkan kata “banyak” atau “sedikit” saja. Ketiga, uji konstanta rasio atau hasil kali bila terdapat beberapa baris data. Keempat, buat model, hitung besaran yang diminta, lalu interpretasikan satuan dan arah hasil. Kelima, untuk gabungan variabel gunakan W = nrt agar tidak salah memilih model."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat: Teknik M–O–D–E–L"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "M — Mengenali besaran yang berubah dan satuannya. O — Observasi arah hubungan serta syarat yang tetap. D — Deteksi konstanta: rasio tetap atau hasil kali tetap. E — Eksekusi model yang tepat, termasuk W = nrt untuk beberapa variabel. L — Lakukan cek kewajaran dan asumsi. Teknik ini menghindari kebiasaan mengalikan silang tanpa mengidentifikasi model."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Senilai: y_{2} = y_{1} × x_{2}/x_{1}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Berbalik: y_{2} = y_{1} × x_{1}/x_{2}$"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bilangan dan Aritmetika",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan Senilai dan Tak Senilai",
+        "teks": ""
+      }
+    ],
+    "pesan": "Melalui materi Bilangan dan Operasi Bilangan, peserta mempelajari jenis dan sifat bilangan, aturan operasi hitung, serta pemilihan strategi perhitungan yang efisien. Pada materi FPB dan KPK, peserta dilatih mengenali hubungan faktor dan kelipatan serta menentukan penggunaannya dalam persoalan pembagian dan kejadian berulang. Selanjutnya, Rasio/Perbandingan dan Proporsi membantu peserta memahami hubungan antarbesaran, menentukan nilai yang belum diketahui, serta mengevaluasi kesesuaian model matematika dengan informasi yang diberikan. Dengan memahami keseluruhan materi secara bertahap dan berlatih menggunakan berbagai bentuk soal, peserta diharapkan mampu mengembangkan kemampuan berpikir matematis yang sistematis, kritis, dan akurat. Penguasaan Bab Bilangan dan Aritmetika juga menjadi bekal untuk mempelajari materi kuantitatif berikutnya yang membutuhkan pemahaman tentang operasi, hubungan antarbesaran, dan pemodelan matematika. Pada akhirnya, keberhasilan dalam menyelesaikan soal kuantitatif tidak hanya ditentukan oleh kemampuan menghitung, tetapi juga oleh ketepatan memahami persoalan, memilih strategi, dan mengevaluasi hasil berdasarkan informasi yang tersedia."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penggabungan Kalimat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penggabungan Kalimat",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Penggabungan Kalimat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tim pengamat lingkungan menyusun laporan mengenai perubahan kondisi wilayah sungai selama beberapa tahun terakhir. Laporan itu memuat hasil pengamatan dari dua lokasi berbeda, yaitu kawasan hilir yang kerap terdampak genangan dan kawasan hulu yang mengalami perubahan tutupan lahan. Penyusun laporan diminta menyajikan kedua temuan secara cermat. Karena laporan belum memuat analisis hubungan langsung di antara keduanya, penyunting harus menghindari penggunaan kata penghubung yang menyatakan sebab-akibat ataupun urutan waktu secara pasti. Perhatikan dua kalimat sumber berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Banjir di wilayah hilir meningkat. Area resapan di bagian hulu semakin berkurang. Penggabungan kedua kalimat yang mempertahankan informasi tanpa menambahkan hubungan waktu atau sebab-akibat yang belum dinyatakan adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Banjir di hilir meningkat karena seluruh area resapan di hulu telah hilang.",
+            "B": "Banjir di wilayah hilir meningkat setelah area resapan di bagian hulu semakin berkurang.",
+            "C": "Banjir di wilayah hilir meningkat dan area resapan di bagian hulu semakin berkurang.",
+            "D": "Banjir di wilayah hilir meningkat sedangkan area resapan di bagian hilir semakin berkurang.",
+            "E": "Banjir di wilayah hilir meningkat meskipun area resapan di bagian hulu semakin berkurang."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penggabungan kalimat menyatukan dua informasi menjadi satu struktur yang efektif tanpa mengubah pelaku, tempat, waktu, negasi, atau kepastian hubungan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.2, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Pisahkan fakta pada setiap kalimat menjadi pelaku, tindakan, objek, lokasi, waktu, dan tingkat kepastian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Identifikasi hubungan yang benar-benar dinyatakan: tambahan, waktu, alasan, akibat, atau pertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Periksa konjungsi setiap opsi; tolak yang mengubah fakta menjadi sebab pasti tanpa bukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menambahkan penyebab pasti dan klaim bahwa seluruh area resapan hilang; keduanya tidak dinyatakan sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kata “setelah” menambahkan urutan waktu yang belum diinformasikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar. Konjungsi “dan” menggabungkan dua fakta tanpa mengandaikan hubungan kausal atau kronologis tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Mengubah lokasi penyusutan resapan dari hulu menjadi hilir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Kata “meskipun” mengasumsikan pertentangan yang tidak dijelaskan oleh dua kalimat sumber."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gabungkan fakta, jangan menambahkan sebab-akibat atau urutan waktu yang tidak dinyatakan. Periksa perubahan pelaku, lokasi, negasi, dan kepastian."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

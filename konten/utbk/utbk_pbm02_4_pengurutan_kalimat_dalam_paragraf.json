@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "judul": "Pengurutan Kalimat dalam Paragraf",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Pengurutan Kalimat dalam Paragraf",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "id_katalog": "pbm-02-4"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penataan gagasan ialah proses menjaga akurasi informasi dan kesinambungan hubungan makna. Satu teks dapat memiliki semua kalimat yang benar secara tata bahasa tetapi tetap sulit dipahami bila urutannya keliru, rujukannya tidak jelas, atau kata hubungnya mengandaikan hubungan yang tidak dibuktikan. Oleh karena itu, peserta perlu membaca unit yang ditanya sekaligus konteks kalimat sebelum dan sesudahnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "penanda waktu, sebab-akibat, referensi, dan urutan peristiwa yang membentuk struktur paragraf."
+      },
+      {
+        "level": "",
+        "kko": "Menyusun",
+        "teks": "kalimat acak menjadi paragraf koheren dengan memperhatikan perkembangan informasi, keterkaitan sebab-akibat, dan rujukan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Pengurutan Kalimat dalam Paragraf",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Mengurutkan kalimat ialah menyusun informasi dari titik awal yang jelas menuju rincian, penjelasan sebab-akibat, tindakan, dan hasil. Pembaca tidak cukup mencari kalimat berawalan kata transisi; ia harus memastikan setiap kata rujukan memiliki anteseden serta waktu kejadian tidak tertukar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kalimat pembuka yang dapat berdiri sendiri"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat pembuka biasanya memperkenalkan topik tanpa bergantung pada kata itu, tersebut, hal ini, atau upaya tersebut yang belum punya rujukan. Akan tetapi, kalimat pembuka tidak selalu memuat gagasan paling umum jika teks berupa kronologi; yang penting ia menetapkan konteks awal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pengikat sebab, dampak, tindakan, dan hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Paragraf yang menjelaskan penanganan masalah sering mengikuti urutan sebab → dampak → tindakan → hasil. Contoh: “Hujan deras merusak jalan → akses warga terhambat → petugas menutup jalur → rute sementara dibuka.” Ini berbeda dari teks prosedur yang menekankan langkah berurutan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kata rujukan membatasi urutan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat “Upaya itu mengurangi antrean” harus ditempatkan setelah tindakan yang disebut sebagai “upaya”. Demikian pula “akibatnya” mengisyaratkan suatu penyebab telah dijelaskan, sedangkan “selanjutnya” menuntut tahapan sebelumnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Uji rantai informasi lama–baru"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah mengusulkan satu urutan, baca seluruh paragraf sebagai satu teks. Periksa bahwa bagian akhir menutup atau melanjutkan secara logis, dan tidak ada pengulangan yang mengganggu atau pernyataan yang melompat mundur tanpa penanda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pengurutan Kalimat dalam Paragraf. Cari pembuka mandiri → rangkai sebab–dampak–tindakan–hasil → periksa semua kata “ini/itu/tersebut” → baca ulang paragraf."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Prinsip Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Kalimat pembuka yang dapat berdiri sendiri",
+        "teks": ""
+      },
+      {
+        "judul": "Pengikat sebab, dampak, tindakan, dan hasil",
+        "teks": ""
+      },
+      {
+        "judul": "Kata rujukan membatasi urutan",
+        "teks": ""
+      },
+      {
+        "judul": "Uji rantai informasi lama–baru",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan Penataan Gagasan membantu peserta memahami hubungan dan keteraturan informasi dalam teks. Melalui latihan, peserta diharapkan mampu menyusun serta mengevaluasi kalimat dan paragraf secara tepat sesuai kaidah bahasa."
+  }
+}

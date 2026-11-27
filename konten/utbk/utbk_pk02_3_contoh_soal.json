@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Diskon",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Diskon",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-02-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Diskon tunggal",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tujuh butir telur berharga Rp35.000. Harga per butir tetap. Jika membeli 12 butir dan mendapat diskon 5% dari total belanja, pembayaran akhir adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp55.000",
+            "B": "Rp56.000",
+            "C": "Rp57.000",
+            "D": "Rp58.000",
+            "E": "Rp59.000"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Harga total sebelum diskon dan faktor pengali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga satu butir = 35.000/7 = 5.000. Dua belas butir = 60.000; potongan 5% × 60.000 = 3.000; bayar Rp57.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Terlalu kecil Rp2.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Kurang Rp1.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar Rp57.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Terlalu besar Rp1.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu besar Rp2.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "60.000 × 0,95 = 57.000."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Diskon bertingkat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga tas Rp250.000 mendapat potongan 20%, kemudian potongan tambahan 10% dari harga setelah diskon pertama. Harga akhir tas adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp170.000",
+            "B": "Rp175.000",
+            "C": "Rp180.000",
+            "D": "Rp185.000",
+            "E": "Rp190.000"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Diskon bertingkat menggunakan basis terbaru."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah diskon pertama harga menjadi 250.000 × 0,80 = 200.000. Setelah diskon kedua harga = 200.000 × 0,90 = Rp180.000."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak sesuai faktor 0,72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Tidak sama dengan 250.000 × 0,72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Terlalu tinggi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu tinggi."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalikan dua faktor: 250.000 × 0,8 × 0,9."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Membandingkan dua skema",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk barang seharga Rp200.000, Promo A memberikan diskon 25%, sedangkan Promo B memberikan potongan Rp42.000 dan cashback Rp12.000 yang dapat langsung digunakan untuk transaksi ini. Manakah yang lebih menghemat biaya efektif?"
+            }
+          ],
+          "opsi": {
+            "A": "A unggul Rp4.000",
+            "B": "A unggul Rp6.000",
+            "C": "B unggul Rp4.000",
+            "D": "B unggul Rp6.000",
+            "E": "Sama hemat"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Perbandingan nominal potongan pada basis yang sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Promo A hemat 25% × 200.000 = 50.000. Promo B mengurangi biaya efektif sebesar 42.000 + 12.000 = 54.000. Jadi B lebih hemat Rp4.000, dengan asumsi cashback benar-benar langsung bernilai dalam transaksi ini."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. A tidak unggul."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. A tidak unggul."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar: 54.000 − 50.000 = 4.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Selisih bukan 6.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Hemat tidak sama."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ubah setiap skema menjadi penghematan dalam rupiah."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

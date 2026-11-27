@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "judul": "Peluang",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Peluang",
+    "sumber": "https://docs.google.com/document/d/1YlIhd4inxUJeNY7j7MOO8vYBMCBJ9L6ieoRo9lxeu-Y/edit",
+    "id_katalog": "pk-07-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Banyak persoalan tampak seperti perhitungan sederhana, tetapi persoalan utamanya adalah memilih apa yang dihitung. Memilih tiga anggota tim bukanlah kegiatan yang sama dengan menunjuk ketua, sekretaris, dan bendahara. Demikian pula peluang dua objek terambil tanpa pengembalian tidak sama dengan peluang dua pengambilan yang independen. Kesalahan model akan menghasilkan jawaban keliru meskipun hitungan aritmetikanya benar."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "ruang sampel/kejadian."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "peluang sederhana/komplemen."
+      },
+      {
+        "level": "",
+        "kko": "Menilai",
+        "teks": "pengaruh kondisi tambahan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Peluang",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Peluang",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Peluang"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Percobaan acak adalah percobaan yang hasil spesifiknya belum dapat dipastikan, walaupun daftar kemungkinan hasil dapat ditentukan. Ruang sampel S berisi seluruh hasil yang mungkin; setiap anggota S disebut titik sampel. Kejadian A merupakan himpunan bagian dari S. Peluang mengukur proporsi kemungkinan terjadinya A sesuai model yang digunakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pengambilan satu koin dan satu dadu, ruang sampelnya berupa pasangan hasil koin dan mata dadu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus klasik berikut berlaku bila semua titik sampel sama mungkin."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(A) = n(A)/n(S)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kejadian Komplemen dan Gabungan"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(A^{c}) = 1 − P(A)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Komplemen A adalah semua hasil yang tidak termasuk A. Cara komplemen sering lebih efisien ketika soal menggunakan kata “minimal satu”, “tidak ada”, atau “bukan”. Penjumlahan peluang tanpa pengurangan irisan hanya tepat jika A dan B saling lepas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peluang Bersyarat dan Tanpa Pengembalian"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(A | B) = P(A ∩ B)/P(B), P(B) > 0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bila objek tidak dikembalikan, jumlah objek total dan komposisi kategori berubah setelah pengambilan. Bila soal memberikan informasi bahwa suatu kejadian B sudah terjadi, ruang sampel perlu dibatasi pada kejadian B. Peluang bersyarat tidak otomatis sama dengan peluang awal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal Peluang",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kenali percobaan dan hasil yang mungkin. Tuliskan ruang sampel atau jumlah seluruh hasil yang sah; pastikan semua hasil memiliki peluang sama sebelum menggunakan $n(A)/n(S).$",
+                "Rumuskan kejadian yang diminta secara spesifik. Bedakan “tepat satu”, “minimal satu”, “paling banyak satu”, “keduanya”, dan “salah satu”, karena setiap frasa membentuk himpunan kejadian berbeda.",
+                "Periksa pengembalian dan ketergantungan. Pada pengambilan tanpa pengembalian, banyak objek tersisa berubah; pada informasi bersyarat, gunakan ruang sampel yang telah dibatasi.",
+                "Pilih perhitungan langsung, komplemen, gabungan, atau peluang bersyarat; periksa hasil akhir berada antara 0 dan 1. Bandingkan juga peluang kejadian dengan peluang komplemennya sebagai kontrol."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Mengerjakan Soal Peluang",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Teknik S–K–M–C (Sampel–Kejadian–Model–Cek): tentukan sampel yang sah, tetapkan kejadian, pilih model sesuai kondisi, lalu cek 0 ≤ P ≤ 1.",
+                "Untuk “minimal satu”, hitung P(minimal satu) = 1 − P(tidak satu pun) jika perhitungan komplemennya lebih pendek. Ini bukan alasan untuk menganggap pengambilan saling bebas.",
+                "Untuk pengambilan tanpa pengembalian, tulis pecahan peluang secara bertahap: pembilang dan penyebut dapat berubah sesudah setiap pengambilan.",
+                "Untuk “A atau B”, gunakan P(A ∪ B) = P(A) + P(B) − P(A ∩ B); baru cukup dijumlah langsung jika keduanya saling lepas.",
+                "Kesalahan yang perlu dihindari: membagi banyak kejadian dengan banyak sampel ketika peluang titik sampelnya tidak seragam, serta mengabaikan kondisi yang sudah diketahui."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Peluang",
+        "teks": ""
+      },
+      {
+        "judul": "Kejadian Komplemen dan Gabungan",
+        "teks": ""
+      },
+      {
+        "judul": "Peluang Bersyarat dan Tanpa Pengembalian",
+        "teks": ""
+      }
+    ],
+    "pesan": "Peluang dan Kombinatorika menekankan ketepatan pemodelan, bukan hanya penghafalan rumus. Peserta perlu membedakan ruang sampel dengan kejadian, penjumlahan kasus dengan perkalian tahap, permutasi yang memperhatikan urutan dengan kombinasi yang tidak memperhatikan urutan, serta peluang sebelum dan sesudah kondisi tambahan diketahui. Teknik komplemen, blok, pemisahan kasus, dan pengujian pengulangan digunakan bila syaratnya terpenuhi."
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pengukuran",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Pengukuran",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-05-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Konversi Luas",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah papan memiliki luas 2,4 m². Luas papan tersebut dalam cm² adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "240 cm²",
+            "B": "2.400 cm²",
+            "C": "24.000 cm²",
+            "D": "240.000 cm²",
+            "E": "2.400.000 cm²"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Faktor konversi luas adalah kuadrat faktor panjang."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$1 m²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=(100 cm)²$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$=10.000 cm².$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi $2,4 m²=24.000 cm².$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A,B terlalu kecil;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D,E terlalu besar;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Konversi $m²$ ke $cm²$ kalikan 10.000."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Ketelitian dan Satuan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Panjang lantai persegi panjang tercatat 4,2 m dan lebarnya 2,8 m, masing-masing dibulatkan ke 0,1 m terdekat. Pernyataan manakah yang PALING TEPAT?"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk05_geometri_dan_pengukuran/gambar-10.png",
+              "lebar": 6.17,
+              "tinggi": 3.52
+            }
+          ],
+          "opsi": {
+            "A": "Luas sebenarnya tepat sebesar 11,76 m².",
+            "B": "Luas sebenarnya dapat berbeda dari 11,76 m².",
+            "C": "Luas sebenarnya selalu kurang dari 11,00 m².",
+            "D": "Luas perkiraan lantai adalah 1.176 m².",
+            "E": "Ukuran panjang dan lebar harus dibagi 100."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ukuran 4,2 m dan 2,8 m merupakan **hasil pembulatan ke 0,1 m terdekat**, sehingga bukan ukuran yang pasti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Luas yang dihitung dari kedua ukuran tersebut merupakan **luas perkiraan**, bukan luas sebenarnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Panjang tercatat = 4,2 m",
+                "Lebar tercatat = 2,8 m"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Luas berdasarkan ukuran tercatat adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L = p × l$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L = 4,2 × 2,8$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L = 11,76 m²$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, 4,2 m dan 2,8 m merupakan hasil pembulatan. Artinya, panjang dan lebar sebenarnya dapat sedikit lebih kecil atau lebih besar daripada nilai yang tercatat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk panjang 4,2 m:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$4,15 m ≤ panjang$ sebenarnya $< 4,25 m$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk lebar 2,8 m:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$2,75 m ≤ lebar$ sebenarnya $< 2,85 m$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena ukuran sebenarnya dapat berbeda, luas sebenarnya juga tidak harus tepat 11,76 m²."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, 11,76 m² merupakan luas perkiraan, sedangkan luas sebenarnya dapat berbeda. Jawaban yang benar adalah B."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan kata **“dibulatkan”**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika panjang dan lebar merupakan hasil pembulatan, maka nilainya bukan ukuran yang pasti."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$4,2 × 2,8 = 11,76 m²$ hanya memberikan **luas perkiraan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, langsung pilih: B. Luas sebenarnya dapat berbeda dari 11,76 m²."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "judul": "Fungsi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Fungsi",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "id_katalog": "pk-03-7"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Aljabar adalah bahasa matematika untuk menyatakan hubungan yang belum sepenuhnya diketahui. Variabel membantu merepresentasikan informasi yang berubah; persamaan dan pertidaksamaan membantu menerjemahkan syarat; relasi dan fungsi menjelaskan hubungan masukan–keluaran."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menguasai",
+        "teks": "konsep dan representasi."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "prosedur penyelesaian."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "kesahihan langkah, domain, dan batasan konteks."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Fungsi",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Fungsi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi adalah relasi yang memasangkan setiap anggota domain dengan tepat satu anggota kodomain. Satu keluaran boleh dimiliki beberapa masukan, tetapi satu masukan tidak boleh menghasilkan dua keluaran berbeda. Notasi $f(x)$ menyatakan keluaran aturan $f$ pada masukan $x; f(x)$ bukan hasil kali $f$ dengan $x$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan Materi dan Penalaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai fungsi dihitung dengan memasukkan nilai $x$ ke aturan yang diberikan, dengan memperhatikan domain. Dari tabel, periksa apakah masukan berulang menghasilkan keluaran yang sama. Grafik fungsi memenuhi uji garis vertikal: setiap garis vertikal memotong grafik paling banyak satu titik dalam domain. Komposisi $f∘g$ berarti menerapkan g terlebih dahulu, lalu $f$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$f(x) = ax + b ⇒ f(t) = at + b$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(f ∘ g)(x) = f(g(x))$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Fungsi sebagai Pemetaan: Domain, Kodomain, dan Range"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk fungsi $f: A → B$, setiap $a ∈ A$ dipasangkan dengan tepat satu $f(a) ∈ B$. Domain adalah $A$; kodomain adalah $B$; range merupakan nilai yang benar-benar dihasilkan oleh fungsi dan merupakan bagian dari $B$. Dua anggota $A$ boleh memiliki nilai fungsi sama; itu tetap fungsi, tetapi belum tentu injektif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis Fungsi Berdasarkan Sifat Pemetaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Injektif (satu-ke-satu): masukan berbeda menghasilkan keluaran berbeda; secara formal $f(a₁)=f(a₂)$ mengakibatkan $a₁=a₂$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Surjektif (onto): setiap unsur kodomain mempunyai setidaknya satu praimaj. Bijektif: sekaligus injektif dan surjektif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis Fungsi dan Ciri Grafik",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi konstan: $f(x)=c$, grafik garis horizontal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi identitas: $f(x)=x$, setiap masukan dipetakan ke dirinya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi linear/afine:$f(x)=ax+b$, grafik garis lurus (untuk $a≠0$ kemiringannya tidak nol)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi kuadrat: $f(x)=ax²+bx+c$ dengan $a≠0$, grafik parabola."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi polinom merupakan jumlah suku-suku berpangkat bulat taknegatif. Fungsi rasional berbentuk $(p(x))/(q(x))$ dengan $q(x)≠0$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi akar seperti $f(x)=√(x−a)$ mensyaratkan $x≥a$ pada bilangan real."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Fungsi genap memenuhi $f(−x)=f(x)$, sedangkan fungsi ganjil memenuhi $f(−x)=−f(x)$ pada domain yang simetris terhadap nol."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Operasi Aljabar pada Fungsi",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(f+g)(x)=f(x)+g(x);$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(f−g)(x)=f(x)−g(x);$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$(fg)(x)=f(x)g(x);$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$(f/g)(x)=(f(x))/(g(x))$ untuk $g(x)≠0$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Komposisi Fungsi",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Komposisi $f∘g$ dibaca “$f$ setelah $g$”: $(f∘g)(x)=f(g(x))$. Sebaliknya, $(g∘f)(x)=g(f(x))$; urutan pelaksanaan menentukan hasil. Komposisi umumnya tidak komutatif, tetapi asosiatif: $f∘(g∘h)=(f∘g)∘h$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Strategi untuk soal komposisi: tentukan fungsi bagian dalam, substitusikan hasilnya ke fungsi luar, sederhanakan, lalu periksa syarat domain pada setiap tahap. Fungsi identitas $I(x)=x$ memenuhi $f∘I=I∘f=f$ pada domain yang tepat."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Strategi:** tentukan domain, baca aturan masukan–keluaran, selesaikan operasi pada urutan yang benar, dan verifikasi hasil terhadap data/grafik."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "untuk fungsi linear biaya, pisahkan komponen variabel dan biaya tetap."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Penjelasan Materi dan Penalaran",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus",
+        "teks": ""
+      },
+      {
+        "judul": "Fungsi sebagai Pemetaan: Domain, Kodomain, dan Range",
+        "teks": ""
+      },
+      {
+        "judul": "Jenis Fungsi Berdasarkan Sifat Pemetaan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Mengerjakan dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Sembilan subbab Aljabar membentuk satu alur penalaran: memahami simbol dan kesetaraan, menyelesaikan beberapa syarat sekaligus, menilai batas nilai, mengolah hubungan pangkat–logaritma, membaca pemetaan, membalik fungsi yang memenuhi syarat, lalu membangun model dari dunia nyata. Keberhasilan tidak hanya ditentukan oleh memperoleh angka, tetapi juga oleh kemampuan menjelaskan alasan suatu langkah sah dan apakah jawaban memenuhi domain serta konteks."
+  }
+}

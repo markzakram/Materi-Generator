@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Soal Cerita",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Soal Cerita",
+    "sumber": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-08-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Waktu Produksi Dua Jenis Patung",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pembuatan 2 patung gajah dan 3 patung banteng memerlukan 8 jam. Pembuatan 1 patung gajah dan 2 patung banteng memerlukan 5 jam. Berapa jam untuk 4 patung gajah dan 1 patung banteng?"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-11.png",
+              "lebar": 8.02,
+              "tinggi": 2.21
+            }
+          ],
+          "opsi": {
+            "A": "4 jam",
+            "B": "5 jam",
+            "C": "6 jam",
+            "D": "7 jam",
+            "E": "8 jam"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Model sistem persamaan linear dengan waktu per unit konstan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan g jam untuk 1 gajah dan b jam untuk 1 banteng."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Model: 2g+3b=8"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "serta g+2b=5."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi g=5−2b ke persamaan pertama memberi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "10−4b+3b=8"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "⇒ b=2 dan g=1."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka 4g+b = 4+2 = 6 jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A, B, D, E tidak memenuhi kedua hubungan waktu; C tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Eliminasi: gandakan persamaan kedua ⇒ 2g+4b=10; kurangi persamaan pertama ⇒ b=2; lalu g=1."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Kombinasi Produksi Berbeda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga patung lumba-lumba dan dua patung bebek dibuat selama 12 jam; dua lumba-lumba dan satu bebek dibuat selama 7 jam. Berapa waktu untuk satu lumba-lumba dan empat bebek?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk Angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 14**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mengubah stimulus menjadi dua persamaan dan memeriksa satuan waktu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan d dan b waktu per unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3d+2b=12 dan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2d+b=7."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gandakan persamaan kedua: 4d+2b=14;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "kurangi persamaan pertama ⇒ d=2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka b=7−2(2)=3."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Target d+4b=2+12=14 jam."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kurangi 2 × persamaan kedua dengan persamaan pertama untuk memperoleh d langsung."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menyusul Kendaraan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tegar berangkat pukul 07.00 dengan kecepatan 45 km/jam. Gelar menyusul di rute sama, berangkat pukul 08.00 dengan 60 km/jam. Pada pukul berapa Gelar menyusul Tegar?"
+            }
+          ],
+          "opsi": {
+            "A": "10.00",
+            "B": "11.00",
+            "C": "12.00",
+            "D": "13.00",
+            "E": "14.00"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jarak keunggulan awal dibagi kecepatan relatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada pukul 08.00 Tegar unggul 45 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kecepatan relatif Gelar 60−45=15 km/jam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu menyusul 45/15=3 jam setelah pukul 08.00, yaitu 11.00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Titik pertemuan berjarak 180 km dari awal, belum melewati tujuan 540 km dalam referensi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A terlalu awal; B tepat; C–E lebih lambat daripada waktu menyusul."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jarak awal 45 km ÷ selisih laju 15 km/jam = 3 jam."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Debit Dua Saluran",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bak berisi 9.000 liter air dikosongkan melalui dua lubang secara bersamaan dengan debit masing-masing 150 dan 50 liter/menit. Waktu yang diperlukan adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "180 menit",
+            "B": "90 menit",
+            "C": "60 menit",
+            "D": "45 menit",
+            "E": "15 menit"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Debit gabungan untuk dua saluran yang aktif secara bersamaan dijumlahkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Debit total=150+50=200 liter/menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu = 9000/200=45 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Volume dan debit menggunakan satuan yang konsisten."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A,B,C,E tidak sama dengan 9000/200; D tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gabungkan debit lebih dahulu, baru bagi volume oleh debit gabungan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Evaluasi Proyek",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pekerjaan direncanakan selesai dalam 16 hari oleh 8 pekerja. Selama hari ke-6 sampai ke-13, tiga pekerja sakit sehingga hanya lima yang bekerja. Setelahnya delapan pekerja kembali bekerja. Berapa hari tambahan dibanding jadwal semula?"
+            }
+          ],
+          "opsi": {
+            "A": "2 hari",
+            "B": "3 hari",
+            "C": "4 hari",
+            "D": "5 hari",
+            "E": "6 hari"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Beban kerja total dihitung dalam orang-hari; laju tiap pekerja tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total beban=16×8=128 orang-hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hari 1–5 selesai 5×8=40;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "hari 6–13 selesai 8×5=40;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "sisa 48 orang-hari,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "diselesaikan 8 pekerja selama 6 hari, yakni hari 14–19."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tambahan waktu =19−16=3 hari."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A,C,D,E bukan selisih 19 dan 16; B tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kekurangan tenaga = 3 pekerja × 8 hari = 24 orang-hari; dibagi 8 pekerja = 3 hari tambahan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Memeriksa Validitas Konteks",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah tangki memuat 400 liter. Dua pompa mengalirkan 25 dan 15 liter/menit tanpa kebocoran. Seorang siswa menyatakan pengisian memerlukan 16 menit karena memakai pompa pertama saja. Penilaian tepat adalah ..."
+            }
+          ],
+          "opsi": {
+            "A": "Benar, karena 400/25=16",
+            "B": "Salah, karena kedua debit dijumlahkan sehingga perlu 10 menit",
+            "C": "Salah, karena waktu adalah 40 menit",
+            "D": "Benar, karena debit kedua tidak berpengaruh",
+            "E": "Waktu tidak dapat ditentukan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Model harus mencakup semua komponen yang bekerja dan asumsi tetap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika kedua pompa berjalan serentak,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "total debit=25+15=40 liter/menit;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "waktu 400/40=10 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhitungan 16 menit mengabaikan pompa kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis Pilihan A–E:** A dan D mengabaikan debit kedua; B benar; C salah karena 40 adalah debit, bukan waktu; E salah karena data cukup."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tentukan jumlah debit aktif sebelum mengonversi volume ke waktu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

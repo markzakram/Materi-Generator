@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "judul": "Aritmatika Sosial",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Aritmatika Sosial",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "id_katalog": "pk-02-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Ketika seseorang membeli barang dengan bonus, memperoleh dua potongan harga, menyimpan uang dengan bunga tertentu, atau membandingkan cicilan, angka yang tertera bukan satu-satunya informasi penentu. Ada basis harga, periode waktu, komponen biaya, dan kondisi khusus yang harus dibaca secara tepat. Dua penawaran dengan persentase berbeda bahkan dapat menghasilkan biaya akhir yang berlawanan dengan dugaan awal.",
+      "Karena itu, pembelajaran dimulai dari mengidentifikasi komponen transaksi, berlanjut pada pemodelan harga, diskon, bunga, angsuran, dan untung/rugi. Setiap subbab memadukan penjelasan konsep dengan pengujian asumsi dan contoh soal, sehingga peserta terbiasa memilih prosedur sesuai konteks, bukan langsung memasukkan angka ke rumus."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "komponen nominal, menghitung transaksi multikomponen, dan menguji validitas model transaksi."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Aritmatika Sosial",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Aritmatika Sosial",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Aritmatika Sosial merupakan penerapan operasi kuantitatif pada aktivitas jual-beli, tabungan, pinjaman, dan transaksi lainnya. Harga label, pembayaran aktual, pemasukan, dan keuntungan merupakan besaran berbeda yang tidak boleh dipertukarkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar dan Alur Transaksi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pahami harga dasar, jumlah unit, potongan, biaya tambahan, pajak jika dinyatakan, serta uang yang akhirnya dibayarkan. Pajak atau biaya layanan tidak boleh diasumsikan ada jika stimulus tidak menyebutkannya."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Total awal = harga satuan × banyak unit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Bayar akhir = total awal − potongan + biaya tambahan$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Harga Jual, Modal, dan Untung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Aritmatika Sosial menggunakan rumus “Haji Miu” dengan bentuk $HJ = M(1 + u)$. HJ adalah harga jual, M adalah modal/harga beli yang relevan, dan u adalah tingkat untung terhadap modal dalam bentuk desimal. Misalnya untung 25% berarti u = 0,25, bukan 25. Rumus ini penting sebagai penghubung topik Harga dan Untung/Rugi."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$HJ = M(1 + u)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk balik: $M = HJ/(1 + u)$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk rugi sebesar r dari modal, gunakan $HJ = M(1 − r)$. Persen laba atau rugi pada rumus ini selalu berbasis modal. Periksa apakah ada biaya tambahan yang perlu dimasukkan dalam modal sebelum menghitung."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$HJ = M(1 − r) (rugi, 0 ≤ r ≤ 1)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Model Bersyarat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Promo gratis barang, harga paket, dan biaya administrasi dapat mengubah hubungan harga terhadap jumlah unit. Untuk promo beli 5 gratis 1, pembelian 30 unit yang diterima tepat 30 unit memerlukan lima paket, bukan enam paket. Perhatikan perbedaan “membeli 30 unit” dan “menerima total 30 unit”."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Harga efektif/unit = total pembayaran ÷ banyak unit diterima$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Buat daftar komponen transaksi dalam satuan seragam. Tentukan transaksi yang diminta: sebelum atau sesudah potongan. Periksa promo, ambang minimum pembelian, dan biaya tetap. Hitung total lalu verifikasi konteks unit utuh."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik K–B–H–C: Komponen → Basis harga → Hitung sesuai urutan → Cek syarat."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar dan Alur Transaksi",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus Harga Jual, Modal, dan Untung",
+        "teks": ""
+      },
+      {
+        "judul": "Model Bersyarat",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Mengerjakan Soal",
+        "teks": ""
+      },
+      {
+        "judul": "Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Aritmatika Sosial menguji ketepatan peserta membaca transaksi, memilih basis dan periode, membangun model serta menilai hasil. Dalam soal dengan beberapa biaya, strategi terbaik sering kali bukan formula terpanjang, melainkan tabel komponen yang lengkap. Untuk latihan berikutnya, peserta perlu membedakan harga satuan dan total, diskon tunggal dan bertingkat, bunga tunggal dan majemuk, nominal cicilan dan total biaya, serta pemasukan dan keuntungan."
+  }
+}

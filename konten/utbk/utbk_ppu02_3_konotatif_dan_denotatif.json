@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "judul": "Konotatif dan Denotatif",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Konotatif dan Denotatif",
+    "sumber": "https://docs.google.com/document/d/1h7V_nWTju7T9Vm44umxIZ1FTe6jw_zI6/edit",
+    "id_katalog": "ppu-02-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Semantik adalah cabang ilmu bahasa yang mempelajari makna. Dalam bab ini, kita akan melihat bagaimana makna kata dipahami dari kalimat tempat kata itu digunakan. Kita akan mencoba mengganti kata dengan padanannya, mencari lawan kata yang sesuai, dan membandingkan kesan yang muncul ketika penulis memilih kata yang berbeda."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "makna leksikal langsung dari makna tambahan pada ungkapan."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "pengaruh konotasi terhadap nada, penilaian, dan sikap penulis."
+      }
+    ],
+    "tambahan": [
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Membedakan makna leksikal langsung dari makna tambahan pada ungkapan."
+      },
+      {
+        "alasan": "tujuan pembelajaran kosong",
+        "isi": "Menganalisis pengaruh konotasi terhadap nada, penilaian, dan sikap penulis."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Konotatif dan Denotatif",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konotatif dan Denotatif",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Makna denotatif adalah arti lugas yang dipakai untuk menyebut sesuatu secara langsung. Makna konotatif berkaitan dengan kesan atau nilai rasa yang menyertai pilihan kata. Dua kalimat bisa menyampaikan kejadian yang sama, tetapi membuat pembaca memandang kejadian itu dengan cara yang berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membaca arti langsung dan kesan pilihan kata"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mulailah dengan mencari arti kata dalam kalimat. Jika kata itu digunakan secara kias, jelaskan dulu maksud kiasannya dengan bahasa yang lebih sederhana. Setelah itu, perhatikan kesan yang ditimbulkan oleh pilihan kata tersebut. Cara ini membantu kamu menjawab dua pertanyaan yang berbeda, yaitu apa yang dimaksud penulis dan bagaimana penulis menggambarkannya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Menjaga fakta ketika penilaian berubah"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membandingkan dua kalimat, sebutkan dulu kejadian yang sama-sama disampaikan. Lalu perhatikan kata yang membuat kejadian itu terdengar lebih positif, lebih negatif, atau lebih netral. Kalau diminta menulis ulang dengan nada yang lebih netral, pertahankan tindakan, jumlah, dan batas informasi yang ada pada kalimat awal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan dalam kalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca kalimat pertama sebagai pembanding. Pada dua kalimat berikutnya, cari kata yang menambahkan penilaian. Kolom tengah menunjukkan kejadian yang tetap sama, sedangkan kolom terakhir membantu kamu melihat bagaimana pilihan kata mengubah kesan pembaca."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kalimat",
+                "Fakta yang tetap",
+                "Kesan yang ditambahkan"
+              ],
+              "baris": [
+                [
+                  "Tim mempertahankan usulan.",
+                  "Tim tetap pada usulannya.",
+                  "Penilaian tidak dinyatakan."
+                ],
+                [
+                  "Tim teguh mempertahankan usulan.",
+                  "Tim tetap pada usulannya.",
+                  "Pendirian tim dipandang patut dihargai."
+                ],
+                [
+                  "Tim keras kepala mempertahankan usulan.",
+                  "Tim tetap pada usulannya.",
+                  "Tim dipandang sulit menerima pandangan lain."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "poin",
+              "butir": [
+                "Denotasi dan konotasi. Tentukan dulu arti kata dalam kalimat, termasuk bila dipakai secara kias. Setelah itu, jelaskan kesan yang menyertai pilihan kata."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Membaca arti langsung dan kesan pilihan kata",
+        "teks": ""
+      },
+      {
+        "judul": "Menjaga fakta ketika penilaian berubah",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan dalam kalimat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Sinonim, antonim, dan konotasi perlu dipahami melalui pemakaian kata dalam kalimat. Pada sinonim, periksa apakah arti, fungsi kata, intensitas, dan ragam tetap terjaga. Pada antonim, temukan dimensi yang dipertentangkan dan tentukan apakah hubungannya mutlak, bertingkat, atau relasional. Pada konotasi, jelaskan penilaian yang dibawa pilihan kata tanpa mengubah fakta yang tersedia."
+  }
+}

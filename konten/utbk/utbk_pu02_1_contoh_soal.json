@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Urutan dan Posisi",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Contoh Soal Urutan dan Posisi",
+    "sumber": "https://docs.google.com/document/d/1a7-ZlvyzrkurPIrsQg7jtMr76eLS3m-r_kGjq7E1w3A/edit",
+    "bagian": "soal",
+    "id_katalog": "pu-02-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Urutan Tampil",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lima peserta, yaitu Arya, Beni, Citra, Diah, dan Eko, tampil pada sesi pertama hingga kelima. Citra tampil tepat sesudah Arya. Eko tampil terakhir. Beni tampil sebelum Arya. Diah tampil tepat sesudah Beni. Jika Citra tampil pada sesi keempat, siapakah yang tampil pada sesi pertama?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis berupa huruf/nama)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Beni**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Menggabungkan batasan posisi tetap dan hubungan bersebelahan untuk menentukan satu susunan yang memenuhi semua aturan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Citra berada di sesi keempat. Karena Citra tepat sesudah Arya, Arya berada di sesi ketiga. Eko berada di sesi kelima. Sisa sesi pertama dan kedua harus ditempati Beni dan Diah. Karena Diah tepat sesudah Beni, susunannya adalah Beni–Diah–Arya–Citra–Eko. Jadi, peserta sesi pertama adalah Beni."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Citra = 4 → Arya = 3; Eko = 5; pasangan Beni–Diah mengisi slot 1–2."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Posisi Duduk",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Lima peserta N, O, P, Q, dan R duduk berurutan. P berada pada posisi ketiga. O tepat di sebelah kiri P. Q tepat di sebelah kanan P. N berada di sebelah kiri O. Siapakah yang duduk paling kanan?"
+            }
+          ],
+          "opsi": {
+            "A": "N",
+            "B": "O",
+            "C": "P",
+            "D": "Q",
+            "E": "R"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mengubah posisi tetap dan kedekatan langsung menjadi slot untuk menentukan kedudukan yang tersisa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "P berada di posisi ketiga. Karena O tepat di kirinya, O berada di posisi kedua. Q tepat di kanan P, sehingga Q berada di posisi keempat. N di kiri O harus menempati posisi pertama. Satu posisi tersisa, yaitu posisi kelima, ditempati R. Susunannya N–O–P–Q–R."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**A.** N berada di posisi pertama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**B.** O berada di posisi kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**C.** P berada di posisi ketiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**D.** Q berada di posisi keempat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**E.** R merupakan satu-satunya peserta yang dapat menempati posisi kelima."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tempatkan P = 3 → O = 2, Q = 4 → N = 1 → R = 5"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Urutan dan Posisi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Enam peserta, yaitu Adel, Bima, Citra, Damar, Eko, dan Farah, dijadwalkan tampil secara bergantian dalam enam sesi. Setiap peserta hanya tampil satu kali dan setiap sesi diisi oleh satu peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketentuan urutan tampil adalah sebagai berikut:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "1. Citra tampil pada sesi keempat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2. Bima tampil tepat sebelum Citra."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3. Farah tampil pada sesi terakhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4. Adel tampil sebelum Bima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "5. Damar tampil sebelum Eko."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan seluruh ketentuan tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Eko pasti tampil pada sesi kelima, terlepas dari urutan peserta lainnya.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Adel harus tampil pada sesi pertama agar seluruh ketentuan terpenuhi.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Jika Damar tampil pada sesi pertama, Adel pasti tampil pada sesi kedua.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Damar dan Eko harus tampil pada dua sesi yang berurutan.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menggabungkan posisi tetap, hubungan bersebelahan, dan urutan relatif untuk membedakan pernyataan yang pasti benar dan tidak pasti benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Citra tampil pada sesi keempat. Karena Bima tampil tepat sebelum Citra, Bima menempati sesi ketiga."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Farah telah ditetapkan pada sesi keenam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Susunan sementara:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu02_analitis/gambar-02.png",
+              "lebar": 8.45,
+              "tinggi": 1.02
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tiga peserta yang belum ditempatkan adalah Adel, Damar, dan Eko. Posisi yang tersedia adalah sesi pertama, kedua, dan kelima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena Adel harus tampil sebelum Bima, Adel hanya dapat menempati sesi pertama atau kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Damar harus tampil sebelum Eko. Oleh karena itu, terdapat **dua susunan yang memenuhi seluruh ketentuan**."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu02_analitis/gambar-03.png",
+              "lebar": 8.73,
+              "tinggi": 2.62
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Eko selalu menempati sesi kelima pada kedua susunan. Jika Eko ditempatkan pada sesi pertama atau kedua, ketentuan bahwa Damar harus tampil sebelum Eko tidak dapat dipenuhi bersama ketentuan Adel tampil sebelum Bima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, Eko pasti tampil pada sesi kelima."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Adel tidak harus tampil pada sesi pertama. Pada kemungkinan pertama, Adel tampil pada sesi kedua dan seluruh ketentuan tetap terpenuhi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, posisi Adel tidak dapat dipastikan hanya pada sesi pertama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika Damar tampil pada sesi pertama, Adel harus menempati sesi kedua karena Adel wajib tampil sebelum Bima yang berada pada sesi ketiga. Eko kemudian menempati sesi kelima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, apabila Damar pertama, Adel pasti kedua."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketentuan menyebutkan bahwa Damar tampil <i>sebelum</i> Eko, bukan <i>tepat sebelum</i> Eko."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada kemungkinan pertama, Damar berada di sesi pertama dan Eko di sesi kelima. Pada kemungkinan kedua, Damar berada di sesi kedua dan Eko tetap di sesi kelima."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya tidak bersebelahan. Jadi, pernyataan tersebut salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan strategi P–B–E–C (Posisikan yang pasti → Bentuk blok → Eliminasi → Cek). Tempatkan Citra, Bima, dan Farah terlebih dahulu. Setelah itu, uji seluruh kemungkinan penempatan Adel, Damar, dan Eko. Pernyataan yang menggunakan kata pasti harus benar pada setiap susunan yang memenuhi ketentuan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

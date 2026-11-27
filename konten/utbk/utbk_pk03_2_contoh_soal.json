@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Sistem Persamaan Linear",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Sistem Persamaan Linear",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-03-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Sistem Persamaan Linear",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Bu Rina menawarkan Paket A (3 kg abon ayam, 2 kg abon sapi, 1 kg abon ikan) seharga Rp440.000 dan Paket B (2 kg abon ayam, 2 kg abon sapi, 1 kg abon ikan) seharga Rp350.000. Harga abon sapi lebih mahal Rp10.000/kg daripada abon ikan. Selisih harga satu kg abon ayam dan abon sapi adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp10.000",
+            "B": "Rp15.000",
+            "C": "Rp20.000",
+            "D": "Rp25.000",
+            "E": "Rp30.000"
+          },
+          "kunci": "E",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** SPL tiga variabel dan eliminasi informasi selisih paket."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan a, s, i harga per kg dalam ribuan rupiah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bentuk $3a+2s+i=440;$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$2a+2s+i=350;$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$s=i+10.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangkan persamaan pertama dengan kedua: $a=90$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $2s+i=170$;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "substitusi $s=i+10$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "memberi $3i+20=170 ⇒ i=50$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "dan $s=60.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih harga ayam dan sapi $= 90−60=30$ ribu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A–D. Tidak sama dengan selisih tepat 30 ribu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Benar karena Rp90.000−Rp60.000=Rp30.000."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kurangkan dua paket lebih dulu untuk memperoleh a, baru selesaikan s dan i."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

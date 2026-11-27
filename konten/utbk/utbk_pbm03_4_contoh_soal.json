@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbaikan Kata",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Perbaikan Kata",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-4-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang editor memperbaiki bentuk kata agar predikat, pelaku, serta objek tetap tersusun dengan benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pusat informasi sekolah perlu mengumpulkan semua usulan peserta secara tertulis agar dapat dievaluasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**“Petugas bertugas untuk ____ usulan peserta.” Bentuk kata yang paling tepat adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "pengumpulan",
+            "B": "dikumpulkan",
+            "C": "mengumpulkan",
+            "D": "terkumpul",
+            "E": "mengumpulkannya"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Memilih bentuk kata yang sesuai fungsi sintaksis dan kelengkapan unsur kalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Petakan subjek, predikat, dan objek di sekitar rumpang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Tentukan apakah dibutuhkan verba aktif, verba pasif, nomina, atau bentuk keadaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Uji tiap alternatif dengan memasukkan bentuknya ke kalimat utuh."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Nomina proses tidak mengisi kebutuhan predikat verba."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Pasif tidak sesuai ketika diikuti objek eksplisit pada konstruksi ini."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Verba transitif aktif yang mengambil objek usulan peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Menunjukkan keadaan, bukan tindakan petugas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Akhiran -nya menggantikan objek yang sudah hadir sebagai “usulan peserta”."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Lihat kata sesudah rumpang, yaitu “usulan peserta”. Karena frasa itu menjadi objek, pilih verba aktif transitif “mengumpulkan”, bukan nomina atau bentuk berakhiran -nya."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

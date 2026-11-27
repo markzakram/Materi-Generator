@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Persentase",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Persentase",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-01-6-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Persentase Siswa dan Warna Meja",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Kelas A terdiri dari 60% siswa perempuan dan sisanya laki-laki. Setiap siswa menggunakan satu meja. Sebanyak 40% meja berwarna biru, sisanya merah. Jika separuh siswa perempuan menggunakan meja merah, berapa persen meja biru dari total meja di kelas yang digunakan siswa laki-laki?"
+            }
+          ],
+          "opsi": {
+            "A": "5%",
+            "B": "10%",
+            "C": "20%",
+            "D": "30%",
+            "E": "50%"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase bagian bertingkat dengan basis total meja kelas yang sama; kategori gender dan warna meja dianalisis menggunakan tabel silang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil total siswa dan meja sebagai 100 unit. Perempuan 60 unit, laki-laki 40 unit; meja biru 40 unit, meja merah 60 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setengah dari perempuan menggunakan meja merah: $50% × 60 = 30$ unit. Berarti perempuan dengan meja biru $60 − 30 = 30$ unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari 40 meja biru, 30 ditempati perempuan. Jadi laki-laki menggunakan $40 − 30 = 10$ meja biru dari total 100 meja, yaitu 10%."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 5% berasal dari pengurangan yang tidak sesuai jumlah kelompok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 10% adalah 10 dari 100 meja di kelas, sesuai basis pertanyaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 20% bukan sisa meja biru setelah menghitung perempuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 30% merupakan meja biru milik perempuan, bukan laki-laki."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 50% tidak sesuai total meja biru yang hanya 40%."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $40% − (60% × 50%) = 10%$. Pertahankan semua persentase pada basis total kelas."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Bagian dari Keseluruhan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam sebuah pelatihan, 18 dari 72 peserta menyelesaikan modul tambahan. Berapa persentase peserta yang menyelesaikan modul tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "20%",
+            "B": "22%",
+            "C": "25%",
+            "D": "27%",
+            "E": "30%"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase adalah bagian dibagi total, dikalikan 100%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian = 18 dan total = 72. Karena $18/72= 1/4$, persentasenya 25%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pembilang dan penyebut menggunakan satuan yang sama, yaitu jumlah peserta."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 20% setara 14,4 peserta dari 72, bukan 18."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 22% tidak setara dengan tepat 18/72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 25% = 1/4; 18 memang seperempat dari 72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 27% bukan rasio 18 dibanding 72."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 30% lebih besar daripada perbandingan sebenarnya."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Sederhanakan $18/72= 1/4$ sehingga langsung 25%."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menentukan Keseluruhan dari Bagian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebanyak 36 peserta mewakili 45% dari seluruh peserta sebuah kegiatan. Berapa banyak seluruh peserta kegiatan tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "72 orang",
+            "B": "76 orang",
+            "C": "80 orang",
+            "D": "84 orang",
+            "E": "90 orang"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bila nilai bagian dan persennya diketahui, total didapat dengan membagi bagian oleh proporsi desimal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan seluruh peserta T."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persamaan $0,45T = 36$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$T = 36/0,45= 80$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cek: $45% × 80 = 36$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 72 menghasilkan 32,4 peserta pada 45%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 76 menghasilkan 34,2 peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 80 menghasilkan tepat 36 peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 84 menghasilkan 37,8 peserta."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 90 menghasilkan 40,5 peserta."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ubah 45% menjadi 9/20; $T = 36 × 20/9 = 80$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Menganalisis Perubahan Persentase",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah pengunjung sebuah perpustakaan pada bulan pertama tercatat sebanyak 240 orang. Pada bulan berikutnya, jumlah pengunjung meningkat menjadi 300 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berapa persentase kenaikan jumlah pengunjung perpustakaan dibandingkan dengan jumlah pengunjung awal?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka tanpa simbol persen.)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 25**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase kenaikan selalu berbasis nilai awal, bukan nilai akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih $= 300 − 240 = 60$ orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persen kenaikan $= 60/240 × 100% = 25%$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika memakai 300 sebagai basis, hasil 20% menyatakan besaran berbeda dan tidak menjawab pertanyaan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "60 adalah seperempat dari 240 sehingga kenaikannya 25%."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 5 — Perubahan Persentase Berurutan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah produksi naik 20% pada bulan pertama, kemudian turun 20% pada bulan kedua dari hasil bulan pertama. Dibandingkan produksi awal, kondisi akhirnya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "turun 8%",
+            "B": "turun 4%",
+            "C": "tetap",
+            "D": "naik 4%",
+            "E": "naik 8%"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase berurutan menggunakan faktor pengali dengan basis yang diperbarui."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Asumsikan produksi awal 100 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah naik 20%, menjadi 120 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bulan kedua turun 20% dari 120, yaitu 24 unit, sehingga produksi akhir 96 unit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dibandingkan 100 unit awal, selisih −4 unit atau turun 4%."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Turun 8% tidak diperoleh dari faktor 1,2 × 0,8."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Turun 4% benar karena faktor akhir 0,96."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Tetap salah karena basis penurunan 120, bukan 100."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Naik 4% mengabaikan arah selisih akhir."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Naik 8% tidak sesuai hasil akhir 96."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kalikan faktor $1,2 × 0,8 = 0,96$; artinya turun 4%."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 6 — Persentase dengan Basis Berbeda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga barang A adalah 25% lebih tinggi daripada harga barang B. Berapa persen harga B lebih rendah dibandingkan harga A?"
+            }
+          ],
+          "opsi": {
+            "A": "15%",
+            "B": "18%",
+            "C": "20%",
+            "D": "22%",
+            "E": "25%"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase relatif selalu bergantung pada basis pembandingnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ambil harga B = 100 dan harga A = 125."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih 25 dibandingkan dengan harga A = 125, sehingga $25/125 × 100% = 20%.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perbandingan 25% pada pernyataan awal berbasis B, bukan A."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Opsi Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 15% lebih kecil daripada rasio 25/125."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 18% bukan hasil rasio yang diberikan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. 20% benar jika selisih dibandingkan harga A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. 22% tidak sesuai selisih dan basis A."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 25% mengulang persen semula tanpa mengganti basis."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jika A 25% lebih besar dari B, perbandingan balik $= 25/125 = 20%$."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 7 — Menguji Pernyataan dalam Data Kelompok",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Di sebuah sekolah, sebanyak 40% siswa mengikuti klub sains dan 35% siswa mengikuti klub bahasa. Setiap siswa diperbolehkan mengikuti kedua klub sekaligus, tetapi tidak diwajibkan mengikuti salah satunya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pihak sekolah ingin mengetahui persentase siswa yang mengikuti minimal satu klub. Namun, belum tersedia informasi mengenai jumlah siswa yang mengikuti kedua klub sekaligus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jika tidak ada siswa yang mengikuti kedua klub sekaligus, persentase siswa yang mengikuti minimal satu klub adalah 75%.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Jika 15% siswa mengikuti kedua klub, persentase siswa yang tidak mengikuti klub sains maupun klub bahasa adalah 40%.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Tanpa mengetahui persentase siswa yang mengikuti kedua klub, persentase siswa yang mengikuti minimal satu klub tidak dapat ditentukan secara pasti.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Jika 20% siswa mengikuti kedua klub, persentase siswa yang hanya mengikuti klub sains adalah 40%.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Benar, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Persentase gabungan dua kelompok, irisan himpunan, dan evaluasi kecukupan informasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Klub sains (S) = 40%",
+                "Klub bahasa (B) = 35%"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase siswa yang mengikuti minimal satu klub dihitung dengan rumus:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P(S∪B)=P(S)+P(B)-P(S∩B)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika tidak ada siswa yang mengikuti kedua klub, maka irisan kedua kelompok adalah 0%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase siswa yang mengikuti minimal satu klub:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "40% + 35% - 0% = 75%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (1) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 15% siswa mengikuti kedua klub, persentase yang mengikuti minimal satu klub adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "40% +35% - 15% =60%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, persentase siswa yang tidak mengikuti kedua klub adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "100% - 60% = 40%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (2) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase siswa yang mengikuti minimal satu klub bergantung pada besarnya irisan kedua kelompok."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika tidak ada irisan, persentase gabungan adalah 75%. Namun, jika terdapat 15% siswa yang mengikuti kedua klub, persentase gabungan menjadi 60%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena nilai irisan belum diketahui, persentase siswa yang mengikuti minimal satu klub tidak dapat ditentukan secara pasti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 20% siswa mengikuti kedua klub, persentase siswa yang hanya mengikuti klub sains adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "40% - 20% = 20%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, persentase siswa yang hanya mengikuti klub sains adalah 20%, bukan 40%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, urutan jawaban yang benar adalah Benar – Benar – Benar – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan rumus gabungan dua kelompok:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S∪B=S+B-(S∩B)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangi anggota yang mengikuti kedua klub agar tidak dihitung dua kali. Untuk mencari siswa yang tidak mengikuti keduanya, kurangkan persentase gabungan dari 100%."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

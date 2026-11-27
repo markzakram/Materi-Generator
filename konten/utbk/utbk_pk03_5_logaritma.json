@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "judul": "Logaritma",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Logaritma",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "id_katalog": "pk-03-5"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Aljabar adalah bahasa matematika untuk menyatakan hubungan yang belum sepenuhnya diketahui. Variabel membantu merepresentasikan informasi yang berubah; persamaan dan pertidaksamaan membantu menerjemahkan syarat; relasi dan fungsi menjelaskan hubungan masukan–keluaran."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menguasai",
+        "teks": "konsep dan representasi."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "prosedur penyelesaian."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "kesahihan langkah, domain, dan batasan konteks."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Logaritma",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Logaritma",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Logaritma menyatakan eksponen yang diperlukan untuk menghasilkan suatu nilai. Hubungan logaritma dan perpangkatan adalah invers dalam domain yang tepat. Untuk $log_{a}b$ dalam bilangan real, syaratnya $a>0, a≠1,$ dan $b>0.$ Logaritma dari nol atau bilangan negatif tidak terdefinisi dalam bilangan real."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan Materi dan Penalaran"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sifat logaritma yang utama mengubah perkalian menjadi penjumlahan dan pembagian menjadi pengurangan, dengan argumen setiap logaritma tetap positif. $log(a+b)$ tidak dapat dipecah menjadi $log a + log b.$ Saat menyelesaikan persamaan logaritma, setiap kandidat harus diperiksa terhadap argumen seluruh log yang muncul."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a^{x} = b ⇔ log_{a}(b) = x (a > 0, a ≠ 1, b > 0)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$log_{a}(MN) = log_{a} M + log_{a} N (M, N > 0)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$log_{a}(M/N) = log_{a} M − log_{a} N (M, N > 0)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$log_{a}(M^{k}) = k log_{a} M (M > 0)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Strategi:** tulis domain terlebih dahulu, samakan basis atau terapkan sifat yang sah, pecahkan persamaan, lalu uji kembali kandidat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "ubah logaritma sederhana ke bentuk eksponen sebelum menghitung."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Penjelasan Materi dan Penalaran",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Mengerjakan dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Sembilan subbab Aljabar membentuk satu alur penalaran: memahami simbol dan kesetaraan, menyelesaikan beberapa syarat sekaligus, menilai batas nilai, mengolah hubungan pangkat–logaritma, membaca pemetaan, membalik fungsi yang memenuhi syarat, lalu membangun model dari dunia nyata. Keberhasilan tidak hanya ditentukan oleh memperoleh angka, tetapi juga oleh kemampuan menjelaskan alasan suatu langkah sah dan apakah jawaban memenuhi domain serta konteks."
+  }
+}

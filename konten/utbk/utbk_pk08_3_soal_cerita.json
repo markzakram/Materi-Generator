@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "judul": "Soal Cerita",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Soal Cerita",
+    "sumber": "https://docs.google.com/document/d/1YnyoXlW3fztcpFeLe_bMz0VAYMdHvOq_HCjcq3vvAZ8/edit",
+    "id_katalog": "pk-08-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal perbandingan kuantitatif, nilai tepat suatu variabel sering tidak diperlukan selama tanda selisih dapat ditentukan. Dalam kecukupan data, tugasnya bukan selalu mencari hasil akhir, melainkan memastikan apakah informasi cukup untuk memberi jawaban tunggal atas pertanyaan. Sementara pada soal cerita, peserta harus mengubah teks menjadi model yang mempertahankan satuan, urutan kejadian, dan batas yang ditetapkan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengurai",
+        "teks": "diketahui, ditanya, dan batasan."
+      },
+      {
+        "level": "",
+        "kko": "Membangun",
+        "teks": "model untuk memperoleh jawaban."
+      },
+      {
+        "level": "",
+        "kko": "Menguji",
+        "teks": "kewajaran solusi, satuan, dan kondisi."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Soal Cerita",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Soal Cerita",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar dan Pemodelan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal cerita mengubah narasi ke besaran, persamaan, diagram, atau tabel. Identifikasi apa yang diberikan, apa yang ditanyakan, jenis hubungan (jumlah, selisih, laju, kapasitas, proporsi), dan batas kondisi. Persamaan harus konsisten dari segi satuan dan urutan waktu."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-02.png",
+              "lebar": 8.02,
+              "tinggi": 1.49
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ragam Konteks yang Termasuk Penalaran Kuantitatif"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Usia"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Umur sekarang = umur lampau + selang tahun; selisih umur tetap"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jarak, kecepatan, waktu"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-03.png",
+              "lebar": 4.88,
+              "tinggi": 2.56
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Debit dan volume"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-04.png",
+              "lebar": 4.88,
+              "tinggi": 3.96
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pekerjaan dan proyek"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus cepat:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-05.png",
+              "lebar": 4.88,
+              "tinggi": 0.92
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-06.png",
+              "lebar": 4.88,
+              "tinggi": 1.35
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel & diagram Venn"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah bagian irisan tidak boleh dihitung dua kali."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-07.png",
+              "lebar": 4.88,
+              "tinggi": 2.21
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-08.png",
+              "lebar": 4.88,
+              "tinggi": 2.92
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Harga/transaksi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan harga satuan, basis persen, biaya, dan unit sebelum mengolah angka"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan Senilai dan Berbalik"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-09.png",
+              "lebar": 4.88,
+              "tinggi": 1.48
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk08_penalaran_kuantitatif/gambar-10.png",
+              "lebar": 4.88,
+              "tinggi": 1.48
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik D–T–M–U: Diketahui (besaran & satuan), Tanya (hasil akhir), Model (hubungan relevan), Uji (substitusi dan kewajaran). Untuk soal berkecepatan tetap, gunakan selisih kecepatan saat menyusul dan jumlah kecepatan saat berpapasan. Untuk masalah proyek, hitung total orang-hari sebelum menentukan selisih waktu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar dan Pemodelan",
+        "teks": ""
+      },
+      {
+        "judul": "Ragam Konteks yang Termasuk Penalaran Kuantitatif",
+        "teks": ""
+      },
+      {
+        "judul": "Usia",
+        "teks": ""
+      },
+      {
+        "judul": "Jarak, kecepatan, waktu",
+        "teks": ""
+      },
+      {
+        "judul": "Debit dan volume",
+        "teks": ""
+      },
+      {
+        "judul": "Pekerjaan dan proyek",
+        "teks": ""
+      },
+      {
+        "judul": "Tabel & diagram Venn",
+        "teks": ""
+      },
+      {
+        "judul": "Harga/transaksi",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan Senilai dan Berbalik",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Kuantitatif mengintegrasikan kemampuan membandingkan dua besaran, mengevaluasi kecukupan bukti, dan menerjemahkan konteks ke dalam model matematika. Ketiga kemampuan saling berhubungan: model yang benar membantu membandingkan kuantitas, sedangkan pengujian kasus mencegah kesimpulan yang belum pasti. Dalam soal cerita, peserta juga harus menilai kelayakan jawaban melalui satuan dan batasan situasi. Rangkaian strategi praktis yang perlu diingat adalah B–S–U–K untuk perbandingan, T–1–2–G untuk kecukupan, dan D–T–M–U untuk soal cerita. Cara cepat harus bertumpu pada syarat model, bukan sekadar hafalan langkah."
+  }
+}

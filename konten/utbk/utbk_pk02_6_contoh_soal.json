@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Untung/Rugi",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Untung-Rugi",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-02-6-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Keuntungan penjualan akuarium",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pedagang membeli akuarium Rp240.000, lalu menjualnya Rp300.000 tanpa biaya lain. Persentase untung terhadap modal adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka tanpa simbol persen)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 25**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Laba = harga jual − modal; persen laba memakai modal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Laba = 300.000 − 240.000"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "= Rp60.000."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persen laba = 60.000/240.000 × 100%"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "= 25%."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Selisih 60 ribu adalah seperempat 240 ribu."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Persentase rugi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah mobil dibeli Rp50.000.000 dan dijual Rp45.000.000 tanpa biaya lain. Persentase kerugiannya adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "5%",
+            "B": "10%",
+            "C": "15%",
+            "D": "20%",
+            "E": "25%"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Persentase rugi dihitung dari selisih terhadap harga beli."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kerugian = 50 juta − 45 juta = 5 juta. Persen rugi = 5/50 × 100% = 10%."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Hanya setengah nilai rugi benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terlalu besar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Dua kali persen yang benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Terlalu besar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Harga jual 90% modal, jadi rugi 10%."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Evaluasi tabel pendapatan dan pengeluaran",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Data seorang pedagang (dalam juta rupiah): tahun 2021 pemasukan 25 dan pengeluaran 15; tahun 2022 pemasukan 55 dan pengeluaran 20; tahun 2023 pemasukan 50 dan pengeluaran 10. Tahun berapakah keuntungan terbesar?"
+            }
+          ],
+          "opsi": {
+            "A": "2021",
+            "B": "2022",
+            "C": "2023",
+            "D": "2021 dan 2022 sama",
+            "E": "2022 dan 2023 sama"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Keuntungan per periode = pemasukan − pengeluaran."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keuntungan 2021 = 10; 2022 = 35; 2023 = 40 juta rupiah. Terbesar terjadi pada 2023, meskipun pemasukannya lebih kecil daripada 2022."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. 10 bukan tertinggi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. 35 lebih kecil dari 40."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar: 40 juta rupiah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Tidak sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. 35 dan 40 berbeda."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari selisih setiap tahun, bukan pemasukan tertinggi."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

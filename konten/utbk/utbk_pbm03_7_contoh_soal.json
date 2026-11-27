@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penentuan Kata Mubazir",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penentuan Kata Mubazir",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-7-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Panitia seminar sekolah akan mengumumkan jadwal pengarahan kepada seluruh peserta. Pengumuman tersebut harus menyampaikan siapa yang diminta hadir, tindakan yang perlu dilakukan, kapan tindakan itu dilakukan, dan lokasi berkumpul. Draf awal masih memuat beberapa penanda jamak dan kata keterangan yang berulang. Penyunting diminta membuat kalimat lebih hemat, tetapi tidak boleh menghapus informasi tentang keharusan segera berkumpul ataupun lokasi aula utama. Berikut kalimat yang akan disunting."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Para peserta semuanya diminta untuk segera berkumpul bersama-sama di aula utama. Penyuntingan yang paling hemat tanpa menghilangkan informasi penting adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Peserta diminta segera berkumpul di aula.",
+            "B": "Seluruh peserta diminta untuk berkumpul di aula utama.",
+            "C": "Para peserta semuanya diminta berkumpul di aula utama.",
+            "D": "Seluruh peserta diminta segera berkumpul di aula utama.",
+            "E": "Para peserta diminta segera berkumpul bersama di aula utama."
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menghapus unsur mubazir tanpa menghilangkan pembatas atau unsur bermakna."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tandai kata dengan makna yang saling mengulang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Tentukan unsur mana yang boleh dihapus tanpa mengubah cakupan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Periksa apakah kuantitas, urgensi, lokasi, waktu, dan syarat tetap ada."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menghilangkan penanda “utama” sehingga informasi lokasi menjadi kurang spesifik."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Menghilangkan unsur waktu “segera” yang penting pada permintaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Masih memuat penanda jamak ganda “para peserta semuanya” serta menghilangkan “segera”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar. Menghilangkan kemubaziran “para ... semuanya” dan “berkumpul bersama-sama”, tetapi mempertahankan semua peserta, keharusan segera, dan lokasi aula utama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Masih menyimpan pengulangan makna “berkumpul bersama”."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "HEMAT TETAPI TIDAK KEHILANGAN FAKTA: buang penanda jamak ganda dan pengulangan makna; pertahankan kata pembatas seperti “segera”, “hanya”, “utama”, dan waktu spesifik."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

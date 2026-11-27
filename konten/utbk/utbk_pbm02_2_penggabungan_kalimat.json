@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "judul": "Penggabungan Kalimat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Penggabungan Kalimat",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "id_katalog": "pbm-02-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penataan gagasan ialah proses menjaga akurasi informasi dan kesinambungan hubungan makna. Satu teks dapat memiliki semua kalimat yang benar secara tata bahasa tetapi tetap sulit dipahami bila urutannya keliru, rujukannya tidak jelas, atau kata hubungnya mengandaikan hubungan yang tidak dibuktikan. Oleh karena itu, peserta perlu membaca unit yang ditanya sekaligus konteks kalimat sebelum dan sesudahnya."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "hubungan waktu, sebab-akibat, pertentangan, dan keserempakan yang dinyatakan atau belum dipastikan dalam dua kalimat."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "penggabungan kalimat yang mempertahankan pelaku, lokasi, negasi, urutan, dan derajat kepastian hubungan makna."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penggabungan Kalimat",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Prinsip Dasar",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penggabungan kalimat menyatukan dua informasi menjadi satu struktur yang efektif tanpa mengubah pelaku, tempat, waktu, negasi, atau kepastian hubungan. Konjungsi tidak sekadar memperindah kalimat; kata karena, setelah, meskipun, dan sehingga menyampaikan jenis hubungan yang harus dibuktikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Peta hubungan antarkalimat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan penambahan memakai dan atau serta; waktu memakai ketika, setelah, sebelum bila urutannya jelas; sebab-akibat memakai karena atau sehingga jika hubungan kausal memang dinyatakan; pertentangan memakai tetapi atau meskipun bila dua keadaan memang berlawanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konjungsi dan tingkat kepastian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua fakta yang sama-sama terjadi tidak otomatis berkaitan sebab-akibat. Contoh: “Debit sungai meningkat. Sampah di tepi sungai bertambah.” Gabungan aman adalah “Debit sungai meningkat dan sampah di tepi sungai bertambah.” Kata “karena” menambah penjelasan sebab yang belum terbukti."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ketepatan subjek, predikat, dan keterangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gabungan harus jelas siapa melakukan tindakan. “Petugas memeriksa fasilitas. Warga memberi laporan.” Jangan diubah menjadi “Warga memeriksa fasilitas” jika tindakan itu dilakukan petugas. Keterangan tempat hulu dan hilir juga tidak boleh tertukar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kehematan yang tidak merusak makna"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Subjek yang sama dapat dihilangkan pada unsur kedua bila struktur paralel jelas: “Guru memeriksa naskah dan memperbaiki tanda bacanya.” Akan tetapi, penghematan tidak boleh menghapus negasi, periode waktu, atau bagian yang menjadi pembeda utama."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penggabungan Kalimat. Gabungkan fakta, jangan menambahkan sebab-akibat atau urutan waktu yang tidak dinyatakan. Periksa perubahan pelaku, lokasi, negasi, dan kepastian."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Prinsip Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Peta hubungan antarkalimat",
+        "teks": ""
+      },
+      {
+        "judul": "Konjungsi dan tingkat kepastian",
+        "teks": ""
+      },
+      {
+        "judul": "Ketepatan subjek, predikat, dan keterangan",
+        "teks": ""
+      },
+      {
+        "judul": "Kehematan yang tidak merusak makna",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penguasaan Penataan Gagasan membantu peserta memahami hubungan dan keteraturan informasi dalam teks. Melalui latihan, peserta diharapkan mampu menyusun serta mengevaluasi kalimat dan paragraf secara tepat sesuai kaidah bahasa."
+  }
+}

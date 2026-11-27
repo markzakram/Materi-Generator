@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "judul": "Generalisasi",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Generalisasi",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "id_katalog": "pu-01-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penalaran Verbal dalam bahan pembelajaran ini merupakan bagian dari domain Penalaran Umum sesuai kurikulum yang digunakan. Penalaran Verbal melatih kemampuan memahami informasi melalui bahasa, menemukan keteraturan dari sejumlah pengamatan, membandingkan hubungan antarkonsep, mengevaluasi sebab-akibat, memeriksa kesesuaian pernyataan, serta menilai kekuatan argumen berdasarkan bukti.",
+      "Materi disusun dalam lima cakupan utama: Generalisasi; Analogi; Hubungan Kausalitas; Kesesuaian Pernyataan; serta Evaluasi Argumen: Memperkuat dan Memperlemah. Kelima cakupan tersebut berada dalam domain Penalaran Verbal pada kurikulum terlampir dan saling melengkapi kemampuan membaca bukti secara kritis.",
+      "Strategi cepat seperti Bukti–Pola–Batas Simpulan, HAPE, S–A–B–A, B–T–C, dan K–A–B–U digunakan sebagai alat bantu berpikir. Strategi ini bukan pengganti penalaran yang sah, melainkan cara mengurutkan perhatian agar peserta dapat menemukan informasi penting dengan lebih efisien."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Membedakan",
+        "teks": "fakta pengamatan, pola, dan generalisasi."
+      },
+      {
+        "level": "",
+        "kko": "Menyimpulkan",
+        "teks": "keteraturan yang didukung sejumlah pengamatan."
+      },
+      {
+        "level": "",
+        "kko": "Mengevaluasi",
+        "teks": "cakupan simpulan dengan mempertimbangkan ukuran sampel, keterwakilan, dan pengecualian."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penalaran Induktif",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penalaran Induktif",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penalaran induktif merupakan proses berpikir yang dimulai dari pengamatan terhadap sejumlah fakta atau kejadian khusus, kemudian digunakan untuk memperoleh pola atau kesimpulan yang lebih umum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-01.png",
+              "lebar": 4.1,
+              "tinggi": 3.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Generalisasi",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Generalisasi",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Generalisasi adalah proses menarik kesimpulan yang lebih umum berdasarkan sejumlah fakta, pengalaman, atau pengamatan khusus yang menunjukkan pola tertentu."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis-Jenis Generalisasi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Generalisasi Universal, yaitu kesimpulan yang menyatakan bahwa **semua anggota dalam suatu kelompok memiliki sifat tertentu,** tanpa menyisakan pengecualian. Intinya, Generalisasi universal merupakan kesimpulan yang menyatakan bahwa suatu karakteristik berlaku untuk seluruh anggota kelompok tanpa pengecualian. Namun, apabila kesimpulan tersebut hanya didasarkan pada pengamatan terhadap sebagian anggota tanpa bukti yang memadai, kesimpulan tersebut termasuk generalisasi berlebihan.",
+                "**Generalisasi khusus atau partikular,** yaitu kesimpulan yang menyatakan suatu karakteristik berlaku pada **sebagian** anggota kelompok, bukan seluruhnya.",
+                "**Generalisasi statistik,** yaitu simpulan yang didasarkan pada data angka, persentase, atau hasil survei untuk menggambarkan kecenderungan suatu kelompok.",
+                "**Generalisasi logis,** yaitu generalisasi yang menarik kesimpulan umum berdasarkan pola pengamatan dan alasan yang masuk akal."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal Generalisasi"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Perhatikan cakupan datanya. Apa yang benar-benar diamati.",
+                "Tentukan informasi utama dari data.",
+                "Jangan membuat simpulan lebih kuat daripada buktinya."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan pola:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Bukti** $→$ **Pola** $→$ **Batas simpulan**"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Pertama, lihat bukti yang tersedia.",
+                "Kedua, temukan pola dari bukti tersebut.",
+                "Ketiga, pilih simpulan yang tidak melampaui cakupan bukti."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penalaran Induktif",
+        "teks": ""
+      },
+      {
+        "judul": "Generalisasi",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Verbal menuntut ketepatan dalam membaca hubungan antara informasi dan simpulan. Generalisasi melatih pembatasan cakupan berdasarkan data; Analogi menguji kesetaraan relasi; Hubungan Kausalitas menuntut pemeriksaan sebab, mekanisme, dan alternatif; Kesesuaian Pernyataan menuntut ketelitian terhadap dukungan stimulus; sedangkan Evaluasi Argumen melatih penilaian kekuatan bukti dan asumsi. Peserta disarankan mempelajari konsep dan pola hubungan terlebih dahulu, menerapkan strategi cepat yang sesuai, lalu mengevaluasi alasan setiap pilihan jawaban. Dalam pengerjaan soal, kualitas bukti harus lebih diutamakan daripada kesamaan kata, dugaan umum, atau pernyataan yang terdengar paling meyakinkan."
+  }
+}

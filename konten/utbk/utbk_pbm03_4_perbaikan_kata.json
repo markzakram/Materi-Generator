@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "judul": "Perbaikan Kata",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Perbaikan Kata",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "id_katalog": "pbm-03-4"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Suatu pilihan dapat salah karena ejaan tidak baku, penggunaan huruf kapital yang tidak tepat, bentuk kata yang tidak sesuai, konjungsi yang mengubah relasi, atau hasil penyuntingan yang menghapus informasi. Masing-masing kesalahan membutuhkan teknik pemeriksaan berbeda. Karena itu, peserta sebaiknya mengidentifikasi “apa yang sedang diuji” sebelum menyunting kata atau kalimat."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memilih",
+        "teks": "bentuk kata aktif, pasif, dan nominal yang cocok dengan struktur."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Perbaikan Kata",
+      "ikon": "grafik",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Konsep dan Ruang Lingkup",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbaikan kata menekankan kesesuaian bentuk kata berimbuhan dengan tugasnya dalam struktur kalimat. Dua bentuk kata bisa terkait makna, tetapi hanya salah satunya yang sesuai dengan subjek, predikat, dan objek yang diminta."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Penjelasan Konseptual"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Predikat aktif dan objek langsung",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Verba transitif seperti menghimpun, menyiapkan, dan menyusun dapat diikuti objek eksplisit: “Tim menghimpun pendapat warga.” Bentuk yang tidak sesuai fungsi predikat akan membuat kalimat janggal."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Aktif, pasif, dan keadaan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Petugas mengumpulkan data” menyatakan pelaku aktif, “data dikumpulkan petugas” menekankan objek pasif, sedangkan “data terkumpul” menyatakan keadaan hasil. Makna umum terkait, tetapi tata kalimat dan penekanannya tidak selalu dapat dipertukarkan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Nomina bukan selalu pengganti verba",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Penghimpun” menamai pelaku, “penghimpunan” menamai proses, dan “menghimpun” menamai tindakan. Pada konstruksi “untuk ... pendapat”, bentuk kata yang dibutuhkan ialah verba yang dapat mengambil objek."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Hindari objek ganda yang tidak diperlukan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "“Menghimpunnya pendapat warga” tidak sesuai karena -nya pada verba sudah menyatakan objek sementara “pendapat warga” menjadi objek eksplisit lain. Periksa apakah unsur pengganti sudah tersirat dalam bentuk kata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Tabel Penerapan dan Perbandingan"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bentuk/Aspek",
+                "Penulisan/Hasil",
+                "Alasan/Penggunaan"
+              ],
+              "baris": [
+                [
+                  "Tim menghimpun pendapat.",
+                  "Aktif transitif",
+                  "Tepat"
+                ],
+                [
+                  "Pendapat dihimpun tim.",
+                  "Pasif",
+                  "Tepat dalam susunan pasif"
+                ],
+                [
+                  "Untuk penghimpun pendapat.",
+                  "Nomina pelaku",
+                  "Tidak memenuhi kebutuhan verba"
+                ],
+                [
+                  "Untuk menghimpunnya pendapat.",
+                  "Verba + objek ganda",
+                  "Tidak tepat"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Perbaikan Gagasan mencakup penulisan kata serapan, huruf, dan gabungan kata; perbaikan bentuk kata, konjungsi, kalimat, dan diksi; serta penentuan kata mubazir dan kalimat ringkas. Prinsip utamanya adalah memperbaiki ketidaktepatan bahasa agar kalimat lebih efektif tanpa mengubah informasi penting."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Ruang Lingkup",
+        "teks": ""
+      },
+      {
+        "judul": "Penjelasan Konseptual",
+        "teks": ""
+      },
+      {
+        "judul": "Tabel Penerapan dan Perbandingan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pembelajaran Perbaikan Gagasan membantu peserta meningkatkan ketelitian dalam menyunting teks. Peserta diharapkan mampu menerapkan kaidah kebahasaan untuk menghasilkan kalimat yang baku, efektif, dan tetap mempertahankan maksud penulis."
+  }
+}

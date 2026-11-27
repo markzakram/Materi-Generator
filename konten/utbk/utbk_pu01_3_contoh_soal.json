@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Hubungan Kausalitas",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Contoh Soal Hubungan Kausalitas",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "bagian": "soal",
+    "id_katalog": "pu-01-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Sebab Akibat Tidak Langsung",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penelitian menunjukkan bahwa motivasi pekerja dipengaruhi oleh kualitas kepemimpinan atasan dalam mengarahkan bawahan. Pekerja yang memiliki motivasi tinggi cenderung lebih aktif menyampaikan gagasan untuk memperbaiki proses kerja. Berdasarkan temuan tersebut, sebuah perusahaan mengadakan program pendampingan bagi para manajer. Setelah program dilaksanakan, jumlah ide perbaikan yang diajukan karyawan meningkat tajam. Berdasarkan informasi tersebut, tindakan manakah yang PALING MUNGKIN berkontribusi terhadap peningkatan jumlah ide perbaikan yang diajukan karyawan?"
+            }
+          ],
+          "opsi": {
+            "A": "Atasan menyusun peraturan yang memberikan kebebasan kepada karyawan untuk menyampaikan gagasan.",
+            "B": "Perusahaan meningkatkan anggaran pelatihan untuk mengembangkan kemampuan teknis seluruh karyawan.",
+            "C": "Perusahaan mengembangkan kompetensi kepemimpinan atasan melalui program pendampingan manajer.",
+            "D": "Manajemen perusahaan memperbarui sistem perekrutan agar proses seleksi karyawan lebih transparan.",
+            "E": "Perusahaan menerapkan evaluasi kinerja yang mendorong karyawan meningkatkan produktivitas kerja."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini menunjukkan hubungan sebab-akibat tidak langsung, yaitu suatu tindakan dapat memengaruhi hasil melalui satu atau beberapa faktor perantara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan stimulus, kualitas kepemimpinan atasan memengaruhi motivasi pekerja. Pekerja yang memiliki motivasi tinggi cenderung lebih aktif menyampaikan gagasan perbaikan. Perusahaan kemudian melaksanakan program pendampingan manajer yang bertujuan mengembangkan kompetensi kepemimpinan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, program pendampingan manajer merupakan tindakan yang paling mungkin berkontribusi terhadap meningkatnya jumlah ide perbaikan melalui peningkatan kualitas kepemimpinan dan motivasi pekerja."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kausal yang diduga adalah sebagai berikut:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-04.png",
+              "lebar": 4.46,
+              "tinggi": 4.64
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi C benar, karena pengembangan kompetensi kepemimpinan atasan melalui pendampingan manajer sesuai dengan tindakan yang dijelaskan. Tindakan ini berpotensi meningkatkan kualitas arahan atasan, motivasi pekerja, dan partisipasi dalam mengajukan ide perbaikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat Mengerjakan dengan Teknik S–A–B–A",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik S–A–B–A digunakan untuk mengidentifikasi Sebab, Akibat, Bukti, dan Alternatif secara cepat tanpa perlu membaca ulang seluruh stimulus berkali-kali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "S — Sebab"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perusahaan mengadakan program pendampingan bagi manajer untuk mengembangkan kompetensi kepemimpinan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Akibat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah ide perbaikan yang diajukan oleh karyawan meningkat tajam."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Stimulus menyebutkan bahwa kualitas kepemimpinan memengaruhi motivasi, sedangkan motivasi yang tinggi berkaitan dengan keaktifan mengajukan gagasan. Ini memberikan dasar bagi dugaan hubungan tidak langsung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A — Alternatif"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pilihan A, B, D, dan E menggambarkan tindakan lain yang mungkin berpengaruh terhadap karyawan. Namun, tidak satu pun disebutkan sebagai tindakan perusahaan dalam stimulus. Pilihan C paling sesuai dengan program yang dilaksanakan."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Saat menemukan soal yang menanyakan tindakan paling mungkin berkontribusi terhadap suatu hasil, cari tiga informasi utama:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apa programnya? → Apa yang ingin ditingkatkan? → Apa hasil yang diamati?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal ini:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pendampingan manajer → Kompetensi kepemimpinan dan motivasi pekerja → Ide perbaikan meningkat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari pilihan A–E, hanya C yang mengikuti hubungan tersebut secara utuh."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Mengidentifikasi Faktor Perantara",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah perusahaan distribusi mengalami keterlambatan pengiriman barang setelah salah satu jalur utama menuju gudang ditutup untuk perbaikan. Penutupan tersebut menyebabkan kendaraan harus melewati jalur alternatif yang lebih panjang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Akibatnya, waktu perjalanan kendaraan bertambah. Meskipun jumlah kendaraan dan volume barang yang dikirim tetap sama, sebagian pengiriman tiba melewati jadwal yang telah ditetapkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan hubungan berikut:"
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-05.png",
+              "lebar": 3.98,
+              "tinggi": 3.12
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, **faktor perantara apakah yang paling langsung menghubungkan penutupan jalur utama dengan keterlambatan pengiriman barang?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam bentuk frasa singkat.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Bertambahnya waktu perjalanan.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Hubungan sebab-akibat tidak langsung melalui faktor perantara."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penutupan jalur utama mengharuskan kendaraan menggunakan jalur alternatif yang lebih panjang. Perubahan tersebut menyebabkan waktu perjalanan bertambah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu perjalanan yang lebih lama kemudian membuat sebagian pengiriman tiba melewati jadwal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, hubungan kausalitasnya adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Penutupan jalur utama → penggunaan jalur lebih panjang → waktu perjalanan bertambah → pengiriman terlambat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Faktor perantara yang paling langsung menjelaskan keterlambatan pengiriman adalah **bertambahnya waktu perjalanan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah kendaraan dan volume barang tetap sama sehingga kedua faktor tersebut tidak menjelaskan perubahan waktu pengiriman yang terjadi dalam stimulus."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan penyebab awal dan akibat akhir, kemudian cari kondisi di antaranya yang menjelaskan bagaimana penyebab awal menghasilkan akibat tersebut."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Hubungan Kausalitas: Menguji Penyebab Alternatif",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah pusat layanan pelanggan menerapkan sistem antrean digital untuk mempercepat proses pelayanan. Sebelum sistem diterapkan, rata-rata waktu tunggu pelanggan adalah 20 menit. Setelah penerapan sistem, rata-rata waktu tunggu menurun menjadi 12 menit."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Manajer menyimpulkan bahwa sistem antrean digital merupakan penyebab utama penurunan waktu tunggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, laporan operasional menunjukkan bahwa pada periode yang sama, jumlah pelanggan yang datang juga berkurang. Selain itu, pusat layanan menambah jumlah petugas pada jam-jam sibuk. Belum dilakukan pengujian terpisah untuk mengetahui pengaruh masing-masing perubahan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan informasi tersebut, tentukan apakah setiap pernyataan berikut **Benar atau Salah**."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Penurunan rata-rata waktu tunggu setelah penerapan sistem antrean digital membuktikan bahwa sistem tersebut merupakan satu-satunya penyebab perubahan.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Berkurangnya jumlah pelanggan dapat menjadi penyebab alternatif yang turut menjelaskan penurunan waktu tunggu.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Penambahan petugas pada jam sibuk perlu dipertimbangkan sebelum menyimpulkan bahwa sistem antrean digital merupakan penyebab utama penurunan waktu tunggu.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Karena terdapat beberapa perubahan yang berlangsung bersamaan, dapat dipastikan bahwa sistem antrean digital tidak memberikan pengaruh terhadap waktu tunggu.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Salah, Benar, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Hubungan sebab ganda, korelasi dan kausalitas, serta evaluasi penyebab alternatif."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Data menunjukkan bahwa rata-rata waktu tunggu menurun dari 20 menit menjadi 12 menit setelah sistem antrean digital diterapkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, perubahan tersebut tidak otomatis membuktikan bahwa sistem merupakan satu-satunya penyebab penurunan waktu tunggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada periode yang sama, jumlah pelanggan juga berkurang dan jumlah petugas pada jam sibuk bertambah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena terdapat beberapa perubahan yang terjadi bersamaan, penyebab utama belum dapat dipastikan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berkurangnya jumlah pelanggan dapat mengurangi banyaknya orang yang harus dilayani."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika jumlah pelanggan menurun, antrean berpotensi menjadi lebih pendek sehingga waktu tunggu juga dapat berkurang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, penurunan jumlah pelanggan merupakan **penyebab alternatif yang masuk akal** untuk menjelaskan penurunan waktu tunggu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Namun, besarnya pengaruh faktor tersebut belum diketahui."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penambahan petugas pada jam sibuk berpotensi meningkatkan kapasitas pelayanan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika lebih banyak pelanggan dapat dilayani dalam waktu bersamaan, waktu tunggu juga berpotensi menurun."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Oleh karena itu, pengaruh penambahan petugas perlu diperiksa sebelum menyimpulkan bahwa sistem antrean digital merupakan penyebab utama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Adanya beberapa penyebab alternatif tidak membuktikan bahwa sistem antrean digital sama sekali tidak berpengaruh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sistem tersebut mungkin turut mempercepat pelayanan, tetapi data yang tersedia belum cukup untuk menentukan besarnya kontribusi masing-masing faktor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesimpulan yang tepat adalah **pengaruh sistem antrean digital belum dapat dipisahkan dari faktor lain**, bukan bahwa sistem tersebut pasti tidak berpengaruh."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah **Salah – Benar – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan teknik S–A–B–A (Sebab → Akibat → Bukti → Alternatif). Identifikasi faktor yang diklaim sebagai penyebab, periksa akibat yang diamati, nilai kekuatan buktinya, kemudian cari faktor lain yang mungkin menjelaskan akibat tersebut. Hindari kesimpulan mutlak yang belum didukung data."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

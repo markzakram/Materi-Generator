@@ -43,7 +43,7 @@ pip install -r requirements-lokal.txt
 
 ## Situs unduhan statis (tanpa generator)
 
-Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (77 deck: 28 Verbal, 42 Numerik termasuk Data & Deret, dan 7 Figural), **JadiOJK · PCAM OJK** (57 deck TKU PCAM OJK: 29 materi dan 28 contoh soal), dan **Cerebrum · UTBK** (92 deck UTBK-SNBT: 46 materi dan 46 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
+Folder `situs/` adalah satu halaman unduhan untuk semua aplikasi. Tab di bagian atas memilih aplikasinya: **JadiASN · TIU** (77 deck: 28 Verbal, 42 Numerik termasuk Data & Deret, dan 7 Figural), **JadiOJK · PCAM OJK** (57 deck TKU PCAM OJK: 29 materi dan 28 contoh soal), dan **Cerebrum · UTBK** (243 deck UTBK-SNBT per Bab: 122 materi dan 121 contoh soal). Warna slide dan halaman mengikuti palet aplikasi itu. Setiap materi berbentuk General dengan sampul foto, dalam PPTX dan PDF. Pengunjung memasukkan sandi, memilih aplikasi, lalu mengunduh; tidak ada server atau generator yang berjalan. Tab terakhir yang dipilih diingat, dan tautan bisa langsung menuju satu aplikasi (`…/#ojk`). Slicer **Semua / Materi / Contoh soal** menyaring jenis deck bersama saringan kelompok dan pencarian; pilihannya ikut di alamat (`…/#tiu/soal`, `…/#ojk/materi`). Jenis deck ditentukan `jenis_deck` di `generator/buat_materi.py` dan disimpan sebagai `"jenis"` di `data.json`: deck dengan `bagian: "soal"`, berjudul "Contoh Soal …", atau yang seluruh isinya soal (Figural Serial dan Matriks) dihitung contoh soal.
 
 Palet platform ada di `generator/palet.py` (warna dari proyek ICON Aplikasi generator, `catalog/brands.json`). Palet mengganti navy dan kuning template di semua bentuk, SVG, dan PNG berwarna brand; foto tidak diubah. Palet `cerebrum` memakai merah bata dan kuning untuk bidang dan judul, dan biru tua (`teks_biasa`) untuk teks isi yang tidak tebal. Generator biasa juga bisa memakainya: `python generator/buat_materi.py naskah.json --tema general --palet jadiasn`.
 
@@ -57,7 +57,7 @@ python generator/buat_situs.py --katalog konten/utbk/katalog.json --template-gen
 
 Setiap perintah membangun satu aplikasi ke `situs/<id>/` (id dari `"aplikasi"` di katalog) dan menambahkan tabnya ke `situs/aplikasi.json`; aplikasi lain tidak tersentuh. Palet diambil dari `"palet"` di katalog. Bawaannya `--tema general` (satu tampilan, jadi halaman tidak menampilkan pilihan). Pakai `--palet tanpa` untuk warna asli template, atau tambahkan `opsi-b` ke `--tema` (dengan `--template-opsi-b "path/Template Referensi Opsi B - Ceria & Membulat.pptx"`) untuk menyediakan Opsi B juga.
 
-Ukuran: TIU sekitar 198 MB, OJK sekitar 142 MB, dan UTBK sekitar 232 MB, jadi seluruh situs sekitar 572 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
+Ukuran: TIU sekitar 198 MB, OJK sekitar 142 MB, dan UTBK sekitar 561 MB (243 deck per Bab), jadi seluruh situs sekitar 900 MB. Menurut dokumentasi Vercel (dicek November 2026), batas 100 MB di paket Hobby hanya untuk unggahan lewat CLI; untuk deploy dari GitHub tidak ada batas ukuran tertulis. Yang perlu dijaga adalah kuota 10 GB penyimpanan deployment per tim Hobby: bila terlampaui, deploy baru bisa ditolak sampai deployment lama dihapus.
 
 Untuk memperbarui daftar saja (kelompok, tautan dokumen, jenis deck) tanpa membangun deck, jalankan perintah yang sama dengan `--hanya-data`; PowerPoint dan template tidak dibutuhkan.
 
@@ -140,7 +140,17 @@ Konverter mengenali format dokumen OJK: judul bagian bernomor ("1. PENDAHULUAN",
 
 ### Materi UTBK (Cerebrum)
 
-`konten/utbk/katalog.json` mendaftar 46 dokumen di kolom File sheet "Kerangka Course" (Mapping UTBK 2027) sebagai 92 deck: satu dokumen menjadi deck materi dan deck contoh soal, walau dokumennya mencakup beberapa baris Bab (`"cakupan"`). Kelompoknya mengikuti sheet (PU, PPU-PBM, PK-PM, LBI, LBE); nama subtes di sampul diambil dari `"nama_subtes"`. Baris 10–15 (Silogisme dan Logika) belum punya dokumen.
+`konten/utbk/katalog.json` mendaftar 46 dokumen di kolom File sheet "Kerangka Course" (Mapping UTBK 2027) sebagai 243 deck, **satu deck materi dan satu deck contoh soal per baris Bab** di sheet (mis. Penalaran Verbal menjadi Generalisasi, Analogi, Hubungan Kausalitas, Kesesuaian Pernyataan, dan Evaluasi Argumen). Kelompoknya mengikuti sheet (PU, PPU-PBM, PK-PM, LBI, LBE); nama subtes di sampul diambil dari `"nama_subtes"`, dan nama Bab menjadi judul deck. Baris 10–15 (Silogisme dan Logika) belum punya dokumen.
+
+21 dokumen mencakup beberapa Bab. Dokumen itu ada di `"sumber"` katalog dan dibaca sekali, lalu `generator/pisah_bab.py` membaginya ke entri `materi` yang `"sumber"`-nya sama (`pu-01-1` … `pu-01-5`, contoh soalnya `pu-01-1-soal` …):
+
+- Subbab yang namanya sama dengan Bab masuk deck Bab itu (`"bab"` memakai nama subbab di dokumen; `"bab_sheet"` mencatat nama di sheet bila berbeda, mis. "Analogi Kata/Frasa"). Subbab pengantar yang bukan Bab ("Penalaran Induktif", "Morfologi") ikut di awal setiap deck Bab sesudahnya.
+- Rangkuman: butir, paragraf, atau baris tabel yang diawali nama Bab masuk deck Bab itu; sisanya masuk semua deck.
+- Tujuan pembelajaran: butir berawalan nama Bab ("Generalisasi: membedakan …; menyimpulkan …") dipecah per kata kerja; tanpa awalan, butir dibagi rata menurut urutan Bab.
+- Pendahuluan dan pesan penutup tetap utuh karena teksnya membahas seluruh materi. Ringkasan penutup berisi subbab deck, atau judul bagian di dalam Bab.
+- Contoh soal mengikuti label subbabnya. Soal tanpa label dicocokkan dari nama Bab di judulnya, atau dari `"nomor_soal"` di entri katalog (Aritmatika Sosial: soal 1–2 Aritmatika Sosial, 3–4 Harga, dan seterusnya). Nomor soal diurutkan ulang per deck. Bab tanpa soal (Statistika) tidak punya deck contoh soal.
+
+`pelengkap.json` dan `koreksi.json` memakai ID dokumen (`pk-05`), bukan ID Bab.
 
 ```bash
 python generator/impor_katalog.py --katalog konten/utbk/katalog.json --docx folder_docx_utbk

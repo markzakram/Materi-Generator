@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "judul": "Bilangan dan Operasi Bilangan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Bilangan dan Operasi Bilangan",
+    "sumber": "https://docs.google.com/document/d/1S7NSlkiFIZGqjknC25ZBw8a7yAHNe6AvpPe0Z9l5NXI/edit",
+    "id_katalog": "pk-01-1"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Bilangan dan Aritmetika merupakan landasan penyelesaian berbagai persoalan kuantitatif."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengidentifikasi",
+        "teks": "jenis/sifat bilangan dan prioritas operasi."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "operasi campuran, distributif, dan pecahan."
+      },
+      {
+        "level": "",
+        "kko": "Membandingkan",
+        "teks": "efisiensi strategi."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bilangan dan Aritmetika",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bilangan dan Aritmetika",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Semua submateri mengikuti alur mengenali konsep, menerapkan model, kemudian menguji ketepatan model terhadap konteks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Bilangan dan Operasi Bilangan",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bilangan dan Operasi Bilangan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan digunakan dalam matematika untuk menyatakan **jumlah, urutan, atau ukuran**. Bilangan terdiri atas beberapa jenis. **Bilangan asli** digunakan untuk menghitung, seperti $1, 2, 3, 4,$ dan seterusnya. **Bilangan cacah** terdiri atas $0$ dan bilangan asli. **Bilangan bulat** mencakup bilangan negatif, nol, dan bilangan positif. Sementara itu, **bilangan rasional** adalah bilangan yang dapat ditulis dalam bentuk $a/b$, dengan $a$ dan $b$ merupakan bilangan bulat dan b tidak sama dengan nol. Bilangan yang tidak dapat ditulis dalam bentuk tersebut disebut **bilangan irasional**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam melakukan operasi hitung, kita perlu memperhatikan **urutan pengerjaan**. Kerjakan terlebih dahulu operasi di dalam tanda kurung. Setelah itu, kerjakan pangkat atau akar jika ada, kemudian perkalian dan pembagian dari kiri ke kanan, dan terakhir penjumlahan serta pengurangan dari kiri ke kanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Angka, Bilangan, dan Himpunanya"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$N = {1, 2, 3, …} ⊂ W = {0, 1, 2, …} ⊂ Z ⊂ Q ⊂ R$"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Jenis",
+                "Definisi dan contoh"
+              ],
+              "baris": [
+                [
+                  "Asli",
+                  "Bilangan hitung $1, 2, 3, …$"
+                ],
+                [
+                  "Cacah",
+                  "0 dan seluruh bilangan asli"
+                ],
+                [
+                  "Bulat",
+                  "$…, −2, −1, 0, 1, 2, …$"
+                ],
+                [
+                  "Rasional",
+                  "Dapat ditulis $a/b$ dengan $a, b$ bulat dan $b ≠ 0$; misalnya $−3, 1/2, 0,75$"
+                ],
+                [
+                  "Irasional",
+                  "Bilangan real yang tidak dapat ditulis $a/b$ seperti $√2$ dan $π$"
+                ],
+                [
+                  "Real",
+                  "Gabungan bilangan rasional dan irasional"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kategori khusus dan sifat bilangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berikut ini merupakan beberapa kategori dari bilangan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kategori",
+                "Makna / penalaran penting"
+              ],
+              "baris": [
+                [
+                  "Genap / ganjil",
+                  "Bilangan bulat genap $= 2k$; ganjil $= 2k + 1$, untuk k bulat"
+                ],
+                [
+                  "Prima / komposit",
+                  "Prima positif $>1$ memiliki tepat dua faktor positif; komposit memiliki lebih dari dua. Angka 1 bukan keduanya"
+                ],
+                [
+                  "Positif / negatif",
+                  "Positif $>0$ dan negatif $<0$; nol bukan positif maupun negatif"
+                ],
+                [
+                  "Kuadrat sempurna",
+                  "Bilangan bulat taknegatif berbentuk $n²$, misalnya $0, 1, 4, 9$"
+                ],
+                [
+                  "Kelipatan dan sisa",
+                  "$n = dq + r$ dengan $0 ≤ r < d$ untuk pembagi $d$ positif"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Operasi dasar dan prioritas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Empat operasi dasar ialah penjumlahan (+), pengurangan (−), perkalian (×), dan pembagian (÷). Prioritas yang aman: kurung, pangkat/akar, perkalian/pembagian dari kiri ke kanan, lalu penjumlahan/pengurangan dari kiri ke kanan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sifat operasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berikut merupakan beberapa sifat operasi."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Sifat",
+                "Bentuk dan batas"
+              ],
+              "baris": [
+                [
+                  "Komutatif",
+                  "$a+b=b+a; ab=ba$. Tidak berlaku umum pada pengurangan/pembagian"
+                ],
+                [
+                  "Asosiatif",
+                  "$(a+b)+c=a+(b+c); (ab)c=a(bc)$"
+                ],
+                [
+                  "Distributif",
+                  "$a(b+c)=ab+ac; a(b−c)=ab−ac$"
+                ],
+                [
+                  "Identitas",
+                  "$a+0=a; a×1=a$"
+                ],
+                [
+                  "Invers",
+                  "$a+(−a)=0; a×(1/a)=1$ untuk $a≠0$"
+                ],
+                [
+                  "Tertutup",
+                  "Jumlah dan hasil kali bilangan bulat tetap bulat; hasil bagi dua bilangan bulat belum tentu bulat"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pecahan dan desimal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Operasi pecahan membutuhkan penyebut tidak nol. Untuk penjumlahan dan pengurangan, gunakan penyebut sama. Untuk perkalian, kalikan pembilang dengan pembilang dan penyebut dengan penyebut. Untuk pembagian, kalikan dengan kebalikan pecahan pembagi yang tidak nol."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a/b+c/d=(ad+bc)/(bd), b≠0, d≠0$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a/b÷c/d=ad/(bc), b≠0,c≠0, d≠0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Desimal berhingga dapat dikonversi menjadi pecahan untuk hitung eksak, misalnya $0,75 = 3/4$."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Representasi pecahan, pecahan campuran, desimal, dan persen"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pecahan sering memudahkan perhitungan eksak; desimal memudahkan pembacaan ukuran; persen menunjukkan per seratus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Bentuk umum dan syarat penyebut",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pecahan biasa: $a/b$, dengan $b ≠ 0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pecahan campuran: $m(a/b) =(mb+a)/b$, untuk $m$ bilangan bulat tak negatif, $0 ≤ a < b, b > 0$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konversi bentuk bilangan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Desimal berhingga: $d = n/(10ᵏ)$($k$ banyaknya angka di belakang koma), lalu sederhanakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persen sebagai bentuk bilangan: $p% = p/100; a/b =(100a)/b%$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Aturan operasi pada pecahan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a/b ± c/d = (ad ± bc)/(bd);(a/b)(c/d)=ac/(bd)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$(a/b)÷(c/d)=ad/(bc),$ dengan $b ≠ 0, c ≠ 0, d ≠ 0$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pecahan istimewa sebagai jembatan penalaran cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tabel pecahan istimewa membantu mengenali padanan yang sering muncul."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "$1/2=0,5=50%$",
+                "$1/4=0,25=25%$",
+                "$3/4=0,75=75%$"
+              ],
+              "baris": [
+                [
+                  "$1/5=0,2=20%$",
+                  "$1/8=0,125=12,5%$",
+                  "$2/5=0,4=40%$"
+                ],
+                [
+                  "$5/8=0,625=62,5%$",
+                  "$7/8=0,875=87,5%$",
+                  "$3/8=0,375=37,5%$"
+                ],
+                [
+                  "$1/3=0,333...;$",
+                  "$2/3=0,666...;$",
+                  "$1/6=0,1666...;$"
+                ],
+                [
+                  "$5/6=0,8333...$",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pangkat, akar, dan identitas aljabar yang relevan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pangkat dan akar",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$aᵐ × aⁿ = aᵐ⁺ⁿ;$ $aᵐ / aⁿ = aᵐ⁻ⁿ (a ≠ 0)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$(aᵐ)ⁿ = aᵐⁿ; (ab)ⁿ = aⁿbⁿ;$ $a⁰ = 1 (a ≠ 0)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "$a⁻ⁿ = 1/aⁿ (a ≠ 0);$ $√(a²) = |a|$ **untuk** $a$ **real**"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Selisih dua kuadrat",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$a² − b² = (a − b)(a + b)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Estimasi, pembulatan, dan pemeriksaan kewajaran hasil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagian ini memperlihatkan pendekatan perkiraan untuk mempercepat eliminasi opsi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Teknik pembatasan sebelum operasi panjang",
+              "tingkat": 2
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$0 < a₁ ≤ a ≤ a₂, 0 < b₁ ≤ b ≤ b₂ ⇒ a₁/b₂ ≤ a/b ≤ a₂/b₁$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sifat-sifat operasi yang wajib dibedakan",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Komutatif:**$a + b = b + a; ab = ba$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Asosiatif:** $(a + b) + c = a + (b + c); (ab)c = a(bc)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Distributif:** $a(b + c) = ab + ac; a(b − c) = ab − ac$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Sisa pembagian, pola kelipatan, dan batas bilangan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal bilangan yang meminta jumlah atau banyaknya objek sering dapat dikerjakan lewat struktur sisa pembagian. Jika bilangan $n$ bersisa $r$ saat dibagi $d$, maka $n = dq + r$. Untuk mencari bilangan dalam interval, tentukan suku pertama dan terakhir yang memenuhi, lalu gunakan jarak tetap $d$."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n = 7q + 3 → 10, 17, 24, …, 94 (dua digit)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membandingkan kuantitas dan mengevaluasi kasus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam bentuk Perbandingan Kuantitas, nilai $P$ dan $Q$ tidak selalu perlu dihitung sampai menjadi angka."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$P − Q < 0 ⇒ P < Q; P − Q = 0 ⇒ P = Q$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Operasi yang didefinisikan khusus"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simbol ★, ■, atau △ dalam stimulus bukan aturan operasi universal. Baca definisinya secara harfiah, kerjakan operasi yang berada di dalam simbol terlebih dahulu, lalu uji hasil terhadap besaran atau opsi yang ditanyakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Simbol juga dapat ditampilkan melalui diagram berpotongan atau teka-teki kotak."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi mengerjakan dan cara cepat"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Baca syarat: positif/negatif, bulat/real, batas interval, serta sisa pembagian.",
+                "Pilih representasi: bentuk $n = dq+r$, substitusi, selisih $P−Q$, atau definisi operasi khusus.",
+                "Kerjakan inti penalaran sebelum hitung panjang; cari pola, faktor sama, atau kasus ekstrem.",
+                "Periksa kembali syarat awal; jangan menerima hasil yang tidak mungkin atau opsi yang tidak tersedia."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan teknik cepat S–M–U–C:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "SYARAT → MODEL → UJI → COCOKKAN."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "S adalah domain dan kondisi,",
+                "M adalah bentuk matematika,",
+                "U adalah pemeriksaan kesetaraan/kemungkinan, dan",
+                "C adalah kecocokan hasil dengan opsi."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Rumus ini merupakan alat bantu pembelajaran, bukan terminologi resmi ujian."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Bilangan dan Aritmetika",
+        "teks": ""
+      },
+      {
+        "judul": "Bilangan dan Operasi Bilangan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Melalui materi Bilangan dan Operasi Bilangan, peserta mempelajari jenis dan sifat bilangan, aturan operasi hitung, serta pemilihan strategi perhitungan yang efisien. Pada materi FPB dan KPK, peserta dilatih mengenali hubungan faktor dan kelipatan serta menentukan penggunaannya dalam persoalan pembagian dan kejadian berulang. Selanjutnya, Rasio/Perbandingan dan Proporsi membantu peserta memahami hubungan antarbesaran, menentukan nilai yang belum diketahui, serta mengevaluasi kesesuaian model matematika dengan informasi yang diberikan. Dengan memahami keseluruhan materi secara bertahap dan berlatih menggunakan berbagai bentuk soal, peserta diharapkan mampu mengembangkan kemampuan berpikir matematis yang sistematis, kritis, dan akurat. Penguasaan Bab Bilangan dan Aritmetika juga menjadi bekal untuk mempelajari materi kuantitatif berikutnya yang membutuhkan pemahaman tentang operasi, hubungan antarbesaran, dan pemodelan matematika. Pada akhirnya, keberhasilan dalam menyelesaikan soal kuantitatif tidak hanya ditentukan oleh kemampuan menghitung, tetapi juga oleh ketepatan memahami persoalan, memilih strategi, dan mengevaluasi hasil berdasarkan informasi yang tersedia."
+  }
+}

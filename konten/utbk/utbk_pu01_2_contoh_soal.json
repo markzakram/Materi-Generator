@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Analogi",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Contoh Soal Analogi",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "bagian": "soal",
+    "id_katalog": "pu-01-2-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Hubungan Tempat - Benda",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sekolah menyediakan perpustakaan untuk menyimpan, mengelola, dan memamerkan koleksi buku yang dapat dibaca siswa. Saat kunjungan belajar ke sebuah galeri seni, para siswa melihat ruang yang digunakan untuk menyimpan, mengelola, dan memamerkan karya seni kepada pengunjung. Jika hubungan perpustakaan dengan buku dianalogikan dengan hubungan galeri terhadap suatu benda, benda apakah yang PALING TEPAT melengkapi analogi tersebut?"
+            }
+          ],
+          "opsi": {
+            "A": "Kamera",
+            "B": "Lukisan",
+            "C": "Panggung",
+            "D": "Tiket",
+            "E": "Penonton"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Soal ini menguji **analogi hubungan tempat dan objek**, yaitu hubungan antara suatu tempat dengan objek utama yang disimpan, dikelola, atau ditampilkan di tempat tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola hubungan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "tempat → objek yang disimpan/dikelola"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Perpustakaan → Buku"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan yang dicari harus memiliki pola yang sama:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Galeri → Lukisan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Kata Kunci",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "analogi, tempat, objek, perpustakaan, buku, galeri, lukisan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perpustakaan merupakan tempat yang digunakan untuk menyimpan, mengelola, dan menyediakan koleksi buku agar dapat diakses oleh pengunjung."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan yang sepadan terdapat pada galeri seni. Galeri digunakan untuk menyimpan, mengelola, dan memamerkan karya seni kepada pengunjung. Salah satu objek utama yang biasa dipamerkan di galeri adalah **lukisan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pola hubungannya adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Perpustakaan → Buku"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "Galeri → Lukisan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan menunjukkan hubungan antara **tempat dengan objek utama yang disimpan, dikelola, atau ditampilkan di dalamnya**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tanyakan:"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "“Tempat tersebut terutama digunakan untuk menyimpan atau menampilkan apa?”",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perpustakaan → buku"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Galeri → lukisan"
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Analogi Hubungan Urutan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam proses pengembangan suatu produk, rancangan awal harus diselesaikan sebelum masuk ke tahap pengujian. Hubungan serupa terdapat dalam proses penerbitan buku, ketika naskah harus melalui tahap penyuntingan sebelum dicetak."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perhatikan hubungan berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Perancangan : Pengujian = Penyuntingan : ....**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan kesamaan urutan proses tersebut, **tahap apakah yang tepat untuk melengkapi analogi?**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "<i>(Tuliskan jawaban dalam satu kata.)</i>"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Pencetakan**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Analogi hubungan urutan, yaitu kesetaraan hubungan antara tahap awal dan tahap berikutnya dalam suatu proses."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan pertama adalah <i>perancangan : pengujian</i>. Perancangan dilakukan untuk menghasilkan rancangan produk yang kemudian diperiksa melalui proses pengujian."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hubungan kedua harus memiliki pola urutan yang sama. Dalam proses penerbitan buku yang dijelaskan pada stimulus, penyuntingan dilakukan sebelum pencetakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, pola hubungannya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perancangan → Pengujian"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penyuntingan → Pencetakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan menunjukkan hubungan antara suatu tahap dan tahap berikutnya dalam proses yang telah ditetapkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jawaban yang benar adalah **Pencetakan**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan metode HAPE. Identifikasi hubungan tahap pertama dan kedua, periksa arah urutannya, kemudian terapkan pola yang sama pada pasangan berikutnya."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Menguji Kesetaraan Hubungan Analogi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam penalaran analogi, dua pasangan kata tidak harus memiliki bentuk atau karakteristik yang sama. Kesetaraan ditentukan oleh hubungan antarkata, seperti hubungan fungsi, bagian dan keseluruhan, urutan proses, serta jenis dan kategori."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Seorang siswa membandingkan beberapa pasangan kata untuk mengetahui apakah hubungan keduanya memiliki pola yang sepadan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan konsep analogi tersebut, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Hubungan <i>dokter : pasien</i> sepadan dengan <i>mekanik : kendaraan</i> karena keduanya menunjukkan pelaku yang menangani objek tertentu sesuai bidang pekerjaannya.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Hubungan <i>roda : sepeda</i> sepadan dengan <i>mawar : bunga</i> karena keduanya menunjukkan unsur yang menjadi bagian penyusun suatu keseluruhan.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Hubungan <i>perencanaan : pelaksanaan</i> sepadan dengan <i>pengumpulan data : analisis data</i> karena keduanya menunjukkan urutan tahapan dalam suatu proses.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Hubungan <i>elang : burung</i> sepadan dengan <i>kendaraan : mobil</i> karena keduanya menunjukkan urutan dari jenis khusus menuju kategori yang lebih umum.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kesetaraan hubungan analogi, identifikasi pola, serta ketepatan arah hubungan antara pasangan kata."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dokter merupakan tenaga profesional yang menangani pasien. Sementara itu, mekanik merupakan tenaga profesional yang menangani kendaraan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keduanya memiliki pola hubungan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pelaku/profesi → objek yang ditangani"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dokter → Pasien"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mekanik → Kendaraan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Meskipun bidang pekerjaannya berbeda, pola hubungan kedua pasangan sepadan."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Roda merupakan salah satu bagian penyusun sepeda sehingga menunjukkan hubungan **bagian–keseluruhan**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebaliknya, mawar merupakan salah satu jenis bunga sehingga menunjukkan hubungan **jenis–kategori**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Roda → bagian dari sepeda"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Mawar → jenis bunga"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan tidak memiliki hubungan yang sama. Jadi, pernyataan (2) salah."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perencanaan merupakan tahap yang dilakukan sebelum pelaksanaan suatu kegiatan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Demikian pula, dalam proses penelitian, pengumpulan data dilakukan sebelum data dianalisis."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pola hubungannya adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Perencanaan → Pelaksanaan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pengumpulan data → Analisis data"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kedua pasangan menunjukkan urutan tahapan dalam suatu proses. Jadi, pernyataan (3) benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Elang merupakan salah satu jenis burung. Hubungan tersebut bergerak dari kategori khusus menuju kategori yang lebih umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Elang → Burung"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebaliknya, pasangan <i>kendaraan : mobil</i> bergerak dari kategori umum menuju jenis khusus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kendaraan → Mobil"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Walaupun kedua pasangan berhubungan dengan klasifikasi, **arah hubungannya terbalik**. Jadi, pernyataan (4) salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, urutan jawaban yang benar adalah **Benar – Salah – Benar – Salah**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan metode HAPE (Hubungan → Arah → Padankan → Eliminasi). Tentukan jenis hubungan pada pasangan pertama, periksa arahnya, kemudian pastikan pasangan kedua memiliki hubungan yang sama. Jangan menganggap dua pasangan sepadan hanya karena kata-katanya berada dalam bidang yang serupa."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

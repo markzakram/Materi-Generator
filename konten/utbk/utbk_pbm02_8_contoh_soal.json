@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Kata Ganti dan Kata Rujukan",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Kata Ganti dan Kata Rujukan",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-8-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Kata Ganti dan Kata Rujukan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah taman baca menerima sumbangan buku dari warga setelah mengadakan kampanye literasi. Relawan membagi tugas menjadi penerimaan, pemeriksaan kondisi, pencatatan, dan penataan koleksi. Dalam laporan kegiatan, penulis harus menggunakan kata rujukan secara jelas karena terdapat beberapa kelompok orang dan benda yang disebutkan. Apabila kata ganti merujuk pada lebih dari satu pihak, pembaca dapat salah memahami siapa yang melakukan suatu tindakan. Oleh sebab itu, penyunting memeriksa urutan penyebutan pelaku dan memastikan setiap kata rujukan memiliki anteseden yang paling tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petugas taman baca mengumpulkan buku sumbangan warga di balai desa. Para relawan perpustakaan kemudian memeriksa kondisi buku-buku tersebut. Mereka menandai buku yang perlu diperbaiki sebelum dipinjamkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kata “Mereka” pada kalimat ketiga merujuk pada ....**"
+            }
+          ],
+          "opsi": {
+            "A": "petugas taman baca",
+            "B": "warga penyumbang buku",
+            "C": "para relawan perpustakaan",
+            "D": "buku-buku sumbangan",
+            "E": "calon peminjam buku"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Kata ganti dan kata rujukan membantu penulis menghindari pengulangan, tetapi dapat menimbulkan ambiguitas bila acuan tidak jelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.8, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tandai kata ganti atau frasa rujukan yang ditanyakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Daftar kandidat anteseden pada kalimat sebelumnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Saring berdasarkan jumlah, jenis entitas, peran tindakan, dan kelanjutan konteks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Petugas disebut pada kalimat pertama; tindakan pada kalimat ketiga merupakan kelanjutan kegiatan relawan dalam kalimat kedua."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Warga berperan menyumbang buku, bukan memeriksa dan menandainya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Benar. Anteseden terdekat yang berfungsi sebagai pelaku dan konsisten dengan kegiatan pemeriksaan adalah “para relawan perpustakaan”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Buku merupakan objek yang diperiksa, bukan pelaku yang menandai."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Calon peminjam belum disebutkan sebagai pelaku kegiatan dalam teks."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Anteseden = unsur yang dirujuk. Pilih berdasarkan kedekatan + kecocokan makna + kesinambungan pelaku/tindakan; jangan mengandalkan posisi terdekat saja."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

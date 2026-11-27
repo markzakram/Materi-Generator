@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbaikan Kata Sambung/Konjungsi",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Perbaikan Kata Sambung-Konjungsi",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah melakukan evaluasi terhadap pola perjalanan siswa selama satu semester. Hasil pengamatan menunjukkan peningkatan penggunaan kendaraan bermotor pada jam masuk dan pulang sekolah. Pihak sekolah kemudian mempertimbangkan kebijakan yang dapat mendorong perjalanan jarak dekat menggunakan sepeda. Dalam laporan evaluasi, hubungan antara temuan masalah dan langkah tindak lanjut perlu dinyatakan dengan konjungsi antarkalimat yang tepat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah kendaraan bermotor di kawasan sekolah meningkat. ____, pengelola sekolah menyediakan parkir sepeda tambahan untuk mendorong perjalanan jarak dekat dengan sepeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konjungsi antarkalimat yang paling tepat adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Meskipun demikian",
+            "B": "Oleh karena itu",
+            "C": "Sebaliknya",
+            "D": "Sementara itu",
+            "E": "Bahkan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Memilih konjungsi menurut hubungan sebab, tujuan, penambahan, atau pertentangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tuliskan fungsi kalimat pertama: fakta, masalah, manfaat, atau kondisi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Tentukan fungsi kalimat kedua: akibat, tindakan, tambahan, batasan, atau tujuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Cocokkan fungsi dengan konjungsi, bukan sekadar pilihan yang terasa enak dibaca."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Menandai pertentangan, padahal kalimat kedua merupakan respons untuk mengurangi penggunaan kendaraan bermotor."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar. “Oleh karena itu” menghubungkan peningkatan kendaraan dengan upaya pengelola menyediakan fasilitas alternatif."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Mengisyaratkan arah keadaan yang berlawanan, bukan respons terhadap persoalan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Hanya menyatakan keserempakan/peralihan tanpa hubungan alasan-tindakan yang jelas."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Menambah penekanan informasi, bukan menyatakan tindak lanjut dari masalah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "TENTUKAN RELASI SEBELUM MEMILIH KONJUNGSI: tambahan → selain itu; batasan → namun/akan tetapi; tindak lanjut → oleh karena itu; kondisi → jika; tujuan → agar."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Persentase Data",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Persentase Data",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-06-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Proporsi Kategori",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Petugas kebersihan mengumpulkan 100 ton sampah selama September. Setiap sampah digolongkan hanya ke dalam satu jenis agar tidak terjadi penghitungan ganda. Data jenis dan berat sampah disajikan di bawah ini."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-04.png",
+              "lebar": 5.51,
+              "tinggi": 2.33
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-05.png",
+              "lebar": 2.59,
+              "tinggi": 2.69
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan kedua diagram, berapakah persentase berat sampah plastik terhadap total berat empat jenis sampah selain organik?"
+            }
+          ],
+          "opsi": {
+            "A": "24%",
+            "B": "30%",
+            "C": "37,5%",
+            "D": "40%",
+            "E": "64%"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Interpretasi diagram dan perhitungan persentase terhadap kelompok data tertentu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total sampah seluruhnya adalah 100 ton, sedangkan sampah organik sebanyak 36 ton."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total empat jenis sampah selain organik:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "100 − 36 = 64 ton."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan diagram, berat sampah plastik adalah 24 ton."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase plastik terhadap gabungan empat jenis sampah selain organik:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$24/64×100%=37,5%$"
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Perhatikan kelompok yang menjadi pembanding. Jangan langsung menggunakan persentase pada diagram lingkaran jika pertanyaan meminta persentase terhadap sebagian kategori."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

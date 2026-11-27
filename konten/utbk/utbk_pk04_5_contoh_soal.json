@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Deret",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Deret",
+    "sumber": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-04-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Total Jarak selama 16 Pekan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Femi mempersiapkan lomba lari lintas alam sepanjang 8 km. Ia berlatih sekali setiap pekan selama 16 pekan. Pada pekan pertama jarak latihannya 2 km. Pada setiap pekan berikutnya, jarak latihan bertambah 0,5 km hingga mencapai 8 km. Setelah mencapai jarak itu, latihan berikutnya tetap 8 km. Jarak dihitung dalam kilometer. Jika latihan pada suatu pekan berlangsung, jarak latihan pada pekan tersebut dihitung penuh."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk04_pola_dan_barisan/gambar-13.png",
+              "lebar": 8.7,
+              "tinggi": 0.71
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Berdasarkan pola latihan Femi, tentukan apakah setiap pernyataan berikut Benar atau Salah."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1.",
+                  "Jarak latihan Femi pertama kali mencapai 8 km pada pekan ke-13.",
+                  "",
+                  ""
+                ],
+                [
+                  "2.",
+                  "Total jarak latihan Femi dari pekan ke-1 hingga pekan ke-13 adalah 68 km.",
+                  "",
+                  ""
+                ],
+                [
+                  "3.",
+                  "Total jarak latihan Femi selama 16 pekan adalah 89 km.",
+                  "",
+                  ""
+                ],
+                [
+                  "4.",
+                  "Pada pekan ke-14, Femi menempuh jarak 8,5 km karena jarak latihan terus bertambah 0,5 km setiap pekan.",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: Benar, Salah, Benar, Salah**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Deret aritmetika dengan batas maksimum dan penjumlahan suku konstan"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui jarak awal 2 km dan pertambahan setiap pekan 0,5 km. Jarak pada pekan ke-$n$ adalah:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U_{n}=2+(n-1)(0,5)$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ketika jarak mencapai 8 km:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$8=2+(n-1)(0,5)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$6=0,5(n-1)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$n=13$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, jarak latihan mencapai 8 km pertama kali pada pekan ke-13."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jarak latihan selama 13 pekan pertama membentuk deret aritmetika dengan suku pertama 2 km dan suku terakhir 8 km."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S_{13}=(13/2)(2+8)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S_{13}=65km$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, total jaraknya adalah 65 km, bukan 68 km."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (3) Benar.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setelah mencapai 8 km pada pekan ke-13, jarak latihan tetap 8 km pada pekan ke-14 hingga ke-16."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total jarak tiga pekan terakhir:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$3×8=24 km$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total jarak selama 16 pekan:"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$65+24=89 km$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan bahwa total jarak latihan adalah 89 km benar."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (4) Salah.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jarak latihan Femi dibatasi maksimal 8 km. Oleh karena itu, pertambahan 0,5 km tidak berlaku lagi setelah pekan ke-13. Pada pekan ke-14, Femi tetap menempuh jarak 8 km, bukan 8,5 km."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, urutan jawaban yang benar adalah Benar – Salah – Benar – Salah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Pisahkan perhitungan menjadi dua tahap. Pekan 1–13 menggunakan deret aritmetika dengan total 65 km, sedangkan pekan 14–16 memiliki jarak tetap 8 km per pekan atau total 24 km. Jumlah keseluruhannya adalah 89 km."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Jumlah Produksi Bertahap",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Suatu proses menghasilkan 3 unit pada tahap pertama, lalu setiap tahap berikutnya menghasilkan dua kali tahap sebelumnya. Jumlah produksi selama lima tahap adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "45",
+            "B": "48",
+            "C": "90",
+            "D": "93",
+            "E": "96"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Jumlah lima suku geometri dengan a=3, r=2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui suatu proses menghasilkan 3 unit pada tahap pertama. Setiap tahap berikutnya menghasilkan dua kali jumlah produksi tahap sebelumnya. Dengan demikian, jumlah produksi pada setiap tahap membentuk barisan geometri dengan suku pertama 3 dan rasio 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah produksi pada masing-masing tahap adalah:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Tahap",
+                "Perhitungan",
+                "Produksi"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "$3$",
+                  "3 unit"
+                ],
+                [
+                  "2",
+                  "$3×2$",
+                  "6 unit"
+                ],
+                [
+                  "3",
+                  "$6×2$",
+                  "12 unit"
+                ],
+                [
+                  "4",
+                  "$12×2$",
+                  "24 unit"
+                ],
+                [
+                  "5",
+                  "$24×2$",
+                  "48 unit"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena yang ditanyakan adalah jumlah produksi selama lima tahap, seluruh produksi harus dijumlahkan menggunakan rumus deret geometri."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S_{n}=(a(r^{n}-1))/(r-1)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S_{5}=(3(2^{5}-1))/(2-1)$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S_{5}=(3(32-1))/1$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S_{5}=3×31$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$S_{5}=93$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dengan demikian, jumlah produksi selama lima tahap adalah 93 unit."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Pilihan Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Tidak menghitung seluruh lima tahap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Hanya hasil tahap kelima, bukan akumulasi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Kurang dari jumlah sebenarnya."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar; total lima tahap 93."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Lebih besar daripada jumlah lima tahap yang tepat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Gunakan $3(2⁵−1)$ karena $r=2$; jangan menyamakan $U₅=48$ dengan $S₅=93$."
+            }
+          ],
+          "label": "Deret Geometri"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

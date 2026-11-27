@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "judul": "Grafik dan Diagram",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Grafik dan Diagram",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "id_katalog": "pk-06-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal PK–PM, informasi sering diberikan sebagai tabel berisi banyak kategori, diagram dengan skala tertentu, atau data dengan rata-rata dan median. Penyelesaian yang tepat dimulai dari pemeriksaan apa yang sebenarnya diukur: jumlah, proporsi, frekuensi, perubahan waktu, atau nilai tengah. Selanjutnya, pengolahan data perlu mempertahankan unit, periode, dan ukuran kelompok."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "jenis grafik, skala, legenda."
+      },
+      {
+        "level": "",
+        "kko": "Membaca",
+        "teks": "nilai/perubahan."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "distorsi karena skala."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Grafik dan Diagram",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Grafik dan Diagram",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep dan Jenis Representasi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diagram batang cocok membandingkan kategori; grafik garis untuk perubahan menurut urutan waktu; diagram lingkaran untuk komposisi satu total; histogram untuk sebaran numerik dalam interval. Grafik garis tidak otomatis menunjukkan hubungan sebab-akibat. Diagram lingkaran mengharuskan seluruh sektor mewakili total yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Membaca Skala serta Distorsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika satu blok menyatakan 2 ton, maka 12 blok menyatakan 24 ton, bukan 12 ton. Selisih dua nilai harus dihitung dari skala aktual. Grafik dengan sumbu vertikal mulai dari 90 dapat tampak memperbesar perbedaan 95 dan 100 dibanding grafik yang dimulai dari nol."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Nilai sebenarnya = Banyak blok × Nilai per blok$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik S–L–T: cek Skala, cocokkan Legenda, baca Titik/batang yang diminta. Saat membandingkan dua grafik, pastikan sumbunya memakai skala dan periode yang sebanding."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep dan Jenis Representasi",
+        "teks": ""
+      },
+      {
+        "judul": "Membaca Skala serta Distorsi",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Statistika dan Interpretasi Data menuntut ketelitian pada sumber, satuan, basis perbandingan, dan keterbatasan kesimpulan. Dengan menguasai penyajian tabel, grafik, analisis persentase, serta ukuran pemusatan, peserta dapat mengubah data menjadi informasi yang dapat diperiksa dan digunakan secara bertanggung jawab."
+  }
+}

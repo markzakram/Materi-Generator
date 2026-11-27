@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Fungsi Invers",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Fungsi Invers",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-03-8-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Komposisi",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Diketahui $f(x)=x+5$ dan $g(x)=x²+1$ dengan domain $g$ yaitu $x≥0$. Nilai $(g⁻¹∘f)(5)$ adalah ...."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 3**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Domain dibatasi untuk memastikan invers fungsi kuadrat tunggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Hitung $f(5)=10$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Cari bilangan $x≥0$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "yang memenuhi $g(x)=10$,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "yaitu $x²+1=10 ⇒ x²=9$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena $x≥0, x=3$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka $g⁻¹(10)=3$."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kerjakan dari kanan ke kiri; cari prapeta 10 melalui $g(x)=10$."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

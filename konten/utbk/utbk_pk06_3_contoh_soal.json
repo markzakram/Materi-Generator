@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Grafik dan Diagram",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Grafik dan Diagram",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-06-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Selisih Nilai",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Petugas kebersihan mengumpulkan 100 ton sampah selama September. Setiap sampah digolongkan hanya ke dalam satu jenis agar tidak terjadi penghitungan ganda. Data jenis dan berat sampah disajikan di bawah ini."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-02.png",
+              "lebar": 5.51,
+              "tinggi": 2.33
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-03.png",
+              "lebar": 2.59,
+              "tinggi": 2.69
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diagram menunjukkan komposisi 100 ton sampah pada lima kategori. Berapa selisih organik dan kertas?"
+            }
+          ],
+          "opsi": {
+            "A": "12 ton",
+            "B": "14 ton",
+            "C": "16 ton",
+            "D": "18 ton",
+            "E": "20 ton"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Membaca diagram berdasarkan nilai atau skala satuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Organik 36 ton dan kertas 18 ton."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisihnya 36−18=18 ton."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika diagram digambar dalam blok 2 ton, masing-masing panjang batang 18 dan 9 blok;"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "selisih 9 blok setara 18 ton."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** A,B,C,E keliru membaca selisih atau skala; D benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Hitung perbedaan nilai sebenarnya, bukan beda blok tanpa konversi."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menguji Kesalahan Skala",
+          "soal": [
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-09.png",
+              "lebar": 8.23,
+              "tinggi": 2.71
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dua bulan memiliki penjualan 95 dan 100 unit. Diagram P memulai sumbu y pada 0, diagram Q memulai pada 90. Pernyataan mana yang paling tepat?"
+            }
+          ],
+          "opsi": {
+            "A": "Penjualan menigkat sebesar 100 unit",
+            "B": "Kenaikan aktual hanya 5 unit",
+            "C": "Diagram Q membuktikan lonjakan 100%",
+            "D": "Kedua bulan mempunyai nilai sama",
+            "E": "Skala dapat mengubah total penjualan"
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Data asli dan skala visual adalah dua hal berbeda."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Selisih 100−95=5 unit, atau 5/95≈5,26%."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Diagram dengan batas bawah 90 membuat dua batang tampak berbeda besar, tetapi data tidak berubah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** A,C,D,E salah mengartikan nilai atau dampak skala; B benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Baca angka sumbu dan hitung beda nilai, jangan menebak dari tinggi batang."
+            }
+          ],
+          "label": "Grafik"
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

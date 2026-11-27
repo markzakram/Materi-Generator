@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Perbaikan Kalimat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Perbaikan Kalimat",
+    "sumber": "https://docs.google.com/document/d/1oLOdGUGNd14XgxAK9pDz4tFRPEanNoGg/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-03-9-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Dalam draf laporan terdapat kalimat: “Berdasarkan hasil pengamatan yang dilakukan oleh para siswa menunjukkan bahwa air di titik ketiga lebih keruh daripada air di titik pertama.” Perbaikan kalimat yang paling tepat tanpa mengubah informasi adalah ....**"
+            }
+          ],
+          "opsi": {
+            "A": "Berdasarkan hasil pengamatan para siswa menunjukkan bahwa air di titik ketiga lebih keruh daripada air di titik pertama.",
+            "B": "Hasil pengamatan para siswa menunjukkan bahwa air di titik ketiga lebih keruh daripada air di titik pertama.",
+            "C": "Berdasarkan pengamatan para siswa, bahwa air di titik ketiga lebih keruh daripada air di titik pertama.",
+            "D": "Hasil pengamatan siswa menunjukkan air di titik ketiga paling keruh dibandingkan semua titik pengamatan.",
+            "E": "Para siswa menunjukkan berdasarkan hasil pengamatan bahwa titik pertama lebih keruh daripada titik ketiga."
+          },
+          "kunci": "B",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Membenahi struktur subjek–predikat, kesejajaran, dan ketidakjelasan acuan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Identifikasi S–P dan unsur objek/pelengkap/keterangan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Tandai bagian yang membuat struktur kabur, tidak paralel, atau ambigu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Perbaiki bagian tersebut dengan perubahan paling terbatas."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Salah. Frasa pembuka “Berdasarkan” masih mengaburkan subjek bagi predikat “menunjukkan”."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Benar. Subjek dan predikat jelas, serta hubungan perbandingan tetap sama."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Salah. Konstruksi “Berdasarkan ..., bahwa ...” tidak membentuk kalimat lengkap."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Salah. Menambahkan klaim paling keruh di semua titik, yang tidak didukung kalimat sumber."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Salah. Membalik hubungan tingkat kekeruhan titik pertama dan ketiga."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "STRUKTUR KALIMAT EFEKTIF: uji subjek–predikat, paralelisme, posisi keterangan, dan keutuhan makna. Jangan mengubah perbandingan “lebih” menjadi “paling”."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

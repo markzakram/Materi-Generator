@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Persamaan Linear",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Persamaan Linear",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-03-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Harga Cat Tembok",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah toko menjual 3 kaleng cat tembok dengan harga yang sama. Pembeli juga membayar biaya pengiriman sebesar Rp20.000,00. Jika total yang harus dibayar adalah Rp230.000,00, harga satu kaleng cat tembok adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "Rp60.000,00",
+            "B": "Rp65.000,00",
+            "C": "Rp70.000,00",
+            "D": "Rp75.000,00",
+            "E": "Rp80.000,00"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persamaan linear satu variabel digunakan untuk menentukan nilai satu variabel yang belum diketahui. Variabel hanya berpangkat satu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalkan harga satu kaleng cat tembok adalah t."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Harga 3 kaleng cat ditambah biaya pengiriman sebesar Rp20.000,00 menghasilkan total Rp230.000,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3t + 20.000 = 230.000"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kurangi kedua ruas dengan 20.000:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3t = 210.000"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bagi kedua ruas dengan 3:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "t = 70.000"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, harga satu kaleng cat tembok adalah **Rp70.000,00**."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis pilihan jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Rp60.000,00 menghasilkan total Rp200.000,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Rp65.000,00 menghasilkan total Rp215.000,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Rp70.000,00 menghasilkan total Rp230.000,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Rp75.000,00 menghasilkan total Rp245.000,00."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Rp80.000,00 menghasilkan total Rp260.000,00."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Kurangi total pembayaran dengan biaya pengiriman terlebih dahulu:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "230.000 − 20.000 = 210.000"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kemudian bagi dengan jumlah kaleng:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "210.000 ÷ 3 = 70.000"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, harga satu kaleng cat tembok adalah **Rp70.000,00**."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

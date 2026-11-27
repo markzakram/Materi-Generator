@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Ukuran Pemusatan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Ukuran Pemusatan",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-06-6-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Mean, Median, Modus dan Jangkauan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Tujuh data adalah 4, 6, 7, 7, 9, 11, x dengan mean 8. Evaluasi empat pernyataan berikut."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "No.",
+                "Pernyataan",
+                "Benar",
+                "Salah"
+              ],
+              "baris": [
+                [
+                  "1",
+                  "Nilai x = 12",
+                  "",
+                  ""
+                ],
+                [
+                  "2",
+                  "Median data = 7",
+                  "",
+                  ""
+                ],
+                [
+                  "3",
+                  "Modus hanya 7",
+                  "",
+                  ""
+                ],
+                [
+                  "4",
+                  "Jangkauan = 8",
+                  "",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: (1) B; (2) B; (3) B; (4) B**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Mean, median, modus, jangkauan, serta validasi setiap pernyataan."
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Jumlah seluruh nilai 7×8=56.",
+                "Jumlah enam nilai yang diketahui 44 sehingga x=12.",
+                "Setelah diurutkan: 4,6,7,7,9,11,12.",
+                "Median 7, modus tunggal 7, jangkauan 12−4=8."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Semua pernyataan benar."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Analisis opsi:** Bukan pilihan A–E; setiap pernyataan dinilai terpisah."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Cari x dari total mean lebih dulu, lalu urutkan sekali untuk median/modus/jangkauan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Rata-Rata Harian",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah sekolah menyelenggarakan kegiatan olahraga di stadion. Lapangannya berbentuk persegi panjang dengan panjang 100 m dan lebar 60 m. Pengelola hendak memasang 10 lampu pada tepi lapangan dengan jarak sepanjang keliling yang sama antara setiap dua lampu berturutan. Kesepuluh lampu membentuk rangkaian tertutup."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sekolah mencatat jumlah siswa yang mengunjungi stadion dalam empat hari. Selain itu, tiket pengunjung siswa berharga Rp12.000,00 per orang dan tiket pengunjung umum berharga Rp20.000,00 per orang. Pada Sabtu, 25 siswa dan 15 pengunjung umum membeli satu tiket masing-masing."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pk06_statistika_dan_interpretasi_data/gambar-08.png",
+              "lebar": 9.4,
+              "tinggi": 0.75
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kunjungan siswa empat hari berturut-turut adalah 40, 50, 60, dan 50. Berapakah rata-rata harian?"
+            }
+          ],
+          "opsi": {
+            "A": "45 orang",
+            "B": "48 orang",
+            "C": "50 orang",
+            "D": "52 orang",
+            "E": "55 orang"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep: Rata-rata empat data harian dengan periode sepadan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Total 40+50+60+50 = 200, lalu dibagi 4 = 50 orang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Analisis opsi: A,B,D,E bukan 200/4; C benar."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Jumlahkan pasangan 40+60 dan 50+50 sehingga total cepat diperoleh 200."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 3 — Mean dan Median Terikat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Ami memikirkan lima bilangan bulat positif berbeda. Diketahui rata-rata dari lima bilangan tersebut adalah 19 dan nilai yang berposisi paling tengah setelah kelima bilangan tersebut diurutkan adalah 8. Berapa nilai maksimum yang mungkin untuk bilangan terbesar yang dibayangkan Ami?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(Jawaban ditulis dalam bentuk Angka)"
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 75**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Menggunakan jumlah data tetap dan batas posisi median."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah 5 bilangan $=5×19=95$."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk memaksimalkan bilangan ke-5,"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "kecilkan empat pertama dengan tetap menaik: 1,2,8,9."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka bilangan terbesar $= 95−(1+2+8+9)=75.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Urutan tetap 1<2<8<9<75."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Maksimumkan satu suku dengan meminimalkan semua suku lain yang dibatasi urutan."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 4 — Kecukupan Data",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Empat bilangan bulat berbeda disusun dari yang terkecil ke terbesar, yaitu $a, 12, c,$ **dan** $d$, dengan $d = c + 4.$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Apakah median keempat bilangan tersebut lebih dari **15**?"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Rata-rata keempat bilangan adalah **14**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(2) Selisih bilangan terbesar dan terkecil adalah **18**."
+            }
+          ],
+          "opsi": {
+            "A": "Pernyataan (1) saja cukup, tetapi pernyataan (2) saja tidak cukup.",
+            "B": "Pernyataan (2) saja cukup, tetapi pernyataan (1) saja tidak cukup.",
+            "C": "Kedua pernyataan bersama-sama cukup, tetapi masing-masing tidak cukup.",
+            "D": "Masing-masing pernyataan cukup untuk menjawab pertanyaan.",
+            "E": "Kedua pernyataan bersama-sama tidak cukup untuk menjawab pertanyaan."
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk empat bilangan yang telah diurutkan, median adalah rata-rata dua bilangan yang berada di tengah."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Median = (12 + c)/2$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal kecukupan data, tidak selalu perlu menentukan semua nilai. Yang perlu diperiksa adalah apakah informasi yang diberikan dapat menghasilkan jawaban yang **pasti** terhadap pertanyaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Empat bilangan tersusun:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a, 12, c, d"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "dengan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "d = c + 4"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median = (12 + c)/2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pertanyaannya adalah apakah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(12 + c)/2 > 15"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "12 + c > 30"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "c > 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, kita hanya perlu mengetahui apakah nilai c pasti lebih dari 18."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (1): Rata-rata keempat bilangan adalah 14.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jumlah keempat bilangan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4 × 14 = 56"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a + 12 + c + d = 56"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena d = c + 4:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a + 12 + c + c + 4 = 56"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a + 2c = 40"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai c belum dapat ditentukan secara tunggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Contoh:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika c = 15, maka a = 10."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan: 10, 12, 15, 19"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median = 13,5 → **tidak lebih dari 15**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika c = 19, maka a = 2."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bilangan: 2, 12, 19, 23"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median = 15,5 → **lebih dari 15**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pernyataan (1) memberikan dua kemungkinan jawaban, sehingga **belum cukup**."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Pernyataan (2): Selisih bilangan terbesar dan terkecil adalah 18.",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena d merupakan bilangan terbesar:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "d − a = 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusikan d = c + 4:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "c + 4 − a = 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a = c − 14"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Nilai c juga belum dapat ditentukan secara tunggal."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Misalnya, c dapat bernilai 16 sehingga median kurang dari 15, atau c dapat bernilai 20 sehingga median lebih dari 15."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, pernyataan (2) saja **belum cukup**."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Gabungkan pernyataan (1) dan (2).",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (1):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a = 40 − 2c"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (2):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a = c − 14"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Samakan:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "40 − 2c = c − 14"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "54 = 3c"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "c = 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "d = 18 + 4 = 22"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a = 18 − 14 = 4"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Keempat bilangan adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "4, 12, 18, 22"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median = (12 + 18)/2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median = 15"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, median **tidak lebih dari 15**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena kedua pernyataan bersama-sama menghasilkan jawaban yang pasti, sedangkan masing-masing pernyataan tidak cukup, jawabannya adalah **C**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Fokus pada median:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median = (12 + c)/2"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Median > 15 jika:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "c > 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (1):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a + 2c = 40"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dari (2):"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a = c − 14"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Substitusi:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "c − 14 + 2c = 40"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "3c = 54"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "c = 18"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena c = 18, median = 15, sehingga jawabannya **tidak**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Masing-masing pernyataan tidak menentukan c, tetapi jika digabung c dapat ditentukan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "judul": "Harga",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Harga",
+    "sumber": "https://docs.google.com/document/d/1oLioAob-yDIgnx1NG0u-4CAcPuC_9D5nMYdhtaRvMxE/edit",
+    "id_katalog": "pk-02-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Ketika seseorang membeli barang dengan bonus, memperoleh dua potongan harga, menyimpan uang dengan bunga tertentu, atau membandingkan cicilan, angka yang tertera bukan satu-satunya informasi penentu. Ada basis harga, periode waktu, komponen biaya, dan kondisi khusus yang harus dibaca secara tepat. Dua penawaran dengan persentase berbeda bahkan dapat menghasilkan biaya akhir yang berlawanan dengan dugaan awal.",
+      "Karena itu, pembelajaran dimulai dari mengidentifikasi komponen transaksi, berlanjut pada pemodelan harga, diskon, bunga, angsuran, dan untung/rugi. Setiap subbab memadukan penjelasan konsep dengan pengujian asumsi dan contoh soal, sehingga peserta terbiasa memilih prosedur sesuai konteks, bukan langsung memasukkan angka ke rumus."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "harga satuan atau total dan membandingkan harga bersyarat."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Harga",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Harga",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Harga adalah nilai uang yang ditetapkan untuk memperoleh barang atau jasa. Harga satuan memudahkan perbandingan antarkemasan, sedangkan harga total menunjukkan pembayaran untuk sejumlah unit pada aturan yang sama."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar Harga"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bedakan harga label, harga per unit, total sebelum biaya tambahan, dan total akhir. Harga satuan efektif pada bundel harus dihitung atas barang yang benar-benar diterima, bukan semata barang yang dibayar."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Harga satuan = total harga ÷ jumlah unit$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Harga total = harga satuan × jumlah unit$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Hubungan Harga Jual dan Modal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk harga jual yang ditetapkan berdasarkan persentase keuntungan terhadap modal, gunakan $HJ = M(1 + u)$. Contoh: modal Rp40.000 dengan target untung 50% menghasilkan harga jual Rp60.000. Hubungan ini tidak digunakan untuk tarif satuan biasa tanpa informasi untung/rugi."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$HJ = M(1 + u);$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$M = HJ/(1 + u)$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Perbandingan Paket dan Biaya Tetap"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk memilih paket termurah, samakan basis kuantitas dan hitung harga per satuan. Jika ada pembelian minimum, unit utuh, ongkos kirim, atau promo bertingkat, perbandingan harga per unit saja dapat tidak cukup."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Biaya efektif = biaya produk + biaya tetap − promo$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan Soal"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Identifikasi jumlah unit yang diterima; konversi satuan; hitung harga efektif. Cek apakah harga berlaku pada seluruh unit atau hanya jika ambang pembelian terpenuhi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Gunakan H–U–S–C: Harga total → Unit diterima → Syarat promo → Cek biaya akhir."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar Harga",
+        "teks": ""
+      },
+      {
+        "judul": "Hubungan Harga Jual dan Modal",
+        "teks": ""
+      },
+      {
+        "judul": "Perbandingan Paket dan Biaya Tetap",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi Mengerjakan Soal",
+        "teks": ""
+      },
+      {
+        "judul": "Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Aritmatika Sosial menguji ketepatan peserta membaca transaksi, memilih basis dan periode, membangun model serta menilai hasil. Dalam soal dengan beberapa biaya, strategi terbaik sering kali bukan formula terpanjang, melainkan tabel komponen yang lengkap. Untuk latihan berikutnya, peserta perlu membedakan harga satuan dan total, diskon tunggal dan bertingkat, bunga tunggal dan majemuk, nominal cicilan dan total biaya, serta pemasukan dan keuntungan."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Pertidaksamaan",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Contoh Soal Pertidaksamaan",
+    "sumber": "https://docs.google.com/document/d/11JUTelmPDpyWW1pmJgOednApYDm2xBpu7GtCMw26z7A/edit",
+    "bagian": "soal",
+    "id_katalog": "pk-03-3-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Sistem Pertidaksamaan Linear",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Sebuah percetakan membuat dua jenis paket buku, yaitu Paket A dan Paket B. Setiap Paket A membutuhkan 2 jam proses pencetakan dan 1 jam proses penjilidan, sedangkan setiap Paket B membutuhkan 1 jam proses pencetakan dan 2 jam proses penjilidan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam satu hari, tersedia paling banyak 10 jam untuk proses pencetakan dan 8 jam untuk proses penjilidan. Jika x menyatakan banyak Paket A dan y menyatakan banyak Paket B, sistem pertidaksamaan yang sesuai adalah ...."
+            }
+          ],
+          "opsi": {
+            "A": "2x + y ≤ 10 dan x + 2y ≤ 8",
+            "B": "2x + y ≥ 10 dan x + 2y ≥ 8",
+            "C": "2x + y ≤ 8 dan x + 2y ≤ 10",
+            "D": "x + y ≤ 10 dan 2x + 2y ≤ 8",
+            "E": "2x + 2y ≤ 10 dan x + y ≤ 8"
+          },
+          "kunci": "A",
+          "pembahasan": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata **“paling banyak”** menunjukkan batas maksimum sehingga digunakan tanda **≤**."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu pencetakan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Paket A membutuhkan 2 jam → 2x",
+                "Paket B membutuhkan 1 jam → y",
+                "Waktu tersedia paling banyak 10 jam"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2x + y ≤ 10"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Waktu penjilidan:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Paket A membutuhkan 1 jam → x",
+                "Paket B membutuhkan 2 jam → 2y",
+                "Waktu tersedia paling banyak 8 jam"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Maka:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x + 2y ≤ 8"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jadi, sistem pertidaksamaan yang sesuai adalah:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "2x + y ≤ 10"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "x + 2y ≤ 8"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jawaban yang benar adalah **A**."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Ubah setiap sumber daya menjadi satu pertidaksamaan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pencetakan → 2x + y ≤ 10"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penjilidan → x + 2y ≤ 8"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Karena keduanya menggunakan kata **“paling banyak”**, tandanya harus **≤**."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

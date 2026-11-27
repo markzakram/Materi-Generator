@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Ide Pokok",
+    "subtes": "Pengetahuan dan Pemahaman Umum",
+    "nama_file": "UTBK PPU - Contoh Soal Ide Pokok",
+    "sumber": "https://docs.google.com/document/d/1V7SOFheH2q203AHkp1EXeGf9aqQNYjQE/edit",
+    "bagian": "soal",
+    "id_katalog": "ppu-05-1-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Literasi digital tidak hanya berkaitan dengan kemampuan menggunakan perangkat teknologi, tetapi juga mencakup kecakapan menilai kebenaran informasi, memahami etika berkomunikasi, serta kesadaran akan dampak sosial penggunaan teknologi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ide pokok paragraf tersebut adalah …"
+            }
+          ],
+          "opsi": {
+            "A": "Pentingnya perangkat teknologi dalam kehidupan modern",
+            "B": "Literasi digital terbatas pada keterampilan teknis",
+            "C": "Literasi digital mencakup aspek teknis dan nonteknis",
+            "D": "Dampak sosial teknologi lebih penting daripada keterampilan teknis",
+            "E": "Etika berkomunikasi menjadi inti literasi digital"
+          },
+          "kunci": "C",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "Konsep: Cakupan Definisi. Menentukan batas-batas pengertian sebuah istilah dalam teks."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata Kunci: \"Tidak hanya... tetapi juga...\" (Penekanan bahwa ada lebih dari satu aspek)."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Alasan jawaban benar",
+              "tingkat": 2
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Kalimat utama ditandai dengan frasa “tidak hanya … tetapi juga …”.",
+                "Ini menunjukkan perluasan makna literasi digital.",
+                "Opsi C mewakili keseluruhan gagasan."
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Opsi lain:"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A terlalu umum."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B bertentangan langsung dengan isi paragraf."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D membandingkan secara tidak dinyatakan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E hanya salah satu unsur, bukan ide utama."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Selama ini, warga Dusun Nangka harus pergi ke balai desa untuk meminjam buku. (2) Perpustakaan desa kemudian mulai mengirim kendaraan berisi buku ke dusun itu setiap Rabu sore. (3) Warga dapat mengembalikan buku saat kendaraan datang kembali pada pekan berikutnya. (4) Setelah tiga bulan, jumlah peminjam di Dusun Nangka bertambah, terutama di kalangan warga yang jarang pergi ke balai desa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lengkapi rumusan ide pokok berikut dengan satu kata yang muncul pada kalimat (2)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Layanan ___ perpustakaan mempermudah warga Dusun Nangka untuk meminjam dan mengembalikan buku."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: kendaraan**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sebelum layanan tersedia, warga harus pergi ke balai desa. Setelah perpustakaan mengirim kendaraan berisi buku, warga dapat meminjam dan mengembalikan buku di dusun mereka sendiri. Bertambahnya jumlah peminjam menunjukkan hasil perubahan tersebut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kata kendaraan mengisi bagian rumpang karena itulah sarana yang membawa layanan perpustakaan ke dusun. Jadwal Rabu sore dan waktu pengembalian merupakan rincian tentang pelaksanaan layanan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}

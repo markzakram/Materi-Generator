@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "judul": "Kesesuaian Pernyataan",
+    "subtes": "Penalaran Umum",
+    "nama_file": "UTBK PU - Kesesuaian Pernyataan",
+    "sumber": "https://docs.google.com/document/d/1zHRAr56Mlup3PPSC-nc4fG2VQuPjES9IzIieokWbG8M/edit",
+    "id_katalog": "pu-01-4"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 0
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Penalaran Verbal dalam bahan pembelajaran ini merupakan bagian dari domain Penalaran Umum sesuai kurikulum yang digunakan. Penalaran Verbal melatih kemampuan memahami informasi melalui bahasa, menemukan keteraturan dari sejumlah pengamatan, membandingkan hubungan antarkonsep, mengevaluasi sebab-akibat, memeriksa kesesuaian pernyataan, serta menilai kekuatan argumen berdasarkan bukti.",
+      "Materi disusun dalam lima cakupan utama: Generalisasi; Analogi; Hubungan Kausalitas; Kesesuaian Pernyataan; serta Evaluasi Argumen: Memperkuat dan Memperlemah. Kelima cakupan tersebut berada dalam domain Penalaran Verbal pada kurikulum terlampir dan saling melengkapi kemampuan membaca bukti secara kritis.",
+      "Strategi cepat seperti Bukti–Pola–Batas Simpulan, HAPE, S–A–B–A, B–T–C, dan K–A–B–U digunakan sebagai alat bantu berpikir. Strategi ini bukan pengganti penalaran yang sah, melainkan cara mengurutkan perhatian agar peserta dapat menemukan informasi penting dengan lebih efisien."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memisahkan",
+        "teks": "pernyataan yang pasti benar, mungkin benar, bertentangan, atau tidak dapat disimpulkan."
+      },
+      {
+        "level": "",
+        "kko": "Memeriksa",
+        "teks": "cakupan kuantor dan gabungan premis."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Penalaran Induktif",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Penalaran Induktif",
+          "blok": [
+            {
+              "jenis": "paragraf",
+              "teks": "Penalaran induktif merupakan proses berpikir yang dimulai dari pengamatan terhadap sejumlah fakta atau kejadian khusus, kemudian digunakan untuk memperoleh pola atau kesimpulan yang lebih umum."
+            },
+            {
+              "jenis": "gambar",
+              "file": "media/utbk_pu01_penalaran_verbal/gambar-01.png",
+              "lebar": 4.1,
+              "tinggi": 3.18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Kesesuaian Pernyataan",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Kesesuaian Pernyataan",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kesesuaian Pernyataan adalah kemampuan menilai apakah suatu pernyataan mengikuti informasi dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Terdapat beberapa soal yang muncul, diantaranya yaitu:"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pola Penalaran",
+                "Kemampuan"
+              ],
+              "baris": [
+                [
+                  "Kesesuaian Eksplisit",
+                  "Mencocokkan fakta yang tertulis"
+                ],
+                [
+                  "Kesesuaian Implisit",
+                  "Menarik inferensi yang wajar"
+                ],
+                [
+                  "Pertentangan pernyataan",
+                  "Mengidentifikasi klaim yang berlawanan"
+                ],
+                [
+                  "Kecukupan informasi",
+                  "Mengenali klaim yang tidak dapat ditentukan"
+                ],
+                [
+                  "Kuantor dan cakupan",
+                  "Menghindari generalisasi berlebihan"
+                ],
+                [
+                  "Syarat dan implikasi",
+                  "Menguji jika-maka dan batas logika"
+                ],
+                [
+                  "Perbandingan dan data",
+                  "Membaca angka, tren, serta ruang lingkup data"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Setiap pilihan jawaban perlu diperiksa terhadap stimulus. Untuk membiasakan analisis, gunakan tiga status berikut. Dalam soal yang meminta “pernyataan paling sesuai”, hanya pilih pernyataan yang benar-benar didukung. Dalam soal yang meminta “tidak sesuai”, fokus pada pernyataan yang bertentangan, bukan sekadar yang tidak disebutkan."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Status",
+                "Makna",
+                "Contoh"
+              ],
+              "baris": [
+                [
+                  "**Didukung**",
+                  "Dinyatakan langsung atau dapat diturunkan secara sah",
+                  "Seluruh peserta kelas A mengumpulkan tugas → Rina, peserta kelas A, mengumpulkan tugas."
+                ],
+                [
+                  "**Bertentangan**",
+                  "Berlawanan dengan informasi dalam stimulus",
+                  "Stimulus menyebut semua peserta hadir → “Ada peserta yang tidak hadir”."
+                ],
+                [
+                  "**Tidak dapat ditentukan**",
+                  "Stimulus tidak cukup mendukung maupun menyangkal",
+                  "Stimulus menyebut sebagian peserta hadir → “Mayoritas peserta hadir”."
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Jenis-jenis Kesesuaian Pernyataan"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "**Kesesuaian Informasi Eksplisit**, pernyataan eksplisit adalah informasi yang benar-benar tertulis dalam stimulus. Untuk menentukannya, cari padanan makna yang setara meskipun pilihan menggunakan kata berbeda. Jangan menambahkan alasan, perkiraan, atau informasi eksternal.",
+                "**Kesesuaian Inferensi Implisit,** inferensi implisit adalah kesimpulan yang tidak ditulis persis seperti itu, tetapi mengikuti informasi yang tersedia. Inferensi harus diperlukan atau paling kuat didukung hubungan antar-fakta, bukan sekadar dugaan yang mungkin benar.",
+                "**Mengidentifikasi Pernyataan Bertentangan**, pernyataan bertentangan menyatakan keadaan yang tidak dapat sama-sama benar dengan isi stimulus pada waktu dan cakupan yang sama. Penting membedakan “bertentangan” dari “belum diketahui”. Pernyataan yang tidak disebutkan belum tentu salah.",
+                "**Informasi tidak cukup dan tidak dapat disimpulkan**, Pernyataan yang tidak dapat ditentukan muncul saat stimulus tidak menyediakan bukti untuk menerima ataupun menolaknya. Ketiadaan informasi tidak sama dengan bukti ketidakbenaran.",
+                "**Kuantor, Cakupan, dan Generalisasi**, kuantor menentukan seberapa luas pernyataan berlaku. “Semua” lebih kuat daripada “sebagian”; “sebagian” tidak berarti “mayoritas”. Kesalahan paling umum adalah menaikkan klaim terbatas menjadi klaim universal atau memindahkan fakta kelompok ke semua anggotanya.",
+                "**Syarat, Implikasi, dan Pengecualian,** Kalimat “Jika $P$, maka $Q$” menjamin $Q$ apabila $P$ terjadi; namun $Q$ tidak otomatis memastikan $P$. Kesalahan umum adalah mengafirmasi konsekuensi atau menyangkal anteseden. Materi ini cukup digunakan untuk menilai kesesuaian pernyataan, sedangkan pola logika formal dibahas lebih rinci pada submateri deduktif.",
+                "**Perbandingan, Waktu, dan Data Sederhana,** kesesuaian pernyataan juga menguji kemampuan membaca perbandingan dan data tanpa memelintir angka. Jangan menyamakan jumlah absolut dan persentase; perhatikan titik awal, periode, dan kelompok yang diperbandingkan."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi Mengerjakan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Pada soal campuran, suatu stimulus dapat memiliki angka, syarat, kuantor, dan inferensi sekaligus. Agar tidak kehilangan waktu, tentukan terlebih dahulu jenis permintaan. Pilih “sesuai” hanya bila bukti memadai; pilih “bertentangan” jika ada negasi langsung; pilih “tidak dapat disimpulkan” jika informasi belum cukup."
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Langkah",
+                "Pertanyaan Praktis"
+              ],
+              "baris": [
+                [
+                  "**Baca tugas**",
+                  "Soal meminta sesuai, bertentangan, atau tidak dapat disimpulkan?"
+                ],
+                [
+                  "**Tandai bukti**",
+                  "Fakta, angka, syarat, periode, dan cakupan apa yang relevan?"
+                ],
+                [
+                  "**Cocokkan opsi**",
+                  "Apakah opsi mempertahankan makna dan tingkat kepastian?"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Lalu gunakan filter anti jebakan, diantaranya yaitu;"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Filter cakupan: jangan ubah “sebagian” menjadi “seluruh”.",
+                "Filter kepastian: jangan ubah “dapat” menjadi “pasti”.",
+                "Filter arah: jangan membalik “jika $P$ maka $Q$” menjadi “jika $Q$ maka $P$”.",
+                "Filter tambahan: jangan menyisipkan sebab, motif, jumlah, atau fakta di luar stimulus."
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Dalam soal Kesesuaian Pernyataan, peserta diminta menentukan apakah suatu pernyataan sesuai, bertentangan, atau tidak dapat disimpulkan berdasarkan informasi dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kunci mengerjakan soal ini dengan cepat adalah tidak menebak berdasarkan pengetahuan umum, melainkan menggunakan bukti yang tersedia dalam teks."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "1. Gunakan Teknik B–T–C",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik B–T–C (Baca Tugas – Tandai Bukti – Cocokkan Opsi) membantu peserta menemukan jawaban tanpa harus membaca stimulus panjang berulang kali."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B — Baca Tugas"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Baca pertanyaan terlebih dahulu untuk mengetahui apakah soal meminta pernyataan yang benar, salah, paling sesuai, atau tidak dapat disimpulkan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "T — Tandai Bukti"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Temukan informasi yang berkaitan dengan pertanyaan. Perhatikan subjek, kondisi, jumlah, waktu, serta hubungan antarperistiwa."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C — Cocokkan Opsi"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bandingkan setiap pilihan dengan bukti dalam stimulus. Pilih pernyataan yang paling sesuai dengan tugas soal tanpa menambahkan asumsi."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "2. Gunakan Tiga Kategori untuk Memeriksa Opsi",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat membaca pilihan jawaban, kelompokkan setiap pernyataan ke dalam tiga kategori berikut."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Sesuai: Pernyataan secara langsung disebutkan atau merupakan kesimpulan logis yang didukung stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bertentangan: Pernyataan berlawanan dengan fakta atau hubungan yang dijelaskan dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tidak Dapat Disimpulkan: Informasi dalam stimulus belum cukup untuk memastikan apakah pernyataan benar atau salah."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Ingat: Pernyataan yang tidak disebutkan dalam teks belum tentu salah. Bisa saja informasi tersebut memang belum tersedia."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "3. Kenali Kata yang Sering Menjadi Pengecoh",
+              "tingkat": 2
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Kata dalam Opsi",
+                "Hal yang Harus Diperiksa"
+              ],
+              "baris": [
+                [
+                  "Semua, seluruh, setiap",
+                  "Apakah stimulus benar-benar berlaku untuk semua anggota kelompok?"
+                ],
+                [
+                  "Sebagian, beberapa",
+                  "Apakah ada bukti setidaknya satu anggota memenuhi kondisi tersebut?"
+                ],
+                [
+                  "Hanya",
+                  "Apakah stimulus membatasi kemungkinan pada satu kelompok atau faktor?"
+                ],
+                [
+                  "Selalu, tidak pernah",
+                  "Apakah stimulus mendukung pernyataan tanpa pengecualian?"
+                ],
+                [
+                  "Lebih banyak, lebih tinggi",
+                  "Apakah data pembanding tersedia?"
+                ],
+                [
+                  "Karena, menyebabkan",
+                  "Apakah stimulus membuktikan hubungan sebab-akibat?"
+                ],
+                [
+                  "Pasti, harus",
+                  "Apakah hubungan tersebut benar-benar bersifat mutlak?"
+                ]
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jangan langsung mengeliminasi opsi hanya karena mengandung kata mutlak. Pilihan tersebut dapat benar apabila stimulus mendukungnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "4. Teknik Eliminasi Cepat",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Saat menemukan lima pilihan jawaban, gunakan urutan pemeriksaan berikut:"
+            },
+            {
+              "jenis": "poin",
+              "butir": [
+                "Periksa objek dan subjek. Apakah pernyataan membahas pihak yang sama dengan stimulus?",
+                "Periksa cakupan. Apakah opsi mengubah kata sebagian menjadi semua, atau sebaliknya?",
+                "Periksa hubungan. Apakah opsi membalik sebab-akibat, urutan, atau perbandingan?",
+                "Periksa bukti. Apakah informasi dalam stimulus cukup untuk membenarkan opsi?"
+              ]
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika suatu pilihan membutuhkan asumsi tambahan yang tidak diberikan, jangan menganggapnya sesuai hanya karena terdengar masuk akal."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Penalaran Induktif",
+        "teks": ""
+      },
+      {
+        "judul": "Kesesuaian Pernyataan",
+        "teks": ""
+      }
+    ],
+    "pesan": "Penalaran Verbal menuntut ketepatan dalam membaca hubungan antara informasi dan simpulan. Generalisasi melatih pembatasan cakupan berdasarkan data; Analogi menguji kesetaraan relasi; Hubungan Kausalitas menuntut pemeriksaan sebab, mekanisme, dan alternatif; Kesesuaian Pernyataan menuntut ketelitian terhadap dukungan stimulus; sedangkan Evaluasi Argumen melatih penilaian kekuatan bukti dan asumsi. Peserta disarankan mempelajari konsep dan pola hubungan terlebih dahulu, menerapkan strategi cepat yang sesuai, lalu mengevaluasi alasan setiap pilihan jawaban. Dalam pengerjaan soal, kualitas bukti harus lebih diutamakan daripada kesamaan kata, dugaan umum, atau pernyataan yang terdengar paling meyakinkan."
+  }
+}

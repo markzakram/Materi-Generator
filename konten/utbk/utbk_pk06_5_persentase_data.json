@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "judul": "Persentase Data",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Persentase Data",
+    "sumber": "https://docs.google.com/document/d/1XlPpTNiE-1057Laxa86RwLX85Bv_A5NvyQ5YMGm3IzE/edit",
+    "id_katalog": "pk-06-5"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Dalam soal PK–PM, informasi sering diberikan sebagai tabel berisi banyak kategori, diagram dengan skala tertentu, atau data dengan rata-rata dan median. Penyelesaian yang tepat dimulai dari pemeriksaan apa yang sebenarnya diukur: jumlah, proporsi, frekuensi, perubahan waktu, atau nilai tengah. Selanjutnya, pengolahan data perlu mempertahankan unit, periode, dan ukuran kelompok."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Memahami",
+        "teks": "bagian terhadap total."
+      },
+      {
+        "level": "",
+        "kko": "Menerapkan",
+        "teks": "persen kategori/perubahan."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "penyebut berbeda."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Persentase Data",
+      "ikon": "roket",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Persentase Data",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar dan Basis"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Persentase data adalah perbandingan nilai bagian dengan keseluruhan yang dinyatakan per seratus. Penyebut (basis) selalu harus disebut atau ditentukan dari konteks; persen kategori berbeda dengan persentase pertumbuhan suatu kategori."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persentase kategori = (Bagian ÷ Total) × 100%$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$Persentase perubahan = ((Baru − Lama) ÷ Lama) × 100%$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Data Bertingkat dan Perubahan"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika 24 dari 100 ton sampah merupakan plastik, komposisi plastik adalah 24%. Jika pada periode berikutnya plastik menjadi 30 ton, pertumbuhan terhadap periode sebelumnya adalah $(30−24)/24 = 25%$, bukan 6%. Selisih 6 ton dan perubahan 25% adalah dua besaran berbeda."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Teknik B–B–P: cari Bagian, pastikan Basis, baru hitung Persen. Untuk soal dua kelompok berbeda ukuran, hitung nilai aktual masing-masing sebelum menyimpulkan jumlah terbanyak."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar dan Basis",
+        "teks": ""
+      },
+      {
+        "judul": "Data Bertingkat dan Perubahan",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Statistika dan Interpretasi Data menuntut ketelitian pada sumber, satuan, basis perbandingan, dan keterbatasan kesimpulan. Dengan menguasai penyajian tabel, grafik, analisis persentase, serta ukuran pemusatan, peserta dapat mengubah data menjadi informasi yang dapat diperiksa dan digunakan secara bertanggung jawab."
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "judul": "Bangun Datar",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Bangun Datar",
+    "sumber": "https://docs.google.com/document/d/10C8kOxE4JfkLk3j39AdgERzPD_kVtjIeRld3C9Rz4cs/edit",
+    "id_katalog": "pk-05-2"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Geometri berangkat dari titik, garis, bidang, serta hubungan antarelemen. Dalam geometri bidang, keliling berbeda dengan luas; dalam ruang, luas permukaan berbeda dengan volume. Penalaran geometris juga membutuhkan penggunaan skala, kesebangunan, dan sudut. Sebuah gambar yang terlihat proporsional tidak selalu digambar sesuai skala, sehingga semua kesimpulan harus didasarkan pada informasi yang diberikan."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "unsur dan sifat."
+      },
+      {
+        "level": "",
+        "kko": "Menentukan",
+        "teks": "luas/keliling."
+      },
+      {
+        "level": "",
+        "kko": "Menganalisis",
+        "teks": "ukuran tersembunyi pada bangun gabungan."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Bangun Datar",
+      "ikon": "globe",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Bangun Datar",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar dan Unsur Bangun"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Bangun datar memiliki dua dimensi. Keliling adalah total panjang batas luar, sedangkan luas adalah ukuran daerah yang tertutup."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Rumus Bangun Datar"
+            },
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Bangun",
+                "Keliling",
+                "Luas"
+              ],
+              "baris": [
+                [
+                  "Persegi sisi $s$",
+                  "$4s$",
+                  "$s²$"
+                ],
+                [
+                  "Persegi panjang $p×l$",
+                  "$2(p+l)$",
+                  "$p×l$"
+                ],
+                [
+                  "Segitiga alas $a$, tinggi $t$",
+                  "$jumlah tiga sisi$",
+                  "$(1/2)at$"
+                ],
+                [
+                  "Jajar genjang alas $a$, sisi miring $b$, tinggi $t$",
+                  "$2(a+b)$",
+                  "$at$"
+                ],
+                [
+                  "Trapesium sisi sejajar $a,b$; tinggi $t$",
+                  "$jumlah semua sisi$",
+                  "$(1/2)(a+b)t$"
+                ],
+                [
+                  "Belah ketupat/layang-layang",
+                  "$jumlah semua sisi$",
+                  "$(1/2)d₁d₂$"
+                ],
+                [
+                  "Lingkaran jari-jari $r$",
+                  "$2πr$",
+                  "$πr²$"
+                ]
+              ]
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Lingkaran, Busur, dan Juring"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$s = (θ/360°) · 2πr; L_{juring} = (θ/360°) · πr^{2}$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Jika panjang busur s diketahui, luas juring dapat dihitung lebih cepat dengan $L_{juring}= (1/2)rs$ selama $r$ dan $s$ memakai satuan panjang yang sama. Sudut pusat dalam rumus dengan $360°$ harus dalam derajat."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$L_{juring} = ½ · r · s$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Ukuran Tersembunyi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk jalur dengan lebar $w$ di bagian dalam persegi panjang $p×l$, ukuran tengah adalah $(p−2w)×(l−2w)$, asalkan $w$ kurang dari setengah sisi terpendek."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Teknik P–U–S–C:** Pilih bentuk → Ukuran tersembunyi → Substitusi → Cek satuan."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar dan Unsur Bangun",
+        "teks": ""
+      },
+      {
+        "judul": "Rumus Bangun Datar",
+        "teks": ""
+      },
+      {
+        "judul": "Lingkaran, Busur, dan Juring",
+        "teks": ""
+      },
+      {
+        "judul": "Ukuran Tersembunyi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Geometri dan Pengukuran menuntut peserta menghubungkan sifat bangun, ukuran, satuan, dan representasi gambar. Pahami konsep dan syarat model sebelum memakai rumus, terutama pada bangun gabungan, skala, diagram sudut, dan trigonometri. Dengan membandingkan alternatif penyelesaian dan memeriksa kewajaran satuan, peserta dapat menyelesaikan soal secara lebih akurat, tidak sekadar cepat."
+  }
+}

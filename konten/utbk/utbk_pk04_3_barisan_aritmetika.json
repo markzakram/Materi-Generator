@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "judul": "Barisan Aritmetika",
+    "subtes": "Pengetahuan Kuantitatif dan Penalaran Matematika",
+    "nama_file": "UTBK PK-PM - Barisan Aritmetika",
+    "sumber": "https://docs.google.com/document/d/1UNmUZtOD1LtAxVgoapcAZTZFuACy00XbNR2Ljx7LBks/edit",
+    "id_katalog": "pk-04-3"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 2
+  },
+  "pendahuluan": {
+    "paragraf": [
+      "Pola bilangan muncul ketika sebuah perubahan berlangsung teratur, berulang, berselang-seling, atau mengikuti ketentuan bertingkat.",
+      "Pola dan barisan tidak selalu sama dengan satu rumus. Lima suku awal yang tampak cocok dengan aturan tertentu dapat pula dijelaskan oleh aturan lain. Karena itu, peserta harus menilai kesederhanaan dan kecocokan aturan dengan semua informasi, bukan sekadar memilih angka yang terasa benar."
+    ],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": [
+      {
+        "level": "",
+        "kko": "Mengenali",
+        "teks": "suku awal dan beda."
+      },
+      {
+        "level": "",
+        "kko": "Menghitung",
+        "teks": "suku ke-n."
+      },
+      {
+        "level": "",
+        "kko": "Menilai",
+        "teks": "konteks pertambahan tetap."
+      }
+    ]
+  },
+  "materi": [
+    {
+      "subbab": "Barisan Aritmetika",
+      "ikon": "strategi",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Barisan Aritmetika",
+          "blok": [
+            {
+              "jenis": "subjudul",
+              "teks": "Konsep Dasar"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Barisan aritmetika mempunyai beda antar-suku berurutan yang tetap."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$b = U_{n+1} − U_{n}$"
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$U_{n} = a + (n − 1)b$"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "a adalah suku pertama, b adalah beda tetap, dan n adalah nomor suku. Beda boleh positif, nol, atau negatif. Jika diketahui dua suku berbeda, beda diperoleh dari selisih nilai dibagi selisih indeks."
+            },
+            {
+              "jenis": "sorot",
+              "teks": "$b = (U_{m} − U_{n})/(m − n), m ≠ n$"
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Model dengan batas dan perubahan tahap"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Penerapan aritmetika harus diuji terhadap stimulus."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Strategi dan Cara Cepat"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Tentukan $a$, beda $b$, indeks $n$; cek apakah batas maksimum/minimum atau perubahan aturan membatasi rumus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Untuk suku jauh, hindari menulis seluruh daftar: hitung $(n−1)b$ sekali, lalu tambahkan $a$. Apabila soal memuat rentang beberapa tahap, buat rumus per tahap dan periksa indeks perubahan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subbab": "Rangkuman Rumus dan Pemilihan Model",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "blok",
+          "judul": "Rangkuman Rumus dan Pemilihan Model",
+          "blok": [
+            {
+              "jenis": "tabel",
+              "kolom": [
+                "Pertanyaan",
+                "Model yang dipilih"
+              ],
+              "baris": [
+                [
+                  "Nilai suku ke-$n$ dengan beda tetap",
+                  "$Uₙ = a + (n−1)b$"
+                ],
+                [
+                  "Nilai suku ke-$n$ dengan rasio tetap",
+                  "$Uₙ = a × r^{(n−1)}$"
+                ],
+                [
+                  "Jumlah $n$ suku dengan beda tetap",
+                  "$Sₙ = (n/2)(2a+(n-1)b)$\natau $Sₙ = (n/2)(a+Uₙ)$"
+                ],
+                [
+                  "Jumlah $n$ suku dengan rasio tetap",
+                  "Untuk $r<1$: $Sₙ = (a(1−rⁿ))/(1−r)$\nUntuk $r>1$: $Sₙ = (a(rⁿ-1))/(r-1)$"
+                ],
+                [
+                  "Nilai suku ke-$n$ jika jumlah $n$ suku $(Sₙ)$ diketahui",
+                  "$Uₙ=S_{n}-S_{n-1}$"
+                ],
+                [
+                  "Suku tengah barisan aritmatika (untuk jumlah suku $n$ ganjil",
+                  "$U_{t}=(a+U_{n})/2$"
+                ],
+                [
+                  "Jumlah deret geometri tak hingga (untuk $-1<r<1)$",
+                  "$S_{∞}=a/(1-r)$"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [
+      {
+        "judul": "Konsep Dasar",
+        "teks": ""
+      },
+      {
+        "judul": "Model dengan batas dan perubahan tahap",
+        "teks": ""
+      },
+      {
+        "judul": "Strategi dan Cara Cepat",
+        "teks": ""
+      }
+    ],
+    "pesan": "Pembelajaran Pola dan Barisan mengajarkan tiga kebiasaan penting: mengenali keteraturan yang didukung data, memilih rumus sesuai jenis hubungan, dan memeriksa apakah aturan tetap berlaku hingga indeks atau periode yang ditanyakan. Beda tetap menunjukkan barisan aritmetika; rasio tetap menunjukkan barisan geometri; sedangkan pola campuran menuntut pencermatan operasi dan konteks secara lebih menyeluruh. Ketika pertanyaan meminta satu nilai pada periode tertentu, fokuskan pada suku ke-n. Ketika pertanyaan meminta total selama banyak periode, gunakan konsep deret. Apabila data memiliki batas atau berubah aturan, pecah model menjadi beberapa tahap agar penjumlahan dan prediksi tetap akurat."
+  }
+}

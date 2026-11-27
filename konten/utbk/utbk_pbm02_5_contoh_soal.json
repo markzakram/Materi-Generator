@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "judul": "Contoh Soal Penempatan Kalimat pada Posisi yang Tepat",
+    "subtes": "Pemahaman Bacaan dan Menulis",
+    "nama_file": "UTBK PBM - Contoh Soal Penempatan Kalimat pada Posisi yang Tepat",
+    "sumber": "https://docs.google.com/document/d/1oIWurofOQjmeqMxzSxk5jSR4dyp_YBJw/edit",
+    "bagian": "soal",
+    "id_katalog": "pbm-02-5-soal"
+  },
+  "peta_subtes": {
+    "judul": "UTBK-SNBT 2027",
+    "subjudul": "Peta Materi UTBK-SNBT",
+    "kartu": [
+      {
+        "judul": "Penalaran Umum",
+        "deskripsi": "Penalaran verbal dan penalaran analitis",
+        "ikon": "strategi"
+      },
+      {
+        "judul": "PPU dan PBM",
+        "deskripsi": "Makna kata, wacana, dan penyusunan gagasan",
+        "ikon": "checklist"
+      },
+      {
+        "judul": "PK dan PM",
+        "deskripsi": "Bilangan, aljabar, geometri, data, dan peluang",
+        "ikon": "grafik"
+      },
+      {
+        "judul": "Literasi Bahasa Indonesia",
+        "deskripsi": "Menemukan, memahami, menilai, dan merefleksi informasi",
+        "ikon": "presenter"
+      },
+      {
+        "judul": "Literasi Bahasa Inggris",
+        "deskripsi": "Memahami, menilai, dan menyintesis teks berbahasa Inggris",
+        "ikon": "globe"
+      }
+    ],
+    "aktif": 1
+  },
+  "pendahuluan": {
+    "paragraf": [],
+    "pemantik": "",
+    "ikon": "presenter"
+  },
+  "tujuan": {
+    "pengantar": "Setelah mempelajari materi ini, peserta mampu:",
+    "butir": []
+  },
+  "materi": [
+    {
+      "subbab": "Contoh Soal",
+      "ikon": "checklist",
+      "slide": [
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 1 — Penempatan Kalimat pada Posisi yang Tepat",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "Pemerintah desa berupaya melindungi sumber air yang digunakan warga untuk kebutuhan sehari-hari. Kegiatan ini melibatkan perangkat desa, kelompok tani, dan relawan lingkungan. Sebelum membuat rencana penanaman, tim melakukan pendataan lokasi dan kondisi sekitar mata air. Hasil pendataan dibahas bersama untuk menentukan prioritas perlindungan. Dalam laporan kegiatan, setiap kalimat memiliki fungsi berbeda: menyampaikan langkah awal, menjelaskan penggunaan data, atau menggambarkan tindak lanjut. Ketika satu kalimat baru ditambahkan, posisinya harus memperkuat urutan informasi yang sudah ada, bukan memutus hubungan antarkalimat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Pemerintah desa mulai memetakan lokasi mata air. (2) Data itu dipakai untuk menentukan daerah yang perlu dilindungi. (3) Penanaman pohon dilakukan pada zona yang paling rawan erosi."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Kalimat tambahan “Pemetaan juga mencatat kondisi tutupan lahan di sekitar sumber air” paling tepat diletakkan ....**"
+            }
+          ],
+          "opsi": {
+            "A": "sebelum kalimat (1) sebagai pengantar kegiatan pemetaan",
+            "B": "setelah kalimat (3) sebagai tambahan tentang pelaksanaan penanaman",
+            "C": "antara kalimat (2) dan (3) sebagai penjelasan hasil penentuan zona",
+            "D": "antara kalimat (1) dan (2) sebagai rincian kegiatan pemetaan",
+            "E": "setelah kalimat (2) untuk menjelaskan arti kata “daerah”"
+          },
+          "kunci": "D",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep:** Penempatan kalimat merupakan kegiatan menyisipkan informasi tambahan ke posisi yang paling mendukung alur."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Petunjuk utama: Tentukan keterampilan utama sesuai indikator 1.5, lalu cocokkan alasan jawaban dengan bukti dalam stimulus."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 1.** Tentukan fungsi kalimat tambahan: perincian, contoh, alasan, transisi, atau akibat."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 2.** Temukan kata kunci atau rujukan yang harus muncul sebelum kalimat tambahan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Langkah 3.** Uji setiap kemungkinan posisi dengan membaca kalimat sebelum dan sesudahnya."
+            },
+            {
+              "jenis": "subjudul",
+              "teks": "Analisis Jawaban",
+              "tingkat": 2
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "A. Kata “juga” membutuhkan kegiatan pemetaan yang sudah disebutkan lebih dahulu."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "B. Menyisipkan rincian pemetaan setelah tahap tindakan penanaman mengganggu urutan."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "C. Terlambat memperinci tahap pemetaan karena kalimat (2) sudah mulai membahas penggunaan data."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "D. Benar. Kalimat tambahan memperinci pemetaan pada (1) sebelum data hasil pemetaan dipakai pada (2)."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "E. Isi tambahan tidak menjelaskan arti kata “daerah”, melainkan unsur data yang dicatat."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Tempat sisipan ditentukan oleh fungsi + acuan kata + hubungan sebelum–sesudah, bukan sekadar kesamaan kosakata."
+            }
+          ]
+        },
+        {
+          "tipe": "contoh_soal",
+          "judul": "Contoh Soal 2 — Menentukan Letak Kalimat Sisipan",
+          "soal": [
+            {
+              "jenis": "paragraf",
+              "teks": "(1) Sekolah memulai program kantin hemat plastik. (2) Pada pekan pertama, pengurus mendata jenis kemasan yang paling banyak dibuang. (3) Hasil pendataan menunjukkan bahwa gelas sekali pakai merupakan jenis kemasan yang paling sering ditemukan. (4) Berdasarkan temuan itu, pengelola menyediakan dispenser air minum untuk mengurangi penggunaan gelas sekali pakai. (5) Setelah satu bulan, jumlah gelas sekali pakai yang dibuang mulai berkurang."
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat sisipan: “Data tersebut kemudian digunakan untuk menentukan jenis kemasan yang harus diprioritaskan dalam program pengurangan sampah.” Setelah kalimat nomor berapakah sisipan tersebut paling tepat ditempatkan? Tuliskan SATU angka saja."
+            }
+          ],
+          "opsi": {},
+          "kunci": "",
+          "pembahasan": [
+            {
+              "jenis": "paragraf",
+              "teks": "**Jawaban: 3**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "**Konsep: Menentukan posisi sisipan yang menjaga kesinambungan informasi dan acuan kata.**"
+            },
+            {
+              "jenis": "paragraf",
+              "teks": "Kalimat (3) menyajikan data spesifik hasil pendataan, yakni dominasi gelas sekali pakai. Frasa “Data tersebut” pada sisipan merujuk langsung pada temuan itu dan menjelaskan fungsinya sebagai dasar prioritas. Kalimat (4) kemudian menunjukkan tindak lanjut berupa penyediaan dispenser. Menempatkan sisipan setelah kalimat (3) menjaga alur pendataan → temuan → penetapan prioritas → tindakan → hasil. Karena itu, jawaban numerik yang tepat adalah 3."
+            },
+            {
+              "jenis": "catatan",
+              "catatan": "tips",
+              "judul": "Cara cepat",
+              "teks": "Temukan anteseden dari kata “tersebut”, lalu letakkan sisipan sebelum tindakan yang memanfaatkan temuan tersebut."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "penutup": {
+    "judul": "Yang Perlu Diingat",
+    "ringkasan": [],
+    "pesan": ""
+  }
+}
